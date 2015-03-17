@@ -1,0 +1,52 @@
+
+horse_archers = {
+	morale = 5
+	maintenance = 4
+	phase_skirmish_attack = 4
+	phase_melee_attack = 3
+	phase_pursue_attack = 7
+	phase_skirmish_defense = 4
+	phase_melee_defense = 4
+	phase_pursue_defense = 7
+	base_type = light_cavalry
+}
+
+iron_knuckle = {
+	morale = 15
+	maintenance = 20
+	phase_melee_attack = 25
+	phase_pursue_attack = 4
+	phase_skirmish_defense = 12
+	phase_melee_defense = 25
+	phase_pursue_defense = 2
+	base_type = heavy_infantry
+}
+triguard = {
+	morale = 15
+	maintenance = 20
+	phase_melee_attack = 15
+	phase_pursue_attack = 4
+	phase_skirmish_defense = 12
+	phase_melee_defense = 15
+	phase_pursue_defense = 2
+	base_type = heavy_infantry
+}
+loftwing_knight = {
+	morale = 5
+	maintenance = 4
+	phase_melee_attack = 6
+	phase_skrimish_defense = 2
+	phase_pursue_attack = 3
+	phase_melee_defense = 4
+	phase_pursue_defense = 3
+	base_type = light_cavalry
+}
+ordon_goat = {
+	morale = 3
+	maintenance = 1
+	phase_melee_attack = 12
+	phase_pursue_attack = 6
+	phase_melee_defense = 3
+	phase_pursue_defense = 3
+	base_type = light_cavalry
+}

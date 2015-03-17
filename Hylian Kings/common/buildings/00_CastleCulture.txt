@@ -1,0 +1,677 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ #<tag> = {
+ #	desc = description used in the tooltip of the building
+ #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
+ #	gold_cost = cost to build the building
+ #	build_time = time to build, in days
+ #	
+ #	ai_creation_factor = weight that the AI uses to determine what building to build
+ #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #}
+ 
+ # Castle
+castle = {
+	#Hylian Tourney Grounds
+
+	#Hylian Ranch
+	ca_culture_hylian_ranch_1 = {
+		desc = ca_culture_hylian_ranch_1_desc
+		potential = {
+				culture = hylian
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		tax_income = 1
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_hylian_ranch_2 = {
+		desc = ca_culture_hylian_ranch_2_desc
+		potential = {
+				culture = hylian
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		upgrades_from = ca_culture_hylian_ranch_1
+		gold_cost = 300
+		build_time = 1095
+		tax_income = 1
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_hylian_ranch_3 = {
+		desc = ca_culture_hylian_ranch_3_desc
+		potential = {
+				culture = hylian
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_culture_hylian_ranch_2
+		gold_cost = 400
+		build_time = 2190
+		knight_morale = 0.15
+		knight = 10
+		tax_income = 2
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_hylian_ranch_4 = {
+		desc = ca_culture_hylian_ranch_3_desc
+		potential = {
+			culture = hylian
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_culture_hylian_ranch_3
+		gold_cost = 500
+		build_time = 2190
+		knight_morale = 0.15
+		knight = 30
+		tax_income = 2
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+	# Sheikah Training grounds
+	ca_sheikah_training_grounds_1 = {
+		desc = ca_sheikah_training_grounds_desc
+		potential = {
+			culture = sheikah
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		replace = ca_sheikah_training_grounds_1
+		gold_cost = 200
+		build_time = 730
+		land_morale = 0.1
+		knight_morale = 0.15
+		light_cavalry_morale = 0.15
+		light_infantry_morale = 0.15
+		heavy_infantry_morale = 0.15
+		archer_morale = 0.15
+		levy_reinforce_rate = 0.1
+		retinuesize = 20
+		ai_creation_factor = 89
+
+		extra_tech_building_start = 1.2
+	}
+	ca_sheikah_training_grounds_2 = {
+		desc = ca_sheikah_training_grounds_desc
+		potential = {
+			culture = sheikah
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_sheikah_training_grounds_1
+		replace = ca_training_grounds_2
+		gold_cost = 250
+		build_time = 1095
+		land_morale = 0.15
+		knight_morale = 0.15
+		light_cavalry_morale = 0.15
+		light_infantry_morale = 0.15
+		heavy_infantry_morale = 0.15
+		archer_morale = 0.15
+		levy_reinforce_rate = 0.15
+		retinuesize = 20
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 0.5
+	}
+	ca_sheikah_training_grounds_3 = {
+		desc = ca_sheikah_training_grounds_desc
+		potential = {
+			culture = sheikah
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_sheikah_training_grounds_2
+		replace = ca_training_grounds_3
+		gold_cost = 300
+		build_time = 2190
+		land_morale = 0.2
+		knight_morale = 0.2
+		light_cavalry_morale = 0.2
+		light_infantry_morale = 0.2
+		heavy_infantry_morale = 0.2
+		archer_morale = 0.2
+		levy_reinforce_rate = 0.2
+		retinuesize = 20
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 0.2
+	} 
+	# Sheikah Trials
+	ca_sheikah_trials_1 = {
+		desc = ca_sheikah_trials_desc
+		potential = {
+			culture = sheikah
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		replace = ca_stable_1
+		gold_cost = 200
+		build_time = 730
+		light_infantry = 50
+		pikemen = 30
+		ai_creation_factor = 89
+
+		extra_tech_building_start = 1.2
+	}
+	ca_sheikah_trials_2 = {
+		desc = ca_sheikah_trials_desc
+		potential = {
+			culture = sheikah
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_sheikah_training_grounds_1
+		replace = ca_stable_2
+		gold_cost = 250
+		build_time = 1095
+		land_morale = 0.15
+		light_infantry = 50
+		pikemen = 30
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 0.5
+	}
+	ca_sheikah_trials_3 = {
+		desc = ca_sheikah_trials_desc
+		potential = {
+			culture = sheikah
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_sheikah_trials_2
+		replace = ca_stable_3
+		gold_cost = 300
+		build_time = 2190
+		land_morale = 0.2
+		light_infantry = 50
+		pikemen = 30
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 0.2
+	} 	
+	#Gerudo Fortress Blockhouse
+	ca_culture_gerudo_house_1 = {
+		desc = ca_culture_gerudo_house_1_desc
+		potential = {
+			culture = gerudo
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		replace = ca_town_1
+		gold_cost = 200
+		build_time = 730
+		archers_offensive = 0.15
+		pikemen_offensive = 0.15
+		archers = 20
+		pikemen = 40
+		tax_income = 1
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_gerudo_house_2 = {
+		desc = ca_culture_gerudo_house_1_desc
+		potential = {
+				culture = gerudo
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		upgrades_from = ca_culture_gerudo_house_1
+		replace = ca_town_2
+		gold_cost = 300
+		build_time = 1095
+		archers_offensive = 0.15
+		pikemen_offensive = 0.15
+		archers = 40
+		pikemen = 50
+		tax_income = 1
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_gerudo_house_3 = {
+		desc = ca_culture_gerudo_house_1_desc
+		potential = {
+				culture = gerudo
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_culture_gerudo_house_2
+		replace = ca_town_3
+		gold_cost = 400
+		build_time = 2190
+		archers_offensive = 0.15
+		pikemen_offensive = 0.15
+		archers = 40
+		pikemen = 60
+		tax_income = 1
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_gerudo_house_4 = {
+		desc = ca_culture_gerudo_house_1_desc
+		potential = {
+			culture = gerudo
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_culture_gerudo_house_3
+		replace = ca_town_4
+		gold_cost = 500
+		build_time = 2190
+		archers_offensive = 0.15
+		pikemen_offensive = 0.15
+		archers = 50
+		pikemen = 70
+		tax_income = 1
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_gerudo_horse_archery_1 = {
+		desc = ca_gerudo_horse_archery_desc
+		potential = {
+			culture = gerudo
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		archer = 10
+		horse_archers = 20
+		ai_creation_factor = 89
+		
+		extra_tech_building_start = 0.4
+	}
+	ca_gerudo_horse_archery_2 = {
+		desc = ca_gerudo_horse_archery_desc
+		potential = {
+			culture = gerudo
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_gerudo_horse_archery_1
+		gold_cost = 120
+		build_time = 547
+		archer = 10
+		horse_archers = 30
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 0.8
+	}
+	ca_gerudo_horse_archery_3 = {
+		desc = ca_gerudo_horse_archery_desc
+		potential = {
+			culture = gerudo
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_gerudo_horse_archery_2
+		gold_cost = 200
+		build_time = 730
+		archer = 20
+		horse_archers = 40
+		ai_creation_factor = 87
+
+		extra_tech_building_start = 0.2
+	}
+	ca_gerudo_horse_archery_4 = {
+		desc = ca_gerudo_horse_archery_desc
+		potential = {
+			culture = gerudo
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_gerudo_horse_archery_3
+		gold_cost = 300
+		build_time = 1095
+		archer = 20
+		horse_archers = 40
+		knights = 5
+		ai_creation_factor = 86
+
+		extra_tech_building_start = 0.2
+	}
+	# Ordon Ranch
+	ca_culture_goat_ordon_ranch_1 = {
+		desc = ca_culture_goat_ordon_ranch_desc
+		potential = {
+				culture = ordon
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		replace = ca_stable_1
+		gold_cost = 200
+		build_time = 730
+		ordon_goat = 10
+		light_cavalry = 15
+		tax_income = 1
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_goat_ordon_ranch_2 = {
+		desc = ca_culture_goat_ordon_ranch_desc
+		potential = {
+				culture = ordon
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_culture_goat_ordon_ranch_1
+		replace = ca_stable_2
+		gold_cost = 200
+		build_time = 730
+		ordon_goat = 15
+		light_cavalry = 20
+		tax_income = 2.5
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_goat_ordon_ranch_3 = {
+		desc = ca_culture_goat_ordon_ranch_desc
+		potential = {
+				culture = ordon
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_culture_goat_ordon_ranch_2
+		replace = ca_stable_3
+		gold_cost = 200
+		build_time = 730
+		ordon_goat = 20
+		light_cavalry = 25
+		tax_income = 2.5
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_goat_ordon_ranch_4 = {
+		desc = ca_culture_goat_ordon_ranch_desc
+		potential = {
+				culture = ordon
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_culture_ordon_ranch_3
+		replace = ca_stable_4		gold_cost = 200
+		build_time = 730
+		ordon_goat = 25
+		light_cavalry = 30
+		tax_income = 1.5
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	# Ordon Farm 
+	ca_culture_ordon_farm_1 = {
+		desc = ca_culture_ordon_farm_desc
+		potential = {
+				culture = ordon
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		tax_income = 2
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_ordon_farm_2 = {
+		desc = ca_culture_ordon_farm_desc
+		potential = {
+				culture = ordon
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_culture_ordon_farm_1
+		gold_cost = 200
+		build_time = 730
+		tax_income = 2
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_ordon_farm_3 = {
+		desc = ca_culture_ordon_farm_desc
+		potential = {
+				culture = ordon
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_culture_ordon_farm_2
+		gold_cost = 200
+		build_time = 730
+		tax_income = 2
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_ordon_farm_4 = {
+		desc = ca_culture_ordon_farm_desc
+		potential = {
+				culture = ordon
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_culture_ordon_farm_3
+		replace = ca_stable_4
+		gold_cost = 200
+		build_time = 730
+		tax_income = 2
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	#Labrynna Museum 
+	ca_culture_labrynna_museum_1 = {
+		desc = ca_culture_labrynna_museum_1_desc
+		potential = {
+				culture = labrynna
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		tech_growth_modifier = 0.1
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_labrynna_museum_2 = {
+		desc = ca_culture_labrynna_museum_2_desc
+		potential = {
+				culture = labrynna 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_culture_labrynna_museum_1
+		gold_cost = 300
+		build_time = 1095
+		tech_growth_modifier = 0.2
+
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_labrynna_museum_3 = {
+		desc = ca_culture_labrynna_museum_3_desc
+		potential = {
+				culture = labrynna 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_culture_labrynna_museum_2
+		gold_cost = 400
+		build_time = 2190
+		tech_growth_modifier = 0.3
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	#Labrynna Palace
+	ca_culture_labrynna_palace_1 = {
+		desc = ca_culture_labrynna_palace_1_desc
+		potential = {
+				culture = labrynna
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		monthly_character_prestige = 0.10
+
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_labrynna_palace_2 = {
+		desc = ca_culture_labrynna_palace_2_desc
+		potential = {
+				culture = labrynna 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_culture_labrynna_palace_1
+		gold_cost = 300
+		build_time = 1095
+		monthly_character_prestige = 0.15
+
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_labrynna_palace_3 = {
+		desc = ca_culture_labrynna_palace_3_desc
+		potential = {
+				culture = labrynna 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_culture_labrynna_museum_2
+		gold_cost = 400
+		build_time = 2190
+		monthly_character_prestige = 0.20
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	#Horon Rangegrounds
+	ca_horon_ranger_1 = {
+		desc = ca_horon_ranger_desc
+		potential = {
+				culture = horon 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replace = ca_militia_baracks_1
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 80
+		archers = 10
+		archers_morale = 0.2
+		light_infantry_morale = 0.2
+
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_horon_ranger_2 = {
+		desc = ca_horon_ranger_desc
+		potential = {
+				culture = horon 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_1 }
+		replace = ca_militia_baracks_2
+		upgrades_from = ca_horon_ranger_1
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 50
+		archers = 50
+		archers_morale = 0.2
+		light_infantry_morale = 0.2
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.0
+	}
+	ca_horon_ranger_3 = {
+		desc = ca_horon_ranger_desc
+		potential = {
+				culture = horon 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_horon_ranger_2
+		replace = ca_militia_baracks_3
+		gold_cost = 200
+		build_time = 1095
+		light_infantry = 20
+		archers = 90
+		archers_morale = 0.2
+		light_infantry_morale = 0.2
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	ca_horon_ranger_4 = {
+		desc = ca_horon_ranger_desc
+		potential = {
+				culture = horon 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_horon_ranger_3
+		replace = ca_militia_baracks_4
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 30
+		archers = 120
+		archers_morale = 0.2
+		light_infantry_morale = 0.2
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	#Horon Clock Tower
+	ca_horon_clock_1 = {
+		desc = ca_horon_clock_desc
+		potential = {
+				culture = horon 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		gold_cost = 100
+		build_time = 365
+		monthly_character_prestige = 0.10
+
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_horon_clock_2 = {
+		desc = ca_horon_clock_desc
+		potential = {
+				culture = horon 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrade_from = ca_horon_clock_1
+		gold_cost = 100
+		build_time = 365
+		monthly_character_prestige = 0.10
+
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_horon_clock_3 = {
+		desc = ca_horon_clock_3_desc
+		potential = {
+				culture = horon 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrade_from = ca_horon_clock_1
+		gold_cost = 100
+		build_time = 365
+		monthly_character_prestige = 0.10
+		fort_level = 0.5
+
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+}

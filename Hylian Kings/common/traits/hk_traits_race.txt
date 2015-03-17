@@ -1,0 +1,158 @@
+race_hylian = {
+	diplomacy = +1
+	learning = +2
+	same_opinion = 5
+	opposite_opinion = -10
+
+	ai_honor = +10
+}
+race_sheikah = {
+	opposites = {
+		hylian_blood
+	}
+	intrigue = +4
+	martial = +3
+	same_opinion = 5
+	opposite_opinion = +50
+
+	ai_honor = +20
+	ai_zeal = +20
+
+}
+race_gerudo = {
+	opposites = {
+		race_hylian
+	}
+	intrigue = +1
+	martial = +2
+	same_opinion = 5
+	opposite_opinion = -10
+
+	ai_honor = -5
+	ai_ambition = +10
+
+}
+race_zora = {
+	martial = +1
+	learning = +2
+	same_opinion = 5
+
+	ai_honor = +5		
+}
+race_zola = {
+	opposites = {
+		race_hylian
+		race_gerudo 
+		race_zora
+		race_goron
+		race_kokiri
+	}
+	martial = +4
+	learning = -2
+	opposite_opinion = -10
+
+	ai_ambition = +10
+	ai_rationality = +10
+	ai_honor = -10		
+}
+race_goron = {
+	health = +3
+	martial = +3
+	stewardship = +3
+	same_opinion = 5
+
+	ai_rationality = +10
+
+	immortal = yes
+	
+}
+race_kokiri = {
+	health = +1
+	martial = -2
+	learning = +2
+	same_opinion = 5
+
+	immortal = yes
+
+	ai_ambition = -10
+	
+}
+race_stulkid = {
+	health = +1
+	martial = -2
+	same_opinion = 5
+	fertility = -1000
+
+	ai_zeal = +10
+	ai_honor = -10
+	ai_ambition = +10
+
+	immortal = yes
+	
+}
+race_lizalfos = {
+	martial = +3
+	same_opinion = 5
+
+	ai_ambition = +10	
+}
+race_tokay = {
+	intrigue = +3
+	same_opinion = 5
+
+	ai_greed = +10
+
+}
+race_darknut = {
+	health = +1
+	martial = +3
+	same_opinion = 5
+
+	ai_honor = +20
+	ai_rationality = +10	
+}
+race_stalfos = {
+	health = +5
+	martial = +5
+	learning = +5
+	same_opinion = 5
+	fertility = -1000
+
+	ai_honor = -20
+	ai_rationality = +30
+
+	imortal = yes	
+}
+race_twili = {
+	stewardship = +1
+	learning = +2
+
+	ai_rationality = +10
+	ai_ambition = +5
+
+}
+race_deku = {
+	martial = +2
+	learning = -2
+	same_opinion = 5
+
+	ai_ambition = +10
+	ai_rationality = -10
+}
+
+incompatible_marriage = {
+	fertility = -1000
+
+	customizer = no 
+}
+
+compatible_marriage = {
+	fertility = -0.25
+
+	customizer = no 
+}
+abomination = {
+	health = -200
+
+	customizer = no 
+}

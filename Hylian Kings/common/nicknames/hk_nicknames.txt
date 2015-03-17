@@ -1,0 +1,97 @@
+#giant goron in kingdom
+nick_biggoron = {}
+#tall goron in kingdom
+nick_midgoron = {}
+iron_knuckle_nick = {}
+sir_nick = {}
+nick_the_like_like = {
+	allow = {
+		age = 20
+		trait = brave
+		trait = glutinous
+		trait = scarred
+	}
+	chance = {
+		factor = 1
+	}
+}
+nick_the_cucoo = {
+	allow = {
+		age = 20
+		trait = coward
+		trait = wroth
+	}
+	chance = {
+		factor = 1
+	}
+}
+nick_the_armos = {
+	allow = {
+		age = 20
+		trait = brave
+		trait = plate_tunic
+		NOT = {
+			culture = gerudo
+		)
+	}
+	chance = {
+		factor = 1
+	}
+}
+nick_the_moblin = {
+	allow = {
+		age = 20
+		trait = ugly
+		OR = {
+			trait = wroth
+			trait = glutinous
+		}
+		NOT = {
+			trait = {
+				race_moblin
+			}
+		}
+	}
+	chance = {
+		factor = 1
+	}
+}
+nick_the_anti_fairy = {
+	allow = {
+		trait = fairy_bottled
+		NOT = {
+			religion = great_fairies
+		}
+	}
+	chance = {
+		factor = 1
+	}
+}
+nick_the_chuchu = {
+	allow = {
+		trait = glutinous
+	}
+	chance = {
+		factor = 1
+	}
+}
+mad_scrub_nick = {
+	allow = {
+		trait = race_deku
+		trait = wroth
+	}
+	chance = {
+		factor = 1
+	}
+}
+nick_fairy_boy =
+	allow = {
+		trait = fairy_companion
+		NOT = {
+			trait = race_kokiri
+		}
+		chance = {
+			factor = 1
+		}
+	}
+}

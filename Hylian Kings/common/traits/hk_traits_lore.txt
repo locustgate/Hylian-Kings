@@ -1,0 +1,90 @@
+triforce_strength = {
+	martial = +10
+	intrigue = +10
+	health = +1	
+	customizer = no
+}
+
+triforce_courage = {
+	martial = +10
+	health = +1	
+
+	customizer = no
+}
+
+triforce_wisdom = {
+	diplomacy = +5
+	learning = +5
+	stewardship = +5
+	
+	customizer = no
+}
+
+triforce_united = {
+	diplomacy = +15
+	learning = +5
+	health = +2
+	Martial = +20
+	stewardship = +5
+	intrigue = +10
+	
+	customizer = no
+}
+
+master_sword = {
+	martial = +10
+	
+	customizer = no
+}
+
+zelda = {
+	diplomacy = +10
+	learning = +10
+	intrigue = +5
+	
+	customizer = no
+}
+
+link = {
+	martial = +10
+	diplomacy	= -5
+
+	customizer = no
+}
+
+ganandorf = {
+	martial = +10
+	intrigue = +10
+	diplomacy = +10
+	
+	customizer = no
+}
+
+gerudo_male_child = {	
+	gerudo_religion_opinion = 10
+
+}
+
+hylian_blood = {
+	opposites = {
+		race_sheikah
+		}
+	health = +1
+	learning = +2
+}
+
+mask_diety = {
+	health = +2
+	martial = +5
+
+	ai_rational = -10
+	ai_honor = +10
+}
+mask_majora = {
+	health = +2
+	intrigue = +5
+
+	ai_honor = -10
+	ai_ambition = +10
+}
+

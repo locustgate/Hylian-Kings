@@ -1,0 +1,628 @@
+hylian_group = {
+	#Split cobble,hylian,wind
+	skylofter = {
+		graphical_culture = norsegfx
+
+		color = { 0.3 0.55 0.8 }
+
+		male_names = {
+			Madas Beedle Bertie Cawlin Croo Dovos Fledge Dodoh Eagus Groose Gaepora Gondo Goselle Horwell Jakamar Keet Owlan Parrow Peater Pum Peatric Rupin Rusta Sparrot Stritch Timamo Rha Ostich Turk Malo Caper Spur Trag Shellduck Gadwell Wigein Malerd Scoter Scop Skoter Smew Auc Fullmer Greb Jaberu Ribis Herin Bitern Cormerant Shrag Anhenga Karacara Felcon Merlen Egle Sparow Hawk Busterd Kage Krake Kroot Frinfoot Kempken Curloow Sheethbill Pluver Strilt Ebisbill Avoset Wribill Grodwit Drowitcher Whymbrel Tatler Dunllin Ruf Not Grull Turn Rauk Rauclet Prigeon Crockatoo Mucaw Hroatzi Turraco Cukroo Kool Swift Trogun Quetzel Kooka Trody Motmoot Hopoe Tinker Flicker Manacin Schifronis Wren Shrike Gallito Tapaculo Canastero Hornero Rayadito Viro Gelepaio Lerk Rok
+		}
+		female_names = {
+			Zelda Greba Henya Karane Kina Kukiel Luv Mallara Orielle Peatrice Piper Wyrna Tinamo Rhe Kewe Eme Cassower Kiki Chacha Laca Gean Qail Kaperkailly Kaily Partrydg Pea Neen Teel Pokard Pitril Preon Flamengo Ibes Igret Peli Garnnet Kisrtrel Ospry Kitee Bisra Koraan Meset Serema Rael Sora Takah Sungrebe Brolga Jakana Pratincol Nody Skoa Pufin DoveAuc Auclet Kakapoo Kia Korella Gralah Loriceet Yory Rosela Parotlit Poto Pauragoo Swiftlit Topazz Coqotte Inka Huming Puffeg Burra Arakari Barbaet Picult Jakamar Nunlit Asity Pitta Pritta Continga Elania Phoebe Monjita Kiska Pitta Pita Cachalote Cinclodes Xenops Lyr Tui Pardalote Kakako Batis Tchaga Vana Iora Sittela Jey Mag Pia Astrapea Cistycola Petronea Quelia Pitilia Linet Liwy Oropendola Zubora Gabora
+		}
+	}	
+	hyrulian = {
+		graphical_culture = norsegfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		male_names = {
+			Link Raven Ankle Anton Baris Beedle Bindle Borlov Brocco Carlov Bremor Brent Doyle Mack Dampe David Eenie Meenie Erik Gepper Gorman Harrison Herb Hurdy-Gurdy Jim Joel Daltus Gustaf Klaus Knuckle Lolly Marshall Hagen Potho Percy Rem Satchel Simon Stamp Stockwell Sturgeon Talon Tingle Wheaton Romio Zill Growler Rolf Rauru Ichiro Jiro Sabooro Shiro Grog Guru-Guru Darling Ingo Mutoh Sakon Shikashi Bonooru Pierre Richard Brac Bermor Barten Tortus Kafei Kamaro Kaepora Gaebora Auru Shad Jovani Fyer Falibi Borville Chudley Charlo Soal Purlo Daphnes Nohansen Abe Anton Baito Cannon Charlov Bandam Garrickson Kreeb Lenzo Loot Manny Mesa Orca Sturgeon Salvatore Sam Zunari Gummy Kamo Kane Ivan Jan Jin Jun Roberto Jun-Roberto Gonzo Mako Niko Nudge Senza Zuko Fuzo Freedle McNey Nyave Romanos Byrne Alfonzo Ferrus Linebeck Niko Gulley Osfala  Rosso Sahasrahla 
+		}
+		female_names = {
+			Zelda Anju Berry Breve Candy Chai Dottie Emma Jasmine June Keeley Lila Maggie Malon Mama Marcy Paige Pina Sheila Syrup Tina Dina Verona Pita Julietta Elsie Fifi Honey Epona Amy Beth Joelle Meg Cremia Armoa Mamamu Pamela Judo Marilla Gampy Ashei Telma Agitha Kili Hanna Misha Fanadi Iris Sue-Belle Sue Belle Sweetie Tetra Aryll Linda Malggie Mila Minenco Missy Pompie Vera Potava Joanna Gillian Kashiko Jolene Joanne Irene Seres  
+		}
+		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	#Danish,Welsh,
+	cobble = {
+		graphical_culture = norsegfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		male_names = {
+			Linc Brant Bremeur Doylan Kayo Zauz Mutoh Eox Ichero Jero Saboro Shero Brak Mac Ancle Nuckle Antony Bares Bery Bendle Borluv Karlov Krenel Dampei Daved Enie Meene Eric Geper Gormann Harrisin Hurb Jem Jol Claus Loly Marshel Hagin Poth Gustof Daltes Persy Rim Satchn Siman Stamper Stockwill Sturgin Talen Tingl Vasal Sacon Shicashi Vscern Cafei Kamaron Dotor Bartein Tortis Zuboran Gaboran Chudly Malvor Charlon Falbin Fier Jovane Purlon Soel Aurun Gulli Sahasrahlan Russo Osfalan Gonzon Makon Nikon Senzar Zukor Freedl Fuzon Hoigir McNy Lineback Nyav Salvator Alef Naro Durin Orka Ab Mesan Antwuan Candi Bandem Garrikson Gosack Gumi Niave Nieve
+		}
+		female_names = {
+			Zelda Astrid Angu Melon Brevie Candi Chay Dotty Ema Jasyn Junen Keely Lilian Marcie Paigin Pena Sheyla Tena Dena Veronan Pitia Juliettai Grany Huney Mamu Yan Cremea Aromia Pamila Judo Marill Romane Agitha Fanade Kelly Hana Mesha Tetra Vera Potova Joann Seres Iren Iris Sweetie Joane Jolen Cia Epona Lana Viaka Savia Sibel Siberia Recka Kifan Halne Farun Arill Mary Shera Nayru Rhapen Sokran Ketha Hedel Ari Cytla Kina Tyraia Aicara Zidaga Nariug Freuwa Draca Rose Su-Bell Gilian Linda Maggy Myla Minenco Missie Pompy Vera Mercy Molida Rai Joynes
+		}
+		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	wind_tribe = {
+		graphical_culture = norsegfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		male_names = {
+			Mazaal Gregal Stranger Zeffer Blizer Caprice Strato Thermo Meseria Troper Cirro Cirus Cumulon Strato Akash Bulut Calestist Enli Glaw Ghayth Goker Goksu Govad Hodei Ilmarinen Indra Kalani Kamalani Leilani Mazin Nalani Neil Neptune Ortzi Rayn Rangi Sami Sora Thanh Van Vayu Wayra Yagmur Zephyr Zeph Zeru Zeus
+		}
+		female_names = {
+			Mazaal Siroc Gale Hailey Zeffa Flurris Exia Spheria Atria Aurora Cumu Alya Amaterasu  Araceli Asuman Azure Azzurra Cila Eran Esen Eteri Euria Haizea Hokulani Ilma Ilmatar Inanna Kalani Kamalani Lany Leilani Mega Chell Meltem Miku Nalani Nephele Noelani Pilvi Pualani Rayn Sky Sora Thanh Tsiana Tsisia Tsiuri Tuuli Uilani Van Yagmur 
+		}
+		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+}
+sheikah_group = {
+	sheikah = {
+		graphical_culture = southerngfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+			Sheik Agahnim Dethl Bongo Ampa Bei Shago Kezei Impak Ifam Impak Ifam Ingo Ingegok Kagei Impiz Dafozongik Ihnak Ilak Ifok Deziz Ifego Izeika Igo Impo Ifak Ifago Deingo Koza Impom Ifeiz Kango Kongo Igaz Impem Igigo Afak ABafei Ihnam Ifafom Kohno Dathl Ilam Kangik Kigo Dampik Bego Ampei Ifem Kahno Kafazei Igiz Izango Impoz Ifafaz Shaza Dagom Bengo Bazei Deik Ifez Ifo Impei Izogo Bigego Izago Ithl Dongo Kegok Shofo Ilalo Impik Angango Ilelo Dingo Kimpo Ilo Kazalo Dengo Dazafei Shaz Izik Kathl Impez Impe Athl Deiz Ileik Ifeik Igalo Ifalo Agom Kelam Izeiz Afago Shizak Ifafo Ingik Dalam Kempiz Igak Ilongo Kelei Ifom Ifango Impok Kofo Ilek Ahnei Ampo Bofei Dolek Impingo Ifek Kalo Azago Kompo Ifogo Ahnazei Shizo Kigam Shizo Kelem Shek Ihnek Shofak Ageiz Izafego Difek Izok Deifo Impim Izei Impiz Kehno Dampo Kegam Balem Ileiz Dok Kizei Kego Agingo Izongo Kego Ihno Kego Balak Kalok Bampo
+		}
+		female_names = {
+			Impa Ilia Iza Impaz Eli Izoza Ifefoza Ifia Shoza Bala Kilega Ampia Dafia Izola Ifafa Impiza Ingia Ifola Azala Shahna Shila Ilegelia Igia Deza Befia Ifila Ifeiza Ilaza Ingei Ahnaza Ifeigia Agiza Ala Shala Izafaga Danga  Dalampia Kagalem Ifaga Impek Ifaz Agila Dafei Ifik Ifeifik Shimpam Ifagia Kahnaza Dega Angik Ifei Ileza Ifithl Keiga Angaza Ifofei Ifampa Kofi Ilei Ilada Izofia Igala Kenga Dazoz Shifa Shigo Iga Ifigei Shofia Ango Kazam Kezik Igafala Daga Impam Bola Ifala Dagia Ifega Dozampa ShomIgik Kethl Dala Dia Dempala Afei Bagifia Kempei Ila Iza Dalia Afago Kehna Baza Azeiz Kagia Ilanga Azaza Ahnim Ifa Diza Boza Impala Bia Izaga Kogo Ifigo Kozaga Ilala Keila Kalei Kega Ifiz Kafia Dimpa Dongei Afom Ifigek Keza Keifa Bolala Ilaga Deiza Baleiz Bifaga Bazega Kifia Impafa Ilega Kam Ifalak Keiza Afia Shiz Shifo Impogia Ingagia Ingak Bifa Ifela Alaga Alak Ahnaz Ifim Ampaz Biga Kazem Igem Dagaza Shego
+		}		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 30
+		mother_name_chance = 30
+
+		modifier = default_culture_modifier
+	}
+}
+gerudo_group = {
+	gerudo = {
+		graphical_culture = muslimgfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+			Ganondorf Kokorf Nemol Geimu  Ketol Gavoka Amuku Rerol Amuku Rerol Noke Akonu Karol Noke Roku Tumol Nate Atuku Rondune Ruke Avanda Retorf Kake Toval Gamol Tonule Kooke Kumal Teveku Nokune Atorf Kolmonda Abonda Rovuku Aterf Tonal Ruke Romanul Tota Nouku Nokol Kaku Tolme Toku Temanol Roobol Remol Revebe Gateirf Ranamabol Rutorf Tobal Katurol Gatol Kotu Gomol Kuvamol Goute Natonamol Kakol Aneikabobe Tekune Kama Tevol Nobol Kumol Araketu Anomol Rovorf Nokul Amol Takol Nomol Roke Kourf	Kekon Akakuku Avane Kenarf Relme Anane Koune Kavore	Kanuve Nekobe Rake Kanane Revel Akune Rotune Tone Tavorf Rotoune Rane Kevol Tore Gemol Ake Tol Tavone
+		}
+		female_names = {
+			Koume Telma Kotake Aveil Nabooru Runeka Rova Kooka Kota Tokeva Kuka Kovovaka Arok Natotu Kutuku Abovoka Aneka Koka Abena Toneka Netu Reiba Gavoka Akonu Karol Nava Akoba Kanu Tona Renda Avonova Abotu Kona Koma Roruka Gourounaba Reneva Tamabetorf Reka Kabova Kekoul Goukava Aroku Kevuba Tatuva Kuva Runuku Kolomova Rekama Kaka Karanoke Avoka Kovavol Reku Kovavol Nobuku Temol Anava	Kena Galmoneba Nanoova	Teira Nobaka Tanda Geiva Kovake Randeine Ananenaku Nobenanuku Konoke Romokomeva Kabol Romavol Teika Ramone Toke Anamokol Neimol Dande Goura Amunde Koone Kenune Tane Tobobe Gonu Nane Gurol Gouvebotu Raka Nootu Kobol Teirf Avoke Rava Nareka Toba Gava Keive Navoka Tatonda Aketomaka Tuma Avoke Reil Reiva Ruva Rakeva Kuku Amene Kavatu Atonaba Gane Rooma Rovotu Ratoke Arobuku Abanda Reke Atona Gakate Tora Naroka Neke Gorol ROuku Ranora Tobema Ratome Gookol Gobune Tenavul Tovonu Retu Kol Keba Koova Nune Tune Tara Kobal Roka Tenda Abata Amana Ravune Rorome Gouke Kukatu Govu
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 05
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 05
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+}
+human = {
+	ordonion = {
+		graphical_culture = celticgfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+			Colin Fado Hanch Jaggle Malo Rusl Talo Cido Silo Padilo Argi Celo Ilo Cirgo Cidan Padin Bal Fule Uleth Hodei Milo Rashe Cede Jergi Jali Rergi Pado Caro Ulado Puran Ulen Palo Cide Fel Folo Carun Ularo Murgi Mench Padan Cilan Cale Ulo Teri Haran Cedalo Cith Alan Culelo Sargi Urath Ulath Paro Poshe Aleth Milen Pashe Balel Cilo Cashel Ulench Ulun Ulon Bedo Uralo Radul Balo Rulo Bulo Cudin Calo Rale Urgi Irgo Uliro Gurgi Ulie Casho Tole Padon Borei Balin Muloth Padali Jeral Padal Sath Tero Rodei Fodo Irgan Mel Hulo Irgadel Padalo Uloth Uledo Cedo Tule
+		}
+		female_names = {
+			Ashei Beth Ilia Pergie Sera Uli Celei Cara Alela Ulera Padei Fodei Megglie Purei Udi Selin Padi Fargi Miri Irgia Tadei Ulei Cidul Hilia Curgi Irgei Herga Irgal Ilie Urala Irgen Peshe Uri Irgi Melen Cada Hargi Caron Tashe Tada Irari Cidargi Carul Cishe Sedadei Rashi Selei Sara Malon Pargi Redei Carei Caral Sari Carel Radei Jodei Teri Jara Meli Jalia Madei Cadia Helei Alia Bera Mura Ishie Midi Caran Ulali Margi Bargi Jargi Tali Halia Sura Mada Irara Alara Caren Balei Targi Tergi Uluri Fari Cerei Cargi Ulergi Malia Caril Caria Cadei Rara Ulia Carela Calie Perei Mili
+		}		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	#greek,german,french,english
+	labrynna = {
+		graphical_culture = celticgfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+			Ralph Bipin Pippin Adlar Cheval Dekadin Plen Rafton Adrien Aldous Alain Albrecht Basile Baldwin Barnabas Chrysanthos Carsten Cairo Cesaire Damien Dale Dirk Dimitris Elias Ernst Edwin Erwan Felix Fitz Frank Fotis Gaston Gefrey Gilbert Gavriil Haris Harald Hal Hector Isidore Irvine Ignatz Ilias Jan Jae Joel Kevin Keefe Kord Konstantinos Laurent Lance Linus Leonidas Morgan Melville Meinard Marios Neofytos Nikolaus Napier Norbet Oanez Ozzy Olaf Petros Paul Phiip Per Quentin Quirin Rainer Richard Raffael Serafeim Seppel Scottie Sylvestre Theo Tennyson Theophil Thomas Udo Upton Urbain Vespasien Vince Volker Vlasis Waldemar Wilburn Winoc Xavier Yiogos Zinon Yvo Yorick Zach Yann Zacharie
+		}
+		female_names = {
+			Ambi Veran Blossom Adele Aimee Alea Avra Babette Babs Beatrix Chara Cecilia Caelie Celeste Debora Dawn Dorthe Despina Evdokia Elli Eglantine Emma Fifi Fleur Felizitas Fotini Genevieve Genie Gratia Gianna Haris Heida Hellen Hannah Iris Isabella Ina Iro Jasmin Jaclyn Jade Katell Kayly Krista Katerina Lara Leah Lydia Louiza Mirabelle Miley Maja Martha Nomiki Nora Naomi Noelle Oceane Orpha Olga Olympia Panagiota Patricia Pheobe Petronille Quintella Renee Rachyl Ria Sara Silvia Scout Sarah Toinette Tabatha Thekla Tatiana Ursula Unice Violette Valarie Vilma Varvara Wilhelmine Wendi Wanda Xavia Xene Tanna Zoe Zenzi Yvette Zara Yseult Zephyrine Zenaide Yvette Odette Odile Olype
+	 	}
+		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	#3English,Norse
+	horon = {
+		graphical_culture = celticgfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+			Guru-Guru Guru Sokra Stockwell Elwood Grover Garrick Hollis Kiefer Linden Linford Linton Lyndon Nash Oliver Frey Gandalf Jarl Loke Odvar Sindri Tyr Vidar Yngvi Ace Adair Adrian Alf Baldwin Baldric Bailey Baldr Carl Cavan Carson Dax Dean Drogo Elmer Ethan Erik Farren Felix Finlay Gabe Galen Geoffrey Hal Hamilton Hank Inigo Ira Ivan Jacob Jaiden James Kameron Kegan Kenny Laz Len Liam Maddox Merlin Michael Nevil Nick Nolan Omar Ormond Orval Pancras Pearce Phoenix Quin Quincey Quinton Radcliff Redd Ryan Sachie Sefton Shad Terrell Theobald Vaughn Vin Virgil Upton Ulric Ulysses Unice Wade Wolf Wil Xavier Xander Xzavier Yancy York Yoric Zak Zachery Zane
+		}
+		female_names = {
+			Holly Maple Syrup Cedar Ebony Hazel Hollis Holly Juniper Laurel Lotus Laurel Olive Sequoia Willow Eir Frea Groa Hildr Idun Nanna Siv Urd Verdandi Acacia Ashley Ashlie Babs Barbra Bambi Brynhildr Candy Cara Cathy Dayna Debbi Duana Elle Emerald Ericka Fallon Fawn Farley Gail Geena Hailie Hanna Harriet Ina Iris Isidora Jaclyn Jakki Jami Kara Kallie Kamryn Leah Layla Liddy Maddy Meg Michayla Nena Nicole Nolene Olyvia Opal Orpha Paige Pene Phoebe Rachel Rebeccah Rica Sabella Seanna Shanae Tisha Tanzi Terri Velda Vanessa Virgee Ursella Ulyssa Unity Wanda Wendy Wilta Xanthia Xavia Xaviera Yolanda Yasmin Yvette Zanna Zara Zandra
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+}
+twili = {
+	twili = {
+		graphical_culture = finishgfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		male_names = {
+			Zant Mizorant Uzin Zorent Zarizin Monin	Urin Miza Mizint Veezin Manireen Viree Udnan Vizin Zint Unnt Zorant Zizadonen Veenen Mazin Zarin Modee Udnant Mazan Urarent Veen Uzent Viron Zedin Zent Mizan Uradant Meezan Meenent Mezin Zonaden Vazon Virin Vorin Zaririn Ment Vidozarin Vinin Mazirin Manarin Mednin Varizent Varin Vodin Meezin Madent Udnin Modin Manont Unont Mirant Mozent Uzora Moron Zinin Maderin Mororin Zinen Voden Uninan Madozonian Zadnin Vodnin Udnen Maren Midnin Mazednin Zaridida Mozin Marazin Viront Merent Mararin Moridan Medin Min Mininin Uzen Madirin Zirin Zeden Udniroran Vidont Zidiren Menarent Vinirorent Meront Madinent Veden Meedan Marinirin Mirarin Uront Udent Madont Meden Uririn Monen Uren Madanen Zershideront Mirsharont Minan Minozin Meen Veent Vent Manent Zadoden Zanin Vinen Zon Zin Zonen Uzinan
+	 	}
+		female_names = {
+			Midna Midee Una Veran Morsheen Mireen Minee Mona Zarida Vidnen Urizin Vanodee Moran	Uraza Mada Miridee Veree Zara Videe Mida Mina Maree Zidee	Mira Modon Zadee Zaden Veeronan Veedan Veenan Marin Urshadee Vadee Uredee  Mint Moden Madin Mirin Uzera Zana Zira Moza Mora Mizee Miraree Midnadadna Zira Meziza Vizonee Madee Mozoririna Morant Zina Vodna Ureda Manina Medna Zoren Mozira Mozeezira Zarareen Madora Viza Udora Midora Marshin Zazant Vedee Meda Uradee Miden Miniza Modnidnon Vodee Mee Madara Veeda Udira Manee Mira Monee Mara Vanee Zedee Vira Uzira Vanee Zedee Vizoda Meza Vera Zazin Moda Veera Morara Vidida Midnaza Voza Urina Modna Udina Mana Mezoda Meedna Mozoza Marira Udna Mizidee Mizarsha Merora Versha Zeedee Udnee Meera Miree Mazee Unana Monoza Veedora Mozida
+		}		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+
+	}
+}
+goron = {
+	graphical_culture = westerngfx
+	
+	goron = {
+		graphical_culture = westerngfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+			Darunia Biggeron Medigoron Darmani Darbus Amoto Coron Ebizo Liggs Daron Kagoron Goronbeck Gongoron Fyrus Kagoron Gongoron
+		}
+		female_names = {
+		}
+		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+}
+zora = {	
+	zora = {
+		graphical_culture = germangfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+			Zora Ralis Evan Japas Miku Tijo Toto Jabun Komali Bashy Bisht Hoskit Ilari Koboli Kogoli Namali Pashli Quill Skett Akoot
+		}
+		female_names = {
+			Ruto Rutela Lulu Marin Medii Laruto 
+		}
+		
+		dukes_called_kings = no		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	zola = {
+		graphical_culture = occitangfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+			Zola Ralis 
+		}
+		female_names = {
+			Ruto Rutela Oran 
+		}
+		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+
+}
+
+forest = {
+	#music names
+	kokiri = {
+		graphical_culture = normangfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+			Makar Mido Fado Solfego Solfeg Soll Satyo Quint Rei Mir Famo Touro Pollur Dol Faso Lati Tido Lado Fare Fasol Dire Rama Fisol Sile Ilis Tele Seme Rame Rase Rale Rate Roji Rolu Pilu Manem Jinem Piji Alto Banjo Brio Cello Fife Gig Harp Jazz Lyric Piper Reed Rock Tango Tempo Fideles Deste Fidel Cantet Tetnunc Ergo Quina Natus Goqui Laeti Chosrus Die Titrium Angel Hodi Triumphan Phantes Ventes Umcan Dioh Eid Angrus Rapsod Koblak Skjald Zanger Bardo Laulik Rahval Mgosani Dichter Sanger Vardos Dalnok Kolto Penyair Vate Eum Siin Vati Vates Wieszcz Rapso Aed Pentru Cal Dainius Bryzelis Kavinan
+		}
+		female_names = {
+			Saria Fia Fado Solmia Utia Lexis Fibria Rei Hymna Meera Famulia Solvio Pollutia Labla Reatu Sanctia Lohana Mia Dore Faso Mefa Sola Lati Rema Fare Mela Fasol Fami Lami Mila Aria Dira Rama Rimi Fisol Silo Liti Lati Late Diri Difi Sili Pilu Nemma Jiro Jinem Allegro Arabesque Aria Bell Cadence Cadenza Calliope Calypso Canary Cantata Cappella Caprice Celeste Chanson Clarion Diva Etude Fifer Gig Harmony Harper Lark Madrigal Malaguena Mandolin Marimba Melody Minuet Opera Rega Rhapsody Selah Seraphine Seranade Sonata Sonatina Symphony Toccata Viola Adeste Hymnos Nale Eid Erna Lena Sedel Fite Canum Venum Umor Tusna Quina Phandi Vendi 
+		}
+		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	deku = {
+		graphical_culture = frankishgfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+}
+blin = {
+
+	blin = {
+		graphical_culture = tengrigfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+
+	}
+}
+
+darknut = {
+	darknut = {
+		graphical_culture = africangfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+
+	}
+}
+	
+lizards = {
+	lizalfos = {
+		graphical_culture = indiangfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+
+	}
+	tokay = {
+		graphical_culture = mesoamericangfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+
+	}
+}
+undead = {
+	skull_kid = {
+		graphical_culture = saxongfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+
+	}
+	stalfos = {
+		graphical_culture = easternslavicfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+
+	}
+}
+anouki_group = {
+	anouki = {
+		graphical_culture = westerngfx
+
+		color = { 0.3 0.55 0.8 }
+
+		male_names = {
+			Aroo Dobo Fofo Gumo Mazo Kumo Bulu Honcho Kofu Noko Yefu Yeko Honcho 
+		}
+		female_names = {
+			Yeketo 
+		}
+	}
+}
+
+
