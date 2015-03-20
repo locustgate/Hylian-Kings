@@ -209,6 +209,35 @@ desert_group = {
 
 		modifier = default_culture_modifier
 	}
+	zuna = {
+		graphical_culture = celticgfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+		Vorday Abooksigun Achak Ahiga Aponivi Awan Badzaal Bilagaana Bamas Bodaway Chatima Chesmu Chogan Chu'a Cochise Dakotah Delsin Demotha Dyama Elan Elsu Eluwalussat Enyeto Ezhno Gaagaa Gad Gosheven Guyapa Hanee Hakan Hania Hassun Hastian Hekla Hesuto Honova Huratt Anazan Aneteus Astu Lye Jacy Jolon Kachada Kaga Kele Keme Leyta LAse Lonato Lootah Machakwa Machk Mahpee Makya Mukka Muraco Naalnish Naale Sadaha Nahele Nahaossa Nastas Nawat Nayata Neka Nagan Nakata Natas Nayol Nosha Nukpana Ocumwhowurst Odakota Ogaleesha Ohanko Ohanzee Ohcumgache Ohatekah Okhmaka Omawnakwa Otaktay Otohhastis Ouray Pachua Paco Paytah Pallatan Qaletaqa Qochata Rowtag Sahale Sakama Sana Sewata Shalah Sharaka Shaye Sacheaa Taas
+		}
+		female_names = {
+		Abedabun Abequa Adoette Adsala Ayana Alameda Alawa Amtola Angena Ankta Apona Atepa Awanata Ayana Ayasha Awenasa Bena Bly Catora Cha'rasa Cheona Dena Dyana Enola Etena Fala Flo Gaho Galalaha Halona Hausas Hewuta Honova Isa Istas Ituha Izusa Kachana Leotae Koko Lomasa Lulu Luyu Megena Mahal Mana Meda Memda Magasa Maka Manal Mona Muna Nata Najlon Nana Nata Natuna Nokomas Nova Nukpana Numees Nuna Nuttah Ogan Olathe Onawa Onada Oota Dadun Peta Petuna Poloma Powaqa Rozene Shana Sahu Sanopa Sasaka Sokwa Sooleawa Soyala Sunka Tablata Tahka Tama Takala Wanema Wuta Wyanet Yamka Yepa Yoka Zaltana Zene Zahna Zitkala Wakamak Waneta Una
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 05
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 05
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
 }
 holodrum = {
 	#3English,Norse
@@ -722,7 +751,7 @@ darknut = {
 		Zalunbar Onan Senturon Creuz
 		}
 		female_names = {
-		Yaraxonal Liela
+		Yaraxonal Liela Cupria Lenore Aife Aoife Armina Audhilda Beadu Beda Berrma Brunhilde Brynhildur Cahira Cahira Cammi Clodovea Ceallach Dustine Eferhild Eferhilda Elda Elde Gerta Gerte Gunda Gertrude Harimanna Harva Hehwuti Hida Hildequnn Ildiko Jamari Kayleigh Keitha Kella Kelley Kelli Kerta Kerttu Labhaoise Lilka Luana Luiza Marcella Nakoma Ouida Owena Ragna Ragnild Romilda Svanhile Toril Truda Trudy Valda Wido Wilhelmine Aliyah Amina Abla Basma Batul Budur Dalal Dana Dua Fadia Fadila Fahima Fairuz Faiza Fakhriya Farah Farida Fayza Gamila Gathbiya Gauhar Habiba Hadia Hadil Husna Husni Ihab Ihsan Ikraam Ilham Itidal Itimad Izdihar Jalila Jinan Jumana Karam Khadija Khalida Khayrat Lamia
 		}
 		
 		dukes_called_kings = yes
