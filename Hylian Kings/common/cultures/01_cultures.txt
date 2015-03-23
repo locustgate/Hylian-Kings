@@ -1078,8 +1078,39 @@ twilight_realm = {
 
 	}
 }
-terminia = {
-	#fierce diety	
+terminia = {	
+	cursed_ikanian = {
+
+		graphical_culture = saxongfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+		Keeta Igos Io Asura Emir Matlalzoatl Asu Itos Aras Mogaras Mutas Amoras Sumat Iroru Ama Egaru Asos Atas Muta Igra Igees Egras Ehratlotlas Atema Arera Egalu Seer Mosor Turos Iloma Ataga Gar Itema Gima Itut Musar Araru Ilis Tiru Igeet Geeru Totis Egomis Egra Amega Imalu Igoru Geet Igros Atat Sama Mumas Sala Mularir Geer Mutateem Agruss Itolu Ahress Iros Mutos Mururu Mugru Ireru Igru Mutu Mulor Mutoas Segrat Toaru Mumura Mumra Toaru Murot Tamis Mulat Egar Aseemu Igor Iru Asulu Tagas Imeru Mumos Mutor Geess Iromu Igit Mumut Etura Satlaru Iroma Aru Ileru Itumu Mugror Iralu Muru Keeru Teru
+		}
+		female_names = {
+		Gomess Igra Ia Ala Iras Seera Tohru Ilata Tigra Segora Ama Teesa Atara Teerihra Rihra Igra Muta Ila Arera Tura Gagra Meraleru Ihris Tara Sama Ameru Tara Kagra Egra Atora Talza Itoga Sala Asusa Egaga Matla Gora Irara Ilza Tatloga Mumura Mumila Mila Irama Igama Irema Tati Igrama Igoma Kora Koaga Atula Agra Geera Geeta Atuta Sara Alagra Ili Tema Ilzitema Imass Geesa Iroma Asihrosa Koara Ilora Koasa Geela Iroga Mara Tahra Gees Tuss Itlire Kira Ara Ahris Arota Igosara Alara Mura Mora Ahra Irees Amura Gara Iretass Maleera Kagis Segra Igoga Itlotlis Alelos Aluga Igura Tosogra Tagura Agora Mugra
+		}
+		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "du "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+
+	}
+	#Readopted Goddesses/Goddess of Time
 	ikanian = {
 
 		graphical_culture = saxongfx
@@ -1088,10 +1119,10 @@ terminia = {
 		
 		
 		male_names = {
-		Keeta Igos Io Asura Emir Matlalzoatl
+		Keeta Igos Io Asura Emir Matlalzoatl Asu Itos Aras Mogaras Mutas Amoras Sumat Iroru Ama Egaru Asos Atas Muta Igra Igees Egras Ehratlotlas Atema Arera Egalu Seer Mosor Turos Iloma Ataga Gar Itema Gima Itut Musar Araru Ilis Tiru Igeet Geeru Totis Egomis Egra Amega Imalu Igoru Geet Igros Atat Sama Mumas Sala Mularir Geer Mutateem Agruss Itolu Ahress Iros Mutos Mururu Mugru Ireru Igru Mutu Mulor Mutoas Segrat Toaru Mumura Mumra Toaru Murot Tamis Mulat Egar Aseemu Igor Iru Asulu Tagas Imeru Mumos Mutor Geess Iromu Igit Mumut Etura Satlaru Iroma Aru Ileru Itumu Mugror Iralu Muru Keeru Teru
 		}
 		female_names = {
-		Gomess Igra Ia Ala Iras Iras Seera Tohru
+		Gomess Igra Ia Ala Iras Seera Tohru Ilata Tigra Segora Ama Teesa Atara Teerihra Rihra Igra Muta Ila Arera Tura Gagra Meraleru Ihris Tara Sama Ameru Tara Kagra Egra Atora Talza Itoga Sala Asusa Egaga Matla Gora Irara Ilza Tatloga Mumura Mumila Mila Irama Igama Irema Tati Igrama Igoma Kora Koaga Atula Agra Geera Geeta Atuta Sara Alagra Ili Tema Ilzitema Imass Geesa Iroma Asihrosa Koara Ilora Koasa Geela Iroga Mara Tahra Gees Tuss Itlire Kira Ara Ahris Arota Igosara Alara Mura Mora Ahra Irees Amura Gara Iretass Maleera Kagis Segra Igoga Itlotlis Alelos Aluga Igura Tosogra Tagura Agora Mugra
 		}
 		
 		dukes_called_kings = no
@@ -1111,153 +1142,4 @@ terminia = {
 		modifier = default_culture_modifier
 
 	}
-	garo = {
-
-		graphical_culture = saxongfx
-		
-		color = { 0.3 0.55 0.8 }
-		
-		
-		male_names = {
-		}
-		female_names = {
-		Hannya
-		}
-		
-		dukes_called_kings = no
-		
-		from_dynasty_prefix = "du "
-				
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 30
-		mat_grf_name_chance = 30
-		father_name_chance = 0
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 30
-		mat_grm_name_chance = 30
-		mother_name_chance = 0
-
-		modifier = default_culture_modifier
-
-	}
-	terminian_hylian = {
-
-		graphical_culture = saxongfx
-		
-		color = { 0.3 0.55 0.8 }
-		
-		
-		male_names = {
-		}
-		female_names = {
-		}
-		
-		dukes_called_kings = no
-		
-		from_dynasty_prefix = "du "
-				
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 30
-		mat_grf_name_chance = 30
-		father_name_chance = 0
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 30
-		mat_grm_name_chance = 30
-		mother_name_chance = 0
-
-		modifier = default_culture_modifier
-
-	}
-	terminian_zora = {
-
-		graphical_culture = saxongfx
-		
-		color = { 0.3 0.55 0.8 }
-		
-		
-		male_names = {
-		}
-		female_names = {
-		}
-		
-		dukes_called_kings = no
-		
-		from_dynasty_prefix = "du "
-				
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 30
-		mat_grf_name_chance = 30
-		father_name_chance = 0
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 30
-		mat_grm_name_chance = 30
-		mother_name_chance = 0
-
-		modifier = default_culture_modifier
-
-	}
-	terminian_gerudo = {
-
-		graphical_culture = saxongfx
-		
-		color = { 0.3 0.55 0.8 }
-		
-		
-		male_names = {
-		}
-		female_names = {
-		}
-		
-		dukes_called_kings = no
-		
-		from_dynasty_prefix = "du "
-				
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 30
-		mat_grf_name_chance = 30
-		father_name_chance = 0
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 30
-		mat_grm_name_chance = 30
-		mother_name_chance = 0
-
-		modifier = default_culture_modifier
-
-	}
-	terminian_goron = {
-
-		graphical_culture = saxongfx
-		
-		color = { 0.3 0.55 0.8 }
-		
-		
-		male_names = {
-		}
-		female_names = {
-		}
-		
-		dukes_called_kings = no
-		
-		from_dynasty_prefix = "du "
-				
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 30
-		mat_grf_name_chance = 30
-		father_name_chance = 0
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 30
-		mat_grm_name_chance = 30
-		mother_name_chance = 0
-
-		modifier = default_culture_modifier
-
-	}
-
 }
-
-
