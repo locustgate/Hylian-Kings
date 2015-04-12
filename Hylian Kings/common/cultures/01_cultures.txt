@@ -585,7 +585,6 @@ deku = {
 
 		modifier = default_culture_modifier
 	}
-	#music names
 	kokiri = {
 		graphical_culture = normangfx
 		
@@ -626,13 +625,6 @@ deku = {
 		male_names = {
 		Maku
 		}
-		female_names = {
-		Maku
-		}
-		
-		dukes_called_kings = yes
-		
-		from_dynasty_prefix = "of "
 				
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 30
@@ -989,8 +981,9 @@ northern_coast = {
 
 	}
 }
-sky_dwellers =
+sky_dwellers = {
 	#Split cobble,hylian,wind,hoho
+
 	skylofter = {
 		graphical_culture = norsegfx
 
