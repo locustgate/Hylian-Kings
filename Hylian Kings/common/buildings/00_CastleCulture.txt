@@ -674,4 +674,83 @@ castle = {
 		
 		extra_tech_building_start = 1.0
 	}
+	#wind tribe ascended
+	ct_wall_wit = {
+		desc = ca_wall_wt_desc
+		potential = {
+			culture = wind_tribe
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+		upgrades_from = ct_wall_q_4
+		gold_cost = 100
+		build_time = 465
+		fort_level = 2
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 0.2
+	}
+	#War Gyorg
+	ca_war_gyorg_1 = {
+		desc = ca_war_gyorg_1_desc
+		potential = {
+			culture = wind_tribe
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		war_gyorg = 1
+		war_gyorg_offensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_war_gyorg_2 = {
+		desc = ca war_gyorg_2_desc
+		potential = {
+			culture = wind_tribe
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		upgrades_from = ca_culture_indian_1
+		gold_cost = 300
+		build_time = 1095
+		war_gyorg = 2
+		war_gyorg_offensive = 0.05
+		war_gyorg_defensive = 0.10
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_war_gyorg_3 = {
+		desc = ca_war_gyorg_3_desc
+		potential = {
+			culture = wind_tribe
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_culture_indian_2
+		gold_cost = 400
+		build_time = 2190
+		war_gyorg = 4
+		war_gyorg_offensive = 0.05
+		war_gyorg_defensive = 0.10
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_war_gyorg_4 = {
+		desc = ca_war_gyorg_4_desc
+		potential = {
+			culture = wind_tribe
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_war_gyorg_3
+		gold_cost = 500
+		build_time = 2190
+		war_gyorg = 8
+		war_gyorg_offensive = 0.05
+		war_gyorg_defensive = 0.10
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
 }
