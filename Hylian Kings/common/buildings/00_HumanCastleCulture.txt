@@ -753,4 +753,68 @@ castle = {
 		
 		extra_tech_building_start = 0.8
 	}
+#skyloft loftwing academy
+	ca_loftwing_academy_1 = {
+		desc = ca_loftwing_academy_desc
+		potential = {
+			culture = skylofter
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 10
+		loftwing_knight = 15
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.4
+	}
+	ca_loftwing_academy_2 = {
+		desc = ca_loftwing_academy_desc 
+		potential = {
+			culture = skylofter
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_loftwing_academy_1
+		gold_cost = 120
+		build_time = 547
+		heavy_infantry = 10
+		loftwing_knight = 20
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 0.8
+	}
+	ca_loftwing_academy_3 = {
+		desc = ca_loftwing_academy_desc
+		potential = {
+			culture = skylofter 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_loftwing_academy_2
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 20
+		loftwing_knight = 25
+		ai_creation_factor = 87
+
+		extra_tech_building_start = 0.2
+	}
+	ca_loftwing_academy_4 = {
+		desc = ca_loftwing_academy_desc 
+		potential = {
+			culture = skylofter
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_loftwing_academy_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 20
+		loftwing_knight = 30
+		ai_creation_factor = 86
+
+		extra_tech_building_start = 0.2
+	}
+
 }
+

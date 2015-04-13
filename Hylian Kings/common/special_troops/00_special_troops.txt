@@ -53,3 +53,14 @@ war_gyorg = {
 	phase_pursue_defense = 20
 	base_type = heavy_cavalry
 }
+loftwing_knight = {
+	morale = 5
+	maintenance = 4
+	phase_skirmish_attack = 5
+	phase_melee_attack = 5
+	phase_pursue_attack = 10
+	phase_skirmish_defense = -5
+	phase_melee_defense = 10
+	phase_pursue_defense = 20
+	base_type = light_cavalry
+}
