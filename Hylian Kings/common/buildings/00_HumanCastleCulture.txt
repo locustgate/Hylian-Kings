@@ -13,13 +13,93 @@
  
  # Castle
 castle = {
-	#Hylian Tourney Grounds
-
-	#Hylian Ranch
-	ca_culture_hylian_ranch_1 = {
-		desc = ca_culture_hylian_ranch_1_desc
+	#Hyrulean Knight List
+	ca_knight_list_1 = {
+		desc = ca_knight_list_1_desc
 		potential = {
-				culture = hylian
+			FROM = {
+				OR = {
+					culture = cobble
+					culture = hyrulean
+				}
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		knights = 15
+		knights_offensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_knight_list_2 = {
+		desc = ca_knight_list_1_desc
+		potential = {
+			FROM = {
+				OR = {
+					culture = cobble
+					culture = hyrulean
+				}
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		upgrades_from = ca_knight_list_1
+		gold_cost = 300
+		build_time = 1095
+		knights = 20
+		knights_offensive = 0.15
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_knight_list_3 = {
+		desc = ca_knight_list_1_desc
+		potential = {
+			FROM = {
+				OR = {
+					culture = cobble
+					culture = hyrulean
+				}
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_knight_list_2
+		gold_cost = 400
+		build_time = 2190
+		knights = 25
+		knights_offensive = 0.15
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_knight_list_4 = {
+		desc = ca_knight_list_1_desc
+		potential = {
+			FROM = {
+				OR = {
+					culture = cobble
+					culture = hyrulean
+				}
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_knight_list_3
+		gold_cost = 500
+		build_time = 2190
+		knights = 30
+		knights_offensive = 0.15
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}	
+
+	#Hyrulean Ranch
+	ca_culture_hyrulean_ranch_1 = {
+		desc = ca_culture_hyrulean_ranch_1_desc
+		potential = {
+				culture = hyrulean
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_2 }
@@ -30,13 +110,13 @@ castle = {
 		
 		extra_tech_building_start = 0.8
 	}
-	ca_culture_hylian_ranch_2 = {
-		desc = ca_culture_hylian_ranch_2_desc
+	ca_culture_hyrulean_ranch_2 = {
+		desc = ca_culture_hyrulean_ranch_2_desc
 		potential = {
-				culture = hylian
+				culture = hyrulean
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
-		upgrades_from = ca_culture_hylian_ranch_1
+		upgrades_from = ca_culture_hyrulean_ranch_1
 		gold_cost = 300
 		build_time = 1095
 		tax_income = 1
@@ -44,13 +124,13 @@ castle = {
 		
 		extra_tech_building_start = 0.8
 	}
-	ca_culture_hylian_ranch_3 = {
-		desc = ca_culture_hylian_ranch_3_desc
+	ca_culture_hyrulean_ranch_3 = {
+		desc = ca_culture_hyrulean_ranch_3_desc
 		potential = {
-				culture = hylian
+				culture = hyrulean
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
-		upgrades_from = ca_culture_hylian_ranch_2
+		upgrades_from = ca_culture_hyrulean_ranch_2
 		gold_cost = 400
 		build_time = 2190
 		knight_morale = 0.15
@@ -60,13 +140,13 @@ castle = {
 		
 		extra_tech_building_start = 0.8
 	}
-	ca_culture_hylian_ranch_4 = {
-		desc = ca_culture_hylian_ranch_3_desc
+	ca_culture_hyrulean_ranch_4 = {
+		desc = ca_culture_hyrulean_ranch_3_desc
 		potential = {
-			culture = hylian
+			culture = hyrulean
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
-		upgrades_from = ca_culture_hylian_ranch_3
+		upgrades_from = ca_culture_hyrulean_ranch_3
 		gold_cost = 500
 		build_time = 2190
 		knight_morale = 0.15
@@ -815,6 +895,69 @@ castle = {
 
 		extra_tech_building_start = 0.2
 	}
+#cobble_mason
+	ca_cobble_mason_1 = {
+		desc = ca_cobble_mason_1_desc 
+		potential = {
+			culture = cobble
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = ca_cobble_mason_1
+		gold_cost = 300
+		build_time = 1095
+		tax_income = 1
+		ai_creation_factor = 86
 
+		extra_tech_building_start = 0.2
+	}
+	ca_cobble_mason_2 = {
+		desc = ca_cobble_mason_2_desc 
+		potential = {
+			culture = cobble
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_cobble_mason_1
+		gold_cost = 300
+		build_time = 1095
+		tax_income = 1
+		light_infantry = 10
+		stone_soldier = 1
+		ai_creation_factor = 86
+
+		extra_tech_building_start = 0.2
+	}
+	ca_cobble_mason_3 = {
+		desc = ca_cobble_mason_3_desc 
+		potential = {
+			culture = cobble
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_cobble_mason_2
+		gold_cost = 300
+		build_time = 1095
+		tax_income = 1
+		light_infantry = 20
+		stone_soldier = 2
+		ai_creation_factor = 86
+
+		extra_tech_building_start = 0.2
+	}
+	ca_cobble_mason_4 = {
+		desc = ca_cobble_mason_4_desc 
+		potential = {
+			culture = cobble
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_cobble_mason_3
+		gold_cost = 300
+		build_time = 1095
+		tax_income = 1
+		light_infantry = 20
+		stone_soldier = 2
+		ai_creation_factor = 86
+
+		extra_tech_building_start = 0.2
+	}
 }
+
 
