@@ -915,11 +915,11 @@ castle = {
 		potential = {
 			culture = cobble
 		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		upgrades_from = ca_cobble_mason_1
 		gold_cost = 300
 		build_time = 1095
-		tax_income = 1
+
 		light_infantry = 10
 		stone_soldier = 1
 		ai_creation_factor = 86
@@ -935,7 +935,6 @@ castle = {
 		upgrades_from = ca_cobble_mason_2
 		gold_cost = 300
 		build_time = 1095
-		tax_income = 1
 		light_infantry = 20
 		stone_soldier = 2
 		ai_creation_factor = 86
@@ -951,13 +950,20 @@ castle = {
 		upgrades_from = ca_cobble_mason_3
 		gold_cost = 300
 		build_time = 1095
-		tax_income = 1
 		light_infantry = 20
 		stone_soldier = 2
 		ai_creation_factor = 86
 
 		extra_tech_building_start = 0.2
 	}
+#zuna
+
+#zuna
+
+#stal redead crypt
+
+#stal 
+
 }
 
 

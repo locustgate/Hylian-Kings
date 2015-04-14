@@ -1,0 +1,223 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ #<tag> = {
+ #	desc = description used in the tooltip of the building
+ #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
+ #	gold_cost = cost to build the building
+ #	build_time = time to build, in days
+ #	
+ #	ai_creation_factor = weight that the AI uses to determine what building to build
+ #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #}
+ 
+ # Castle
+castle = {
+#stal redead crypt
+	ca_crypt_1 = {
+		desc = ca_crypt_1_desc
+		potential = {
+			culture = stalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replaces = ca_militia_barracks_1
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 30
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_crypt_2 = {
+		desc = ca_crypt_2_desc
+		potential = {
+			culture = stalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replaces = ca_militia_barracks_2
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_crypt_1
+		gold_cost = 120
+		build_time = 547
+		heavy_infantry = 20
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.0
+	}
+	ca_crypt_3 = {
+		desc = ca_crypt_3_desc
+		potential = {
+			culture = stalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replaces = ca_militia_barracks_3
+		upgrades_from = ca_crypt_2
+		gold_cost = 200
+		build_time = 1095
+		heavy_infantry = 20
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	ca_crypt_4 = {
+		desc = ca_crypt_3_desc
+		potential = {
+			culture = stalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replaces = ca_militia_barracks_4
+		upgrades_from = ca_crypt_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 30
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+#stal mausolium
+	ca_mausolium_1 = {
+		desc = ca_mausolium_1_desc
+		potential = {
+			culture = stalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replaces = ca_barracks_1
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 15
+		pikemen = 5
+		ai_creation_factor = 105
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_mausolium_2 = {
+		desc = ca_mausolium_1_desc
+		potential = {
+			culture = stalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replaces = ca_barracks_2
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_mausolium_1
+		gold_cost = 120
+		build_time = 547
+		heavy_infantry = 20
+		pikemen = 10
+		ai_creation_factor = 104
+		
+		extra_tech_building_start = 1.8
+	}
+	ca_mausolium_3 = {
+		desc = ca_mausolium_1_desc
+		potential = {
+			culture = stalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		replaces = ca_barracks_3
+		upgrades_from = ca_mausolium_2
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 25
+		pikemen = 15
+		ai_creation_factor = 103
+
+		extra_tech_building_start = 3.0
+	}
+	ca_mausolium_4 = {
+		desc = ca_mausolium_1_desc
+		potential = {
+			culture = stalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replaces = ca_barracks_4
+		upgrades_from = ca_mausolium_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 30
+		pikemen = 20
+		ai_creation_factor = 102
+
+		extra_tech_building_start = 3.0
+	}
+	ca_mausolium_5 = {
+		desc = ca_mausolium_1_desc
+		potential = {
+			culture = stalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replaces = ca_barracks_5
+		upgrades_from = ca_mausolium_4
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 40
+		pikemen = 20
+		ai_creation_factor = 101
+
+		extra_tech_building_start = 2.0
+	}
+	ca_mausolium_6 = {
+		desc = ca_mausolium_1_desc
+		potential = {
+			culture = stalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replaces = ca_barracks_6
+		upgrades_from = ca_mausolium_5
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 50
+		pikemen = 40
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.2
+	}
+
+#stal lord bone pit
+
+	ca_bone_pit_1 = {
+		desc = ca_bone_pit_1_desc
+		potential = {
+			culture = stalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		stallord = 1
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_bone_pit_2 = {
+		desc = ca_bone_pit_1_desc
+		potential = {
+			culture = stalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_bone_pit_1
+		gold_cost = 120
+		build_time = 547
+		stallord = 2
+		ai_creation_factor = 80
+		
+		extra_tech_building_start = 1.8
+	}
+	ca_bone_pit_3 = {
+		desc = ca_bone_pit_1_desc
+		potential = {
+			culture = stalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_bone_pit_2
+		gold_cost = 200
+		build_time = 730
+		stallord = 2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 3.0
+	}
+}
+
+
