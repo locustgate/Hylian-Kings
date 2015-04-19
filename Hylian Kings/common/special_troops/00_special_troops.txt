@@ -10,19 +10,30 @@ horse_archers = {
 	phase_pursue_defense = 7
 	base_type = light_cavalry
 }
+#Zuna
+chariot = {
+	morale = 5
+	maintenance = 3
+	phase_skirmish_attack = 3
+	phase_melee_attack = 6
+	phase_pursue_attack = 6
+	phase_skirmish_defense = 3
+	phase_melee_defense = 6
+	phase_pursue_defense = 3
+	base_type = light_cavalry
+}
 
 #cobble
 
-#eox 
 stone_soldier = {
 	morale = 20
 	maintenance = 30
-	phase_skirmish_attack = 5
-	phase_melee_attack = 10
-	phase_pursue_attack = 5
-	phase_skirmish_defense = 15
-	phase_melee_defense = 10
-	phase_pursue_defense = 10
+	phase_skirmish_attack = 1
+	phase_melee_attack = 5
+	phase_pursue_attack = 1
+	phase_skirmish_defense = 10
+	phase_melee_defense = 5
+	phase_pursue_defense = 5
 	base_type = heavy_infantry
 }
 

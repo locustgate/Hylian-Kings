@@ -88,10 +88,84 @@ nick_fairy_boy =
 	allow = {
 		trait = fairy_companion
 		NOT = {
-			trait = race_kokiri
 		}
 		chance = {
 			factor = 1
 		}
 	}
+#############################TOKAY NICKNAMES#############################
+nick_one_with_metal_shirt = {
+	allow = {
+		age = 16
+		culture = tokay
+		trait = glutinous
+	}
+	chance = {
+		factor = 2
+	}
+nick_one_with_metal_scales = {
+	allow = {
+		age = 16
+		culture = tokay
+		trait = glutinous
+	}
+	chance = {
+		factor = 2
+	}
+nick_one_with_shield = {
+	allow = {
+		age = 16
+		culture = tokay
+		trait = glutinous
+	}
+	chance = {
+		factor = 2
+	}
+nick_one_with_spear = {
+	allow = {
+		age = 16
+		culture = tokay
+		trait = glutinous
+	}
+	chance = {
+		factor = 2
+	}
+nick_one_with_horse = {
+	allow = {
+		age = 16
+		culture = tokay
+		trait = glutinous
+	}
+	chance = {
+		factor = 2
+	}
+nick_one_with_sword = {
+	allow = {
+		age = 16
+		culture = tokay
+		trait = glutinous
+	}
+	chance = {
+		factor = 2
+	}
+nick_one_with_hammer = {
+	allow = {
+		age = 16
+		culture = tokay
+		trait = glutinous
+		trait = scarred
+	}
+	chance = {
+		factor = 2
+	}
+nick_one_with_bow = {
+	allow = {
+		age = 16
+		culture = tokay
+		trait = glutinous
+	}
+	chance = {
+		factor = 2
+	}
 }
+
