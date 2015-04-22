@@ -68,6 +68,48 @@ goddesses = {
 			ORACLE_DIN ORACLE_FARORE ORACLE_NAYRU ORACLE_SECRETS ORACLE_AGES ORACLE_SEASONS
 		}		
 	}
+	light_force = {
+		graphical_culture = westerngfx
+
+		icon = 2
+		heresy_icon = 7
+		
+		color = { 0.8 0.8 0.6 }
+		parent = golden_goddesses 
+
+		scripture_name = SONG_OF_LIGHT
+		priest_title = PRIEST
+		
+		high_god_name = LIGHT_FORCE
+		
+		god_names = {
+			LIGHT_FORCE
+		}
+	evil_god_names = {
+			GOD_DEMISE GOD_GHIRAHIM	
+		}
+	}
+	first_hero = {
+		graphical_culture = westerngfx
+
+		icon = 2
+		heresy_icon = 7
+		
+		color = { 0.8 0.8 0.6 }
+		parent = golden_goddesses 
+
+		scripture_name = THE_HEROS_LEGEND
+		priest_title = PRIEST
+		
+		high_god_name = FIRST_HERO 
+		
+		god_names = {
+			FIRST_HERO
+		}	
+		evil_god_names = {
+			GOD_DEMISE GOD_GHIRAHIM	
+		}
+	}
 	goddess = {
 		graphical_culture = westerngfx
 
@@ -109,48 +151,6 @@ goddesses = {
 			GOD_DEMISE GOD_GHIRAHIM	
 		}
 	}	
-	light_force = {
-		graphical_culture = westerngfx
-
-		icon = 2
-		heresy_icon = 7
-		
-		color = { 0.8 0.8 0.6 }
-		parent = goddess
-
-		scripture_name = SONG_OF_LIGHT
-		priest_title = PRIEST
-		
-		high_god_name = LIGHT_FORCE
-		
-		god_names = {
-			LIGHT_FORCE
-		}
-	evil_god_names = {
-			GOD_DEMISE GOD_GHIRAHIM	
-		}
-	}
-	first_hero = {
-		graphical_culture = westerngfx
-
-		icon = 2
-		heresy_icon = 7
-		
-		color = { 0.8 0.8 0.6 }
-		parent = goddess
-
-		scripture_name = THE_HEROS_LEGEND
-		priest_title = PRIEST
-		
-		high_god_name = FIRST_HERO 
-		
-		god_names = {
-			FIRST_HERO
-		}	
-		evil_god_names = {
-			GOD_DEMISE GOD_GHIRAHIM	
-		}
-	}
 	three_dragons = {
 		graphical_culture = westerngfx
 
@@ -215,6 +215,9 @@ gerudo_religion = {
 		priests_can_marry = yes 
 		allow_female_priests = yes
 		can_hold_temples = yes 
+		allow_viking_invasion = yes
+
+
 
 		high_god_name = GOD_GODDESS_OF_THE_SAND
 		
@@ -244,6 +247,8 @@ gerudo_religion = {
 		allow_looting = yes
 		priests_can_marry = yes 
 		allow_female_priests = yes
+		allow_viking_invasion = yes
+
 
 		high_god_name = GODDESS_OF_SERPENTS
 		
@@ -267,6 +272,8 @@ gerudo_religion = {
 		allow_looting = yes
 		priests_can_marry = yes 
 		allow_female_priests = yes
+		allow_viking_invasion = yes
+
 
 		crusade_name = CRUSADE
 		scripture_name = DIN_JUDGEMENT
@@ -281,27 +288,52 @@ gerudo_religion = {
 		feminist = yes
 		max_wives = 4
 	}
-	ocean_goddess = {
+	twinrova = {
 		graphical_culture = muslimgfx
 
-		icon = 4
+		icon = 3
 		heresy_icon = 8
 		
 		color = { 0.8 0.8 0.6 }
-		
-		scripture_name = WAVE_SHANTY
-		priest_title = PRIEST
-		
-		allow_viking_invasions = yes
+		parent = gerudo_goddess
+
 		allow_looting = yes
 		priests_can_marry = yes 
 		allow_female_priests = yes
-		allow_rivermovement = yes 
+		allow_viking_invasion = yes
 
-		high_god_name = GODDESS_OF_THE_WAVES 
+
+		priest_title = PRIEST
+		
+		high_god_name = TWINROVA
 		
 		god_names = {
-			GODDESS_OF_THE_WAVES OCEAN_GODDESS 
+			TWINROVA
+		}
+				
+		feminist = yes
+		max_wives = 4
+	}
+	goddess_son = {
+		graphical_culture = muslimgfx
+
+		icon = 3
+		heresy_icon = 8
+		
+		color = { 0.8 0.8 0.6 }
+		parent = gerudo_goddess
+
+		allow_looting = yes
+		priests_can_marry = yes 
+		allow_female_priests = yes
+		allow_viking_invasion = yes
+
+
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GODDESS_SON		
+		god_names = {
+			GOD_DESERT_GODDESS GOD_GODDESS_OF_THE_SAND GOD_GODDESS_SON
 		}
 		
 		evil_god_names = {
@@ -310,65 +342,6 @@ gerudo_religion = {
 				
 		feminist = yes
 		max_wives = 4
-	}
-	naryu_goddess = {
-		graphical_culture = muslimgfx
-
-		icon = 4
-		heresy_icon = 8
-		
-		color = { 0.8 0.8 0.6 }
-		parent = ocean_goddess
-		
-		crusade_name = GREAT_HOLY_WAR
-		scripture_name = NARYU_SONG
-		priest_title = PRIEST
-		
-		allow_viking_invasions = yes
-		allow_looting = yes
-		priests_can_marry = yes 
-		allow_female_priests = yes
-		allow_rivermovement = yes 
-
-		high_god_name = GODDESS_NARYU 
-		
-		god_names = {
-			GODDESS_NARYU 
-		}
-		
-		evil_god_names = {
-				GOD_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE
-		}
-				
-		feminist = yes
-		max_wives = 4
-	}
-	deep_goddess = {
-		graphical_culture = muslimgfx
-
-		icon = 4
-		heresy_icon = 8
-		
-		color = { 0.8 0.8 0.6 }
-		parent = ocean_goddess
-		
-		scripture_name = ABYSSI_FUGUE
-		priest_title = PRIEST
-		
-		allow_viking_invasions = yes
-		allow_looting = yes
-		priests_can_marry = yes 
-		allow_female_priests = yes
-		allow_rivermovement = yes 
-
-		high_god_name = GODDESS_ABYSSI 
-		
-		god_names = {
-			GODDESS_ABYSSI 
-		}
-				
-		feminist = yes
-		max_consort = 4
 	}
 }
 
@@ -400,28 +373,6 @@ twili = {
 			SOL 
 		}		
 	}
-	ganondorf = {
-		graphical_culture = muslimgfx
-
-		icon = 49
-		heresy_icon = 50
-		
-		color = { 0.8 0.8 0.6 }
-		parent = sol
-		
-		scripture_name = GANONS_COMMANDMENTS
-		priest_title = PRIEST
-		
-		high_god_name = GOD_GANONDORF
-		
-		god_names = {
-			GOD_GANONDORF
-
-		}
-		evil_god_names = {
-				LINK SOL
-		}			
-	}
 	divine_beast = {
 		graphical_culture = muslimgfx
 
@@ -440,9 +391,6 @@ twili = {
 			GOD_GANONDORF
 
 		}
-		evil_god_names = {
-				LINK SOL
-		}
 		max_consort = 3
 		can_loot = yes
 				
@@ -454,7 +402,7 @@ termian = {
 	graphical_culture = norsegfx
 	crusade_cb = crusade
 	playable = yes
-	ai_peaceful = no # Will make Hordes lose their super aggressiveness
+	ai_peaceful = no 
 	
 	ai_convert_same_group = 2 # always try to convert
 	ai_convert_other_group = 2 # always try to convert
@@ -471,6 +419,8 @@ termian = {
 		allow_looting = yes
 		priests_can_marry = yes 
 		allow_female_priests = yes
+		allow_viking_invasion = yes
+
 
 		crusade_name = PURGE
 		scripture_name = MAJORA_MISCHIEF
@@ -500,7 +450,9 @@ termian = {
 
 		crusade_name = PURGE
 		scripture_name = DIETY_ANGER
-		priest_title = TYRANT
+		priest_title = PRIEST
+		allow_viking_invasion = yes
+
 		
 		high_god_name = GOD_FIERCE_DIETY
 		
@@ -531,13 +483,28 @@ goron = {
 		
 		color = { 0.8 0.8 0.6 }	
 
-		scripture_name = 
 		priest_title = GOR
 		
 		high_god_name = FIRE_SPIRIT
 		
 		god_names = {
-			FIRE_SPIRIT VOLVAGIA
+			FIRE_SPIRIT
+		}
+	}
+	volvagia = {
+		graphical_culture = westerngfx
+
+		icon = 5
+		heresy_icon = 14
+		
+		color = { 0.8 0.8 0.6 }	
+
+		priest_title = GOR
+		
+		high_god_name = VOLVAGIA
+		
+		god_names = {
+			VOLVAGIA
 		}
 	}
 	goron_ancestors = {
@@ -572,8 +539,6 @@ goron = {
 		color = { 0.8 0.8 0.6 }
 		parent = fire_spirit	
 
-		crusade_name = CRUSADE
-		scripture_name = MANDATE
 		priest_title = GOR
 		
 		high_god_name = FIRE_MOTHER
@@ -758,7 +723,7 @@ forest = {
 	}
 }
 
-blin = {
+demon = {
 	has_coa_on_barony_only = yes
 	playable = yes
 	ai_peaceful = no # Will make Hordes lose their super aggressiveness
@@ -850,25 +815,7 @@ lizard = {
 	ai_convert_same_group = 2 # always try to convert
 	ai_convert_other_group = 2 # always try to convert
 
-		all_father = {
-
-		icon = 30
-		heresy_icon = 31
-		
-		color = { 0.8 0.8 0.6 }
-
-		priests_can_marry = yes		
-
-		scripture_name = ALL_FATHER_TEACHING
-		priest_title = SHAMAN
-		
-		high_god_name = ALL_FATHER
-		
-		god_names = {
-			ALL_FATHER
-		}
-	}
- 	great_dodongo = {
+	king_dodongo = {
 	
 		icon = 30
 		heresy_icon = 31
@@ -889,48 +836,6 @@ lizard = {
 		}
 	}
 
-	all_mother = {
-	
-		icon = 30
-		heresy_icon = 31
-		
-		color = { 0.8 0.8 0.6 }
-
-		allow_female_priest = yes
-		priests_can_marry = yes		
-
-		scripture_name = ALL_MOTHER_MERCY
-		priest_title = SHAMAN
-		
-		high_god_name = ALL_MOTHER
-		
-		god_names = {
-			ALL_MOTHER
-		}
-		feminist = yes
-	}
-	great_dodongo_serpent = {
-
-		icon = 30
-		heresy_icon = 31
-		
-		color = { 0.8 0.8 0.6 }
-		parent = all_mother
-
-		allow_female_priest = yes
-		priests_can_marry = yes		
-
-		crusade_name = CRUSADE
-		scripture_name = SERPENT_DODONGO_HUNTING
-		priest_title = SHAMAN
-		
-		high_god_name = GOD_SERPENT_DODONGO
-		
-		god_names = {
-			GOD_SERPENT_DODONGO
-		}
-	feminist = yes
-	}
 	Guardian = {
 
 		icon = 32
@@ -986,24 +891,10 @@ darknut = {
 	ai_convert_same_group = 2 # always try to convert
 	ai_convert_other_group = 2 # always try to convert
 
-		law = {
-
-		icon = 30
-		heresy_icon = 31
-		
-		color = { 0.8 0.8 0.6 }		
-
-		scripture_name = IMUTABLE_LAW
-		priest_title = JUDGE
-
-		female_priest = yes
-		
-		high_god_name = LAW		
-		god_names = {
-			LAW
-		}
-		feminist = yes
-	}
+#way of blade (bushido)
+#way of axe (norse)
+#way of mace (chivalry)
+#way of shield (spartiates)
 	council = {
 
 		icon = 30
