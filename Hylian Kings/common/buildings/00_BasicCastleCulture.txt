@@ -277,10 +277,11 @@ castle = {
 		
 		extra_tech_building_start = 0.8
 	}
-	ca_gerudo_horse_archery_1 = {
-		desc = ca_gerudo_horse_archery_desc
+	ca_horse_archery_1 = {
+		desc = ca_horse_archery_desc
 		potential = {
 			culture = gerudo
+			culture = ordonion
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -291,10 +292,12 @@ castle = {
 		
 		extra_tech_building_start = 0.4
 	}
-	ca_gerudo_horse_archery_2 = {
-		desc = ca_gerudo_horse_archery_desc
+	ca_horse_archery_2 = {
+		desc = ca_horse_archery_desc
 		potential = {
 			culture = gerudo
+			culture = ordonion
+
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_1 }
@@ -307,10 +310,12 @@ castle = {
 
 		extra_tech_building_start = 0.8
 	}
-	ca_gerudo_horse_archery_3 = {
-		desc = ca_gerudo_horse_archery_desc
+	ca_horse_archery_3 = {
+		desc = ca_horse_archery_desc
 		potential = {
 			culture = gerudo
+			culture = ordonion
+
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		prerequisites = { ca_wall_2 }
@@ -323,10 +328,12 @@ castle = {
 
 		extra_tech_building_start = 0.2
 	}
-	ca_gerudo_horse_archery_4 = {
-		desc = ca_gerudo_horse_archery_desc
+	ca_horse_archery_4 = {
+		desc = ca_horse_archery_desc
 		potential = {
 			culture = gerudo
+			culture = ordonion
+
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ca_gerudo_horse_archery_3
@@ -334,102 +341,13 @@ castle = {
 		build_time = 1095
 		archer = 20
 		horse_archers = 40
-		knights = 5
 		ai_creation_factor = 86
 
 		extra_tech_building_start = 0.2
 	}
-	# Ordon Ranch
 	# Ordon Farm 
-	#Labrynna Museum 
-	ca_culture_labrynna_museum_1 = {
-		desc = ca_culture_labrynna_museum_1_desc
-		potential = {
-				culture = labrynna
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ca_wall_2 }
-		gold_cost = 200
-		build_time = 730
-		tech_growth_modifier = 0.1
-		ai_creation_factor = 101
-		
-		extra_tech_building_start = 0.8
-	}
-	ca_culture_labrynna_museum_2 = {
-		desc = ca_culture_labrynna_museum_2_desc
-		potential = {
-				culture = labrynna 
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
-		upgrades_from = ca_culture_labrynna_museum_1
-		gold_cost = 300
-		build_time = 1095
-		tech_growth_modifier = 0.2
-
-		ai_creation_factor = 100
-		
-		extra_tech_building_start = 0.8
-	}
-	ca_culture_labrynna_museum_3 = {
-		desc = ca_culture_labrynna_museum_3_desc
-		potential = {
-				culture = labrynna 
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
-		upgrades_from = ca_culture_labrynna_museum_2
-		gold_cost = 400
-		build_time = 2190
-		tech_growth_modifier = 0.3
-		ai_creation_factor = 99
-		
-		extra_tech_building_start = 0.8
-	}
-	#Labrynna Palace
-	ca_culture_labrynna_palace_1 = {
-		desc = ca_culture_labrynna_palace_1_desc
-		potential = {
-				culture = labrynna
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ca_wall_2 }
-		gold_cost = 200
-		build_time = 730
-		monthly_character_prestige = 0.10
-
-		ai_creation_factor = 101
-		
-		extra_tech_building_start = 0.8
-	}
-	ca_culture_labrynna_palace_2 = {
-		desc = ca_culture_labrynna_palace_2_desc
-		potential = {
-				culture = labrynna 
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
-		upgrades_from = ca_culture_labrynna_palace_1
-		gold_cost = 300
-		build_time = 1095
-		monthly_character_prestige = 0.15
-
-		ai_creation_factor = 100
-		
-		extra_tech_building_start = 0.8
-	}
-	ca_culture_labrynna_palace_3 = {
-		desc = ca_culture_labrynna_palace_3_desc
-		potential = {
-				culture = labrynna 
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
-		upgrades_from = ca_culture_labrynna_museum_2
-		gold_cost = 400
-		build_time = 2190
-		monthly_character_prestige = 0.20
-		ai_creation_factor = 99
-		
-		extra_tech_building_start = 0.8
-	}
+	#Labrynna
+	#Labrynna 
 	#Horon Rangegrounds
 	ca_horon_ranger_1 = {
 		desc = ca_horon_ranger_desc
@@ -440,8 +358,8 @@ castle = {
 		replace = ca_militia_baracks_1
 		gold_cost = 100
 		build_time = 365
-		light_infantry = 80
-		archers = 10
+		light_infantry = 40
+		archers = 40
 		archers_morale = 0.2
 		light_infantry_morale = 0.2
 
@@ -478,8 +396,8 @@ castle = {
 		replace = ca_militia_baracks_3
 		gold_cost = 200
 		build_time = 1095
-		light_infantry = 20
-		archers = 90
+		light_infantry = 500
+		archers = 50
 		archers_morale = 0.2
 		light_infantry_morale = 0.2
 		ai_creation_factor = 98
@@ -496,60 +414,15 @@ castle = {
 		replace = ca_militia_baracks_4
 		gold_cost = 300
 		build_time = 1095
-		light_infantry = 30
-		archers = 120
+		light_infantry = 50
+		archers = 50
 		archers_morale = 0.2
 		light_infantry_morale = 0.2
 		ai_creation_factor = 98
 
 		extra_tech_building_start = 0.5
 	}
-	#Horon Clock Tower
-	ca_horon_clock_1 = {
-		desc = ca_horon_clock_desc
-		potential = {
-				culture = horon 
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
-		gold_cost = 100
-		build_time = 365
-		monthly_character_prestige = 0.10
-
-		ai_creation_factor = 100
-		
-		extra_tech_building_start = 1.0
-	}
-	ca_horon_clock_2 = {
-		desc = ca_horon_clock_desc
-		potential = {
-				culture = horon 
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
-		upgrade_from = ca_horon_clock_1
-		gold_cost = 100
-		build_time = 365
-		monthly_character_prestige = 0.10
-
-		ai_creation_factor = 100
-		
-		extra_tech_building_start = 1.0
-	}
-	ca_horon_clock_3 = {
-		desc = ca_horon_clock_3_desc
-		potential = {
-				culture = horon 
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
-		upgrade_from = ca_horon_clock_1
-		gold_cost = 100
-		build_time = 365
-		monthly_character_prestige = 0.10
-		fort_level = 0.5
-
-		ai_creation_factor = 100
-		
-		extra_tech_building_start = 1.0
-	}
+	#Horon 
 	#wind tribe ascended
 	ct_wall_wit = {
 		desc = ca_wall_wt_desc
@@ -691,67 +564,7 @@ castle = {
 
 		extra_tech_building_start = 0.2
 	}
-#cobble_mason
-	ca_cobble_mason_1 = {
-		desc = ca_cobble_mason_1_desc 
-		potential = {
-			culture = cobble
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		upgrades_from = ca_cobble_mason_1
-		gold_cost = 300
-		build_time = 1095
-		tax_income = 1
-		ai_creation_factor = 86
-
-		extra_tech_building_start = 0.2
-	}
-	ca_cobble_mason_2 = {
-		desc = ca_cobble_mason_2_desc 
-		potential = {
-			culture = cobble
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
-		upgrades_from = ca_cobble_mason_1
-		gold_cost = 300
-		build_time = 1095
-
-		light_infantry = 10
-		stone_soldier = 1
-		ai_creation_factor = 86
-
-		extra_tech_building_start = 0.2
-	}
-	ca_cobble_mason_3 = {
-		desc = ca_cobble_mason_3_desc 
-		potential = {
-			culture = cobble
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
-		upgrades_from = ca_cobble_mason_2
-		gold_cost = 300
-		build_time = 1095
-		light_infantry = 20
-		stone_soldier = 2
-		ai_creation_factor = 86
-
-		extra_tech_building_start = 0.2
-	}
-	ca_cobble_mason_4 = {
-		desc = ca_cobble_mason_4_desc 
-		potential = {
-			culture = cobble
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
-		upgrades_from = ca_cobble_mason_3
-		gold_cost = 300
-		build_time = 1095
-		light_infantry = 20
-		stone_soldier = 2
-		ai_creation_factor = 86
-
-		extra_tech_building_start = 0.2
-	}
+#cobble 
 #zuna chariot
 	ca_zuna_stable_1 = {
 		desc = ca_zuna_stable_desc
@@ -850,7 +663,7 @@ castle = {
 	ca_zuna_quarters_3 = {
 		desc = ca_zuna_quarters_desc
 		potential = {
-			culture = gerudo
+			culture = zuna 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		prerequisites = { ca_wall_2 }
