@@ -64,6 +64,19 @@ war_gyorg = {
 	phase_pursue_defense = 20
 	base_type = heavy_cavalry
 }
+#Iron Knuckle
+iron_knuckle = {
+	morale = 20
+	maintenance = 5
+	phase_skirmish_attack = 0
+	phase_melee_attack = 5
+	phase_pursue_attack = 0
+	phase_skirmish_defense = 10
+	phase_melee_defense = 5
+	phase_pursue_defense = 10
+	base_type = heavy_infantry
+}
+
 loftwing_knight = {
 	morale = 5
 	maintenance = 4

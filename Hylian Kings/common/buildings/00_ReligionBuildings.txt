@@ -1,0 +1,145 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ #<tag> = {
+ #	desc = description used in the tooltip of the building
+ #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
+ #	gold_cost = cost to build the building
+ #	build_time = time to build, in days
+ #	
+ #	ai_creation_factor = weight that the AI uses to determine what building to build
+ #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #}
+ 
+ # Castle
+temple = {
+	tp_goddesses_barracks_1 = {
+		desc = tp_goddesses_barracks_1_desc
+		potential = {
+			religion_group = goddesses
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 20
+		knights = 20
+		archers = 20
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	tp_goddesses_barracks_2 = {
+		desc = tp_goddesses_barracks_2_desc
+		potential = {
+			religion_group = goddesses
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { tp_wall_1 }
+		upgrades_from = tp_goddesses_barracks_1
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 30
+		knights = 30
+		archers = 30
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.0
+	}
+	tp_goddesses_barracks_3 = {
+		desc = tp_goddesses_barracks_3_desc
+		potential = {
+			religion_group = goddesses
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = tp_goddesses_barracks_2
+		gold_cost = 200
+		build_time = 1095
+		light_infantry = 40
+		knights = 40
+		archers = 40
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	tp_goddesses_barracks_4 = {
+		desc = tp_goddesses_barracks_3_desc
+		potential = {
+			religion_group = goddesses
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = tp_goddesses_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 50
+		knights = 50
+		archers = 50
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	tp_ik_barracks_1 = {
+		desc = tp_ik_barracks_1_desc
+		potential = {
+			religion_group = gerudo_religion
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		iron_knuckle = 10
+		pikemen = 10
+		archer = 10
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	tp_ik_barracks_2 = {
+		desc = tp_ik_barracks_2_desc
+		potential = {
+			religion_group = gerudo_religion
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { tp_wall_1 }
+		upgrades_from = tp_ik_barracks_1
+		gold_cost = 120
+		build_time = 547
+		iron_knuckle = 10
+		pikemen = 15
+		archer = 15
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.0
+	}
+	tp_ik_barracks_3 = {
+		desc = tp_ik_barracks_3_desc
+		potential = {
+			religion_group = gerudo_religion
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = tp_ik_barracks_2
+		gold_cost = 200
+		build_time = 1095
+		iron_knuckle = 10
+		pikemen = 20
+		archer = 20
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	tp_ik_barracks_4 = {
+		desc = tp_ik_barracks_3_desc
+		potential = {
+			religion_group = gerudo_religion
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = tp_ik_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		iron_knuckle = 20
+		pikemen = 30
+		archer = 30
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+}
+
