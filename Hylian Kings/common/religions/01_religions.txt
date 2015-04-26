@@ -190,282 +190,6 @@ goddesses = {
 	}
 }
 
-gerudo_religion = {
-	has_coa_on_barony_only = yes
-	graphical_culture = muslimgfx
-	playable = yes
-	ai_peaceful = no
-	
-	ai_convert_same_group = 2 # always try to convert
-	ai_convert_other_group = 2 # always try to convert
-	
-	gerudo_goddess = {
-		graphical_culture = muslimgfx
-
-		icon = 3
-		heresy_icon = 8
-
-		
-		color = { 0.8 0.8 0.6 }
-		
-		scripture_name = GODDESS_COMMANDS
-		priest_title = PRIEST
-		
-		allow_looting = yes
-		priests_can_marry = yes 
-		allow_female_priests = yes
-		can_hold_temples = yes 
-		allow_viking_invasion = yes
-
-
-
-		high_god_name = GOD_GODDESS_OF_THE_SAND
-		
-		god_names = {
-			GOD_DESERT_GODDESS GOD_GODDESS_OF_THE_SAND 
-		}
-		
-		evil_god_names = {
-				GOD_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE
-		}
-				
-		feminist = yes
-		max_wives = 4
-	}
-	serpent_goddess = {
-		graphical_culture = muslimgfx
-
-		icon = 3
-		heresy_icon = 8
-		
-		color = { 0.8 0.8 0.6 }
-		parent = gerudo_goddess		
-
-		scripture_name = SERPENT_WORD
-		priest_title = PRIEST
-		
-		allow_looting = yes
-		priests_can_marry = yes 
-		allow_female_priests = yes
-		allow_viking_invasion = yes
-
-
-		high_god_name = GODDESS_OF_SERPENTS
-		
-		god_names = {
-			GODDESS_OF_SERPENTS SERPINTIA 
-		}
-		
-	
-		feminist = yes
-		max_wives = 4
-	}
-	din_worship = {
-		graphical_culture = muslimgfx
-
-		icon = 3
-		heresy_icon = 8
-		
-		color = { 0.8 0.8 0.6 }
-		parent = gerudo_goddess
-
-		allow_looting = yes
-		priests_can_marry = yes 
-		allow_female_priests = yes
-		allow_viking_invasion = yes
-
-
-		crusade_name = CRUSADE
-		scripture_name = DIN_JUDGEMENT
-		priest_title = PRIEST
-		
-		high_god_name = GOD_DIN
-		
-		god_names = {
-			GOD_DIN
-		}
-				
-		feminist = yes
-		max_wives = 4
-	}
-	twinrova = {
-		graphical_culture = muslimgfx
-
-		icon = 3
-		heresy_icon = 8
-		
-		color = { 0.8 0.8 0.6 }
-		parent = gerudo_goddess
-
-		allow_looting = yes
-		priests_can_marry = yes 
-		allow_female_priests = yes
-		allow_viking_invasion = yes
-
-
-		priest_title = PRIEST
-		
-		high_god_name = TWINROVA
-		
-		god_names = {
-			TWINROVA
-		}
-				
-		feminist = yes
-		max_wives = 4
-	}
-	goddess_son = {
-		graphical_culture = muslimgfx
-
-		icon = 3
-		heresy_icon = 8
-		
-		color = { 0.8 0.8 0.6 }
-		parent = gerudo_goddess
-
-		allow_looting = yes
-		priests_can_marry = yes 
-		allow_female_priests = yes
-		allow_viking_invasion = yes
-
-
-		priest_title = PRIEST
-		
-		high_god_name = GOD_GODDESS_SON		
-		god_names = {
-			GOD_DESERT_GODDESS GOD_GODDESS_OF_THE_SAND GOD_GODDESS_SON
-		}
-		
-		evil_god_names = {
-				GOD_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE
-		}
-				
-		feminist = yes
-		max_wives = 4
-	}
-}
-
-twili = {
-	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
-	crusade_cb = crusade
-	playable = yes
-	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
-	
-	ai_convert_same_group = 1 # always try to convert
-	ai_convert_other_group = 1 # always try to convert
-	
-	sol = {
-		graphical_culture = westerngfx
-
-		icon = 49
-		heresy_icon = 50
-		
-		color = { 0.8 0.8 0.6 }
-		
-		crusade_name = CRUSADE
-		scripture_name = 	LIGHT_SONG
-		priest_title = PRIEST
-		
-		high_god_name = SOL
-		
-		god_names = {
-			SOL 
-		}		
-	}
-	divine_beast = {
-		graphical_culture = muslimgfx
-
-		icon = 49
-		heresy_icon = 50
-		
-		color = { 0.8 0.8 0.6 }
-		parent = sol
-		
-		scripture_name = GANONS_COMMANDMENTS
-		priest_title = PRIEST
-		
-		high_god_name = GOD_GANONDORF
-		
-		god_names = {
-			GOD_GANONDORF
-
-		}
-		max_consort = 3
-		can_loot = yes
-				
-	}
-}
-
-termian = {
-	has_coa_on_barony_only = yes
-	graphical_culture = norsegfx
-	crusade_cb = crusade
-	playable = yes
-	ai_peaceful = no 
-	
-	ai_convert_same_group = 2 # always try to convert
-	ai_convert_other_group = 2 # always try to convert
-	
-
-	majora = {
-		graphical_culture = norsegfx
-
-		icon = 10
-		heresy_icon = 12
-		
-		color = { 0.8 0.8 0.6 }
-		
-		allow_looting = yes
-		priests_can_marry = yes 
-		allow_female_priests = yes
-		allow_viking_invasion = yes
-
-
-		crusade_name = PURGE
-		scripture_name = MAJORA_MISCHIEF
-		priest_title = PRIEST
-		
-		high_god_name = GOD_MAJORA
-		
-		god_names = {
-			GOD_MAJORA
-		}
-		evil_god_names = {
-				GOD_FIERCE_DIETY
-		}
-		can_loot = yes
-		peace_prestige_loss = yes
-	}
-	fierce_diety = {
-		graphical_culture = norsegfx
-
-		icon = 11
-		heresy_icon = 12
-		
-		color = { 0.8 0.8 0.6 }
-
-		allow_looting = yes
-		priests_can_marry = yes		
-
-		crusade_name = PURGE
-		scripture_name = DIETY_ANGER
-		priest_title = PRIEST
-		allow_viking_invasion = yes
-
-		
-		high_god_name = GOD_FIERCE_DIETY
-		
-		god_names = {
-			GOD_FIERCE_DIETY
-		}
-		evil_god_names = {
-				GOD_MAJORA
-		}	
-		can_loot = yes
-		peace_prestige_loss = yes		
-	}
-}
 goron = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westernfx
@@ -626,6 +350,160 @@ zora = {
 		god_names = {
 			JAWBU_JAWBU ALL_EATER
 		}
+	}
+}
+gerudo_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	playable = yes
+	ai_peaceful = no
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	gerudo_goddess = {
+		graphical_culture = muslimgfx
+
+		icon = 3
+		heresy_icon = 8
+
+		
+		color = { 0.8 0.8 0.6 }
+		
+		scripture_name = GODDESS_COMMANDS
+		priest_title = PRIEST
+		
+		allow_looting = yes
+		priests_can_marry = yes 
+		allow_female_priests = yes
+		can_hold_temples = yes 
+		allow_viking_invasion = yes
+
+
+
+		high_god_name = GOD_GODDESS_OF_THE_SAND
+		
+		god_names = {
+			GOD_DESERT_GODDESS GOD_GODDESS_OF_THE_SAND 
+		}
+		
+		evil_god_names = {
+				GOD_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE
+		}
+				
+		feminist = yes
+		max_wives = 4
+	}
+	serpent_goddess = {
+		graphical_culture = muslimgfx
+
+		icon = 3
+		heresy_icon = 8
+		
+		color = { 0.8 0.8 0.6 }
+		parent = gerudo_goddess		
+
+		scripture_name = SERPENT_WORD
+		priest_title = PRIEST
+		
+		allow_looting = yes
+		priests_can_marry = yes 
+		allow_female_priests = yes
+		allow_viking_invasion = yes
+
+
+		high_god_name = GODDESS_OF_SERPENTS
+		
+		god_names = {
+			GODDESS_OF_SERPENTS SERPINTIA 
+		}
+		
+	
+		feminist = yes
+		max_wives = 4
+	}
+	din_worship = {
+		graphical_culture = muslimgfx
+
+		icon = 3
+		heresy_icon = 8
+		
+		color = { 0.8 0.8 0.6 }
+		parent = gerudo_goddess
+
+		allow_looting = yes
+		priests_can_marry = yes 
+		allow_female_priests = yes
+		allow_viking_invasion = yes
+
+
+		crusade_name = CRUSADE
+		scripture_name = DIN_JUDGEMENT
+		priest_title = PRIEST
+		
+		high_god_name = GOD_DIN
+		
+		god_names = {
+			GOD_DIN
+		}
+				
+		feminist = yes
+		max_wives = 4
+	}
+	twinrova = {
+		graphical_culture = muslimgfx
+
+		icon = 3
+		heresy_icon = 8
+		
+		color = { 0.8 0.8 0.6 }
+		parent = gerudo_goddess
+
+		allow_looting = yes
+		priests_can_marry = yes 
+		allow_female_priests = yes
+		allow_viking_invasion = yes
+
+
+		priest_title = PRIEST
+		
+		high_god_name = TWINROVA
+		
+		god_names = {
+			TWINROVA
+		}
+				
+		feminist = yes
+		max_wives = 4
+	}
+	goddess_son = {
+		graphical_culture = muslimgfx
+
+		icon = 3
+		heresy_icon = 8
+		
+		color = { 0.8 0.8 0.6 }
+		parent = gerudo_goddess
+
+		allow_looting = yes
+		priests_can_marry = yes 
+		allow_female_priests = yes
+		allow_viking_invasion = yes
+
+
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GODDESS_SON		
+		god_names = {
+			GOD_DESERT_GODDESS GOD_GODDESS_OF_THE_SAND GOD_GODDESS_SON
+		}
+		
+		evil_god_names = {
+				GOD_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE
+		}
+				
+		feminist = yes
+		max_wives = 4
 	}
 }
 
@@ -915,3 +793,125 @@ darknut = {
 		feminist = yes
 	}
 }
+twili = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 1 # always try to convert
+	ai_convert_other_group = 1 # always try to convert
+	
+	sol = {
+		graphical_culture = westerngfx
+
+		icon = 49
+		heresy_icon = 50
+		
+		color = { 0.8 0.8 0.6 }
+		
+		crusade_name = CRUSADE
+		scripture_name = 	LIGHT_SONG
+		priest_title = PRIEST
+		
+		high_god_name = SOL
+		
+		god_names = {
+			SOL DIVINE_BEAST
+		}		
+	}
+	divine_beast = {
+		graphical_culture = muslimgfx
+
+		icon = 49
+		heresy_icon = 50
+		
+		color = { 0.8 0.8 0.6 }
+		parent = sol
+		
+		scripture_name = GANONS_COMMANDMENTS
+		priest_title = PRIEST
+		
+		high_god_name = DIVINE_BEAST 
+		
+		god_names = {
+			DIVINE_BEAST 
+
+		}
+		max_consort = 3
+		can_loot = yes
+				
+	}
+}
+
+termian = {
+	has_coa_on_barony_only = yes
+	graphical_culture = norsegfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = no 
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+
+	majora = {
+		graphical_culture = norsegfx
+
+		icon = 10
+		heresy_icon = 12
+		
+		color = { 0.8 0.8 0.6 }
+		
+		allow_looting = yes
+		priests_can_marry = yes 
+		allow_female_priests = yes
+		allow_viking_invasion = yes
+
+
+		crusade_name = PURGE
+		scripture_name = MAJORA_MISCHIEF
+		priest_title = PRIEST
+		
+		high_god_name = GOD_MAJORA
+		
+		god_names = {
+			GOD_MAJORA
+		}
+		evil_god_names = {
+				GOD_FIERCE_DIETY
+		}
+		can_loot = yes
+		peace_prestige_loss = yes
+	}
+	fierce_diety = {
+		graphical_culture = norsegfx
+
+		icon = 11
+		heresy_icon = 12
+		
+		color = { 0.8 0.8 0.6 }
+
+		allow_looting = yes
+		priests_can_marry = yes		
+
+		crusade_name = PURGE
+		scripture_name = DIETY_ANGER
+		priest_title = PRIEST
+		allow_viking_invasion = yes
+
+		
+		high_god_name = GOD_FIERCE_DIETY
+		
+		god_names = {
+			GOD_FIERCE_DIETY
+		}
+		evil_god_names = {
+				GOD_MAJORA
+		}	
+		can_loot = yes
+		peace_prestige_loss = yes		
+	}
+}
+

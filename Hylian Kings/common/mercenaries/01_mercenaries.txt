@@ -1,0 +1,113 @@
+# Define mercenary types here now instead of in the static_composition.txt file
+# Also remember to tell the landed title to use this mercenary type instead.
+# Several titles can refer to the same type as well now.
+#Holy Order
+##Goddesses
+knight_farore = {
+	levy_size = 4
+	heavy_infantry = 400
+	knights = 200
+	light_cavalry = 300
+	horse_archers = 100
+}
+knights_nayru = {
+	levy_size = 4
+	heavy_infantry = 400
+	knights = 100
+	archers = 100
+	pikemen = 400
+}
+knights_din = {
+	levy_size = 4
+	heavy_infantry = 400
+	knights = 400
+	archers = 200
+}
+##Goddess
+knights_hylia = {
+	levy_size = 4
+	heavy_infantry = 400
+	loftwing_knight = 400
+	archers = 200
+}
+dragon_desciples = {
+	levy_size = 4
+	heavy_infantry = 400
+	loftwing_knight = 200
+	archers = 200
+	knights = 200
+}
+# Goron
+ruby_guard = {
+	levy_size = 4
+	heavy_infantry = 500
+	archers = 400
+}
+magma_brothers = {
+	levy_size = 4
+	heavy_infantry = 400
+	archers = 200
+	light_infantry = 400
+}
+#jabu-jabu
+jabu_caretakers = {
+	levy_size = 4
+	heavy_infantry = 400
+	archers = 200
+	pikemen = 400
+}
+deep_maidens = {
+	levy_size = 4
+	heavy_infantry = 400
+	light_infantry = 200
+	archers = 200
+	pikemen = 200
+}
+#gerudo
+goddesss_daughters = {
+	levy_size = 4
+	heavy_infantry = 200
+	iron_knuckle = 50
+	knights = 200
+	archers = 150
+	horse_archers = 200
+	pikemen = 200
+}
+#Deku
+emberald_guard = {
+	levy_size = 4
+	heavy_infantry = 400
+	archers = 300
+	pikemen = 300
+}
+#Maku
+maku_guard = {
+	levy_size = 4
+	heavy_infantry = 400
+	knights = 300
+	archers = 100
+	pikemen = 200
+}
+warrior_tree = {
+	levy_size = 4
+	heavy_infantry = 400
+	knights = 100
+	archers = 300
+	pikemen = 200
+}
+#Twili
+knights_sol = {
+	levy_size = 4
+	heavy_infantry = 400
+	knights = 100
+	light_cavalry = 300
+	archers = 200
+}
+beast_sons = {
+	levy_size = 4
+	heavy_infantry = 400
+	light_infantry = 100
+	wolf_riders = 300
+	archers = 200
+}
+#mercanaries
