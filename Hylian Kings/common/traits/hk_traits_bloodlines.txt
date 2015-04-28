@@ -24,7 +24,7 @@ bloodline_debon = {
 	diplomacy = +1
 	prestige = +1
 }
-#not direct descendents or ra, ‘adopted’
+#not direct descendents or ra, ‘adopted/educated’
 bloodline_sage = {
 	learning = +2
 	piety = +1
@@ -36,4 +36,14 @@ bloodline_firstborn = {
 	Prestige = +1
 	ai_honor = -10
 }
-
+#OOT
+bloodline_ganondorf = {
+	Martial = +2
+	intrigue = +1
+	ai_honor = -10
+}
+#created
+bloodline_ascended = {
+	Martial = +2
+	piety = +1
+}

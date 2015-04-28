@@ -760,37 +760,111 @@ stalfos = {
 	}
 }
 
-darknut = {
+darknut_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = zorestingfx
 	playable = yes
 	ai_peaceful = no # Will make Hordes lose their super aggressiveness
 	
-	ai_convert_same_group = 2 # always try to convert
+	ai_convert_same_group = 1 # always try to convert
 	ai_convert_other_group = 2 # always try to convert
 
-#way of blade (bushido)
-#way of axe (norse)
-#way of mace (chivalry)
-#way of shield (spartiates)
-	council = {
+#code_of_honor (defensive)
+	honor = {
 
 		icon = 30
 		heresy_icon = 31
 		
 		color = { 0.8 0.8 0.6 }		
-		parent = law
 
-		female_priest = yes
 
-		scripture_name = IMUTABLE_LAWS
-		priest_title = JUDGE
+		scripture_name = IMUTABLE_CODE
+		priest_title = EXAMPLAR
 		
 		high_god_name = GOD_JUDICUS		
 		god_names = {
-			GOD_JUDICUS GOD_ARBITUS GOD_MERCYUS
+			SHIELD HELM BREASTPLATE WALLS
+		}
+		
+	}
+#way of the phalanx (middle ground)
+	phalanx = {
+
+		icon = 30
+		heresy_icon = 31
+		
+		color = { 0.8 0.8 0.6 }		
+
+		scripture_name = MUTABLE_LAWS
+		priest_title = JUDGE
+				
+		god_names = {
+			SWORD MACE SHIELD HELM
 		}
 		feminist = yes
+		can_loot = yes
+		max_wives = 4
+	}
+
+#path of war (warlike)
+	war = {
+
+		icon = 30
+		heresy_icon = 31
+		
+		color = { 0.8 0.8 0.6 }		
+
+		female_priest = yes
+
+		scripture_name = MANDATE
+		priest_title = REAVER
+		
+		
+		god_names = {SWORD HAMMER MAUL MACE
+		}
+		can_loot = yes
+		peace_prestige_loss = yes
+		max_consort = 3
+	}
+	old_gods = {
+
+		icon = 30
+		heresy_icon = 31
+		
+		color = { 0.8 0.8 0.6 }		
+
+		female_priest = yes
+
+		scripture_name = 
+		priest_title = PRIEST
+		
+		high_god_name =		
+		god_names = {
+	
+		}
+		max_consort = 3
+		can_loot = yes
+		peace_prestige_loss = yes
+
+	}
+	ascended = {
+
+		icon = 30
+		heresy_icon = 31
+		
+		color = { 0.8 0.8 0.6 }		
+
+		female_priest = yes
+
+		scripture_name = 
+		priest_title = PRIEST
+		
+		high_god_name = 
+		god_names = {
+			
+		}
+		max_wives = 4
+		can_loot = yes
 	}
 }
 twili = {
