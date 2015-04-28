@@ -1,19 +1,11 @@
-mask_truth = {
-	intrigue = +10
-	
-}
-
-lens_truth = {
-	intrigue = +10
-}
-
 fairy_companion = {
 	martial = +2
 	intrigue = +2
-	diplomacy = -1
+	diplomacy = -2
 }
 piccori_companion = {
 	intrigue = +2
+	learning = +1
 	general_oppinion = -10
 	same_opinion = +20
 }
@@ -27,79 +19,21 @@ mail = {
 		defence = +0.01
 	}
 }
-mail_tunic = {
-	martial = +2
-	command_modifier = {
-		defence = +0.01
-		morale_defence = +0.02
-	}
-}
-plate_tunic = {
-	martial = +3
-	command_modifier = {
-		defence = +0.02
-		morale_defence = +0.02
-		speed = -0.2
-	}
-}
-hylian_horse = {
-	martial = +3
-	command_modifier = {
-		speed = +0.01
-		morale_offense = +0.02
-	}
-}
-gerudo_horse = {
-	martial = +2
-	command_modifier = {
-		speed = +0.04
-		light_cavalry_morale = +0.02
-	}
-}
-loftwing = {
-	martial = +2
-	command_modifier = {
-		speed = +0.03
-		morale_defense = +0.02
-	}
-}
-hylian_squire = {
-	martial = +1
-}
-hylian_knight = {
-	martial = +2
-	command_modifier = {
-		morale_defense = +0.04
-	}
-
-}
-loftwing_knight = {
-	Martial = +3
-	command_modifier = {
-		morale_defense = +0.04
-		speed = +0.03
-	}
-}
-iron_knuckle = {
-	martial = +4
-	health = +2
-	fertility = -100
-
-	cannot_inherit = yes
-	cannot_marry = yes
-
-	ai_ambition = -100
-	ai_honor = +100
-	command_modifier = {
-		morale_defense = +0.04
-		specil_unit_defense = +0.03
-	}
-}
+#weapon
 bomb_bag = {
 	martial = +2
 	command_modifier = {
 		morale_offense = +.08
 	}
+}
+#magic
+mask_truth = {
+	intrigue = +5
+	
+}
+
+lens_truth = {
+	intrigue = +10
 }
 sand_rod = {
 	}
@@ -116,3 +50,26 @@ fire_rod = {
 	command_modifier = {
 	}
 }
+#mounts
+loftwing = {
+	martial = +1
+	command_modifier = {
+		speed = +0.03
+		morale_defense = +0.02
+	}
+}
+hyrulean_horse = {
+	martial = +2
+	command_modifier = {
+		speed = +0.01
+		morale_offense = +0.02
+	}
+}
+gerudo_horse = {
+	martial = +2
+	command_modifier = {
+		speed = +0.04
+		light_cavalry_morale = +0.02
+	}
+}
+

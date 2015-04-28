@@ -1,0 +1,59 @@
+#hyrulean
+hyrulean_squire = {
+	martial = +1
+}
+hyrulean _knight = {
+	martial = +2
+	command_modifier = {
+		morale_defense = +0.04
+	}
+
+} 
+##knight
+mail_tunic = {
+	martial = +2
+	command_modifier = {
+		defence = +0.01
+		morale_defence = +0.02
+	}
+}
+##knight
+plate_tunic = {
+	martial = +3
+	command_modifier = {
+		defence = +0.02
+		morale_defence = +0.02
+		speed = -0.2
+	}
+}
+#gerudo
+##unwilling
+gerudo_boyfriend = {
+	cannot_inherit = yes
+	cannot_marry = yes
+
+	prestige = -1
+}
+##willing (stockholme event/willingly)
+gerudo_lover = {
+	cannot_marry = yes
+}
+#skyloft
+loftwing_cadet = {
+	Martial = +1
+	prestige = +0.5
+
+} 
+loftwing_failed = {
+	Martial = +1
+	prestige = -1
+
+}
+loftwing_knight = {
+	Martial = +3
+	prestige = +1
+	command_modifier = {
+		morale_defense = +0.04
+		speed = +0.03
+	}
+}

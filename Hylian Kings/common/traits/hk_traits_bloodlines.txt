@@ -1,0 +1,39 @@
+#starting
+bloodline_gustaf = {
+	opposites = {
+		bloodline_hero
+	bloodline_firstborn 
+		}
+	diplomacy = +2
+	learning = +1
+	prestige = +1
+}
+bloodline_hero = {
+	opposites = {
+		bloodline_gustaf
+	bloodline_firstborn 
+		}
+	martial = +1
+}
+bloodline_lonlon = {
+	stewardship = +1
+	prestige = -0.5
+}
+bloodline_debon = {
+	learning = +1
+	diplomacy = +1
+	prestige = +1
+}
+#not direct descendents or ra, ‘adopted’
+bloodline_sage = {
+	learning = +2
+	piety = +1
+	ai_honor = +10
+}
+#demise’s creations, his first of each ‘breed’
+bloodline_firstborn = {
+	Martial = +2
+	Prestige = +1
+	ai_honor = -10
+}
+
