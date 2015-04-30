@@ -824,7 +824,6 @@ darknut_religion = {
 		}
 		can_loot = yes
 		peace_prestige_loss = yes
-		max_consort = 3
 	}
 	old_gods = {
 
@@ -863,7 +862,7 @@ darknut_religion = {
 		god_names = {
 			
 		}
-		max_wives = 4
+		max_consort = 3
 		can_loot = yes
 	}
 }
