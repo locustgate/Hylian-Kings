@@ -640,17 +640,17 @@ deku = {
 	}
 }
 blin = {
-	bulblin = {
+	bokoblin = {
 		graphical_culture = tengrigfx
 		
 		color = { 0.3 0.55 0.8 }
 		
 		
 		male_names = {
-			Bulblin Bulbos Bos Bulin Vulcin Baden Burl Bub Bulin Buler Balun Baris Bubin Bubir Bilubun Vilur Vuren Ralus Buda Vubos Biden Bun Bubis Biris Bolin Ben Vub Bas Ralis Bedun Vedas Buleb Belcen Rolun Rolon Babus Roles Babir Bilcun Bolaris Belin Rib Budus Bodir Rolos Bulis Biben Buris Bubun Vulus Bolen Rolulun Bidir Burib Borar Bulban Voros Rilun Beben Rurun Relbus Boren Ridir Rolib Balen Rilir Belur Bulir Vulelen Vulir Belulbun Bolir Roliban Bilcir Rubir Bilun Bibir Vir Bulbun Birir Burir Velbar Bubus Vabir Barurl Bulin Rolub Bobir Rolir Rolis Virolbis Boris Bulon Volen Relen Bulan Vulen Biren Belar Berir
+			Gaurud Garudin Berle Harv Herid Wield Heri Weld Del Heil Ruck Wierva Hauri Dire Haurere Redan Helad Wiri Reru Radil Dere Wien Berlen Dilen Hool Wirv Barel Herud Weres Bitin Gerle Bitid Reras Beran Bien Beres Bitack Berin Rerli Ruderv Werel Biten Huld Rered Ruren Tetel Reril Weral Hetuld Derei Deren Hares Dederal Hurire Beras Wadire Werlin Dirv Erel Weir Derere Reren Rire Wurure Hire Hade Hure Wuld Dare Hereld Biere Gure Bitene Bereld Bildirv Rurad Dien Herul Werin Hane Erirv Rerirli Deril Dedud Werid Wire Weris Beri Beren Reld Hare Heled Hirv Dedure Werirul Berul Weril Werud Werel Ries
 		}
 		female_names = {
-			Valar Bes Bulbes Vikyr Bolben Bira Riba Bura Rua Ria Rares Rolaba Bolcilca Bilba Buria Bilir Rola Velba Baban Bilua Ruria Rolur Bales Balura Rolus Rires Relus Bulen Burun Boron Belen Belbus Bel Bedilir Budir Budibir Viria Belia Bububua Bulba Barun Bulbir Bala Beres Bidelun Rolua Velan Bibun Berun Rilis Bilen Balubun Rulba Vuba Bires Buben Velen Bules Birl Beria Rilen Bilis Bubes Bilca Rabab Vuria Bolus Babir Vubun Berir Bulas Bilcin Bola Bolon Bulus Rolar Bibis Bubilen Rulin Rulen Rilba Ralib Rira Relbir Vula Vurun Rir Relca Riris Bula Rilin Ribir Vulca Velua Bulia Bebulba Valba Baria Buba Rilcolulua
+			Wielda Herida Elfyne Roonin Delei Herita Elfin Berlis Dari Welda Rera Wira Wita Beneira Weldi Hetena Hieda Hera Dieti Hura Bera Helen Enira Biera Wauta Hiede Welfa Helal Hanera Hildes Dera Dita Hereta Werela Helid Gieta Ereta Rirv Huleta Woora Hirera Welun Erien Birei Heli Hirid Rild Harun Herir Bara Reiri Werli Wereti Rirera Enina Wera Hielirv Wereld Direta Rurla Rerada Hiere Girv Bitil Wilda Wena Hirirv Hiras Hira Hiera Rurli Erlal Betul Helei Heren Welde Werla Birira Weda Hirla Wirla Geta Wela Heta Wuta Dira Bita Belda Birera Hara Hena Dura Berana Elaun Weta Rira Rerla Wiera Goora Dauta
 		}
 		
 		dukes_called_kings = yes
@@ -670,17 +670,17 @@ blin = {
 		modifier = default_culture_modifier
 
 	}
-	bokoblin = {
+ 	bulblin = {
 		graphical_culture = tengrigfx
 		
 		color = { 0.3 0.55 0.8 }
 		
 		
 		male_names = {
-			Gaurud Garudin Berle Harv Herid Wield Heri Weld Del Heil Ruck Wierva Hauri Dire Haurere Redan Helad Wiri Reru Radil Dere Wien Berlen Dilen Hool Wirv Barel Herud Weres Bitin Gerle Bitid Reras Beran Bien Beres Bitack Berin Rerli Ruderv Werel Biten Huld Rered Ruren Tetel Reril Weral Hetuld Derei Deren Hares Dederal Hurire Beras Wadire Werlin Dirv Erel Weir Derere Reren Rire Wurure Hire Hade Hure Wuld Dare Hereld Biere Gure Bitene Bereld Bildirv Rurad Dien Herul Werin Hane Erirv Rerirli Deril Dedud Werid Wire Weris Beri Beren Reld Hare Heled Hirv Dedure Werirul Berul Weril Werud Werel Ries
+			Bulblin Bulbos Bos Bulin Vulcin Baden Burl Bub Bulin Buler Balun Baris Bubin Bubir Bilubun Vilur Vuren Ralus Buda Vubos Biden Bun Bubis Biris Bolin Ben Vub Bas Ralis Bedun Vedas Buleb Belcen Rolun Rolon Babus Roles Babir Bilcun Bolaris Belin Rib Budus Bodir Rolos Bulis Biben Buris Bubun Vulus Bolen Rolulun Bidir Burib Borar Bulban Voros Rilun Beben Rurun Relbus Boren Ridir Rolib Balen Rilir Belur Bulir Vulelen Vulir Belulbun Bolir Roliban Bilcir Rubir Bilun Bibir Vir Bulbun Birir Burir Velbar Bubus Vabir Barurl Bulin Rolub Bobir Rolir Rolis Virolbis Boris Bulon Volen Relen Bulan Vulen Biren Belar Berir
 		}
 		female_names = {
-			Wielda Herida Elfyne Roonin Delei Herita Elfin Berlis Dari Welda Rera Wira Wita Beneira Weldi Hetena Hieda Hera Dieti Hura Bera Helen Enira Biera Wauta Hiede Welfa Helal Hanera Hildes Dera Dita Hereta Werela Helid Gieta Ereta Rirv Huleta Woora Hirera Welun Erien Birei Heli Hirid Rild Harun Herir Bara Reiri Werli Wereti Rirera Enina Wera Hielirv Wereld Direta Rurla Rerada Hiere Girv Bitil Wilda Wena Hirirv Hiras Hira Hiera Rurli Erlal Betul Helei Heren Welde Werla Birira Weda Hirla Wirla Geta Wela Heta Wuta Dira Bita Belda Birera Hara Hena Dura Berana Elaun Weta Rira Rerla Wiera Goora Dauta
+			Valar Bes Bulbes Vikyr Bolben Bira Riba Bura Rua Ria Rares Rolaba Bolcilca Bilba Buria Bilir Rola Velba Baban Bilua Ruria Rolur Bales Balura Rolus Rires Relus Bulen Burun Boron Belen Belbus Bel Bedilir Budir Budibir Viria Belia Bububua Bulba Barun Bulbir Bala Beres Bidelun Rolua Velan Bibun Berun Rilis Bilen Balubun Rulba Vuba Bires Buben Velen Bules Birl Beria Rilen Bilis Bubes Bilca Rabab Vuria Bolus Babir Vubun Berir Bulas Bilcin Bola Bolon Bulus Rolar Bibis Bubilen Rulin Rulen Rilba Ralib Rira Relbir Vula Vurun Rir Relca Riris Bula Rilin Ribir Vulca Velua Bulia Bebulba Valba Baria Buba Rilcolulua
 		}
 		
 		dukes_called_kings = yes
