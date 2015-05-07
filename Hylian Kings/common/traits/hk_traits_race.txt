@@ -1,43 +1,43 @@
 race_hylian = {
-	diplomacy = +1
-	learning = +2
+	diplomacy = 1
+	learning = 2
 	same_opinion = 5
 	opposite_opinion = -10
 
-	ai_honor = +10
+	ai_honor = 10
 }
 race_sheikah = {
 	opposites = {
 		hylian_blood
 	}
-	intrigue = +4
-	martial = +3
+	intrigue = 4
+	martial = 3
 	same_opinion = 5
-	opposite_opinion = +50
+	opposite_opinion = 50
 
-	ai_honor = +20
-	ai_zeal = +20
+	ai_honor = 20
+	ai_zeal = 20
 
 }
 race_gerudo = {
 	opposites = {
 		race_hylian
 	}
-	intrigue = +1
-	martial = +2
+	intrigue = 1
+	martial = 2
 	same_opinion = 5
 	opposite_opinion = -10
 
 	ai_honor = -5
-	ai_ambition = +10
+	ai_ambition = 10
 
 }
 race_zora = {
-	martial = +1
-	learning = +2
+	martial = 1
+	learning = 2
 	same_opinion = 5
 
-	ai_honor = +5		
+	ai_honor = 5		
 }
 race_zola = {
 	opposites = {
@@ -47,29 +47,29 @@ race_zola = {
 		race_goron
 		race_kokiri
 	}
-	martial = +4
+	martial = 4
 	learning = -2
 	opposite_opinion = -10
 
-	ai_ambition = +10
-	ai_rationality = +10
+	ai_ambition = 10
+	ai_rationality = 10
 	ai_honor = -10		
 }
 race_goron = {
-	health = +3
-	martial = +3
-	stewardship = +3
+	health = 3
+	martial = 3
+	stewardship = 3
 	same_opinion = 5
 
-	ai_rationality = +10
+	ai_rationality = 10
 
 	immortal = yes
 	
 }
 race_kokiri = {
-	health = +1
+	health = 1
 	martial = -2
-	learning = +2
+	learning = 2
 	same_opinion = 5
 
 	immortal = yes
@@ -78,66 +78,116 @@ race_kokiri = {
 	
 }
 race_stulkid = {
-	health = +1
+	health = 1
 	martial = -2
 	same_opinion = 5
 	fertility = -1000
 
-	ai_zeal = +10
+	ai_zeal = 10
 	ai_honor = -10
-	ai_ambition = +10
+	ai_ambition = 10
 
 	immortal = yes
 	
 }
 race_lizalfos = {
-	martial = +3
+	martial = 3
 	same_opinion = 5
 
-	ai_ambition = +10	
+	ai_ambition = 10	
 }
 race_tokay = {
-	intrigue = +3
+	intrigue = 3
 	same_opinion = 5
 
-	ai_greed = +10
+	ai_greed = 10
 
 }
 race_darknut = {
-	health = +1
-	martial = +3
+	health = 1
+	martial = 3
 	same_opinion = 5
 
-	ai_honor = +20
-	ai_rationality = +10	
+	ai_honor = 20
+	ai_rationality = 10	
+}
+race_zuna = {
+	stewardship = 2
+	same_opinion = 5
+
 }
 race_stalfos = {
-	health = +5
-	martial = +5
-	learning = +5
+	health = 5
+	martial = 5
+	learning = 5
 	same_opinion = 5
 	fertility = -1000
 
 	ai_honor = -20
-	ai_rationality = +30
+	ai_rationality = 30
 
 	imortal = yes	
 }
 race_twili = {
-	stewardship = +1
-	learning = +2
+	stewardship = 1
+	learning = 2
 
-	ai_rationality = +10
-	ai_ambition = +5
+	ai_rationality = 10
+	ai_ambition = 5
 
 }
 race_deku = {
-	martial = +2
+	martial = 2
 	learning = -2
 	same_opinion = 5
 
-	ai_ambition = +10
+	ai_ambition = 10
 	ai_rationality = -10
+}
+race_tree_deity = {
+
+	opposite = {
+		race_tree_demon
+	} 
+	martial = -5
+	learning = 5
+	opposite_opinion = -50
+	same_opinion = 5
+
+	ai_ambition = -50
+	ai_honor = 50
+}
+race_tree_demon = {
+	opposite = {
+		race_tree_deity
+	}
+	martial = 5
+	learning = -5
+	opposite_opinion = -50
+	same_opinion = 5
+
+	ai_ambition = 50
+	ai_honor = -50
+}
+race_fairy = {
+	diplomacy = 2
+	learning = 2
+	same_opinion = 5
+	general_opinion = 10
+
+	immortal = yes
+}
+race_demon = {
+	martial = 2
+	diplomacy = -2
+	same_opinion = 20
+	general_opinion = -10
+	opposite_oppinon = -10
+
+	ai_ambition = 10
+	ai_honor = -10
+
+	immortal = yes
 }
 
 incompatible_marriage = {
