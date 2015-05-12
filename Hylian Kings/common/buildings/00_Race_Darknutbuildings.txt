@@ -180,7 +180,7 @@ castle = {
 		upgrades_from = ca_darknut_forge_1
 		gold_cost = 120
 		build_time = 547
-		tax_income = 1.5
+		tax_income = 1
 		heavy_infantry = 5
 
 		ai_creation_factor = 99
@@ -197,7 +197,7 @@ castle = {
 		upgrades_from = ca_darknut_forge_2
 		gold_cost = 200
 		build_time = 730
-		tax_income = 2
+		tax_income = 1
 		heavy_infantry = 5
 
 		ai_creation_factor = 98
@@ -213,7 +213,7 @@ castle = {
 		upgrades_from = ca_darknut_forge_3
 		gold_cost = 300
 		build_time = 1095
-		tax_income = 2
+		tax_income = 1
 		heavy_infantry = 5
 
 		ai_creation_factor = 97
@@ -229,7 +229,7 @@ castle = {
 		upgrades_from = ca_darknut_forge_4
 		gold_cost = 400
 		build_time = 2190
-		tax_income = 2
+		tax_income = 1
 		heavy_infantry = 5
 
 		ai_creation_factor = 96
@@ -245,7 +245,7 @@ castle = {
 		upgrades_from = ca_darknut_forge_5
 		gold_cost = 500
 		build_time = 2190
-		tax_income = 2
+		tax_income = 1
 		heavy_infantry = 5
 
 		ai_creation_factor = 96
@@ -417,8 +417,118 @@ city = {
 		extra_tech_building_start = 0.2
 	}
 
-	ct_darknut_forge_1 = {
-		desc = ct_darknut_forge_1_desc
+	ct_arena_1 = {
+		desc = ct_arena_1_desc
+		potential = {
+			culture = darknut
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		tax_income = 1
+		light_infantry = 10
+		ai_creation_factor = 110
+		add_number_to_name = no
+		
+		extra_tech_building_start = 0.4
+	}
+	ct_arena_2 = {
+		desc = ct_arena_2_desc
+		potential = {
+			culture = darknut
+		}
+		prerequisites = { ct_wall_1 }
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		upgrades_from = ct_arena_1
+		gold_cost = 120
+		build_time = 547
+		tax_income = 1
+		light_infantry = 20
+
+		ai_creation_factor = 109
+		add_number_to_name = no
+
+		extra_tech_building_start = 0.8
+	}
+	ct_arena_3 = {
+		desc = ct_arena_3_desc
+		potential = {
+			culture = darknut
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 1 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_arena_2
+		gold_cost = 200
+		build_time = 730
+		tax_income = 1
+		heavy_infantry = 5
+		light_infantry = 30
+
+
+		ai_creation_factor = 108
+		add_number_to_name = no
+
+		extra_tech_building_start = 0.2
+	}
+	ct_arena_4 = {
+		desc = ct_arena_4_desc
+		potential = {
+			culture = darknut
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 3 }
+		upgrades_from = ct_arena_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 5
+		light_infantry = 30
+
+
+		tax_income = 1
+		ai_creation_factor = 107
+		add_number_to_name = no
+
+		extra_tech_building_start = 0.2
+	}
+	ct_arena_5 = {
+		desc = ct_arena_5_desc
+		potential = {
+			culture = darknut
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 5 }
+		upgrades_from = ct_arena_4
+		gold_cost = 400
+		build_time = 2190
+		tax_income = 1
+		heavy_infantry = 5
+		light_infantry = 30
+
+
+		ai_creation_factor = 106
+		add_number_to_name = no
+
+		extra_tech_building_start = 0.2
+	}
+	ct_arena_6 = {
+		desc = ct_arena_6_desc
+		potential = {
+			culture = darknut
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 7 }
+		upgrades_from = ct_arena_5
+		gold_cost = 500
+		build_time = 2190
+		tax_income = 1
+		heavy_infantry = 5
+		light_infantry = 30
+
+
+		ai_creation_factor = 105
+		add_number_to_name = no
+
+		extra_tech_building_start = 0.2
+	}
+	ct_smith_1 = {
+		desc = ct_smith_1_desc
 		potential = {
 			culture = darknut
 		}
@@ -426,93 +536,93 @@ city = {
 		gold_cost = 100
 		build_time = 365
 		tax_income = 2
-		heavy_infantry = 20
 		ai_creation_factor = 110
 		add_number_to_name = no
 		
 		extra_tech_building_start = 0.4
 	}
-	ct_darknut_forge_2 = {
-		desc = ct_darknut_forge_2_desc
+	ct_smith_2 = {
+		desc = ct_smith_2_desc
 		potential = {
 			culture = darknut
 		}
 		prerequisites = { ct_wall_1 }
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
-		upgrades_from = ct_darknut_forge_1
+		upgrades_from = ct_smith_1
 		gold_cost = 120
 		build_time = 547
 		tax_income = 2
-		heavy_infantry = 25
+		heavy_infantry = 10
 
 		ai_creation_factor = 109
 		add_number_to_name = no
 
 		extra_tech_building_start = 0.8
 	}
-	ct_darknut_forge_3 = {
-		desc = ct_darknut_forge_3_desc
+	ct_smith_3 = {
+		desc = ct_smith_3_desc
 		potential = {
 			culture = darknut
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 1 }
 		prerequisites = { ct_wall_2 }
-		upgrades_from = ct_darknut_forge_2
+		upgrades_from = ct_smith_2
 		gold_cost = 200
 		build_time = 730
-		tax_income = 3
-		heavy_infantry = 25
+		tax_income = 2
+		heavy_infantry = 15
+
 
 		ai_creation_factor = 108
 		add_number_to_name = no
 
 		extra_tech_building_start = 0.2
 	}
-	ct_darknut_forge_4 = {
-		desc = ct_darknut_forge_4_desc
+	ct_smith_4 = {
+		desc = ct_smith_4_desc
 		potential = {
 			culture = darknut
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 3 }
-		upgrades_from = ct_darknut_forge_3
+		upgrades_from = ct_smith_3
 		gold_cost = 300
 		build_time = 1095
-		heavy_infantry = 30
+		heavy_infantry = 15
 
-		tax_income = 3
+		tax_income = 2
 		ai_creation_factor = 107
 		add_number_to_name = no
 
 		extra_tech_building_start = 0.2
 	}
-	ct_darknut_forge_5 = {
-		desc = ct_darknut_forge_5_desc
+	ct_smith_5 = {
+		desc = ct_smith_5_desc
 		potential = {
 			culture = darknut
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 5 }
-		upgrades_from = ct_darknut_forge_4
+		upgrades_from = ct_smith_4
 		gold_cost = 400
 		build_time = 2190
-		tax_income = 3
-		heavy_infantry = 30
+		tax_income = 2
+		heavy_infantry = 20
 
 		ai_creation_factor = 106
 		add_number_to_name = no
 
 		extra_tech_building_start = 0.2
 	}
-	ct_darknut_forge_6 = {
-		desc = ct_darknut_forge_6_desc
+	ct_smith_6 = {
+		desc = ct_smith_6_desc
 		potential = {
 			culture = darknut
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 7 }
-		upgrades_from = ct_darknut_forge_5
+		upgrades_from = ct_smith_5
 		gold_cost = 500
 		build_time = 2190
-		tax_income = 3
-		heavy_infantry = 30
+		tax_income = 2
+		heavy_infantry = 20
 
 		ai_creation_factor = 105
 		add_number_to_name = no

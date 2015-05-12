@@ -1,0 +1,730 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ #<tag> = {
+ #	desc = description used in the tooltip of the building
+ #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
+ #	gold_cost = cost to build the building
+ #	build_time = time to build, in days
+ #	
+ #	ai_creation_factor = weight that the AI uses to determine what building to build
+ #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #}
+ 
+ # Castle
+castle = {
+	ca_lfos_wall_1 = {
+		potential = {
+			culture_group = lfos
+		}
+		desc = ca_lfos_wall_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 365
+		fort_level = 0.5
+		levy_size = 0.025
+		tax_income = 0.2
+		ai_creation_factor = 90
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_lfos_wall_2 = {
+		potential = {
+			culture_group = lfos
+		}
+		desc = ca_lfos_wall_2_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		upgrades_from = ca_lfos_wall_1
+		gold_cost = 50
+		build_time = 547 #1.5y
+		fort_level = 0.5
+		levy_size = 0.025
+		tax_income = 0.2
+		ai_creation_factor = 89
+		
+		extra_tech_building_start = 0.2
+	}
+	ca_lfos_cavern_1 = {
+		potential = {
+			culture_group = lfos
+			terrain = mountains
+		}
+		desc = ca_lfos_cavern_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		upgrades_from = ca_lfos_wall_2
+		gold_cost = 50
+		build_time = 730 #2y
+		fort_level = 1.0
+		levy_size = 0.1
+		tax_income = 0.2
+		ai_creation_factor = 90
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_lfos_cavern_2 = {
+		potential = {
+			culture_group = lfos
+			terrain = jungle
+			terrain = forest
+		}
+		desc = ca_lfos_cavern_2_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		upgrades_from = ca_lfos_cavern_1
+		gold_cost = 50
+		build_time = 1095 #3y
+		fort_level = 1.0
+		levy_size = 0.1
+		tax_income = 0.2
+		ai_creation_factor = 89
+		
+		extra_tech_building_start = 0.2
+	}
+	ca_lfos_tree_1 = {
+		potential = {
+			culture_group = lfos
+			terrain = jungle
+			terrain = forest
+
+		}
+		desc = ca_lfos_tree_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		upgrades_from = ca_lfos_wall_2
+		gold_cost = 50
+		build_time = 730 #2y
+		fort_level = 1.0
+		levy_size = 0.1
+		tax_income = 0.2
+		ai_creation_factor = 90
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_lfos_tree_2 = {
+		potential = {
+			culture_group = lfos
+			terrain = jungle
+			terrain = forest 
+		}
+		desc = ca_lfos_tree_2_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		upgrades_from = ca_lfos_tree_1
+		gold_cost = 50
+		build_time = 1095 #3y
+		fort_level = 1.0
+		levy_size = 0.1
+		tax_income = 0.2
+		ai_creation_factor = 89
+		
+		extra_tech_building_start = 0.2
+	}
+	ca_aer_tree_1 = {
+		potential = {
+			culture_group = aeralfos
+			terrain = jungle
+			terrain = forest
+
+		}
+		desc = ca_aer_tree_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		upgrades_from = ca_aer_wall_1
+		gold_cost = 50
+		build_time = 730 #2y
+		fort_level = 1.0
+		levy_size = 0.1
+		tax_income = 0.2
+		ai_creation_factor = 90
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_aer_tree_2 = {
+		potential = {
+			culture = aeralfos
+			terrain = jungle
+			terrain = forest
+
+		}
+		desc = ca_aer_tree_2_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		upgrades_from = ca_aer_tree_1
+		gold_cost = 50
+		build_time = 1095 #3y
+		fort_level = 1.0
+		levy_size = 0.1
+		tax_income = 0.2
+		ai_creation_factor = 89
+		
+		extra_tech_building_start = 0.2
+	}
+	ca_aer_aerie_1 = {
+		potential = {
+			culture_group = aeralfos
+			terrain = mountain
+
+		}
+		desc = ca_aer_aerie_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		upgrades_from = ca_lfos_wall_2
+		gold_cost = 50
+		build_time = 730 #2y
+		fort_level = 1.0
+		levy_size = 0.1
+		tax_income = 0.2
+		ai_creation_factor = 90
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_aer_aerie_2 = {
+		potential = {
+			culture = aeralfos
+			terrain = mountain
+
+		}
+		desc = ca_aer_aerie_2_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		upgrades_from = ca_aer_lfos_1
+		gold_cost = 50
+		build_time = 1095 #3y
+		fort_level = 2.0
+		levy_size = 0.1
+		tax_income = 0.2
+		ai_creation_factor = 89
+		
+		extra_tech_building_start = 0.2
+	}
+	ca_lfos_hatchery_1 = {
+		desc = ca_lfos_hatchery_1_desc
+		potential = {
+			culture_group = lfos
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 150
+		build_time = 547 #1.5y
+		levy_size = 0.05
+		land_morale = 0.05
+		levy_reinforce_rate = 0.05
+		retinue_size = 10
+
+		garrison_size = 0.05
+		ai_creation_factor = 102
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_lfos_hatchery_2 = {
+		desc = ca_lfos_hatchery_1_desc
+		potential = {
+			culture_group = lfos
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_lfos_hatchery_1
+		gold_cost = 200
+		build_time = 730 #2y
+		levy_size = 0.1
+		garrison_size = 0.1
+		land_morale = 0.1
+		levy_reinforce_rate = 0.1
+		retinuesize = 10
+
+		ai_creation_factor = 101
+
+		extra_tech_building_start = 2.0
+	}
+	ca_lfos_hatchery_3 = {
+		desc = ca_lfos_hatchery_1_desc
+		potential = {
+			culture_group = lfos
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_lfos_hatchery_2
+		gold_cost = 300
+		build_time = 1095 #3y
+		levy_size = 0.15
+		land_morale = 0.15
+		levy_reinforce_rate = 0.15
+		retinuesize = 15
+
+		garrison_size = 0.15
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_lfos_hatchery_4 = {	
+		desc = ca_lfos_hatchery_1_desc
+		potential = {
+			culture_group = lfos
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		upgrades_from = ca_lfos_hatchery_3
+		gold_cost = 400
+		build_time = 1460 #4y
+		levy_size = 0.2
+		land_morale = 0.2
+		levy_reinforce_rate = 0.2
+		retinuesize = 20
+
+		garrison_size = 0.2
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 0.2
+	}
+	ca_warrior_lodge_1 = {
+		desc = ca_warrior_lodge_1_desc
+		potential = {
+			culture_group = lfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 50
+		archers = 10
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_warrior_lodge_2 = {
+		desc = ca_warrior_lodge_2_desc
+		potential = {
+			culture_group = lfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_warrior_lodge_1
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 50
+		archers = 20
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.0
+	}
+	ca_warrior_lodge_3 = {
+		desc = ca_warrior_lodge_3_desc
+		potential = {
+			culture_group = lfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_warrior_lodge_2
+		gold_cost = 200
+		build_time = 1095
+		light_infantry = 50
+		archers = 30
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	ca_warrior_lodge_4 = {
+		desc = ca_warrior_lodge_3_desc
+		potential = {
+			culture_group = lfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_warrior_lodge_3
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 50
+		archers = 40
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	ca_lfos_scavanger_den_1 = {
+		desc = ca_lfos_scavanger_den_1_desc
+		potential = {
+			culture = lizalfos
+			culture = dinolfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 20
+		pikemen = 15
+		ai_creation_factor = 105
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_lfos_scavanger_den_2 = {
+		desc = ca_lfos_scavanger_den_1_desc
+		potential = {
+			culture = lizalfos
+			culture = dinolfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_lfos_scavanger_den_1
+		gold_cost = 120
+		build_time = 547
+		heavy_infantry = 25
+		pikemen = 15
+		ai_creation_factor = 104
+		
+		extra_tech_building_start = 1.8
+	}
+	ca_lfos_scavanger_den_3 = {
+		desc = ca_lfos_scavanger_den_1_desc
+		potential = {
+			culture = lizalfos
+			culture = dinolfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_lfos_scavanger_den_2
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 30
+		pikemen = 20
+		ai_creation_factor = 103
+
+		extra_tech_building_start = 3.0
+	}
+	ca_lfos_scavanger_den_4 = {
+		desc = ca_lfos_scavanger_den_1_desc
+		potential = {
+			culture = lizalfos
+			culture = dinolfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_lfos_scavanger_den_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 35
+		pikemen = 25
+		ai_creation_factor = 102
+
+		extra_tech_building_start = 3.0
+	}
+	ca_lfos_scavanger_den_5 = {
+		desc = ca_lfos_scavanger_den_1_desc
+		potential = {
+			culture = lizalfos
+			culture = dinolfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_lfos_scavanger_den_4
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 40
+		pikemen = 25
+		ai_creation_factor = 101
+
+		extra_tech_building_start = 2.0
+	}
+	ca_lfos_scavanger_den_6 = {
+		desc = ca_lfos_scavanger_den_1_desc
+		potential = {
+			culture = lizalfos
+			culture = dinolfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_lfos_scavanger_den_5
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 50
+		pikemen = 30
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.2
+	}
+	ca_helmasaurus_stable_1 = {
+		desc = ca_helmasaurus_stable_1_desc
+		potential = {
+			culture = dinoflos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_cavalry = 20
+		ai_creation_factor = 89
+		
+		extra_tech_building_start = 0.4
+	}
+	ca_helmasaurus_stable_2 = {
+		desc = ca_helmasaurus_stable_1_desc
+		potential = {
+			culture = dinoflos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_helmasaurus_wall_1 }
+		upgrades_from = ca_helmasaurus_stable_1
+		gold_cost = 120
+		build_time = 547
+		light_cavalry = 30
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 0.8
+	}
+	ca_helmasaurus_stable_3 = {
+		desc = ca_helmasaurus_stable_1_desc
+		potential = {
+			culture = dinoflos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		prerequisites = { ca_helmasaurus_wall_2 }
+		upgrades_from = ca_helmasaurus_stable_2
+		gold_cost = 200
+		build_time = 730
+		light_cavalry = 40
+		knight 20
+		ai_creation_factor = 87
+
+		extra_tech_building_start = 0.2
+	}
+	ca_helmasaurus_stable_4 = {
+		desc = ca_helmasaurus_stable_1_desc
+		potential = {
+			culture = dinoflos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_helmasaurus_stable_3
+		gold_cost = 300
+		build_time = 1095
+		light_cavalry = 50
+		knights = 20
+		ai_creation_factor = 86
+
+		extra_tech_building_start = 0.2
+	}
+	ca_darkhammer_den__1 = {
+		desc = ca_darkhammer_den__1_desc
+		potential = {
+			culture = lizalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 10
+		light_infantry = 20
+		ai_creation_factor = 105
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_darkhammer_den__2 = {
+		desc = ca_darkhammer_den__1_desc
+		potential = {
+			culture = lizalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_darkhammer_den__1
+		gold_cost = 120
+		build_time = 547
+		heavy_infantry = 15
+		light_infantry = 30
+		ai_creation_factor = 104
+		
+		extra_tech_building_start = 1.8
+	}
+	ca_darkhammer_den__3 = {
+		desc = ca_darkhammer_den__1_desc
+		potential = {
+			culture = lizalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_darkhammer_den__2
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 20
+		light_infantry = 40
+		ai_creation_factor = 103
+
+		extra_tech_building_start = 3.0
+	}
+	ca_darkhammer_den__4 = {
+		desc = ca_darkhammer_den__1_desc
+		potential = {
+			culture = lizalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_darkhammer_den__3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 25
+		light_infantry = 50
+		ai_creation_factor = 102
+
+		extra_tech_building_start = 3.0
+	}
+	ca_darkhammer_den__5 = {
+		desc = ca_darkhammer_den__1_desc
+		potential = {
+			culture = lizalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_darkhammer_den__4
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 30
+		light_infantry = 60
+		ai_creation_factor = 101
+
+		extra_tech_building_start = 2.0
+	}
+	ca_darkhammer_den__6 = {
+		desc = ca_darkhammer_den__1_desc
+		potential = {
+			culture = lizalfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_darkhammer_den__5
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 40
+		light_infantry = 70
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.2
+	}
+	ca_aer_flight_school_1 = {
+		desc = ca_aer_flight_school_1_desc
+		potential = {
+			culture = aeralfos
+			}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 30
+		pikemen = 15
+		ai_creation_factor = 105
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_aer_flight_school_2 = {
+		desc = ca_aer_flight_school_1_desc
+		potential = {
+			culture = aeralfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_aer_flight_school_1
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 40
+		pikemen = 15
+		ai_creation_factor = 104
+		
+		extra_tech_building_start = 1.8
+	}
+	ca_aer_flight_school_3 = {
+		desc = ca_aer_flight_school_1_desc
+		potential = {
+			culture = aeralfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_aer_flight_school_2
+		gold_cost = 200
+		build_time = 730
+		light_infantry = 50
+		pikemen = 20
+		ai_creation_factor = 103
+
+		extra_tech_building_start = 3.0
+	}
+	ca_aer_flight_school_4 = {
+		desc = ca_aer_flight_school_1_desc
+		potential = {
+			culture = aeralfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_aer_flight_school_3
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 60
+		pikemen = 25
+		ai_creation_factor = 102
+
+		extra_tech_building_start = 3.0
+	}
+	ca_aer_flight_school_5 = {
+		desc = ca_aer_flight_school_1_desc
+		potential = {
+			culture = aeralfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_aer_flight_school_4
+		gold_cost = 400
+		build_time = 2190
+		light_infantry = 70
+		pikemen = 25
+		ai_creation_factor = 101
+
+		extra_tech_building_start = 2.0
+	}
+	ca_aer_flight_school_6 = {
+		desc = ca_aer_flight_school_1_desc
+		potential = {
+			culture = aeralfos
+
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_aer_flight_school_5
+		gold_cost = 500
+		build_time = 2190
+		light_infantry = 80
+		pikemen = 30
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.2
+	}
+	ca_aer_draco_nest_1 = {
+		desc = ca_aer_draco_nest_1_desc
+		potential = {
+			culture = aeralfos
+			}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 20
+		archer = 30
+		ai_creation_factor = 105
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_aer_draco_nest_2 = {
+		desc = ca_aer_draco_nest_1_desc
+		potential = {
+			culture = aeralfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_aer_draco_nest_1
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 30
+		archer = 40
+		ai_creation_factor = 104
+		
+		extra_tech_building_start = 1.8
+	}
+	ca_aer_draco_nest_3 = {
+		desc = ca_aer_draco_nest_1_desc
+		potential = {
+			culture = aeralfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_aer_draco_nest_2
+		gold_cost = 200
+		build_time = 730
+		light_infantry = 40
+		archer = 50
+		ai_creation_factor = 103
+
+		extra_tech_building_start = 3.0
+	}
+	ca_aer_draco_nest_4 = {
+		desc = ca_aer_draco_nest_1_desc
+		potential = {
+			culture = aeralfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_aer_draco_nest_3
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 50
+		archer = 60
+		ai_creation_factor = 102
+
+		extra_tech_building_start = 3.0
+	}
+}

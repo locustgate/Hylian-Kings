@@ -767,18 +767,19 @@ darknut = {
 }
 	
 lfos = {
-	lizalfos = {
+
+	aeralfos = {
 		graphical_culture = indiangfx
 		
 		color = { 0.3 0.55 0.8 }
 		
 		
 		male_names = {
-		Vakat Umbelozar Keaton Wasu Snipes Camgaro Kengongo Kanat Lasho Vango Wakos Vapukupat Dirdakazo Tozetu Otutas Wekanale Welan Nasho Wengu Wase Weton Vike Vatos Olat Snako Kengoposun Urardu Urdok Wemgu Uratu Wetir Snaze Ketolo Urangak Urazor Tonelo Uralas Cashu Nakosozok Wetut Orde Urato Tator Ukalas Nikas Nizezu Utange Wezu Cukese Narambe Nushusopisho Usako Vungas Lembazase Kutozear Kizear Liolelet Vinat Lune Latizear Tordo Cikas Onear Snamgozas Nakopear Tumgakatu Varazear Liomgoke Okear Otako Likin Takas Urikenu Vardosas Kukezotas Danasho Kesho Werir Niko Umbako Kenge Wetopombo Nikos Kokas Kuke Ongoko Urdutu Snaropatat Wishutas Vilak Kezuko Welentu Ukonat Welak Votas Wetimgure Tekinear Valekear Vutas Wale
+		Vakat Drigos Volga Abraxis Ryu Argromano Hachunakku Tashu Akkanu Nibru Akakuganu Alis Oxikkobru Homall Nardat Anokokis Anoxu Alalu Ryomo Naxuno Nokuma Agagakok Acho Alonu Olgabru Valamenalgakkik Axeku Tilgu Okall Agogo Akkus Nikas Hobrabru Tikak Anaxak Anuk Vimo Ardut Anoll Dranot Nakuno Nakas Nalaku Agalu Nashanu Anaguxu Nakos Anall Amis Hakaxunu Naxik Akkas Vaku Hagis Ashis Druma Nanu Alekaku Akok Achas Anogo Akkes Alakkananu Akakiku Ogull Vamu Dranas Drabrus Vagixulat Tochargarda Vanat Algogo Nardikak Alakos Nagilu Vimak Ashak Aluxu Alalgas Hakak Vanas Agekkago Ryamakugu Alemokus ANagakkek Oxooxo Nego Valak Vimu Nikugo Vaxat Oxiku Drakes Nanaku Alano Aniku Nabrak Akkuk Nacho  Alexo 
 		}
 		female_names = {
-		Nardu Okakusha Talik Lutia Dione Cat Ulear Liranu Tapa Wetazu Wetaku Kakashes Kakar Kelan Lilos Ombata Keakas Vashat Wakas Vipas Onata Konat Uzas Lirir Lira Lirakarelu Vionashu Viona Kion Kiona Kionakas Kesa Wetalia Wepa Lapokota Kota Liruta Corazear Disata Dula Dalas Liosa Kipor Onazas Cetis Vilake Cotas Tekear Lezear Kelek Liolu Kazas Ula Tutas Kukak Vetu Lita Datata Ongeta Liosusata Vakala Lamga Vapen Vilar Kangia Cetaza Vuta Catas Wekia Canga Wanga Cepia Kepa Utas Datota Kete Lioze Nuror Vipike Neatu Urulo Weshak Ciosho Lotear Tarear Vatita Snesho Liolut Lioka Cazik Kukar Lasin Kelat Dorar Kanear Katear Visas Walia Kotia Wetas
-		}
+		Nardu Okakusha Talik Nell Akima Narda Tarda Drana Harda Vosha Ananu Alaka Alama Anemokat Nananalako Drobra Taxuka Oshu Akilgabra Tebra Habra Nuxima Vanika Alexakall Vakosha Tibruga Anako Alashamu Vasha Nagargra Abrabra Nokkabra Ashakasha  Hakaxo Hemu Ryakas ANeshoka Nakulu Nalgus Dranu Hikim Nasha Anoka Nanok Nalak Olicha Vaxak Alexo Tanus Nakuka Ryoxu Nanushu Vikalirda Lirda Vika Draka ANuku Akanat Ryacha Tabra Virgralga Virgra Ralga Olill Tirda Onaxu Haxu Hirda Hakuk Tikerda Alaxa Nagu Algamu Himu Vabra Vanarda Xexu Ashas Vanos Hakos Ashu Akka Ryuku Amus Nenka Alas Ryas Vonas Nanas Nal Nalga Galan Vara Akagu Nachu Cixu Drilgu Amabra Vilixu Ryoxat
+		} 
 		
 		dukes_called_kings = yes
 		
@@ -827,18 +828,18 @@ lfos = {
 		modifier = default_culture_modifier
 
 	}
-	aeralfos = {
+	lizalfos = {
 		graphical_culture = indiangfx
 		
 		color = { 0.3 0.55 0.8 }
 		
 		
 		male_names = {
-		Vakat Drigos Volga Abraxis Ryu Argromano Hachunakku Tashu Akkanu Nibru Akakuganu Alis Oxikkobru Homall Nardat Anokokis Anoxu Alalu Ryomo Naxuno Nokuma Agagakok Acho Alonu Olgabru Valamenalgakkik Axeku Tilgu Okall Agogo Akkus Nikas Hobrabru Tikak Anaxak Anuk Vimo Ardut Anoll Dranot Nakuno Nakas Nalaku Agalu Nashanu Anaguxu Nakos Anall Amis Hakaxunu Naxik Akkas Vaku Hagis Ashis Druma Nanu Alekaku Akok Achas Anogo Akkes Alakkananu Akakiku Ogull Vamu Dranas Drabrus Vagixulat Tochargarda Vanat Algogo Nardikak Alakos Nagilu Vimak Ashak Aluxu Alalgas Hakak Vanas Agekkago Ryamakugu Alemokus ANagakkek Oxooxo Nego Valak Vimu Nikugo Vaxat Oxiku Drakes Nanaku Alano Aniku Nabrak Akkuk Nacho  Alexo 
+		Vakat Umbelozar Keaton Wasu Snipes Camgaro Kengongo Kanat Lasho Vango Wakos Vapukupat Dirdakazo Tozetu Otutas Wekanale Welan Nasho Wengu Wase Weton Vike Vatos Olat Snako Kengoposun Urardu Urdok Wemgu Uratu Wetir Snaze Ketolo Urangak Urazor Tonelo Uralas Cashu Nakosozok Wetut Orde Urato Tator Ukalas Nikas Nizezu Utange Wezu Cukese Narambe Nushusopisho Usako Vungas Lembazase Kutozear Kizear Liolelet Vinat Lune Latizear Tordo Cikas Onear Snamgozas Nakopear Tumgakatu Varazear Liomgoke Okear Otako Likin Takas Urikenu Vardosas Kukezotas Danasho Kesho Werir Niko Umbako Kenge Wetopombo Nikos Kokas Kuke Ongoko Urdutu Snaropatat Wishutas Vilak Kezuko Welentu Ukonat Welak Votas Wetimgure Tekinear Valekear Vutas Wale
 		}
 		female_names = {
-		Nardu Okakusha Talik Nell Akima Narda Tarda Drana Harda Vosha Ananu Alaka Alama Anemokat Nananalako Drobra Taxuka Oshu Akilgabra Tebra Habra Nuxima Vanika Alexakall Vakosha Tibruga Anako Alashamu Vasha Nagargra Abrabra Nokkabra Ashakasha  Hakaxo Hemu Ryakas ANeshoka Nakulu Nalgus Dranu Hikim Nasha Anoka Nanok Nalak Olicha Vaxak Alexo Tanus Nakuka Ryoxu Nanushu Vikalirda Lirda Vika Draka ANuku Akanat Ryacha Tabra Virgralga Virgra Ralga Olill Tirda Onaxu Haxu Hirda Hakuk Tikerda Alaxa Nagu Algamu Himu Vabra Vanarda Xexu Ashas Vanos Hakos Ashu Akka Ryuku Amus Nenka Alas Ryas Vonas Nanas Nal Nalga Galan Vara Akagu Nachu Cixu Drilgu Amabra Vilixu Ryoxat
-		} 
+		Nardu Okakusha Talik Lutia Dione Cat Ulear Liranu Tapa Wetazu Wetaku Kakashes Kakar Kelan Lilos Ombata Keakas Vashat Wakas Vipas Onata Konat Uzas Lirir Lira Lirakarelu Vionashu Viona Kion Kiona Kionakas Kesa Wetalia Wepa Lapokota Kota Liruta Corazear Disata Dula Dalas Liosa Kipor Onazas Cetis Vilake Cotas Tekear Lezear Kelek Liolu Kazas Ula Tutas Kukak Vetu Lita Datata Ongeta Liosusata Vakala Lamga Vapen Vilar Kangia Cetaza Vuta Catas Wekia Canga Wanga Cepia Kepa Utas Datota Kete Lioze Nuror Vipike Neatu Urulo Weshak Ciosho Lotear Tarear Vatita Snesho Liolut Lioka Cazik Kukar Lasin Kelat Dorar Kanear Katear Visas Walia Kotia Wetas
+		}
 		
 		dukes_called_kings = yes
 		
