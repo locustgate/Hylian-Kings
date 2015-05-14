@@ -182,7 +182,7 @@ goddesses = {
 		priest_title = CARETAKER
 		
 		god_names = {
-			LEVIAS_GOD
+			GOD_LEVIAS 
 		}
 		evil_god_names = {
 			GOD_DEMISE GOD_GHIRAHIM	
@@ -209,10 +209,10 @@ goron = {
 
 		priest_title = GOR
 		
-		high_god_name = FIRE_SPIRIT
+		high_god_name = GOD_FIRE_SPIRIT
 		
 		god_names = {
-			FIRE_SPIRIT
+			GOD_FIRE_SPIRIT
 		}
 	}
 	goron_ancestors = {
@@ -232,10 +232,10 @@ goron = {
 		scripture_name = WAYS
 		priest_title = GOR
 		
-		high_god_name = ANCESTORS
+		high_god_name = GOD_ANCESTORS
 		
 		god_names = {
-			ANCESTORS
+			GOD_ANCESTORS
 		}
 	}
 
@@ -251,10 +251,10 @@ goron = {
 
 		priest_title = GOR
 		
-		high_god_name = FIRE_MOTHER
+		high_god_name = GOD_FIRE_MOTHER
 		
 		god_names = {
-			FIRE_MOTHER MOTHER_MOUNTAIN
+			GOD_FIRE_MOTHER GOD_MOTHER_MOUNTAIN
 		}
 	}
 }
@@ -329,10 +329,10 @@ zora = {
 		scripture_name = EVER_LIST
 		priest_title = BUTCHER
 		
-		high_god_name = JAWBU_JAWBU
+		high_god_name = GOD_JAWBU_JAWBU
 		
 		god_names = {
-			JAWBU_JAWBU ALL_EATER
+			GOD_JAWBU_JAWBU GOD_ALL_EATER
 		}
 	}
 }
@@ -378,34 +378,7 @@ gerudo_religion = {
 		feminist = yes
 		max_wives = 4
 	}
-	serpent_goddess = {
-		graphical_culture = muslimgfx
-
-		icon = 3
-		heresy_icon = 8
-		
-		color = { 0.8 0.8 0.6 }
-		parent = gerudo_goddess		
-
-		scripture_name = SERPENT_WORD
-		priest_title = PRIEST
-		
-		allow_looting = yes
-		priests_can_marry = yes 
-		allow_female_priests = yes
-		allow_viking_invasion = yes
-
-
-		high_god_name = GODDESS_OF_SERPENTS
-		
-		god_names = {
-			GODDESS_OF_SERPENTS SERPINTIA 
-		}
-		
 	
-		feminist = yes
-		max_wives = 4
-	}
 	din_worship = {
 		graphical_culture = muslimgfx
 
@@ -451,10 +424,10 @@ gerudo_religion = {
 
 		priest_title = PRIEST
 		
-		high_god_name = TWINROVA
+		high_god_name = GOD_TWINROVA
 		
 		god_names = {
-			TWINROVA
+			GOD_TWINROVA
 		}
 				
 		feminist = yes
@@ -515,10 +488,10 @@ forest = {
 		scripture_name = DEKU_DECREE
 		priest_title = ATTENDENT
 		
-		high_god_name = GREAT_DEKU_TREE
+		high_god_name = GOD_GREAT_DEKU_TREE
 		
 		god_names = {
-			GREAT_DEKU_TREE GREAT_DEKU_SAPLING GREAT_DEKU_SEED
+			GOD_GREAT_DEKU_TREE GOD_GREAT_DEKU_SAPLING GOD_GREAT_DEKU_SEED
 		}
 	}
 	great_maku = {
@@ -537,7 +510,41 @@ forest = {
 		high_god_name = GREAT_MAKU_TREE
 		
 		god_names = {
-			GREAT_MAKU_TREE GREAT_MAKU_SAPLING GREAT_MAKU_SEED
+			GOD_GREAT_MAKU_TREE GOD_GREAT_MAKU_SAPLING GOD_GREAT_MAKU_SEED
+		}
+	}
+	tuni_nut = {
+		graphical_culture = slavicgfx
+
+		icon = 22
+		heresy_icon = 23
+		parent = great_maku
+		
+		color = { 0.8 0.8 0.6 }
+
+		priests_can_marry = yes		
+
+		priest_title = DRUID
+				
+		god_names = {
+			GOD_TUNI_NUT
+		}
+	}
+	rod_of_season = {
+		graphical_culture = slavicgfx
+
+		icon = 22
+		heresy_icon = 23
+		parent = great_maku
+		
+		color = { 0.8 0.8 0.6 }
+
+		priests_can_marry = yes		
+
+		priest_title = DRUID
+				
+		god_names = {
+			GOD_ROD_OF_SEASONS
 		}
 	}
 	great_fairies = {
@@ -559,7 +566,7 @@ forest = {
 		high_god_name = GREAT_FAIRY_QUEEN
 		
 		god_names = {
-			GREAT_FAIRY_QUEEN GREAT_FAIRY_POWER GREAT_FAIRY_WISDOM GREAT_FAIRY_COURAGE
+			GOD_GREAT_FAIRY_QUEEN GOD_GREAT_FAIRY_POWER GOD_GREAT_FAIRY_WISDOM GOD_GREAT_FAIRY_COURAGE
 		}
 		feminist = yes
 
@@ -577,10 +584,10 @@ forest = {
 		high_god_name = BAGA_TREE
 		
 		god_names = {
-			BAGA_TREE
+			GOD_BAGA_TREE
 		}
 		evil_god_names = {
-			GREAT_DEKU_TREE GREAT_DEKU_SAPLING GREAT_DEKU_SEED 
+			GOD_GREAT_DEKU_TREE GOD_GREAT_DEKU_SAPLING GOD_GREAT_DEKU_SEED 
 		}
 	}
 }
@@ -595,7 +602,7 @@ demon = {
 	
 
 	male_names = {
-	Demise Ghirahim Ganon Vaati
+	Demise Ghirahim Ganon Vaati Rupee
 	}
 
 	demise = {
@@ -665,25 +672,20 @@ demon = {
 			GOD_HYLIA
 		}
 	}
-	great_boar = {
+	uncle_rupee = {
 		graphical_culture = norsegfx
 
 		icon = 27
 		heresy_icon = 28
 		
 		color = { 0.8 0.8 0.6 }
-		parent = ganon
 
 		priests_can_marry = yes		
 
-		crusade_name = CONQUEST
-		scripture_name = GANON_AMBITION
 		priest_title = SHAMAN
 		
-		high_god_name = GOD_GREAT_BOAR
-		
 		god_names = {
-			GOD_GREAT_BOAR
+			GOD_RUPEE
 		}
 	}
 }
@@ -729,10 +731,10 @@ lizard = {
 
 		priest_title = ATTENDENT
 		
-		high_god_name = VOLVAGIA
+		high_god_name = GOD_VOLVAGIA
 		
 		god_names = {
-			VOLVAGIA
+			GOD_VOLVAGIA
 		}
 		can_loot = yes 
 		max_consort = 3
@@ -747,10 +749,10 @@ lizard = {
 
 		priest_title = ATTENDENT
 		
-		high_god_name = ARGOROK
+		high_god_name = GOD_ARGOROK
 		
 		god_names = {
-			ARGOROK 
+			GOD_ARGOROK 
 		}
 		can_loot = yes 
 		max_consort = 3
@@ -763,42 +765,11 @@ lizard = {
 		color = { 0.8 0.8 0.6 }		
 
 		priest_title = SHAMAN		
-		high_god_name = GUARDIAN		
+		high_god_name = GOD_GUARDIAN		
 		god_names = {
-			GUARDIAN 
+			GOD_GUARDIAN 
 		}
 		can_loot = yes
-	}
-}
-stalfos = {
-	has_coa_on_barony_only = yes
-	graphical_culture = norsegfx
-	playable = yes
-	crusade_cb =
-	ai_peaceful = no # Will make Hordes lose their super aggressiveness
-	
-	ai_convert_same_group = 2 # always try to convert
-	ai_convert_other_group = 2 # always try to convert
-
-	stalfos = {
-
-		icon = 30
-		heresy_icon = 31
-		
-		color = { 0.8 0.8 0.6 }		
-
-		crusade_name = PURGE
-		scripture_name = TRUE_LIFE
-		priest_title = LICH
-		
-		high_god_name = DEATH		
-		god_names = {
-			DEATH
-		}
-		evil_god_names = {
-			LIFE
-		}
-		feminist = yes 
 	}
 }
 
@@ -822,8 +793,7 @@ darknut_religion = {
 
 		scripture_name = IMUTABLE_CODE
 		priest_title = EXAMPLAR
-		
-		high_god_name = GOD_JUDICUS		
+				
 		god_names = {
 			SHIELD HELM BREASTPLATE WALLS
 		}
@@ -908,7 +878,132 @@ darknut_religion = {
 		can_loot = yes
 	}
 }
-twili = {
+sky_religion = {
+	has_coa_on_barony_only = yes
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 1 # convert
+	ai_convert_other_group = 1 # convert
+
+	male_names = {
+	Valoo Zephos Cyclos
+	}
+	twin_frogs = {
+		graphical_culture = norsegfx
+
+		icon = 11
+		heresy_icon = 12
+		
+		color = { 0.8 0.8 0.6 }
+
+		priest_title = CONDUCTOR
+	
+		
+		high_god_name = GOD_THE_TWINS	
+		god_names = {
+			GOD_ZEPHOS GOD_CYCLOS
+		}
+	}
+	zephos_religion = {
+		graphical_culture = norsegfx
+
+		icon = 11
+		heresy_icon = 12
+		parent = twin_frogs
+
+
+		color = { 0.8 0.8 0.6 }
+
+		scripture_name = GOD_ZEPHOS_PEACE
+		priest_title = GOD_CONDUCTOR
+	
+		
+		high_god_name = ZEPHOS	
+		god_names = {
+			GOD_ZEPHOS 
+		}
+		evil_god_names = {
+			GOD_CYCLOS
+		}
+		peace_piety_gain = 1.0
+	}
+	cylcos_religion = {
+		graphical_culture = norsegfx
+
+		icon = 11
+		heresy_icon = 12
+		parent = twin_frogs
+		
+		color = { 0.8 0.8 0.6 }
+
+		scripture_name = CYCLOS_RAGE
+		priest_title = CONDUCTOR
+	
+		
+		high_god_name = GOD_CYCLOS	
+		god_names = {
+			GOD_CYCLOS 
+		}
+		evil_god_names = {
+			GOD_ZEPHOS
+		}
+		peace_prestige_loss = yes
+		can_loot = yes
+	}
+	wind = {
+		graphical_culture = norsegfx
+
+		icon = 11
+		heresy_icon = 12
+		
+		color = { 0.8 0.8 0.6 }
+
+		priest_title = PRIEST
+	
+		
+		high_god_name = THE_WIND	
+		god_names = {
+			STRONG_WIND LIGHT_WIND
+		}	
+	}
+	wind_fish = {
+		graphical_culture = norsegfx
+
+		icon = 11
+		heresy_icon = 12
+		
+		color = { 0.8 0.8 0.6 }
+
+		priest_title = PRIEST
+	
+		
+		high_god_name = GOD_WIND_FISH	
+		god_names = {
+			GOD_WIND_FISH GOD_WIND_FISH_EGG
+		}	
+	}
+	valoo = {
+		graphical_culture = norsegfx
+
+		icon = 11
+		heresy_icon = 12
+		
+		color = { 0.8 0.8 0.6 }
+
+		priest_title = ATTENDENT
+	
+		
+		high_god_name = GOD_VALOO	
+		god_names = {
+			GOD_VALOO
+		}
+		evil_god_names = {
+			GOD_GOHMA
+		}
+	}
+} 
+sea_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	crusade_cb = crusade
@@ -917,7 +1012,79 @@ twili = {
 	
 	ai_convert_same_group = 1 # always try to convert
 	ai_convert_other_group = 1 # always try to convert
+	male_names = {Oshus Bellum Leaf}
+	female_names = {Neri Ciela}
+
+	oshus = {
+		graphical_culture = westerngfx
+
+		icon = 49
+		heresy_icon = 50
+		
+		color = { 0.8 0.8 0.6 }
+		
+		priest_title = SHAMAN
+		
+		high_god_name = GOD_OCEAN_KING
+		
+		god_names = {
+			GOD_OCEAN_KING GOD_OSHUS GOD_SERVANT_SPIRITS
+		}
+		evil_god_names = {
+			GOD_BELLUM
+	}
+	bellum = {
+		graphical_culture = westerngfx
+
+		icon = 49
+		heresy_icon = 50
+		parent = oshus
+		
+		color = { 0.8 0.8 0.6 }
+		
+		priest_title = SHAMAN
+		
+		high_god_name = GOD_OCEAN_KING
+		
+		god_names = {
+			GOD_BELLUM 
+		}
+		evil_god_names = {
+			GOD_OCEAN_KING GOD_OSHUS GOD_SERVANT_SPIRITS 
+		}
+	}
+	pirate = {
+		graphical_culture = westerngfx
+
+		icon = 49
+		heresy_icon = 50
+		
+		color = { 0.8 0.8 0.6 }
+		
+		
+		high_god_name = GOD_SEA
+		
+		god_names = {
+			GOD_SEA
+		}
+		allow_looting = yes
+		allow_rivermovement = yes
+		peace_prestige_loss = yes
+		raised_vassal_opinion_loss = no
+		aggression = 4.0
+	}
+}
+twili_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	
+	ai_convert_same_group = 1 # always try to convert
+	ai_convert_other_group = 1 # always try to convert
+	male_names = {Sol}
+	female_names = {Solaria}
 	sol = {
 		graphical_culture = westerngfx
 
@@ -930,10 +1097,10 @@ twili = {
 		scripture_name = 	LIGHT_SONG
 		priest_title = PRIEST
 		
-		high_god_name = SOL
+		high_god_name = GOD_SOL
 		
 		god_names = {
-			SOL DIVINE_BEAST
+			GOD_SOL GOD_DIVINE_BEAST
 		}		
 	}
 	divine_beast = {
@@ -944,14 +1111,13 @@ twili = {
 		
 		color = { 0.8 0.8 0.6 }
 		parent = sol
-		
-		scripture_name = GANONS_COMMANDMENTS
+
 		priest_title = ATTENDENT 
 		
-		high_god_name = DIVINE_BEAST 
+		high_god_name = GOD_DIVINE_BEAST 
 		
 		god_names = {
-			DIVINE_BEAST 
+			GOD_DIVINE_BEAST 
 
 		}
 		max_consort = 3
@@ -985,8 +1151,6 @@ termian = {
 		allow_viking_invasion = yes
 
 
-		crusade_name = PURGE
-		scripture_name = MAJORA_MISCHIEF
 		priest_title = PRIEST
 		
 		high_god_name = GOD_MAJORA
@@ -1011,8 +1175,7 @@ termian = {
 		allow_looting = yes
 		priests_can_marry = yes		
 
-		crusade_name = PURGE
-		scripture_name = DIETY_ANGER
+	
 		priest_title = PRIEST
 		allow_viking_invasion = yes
 
@@ -1029,114 +1192,4 @@ termian = {
 		peace_prestige_loss = yes		
 	}
 }
-sky_religions = {
-	has_coa_on_barony_only = yes
-	playable = yes
-	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
-	
-	ai_convert_same_group = 1 # always try to convert
-	ai_convert_other_group = 1 # always try to convert
 
-	male_names = {
-	Valoo Zephos Cyclos
-	}
-	twin_frogs = {
-		graphical_culture = norsegfx
-
-		icon = 11
-		heresy_icon = 12
-		
-		color = { 0.8 0.8 0.6 }
-
-		scripture_name = TWINS_BALANCE
-		priest_title = CONDUCTOR
-	
-		
-		high_god_name = THE_TWINS	
-		god_names = {
-			ZEPHOS CYCLOS
-		}
-	}
-	zephos_religion = {
-		graphical_culture = norsegfx
-
-		icon = 11
-		heresy_icon = 12
-		parent = twin_frogs
-
-
-		color = { 0.8 0.8 0.6 }
-
-		scripture_name = ZEPHOS_PEACE
-		priest_title = CONDUCTOR
-	
-		
-		high_god_name = ZEPHOS	
-		god_names = {
-			ZEPHOS 
-		}
-		evil_god_names = {
-			CYCLOS
-		}
-		peace_piety_gain = 1.0
-	}
-	cylcos_religion = {
-		graphical_culture = norsegfx
-
-		icon = 11
-		heresy_icon = 12
-		parent = twin_frogs
-		
-		color = { 0.8 0.8 0.6 }
-
-		scripture_name = CYCLOS_RAGE
-		priest_title = CONDUCTOR
-	
-		
-		high_god_name = CYCLOS	
-		god_names = {
-			CYCLOS 
-		}
-		evil_god_names = {
-			ZEPHOS
-		}
-		peace_prestige_loss = yes
-		can_loot = yes
-	}
-	wind = {
-		graphical_culture = norsegfx
-
-		icon = 11
-		heresy_icon = 12
-		
-		color = { 0.8 0.8 0.6 }
-
-		priest_title = PRIEST
-	
-		
-		high_god_name = THE_WIND	
-		god_names = {
-			STRONG_WIND LIGHT_WIND
-		}	
-	}
-	valoo = {
-		graphical_culture = norsegfx
-
-		icon = 11
-		heresy_icon = 12
-		
-		color = { 0.8 0.8 0.6 }
-
-		scripture_name = LIGHTNESS_WIND
-		priest_title = ATTENDENT
-	
-		
-		high_god_name = VALOO	
-		god_names = {
-			VALOO
-		}
-		evil_god_names = {
-			GOHMA
-		}
-	}
-}
