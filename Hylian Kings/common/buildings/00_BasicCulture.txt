@@ -94,124 +94,9 @@ castle = {
 		
 		extra_tech_building_start = 0.8
 	}	
-	# Sheikah Training grounds
-	ca_sheikah_training_grounds_1 = {
-		desc = ca_sheikah_training_grounds_desc
-		potential = {
-			culture = sheikah
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ca_wall_2 }
-		replace = ca_sheikah_training_grounds_1
-		gold_cost = 200
-		build_time = 730
-		land_morale = 0.1
-		knight_morale = 0.15
-		light_cavalry_morale = 0.15
-		light_infantry_morale = 0.15
-		heavy_infantry_morale = 0.15
-		archer_morale = 0.15
-		levy_reinforce_rate = 0.1
-		retinuesize = 20
-		ai_creation_factor = 89
-
-		extra_tech_building_start = 1.2
-	}
-	ca_sheikah_training_grounds_2 = {
-		desc = ca_sheikah_training_grounds_desc
-		potential = {
-			culture = sheikah
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
-		upgrades_from = ca_sheikah_training_grounds_1
-		replace = ca_training_grounds_2
-		gold_cost = 250
-		build_time = 1095
-		land_morale = 0.15
-		knight_morale = 0.15
-		light_cavalry_morale = 0.15
-		light_infantry_morale = 0.15
-		heavy_infantry_morale = 0.15
-		archer_morale = 0.15
-		levy_reinforce_rate = 0.15
-		retinuesize = 20
-		ai_creation_factor = 88
-		
-		extra_tech_building_start = 0.5
-	}
-	ca_sheikah_training_grounds_3 = {
-		desc = ca_sheikah_training_grounds_desc
-		potential = {
-			culture = sheikah
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
-		upgrades_from = ca_sheikah_training_grounds_2
-		replace = ca_training_grounds_3
-		gold_cost = 300
-		build_time = 2190
-		land_morale = 0.2
-		knight_morale = 0.2
-		light_cavalry_morale = 0.2
-		light_infantry_morale = 0.2
-		heavy_infantry_morale = 0.2
-		archer_morale = 0.2
-		levy_reinforce_rate = 0.2
-		retinuesize = 20
-		ai_creation_factor = 88
-		
-		extra_tech_building_start = 0.2
-	} 
-	# Sheikah Trials
-	ca_sheikah_trials_1 = {
-		desc = ca_sheikah_trials_desc
-		potential = {
-			culture = sheikah
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ca_wall_2 }
-		replace = ca_stable_1
-		gold_cost = 200
-		build_time = 730
-		light_infantry = 50
-		pikemen = 30
-		ai_creation_factor = 89
-
-		extra_tech_building_start = 1.2
-	}
-	ca_sheikah_trials_2 = {
-		desc = ca_sheikah_trials_desc
-		potential = {
-			culture = sheikah
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
-		upgrades_from = ca_sheikah_training_grounds_1
-		replace = ca_stable_2
-		gold_cost = 250
-		build_time = 1095
-		land_morale = 0.15
-		light_infantry = 50
-		pikemen = 30
-		ai_creation_factor = 88
-		
-		extra_tech_building_start = 0.5
-	}
-	ca_sheikah_trials_3 = {
-		desc = ca_sheikah_trials_desc
-		potential = {
-			culture = sheikah
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
-		upgrades_from = ca_sheikah_trials_2
-		replace = ca_stable_3
-		gold_cost = 300
-		build_time = 2190
-		land_morale = 0.2
-		light_infantry = 50
-		pikemen = 30
-		ai_creation_factor = 88
-		
-		extra_tech_building_start = 0.2
-	} 	
+# Sheikah
+#hyrule zora river knights
+#rito
 	#Gerudo Fortress Blockhouse
 	ca_culture_gerudo_house_1 = {
 		desc = ca_culture_gerudo_house_1_desc
@@ -277,6 +162,7 @@ castle = {
 		
 		extra_tech_building_start = 0.8
 	}
+	#ordon and gerudo
 	ca_horse_archery_1 = {
 		desc = ca_horse_archery_desc
 		potential = {
@@ -301,7 +187,7 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_1 }
-		upgrades_from = ca_gerudo_horse_archery_1
+		upgrades_from = ca_horse_archery_1
 		gold_cost = 120
 		build_time = 547
 		archer = 10
@@ -319,7 +205,7 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		prerequisites = { ca_wall_2 }
-		upgrades_from = ca_gerudo_horse_archery_2
+		upgrades_from = ca_horse_archery_2
 		gold_cost = 200
 		build_time = 730
 		archer = 20
@@ -336,7 +222,7 @@ castle = {
 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
-		upgrades_from = ca_gerudo_horse_archery_3
+		upgrades_from = ca_horse_archery_3
 		gold_cost = 300
 		build_time = 1095
 		archer = 20
@@ -345,9 +231,6 @@ castle = {
 
 		extra_tech_building_start = 0.2
 	}
-	# Ordon Farm 
-	#Labrynna
-	#Labrynna 
 	#Horon Rangegrounds
 	ca_horon_ranger_1 = {
 		desc = ca_horon_ranger_desc
@@ -422,9 +305,270 @@ castle = {
 
 		extra_tech_building_start = 0.5
 	}
-	#Horon 
+	#Labrynna
+	#Sea Zora Coast Guard
+	#zola raider's lodge
+	#fairy
+	#demon
+#zuna chariot
+	ca_zuna_stable_1 = {
+		desc = ca_zuna_stable_desc
+		potential = {
+			culture = zuna
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replace = ca_stable_1
+		gold_cost = 100
+		build_time = 365
+		light_cavalry = 35
+		chariot = 5
+		ai_creation_factor = 89
+		
+		extra_tech_building_start = 0.4
+	}
+	ca_zuna_stable_2 = {
+		desc = ca_zuna_stable_desc
+		potential = {
+			culture = zuna
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replace = ca_stable_2
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_zuna_stable_1
+		gold_cost = 120
+		build_time = 547
+		light_cavalry = 45
+		chariot = 5
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 0.8
+	}
+	ca_zuna_stable_3 = {
+		desc = ca_zuna_stable_desc
+		replace = ca_stable_3
+		potential = {
+			culture = zuna
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_zuna_stable_2
+		gold_cost = 200
+		build_time = 730
+		light_cavalry = 55
+		chariot = 10
+		ai_creation_factor = 87
+
+		extra_tech_building_start = 0.2
+	}
+	ca_zuna_stable_4 = {
+		desc = ca_zuna_stable_desc
+		replace = ca_stable_4
+		potential = {
+			culture = zuna
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_zuna_stable_3
+		gold_cost = 300
+		build_time = 1095
+		light_cavalry = 55
+		chariot = 10
+		ai_creation_factor = 86
+
+		extra_tech_building_start = 0.2
+	}
+#Anouki Mage
+	ca_shaman_lodge_1 = {
+		desc = ca_shaman_lodge_1_desc
+		potential = {
+			culture = anouki
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		magic_user = 10
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_shaman_lodge_2 = {
+		desc = ca_shaman_lodge_2_desc
+		potential = {
+			culture = anouki
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_shaman_lodge_1
+		gold_cost = 120
+		build_time = 547
+		magic_user = 20
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.0
+	}
+	ca_shaman_lodge_3 = {
+		desc = ca_shaman_lodge_3_desc
+		potential = {
+			culture = anouki
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_shaman_lodge_2
+		gold_cost = 200
+		build_time = 1095
+		magic_user = 30
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	ca_shaman_lodge_4 = {
+		desc = ca_shaman_lodge_3_desc
+		potential = {
+			culture = anouki
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_shaman_lodge_3
+		gold_cost = 300
+		build_time = 1095
+		magic_user = 40
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+
+#Frozen hunters
+	ca_frozen_hunters_1 = {
+		desc = frozen_hunters_desc
+		potential = {
+			culture = frozen_isles
+		}
+		port = yes
+		trigger = { TECH_NAVAL = 1 }
+		gold_cost = 100
+		build_time = 365
+		galleys = 6
+		light_infantry = 20
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.3
+	}
+	
+	ca_frozen_hunters_2 = {
+		desc = frozen_hunters_desc
+		potential = {
+			culture = frozen_isles
+		}
+		port = yes
+		trigger = { TECH_NAVAL = 2 }
+		upgrades_from = ca_frozen_hunters_1
+		gold_cost = 100
+		build_time = 730
+		galleys = 7
+		light_infantry = 30
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.3
+	}
+	
+	ca_frozen_hunters_3 = {
+		desc = frozen_hunters_desc
+		potential = {
+			culture = frozen_isles
+		}
+		port = yes
+		trigger = { TECH_NAVAL = 3 }
+		upgrades_from = ca_frozen_hunters_2
+		gold_cost = 100
+		build_time = 1095
+		galleys = 8
+		light_infantry = 40
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.3
+	}
+	
+	ca_frozen_hunters_4 = {
+		desc = frozen_hunters_desc
+		potential = {
+			culture = frozen_isles
+		}
+		port = yes
+		trigger = { TECH_NAVAL = 3 }
+		upgrades_from = ca_frozen_hunters_3
+		gold_cost = 100
+		build_time = 1460
+		galleys = 9
+		light_infantry = 50
+		ai_creation_factor = 97
+		
+		extra_tech_building_start = 0.3
+	}
+#HoHo houscarl
+	ca_hoho_housecarl_1 = {
+		desc = ca_hoho_housecarl_1_desc
+		potential = {
+			culture = ho_ho
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 30
+		heavy_infantry_offensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_hoho_housecarl_2 = {
+		desc = ca_hoho_housecarl_1_desc
+		potential = {
+			culture = ho_ho
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		upgrades_from = ca_hoho_housecarl_1
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 40
+		heavy_infantry_offensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_hoho_housecarl_3 = {
+		desc = ca_hoho_housecarl_1_desc
+		potential = {
+			culture = ho_ho
+
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_hoho_housecarl_2
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 50
+		heavy_infantry_offensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_hoho_housecarl_4 = {
+		desc = ca_hoho_housecarl_1_desc
+		potential = {
+					culture = ho_ho
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_hoho_housecarl_3
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 50
+		knight = 10
+		heavy_infantry_offensive = 0.15
+		knight_offensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+
 	#wind tribe ascended
-	ct_wall_wit = {
+	ca_wall_wit = {
 		desc = ca_wall_wt_desc
 		potential = {
 			culture = wind_tribe
@@ -460,7 +604,7 @@ castle = {
 			culture = wind_tribe
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
-		upgrades_from = ca_culture_indian_1
+		upgrades_from = ca_war_gyorg_1
 		gold_cost = 300
 		build_time = 1095
 		war_gyorg = 2
@@ -476,7 +620,7 @@ castle = {
 			culture = wind_tribe
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
-		upgrades_from = ca_culture_indian_2
+		upgrades_from = ca_war_gyorg_2
 		gold_cost = 400
 		build_time = 2190
 		war_gyorg = 4
@@ -564,137 +708,12 @@ castle = {
 
 		extra_tech_building_start = 0.2
 	}
-#cobble 
-#zuna chariot
-	ca_zuna_stable_1 = {
-		desc = ca_zuna_stable_desc
-		potential = {
-			culture = zuna
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		gold_cost = 100
-		build_time = 365
-		light_cavalry = 10
-		chariot = 5
-		ai_creation_factor = 89
-		
-		extra_tech_building_start = 0.4
-	}
-	ca_zuna_stable_2 = {
-		desc = ca_zuna_stable_desc
-		potential = {
-			culture = zuna
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ca_wall_1 }
-		upgrades_from = ca_zuna_stable_1
-		gold_cost = 120
-		build_time = 547
-		light_cavalry = 10
-		chariot = 5
-		ai_creation_factor = 88
-
-		extra_tech_building_start = 0.8
-	}
-	ca_zuna_stable_3 = {
-		desc = ca_zuna_stable_desc
-		potential = {
-			culture = gerudo
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
-		prerequisites = { ca_wall_2 }
-		upgrades_from = ca_zuna_stable_2
-		gold_cost = 200
-		build_time = 730
-		light_cavalry = 10
-		chariot = 5
-		ai_creation_factor = 87
-
-		extra_tech_building_start = 0.2
-	}
-	ca_zuna_stable_4 = {
-		desc = ca_zuna_stable_desc
-		potential = {
-			culture = zuna
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
-		upgrades_from = ca_zuna_stable_3
-		gold_cost = 300
-		build_time = 1095
-		light_cavalry = 20
-		chariot = 5
-		ai_creation_factor = 86
-
-		extra_tech_building_start = 0.2
-	}
-#zuna Quarters
-	ca_zuna_quarters_1 = {
-		desc = ca_zuna_quarters_desc
-		potential = {
-			culture = zuna
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		gold_cost = 100
-		build_time = 365
-		pikemen = 10
-		archers = 5
-		light_infantry = 10
-		ai_creation_factor = 89
-		
-		extra_tech_building_start = 0.4
-	}
-	ca_zuna_quarters_2 = {
-		desc = ca_zuna_quarters_desc
-		potential = {
-			culture = zuna
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ca_wall_1 }
-		upgrades_from = ca_zuna_quarters_1
-		gold_cost = 120
-		build_time = 547
-		pikemen = 10
-		archers = 5
-		light_infantry = 10
-		ai_creation_factor = 88
-
-		extra_tech_building_start = 0.8
-	}
-	ca_zuna_quarters_3 = {
-		desc = ca_zuna_quarters_desc
-		potential = {
-			culture = zuna 
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
-		prerequisites = { ca_wall_2 }
-		upgrades_from = ca_zuna_quarters_2
-		gold_cost = 200
-		build_time = 730
-		pikemen = 20
-		archers = 10
-		light_infantry = 20
-		ai_creation_factor = 87
-
-		extra_tech_building_start = 0.2
-	}
-	ca_zuna_quarters_4 = {
-		desc = ca_zuna_quarters_desc
-		potential = {
-			culture = zuna
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
-		upgrades_from = ca_zuna_quarters_3
-		gold_cost = 300
-		build_time = 1095
-		pikemen = 20
-		archers = 10
-		light_infantry = 20
-		ai_creation_factor = 86
-
-		extra_tech_building_start = 0.2
-	}
+	#port explorer guild
+	#koho
+	#yamatian golem shop
+	#twili
+	#ikanian
 }
-
 city = {
 #Hylian Ranch
 	ct_culture_hyrulean_ranch_1 = {

@@ -6,11 +6,11 @@ hyrule_group = {
 		color = { 0.3 0.55 0.8 }
 		
 		male_names = {
-			Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Stockwell Sturgeon Zill Wheaton Bremor Brent Doyle Mack Mutoh David Rauru Ichiro Jiro Sabbooro Shiro Guru-Guru Guru Grog Ingo Sakon Jovani Kamaro Baito Brac Bremor Dayle Darling Kafei Mack Dotour Barten Shikashi Coro Barnes Shar Auru Falbi Fyer Borville Charlo Chudley Jovani Pulo Soal Kaepora Gaebora Harkinian Daphnes Nohen Gulley Osfala Rosso Sahasrahla Akazoo Kazakk Daphnes Arthon Atrinas Aginah Bagu Mario Luigi Linebeck
+			Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Stockwell Sturgeon Zill Wheaton Bremor Brent Doyle Mack Mutoh David Rauru Ichiro Jiro Sabbooro Shiro Guru-Guru Guru Grog Ingo Sakon Jovani Kamaro Baito Brac Bremor Dayle Darling Kafei Mack Dotour Barten Shikashi Coro Barnes Shar Auru Falbi Fyer Borville Charlo Chudley Jovani Pulo Soal Kaepora Gaebora Harkinian Daphnes Nohen Gulley Osfala Rosso Sahasrahla Akazoo Kazakk Daphnes Arthon Atrinas Aginah Bagu Mario Luigi Linebeck Chrom
 		}
 
 		female_names = {
-			Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Leila Mama Marcy Pina Pita Maggie Paige Sheila Tina Verona Honey Marilla Judo Cremia Epona Romani Pamela Ashei Iza Hena Agitha Kili Hanna Misha Fanadi Telma Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Aryll Rose Sue-Belle Sue Belle Gillian Joanna Potova Linda Maggie Milia Minenco Missey Pompie Peach Daisy Rosalina 
+			Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Leila Mama Marcy Pina Pita Maggie Paige Sheila Tina Verona Honey Marilla Judo Cremia Epona Romani Pamela Ashei Iza Hena Agitha Kili Hanna Misha Fanadi Telma Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Aryll Rose Sue-Belle Sue Belle Gillian Joanna Potova Linda Maggie Milia Minenco Missey Pompie Peach Daisy Rosalina Lissa Lucinia Emmeryn
 		}
 		
 		dukes_called_kings = no
@@ -491,7 +491,6 @@ barbarian_zora = {
 
 fae = {
 
-	#esperanto,roman myth,spanish,
 	great_fairy = {
 		graphical_culture = welshgfx
 		
@@ -629,30 +628,6 @@ deku = {
 		dukes_called_kings = no
 		
 		from_dynasty_prefix = "of "
-				
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 30
-		mat_grf_name_chance = 30
-		father_name_chance = 0
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 30
-		mat_grm_name_chance = 30
-		mother_name_chance = 0
-
-		modifier = default_culture_modifier
-	}
-
-	maku_tree = {
-
-		graphical_culture = frankishgfx
-		
-		color = { 0.3 0.55 0.8 }
-		
-		
-		male_names = {
-		Maku
-		}
 				
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 30
@@ -886,67 +861,6 @@ lfos = {
 		modifier = default_culture_modifier
 
 	}
-}
-undead = {
-	skull_kid = {
-		graphical_culture = saxongfx
-		
-		color = { 0.3 0.55 0.8 }
-		
-		
-		male_names = {
-		Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Sheik Agahnim Dethl Bongo Sai Itzal Kafziel Dask Fao Kidura Nokto Shal Kadam Nuzem Ihnik Sagas Illafzo Besho Kos Daz Yvak Colin Fado Hanch Jaggle Malo Rusl Talo Cido Silo Padilo Argi Celo Ilo Cirgo Cidan Padin Ganondorf Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Linc Brant Bremeur Doylan Kayo Zauz Mutoh Eox Ichero Jero Saboro Shero Brak Guru-Guru Guru Sokra Stockwell Elwood Grover Garrick Hollis Kiefer Linden Linford Ralph Bipin Pippin Adlar Cheval Dekadin Plen Rafton Adrien Aldous Alain Albrecht Basile Makar Mido Fado Solfego Solfeg Soll Satyo Quint Rei Mir Famo Touro Pollur Dol 
-		}
-		female_names = {
-		Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Impa Ilia Iza Impaz Katiu Kailla Izmae Kyran Anydra Pasha Yvie Keiran Silvaris Beth Ilia Pergie Sera Uli Celei Cara Alela Ulera Padei Fodei Megglie Purei Koume Uma Telma Kotake Aveil Nabooru Runeka Rova Numi Dizi Ari Neesha Apheri Astrid Angu Melon Brevie Candi Chay Dotty Ema Jasyn Junen Keely Lilian Marcie Paigin Pena Sheyla Tena Dena Veronan Pitia Juliettai Grany Huney Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Holly Maple Syrup Cedar Ebony Hazel Hollis Holly Juniper Laurel Lotus Laurel Ambi Veran Blossom Adele Aimee Alea Avra Babette Babs Beatrix Chara Cecilia Caelie Celeste Debora Dawn Dorthe Despina Evdokia Elli Eglantine Emma Fifi Saria Fia Fado Solmia Utia Lexis Fibria Rei Hymna Meera Famulia Solvio Pollutia 
-		}
-		
-		dukes_called_kings = yes
-		
-		from_dynasty_prefix = "of "
-				
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 30
-		mat_grf_name_chance = 30
-		father_name_chance = 0
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 30
-		mat_grm_name_chance = 30
-		mother_name_chance = 0
-
-		modifier = default_culture_modifier
-
-	}
-	stalfos = {
-		graphical_culture = easternslavicfx
-		
-		color = { 0.3 0.55 0.8 }
-		
-		
-		male_names = {
-		Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Sheik Agahnim Dethl Bongo Sai Itzal Kafziel Dask Fao Kidura Nokto Shal Kadam Nuzem Ihnik Sagas Illafzo Besho Kos Daz Yvak Colin Fado Hanch Jaggle Malo Rusl Talo Cido Silo Padilo Argi Celo Ilo Cirgo Cidan Padin Ganondorf Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Linc Brant Bremeur Doylan Kayo Zauz Mutoh Eox Ichero Jero Saboro Shero Brak Guru-Guru Guru Sokra Stockwell Elwood Grover Garrick Hollis Kiefer Linden Linford Ralph Bipin Pippin Adlar Cheval Dekadin Plen Rafton Adrien Aldous Alain Albrecht Basile 
-		}
-		female_names = {
-		Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Impa Ilia Iza Impaz Katiu Kailla Izmae Kyran Anydra Pasha Yvie Keiran Silvaris Beth Ilia Pergie Sera Uli Celei Cara Alela Ulera Padei Fodei Megglie Purei Koume Uma Telma Kotake Aveil Nabooru Runeka Rova Numi Dizi Ari Neesha Apheri Astrid Angu Melon Brevie Candi Chay Dotty Ema Jasyn Junen Keely Lilian Marcie Paigin Pena Sheyla Tena Dena Veronan Pitia Juliettai Grany Huney Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Holly Maple Syrup Cedar Ebony Hazel Hollis Holly Juniper Laurel Lotus Laurel Ambi Veran Blossom Adele Aimee Alea Avra Babette Babs Beatrix Chara Cecilia Caelie Celeste Debora Dawn Dorthe Despina Evdokia Elli Eglantine Emma Fifi 
-		}
-		
-		dukes_called_kings = yes
-		
-		from_dynasty_prefix = "of "
-				
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 30
-		mat_grf_name_chance = 30
-		father_name_chance = 0
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 30
-		mat_grm_name_chance = 30
-		mother_name_chance = 0
-
-		modifier = default_culture_modifier
-	} 
 }
 northern_coast = {
 	anouki = {
@@ -1184,6 +1098,67 @@ southern_sea = {
 		modifier = default_culture_modifier
 
 	}
+}
+undead = {
+	skull_kid = {
+		graphical_culture = saxongfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+		Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Sheik Agahnim Dethl Bongo Sai Itzal Kafziel Dask Fao Kidura Nokto Shal Kadam Nuzem Ihnik Sagas Illafzo Besho Kos Daz Yvak Colin Fado Hanch Jaggle Malo Rusl Talo Cido Silo Padilo Argi Celo Ilo Cirgo Cidan Padin Ganondorf Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Linc Brant Bremeur Doylan Kayo Zauz Mutoh Eox Ichero Jero Saboro Shero Brak Guru-Guru Guru Sokra Stockwell Elwood Grover Garrick Hollis Kiefer Linden Linford Ralph Bipin Pippin Adlar Cheval Dekadin Plen Rafton Adrien Aldous Alain Albrecht Basile Makar Mido Fado Solfego Solfeg Soll Satyo Quint Rei Mir Famo Touro Pollur Dol 
+		}
+		female_names = {
+		Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Impa Ilia Iza Impaz Katiu Kailla Izmae Kyran Anydra Pasha Yvie Keiran Silvaris Beth Ilia Pergie Sera Uli Celei Cara Alela Ulera Padei Fodei Megglie Purei Koume Uma Telma Kotake Aveil Nabooru Runeka Rova Numi Dizi Ari Neesha Apheri Astrid Angu Melon Brevie Candi Chay Dotty Ema Jasyn Junen Keely Lilian Marcie Paigin Pena Sheyla Tena Dena Veronan Pitia Juliettai Grany Huney Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Holly Maple Syrup Cedar Ebony Hazel Hollis Holly Juniper Laurel Lotus Laurel Ambi Veran Blossom Adele Aimee Alea Avra Babette Babs Beatrix Chara Cecilia Caelie Celeste Debora Dawn Dorthe Despina Evdokia Elli Eglantine Emma Fifi Saria Fia Fado Solmia Utia Lexis Fibria Rei Hymna Meera Famulia Solvio Pollutia 
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+
+	}
+	stalfos = {
+		graphical_culture = easternslavicfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+		Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Sheik Agahnim Dethl Bongo Sai Itzal Kafziel Dask Fao Kidura Nokto Shal Kadam Nuzem Ihnik Sagas Illafzo Besho Kos Daz Yvak Colin Fado Hanch Jaggle Malo Rusl Talo Cido Silo Padilo Argi Celo Ilo Cirgo Cidan Padin Ganondorf Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Linc Brant Bremeur Doylan Kayo Zauz Mutoh Eox Ichero Jero Saboro Shero Brak Guru-Guru Guru Sokra Stockwell Elwood Grover Garrick Hollis Kiefer Linden Linford Ralph Bipin Pippin Adlar Cheval Dekadin Plen Rafton Adrien Aldous Alain Albrecht Basile 
+		}
+		female_names = {
+		Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Impa Ilia Iza Impaz Katiu Kailla Izmae Kyran Anydra Pasha Yvie Keiran Silvaris Beth Ilia Pergie Sera Uli Celei Cara Alela Ulera Padei Fodei Megglie Purei Koume Uma Telma Kotake Aveil Nabooru Runeka Rova Numi Dizi Ari Neesha Apheri Astrid Angu Melon Brevie Candi Chay Dotty Ema Jasyn Junen Keely Lilian Marcie Paigin Pena Sheyla Tena Dena Veronan Pitia Juliettai Grany Huney Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Holly Maple Syrup Cedar Ebony Hazel Hollis Holly Juniper Laurel Lotus Laurel Ambi Veran Blossom Adele Aimee Alea Avra Babette Babs Beatrix Chara Cecilia Caelie Celeste Debora Dawn Dorthe Despina Evdokia Elli Eglantine Emma Fifi 
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	} 
 }
 twilight_realm = {
 	twili = {
