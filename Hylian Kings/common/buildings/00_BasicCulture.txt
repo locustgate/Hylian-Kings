@@ -17,11 +17,9 @@ castle = {
 	ca_knight_list_1 = {
 		desc = ca_knight_list_1_desc
 		potential = {
-			FROM = {
-				OR = {
-					culture = cobble
-					culture = hyrulean
-				}
+			OR = {
+				culture = cobble
+				culture = hyrulean
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -37,11 +35,9 @@ castle = {
 	ca_knight_list_2 = {
 		desc = ca_knight_list_1_desc
 		potential = {
-			FROM = {
-				OR = {
-					culture = cobble
-					culture = hyrulean
-				}
+			OR = {
+				culture = cobble
+				culture = hyrulean
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
@@ -57,11 +53,9 @@ castle = {
 	ca_knight_list_3 = {
 		desc = ca_knight_list_1_desc
 		potential = {
-			FROM = {
-				OR = {
-					culture = cobble
-					culture = hyrulean
-				}
+			OR = {
+				culture = cobble
+				culture = hyrulean
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
@@ -77,11 +71,9 @@ castle = {
 	ca_knight_list_4 = {
 		desc = ca_knight_list_1_desc
 		potential = {
-			FROM = {
-				OR = {
-					culture = cobble
-					culture = hyrulean
-				}
+			OR = {
+				culture = cobble
+				culture = hyrulean
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
@@ -94,9 +86,140 @@ castle = {
 		
 		extra_tech_building_start = 0.8
 	}	
-# Sheikah
+#Sheikah Assassin Dojo 
+	ca_militia_barracks_1 = {
+		desc = ca_militia_barracks_1_desc
+		potential = {
+			culture = sheikah
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 30
+		archers = 40
+		archers_offensive = 0.25
+		light_infantry_offensive  = 0.20
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_militia_barracks_2 = {
+		desc = ca_militia_barracks_2_desc
+		potential = {
+			culture = sheikah
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_militia_barracks_1
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 40
+		archers = 60
+		archers_offensive = 0.25
+		light_infantry_offensive  = 0.20
+
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.0
+	}
+	ca_militia_barracks_3 = {
+		desc = ca_militia_barracks_3_desc
+		potential = {
+			culture = sheikah
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_militia_barracks_2
+		gold_cost = 200
+		build_time = 1095
+		light_infantry = 60
+		archers = 80
+		archers_offensive = 0.25
+		light_infantry_offensive  = 0.20
+
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	ca_militia_barracks_4 = {
+		desc = ca_militia_barracks_3_desc
+		potential = {
+			culture = sheikah
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_militia_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 100
+		archers = 60
+		archers_offensive = 0.25
+		light_infantry_offensive  = 0.20
+
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
 #hyrule zora river knights
-#rito
+	ca_zora_knight_list_1 = {
+		desc = ca_zora_knight_list_1_desc
+		potential = {
+			culture = hyrulean_zora
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 15
+		heavy_infantry_offinsive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_zora_knight_list_2 = {
+		desc = ca_zora_knight_list_1_desc
+		potential = {
+			culture = hyrulean_zora
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		upgrades_from = ca_zora_knight_list_1
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 20
+		heavy_infantry_offinsive = 0.15
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_zora_knight_list_3 = {
+		desc = ca_zora_knight_list_1_desc
+		potential = {
+			culture = hyrulean_zora
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_zora_knight_list_2
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 25
+		heavy_infantry_offinsive = 0.15
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_zora_knight_list_4 = {
+		desc = ca_zora_knight_list_1_desc
+		potential = {
+			culture = hyrulean_zora
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_zora_knight_list_3
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 30
+		heavy_infantry_offinsive = 0.15
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+#rito post box #office #center
 	#Gerudo Fortress Blockhouse
 	ca_culture_gerudo_house_1 = {
 		desc = ca_culture_gerudo_house_1_desc
@@ -536,7 +659,6 @@ castle = {
 		desc = ca_hoho_housecarl_1_desc
 		potential = {
 			culture = ho_ho
-
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		upgrades_from = ca_hoho_housecarl_2
@@ -551,24 +673,20 @@ castle = {
 	ca_hoho_housecarl_4 = {
 		desc = ca_hoho_housecarl_1_desc
 		potential = {
-					culture = ho_ho
-			}
+			culture = ho_ho
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ca_hoho_housecarl_3
 		gold_cost = 500
 		build_time = 2190
-		heavy_infantry = 50
-		knight = 10
+		heavy_infantry = 60
 		heavy_infantry_offensive = 0.15
-		knight_offensive = 0.15
 		ai_creation_factor = 101
 		
 		extra_tech_building_start = 0.8
 	}
-
 	#wind tribe ascended
-	ca_wall_wit = {
+	ca_wall_wt = {
 		desc = ca_wall_wt_desc
 		potential = {
 			culture = wind_tribe
@@ -582,128 +700,65 @@ castle = {
 
 		extra_tech_building_start = 0.2
 	}
-	#War Gyorg
-	ca_war_gyorg_1 = {
-		desc = ca_war_gyorg_1_desc
-		potential = {
-			culture = wind_tribe
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ca_wall_2 }
-		gold_cost = 200
-		build_time = 730
-		war_gyorg = 1
-		war_gyorg_offensive = 0.15
-		ai_creation_factor = 101
-		
-		extra_tech_building_start = 0.8
-	}
-	ca_war_gyorg_2 = {
-		desc = ca war_gyorg_2_desc
-		potential = {
-			culture = wind_tribe
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
-		upgrades_from = ca_war_gyorg_1
-		gold_cost = 300
-		build_time = 1095
-		war_gyorg = 2
-		war_gyorg_offensive = 0.05
-		war_gyorg_defensive = 0.10
-		ai_creation_factor = 101
-		
-		extra_tech_building_start = 0.8
-	}
-	ca_war_gyorg_3 = {
-		desc = ca_war_gyorg_3_desc
-		potential = {
-			culture = wind_tribe
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
-		upgrades_from = ca_war_gyorg_2
-		gold_cost = 400
-		build_time = 2190
-		war_gyorg = 4
-		war_gyorg_offensive = 0.05
-		war_gyorg_defensive = 0.10
-		ai_creation_factor = 101
-		
-		extra_tech_building_start = 0.8
-	}
-	ca_war_gyorg_4 = {
-		desc = ca_war_gyorg_4_desc
-		potential = {
-			culture = wind_tribe
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
-		upgrades_from = ca_war_gyorg_3
-		gold_cost = 500
-		build_time = 2190
-		war_gyorg = 8
-		war_gyorg_offensive = 0.05
-		war_gyorg_defensive = 0.10
-		ai_creation_factor = 101
-		
-		extra_tech_building_start = 0.8
-	}
-#skyloft loftwing academy
-	ca_loftwing_academy_1 = {
-		desc = ca_loftwing_academy_desc
+	#war
+#skyloft loftwing roost
+	ca_loftwing_roost_1 = {
+		desc = ca_loftwing_roost_desc
 		potential = {
 			culture = skylofter
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
-		heavy_infantry = 10
-		loftwing_knight = 15
+		heavy_infantry = 20
+		loftwing_knight = 10
 		ai_creation_factor = 99
 		
 		extra_tech_building_start = 0.4
 	}
-	ca_loftwing_academy_2 = {
-		desc = ca_loftwing_academy_desc 
+	ca_loftwing_roost_2 = {
+		desc = ca_loftwing_roost_desc 
 		potential = {
 			culture = skylofter
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_1 }
-		upgrades_from = ca_loftwing_academy_1
+		upgrades_from = ca_loftwing_roost_1
 		gold_cost = 120
 		build_time = 547
-		heavy_infantry = 10
+		heavy_infantry = 30
 		loftwing_knight = 20
 		ai_creation_factor = 88
 
 		extra_tech_building_start = 0.8
 	}
-	ca_loftwing_academy_3 = {
-		desc = ca_loftwing_academy_desc
+	ca_loftwing_roost_3 = {
+		desc = ca_loftwing_roost_desc
 		potential = {
 			culture = skylofter 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		prerequisites = { ca_wall_2 }
-		upgrades_from = ca_loftwing_academy_2
+		upgrades_from = ca_loftwing_roost_2
 		gold_cost = 200
 		build_time = 730
-		heavy_infantry = 20
-		loftwing_knight = 25
+		heavy_infantry = 40
+		loftwing_knight = 30
 		ai_creation_factor = 87
 
 		extra_tech_building_start = 0.2
 	}
-	ca_loftwing_academy_4 = {
-		desc = ca_loftwing_academy_desc 
+	ca_loftwing_roost_4 = {
+		desc = ca_loftwing_roost_desc 
 		potential = {
 			culture = skylofter
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
-		upgrades_from = ca_loftwing_academy_3
+		upgrades_from = ca_loftwing_roost_3
 		gold_cost = 300
 		build_time = 1095
-		heavy_infantry = 20
-		loftwing_knight = 30
+		heavy_infantry = 50
+		loftwing_knight = 40
 		ai_creation_factor = 86
 
 		extra_tech_building_start = 0.2
@@ -715,11 +770,107 @@ castle = {
 	#ikanian
 }
 city = {
+	#hyrulean kendo
+	ct_hyrulean_dojo_1 = {
+		desc = ct_hyrulean_dojo_1_desc
+			potential = {
+				culture = hyrulean
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 10
+		pikemen = 20
+		ai_creation_factor = 95
+		
+		extra_tech_building_start = 0.5
+	}
+	ct_hyrulean_dojo_2 = {
+		desc = ct_hyrulean_dojo_2_desc
+			potential = {
+				culture = hyrulean
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_hyrulean_dojo_1
+		gold_cost = 120
+		build_time = 547
+		heavy_infantry = 20
+		pikemen = 30
+		ai_creation_factor = 94
+
+		extra_tech_building_start = 1.0
+	}
+	ct_hyrulean_dojo_3 = {
+		desc = ct_hyrulean_dojo_1_desc
+			potential = {
+				culture = hyrulean
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 1 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_hyrulean_dojo_2
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 30
+		pikemen = 40
+		ai_creation_factor = 93
+
+		extra_tech_building_start = 1.0
+	}
+	ct_hyrulean_dojo_4 = {
+		desc = ct_hyrulean_dojo_2_desc
+		potential = {
+				culture = hyrulean
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 3 }
+		upgrades_from = ct_hyrulean_dojo_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 40
+		pikemen = 50
+		ai_creation_factor = 92
+
+		extra_tech_building_start = 0.2
+	}
+	ct_hyrulean_dojo_5 = {
+		desc = ct_hyrulean_dojo_1_desc
+		potential = {
+				culture = hyrulean
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 5 }
+		upgrades_from = ct_hyrulean_dojo_4
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 50
+		pikemen = 60
+		ai_creation_factor = 91
+
+		extra_tech_building_start = 0.2
+	}
+	ct_hyrulean_dojo_6 = {
+		desc = ct_hyrulean_dojo_2_desc
+		potential = {
+				culture = hyrulean
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 7 }
+		upgrades_from = ct_hyrulean_dojo_5
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 80
+		pikemen = 110
+		ai_creation_factor = 90
+
+		extra_tech_building_start = 0.2
+	}
 #Hylian Ranch
 	ct_culture_hyrulean_ranch_1 = {
 		desc = ct_culture_hyrulean_ranch_1_desc
 		potential = {
 				culture = hyrulean
+				terrain = farmlands
+				terrain = hills
+				terrain = plains
+				terrain = steppe
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_2 }
@@ -734,6 +885,10 @@ city = {
 		desc = ct_culture_hyrulean_ranch_2_desc
 		potential = {
 				culture = hyrulean
+				terrain = farmlands
+				terrain = hills
+				terrain = plains
+				terrain = steppe
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		upgrades_from = ct_culture_hyrulean_ranch_1
@@ -748,6 +903,10 @@ city = {
 		desc = ct_culture_hyrulean_ranch_3_desc
 		potential = {
 				culture = hyrulean
+				terrain = farmlands
+				terrain = hills
+				terrain = plains
+				terrain = steppe
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		upgrades_from = ct_culture_hyrulean_ranch_2
@@ -763,7 +922,11 @@ city = {
 	ct_culture_hyrulean_ranch_4 = {
 		desc = ct_culture_hyrulean_ranch_3_desc
 		potential = {
-			culture = hyrulean
+				culture = hyrulean
+				terrain = farmlands
+				terrain = hills
+				terrain = plains
+				terrain = steppe
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ct_culture_hyrulean_ranch_3
@@ -849,6 +1012,11 @@ city = {
 		desc = ct_culture_goat_ordon_ranch_desc
 		potential = {
 				culture = ordon
+				terrain = farmlands
+				terrain = hills
+				terrain = plains
+				terrain = steppe
+				terrain = forest
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_2 }
@@ -865,6 +1033,11 @@ city = {
 		desc = ct_culture_goat_ordon_ranch_desc
 		potential = {
 				culture = ordon
+				terrain = farmlands
+				terrain = hills
+				terrain = plains
+				terrain = steppe
+				terrain = forest
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_2 }
@@ -882,6 +1055,11 @@ city = {
 		desc = ct_culture_goat_ordon_ranch_desc
 		potential = {
 				culture = ordon
+				terrain = farmlands
+				terrain = hills
+				terrain = plains
+				terrain = steppe
+				terrain = forest
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_2 }
@@ -899,6 +1077,11 @@ city = {
 		desc = ct_culture_goat_ordon_ranch_desc
 		potential = {
 				culture = ordon
+				terrain = farmlands
+				terrain = hills
+				terrain = plains
+				terrain = steppe
+				terrain = forest
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_2 }
@@ -914,4 +1097,4 @@ city = {
 #Lybrinna 
 #Horon 
 }
-
+}
