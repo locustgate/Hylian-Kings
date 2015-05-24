@@ -179,6 +179,59 @@ hyrule_group = {
 		modifier = default_culture_modifier
 	}
 }
+valley_group = {
+		graphical_culture = muslimgfx
+		
+		color = { 0.3 0.55 0.8 }
+	arcadian = {
+
+		male_names= {
+		Facade Abel Absolon Aime Alain Alderic Barnabe Baptiste Basile Baudouin Benoit Celestin Clair Clovis Cosme Cyril Donat Dorian Dimitri Didier Desire Edgar Edme Edmond Edouard Eloi Emile Fiarce Firmin Florence Florent Felix Gabril Gaultier Gilles Gratien Guy Gwenneg Henri Hercule Hilaire Honore Hubert Jasmin Jean Jeremie Joachim Jodoc Kevin Lambert Leon Leandre Luc Lucas Lucrece Ludovic Mael Maxence Maxime Michael Morgan Narcisse Nathan Nathanael Nazaire Norbert Odilon Olivier Onesime Padrig Paol Pierrick Placide Pons Prosper Quentin Rainier Raoul Raphael Raymond Regis Roch Samuel Seraphin Serge Stephane Sylvain Theo Tristan Timothee Toussaint Ulrich Urban Valentin Velery Victor Vincent Yann Xavier Winoc 
+		}
+		female_names = {
+		Adelaide Adele Agnes Aimee Alex Barbara Beatrice Benedicte Berengere Berthe Brigitte Camille Cassandra Catherine Chloe Clemence Delia Denise Domitille Dorothee Edith Elise Elodie Elvire Emilie Emma Fifi Flavie Fleur Fleurette Flore Francine Gervaise Germaine Genevieve Gilberte Gisele Heloise Hortense Huguette Hyacinthe Herma Irene Iris Isaure Isabelle Jacinthe Jacqueline Jacquette Jessica Joanne Julienne Juliette Katarin Katell Laetitia Laure Lea Leonide Lise Luce Lydie Mahaut Mailys Marceline Margaux Mari Meline Muriel Murielle Natalie Nina Noele Noelle Oanez Oceane Odette Odile Olympe Paule Paulette Petronile Pierrette Rachel Raphaelle Renee Rolande Romane Sandra Sarah Sidonie Simone Solange Toinette Valentine Valerie Verene Victoire Viviane Yannic
+		}
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 05
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 05
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+
+	}
+	calatia = {
+		graphical_culture = muslimgfx
+		
+		color = { 0.3 0.55 0.8 }
+
+		male_names= {
+		Arn Adrijan Alojz Alen Andelo Aron Blago Blas Bojan Boris Bartolomej Cedomir Dado Dalibor Damir Damjan Danijel Danko Darijo Dario Dragan Drago Edi Eduard Emil Erik Ervin Frane Franko Filip Fabijan Gabrijel Goran Gordan Grgur Grga Henrik Hrvoje Igor Ilija Ivan Ivica Ivo Jadran Jakob Jakov Janko Josip Josko Joso Jozo Jure Jurica Juro Karlo Klaudio Kresimir Kreso Krsto Kruno Lazar Leon Ljuban Lovre Lovro Lucijan Luka Marijo Marin Mario Marko Martin Mislav Mladen Nebojsea Nediljko Nenad Neno Niko Nikola Niksa Nino Ognjan Oliver Ognjan Paskal Pasko Patrik Pero Perica Predrag Rade Roko Roman Rajko Sime Simo Simun Sinisa Stanko
+		}
+		female_names = {
+		Seline Medilia Agata Agneza Ana Bozena Branka Bruna Cecilija Cila Cvita Dajana Draga Durada Eva Erika Ena Finka Franka Filipa Gabriela Goranka Grozdana Hana Helena Ida Ina Iva Ivka Jaga Jela Jozefina Karla Kate Klara Lana Lara Lea Majda Mare Mirta Nela Nensi Nives Olga Olgica Olivera Paula Petra Pavica Radmila Rank Ruza Sabina Sara Senka Sofija Tea Tonka Tina Vera Vesna Viktorija Zaklina Zorica Zorka Zvjezdana Anda Andrea Anika Bornea Brigita Darija Darinka Dragana Dragica Ema Emanuela Ivanka Iskra Janja Jasmina Josipa Julija Kata Klaudija Kristina Ksenija Lidija Lina Luca Lucija Maja Magda Mare Marica Masa Mila Mateja Mirica
+		}
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 05
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 05
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+}
 #great deserts
 desert_group = {
 	gerudo = {

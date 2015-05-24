@@ -1,0 +1,216 @@
+k_wayway
+k_frozen_isle
+e_great_hyrule = {
+k_west_hyrule
+k_east_hyrule
+#death mountain lowlands
+k_little_hyrule
+}
+k_calatia
+k_arcadia
+e_hyrule = {
+	
+	k_hyrule = {
+		color={ 245 100 20 }
+		color2={ 220 220 20 }
+		
+		culture = dutch
+		
+		capital = 80 #Holland
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = hyrulean
+				}
+			}
+		}
+		
+		d_fields = {
+			color={ 235 80 30 }
+			color2={ 255 255 255 }
+		
+			capital = 80 #Holland
+			
+			culture = dutch
+			
+	
+		d_lanayru = {
+			color={ 255 120 0 }
+			color2={ 255 255 255 }
+			
+			capital = 78
+			
+			culture = dutch
+			
+		}
+		d_eldin = {
+			color={ 255 120 0 }
+			color2={ 255 255 255 }
+			
+			capital = 78
+			
+			culture = dutch
+			
+		}
+		d_peak = {
+	}
+	k_zora = {
+		color={ 245 100 20 }
+		color2={ 220 220 20 }
+		
+		culture = dutch
+		
+		capital = 80 #Holland
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = hyrulean
+				}
+			}
+		}
+		
+		d_fields = {
+			color={ 235 80 30 }
+			color2={ 255 255 255 }
+		
+			capital = 80 #Holland
+			
+			culture = dutch
+			
+	
+	}
+	k_death_mountain = {
+		color={ 245 100 20 }
+		color2={ 220 220 20 }
+		
+		culture = dutch
+		
+		capital = 80 #Holland
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = hyrulean
+				}
+			}
+		}
+	}
+	k_gerudo = {
+		color={ 245 100 20 }
+		color2={ 220 220 20 }
+		
+		culture = dutch
+		
+		capital = 80 #Holland
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = hyrulean
+				}
+			}
+		}
+		
+		d_valley = {
+			color={ 235 80 30 }
+			color2={ 255 255 255 }
+		
+			capital = 80 #Holland
+			
+			culture = dutch
+			
+	
+		d_desert = {
+			color={ 200 100 25 }
+			color2={ 255 255 255 }
+			
+			capital = 83 #Gelre
+			
+			culture = dutch
+	
+		}
+		d_haunted_wasteland = {
+			color={ 200 100 25 }
+			color2={ 255 255 255 }
+			
+			capital = 83 #Gelre
+			
+			culture = dutch
+	
+		}
+	}
+	k_ordon = {
+		color={ 245 100 20 }
+		color2={ 220 220 20 }
+		
+		culture = dutch
+		
+		capital = 80 #Holland
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = hyrulean
+				}
+			}
+		}
+		
+		d_ordon = {
+			color={ 235 80 30 }
+			color2={ 255 255 255 }
+		
+			capital = 80 #Holland
+			
+			culture = dutch
+			
+	
+		d_faron = {
+			color={ 200 100 25 }
+			color2={ 255 255 255 }
+			
+			capital = 83 #Gelre
+			
+			culture = dutch
+	
+		}
+	}
+}
+e_deku_woods = {
+k_kokiri
+k_lost
+}
+
+k_zuna_desert
+
+e_labrynna = {
+k_labrynna
+k_cresent_island
+k_rolling_ridge
+}
+e_horon = {
+k_samasa
+k_horon
+k_cocco
+k_bay_storms
+}
+
+k_old_hyrule
+
+k_port_town
+k_steamy_marsh
+k_gooey_swamp
+k_tribal_island  
+k_koholint
+
+#invaders
+e_twilight
+e_ikana
+e_majora
+e_diety

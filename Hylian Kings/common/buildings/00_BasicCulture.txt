@@ -13,7 +13,7 @@
  
  # Castle
 castle = {
-	#Hyrulean Knight List
+	#Knight List
 	ca_knight_list_1 = {
 		desc = ca_knight_list_1_desc
 		potential = {
@@ -87,8 +87,8 @@ castle = {
 		extra_tech_building_start = 0.8
 	}	
 #Sheikah Assassin Dojo 
-	ca_militia_barracks_1 = {
-		desc = ca_militia_barracks_1_desc
+	ca_assassin_dojo_1 = {
+		desc = ca_assassin_dojo_1_desc
 		potential = {
 			culture = sheikah
 		}
@@ -103,14 +103,14 @@ castle = {
 		
 		extra_tech_building_start = 1.0
 	}
-	ca_militia_barracks_2 = {
-		desc = ca_militia_barracks_2_desc
+	ca_assassin_dojo_2 = {
+		desc = ca_assassin_dojo_2_desc
 		potential = {
 			culture = sheikah
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		prerequisites = { ca_wall_1 }
-		upgrades_from = ca_militia_barracks_1
+		upgrades_from = ca_assassin_dojo_1
 		gold_cost = 120
 		build_time = 547
 		light_infantry = 40
@@ -122,13 +122,13 @@ castle = {
 
 		extra_tech_building_start = 2.0
 	}
-	ca_militia_barracks_3 = {
-		desc = ca_militia_barracks_3_desc
+	ca_assassin_dojo_3 = {
+		desc = ca_assassin_dojo_3_desc
 		potential = {
 			culture = sheikah
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
-		upgrades_from = ca_militia_barracks_2
+		upgrades_from = ca_assassin_dojo_2
 		gold_cost = 200
 		build_time = 1095
 		light_infantry = 60
@@ -140,13 +140,13 @@ castle = {
 
 		extra_tech_building_start = 0.5
 	}
-	ca_militia_barracks_4 = {
-		desc = ca_militia_barracks_3_desc
+	ca_assassin_dojo_4 = {
+		desc = ca_assassin_dojo_3_desc
 		potential = {
 			culture = sheikah
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
-		upgrades_from = ca_militia_barracks_3
+		upgrades_from = ca_assassin_dojo_3
 		gold_cost = 300
 		build_time = 1095
 		light_infantry = 100
@@ -219,7 +219,70 @@ castle = {
 		
 		extra_tech_building_start = 0.8
 	}
-#rito post box #office #center
+#rito post #station office#sorting#depot
+	ca_rito_1 = {
+		desc = ca_rito_1_desc
+		potential = {				
+				culture = rito
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		tax_income = 2
+		light_cavalry = 10
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.5
+	}
+	ca_rito_2 = {
+		desc = ca_rito_2_desc
+		potential = {				
+				culture = rito
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_rito_1
+		gold_cost = 120
+		build_time = 547
+		tax_income = 2
+		light_cavalry = 20
+
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 1.0
+	}
+	ca_rito_3 = {
+		desc = ca_rito_3_desc
+		potential = {				
+				culture = rito
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_rito_2
+		gold_cost = 200
+		build_time = 730
+		tax_income = 30
+		light_cavalry = 10
+
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.2
+	}
+	ca_rito_4 = {
+		desc = ca_rito_4_desc
+		potential = {				
+				culture = rito
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_rito_3
+		gold_cost = 300
+		build_time = 1095
+		tax_income = 2
+		light_cavalry = 40
+		ai_creation_factor = 97
+
+		extra_tech_building_start = 0.2
+	}
 	#Gerudo Fortress Blockhouse
 	ca_culture_gerudo_house_1 = {
 		desc = ca_culture_gerudo_house_1_desc
@@ -428,11 +491,9 @@ castle = {
 
 		extra_tech_building_start = 0.5
 	}
-	#Labrynna
+	#Labrynna Swordsman barracks
 	#Sea Zora Coast Guard
 	#zola raider's lodge
-	#fairy
-	#demon
 #zuna chariot
 	ca_zuna_stable_1 = {
 		desc = ca_zuna_stable_desc
@@ -763,11 +824,155 @@ castle = {
 
 		extra_tech_building_start = 0.2
 	}
-	#port explorer guild
-	#koho
+	#port mercenary barracks
+	ca_mercenary_office_1 = {
+		desc = ca_mercenary_office_1_desc
+		potential = {
+			culture = port_towner
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 30
+		tax_income = 1
+		light_infantry_morale = -.05
+
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_mercenary_office_2 = {
+		desc = ca_mercenary_office_2_desc
+		potential = {
+			culture = port_towner
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_mercenary_office_1
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 50
+		tax_income = 1
+		light_infantry_morale = -.05
+
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.0
+	}
+	ca_mercenary_office_3 = {
+		desc = ca_mercenary_office_3_desc
+		potential = {
+			culture = port_towner
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_mercenary_office_2
+		gold_cost = 200
+		build_time = 1095
+		light_infantry = 70
+		tax_income = 2	
+		light_infantry_morale = -.05
+
+		light_infantry_offensive  = 0.20
+
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	ca_mercenary_office_4 = {
+		desc = ca_mercenary_office_3_desc
+		potential = {
+			culture = port_towner
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_mercenary_office_3
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 80
+		tax_income = 2
+		light_infantry_morale = -.05
+		light_infantry_offensive  = 0.20
+
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+
+	#koho men-at-arms
+	ca_koho_soldier_barracks_1 = {
+		desc = ca_koho_soldier_barracks_1_desc
+		potential = {
+			culture = -x-
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 30
+		tax_income = 1
+		light_infantry_morale = -.05
+
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_koho_soldier_barracks_2 = {
+		desc = ca_koho_soldier_barracks_2_desc
+		potential = {
+			culture = -x-
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_koho_soldier_barracks_1
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 50
+		tax_income = 1
+		light_infantry_morale = -.05
+
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.0
+	}
+	ca_koho_soldier_barracks_3 = {
+		desc = ca_koho_soldier_barracks_3_desc
+		potential = {
+			culture = -x-
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_koho_soldier_barracks_2
+		gold_cost = 200
+		build_time = 1095
+		light_infantry = 70
+		tax_income = 2	
+		light_infantry_morale = -.05
+
+		light_infantry_offensive  = 0.20
+
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	ca_koho_soldier_barracks_4 = {
+		desc = ca_koho_soldier_barracks_3_desc
+		potential = {
+			culture = -x-
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_koho_soldier_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 80
+		tax_income = 2
+		light_infantry_morale = -.05
+		light_infantry_offensive  = 0.20
+
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+
 	#yamatian golem shop
-	#twili
-	#ikanian
+	#twili knight
+	#ikanian 
 }
 city = {
 	#hyrulean kendo
