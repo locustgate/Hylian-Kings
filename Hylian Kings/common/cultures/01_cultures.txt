@@ -1,5 +1,4 @@
 hyrule_group = {
-	#Luda,Renado?
 	hyrulean = {
 		graphical_culture = norsegfx
 		
@@ -179,11 +178,27 @@ hyrule_group = {
 		modifier = default_culture_modifier
 	}
 }
+greater_hyrule = {
+	sarian = {
+		male_names = {
+			Rus Bagu Erol Krin Achilles Aias Adil Ali Baha Behram Brontes Bacchus Castor Cerberus Cenk Cumhur Demir Doruk Deimos Dionysus Eros Evander Efe Ekrem Firat Fehim Fatih Faruk Gursel Goksu Glaukos Glaucus Hector Hades Halil Halim Idris Ilhan Iacchus Ion Jason Kasim Kerem Kasim Kepheus Koisos Kreios Kronos Lutfi Levent  Linos Lycus Midas Menelaos Mecit Mehmed Nail Nezih Nerus Nikephoros Oceanus Orestes Onur Osman Polat Pallas Pegasus Phoebus Pluto Priam Thanatos Theseus Rasim Refik Reis Ridvan Riza Sadi Sahin Selim Semir Talat Taner Temel Tolga Ulvi Umit Utku Ugur Vahit Volkan Vural Vedat Yagmur Yakup Yaser Yigit Ziya Zeki Zeus
+		}
+		female_names = {
+			Cassiopeia Acantha Anthea Ayla Adile Banu Beste Briseis Beyza Carme Cassandra Cagri Cemile Damla Dilara Despoina Doris Eos Elektra Elif Enise Fatos Feride Fidan Feriha Gul Gamze Gaia Gaea Hebe Helena Halide Hulya Ilkay Ipek Io Irene Jocasta  Jale Kader Kismet Kalliope Kore Ligeia Lamia Leyla Lutfiye Meltem Munire Maia Medeia Nyx Nephele Naile Nehir Ozge Ozlem Oinone Ourania Pandora Phaedra Pembe Peri Rabia Rukiye Rheia Rhea Selene Semele Tethys Thalia Tulay Tahire Ulku Umut Ulviye Vahide Yagmur Yesim Urania Xanthe Zehra Zekiye Zeynep Ziynet Zubeyde Zoe Zinovia Xenia Xene Vasiliki Varvara Timothea Tasia Stavroula Sofia Sotiria Petra Natasa Nefeli
+		}
+	}
+	kakarikon = {
+		male_names = {
+			Renado Antonio Carlos Cesar Crespin Cruz Daniel DeMario Doroteo Eber Elbanco Eleazar Elieis Emilio Enrique Enriqueta Ernesto Eru Erubiel Felix Filiberto Flaco Francisco Gabriel Graciano Hector Heraclio Humberto Ignacio Isdel Isidoro Ivan Izek Jamenacho Jaime Nacho Jarini Javier Ernesto Joel Jorge Jose Juan Carlos Juaquine Kasper Lino Luis Fernando Luz Madaleno Miguel Nadia Omar Osvaldo Oswaldo Otilio Pancho Paulino Porfirio Quique Rafael Ramirez Ramiro Raul Renau Robert Roman Ruben Sandro Santiago Sergio Spiro Toraidio Victor Virgilio Agapito Agustin Abilo Camilo Cande Candelario Carmelo Casimiro Dani Danilo Dulio Eutimio Ezequiel Fabio Faustino Gil Glauco Godofredo Fredo Goyo Hernan Hugo Horacio  Heraclio Herberto
+		}
+		female_names = {
+			Luda Adriana Aimara Alejandra Alicia Ana Anaclaudia AnaLeticia Leticia Angelica Aracely Aura Beatriz Berenice Bertha Cecilia Christina Cierra Crotilda Dominga Dora Elodia Elsa Elvia Encarnacion Erendira Esmerelda Ufemia Eva Yolanda Flaca Gabriela Geavonna Graciela Grizelda Guadalupe Guliana Hilda Inez Irma Ivonne Juana Juanita Katia Katiana Kristina Leahonia Leandra Leticia Lila Liliana Manuela Maria Maricruz Marilu Marlina Martha Materia Michaela Michelle Miranda Myra Nailea Ofelia Olademis Pasha Patricia Pitina Rocio Rosa Rosamar Silvia Solymar Suzelly Thalia Virdiana Xenia Xochitl Yaneisy Yanely Yedid Yizel Yolanda Abigail Yvonne Zapopa Zumac Candida Camilia Clara Chelo Debora Delia Delfina Fina Encarna Emilia Ercilia Haydee Hilaria		}
+}
 valley_group = {
-		graphical_culture = muslimgfx
 		
 		color = { 0.3 0.55 0.8 }
 	arcadian = {
+		graphical_culture = muslimgfx
 
 		male_names= {
 		Facade Abel Absolon Aime Alain Alderic Barnabe Baptiste Basile Baudouin Benoit Celestin Clair Clovis Cosme Cyril Donat Dorian Dimitri Didier Desire Edgar Edme Edmond Edouard Eloi Emile Fiarce Firmin Florence Florent Felix Gabril Gaultier Gilles Gratien Guy Gwenneg Henri Hercule Hilaire Honore Hubert Jasmin Jean Jeremie Joachim Jodoc Kevin Lambert Leon Leandre Luc Lucas Lucrece Ludovic Mael Maxence Maxime Michael Morgan Narcisse Nathan Nathanael Nazaire Norbert Odilon Olivier Onesime Padrig Paol Pierrick Placide Pons Prosper Quentin Rainier Raoul Raphael Raymond Regis Roch Samuel Seraphin Serge Stephane Sylvain Theo Tristan Timothee Toussaint Ulrich Urban Valentin Velery Victor Vincent Yann Xavier Winoc 
