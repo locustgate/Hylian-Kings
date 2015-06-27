@@ -31,6 +31,7 @@ goddesses = {
 		god_names = {
 			GOD_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE
 		}
+		intermarry = goddess 
 	}
 	light_spirits = {
 		graphical_culture = westerngfx
@@ -49,6 +50,7 @@ goddesses = {
 		god_names = {
 			SPIRIT_ELDIN SPIRIT_FARON SPIRIT_LANARYRU SPIRIT_ORDONA
 		}
+		intermarry = goddess 
 	}
 	four_oracles = {
 		graphical_culture = westerngfx
@@ -66,7 +68,8 @@ goddesses = {
 
 		god_names = {
 			ORACLE_DIN ORACLE_FARORE ORACLE_NAYRU ORACLE_SECRETS ORACLE_AGES ORACLE_SEASONS
-		}		
+		}
+		intermarry = goddess		
 	}
 	light_force = {
 		graphical_culture = westerngfx
@@ -85,9 +88,7 @@ goddesses = {
 		god_names = {
 			LIGHT_FORCE
 		}
-	evil_god_names = {
-			GOD_DEMISE GOD_GHIRAHIM	
-		}
+		intermarry = goddess 
 	}
 	first_hero = {
 		graphical_culture = westerngfx
@@ -105,10 +106,8 @@ goddesses = {
 		
 		god_names = {
 			FIRST_HERO
-		}	
-		evil_god_names = {
-			GOD_DEMISE GOD_GHIRAHIM	
 		}
+		intermarry = goddess	
 	}
 	goddess = {
 		graphical_culture = westerngfx
@@ -124,11 +123,12 @@ goddesses = {
 		high_god_name = GOD_GODDESS
 		
 		god_names = {
-			GOD_GODDESS GOD_HYLIA GOD_HER_GRACE
+			GOD_GODDESS GOD_HYLIA GOD_LEVIAS DRAGON_ELDIN DRAGON_FARON DRAGON_LANARYRU  
 		}	
 		evil_god_names = {
 				GOD_DEMISE GOD_GHIRAHIM
 		}
+		intermarry = golden_goddesses
 	}
 	goddess_of_time = {
 		graphical_culture = westerngfx
@@ -145,11 +145,13 @@ goddesses = {
 		high_god_name = GOD_GODDESS_OF_TIME
 		
 		god_names = {
-			GOD_GODDESS_OF_TIME LEVIAS_GOD DRAGON_ELDIN DRAGON_FARON DRAGON_LANARYRU 
+			GOD_GODDESS_OF_TIME
 		}
 		evil_god_names = {
 			GOD_DEMISE GOD_GHIRAHIM	
 		}
+		intermarry = golden_goddesses
+
 	}	
 	three_dragons = {
 		graphical_culture = westerngfx
@@ -169,6 +171,8 @@ goddesses = {
 		evil_god_names = {
 			GOD_DEMISE GOD_GHIRAHIM	
 		}
+		intermarry = golden_goddesses
+
 	}
 	levias = {
 		graphical_culture = westerngfx
@@ -187,6 +191,8 @@ goddesses = {
 		evil_god_names = {
 			GOD_DEMISE GOD_GHIRAHIM	
 		}
+		intermarry = golden_goddesses
+
 	}
 }
 
@@ -396,9 +402,12 @@ gerudo_religion = {
 		evil_god_names = {
 				GOD_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE
 		}
-				
+		
+		intermarry = 
 		feminist = yes
 		max_wives = 4
+		aggression = 1.5
+
 	}
 	
 	din_worship = {
@@ -428,6 +437,8 @@ gerudo_religion = {
 				
 		feminist = yes
 		max_wives = 4
+		aggression = 1.5
+
 	}
 	twinrova = {
 		graphical_culture = muslimgfx
@@ -454,6 +465,8 @@ gerudo_religion = {
 				
 		feminist = yes
 		max_wives = 4
+		aggression = 2
+
 	}
 	goddess_son = {
 		graphical_culture = muslimgfx
@@ -483,10 +496,11 @@ gerudo_religion = {
 				
 		feminist = yes
 		max_wives = 4
+		aggression = 2
 	}
 }
 
-forest = {
+forest_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westergfx
 	playable = yes
@@ -515,6 +529,8 @@ forest = {
 		god_names = {
 			GOD_GREAT_DEKU_TREE GOD_GREAT_DEKU_SAPLING GOD_GREAT_DEKU_SEED
 		}
+		intermarry = goddesses
+		intermarry = great_maku
 	}
 	great_maku = {
 		graphical_culture = slavicgfx
@@ -534,6 +550,9 @@ forest = {
 		god_names = {
 			GOD_GREAT_MAKU_TREE GOD_GREAT_MAKU_SAPLING GOD_GREAT_MAKU_SEED
 		}
+		intermarry = goddesses
+		intermarry = great_deku
+
 	}
 	tuni_nut = {
 		graphical_culture = slavicgfx
@@ -551,6 +570,9 @@ forest = {
 		god_names = {
 			GOD_TUNI_NUT
 		}
+		intermarry = goddesses
+		intermarry = great_deku
+
 	}
 	rod_of_season = {
 		graphical_culture = slavicgfx
@@ -568,6 +590,9 @@ forest = {
 		god_names = {
 			GOD_ROD_OF_SEASONS
 		}
+		intermarry = goddesses
+		intermarry = great_deku
+
 	}
 	great_fairies = {
 		graphical_culture = slavicgfx
@@ -590,6 +615,8 @@ forest = {
 		god_names = {
 			GOD_GREAT_FAIRY_QUEEN GOD_GREAT_FAIRY_POWER GOD_GREAT_FAIRY_WISDOM GOD_GREAT_FAIRY_COURAGE
 		}
+		intermarry = goddesses
+		intermarry = great_deku
 		feminist = yes
 
 	}
@@ -611,10 +638,12 @@ forest = {
 		evil_god_names = {
 			GOD_GREAT_DEKU_TREE GOD_GREAT_DEKU_SAPLING GOD_GREAT_DEKU_SEED 
 		}
+		intermarry = demons
+		aggression = 3
 	}
 }
 
-demon = {
+demons = {
 	has_coa_on_barony_only = yes
 	playable = yes
 	ai_peaceful = no # Will make Hordes lose their super aggressiveness
@@ -650,6 +679,11 @@ demon = {
 		evil_god_names = {
 			GOD_HYLIA
 		}
+		intermarry = vaati
+		intermarry = baga_tree
+		intermarry = ganon
+		intermarry = uncle_rupee
+		aggression = 4
 	}
 	vaati = {
 		graphical_culture = norsegfx
@@ -670,6 +704,12 @@ demon = {
 		god_names = {
 			GOD_VAATI
 		}
+		intermarry = demise
+		intermarry = baga_tree
+		intermarry = ganon
+		intermarry = uncle_rupee
+		aggression = 4
+
 	}
 	ganon = {
 		graphical_culture = norsegfx
@@ -693,6 +733,12 @@ demon = {
 		evil_god_names = {
 			GOD_HYLIA
 		}
+		intermarry = demise
+		intermarry = baga_tree
+		intermarry = vaati
+		intermarry = uncle_rupee 
+		aggression = 4
+
 	}
 	uncle_rupee = {
 		graphical_culture = norsegfx
@@ -708,7 +754,13 @@ demon = {
 		
 		god_names = {
 			GOD_RUPEE
+
 		}
+		intermarry = demise
+		intermarry = baga_tree
+		intermarry = vaati
+		intermarry = ganon
+		aggression = 2
 	}
 }
 
@@ -742,6 +794,10 @@ lizard = {
 		}
 		can_loot = yes 
 		max_consort = 3
+		aggression = 4
+		intermarry = volvagia
+		intermarry = argorok
+
 	}
 	#dino
 	volvagia = {
@@ -760,6 +816,11 @@ lizard = {
 		}
 		can_loot = yes 
 		max_consort = 3
+		aggression = 4
+		intermarry = argorok
+		intermarry = king_dodongo
+
+
 	}
 	#aero
 	argorok = {
@@ -778,6 +839,10 @@ lizard = {
 		}
 		can_loot = yes 
 		max_consort = 3
+		aggression = 4
+		intermarry = volvagia
+		intermarry = king_dodongo
+
 	}
 	Guardian = {
 
@@ -804,100 +869,46 @@ darknut_religion = {
 	ai_convert_same_group = 1 # always try to convert
 	ai_convert_other_group = 2 # always try to convert
 
-#code_of_honor (defensive)
-	honor = {
-
-		icon = 30
-		heresy_icon = 31
+	male_names = {Areteli}
+	Female_names = {Laylia Rytai Candora}
+	darknut_doctrine = {
+		icon = 11
+		heresy_icon = 12
 		
-		color = { 0.8 0.8 0.6 }		
+		color = { 0.8 0.8 0.6 }
 
-
-		scripture_name = IMUTABLE_CODE
-		priest_title = EXAMPLAR
-				
-		god_names = {
-			SHIELD HELM BREASTPLATE WALLS
-		}
-		
-	}
-#way of the phalanx (middle ground)
-	phalanx = {
-
-		icon = 30
-		heresy_icon = 31
-		
-		color = { 0.8 0.8 0.6 }		
-
-		scripture_name = MUTABLE_LAWS
 		priest_title = JUDGE
-				
-		god_names = {
-			SWORD MACE SHIELD HELM
-		}
-		feminist = yes
-		can_loot = yes
-		max_wives = 4
-	}
-
-#path of war (warlike)
-	war = {
-
-		icon = 30
-		heresy_icon = 31
-		
-		color = { 0.8 0.8 0.6 }		
-
-		female_priest = yes
-
-		scripture_name = MANDATE
-		priest_title = REAVER
-		
-		
-		god_names = {SWORD HAMMER MAUL MACE
-		}
-		can_loot = yes
-		peace_prestige_loss = yes
-	}
-	old_gods = {
-
-		icon = 30
-		heresy_icon = 31
-		
-		color = { 0.8 0.8 0.6 }		
-
-		female_priest = yes
-
-		scripture_name = 
-		priest_title = PRIEST
-		
-		high_god_name =		
-		god_names = {
 	
-		}
-		max_consort = 3
-		can_loot = yes
-		peace_prestige_loss = yes
-
-	}
-	ascended = {
-
-		icon = 30
-		heresy_icon = 31
 		
-		color = { 0.8 0.8 0.6 }		
-
-		female_priest = yes
-
-		scripture_name = 
-		priest_title = PRIEST
-		
-		high_god_name = 
+		high_god_name = THE_CODE
 		god_names = {
-			
+		THE_CODE GREAT_CANDORA
 		}
-		max_consort = 3
-		can_loot = yes
+
+	aggression = 2.0
+	intermarry = darknut_gods
+	feminist = yes
+	}
+	darknut_gods = {
+		icon = 11
+		heresy_icon = 12
+		
+		color = { 0.8 0.8 0.6 }
+
+		priest_title = PRIEST
+	
+		
+		high_god_name = GOD_ARETELI	
+		#war/leadership #armor/fertility #sword/disciplin
+		god_names = {
+		GOD_ARETELI GOD_RYTAI GOD_LAYLIA
+		}
+
+		max_wives = 4
+	aggression = 2.0
+	intermarry = darknut_doctrine
+	feminist = yes
+
 	}
 }
 sky_religion = {
@@ -972,6 +983,11 @@ sky_religion = {
 		}
 		peace_prestige_loss = yes
 		can_loot = yes
+		intermarry = demise
+		intermarry = baga_tree
+		intermarry = vaati
+		intermarry = ganon
+		intermarry = uncle_rupee
 	}
 	wind = {
 		graphical_culture = norsegfx
@@ -1074,6 +1090,12 @@ sea_religion = {
 		evil_god_names = {
 			GOD_OCEAN_KING GOD_OSHUS GOD_SERVANT_SPIRITS 
 		}
+		intermarry = demise
+		intermarry = baga_tree
+		intermarry = vaati
+		intermarry = ganon
+		intermarry = uncle_rupee
+		intermearry = cyclos
 	}
 	pirate = {
 		graphical_culture = westerngfx
@@ -1093,7 +1115,17 @@ sea_religion = {
 		allow_rivermovement = yes
 		peace_prestige_loss = yes
 		raised_vassal_opinion_loss = no
-		aggression = 4.0
+		aggression = 2.0
+		intermarry = gerudo_goddess
+		intermarry = darknut_docrtine
+		intermarry = darknut_gods
+	}
+}
+doctrine = {
+	wizzrobe_doctrine = {
+	intermarry = goddesses
+	intermarry = gerudo_goddess
+	intermarry = forest_religion
 	}
 }
 twili_religion = {
@@ -1185,6 +1217,7 @@ termian = {
 		}
 		can_loot = yes
 		peace_prestige_loss = yes
+		aggression = 2
 	}
 	fierce_diety = {
 		graphical_culture = norsegfx
@@ -1211,7 +1244,9 @@ termian = {
 				GOD_MAJORA
 		}	
 		can_loot = yes
-		peace_prestige_loss = yes		
+		peace_prestige_loss = yes
+		aggression = 2		
 	}
 }
+
 

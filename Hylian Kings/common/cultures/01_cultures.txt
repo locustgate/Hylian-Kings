@@ -1,13 +1,13 @@
 hyrule_group = {
 	hyrulean = {
-		graphical_culture = hyliangfx# portraits 
+		graphical_culture = hyliangfx # portraits 
 		secondary_graphical_culture = hyruleangfx # buildings, portraits, units
 
 		
 		color = { 0.3 0.55 0.8 }
 		
 		male_names = {
-			Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Stockwell Sturgeon Zill Wheaton Bremor Brent Doyle Mack Mutoh David Rauru Ichiro Jiro Sabbooro Shiro Guru-Guru Guru Grog Ingo Sakon Jovani Kamaro Baito Brac Bremor Dayle Darling Kafei Mack Dotour Barten Shikashi Coro Barnes Shar Auru Falbi Fyer Borville Charlo Chudley Jovani Pulo Soal Kaepora Gaebora Harkinian Daphnes Nohen Gulley Osfala Rosso Sahasrahla Akazoo Kazakk Daphnes Arthon Atrinas Aginah Bagu Mario Luigi Linebeck Chrom
+			Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlfov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Stockwell Sturgeon Zill Wheaton Bremor Brent Doyle Mack Mutoh David Rauru Ichiro Jiro Sabbooro Shiro Guru-Guru Guru Grog Ingo Sakon Jovani Kamaro Baito Brac Bremor Dayle Darling Kafei Mack Dotour Barten Shikashi Coro Barnes Shar Auru Falbi Fyer Borville Charlo Chudley Jovani Pulo Soal Kaepora Gaebora Harkinian Daphnes Nohen Gulley Osfala Rosso Sahasrahla Akazoo Kazakk Daphnes Arthon Atrinas Aginah Bagu Mario Luigi Linebeck Chrom
 		}
 
 		female_names = {
@@ -91,7 +91,40 @@ hyrule_group = {
 
 		modifier = default_culture_modifier
 	}
-	#blue
+	wizzrobe = {
+		graphical_culture = hyliangfx# portraits 
+		secondary_graphical_culture = wizzrobegfx # buildings, portraits, units
+
+		
+		color = { 0.3 0.55 0.8 }
+		#https://en.wikipedia.org/wiki/List_of_magicians
+		male_names = {
+		Merlin Harry Ron Jon Khalid Etigan Simo David Allan Curtis Claude Alexander Jay Johnathan Mivael Ivan Harry Henry Jerry Tony Criss Theodore John Jeffery Al Ed Carl Tobias Steven Varry Stuart Keith Herbert Ariann Ali John Derren Matthias Eugene Lance Kuda Mike Charles Canuto Richard Francis Chef Lu Milbourne Rudy Steve Aldo Louis Ali Tommy Tony Chris Fred Paul Dante Daryl Lewis Dedi Buatier Dedi Rasputin Persi Dean Derek Thomas Simon Paul Joseph Goeffrey Dynamo Doc Ahmed Tim Alex Sermet Terry Fakir Pete Michael Dariel Imro Mat Greg Martin Gazzo Uri Karl Andi Lennart Uri Lennart Horace Franz Neik Ertugrul
+		}
+#https://en.wikipedia.org/wiki/List_of_fictional_witches
+		female_names = {
+		Cia Lana Hermione Zatanna Raven Juliana	Dorothy Sophie Hendra Dorothy Magic Ariann Misty Fay Usapia Tenko Kristen Maneka Debbie Lisa Krystyn Frances Luna Morgan Bavmorda Circe Evanora Glinda Jadis Kotake Koume Locasta Maleficent Mary Medea Rita Theodora Tia Tiffany Alice Wisteria Amethyst Jaenelle Anguanes Davina Frya Ingrid Joanna Bonnie Diana Griselda Cassie Lavender Agatha Amelia Cate Faye Alecto Minnie Cho Chocolat Ruby Vanessa Lydia Fleur Gabrielle Kim Lena Ridley Sarafine Gillian Elphaba Empusa Erichtho Tabitha Theo Ethel Mona Sybil Agatha Ida Henrieta Mildred Helga Ilse Ischade Ivalaine Jadis Juniper Mabaa Maggie Maleen Max Miranda Mormo Melisandra Minerva Mombi Mimi Nico
+		}
+				
+		from_dynasty_prefix = "of "
+
+		male_patronym = "sen"
+		female_patronym = "sen"
+		prefix = no # The patronym is added as a suffix
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+
+	}
 }
 greater_hyrule = {
 	eldin = {
@@ -102,11 +135,12 @@ greater_hyrule = {
 		color = { 0.3 0.55 0.8 }
 		
 		male_names = {
-			Zan Damian Zorant Uxin Zoren Esusha Nava Suns Uviant Mian Venen Mash Miri Mezamen Ment Er Soxan Elont Uxamien Elare Xori Uron Sint Erari Namin Norin Morin Ecsee Ire Masa Mevaree Merirova Eruxe Tware Velulun Irivi Dere Sixi Xire Mansi Vodi Evere Maen Mocsoxi  Nenin Xewni Erin Vesan Maneeni Dirixi Xinin Xaeroman Dimin Twaxe Xinsi Mimin Iranan Enoxi Edixanin Iracson Menosi Vulen Iren Mixi Erureni Maront Denamin Maevint Elen Nuren Vare Mirin Irase Irari Dinin Ixore Xere Acsin Maren Sixun Sillin Manore Twan Iraron Ewinin Manun Enaxi Emarivint Denun Vemin Elere Neenont Naradee Vecse Darin Nirore Merarin Vere Uranin Vant 
+			Xant Damien Mixorant Uxin Xorent Eksusha Exun Domin Diraxuni Uxi Idinon Irun Moxere Uxint Ununt Vada Eruri Xint Xan Irinon Erunt Enixi Eren Doxin Eman Erixe Manari Erin Donin Eran Menant  Xodne Mant Exend Exant Manin Erani Erari Ishin Ende Imode Xaxin Enant Munin Mudne Eriri Erint Eron Erixi Dimi Unide Vinien Mexi Miri Darin Enent Xidni Dexon Eniemi Inan Enint Eriniri Mirixi Ixant Exexi Uxaxi Xarant Udixi Don Mirollaxi Eninieksi Uxixi Xaxiri Eni Xaron Eraxi Visin Iraxi Vin Dirin Viron Enon Maxan Dint Xarun Emant Imant Iksi Esint 
+Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
 	 	}
 		female_names = {
-			Midna Midee Una Veran Morsheen Mireen Minee Iri Ellise Enari Twila Dawna Verae Naeva Enari Veva Mien Xela Disama Irara Nira Iraxa Inera Twidarma Denae Irana Xinae Ivira Vonira Mari Erara Exivi Irima Xolin Maran Minim Meron Erada Docsa Xena Ivara Maedera Erona Irisha Eda Mowna Irishara Ireexa Anara Ureran Xara Irasala Irusa Twama Irira Iridixa Mora Twada Eridina Irevida Mawna Vera Mara Enina Mera Iroma Enora Xura Meva Xira Medni Mexa Enaxi Irona Irina Mada Maexi Muna Ensi Mavuri Exeli Xensi Dara Munsi Irera Iraeri Mina Mema Ecsa Iricsa Nushi Meri Eroni Iroxi Ivala Erama Uroxa Uvixi Urava Irori
-		}		
+			Midna Midi Una Veran Morshin Mirin Mini Iri Ellise Enari Mixi Vada Doxa Maxi Vexi Xara Mari Miri Mexi Mint Xidni Xori Modna Moxi Mimixi Mimoda Urosidna Era Daxi Meri Xari Vixi Mori Muri Dixi Exeda Eraxi Midni Muna Dodi Xoxi Xaxi Iraxa Unori Xiran Xdna Edna Enana Madni Dona Enixa Eraxi Enaxi Xalla Muni Moran Xadan Xami Xiexi Viksi Usi Unuxi Dishe Dori Minan Ira Ximon Malliri Xini Mixa Xarisheni Mun ullin Doni Dolli Xasira Iri Muren Xasha Miexi Xaran Eroxa Madne Mulla Xoni Xixi Enara Xare Merin Mixan Esera Mini Xadi Viran Minida Xanin Mirant Xada Edixi Emint 
+		}	
 		
 		from_dynasty_prefix = "of "
 				
@@ -123,9 +157,9 @@ greater_hyrule = {
 		modifier = default_culture_modifier
 	}
 	#bulgarian Finish 
-	kasuto =(
+	kasuton =(
 		graphical_culture = humangfx
-		secondary_graphical_culture = hyruleangfx
+		secondary_graphical_culture = greaterhyruleangfx
 
 		male_names = {
 		Justin Salatiel Bayron Ngazetungue Shilli Tim Silas Veijo Iazrus Kabali Erastus Pius Xolani Hendrick Mustafa Raphael David Eckard Marco Ninda Etuna Sisco Berriz Wixa George Gariseb Lusianho Kreuger Aca Aco Adrijan Borko Bozhidar Brank Chedomir Damjan Dusko Emil Evgenij Filip Gerasim Gjorgji Hristijan Hristo Igor Ile Ilija Jakov Kire Kiril Kliment Marko Matin Matej Metodij Nikolche Ognen Oliver Paskal Pece Slobodan Stamen Tase Teodor Vasil Vaska Viktor Vlado Zoran Zlatko Trajan Toshe Stojan Stamen Stefan Rumen Petko Naum Nedelko Milos Mirche Lazar Leonid Ljube Kristijan Isidor Ilija Ile Ivo Dzvezdan Dusan Yosif Yulian Yorjan Yoan Valeri Tsvetko Stoyan Svetomir Radomir
@@ -150,10 +184,10 @@ greater_hyrule = {
 	)
 	sarian = {
 		graphical_culture = humangfx
-		secondary_graphical_culture = hyruleangfx
+		secondary_graphical_culture = greaterhyruleangfx
 
 		male_names = {
-			Rus Bagu Erol Krin Achilles Aias Adil Ali Baha Behram Brontes Bacchus Castor Cerberus Cenk Cumhur Demir Doruk Deimos Dionysus Eros Evander Efe Ekrem Firat Fehim Fatih Faruk Gursel Goksu Glaukos Glaucus Hector Hades Halil Halim Idris Ilhan Iacchus Ion Jason Kasim Kerem Kasim Kepheus Koisos Kreios Kronos Lutfi Levent  Linos Lycus Midas Menelaos Mecit Mehmed Nail Nezih Nerus Nikephoros Oceanus Orestes Onur Osman Polat Pallas Pegasus Phoebus Pluto Priam Thanatos Theseus Rasim Refik Reis Ridvan Riza Sadi Sahin Selim Semir Talat Taner Temel Tolga Ulvi Umit Utku Ugur Vahit Volkan Vural Vedat Yagmur Yakup Yaser Yigit Ziya Zeki Zeus
+			Rus Bagu Erol Krin Achilles Aias Adil Ali Baha Behram Brontes Bacchus Castor Cerberus Cenk Cumhur Demir Doruk Deimos Dionysus Eros Evander Efe Ekrem Firat Fehim Fatih Faruk Gursel Goksu Glaukos Glaucus Hector Hades Halil Halim Idris Ilhan Iacchus Ion Jason Kasim Kerem Kasim Kepheus Koisos Kreios Kronos Lutfi Levent Linos Lycus Midas Menelaos Mecit Mehmed Nail Nezih Nerus Nikephoros Oceanus Orestes Onur Osman Polat Pallas Pegasus Phoebus Pluto Priam Thanatos Theseus Rasim Refik Reis Ridvan Riza Sadi Sahin Selim Semir Talat Taner Temel Tolga Ulvi Umit Utku Ugur Vahit Volkan Vural Vedat Yagmur Yakup Yaser Yigit Ziya Zeki Zeus
 		}
 		female_names = {
 			Cassiopeia Acantha Anthea Ayla Adile Banu Beste Briseis Beyza Carme Cassandra Cagri Cemile Damla Dilara Despoina Doris Eos Elektra Elif Enise Fatos Feride Fidan Feriha Gul Gamze Gaia Gaea Hebe Helena Halide Hulya Ilkay Ipek Io Irene Jocasta  Jale Kader Kismet Kalliope Kore Ligeia Lamia Leyla Lutfiye Meltem Munire Maia Medeia Nyx Nephele Naile Nehir Ozge Ozlem Oinone Ourania Pandora Phaedra Pembe Peri Rabia Rukiye Rheia Rhea Selene Semele Tethys Thalia Tulay Tahire Ulku Umut Ulviye Vahide Yagmur Yesim Urania Xanthe Zehra Zekiye Zeynep Ziynet Zubeyde Zoe Zinovia Xenia Xene Vasiliki Varvara Timothea Tasia Stavroula Sofia Sotiria Petra Natasa Nefeli
@@ -174,8 +208,8 @@ greater_hyrule = {
 		modifier = default_culture_modifier
 	}
 	kakarikon = {
-		graphical_culture = humangfx
-		secondary_graphical_culture = hyruleangfx
+		graphical_culture = kakarikongfx
+		secondary_graphical_culture = kakarikongfx
 
 		male_names = {
 			Renado Antonio Carlos Cesar Crespin Cruz Daniel DeMario Doroteo Eber Elbanco Eleazar Elieis Emilio Enrique Enriqueta Ernesto Eru Erubiel Felix Filiberto Flaco Francisco Gabriel Graciano Hector Heraclio Humberto Ignacio Isdel Isidoro Ivan Izek Jamenacho Jaime Nacho Jarini Javier Ernesto Joel Jorge Jose Juan Carlos Juaquine Kasper Lino Luis Fernando Luz Madaleno Miguel Nadia Omar Osvaldo Oswaldo Otilio Pancho Paulino Porfirio Quique Rafael Ramirez Ramiro Raul Renau Robert Roman Ruben Sandro Santiago Sergio Spiro Toraidio Victor Virgilio Agapito Agustin Abilo Camilo Cande Candelario Carmelo Casimiro Dani Danilo Dulio Eutimio Ezequiel Fabio Faustino Gil Glauco Godofredo Fredo Goyo Hernan Hugo Horacio  Heraclio Herberto
@@ -196,6 +230,86 @@ greater_hyrule = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+	little_hyrulean = {
+		graphical_culture = hyliangfx
+		secondary_graphical_culture = greaterhyruleangfx
+
+		
+		color = { 0.3 0.55 0.8 }
+		
+		male_names = {
+			Xant Damien Mixorant Uxin Xorent Eksusha Exun Domin Diraxuni Uxi Idinon Irun Moxere Uxint Ununt Vada Eruri Xint Xan Irinon Erunt Enixi Eren Doxin Eman Erixe Manari Erin Donin Eran Menant  Xodne Mant Exend Exant Manin Erani Erari Ishin Ende Imode Xaxin Enant Munin Mudne Eriri Erint Eron Erixi Dimi Unide Vinien Mexi Miri Darin Enent Xidni Dexon Eniemi Inan Enint Eriniri Mirixi Ixant Exexi Uxaxi Xarant Udixi Don Mirollaxi Eninieksi Uxixi Xaxiri Eni Xaron Eraxi Visin Iraxi Vin Dirin Viron Enon Maxan Dint Xarun Emant Imant Iksi Esint 
+Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
+	 	}
+		female_names = {
+			Midna Midi Una Veran Morshin Mirin Mini Iri Ellise Enari Mixi Vada Doxa Maxi Vexi Xara Mari Miri Mexi Mint Xidni Xori Modna Moxi Mimixi Mimoda Urosidna Era Daxi Meri Xari Vixi Mori Muri Dixi Exeda Eraxi Midni Muna Dodi Xoxi Xaxi Iraxa Unori Xiran Xdna Edna Enana Madni Dona Enixa Eraxi Enaxi Xalla Muni Moran Xadan Xami Xiexi Viksi Usi Unuxi Dishe Dori Minan Ira Ximon Malliri Xini Mixa Xarisheni Mun ullin Doni Dolli Xasira Iri Muren Xasha Miexi Xaran Eroxa Madne Mulla Xoni Xixi Enara Xare Merin Mixan Esera Mini Xadi Viran Minida Xanin Mirant Xada Edixi Emint 
+		}	
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	#bulgarian Finish 
+	east_hyrulean =(
+		graphical_culture = hyliangfx
+		secondary_graphical_culture = greaterhyruleangfx
+
+		male_names = {
+		Justin Salatiel Bayron Ngazetungue Shilli Tim Silas Veijo Iazrus Kabali Erastus Pius Xolani Hendrick Mustafa Raphael David Eckard Marco Ninda Etuna Sisco Berriz Wixa George Gariseb Lusianho Kreuger Aca Aco Adrijan Borko Bozhidar Brank Chedomir Damjan Dusko Emil Evgenij Filip Gerasim Gjorgji Hristijan Hristo Igor Ile Ilija Jakov Kire Kiril Kliment Marko Matin Matej Metodij Nikolche Ognen Oliver Paskal Pece Slobodan Stamen Tase Teodor Vasil Vaska Viktor Vlado Zoran Zlatko Trajan Toshe Stojan Stamen Stefan Rumen Petko Naum Nedelko Milos Mirche Lazar Leonid Ljube Kristijan Isidor Ilija Ile Ivo Dzvezdan Dusan Yosif Yulian Yorjan Yoan Valeri Tsvetko Stoyan Svetomir Radomir
+		}
+		female_names = {
+		Annika Jennifer Jessica Maria Lahja Tulika Sylvia Anastasia Michelle Bernedine Teddie Wiltrud Shaneace Lidia Albertine Sarita Revony Toini Martha Rebecca Selma Tahakhiro Yasmine Ashley Hilma Jolida Albena Ana Angel Anka Bozhidara Dara Bozhi Branimira Boyana Desislava Diana Donka Ektrina Eleonora Elisaveta Emiliya Eva Evangeliya Evdokiya Gabriela Galena Galina Grozda Hristina Iliana Ilina Iona Irina Kalina Katerina Klavdya Magdalena Magdalina Malina Margarita Marina Mira Nadejda Nadia Ognyana Olga Paraskeva Petya Polina Rada Radka Radoslava Rosa Rosica Rositsa Roza Rumena Ruzha Silva Silviya Simona Sofiya Stanislava Stanka Stoyanka Svetlana Tatiana Teodora Tereza Todorka Tsveta Venera Vaska Veronika Viktoriya Violeta Yana Yoana Yuliana
+
+		}		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	)
+	west_hyrulean = {
+		graphical_culture = hyliangfx
+		secondary_graphical_culture = greaterhyruleangfx
+
+		male_names = {
+			Rus Bagu Erol Krin Achilles Aias Adil Ali Baha Behram Brontes Bacchus Castor Cerberus Cenk Cumhur Demir Doruk Deimos Dionysus Eros Evander Efe Ekrem Firat Fehim Fatih Faruk Gursel Goksu Glaukos Glaucus Hector Hades Halil Halim Idris Ilhan Iacchus Ion Jason Kasim Kerem Kasim Kepheus Koisos Kreios Kronos Lutfi Levent Linos Lycus Midas Menelaos Mecit Mehmed Nail Nezih Nerus Nikephoros Oceanus Orestes Onur Osman Polat Pallas Pegasus Phoebus Pluto Priam Thanatos Theseus Rasim Refik Reis Ridvan Riza Sadi Sahin Selim Semir Talat Taner Temel Tolga Ulvi Umit Utku Ugur Vahit Volkan Vural Vedat Yagmur Yakup Yaser Yigit Ziya Zeki Zeus
+		}
+		female_names = {
+			Cassiopeia Acantha Anthea Ayla Adile Banu Beste Briseis Beyza Carme Cassandra Cagri Cemile Damla Dilara Despoina Doris Eos Elektra Elif Enise Fatos Feride Fidan Feriha Gul Gamze Gaia Gaea Hebe Helena Halide Hulya Ilkay Ipek Io Irene Jocasta  Jale Kader Kismet Kalliope Kore Ligeia Lamia Leyla Lutfiye Meltem Munire Maia Medeia Nyx Nephele Naile Nehir Ozge Ozlem Oinone Ourania Pandora Phaedra Pembe Peri Rabia Rukiye Rheia Rhea Selene Semele Tethys Thalia Tulay Tahire Ulku Umut Ulviye Vahide Yagmur Yesim Urania Xanthe Zehra Zekiye Zeynep Ziynet Zubeyde Zoe Zinovia Xenia Xene Vasiliki Varvara Timothea Tasia Stavroula Sofia Sotiria Petra Natasa Nefeli
+		}
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
 
 }
 valley_group = {
@@ -702,10 +816,10 @@ goron_group = {
 		
 		#title biggoron medigoron
 		male_names = {
-			Darunia Darmani Darbus Amoto Coron Ebizo Liggs Gongoron Kagoron 
+			Darunia Darmani Darbus Amoto Coron Ebizo Liggs Gongoron Kagoron Ezon Dorami Gori Donon Diran Dimago Emanas Diris Kunos Kogin Ezatos Donun Dano Gigan Diro Aromi Gonia Gomi Angin Durin Lazan Lorun Duria Lanus Koron Gomi Ezami Larmoban Koboto Amoro Kaman Erato Domi Lagin Ebogan Gurin Ararin Kogos Kagonoto Giroto Dirbi Canoto Azazo Coras Laras Giras Dato Lotin Dago Daras Diman Donas Garin Gurorami Lami Kan Gorori Cogiro Kunoras Dozami Dutin Gatorami Enogin Gonan DOzus Amabin Kitinon Emos Kango Lazus Goraria Kugoromi Dimami Dubaron Girin Ditun Komi Gigigami Luras Dotin Enami Lotomin Dobaria Doronami Eton Etaro Anami Gigo Limi Limuto Amirbo
 		}
 		female_names = {
-		Gorina
+		Gorina Lotira Gogan Eni Enomin Garonura Kami Gozora Dozin Dozobora  Arimago Laron Kogas Ganas Domaro Dozoba Gorin Caman Lorona Kuroro Lagan Atami Daron Gazumi Korin Canin Congin Aroritin Kiran Doba Doraro Domo Donos Anorbin Laraba Kotan Enimi Dora Amin Lingatami Lonaguton Carin Doron Lunon Comori Kurigo Ciria Gorugo Erutimi Loniba Enan Larogo Gorbin Ezorin Amonan Domami Larira Kogoris Diros Gorbon Loron Laban Goriri Diririn Ezirora Donin Luggs Dirman Ermoria Dogotami Corigas Arami Atogan Dimin Gito Loton Karuron Lonon Karon Anomi Erami Azana Doros Diron Dimi Ditos Digon Koton Lata Ebonan Durmoron Ganata Eromi Ditorami Caron Lormon Laran Darami Dogan Cingi
 		}
 		
 		dukes_called_kings = no
@@ -1439,20 +1553,21 @@ twilight_realm = {
 	}
 }
 terminia = {	
-	cursed_ikanian = {
+	cursed_ikanan = {
 
 		graphical_culture = cursedgfx # portraits
 		second_graphical_culture = ikaniangfx # buildings, portraits, units
+#chinese
 
 		
 		color = { 0.3 0.55 0.8 }
 		
 		
 		male_names = {
-		Keeta Igos Io Asura Emir Matlalzoatl Asu Itos Aras Mogaras Mutas Amoras Sumat Iroru Ama Egaru Asos Atas Muta Igra Igees Egras Ehratlotlas Atema Arera Egalu Seer Mosor Turos Iloma Ataga Gar Itema Gima Itut Musar Araru Ilis Tiru Igeet Geeru Totis Egomis Egra Amega Imalu Igoru Geet Igros Atat Sama Mumas Sala Mularir Geer Mutateem Agruss Itolu Ahress Iros Mutos Mururu Mugru Ireru Igru Mutu Mulor Mutoas Segrat Toaru Mumura Mumra Toaru Murot Tamis Mulat Egar Aseemu Igor Iru Asulu Tagas Imeru Mumos Mutor Geess Iromu Igit Mumut Etura Satlaru Iroma Aru Ileru Itumu Mugror Iralu Muru Keeru Teru
+		Keeta Igos Kiza Zol Shaka Kaun Amoka Keel Kun Gatos Kekos Kolamah Gotakos Zoss Kotah Geel Kozus Kaulatal Gauh Goran Koros Zess Kalal Ietah Zil Irah Igoss Gomas Atila Gazol Atata Nalon Karus Iruss Namuss Noza Neema Kegoss Narol Naloka Naliza Aruss Gauraka Gauzeza Azera Amola Gola Golos Kelan Kah Gauzol Nauruh Noma Azuss Kauka Zama Zira Noman Kumama Kamegra Gila Ikaka Aleel Notala Shogala SHuss Kiruss Zotaura Gaugas Kazaus Gauma Iezan Izuss Kagol Komuh Komeh Nalaka Gotah Aruh Koza Aras Shura Zamis Kauma Akala Zoka Zaura Karah Komola Narah Iemah Shola Kautah Itula Nomoh Gauzel Aizah Zaman Gaun Zakoka
 		}
 		female_names = {
-		Gomess Igra Ia Ala Iras Seera Tohru Ilata Tigra Segora Ama Teesa Atara Teerihra Rihra Igra Muta Ila Arera Tura Gagra Meraleru Ihris Tara Sama Ameru Tara Kagra Egra Atora Talza Itoga Sala Asusa Egaga Matla Gora Irara Ilza Tatloga Mumura Mumila Mila Irama Igama Irema Tati Igrama Igoma Kora Koaga Atula Agra Geera Geeta Atuta Sara Alagra Ili Tema Ilzitema Imass Geesa Iroma Asihrosa Koara Ilora Koasa Geela Iroga Mara Tahra Gees Tuss Itlire Kira Ara Ahris Arota Igosara Alara Mura Mora Ahra Irees Amura Gara Iretass Maleera Kagis Segra Igoga Itlotlis Alelos Aluga Igura Tosogra Tagura Agora Mugra
+		Gomess Kamura Aikara Naroh Iegra Ala Gauza Igras Kara Zara Aira Gauka Iemara Kagal Ketah Zas Kima Shara Imoma Atara Kaula Kagalal Kaga Ateel Kokuss Amekoza Ila Ira Nalol Zakuh Irola Ikuss Noka Nales Koma Gora Kass Ireel Shaka Nalareh Aigah Gata Gauzoga Kauman Kola Nura Zomuh Akema Ireeka Ireteel Aitas Ieran Kota Karess Gauzal Imara Nalas Gaura Keela Igra Arara Zeer Gauzan Naza Keka Qauss Galaura Katah Garikara Gaurah Atora Iekola Ikoma Kitah Aka Gaula Aikora Shama Gura Kagema Nirura Zautera Karera Nagoss Gama Atama Nama Zoma Akah Kakah Naruss Guss Aizan Gaula Kala Gauta Nola Irara Gaga Kuss
 		}
 		
 		dukes_called_kings = no
@@ -1473,7 +1588,7 @@ terminia = {
 
 	}
 	#Readopted Goddesses/Goddess of Time
-	ikanian = {
+	ikanan = {
 
 		graphical_culture = ikaniangfx # portraits
 		second_graphical_culture = ikaniangfx # buildings, portraits, units
