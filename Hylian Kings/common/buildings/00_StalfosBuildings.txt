@@ -1,0 +1,2087 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ #<tag> = {
+ #	desc = description used in the tooltip of the building
+ #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
+ #	gold_cost = cost to build the building
+ #	build_time = time to build, in days
+ #	
+ #	ai_creation_factor = weight that the AI uses to determine what building to build
+ #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #}
+ 
+ # Castle
+castle = {
+#moat,arrowslit,portcull,bubbles,barbican
+	ca_undead_wall_q_1 = {
+		potential = {				
+				culture_group = undead
+				culture = undead_ikanan
+		}
+		desc = ca_undead_wall_q_1_desc
+		replace = ca_wall_q_1
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 80
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_undead_wall_q_2 = {
+		desc = ca_undead_wall_q_2_desc
+		potential = {				
+				culture_group = undead
+				culture = undead_ikanan
+
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		upgrades_from = ca_undead_wall_q_1
+		prerequisites = { ca_undead_wall_1 }
+		replace = ca_wall_q_2
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 79
+
+		extra_tech_building_start = 0.6
+	}
+	ca_undead_wall_q_3 = {
+		potential = {				
+				culture_group = undead
+				culture = undead_ikanan
+
+		}
+		desc = ca_undead_wall_q_3_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+		upgrades_from = ca_undead_wall_q_2
+		replace = ca_wall_q_3
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 78
+		
+		extra_tech_building_start = 0.2
+	}
+	ca_undead_wall_q_4 = {
+		potential = {				
+				culture_group = undead
+				culture = undead_ikanan
+
+		}
+		desc = ca_undead_wall_q_4_desc
+		replace = ca_wall_q_4
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		upgrades_from = ca_undead_wall_q_3
+		gold_cost = 100
+		build_time = 365
+		fort_level = 1.0
+		ai_creation_factor = 77
+		
+		extra_tech_building_start = 0.2
+	}
+	ca_undead_wall_q_5 = {
+		potential = {				
+				culture_group = undead
+				culture = undead_ikanan
+
+		}
+		desc = ca_undead_wall_q_5_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+		upgrades_from = ca_undead_wall_q_4
+		replace = ca_wall_q_5
+		gold_cost = 100
+		build_time = 365
+		fort_level = 1.0
+		ai_creation_factor = 76
+
+		extra_tech_building_start = 0.2
+	}
+#stalarcher,stalkin,staltroop
+	ca_staltroop_barracks_1 = {
+		desc = ca_staltroop_barracks_1_desc
+		potential = {				
+			culture_group = undead
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		replace = ca_militia_barracks_1
+		build_time = 365
+		light_infantry = 40
+		pikemen = 20
+		archers = 10
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_staltroop_barracks_2 = {
+		desc = ca_staltroop_barracks_2_desc
+		potential = {				
+				culture_group = undead
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_staltroop_barracks_1
+		replace = ca_militia_barracks_2
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 50
+		pikemen = 30
+		archers = 50
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.0
+	}
+	ca_staltroop_barracks_3 = {
+		desc = ca_staltroop_barracks_3_desc
+		potential = {				
+				culture_group = undead
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_staltroop_barracks_2
+		replace = ca_militia_barracks_3
+		gold_cost = 200
+		build_time = 1095
+		light_infantry = 20
+		pikemen = 40
+		archers = 30
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	ca_staltroop_barracks_4 = {
+		desc = ca_staltroop_barracks_3_desc
+		potential = {				
+				culture_group = undead
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_staltroop_barracks_3
+		replace = ca_militia_barracks_4
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 30
+		pikemen = 50
+		archers = 60
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	ca_stalfos_barracks_1 = {
+		desc = ca_stalfos_barracks_1_desc
+		potential = {				
+				culture_group = undead
+				NOT = {terrain = desert}
+
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replace = ca_barracks_1
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 50
+		ai_creation_factor = 105
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_stalfos_barracks_2 = {
+		desc = ca_stalfos_barracks_1_desc
+		potential = {				
+				culture_group = undead
+				NOT = {terrain = desert}
+
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replace = ca_barracks_2
+		prerequisites = { ca_undead_wall_1 }
+		upgrades_from = ca_stalfos_barracks_1
+		gold_cost = 120
+		build_time = 547
+		heavy_infantry = 60
+		ai_creation_factor = 104
+		
+		extra_tech_building_start = 1.8
+	}
+	ca_stalfos_barracks_3 = {
+		desc = ca_stalfos_barracks_1_desc
+		potential = {				
+				culture_group = undead
+				NOT = {terrain = desert}
+
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		replace = ca_barracks_3
+		prerequisites = { ca_undead_wall_2 }
+		upgrades_from = ca_stalfos_barracks_2
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 70
+		ai_creation_factor = 103
+
+		extra_tech_building_start = 3.0
+	}
+	ca_stalfos_barracks_4 = {
+		desc = ca_stalfos_barracks_1_desc
+		potential = {				
+				culture_group = undead
+				NOT = {terrain = desert}
+
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		replace = ca_barracks_4
+		upgrades_from = ca_stalfos_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 70
+		ai_creation_factor = 102
+
+		extra_tech_building_start = 3.0
+	}
+	ca_stalfos_barracks_5 = {
+		desc = ca_stalfos_barracks_1_desc
+		potential = {				
+				culture_group = undead
+				NOT = {terrain = desert}
+
+		}
+		replace = ca_barracks_5
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_stalfos_barracks_4
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 80
+		ai_creation_factor = 101
+
+		extra_tech_building_start = 2.0
+	}
+	ca_stalfos_barracks_6 = {
+		desc = ca_stalfos_barracks_1_desc
+		potential = {				
+				culture_group = undead
+				NOT = {terrain = desert}
+
+		}
+		replace = ca_barracks_6
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_stalfos_barracks_5
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 90
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.2
+	}
+#stalhounds,phantoms
+	ca_kennel_1 = {
+		desc = ca_kennel_1_desc
+		potential = {				
+				culture_group = undead
+				NOT = {terrain = desert}
+
+		}
+		replace = ca_stable_1
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_cavalry = 40
+		ai_creation_factor = 89
+		
+		extra_tech_building_start = 0.4
+	}
+	ca_kennel_2 = {
+		desc = ca_kennel_1_desc
+		potential = {				
+				culture_group = undead
+				NOT = {terrain = desert}
+
+		}
+		replace = ca_stable_2
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_kennel_1
+		gold_cost = 120
+		build_time = 547
+		light_cavalry = 50
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 0.8
+	}
+	ca_kennel_3 = {
+		desc = ca_kennel_1_desc
+		potential = {				
+				culture_group = undead
+				NOT = {terrain = desert}
+
+		}
+		replace = ca_stable_3
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_kennel_2
+		gold_cost = 200
+		build_time = 730
+		light_cavalry = 55
+		ai_creation_factor = 87
+
+		extra_tech_building_start = 0.2
+	}
+	replace = ca_stable_3
+	ca_kennel_4 = {
+		desc = ca_kennel_1_desc
+		potential = {				
+				culture_group = undead
+				NOT = {terrain = desert}
+
+		}
+		replace = ca_stable_4
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_kennel_3
+		gold_cost = 300
+		build_time = 1095
+		light_cavalry = 60
+		ai_creation_factor = 86
+
+		extra_tech_building_start = 0.2
+	}
+	ca_kennel_5 = {
+		desc = ca_kennel_1_desc
+		potential = {				
+				culture_group = undead
+				NOT = {terrain = desert}
+
+		}
+		replace = ca_stable_5
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_kennel_4
+		gold_cost = 400
+		build_time = 2190
+		light_cavalry = 70
+		ai_creation_factor = 85
+
+		extra_tech_building_start = 0.2
+	}
+	ca_kennel_6 = {
+		desc = ca_kennel_6_desc
+			potential = {				
+				culture_group = undead
+				NOT = {terrain = desert}
+
+		}
+		replace = ca_stable_6
+		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
+		upgrades_from = ca_kennel_5
+		gold_cost = 500
+		build_time = 2190
+		light_cavalry = 70
+		knight = 10
+		ai_creation_factor = 85
+
+		extra_tech_building_start = 0.2
+	}
+	ca_charnel_pit_1 = {
+		desc = ca_charnel_pit_1_desc
+		potential = {				
+				culture_group = undead
+		}	
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		replace = ca_training_grounds_1
+		gold_cost = 200
+		build_time = 730
+		levy_reinforce_rate = 0.15
+		retinuesize = 20
+		ai_creation_factor = 89
+
+		extra_tech_building_start = 1.2
+	}
+	ca_charnel_pit_2 = {
+		desc = ca_charnel_pit_1_desc
+		potential = {				
+				culture_group = undead
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_charnel_pit_1
+		replace = ca_training_grounds_2
+		gold_cost = 250
+		build_time = 1095
+		levy_reinforce_rate = 0.2
+		retinuesize = 20
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 0.5
+	}
+	ca_charnel_pit_3 = {
+		desc = ca_charnel_pit_1_desc
+		potential = {				
+				culture_group = undead
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_charnel_pit_2
+		replace = ca_training_grounds_3
+		gold_cost = 300
+		build_time = 2190
+		levy_reinforce_rate = 0.3
+		retinuesize = 20
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 0.2
+	}
+	ca_gibdo_barracks_1 = {
+		desc = ca_gibdo_barracks_1_desc
+		potential = {				
+				culture_group = undead
+				terrain = desert
+
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replace = ca_barracks_1
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 50
+		ai_creation_factor = 105
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_gibdo_barracks_2 = {
+		desc = ca_gibdo_barracks_1_desc
+		potential = {				
+				culture_group = undead
+				terrain = desert
+
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replace = ca_barracks_2
+		prerequisites = { ca_undead_wall_1 }
+		upgrades_from = ca_gibdo_barracks_1
+		gold_cost = 120
+		build_time = 547
+		heavy_infantry = 60
+		ai_creation_factor = 104
+		
+		extra_tech_building_start = 1.8
+	}
+	ca_gibdo_barracks_3 = {
+		desc = ca_gibdo_barracks_1_desc
+		potential = {				
+				culture_group = undead
+				terrain = desert
+
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		replace = ca_barracks_3
+		prerequisites = { ca_undead_wall_2 }
+		upgrades_from = ca_gibdo_barracks_2
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 70
+		ai_creation_factor = 103
+
+		extra_tech_building_start = 3.0
+	}
+	ca_gibdo_barracks_4 = {
+		desc = ca_gibdo_barracks_1_desc
+		potential = {				
+				culture_group = undead
+				terrain = desert
+
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		replace = ca_barracks_4
+		upgrades_from = ca_gibdo_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 70
+		ai_creation_factor = 102
+
+		extra_tech_building_start = 3.0
+	}
+	ca_gibdo_barracks_5 = {
+		desc = ca_gibdo_barracks_1_desc
+		potential = {				
+				culture_group = undead
+				terrain = desert
+
+		}
+		replace = ca_barracks_5
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_gibdo_barracks_4
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 80
+		ai_creation_factor = 101
+
+		extra_tech_building_start = 2.0
+	}
+	ca_gibdo_barracks_6 = {
+		desc = ca_gibdo_barracks_1_desc
+		potential = {				
+				culture_group = undead
+				terrain = desert
+
+		}
+		replace = ca_barracks_6
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_gibdo_barracks_5
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 90
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.2
+	}
+#staldra
+	ca_staldra_pit_1 = {
+		desc = ca_staldra_pit_1_desc
+		potential = {				
+				culture_group = undead
+				terrain = desert
+
+		}
+		replace = ca_stable_1
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_cavalry = 20
+		ai_creation_factor = 89
+		
+		extra_tech_building_start = 0.4
+	}
+	ca_staldra_pit_2 = {
+		desc = ca_staldra_pit_1_desc
+		potential = {				
+				culture_group = undead
+				terrain = desert
+
+		}
+		replace = ca_stable_2
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_staldra_pit_1
+		gold_cost = 120
+		build_time = 547
+		light_cavalry = 30
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 0.8
+	}
+	ca_staldra_pit_3 = {
+		desc = ca_staldra_pit_1_desc
+		potential = {				
+				culture_group = undead
+				terrain = desert
+
+		}
+		replace = ca_stable_3
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_staldra_pit_2
+		gold_cost = 200
+		build_time = 730
+		light_cavalry = 40
+		ai_creation_factor = 87
+
+		extra_tech_building_start = 0.2
+	}
+	replace = ca_stable_3
+	ca_staldra_pit_4 = {
+		desc = ca_staldra_pit_1_desc
+		potential = {				
+				culture_group = undead
+				terrain = desert
+
+		}
+		replace = ca_stable_4
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_staldra_pit_3
+		gold_cost = 300
+		build_time = 1095
+		light_cavalry = 50
+		ai_creation_factor = 86
+
+		extra_tech_building_start = 0.2
+	}
+	ca_staldra_pit_5 = {
+		desc = ca_staldra_pit_1_desc
+		potential = {				
+				culture_group = undead
+				terrain = desert
+
+		}
+		replace = ca_stable_5
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_staldra_pit_4
+		gold_cost = 400
+		build_time = 2190
+		light_cavalry = 60
+		ai_creation_factor = 85
+
+		extra_tech_building_start = 0.2
+	}
+	ca_staldra_pit_6 = {
+		desc = ca_staldra_pit_6_desc
+			potential = {				
+				culture_group = undead
+				terrain = desert
+
+		}
+		replace = ca_stable_6
+		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
+		upgrades_from = ca_staldra_pit_5
+		gold_cost = 500
+		build_time = 2190
+		light_cavalry = 60
+		ai_creation_factor = 85
+
+		extra_tech_building_start = 0.2
+	}
+	ca_stalchild_barracks_1 = {
+		desc = ca_stalchild_barracks_1_desc
+		potential = {				
+			culture = undead_ikanan
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		replace = ca_militia_barracks_1
+		build_time = 365
+		light_infantry = 50
+		archers = 30
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_stalchild_barracks_2 = {
+		desc = ca_stalchild_barracks_2_desc
+		potential = {				
+				culture = undead_ikanan
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_stalchild_barracks_1
+		replace = ca_militia_barracks_2
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 50
+		archers = 50
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.0
+	}
+	ca_stalchild_barracks_3 = {
+		desc = ca_stalchild_barracks_3_desc
+		potential = {				
+				culture = undead_ikanan
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_stalchild_barracks_2
+		replace = ca_militia_barracks_3
+		gold_cost = 200
+		build_time = 1095
+		light_infantry = 40
+		archers = 50
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	ca_stalchild_barracks_4 = {
+		desc = ca_stalchild_barracks_3_desc
+		potential = {				
+				culture = undead_ikanan
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_stalchild_barracks_3
+		replace = ca_militia_barracks_4
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 80
+		archers = 60
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	ca_stalsoldier_barracks_1 = {
+		desc = ca_stalsoldier_barracks_1_desc
+		potential = {				
+				culture = undead_ikanan
+				
+
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replace = ca_barracks_1
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 50
+		ai_creation_factor = 105
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_stalsoldier_barracks_2 = {
+		desc = ca_stalsoldier_barracks_1_desc
+		potential = {				
+				culture = undead_ikanan
+				
+
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replace = ca_barracks_2
+		prerequisites = { ca_undead_wall_1 }
+		upgrades_from = ca_stalsoldier_barracks_1
+		gold_cost = 120
+		build_time = 547
+		heavy_infantry = 60
+		ai_creation_factor = 104
+		
+		extra_tech_building_start = 1.8
+	}
+	ca_stalsoldier_barracks_3 = {
+		desc = ca_stalsoldier_barracks_1_desc
+		potential = {				
+				culture = undead_ikanan
+				
+
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		replace = ca_barracks_3
+		prerequisites = { ca_undead_wall_2 }
+		upgrades_from = ca_stalsoldier_barracks_2
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 70
+		ai_creation_factor = 103
+
+		extra_tech_building_start = 3.0
+	}
+	ca_stalsoldier_barracks_4 = {
+		desc = ca_stalsoldier_barracks_1_desc
+		potential = {				
+				culture = undead_ikanan
+				
+
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		replace = ca_barracks_4
+		upgrades_from = ca_stalsoldier_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 70
+		ai_creation_factor = 102
+
+		extra_tech_building_start = 3.0
+	}
+	ca_stalsoldier_barracks_5 = {
+		desc = ca_stalsoldier_barracks_1_desc
+		potential = {				
+				culture = undead_ikanan
+				
+
+		}
+		replace = ca_barracks_5
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_stalsoldier_barracks_4
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 80
+		ai_creation_factor = 101
+
+		extra_tech_building_start = 2.0
+	}
+	ca_stalsoldier_barracks_6 = {
+		desc = ca_stalsoldier_barracks_1_desc
+		potential = {				
+				culture = undead_ikanan
+				
+
+		}
+		replace = ca_barracks_6
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_stalsoldier_barracks_5
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 90
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.2
+	}
+	ca_bone_pit_1 = {
+		desc = ca_charnel_pit_1_desc
+		potential = {				
+				culture = undead_ikanan
+		}	
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		replace = ca_training_grounds_1
+		gold_cost = 200
+		build_time = 730
+		levy_reinforce_rate = 0.15
+		retinuesize = 20
+		ai_creation_factor = 89
+
+		extra_tech_building_start = 1.2
+	}
+	ca_bone_pit_2 = {
+		desc = ca_bone_pit_1_desc
+		potential = {				
+				culture = undead_ikanan
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_bone_pit_1
+		replace = ca_training_grounds_2
+		gold_cost = 250
+		build_time = 1095
+		levy_reinforce_rate = 0.2
+		retinuesize = 20
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 0.5
+	}
+	ca_bone_pit_3 = {
+		desc = ca_bone_pit_1_desc
+		potential = {				
+				culture = undead_ikanan
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_bone_pit_2
+		replace = ca_training_grounds_3
+		gold_cost = 300
+		build_time = 2190
+		levy_reinforce_rate = 0.3
+		retinuesize = 20
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 0.2
+	}
+}
+city = {
+	ct_undead_wall_q_1 = {
+		desc = ct_undead_wall_q_1_desc
+		potential = {
+			culture_group = undead
+				culture = undead_ikanan
+
+	}
+		replace = ct_wall_q_1
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		prerequisites = { ct_undead_wall_1 }
+		replace = ct_wall_q_1
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.4
+		ai_creation_factor = 60
+		
+		extra_tech_building_start = 1.0
+	}
+	ct_undead_wall_q_2 = {
+		desc = ct_undead_wall_q_2_desc
+		potential = {
+			culture_group = undead
+				culture = undead_ikanan
+
+	}
+		replace = ct_wall_q_2
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		prerequisites = { ct_undead_wall_2 }
+		upgrades_from = ct_undead_wall_q_1
+		replace = ct_wall_q_2
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.4
+		ai_creation_factor = 59
+
+		extra_tech_building_start = 1.5
+	}	
+	ct_undead_wall_q_3 = {
+		desc = ct_undead_wall_q_3_desc
+		potential = {
+			culture_group = undead
+				culture = undead_ikanan
+
+	}
+		replace = ct_wall_q_3
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+		upgrades_from = ct_undead_wall_q_2
+		gold_cost = 50
+		replace = ct_wall_q_3
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 58
+
+		extra_tech_building_start = 1.0
+	}
+	ct_undead_wall_q_4 = {
+		desc = ct_undead_wall_q_4_desc
+		potential = {
+			culture_group = undead
+				culture = undead_ikanan
+
+	}
+		replace = ct_wall_q_5
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		upgrades_from = ct_undead_wall_q_3
+		gold_cost = 100
+		replace = ct_wall_q_4
+		build_time = 365
+		fort_level = 1
+		ai_creation_factor = 57
+
+		extra_tech_building_start = 0.2
+	}
+	ct_undead_wall_q_5 = {
+		desc = ct_undead_wall_q_5_desc
+		potential = {
+			culture_group = undead
+				culture = undead_ikanan
+
+	}
+		replace = ct_wall_q_5
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+		upgrades_from = ct_undead_wall_q_4
+		gold_cost = 100
+		replace = ct_wall_q_5
+		build_time = 365
+		fort_level = 1
+		ai_creation_factor = 56
+
+		extra_tech_building_start = 0.2
+	}
+	ct_charnel_house_1 = {
+		desc = ct_charnel_house_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_training_grounds_1
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 150
+		build_time = 547
+		levy_size = 0.05
+		levy_reinforce_rate = 0.1
+		garrison_size = 0.05
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.6
+	}
+	ct_charnel_house_2 = {
+		desc = ct_charnel_house_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_training_grounds_2
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_charnel_house_1
+		gold_cost = 200
+		build_time = 730
+		levy_size = 0.075
+		levy_reinforce_rate = 0.1
+		garrison_size = 0.1
+		ai_creation_factor = 97
+
+		extra_tech_building_start = 1.2
+	} 
+	ct_charnel_house_3 = {
+		desc = ct_charnel_house_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_training_grounds_3
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		upgrades_from = ct_charnel_house_2
+		gold_cost = 300
+		build_time = 1095
+		levy_size = 0.1
+		levy_reinforce_rate = 0.1
+		garrison_size = 0.15
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 0.2
+	} 
+	ct_charnel_house_4 = {
+		desc = ct_charnel_house_1_desc	
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_training_grounds_4
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		upgrades_from = ct_charnel_house_3
+		gold_cost = 400
+		build_time = 1460
+		levy_size = 0.125
+		levy_reinforce_rate = 0.1
+		garrison_size = 0.2
+		ai_creation_factor = 95
+
+		extra_tech_building_start = 0.2
+	} 
+	ct_charnel_house_5 = {
+		desc = ct_charnel_house_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_training_grounds_5
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		upgrades_from = ct_charnel_house_4
+		gold_cost = 500
+		build_time = 2190
+		levy_size = 0.15
+		levy_reinforce_rate = 0.1
+		garrison_size = 0.25
+		ai_creation_factor = 94
+
+		extra_tech_building_start = 0.2
+	}
+	ct_charnel_house_6 = {
+		desc = ct_charnel_house_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_training_grounds_6
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+		upgrades_from = ct_charnel_house_5
+		gold_cost = 500
+		build_time = 2190
+		levy_size = 0.15
+		levy_reinforce_rate = 0.1
+		garrison_size = 0.25
+		ai_creation_factor = 93
+
+		extra_tech_building_start = 0.2
+	}
+	ct_stal_barracks_1 = {
+		desc = ct_stal_barracks_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_barracks_1
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		replace = ct_barracks_1
+		light_infantry = 80
+		archers = 40
+		ai_creation_factor = 95
+		
+		extra_tech_building_start = 0.5
+	}
+	ct_stal_barracks_2 = {
+		desc = ct_stal_barracks_2_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_barracks_2
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_stal_barracks_1
+		gold_cost = 120
+		build_time = 547
+		replace = ct_barracks_2
+		light_infantry = 70
+		archers = 70
+		ai_creation_factor = 94
+
+		extra_tech_building_start = 1.0
+	}
+	ct_stal_barracks_3 = {
+		desc = ct_stal_barracks_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_barracks_3
+		trigger = { TECH_CITY_CONSTRUCTION = 1 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_stal_barracks_2
+		gold_cost = 200
+		replace = ct_barracks_3
+		build_time = 730
+		light_infantry = 100
+		archers = 70
+		ai_creation_factor = 93
+
+		extra_tech_building_start = 1.0
+	}
+	ct_stal_barracks_4 = {
+		desc = ct_stal_barracks_2_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_barracks_4
+		trigger = { TECH_CITY_CONSTRUCTION = 3 }
+		upgrades_from = ct_stal_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		replace = ct_barracks_4
+		light_infantry = 100
+		archers = 100
+		ai_creation_factor = 92
+
+		extra_tech_building_start = 0.2
+	}
+	ct_stal_barracks_5 = {
+		desc = ct_stal_barracks_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_barracks_5
+		trigger = { TECH_CITY_CONSTRUCTION = 5 }
+		upgrades_from = ct_stal_barracks_4
+		gold_cost = 400
+		build_time = 2190
+		light_infantry = 140
+		replace = ct_barracks_5
+		archers = 120
+		ai_creation_factor = 91
+
+		extra_tech_building_start = 0.2
+	}
+	ct_stal_barracks_6 = {
+		desc = ct_stal_barracks_2_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_barracks_6
+		trigger = { TECH_CITY_CONSTRUCTION = 7 }
+		upgrades_from = ct_stal_barracks_5
+		gold_cost = 500
+		build_time = 2190
+		replace = ct_barracks_6
+		light_infantry = 100
+		archers = 160
+		ai_creation_factor = 90
+
+		extra_tech_building_start = 0.2
+	}
+	ct_stalkin_bonepiles_1 = {
+		desc = ct_stalkin_bonepiles_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_guard_1
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		replace = ct_guard_1
+		pikemen = 60
+		ai_creation_factor = 96
+		
+		extra_tech_building_start = 1.0
+	}
+	ct_stalkin_bonepiles_2 = {
+		desc = ct_stalkin_bonepiles_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_guard_2
+		trigger = { TECH_CITY_CONSTRUCTION = 2 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_stalkin_bonepiles_1
+		gold_cost = 120
+		replace = ct_guard_2
+		build_time = 547
+		pikemen = 70
+		ai_creation_factor = 95
+
+		extra_tech_building_start = 0.2
+	}
+	ct_stalkin_bonepiles_3 = {
+		desc = ct_stalkin_bonepiles_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_guard_3
+		trigger = { TECH_CITY_CONSTRUCTION = 4 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_stalkin_bonepiles_2
+		replace = ct_guard_3
+		gold_cost = 200
+		build_time = 730
+		pikemen = 80
+		ai_creation_factor = 94
+		
+		extra_tech_building_start = 0.2
+	}
+	ct_stalkin_bonepiles_4 = {
+		desc = ct_stalkin_bonepiles_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_guard_4
+		trigger = { TECH_CITY_CONSTRUCTION = 6 }
+		upgrades_from = ct_stalkin_bonepiles_3
+		replace = ct_guard_4
+		gold_cost = 300
+		build_time = 1095
+		pikemen = 90
+		ai_creation_factor = 93
+		
+		extra_tech_building_start = 0.2
+	}
+	ct_stalkin_bonepiles_5 = {
+		desc = ct_stalkin_bonepiles_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = ct_guard_5
+		trigger = { TECH_CITY_CONSTRUCTION = 8 }
+		upgrades_from = ct_stalkin_bonepiles_4
+		gold_cost = 400
+		replace = ct_guard_5
+		build_time = 2190
+		pikemen = 100
+		ai_creation_factor = 92
+
+		extra_tech_building_start = 0.2
+	}
+	ct_stalchildren_barracks_1 = {
+		desc = ct_stalchildren_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_barracks_1
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		replace = ct_barracks_1
+		light_infantry = 80
+		archers = 40
+		ai_creation_factor = 95
+		
+		extra_tech_building_start = 0.5
+	}
+	ct_stalchildren_barracks_2 = {
+		desc = ct_stalchildren_barracks_2_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_barracks_2
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_stalchildren_barracks_1
+		gold_cost = 120
+		build_time = 547
+		replace = ct_barracks_2
+		light_infantry = 70
+		archers = 70
+		ai_creation_factor = 94
+
+		extra_tech_building_start = 1.0
+	}
+	ct_stalchildren_barracks_3 = {
+		desc = ct_stalchildren_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_barracks_3
+		trigger = { TECH_CITY_CONSTRUCTION = 1 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_stalchildren_barracks_2
+		gold_cost = 200
+		replace = ct_barracks_3
+		build_time = 730
+		light_infantry = 100
+		archers = 70
+		ai_creation_factor = 93
+
+		extra_tech_building_start = 1.0
+	}
+	ct_stalchildren_barracks_4 = {
+		desc = ct_stalchildren_barracks_2_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_barracks_4
+		trigger = { TECH_CITY_CONSTRUCTION = 3 }
+		upgrades_from = ct_stalchildren_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		replace = ct_barracks_4
+		light_infantry = 100
+		archers = 100
+		ai_creation_factor = 92
+
+		extra_tech_building_start = 0.2
+	}
+	ct_stalchildren_barracks_5 = {
+		desc = ct_stalchildren_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_barracks_5
+		trigger = { TECH_CITY_CONSTRUCTION = 5 }
+		upgrades_from = ct_stalchildren_barracks_4
+		gold_cost = 400
+		build_time = 2190
+		light_infantry = 140
+		replace = ct_barracks_5
+		archers = 120
+		ai_creation_factor = 91
+
+		extra_tech_building_start = 0.2
+	}
+	ct_stalchildren_barracks_6 = {
+		desc = ct_stalchildren_barracks_2_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_barracks_6
+		trigger = { TECH_CITY_CONSTRUCTION = 7 }
+		upgrades_from = ct_stalchildren_barracks_5
+		gold_cost = 500
+		build_time = 2190
+		replace = ct_barracks_6
+		light_infantry = 100
+		archers = 160
+		ai_creation_factor = 90
+
+		extra_tech_building_start = 0.2
+	}
+	ct_stalsoldier_barracks_1 = {
+		desc = ct_stalsoldier_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_guard_1
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		replace = ct_guard_1
+		pikemen = 60
+		ai_creation_factor = 96
+		
+		extra_tech_building_start = 1.0
+	}
+	ct_stalsoldier_barracks_2 = {
+		desc = ct_stalsoldier_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_guard_2
+		trigger = { TECH_CITY_CONSTRUCTION = 2 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_stalsoldier_barracks_1
+		gold_cost = 120
+		replace = ct_guard_2
+		build_time = 547
+		pikemen = 70
+		ai_creation_factor = 95
+
+		extra_tech_building_start = 0.2
+	}
+	ct_stalsoldier_barracks_3 = {
+		desc = ct_stalsoldier_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_guard_3
+		trigger = { TECH_CITY_CONSTRUCTION = 4 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_stalsoldier_barracks_2
+		replace = ct_guard_3
+		gold_cost = 200
+		build_time = 730
+		pikemen = 80
+		ai_creation_factor = 94
+		
+		extra_tech_building_start = 0.2
+	}
+	ct_stalsoldier_barracks_4 = {
+		desc = ct_stalsoldier_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_guard_4
+		trigger = { TECH_CITY_CONSTRUCTION = 6 }
+		upgrades_from = ct_stalsoldier_barracks_3
+		replace = ct_guard_4
+		gold_cost = 300
+		build_time = 1095
+		pikemen = 90
+		ai_creation_factor = 93
+		
+		extra_tech_building_start = 0.2
+	}
+	ct_stalsoldier_barracks_5 = {
+		desc = ct_stalsoldier_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_guard_5
+		trigger = { TECH_CITY_CONSTRUCTION = 8 }
+		upgrades_from = ct_stalsoldier_barracks_4
+		gold_cost = 400
+		replace = ct_guard_5
+		build_time = 2190
+		pikemen = 100
+		ai_creation_factor = 92
+
+		extra_tech_building_start = 0.2
+	}
+	ct_bone_doctor_1 = {
+		desc = ct_bone_doctor_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_training_grounds_1
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 150
+		build_time = 547
+		levy_size = 0.05
+		levy_reinforce_rate = 0.1
+		garrison_size = 0.05
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.6
+	}
+	ct_bone_doctor_2 = {
+		desc = ct_bone_doctor_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_training_grounds_2
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_bone_doctor_1
+		gold_cost = 200
+		build_time = 730
+		levy_size = 0.075
+		levy_reinforce_rate = 0.1
+		garrison_size = 0.1
+		ai_creation_factor = 97
+
+		extra_tech_building_start = 1.2
+	} 
+	ct_bone_doctor_3 = {
+		desc = ct_bone_doctor_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_training_grounds_3
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		upgrades_from = ct_bone_doctor_2
+		gold_cost = 300
+		build_time = 1095
+		levy_size = 0.1
+		levy_reinforce_rate = 0.1
+		garrison_size = 0.15
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 0.2
+	} 
+	ct_bone_doctor_4 = {
+		desc = ct_bone_doctor_1_desc	
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_training_grounds_4
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		upgrades_from = ct_bone_doctor_3
+		gold_cost = 400
+		build_time = 1460
+		levy_size = 0.125
+		levy_reinforce_rate = 0.1
+		garrison_size = 0.2
+		ai_creation_factor = 95
+
+		extra_tech_building_start = 0.2
+	} 
+	ct_bone_doctor_5 = {
+		desc = ct_bone_doctor_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_training_grounds_5
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		upgrades_from = ct_bone_doctor_4
+		gold_cost = 500
+		build_time = 2190
+		levy_size = 0.15
+		levy_reinforce_rate = 0.1
+		garrison_size = 0.25
+		ai_creation_factor = 94
+
+		extra_tech_building_start = 0.2
+	}
+	ct_bone_doctor_6 = {
+		desc = ct_bone_doctor_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = ct_training_grounds_6
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+		upgrades_from = ct_bone_doctor_5
+		gold_cost = 500
+		build_time = 2190
+		levy_size = 0.15
+		levy_reinforce_rate = 0.1
+		garrison_size = 0.25
+		ai_creation_factor = 93
+
+		extra_tech_building_start = 0.2
+	}
+}
+temple = {
+	tp_undead_wall_q_1 = {	
+		desc = tp_undead_wall_q_1_desc
+		potential = {
+			culture_group = undead
+				culture = undead_ikanan
+
+	}
+		replace = tp_wall_q_1
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		prerequisites = { tp_undead_wall_1 }
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 82
+		
+		extra_tech_building_start = 0.4
+	}
+	tp_undead_wall_q_2 = {
+		desc = tp_undead_wall_q_2_desc
+		potential = {
+			culture_group = undead
+				culture = undead_ikanan
+
+	}
+		replace = tp_wall_q_2
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		prerequisites = { tp_undead_wall_2 }
+		upgrades_from = tp_undead_wall_q_1
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 81
+
+		extra_tech_building_start = 0.8
+	}	
+	tp_undead_wall_q_3 = {
+		desc = ca_wall_q_3_desc
+		potential = {
+			culture_group = undead
+				culture = undead_ikanan
+
+	}
+		replace = tp_wall_q_3
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+		upgrades_from = tp_undead_wall_q_2
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 0.2
+	}
+	tp_undead_wall_q_4 = {
+		desc = ca_wall_q_4_desc
+		potential = {
+			culture_group = undead
+				culture = undead_ikanan
+
+	}
+		replace = tp_wall_q_4
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		upgrades_from = tp_undead_wall_q_3
+		gold_cost = 100
+		build_time = 365
+		fort_level = 1
+		ai_creation_factor = 79
+
+		extra_tech_building_start = 0.2
+	}
+	tp_undead_wall_q_5 = {
+		desc = ca_wall_q_5_desc
+		potential = {
+			culture_group = undead
+				culture = undead_ikanan
+
+	}
+		replace = tp_wall_q_5
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+		upgrades_from = tp_undead_wall_q_4
+		gold_cost = 100
+		build_time = 365
+		fort_level = 1
+		ai_creation_factor = 78
+
+		extra_tech_building_start = 0.2
+	}
+	tp_stal_barracks_1 = {
+		desc = tp_stal_barracks_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = tp_barracks_1
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 80
+		archers = 40
+		ai_creation_factor = 94
+
+		extra_tech_building_start = 0.5
+	}
+	tp_stal_barracks_2 = {
+		desc = tp_stal_barracks_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = tp_barracks_2
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		prerequisites = { tp_wall_1 }
+		upgrades_from = tp_stal_barracks_1
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 90
+		archers = 80
+		ai_creation_factor = 93
+
+		extra_tech_building_start = 1.0
+	}
+	tp_stal_barracks_3 = {
+		desc = tp_stal_barracks_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = tp_barracks_3
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 1 }
+		prerequisites = { tp_wall_2 }
+		upgrades_from = tp_stal_barracks_2
+		gold_cost = 200
+		build_time = 730
+		light_infantry = 90
+		archers = 80
+		ai_creation_factor = 92
+
+		extra_tech_building_start = 0.5
+	}
+	tp_stal_barracks_4 = {
+		desc = tp_stal_barracks_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = tp_barracks_4
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 3 }
+		upgrades_from = tp_stal_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 100
+		archers = 100
+		ai_creation_factor = 91
+
+		extra_tech_building_start = 0.2
+	}
+	tp_stal_barracks_5 = {
+		desc = tp_stal_barracks_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = tp_barracks_5
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 5 }
+		upgrades_from = tp_stal_barracks_4
+		gold_cost = 400
+		build_time = 2190
+		light_infantry = 110
+		archers = 110
+		ai_creation_factor = 90
+
+		extra_tech_building_start = 0.2
+	}
+	tp_stal_barracks_6 = {
+		desc = tp_stal_barracks_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = tp_barracks_6
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 7 }
+		upgrades_from = tp_stal_barracks_5
+		gold_cost = 500
+		build_time = 2190
+		light_infantry = 120
+		archers = 120
+		ai_creation_factor = 89
+
+		extra_tech_building_start = 0.2
+	}
+	
+	tp_stalfos_barracks_1 = {
+		desc = tp_stalfos_barracks_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = tp_elite_barracks_1
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 45
+		ai_creation_factor = 95
+
+		extra_tech_building_start = 0.5
+	}
+	tp_stalfos_barracks_2 = {
+		desc = tp_stalfos_barracks_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = tp_elite_barracks_2
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		prerequisites = { tp_wall_1 }
+		upgrades_from = tp_stalfos_barracks_1
+		gold_cost = 120
+		build_time = 730
+		heavy_infantry = 55
+		ai_creation_factor = 94
+
+		extra_tech_building_start = 1.0
+	}
+	tp_stalfos_barracks_3 = {
+		desc = tp_stalfos_barracks_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = tp_elite_barracks_3
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 2 }
+		prerequisites = { tp_wall_2 }
+		upgrades_from = tp_stalfos_barracks_2
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 65
+		ai_creation_factor = 93
+
+		extra_tech_building_start = 0.2
+	}
+	tp_stalfos_barracks_4 = {
+		desc = tp_stalfos_barracks_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = tp_elite_barracks_4
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 4 }
+		upgrades_from = tp_stalfos_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 75
+		ai_creation_factor = 92
+
+		extra_tech_building_start = 0.2
+	}
+	tp_stalfos_barracks_5 = {
+		desc = tp_stalfos_barracks_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = tp_elite_barracks_5
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 6 }
+		upgrades_from = tp_stalfos_barracks_4
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 85
+		ai_creation_factor = 91
+
+		extra_tech_building_start = 0.2
+	}
+	tp_stalfos_barracks_6 = {
+		desc = tp_stalfos_barracks_1_desc
+		potential = {
+			culture_group = undead
+	}
+		replace = tp_elite_barracks_6
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 8 }
+		upgrades_from = tp_stalfos_barracks_5
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 95
+		ai_creation_factor = 90
+
+		extra_tech_building_start = 0.2
+	}
+	tp_lich_quarters_1 = {
+		desc = tp_lich_quarters_1_desc
+		potential = {				
+		culture_group = undead		}	
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replace = tp_town_1
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		land_morale = 0.1
+		levy_reinforce_rate = 0.2
+		magic_user = 5
+		retinuesize = 20
+		ai_creation_factor = 89
+
+		extra_tech_building_start = 1.2
+	}
+	tp_lich_quarters_2 = {
+		desc = tp_lich_quarters_1_desc
+		potential = {				
+		culture_group = undead
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = tp_lich_quarters_1
+		gold_cost = 250
+		replace = tp_town_2
+		build_time = 1095
+		land_morale = 0.15
+		levy_reinforce_rate = 0.3	
+		magic_user = 10
+		retinuesize = 20
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 0.5
+	}
+	tp_lich_quarters_3 = {
+		desc = tp_lich_quarters_1_desc
+		potential = {				
+		culture_group = undead
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = tp_lich_quarters_2
+		gold_cost = 300
+		replace = tp_town_3
+		build_time = 2190
+		land_morale = 0.2
+		levy_reinforce_rate = 0.4
+		magic_user = 15
+		retinuesize = 20
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 0.2
+	}
+	tp_stalchildren_barracks_1 = {
+		desc = tp_stalchildren_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = tp_barracks_1
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 80
+		archers = 40
+		ai_creation_factor = 94
+
+		extra_tech_building_start = 0.5
+	}
+	tp_stalchildren_barracks_2 = {
+		desc = tp_stalchildren_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = tp_barracks_2
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		prerequisites = { tp_wall_1 }
+		upgrades_from = tp_stalchildren_barracks_1
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 90
+		archers = 80
+		ai_creation_factor = 93
+
+		extra_tech_building_start = 1.0
+	}
+	tp_stalchildren_barracks_3 = {
+		desc = tp_stalchildren_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = tp_barracks_3
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 1 }
+		prerequisites = { tp_wall_2 }
+		upgrades_from = tp_stalchildren_barracks_2
+		gold_cost = 200
+		build_time = 730
+		light_infantry = 90
+		archers = 80
+		ai_creation_factor = 92
+
+		extra_tech_building_start = 0.5
+	}
+	tp_stalchildren_barracks_4 = {
+		desc = tp_stalchildren_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = tp_barracks_4
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 3 }
+		upgrades_from = tp_stalchildren_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 100
+		archers = 100
+		ai_creation_factor = 91
+
+		extra_tech_building_start = 0.2
+	}
+	tp_stalchildren_barracks_5 = {
+		desc = tp_stalchildren_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = tp_barracks_5
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 5 }
+		upgrades_from = tp_stalchildren_barracks_4
+		gold_cost = 400
+		build_time = 2190
+		light_infantry = 110
+		archers = 110
+		ai_creation_factor = 90
+
+		extra_tech_building_start = 0.2
+	}
+	tp_stalchildren_barracks_6 = {
+		desc = tp_stalchildren_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = tp_barracks_6
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 7 }
+		upgrades_from = tp_stalchildren_barracks_5
+		gold_cost = 500
+		build_time = 2190
+		light_infantry = 120
+		archers = 120
+		ai_creation_factor = 89
+
+		extra_tech_building_start = 0.2
+	}
+	
+	tp_stalsoldier_barracks_1 = {
+		desc = tp_stalsoldier_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = tp_elite_barracks_1
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 45
+		ai_creation_factor = 95
+
+		extra_tech_building_start = 0.5
+	}
+	tp_stalsoldier_barracks_2 = {
+		desc = tp_stalsoldier_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = tp_elite_barracks_2
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		prerequisites = { tp_wall_1 }
+		upgrades_from = tp_stalsoldier_barracks_1
+		gold_cost = 120
+		build_time = 730
+		heavy_infantry = 55
+		ai_creation_factor = 94
+
+		extra_tech_building_start = 1.0
+	}
+	tp_stalsoldier_barracks_3 = {
+		desc = tp_stalsoldier_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = tp_elite_barracks_3
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 2 }
+		prerequisites = { tp_wall_2 }
+		upgrades_from = tp_stalsoldier_barracks_2
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 65
+		ai_creation_factor = 93
+
+		extra_tech_building_start = 0.2
+	}
+	tp_stalsoldier_barracks_4 = {
+		desc = tp_stalsoldier_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = tp_elite_barracks_4
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 4 }
+		upgrades_from = tp_stalsoldier_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 75
+		ai_creation_factor = 92
+
+		extra_tech_building_start = 0.2
+	}
+	tp_stalsoldier_barracks_5 = {
+		desc = tp_stalsoldier_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = tp_elite_barracks_5
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 6 }
+		upgrades_from = tp_stalsoldier_barracks_4
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 85
+		ai_creation_factor = 91
+
+		extra_tech_building_start = 0.2
+	}
+	tp_stalsoldier_barracks_6 = {
+		desc = tp_stalsoldier_barracks_1_desc
+		potential = {
+			culture = undead_ikanan
+	}
+		replace = tp_elite_barracks_6
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 8 }
+		upgrades_from = tp_stalsoldier_barracks_5
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 95
+		ai_creation_factor = 90
+
+		extra_tech_building_start = 0.2
+	}
+	tp_mass_grave_1 = {
+		desc = tp_mass_grave_1_desc
+		potential = {				
+		culture = undead_ikanan		}	
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replace = tp_town_1
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		land_morale = 0.1
+		levy_reinforce_rate = 0.2
+		magic_user = 5
+		retinuesize = 20
+		ai_creation_factor = 89
+
+		extra_tech_building_start = 1.2
+	}
+	tp_mass_grave_2 = {
+		desc = tp_mass_grave_1_desc
+		potential = {				
+		culture = undead_ikanan
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = tp_mass_grave_1
+		gold_cost = 250
+		replace = tp_town_2
+		build_time = 1095
+		land_morale = 0.15
+		levy_reinforce_rate = 0.3	
+		magic_user = 10
+		retinuesize = 20
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 0.5
+	}
+	tp_mass_grave_3 = {
+		desc = tp_mass_grave_1_desc
+		potential = {				
+		culture = undead_ikanan
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = tp_mass_grave_2
+		gold_cost = 300
+		replace = tp_town_3
+		build_time = 2190
+		land_morale = 0.2
+		levy_reinforce_rate = 0.4
+		magic_user = 15
+		retinuesize = 20
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 0.2
+	}
+}

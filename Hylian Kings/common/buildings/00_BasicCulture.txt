@@ -303,6 +303,7 @@ castle = {
 		build_time = 730
 		archers = 20
 		pikemen = 40
+		tax_income = 2
 		ai_creation_factor = 101
 		
 		extra_tech_building_start = 0.8
@@ -318,6 +319,7 @@ castle = {
 		gold_cost = 300
 		build_time = 1095
 		archers = 40
+		tax_income = 1
 		pikemen = 50
 		ai_creation_factor = 100
 		
@@ -334,6 +336,7 @@ castle = {
 		gold_cost = 400
 		build_time = 2190
 		archers = 40
+		tax_income = 1
 		pikemen = 60
 		ai_creation_factor = 99
 		
@@ -350,6 +353,7 @@ castle = {
 		gold_cost = 500
 		build_time = 2190
 		archers = 50
+		tax_income = 2
 		pikemen = 70
 		ai_creation_factor = 98
 		
@@ -499,7 +503,9 @@ castle = {
 		extra_tech_building_start = 0.5
 	}
 	#Labrynna Swordsman barracks
+		#todo
 	#Sea Zora Coast Guard
+		#todo
 	#zola raider's lodge
 #zuna chariot
 	ca_zuna_stable_1 = {
@@ -768,7 +774,8 @@ castle = {
 
 		extra_tech_building_start = 0.2
 	}
-	#war
+	#war gyorg
+		#todo
 #skyloft loftwing roost
 	ca_loftwing_roost_1 = {
 		desc = ca_loftwing_roost_desc
@@ -975,6 +982,7 @@ castle = {
 	#yamatian golem shop
 	#twili knight
 	#ikanian 
+	#wizrobe
 }
 city = {
 	#hyrulean kendo
@@ -1069,9 +1077,9 @@ city = {
 
 		extra_tech_building_start = 0.2
 	}
-#Hylian Ranch
-	ct_culture_hyrulean_ranch_1 = {
-		desc = ct_culture_hyrulean_ranch_1_desc
+#Hylian farm,dairy,horse
+	ct_hyrulean_agriculture_1 = {
+		desc = ct_hyrulean_agriculture_1_desc
 		potential = {
 				culture = hyrulean
 				terrain = farmlands
@@ -1080,16 +1088,16 @@ city = {
 				terrain = steppe
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ct_wall_2 }
+		replace = ct_agriculture_1
 		gold_cost = 200
 		build_time = 730
-		tax_income = 1
+		tax_income = 2
 		ai_creation_factor = 101
 		
 		extra_tech_building_start = 0.8
 	}
-	ct_culture_hyrulean_ranch_2 = {
-		desc = ct_culture_hyrulean_ranch_2_desc
+	ct_hyrulean_agriculture_2 = {
+		desc = ct_hyrulean_agriculture_2_desc
 		potential = {
 				culture = hyrulean
 				terrain = farmlands
@@ -1098,16 +1106,18 @@ city = {
 				terrain = steppe
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
-		upgrades_from = ct_culture_hyrulean_ranch_1
+		replace = ct_agriculture_2
+		upgrades_from = ct_hyrulean_agriculture_1
 		gold_cost = 300
 		build_time = 1095
-		tax_income = 1
+		tax_income = 2
+		knight = 10
 		ai_creation_factor = 100
 		
 		extra_tech_building_start = 0.8
 	}
-	ct_culture_hyrulean_ranch_3 = {
-		desc = ct_culture_hyrulean_ranch_3_desc
+	ct_hyrulean_agriculture_3 = {
+		desc = ct_hyrulean_agriculture_3_desc
 		potential = {
 				culture = hyrulean
 				terrain = farmlands
@@ -1115,34 +1125,83 @@ city = {
 				terrain = plains
 				terrain = steppe
 		}
+		replace = ct_agriculture_3
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
-		upgrades_from = ct_culture_hyrulean_ranch_2
+		upgrades_from = ct_hyrulean_agriculture_2
 		gold_cost = 400
 		build_time = 2190
 		knight_morale = 0.15
-		knight = 10
+		knight = 20
+		light_cavalry = 40
 		tax_income = 2
 		ai_creation_factor = 99
 		
 		extra_tech_building_start = 0.8
 	}
-	ct_culture_hyrulean_ranch_4 = {
-		desc = ct_culture_hyrulean_ranch_3_desc
+#Ordon pumpkin farm, ranch
+	ct_ordon_agriculture_1 = {
+		desc = ct_ordon_agriculture_desc
 		potential = {
-				culture = hyrulean
+				culture = ordon
 				terrain = farmlands
 				terrain = hills
 				terrain = plains
 				terrain = steppe
+				terrain = forest
+				terrain = woods
 		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
-		upgrades_from = ct_culture_hyrulean_ranch_3
-		gold_cost = 500
-		build_time = 2190
-		knight_morale = 0.15
-		knight = 30
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_2 }
+		replace = ct_agriculture_1
+		gold_cost = 200
+		build_time = 730
 		tax_income = 2
-		ai_creation_factor = 98
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ct_ordon_agriculture_2 = {
+		desc = ct_ordon_agriculture_desc
+		potential = {
+				culture = ordon
+				terrain = farmlands
+				terrain = hills
+				terrain = plains
+				terrain = steppe
+				terrain = forest
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_ordon_agriculture_1
+		replace = ct_agriculture_2
+		gold_cost = 200
+		build_time = 730
+		light_cavalry = 20
+		tax_income = 2.5
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ct_ordon_agriculture_3 = {
+		desc = ct_ordon_agriculture_desc
+		potential = {
+				culture = ordon
+				terrain = farmlands
+				terrain = hills
+				terrain = plains
+				terrain = steppe
+				terrain = forest
+				terrain = woods
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_ordon_agriculture_2
+		replace = ct_agriculture_3
+		gold_cost = 200
+		build_time = 730
+		light_cavalry = 30
+		tax_income = 2.5
+		ai_creation_factor = 101
 		
 		extra_tech_building_start = 0.8
 	}
@@ -1214,94 +1273,231 @@ city = {
 		
 		extra_tech_building_start = 0.8
 	}
-#Ordon Ranch
-	ct_culture_goat_ordon_ranch_1 = {
-		desc = ct_culture_goat_ordon_ranch_desc
+#Lybrinna Gasha farm
+	ct_lybrinna_agriculture_4 = {
+		desc = ct_lybrinna_agriculture_4_desc
 		potential = {
-				culture = ordon
+			culture = lybrinnan
+				terrain = plains
+				terrain = farmlands
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ct_agriculture_3
+		gold_cost = 500
+		build_time = 2190
+		tax_income = 3
+
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+#Horon clock maker
+	ct_horon_economy_4 = {
+		desc = ct_horon_economy_4_desc
+		potential = {
+			culture = horon
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ct_economy_3
+		gold_cost = 500
+		build_time = 2190
+		tax_income = 3
+
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+#skyloft pumpkin
+	ct_skyloftagriculture_1 = {
+		desc = ct_skyloftagriculture_1_desc
+		potential = {
+			culture_group = skylofter
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 110
+		add_number_to_name = no
+		
+		extra_tech_building_start = 0.4
+	}
+	ct_skyloftagriculture_2 = {
+		desc = ct_skyloftagriculture_2_desc
+		potential = {
+			culture_group = skylofter
+
+		}
+		prerequisites = { ct_skyloftwall_1 }
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		upgrades_from = ct_skyloftagriculture_1
+		gold_cost = 120
+		build_time = 547
+		tax_income = 2
+		ai_creation_factor = 109
+		add_number_to_name = no
+
+		extra_tech_building_start = 0.8
+	}
+	ct_skyloftagriculture_3 = {
+		desc = ct_skyloftagriculture_3_desc
+		potential = {
+				culture_group = skylofter
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 1 }
+		prerequisites = { ct_skyloftwall_2 }
+		upgrades_from = ct_skyloftagriculture_2
+		gold_cost = 200
+		build_time = 730
+		tax_income = 2
+		ai_creation_factor = 108
+		add_number_to_name = no
+
+		extra_tech_building_start = 0.2
+	}
+#skyloft knight acadamy
+	ca_knight_acadamy_1 = {
+		desc = ca_knight_acadamy_desc
+		potential = {
+			culture = skylofter
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 20
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.4
+	}
+	ca_knight_acadamy_2 = {
+		desc = ca_knight_acadamy_desc 
+		potential = {
+			culture = skylofter
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_knight_acadamy_1
+		gold_cost = 120
+		build_time = 547
+		heavy_infantry = 30
+		loftwing_knight = 10
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 0.8
+	}
+	ca_knight_acadamy_3 = {
+		desc = ca_knight_acadamy_desc
+		potential = {
+			culture = skylofter 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_knight_acadamy_2
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 40
+		loftwing_knight = 20
+		ai_creation_factor = 87
+
+		extra_tech_building_start = 0.2
+	}
+	ca_knight_acadamy_4 = {
+		desc = ca_knight_acadamy_desc 
+		potential = {
+			culture = skylofter
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_knight_acadamy_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 50
+		loftwing_knight = 30
+		ai_creation_factor = 86
+
+		extra_tech_building_start = 0.2
+	}
+#windtribe walls
+	ct_wall_6 = {
+		desc = ct_wind_wall_6_desc
+		potential = {				
+				culture_group = wind_tribe
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+		upgrades_from = ct_wall_5
+		gold_cost = 150
+		build_time = 1460
+		fort_level = 2.0
+		levy_size = 0.075
+		tax_income = 0.5
+		ai_creation_factor = 95
+
+		extra_tech_building_start = 0.2
+	}
+#windtribe farm
+	ct_windtribe_agriculture_1 = {
+		desc = ct_windtribe_agriculture_1_desc
+		potential = {
+				culture = wind_tribe
 				terrain = farmlands
 				terrain = hills
 				terrain = plains
 				terrain = steppe
-				terrain = forest
+				terrain = mountains
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ct_wall_2 }
-		replace = ct_stable_1
+		replace = ct_agriculture_1
 		gold_cost = 200
 		build_time = 730
-		light_cavalry = 15
-		tax_income = 1
+		tax_income = 2
 		ai_creation_factor = 101
 		
 		extra_tech_building_start = 0.8
 	}
-	ct_culture_goat_ordon_ranch_2 = {
-		desc = ct_culture_goat_ordon_ranch_desc
+	ct_windtribe_agriculture_2 = {
+		desc = ct_windtribe_agriculture_2_desc
 		potential = {
-				culture = ordon
+				culture = wind_tribe
 				terrain = farmlands
 				terrain = hills
 				terrain = plains
 				terrain = steppe
-				terrain = forest
+				terrain = mountains
 		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ct_wall_2 }
-		upgrades_from = ct_culture_goat_ordon_ranch_1
-		replace = ct_stable_2
-		gold_cost = 200
-		build_time = 730
-		light_cavalry = 20
-		tax_income = 2.5
-		ai_creation_factor = 101
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		replace = ct_agriculture_2
+		upgrades_from = ct_windtribe_agriculture_1
+		gold_cost = 300
+		build_time = 1095
+		tax_income = 2
+		knight = 10
+		ai_creation_factor = 100
 		
 		extra_tech_building_start = 0.8
 	}
-	ct_culture_goat_ordon_ranch_3 = {
-		desc = ct_culture_goat_ordon_ranch_desc
+	ct_windtribe_agriculture_3 = {
+		desc = ct_windtribe_agriculture_3_desc
 		potential = {
-				culture = ordon
+				culture = wind_tribe
 				terrain = farmlands
 				terrain = hills
 				terrain = plains
 				terrain = steppe
-				terrain = forest
+				terrain = mountains
 		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ct_wall_2 }
-		upgrades_from = ct_culture_goat_ordon_ranch_2
-		replace = ct_stable_3
-		gold_cost = 200
-		build_time = 730
-		light_cavalry = 25
-		tax_income = 2.5
-		ai_creation_factor = 101
+		replace = ct_agriculture_3
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ct_windtribe_agriculture_2
+		gold_cost = 400
+		build_time = 2190
+		knight_morale = 0.15
+		knight = 20
+		light_cavalry = 40
+		tax_income = 2
+		ai_creation_factor = 99
 		
 		extra_tech_building_start = 0.8
 	}
-	ct_culture_goat_ordon_ranch_4 = {
-		desc = ct_culture_goat_ordon_ranch_desc
-		potential = {
-				culture = ordon
-				terrain = farmlands
-				terrain = hills
-				terrain = plains
-				terrain = steppe
-				terrain = forest
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ct_wall_2 }
-		upgrades_from = ct_culture_ordon_ranch_3
-		gold_cost = 200
-		build_time = 730
-		light_cavalry = 30
-		tax_income = 1.5
-		ai_creation_factor = 101
-		
-		extra_tech_building_start = 0.8
-	}
-#Lybrinna 
-#Horon 
-}
+#ikanian
+#twili
+#wizrobe
 }

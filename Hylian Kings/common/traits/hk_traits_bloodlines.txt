@@ -2,7 +2,7 @@
 bloodline_gustaf = {
 	opposites = {
 		bloodline_hero
-	bloodline_firstborn 
+		bloodline_firstborn 
 		}
 	diplomacy = +2
 	learning = +1
@@ -10,13 +10,13 @@ bloodline_gustaf = {
 }
 bloodline_hero = {
 	opposites = {
-		bloodline_gustaf
+	bloodline_gustaf
 	bloodline_firstborn 
 		}
 	martial = +1
 }
 bloodline_lonlon = {
-	stewardship = +1
+	stewardship = +3
 	prestige = -0.5
 }
 bloodline_debon = {
@@ -36,6 +36,10 @@ bloodline_firstborn = {
 	Prestige = +1
 	ai_honor = -10
 }
+bloodline_candora = {
+	Martial = +2
+	Prestige = +1
+}
 #OOT
 bloodline_ganondorf = {
 	Martial = +2
@@ -43,7 +47,4 @@ bloodline_ganondorf = {
 	ai_honor = -10
 }
 #created
-bloodline_ascended = {
-	Martial = +2
-	piety = +1
-}
+

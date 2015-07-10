@@ -1,16 +1,23 @@
 #gerudo
 iron_knuckle = {
-	martial = +4
-	health = +2
+	martial = 4
+	health = 2
 	fertility = -100
 
 	cannot_inherit = yes
 	cannot_marry = yes
 
 	ai_ambition = -100
-	ai_honor = +100
+	ai_honor = 100
 	command_modifier = {
-		morale_defense = +0.04
-		specil_unit_defense = +0.03
+		morale_defense = 0.04
+		specil_unit_defense = 0.03
 	}
+}
+#darknut
+##A woman (man?) captured during a raid and taken as a prize
+trophy = {
+	cannot_inherit = yes
+
+	prestige = -1
 }

@@ -526,21 +526,19 @@ labrynna_group = {
 
 		modifier = default_culture_modifier
 	}
-	tokay = {
-		graphical_culture = tokaygfx
-		secondary_graphical_culture = lizardgfx
+	port_towner = {
+		graphical_culture = humangfx
+		secondary_graphical_culture = humangfx
 		
 		color = { 0.3 0.55 0.8 }
 		
-		
 		male_names = {
-		Otaylo Abi Bakr Abuba Ako Alay Ali Fay Kolon Zalil Bada Bakr Kanbu Bamari Bankanu Token Bannu Bassa Bassi Briam Bisi Biyu Bonga Cise Harun Igoumo Ishaq Ismail Kabay Kabayo Kabai Kambine Kanafa Kasa Kasei Kay Kayna Kin Kisha Kodam Koize Kukuray Kusoy Lahiltol M’Bali Bali Mamaro Maghan Mahmud Majan Malla Mamadi Mamoudo Bory Nuh Ouli Ouanko Ouati Reidja Sakoura Salman Solomon Samsou Keina Sandaki Soumba Soumaro Soundiata Sulayman Takoi Tib Tomo Tunka Umar Yama Yaqub Yasiboy Zakoi Zenku Aday Uley Zelir Kakay Zanba Falir Amaki Baber Babeda Bobor Umar Kali Famo Kimo Anli Fata Kela Toba Amor Zabir Atin
-		}
+			Inglo Dave Duke Judge Duko Tingle Ankle Knuckle  Aaren Antono Baldric Benton Bevis Brant Cam Chad Claud Coby Cyril Dacre Deemer Dixon Dutch Eden Elvis Ern Erskine Finlay Fitz Fox Frank Gage Georgo Gerald Gib Hammond Hollis Homer Humphry Ian Iggy Ike Ira Jaiden Jep Jocjo Jozefo Judd Kaiden Keefe Karol Ken Lanny Lucjo Ludoviko Leith Micjo Mikelo Nicjo Nikoalo Pacjo Petro Vilcjo Vilhelmo Manley Mel Newt Nic Orrell Orson Orvale Omar Pace Pete Quin Quincey Quientin Quinteen Radclyffe Randolf Ray Rex Sawter Samuel Scot Shane Tennyson Terance Tex Theodore Ulric Upton Ulysses Valentine Van Vaughn Vere Wil Zak Zeph
+	 	}
 		female_names = {
-		Adj Aich Aiss Alim Amina Amita Aoa Bara Kisa Binto Dey Djen Eba Djenl Djire Fadima Fatim Fatou Halim Hawa Ena Kadi Kilea Kolon Nana Namis Safia Tou Sali Mata Sas Souma Sid Ibe Siy Sogol Tekhay Youma Zeina Badj Kekr Kelal Djadu Tima Alaba Alaym Blou Yabir Foi Aley Alada Alir Tatey Tako Adima Fetir Alim Alota Ulir Amata Datey Bakel Atota Alom Kakir Amir Zaki Djoma Kikama Foma Kemoi Bamo Yodam Umor Kalo Atoba Keko Kuder Akema Kelili Alukr Kater Fidir Kebay Atey Fatey Kudam Kumir Telel Keday Faler Filay Fukam Keti Dir Amay Zamir Fabo Fema Omata
-		}
-		
-		dukes_called_kings = yes
+			Aba Chicko Bella Pinkle Aminda Amika Brava Ciela Dezirinda Esperanta Fajra Fiera Gaja Glorinda Juvela Kandaja Karesinda Luksa Maraja Mirinda Orabela Pipra Rava Rubena Safira Sprita Tondra Valora Vespera Aaliya Ada Bev Brett Briel Calanthe Calista Chantal Coral Dell Deitra Dona Dora Erin Emmy Eryn Freda Frona Gae Gail Harley Harmonie Harper Hatty Inez Iris Ione Ivy Jaci Jan Jane Kae Kim Lenora Lela Mabel Melany Natille Nell Nita Noelene Ora Orpha Ottoline Peg Pen Penny Pru Rena Ros Rue Sera Shan Shari Sindy Tamra Tania Teal Unice Unity Ursella Val Valerie Wanda Wendi Wendy Xavia Xanthia Yvette Yvonne Zandra
+		}		
+		dukes_called_kings = no
 		
 		from_dynasty_prefix = "of "
 				
@@ -716,35 +714,6 @@ sky_dwellers = {
 	}
 }
 southern_sea = {
-	port_towner = {
-		graphical_culture = humangfx
-		secondary_graphical_culture = humangfx
-		
-		color = { 0.3 0.55 0.8 }
-		
-		male_names = {
-			Inglo Dave Duke Judge Duko Tingle Ankle Knuckle  Aaren Antono Baldric Benton Bevis Brant Cam Chad Claud Coby Cyril Dacre Deemer Dixon Dutch Eden Elvis Ern Erskine Finlay Fitz Fox Frank Gage Georgo Gerald Gib Hammond Hollis Homer Humphry Ian Iggy Ike Ira Jaiden Jep Jocjo Jozefo Judd Kaiden Keefe Karol Ken Lanny Lucjo Ludoviko Leith Micjo Mikelo Nicjo Nikoalo Pacjo Petro Vilcjo Vilhelmo Manley Mel Newt Nic Orrell Orson Orvale Omar Pace Pete Quin Quincey Quientin Quinteen Radclyffe Randolf Ray Rex Sawter Samuel Scot Shane Tennyson Terance Tex Theodore Ulric Upton Ulysses Valentine Van Vaughn Vere Wil Zak Zeph
-	 	}
-		female_names = {
-			Aba Chicko Bella Pinkle Aminda Amika Brava Ciela Dezirinda Esperanta Fajra Fiera Gaja Glorinda Juvela Kandaja Karesinda Luksa Maraja Mirinda Orabela Pipra Rava Rubena Safira Sprita Tondra Valora Vespera Aaliya Ada Bev Brett Briel Calanthe Calista Chantal Coral Dell Deitra Dona Dora Erin Emmy Eryn Freda Frona Gae Gail Harley Harmonie Harper Hatty Inez Iris Ione Ivy Jaci Jan Jane Kae Kim Lenora Lela Mabel Melany Natille Nell Nita Noelene Ora Orpha Ottoline Peg Pen Penny Pru Rena Ros Rue Sera Shan Shari Sindy Tamra Tania Teal Unice Unity Ursella Val Valerie Wanda Wendi Wendy Xavia Xanthia Yvette Yvonne Zandra
-		}		
-		dukes_called_kings = no
-		
-		from_dynasty_prefix = "of "
-				
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 30
-		mat_grf_name_chance = 30
-		father_name_chance = 0
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 30
-		mat_grm_name_chance = 30
-		mother_name_chance = 0
-
-		modifier = default_culture_modifier
-
-	}
 	koholinter = {
 		graphical_culture = humangfx
 		secondary_graphical_culture = humangfx
@@ -1487,6 +1456,37 @@ lfos = {
 		modifier = default_culture_modifier
 
 	}
+	tokay = {
+		graphical_culture = tokaygfx
+		secondary_graphical_culture = lizardgfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		
+		male_names = {
+		Otaylo Abi Bakr Abuba Ako Alay Ali Fay Kolon Zalil Bada Bakr Kanbu Bamari Bankanu Token Bannu Bassa Bassi Briam Bisi Biyu Bonga Cise Harun Igoumo Ishaq Ismail Kabay Kabayo Kabai Kambine Kanafa Kasa Kasei Kay Kayna Kin Kisha Kodam Koize Kukuray Kusoy Lahiltol M’Bali Bali Mamaro Maghan Mahmud Majan Malla Mamadi Mamoudo Bory Nuh Ouli Ouanko Ouati Reidja Sakoura Salman Solomon Samsou Keina Sandaki Soumba Soumaro Soundiata Sulayman Takoi Tib Tomo Tunka Umar Yama Yaqub Yasiboy Zakoi Zenku Aday Uley Zelir Kakay Zanba Falir Amaki Baber Babeda Bobor Umar Kali Famo Kimo Anli Fata Kela Toba Amor Zabir Atin
+		}
+		female_names = {
+		Adj Aich Aiss Alim Amina Amita Aoa Bara Kisa Binto Dey Djen Eba Djenl Djire Fadima Fatim Fatou Halim Hawa Ena Kadi Kilea Kolon Nana Namis Safia Tou Sali Mata Sas Souma Sid Ibe Siy Sogol Tekhay Youma Zeina Badj Kekr Kelal Djadu Tima Alaba Alaym Blou Yabir Foi Aley Alada Alir Tatey Tako Adima Fetir Alim Alota Ulir Amata Datey Bakel Atota Alom Kakir Amir Zaki Djoma Kikama Foma Kemoi Bamo Yodam Umor Kalo Atoba Keko Kuder Akema Kelili Alukr Kater Fidir Kebay Atey Fatey Kudam Kumir Telel Keday Faler Filay Fukam Keti Dir Amay Zamir Fabo Fema Omata
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+
+	}
 }
 undead = {
 	stalfos = {
@@ -1553,10 +1553,10 @@ twilight_realm = {
 	}
 }
 terminia = {	
-	cursed_ikanan = {
+	undead_ikanan = {
 
 		graphical_culture = cursedgfx # portraits
-		second_graphical_culture = ikaniangfx # buildings, portraits, units
+		second_graphical_culture = ikanangfx # buildings, portraits, units
 #chinese
 
 		
@@ -1597,10 +1597,10 @@ terminia = {
 		
 		
 		male_names = {
-		Keeta Igos Io Asura Emir Matlalzoatl Asu Itos Aras Mogaras Mutas Amoras Sumat Iroru Ama Egaru Asos Atas Muta Igra Igees Egras Ehratlotlas Atema Arera Egalu Seer Mosor Turos Iloma Ataga Gar Itema Gima Itut Musar Araru Ilis Tiru Igeet Geeru Totis Egomis Egra Amega Imalu Igoru Geet Igros Atat Sama Mumas Sala Mularir Geer Mutateem Agruss Itolu Ahress Iros Mutos Mururu Mugru Ireru Igru Mutu Mulor Mutoas Segrat Toaru Mumura Mumra Toaru Murot Tamis Mulat Egar Aseemu Igor Iru Asulu Tagas Imeru Mumos Mutor Geess Iromu Igit Mumut Etura Satlaru Iroma Aru Ileru Itumu Mugror Iralu Muru Keeru Teru
+		Keeta Igos Kiza Zol Shaka Kaun Amoka Keel Kun Gatos Kekos Kolamah Gotakos Zoss Kotah Geel Kozus Kaulatal Gauh Goran Koros Zess Kalal Ietah Zil Irah Igoss Gomas Atila Gazol Atata Nalon Karus Iruss Namuss Noza Neema Kegoss Narol Naloka Naliza Aruss Gauraka Gauzeza Azera Amola Gola Golos Kelan Kah Gauzol Nauruh Noma Azuss Kauka Zama Zira Noman Kumama Kamegra Gila Ikaka Aleel Notala Shogala SHuss Kiruss Zotaura Gaugas Kazaus Gauma Iezan Izuss Kagol Komuh Komeh Nalaka Gotah Aruh Koza Aras Shura Zamis Kauma Akala Zoka Zaura Karah Komola Narah Iemah Shola Kautah Itula Nomoh Gauzel Aizah Zaman Gaun Zakoka
 		}
 		female_names = {
-		Gomess Igra Ia Ala Iras Seera Tohru Ilata Tigra Segora Ama Teesa Atara Teerihra Rihra Igra Muta Ila Arera Tura Gagra Meraleru Ihris Tara Sama Ameru Tara Kagra Egra Atora Talza Itoga Sala Asusa Egaga Matla Gora Irara Ilza Tatloga Mumura Mumila Mila Irama Igama Irema Tati Igrama Igoma Kora Koaga Atula Agra Geera Geeta Atuta Sara Alagra Ili Tema Ilzitema Imass Geesa Iroma Asihrosa Koara Ilora Koasa Geela Iroga Mara Tahra Gees Tuss Itlire Kira Ara Ahris Arota Igosara Alara Mura Mora Ahra Irees Amura Gara Iretass Maleera Kagis Segra Igoga Itlotlis Alelos Aluga Igura Tosogra Tagura Agora Mugra
+		Gomess Kamura Aikara Naroh Iegra Ala Gauza Igras Kara Zara Aira Gauka Iemara Kagal Ketah Zas Kima Shara Imoma Atara Kaula Kagalal Kaga Ateel Kokuss Amekoza Ila Ira Nalol Zakuh Irola Ikuss Noka Nales Koma Gora Kass Ireel Shaka Nalareh Aigah Gata Gauzoga Kauman Kola Nura Zomuh Akema Ireeka Ireteel Aitas Ieran Kota Karess Gauzal Imara Nalas Gaura Keela Igra Arara Zeer Gauzan Naza Keka Qauss Galaura Katah Garikara Gaurah Atora Iekola Ikoma Kitah Aka Gaula Aikora Shama Gura Kagema Nirura Zautera Karera Nagoss Gama Atama Nama Zoma Akah Kakah Naruss Guss Aizan Gaula Kala Gauta Nola Irara Gaga Kuss
 		}
 		
 		dukes_called_kings = no
