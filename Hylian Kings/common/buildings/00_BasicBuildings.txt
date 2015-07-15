@@ -106,6 +106,24 @@ castle = {
 
 		extra_tech_building_start = 0.2
 	}
+	ca_wall_q_6 = {
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+				NOT = {culture = undead_ikanan}
+		}
+		desc = ca_wall_q_6_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+		upgrades_from = ca_wall_q_5
+		gold_cost = 100
+		build_time = 365
+		fort_level = 1.0
+		ai_creation_factor = 76
+
+		extra_tech_building_start = 0.2
+	}
 	#Walls, gives fortlevel, levysize and income
 	ca_wall_1 = {
 		potential = {				

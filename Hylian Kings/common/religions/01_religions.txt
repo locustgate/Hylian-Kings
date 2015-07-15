@@ -1,17 +1,17 @@
-goddesses = {
+goddesses_religion = {
 	has_coa_on_barony_only = yes
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	
-	ai_convert_same_group = 2 # always try to convert
-	ai_convert_other_group = 1 # always try to convert
+	ai_convert_same_religion = 2 # always try to convert
+	ai_convert_other_religion = 1 # always try to convert
 
 	male_names = {
-	Eldin Lanayru Levias
+	Eldin Lanayru
 	}
 
 	female_names = {
-	Din Farore Nayru Hylia Faron Ordona 
+	Din Farore Nayru Faron Ordona 
 	}
 
 	golden_goddesses = {
@@ -31,7 +31,15 @@ goddesses = {
 		god_names = {
 			GOD_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE
 		}
-		intermarry = goddess 
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		attacking_same_religion_piety_loss = yes
+
+
+		intermarry = hylia_religion
+		intermarry = wind_fish
+		intermarry = wind
 	}
 	light_spirits = {
 		graphical_culture = westerngfx
@@ -50,7 +58,15 @@ goddesses = {
 		god_names = {
 			SPIRIT_ELDIN SPIRIT_FARON SPIRIT_LANARYRU SPIRIT_ORDONA
 		}
-		intermarry = goddess 
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		attacking_same_religion_piety_loss = yes
+
+
+		intermarry = hylia_religion 
+		intermarry = wind_fish
+		intermarry = wind
 	}
 	four_oracles = {
 		graphical_culture = westerngfx
@@ -69,7 +85,15 @@ goddesses = {
 		god_names = {
 			ORACLE_DIN ORACLE_FARORE ORACLE_NAYRU ORACLE_SECRETS ORACLE_AGES ORACLE_SEASONS
 		}
-		intermarry = goddess		
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		attacking_same_religion_piety_loss = yes
+
+
+		intermarry = hylia_religion
+		intermarry = wind_fish
+		intermarry = wind	
 	}
 	light_force = {
 		graphical_culture = westerngfx
@@ -88,7 +112,15 @@ goddesses = {
 		god_names = {
 			LIGHT_FORCE
 		}
-		intermarry = goddess 
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		attacking_same_religion_piety_loss = yes
+
+
+		intermarry = hylia_religion
+		intermarry = wind_fish
+		intermarry = wind
 	}
 	first_hero = {
 		graphical_culture = westerngfx
@@ -107,9 +139,26 @@ goddesses = {
 		god_names = {
 			FIRST_HERO
 		}
-		intermarry = goddess	
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		attacking_same_religion_piety_loss = yes
+
+
+		intermarry = hylia_religion
+		intermarry = wind_fish
+		intermarry = wind
 	}
-	goddess = {
+}
+hylia_religion = { 
+	male_names = {
+	Eldin Lanayru Levias
+	}
+
+	female_names = {
+	Din Farore Nayru Hylia Faron Ordona 
+	}	
+	hylia = {
 		graphical_culture = westerngfx
 
 		icon = 2
@@ -128,7 +177,11 @@ goddesses = {
 		evil_god_names = {
 				GOD_DEMISE GOD_GHIRAHIM
 		}
-		intermarry = golden_goddesses
+		intermarry = goddesses_religion
+		intermarry = wind_fish
+		intermarry = wind
+		attacking_same_religion_piety_loss = yes
+
 	}
 	goddess_of_time = {
 		graphical_culture = westerngfx
@@ -150,7 +203,13 @@ goddesses = {
 		evil_god_names = {
 			GOD_DEMISE GOD_GHIRAHIM	
 		}
-		intermarry = golden_goddesses
+		intermarry = goddesses_religion
+		intermarry = wind_fish
+		intermarry = wind
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		priests_can_marry = yes 
+		attacking_same_religion_piety_loss = yes
 
 	}	
 	three_dragons = {
@@ -171,7 +230,14 @@ goddesses = {
 		evil_god_names = {
 			GOD_DEMISE GOD_GHIRAHIM	
 		}
-		intermarry = golden_goddesses
+		intermarry = goddesses_religion
+		intermarry = wind_fish
+		intermarry = wind
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		priests_can_marry = yes 
+		attacking_same_religion_piety_loss = yes
+
 
 	}
 	levias = {
@@ -191,19 +257,39 @@ goddesses = {
 		evil_god_names = {
 			GOD_DEMISE GOD_GHIRAHIM	
 		}
-		intermarry = golden_goddesses
+		intermarry = goddesses_religion
+		intermarry = wind_fish
+		intermarry = wind
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		priests_can_marry = yes 
+		attacking_same_religion_piety_loss = yes
 
 	}
-}
+	Guardian = {
 
+		icon = 32
+		heresy_icon = 33
+		parent = goddess
+		
+		color = { 0.8 0.8 0.6 }		
+
+		priest_title = SHAMAN		
+		high_god_name = GOD_GUARDIAN		
+		god_names = {
+			GOD_GUARDIAN 
+		}
+		can_loot = yes
+	}
+}
 goron = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westernfx
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	
-	ai_convert_same_group = 0 # always try to convert
-	ai_convert_other_group = 0 # always try to convert
+	ai_convert_same_religion = 0 # always try to convert
+	ai_convert_other_religion = 0 # always try to convert
 
 	fire_spirit = {
 		graphical_culture = westerngfx
@@ -220,6 +306,7 @@ goron = {
 		god_names = {
 			GOD_FIRE_SPIRIT
 		}
+		priests_can_marry = yes
 	}
 	goron_ancestors = {
 		graphical_culture = westerngfx
@@ -243,6 +330,8 @@ goron = {
 		god_names = {
 			GOD_ANCESTORS
 		}
+		priests_can_marry = yes
+
 	}
 
 	mother_mountain = {
@@ -262,6 +351,8 @@ goron = {
 		god_names = {
 			GOD_FIRE_MOTHER GOD_MOTHER_MOUNTAIN
 		}
+		priests_can_marry = yes
+
 	}
 }
 
@@ -272,8 +363,8 @@ zora = {
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	
-	ai_convert_same_group = 2 # always try to convert
-	ai_convert_other_group = 2 # always try to convert
+	ai_convert_same_religion = 2 # always try to convert
+	ai_convert_other_religion = 2 # always try to convert
 	
 	jabu_jabu = {
 		graphical_culture = westerngfx
@@ -285,7 +376,8 @@ zora = {
 
 		allow_rivermovement = yes
 		allow_female_priest = yes
-		priests_can_marry = yes		
+		priests_can_marry = yes
+		seafarer = yes		
 
 		crusade_name = CRUSADE
 		priest_title = ATTENDENT 
@@ -308,6 +400,7 @@ zora = {
 		allow_rivermovement = yes
 		allow_female_priest = yes
 		priests_can_marry = yes 
+		seafarer = yes
 
 		crusade_name = CRUSADE
 		priest_title = COMPOSER
@@ -317,6 +410,7 @@ zora = {
 		god_names = {
 			GOD_GIANT_TURTLE
 		}
+		intermarry = valoo
 	}
  	water_spirit = {
 		graphical_culture = africangfx
@@ -330,6 +424,7 @@ zora = {
 		allow_rivermovement = yes
 		allow_female_priest = yes
 		priests_can_marry = yes 
+		seafarer = yes
 
 		crusade_name = CRUSADE
 		priest_title = PRIEST
@@ -339,29 +434,7 @@ zora = {
 		god_names = {
 			GOD_WATER_SPIRIT
 		}
-	}
-	jawbu_jawbu = {
-		graphical_culture = norsegfx
-
-		icon = 14
-		heresy_icon = 15
-		
-		color = { 0.8 0.8 0.6 }
-		parent = jabu_jabu
-		
-		allow_looting = yes
-		allow_rivermovement = yes
-		allow_viking_invasion = yes
-		priests_can_marry = yes
-
-		scripture_name = EVER_LIST
-		priest_title = BUTCHER
-		
-		high_god_name = GOD_JAWBU_JAWBU
-		
-		god_names = {
-			GOD_JAWBU_JAWBU GOD_ALL_EATER
-		}
+		intermarry = valoo
 	}
 }
 gerudo_religion = {
@@ -370,8 +443,8 @@ gerudo_religion = {
 	playable = yes
 	ai_peaceful = no
 	
-	ai_convert_same_group = 2 # always try to convert
-	ai_convert_other_group = 2 # always try to convert
+	ai_convert_same_religion = 2 # always try to convert
+	ai_convert_other_religion = 2 # always try to convert
 	
 	gerudo_goddess = {
 		graphical_culture = muslimgfx
@@ -388,8 +461,12 @@ gerudo_religion = {
 		allow_looting = yes
 		priests_can_marry = yes 
 		allow_female_priests = yes
-		can_hold_temples = yes 
 		allow_viking_invasion = yes
+		feminist = yes
+		max_wives = 4
+		aggression = 1.5
+		attacking_same_religion_piety_loss = yes
+
 
 
 
@@ -402,12 +479,8 @@ gerudo_religion = {
 		evil_god_names = {
 				GOD_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE
 		}
-		
-		intermarry = 
-		feminist = yes
-		max_wives = 4
-		aggression = 1.5
-
+		intermarry = pirates
+		intermarry = wizzrobe
 	}
 	
 	din_worship = {
@@ -423,6 +496,11 @@ gerudo_religion = {
 		priests_can_marry = yes 
 		allow_female_priests = yes
 		allow_viking_invasion = yes
+		feminist = yes
+		max_wives = 4
+		aggression = 1.5
+		attacking_same_religion_piety_loss = yes
+
 
 
 		crusade_name = CRUSADE
@@ -434,11 +512,8 @@ gerudo_religion = {
 		god_names = {
 			GOD_DIN
 		}
-				
-		feminist = yes
-		max_wives = 4
-		aggression = 1.5
-
+		intermarry = pirates
+		intermarry = wizzrobe
 	}
 	twinrova = {
 		graphical_culture = muslimgfx
@@ -453,6 +528,11 @@ gerudo_religion = {
 		priests_can_marry = yes 
 		allow_female_priests = yes
 		allow_viking_invasion = yes
+		feminist = yes
+		max_wives = 4
+		aggression = 2
+		attacking_same_religion_piety_loss = yes
+
 
 
 		priest_title = PRIEST
@@ -462,11 +542,8 @@ gerudo_religion = {
 		god_names = {
 			GOD_TWINROVA
 		}
-				
-		feminist = yes
-		max_wives = 4
-		aggression = 2
-
+		intermarry = pirates
+		intermarry = wizzrobe
 	}
 	goddess_son = {
 		graphical_culture = muslimgfx
@@ -481,6 +558,11 @@ gerudo_religion = {
 		priests_can_marry = yes 
 		allow_female_priests = yes
 		allow_viking_invasion = yes
+		attacking_same_religion_piety_loss = yes
+
+		feminist = yes
+		max_wives = 4
+		aggression = 2
 
 
 		priest_title = PRIEST
@@ -493,10 +575,8 @@ gerudo_religion = {
 		evil_god_names = {
 				GOD_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE
 		}
-				
-		feminist = yes
-		max_wives = 4
-		aggression = 2
+		intermarry = pirates
+		intermarry = wizzrobe
 	}
 }
 
@@ -506,8 +586,8 @@ forest_religion = {
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	
-	ai_convert_same_group = 1 # always try to convert
-	ai_convert_other_group = 1 # always try to convert
+	ai_convert_same_religion = 1 # always try to convert
+	ai_convert_other_religion = 1 # always try to convert
 	
 	great_deku = {
 		graphical_culture = slavicgfx
@@ -529,7 +609,6 @@ forest_religion = {
 		god_names = {
 			GOD_GREAT_DEKU_TREE GOD_GREAT_DEKU_SAPLING GOD_GREAT_DEKU_SEED
 		}
-		intermarry = goddesses
 		intermarry = great_maku
 	}
 	great_maku = {
@@ -552,7 +631,7 @@ forest_religion = {
 		}
 		intermarry = goddesses
 		intermarry = great_deku
-
+		intermarry = hylia_religion
 	}
 	tuni_nut = {
 		graphical_culture = slavicgfx
@@ -572,7 +651,7 @@ forest_religion = {
 		}
 		intermarry = goddesses
 		intermarry = great_deku
-
+		intermarry = hylia_religion
 	}
 	rod_of_season = {
 		graphical_culture = slavicgfx
@@ -592,7 +671,7 @@ forest_religion = {
 		}
 		intermarry = goddesses
 		intermarry = great_deku
-
+		intermarry = hylia_religion
 	}
 	great_fairies = {
 		graphical_culture = slavicgfx
@@ -617,6 +696,7 @@ forest_religion = {
 		}
 		intermarry = goddesses
 		intermarry = great_deku
+		intermarry = hylia_religion
 		feminist = yes
 
 	}
@@ -638,18 +718,18 @@ forest_religion = {
 		evil_god_names = {
 			GOD_GREAT_DEKU_TREE GOD_GREAT_DEKU_SAPLING GOD_GREAT_DEKU_SEED 
 		}
-		intermarry = demons
+		intermarry = demons_religion
 		aggression = 3
 	}
 }
 
-demons = {
+demons_religion = {
 	has_coa_on_barony_only = yes
 	playable = yes
 	ai_peaceful = no # Will make Hordes lose their super aggressiveness
 	
-	ai_convert_same_group = 2 # always try to convert
-	ai_convert_other_group = 2 # always try to convert
+	ai_convert_same_religion = 2 # always try to convert
+	ai_convert_other_religion = 2 # always try to convert
 	
 
 	male_names = {
@@ -665,7 +745,8 @@ demons = {
 		color = { 0.8 0.8 0.6 }
 
 		allow_female_priest = yes
-		priests_can_marry = yes		
+		priests_can_marry = yes
+		allow_viking_invasion = yes		
 
 		crusade_name = CLEANSING 
 		scripture_name = DEMISE_LITANY_HATE
@@ -694,7 +775,8 @@ demons = {
 		color = { 0.8 0.8 0.6 }
 
 		allow_female_priest = yes
-		priests_can_marry = yes		
+		priests_can_marry = yes
+		allow_viking_invasion = yes		
 
 		crusade_name = CLEANSING 
 		priest_title = SHAMAN
@@ -719,7 +801,10 @@ demons = {
 		
 		color = { 0.8 0.8 0.6 }
 
-		priests_can_marry = yes		
+		allow_female_priest = yes
+		priests_can_marry = yes
+		allow_viking_invasion = yes	
+		feminist = yes	
 
 		crusade_name = PURGE
 		scripture_name = GANON_AMBITION
@@ -748,9 +833,10 @@ demons = {
 		
 		color = { 0.8 0.8 0.6 }
 
+		allow_female_priest = yes
 		priests_can_marry = yes		
 
-		priest_title = SHAMAN
+		priest_title = BUSINESS_MAN
 		
 		god_names = {
 			GOD_RUPEE
@@ -764,110 +850,14 @@ demons = {
 	}
 }
 
-lizard = {
-	has_coa_on_barony_only = yes
-	graphical_culture = norsegfx
-	playable = yes
-	ai_peaceful = no # Will make Hordes lose their super aggressiveness
-	
-	ai_convert_same_group = 2 # always try to convert
-	ai_convert_other_group = 2 # always try to convert
-
-	male_names = { Dodongo Argorok Volvagia
-	}
-	#liz
-	king_dodongo = {
-	
-		icon = 30
-		heresy_icon = 31
-		
-		color = { 0.8 0.8 0.6 }
-
-		priests_can_marry = yes		
-
-		priest_title = ATTENDENT
-		
-		high_god_name = GOD_DODONGO
-		
-		god_names = {
-			GOD_DODONGO
-		}
-		can_loot = yes 
-		max_consort = 3
-		aggression = 4
-		intermarry = volvagia
-		intermarry = argorok
-
-	}
-	#dino
-	volvagia = {
-
-		icon = 5
-		heresy_icon = 14
-		
-		color = { 0.8 0.8 0.6 }	
-
-		priest_title = ATTENDENT
-		
-		high_god_name = GOD_VOLVAGIA
-		
-		god_names = {
-			GOD_VOLVAGIA
-		}
-		can_loot = yes 
-		max_consort = 3
-		aggression = 4
-		intermarry = argorok
-		intermarry = king_dodongo
-
-
-	}
-	#aero
-	argorok = {
-
-		icon = 5
-		heresy_icon = 14
-		
-		color = { 0.8 0.8 0.6 }	
-
-		priest_title = ATTENDENT
-		
-		high_god_name = GOD_ARGOROK
-		
-		god_names = {
-			GOD_ARGOROK 
-		}
-		can_loot = yes 
-		max_consort = 3
-		aggression = 4
-		intermarry = volvagia
-		intermarry = king_dodongo
-
-	}
-	Guardian = {
-
-		icon = 32
-		heresy_icon = 33
-		
-		color = { 0.8 0.8 0.6 }		
-
-		priest_title = SHAMAN		
-		high_god_name = GOD_GUARDIAN		
-		god_names = {
-			GOD_GUARDIAN 
-		}
-		can_loot = yes
-	}
-}
-
 darknut_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = zorestingfx
 	playable = yes
 	ai_peaceful = no # Will make Hordes lose their super aggressiveness
 	
-	ai_convert_same_group = 1 # always try to convert
-	ai_convert_other_group = 2 # always try to convert
+	ai_convert_same_religion = 1 # always try to convert
+	ai_convert_other_religion = 2 # always try to convert
 
 	male_names = {Areteli}
 	Female_names = {Laylia Rytai Candora}
@@ -888,6 +878,7 @@ darknut_religion = {
 	aggression = 2.0
 	intermarry = darknut_gods
 	feminist = yes
+	allow_viking_invasion = yes
 	}
 	darknut_gods = {
 		icon = 11
@@ -904,11 +895,12 @@ darknut_religion = {
 		GOD_ARETELI GOD_RYTAI GOD_LAYLIA
 		}
 
-		max_wives = 4
+	max_wives = 4
 	aggression = 2.0
 	intermarry = darknut_doctrine
 	feminist = yes
-
+	allow_viking_invasion = yes
+	peace_prestige_loss = yes # Lose Prestige while at peace
 	}
 }
 sky_religion = {
@@ -916,8 +908,8 @@ sky_religion = {
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	
-	ai_convert_same_group = 1 # convert
-	ai_convert_other_group = 1 # convert
+	ai_convert_same_religion = 1 # convert
+	ai_convert_other_religion = 1 # convert
 
 	male_names = {
 	Valoo Zephos Cyclos
@@ -932,19 +924,21 @@ sky_religion = {
 
 		priest_title = CONDUCTOR
 	
-		
+		feminist = yes
+
 		high_god_name = GOD_THE_TWINS	
 		god_names = {
 			GOD_ZEPHOS GOD_CYCLOS
 		}
 	}
-	zephos_religion = {
+	zephos = {
 		graphical_culture = norsegfx
 
 		icon = 11
 		heresy_icon = 12
 		parent = twin_frogs
 
+		feminist = yes
 
 		color = { 0.8 0.8 0.6 }
 
@@ -961,7 +955,7 @@ sky_religion = {
 		}
 		peace_piety_gain = 1.0
 	}
-	cylcos_religion = {
+	cylcos = {
 		graphical_culture = norsegfx
 
 		icon = 11
@@ -969,6 +963,8 @@ sky_religion = {
 		parent = twin_frogs
 		
 		color = { 0.8 0.8 0.6 }
+
+		feminist = yes
 
 		scripture_name = CYCLOS_RAGE
 		priest_title = CONDUCTOR
@@ -983,11 +979,8 @@ sky_religion = {
 		}
 		peace_prestige_loss = yes
 		can_loot = yes
-		intermarry = demise
+		intermarry = demons_religion
 		intermarry = baga_tree
-		intermarry = vaati
-		intermarry = ganon
-		intermarry = uncle_rupee
 	}
 	wind = {
 		graphical_culture = norsegfx
@@ -1003,7 +996,10 @@ sky_religion = {
 		high_god_name = THE_WIND	
 		god_names = {
 			STRONG_WIND LIGHT_WIND
-		}	
+		}
+		intermarry = goddesses_religion
+		intermarry = hylia_religion
+		intermarry = wind_fish
 	}
 	wind_fish = {
 		graphical_culture = norsegfx
@@ -1019,7 +1015,11 @@ sky_religion = {
 		high_god_name = GOD_WIND_FISH	
 		god_names = {
 			GOD_WIND_FISH GOD_WIND_FISH_EGG
-		}	
+		}
+		intermarry = goddesses_religion
+		intermarry = hylia_religion
+		intermarry = wind_fish
+		intermarry = wind
 	}
 	valoo = {
 		graphical_culture = norsegfx
@@ -1039,6 +1039,7 @@ sky_religion = {
 		evil_god_names = {
 			GOD_GOHMA
 		}
+		intermarry = zora_religion
 	}
 } 
 sea_religion = {
@@ -1048,8 +1049,8 @@ sea_religion = {
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	
-	ai_convert_same_group = 1 # always try to convert
-	ai_convert_other_group = 1 # always try to convert
+	ai_convert_same_religion = 1 # always try to convert
+	ai_convert_other_religion = 1 # always try to convert
 	male_names = {Oshus Bellum Leaf}
 	female_names = {Neri Ciela}
 
@@ -1070,6 +1071,7 @@ sea_religion = {
 		}
 		evil_god_names = {
 			GOD_BELLUM
+		}
 	}
 	bellum = {
 		graphical_culture = westerngfx
@@ -1090,11 +1092,8 @@ sea_religion = {
 		evil_god_names = {
 			GOD_OCEAN_KING GOD_OSHUS GOD_SERVANT_SPIRITS 
 		}
-		intermarry = demise
+		intermarry = demon_religion
 		intermarry = baga_tree
-		intermarry = vaati
-		intermarry = ganon
-		intermarry = uncle_rupee
 		intermearry = cyclos
 	}
 	pirate = {
@@ -1118,14 +1117,13 @@ sea_religion = {
 		aggression = 2.0
 		intermarry = gerudo_goddess
 		intermarry = darknut_docrtine
-		intermarry = darknut_gods
 	}
 }
 doctrine = {
 	wizzrobe_doctrine = {
 	intermarry = goddesses
+	intermarry = hylia_religion
 	intermarry = gerudo_goddess
-	intermarry = forest_religion
 	}
 }
 twili_religion = {
@@ -1135,8 +1133,8 @@ twili_religion = {
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	
-	ai_convert_same_group = 1 # always try to convert
-	ai_convert_other_group = 1 # always try to convert
+	ai_convert_same_religion = 1 # always try to convert
+	ai_convert_other_religion = 1 # always try to convert
 	male_names = {Sol}
 	female_names = {Solaria}
 	sol = {
@@ -1187,8 +1185,8 @@ termian = {
 	playable = yes
 	ai_peaceful = no 
 	
-	ai_convert_same_group = 2 # always try to convert
-	ai_convert_other_group = 2 # always try to convert
+	ai_convert_same_religion = 2 # always try to convert
+	ai_convert_other_religion = 2 # always try to convert
 	
 
 	majora = {

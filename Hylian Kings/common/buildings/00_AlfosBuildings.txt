@@ -13,6 +13,64 @@
  
  # Castle
 castle = {
+	#snaretraps,ditch,pitfalls,ambush posts,
+	ca_lfos_wall_q_1 = {
+		potential = {					
+			culture_group = lfos
+		}
+		desc = ca_lfos_wall_q_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 80
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_lfos_wall_q_2 = {
+		desc = ca_lfos_wall_q_2_desc
+		potential = {				
+			culture_group = lfos
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		upgrades_from = ca_lfos_wall_q_1
+		prerequisites = { ca_lfos_wall_1 }
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 79
+
+		extra_tech_building_start = 0.6
+	}
+	ca_lfos_wall_q_3 = {
+		potential = {				
+			culture_group = lfos
+		}
+		desc = ca_lfos_wall_q_3_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+		upgrades_from = ca_lfos_wall_q_2
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 78
+		
+		extra_tech_building_start = 0.2
+	}
+	ca_lfos_wall_q_4 = {
+		potential = {				
+			culture_group = lfos
+		}
+		desc = ca_lfos_wall_q_4_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		upgrades_from = ca_lfos_wall_q_3
+		gold_cost = 100
+		build_time = 365
+		fort_level = 1.0
+		ai_creation_factor = 77
+		
+		extra_tech_building_start = 0.2
+	}
+#earthwork,low palisade,palisade,lone stone wall,stone wall
 	ca_lfos_wall_1 = {
 		potential = {
 			culture_group = lfos
@@ -29,11 +87,11 @@ castle = {
 		extra_tech_building_start = 1.0
 	}
 	ca_lfos_wall_2 = {
-		potential = {
+		potential = {	
 			culture_group = lfos
 		}
 		desc = ca_lfos_wall_2_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
 		upgrades_from = ca_lfos_wall_1
 		gold_cost = 50
 		build_time = 547 #1.5y
@@ -44,154 +102,150 @@ castle = {
 		
 		extra_tech_building_start = 0.2
 	}
-	ca_lfos_cavern_1 = {
+	ca_lfos_wall_3 = {
 		potential = {
 			culture_group = lfos
-			terrain = mountains
+
 		}
-		desc = ca_lfos_cavern_1_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		desc = ca_lfos_wall_3_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
 		upgrades_from = ca_lfos_wall_2
-		gold_cost = 50
+		gold_cost = 100
 		build_time = 730 #2y
 		fort_level = 1.0
-		levy_size = 0.1
+		levy_size = 0.05
 		tax_income = 0.2
-		ai_creation_factor = 90
-		
-		extra_tech_building_start = 1.0
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 0.2
 	}
-	ca_lfos_cavern_2 = {
+	ca_lfos_wall_4 = {
 		potential = {
 			culture_group = lfos
-			terrain = jungle
-			terrain = forest
 		}
-		desc = ca_lfos_cavern_2_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
-		upgrades_from = ca_lfos_cavern_1
-		gold_cost = 50
+		desc = ca_lfos_wall_4_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		upgrades_from = ca_lfos_wall_3
+		gold_cost = 150
 		build_time = 1095 #3y
 		fort_level = 1.0
-		levy_size = 0.1
+		levy_size = 0.05
 		tax_income = 0.2
-		ai_creation_factor = 89
-		
+		ai_creation_factor = 87
+
 		extra_tech_building_start = 0.2
 	}
-	ca_lfos_tree_1 = {
+	ca_lfos_wall_5 = {
 		potential = {
 			culture_group = lfos
-			terrain = jungle
-			terrain = forest
-
 		}
-		desc = ca_lfos_tree_1_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
-		upgrades_from = ca_lfos_wall_2
-		gold_cost = 50
-		build_time = 730 #2y
-		fort_level = 1.0
+		desc = ca_lfos_wall_5_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+		upgrades_from = ca_lfos_wall_4
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 1.5
 		levy_size = 0.1
-		tax_income = 0.2
-		ai_creation_factor = 90
+		tax_income = 0.5
+		ai_creation_factor = 86
+
+		extra_tech_building_start = 0.2
+	}
+#small mound, mound, large,mound, pyramid,great pyramid
+	ca_lfos_keep_1 = {
+		desc = ca_lfos_keep_1_desc
+		potential = {				
+				culture_group = lfos
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 150
+		build_time = 547 #1.5y
+		levy_size = 0.05
+		garrison_size = 0.05
+		ai_creation_factor = 102
 		
 		extra_tech_building_start = 1.0
 	}
-	ca_lfos_tree_2 = {
-		potential = {
-			culture_group = lfos
-			terrain = jungle
-			terrain = forest 
+	ca_lfos_keep_2 = {
+		desc = ca_lfos_keep_1_desc
+		potential = {				
+				culture_group = lfos
 		}
-		desc = ca_lfos_tree_2_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
-		upgrades_from = ca_lfos_tree_1
-		gold_cost = 50
-		build_time = 1095 #3y
-		fort_level = 1.0
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		prerequisites = { ca_lfos_wall_1 }
+		upgrades_from = ca_lfos_keep_1
+		gold_cost = 200
+		build_time = 730 #2y
 		levy_size = 0.1
-		tax_income = 0.2
-		ai_creation_factor = 89
-		
-		extra_tech_building_start = 0.2
+		garrison_size = 0.1
+		ai_creation_factor = 101
+
+		extra_tech_building_start = 2.0
 	}
-	ca_aer_tree_1 = {
-		potential = {
-			culture_group = aeralfos
-			terrain = jungle
-			terrain = forest
+	ca_lfos_keep_3 = {
+		desc = ca_lfos_keep_1_desc
+		potential = {												culture_group = lfos
 
 		}
-		desc = ca_aer_tree_1_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
-		upgrades_from = ca_aer_wall_1
-		gold_cost = 50
-		build_time = 730 #2y
-		fort_level = 1.0
-		levy_size = 0.1
-		tax_income = 0.2
-		ai_creation_factor = 90
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		prerequisites = { ca_lfos_wall_2 }
+		upgrades_from = ca_lfos_keep_2
+		gold_cost = 300
+		build_time = 1095 #3y
+		levy_size = 0.15
+		garrison_size = 0.15
+		ai_creation_factor = 100
 		
 		extra_tech_building_start = 1.0
 	}
-	ca_aer_tree_2 = {
-		potential = {
-			culture = aeralfos
-			terrain = jungle
-			terrain = forest
-
+	ca_lfos_keep_4 = {	
+		desc = ca_lfos_keep_1_desc
+		potential = {				
+				culture_group = lfos
 		}
-		desc = ca_aer_tree_2_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
-		upgrades_from = ca_aer_tree_1
-		gold_cost = 50
-		build_time = 1095 #3y
-		fort_level = 1.0
-		levy_size = 0.1
-		tax_income = 0.2
-		ai_creation_factor = 89
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		upgrades_from = ca_lfos_keep_3
+		gold_cost = 400
+		build_time = 1460 #4y
+		levy_size = 0.2
+		garrison_size = 0.2
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 0.2
+	}
+	ca_lfos_keep_5 = {
+		desc = ca_lfos_keep_1_desc
+		potential = {				
+				culture_group = lfos
+		}
+
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		upgrades_from = ca_lfos_keep_4
+		gold_cost = 500
+		build_time = 2190 #6y
+		levy_size = 0.25
+		garrison_size = 0.2
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.2
+	}
+	ca_lfos_keep_6 = {
+		desc = ca_lfos_keep_1_desc
+		potential = {				
+				culture_group = lfos
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+		upgrades_from = ca_lfos_keep_5
+		gold_cost = 500
+		build_time = 2190 #6y
+		levy_size = 0.3
+		garrison_size = 0.2
+		ai_creation_factor = 97
 		
 		extra_tech_building_start = 0.2
 	}
-	ca_aer_aerie_1 = {
-		potential = {
-			culture_group = aeralfos
-			terrain = mountain
-
-		}
-		desc = ca_aer_aerie_1_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
-		upgrades_from = ca_lfos_wall_2
-		gold_cost = 50
-		build_time = 730 #2y
-		fort_level = 1.0
-		levy_size = 0.1
-		tax_income = 0.2
-		ai_creation_factor = 90
-		
-		extra_tech_building_start = 1.0
-	}
-	ca_aer_aerie_2 = {
-		potential = {
-			culture = aeralfos
-			terrain = mountain
-
-		}
-		desc = ca_aer_aerie_2_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
-		upgrades_from = ca_aer_lfos_1
-		gold_cost = 50
-		build_time = 1095 #3y
-		fort_level = 2.0
-		levy_size = 0.1
-		tax_income = 0.2
-		ai_creation_factor = 89
-		
-		extra_tech_building_start = 0.2
-	}
-	ca_lfos_hatchery_1 = {
-		desc = ca_lfos_hatchery_1_desc
+	ca_lfos_martial_grounds_1 = {
+		desc = ca_lfos_martial_grounds_1_desc
 		potential = {
 			culture_group = lfos
 		}
@@ -208,14 +262,14 @@ castle = {
 		
 		extra_tech_building_start = 1.0
 	}
-	ca_lfos_hatchery_2 = {
-		desc = ca_lfos_hatchery_1_desc
+	ca_lfos_martial_grounds_2 = {
+		desc = ca_lfos_martial_grounds_1_desc
 		potential = {
 			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_1 }
-		upgrades_from = ca_lfos_hatchery_1
+		upgrades_from = ca_lfos_martial_grounds_1
 		gold_cost = 200
 		build_time = 730 #2y
 		levy_size = 0.1
@@ -228,14 +282,14 @@ castle = {
 
 		extra_tech_building_start = 2.0
 	}
-	ca_lfos_hatchery_3 = {
-		desc = ca_lfos_hatchery_1_desc
+	ca_lfos_martial_grounds_3 = {
+		desc = ca_lfos_martial_grounds_1_desc
 		potential = {
 			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
 		prerequisites = { ca_wall_2 }
-		upgrades_from = ca_lfos_hatchery_2
+		upgrades_from = ca_lfos_martial_grounds_2
 		gold_cost = 300
 		build_time = 1095 #3y
 		levy_size = 0.15
@@ -248,13 +302,13 @@ castle = {
 		
 		extra_tech_building_start = 1.0
 	}
-	ca_lfos_hatchery_4 = {	
-		desc = ca_lfos_hatchery_1_desc
+	ca_lfos_martial_grounds_4 = {	
+		desc = ca_lfos_martial_grounds_1_desc
 		potential = {
 			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
-		upgrades_from = ca_lfos_hatchery_3
+		upgrades_from = ca_lfos_martial_grounds_3
 		gold_cost = 400
 		build_time = 1460 #4y
 		levy_size = 0.2
@@ -491,8 +545,7 @@ castle = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
-		heavy_infantry = 10
-		light_infantry = 20
+		heavy_infantry = 30
 		ai_creation_factor = 105
 		
 		extra_tech_building_start = 1.0
@@ -507,8 +560,7 @@ castle = {
 		upgrades_from = ca_darkhammer_den__1
 		gold_cost = 120
 		build_time = 547
-		heavy_infantry = 15
-		light_infantry = 30
+		heavy_infantry = 40
 		ai_creation_factor = 104
 		
 		extra_tech_building_start = 1.8
@@ -523,8 +575,7 @@ castle = {
 		upgrades_from = ca_darkhammer_den__2
 		gold_cost = 200
 		build_time = 730
-		heavy_infantry = 20
-		light_infantry = 40
+		heavy_infantry = 60
 		ai_creation_factor = 103
 
 		extra_tech_building_start = 3.0
@@ -538,8 +589,7 @@ castle = {
 		upgrades_from = ca_darkhammer_den__3
 		gold_cost = 300
 		build_time = 1095
-		heavy_infantry = 25
-		light_infantry = 50
+		heavy_infantry = 70
 		ai_creation_factor = 102
 
 		extra_tech_building_start = 3.0
@@ -553,8 +603,7 @@ castle = {
 		upgrades_from = ca_darkhammer_den__4
 		gold_cost = 400
 		build_time = 2190
-		heavy_infantry = 30
-		light_infantry = 60
+		heavy_infantry = 80
 		ai_creation_factor = 101
 
 		extra_tech_building_start = 2.0
@@ -568,8 +617,7 @@ castle = {
 		upgrades_from = ca_darkhammer_den__5
 		gold_cost = 500
 		build_time = 2190
-		heavy_infantry = 40
-		light_infantry = 70
+		heavy_infantry = 90
 		ai_creation_factor = 100
 
 		extra_tech_building_start = 0.2
@@ -727,4 +775,811 @@ castle = {
 
 		extra_tech_building_start = 3.0
 	}
+	ca_lfos_town_1 = {
+		desc = ca_lfos_town_1_desc
+		potential = {				
+				culture_group = lfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		tax_income = 2
+		archer = 20
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.5
+	}
+	ca_lfos_town_2 = {
+		desc = ca_lfos_town_2_desc
+		potential = {				
+				culture_group = lfos
+		}
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_lfos_town_1
+		gold_cost = 120
+		build_time = 547
+		tax_income = 2
+		archer = 30
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 1.0
+	}
+	ca_lfos_town_3 = {
+		desc = ca_lfos_town_3_desc
+		potential = {				
+				culture_group = lfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_lfos_town_2
+		gold_cost = 200
+		build_time = 730
+		tax_income = 2
+		archer = 30
+		light_infantry = 20
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.2
+	}
+	ca_lfos_town_4 = {
+		desc = ca_lfos_town_4_desc
+		potential = {				
+				culture_group = lfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_lfos_town_3
+		gold_cost = 300
+		build_time = 1095
+		tax_income = 2
+		archer = 30
+		light_infantry = 40
+		ai_creation_factor = 97
+
+		extra_tech_building_start = 0.2
+	}
+	ca_lfos_town_5 = {
+		desc = ca_lfos_town_4_desc
+		potential = {				
+				culture_group = lfos
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_lfos_town_4
+		gold_cost = 400
+		build_time = 2190
+		tax_income = 2
+		archer = 50
+		light_infantry = 40
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 0.2
+	}
+	ca_lfos_town_6 = {
+		desc = ca_lfos_town_5_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+				NOT = {culture = undead_ikanan}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
+		upgrades_from = ca_lfos_town_5
+		gold_cost = 500
+		build_time = 2190
+		tax_income = 2
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 0.2
+	}
+	ca_lfos_shipyard_1 = {
+		desc = shipyard_desc
+			potential = {				
+				culture_group = lfos
+		}
+		port = yes
+		trigger = { TECH_NAVAL = 1 }
+		gold_cost = 100
+		build_time = 365
+		galleys = 6
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.3
+	}
+	
+	ca_lfos_shipyard_2 = {
+		desc = shipyard_desc
+			potential = {				
+				culture_group = lfos
+		}
+		port = yes
+		trigger = { TECH_NAVAL = 2 }
+		upgrades_from = ca_lfos_shipyard_1
+		gold_cost = 100
+		build_time = 730
+		galleys = 7
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.3
+	}
+	
+	ca_lfos_shipyard_3 = {
+		desc = shipyard_desc
+		potential = {				
+				culture_group = lfos
+		}
+		port = yes
+		trigger = { TECH_NAVAL = 3 }
+		upgrades_from = ca_lfos_shipyard_2
+		gold_cost = 100
+		build_time = 1095
+		galleys = 8
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.3
+	}
+	
+	ca_lfos_shipyard_4 = {
+		desc = shipyard_desc
+		potential = {				
+				culture_group = lfos
+		}
+		port = yes
+		trigger = { TECH_NAVAL = 4 }
+		upgrades_from = ca_lfos_shipyard_3
+		gold_cost = 100
+		build_time = 1460
+		galleys = 9
+		ai_creation_factor = 97
+		
+		extra_tech_building_start = 0.3
+	}
+}
+city = {
+	#snaretraps,ditch,pitfalls,ambush posts,balistas
+
+	ct_lfos_wall_q_1 = {
+		desc = ct_lfos_wall_q_1_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		prerequisites = { ct_lfos_wall_1 }
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.4
+		ai_creation_factor = 60
+		
+		extra_tech_building_start = 1.0
+	}
+	ct_lfos_wall_q_2 = {
+		desc = ct_lfos_wall_q_2_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		prerequisites = { ct_lfos_wall_2 }
+		upgrades_from = ct_lfos_wall_q_1
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.4
+		ai_creation_factor = 59
+
+		extra_tech_building_start = 1.5
+	}	
+	ct_lfos_wall_q_3 = {
+		desc = ca_wall_q_3_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+		upgrades_from = ct_lfos_wall_q_2
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 58
+
+		extra_tech_building_start = 1.0
+	}
+	ct_lfos_wall_q_4 = {
+		desc = ca_wall_q_4_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		upgrades_from = ct_lfos_wall_q_3
+		gold_cost = 100
+		build_time = 365
+		fort_level = 1
+		ai_creation_factor = 57
+
+		extra_tech_building_start = 0.2
+	}
+	ct_lfos_wall_q_5 = {
+		desc = ca_wall_q_5_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+		upgrades_from = ct_lfos_wall_q_4
+		gold_cost = 100
+		build_time = 365
+		fort_level = 1
+		ai_creation_factor = 56
+
+		extra_tech_building_start = 0.2
+	}
+#earthwork,low palisade,palisade,lone stone wall,stone wall
+	ct_lfos_wall_1 = {
+		desc = ca_wall_1_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 365
+		fort_level = 0.4
+		levy_size = 0.025
+		tax_income = 0.2
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 1.0
+	}
+	ct_lfos_wall_2 = {
+		desc = ca_wall_2_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		upgrades_from = ct_lfos_wall_1
+		gold_cost = 50
+		build_time = 547
+		fort_level = 0.4
+		levy_size = 0.025
+		tax_income = 0.2
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 1.5
+	}
+	ct_lfos_wall_3 = {
+		desc = ct_lfos_wall_3_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		upgrades_from = ct_lfos_wall_2
+		gold_cost = 100
+		build_time = 730
+		fort_level = 0.4
+		levy_size = 0.05
+		tax_income = 0.2
+		ai_creation_factor = 97
+
+		extra_tech_building_start = 2.0
+	}
+	ct_lfos_wall_4 = {
+		desc = ct_lfos_wall_4_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		upgrades_from = ct_lfos_wall_3
+		gold_cost = 100
+		build_time = 1095
+		fort_level = 0.5
+		levy_size = 0.05
+		tax_income = 0.2
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 1.0
+	}
+	ct_lfos_wall_5 = {
+		desc = ct_lfos_wall_5_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+		upgrades_from = ct_lfos_wall_4
+		gold_cost = 150
+		build_time = 1460
+		fort_level = 1.0
+		levy_size = 0.075
+		tax_income = 0.5
+		ai_creation_factor = 95
+
+		extra_tech_building_start = 0.2
+	}
+	ct_hatchery_1 = {
+		desc = ct_hatchery_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 150
+		build_time = 547
+		levy_size = 0.05
+		garrison_size = 0.05
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.6
+	}
+	ct_hatchery_2 = {
+		desc = ct_hatchery_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_hatchery_1
+		gold_cost = 200
+		build_time = 730
+		levy_size = 0.075
+		garrison_size = 0.1
+		ai_creation_factor = 97
+
+		extra_tech_building_start = 1.2
+	} 
+	ct_hatchery_3 = {
+		desc = ct_hatchery_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		upgrades_from = ct_hatchery_2
+		gold_cost = 300
+		build_time = 1095
+		levy_size = 0.1
+		garrison_size = 0.15
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 0.2
+	} 
+	ct_hatchery_4 = {
+		desc = ct_hatchery_1_desc	
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		upgrades_from = ct_hatchery_3
+		gold_cost = 400
+		build_time = 1460
+		levy_size = 0.125
+		garrison_size = 0.2
+		ai_creation_factor = 95
+
+		extra_tech_building_start = 0.2
+	} 
+	ct_hatchery_5 = {
+		desc = ct_hatchery_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		upgrades_from = ct_hatchery_4
+		gold_cost = 500
+		build_time = 2190
+		levy_size = 0.15
+		garrison_size = 0.25
+		ai_creation_factor = 94
+
+		extra_tech_building_start = 0.2
+	}
+	ct_hatchery_6 = {
+		desc = ct_hatchery_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+		upgrades_from = ct_hatchery_5
+		gold_cost = 500
+		build_time = 2190
+		levy_size = 0.15
+		garrison_size = 0.25
+		ai_creation_factor = 93
+
+		extra_tech_building_start = 0.2
+	}
+	ct_brave_lodge_1 = {
+		desc = ct_brave_lodge_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 60
+		archers = 30
+		ai_creation_factor = 95
+		
+		extra_tech_building_start = 0.5
+	}
+	ct_brave_lodge_2 = {
+		desc = ct_brave_lodge_2_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_brave_lodge_1
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 40
+		archers = 70
+		ai_creation_factor = 94
+
+		extra_tech_building_start = 1.0
+	}
+	ct_brave_lodge_3 = {
+		desc = ct_brave_lodge_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 1 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_brave_lodge_2
+		gold_cost = 200
+		build_time = 730
+		light_infantry = 80
+		archers = 50
+		ai_creation_factor = 93
+
+		extra_tech_building_start = 1.0
+	}
+	ct_brave_lodge_4 = {
+		desc = ct_brave_lodge_2_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 3 }
+		upgrades_from = ct_brave_lodge_3
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 60
+		archers = 90
+		ai_creation_factor = 92
+
+		extra_tech_building_start = 0.2
+	}
+	ct_brave_lodge_5 = {
+		desc = ct_brave_lodge_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 5 }
+		upgrades_from = ct_brave_lodge_4
+		gold_cost = 400
+		build_time = 2190
+		light_infantry = 100
+		archers = 70
+		ai_creation_factor = 91
+
+		extra_tech_building_start = 0.2
+	}
+	ct_brave_lodge_6 = {
+		desc = ct_brave_lodge_2_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 7 }
+		upgrades_from = ct_brave_lodge_5
+		gold_cost = 500
+		build_time = 2190
+		light_infantry = 80
+		archers = 110
+		ai_creation_factor = 90
+
+		extra_tech_building_start = 0.2
+	}
+
+	ct_egg_guards_1 = {
+		desc = ct_egg_guards_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		pikemen = 45
+		ai_creation_factor = 96
+		
+		extra_tech_building_start = 1.0
+	}
+	ct_egg_guards_2 = {
+		desc = ct_egg_guards_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 2 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_egg_guards_1
+		gold_cost = 120
+		build_time = 547
+		pikemen = 55
+		ai_creation_factor = 95
+
+		extra_tech_building_start = 0.2
+	}
+	ct_egg_guards_3 = {
+		desc = ct_egg_guards_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 4 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_egg_guards_2
+		gold_cost = 200
+		build_time = 730
+		pikemen = 65
+		ai_creation_factor = 94
+		
+		extra_tech_building_start = 0.2
+	}
+	ct_egg_guards_4 = {
+		desc = ct_egg_guards_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 6 }
+		upgrades_from = ct_egg_guards_3
+		gold_cost = 300
+		build_time = 1095
+		pikemen = 75
+		ai_creation_factor = 93
+		
+		extra_tech_building_start = 0.2
+	}
+	ct_egg_guards_5 = {
+		desc = ct_egg_guards_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 8 }
+		upgrades_from = ct_egg_guards_4
+		gold_cost = 400
+		build_time = 2190
+		pikemen = 85
+		ai_creation_factor = 92
+
+		extra_tech_building_start = 0.2
+	}
+	ct_lfos_shipyard_1 = {
+		desc = shipyard_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		port = yes
+		trigger = { TECH_NAVAL = 1 }
+		gold_cost = 100
+		build_time = 365
+		galleys = 7
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.2
+	}
+	
+	ct_lfos_shipyard_2 = {
+		desc = shipyard_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		port = yes
+		trigger = { TECH_NAVAL = 2 }
+		upgrades_from = ct_lfos_shipyard_1
+		gold_cost = 100
+		build_time = 730
+		galleys = 8
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.2
+	}
+	
+	ct_lfos_shipyard_3 = {
+		desc = shipyard_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		port = yes
+		trigger = { TECH_NAVAL = 3 }
+		upgrades_from = ct_lfos_shipyard_2
+		gold_cost = 100
+		build_time = 1095
+		galleys = 9
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.2
+	}
+	
+	ct_lfos_shipyard_4 = {
+		desc = shipyard_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		port = yes
+		trigger = { TECH_NAVAL = 4 }
+		upgrades_from = ct_lfos_shipyard_3
+		gold_cost = 100
+		build_time = 1460
+		galleys = 10
+		ai_creation_factor = 97
+		
+		extra_tech_building_start = 0.2
+	}
+#hunting lodge, hunting grounds, pasture
+		ct_lfos_agriculture_1 = {
+		desc = ct_lfos_agriculture_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+				NOT = {culture = undead_ikanan}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		tax_income = 2
+		light_infantry = 30
+		archer = 20
+		ai_creation_factor = 110
+		add_number_to_name = no
+		
+		extra_tech_building_start = 0.4
+	}
+	ct_lfos_agriculture_2 = {
+		desc = ct_lfos_agriculture_2_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+				NOT = {culture = undead_ikanan}
+
+				terrain = plains
+				terrain = farmlands
+
+		}
+		prerequisites = { ct_lfos_wall_1 }
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		upgrades_from = ct_lfos_agriculture_1
+		gold_cost = 120
+		build_time = 547
+		tax_income = 2
+		light_infantry = 35
+		archer = 25
+		ai_creation_factor = 109
+		add_number_to_name = no
+
+		extra_tech_building_start = 0.8
+	}
+	ct_lfos_agriculture_3 = {
+		desc = ct_lfos_agriculture_3_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+				NOT = {culture = undead_ikanan}
+
+			terrain = plains
+			terrain = farmlands
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 1 }
+		prerequisites = { ct_lfos_wall_2 }
+		upgrades_from = ct_lfos_agriculture_2
+		gold_cost = 200
+		build_time = 730
+		tax_income = 2
+		light_infantry = 40
+		archer = 30
+		ai_creation_factor = 108
+		add_number_to_name = no
+
+		extra_tech_building_start = 0.2
+	}
+#market,stalls 
+	ct_lfos_economy_1 = {
+		desc = ct_lfos_economy_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+
+				NOT = {culture = undead_ikanan}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		tax_income = 3
+		ai_creation_factor = 110
+		add_number_to_name = no
+		
+		extra_tech_building_start = 0.4
+	}
+	ct_lfos_economy_2 = {
+		desc = ct_lfos_economy_2_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+				NOT = {culture = undead_ikanan}
+
+		}
+		prerequisites = { ct_lfos_wall_1 }
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		upgrades_from = ct_lfos_economy_1
+		gold_cost = 120
+		build_time = 547
+		tax_income = 3
+		ai_creation_factor = 109
+		add_number_to_name = no
+
+		extra_tech_building_start = 0.8
+	}
+}
+temple = {
 }

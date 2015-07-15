@@ -230,6 +230,7 @@ Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+	}
 	little_hyrulean = {
 		graphical_culture = hyliangfx
 		secondary_graphical_culture = greaterhyruleangfx
@@ -314,7 +315,6 @@ Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
 }
 valley_group = {
 		
-		color = { 0.3 0.55 0.8 }
 	arcadian = {
 		graphical_culture = humangfx
 		secondary_graphical_culture = hyruleangfx
@@ -398,6 +398,7 @@ desert_group = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+		allow_looting = yes
 	}
 	cobble = {
 		graphical_culture = cobblegfx
@@ -460,7 +461,7 @@ desert_group = {
 		modifier = default_culture_modifier
 	}
 }
-holodrum = {
+southern_coast = {
 	#3English,Norse
 	horon = {
 		graphical_culture = horongfx
@@ -492,8 +493,6 @@ holodrum = {
 
 		modifier = default_culture_modifier
 	}
-}
-labrynna_group = {
 	#greek,german,french,english
 	labrynnan = {
 		graphical_culture = labrynnagfx
@@ -618,6 +617,8 @@ northern_coast = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+		allow_looting = yes
+		seafarer = yes
 
 	}
 	frozen_isle = {
@@ -648,11 +649,10 @@ northern_coast = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
-
+		seafarer = yes
 	}
 }
 sky_dwellers = {
-	#Split cobble,hylian,wind,hoho
 
 	skylofter = {
 		graphical_culture = hyliangfx
@@ -741,6 +741,7 @@ southern_sea = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+		seafarer = yes
 
 	}
 	yamatamian = {
@@ -944,6 +945,7 @@ zora_group = {
 		mother_name_chance = 0
 	
 		modifier = default_culture_modifier
+		seafarer = yes
 	}
 	#red
 	sea_zora = {
@@ -975,6 +977,7 @@ zora_group = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+		seafarer = yes
 	}
 	#blue+green larger
 	river_zora = {
@@ -1006,6 +1009,8 @@ zora_group = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+		allow_looting = yes
+		seafarer = yes
 	}
 	rito = {
 		graphical_culture = ritogfx # portraits
@@ -1101,6 +1106,7 @@ fae = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+		allow_looting = yes
 	}
 }
 deku = {
@@ -1227,7 +1233,7 @@ deku = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
-
+		allow_looting = yes 
 	}
 }
 blin = {
@@ -1260,6 +1266,7 @@ blin = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+		allow_looting = yes 
 
 	}
  	bulblin = {
@@ -1291,6 +1298,7 @@ blin = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+		allow_looting = yes 
 
 	}
 	moblin = {
@@ -1323,6 +1331,7 @@ blin = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+		allow_looting = yes 
 
 	}
 }
@@ -1357,6 +1366,7 @@ darknut = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+		allow_looting = yes 
 
 	}
 }
@@ -1392,6 +1402,7 @@ lfos = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+		allow_looting = yes 
 
 	}
 	dinolfos = {
@@ -1454,6 +1465,7 @@ lfos = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+		allow_looting = yes 
 
 	}
 	tokay = {
@@ -1485,6 +1497,7 @@ lfos = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+		allow_looting = yes 
 
 	}
 }
@@ -1522,6 +1535,7 @@ undead = {
 	} 
 }
 twilight_realm = {
+
 	twili = {
 		graphical_culture = twiligfx # portraits
 		second_graphical_culture = twiligfx # buildings, portraits, units
