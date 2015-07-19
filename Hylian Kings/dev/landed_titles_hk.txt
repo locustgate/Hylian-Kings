@@ -1,0 +1,311 @@
+k_frozen_isle = {
+}
+k_anouki_coast = {
+}
+k_wayway  = {
+}
+#telus steppes#frozen hyrule
+k_telus = {
+}
+e_great_hyrule = {
+	k_west_hyrule = {
+	}
+	k_east_hyrule = {
+	}
+#death mountain lowlands
+	k_little_hyrule = {
+	}
+}
+#west
+k_calatia = {
+}
+#west
+k_arcadia = {
+}
+
+e_hyrule = {
+	
+	k_hyrule = {
+		color={ 245 100 20 }
+		color2={ 220 220 20 }
+		
+		culture = hyrulean
+		
+		capital = 80 #Holland
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = hyrulean
+				}
+			}
+		}
+		
+		d_fields = {
+			color={ 235 80 30 }
+			color2={ 255 255 255 }
+		
+			capital = 80 #Holland
+			
+			culture = dutch
+			
+	
+		d_lanayru = {
+			color={ 255 120 0 }
+			color2={ 255 255 255 }
+			
+			capital = 78
+			
+			culture = dutch
+			
+		}
+		d_eldin = {
+			color={ 255 120 0 }
+			color2={ 255 255 255 }
+			
+			capital = 78
+			
+			culture = dutch
+			
+		}
+		d_peak = {
+		}
+	}
+	k_zora = {
+		color={ 245 100 20 }
+		color2={ 220 220 20 }
+		
+		culture = dutch
+		
+		capital = 80 #Holland
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = hyrulean_zora
+				}
+			}
+		}
+		
+		d_fields = {
+			color={ 235 80 30 }
+			color2={ 255 255 255 }
+		
+			capital = 80 #Holland
+			
+			culture = dutch
+			
+	
+	}
+	k_death_mountain = {
+		color={ 245 100 20 }
+		color2={ 220 220 20 }
+		
+		culture = dutch
+		
+		capital = 80 #Holland
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = hyrulean
+				}
+			}
+		}
+		d_foothills
+		d_peak
+	}
+	k_gerudo = {
+		color={ 245 100 20 }
+		color2={ 220 220 20 }
+		
+		culture = dutch
+		
+		capital = 80 #Holland
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = hyrulean
+				}
+			}
+		}
+		
+		d_valley = {
+			color={ 235 80 30 }
+			color2={ 255 255 255 }
+		
+			capital = 80 #Holland
+			
+			culture = dutch
+			
+	
+		d_desert = {
+			color={ 200 100 25 }
+			color2={ 255 255 255 }
+			
+			capital = 83 #Gelre
+			
+			culture = dutch
+	
+		}
+		d_haunted_wasteland = {
+			color={ 200 100 25 }
+			color2={ 255 255 255 }
+			
+			capital = 83 #Gelre
+			
+			culture = dutch
+	
+		}
+	}
+	k_ordon = {
+		color={ 245 100 20 }
+		color2={ 220 220 20 }
+		
+		culture = dutch
+		
+		capital = 80 #Holland
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = hyrulean
+				}
+			}
+		}
+		
+		d_ordon = {
+			color={ 235 80 30 }
+			color2={ 255 255 255 }
+		
+			capital = 80 #Holland
+			
+			culture = dutch
+			
+	
+		d_faron = {
+			color={ 200 100 25 }
+			color2={ 255 255 255 }
+			
+			capital = 83 #Gelre
+			
+			culture = dutch
+	
+		}
+	}
+}
+e_deku_woods = {
+	k_kokiri = {
+	}
+	k_lost = {
+	}
+	k_sea_tree = {
+	}
+	k_fairy_woods
+}
+
+k_zuna = {
+}
+
+k_cobble = {
+}
+e_labrynna = {
+	k_labrynna = {
+		d_bay_storms
+		d_rolling_ridge
+	}
+	k_cresent_island
+		d_cresent_island
+			c_east_cresent_island
+			c_west_cresent_island
+}
+
+k_horon = {
+}
+k_samasa = {
+}
+
+k_old_hyrule = {
+	d_mount_crenal
+		c_crenal_base
+		c_crenal_heights
+		c_crenal_peak
+		c_upper_trillby
+	d_castor
+		c_castor_upper
+		c_castor_lower
+		c_castor_heights
+		c_lower_trillby
+	d_hyrule_fields
+		c_oh_western_woods
+		c_oh_southern_fields
+		c_oh_central_fields
+		c_oh_north_hyrule
+	d_minish_woods
+		c_upper_minish
+		c_lower_minish
+		c_oh_hylia		
+	
+}
+k_port_town = {
+}
+k_steamy_marsh = {
+	d_steamy_marsh
+		c_sweltering_heights
+		c_sticky_marsh
+}
+k_gooey_swamp = {
+	d_gooey_swamp
+		c_gooey_bay
+		c_gooey_bogs
+		c_gooey_swamp
+	
+}
+k_tribal_island  = {
+} 
+k_koholint = {
+	d_tal_tal
+		c_east_tal
+		c_west_tal
+		c_tal_heaight
+		c_goponga_swamp
+	d_k_west
+		c_mysterious_woods 
+		c_mabe_plain
+		c_mabe_stepes
+	d_k_south
+		c_east_toronbo
+		c_west_toronbo
+		c_martha
+	d_k_central
+		c_tabal_waste
+		c_prairie
+		c_ukuku_prairie
+		c_kanalet_island
+	d_k_east
+		c_upper_yarna
+		c_lower_yarna
+		c_face_plains
+		c_rapids_ride
+}
+
+#titular empire
+e_darknut
+e_death_mountain
+e_goron
+e_gerudo
+e_deku_shrub
+e_zora
+#titular kingdoms
+
+#invaders
+e_twilight
+e_ikana
+e_majora
+e_diety

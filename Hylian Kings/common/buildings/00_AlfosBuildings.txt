@@ -857,12 +857,8 @@ castle = {
 	}
 	ca_lfos_town_6 = {
 		desc = ca_lfos_town_5_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
-				NOT = {culture = undead_ikanan}
+		potential = {
+			culture_group = lfos
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
 		upgrades_from = ca_lfos_town_5
@@ -922,8 +918,8 @@ castle = {
 	
 	ca_lfos_shipyard_4 = {
 		desc = shipyard_desc
-		potential = {				
-				culture_group = lfos
+		potential = {
+			culture_group = lfos
 		}
 		port = yes
 		trigger = { TECH_NAVAL = 4 }
@@ -941,10 +937,8 @@ city = {
 
 	ct_lfos_wall_q_1 = {
 		desc = ct_lfos_wall_q_1_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {
+			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
 		prerequisites = { ct_lfos_wall_1 }
@@ -957,10 +951,8 @@ city = {
 	}
 	ct_lfos_wall_q_2 = {
 		desc = ct_lfos_wall_q_2_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {
+			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
 		prerequisites = { ct_lfos_wall_2 }
@@ -973,11 +965,9 @@ city = {
 		extra_tech_building_start = 1.5
 	}	
 	ct_lfos_wall_q_3 = {
-		desc = ca_wall_q_3_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		desc = ct_wall_q_3_desc
+		potential = {
+			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
 		upgrades_from = ct_lfos_wall_q_2
@@ -989,11 +979,9 @@ city = {
 		extra_tech_building_start = 1.0
 	}
 	ct_lfos_wall_q_4 = {
-		desc = ca_wall_q_4_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		desc = ct_wall_q_4_desc
+		potential = {
+			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
 		upgrades_from = ct_lfos_wall_q_3
@@ -1005,11 +993,9 @@ city = {
 		extra_tech_building_start = 0.2
 	}
 	ct_lfos_wall_q_5 = {
-		desc = ca_wall_q_5_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		desc = ct_wall_q_5_desc
+		potential = {
+			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
 		upgrades_from = ct_lfos_wall_q_4
@@ -1022,11 +1008,9 @@ city = {
 	}
 #earthwork,low palisade,palisade,lone stone wall,stone wall
 	ct_lfos_wall_1 = {
-		desc = ca_wall_1_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		desc = ct_wall_1_desc
+		potential = {
+			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
 		gold_cost = 50
@@ -1039,11 +1023,9 @@ city = {
 		extra_tech_building_start = 1.0
 	}
 	ct_lfos_wall_2 = {
-		desc = ca_wall_2_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		desc = ct_wall_2_desc
+		potential = {
+			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
 		upgrades_from = ct_lfos_wall_1
@@ -1058,10 +1040,8 @@ city = {
 	}
 	ct_lfos_wall_3 = {
 		desc = ct_lfos_wall_3_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {
+			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
 		upgrades_from = ct_lfos_wall_2
@@ -1076,10 +1056,8 @@ city = {
 	}
 	ct_lfos_wall_4 = {
 		desc = ct_lfos_wall_4_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {
+			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
 		upgrades_from = ct_lfos_wall_3
@@ -1094,10 +1072,8 @@ city = {
 	}
 	ct_lfos_wall_5 = {
 		desc = ct_lfos_wall_5_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {
+			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
 		upgrades_from = ct_lfos_wall_4
@@ -1113,9 +1089,7 @@ city = {
 	ct_hatchery_1 = {
 		desc = ct_hatchery_1_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
 		gold_cost = 150
@@ -1129,9 +1103,7 @@ city = {
 	ct_hatchery_2 = {
 		desc = ct_hatchery_1_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_1 }
@@ -1147,9 +1119,7 @@ city = {
 	ct_hatchery_3 = {
 		desc = ct_hatchery_1_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
 		upgrades_from = ct_hatchery_2
@@ -1164,9 +1134,7 @@ city = {
 	ct_hatchery_4 = {
 		desc = ct_hatchery_1_desc	
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
 		upgrades_from = ct_hatchery_3
@@ -1181,9 +1149,7 @@ city = {
 	ct_hatchery_5 = {
 		desc = ct_hatchery_1_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
 		upgrades_from = ct_hatchery_4
@@ -1198,9 +1164,7 @@ city = {
 	ct_hatchery_6 = {
 		desc = ct_hatchery_1_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
 		upgrades_from = ct_hatchery_5
@@ -1215,9 +1179,7 @@ city = {
 	ct_brave_lodge_1 = {
 		desc = ct_brave_lodge_1_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -1231,9 +1193,7 @@ city = {
 	ct_brave_lodge_2 = {
 		desc = ct_brave_lodge_2_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_1 }
@@ -1249,9 +1209,7 @@ city = {
 	ct_brave_lodge_3 = {
 		desc = ct_brave_lodge_1_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 1 }
 		prerequisites = { ct_wall_2 }
@@ -1267,9 +1225,7 @@ city = {
 	ct_brave_lodge_4 = {
 		desc = ct_brave_lodge_2_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 3 }
 		upgrades_from = ct_brave_lodge_3
@@ -1284,9 +1240,7 @@ city = {
 	ct_brave_lodge_5 = {
 		desc = ct_brave_lodge_1_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 5 }
 		upgrades_from = ct_brave_lodge_4
@@ -1301,9 +1255,7 @@ city = {
 	ct_brave_lodge_6 = {
 		desc = ct_brave_lodge_2_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 7 }
 		upgrades_from = ct_brave_lodge_5
@@ -1319,9 +1271,7 @@ city = {
 	ct_egg_guards_1 = {
 		desc = ct_egg_guards_1_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -1334,9 +1284,7 @@ city = {
 	ct_egg_guards_2 = {
 		desc = ct_egg_guards_1_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 2 }
 		prerequisites = { ct_wall_1 }
@@ -1351,9 +1299,7 @@ city = {
 	ct_egg_guards_3 = {
 		desc = ct_egg_guards_1_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 4 }
 		prerequisites = { ct_wall_2 }
@@ -1368,9 +1314,7 @@ city = {
 	ct_egg_guards_4 = {
 		desc = ct_egg_guards_1_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 6 }
 		upgrades_from = ct_egg_guards_3
@@ -1384,9 +1328,7 @@ city = {
 	ct_egg_guards_5 = {
 		desc = ct_egg_guards_1_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 8 }
 		upgrades_from = ct_egg_guards_4
@@ -1400,9 +1342,7 @@ city = {
 	ct_lfos_shipyard_1 = {
 		desc = shipyard_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		port = yes
 		trigger = { TECH_NAVAL = 1 }
@@ -1417,9 +1357,7 @@ city = {
 	ct_lfos_shipyard_2 = {
 		desc = shipyard_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		port = yes
 		trigger = { TECH_NAVAL = 2 }
@@ -1435,9 +1373,7 @@ city = {
 	ct_lfos_shipyard_3 = {
 		desc = shipyard_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		port = yes
 		trigger = { TECH_NAVAL = 3 }
@@ -1453,9 +1389,7 @@ city = {
 	ct_lfos_shipyard_4 = {
 		desc = shipyard_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+			culture_group = lfos
 		}
 		port = yes
 		trigger = { TECH_NAVAL = 4 }
@@ -1471,11 +1405,7 @@ city = {
 		ct_lfos_agriculture_1 = {
 		desc = ct_lfos_agriculture_1_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
-				NOT = {culture = undead_ikanan}
+			culture_group = lfos
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -1491,15 +1421,7 @@ city = {
 	ct_lfos_agriculture_2 = {
 		desc = ct_lfos_agriculture_2_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
-				NOT = {culture = undead_ikanan}
-
-				terrain = plains
-				terrain = farmlands
-
+			culture_group = lfos
 		}
 		prerequisites = { ct_lfos_wall_1 }
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
@@ -1517,14 +1439,7 @@ city = {
 	ct_lfos_agriculture_3 = {
 		desc = ct_lfos_agriculture_3_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
-				NOT = {culture = undead_ikanan}
-
-			terrain = plains
-			terrain = farmlands
+			culture_group = lfos
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 1 }
 		prerequisites = { ct_lfos_wall_2 }
@@ -1543,12 +1458,7 @@ city = {
 	ct_lfos_economy_1 = {
 		desc = ct_lfos_economy_1_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
-
-				NOT = {culture = undead_ikanan}
+			culture_group = lfos
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -1562,12 +1472,7 @@ city = {
 	ct_lfos_economy_2 = {
 		desc = ct_lfos_economy_2_desc
 		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
-				NOT = {culture = undead_ikanan}
-
+			culture_group = lfos
 		}
 		prerequisites = { ct_lfos_wall_1 }
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }

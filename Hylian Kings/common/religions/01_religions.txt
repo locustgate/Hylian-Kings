@@ -282,7 +282,7 @@ hylia_religion = {
 		can_loot = yes
 	}
 }
-goron = {
+goron_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westernfx
 	playable = yes
@@ -683,7 +683,7 @@ forest_religion = {
 
 		allow_female_priest = yes
 		priests_can_marry = yes
-		can_hold_temples = yes		
+	
 
 		crusade_name = CRUSADE
 		scripture_name = FAIRY_SONG
@@ -718,12 +718,12 @@ forest_religion = {
 		evil_god_names = {
 			GOD_GREAT_DEKU_TREE GOD_GREAT_DEKU_SAPLING GOD_GREAT_DEKU_SEED 
 		}
-		intermarry = demons_religion
+		intermarry = demon_religion
 		aggression = 3
 	}
 }
 
-demons_religion = {
+demon_religion = {
 	has_coa_on_barony_only = yes
 	playable = yes
 	ai_peaceful = no # Will make Hordes lose their super aggressiveness
@@ -979,7 +979,7 @@ sky_religion = {
 		}
 		peace_prestige_loss = yes
 		can_loot = yes
-		intermarry = demons_religion
+		intermarry = demon_religion
 		intermarry = baga_tree
 	}
 	wind = {
