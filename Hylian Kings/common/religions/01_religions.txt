@@ -2,18 +2,18 @@ goddesses_religion = {
 	has_coa_on_barony_only = yes
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
-	
-	ai_convert_same_religion = 2 # always try to convert
-	ai_convert_other_religion = 1 # always try to convert
+	graphical_culture = norsegfx
 
-	male_names = {
-	Eldin Lanayru
+	ai_convert_same_group = 1 # converts if zealous
+	ai_convert_other_group = 1 # converts if zealous 
+
+		male_names = {
+	Eldin Lanayru Levias
 	}
 
 	female_names = {
-	Din Farore Nayru Faron Ordona 
+	Din Farore Nayru Hylia Faron Ordona 
 	}
-
 	golden_goddesses = {
 
 		graphical_culture = westerngfx
@@ -21,9 +21,9 @@ goddesses_religion = {
 		icon = 1
 		heresy_icon = 6
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 1 0.84 0}
 		
-		scripture_name = BOOK_OF_TIME
+		scripture_name = GODDESSES_SONG
 		priest_title = Priest
 		
 		high_god_name = GOD_GODDESSES
@@ -33,94 +33,73 @@ goddesses_religion = {
 		}
 		can_retire_to_monastery = yes
 		priests_can_inherit = no
+		allow_female_priesy = yes
 		priests_can_marry = yes
 		attacking_same_religion_piety_loss = yes
+		feminist = yes
 
 
 		intermarry = hylia_religion
-		intermarry = wind_fish
-		intermarry = wind
+		intermarry = sheikahism
+		intermarry = wizzrobe_doctrine
+		intermarry = great_maku
 	}
 	light_spirits = {
-		graphical_culture = westerngfx
+		graphical_culture = mesoamericangfx
 
 		icon = 1
 		heresy_icon = 6
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 0.93 0.86 0.51 }
 		parent = golden_goddesses
 
-		scripture_name = SONG_OF_TIME
-		priest_title = PRIEST
+		scripture_name = LIGHT_WAR
+		priest_title = SHAMAN
 		
 		high_god_name = SPIRIT_ORDONA
 		
 		god_names = {
 			SPIRIT_ELDIN SPIRIT_FARON SPIRIT_LANARYRU SPIRIT_ORDONA
-		}
-		can_retire_to_monastery = yes
-		priests_can_inherit = no
+		} 
+		priests_can_inherit = yes
+		allow_female_priesy = yes 
 		priests_can_marry = yes
 		attacking_same_religion_piety_loss = yes
-
+		feminist = yes
 
 		intermarry = hylia_religion 
-		intermarry = wind_fish
-		intermarry = wind
-	}
-	four_oracles = {
-		graphical_culture = westerngfx
-
-		icon = 1
-		heresy_icon = 6
-		
-		color = { 0.8 0.8 0.6 }
-		parent = golden_goddesses
-
-		scripture_name = SAGA_OF_ORACLE
-		priest_title = PRIEST
-		
-		high_god_name = ORACLES
-
-		god_names = {
-			ORACLE_DIN ORACLE_FARORE ORACLE_NAYRU ORACLE_SECRETS ORACLE_AGES ORACLE_SEASONS
-		}
-		can_retire_to_monastery = yes
-		priests_can_inherit = no
-		priests_can_marry = yes
-		attacking_same_religion_piety_loss = yes
-
-
-		intermarry = hylia_religion
-		intermarry = wind_fish
-		intermarry = wind	
+		intermarry = sheikahism 
+		intermarry = wizzrobe_doctrine
+		intermarry = great_maku 
 	}
 	light_force = {
-		graphical_culture = westerngfx
+		graphical_culture = mesoamericangfx
 
 		icon = 2
 		heresy_icon = 7
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 1 1 0 }
 		parent = golden_goddesses 
 
-		scripture_name = SONG_OF_LIGHT
+		scripture_name = LIGHT_LEGEND
 		priest_title = PRIEST
-		
-		high_god_name = LIGHT_FORCE
+		piety_name = purity 
+		high_god_name = GOD_LIGHT_FORCE
 		
 		god_names = {
-			LIGHT_FORCE
+			GOD_LIGHT_FORCE 
 		}
-		can_retire_to_monastery = yes
 		priests_can_inherit = no
 		priests_can_marry = yes
 		attacking_same_religion_piety_loss = yes
-
+		feminist = yes
+		pacifist = yes
+		peace_piety_gain = 0.5
 
 		intermarry = hylia_religion
-		intermarry = wind_fish
-		intermarry = wind
+		intermarry = sheikahism
+		intermarry = wizzrobe_doctrine
+		intermarry = great_maku 
 	}
 	first_hero = {
 		graphical_culture = westerngfx
@@ -128,340 +107,639 @@ goddesses_religion = {
 		icon = 2
 		heresy_icon = 7
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 1 1 0.88 }
 		parent = golden_goddesses 
 
 		scripture_name = THE_HEROS_LEGEND
 		priest_title = PRIEST
 		
-		high_god_name = FIRST_HERO 
+		high_god_name = GOD_FIRST_HERO 
 		
 		god_names = {
-			FIRST_HERO
+			GOD_FIRST_HERO
 		}
-		can_retire_to_monastery = yes
-		priests_can_inherit = no
 		priests_can_marry = yes
 		attacking_same_religion_piety_loss = yes
+		allow_looting = yes
 
 
 		intermarry = hylia_religion
-		intermarry = wind_fish
-		intermarry = wind
-	}
-}
-hylia_religion = { 
-	male_names = {
-	Eldin Lanayru Levias
+		intermarry = sheikahism 
+		intermarry = wizzrobe_doctrine
+		intermarry = great_maku 
 	}
 
-	female_names = {
-	Din Farore Nayru Hylia Faron Ordona 
-	}	
-	hylia = {
-		graphical_culture = westerngfx
+	hylia_religion = {
+		graphical_culture = norsegfx
 
 		icon = 2
 		heresy_icon = 7
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 0.63 0.13 0.94 }
 		
-		scripture_name = GODDESS_SONG
+		scripture_name = SACRED_SONG
 		priest_title = PRIEST
 		
-		high_god_name = GOD_GODDESS
+		high_god_name = GOD_HYLIA
 		
 		god_names = {
-			GOD_GODDESS GOD_HYLIA GOD_LEVIAS DRAGON_ELDIN DRAGON_FARON DRAGON_LANARYRU  
+			GOD_GODDESS GOD_HYLIA GOD_LEVIAS DRAGON_ELDIN GOD_GODDESSES DRAGON_FARON DRAGON_LANAYRU  
 		}	
 		evil_god_names = {
-				GOD_DEMISE GOD_GHIRAHIM
+				GOD_DEMISE
 		}
-		intermarry = goddesses_religion
-		intermarry = wind_fish
-		intermarry = wind
-		attacking_same_religion_piety_loss = yes
+		intermarry = golden_goddesses 
+		intermarry = sheikahism
+		intermarry = wizzrobe_doctrine
+		intermarry = great_maku 
 
-	}
-	goddess_of_time = {
-		graphical_culture = westerngfx
-
-		icon = 2
-		heresy_icon = 7
-		
-		color = { 0.8 0.8 0.6 }
-		parent = goddess
-
-		scripture_name = SONG_OF_TIME
-		priest_title = PRIEST
-		
-		high_god_name = GOD_GODDESS_OF_TIME
-		
-		god_names = {
-			GOD_GODDESS_OF_TIME
-		}
-		evil_god_names = {
-			GOD_DEMISE GOD_GHIRAHIM	
-		}
-		intermarry = goddesses_religion
-		intermarry = wind_fish
-		intermarry = wind
-		can_retire_to_monastery = yes
-		priests_can_inherit = no
+		priests_can_inherit = yes
 		priests_can_marry = yes 
-		attacking_same_religion_piety_loss = yes
+ 		allow_female_priest = yes
+		feminist = yes
 
 	}	
 	three_dragons = {
-		graphical_culture = westerngfx
+		graphical_culture = norsengfx
 
-		icon = 1
+		icon = 2
 		heresy_icon = 6
 		
-		color = { 0.8 0.8 0.6 }
-		parent = goddess
+		color = { 0.58 0 0.83 }
+		parent = hylia_religion
 
-		scripture_name = SONG_OF_TIME
+		scripture_name = DRAGON_SONG
 		priest_title = PRIEST
+		high_god = 
 		
 		god_names = {
 			DRAGON_ELDIN DRAGON_FARON DRAGON_LANARYRU
 		}
 		evil_god_names = {
-			GOD_DEMISE GOD_GHIRAHIM	
+			GOD_DEMISE	
 		}
-		intermarry = goddesses_religion
-		intermarry = wind_fish
-		intermarry = wind
-		can_retire_to_monastery = yes
-		priests_can_inherit = no
+		intermarry = golden_goddesses
+		intermarry = sheikahism
+		intermarry = wizzrobe_doctrine
+		intermarry = great_maku 
+
+		priests_can_inherit = yes
 		priests_can_marry = yes 
+ 		allow_female_priest = yes
+		feminist = yes
 		attacking_same_religion_piety_loss = yes
 
 
 	}
-	levias = {
-		graphical_culture = westerngfx
+	levias_religion = {
+		graphical_culture = norsegfx
 
 		icon = 1
 		heresy_icon = 6
 		
-		color = { 0.8 0.8 0.6 }
-		parent = goddess
+		color = { 0.58 0.44 0.86 }
+		parent = hylia_religion
 
 		priest_title = CARETAKER
+		scripture_name = HERO_SONG
+
 		
 		god_names = {
 			GOD_LEVIAS 
 		}
 		evil_god_names = {
-			GOD_DEMISE GOD_GHIRAHIM	
+			GOD_DEMISE	
 		}
-		intermarry = goddesses_religion
-		intermarry = wind_fish
-		intermarry = wind
-		can_retire_to_monastery = yes
-		priests_can_inherit = no
+		intermarry = golden_goddesses
+		intermarry = sheikahism
+		intermarry = wizzrobe_doctrine
+		intermarry = great_maku
+
+		priests_can_inherit = yes
 		priests_can_marry = yes 
+ 		allow_female_priest = yes
+		feminist = yes
 		attacking_same_religion_piety_loss = yes
 
 	}
-	Guardian = {
+	guardian_religion = {
+		graphical_culture = norsegfx
 
 		icon = 32
 		heresy_icon = 33
-		parent = goddess
+		parent = hylia_religion 
+		scripture_name = GUARDIAN_SAGA
 		
-		color = { 0.8 0.8 0.6 }		
+		color = { 0.72 0.52 0.04 }		
 
 		priest_title = SHAMAN		
+	
 		high_god_name = GOD_GUARDIAN		
 		god_names = {
 			GOD_GUARDIAN 
 		}
-		can_loot = yes
+	}
+	sheikahism_religion = {
+		graphical_culture = westerngfx
+
+		icon = 2
+		heresy_icon = 7
+		
+		color = { 0.85 0.75 0.85 }
+		
+		scripture_name = HYLIA_NOCTURNE
+		priest_title = SHADOW_PRIEST
+		
+		high_god_name = GOD_GODDESSES		
+		god_names = {
+			GOD_ROYAL GOD_HYLIA_REBORN GOD_HYLIA GOD_GODDESSES 
+		}
+		intermarry = golden_goddesses 
+		intermarry = hylia_religion
+		intermarry = great_maku
+
+		priests_can_inherit = no
+		priests_can_marry = yes 
+ 		allow_female_priest = yes
+		can_hold_temples = yes
+		feminist = yes
+
 	}
 }
-goron_religion = {
+guardian_deity = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westernfx
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
-	
-	ai_convert_same_religion = 0 # always try to convert
-	ai_convert_other_religion = 0 # always try to convert
 
-	fire_spirit = {
-		graphical_culture = westerngfx
+	ai_convert_same_group = 1 # Never Converts	ai_convert_other_group  = 1 # Only Zealous Convert
 
-		icon = 5
-		heresy_icon = 14
-		
-		color = { 0.8 0.8 0.6 }	
+	male_names = {Oshus Leaf Jabu Jabun Valoo Deku Maku}
+	female_names = {Neri Ciela}
 
-		priest_title = GOR
-		
-		high_god_name = GOD_FIRE_SPIRIT
-		
-		god_names = {
-			GOD_FIRE_SPIRIT
-		}
-		priests_can_marry = yes
-	}
-	goron_ancestors = {
-		graphical_culture = westerngfx
-
-		icon = 5
-		heresy_icon = 14
-		parent = fire_spirit
-	
-		color = { 0.8 0.8 0.6 }
-
-		allow_rivermovement = yes
-		allow_female_priest = yes
-		priests_can_marry = yes		
-
-		crusade_name = CRUSADE
-		scripture_name = WAYS
-		priest_title = GOR
-		
-		high_god_name = GOD_ANCESTORS
-		
-		god_names = {
-			GOD_ANCESTORS
-		}
-		priests_can_marry = yes
-
-	}
-
-	mother_mountain = {
-		graphical_culture = westerngfx
-
-		icon = 5
-		heresy_icon = 14
-		parent = fire_spirit
-		
-		color = { 0.8 0.8 0.6 }
-		parent = fire_spirit	
-
-		priest_title = GOR
-		
-		high_god_name = GOD_FIRE_MOTHER
-		
-		god_names = {
-			GOD_FIRE_MOTHER GOD_MOTHER_MOUNTAIN
-		}
-		priests_can_marry = yes
-
-	}
-}
-
-zora = {
-	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
-	crusade_cb = crusade
-	playable = yes
-	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
-	
-	ai_convert_same_religion = 2 # always try to convert
-	ai_convert_other_religion = 2 # always try to convert
-	
 	jabu_jabu = {
 		graphical_culture = westerngfx
 
 		icon = 14
 		heresy_icon = 15
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 0 0 1 }
 
 		allow_rivermovement = yes
 		allow_female_priest = yes
 		priests_can_marry = yes
+		priests_can_inherit = yes
+		can_hold_temples = yes 
+		seafarer = yes		
+
+		priest_title = ATTENDENT
+		scripture_name = SERENDADE_WATER
+		
+		high_god_name = GOD_LORD_JABU
+		
+		god_names = {
+			GOD_LORD_JABU GOD_JABU_JABU 
+		}
+	}
+	jabun_religion = {
+		graphical_culture = westerngfx
+		parent = jabu_jabu
+
+		icon = 14
+		heresy_icon = 15
+		
+		color = { 0.49 0.42 0.42 }
+
+		allow_rivermovement = yes
+		allow_female_priest = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		can_hold_temples = yes 
 		seafarer = yes		
 
 		crusade_name = CRUSADE
-		priest_title = ATTENDENT 
+		priest_title = ATTENDENT
+		scripture_name = JABUN_SHANTY
+		intermarry = jabu_jabu
 		
-		high_god_name = GOD_LORD_JABU_JABU
+		high_god_name = GOD_JABUN
 		
 		god_names = {
-			GOD_LORD_JABU_JABU GOD_JABU_JABU GOD_JABUN
+			GOD_JABUN 
 		}
 	}
-	giant_turtle = {
-		graphical_culture = africangfx
-
-		icon = 14
-		heresy_icon = 15
-		
-		color = { 0.8 0.8 0.6 }
+	valoo_religion = {
+		graphical_culture = norsegfx
 		parent = jabu_jabu
-		
-		allow_rivermovement = yes
-		allow_female_priest = yes
-		priests_can_marry = yes 
-		seafarer = yes
 
-		crusade_name = CRUSADE
-		priest_title = COMPOSER
+		icon = 11
+		heresy_icon = 12
 		
-		high_god_name = GOD_GIANT_TURTLE
+		color = { 1 0.39 0.28 }
+
+		priest_title = ATTENDENT
+		scripture_name = VALOO_SONG
+
+		allow_female_priest = yes
 		
+		high_god_name = GOD_VALOO	
 		god_names = {
-			GOD_GIANT_TURTLE
+			GOD_VALOO
 		}
-		intermarry = valoo
+		intermarry = jabu_jabu
+		intermarry = goddesses_religion
+		priests_can_inherit = no
+		allow_female_priest = yes 
 	}
- 	water_spirit = {
-		graphical_culture = africangfx
+	great_deku = {
+		graphical_culture = indiangfx
 
-		icon = 14
-		heresy_icon = 15
+		icon = 22
+		heresy_icon = 23
 		
-		color = { 0.8 0.8 0.6 }
-		parent = jabu_jabu
-		
-		allow_rivermovement = yes
+		color = { 0.13 0.55 0.13 }
+
 		allow_female_priest = yes
-		priests_can_marry = yes 
-		seafarer = yes
+		priests_can_marry = yes		
+		peace_piety_gain = 1.0		
 
-		crusade_name = CRUSADE
-		priest_title = PRIEST
+		#saria's song
+		scripture_name = DEKU_SONG
+		priest_title = ATTENDENT
+		allow_female_priest = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		can_hold_temples = yes 
+		feminist = yes
+
 		
-		high_god_name = GOD_WATER_SPIRIT
+		high_god_name = GOD_GREAT_DEKU_TREE
 		
 		god_names = {
-			GOD_WATER_SPIRIT
+			GOD_GREAT_DEKU_TREE GOD_GREAT_DEKU_SAPLING GOD_GREAT_DEKU_SEED
 		}
-		intermarry = valoo
+		intermarry = great_maku
+		intermarry = great_fairy
+
+	}
+	great_maku = {
+		graphical_culture = indiangfx
+
+		icon = 24
+		heresy_icon = 25
+		
+		color = { 0.6 0.8 0.2 }
+
+
+		priests_can_inherit = no
+		priests_can_marry = yes 
+ 		allow_female_priest = yes
+		
+
+		scripture_name = MAKU_SONG
+		priest_title = DRUID
+		priests_can_marry = yes
+		
+		high_god_name = GREAT_MAKU_TREE
+		
+		god_names = {
+			GOD_GREAT_MAKU_TREE GOD_GREAT_MAKU_SAPLING GOD_GREAT_MAKU_SEED
+		}
+		intermarry = goddesses_religion
+		intermarry = great_deku
+		intermarry = great_fairy
+	} 
+	mother_mountain = {
+		graphical_culture = norsegfx
+
+		icon = 5
+		heresy_icon = 14
+		
+		color = { 1 0.55 0}	
+
+		priest_title = SHAMAN
+		scripture_name = MOTHERS_MERCY
+		
+		high_god_name = GOD_MOUNTAIN_GODDESS 
+		
+		god_names = {
+			GOD_MOTHER_MOUNTAIN GOD_MOUNTAIN_GODDESS
+		}
+		priests_can_inherit = no
+		priests_can_marry = yes 
+ 		allow_female_priest = yes
+		feminist = yes
 	}
 }
-gerudo_religion = {
+minor_deity = {
 	has_coa_on_barony_only = yes
-	graphical_culture = muslimgfx
 	playable = yes
-	ai_peaceful = no
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+
+	ai_convert_same_group = 1 # Never Converts	ai_convert_other_group  = 1 # Only Zealous Convert
+
+	male_names = { Zephos Cyclos}
+
+	great_fairies = {
+		graphical_culture = indiangfx
+
+		icon = 20
+		heresy_icon = 21
+		
+		color = { 1 0.75 0.8 }
+
+		allow_female_priest = yes
+		priests_can_marry = yes
 	
-	ai_convert_same_religion = 2 # always try to convert
-	ai_convert_other_religion = 2 # always try to convert
+
+		scripture_name = FAIRY_SONG
+		priest_title = CARETAKER
+		
+		high_god_name = GOD_GREAT_FAIRY_QUEEN
+		
+		god_names = {
+			GOD_GREAT_FAIRY_QUEEN GOD_GREAT_FAIRY_POWER GOD_GREAT_FAIRY_WISDOM GOD_GREAT_FAIRY_COURAGE
+		}
+		intermarry = goddesses_religion
+		intermarry = great_deku
+		intermarry = great_maku
+
+
+		priests_can_inherit = yes
+		priests_can_marry = yes 
+ 		allow_female_priest = yes
+		feminist = yes
+
+	}
+	fire_spirit = {
+		graphical_culture = norsegfx
+		parent = fire_spirit
+
+
+		icon = 5
+		heresy_icon = 14
+		
+		color = { 1 0.65 0}	
+
+		priest_title = SHAMAN
+		scripture_name = BOLERO_FIRE
+		
+		high_god_name = GOD_FIRE_SPIRIT
+		
+		god_names = {
+			GOD_FIRE_SPIRIT
+		}
+		priests_can_inherit = no
+
+	}
+	barba_religion = {
+		graphical_culture = norsegfx
+		parent = fire_spirit
+
+		icon = 5
+		heresy_icon = 14
+		
+		color = { 1 0.65 0}	
+
+		priest_title = SHAMAN
+		scripture_name = BOLERO_FIRE
+		
+		high_god_name = DRAGON_BARBA		
+		god_names = {
+			DRAGON_BARBA
+		}
+		priests_can_inherit = no
+		allow_looting = yes
+		max_consort = 3
+		peace_prestige_lost = yes
+
+
+	}
+	volvagia_religion = {
+		graphical_culture = norsegfx
+
+		icon = 5
+		heresy_icon = 14
+		
+		color = { 1 0.65 0}	
+
+		priest_title = SHAMAN
+		scripture_name = BOLERO_FIRE
+		
+		high_god_name = DRAGON_VOLVAGIA		
+		god_names = {
+			DRAGON_VOLVAGIA
+		}
+		allow_looting = yes
+		max_consort = 3
+
+		peace_prestige_lost = yes
+		priests_can_inherit = no
+	}
+	twin_frogs = {
+		graphical_culture = westerngfx
+
+		icon = 11
+		heresy_icon = 12
+		
+		color = { 0.4 0.58 0.93 }
+
+		priest_title = CONDUCTOR
+		scripture_name = WIND_CONCERT
 	
-	gerudo_goddess = {
-		graphical_culture = muslimgfx
+		feminist = yes
+
+		high_god_name = GOD_THE_TWINS	
+		god_names = {
+			GOD_ZEPHOS GOD_CYCLOS
+		}
+		priests_can_inherit = no
+		priests_can_marry = yes 
+	}
+	zephos_religion = {
+		graphical_culture = westerngfx
+
+		icon = 11
+		heresy_icon = 12
+		parent = twin_frogs
+		scripture_name = WIND_REQUIEM
+
+		priests_can_inherit = no
+		allow_female_priest = yes
+
+		color = { 0.69 0.88 0.9 }
+
+		priest_title = CONDUCTOR
+	
+		
+		high_god_name = GOD_ZEPHOS	
+		god_names = {
+			GOD_ZEPHOS 
+		}
+		evil_god_names = {
+			GOD_CYCLOS
+		}
+		peace_piety_gain = 1.0
+	}
+	cylcos_religion = {
+		graphical_culture = westerngfx
+
+		icon = 11
+		heresy_icon = 12
+		parent = twin_frogs
+		
+		color = { 1 0 0 }
+
+		feminist = yes
+
+		scripture_name = BALLAD_GALES
+		priest_title = CONDUCTOR
+	
+		
+		high_god_name = GOD_CYCLOS	
+		god_names = {
+			GOD_CYCLOS 
+		}
+		evil_god_names = {
+			GOD_ZEPHOS
+		}
+		peace_prestige_loss = yes
+		can_loot = yes
+		priests_can_inherit = no
+		priests_can_marry = yes 
+		intermarry = demon_religion
+		aggression = 2
+
+	}
+	oshus_religion = {
+		graphical_culture = norsegfx
+
+		icon = 49
+		heresy_icon = 50
+		
+		color = { 0.5 1 0.83 }
+		
+		priest_title = HERMIT
+		piety_name = LIFE_FORCE
+		scripture_name = OSHUS_SAGA
+		allow_river_movement = yes
+		
+		high_god_name = GOD_OCEAN_KING
+		
+		god_names = {
+			GOD_OCEAN_KING GOD_OSHUS GOD_SERVANT_SPIRITS
+		}
+		evil_god_names = {
+			GOD_BELLUM
+		}
+		priests_can_inherit = no
+	}
+	wind_fish_religion = {
+		graphical_culture = westerngfx
+
+		icon = 11
+		heresy_icon = 12
+		
+		color = { 0.68 0.85 0.9 }
+
+		priest_title = SIREN
+		scripture_name = BALLAD_WIND_FISH
+	
+		
+		high_god_name = GOD_WIND_FISH	
+		god_names = {
+			GOD_DREAMER GOD_WIND_FISH GOD_WIND_FISH_EGG
+		}
+		priests_can_inherit = no
+		priests_can_marry = yes 
+ 		allow_female_priest = yes
+		feminist = yes
+		intermarry = goddesses_religion
+		intermarry = wind_doctrine 
+	}
+	spirits_good = {
+		graphical_culture = westerngfx
+
+		icon = 2
+		heresy_icon = 7
+		
+		color = { 0.8 0.8 0.6 }
+
+		scripture_name = SPIRIT_SYMPHONY
+		priest_title = PRIEST
+		
+		high_god_name = GOD_SPIRITS_GOOD
+		
+		god_names = {
+			GOD_SPIRITS_GOOD
+		}
+		intermarry = goddesses_religion
+		intermarry = wind_fish
+		intermarry = wind_doctrine 
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		priests_can_marry = no 
+ 		allow_female_priest = yes
+		feminist = yes
+		attacking_same_religion_piety_loss = yes
+
+	}
+	din_worship = {
+		graphical_culture = mongolgfx
+		reformed = gerudo_goddess
+		reformer_head_of_religion = yes
 
 		icon = 3
 		heresy_icon = 8
 
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 0.7 0.13 0.13 }
 		
-		scripture_name = GODDESS_COMMANDS
+		scripture_name = DIN_POWER
 		priest_title = PRIEST
 		
 		allow_looting = yes
+
+		priests_can_inherit = no
 		priests_can_marry = yes 
-		allow_female_priests = yes
+ 		allow_female_priest = yes
 		allow_viking_invasion = yes
+		can_hold_temples = yes 
+		feminist = yes
+		max_wives = 4
+
+
+		high_god_name = GOD_DIN
+		
+		god_names = {
+			GOD_DIN 
+		}
+		
+		evil_god_names = {
+				GOD_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE
+		}
+		intermarry = pirate_doctrines
+		intermarry = wizzrobe
+	}
+	gerudo_goddess = {
+		graphical_culture = mongolgfx
+
+		icon = 3
+		heresy_icon = 8
+
+		
+		color = { 0.7 0.13 0.13 }
+		
+		scripture_name = GODDESS_BALANCE
+		priest_title = PRIEST
+		
+		allow_looting = yes
+
+		priests_can_inherit = no
+		priests_can_marry = yes 
+ 		allow_female_priest = yes
+		allow_viking_invasion = yes
+		can_hold_temples = yes 
 		feminist = yes
 		max_wives = 4
 		aggression = 1.5
@@ -479,79 +757,17 @@ gerudo_religion = {
 		evil_god_names = {
 				GOD_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE
 		}
-		intermarry = pirates
+		intermarry = pirate_doctrines
 		intermarry = wizzrobe
 	}
 	
-	din_worship = {
-		graphical_culture = muslimgfx
-
-		icon = 3
-		heresy_icon = 8
-		
-		color = { 0.8 0.8 0.6 }
-		parent = gerudo_goddess
-
-		allow_looting = yes
-		priests_can_marry = yes 
-		allow_female_priests = yes
-		allow_viking_invasion = yes
-		feminist = yes
-		max_wives = 4
-		aggression = 1.5
-		attacking_same_religion_piety_loss = yes
-
-
-
-		crusade_name = CRUSADE
-		scripture_name = DIN_JUDGEMENT
-		priest_title = PRIEST
-		
-		high_god_name = GOD_DIN
-		
-		god_names = {
-			GOD_DIN
-		}
-		intermarry = pirates
-		intermarry = wizzrobe
-	}
-	twinrova = {
-		graphical_culture = muslimgfx
-
-		icon = 3
-		heresy_icon = 8
-		
-		color = { 0.8 0.8 0.6 }
-		parent = gerudo_goddess
-
-		allow_looting = yes
-		priests_can_marry = yes 
-		allow_female_priests = yes
-		allow_viking_invasion = yes
-		feminist = yes
-		max_wives = 4
-		aggression = 2
-		attacking_same_religion_piety_loss = yes
-
-
-
-		priest_title = PRIEST
-		
-		high_god_name = GOD_TWINROVA
-		
-		god_names = {
-			GOD_TWINROVA
-		}
-		intermarry = pirates
-		intermarry = wizzrobe
-	}
 	goddess_son = {
-		graphical_culture = muslimgfx
+		graphical_culture = mongolgfx
 
 		icon = 3
 		heresy_icon = 8
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 0.8 0.36 0.36 }
 		parent = gerudo_goddess
 
 		allow_looting = yes
@@ -564,247 +780,115 @@ gerudo_religion = {
 		max_wives = 4
 		aggression = 2
 
-
+		scripture_name = MOTHERS_GIFT
 		priest_title = PRIEST
 		
 		high_god_name = GOD_GODDESS_SON		
 		god_names = {
-			GOD_DESERT_GODDESS GOD_GODDESS_OF_THE_SAND GOD_GODDESS_SON
+			GOD_DESERT_GODDESS GOD_GODESS_OF_THE_SAND GOD_GODDESS_SON
 		}
 		
 		evil_god_names = {
 				GOD_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE
 		}
-		intermarry = pirates
+		intermarry = pirate_doctrines
 		intermarry = wizzrobe
-	}
-}
-
-forest_religion = {
-	has_coa_on_barony_only = yes
-	graphical_culture = westergfx
-	playable = yes
-	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
-	
-	ai_convert_same_religion = 1 # always try to convert
-	ai_convert_other_religion = 1 # always try to convert
-	
-	great_deku = {
-		graphical_culture = slavicgfx
-
-		icon = 22
-		heresy_icon = 23
-		
-		color = { 0.8 0.8 0.6 }
-
-		allow_female_priest = yes
-		priests_can_marry = yes		
-		peace_piety_gain = 1.0		
-
-		scripture_name = DEKU_DECREE
-		priest_title = ATTENDENT
-		
-		high_god_name = GOD_GREAT_DEKU_TREE
-		
-		god_names = {
-			GOD_GREAT_DEKU_TREE GOD_GREAT_DEKU_SAPLING GOD_GREAT_DEKU_SEED
-		}
-		intermarry = great_maku
-	}
-	great_maku = {
-		graphical_culture = slavicgfx
-
-		icon = 22
-		heresy_icon = 23
-		
-		color = { 0.8 0.8 0.6 }
-
-		priests_can_marry = yes		
-
-		scripture_name = MAKU_SONG
-		priest_title = DRUID
-		
-		high_god_name = GREAT_MAKU_TREE
-		
-		god_names = {
-			GOD_GREAT_MAKU_TREE GOD_GREAT_MAKU_SAPLING GOD_GREAT_MAKU_SEED
-		}
-		intermarry = goddesses
-		intermarry = great_deku
-		intermarry = hylia_religion
-	}
-	tuni_nut = {
-		graphical_culture = slavicgfx
-
-		icon = 22
-		heresy_icon = 23
-		parent = great_maku
-		
-		color = { 0.8 0.8 0.6 }
-
-		priests_can_marry = yes		
-
-		priest_title = DRUID
-				
-		god_names = {
-			GOD_TUNI_NUT
-		}
-		intermarry = goddesses
-		intermarry = great_deku
-		intermarry = hylia_religion
-	}
-	rod_of_season = {
-		graphical_culture = slavicgfx
-
-		icon = 22
-		heresy_icon = 23
-		parent = great_maku
-		
-		color = { 0.8 0.8 0.6 }
-
-		priests_can_marry = yes		
-
-		priest_title = DRUID
-				
-		god_names = {
-			GOD_ROD_OF_SEASONS
-		}
-		intermarry = goddesses
-		intermarry = great_deku
-		intermarry = hylia_religion
-	}
-	great_fairies = {
-		graphical_culture = slavicgfx
-
-		icon = 20
-		heresy_icon = 21
-		
-		color = { 0.8 0.8 0.6 }
-
-		allow_female_priest = yes
-		priests_can_marry = yes
-	
-
-		crusade_name = CRUSADE
-		scripture_name = FAIRY_SONG
-		priest_title = CARETAKER
-		
-		high_god_name = GREAT_FAIRY_QUEEN
-		
-		god_names = {
-			GOD_GREAT_FAIRY_QUEEN GOD_GREAT_FAIRY_POWER GOD_GREAT_FAIRY_WISDOM GOD_GREAT_FAIRY_COURAGE
-		}
-		intermarry = goddesses
-		intermarry = great_deku
-		intermarry = hylia_religion
-		feminist = yes
-
-	}
-	baga_tree = {
-		graphical_culture = slavicgfx
-
-		icon = 24
-		heresy_icon = 25
-		
-		color = { 0.8 0.8 0.6 }	
-
-		priest_title = CARETAKER 
-		
-		high_god_name = BAGA_TREE
-		
-		god_names = {
-			GOD_BAGA_TREE
-		}
-		evil_god_names = {
-			GOD_GREAT_DEKU_TREE GOD_GREAT_DEKU_SAPLING GOD_GREAT_DEKU_SEED 
-		}
-		intermarry = demon_religion
-		aggression = 3
 	}
 }
 
 demon_religion = {
 	has_coa_on_barony_only = yes
 	playable = yes
-	ai_peaceful = no # Will make Hordes lose their super aggressiveness
-	
-	ai_convert_same_religion = 2 # always try to convert
-	ai_convert_other_religion = 2 # always try to convert
+	ai_peaceful = no # Hordes do not lose number	
+
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group  = 1 # always try to convert
 	
 
 	male_names = {
-	Demise Ghirahim Ganon Vaati Rupee
+	Demise Ghirahim Ganon Vaati Rupee Malladus Bellum
 	}
 
-	demise = {
+	demise_religion = {
 		graphical_culture = norsegfx
 
 		icon = 27
 		heresy_icon = 28
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 0.4 0.4 0.4 }
 
-		allow_female_priest = yes
 		priests_can_marry = yes
-		allow_viking_invasion = yes		
+		allow_viking_invasion = yes
+		allow_looting = yes
+		peace_prestige_loss = yes
+
 
 		crusade_name = CLEANSING 
-		scripture_name = DEMISE_LITANY_HATE
-		priest_title = SHAMAN
+		scripture_name = DEMISES_SAGA
+		priest_title = WARRIOR_PRIEST
+
 		
 		high_god_name = GOD_DEMISE
 		
 		god_names = {
-			GOD_DEMISE GOD_GHIRAHIM
+			GOD_DEMISE GOD_ALL_CREATOR GOD_DEMON_KING GOD_IMPRISONED
 		}
 		evil_god_names = {
 			GOD_HYLIA
 		}
-		intermarry = vaati
+		intermarry = vaati_religion
 		intermarry = baga_tree
-		intermarry = ganon
-		intermarry = uncle_rupee
+		intermarry = ganon_religion
+		intermarry = uncle_rupee_religion
+		intermarry = malladus_religion
+		intermarry = bellum_religion 
 		aggression = 4
 	}
-	vaati = {
+	vaati_religion = {
 		graphical_culture = norsegfx
 
 		icon = 27
 		heresy_icon = 28
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 0.83 0.83 0.83 }
 
-		allow_female_priest = yes
 		priests_can_marry = yes
 		allow_viking_invasion = yes		
 
 		crusade_name = CLEANSING 
-		priest_title = SHAMAN
+		priest_title = GODI
+		scripture_name = VAATIS_LEGEND
+		allow_looting = yes 
 		
 		high_god_name = GOD_VAATI
 		
 		god_names = {
 			GOD_VAATI
 		}
-		intermarry = demise
+		intermarry = demise_religion
 		intermarry = baga_tree
-		intermarry = ganon
-		intermarry = uncle_rupee
+		intermarry = ganon_religion
+		intermarry = uncle_rupee_religion
+		intermarry = malladus_religion
+		intermarry = bellum_religion 
+
 		aggression = 4
 
 	}
-	ganon = {
-		graphical_culture = norsegfx
+	ganon_religion = {
+		graphical_culture = mongolgfx
 
 		icon = 27
 		heresy_icon = 28
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 0.56 0.74 0.56 }
 
 		allow_female_priest = yes
 		priests_can_marry = yes
 		allow_viking_invasion = yes	
+		scripture_name = GANONS_LEGEND
 		feminist = yes	
+		allow_looting = yes 
 
 		crusade_name = PURGE
 		scripture_name = GANON_AMBITION
@@ -816,297 +900,224 @@ demon_religion = {
 			GOD_GANON
 		}
 		evil_god_names = {
-			GOD_HYLIA
+			GOD_ZELDA GOD_LINK
 		}
-		intermarry = demise
+		intermarry = demise_religion
 		intermarry = baga_tree
-		intermarry = vaati
-		intermarry = uncle_rupee 
+		intermarry = vaati_religion
+		intermarry = uncle_rupee_religion
+		intermarry = malladus_religion
+		intermarry = bellum_religion
 		aggression = 4
 
 	}
-	uncle_rupee = {
+	uncle_rupee_religion = {
 		graphical_culture = norsegfx
 
 		icon = 27
 		heresy_icon = 28
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 0.48 0.99 0 }
 
-		allow_female_priest = yes
-		priests_can_marry = yes		
+
+		priests_can_inherit = yes
+		priests_can_marry = yes 
+ 		allow_female_priest = yes
+		can_hold_temples = yes 
+		feminist = yes	
+		allow_looting = yes
 
 		priest_title = BUSINESS_MAN
+		piety_name = FORTUNE
+		scripture_name = RUPEES_HOW_TO
 		
 		god_names = {
 			GOD_RUPEE
 
 		}
-		intermarry = demise
+		intermarry = demise_religion
 		intermarry = baga_tree
-		intermarry = vaati
-		intermarry = ganon
+		intermarry = vaati_religion
+		intermarry = ganon_religion
+		intermarry = malladus_religion
+		intermarry = bellum_religion 
 		aggression = 2
 	}
-}
-
-darknut_religion = {
-	has_coa_on_barony_only = yes
-	graphical_culture = zorestingfx
-	playable = yes
-	ai_peaceful = no # Will make Hordes lose their super aggressiveness
-	
-	ai_convert_same_religion = 1 # always try to convert
-	ai_convert_other_religion = 2 # always try to convert
-
-	male_names = {Areteli}
-	Female_names = {Laylia Rytai Candora}
-	darknut_doctrine = {
-		icon = 11
-		heresy_icon = 12
-		
-		color = { 0.8 0.8 0.6 }
-
-		priest_title = JUDGE
-	
-		
-		high_god_name = THE_CODE
-		god_names = {
-		THE_CODE GREAT_CANDORA
-		}
-
-	aggression = 2.0
-	intermarry = darknut_gods
-	feminist = yes
-	allow_viking_invasion = yes
-	}
-	darknut_gods = {
-		icon = 11
-		heresy_icon = 12
-		
-		color = { 0.8 0.8 0.6 }
-
-		priest_title = PRIEST
-	
-		
-		high_god_name = GOD_ARETELI	
-		#war/leadership #armor/fertility #sword/disciplin
-		god_names = {
-		GOD_ARETELI GOD_RYTAI GOD_LAYLIA
-		}
-
-	max_wives = 4
-	aggression = 2.0
-	intermarry = darknut_doctrine
-	feminist = yes
-	allow_viking_invasion = yes
-	peace_prestige_loss = yes # Lose Prestige while at peace
-	}
-}
-sky_religion = {
-	has_coa_on_barony_only = yes
-	playable = yes
-	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
-	
-	ai_convert_same_religion = 1 # convert
-	ai_convert_other_religion = 1 # convert
-
-	male_names = {
-	Valoo Zephos Cyclos
-	}
-	twin_frogs = {
+	bellum_religion = {
 		graphical_culture = norsegfx
-
-		icon = 11
-		heresy_icon = 12
-		
-		color = { 0.8 0.8 0.6 }
-
-		priest_title = CONDUCTOR
-	
-		feminist = yes
-
-		high_god_name = GOD_THE_TWINS	
-		god_names = {
-			GOD_ZEPHOS GOD_CYCLOS
-		}
-	}
-	zephos = {
-		graphical_culture = norsegfx
-
-		icon = 11
-		heresy_icon = 12
-		parent = twin_frogs
-
-		feminist = yes
-
-		color = { 0.8 0.8 0.6 }
-
-		scripture_name = GOD_ZEPHOS_PEACE
-		priest_title = GOD_CONDUCTOR
-	
-		
-		high_god_name = ZEPHOS	
-		god_names = {
-			GOD_ZEPHOS 
-		}
-		evil_god_names = {
-			GOD_CYCLOS
-		}
-		peace_piety_gain = 1.0
-	}
-	cylcos = {
-		graphical_culture = norsegfx
-
-		icon = 11
-		heresy_icon = 12
-		parent = twin_frogs
-		
-		color = { 0.8 0.8 0.6 }
-
-		feminist = yes
-
-		scripture_name = CYCLOS_RAGE
-		priest_title = CONDUCTOR
-	
-		
-		high_god_name = GOD_CYCLOS	
-		god_names = {
-			GOD_CYCLOS 
-		}
-		evil_god_names = {
-			GOD_ZEPHOS
-		}
-		peace_prestige_loss = yes
-		can_loot = yes
-		intermarry = demon_religion
-		intermarry = baga_tree
-	}
-	wind = {
-		graphical_culture = norsegfx
-
-		icon = 11
-		heresy_icon = 12
-		
-		color = { 0.8 0.8 0.6 }
-
-		priest_title = PRIEST
-	
-		
-		high_god_name = THE_WIND	
-		god_names = {
-			STRONG_WIND LIGHT_WIND
-		}
-		intermarry = goddesses_religion
-		intermarry = hylia_religion
-		intermarry = wind_fish
-	}
-	wind_fish = {
-		graphical_culture = norsegfx
-
-		icon = 11
-		heresy_icon = 12
-		
-		color = { 0.8 0.8 0.6 }
-
-		priest_title = PRIEST
-	
-		
-		high_god_name = GOD_WIND_FISH	
-		god_names = {
-			GOD_WIND_FISH GOD_WIND_FISH_EGG
-		}
-		intermarry = goddesses_religion
-		intermarry = hylia_religion
-		intermarry = wind_fish
-		intermarry = wind
-	}
-	valoo = {
-		graphical_culture = norsegfx
-
-		icon = 11
-		heresy_icon = 12
-		
-		color = { 0.8 0.8 0.6 }
-
-		priest_title = ATTENDENT
-	
-		
-		high_god_name = GOD_VALOO	
-		god_names = {
-			GOD_VALOO
-		}
-		evil_god_names = {
-			GOD_GOHMA
-		}
-		intermarry = zora_religion
-	}
-} 
-sea_religion = {
-	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
-	crusade_cb = crusade
-	playable = yes
-	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
-	
-	ai_convert_same_religion = 1 # always try to convert
-	ai_convert_other_religion = 1 # always try to convert
-	male_names = {Oshus Bellum Leaf}
-	female_names = {Neri Ciela}
-
-	oshus = {
-		graphical_culture = westerngfx
 
 		icon = 49
 		heresy_icon = 50
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 0.94 0.9 0.55 }
 		
 		priest_title = SHAMAN
 		
-		high_god_name = GOD_OCEAN_KING
+		high_god_name = GOD_BELLUM
+		scripture_name = BELLUMS_SHANTI
+		piety_name = LIFE_FORCE
+		allow_looting = yes 
+		seafarer = yes
 		
 		god_names = {
-			GOD_OCEAN_KING GOD_OSHUS GOD_SERVANT_SPIRITS
-		}
-		evil_god_names = {
-			GOD_BELLUM
-		}
-	}
-	bellum = {
-		graphical_culture = westerngfx
-
-		icon = 49
-		heresy_icon = 50
-		parent = oshus
-		
-		color = { 0.8 0.8 0.6 }
-		
-		priest_title = SHAMAN
-		
-		high_god_name = GOD_OCEAN_KING
-		
-		god_names = {
-			GOD_BELLUM 
+			GOD_BELLUM GOD_PHANTOM GOD_DREAM_GOD
 		}
 		evil_god_names = {
 			GOD_OCEAN_KING GOD_OSHUS GOD_SERVANT_SPIRITS 
 		}
-		intermarry = demon_religion
+		priests_can_inherit = no
+		priests_can_marry = yes
+		intermarry = vaati_religion
 		intermarry = baga_tree
-		intermearry = cyclos
+		intermarry = ganon_religion
+		intermarry = uncle_rupee_religion
+		intermarry = malladus_religion
+		intermarry = demise_religion
+		aggression = 2
+		peace_prestige_loss = yes
+
 	}
-	pirate = {
+	baga_tree = {
+		graphical_culture = indiangfx
+
+		icon = 24
+		heresy_icon = 25
+		
+		color = { 0 0.39 0 }	
+
+		priest_title = CARETAKER
+		piety_name = MISCHIEF
+		scripture_name = BAGAS_SONG
+
+		
+		high_god_name = BAGA_TREE
+		
+		god_names = {
+			GOD_BAGA_TREE
+		}
+		evil_god_names = {
+			GOD_GREAT_DEKU_TREE GOD_GREAT_DEKU_SAPLING GOD_GREAT_DEKU_SEED 
+		}
+		priests_can_inherit = yes
+		priests_can_marry = yes 
+ 		allow_female_priest = no
+		feminist = yes
+		allow_looting = yes 
+		peace_prestige_loss = yes
+		intermarry = vaati_religion
+		intermarry = demise_religion
+		intermarry = ganon_religion
+		intermarry = uncle_rupee_religion
+		intermarry = malladus_religion
+		intermarry = bellum_religion
+		aggression = 3
+	}
+	malladus_religion = {
+		graphical_culture = norsegfx
+
+		icon = 24
+		heresy_icon = 25
+		
+		color = { 0 1 0}	
+
+		priest_title = SHAMAN 
+		scripture_name = MALLADUS_TRIUMPH
+		
+		high_god_name = GOD_MALLADUS
+		
+		god_names = {
+			GOD_MALLADUS GOD_DEMON_KING
+		}
+		evil_god_names = {
+			GOD_SPIRITS_GOOD 
+		}
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		peace_prestige_loss = yes
+
+		intermarry = vaati_religion
+		intermarry = baga_tree
+		intermarry = ganon_religion
+		intermarry = uncle_rupee_religion
+		intermarry = demise_religion
+		intermarry = bellum_religion
+		aggression = 4
+	}
+} 
+doctrine = {
+	has_coa_on_barony_only = yes
+	playable = yes
+	ai_peaceful = no # Hordes do not lose number	
+	ai_convert_same_group = 0 # Never
+	ai_convert_other_group  = 0 # Nope
+
+	wizzrobe_doctrine = {
+		graphical_culture = muslimgfx
+
+		icon = 11
+		heresy_icon = 12
+
+		color = { 0.8 0.36 0.36 }
+
+		priest_title = MAGE
+		scripture_name = THE_WAY
+		piety_name = MANA
+	
+		high_god_name = THE_WAY
+		god_names = {
+		THE_WAY
+		}
+
+		priests_can_inherit = yes
+		priests_can_marry = yes 
+ 		allow_female_priest = yes
+		can_hold_temples = yes 
+		feminist = yes
+
+	intermarry = goddesses_religion
+	intermarry = gerudo_goddess
+	intermarry = wind_doctrine
+	}
+	darknut_doctrine = {
+		graphical_culture = westerngfx
+
+		icon = 11
+		heresy_icon = 12
+		
+		color = { 0.4 0.4 0.4 }
+
+		priest_title = JUDGE
+		piety_name = HONER
+		scripture_name = THE_CODE
+
+		priests_can_inherit = no
+		priests_can_marry = yes 
+ 		allow_female_priest = yes
+		peace_prestige_loss = yes
+
+		feminist = yes
+		
+	high_god_name = THE_CODE
+	god_names = {
+	THE_CODE 
+	}
+
+	aggression = 2.0
+	allow_viking_invasion = yes
+	}
+	pirate_doctrine = {
 		graphical_culture = westerngfx
 
 		icon = 49
 		heresy_icon = 50
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 0.25 0.41 0.88 }
 		
 		
 		high_god_name = GOD_SEA
-		
+		piety_name = BOUNTY	
+		scripture_name = SEA_CHANTI
 		god_names = {
 			GOD_SEA
 		}
@@ -1115,40 +1126,35 @@ sea_religion = {
 		peace_prestige_loss = yes
 		raised_vassal_opinion_loss = no
 		aggression = 2.0
+		seafarer = yes
 		intermarry = gerudo_goddess
-		intermarry = darknut_docrtine
-	}
-}
-doctrine = {
-	wizzrobe_doctrine = {
-	intermarry = goddesses
-	intermarry = hylia_religion
-	intermarry = gerudo_goddess
 	}
 }
 twili_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
-	crusade_cb = crusade
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	
-	ai_convert_same_religion = 1 # always try to convert
-	ai_convert_other_religion = 1 # always try to convert
+	ai_convert_same_group = 1 # always try to convert
+	ai_convert_other_group  = 1 # always try to convert
 	male_names = {Sol}
 	female_names = {Solaria}
-	sol = {
-		graphical_culture = westerngfx
+	sol_religion = {
+		graphical_culture = mesoamericangfx
 
 		icon = 49
 		heresy_icon = 50
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 1 1 0.88 }
 		
-		crusade_name = CRUSADE
-		scripture_name = 	LIGHT_SONG
 		priest_title = PRIEST
-		
+		scripture_name = SOLS_LAMINAT
+
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		priests_can_marry = no
+		feminist = yes
+
 		high_god_name = GOD_SOL
 		
 		god_names = {
@@ -1156,16 +1162,22 @@ twili_religion = {
 		}		
 	}
 	divine_beast = {
-		graphical_culture = muslimgfx
+		graphical_culture = mesoamericangfx
 
 		icon = 49
 		heresy_icon = 50
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 0.98 0.98 0.82 }
 		parent = sol
 
-		priest_title = ATTENDENT 
-		
+		priest_title = SHAMAN 
+		scripture_name = BEASTS_HOWL
+
+		can_retire_to_monastery = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		feminist = yes
+
 		high_god_name = GOD_DIVINE_BEAST 
 		
 		god_names = {
@@ -1178,32 +1190,64 @@ twili_religion = {
 	}
 }
 
-termian = {
+termina = {
 	has_coa_on_barony_only = yes
 	graphical_culture = norsegfx
 	crusade_cb = crusade
 	playable = yes
 	ai_peaceful = no 
 	
-	ai_convert_same_religion = 2 # always try to convert
-	ai_convert_other_religion = 2 # always try to convert
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group  = 2 # always try to convert
 	
+	goddess_of_time = {
+		graphical_culture = norsegfx
 
-	majora = {
+		icon = 2
+		heresy_icon = 7
+		
+		color = { 0.93 0.9 0.6 }
+
+		scripture_name = SONG_OF_TIME
+		priest_title = PRIEST
+		
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		allow_female_priests = yes
+		feminist = yes
+
+		high_god_name = GOD_GODDESS_OF_TIME
+		
+		god_names = {
+			GOD_GODDESS_OF_TIME
+		}
+		intermarry = goddesses_religion
+		intermarry = wind_fish
+		intermarry = wind_doctrine 
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		priests_can_marry = yes 
+		attacking_same_religion_piety_loss = yes
+
+	}
+	majora_religion = {
 		graphical_culture = norsegfx
 
 		icon = 10
 		heresy_icon = 12
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 0.6 0.2 0.8 }
 		
 		allow_looting = yes
-		priests_can_marry = yes 
-		allow_female_priests = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		feminist = yes
 		allow_viking_invasion = yes
 
 
 		priest_title = PRIEST
+		piety_name = MISCHIEF
+		scripture_name = SONG_HEALING
 		
 		high_god_name = GOD_MAJORA
 		
@@ -1211,10 +1255,10 @@ termian = {
 			GOD_MAJORA
 		}
 		evil_god_names = {
-				GOD_FIERCE_DIETY
+				GOD_FIERCE_DEiTY
 		}
 		can_loot = yes
-		peace_prestige_loss = yes
+		peace_prestige_loss = no
 		aggression = 2
 	}
 	fierce_diety = {
@@ -1223,13 +1267,15 @@ termian = {
 		icon = 11
 		heresy_icon = 12
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 0.69 0.77 0.87 }
 
 		allow_looting = yes
 		priests_can_marry = yes		
 
 	
 		priest_title = PRIEST
+		piety_name = RAGE
+		scripture_name = DEITY_WRATH
 		allow_viking_invasion = yes
 
 		
@@ -1246,5 +1292,4 @@ termian = {
 		aggression = 2		
 	}
 }
-
 
