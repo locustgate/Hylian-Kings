@@ -17,14 +17,13 @@ feudal_governments = {
 			tribal_government
 		}
 		potential = {
-			NOT = { culture_group = blin }
-			NOT = { culture_group = lfos }
-			NOT = { culture = gerudo }
-			NOT = { culture_group = goron_group }
-			NOT = { culture = demon }
-			NOT = { kokiri }
-			NOT = { culture_group = darknut }
-			
+			NOR = { culture_group = blin 
+			 culture_group = lfos 
+			 culture = gerudo 
+			 culture_group = goron_group 
+			 culture = demon 
+			 culture = kokiri 
+			 culture_group = darknut }	
 		}
 		
 		color = { 91 133 207 }
@@ -60,10 +59,7 @@ feudal_governments = {
 			tribal_government
 		}
 		potential = {
-			OR = {
-				culture = gerudo
-				religion_group = gerudo_religion
-			 }
+			culture = gerudo 
 			is_patrician = no
 		}
 		
@@ -224,4 +220,5 @@ feudal_governments = {
 			tribal_government
 		}
 	}
+}
 }
