@@ -11,7 +11,7 @@ horse_archers = {
 	base_type = light_cavalry
 }
 
-#cobble
+#cobble,yama
 
 stone_soldier = {
 	morale = 20
@@ -22,21 +22,6 @@ stone_soldier = {
 	phase_skirmish_defense = 10
 	phase_melee_defense = 5
 	phase_pursue_defense = 5
-	base_type = heavy_infantry
-}
-
-#Wind Tribe
-
-#Fortress of Wind ONLY
-machine_of_wind = {
-	morale = 20
-	maintenance = 20
-	phase_skirmish_attack = 10
-	phase_melee_attack = 5
-	phase_pursue_attack = 10
-	phase_skirmish_defense = 15
-	phase_melee_defense = 5
-	phase_pursue_defense = 10
 	base_type = heavy_infantry
 }
 
@@ -64,6 +49,17 @@ iron_knuckle = {
 	phase_pursue_defense = 10
 	base_type = heavy_infantry
 }
+phantoms {
+	morale = 30
+	maintenance = 5
+	phase_skirmish_attack = 0
+	phase_melee_attack = 5
+	phase_pursue_attack = 0
+	phase_skirmish_defense = 10
+	phase_melee_defense = 5
+	phase_pursue_defense = 10
+	base_type = heavy_infantry
+}
 
 loftwing_knight = {
 	morale = 5
@@ -75,28 +71,5 @@ loftwing_knight = {
 	phase_melee_defense = 10
 	phase_pursue_defense = 20
 	base_type = light_cavalry
-}
-#mage
-magic_user = {
-	morale = 5
-	maintenance = 3
-	phase_skirmish_attack = 10
-	phase_melee_attack = 3
-	phase_pursue_attack = 6
-	phase_skirmish_defense = 0
-	phase_melee_defense = 3
-	phase_pursue_defense = 0
-	base_type = archer
-}
-magic_warrior = {
-	morale = 5
-	maintenance = 3
-	phase_skirmish_attack = 10
-	phase_melee_attack = 6
-	phase_pursue_attack = 6
-	phase_skirmish_defense = 3
-	phase_melee_defense = 3
-	phase_pursue_defense = 3
-	base_type = heavy_infantry
 }
 

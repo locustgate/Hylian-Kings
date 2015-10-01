@@ -1,0 +1,852 @@
+# Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ #<tag> = {
+ #	desc = description used in the tooltip of the building
+ #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
+ #	gold_cost = cost to build the building
+ #	build_time = time to build, in days
+ #	
+ #	ai_creation_factor = weight that the AI uses to determine what building to build
+ #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #}
+ #darknut have less economy and soldiers but far better soldiers (culture                
+ #mod
+castle = {
+	
+	ca_initiat_barracks_1 = {
+		desc = ca_initiat_barracks_1_desc
+		potential = {			
+				culture = darknut
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 40
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_initiat_barracks_2 = {
+		desc = ca_initiat_barracks_2_desc
+		potential = {			
+				culture = darknut
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_initiat_barracks_1
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 50
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.0
+	}
+	ca_initiat_barracks_3 = {
+		desc = ca_initiat_barracks_3_desc
+		potential = {			
+				culture = darknut
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_initiat_barracks_2
+		gold_cost = 200
+		build_time = 1095
+		light_infantry = 60
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	ca_initiat_barracks_4 = {
+		desc = ca_initiat_barracks_3_desc
+		potential = {			
+				culture = darknut
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_initiat_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 70
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+
+	ca_cohort_barracks_1 = {
+		desc = ca_cohort_barracks_1_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 30
+		ai_creation_factor = 105
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_cohort_barracks_2 = {
+		desc = ca_cohort_barracks_1_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_cohort_barracks_1
+		gold_cost = 120
+		build_time = 547
+		heavy_infantry = 40
+		ai_creation_factor = 104
+		
+		extra_tech_building_start = 1.8
+	}
+	ca_cohort_barracks_3 = {
+		desc = ca_cohort_barracks_1_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_cohort_barracks_2
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 45
+		ai_creation_factor = 103
+
+		extra_tech_building_start = 3.0
+	}
+	ca_cohort_barracks_4 = {
+		desc = ca_cohort_barracks_1_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_cohort_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 50
+		ai_creation_factor = 102
+
+		extra_tech_building_start = 3.0
+	}
+	ca_cohort_barracks_5 = {
+		desc = ca_cohort_barracks_1_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+
+		}
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_cohort_barracks_4
+		gold_cost = 400
+		build_time = 2190
+		ai_creation_factor = 101
+
+		extra_tech_building_start = 2.0
+	}
+	ca_cohort_barracks_6 = {
+		desc = ca_cohort_barracks_1_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_cohort_barracks_5
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 65
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.2
+	}
+	
+
+	ca_castle_forge_2 = {
+		desc = ca_castle_forge_2_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+		}
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_castle_forge_1
+		gold_cost = 120
+		build_time = 547
+		tax_income = 2
+		levy_reinforce_rate = 0.15
+		retinuesize = 20
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 1.0
+	}
+	ca_castle_forge_3 = {
+		desc = ca_castle_forge_3_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+				NOT = {culture = undead_ikanan}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_castle_forge_2
+		gold_cost = 200
+		build_time = 730
+		tax_income = 2
+		levy_reinforce_rate = 0.2
+		retinuesize = 20
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.2
+	}
+	ca_castle_forge_4 = {
+		desc = ca_castle_forge_4_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+				NOT = {culture = undead_ikanan}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_castle_forge_3
+		gold_cost = 300
+		build_time = 1095
+		tax_income = 2
+		levy_reinforce_rate = 0.25
+		retinuesize = 20
+		ai_creation_factor = 97
+
+		extra_tech_building_start = 0.2
+	}
+	ca_castle_forge_5 = {
+		desc = ca_castle_forge_4_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+				NOT = {culture = undead_ikanan}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_castle_forge_4
+		gold_cost = 400
+		build_time = 2190
+		tax_income = 2
+		levy_reinforce_rate = 0.3
+		retinuesize = 20
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 0.2
+	}
+	ca_castle_forge_6 = {
+		desc = ca_castle_forge_5_desc
+		potential = {				
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+				NOT = {culture = undead_ikanan}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
+		upgrades_from = ca_castle_forge_5
+		gold_cost = 500
+		build_time = 2190
+		tax_income = 2
+		levy_reinforce_rate = 0.35
+		retinuesize = 20
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 0.2
+	}
+}
+city = {
+	
+	ct_auxi_barracks_1 = {
+		desc = ct_auxi_barracks_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCT_AUXIION = 0 }
+		gold_cost = 100
+		build_time = 365
+		pikemen = 60
+		archers = 30
+		ai_creation_fact_auxior = 95
+		
+		extra_tech_building_start = 0.5
+	}
+	ct_auxi_barracks_2 = {
+		desc = ct_auxi_barracks_2_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCT_AUXIION = 0 }
+		prerequisites = { ct_auxi_wall_1 }
+		upgrades_from = ct_auxi_barracks_1
+		gold_cost = 120
+		build_time = 547
+		pikemen = 40
+		archers = 70
+		ai_creation_fact_auxior = 94
+
+		extra_tech_building_start = 1.0
+	}
+	ct_auxi_barracks_3 = {
+		desc = ct_auxi_barracks_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCT_AUXIION = 1 }
+		prerequisites = { ct_auxi_wall_2 }
+		upgrades_from = ct_auxi_barracks_2
+		gold_cost = 200
+		build_time = 730
+		light_infantry = 80
+		archers = 50
+		ai_creation_fact_auxior = 93
+
+		extra_tech_building_start = 1.0
+	}
+	ct_auxi_barracks_4 = {
+		desc = ct_auxi_barracks_2_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCT_AUXIION = 3 }
+		upgrades_from = ct_auxi_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 60
+		archers = 90
+		ai_creation_fact_auxior = 92
+
+		extra_tech_building_start = 0.2
+	}
+	ct_auxi_barracks_5 = {
+		desc = ct_auxi_barracks_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCT_AUXIION = 5 }
+		upgrades_from = ct_auxi_barracks_4
+		gold_cost = 400
+		build_time = 2190
+		light_infantry = 100
+		archers = 70
+		ai_creation_fact_auxior = 91
+
+		extra_tech_building_start = 0.2
+	}
+	ct_auxi_barracks_6 = {
+		desc = ct_auxi_barracks_2_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCT_AUXIION = 7 }
+		upgrades_from = ct_auxi_barracks_5
+		gold_cost = 500
+		build_time = 2190
+		light_infantry = 80
+		archers = 110
+		ai_creation_fact_auxior = 90
+
+		extra_tech_building_start = 0.2
+	}
+	ct_dishonored_1 = {
+		desc = ct_dishonored_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 20
+		ai_creation_factor = 96
+		
+		extra_tech_building_start = 1.0
+	}
+	ct_dishonored_2 = {
+		desc = ct_dishonored_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 2 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_dishonored_1
+		gold_cost = 120
+		build_time = 547
+		heavy_infantry = 30
+		ai_creation_factor = 95
+
+		extra_tech_building_start = 0.2
+	}
+	ct_dishonored_3 = {
+		desc = ct_dishonored_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 4 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_dishonored_2
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 40
+		ai_creation_factor = 94
+		
+		extra_tech_building_start = 0.2
+	}
+	ct_dishonored_4 = {
+		desc = ct_dishonored_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 6 }
+		upgrades_from = ct_dishonored_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 50
+		ai_creation_factor = 93
+		
+		extra_tech_building_start = 0.2
+	}
+	ct_dishonored_5 = {
+		desc = ct_dishonored_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 8 }
+		upgrades_from = ct_dishonored_4
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 60
+		ai_creation_factor = 92
+
+		extra_tech_building_start = 0.2
+	}
+#pit arena,arena,coloseum
+	ct_arena_1 = {
+		desc = ct_arena_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+				NOT = {culture = undead_ikanan}
+
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		tax_income = 2
+		light_infantry = 20
+		archers = 30
+		ai_creation_factor = 110
+		add_number_to_name = no
+		
+		extra_tech_building_start = 0.4
+	}
+	ct_arena_2 = {
+		desc = ct_arena_2_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+				NOT = {culture = undead_ikanan}
+
+				terrain = plains
+				terrain = farmlands
+
+		}
+		prerequisites = { ct_wall_1 }
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		upgrades_from = ct_arena_1
+		gold_cost = 120
+		build_time = 547
+		tax_income = 2
+		light_infantry = 40
+		archers = 20
+		heavy_infantry = 10
+		ai_creation_factor = 109
+		add_number_to_name = no
+
+		extra_tech_building_start = 0.8
+	}
+	ct_arena_3 = {
+		desc = ct_arena_3_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+				NOT = {culture = undead_ikanan}
+
+			terrain = plains
+			terrain = farmlands
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 1 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_arena_2
+		gold_cost = 200
+		build_time = 730
+		tax_income = 2
+		light_infantry = 50
+		archers = 30
+		heavy_infantry = 20
+		ai_creation_factor = 108
+		add_number_to_name = no
+
+		extra_tech_building_start = 0.2
+	}		
+}
+temple = {
+	tp_initiat_1 = {
+		desc = tp_initiat_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 60
+		ai_creation_factor = 94
+
+		extra_tech_building_start = 0.5
+	}
+	tp_initiat_2 = {
+		desc = tp_initiat_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+	}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		prerequisites = { tp_wall_1 }
+		upgrades_from = tp_initiat_1
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 65
+		ai_creation_factor = 93
+
+		extra_tech_building_start = 1.0
+	}
+	tp_initiat_3 = {
+		desc = tp_initiat_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 1 }
+		prerequisites = { tp_wall_2 }
+		upgrades_from = tp_initiat_2
+		gold_cost = 200
+		build_time = 730
+		light_infantry = 70
+		ai_creation_factor = 92
+
+		extra_tech_building_start = 0.5
+	}
+	tp_initiat_4 = {
+		desc = tp_initiat_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+	}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 3 }
+		upgrades_from = tp_initiat_3
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 75
+		ai_creation_factor = 91
+
+		extra_tech_building_start = 0.2
+	}
+	tp_initiat_5 = {
+		desc = tp_initiat_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+	}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 5 }
+		upgrades_from = tp_initiat_4
+		gold_cost = 400
+		build_time = 2190
+		light_infantry = 85
+		ai_creation_factor = 90
+
+		extra_tech_building_start = 0.2
+	}
+	tp_initiat_6 = {
+		desc = tp_initiat_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+	}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 7 }
+		upgrades_from = tp_initiat_5
+		gold_cost = 500
+		build_time = 2190
+		light_infantry = 95
+		ai_creation_factor = 89
+
+		extra_tech_building_start = 0.2
+	}
+	tp_paladin_barracks_1 = {
+		desc = tp_paladin_barracks_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 20
+		ai_creation_factor = 95
+
+		extra_tech_building_start = 0.5
+	}
+	tp_paladin_barracks_2 = {
+		desc = tp_paladin_barracks_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+		}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		prerequisites = { tp_wall_1 }
+		upgrades_from = tp_paladin_barracks_1
+		gold_cost = 120
+		build_time = 730
+		heavy_infantry = 30
+		ai_creation_factor = 94
+
+		extra_tech_building_start = 1.0
+	}
+	tp_paladin_barracks_3 = {
+		desc = tp_paladin_barracks_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+	}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 2 }
+		prerequisites = { tp_wall_2 }
+		upgrades_from = tp_paladin_barracks_2
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 40
+		ai_creation_factor = 93
+
+		extra_tech_building_start = 0.2
+	}
+	tp_paladin_barracks_4 = {
+		desc = tp_paladin_barracks_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+	}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 4 }
+		upgrades_from = tp_paladin_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 50
+		ai_creation_factor = 92
+
+		extra_tech_building_start = 0.2
+	}
+	tp_paladin_barracks_5 = {
+		desc = tp_paladin_barracks_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+	}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 6 }
+		upgrades_from = tp_paladin_barracks_4
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 60
+		ai_creation_factor = 91
+
+		extra_tech_building_start = 0.2
+	}
+	tp_paladin_barracks_6 = {
+		desc = tp_paladin_barracks_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+	}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 8 }
+		upgrades_from = tp_paladin_barracks_5
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 80
+		ai_creation_factor = 90
+
+		extra_tech_building_start = 0.2
+	}
+	tp_aux_camp_1 = {
+		desc = tp_aux_camp_1_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+	}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		tax_income = 2
+		pikemen = 30
+		archer = 20
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.3
+	}
+	tp_aux_camp_2 = {
+		desc = tp_aux_camp_2_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+	}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		prerequisites = { tp_wall_1 }
+		upgrades_from = tp_aux_camp_1
+		gold_cost = 120
+		build_time = 547
+		tax_income = 2
+		pikemen = 30
+		archer = 40
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 0.6
+	}
+	tp_aux_camp_3 = {
+		desc = tp_aux_camp_3_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+	}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 1 }
+		prerequisites = { tp_wall_2 }
+		upgrades_from = tp_aux_camp_2
+		gold_cost = 200
+		build_time = 730
+		tax_income = 2
+		pikemen = 40
+		archer = 40
+		ai_creation_factor = 95
+
+		extra_tech_building_start = 0.2
+	}
+	tp_aux_camp_4 = {
+		desc = tp_aux_camp_4_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+				NOT = {culture = undead_ikanan}
+	}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 3 }
+		upgrades_from = tp_aux_camp_3
+		gold_cost = 300
+		build_time = 1095
+		tax_income = 2
+		pikemen = 50
+		archer = 40
+		ai_creation_factor = 94
+
+		extra_tech_building_start = 0.2
+	}
+	tp_aux_camp_5 = {
+		desc = tp_aux_camp_4_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+				NOT = {culture = undead_ikanan}
+
+		}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 5 }
+		upgrades_from = tp_aux_camp_4
+		gold_cost = 400
+		build_time = 2190
+		tax_income = 2
+		pikemen = 60
+		archer = 40
+		ai_creation_factor = 93
+
+		extra_tech_building_start = 0.2
+	}
+	tp_aux_camp_6 = {
+		desc = tp_aux_camp_5_desc
+		potential = {
+				NOT = {culture_group = goron}
+				NOT = {culture_group = lfos}
+				NOT = {culture_group = deku}
+				NOT = {culture_group = undead}
+				NOT = {culture = undead_ikanan}
+
+		}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 7 }
+		upgrades_from = tp_aux_camp_5
+		gold_cost = 500
+		build_time = 2190
+		tax_income = 2
+		pikemen = 30
+		archer = 60
+		ai_creation_factor = 92
+
+		extra_tech_building_start = 0.2
+	}
+}

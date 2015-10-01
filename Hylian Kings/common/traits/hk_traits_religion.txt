@@ -1,3 +1,18 @@
+#goddesses
+#patron_din = {}
+#patron_naryu = {}
+#patron_farore = {}
+##hylia worship
+#patron_hylia = {}
+#patron_faron_d = {}
+#patron_eldin_d = {}
+#patron_lanayru_d = {}
+#patron_levias  = {}
+#light spirits
+#patron_ordona  = {}
+#patron_faron  = {}
+#patron_eldin  = {}
+#patron_lanaryu = {}
 #gerudo
 iron_knuckle = {
 	martial = 4
@@ -20,4 +35,13 @@ trophy = {
 	cannot_inherit = yes
 
 	prestige = -1
+}
+#ruling caste
+legionnaire = {
+}
+#non-doctrin 
+auxiliary = {
+}
+#priest
+judge = {
 }

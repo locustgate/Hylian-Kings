@@ -1,0 +1,160 @@
+#story items
+triforce_strength = {
+	martial = 10
+	health = 1	
+	customizer = no
+}
+
+triforce_courage = {
+	martial = 10
+	health = 1	
+
+	customizer = no
+}
+
+triforce_wisdom = {
+	diplomacy = 5
+	learning = 5
+	stewardship = 5
+	
+	customizer = no
+}
+
+triforce = {
+	diplomacy = 15
+	learning = 5
+	health = 2
+	Martial = 20
+	stewardship = 5
+	intrigue = 10
+	
+	customizer = no
+}
+
+master_sword = {
+	martial = 10
+	
+	customizer = no
+}
+#characters
+hylia_soul = {
+	opposite = {
+	hero_soul
+	race_sheikah
+	}
+	diplomacy = 10
+	learning = 10
+	intrigue = 5
+	
+	opposite_opinion = 60
+
+	ai_rationality = 30
+
+	customizer = no
+}
+
+hero_soul = {
+	opposite = {
+	hylia_soul
+	}
+	martial = 10
+	diplomacy	= -5
+	
+	opposite_opinion = 60
+
+	ai_honor = 30
+
+	customizer = no
+}
+demise_soul = {
+	martial = 10
+	health = 0.5
+
+	ai_ambition = 30
+	ai_honor = -30
+
+	customizer = no
+}
+hylia = {
+	diplomacy = 20
+	martial = 10
+	health = 4
+
+	ai_rationality = 30
+	ai_honor = 30
+	ai_ambition = -30
+}
+demise = {
+	martial = 20
+	learning = 10
+	health = 4
+
+	ai_ambition = 30
+	ai_greed = 30
+	ai_honor = -30
+}
+
+ganon = {
+	learning = 10
+	martial = 10
+	health = 2 
+	immortal = yes
+
+	same_opinion_if_same_religion = 60
+
+	ai_ambition = 30
+	ai_rationality = 30
+
+	customizer = no
+}
+malladus = {
+	martial = 10
+	health = 2
+	immortal = yes
+
+	same_opinion_if_same_religion = 60
+
+	ai_honor = -30
+	ai_zeal = 30
+
+	customizer = no 
+}
+vaati = {
+	learning = 10
+	martial = 10
+	immortal = yes
+
+	same_opinion_if_same_religion = 60
+
+	ai_rationality = 30
+	ai_ambition = 30
+
+	customizer = no
+}
+#gods
+mask_diety = {
+	health = 2
+	martial = 5
+
+	ai_rational = -10
+	ai_honor = 10
+}
+mask_majora = {
+	health = 2
+	intrigue = 5
+
+	ai_honor = -10
+	ai_ambition = 10
+}
+corrupted_majora
+	health = 4
+	intrigue = 10
+
+	ai_honor = -30
+	ai_ambition = 30
+}
+#misc
+gerudo_male_child = {	
+	gerudo_religion_opinion = 10
+
+}

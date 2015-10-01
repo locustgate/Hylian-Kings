@@ -10,7 +10,7 @@ feudal_governments = {
 			TRIBAL
 		}
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
-			darknut_government
+			imperialism_government
 			
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
@@ -76,40 +76,6 @@ feudal_governments = {
 			tribal_government
 		}
 	}
-	#goron brotherhood
-	goron_governmnet = {
-		preferred_holdings = { CASTLE }
-		allowed_holdings = { 
-			CASTLE
-			CITY
-			FORT
-		}
-		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
-			TRIBAL
-		}
-		accepts_liege_governments = { # Gets the wrong religion modifier instead
-			feudal_government
-		}
-		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
-			tribal_government
-		}
-		potential = {
-			culture_group = goron
-			is_patrician = no
-		}
-		
-		color = { 10 138 57 }
-		
-		uses_prestige_for_law_change = yes
-		
-		dukes_called_kings = yes
-		barons_need_dynasty = yes
-		can_build_tribal = no
-		
-		ignore_in_vassal_limit_calculation = {
-			tribal_government
-		}
-	}
 	#barbaric feudal
 	barbaric_governmnet = {
 		preferred_holdings = { CASTLE }
@@ -148,7 +114,8 @@ feudal_governments = {
 			tribal_government
 		}
 	}
-	darknut_governmnet = {
+#darknut
+		imperialism_government = {
 		preferred_holdings = { CASTLE }
 		allowed_holdings = { 
 			CASTLE
@@ -161,10 +128,7 @@ feudal_governments = {
 			tribal_government
 		}
 		potential = {
-			OR = {
-				culture_group = darknut
-				religion_group = darknut_religion
-			}
+			religion_group = darknut_doctrin
 			is_patrician = no
 		}
 		
@@ -177,48 +141,7 @@ feudal_governments = {
 		allow_looting = yes
 		
 		ignore_in_vassal_limit_calculation = {
-			tribal_government
+			tribal_governmen
 		}
 	}
-	pirate_governmnet = {
-		preferred_holdings = { CASTLE }
-		allowed_holdings = { 
-			CITY
-			TEMPLE
-			CASTLE
-			FORT
-		}
-		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
-			TRIBAL
-		}
-		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
-			tribal_government
-		}
-		potential = {
-			OR = {
-				culture_group = pirate
-				religion_group = pirate_religion
-
-			}
-			NAND = {
-				controls_religion = yes
-				NOT = { religion_group = darknut }
-			}
-			is_patrician = no
-		}
-		
-		color = { 10 138 57 }
-		
-		uses_prestige_for_law_change = yes
-		
-		barons_need_dynasty = yes
-		can_build_tribal = no
-		allow_looting = yes
-		seafarer = yes
-		
-		ignore_in_vassal_limit_calculation = {
-			tribal_government
-		}
-	}
-}
 }

@@ -7,45 +7,11 @@ hylian_group = {
 		color = { 0.63 0.13 0.94 }
 		
 		male_names = {
-			Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlfov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Stockwell Sturgeon Zill Wheaton Bremor Brent Doyle Mack Mutoh David Rauru Ichiro Jiro Sabbooro Shiro Guru-Guru Guru Grog Ingo Sakon Jovani Kamaro Baito Brac Bremor Dayle Darling Kafei Mack Dotour Barten Shikashi Coro Barnes Shar Auru Falbi Fyer Borville Charlo Chudley Jovani Pulo Soal Kaepora Gaebora Harkinian Daphnes Nohen Gulley Osfala Rosso Sahasrahla Akazoo Kazakk Daphnes Arthon Atrinas Aginah Bagu Mario Luigi Linebeck Chrom
+			Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlfov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Stockwell Sturgeon Zill Wheaton Bremor Brent Doyle Mack Mutoh David Rauru Ichiro Jiro Sabbooro Shiro Guru-Guru Guru Grog Ingo Sakon Jovani Kamaro Baito Brac Bremor Dayle Darling Kafei Mack Dotour Barten Shikashi Coro Barnes Shar Auru Falbi Fyer Borville Charlo Chudley Jovani Pulo Soal Kaepora Gaebora Harkinian Daphnes Nohen Gulley Osfala Rosso Sahasrahla Akazoo Kazakk Daphnes Arthon Atrinas Aginah Bagu Mario Luigi Chrom
 		}
 
 		female_names = {
 			Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Leila Mama Marcy Pina Pita Maggie Paige Sheila Tina Verona Honey Marilla Judo Cremia Epona Romani Pamela Ashei Iza Hena Agitha Kili Hanna Misha Fanadi Telma Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Aryll Rose Sue-Belle Sue Belle Gillian Joanna Potova Linda Maggie Milia Minenco Missey Pompie Peach Daisy Rosalina Lissa Lucinia Emmeryn Hylia Linkette Yelda
-		}
-		
-		dukes_called_kings = no
-		
-		from_dynasty_prefix = "of "
-
-		male_patronym = "sen"
-		female_patronym = "sdatter"
-		prefix = no # The patronym is added as a suffix
-				
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 30
-		mat_grf_name_chance = 10
-		father_name_chance = 25
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 40
-		mother_name_chance = 5
-
-		modifier = default_culture_modifier
-	}
-	new_hyrulean = {
-		graphical_culture = newhyruleangfx # portraits
-		
-		parent = hyrulean
-
-		color = { 0.63 0.13 0.94 }
-		
-		male_names = {
-			Link Niko Alfonzo Cole Beedle Ferrus Linebeck Joe Abe Joel Shitate Orca Mesa Sturgeon Zill Freedle Fuzo Nyeve Nyave Romanos Salvatore Senza Gonzo Nudge Mako Zuko Anton Candy Garrickson Dampa Gossack Gummy Kamo Kane Kreeb Lenzo Salvatore Sam Tott Baito Carlov Manny Loot Tingle Ivan Jin Jan Jun-Roberto Jun Roberto Cannon
-		}
-		female_names = {
-			Zelda Tetra Rei Joynas Rose Sue-Belle Sue Belle Joanne Jolene Gillian Joanna Potova Linda Maggie Mila  Minenco Missy Pompie Vera 
 		}
 		
 		dukes_called_kings = no
@@ -103,8 +69,7 @@ hylian_group = {
 
 	}
 	little_hyrulean = {
-		graphical_culture = hyliangfx
-		secondary_graphical_culture = greaterhyruleangfx
+		graphical_culture = greaterhyruleanfx 
 
 		parent = hyrulean
 		
@@ -135,8 +100,7 @@ Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
 		modifier = default_culture_modifier
 	} 
 	east_hyrulean =(
-		graphical_culture = hyliangfx
-		secondary_graphical_culture = greaterhyruleangfx
+		graphical_culture = greaterhyruleanfx 
 
 		parent = hyrulean 
 
@@ -157,8 +121,7 @@ Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
 		modifier = default_culture_modifier
 	)
 	west_hyrulean = {
-		graphical_culture = hyliangfx
-		secondary_graphical_culture = greaterhyruleangfx
+		graphical_culture = greaterhyruleanfx 
 
 		parent = hyrulean
 
@@ -180,8 +143,7 @@ Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
 	}
 
 	calatian = {
-		graphical_culture = humangfx
-		secondary_graphical_culture = hyruleangfx
+		graphical_culture = hyruleanfx 
 		
 		parent = skylofter
 
@@ -211,7 +173,8 @@ Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
 
 	cobble = {
 		graphical_culture = cobblegfx
-		secondary_graphical_culture = desertgfx
+ 
+		parent = skylofter
 		
 		color = { 0.3 0.55 0.8 }
 		
@@ -233,29 +196,66 @@ Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
 		modifier = default_culture_modifier
 	}
 
-	skylofter = {
-		graphical_culture = hyliangfx
-		secondary_graphical_culture = hyruleangfx
+	new_hyrulean = {
+		graphical_culture = newhyruleangfx # portraits
+		
+		parent = hyrulean
 
-		used_for_random = no
-
-		color = { 0.8 0.36 0.36 }
-
+		color = { 0.63 0.13 0.94 }
+		
 		male_names = {
-			Madas Beedle Bertie Cawlin Croo Dovos Fledge Dodoh Eagus Groose Gaepora Gondo Goselle Horwell Jakamar Keet Owlan Parrow Peater Pum Peatric Rupin Rusta Sparrot Stritch Timamo Rha Ostich Turk Malo Caper Spur Trag Shellduck Gadwell Wigein Malerd Scoter Scop Skoter Smew Auc Fullmer Greb Jaberu Ribis Herin Bitern Cormerant Shrag Anhenga Karacara Felcon Merlen Egle Sparow Hawk Busterd Kage Krake Kroot Frinfoot Kempken Curloow Sheethbill Pluver Strilt Ebisbill Avoset Wribill Grodwit Drowitcher Whymbrel Tatler Dunllin Ruf Not Grull Turn Rauk Rauclet Prigeon Crockatoo Mucaw Hroatzi Turraco Cukroo Kool Swift Trogun Quetzel Kooka Trody Motmoot Hopoe Tinker Flicker Manacin Schifronis Wren Shrike Gallito Tapaculo Canastero Hornero Rayadito Viro Gelepaio Lerk Rok
+			Link Niko Alfonzo Cole Beedle Ferrus Linebeck Joe Abe Joel Shitate Orca Mesa Sturgeon Zill Freedle Fuzo Nyeve Nyave Romanos Salvatore Senza Gonzo Nudge Mako Zuko Anton Candy Garrickson Dampa Gossack Gummy Kamo Kane Kreeb Lenzo Salvatore Sam Tott Baito Carlov Manny Loot Tingle Ivan Jin Jan Jun-Roberto Jun Roberto Cannon
 		}
 		female_names = {
-			Zelda Greba Henya Karane Kina Kukiel Luv Mallara Orielle Peatrice Piper Wyrna Tinamo Rhe Kewe Eme Cassower Kiki Chacha Laca Gean Qail Kaperkailly Kaily Partrydg Pea Neen Teel Pokard Pitril Preon Flamengo Ibes Igret Peli Garnnet Kisrtrel Ospry Kitee Bisra Koraan Meset Serema Rael Sora Takah Sungrebe Brolga Jakana Pratincol Nody Skoa Pufin DoveAuc Auclet Kakapoo Kia Korella Gralah Loriceet Yory Rosela Parotlit Poto Pauragoo Swiftlit Topazz Coqotte Inka Huming Puffeg Burra Arakari Barbaet Picult Jakamar Nunlit Asity Pitta Pritta Continga Elania Phoebe Monjita Kiska Pitta Pita Cachalote Cinclodes Xenops Lyr Tui Pardalote Kakako Batis Tchaga Vana Iora Sittela Jey Mag Pia Astrapea Cistycola Petronea Quelia Pitilia Linet Liwy Oropendola Zubora Gabora
+			Zelda Tetra Rei Joynas Rose Sue-Belle Sue Belle Joanne Jolene Gillian Joanna Potova Linda Maggie Mila  Minenco Missy Pompie Vera 
 		}
 		
 		dukes_called_kings = no
 		
 		from_dynasty_prefix = "of "
-		male_patronym = "son of "
-		female_patronym = "doughter of "
+
+		male_patronym = "sen"
+		female_patronym = "sdatter"
+		prefix = no # The patronym is added as a suffix
 				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
 		modifier = default_culture_modifier
 	}
+	papuchian = {
+		graphical_culture = papuchiangfx # portraits
+		
+		color = { 0.3 0.55 0.8 }
+
+		parent = cobble
+
+		male_names = {
+		Romanos Abele Achille Adalbertos Adamos Agostinos Albanos Alfeos AmpeliosAnnibale Anselmos Aurelios Beppe Benitos Battistas Bernardino Baldassare Biaggios Biagino Biagios Bonaventuras Venturas Bonifacios Brunos Callistos Calogeros Camillos Carlos Carmelos Carmine Casimiros Cecilios Celeste Celestinos Celinos Celios Demetrios Desiderios Dinos Diodatos Dionisios Donatos Duilios Durante Edgardos Edmondos Edoardos Efisios Egidios Elias Eligios Elios Emanuele Elipidios Felice Filippos Fiorino Firmino Flavios Fredos Fulvios Gabriele Gaetanos Gallos Gaspares Giacobbe Gian Giancarlo Gianlucas Gianluigi Luigi Mario Gianni Giosue Giovanni Giraldos Ilarios Isaias Italos Ivanos Ivos Jacopos Ladislaos Lapos Lazzaros Leandros Leonardos Leone Leonidas Liberatore Marcos Manuel Manfredos Nicos Nicolas Nivola Nicomede Neros Olivieros Oddos Orsos
+		}
+		female_names = {
+		Joynas Jolene Joanne Peach Adas Adelaide Adele Adelinas Adrianas Agatas Agnese Ale Alessas Alessias Alinas ALmas Amalias Anastasias Angelas Bertas Bettinas Bice Bibianas Brigidas Brunas Brunildas Carlas Camillas Carolas Carolinas Cassandras Cecilias Celeste Celias Chiaras Cinzias Claras Claretta Clelias Clios Cloe Darias Deboras Delfinas Delias Demetras Desiderias Doroteas Donatellas Donatas Elettras Elianas Elisas Elviras Emanuelas Ericas Ermelindas Ermenegildas Erminias Evas Febes Federicas Felicianas Felicitas Ferdinandas Finas Fioralbas Fiorellas Flavias Francas Gaias Geltrude Gemmas Germanas Gias Giachettas Giacintas Gildas Ginevras Gioias Isas Ildas Italas Jessicas Lenas Leontinas Loras Luce Marias Marilenas Marinas Norinas Normas Nunzia Ofelia Orlandas Orsolas Pias Rachele Scillas
+		}
+
+		dukes_called_kings = no
+		male_patronym = "sin"
+		female_patronym = "sdotter"
+		prefix = yes
+
+		
+		from_dynasty_prefix = "of "
+				
+		modifier = default_culture_modifier
+
+	}
+
 }
 round_eared = {
 
@@ -280,7 +280,7 @@ round_eared = {
 		modifier = default_culture_modifier
 	}
 	horon = {
-		graphical_culture = horongfx
+		graphical_culture = southerngfx
 		secondary_graphical_culture = horongfx
 		
 		color = { 0 0 0.5 }
@@ -311,9 +311,8 @@ round_eared = {
 
 		modifier = default_culture_modifier
 	} 
-	labrynnan = {
-		graphical_culture = labrynnagfx
-		secondary_graphical_culture = humangfx
+	labrynnan = {#irish
+		graphical_culture = southerngfx 
 
 		
 		color = { 0.1 0.1 0.44 }
@@ -343,8 +342,7 @@ round_eared = {
 		modifier = default_culture_modifier
 	}
 	port_towner = {
-		graphical_culture = humangfx
-		secondary_graphical_culture = humangfx
+		graphical_culture = southerngfx 
 
 		parent = labrynnan
 		
@@ -376,8 +374,7 @@ round_eared = {
 }
 
 	frozen_isle = {
-		graphical_culture = frozengfx
-		secondary_graphical_culture = snowgfx
+		graphical_culture = frozengfx 
 
 		parent = ho_ho
 
@@ -398,8 +395,7 @@ round_eared = {
 		seafarer = yes
 	}
 	kasuton =(
-		graphical_culture = humangfx
-		secondary_graphical_culture = greaterhyruleangfx
+		graphical_culture = northernhumangfx 
 
 		color = { 0.69 0.13 0.13 }
 
@@ -418,8 +414,7 @@ round_eared = {
 		modifier = default_culture_modifier
 	)
 	sarian = {
-		graphical_culture = humangfx
-		secondary_graphical_culture = greaterhyruleangfx
+		graphical_culture = northernhumangfx 
 
 		color = { 0.53 0.81 0.98 }
 
@@ -436,9 +431,8 @@ round_eared = {
 
 		modifier = default_culture_modifier
 	}
-	eldin = {
-		graphical_culture = eldingfx
-		secondary_graphical_culture = eldingfx
+	eldin = {#aztec
+		graphical_culture = eldingfx 
 		
 		parent = dark_interloper
 		
@@ -458,9 +452,8 @@ round_eared = {
 		modifier = default_culture_modifier
 	}
 
-	kakarikon = {
-		graphical_culture = kakarikongfx
-		secondary_graphical_culture = kakarikongfx
+	kakarikon = {#spain
+		graphical_culture = kakarikongfx 
 
 		used_for_random = no 
 
@@ -482,8 +475,7 @@ round_eared = {
 	}
 		
 	arcadian = {
-		graphical_culture = humangfx
-		secondary_graphical_culture = hyruleangfx
+		graphical_culture = northernhumangfx 
 
 		color = { 1 0.84 0 }
 
@@ -500,8 +492,7 @@ round_eared = {
 	}
 
 	koholinter = {
-		graphical_culture = humangfx
-		secondary_graphical_culture = humangfx
+		graphical_culture = koholintergfx 
 		
 		color = { 0.68 0.85 0.87 }
 		
@@ -534,8 +525,7 @@ round_eared = {
 
 	}
 	yamatamian = {
-		graphical_culture = yamatamiangfx
-		secondary_graphical_culture = tribalgfx
+		graphical_culture = yamatamiangfx 
 		
 		color = { 0.9 0.59 0.48 }
 		
@@ -554,9 +544,8 @@ round_eared = {
 	}
 }
 lost_tribe = {
-	sheikah = {
-		graphical_culture = shiekagfx
-		secondary_graphical_culture = hyruleangfx
+	sheikah = { 
+		graphical_culture = shiekagfx 
 		
 		color = { 1 0 0 }
 		
@@ -589,8 +578,7 @@ lost_tribe = {
 	}
 
 	gerudo = {
-		graphical_culture = gerudogfx
-		secondary_graphical_culture = desertgfx
+		graphical_culture = gerudogfx 
 		
 		color = { 1 0.75 0.8 }
 		
@@ -613,9 +601,8 @@ lost_tribe = {
 		allow_looting = yes
 	}
 	darknut = {
-		graphical_culture = darknutgfx # portraits
-		second_graphical_culture = darknutgfx # buildings, portraits, units
-		
+		graphical_culture = darknutgfx # portraits 
+		#greek 
 		color = { 0.19 0.31 0.31 }
 		
 		
@@ -645,9 +632,8 @@ lost_tribe = {
 
 	}
 	wind_tribe = {
-		graphical_culture = windgfx
-		secondary_graphical_culture = windgfx
-
+		graphical_culture = windtribegfx 
+		#mongol
 		used_for_random = no 
 		
 		color = { 0 0.75 5 1 }
@@ -675,16 +661,15 @@ lost_tribe = {
 		modifier = default_culture_modifier
 	}
 	wizzrobe = {
-		graphical_culture = hyliangfx# portraits 
-		secondary_graphical_culture = wizzrobegfx # buildings, portraits, units
+		graphical_culture = wizzrobegfx# 
 		
 		color = { 0 1 0.5 }
 
 		male_names = {
-		Merlin Harry Ron Jon Khalid Etigan Simo David Allan Curtis Claude Alexander Jay Johnathan Mivael Ivan Harry Henry Jerry Tony Criss Theodore John Jeffery Al Ed Carl Tobias Steven Varry Stuart Keith Herbert Ariann Ali John Derren Matthias Eugene Lance Kuda Mike Charles Canuto Richard Francis Chef Lu Milbourne Rudy Steve Aldo Louis Ali Tommy Tony Chris Fred Paul Dante Daryl Lewis Dedi Buatier Dedi Rasputin Persi Dean Derek Thomas Simon Paul Joseph Goeffrey Dynamo Doc Ahmed Tim Alex Sermet Terry Fakir Pete Michael Dariel Imro Mat Greg Martin Gazzo Uri Karl Andi Lennart Uri Lennart Horace Franz Neik Ertugrul
+		Merlin Harry Ron Jon Khalid Etigan Simo David Allan Curtis Claude Alexander Jay Johnathan Mivael Ivan Harry Henry Jerry Tony Criss Theodore John Jeffery Al Ed Carl Tobias Steven Varry Stuart Keith Herbert Ariann Ali John Derren Matthias Eugene Lance Kuda Mike Charles Canuto Richard Francis Chef Lu Milbourne Rudy Steve Aldo Louis Ali Tommy Tony Chris Fred Paul Dante Daryl Lewis Dedi Buatier Dedi Rasputin Persi Dean Derek Thomas Simon Paul Joseph Goeffrey Dynamo Doc Ahmed Tim Alex Sermet Terry Fakir Pete Michael Dariel Imro Mat Greg Martin Neik Ertugrul Herbert Ivo Geoffrey Radmir Hen Gerhart Carduin Fercart Radcliffe
 		} 
 		female_names = {
-		Cia Lana Hermione Zatanna Raven Juliana	Dorothy Sophie Hendra Dorothy Magic Ariann Misty Fay Usapia Tenko Kristen Maneka Debbie Lisa Krystyn Frances Luna Morgan Bavmorda Circe Evanora Glinda Jadis Kotake Koume Locasta Maleficent Mary Medea Rita Theodora Tia Tiffany Alice Wisteria Amethyst Jaenelle Anguanes Davina Frya Ingrid Joanna Bonnie Diana Griselda Cassie Lavender Agatha Amelia Cate Faye Alecto Minnie Cho Chocolat Ruby Vanessa Lydia Fleur Gabrielle Kim Lena Ridley Sarafine Gillian Elphaba Empusa Erichtho Tabitha Theo Ethel Mona Sybil Agatha Ida Henrieta Mildred Helga Ilse Ischade Ivalaine Jadis Juniper Mabaa Maggie Maleen Max Miranda Mormo Melisandra Minerva Mombi Mimi Nico
+		Cia Lana Hermione Zatanna Raven Juliana	Dorothy Sophie Hendra Dorothy Magic Ariann Misty Fay Usapia Tenko Kristen Maneka Debbie Lisa Krystyn Frances Koume Locasta Maleficent Mary Medea Rita Theodora Tia Tiffany Alice Wisteria Amethyst Jaenelle Anguanes Davina Frya Ingrid Joanna Bonnie Diana Griselda Cassie Lavender Agatha Amelia Cate Faye Alecto Minnie Cho Chocolat Ruby Vanessa Lydia Fleur Gabrielle Kim Lena Ridley Sarafine Gillian Elphaba Empusa Erichtho Tabitha Theo Ethel Mona Sybil Agatha Ida Henrieta Mildred Helga Ilse Ischade Ivalaine Jadis Juniper Mabaa Maggie Maleen Max Miranda Mormo Melisandra Ciri Triss Yennefer Jaina Phillippa Margarita Keira Sabrina Sile Francesca Fringilla Ida 
 		}
 				
 		male_patronym = "sen"
@@ -715,10 +700,9 @@ spirit_continent = {
 
 	}
 	lokomo = {
-		graphical_culture = anoukigfx
-		secondary_graphical_culture = snowgfx
-
-		color = { 0.86 0.63 .87 }
+		graphical_culture = lokomogfx 
+		#rusian
+		color = { 0.2 0.7 .44 }
 
 		male_namse = {
 			Gage Steem Carben Embrose Rael Byrne Kabuis Kohle Desel Kargo Kab Reac Bogie Kase Baum Kab Terbine Atamik Pilet Kondutur Kole Frate Kog Boge Aksel Bulstir Thradl Regylator Bloer Pip Brak Pistn Boylir Grat Wagen Kal Ganar Tinar Pipeg Kaksar Arbis Peman Kisage Kisik Dreg Agem Grer Pamur Peleg Kotalem Kur Teg Pate Galar Staum Frige Baepm Kuk Kileg Tovar Goten Kalv Kupm Pelok Dupm Ramam Kise Kese Steg Kisare Sliguhl Bohle Kisir Bim Bage Peg Kisel Balab Pegen Pelon Bale Boteso Kerbe Kite Peledl Wirbeag Pan Kiser Avak Kerec Kirgie Bonde Gat Tetan Taum Kulan Roser Traum Broteg Bivis
@@ -730,6 +714,27 @@ spirit_continent = {
 }
 goron_group = {
 
+	death_mountain_goron = {
+
+		graphical_culture = dmgorongfx # portraits
+
+		
+		color = { 1 1 0 }
+		
+		#title biggoron medigoron
+		male_names = {
+			Darunia Darmani Darbus Amoto Coron Ebizo Liggs Gongoron Kagoron Golo Gortram Gorko Goht Golari Cazali ENgon Girom Gongo Eraton Gunozo Gurom Gagos Dungo Engonom Gobos Lono Donom Duni Canan Ganom Carmo Azom Cutin Cogozo Dolom Doht Gozom Lozom Gonongi Daranguran Durano Danos Lorbo Gitos Lonon Gorki Goran Etori Gangi Girtro Cortri Domano Dolia Gorko Gurmi Loramon Dingi Etono Caron Karon Donon Gunom Aton Gaton Coro Gorom Gatos Cataro Arani Cozo Cobos Lurbin Koroni Karatim Karolago Daton Erkari Lalom Kinia Dugigon Dozom Gari Gobongi Gobom Dorom Goton Cogom Ganaros Galurom Lorom Lunus Goros Karo Lonom Gagorom Donalan Daros Ezorano Alamomo Engan
+		}
+		female_names = {
+		Goban Lobuzom Dinano Corkon Goro Komoro Dotomin Gortrarin Gorman Dogos Cozabingi Danom Kozon Kormi Arozom Cabim Alaron Egoros Angom Gongas Enabom Cizom Agorom Kangano Gongos Korman Koromo Dongom Lingi Caboht Cabos Dotorano Engoraron Gobaro Kogom Gololo Gorkiri Gono Doros Etongi Koran Cono Gamoron Enano Eron Cunozo Guton Amongon Cangarobin Aron Logom Conom Erumoros Karinormo Donuton Loros Durman Gozan Kagon Dolan Garbom Azinororo Dimon Kunos Dutos Goto Gango Lazo Ginano Gorbo Garko Cazom Gorkon Gotaron Amono Coron Colimi Guran Kanos Gogos Gaban Goti Guzom Gatom Golo Erazom Golom Gonin Cozom Kazom Gizongi Dozi Gotus Angi Dogongi Angomozan Anun Caton Armon Amongangi
+		}
+		
+		dukes_called_kings = no
+
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
+	}
 	cocco_goron = {
 		graphical_culture = southerngorongfx 
 		
@@ -767,27 +772,7 @@ goron_group = {
 
 		modifier = default_culture_modifier
 	}
-	death_mountain_goron = {
 
-		graphical_culture = dmgorongfx # portraits
-
-		
-		color = { 1 1 0 }
-		
-		#title biggoron medigoron
-		male_names = {
-			Darunia Darmani Darbus Amoto Coron Ebizo Liggs Gongoron Kagoron Golo Gortram Gorko Goht Golari Cazali ENgon Girom Gongo Eraton Gunozo Gurom Gagos Dungo Engonom Gobos Lono Donom Duni Canan Ganom Carmo Azom Cutin Cogozo Dolom Doht Gozom Lozom Gonongi Daranguran Durano Danos Lorbo Gitos Lonon Gorki Goran Etori Gangi Girtro Cortri Domano Dolia Gorko Gurmi Loramon Dingi Etono Caron Karon Donon Gunom Aton Gaton Coro Gorom Gatos Cataro Arani Cozo Cobos Lurbin Koroni Karatim Karolago Daton Erkari Lalom Kinia Dugigon Dozom Gari Gobongi Gobom Dorom Goton Cogom Ganaros Galurom Lorom Lunus Goros Karo Lonom Gagorom Donalan Daros Ezorano Alamomo Engan
-		}
-		female_names = {
-		Goban Lobuzom Dinano Corkon Goro Komoro Dotomin Gortrarin Gorman Dogos Cozabingi Danom Kozon Kormi Arozom Cabim Alaron Egoros Angom Gongas Enabom Cizom Agorom Kangano Gongos Korman Koromo Dongom Lingi Caboht Cabos Dotorano Engoraron Gobaro Kogom Gololo Gorkiri Gono Doros Etongi Koran Cono Gamoron Enano Eron Cunozo Guton Amongon Cangarobin Aron Logom Conom Erumoros Karinormo Donuton Loros Durman Gozan Kagon Dolan Garbom Azinororo Dimon Kunos Dutos Goto Gango Lazo Ginano Gorbo Garko Cazom Gorkon Gotaron Amono Coron Colimi Guran Kanos Gogos Gaban Goti Guzom Gatom Golo Erazom Golom Gonin Cozom Kazom Gizongi Dozi Gotus Angi Dogongi Angomozan Anun Caton Armon Amongangi
-		}
-		
-		dukes_called_kings = no
-
-		founder_named_dynasties = yes
-
-		modifier = default_culture_modifier
-	}
 	rolling_goron = {
 
 		graphical_culture = southerngorongfx 
@@ -811,11 +796,18 @@ goron_group = {
 	}
 
 	fire_goron = {
-		graphical_culture = dmgorongfx # portraits
-
+		graphical_culture = dmgorongfx # firegfx #darkskin redhair
+		color = { 1 0.65 0 }
+		
+		male_names = { 
+			Kagoron Biggoron Gongoron Diggoron Akgoron Ragoron Riggoron Bukgoron Aogoron Zingoron Moggoron Kangoron Aongogoron Zirongoron Zirorgoron Ringigoron Koringoron Bogoron Agggoron Roroggoron Morongoron Kogogoron Zoggingoron Kigoron Dorogoron Gogirgoron Mirongoron Kogingoron Doringoron Zongongoron Zirorgoron Barikgoron Zoroggoron Zorangoron Raroringoron Kogiringoron Koggogoron Kogogogoron Korirgoron Dogongoron Zarigongoron Kigongoron Rogigoron Kagogoron Boggirgoron Zoggogoron Garirgoron Aoggirgoron Zogirgoron Rorgoron Bogingoron Gongorgoron Rokgangoron Aoggongoron Borogoron Kirorgoron Kirongoron Zarongoron Mirorgoron Zorargoron Karorgoron Rorogoron Kogorgoron Zorongoron Barungoron Kikgoron Zigoron Zorogoron Zorogin Koggigon Bongon Zagon Arogaron Rarorikgon Rongogon Karagoriron Zirgon Biggin Boggo Kogogoron Koroggo Zigon Kogiran Kogoriron Kiron Zorgiro Koragon Zingir ZOrorgon Kogorogan Rokgiror Koron Raroron Kogoron Kariron Riroron Koroggiron Kogoror Arggo Kiroror Kikguror
+		}
+		female_names = {
+			Rigoron Kargoron Karigoron Karagoron Kiro Roragon Raroggo Rarugo Korirogo Zarongon Kikgoringon Rangon Kororon Zogorgon Bogiggo Korogon Kogogon Kogorogo Arirn Birogin Zigogin Zoroggoron Moroggo Dikgin Kikgoron Arorgon Roririn Rirogogin Zogoron Garoran Aogarorin Kiroran Rororon Borokging Gikgoron Boroin Kogongoron Rorogoron Rogoran Boggoron Kangoron Kogagin Riringon Ririgo Zogoron Raririn Rorogin Rongoran Kogogon Kogon Zogin Zikgoron Zorgoron Ziriron Riraron Birogon Kogirion Dokgogo Karin Koggon Kogigon Garigon Mogogin Rirugon Zogoggo Arororin Arokgor Zorirgin Korogin Zogaron Zogon Roggiron Koroggon Roggin Mogogo Zororokgon Roggoran Rongon Zogigin Koguron Borargan Rororan Kugogoron Mururon Rorin Kogaron Riroro Gogaron Bororon Karogon Aoron Garon Agagon Digin Zorogoron Rorangoron Zirakgon Dorogon Rogorin Boron
+		}
 	}
 }
-zora_group = {
+aquatic_group = {
 	lake_zora = {
 		graphical_culture = zoragfx # portraits
 		
@@ -846,7 +838,7 @@ zora_group = {
 	}
 	#red
 	sea_zora = {
-		graphical_culture = sea_zoragfx
+		graphical_culture = seazoragfx
 		
 		parent = lake_zora
 
@@ -930,13 +922,28 @@ zora_group = {
 		modifier = default_culture_modifier
 
 	}
+
+	geozard = {
+		graphical_culture = geozardgfx
+	
+		parent = demon
+
+		color = { 0.86 0.63 .87 }
+
+		male_names = {
+			Akbas Aollah Arafazl Ayuorz Daiash Gorashir Hactoo Haruhir Hayad Hiar Hotram Ichraz Isaooz Itsouz Jirana Jurruz Kaeyal Kaiara Kaoush Katvud Kazhim Kensan Kicail Koudar Kuroon Kyookh Makoon Masoun Micoun Minroz Naolam Nobhan Norzar Osaadi Renmid Riksan Roklil Ryoshed Ryueed Sabved Shibiz Shoaja Shuian Sorush Sothdi Sououd Susmud Taiood Takoud Tarud Tsuhdi Yamehr Yaseed Yorima Yosvid Yukeza Yuutam Hanmid Ali Han Haosun Shori Nukijurad Sosal Sholafaz Tusha Hitron Yatsijan Jabha Juklal Alour Akish Jounil Sarud Siha Tubhad Torum Yohal Ifod Sekban Deekoch Raarered Okur Yisa Nusan Yaon Shol Rayad Mojun Jijon Jisad Sutal Joural Mosur Tsebha Roran Jnud Yan Yisal Motoctan
+		}
+
+		female_names = {
+		Areko Atemi Avana Azaane Azremi Bahiko Banami Danuka Daraya Delaka Ehsame Elane Elhano Faika Fatako Feruka Firtsu Ghoiyo Goloko Hamcho Jalemi Katuko Khana Khoako Khuaru Laluka Leiuna Leyaru Mahina Marata Masoko Minomi Mitoka Mojshi Moriko Naharu Narumi Nasnko Nedede Nilori Niuumi Nouzue Omiuko Paniko Pariku Rogoko Rosaku Saharu Sakoro Sanone Sariko Shakyo Shayou Shimai Shoto Simami Sohami Somao Soriko Yasuyo Zahmei Zarchi Zeiori Zeyika Zhamio Zibiyu Ziniko Fikati Shari ZOra Dakamo Abuho Abimaki Zeki Abasana Fikedo Narate Zimata Zira Zeriki Sharo Deri Galeli Sakete Nani Atoke Aremo Zirikio Shoto Mami Nozei Miko Muse Zako Amamo Faka Mete Zemi Akamai Hazri
+		}
+	}
 }
 
 fae = {
 
 	great_fairy = {
-		graphical_culture = fairygfx # portraits
-		second_graphical_culture = hyruleangfx # buildings, portraits, units
+		graphical_culture = fairygfx # portraits 
 
 		used_for_random = no 
 
@@ -957,8 +964,7 @@ fae = {
 		modifier = default_culture_modifier
 	}
 	demon = {
-		graphical_culture = zoragfx # portraits
-		second_graphical_culture = hyruleangfx # buildings, portraits, units
+		graphical_culture = demongfx # portraits 
 
 		horde = yes 
 		used_for_random = no 
@@ -985,8 +991,7 @@ fae = {
 deku = {
 
 	deku_scrub = {
-		graphical_culture = scrubgfx # portraits
-		second_graphical_culture = scrubgfx # buildings, portraits, units
+		graphical_culture = scrubgfx # portraits 
 		
 		color = { 0.13 0.55 0.13 }
 		
@@ -1005,8 +1010,7 @@ deku = {
 	} 
 	deku_tree = {
 
-		graphical_culture = dekugfx # portraits
-		second_graphical_culture = dekugfx # buildings, portraits, units
+		graphical_culture = dekugfx # portraits 
 
 		used_for_random = no
 		
@@ -1025,7 +1029,7 @@ deku = {
 	}
 	kokiri = {
 		graphical_culture = kokirigfx # portraits
-		second_graphical_culture = dekugfx # buildings, portraits, units
+ 
 		parent = deku_tree
 
 		color = { 0.3 0.42 0.2 }
@@ -1045,8 +1049,7 @@ deku = {
 		modifier = default_culture_modifier
 	}
 	zuna = {
-		graphical_culture = zunagfx
-		secondary_graphical_culture = desertgfx
+		graphical_culture = zunagfx 
 
 		color = { 0 1 0.5 }
 		
@@ -1081,8 +1084,7 @@ deku = {
 }
 blin = {
 	bokoblin = {
-		graphical_culture = bokogfx # portraits
-		second_graphical_culture = blingfx # buildings, portraits, units
+		graphical_culture = bokogfx # portraits 
 
 		horde = yes 		
 		parent = demon	
@@ -1103,8 +1105,7 @@ blin = {
 
 	}
  	bulblin = {
-		graphical_culture = bulgfx # portraits
-		second_graphical_culture = blingfx # buildings, portraits, units
+		graphical_culture = bulblingfx # portraits 
 				
 		horde = yes 
 		parent = demon	
@@ -1125,8 +1126,7 @@ blin = {
 
 	}
 	moblin = {
-		graphical_culture = mobgfx # portraits
-		second_graphical_culture = blingfx # buildings, portraits, units
+		graphical_culture = moblingfx # portraits 
 		
 		horde = yes 
 		parent = demon	
@@ -1151,8 +1151,7 @@ blin = {
 lfos = {
 
 	aeralfos = {
-		graphical_culture = aeragfx # portraits
-		second_graphical_culture = lizardgfx # buildings, portraits, units
+		graphical_culture = aeralfosgfx # portraits 
 		
 		horde = yes 
 		parent = demon	
@@ -1174,8 +1173,7 @@ lfos = {
 
 	}
 	dinolfos = {
-		graphical_culture = dinogfx # portraits
-		second_graphical_culture = lizardgfx # buildings, portraits, units
+		graphical_culture = dinoflosgfx # portraits 
 				
 		horde = yes 
 		parent = demon	
@@ -1206,8 +1204,7 @@ lfos = {
 
 	}
 	lizalfos = {
-		graphical_culture = lizagfx # portraits
-		second_graphical_culture = lizardgfx # buildings, portraits, units
+		graphical_culture = lizalfosgfx # portraits 
 
 		horde = yes 
 		parent = demon		
@@ -1230,8 +1227,7 @@ lfos = {
 
 	}
 	tokay = {
-		graphical_culture = tokaygfx
-		secondary_graphical_culture = lizardgfx
+		graphical_culture = tokaygfx 
 		
 		color = { 0.24 0.8 0.7 }
 		
@@ -1250,8 +1246,7 @@ lfos = {
 }
 undead = {
 	stalfos = {
-		graphical_culture = undeadgfx # portraits
-		second_graphical_culture = hyruleangfx # buildings, portraits, units
+		graphical_culture = undeadgfx # portraits 
 
 		
 		color = { 1 0.98 0.98 }
@@ -1272,8 +1267,7 @@ undead = {
 	} 
 
 	skull_kid = {
-		graphical_culture = skullgfx # portraits
-		second_graphical_culture = dekugfx # buildings, portraits, units
+		graphical_culture = skullkidgfx # portraits 
 		parent = baga_tree		
 
 		color = { 0.48 1 0.48 }	
@@ -1293,12 +1287,77 @@ undead = {
 		allow_looting = yes 
 	}
 }
-dark_interloper = {
 
+other_world = {
+
+	undead_ikanan = {
+
+		graphical_culture = cursedgfx # portraits 
+
+		parent = ikanan
+		used_for_random = no 
+
+		color = { 0.94 0.5 0.5 }
+		
+		male_names = {
+		Keeta Igos Kiza Zol Shaka Kaun Amoka Keel Kun Gatos Kekos Kolamah Gotakos Zoss Kotah Geel Kozus Kaulatal Gauh Goran Koros Zess Kalal Ietah Zil Irah Igoss Gomas Atila Gazol Atata Nalon Karus Iruss Namuss Noza Neema Kegoss Narol Naloka Naliza Aruss Gauraka Gauzeza Azera Amola Gola Golos Kelan Kah Gauzol Nauruh Noma Azuss Kauka Zama Zira Noman Kumama Kamegra Gila Ikaka Aleel Notala Shogala SHuss Kiruss Zotaura Gaugas Kazaus Gauma Iezan Izuss Kagol Komuh Komeh Nalaka Gotah Aruh Koza Aras Shura Zamis Kauma Akala Zoka Zaura Karah Komola Narah Iemah Shola Kautah Itula Nomoh Gauzel Aizah Zaman Gaun Zakoka
+		}
+		female_names = {
+		Gomess Kamura Aikara Naroh Iegra Ala Gauza Igras Kara Zara Aira Gauka Iemara Kagal Ketah Zas Kima Shara Imoma Atara Kaula Kagalal Kaga Ateel Kokuss Amekoza Ila Ira Nalol Zakuh Irola Ikuss Noka Nales Koma Gora Kass Ireel Shaka Nalareh Aigah Gata Gauzoga Kauman Kola Nura Zomuh Akema Ireeka Ireteel Aitas Ieran Kota Karess Gauzal Imara Nalas Gaura Keela Igra Arara Zeer Gauzan Naza Keka Qauss Galaura Katah Garikara Gaurah Atora Iekola Ikoma Kitah Aka Gaula Aikora Shama Gura Kagema Nirura Zautera Karera Nagoss Gama Atama Nama Zoma Akah Kakah Naruss Guss Aizan Gaula Kala Gauta Nola Irara Gaga Kuss
+		}
+		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "du "
+		male_patronym = "dun"
+		female_patronym = "dutor"
+		prefix = no
+				
+		modifier = default_culture_modifier
+
+	}
+	#Readopted Goddesses/Goddess of Time
+	ikanan = {
+
+		graphical_culture = ikaniangfx # portraits
+ 
+		used_for_random = no 
+
+		color = { 0.94 0.5 0.5 }
+		
+		male_names = {
+		Keeta Igos Kiza Zol Shaka Kaun Amoka Keel Kun Gatos Kekos Kolamah Gotakos Zoss Kotah Geel Kozus Kaulatal Gauh Goran Koros Zess Kalal Ietah Zil Irah Igoss Gomas Atila Gazol Atata Nalon Karus Iruss Namuss Noza Neema Kegoss Narol Naloka Naliza Aruss Gauraka Gauzeza Azera Amola Gola Golos Kelan Kah Gauzol Nauruh Noma Azuss Kauka Zama Zira Noman Kumama Kamegra Gila Ikaka Aleel Notala Shogala SHuss Kiruss Zotaura Gaugas Kazaus Gauma Iezan Izuss Kagol Komuh Komeh Nalaka Gotah Aruh Koza Aras Shura Zamis Kauma Akala Zoka Zaura Karah Komola Narah Iemah Shola Kautah Itula Nomoh Gauzel Aizah Zaman Gaun Zakoka
+		}
+		female_names = {
+		Gomess Kamura Aikara Naroh Iegra Ala Gauza Igras Kara Zara Aira Gauka Iemara Kagal Ketah Zas Kima Shara Imoma Atara Kaula Kagalal Kaga Ateel Kokuss Amekoza Ila Ira Nalol Zakuh Irola Ikuss Noka Nales Koma Gora Kass Ireel Shaka Nalareh Aigah Gata Gauzoga Kauman Kola Nura Zomuh Akema Ireeka Ireteel Aitas Ieran Kota Karess Gauzal Imara Nalas Gaura Keela Igra Arara Zeer Gauzan Naza Keka Qauss Galaura Katah Garikara Gaurah Atora Iekola Ikoma Kitah Aka Gaula Aikora Shama Gura Kagema Nirura Zautera Karera Nagoss Gama Atama Nama Zoma Akah Kakah Naruss Guss Aizan Gaula Kala Gauta Nola Irara Gaga Kuss
+		}
+		
+		dukes_called_kings = no
+		
+		male_patronym = "dun"
+		female_patronym = "dutor"
+		prefix = no
+
+		modifier = default_culture_modifier
+
+	} 
+	lorulean = {
+
+		graphical_culture = loliangfx # portraits
+		#inverse hair of hyrulean, more (sickly almost) pale
+		used_for_random = no 
+
+		color = { 0.58 0 0.83 }
+
+		male_names = {
+		Yuga Ravio Dampe Mandala Raigozu Beelow Hinox Arrghus Gretule Gigabari Grinexx Squry Orog Ralos Sqolde Hidix Mirudo Abage Sqane Sampaw Azege Atird Ceeg Araxx Senis Sqole Rado Grid Mugio Vake Digi Sala Balio Redali Grez Yedid Seniw Piged Pigendure Hompe Hurio Pigos Atint Vodu Sazex Grina Groldos Ragna Bagna Aloneka Gaula Sampu Ataku Higna Herurena Ranido Pavigna Pinerolma Alitidi Migado Belignidu Validu Sampiled Goki Hileke Yebagula Vutrona Alode Yegas Aluvio Sedeeg Pigi Siela Oluke Hadu Sgedu Alini Gredu Atate Hery Bitige Vauze Hery Roke Peeg Pigox Alonas Munabi Pinalabi Adiza Senad Varos Sqori Sqoras Grido Pigiro Hent Saldigi Grix Sirox
+		}
+		female_names = {
+		Hilda Pinant Vird Adele Agnes Bettina Cora Friederike Gertraud Lilo Mitzi Petra Sandra Vilma Page Abi Grigereza Migna Serabi Vadina Arotula Sittala Cina Bila Gena Akena Veela Beza Hagna Ovinula Yegelazerd Pigini Pigna Anola Pelana Azotta Yegura Gurila Sela Cana Bize Bildi Dakage Atexx Aredo Anina Grivu Almure Higod Yalina Creedira Ceveed Saula Melena Gienalird Ragna Vola Laligna Rena Vigigna Alira Grore Daido Atax Mugna Vilidu Yegake Pigeera Belmula Gatza Pala Grolde Higili Viena Yorina Hotird Hidula Alara Hadula Meguna Pina Vaiw Lira Sagova Yona Hileke Yebagula Vutrona Aloda Yegini Orolu Higeg Mena Pittigna Aluliga Alevi ALuka Vaunes Rigna Sirint
+		}
+	}
 	twili = {
-		graphical_culture = twiligfx # portraits
-		second_graphical_culture = twiligfx # buildings, portraits, units
-		parent = dark_interloper 
+		graphical_culture = twiligfx # portraits 
 
 		#special event
 		used_for_random = no 
@@ -1333,75 +1392,42 @@ dark_interloper = {
 
 	}
 }
-terminia = {	
-	undead_ikanan = {
+dead_cultures = {
+	skylofter = {
+		graphical_culture = skyliangfx 
 
-		graphical_culture = cursedgfx # portraits
-		second_graphical_culture = ikanangfx # buildings, portraits, units
-#chinese
+		parent = hylian
 
-		parent = ikanan
-		used_for_random = no 
+		used_for_random = no
 
-		color = { 0.94 0.5 0.5 }
-		
+		color = { 0.8 0.36 0.36 }
+
 		male_names = {
-		Keeta Igos Kiza Zol Shaka Kaun Amoka Keel Kun Gatos Kekos Kolamah Gotakos Zoss Kotah Geel Kozus Kaulatal Gauh Goran Koros Zess Kalal Ietah Zil Irah Igoss Gomas Atila Gazol Atata Nalon Karus Iruss Namuss Noza Neema Kegoss Narol Naloka Naliza Aruss Gauraka Gauzeza Azera Amola Gola Golos Kelan Kah Gauzol Nauruh Noma Azuss Kauka Zama Zira Noman Kumama Kamegra Gila Ikaka Aleel Notala Shogala SHuss Kiruss Zotaura Gaugas Kazaus Gauma Iezan Izuss Kagol Komuh Komeh Nalaka Gotah Aruh Koza Aras Shura Zamis Kauma Akala Zoka Zaura Karah Komola Narah Iemah Shola Kautah Itula Nomoh Gauzel Aizah Zaman Gaun Zakoka
+			Madas Beedle Bertie Cawlin Croo Dovos Fledge Dodoh Eagus Groose Gaepora Gondo Goselle Horwell Jakamar Keet Owlan Parrow Peater Pum Peatric Rupin Rusta Sparrot Stritch Timamo Rha Ostich Turk Malo Caper Spur Trag Shellduck Gadwell Wigein Malerd Scoter Scop Skoter Smew Auc Fullmer Greb Jaberu Ribis Herin Bitern Cormerant Shrag Anhenga Karacara Felcon Merlen Egle Sparow Hawk Busterd Kage Krake Kroot Frinfoot Kempken Curloow Sheethbill Pluver Strilt Ebisbill Avoset Wribill Grodwit Drowitcher Whymbrel Tatler Dunllin Ruf Not Grull Turn Rauk Rauclet Prigeon Crockatoo Mucaw Hroatzi Turraco Cukroo Kool Swift Trogun Quetzel Kooka Trody Motmoot Hopoe Tinker Flicker Manacin Schifronis Wren Shrike Gallito Tapaculo Canastero Hornero Rayadito Viro Gelepaio Lerk Rok
 		}
 		female_names = {
-		Gomess Kamura Aikara Naroh Iegra Ala Gauza Igras Kara Zara Aira Gauka Iemara Kagal Ketah Zas Kima Shara Imoma Atara Kaula Kagalal Kaga Ateel Kokuss Amekoza Ila Ira Nalol Zakuh Irola Ikuss Noka Nales Koma Gora Kass Ireel Shaka Nalareh Aigah Gata Gauzoga Kauman Kola Nura Zomuh Akema Ireeka Ireteel Aitas Ieran Kota Karess Gauzal Imara Nalas Gaura Keela Igra Arara Zeer Gauzan Naza Keka Qauss Galaura Katah Garikara Gaurah Atora Iekola Ikoma Kitah Aka Gaula Aikora Shama Gura Kagema Nirura Zautera Karera Nagoss Gama Atama Nama Zoma Akah Kakah Naruss Guss Aizan Gaula Kala Gauta Nola Irara Gaga Kuss
+			Zelda Greba Henya Karane Kina Kukiel Luv Mallara Orielle Peatrice Piper Wyrna Tinamo Rhe Kewe Eme Cassower Kiki Chacha Laca Gean Qail Kaperkailly Kaily Partrydg Pea Neen Teel Pokard Pitril Preon Flamengo Ibes Igret Peli Garnnet Kisrtrel Ospry Kitee Bisra Koraan Meset Serema Rael Sora Takah Sungrebe Brolga Jakana Pratincol Nody Skoa Pufin DoveAuc Auclet Kakapoo Kia Korella Gralah Loriceet Yory Rosela Parotlit Poto Pauragoo Swiftlit Topazz Coqotte Inka Huming Puffeg Burra Arakari Barbaet Picult Jakamar Nunlit Asity Pitta Pritta Continga Elania Phoebe Monjita Kiska Pitta Pita Cachalote Cinclodes Xenops Lyr Tui Pardalote Kakako Batis Tchaga Vana Iora Sittela Jey Mag Pia Astrapea Cistycola Petronea Quelia Pitilia Linet Liwy Oropendola Zubora Gabora
 		}
-		
-		dukes_called_kings = no
-		
-		from_dynasty_prefix = "du "
-		male_patronym = "dun"
-		female_patronym = "dutor"
-		prefix = no
-				
+						
 		modifier = default_culture_modifier
-
 	}
-	#Readopted Goddesses/Goddess of Time
-	ikanan = {
 
-		graphical_culture = ikaniangfx # portraits
-		second_graphical_culture = ikaniangfx # buildings, portraits, units
-		used_for_random = no 
+	hylian = {
 
-		color = { 0.94 0.5 0.5 }
+	graphical_culture = hyruleangfx
+
+	#parent = NONE the first humans 
+
+	color = { 0.63 0.13 0.94 }
 		
-		male_names = {
-		Keeta Igos Kiza Zol Shaka Kaun Amoka Keel Kun Gatos Kekos Kolamah Gotakos Zoss Kotah Geel Kozus Kaulatal Gauh Goran Koros Zess Kalal Ietah Zil Irah Igoss Gomas Atila Gazol Atata Nalon Karus Iruss Namuss Noza Neema Kegoss Narol Naloka Naliza Aruss Gauraka Gauzeza Azera Amola Gola Golos Kelan Kah Gauzol Nauruh Noma Azuss Kauka Zama Zira Noman Kumama Kamegra Gila Ikaka Aleel Notala Shogala SHuss Kiruss Zotaura Gaugas Kazaus Gauma Iezan Izuss Kagol Komuh Komeh Nalaka Gotah Aruh Koza Aras Shura Zamis Kauma Akala Zoka Zaura Karah Komola Narah Iemah Shola Kautah Itula Nomoh Gauzel Aizah Zaman Gaun Zakoka
+	used_for_random = no
+
+	male_names = {
+			Link Orville Dagianis Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlfov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Stockwell Sturgeon Zill Wheaton Bremor Brent Doyle Mack Mutoh David Rauru Ichiro Jiro Sabbooro Shiro Guru-Guru Guru Grog Ingo Sakon Jovani Kamaro Baito Brac Bremor Dayle Darling Kafei Mack Dotour Barten Shikashi Coro Barnes Shar Auru Falbi Fyer Charlo Chudley Jovani Pulo Soal Kaepora Gaebora Harkinian Daphnes Nohen Gulley Osfala Rosso Sahasrahla Akazoo Kazakk Daphnes Arthon Atrinas Aginah Bagu Mario Luigi Chrom
 		}
-		female_names = {
-		Gomess Kamura Aikara Naroh Iegra Ala Gauza Igras Kara Zara Aira Gauka Iemara Kagal Ketah Zas Kima Shara Imoma Atara Kaula Kagalal Kaga Ateel Kokuss Amekoza Ila Ira Nalol Zakuh Irola Ikuss Noka Nales Koma Gora Kass Ireel Shaka Nalareh Aigah Gata Gauzoga Kauman Kola Nura Zomuh Akema Ireeka Ireteel Aitas Ieran Kota Karess Gauzal Imara Nalas Gaura Keela Igra Arara Zeer Gauzan Naza Keka Qauss Galaura Katah Garikara Gaurah Atora Iekola Ikoma Kitah Aka Gaula Aikora Shama Gura Kagema Nirura Zautera Karera Nagoss Gama Atama Nama Zoma Akah Kakah Naruss Guss Aizan Gaula Kala Gauta Nola Irara Gaga Kuss
-		}
-		
-		dukes_called_kings = no
-		
-		male_patronym = "dun"
-		female_patronym = "dutor"
-		prefix = no
 
-		modifier = default_culture_modifier
-
-	}
-}
-lolian = {
-	lorulean = {
-
-		graphical_culture = loliangfx # portraits
-
-		used_for_random = no 
-
-		color = { 0.58 0 0.83 }
-
-		male_names = {
-		Yuga Ravio Dampe Mandala Raigozu
-		}
-		female_names = {
-		Hilda
+	female_names = {
+			Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Leila Mama Marcy Pina Pita Maggie Paige Sheila Tina Verona Honey Marilla Judo Cremia Epona Romani Pamela Ashei Iza Hena Agitha Kili Hanna Misha Fanadi Telma Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Aryll Rose Sue-Belle Sue Belle Gillian Joanna Potova Linda Maggie Milia Minenco Missey Pompie Peach Daisy Rosalina Lissa Lucinia Emmeryn Hylia Linkette Yelda
 		}
 	}
 }

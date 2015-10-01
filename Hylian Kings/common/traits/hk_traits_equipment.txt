@@ -1,3 +1,14 @@
+#unique items
+
+mask_truth = {
+	intrigue = 5
+	
+}
+
+lens_truth = {
+	intrigue = 10
+}
+#companions
 fairy_companion = {
 	martial = 2
 	intrigue = 2
@@ -13,6 +24,7 @@ piccori_companion = {
 fairy_bottled = {
 }
 
+#armor
 mail = {
 	martial = 1
 	command_modifier = {
@@ -27,14 +39,7 @@ bomb_bag = {
 	}
 }
 #magic
-mask_truth = {
-	intrigue = 5
-	
-}
 
-lens_truth = {
-	intrigue = 10
-}
 sand_rod = {
 	command_modifier = {
 	}

@@ -4,8 +4,8 @@ goddesses_religion = {
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	graphical_culture = norsegfx
 
-	ai_convert_same_group = 1 # converts if zealous
-	ai_convert_other_group = 1 # converts if zealous 
+	ai_convert_same_group = 0 # never
+	ai_convert_other_group = 0 # never 
 
 		male_names = {
 	Eldin Lanayru Levias
@@ -272,7 +272,8 @@ guardian_deity = {
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 
-	ai_convert_same_group = 1 # Never Converts	ai_convert_other_group  = 1 # Only Zealous Convert
+	ai_convert_same_group = 0 # never
+	ai_convert_other_group = 0 # never 
 
 	male_names = {Oshus Leaf Jabu Jabun Valoo Deku Maku}
 	female_names = {Neri Ciela}
@@ -436,7 +437,8 @@ minor_deity = {
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 
-	ai_convert_same_group = 1 # Never Converts	ai_convert_other_group  = 1 # Only Zealous Convert
+	ai_convert_same_group = 0 # never
+	ai_convert_other_group = 0 # never 
 
 	male_names = { Zephos Cyclos}
 
@@ -801,8 +803,8 @@ demon_religion = {
 	playable = yes
 	ai_peaceful = no # Hordes do not lose number	
 
-	ai_convert_same_group = 2 # always try to convert
-	ai_convert_other_group  = 1 # always try to convert
+	ai_convert_same_group = 1 # only if zelous
+	ai_convert_other_group  = 2 # always try to convert
 	
 
 	male_names = {
@@ -1048,7 +1050,8 @@ demon_religion = {
 doctrine = {
 	has_coa_on_barony_only = yes
 	playable = yes
-	ai_peaceful = no # Hordes do not lose number	
+	ai_peaceful = no # Hordes do not lose number
+	
 	ai_convert_same_group = 0 # Never
 	ai_convert_other_group  = 0 # Nope
 
@@ -1130,15 +1133,23 @@ doctrine = {
 		intermarry = gerudo_goddess
 	}
 }
-twili_religion = {
-	has_coa_on_barony_only = yes
-	playable = yes
-	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
-	
+
+alien_religion
 	ai_convert_same_group = 1 # always try to convert
-	ai_convert_other_group  = 1 # always try to convert
-	male_names = {Sol}
-	female_names = {Solaria}
+	ai_convert_other_group  = 0 # always try to convert
+
+	male_names = {Sol Majora}
+	female_names = {Solaria Majora Lolia Jin Raron Mayru}
+
+	goddesses_lorule =
+	}
+	lolia	 = {
+		parent = goddesses_lorule
+	}
+	helmasaur_king = {
+		parent = goddesses_lorule
+	}
+
 	sol_religion = {
 		graphical_culture = mesoamericangfx
 
@@ -1188,18 +1199,7 @@ twili_religion = {
 		can_loot = yes
 				
 	}
-}
 
-termina = {
-	has_coa_on_barony_only = yes
-	graphical_culture = norsegfx
-	crusade_cb = crusade
-	playable = yes
-	ai_peaceful = no 
-	
-	ai_convert_same_group = 2 # always try to convert
-	ai_convert_other_group  = 2 # always try to convert
-	
 	goddess_of_time = {
 		graphical_culture = norsegfx
 
@@ -1292,4 +1292,3 @@ termina = {
 		aggression = 2		
 	}
 }
-
