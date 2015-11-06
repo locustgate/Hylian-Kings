@@ -236,9 +236,7 @@ castle = {
 	ca_keep_1 = {
 		desc = ca_keep_1_desc
 		potential = {	
-			NOR = {			
-				culture_group = goron_group
-				culture_group = lfos
+			NOR = { 
 				culture_group = deku
 			}
 		}
@@ -255,9 +253,7 @@ castle = {
 	ca_keep_2 = {
 		desc = ca_keep_1_desc
 		potential = {	
-			NOR = {			
-				culture_group = goron_group
-				culture_group = lfos
+			NOR = { 
 				culture_group = deku
 			}
 		}
@@ -275,9 +271,7 @@ castle = {
 	ca_keep_3 = {
 		desc = ca_keep_1_desc
 		potential = {	
-			NOR = {			
-				culture_group = goron_group
-				culture_group = lfos
+			NOR = { 
 				culture_group = deku
 			}
 		}
@@ -295,9 +289,7 @@ castle = {
 	ca_keep_4 = {	
 		desc = ca_keep_1_desc
 		potential = {	
-			NOR = {			
-				culture_group = goron_group
-				culture_group = lfos
+			NOR = { 
 				culture_group = deku
 			}
 		}
@@ -314,9 +306,7 @@ castle = {
 	ca_keep_5 = {
 		desc = ca_keep_1_desc
 		potential = {	
-			NOR = {			
-				culture_group = goron_group
-				culture_group = lfos
+			NOR = { 
 				culture_group = deku
 			}
 		}
@@ -333,9 +323,7 @@ castle = {
 	ca_keep_6 = {
 		desc = ca_keep_1_desc
 		potential = {	
-			NOR = {			
-				culture_group = goron_group
-				culture_group = lfos
+			NOR = { 
 				culture_group = deku
 			}
 		}
@@ -844,9 +832,7 @@ castle = {
 	ca_shipyard_1 = {
 		desc = shipyard_desc
 		potential = {
-			NOR = {				
-				culture_group = goron_group
-				culture_group = lfos
+			NOR = {
 				culture_group = deku
 			}
 		}
@@ -863,9 +849,7 @@ castle = {
 	ca_shipyard_2 = {
 		desc = shipyard_desc
 		potential = {
-			NOR = {				
-				culture_group = goron_group
-				culture_group = lfos
+			NOR = { 
 				culture_group = deku
 			}
 		}
@@ -883,9 +867,7 @@ castle = {
 	ca_shipyard_3 = {
 		desc = shipyard_desc
 		potential = {
-			NOR = {				
-				culture_group = goron_group
-				culture_group = lfos
+			NOR = { 
 				culture_group = deku
 			}
 		}
@@ -903,9 +885,7 @@ castle = {
 	ca_shipyard_4 = {
 		desc = shipyard_desc
 		potential = {
-			NOR = {				
-				culture_group = goron_group
-				culture_group = lfos
+			NOR = { 
 				culture_group = deku
 			}
 		}
@@ -1018,10 +998,12 @@ city = {
 
 	ct_wall_1 = {
 		desc = ca_wall_1_desc
-		potential = {				
+		potential = {
+			NOR = {				
 				culture_group = goron_group}
 				culture_group = lfos}
 				culture_group = deku}
+			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
 		gold_cost = 50
@@ -1035,10 +1017,12 @@ city = {
 	}
 	ct_wall_2 = {
 		desc = ca_wall_2_desc
-		potential = {				
+		potential = {
+			NOR = {				
 				culture_group = goron_group}
 				culture_group = lfos}
 				culture_group = deku}
+			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
 		upgrades_from = ct_wall_1
@@ -1053,11 +1037,14 @@ city = {
 	}
 	ct_wall_3 = {
 		desc = ct_wall_3_desc
-		potential = {				
+		potential = {
+			NOR = {				
 				culture_group = goron_group}
 				culture_group = lfos}
 				culture_group = deku}
+			}
 		}
+
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
 		upgrades_from = ct_wall_2
 		gold_cost = 100
@@ -1071,10 +1058,12 @@ city = {
 	}
 	ct_wall_4 = {
 		desc = ct_wall_4_desc
-		potential = {				
+		potential = {
+			NOR = {				
 				culture_group = goron_group}
 				culture_group = lfos}
 				culture_group = deku}
+			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
 		upgrades_from = ct_wall_3
@@ -1089,10 +1078,12 @@ city = {
 	}
 	ct_wall_5 = {
 		desc = ct_wall_5_desc
-		potential = {				
+		potential = {
+			NOR = {				
 				culture_group = goron_group}
 				culture_group = lfos}
 				culture_group = deku}
+			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
 		upgrades_from = ct_wall_4
@@ -1109,9 +1100,11 @@ city = {
 	# Merchant Republic Arsenal
 	ct_rep_arsenal_1 = {
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+			}
 			FROM = { 
 				AND = {
 					capital_holding = {
@@ -1135,9 +1128,11 @@ city = {
 	}
 	ct_rep_arsenal_2 = {
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+			}
 			FROM = { 
 				AND = {
 					capital_holding = {
@@ -1162,9 +1157,11 @@ city = {
 	}
 	ct_rep_arsenal_3 = {
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+			}
 			FROM = { 
 				AND = {
 					capital_holding = {
@@ -1174,6 +1171,7 @@ city = {
 				}
 			}
 		}
+
 		upgrades_from = ct_rep_arsenal_2
 		trigger = { TECH_CITY_CONSTRUCTION = 7 }
 		desc = "#ct_rep_arsenal_3_desc"
@@ -1191,9 +1189,11 @@ city = {
 	ct_training_grounds_1 = {
 		desc = ct_training_grounds_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
 		gold_cost = 150
@@ -1207,9 +1207,11 @@ city = {
 	ct_training_grounds_2 = {
 		desc = ct_training_grounds_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_1 }
@@ -1225,9 +1227,11 @@ city = {
 	ct_training_grounds_3 = {
 		desc = ct_training_grounds_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
 		upgrades_from = ct_training_grounds_2
@@ -1242,9 +1246,11 @@ city = {
 	ct_training_grounds_4 = {
 		desc = ct_training_grounds_1_desc	
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
 		upgrades_from = ct_training_grounds_3
@@ -1259,10 +1265,13 @@ city = {
 	ct_training_grounds_5 = {
 		desc = ct_training_grounds_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+			}
 		}
+
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
 		upgrades_from = ct_training_grounds_4
 		gold_cost = 500
@@ -1276,9 +1285,11 @@ city = {
 	ct_training_grounds_6 = {
 		desc = ct_training_grounds_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
 		upgrades_from = ct_training_grounds_5
@@ -1294,9 +1305,12 @@ city = {
 	ct_barracks_1 = {
 		desc = ct_barracks_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture = darknut
+			}
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -1310,9 +1324,12 @@ city = {
 	ct_barracks_2 = {
 		desc = ct_barracks_2_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture = darknut
+			}
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_1 }
@@ -1328,9 +1345,12 @@ city = {
 	ct_barracks_3 = {
 		desc = ct_barracks_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture = darknut
+			}
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 1 }
 		prerequisites = { ct_wall_2 }
@@ -1346,9 +1366,12 @@ city = {
 	ct_barracks_4 = {
 		desc = ct_barracks_2_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture = darknut
+			}
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 3 }
 		upgrades_from = ct_barracks_3
@@ -1363,10 +1386,14 @@ city = {
 	ct_barracks_5 = {
 		desc = ct_barracks_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture = darknut
+			}
 		}
+
 		trigger = { TECH_CITY_CONSTRUCTION = 5 }
 		upgrades_from = ct_barracks_4
 		gold_cost = 400
@@ -1380,9 +1407,12 @@ city = {
 	ct_barracks_6 = {
 		desc = ct_barracks_2_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture = darknut
+			}
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 7 }
 		upgrades_from = ct_barracks_5
@@ -1398,9 +1428,12 @@ city = {
 	ct_guard_1 = {
 		desc = ct_guard_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture = darknut
+			}
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -1413,9 +1446,12 @@ city = {
 	ct_guard_2 = {
 		desc = ct_guard_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture = darknut
+			}
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 2 }
 		prerequisites = { ct_wall_1 }
@@ -1430,9 +1466,12 @@ city = {
 	ct_guard_3 = {
 		desc = ct_guard_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture = darknut
+			}
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 4 }
 		prerequisites = { ct_wall_2 }
@@ -1447,9 +1486,12 @@ city = {
 	ct_guard_4 = {
 		desc = ct_guard_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture = darknut
+			}
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 6 }
 		upgrades_from = ct_guard_3
@@ -1463,9 +1505,12 @@ city = {
 	ct_guard_5 = {
 		desc = ct_guard_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture = darknut
+			}
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 8 }
 		upgrades_from = ct_guard_4
@@ -1480,9 +1525,11 @@ city = {
 	ct_port_1 = {
 		desc = ct_port_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOT = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+			}
 		}
 		port = yes
 		trigger = { TECH_TRADE_PRACTICES = 0 }
@@ -1496,9 +1543,11 @@ city = {
 	ct_port_2 = {
 		desc = ct_port_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOT = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+			}
 		}
 		port = yes
 		trigger = { TECH_TRADE_PRACTICES = 1 }
@@ -1514,9 +1563,11 @@ city = {
 	ct_port_3 = {
 		desc = ct_port_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOT = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+			}
 		}
 		port = yes
 		trigger = { TECH_TRADE_PRACTICES = 3 }
@@ -1532,9 +1583,11 @@ city = {
 	ct_port_4 = {
 		desc = ct_port_1_desc
 		potential = {
-					culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOT = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+			}
 		}
 		port = yes
 		trigger = { TECH_TRADE_PRACTICES = 4 }
@@ -1549,9 +1602,11 @@ city = {
 	ct_port_5 = {
 		desc = ct_port_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOT = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+			}
 		}
 		port = yes
 		trigger = { TECH_TRADE_PRACTICES = 6 }
@@ -1567,9 +1622,9 @@ city = {
 	ct_shipyard_1 = {
 		desc = shipyard_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOT = { 
+				culture_group = deku
+			}
 		}
 		port = yes
 		trigger = { TECH_NAVAL = 1 }
@@ -1584,9 +1639,9 @@ city = {
 	ct_shipyard_2 = {
 		desc = shipyard_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOT = { 
+				culture_group = deku
+			}
 		}
 		port = yes
 		trigger = { TECH_NAVAL = 2 }
@@ -1602,9 +1657,9 @@ city = {
 	ct_shipyard_3 = {
 		desc = shipyard_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOT = { 
+				culture_group = deku
+			}
 		}
 		port = yes
 		trigger = { TECH_NAVAL = 3 }
@@ -1620,9 +1675,9 @@ city = {
 	ct_shipyard_4 = {
 		desc = shipyard_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
+			NOT = { 
+				culture_group = deku
+			}
 		}
 		port = yes
 		trigger = { TECH_NAVAL = 4 }
@@ -1638,9 +1693,11 @@ city = {
 	ct_education_1 = {
 		desc = ct_education_1_desc
 		potential = {
-				culture = horon
-				culture = hyrulean
-				culture = labrynan
+			OR = {
+				culture_group = hylian
+				culture_group = round_eared
+				culture_group = lost_tribe
+			}
 		}
 
 		trigger = { TECH_CITY_CONSTRUCTION = 2 }
@@ -1657,9 +1714,11 @@ city = {
 	ct_education_2 = {
 		desc = ct_education_2_desc
 		potential = {
-				culture = horon
-				culture = hyrulean
-				culture = labrynan
+			OR = {
+				culture_group = hylian
+				culture_group = round_eared
+				culture_group = lost_tribe
+			}
 		}
 
 		trigger = { TECH_CITY_CONSTRUCTION = 4 }
@@ -1677,9 +1736,11 @@ city = {
 	ct_education_3 = {
 		desc = ct_education_3_desc
 		potential = {
-				culture = horon
-				culture = hyrulean
-				culture = labrynan
+			OR = {
+				culture_group = hylian
+				culture_group = round_eared
+				culture_group = lost_tribe
+			}
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 8 }
 		upgrades_from = ct_education_2
@@ -1693,16 +1754,17 @@ city = {
 
 		extra_tech_building_start = 0.2
 	}
-#market,stalls,shops
+#marketsquar,shops,distric
 	ct_economy_1 = {
 		desc = ct_economy_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
-				culture_group = undead}
-
-				culture = undead_ikanan}
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture_group = undead
+				culture = undead_ikanan
+			}
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -1716,12 +1778,13 @@ city = {
 	ct_economy_2 = {
 		desc = ct_economy_2_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
-				culture_group = undead}
-				culture = undead_ikanan}
-
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture_group = undead
+				culture = undead_ikanan
+			}
 		}
 		prerequisites = { ct_wall_1 }
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
@@ -1737,12 +1800,13 @@ city = {
 	ct_economy_3 = {
 		desc = ct_economy_3_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
-				culture_group = undead}
-				culture = undead_ikanan}
-
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture_group = undead
+				culture = undead_ikanan
+			}
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 1 }
 		prerequisites = { ct_wall_2 }
@@ -1759,12 +1823,13 @@ city = {
 	ct_agriculture_1 = {
 		desc = ct_agriculture_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
-				culture_group = undead}
-				culture = undead_ikanan}
-
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture_group = undead
+				culture = undead_ikanan
+			}
 				terrain = plains
 				terrain = farmlands 
 		}
@@ -1781,12 +1846,13 @@ city = {
 	ct_agriculture_2 = {
 		desc = ct_agriculture_2_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
-				culture_group = undead}
-				culture = undead_ikanan}
-
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture_group = undead
+				culture = undead_ikanan
+			}
 				terrain = plains
 				terrain = farmlands
 
@@ -1805,12 +1871,13 @@ city = {
 	ct_agriculture_3 = {
 		desc = ct_agriculture_3_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
-				culture_group = undead}
-				culture = undead_ikanan}
-
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture_group = undead
+				culture = undead_ikanan
+				}
 			terrain = plains
 			terrain = farmlands
 		}
@@ -1829,12 +1896,13 @@ city = {
 	ct_forestry_1 = {
 		desc = ct_forestry_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
-				culture = undead_ikanan}
-				culture_group = undead}
-
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture = undead_ikanan
+				culture_group = undead
+				}
 				terrain = forest
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
@@ -1849,12 +1917,13 @@ city = {
 	ct_forestry_2 = {
 		desc = ct_forestry_2_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
-				culture_group = undead}
-				culture = undead_ikanan}
-
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture = undead_ikanan
+				culture_group = undead
+				}
 				terrain = forest
 		}
 		prerequisites = { ct_wall_1 }
@@ -1871,12 +1940,13 @@ city = {
 	ct_forestry_3 = {
 		desc = ct_forestry_3_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
-				culture_group = deku}
-				culture_group = undead}
-				culture = undead_ikanan}
-
+			NOR = {
+				culture_group = goron_group
+				culture_group = lfos
+				culture_group = deku
+				culture = undead_ikanan
+				culture_group = undead
+				}
 				terrain = forest
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 1 }
@@ -1978,8 +2048,6 @@ temple = {
 	tp_wall_1 = {
 		desc = ca_wall_1_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
 				culture_group = deku}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
@@ -1995,8 +2063,6 @@ temple = {
 	tp_wall_2 = {
 		desc = ca_wall_2_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
 				culture_group = deku}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
@@ -2013,8 +2079,6 @@ temple = {
 	tp_wall_3 = {
 		desc = tp_wall_3_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
 				culture_group = deku}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
@@ -2031,8 +2095,6 @@ temple = {
 	tp_wall_4 = {
 		desc = tp_wall_4_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
 				culture_group = deku}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
@@ -2049,8 +2111,6 @@ temple = {
 	tp_wall_5 = {
 		desc = tp_wall_5_desc
 		potential = {
-				culture_group = goron_group}
-				culture_group = lfos}
 				culture_group = deku}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
@@ -3164,13 +3224,7 @@ tribal = {
 		potential = {
 				NOR = {
 					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
+					culture_group = deku 
 				}
 		}
 
@@ -3190,14 +3244,8 @@ tribal = {
 		desc = tb_market_town_2_desc
 		potential = {
 				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
+					culture = darknut 
+					culture_group = deku 
 				}
 		}
 
@@ -3220,14 +3268,8 @@ tribal = {
 		desc = tb_market_town_3_desc
 		potential = {
 				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
+					culture = darknut 
+					culture_group = deku 
 				}
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 1 }
@@ -3248,13 +3290,8 @@ tribal = {
 		potential = {
 				NOR = {
 					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
 					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
+ 
 				}
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 1 }
@@ -3275,15 +3312,8 @@ tribal = {
 	tb_shipyard_1 = {
 		desc = shipyard_desc
 		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
+				NOR = { 
+					culture_group = deku 
 				}
 		}
 		port = yes
@@ -3303,15 +3333,8 @@ tribal = {
 	tb_shipyard_2 = {
 		desc = shipyard_desc
 		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
+				NOR = { 
+					culture_group = deku 
 				}
 		}
 		port = yes
@@ -3332,15 +3355,8 @@ tribal = {
 	tb_shipyard_3 = {
 		desc = shipyard_desc
 		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
+				NOR = { 
+					culture_group = deku 
 				}
 		}
 		port = yes
@@ -3361,15 +3377,8 @@ tribal = {
 	tb_shipyard_4 = {
 		desc = shipyard_desc
 		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
+				NOR = { 
+					culture_group = deku 
 				}
 		}
 		port = yes
@@ -7137,10 +7146,8 @@ nomad = {
 		desc = no_wallet_maker_desc
 		potential = {
 				NOR = {
-					culture = darknut
 					culture_group = lfos
 					culture_group = blin
-					culture_group = goron
 					culture_group = deku
 					culture = lake_zora
 					culture = sea_zora
@@ -7168,10 +7175,8 @@ nomad = {
 		desc = no_wallet_maker_desc
 		potential = {
 				NOR = {
-					culture = darknut
 					culture_group = lfos
 					culture_group = blin
-					culture_group = goron
 					culture_group = deku
 					culture = lake_zora
 					culture = sea_zora
@@ -7201,10 +7206,8 @@ nomad = {
 		desc = no_wallet_maker_desc
 		potential = {
 				NOR = {
-					culture = darknut
 					culture_group = lfos
 					culture_group = blin
-					culture_group = goron
 					culture_group = deku
 					culture = lake_zora
 					culture = sea_zora
@@ -7234,10 +7237,8 @@ nomad = {
 		desc = no_wallet_maker_desc
 		potential = {
 				NOR = {
-					culture = darknut
 					culture_group = lfos
 					culture_group = blin
-					culture_group = goron
 					culture_group = deku
 					culture = lake_zora
 					culture = sea_zora
@@ -7267,10 +7268,8 @@ nomad = {
 		desc = no_wallet_maker_desc
 		potential = {
 				NOR = {
-					culture = darknut
 					culture_group = lfos
 					culture_group = blin
-					culture_group = goron
 					culture_group = deku
 					culture = lake_zora
 					culture = sea_zora
@@ -7300,10 +7299,8 @@ nomad = {
 		desc = no_wallet_maker_desc
 		potential = {
 				NOR = {
-					culture = darknut
 					culture_group = lfos
 					culture_group = blin
-					culture_group = goron
 					culture_group = deku
 					culture = lake_zora
 					culture = sea_zora
@@ -7333,10 +7330,8 @@ nomad = {
 		desc = no_wallet_maker_desc
 		potential = {
 				NOR = {
-					culture = darknut
 					culture_group = lfos
 					culture_group = blin
-					culture_group = goron
 					culture_group = deku
 					culture = lake_zora
 					culture = sea_zora
@@ -7366,10 +7361,8 @@ nomad = {
 		desc = no_wallet_maker_desc
 		potential = {
 				NOR = {
-					culture = darknut
 					culture_group = lfos
 					culture_group = blin
-					culture_group = goron
 					culture_group = deku
 					culture = lake_zora
 					culture = sea_zora

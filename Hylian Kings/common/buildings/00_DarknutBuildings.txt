@@ -13,20 +13,6 @@
  #darknut have less economy and soldiers but far better soldiers (culture                
  #mod
 castle = {
-	ca_gerudotest_1 = {
-		desc = ca_initiat_barracks_1_desc
-		potential = {			
-				culture = darknut
-			FROM = {any_vassal = {culture = gerudo }}
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		gold_cost = 100
-		build_time = 365
-		light_infantry = 40
-		ai_creation_factor = 100
-		
-		extra_tech_building_start = 1.0
-	}
 
 	ca_initiat_barracks_1 = {
 		desc = ca_initiat_barracks_1_desc
@@ -87,10 +73,8 @@ castle = {
 
 	ca_cohort_barracks_1 = {
 		desc = ca_cohort_barracks_1_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -102,10 +86,8 @@ castle = {
 	}
 	ca_cohort_barracks_2 = {
 		desc = ca_cohort_barracks_1_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_1 }
@@ -119,10 +101,8 @@ castle = {
 	}
 	ca_cohort_barracks_3 = {
 		desc = ca_cohort_barracks_1_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		prerequisites = { ca_wall_2 }
@@ -136,11 +116,8 @@ castle = {
 	}
 	ca_cohort_barracks_4 = {
 		desc = ca_cohort_barracks_1_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
 		upgrades_from = ca_cohort_barracks_3
@@ -153,11 +130,8 @@ castle = {
 	}
 	ca_cohort_barracks_5 = {
 		desc = ca_cohort_barracks_1_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-
+		potential = {			
+				culture = darknut
 		}
 
 		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
@@ -170,10 +144,8 @@ castle = {
 	}
 	ca_cohort_barracks_6 = {
 		desc = ca_cohort_barracks_1_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
 		upgrades_from = ca_cohort_barracks_5
@@ -188,11 +160,8 @@ castle = {
 
 	ca_castle_forge_2 = {
 		desc = ca_castle_forge_2_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
+		potential = {			
+				culture = darknut
 		}
 
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -209,12 +178,8 @@ castle = {
 	}
 	ca_castle_forge_3 = {
 		desc = ca_castle_forge_3_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
-				NOT = {culture = undead_ikanan}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		prerequisites = { ca_wall_2 }
@@ -230,12 +195,8 @@ castle = {
 	}
 	ca_castle_forge_4 = {
 		desc = ca_castle_forge_4_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
-				NOT = {culture = undead_ikanan}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ca_castle_forge_3
@@ -250,12 +211,8 @@ castle = {
 	}
 	ca_castle_forge_5 = {
 		desc = ca_castle_forge_4_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
-				NOT = {culture = undead_ikanan}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
 		upgrades_from = ca_castle_forge_4
@@ -270,12 +227,8 @@ castle = {
 	}
 	ca_castle_forge_6 = {
 		desc = ca_castle_forge_5_desc
-		potential = {				
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
-				NOT = {culture = undead_ikanan}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
 		upgrades_from = ca_castle_forge_5
@@ -288,31 +241,46 @@ castle = {
 
 		extra_tech_building_start = 0.2
 	}
+##doctrine aux
+
+	ca_gerudo_auxilary_1 = {
+		desc = ca_initiat_barracks_1_desc
+		potential = {			
+			culture = darknut
+			religion = darknut_doctrine
+			FROM = {any_vassal = {culture = gerudo }}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 40
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
 }
 city = {
 	
 	ct_auxi_barracks_1 = {
 		desc = ct_auxi_barracks_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
+				NOT = {religion = darknut_doctrine}
 		}
 		trigger = { TECH_CITY_CONSTRUCT_AUXIION = 0 }
 		gold_cost = 100
 		build_time = 365
 		pikemen = 60
 		archers = 30
-		ai_creation_fact_auxior = 95
+		ai_creation_factor= 95
 		
 		extra_tech_building_start = 0.5
 	}
 	ct_auxi_barracks_2 = {
 		desc = ct_auxi_barracks_2_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
+				NOT = {religion = darknut_doctrine}
 		}
 		trigger = { TECH_CITY_CONSTRUCT_AUXIION = 0 }
 		prerequisites = { ct_auxi_wall_1 }
@@ -321,16 +289,15 @@ city = {
 		build_time = 547
 		pikemen = 40
 		archers = 70
-		ai_creation_fact_auxior = 94
+		ai_creation_factor= 94
 
 		extra_tech_building_start = 1.0
 	}
 	ct_auxi_barracks_3 = {
 		desc = ct_auxi_barracks_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
+				NOT = {religion = darknut_doctrine}
 		}
 		trigger = { TECH_CITY_CONSTRUCT_AUXIION = 1 }
 		prerequisites = { ct_auxi_wall_2 }
@@ -339,16 +306,15 @@ city = {
 		build_time = 730
 		light_infantry = 80
 		archers = 50
-		ai_creation_fact_auxior = 93
+		ai_creation_factor= 93
 
 		extra_tech_building_start = 1.0
 	}
 	ct_auxi_barracks_4 = {
 		desc = ct_auxi_barracks_2_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
+				NOT = {religion = darknut_doctrine}
 		}
 		trigger = { TECH_CITY_CONSTRUCT_AUXIION = 3 }
 		upgrades_from = ct_auxi_barracks_3
@@ -356,16 +322,15 @@ city = {
 		build_time = 1095
 		light_infantry = 60
 		archers = 90
-		ai_creation_fact_auxior = 92
+		ai_creation_factor= 92
 
 		extra_tech_building_start = 0.2
 	}
 	ct_auxi_barracks_5 = {
 		desc = ct_auxi_barracks_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
+				NOT = {religion = darknut_doctrine}
 		}
 		trigger = { TECH_CITY_CONSTRUCT_AUXIION = 5 }
 		upgrades_from = ct_auxi_barracks_4
@@ -373,16 +338,15 @@ city = {
 		build_time = 2190
 		light_infantry = 100
 		archers = 70
-		ai_creation_fact_auxior = 91
+		ai_creation_factor= 91
 
 		extra_tech_building_start = 0.2
 	}
 	ct_auxi_barracks_6 = {
 		desc = ct_auxi_barracks_2_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
+				NOT = {religion = darknut_doctrine}
 		}
 		trigger = { TECH_CITY_CONSTRUCT_AUXIION = 7 }
 		upgrades_from = ct_auxi_barracks_5
@@ -390,16 +354,14 @@ city = {
 		build_time = 2190
 		light_infantry = 80
 		archers = 110
-		ai_creation_fact_auxior = 90
+		ai_creation_factor= 90
 
 		extra_tech_building_start = 0.2
 	}
 	ct_dishonored_1 = {
 		desc = ct_dishonored_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -411,10 +373,8 @@ city = {
 	}
 	ct_dishonored_2 = {
 		desc = ct_dishonored_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 2 }
 		prerequisites = { ct_wall_1 }
@@ -428,10 +388,8 @@ city = {
 	}
 	ct_dishonored_3 = {
 		desc = ct_dishonored_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 4 }
 		prerequisites = { ct_wall_2 }
@@ -445,10 +403,8 @@ city = {
 	}
 	ct_dishonored_4 = {
 		desc = ct_dishonored_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 6 }
 		upgrades_from = ct_dishonored_3
@@ -461,10 +417,8 @@ city = {
 	}
 	ct_dishonored_5 = {
 		desc = ct_dishonored_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 8 }
 		upgrades_from = ct_dishonored_4
@@ -478,20 +432,15 @@ city = {
 #pit arena,arena,coloseum
 	ct_arena_1 = {
 		desc = ct_arena_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
-				NOT = {culture = undead_ikanan}
-
+		potential = {			
+				culture = darknut
 		}
+
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
 		tax_income = 2
 		light_infantry = 20
-		archers = 30
 		ai_creation_factor = 110
 		add_number_to_name = no
 		
@@ -499,16 +448,8 @@ city = {
 	}
 	ct_arena_2 = {
 		desc = ct_arena_2_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
-				NOT = {culture = undead_ikanan}
-
-				terrain = plains
-				terrain = farmlands
-
+		potential = {			
+				culture = darknut
 		}
 		prerequisites = { ct_wall_1 }
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
@@ -517,7 +458,6 @@ city = {
 		build_time = 547
 		tax_income = 2
 		light_infantry = 40
-		archers = 20
 		heavy_infantry = 10
 		ai_creation_factor = 109
 		add_number_to_name = no
@@ -526,15 +466,8 @@ city = {
 	}
 	ct_arena_3 = {
 		desc = ct_arena_3_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
-				NOT = {culture = undead_ikanan}
-
-			terrain = plains
-			terrain = farmlands
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 1 }
 		prerequisites = { ct_wall_2 }
@@ -543,7 +476,6 @@ city = {
 		build_time = 730
 		tax_income = 2
 		light_infantry = 50
-		archers = 30
 		heavy_infantry = 20
 		ai_creation_factor = 108
 		add_number_to_name = no
@@ -554,10 +486,8 @@ city = {
 temple = {
 	tp_initiat_1 = {
 		desc = tp_initiat_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -569,11 +499,9 @@ temple = {
 	}
 	tp_initiat_2 = {
 		desc = tp_initiat_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-	}
+		potential = {			
+				culture = darknut
+		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
 		prerequisites = { tp_wall_1 }
 		upgrades_from = tp_initiat_1
@@ -586,10 +514,8 @@ temple = {
 	}
 	tp_initiat_3 = {
 		desc = tp_initiat_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 1 }
 		prerequisites = { tp_wall_2 }
@@ -603,11 +529,9 @@ temple = {
 	}
 	tp_initiat_4 = {
 		desc = tp_initiat_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-	}
+		potential = {			
+				culture = darknut
+		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 3 }
 		upgrades_from = tp_initiat_3
 		gold_cost = 300
@@ -619,11 +543,9 @@ temple = {
 	}
 	tp_initiat_5 = {
 		desc = tp_initiat_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-	}
+		potential = {			
+				culture = darknut
+		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 5 }
 		upgrades_from = tp_initiat_4
 		gold_cost = 400
@@ -635,11 +557,9 @@ temple = {
 	}
 	tp_initiat_6 = {
 		desc = tp_initiat_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-	}
+		potential = {			
+				culture = darknut
+		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 7 }
 		upgrades_from = tp_initiat_5
 		gold_cost = 500
@@ -651,10 +571,8 @@ temple = {
 	}
 	tp_paladin_barracks_1 = {
 		desc = tp_paladin_barracks_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -666,11 +584,10 @@ temple = {
 	}
 	tp_paladin_barracks_2 = {
 		desc = tp_paladin_barracks_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
+		potential = {			
+				culture = darknut
 		}
+}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
 		prerequisites = { tp_wall_1 }
 		upgrades_from = tp_paladin_barracks_1
@@ -683,11 +600,9 @@ temple = {
 	}
 	tp_paladin_barracks_3 = {
 		desc = tp_paladin_barracks_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-	}
+		potential = {			
+				culture = darknut
+		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 2 }
 		prerequisites = { tp_wall_2 }
 		upgrades_from = tp_paladin_barracks_2
@@ -700,11 +615,9 @@ temple = {
 	}
 	tp_paladin_barracks_4 = {
 		desc = tp_paladin_barracks_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-	}
+		potential = {			
+				culture = darknut
+		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 4 }
 		upgrades_from = tp_paladin_barracks_3
 		gold_cost = 300
@@ -716,11 +629,9 @@ temple = {
 	}
 	tp_paladin_barracks_5 = {
 		desc = tp_paladin_barracks_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-	}
+		potential = {			
+				culture = darknut
+		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 6 }
 		upgrades_from = tp_paladin_barracks_4
 		gold_cost = 400
@@ -732,11 +643,9 @@ temple = {
 	}
 	tp_paladin_barracks_6 = {
 		desc = tp_paladin_barracks_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-	}
+		potential = {			
+				culture = darknut
+		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 8 }
 		upgrades_from = tp_paladin_barracks_5
 		gold_cost = 500
@@ -748,11 +657,10 @@ temple = {
 	}
 	tp_aux_camp_1 = {
 		desc = tp_aux_camp_1_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-	}
+		potential = {			
+				culture = darknut
+				NOT = {religion = darknut_doctrine}
+		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
@@ -765,11 +673,10 @@ temple = {
 	}
 	tp_aux_camp_2 = {
 		desc = tp_aux_camp_2_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-	}
+		potential = {			
+				culture = darknut
+				NOT = {religion = darknut_doctrine}
+		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
 		prerequisites = { tp_wall_1 }
 		upgrades_from = tp_aux_camp_1
@@ -784,11 +691,10 @@ temple = {
 	}
 	tp_aux_camp_3 = {
 		desc = tp_aux_camp_3_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-	}
+		potential = {			
+				culture = darknut
+				NOT = {religion = darknut_doctrine}
+		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 1 }
 		prerequisites = { tp_wall_2 }
 		upgrades_from = tp_aux_camp_2
@@ -803,13 +709,10 @@ temple = {
 	}
 	tp_aux_camp_4 = {
 		desc = tp_aux_camp_4_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
-				NOT = {culture = undead_ikanan}
-	}
+		potential = {			
+				culture = darknut
+				NOT = {religion = darknut_doctrine}
+		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 3 }
 		upgrades_from = tp_aux_camp_3
 		gold_cost = 300
@@ -823,13 +726,9 @@ temple = {
 	}
 	tp_aux_camp_5 = {
 		desc = tp_aux_camp_4_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
-				NOT = {culture = undead_ikanan}
-
+		potential = {			
+				culture = darknut
+				NOT = {religion = darknut_doctrine}
 		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 5 }
 		upgrades_from = tp_aux_camp_4
@@ -844,13 +743,9 @@ temple = {
 	}
 	tp_aux_camp_6 = {
 		desc = tp_aux_camp_5_desc
-		potential = {
-				NOT = {culture_group = goron}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-				NOT = {culture_group = undead}
-				NOT = {culture = undead_ikanan}
-
+		potential = {			
+				culture = darknut
+				NOT = {religion = darknut_doctrine}
 		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 7 }
 		upgrades_from = tp_aux_camp_5
@@ -867,17 +762,8 @@ temple = {
 tribe = {
 	tb_darknut_smithy_1 = {
 		desc = tb_darknut_smithy_1_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
-				}
+		potential = {			
+				culture = darknut
 		}
 
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
@@ -895,17 +781,8 @@ tribe = {
 	
 	tb_darknut_smithy_2 = {
 		desc = tb_darknut_smithy_2_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
-				}
+		potential = {			
+				culture = darknut
 		}
 
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
@@ -926,17 +803,8 @@ tribe = {
 	
 	tb_darknut_smithy_3 = {
 		desc = tb_darknut_smithy_3_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 1 }
 		upgrades_from = tb_darknut_smithy_2
@@ -954,17 +822,8 @@ tribe = {
 	
 	tb_darknut_smithy_4 = {
 		desc = tb_darknut_smithy_4_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_CITY_CONSTRUCTION = 1 }
 		upgrades_from = tb_darknut_smithy_3
@@ -981,19 +840,12 @@ tribe = {
 		
 		extra_tech_building_start = 2.5
 	}
+
+#continue
 	tb_legion_tents_1 = {
 		desc = tb_legion_tents_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_HEAVY_INFANTRY = 0 }
 		prestige_cost = 300
@@ -1006,17 +858,8 @@ tribe = {
 	
 	tb_legion_tents_2 = {
 		desc = tb_legion_tents_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_HEAVY_INFANTRY = 0 }
 		upgrades_from = tb_legion_tents_1
@@ -1033,17 +876,8 @@ tribe = {
 	
 	tb_legion_tents_3 = {
 		desc = tb_legion_tents_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_HEAVY_INFANTRY = 0 }
 		upgrades_from = tb_legion_tents_2
@@ -1057,17 +891,8 @@ tribe = {
 	
 	tb_legion_tents_4 = {
 		desc = tb_legion_tents_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { TECH_HEAVY_INFANTRY = 0 }
 		upgrades_from = tb_legion_tents_3
@@ -1083,17 +908,9 @@ tribe = {
 	}
 	tb_auxi_camp_1 = {
 		desc = tb_auxi_camp_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
-				}
+		potential = {			
+				culture = darknut
+				NOT = {religion = darknut_doctrine}
 		}
 		trigger = { TECH_LIGHT_INFANTRY = 0 }
 		prestige_cost = 300
@@ -1107,17 +924,9 @@ tribe = {
 	
 	tb_auxi_camp_2 = {
 		desc = tb_auxi_camp_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
-				}
+		potential = {			
+				culture = darknut
+				NOT = {religion = darknut_doctrine}
 		}
 		trigger = { TECH_LIGHT_INFANTRY = 0 }
 		upgrades_from = tb_auxi_camp_1
@@ -1135,18 +944,11 @@ tribe = {
 	
 	tb_auxi_camp_3 = {
 		desc = tb_auxi_camp_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
-				}
+		potential = {			
+				culture = darknut
+				NOT = {religion = darknut_doctrine}
 		}
+
 		trigger = { TECH_LIGHT_INFANTRY = 0 }
 		upgrades_from = tb_auxi_camp_2
 		prestige_cost = 500
@@ -1160,17 +962,9 @@ tribe = {
 	
 	tb_auxi_camp_4 = {
 		desc = tb_auxi_camp_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora 
-				}
+		potential = {			
+				culture = darknut
+				NOT = {religion = darknut_doctrine}
 		}
 		trigger = { TECH_LIGHT_INFANTRY = 0 }
 		upgrades_from = tb_auxi_camp_3
@@ -1190,17 +984,8 @@ nomad = {
 	################### Endurance CONTESTS ###################
 	no_endurance_contests_1 = {
 		desc = no_endurance_contests_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 0 } }
 		prerequisites = { no_horse_breeder_1 }
@@ -1216,17 +1001,8 @@ nomad = {
 
 	no_endurance_contests_2 = {
 		desc = no_endurance_contests_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 1 } }
 		prerequisites = { no_horse_breeder_2 }
@@ -1243,17 +1019,9 @@ nomad = {
 
 	no_endurance_contests_3 = {
 		desc = no_endurance_contests_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
+		}
 		}
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 1 } }
 		prerequisites = { no_horse_breeder_3 }
@@ -1270,17 +1038,8 @@ nomad = {
 
 	no_endurance_contests_4 = {
 		desc = no_endurance_contests_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 2 } }
 		prerequisites = { no_horse_breeder_4 }
@@ -1297,17 +1056,8 @@ nomad = {
 	
 	no_endurance_contests_5 = {
 		desc = no_endurance_contests_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 2 } }
 		prerequisites = { no_horse_breeder_5 }
@@ -1324,17 +1074,8 @@ nomad = {
 	
 	no_endurance_contests_6 = {
 		desc = no_endurance_contests_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 3 } }
 		prerequisites = { no_horse_breeder_6 }
@@ -1351,17 +1092,8 @@ nomad = {
 	
 	no_endurance_contests_7 = {
 		desc = no_endurance_contests_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 4 } }
 		prerequisites = { no_horse_breeder_7 }
@@ -1378,17 +1110,8 @@ nomad = {
 	
 	no_endurance_contests_8 = {
 		desc = no_endurance_contests_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 5 } }
 		prerequisites = { no_horse_breeder_8 }
@@ -1406,17 +1129,8 @@ nomad = {
 	################### TENT CRAFTER ###################
 	no_tent_crafter_1 = {
 		desc = no_tent_crafter_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 1 } }
 		prerequisites = { no_felt_crafter_1 }
@@ -1430,17 +1144,8 @@ nomad = {
 	
 	no_tent_crafter_2 = {
 		desc = no_tent_crafter_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 2 } }
 		prerequisites = { no_felt_crafter_2 }
@@ -1456,18 +1161,10 @@ nomad = {
 	
 	no_tent_crafter_3 = {
 		desc = no_tent_crafter_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
+
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 2 } }
 		prerequisites = { no_felt_crafter_3 }
 		gold_cost = 70
@@ -1482,17 +1179,8 @@ nomad = {
 	
 	no_tent_crafter_4 = {
 		desc = no_tent_crafter_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 3 } }
 		prerequisites = { no_felt_crafter_4 }
@@ -1508,17 +1196,8 @@ nomad = {
 	
 	no_tent_crafter_5 = {
 		desc = no_tent_crafter_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 4 } }
 		prerequisites = { no_felt_crafter_5 }
@@ -1534,17 +1213,8 @@ nomad = {
 	
 	no_tent_crafter_6 = {
 		desc = no_tent_crafter_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 4 } }
 		prerequisites = { no_felt_crafter_6 }
@@ -1560,17 +1230,8 @@ nomad = {
 	
 	no_tent_crafter_7 = {
 		desc = no_tent_crafter_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 5 } }
 		prerequisites = { no_felt_crafter_7 }
@@ -1586,17 +1247,8 @@ nomad = {
 	
 	no_tent_crafter_8 = {
 		desc = no_tent_crafter_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 6 } }
 		prerequisites = { no_felt_crafter_8 }
@@ -1613,17 +1265,8 @@ nomad = {
 	################### WRESTLING ###################
 	no_martial_contest_1 = {
 		desc = no_martial_contest_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 0 } }
 		gold_cost = 40
@@ -1636,17 +1279,8 @@ nomad = {
 
 	no_martial_contest_2 = {
 		desc = no_martial_contest_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 1 } }
 		upgrades_from = no_martial_contest_1
@@ -1660,17 +1294,8 @@ nomad = {
 
 	no_martial_contest_3 = {
 		desc = no_martial_contest_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 2 } }
 		upgrades_from = no_martial_contest_2
@@ -1684,17 +1309,8 @@ nomad = {
 
 	no_martial_contest_4 = {
 		desc = no_martial_contest_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 2 } }
 		upgrades_from = no_martial_contest_3
@@ -1708,17 +1324,8 @@ nomad = {
 	
 	no_martial_contest_5 = {
 		desc = no_martial_contest_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 3 } }
 		upgrades_from = no_martial_contest_4
@@ -1732,17 +1339,8 @@ nomad = {
 	
 	no_martial_contest_6 = {
 		desc = no_martial_contest_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 4 } }
 		upgrades_from = no_martial_contest_5
@@ -1756,17 +1354,8 @@ nomad = {
 	
 	no_martial_contest_7 = {
 		desc = no_martial_contest_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 5 } }
 		upgrades_from = no_martial_contest_6
@@ -1780,17 +1369,8 @@ nomad = {
 	
 	no_martial_contest_8 = {
 		desc = no_martial_contest_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 6 } }
 		upgrades_from = no_martial_contest_7
@@ -1805,17 +1385,8 @@ nomad = {
 	################### HUNTING PARTIES ###################
 	no_hunting_parties_1 = {
 		desc = no_hunting_parties_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 0 } }
 		gold_cost = 20
@@ -1828,17 +1399,8 @@ nomad = {
 
 	no_hunting_parties_2 = {
 		desc = no_hunting_parties_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 0 } }
 		upgrades_from = no_hunting_parties_1
@@ -1852,17 +1414,8 @@ nomad = {
 
 	no_hunting_parties_3 = {
 		desc = no_hunting_parties_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 1 } }
 		upgrades_from = no_hunting_parties_2
@@ -1876,17 +1429,8 @@ nomad = {
 
 	no_hunting_parties_4 = {
 		desc = no_hunting_parties_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 1 } }
 		upgrades_from = no_hunting_parties_3
@@ -1900,17 +1444,8 @@ nomad = {
 	
 	no_hunting_parties_5 = {
 		desc = no_hunting_parties_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 2 } }
 		upgrades_from = no_hunting_parties_4
@@ -1924,17 +1459,8 @@ nomad = {
 	
 	no_hunting_parties_6 = {
 		desc = no_hunting_parties_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 2 } }
 		upgrades_from = no_hunting_parties_5
@@ -1948,17 +1474,8 @@ nomad = {
 	
 	no_hunting_parties_7 = {
 		desc = no_hunting_parties_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 3 } }
 		upgrades_from = no_hunting_parties_6
@@ -1972,17 +1489,8 @@ nomad = {
 	
 	no_hunting_parties_8 = {
 		desc = no_hunting_parties_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 3 } }
 		upgrades_from = no_hunting_parties_7
@@ -1994,20 +1502,11 @@ nomad = {
 		horse_archers_offensive = 0.06
 	}
 	
-	################### MESSENGERS ###################
-	no_messengers_1 = {
-		desc = no_messengers_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+	################### MARATHONER ###################
+	no_marathoner_1 = {
+		desc = no_marathoner_desc
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_TRADE_PRACTICES = 0 } }
 		gold_cost = 50
@@ -2020,19 +1519,10 @@ nomad = {
 		max_tradeposts = 1
 	}
 	
-	no_messengers_2 = {
-		desc = no_messengers_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+	no_marathoner_2 = {
+		desc = no_marathoner_desc
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_TRADE_PRACTICES = 0 } }
 		gold_cost = 70
@@ -2040,25 +1530,16 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
-		upgrades_from = no_messengers_1
+		upgrades_from = no_marathoner_1
 		
 		economy_techpoints = 0.04
 		tech_growth_modifier = 0.05
 	}
 	
-	no_messengers_3 = {
-		desc = no_messengers_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+	no_marathoner_3 = {
+		desc = no_marathoner_desc
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_TRADE_PRACTICES = 1 } }
 		gold_cost = 100
@@ -2066,26 +1547,17 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
-		upgrades_from = no_messengers_2
+		upgrades_from = no_marathoner_2
 		
 		economy_techpoints = 0.04
 		tech_growth_modifier = 0.05
 		max_tradeposts = 1
 	}
 	
-	no_messengers_4 = {
-		desc = no_messengers_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+	no_marathoner_4 = {
+		desc = no_marathoner_desc
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_TRADE_PRACTICES = 1 } }
 		gold_cost = 130
@@ -2093,25 +1565,16 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
-		upgrades_from = no_messengers_3
+		upgrades_from = no_marathoner_3
 		
 		economy_techpoints = 0.04
 		tech_growth_modifier = 0.05
 	}
 	
-	no_messengers_5 = {
-		desc = no_messengers_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+	no_marathoner_5 = {
+		desc = no_marathoner_desc
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_TRADE_PRACTICES = 2 } }
 		gold_cost = 160
@@ -2119,26 +1582,17 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
-		upgrades_from = no_messengers_4
+		upgrades_from = no_marathoner_4
 		
 		economy_techpoints = 0.04
 		tech_growth_modifier = 0.05
 		max_tradeposts = 1
 	}
 	
-	no_messengers_6 = {
-		desc = no_messengers_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+	no_marathoner_6 = {
+		desc = no_marathoner_desc
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_TRADE_PRACTICES = 2 } }
 		gold_cost = 200
@@ -2146,40 +1600,35 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
-		upgrades_from = no_messengers_5
+		upgrades_from = no_marathoner_5
 		
 		economy_techpoints = 0.04
 		tech_growth_modifier = 0.05
 	}
 	
-	no_messengers_7 = {
-		desc = no_messengers_desc
+	no_marathoner_7 = {
+		desc = no_marathoner_desc
+		potential = {			
+				culture = darknut
+		}
+
 		trigger = { FROM = { TECH_TRADE_PRACTICES = 3 } }
 		gold_cost = 240
 		build_time = 365
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
-		upgrades_from = no_messengers_6
+		upgrades_from = no_marathoner_6
 		
 		economy_techpoints = 0.05
 		tech_growth_modifier = 0.05
 		max_tradeposts = 1
 	}
 	
-	no_messengers_8 = {
-		desc = no_messengers_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+	no_marathoner_8 = {
+		desc = no_marathoner_desc
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_TRADE_PRACTICES = 4 } }
 		gold_cost = 280
@@ -2187,26 +1636,17 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
-		upgrades_from = no_messengers_7
+		upgrades_from = no_marathoner_7
 		
 		economy_techpoints = 0.05
 		tech_growth_modifier = 0.05
 	}
 	
 	################### BAGHATUR COUNCIL ###################
-	no_clan_council_1 = {
-		desc = no_clan_council_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+	no_legion_assembly_1 = {
+		desc = no_legion_assembly_desc
+		potential = {			
+				culture = darknut
 		}
 		trigger = { 
 			FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
@@ -2223,19 +1663,10 @@ nomad = {
 		land_morale = 0.02
 	}
 	
-	no_clan_council_2 = {
-		desc = no_clan_council_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+	no_legion_assembly_2 = {
+		desc = no_legion_assembly_desc
+		potential = {			
+				culture = darknut
 		}
 		trigger = { 
 			FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
@@ -2248,26 +1679,17 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 10
 		
-		upgrades_from = no_clan_council_1
+		upgrades_from = no_legion_assembly_1
 		
 		military_techpoints = 0.03
 		land_morale = 0.02
 		commander_limit = 1
 	}
 	
-	no_clan_council_3 = {
-		desc = no_clan_council_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+	no_legion_assembly_3 = {
+		desc = no_legion_assembly_desc
+		potential = {			
+				culture = darknut
 		}
 		trigger = { 
 			FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
@@ -2280,25 +1702,16 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 10
 		
-		upgrades_from = no_clan_council_2
+		upgrades_from = no_legion_assembly_2
 		
 		military_techpoints = 0.03
 		land_morale = 0.02
 	}
 	
-	no_clan_council_4 = {
-		desc = no_clan_council_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+	no_legion_assembly_4 = {
+		desc = no_legion_assembly_desc
+		potential = {			
+				culture = darknut
 		}
 		trigger = { 
 			FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
@@ -2311,26 +1724,17 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 10
 		
-		upgrades_from = no_clan_council_3
+		upgrades_from = no_legion_assembly_3
 		
 		military_techpoints = 0.03
 		land_morale = 0.02
 		commander_limit = 1
 	}
 	
-	no_clan_council_5 = {
-		desc = no_clan_council_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+	no_legion_assembly_5 = {
+		desc = no_legion_assembly_desc
+		potential = {			
+				culture = darknut
 		}
 		trigger = { 
 			FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
@@ -2343,57 +1747,33 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 10
 		
-		upgrades_from = no_clan_council_4
+		upgrades_from = no_legion_assembly_4
 		
 		military_techpoints = 0.04
 		land_morale = 0.02
 	}
 	
-	no_clan_council_6 = {
-		desc = no_clan_council_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
-		}
-		trigger = { 
-			FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
-			holder_scope = {
-				prestige = 2000
-			}
+	no_legion_assembly_6 = {
+		desc = no_legion_assembly_desc
+		potential = {			
+				culture = darknut
 		}
 		gold_cost = 300
 		build_time = 2400
 		ai_creation_factor = 97
 		extra_tech_building_start = 10
 		
-		upgrades_from = no_clan_council_5
+		upgrades_from = no_legion_assembly_5
 		
 		military_techpoints = 0.04
 		land_morale = 0.02
 		commander_limit = 1
 	}
 	
-	no_clan_council_7 = {
-		desc = no_clan_council_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+	no_legion_assembly_7 = {
+		desc = no_legion_assembly_desc
+		potential = {			
+				culture = darknut
 		}
 		trigger = { 
 			FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
@@ -2406,25 +1786,16 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 10
 		
-		upgrades_from = no_clan_council_6
+		upgrades_from = no_legion_assembly_6
 		
 		military_techpoints = 0.04
 		land_morale = 0.03
 	}
 	
-	no_clan_council_8 = {
-		desc = no_clan_council_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+	no_legion_assembly_8 = {
+		desc = no_legion_assembly_desc
+		potential = {			
+				culture = darknut
 		}
 		trigger = { 
 			FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
@@ -2437,179 +1808,19 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 10
 		
-		upgrades_from = no_clan_council_7
+		upgrades_from = no_legion_assembly_7
 		
 		military_techpoints = 0.04
 		land_morale = 0.03
 		commander_limit = 1
 	}
 	
-	################### HARBOR ###################
-	################### all ###################
-	no_harbor_1 = {
-		desc = no_harbor_desc
-		trigger = { 
-			FROM = { TECH_NAVAL = 0 }
-			location = { port = yes }
-		}
-		is_active_trigger = {
-			location = { port = yes }
-		}
-		gold_cost = 60
-		build_time = 600
-		ai_creation_factor = 97
-		extra_tech_building_start = 1
-		
-		nomad_tax_modifier = 0.02
-	}
-	
-	no_harbor_2 = {
-		desc = no_harbor_desc
-		trigger = { 
-			FROM = { TECH_NAVAL = 1 }
-			location = { port = yes }
-		}
-		is_active_trigger = {
-			location = { port = yes }
-		}
-		gold_cost = 90
-		build_time = 700
-		ai_creation_factor = 97
-		extra_tech_building_start = 1
-		
-		upgrades_from = no_harbor_1
-		
-		nomad_tax_modifier = 0.02
-	}
-	
-	no_harbor_3 = {
-		desc = no_harbor_desc
-		trigger = { 
-			FROM = { TECH_NAVAL = 2 }
-			location = { port = yes }
-		}
-		is_active_trigger = {
-			location = { port = yes }
-		}
-		gold_cost = 120
-		build_time = 800
-		ai_creation_factor = 97
-		extra_tech_building_start = 1
-		
-		upgrades_from = no_harbor_2
-		
-		nomad_tax_modifier = 0.02
-	}
-	
-	no_harbor_4 = {
-		desc = no_harbor_desc
-		trigger = { 
-			FROM = { TECH_NAVAL = 3 }
-			location = { port = yes }
-		}
-		is_active_trigger = {
-			location = { port = yes }
-		}
-		gold_cost = 150
-		build_time = 900
-		ai_creation_factor = 97
-		extra_tech_building_start = 1
-		
-		upgrades_from = no_harbor_3
-		
-		nomad_tax_modifier = 0.02
-	}
-	
-	no_harbor_5 = {
-		desc = no_harbor_desc
-		trigger = { 
-			FROM = { TECH_NAVAL = 4 }
-			location = { port = yes }
-		}
-		is_active_trigger = {
-			location = { port = yes }
-		}
-		gold_cost = 180
-		build_time = 1000
-		ai_creation_factor = 97
-		extra_tech_building_start = 1
-		
-		upgrades_from = no_harbor_4
-		
-		nomad_tax_modifier = 0.03
-	}
-	
-	no_harbor_6 = {
-		desc = no_harbor_desc
-		trigger = { 
-			FROM = { TECH_NAVAL = 5 }
-			location = { port = yes }
-		}
-		is_active_trigger = {
-			location = { port = yes }
-		}
-		gold_cost = 220
-		build_time = 1100
-		ai_creation_factor = 97
-		extra_tech_building_start = 1
-		
-		upgrades_from = no_harbor_5
-		
-		nomad_tax_modifier = 0.03
-	}
-	
-	no_harbor_7 = {
-		desc = no_harbor_desc
-		trigger = { 
-			FROM = { TECH_NAVAL = 6 }
-			location = { port = yes }
-		}
-		is_active_trigger = {
-			location = { port = yes }
-		}
-		gold_cost = 260
-		build_time = 1200
-		ai_creation_factor = 97
-		extra_tech_building_start = 1
-		
-		upgrades_from = no_harbor_6
-		
-		nomad_tax_modifier = 0.03
-	}
-	
-	no_harbor_8 = {
-		desc = no_harbor_desc
-		trigger = { 
-			FROM = { TECH_NAVAL = 7 }
-			location = { port = yes }
-		}
-		is_active_trigger = {
-			location = { port = yes }
-		}
-		gold_cost = 300
-		build_time = 1300
-		ai_creation_factor = 97
-		extra_tech_building_start = 1
-		
-		upgrades_from = no_harbor_7
-		
-		nomad_tax_modifier = 0.04
-	}
 	
 	################### SWORD SMITH ###################
 	no_swordsmith_1 = {
 		desc = no_swordsmith_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 1 } }
 		gold_cost = 70
@@ -2623,17 +1834,8 @@ nomad = {
 	
 	no_swordsmith_2 = {
 		desc = no_swordsmith_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 2 } }
 		gold_cost = 90
@@ -2649,17 +1851,8 @@ nomad = {
 	
 	no_swordsmith_3 = {
 		desc = no_swordsmith_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 3 } }
 		gold_cost = 120
@@ -2675,17 +1868,8 @@ nomad = {
 	
 	no_swordsmith_4 = {
 		desc = no_swordsmith_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 4 } }
 		gold_cost = 150
@@ -2701,17 +1885,8 @@ nomad = {
 	
 	no_swordsmith_5 = {
 		desc = no_swordsmith_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 4 } }
 		gold_cost = 180
@@ -2727,17 +1902,8 @@ nomad = {
 	
 	no_swordsmith_6 = {
 		desc = no_swordsmith_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 5 } }
 		gold_cost = 220
@@ -2753,17 +1919,8 @@ nomad = {
 	
 	no_swordsmith_7 = {
 		desc = no_swordsmith_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 6 } }
 		gold_cost = 260
@@ -2779,17 +1936,8 @@ nomad = {
 	
 	no_swordsmith_8 = {
 		desc = no_swordsmith_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 7 } }
 		gold_cost = 300
@@ -2806,17 +1954,8 @@ nomad = {
 	################### LAMELLAR ARMOR CRAFTER ###################
 	no_armor_smith_1 = {
 		desc = no_armor_smith_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 0 } }
 		gold_cost = 80
@@ -2837,17 +1976,8 @@ nomad = {
 	
 	no_armor_smith_2 = {
 		desc = no_armor_smith_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 1 } }
 		gold_cost = 110
@@ -2870,18 +2000,10 @@ nomad = {
 	
 	no_armor_smith_3 = {
 		desc = no_armor_smith_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
+
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 1 } }
 		gold_cost = 140
 		build_time = 365
@@ -2903,17 +2025,8 @@ nomad = {
 	
 	no_armor_smith_4 = {
 		desc = no_armor_smith_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 2 } }
 		gold_cost = 170
@@ -2936,17 +2049,8 @@ nomad = {
 	
 	no_armor_smith_5 = {
 		desc = no_armor_smith_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 3 } }
 		gold_cost = 200
@@ -2969,17 +2073,8 @@ nomad = {
 	
 	no_armor_smith_6 = {
 		desc = no_armor_smith_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 4 } }
 		gold_cost = 250
@@ -3002,17 +2097,8 @@ nomad = {
 	
 	no_armor_smith_7 = {
 		desc = no_armor_smith_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 5 } }
 		gold_cost = 320
@@ -3035,17 +2121,8 @@ nomad = {
 	
 	no_armor_smith_8 = {
 		desc = no_armor_smith_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 6 } }
 		gold_cost = 400
@@ -3069,17 +2146,8 @@ nomad = {
 	################### CLAN GATHERING HALL ##################
 	no_praetorium_1 = {
 		desc = no_praetorium_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 0 } }
 		gold_cost = 40
@@ -3092,17 +2160,8 @@ nomad = {
 	
 	no_praetorium_2 = {
 		desc = no_praetorium_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 0 } }
 		gold_cost = 60
@@ -3117,17 +2176,8 @@ nomad = {
 	
 	no_praetorium_3 = {
 		desc = no_praetorium_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 1 } }
 		gold_cost = 80
@@ -3142,17 +2192,8 @@ nomad = {
 	
 	no_praetorium_4 = {
 		desc = no_praetorium_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 1 } }
 		gold_cost = 110
@@ -3167,17 +2208,8 @@ nomad = {
 	
 	no_praetorium_5 = {
 		desc = no_praetorium_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 2 } }
 		gold_cost = 150
@@ -3192,17 +2224,8 @@ nomad = {
 	
 	no_praetorium_6 = {
 		desc = no_praetorium_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 2 } }
 		gold_cost = 200
@@ -3217,17 +2240,8 @@ nomad = {
 	
 	no_praetorium_7 = {
 		desc = no_praetorium_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 3 } }
 		gold_cost = 250
@@ -3242,18 +2256,10 @@ nomad = {
 	
 	no_praetorium_8 = {
 		desc = no_praetorium_desc
-		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-				}
+		potential = {			
+				culture = darknut
 		}
+
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 4 } }
 		gold_cost = 350
 		build_time = 1095

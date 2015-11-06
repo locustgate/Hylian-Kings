@@ -164,98 +164,6 @@ castle = {
 
 		extra_tech_building_start = 0.2
 	}
-	#Keeps, gives levy and garrison size
-	ca_chief_house_1 = {
-		desc = ca_chief_house_1_desc
-		potential = {				
-			culture_goron = goron_group
-		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
-		gold_cost = 150
-		build_time = 547 #1.5y
-		levy_size = 0.05
-		garrison_size = 0.05
-		ai_creation_factor = 102
-		
-		extra_tech_building_start = 1.0
-	}
-	ca_chief_house_2 = {
-		desc = ca_chief_house_1_desc
-		potential = {				
-			culture_goron = goron_group
-		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
-		prerequisites = { ca_wall_1 }
-		upgrades_from = ca_chief_house_1
-		gold_cost = 200
-		build_time = 730 #2y
-		levy_size = 0.1
-		garrison_size = 0.1
-		ai_creation_factor = 101
-
-		extra_tech_building_start = 2.0
-	}
-	ca_chief_house_3 = {
-		desc = ca_chief_house_1_desc
-		potential = {				
-			culture_goron = goron_group		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
-		prerequisites = { ca_wall_2 }
-		upgrades_from = ca_chief_house_2
-		gold_cost = 300
-		build_time = 1095 #3y
-		levy_size = 0.15
-		garrison_size = 0.15
-		ai_creation_factor = 100
-		
-		extra_tech_building_start = 1.0
-	}
-	ca_chief_house_4 = {	
-		desc = ca_chief_house_1_desc
-		potential = {				
-			culture_goron = goron_group
-		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
-		upgrades_from = ca_chief_house_3
-		gold_cost = 400
-		build_time = 1460 #4y
-		levy_size = 0.2
-		garrison_size = 0.2
-		ai_creation_factor = 99
-
-		extra_tech_building_start = 0.2
-	}
-	ca_chief_house_5 = {
-		desc = ca_chief_house_1_desc
-		potential = {				
-			culture_goron = goron_group
-		}
-
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
-		upgrades_from = ca_chief_house_4
-		gold_cost = 500
-		build_time = 2190 #6y
-		levy_size = 0.25
-		garrison_size = 0.2
-		ai_creation_factor = 98
-
-		extra_tech_building_start = 0.2
-	}
-	ca_chief_house_6 = {
-		desc = ca_chief_house_1_desc
-		potential = {				
-			culture_goron = goron_group
-		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
-		upgrades_from = ca_chief_house_5
-		gold_cost = 500
-		build_time = 2190 #6y
-		levy_size = 0.3
-		garrison_size = 0.2
-		ai_creation_factor = 97
-		
-		extra_tech_building_start = 0.2
-	}
 	# Militia barracks, gives light infantry and archers.
 	ca_warrior_den_1 = {
 		desc = ca_warrior_den_1_desc
@@ -2366,85 +2274,6 @@ tribal = {
 		
 		extra_tech_building_start = 2.5
 	}
-	
-	tb_shipyard_1 = {
-		desc = shipyard_desc
-		potential = {
-			culture_goron = goron_group
-		}
-		port = yes
-		trigger = { TECH_NAVAL = 1 }
-		gold_cost = 50
-		build_time = 365
-		galleys = 6
-		ai_creation_factor = 96
-		ai_republic_modifier = 5
-		
-		convert_to_castle = ca_shipyard_1
-		convert_to_city = ct_shipyard_1
-		
-		extra_tech_building_start = 0.3
-	}
-	
-	tb_shipyard_2 = {
-		desc = shipyard_desc
-		potential = {
-			culture_goron = goron_group
-		}
-		port = yes
-		trigger = { TECH_NAVAL = 2 }
-		upgrades_from = tb_shipyard_1
-		gold_cost = 100
-		build_time = 730
-		galleys = 7
-		ai_creation_factor = 95
-		ai_republic_modifier = 5
-		
-		convert_to_castle = ca_shipyard_2
-		convert_to_city = ct_shipyard_2
-		
-		extra_tech_building_start = 0.3
-	}
-	
-	tb_shipyard_3 = {
-		desc = shipyard_desc
-		potential = {
-			culture_goron = goron_group
-		}
-		port = yes
-		trigger = { TECH_NAVAL = 3 }
-		upgrades_from = tb_shipyard_2
-		gold_cost = 100
-		build_time = 1095
-		galleys = 8
-		ai_creation_factor = 94
-		ai_republic_modifier = 5
-		
-		convert_to_castle = ca_shipyard_3
-		convert_to_city = ct_shipyard_3
-		
-		extra_tech_building_start = 0.3
-	}
-	
-	tb_shipyard_4 = {
-		desc = shipyard_desc
-		potential = {
-			culture_goron = goron_group
-		}
-		port = yes
-		trigger = { TECH_NAVAL = 4 }
-		upgrades_from = tb_shipyard_3
-		gold_cost = 100
-		build_time = 1460
-		galleys = 9
-		ai_creation_factor = 93
-		ai_republic_modifier = 5
-		
-		convert_to_castle = ca_shipyard_4
-		convert_to_city = ct_shipyard_4
-		
-		extra_tech_building_start = 0.3
-	}
 		
 	tb_goron_troop_1 = {
 		desc = tb_goron_troop_desc
@@ -3740,8 +3569,8 @@ nomad = {
 	}
 	
 	################### CAMP FORTIFICATIONS ###################
-	no_dugout_1 = {
-		desc = no_dugout_desc
+	no_earthwork_1 = {
+		desc = no_earthwork_desc
 		potential = {
 			culture_goron = goron_group
 		}
@@ -3755,8 +3584,8 @@ nomad = {
 		garrison_size = 0.6
 	}
 	
-	no_dugout_2 = {
-		desc = no_dugout_desc
+	no_earthwork_2 = {
+		desc = no_earthwork_desc
 		potential = {
 			culture_goron = goron_group
 		}
@@ -3766,14 +3595,14 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
-		upgrades_from = no_dugout_1
+		upgrades_from = no_earthwork_1
 		
 		fort_level = 0.3
 		garrison_size = 0.6
 	}
 	
-	no_dugout_3 = {
-		desc = no_dugout_desc
+	no_earthwork_3 = {
+		desc = no_earthwork_desc
 		potential = {
 			culture_goron = goron_group
 		}
@@ -3783,14 +3612,14 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
-		upgrades_from = no_dugout_2
+		upgrades_from = no_earthwork_2
 		
 		fort_level = 0.4
 		garrison_size = 0.8
 	}
 	
-	no_dugout_4 = {
-		desc = no_dugout_desc
+	no_earthwork_4 = {
+		desc = no_earthwork_desc
 		potential = {
 			culture_goron = goron_group
 		}
@@ -3801,14 +3630,14 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 2
 		
-		upgrades_from = no_dugout_3
+		upgrades_from = no_earthwork_3
 		
 		fort_level = 0.5
 		garrison_size = 0.8
 	}
 	
-	no_dugout_5 = {
-		desc = no_dugout_desc
+	no_earthwork_5 = {
+		desc = no_earthwork_desc
 		potential = {
 			culture_goron = goron_group
 		}
@@ -3818,14 +3647,14 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 2
 		
-		upgrades_from = no_dugout_4
+		upgrades_from = no_earthwork_4
 		
 		fort_level = 0.5
 		garrison_size = 1.3
 	}
 	
-	no_dugout_6 = {
-		desc = no_dugout_desc
+	no_earthwork_6 = {
+		desc = no_earthwork_desc
 		potential = {
 			culture_goron = goron_group
 		}
@@ -3835,14 +3664,14 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 2
 		
-		upgrades_from = no_dugout_5
+		upgrades_from = no_earthwork_5
 		
 		fort_level = 0.5
 		garrison_size = 1.3
 	}
 	
-	no_dugout_7 = {
-		desc = no_dugout_desc
+	no_earthwork_7 = {
+		desc = no_earthwork_desc
 		potential = {
 			culture_goron = goron_group
 		}
@@ -3853,14 +3682,14 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 2
 		
-		upgrades_from = no_dugout_6
+		upgrades_from = no_earthwork_6
 		
 		fort_level = 0.8
 		garrison_size = 1.8
 	}
 	
-	no_dugout_8 = {
-		desc = no_dugout_desc
+	no_earthwork_8 = {
+		desc = no_earthwork_desc
 		potential = {
 			culture_goron = goron_group
 		}
@@ -3870,7 +3699,7 @@ nomad = {
 		ai_creation_factor = 97
 		extra_tech_building_start = 2
 		
-		upgrades_from = no_dugout_7
+		upgrades_from = no_earthwork_7
 		
 		fort_level = 1.2
 		garrison_size = 1.8

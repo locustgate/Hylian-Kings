@@ -11,7 +11,7 @@ hylian_group = {
 		}
 
 		female_names = {
-			Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Leila Mama Marcy Pina Pita Maggie Paige Sheila Tina Verona Honey Marilla Judo Cremia Epona Romani Pamela Ashei Iza Hena Agitha Kili Hanna Misha Fanadi Telma Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Aryll Rose Sue-Belle Sue Belle Gillian Joanna Potova Linda Maggie Milia Minenco Missey Pompie Peach Daisy Rosalina Lissa Lucinia Emmeryn Hylia Linkette Yelda
+			Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Leila Mama Marcy Pina Pita Maggie Paige Sheila Tina Verona Honey Marilla Judo Cremia Epona Romani Pamela Ashei Iza Hena Agitha Kili Hanna Misha Fanadi Telma Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Aryll Rose Sue-Belle Sue Belle Gillian Joanna Potova Linda Maggie Milia Minenco Missey Pompie Peach Daisy Rosalina Lissa Lucinia Emmeryn Hylia Linkette Yelda Linkle
 		}
 		
 		dukes_called_kings = no
@@ -195,67 +195,6 @@ Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
 				
 		modifier = default_culture_modifier
 	}
-
-	new_hyrulean = {
-		graphical_culture = newhyruleangfx # portraits
-		
-		parent = hyrulean
-
-		color = { 0.63 0.13 0.94 }
-		
-		male_names = {
-			Link Niko Alfonzo Cole Beedle Ferrus Linebeck Joe Abe Joel Shitate Orca Mesa Sturgeon Zill Freedle Fuzo Nyeve Nyave Romanos Salvatore Senza Gonzo Nudge Mako Zuko Anton Candy Garrickson Dampa Gossack Gummy Kamo Kane Kreeb Lenzo Salvatore Sam Tott Baito Carlov Manny Loot Tingle Ivan Jin Jan Jun-Roberto Jun Roberto Cannon
-		}
-		female_names = {
-			Zelda Tetra Rei Joynas Rose Sue-Belle Sue Belle Joanne Jolene Gillian Joanna Potova Linda Maggie Mila  Minenco Missy Pompie Vera 
-		}
-		
-		dukes_called_kings = no
-		
-		from_dynasty_prefix = "of "
-
-		male_patronym = "sen"
-		female_patronym = "sdatter"
-		prefix = no # The patronym is added as a suffix
-				
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 30
-		mat_grf_name_chance = 10
-		father_name_chance = 25
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 40
-		mother_name_chance = 5
-
-		modifier = default_culture_modifier
-	}
-	papuchian = {
-		graphical_culture = papuchiangfx # portraits
-		
-		color = { 0.3 0.55 0.8 }
-
-		parent = cobble
-
-		male_names = {
-		Romanos Abele Achille Adalbertos Adamos Agostinos Albanos Alfeos AmpeliosAnnibale Anselmos Aurelios Beppe Benitos Battistas Bernardino Baldassare Biaggios Biagino Biagios Bonaventuras Venturas Bonifacios Brunos Callistos Calogeros Camillos Carlos Carmelos Carmine Casimiros Cecilios Celeste Celestinos Celinos Celios Demetrios Desiderios Dinos Diodatos Dionisios Donatos Duilios Durante Edgardos Edmondos Edoardos Efisios Egidios Elias Eligios Elios Emanuele Elipidios Felice Filippos Fiorino Firmino Flavios Fredos Fulvios Gabriele Gaetanos Gallos Gaspares Giacobbe Gian Giancarlo Gianlucas Gianluigi Luigi Mario Gianni Giosue Giovanni Giraldos Ilarios Isaias Italos Ivanos Ivos Jacopos Ladislaos Lapos Lazzaros Leandros Leonardos Leone Leonidas Liberatore Marcos Manuel Manfredos Nicos Nicolas Nivola Nicomede Neros Olivieros Oddos Orsos
-		}
-		female_names = {
-		Joynas Jolene Joanne Peach Adas Adelaide Adele Adelinas Adrianas Agatas Agnese Ale Alessas Alessias Alinas ALmas Amalias Anastasias Angelas Bertas Bettinas Bice Bibianas Brigidas Brunas Brunildas Carlas Camillas Carolas Carolinas Cassandras Cecilias Celeste Celias Chiaras Cinzias Claras Claretta Clelias Clios Cloe Darias Deboras Delfinas Delias Demetras Desiderias Doroteas Donatellas Donatas Elettras Elianas Elisas Elviras Emanuelas Ericas Ermelindas Ermenegildas Erminias Evas Febes Federicas Felicianas Felicitas Ferdinandas Finas Fioralbas Fiorellas Flavias Francas Gaias Geltrude Gemmas Germanas Gias Giachettas Giacintas Gildas Ginevras Gioias Isas Ildas Italas Jessicas Lenas Leontinas Loras Luce Marias Marilenas Marinas Norinas Normas Nunzia Ofelia Orlandas Orsolas Pias Rachele Scillas
-		}
-
-		dukes_called_kings = no
-		male_patronym = "sin"
-		female_patronym = "sdotter"
-		prefix = yes
-
-		
-		from_dynasty_prefix = "of "
-				
-		modifier = default_culture_modifier
-
-	}
-
 }
 round_eared = {
 
@@ -431,10 +370,10 @@ round_eared = {
 
 		modifier = default_culture_modifier
 	}
-	eldin = {#aztec
+	eldin = {#AZTEC 
 		graphical_culture = eldingfx 
 		
-		parent = dark_interloper
+		#parent = dark_interloper
 		
 		color = { 1 0 0 }
 		
@@ -452,7 +391,7 @@ round_eared = {
 		modifier = default_culture_modifier
 	}
 
-	kakarikon = {#spain
+	kakarikon = {
 		graphical_culture = kakarikongfx 
 
 		used_for_random = no 
@@ -460,7 +399,7 @@ round_eared = {
 		color = { 0.8 0.52 0.25 }
 
 		parent = hyrulean
-#yiddish
+
 		male_names = {
 			Coro Barnes Abiri Aizic Amshel Amshel Anschel Bailem Berel Chiel Elye Faitel Haym Herschell Herzl Heynekh Hirsch Isbister Jankel Jante Jizchak Kalman Kalmen Khaskl Khatskel Leib Leibush Liev Lipa Lipman Mailech Maylech Meilech Mendy Mosheh Moszek Motl Movcha Nusim Oshik Pinkus Safran Schneur Shale Shmiel Shmil Shmul Sholom Srul Srulik Szem Tavi Yisroel Ytzik Zemira
 		}
@@ -541,6 +480,16 @@ round_eared = {
 				
 		modifier = default_culture_modifier
 
+	}
+	hytopian = {
+		
+		
+		male_names = {
+			Tuft Curlking Tripin Boccolone Adamao Adriano Agapito Alcide Alberto Ampelio Angelino Battista Benedetto Benito Biagio Bruno Cecilio Celeste Celino Ciriaco Ciro Costanzo Crescenzo Demetrio Dino Diodato Edmondo Efisio Eliseo Elmo Elpidio Emidio Ercole Ermanno Ezio Fabio Fabrizio Fausto Filippo Fredo Fulgenzio Germano Gian Giampiero Giorgio Giovanni Leonardo Gualtiero Isidoro Italo Jacopop Ladislao Lapo Lauro Lazzaro Lino Leonida Leonzio Luca Luciano Lucilio Manuel Manfredo Mariano Massimo Natale Natanaele Nico Nicodemo Nicola Orazio Orfeo Orlando Ovidio Palmiro Pancrazio Panfilo Pietro Pino Pio Raffaello Raniero Raoul Raul Rocco Rufino Ruggero Sabino Santo Savino Saturnino Sesto Settimio Severiano Sisto Stefano Tacito Terenzio Timoteo Tore
+		}
+		female_names = {
+			Styla Maude Frill Mimi Cursilinda Fonzolina Degala Nonstille Adele Adelina Adriana Albina ALda Alfreda Alex Amanda Amaranta Angelica Andreina Annetta Beatrice Benigna Berenice Bice Brigida Carla Carmela Carmen Cecillia Caterina Chiara Cinzia Clelia Cloe Dafne Crocetta Daria Debora Delfina Domitilla Donata Elena Elda Edvige Elettra Eliana Elisabetta Felicita Fernanda Fiammetta Flora Franca Fulvia Gaia Germana Gessica Gia Gilda Gina Ilda Ileana Imelda Ines Iolanda Isotta Jolanda Lara Laura Lia Lisa Livia Loretta Ludovica Maria Mariangela Marisa Marta Michela Mirella Monica Nadia Nerina Nicoletta Nina Nunzia Ofelia Orsola Osanna Perla Pia Romana Romilda Rubina Sandra Samuela Scilla Sebastiana Selvaggia Tamara Tina
+ 		}
 	}
 }
 lost_tribe = {
@@ -704,12 +653,71 @@ spirit_continent = {
 		#rusian
 		color = { 0.2 0.7 .44 }
 
-		male_namse = {
+		male_names = {
 			Gage Steem Carben Embrose Rael Byrne Kabuis Kohle Desel Kargo Kab Reac Bogie Kase Baum Kab Terbine Atamik Pilet Kondutur Kole Frate Kog Boge Aksel Bulstir Thradl Regylator Bloer Pip Brak Pistn Boylir Grat Wagen Kal Ganar Tinar Pipeg Kaksar Arbis Peman Kisage Kisik Dreg Agem Grer Pamur Peleg Kotalem Kur Teg Pate Galar Staum Frige Baepm Kuk Kileg Tovar Goten Kalv Kupm Pelok Dupm Ramam Kise Kese Steg Kisare Sliguhl Bohle Kisir Bim Bage Peg Kisel Balab Pegen Pelon Bale Boteso Kerbe Kite Peledl Wirbeag Pan Kiser Avak Kerec Kirgie Bonde Gat Tetan Taum Kulan Roser Traum Broteg Bivis
 		}
 		female_names = {
 			Anjean Weol Traquer Kasie Trame Kerij Sleg Dron Fyool Tran Tendre Trame Tam Funis Koil Plat Fram Brak Pinn Levir Valv Pomp Chimne Haper Porder Cheryl Kem Ahlen Fyer Kitan Pomaleg Threg Ehlen Lirdondeg Vorde Pelun Fraut Peven Bogaeb Candan Kolatan Pamaevan Bren Pihleg Kisip Kogaum Cheg Vehle Pelik Kulob Kisig Amneg Chaum Piqen Blemereg Kaleg Lasen Fahlel Lyte Froeserde Trege Kulerbe Bahle Geg Asote Boqel Weg Bondir Balas Rarde Bondab Aletan Kulavil Frameg Bargem Kisus Walib Braeb Paeb Patil HatemWelaum Pesel Pator Kesen Kehle Keg Ahleg Kisan Kiten Pelot Pele Kaser Avel Ter Traeb Pelie Kamim Rugik Belel Fraul
 		}
+	}
+	new_hyrulean = {
+		graphical_culture = newhyruleangfx # portraits
+		
+		parent = hyrulean
+
+		color = { 0.63 0.13 0.94 }
+		
+		male_names = {
+			Link Niko Alfonzo Cole Beedle Ferrus Linebeck Joe Abe Joel Shitate Orca Mesa Sturgeon Zill Freedle Fuzo Nyeve Nyave Romanos Salvatore Senza Gonzo Nudge Mako Zuko Anton Candy Garrickson Dampa Gossack Gummy Kamo Kane Kreeb Lenzo Salvatore Sam Tott Baito Carlov Manny Loot Tingle Ivan Jin Jan Jun-Roberto Jun Roberto Cannon
+		}
+		female_names = {
+			Zelda Tetra Rei Joynas Rose Sue-Belle Sue Belle Joanne Jolene Gillian Joanna Potova Linda Maggie Mila  Minenco Missy Pompie Vera 
+		}
+		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "of "
+
+		male_patronym = "sen"
+		female_patronym = "sdatter"
+		prefix = no # The patronym is added as a suffix
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	papuchian = {
+		graphical_culture = papuchiangfx # portraits
+		
+		color = { 0.3 0.55 0.8 }
+
+		parent = cobble
+
+		male_names = {
+		Romanos Abele Achille Adalbertos Adamos Agostinos Albanos Alfeos AmpeliosAnnibale Anselmos Aurelios Beppe Benitos Battistas Bernardino Baldassare Biaggios Biagino Biagios Bonaventuras Venturas Bonifacios Brunos Callistos Calogeros Camillos Carlos Carmelos Carmine Casimiros Cecilios Celeste Celestinos Celinos Celios Demetrios Desiderios Dinos Diodatos Dionisios Donatos Duilios Durante Edgardos Edmondos Edoardos Efisios Egidios Elias Eligios Elios Emanuele Elipidios Felice Filippos Fiorino Firmino Flavios Fredos Fulvios Gabriele Gaetanos Gallos Gaspares Giacobbe Gian Giancarlo Gianlucas Gianluigi Luigi Mario Gianni Giosue Giovanni Giraldos Ilarios Isaias Italos Ivanos Ivos Jacopos Ladislaos Lapos Lazzaros Leandros Leonardos Leone Leonidas Liberatore Marcos Manuel Manfredos Nicos Nicolas Nivola Nicomede Neros Olivieros Oddos Orsos
+		}
+		female_names = {
+		Joynas Jolene Joanne Peach Adas Adelaide Adele Adelinas Adrianas Agatas Agnese Ale Alessas Alessias Alinas ALmas Amalias Anastasias Angelas Bertas Bettinas Bice Bibianas Brigidas Brunas Brunildas Carlas Camillas Carolas Carolinas Cassandras Cecilias Celeste Celias Chiaras Cinzias Claras Claretta Clelias Clios Cloe Darias Deboras Delfinas Delias Demetras Desiderias Doroteas Donatellas Donatas Elettras Elianas Elisas Elviras Emanuelas Ericas Ermelindas Ermenegildas Erminias Evas Febes Federicas Felicianas Felicitas Ferdinandas Finas Fioralbas Fiorellas Flavias Francas Gaias Geltrude Gemmas Germanas Gias Giachettas Giacintas Gildas Ginevras Gioias Isas Ildas Italas Jessicas Lenas Leontinas Loras Luce Marias Marilenas Marinas Norinas Normas Nunzia Ofelia Orlandas Orsolas Pias Rachele Scillas
+		}
+
+		dukes_called_kings = no
+		male_patronym = "sin"
+		female_patronym = "sdotter"
+		prefix = yes
+
+		
+		from_dynasty_prefix = "of "
+				
+		modifier = default_culture_modifier
+
 	}
 }
 goron_group = {
@@ -987,27 +995,6 @@ fae = {
 		modifier = default_culture_modifier
 		allow_looting = yes
 	}
-}
-deku = {
-
-	deku_scrub = {
-		graphical_culture = scrubgfx # portraits 
-		
-		color = { 0.13 0.55 0.13 }
-		
-		male_names = {
-		Kado Deku Decci Dekki Deppi Jace Tick Miko Dero Shoo Bramble Twiggy Cycas Odolwa Rylan Uduak Terfal Kovu Kova Iralo Deppo Jevek Kedo Viku Ikirok Icelo Twiku Hodivi Nevi Ditt Deppe Idimo Fivuado Olek Odari Ido Oreck Shoda Diro Doka Kedos Kerfa  Kerfe Vikis Kiteku Daka Kerfo Jota Idu Broki Twori Doril Dakidi Dakol Rylo Twokoo Koredu Shovi Idoki Poki Shik Keck Oppek Devo Olado Odatis Shovori Twoca Vikin Iceku Brivi Joki Shovo Vike Twokado Kokitt Vike Dakolo Vido Vikon Vitt Dodi Dovi Deve Iceci Jori Dimel Fote Viti Kari Uliri Morati Keku Heku Deppa Dakos Betek Idarin Oki Naki
-		}
-		female_names = {
-		Deku Dekwa Dolwa Ailo Hora Bayl Vivi Nikki Fala Kott Celia Ivori Iris Ime Petil Kicia Hera Meril Fivi Vide Celas Ficia Feppi Tavi Keral Dett Dara Kerva Miri Divia Hede Decia Ida Vekeko Shova Kitt Docia Dacco Bivi Vikwa Vira Kerfi Idola Vevi Vikava Timira Voloki Brita Udari Deva Idoca Hecia Viko Kecia Tecia Devia Dicia Kavi Twoku Kemi Brira Vivia Sheva Vivi Kari Viki Doda Vika Kecu Shadu Diliku Ivodu Vicca Fiku Teku Tavan Viten Cadu DIla Biku Vikes Iku Vimi Mevi Kilevia Poku Hiku Daken Kedo Faki Shol Idoci Kerfu Kil Becia Ovia Herfi Dekka Vivocia Bacia
-		}
-		
-		dukes_called_kings = yes
-		
-		from_dynasty_prefix = "of "
-				
-		modifier = default_culture_modifier
-	} 
 	deku_tree = {
 
 		graphical_culture = dekugfx # portraits 
@@ -1027,6 +1014,29 @@ deku = {
 		
 		modifier = default_culture_modifier
 	}
+}
+plant = {
+
+	deku_scrub = {
+		graphical_culture = scrubgfx # portraits 
+
+		parent = deku_tree
+		
+		color = { 0.13 0.55 0.13 }
+		
+		male_names = {
+		Kado Deku Decci Dekki Deppi Jace Tick Miko Dero Shoo Bramble Twiggy Cycas Odolwa Rylan Uduak Terfal Kovu Kova Iralo Deppo Jevek Kedo Viku Ikirok Icelo Twiku Hodivi Nevi Ditt Deppe Idimo Fivuado Olek Odari Ido Oreck Shoda Diro Doka Kedos Kerfa  Kerfe Vikis Kiteku Daka Kerfo Jota Idu Broki Twori Doril Dakidi Dakol Rylo Twokoo Koredu Shovi Idoki Poki Shik Keck Oppek Devo Olado Odatis Shovori Twoca Vikin Iceku Brivi Joki Shovo Vike Twokado Kokitt Vike Dakolo Vido Vikon Vitt Dodi Dovi Deve Iceci Jori Dimel Fote Viti Kari Uliri Morati Keku Heku Deppa Dakos Betek Idarin Oki Naki
+		}
+		female_names = {
+		Deku Dekwa Dolwa Ailo Hora Bayl Vivi Nikki Fala Kott Celia Ivori Iris Ime Petil Kicia Hera Meril Fivi Vide Celas Ficia Feppi Tavi Keral Dett Dara Kerva Miri Divia Hede Decia Ida Vekeko Shova Kitt Docia Dacco Bivi Vikwa Vira Kerfi Idola Vevi Vikava Timira Voloki Brita Udari Deva Idoca Hecia Viko Kecia Tecia Devia Dicia Kavi Twoku Kemi Brira Vivia Sheva Vivi Kari Viki Doda Vika Kecu Shadu Diliku Ivodu Vicca Fiku Teku Tavan Viten Cadu DIla Biku Vikes Iku Vimi Mevi Kilevia Poku Hiku Daken Kedo Faki Shol Idoci Kerfu Kil Becia Ovia Herfi Dekka Vivocia Bacia
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+				
+		modifier = default_culture_modifier
+	} 
 	kokiri = {
 		graphical_culture = kokirigfx # portraits
  
