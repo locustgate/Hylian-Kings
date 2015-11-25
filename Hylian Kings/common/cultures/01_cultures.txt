@@ -69,7 +69,7 @@ hylian_group = {
 
 	}
 	little_hyrulean = {
-		graphical_culture = greaterhyruleanfx 
+		graphical_culture = greaterhyruleangfx 
 
 		parent = hyrulean
 		
@@ -100,7 +100,7 @@ Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
 		modifier = default_culture_modifier
 	} 
 	east_hyrulean =(
-		graphical_culture = greaterhyruleanfx 
+		graphical_culture = greaterhyruleangfx 
 
 		parent = hyrulean 
 
@@ -121,7 +121,7 @@ Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
 		modifier = default_culture_modifier
 	)
 	west_hyrulean = {
-		graphical_culture = greaterhyruleanfx 
+		graphical_culture = greaterhyruleangfx 
 
 		parent = hyrulean
 
@@ -193,6 +193,63 @@ Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
 		
 		from_dynasty_prefix = "of "
 				
+		modifier = default_culture_modifier
+	}
+
+	koridain = {
+		graphical_culture = koridaigfx # portraits 
+		
+
+		color = { 0.63 0.13 0.94 }
+		
+		male_names = {
+		Goronu Anutu Droolik Odrananoel Morshu Horgum Aypo Gwonam Dripum Horom Hano Hodrino Gulano Milaro Hoeno Anonu Oralolo Anuru Halul Dram Hupum Anik Hopom Gwam Onolu Holuk Ololu Aponak Apalo Anum Onum Mooronolim Gwoenu Hargam Onak Hootu Anuk Alulo Hinonu Hanolu Hotol Gwoeto Aynul Gwoelam Hoolanam Anolo Maluk Goron Guno Gotil Gwonatu Aturgu Orak Gwinom Goorargo Hanapo Dramshom Ayroru Gwinonu Gatano Hadranum Onom Moelotum Otum Matonom Atanonum Gwonu Hurgo Hunum Malak Anoek Anirgo Molak Goraro Gwodru Hapum Dralo Gwopu Madrum Gono Goram Hutuk Gwopom Moorum Manonu Arak Galu Halolo Gwotu Gwolu Gonum Hanupum Golo Anono Goroem Gwilo Gwonok Monool Hotom Dranano
+		}
+
+		female_names = { 
+		Hamsha Alora Aylum Hunu Halak Onunum Aylu Atu Anatal Anoono Atuta Aynum Gorona Mola Gwota Aropa Gwona Anunu Ola Aylala Monol Holo Aparata Gwaponona Aynom Anoorona Aylatum Moola Ayral Ayram Hola Aylak Manona Gwonora Hak Onono Nonalo Arala Olona Alum Gilona Ganona Aloru Hilo Gulonu Mona Gwopo Molum Otona Drulu Ananu Aynuk Mala Mirom Hanana Anorgu Marina Apota Aylora Ayrona Anuruk Ayna Onapa Gwol Horga Gwola Gwora Gwodrala Gwoem Molom ANona Hota Gwala Molina Drona Haruk Gwoek Analom Maloru Morarala Arum Aylapu Aranol Aylik Gwonak Gwinum Gorak Arorga Aylonoru Gwalak Hilom Moorok Gwulo Gidru Ayluta Golu Honu Aylam Hrum Aynak
+		}
+		
+		dukes_called_kings = no 
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	gamelon = {
+		graphical_culture = greaterhyruleangfx
+		
+
+		color = { 0.63 0.13 0.94 }
+		
+		male_names = {
+		Onkled Hektan Omfak Grimbo Harbanno Yomfo Liko Hikan Lekan Obuban Olmud Almokan Hakan Grek Obod Yukanno Yakan Lorbo Hemfo Yukid Heban Lango Yukun Grad Hengo Hango Lobomfo Obalmika Okarbo Yimfemfo Omfad Abak Likon Olmerbo Yubek Olmak Yukeban Obin Gribon Lerbon Akarbo Arbo Harbo Grakako Arbod Orbin Olmabo Lirbo Ombekuk Grarbo Longo Aben Yomfinnin Lerbo Homfo Harbon Yemfin Ambod Olmeko Myrokikto Yemfo Lurbo Yan Lakarbo Yerbo Onnan Grikun Likod Okterbo Ombon Olman Lakin Oktan Lakan Hekten Lannen Yebakarbo Okako Hukuk Hangen Granna Yako Okingan Okik Yokan Amfo Hongo Lod Hiko Loken Yaborbo Lid Yarbo Hamfo Lerban Lalmak Limban Aban Lakod Obik
+		}
+
+		female_names = {
+		Alma Lubonga Myra Yokan Luka Oka Yonna Lika Arba Laka Hanginna Hikta Okeba Loka Yurba Abuka Lanna Halma Lika Gran Hanna Hen Amfin Huka Akta Hakta Heka Haka Hikanna Olmenguba Hiban Hikan Leka Lakta Yinga Lekan Larba Anga Yukta Lamba Lakaka Myrika Henna Omborba Onnad Lekekaka Anklaka Hokta Yuban Olmika Aktanna Okan Lokta Angeka Yunga Linna Hakennuka Abaka Limfika Aktaka Hikakan Lonna Yika Oktoka Hika Hangaba Libaka Lekta Okiba Abekta Akarba Honna Graka Okeka Ongaka Onna Olmeka Langika Lonklaka Hukika Okakta Herba Amfaka Okarba Abarba Ambaka Okaka Olma Olmilma Yakta Okika Yiktenna Lemforba Hambanna Yuka Okteba Lumfaka Grika Akaka Okoba
+		}
+		
+		dukes_called_kings = no 
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
 		modifier = default_culture_modifier
 	}
 }
@@ -490,6 +547,23 @@ round_eared = {
 		female_names = {
 			Styla Maude Frill Mimi Cursilinda Fonzolina Degala Nonstille Adele Adelina Adriana Albina ALda Alfreda Alex Amanda Amaranta Angelica Andreina Annetta Beatrice Benigna Berenice Bice Brigida Carla Carmela Carmen Cecillia Caterina Chiara Cinzia Clelia Cloe Dafne Crocetta Daria Debora Delfina Domitilla Donata Elena Elda Edvige Elettra Eliana Elisabetta Felicita Fernanda Fiammetta Flora Franca Fulvia Gaia Germana Gessica Gia Gilda Gina Ilda Ileana Imelda Ines Iolanda Isotta Jolanda Lara Laura Lia Lisa Livia Loretta Ludovica Maria Mariangela Marisa Marta Michela Mirella Monica Nadia Nerina Nicoletta Nina Nunzia Ofelia Orsola Osanna Perla Pia Romana Romilda Rubina Sandra Samuela Scilla Sebastiana Selvaggia Tamara Tina
  		}
+	}
+	tolemac = {
+		graphical_culture = northernhumangfx
+		
+
+		color = { 0 0.39 0}
+		
+		
+		male_names = {
+		Gaspra Krebb Lothar Waldensop Lonlyn Myntoll Faust Sirram Eric Ian Laldac Ethim Libb Germek Gorop Krest Glonnop Iarem Krirre Kriroll Sholl Ehtom Glonne Krill Forall Fill Loll Fak Ethe Febb Glabb Germa Soll Krell Ensorre Sorast Glast Glok Wast Krebb Feldast Sennec Lirust Yvire Sarar Glall Sast Gaurre Lermic Wansoc Sennam Lothom Sorre Gast Gall Farrall Krobb Iarap Krall Krerap Glip Shak Sirap Larrebb Genlyn Krist Ennak Forroll Laldost Germam Yvonnarir Erast Firral Krerre Werre Yvill Krek Gerom Krep Glonnek Germansoc Kerram Sennerek Warrur Shauk Eroll Yvec Larre Yvoll Fennill Githall Linsuk Aeraull Krirast Last Fonne Gloll Lorre Woric Gerast
+		}
+		female_names = {
+		Shurmak Glebb Yvonne Lall Yvaurop Garem Lirra Farra Golda Solda Senne Germe Larra Gorre Krobb Krerra Yvep Latha Wansa Iarra Shall Yvonnarre Erre Wanse Wabb Glalda Werebb Shast Sharre Linnac Glest Liribb Wansup WEthast Yverop Krabb Ennam Seldall Senna Forre Yvobb Warma Lerar Ethop Lill Yvall Lerill Gaup Sinnak Ermip Sarac Sill Lora Warebb Shok Wam Krem Serra Garma Lorop Sall Werra Yvabb Ethall Lunnerrre Silde Gerar Worre Worill Sabb Yvirre Sennap Yvom Ethak Sarre Gloric Yvac Shost Saldast Sak Fara Yvor Iara Lolde Shek Shist Fuspara Seror Glolda Sinsa Eldill Sennep Gorra Sirre Etha Lirum Glerra Sennar Lilda Lurast 
+		}		
+		dukes_called_kings = no
+				
+		modifier = default_culture_modifier
 	}
 }
 lost_tribe = {
