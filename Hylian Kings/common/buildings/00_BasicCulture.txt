@@ -23,6 +23,9 @@ castle = {
 				culture = hyrulean
 				culture = arcadian
 				culture = calatian
+				culture = tolemac
+				culture = little_hyrulean
+
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -42,7 +45,10 @@ castle = {
 				culture = cobble
 				culture = hyrulean
 				culture = arcadian
-				culture = calatian 
+				culture = calatian
+				culture = tolemac
+				culture = little_hyrulean
+ 
 
 			}
 		}
@@ -64,6 +70,9 @@ castle = {
 				culture = hyrulean
 				culture = arcadian
 				culture = calatian 
+				culture = tolemac
+				culture = little_hyrulean
+ 
 
 			}
 		}
@@ -85,6 +94,9 @@ castle = {
 				culture = hyrulean
 				culture = arcadian
 				culture = calatian 
+				culture = tolemac
+				culture = little_hyrulean
+ 
 
 			}
 		}
@@ -158,6 +170,79 @@ castle = {
 		ai_creation_factor = 101
 		
 		extra_tech_building_start = 0.8
+	}
+	ca_koridain_guard_1 = {
+		desc = ca_koridain_guard_desc
+		potential = {
+				culture = koridain 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replace = ca_militia_baracks_1
+		gold_cost = 100
+		build_time = 365
+		pikemen = 40
+		archers = 40
+		archers_morale = 0.2
+		pikemen_morale = 0.2
+
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_koridain_guard_2 = {
+		desc = ca_koridain_guard_desc
+		potential = {
+				culture = koridain 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_1 }
+		replace = ca_militia_baracks_2
+		upgrades_from = ca_koridain_guard_1
+		gold_cost = 120
+		build_time = 547
+		pikemen = 50
+		archers = 50
+		archers_morale = 0.2
+		pikemen_morale = 0.2
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.0
+	}
+	ca_koridain_guard_3 = {
+		desc = ca_koridain_guard_desc
+		potential = {
+				culture = koridain 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_koridain_guard_2
+		replace = ca_militia_baracks_3
+		gold_cost = 200
+		build_time = 1095
+		pikemen = 500
+		archers = 50
+		archers_morale = 0.2
+		pikemen_morale = 0.2
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	ca_koridain_guard_4 = {
+		desc = ca_koridain_guard_desc
+		potential = {
+				culture = koridain 
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_koridain_guard_3
+		replace = ca_militia_baracks_4
+		gold_cost = 300
+		build_time = 1095
+		pikemen = 50
+		archers = 50
+		archers_morale = 0.2
+		pikemen_morale = 0.2
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
 	}
 ##human
 	#Horon Rangegrounds
@@ -242,6 +327,7 @@ castle = {
 			culture = ikanan
 			culture = lorulean
 			culture = hytopian
+			culture = gamelon 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_2 }
@@ -260,6 +346,7 @@ castle = {
 			culture = ikanan
 			culture = lorulean
 			culture = hytopian
+			culture = gamelon 
 
 
 		}
@@ -280,6 +367,7 @@ castle = {
 			culture = ikanan
 			culture = lorulean
 			culture = hytopian
+			culture = gamelon 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		upgrades_from = ca_swordsman_2
@@ -298,6 +386,7 @@ castle = {
 			culture = ikanan
 			culture = lorulean
 			culture = hytopian
+			culture = gamelon 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ca_swordsman_3
@@ -511,7 +600,6 @@ castle = {
 		extra_tech_building_start = 0.3
 	}
 	#kasuton oldmen
-		#
 	ca_kasuton_enclave_1 = {
 		desc = ca_kasuton_enclave_1_desc
 		potential = {
@@ -579,6 +667,7 @@ castle = {
 		desc = ca_sarian_rivermenlist_1_desc
 		potential = {
 			culture = sarian
+			culture = west_hyrulean
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_2 }
@@ -594,6 +683,7 @@ castle = {
 		desc = ca_sarian_rivermenlist_1_desc
 		potential = {
 			culture = sarian
+			culture = west_hyrulean 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		upgrades_from = ca_sarian_rivermenlist_1
@@ -609,6 +699,7 @@ castle = {
 		desc = ca_sarian_rivermenlist_1_desc
 		potential = {
 			culture = sarian
+			culture = west_hyrulean 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		upgrades_from = ca_sarian_rivermenlist_2
@@ -624,6 +715,7 @@ castle = {
 		desc = ca_sarian_rivermenlist_1_desc
 		potential = {
 			culture = sarian
+			culture = west_hyrulean 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ca_sarian_rivermenlist_3
@@ -638,7 +730,7 @@ castle = {
 	ca_eldin_crow_warriors_1 = {
 		desc = ca_eldin_crow_warriors_1_desc
 		potential = {
-				culture = eldin			
+				culture = eldin		
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_2 }
@@ -655,7 +747,7 @@ castle = {
 	ca_eldin_crow_warriors_2 = {
 		desc = ca_eldin_crow_warriors_1_desc
 		potential = {
-				culture = eldin			
+				culture = eldin		
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		upgrades_from = ca_eldin_crow_warriors_1
@@ -705,7 +797,7 @@ castle = {
 	ca_kakarikon_sappers_1 = {
 		desc = ca_kakarikon_sappers_1_desc
 		potential = {
-			culture = ho_ho
+			culture = kakarikon
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_2 }
@@ -720,7 +812,7 @@ castle = {
 	ca_kakarikon_sappers_2 = {
 		desc = ca_kakarikon_sappers_1_desc
 		potential = {
-			culture = ho_ho
+			culture = kakarikon
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		upgrades_from = ca_kakarikon_sappers_1
@@ -737,7 +829,7 @@ castle = {
 	ca_kakarikon_sappers_3 = {
 		desc = ca_kakarikon_sappers_1_desc
 		potential = {
-			culture = ho_ho
+			culture = kakarikon
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		upgrades_from = ca_kakarikon_sappers_2
@@ -754,7 +846,7 @@ castle = {
 	ca_kakarikon_sappers_4 = {
 		desc = ca_kakarikon_sappers_1_desc
 		potential = {
-			culture = ho_ho
+			culture = kakarikon
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ca_kakarikon_sappers_3
@@ -840,7 +932,7 @@ castle = {
 	ca_yama_golemshop_1 = {
 		desc = ca_yama_golemshop_desc
 		potential = {
-			culture = gerudo 
+			culture = yamatamian 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -853,7 +945,7 @@ castle = {
 	ca_yama_golemshop_2 = {
 		desc = ca_yama_golemshop_desc
 		potential = {
-			culture = gerudo 
+			culture = yamatamian 
 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -869,7 +961,7 @@ castle = {
 	ca_yama_golemshop_3 = {
 		desc = ca_yama_golemshop_desc
 		potential = {
-			culture = gerudo 
+			culture = yamatamian 
 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
@@ -885,7 +977,7 @@ castle = {
 	ca_yama_golemshop_4 = {
 		desc = ca_yama_golemshop_desc
 		potential = {
-			culture = gerudo 
+			culture = yamatamian 
 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
@@ -1125,7 +1217,7 @@ castle = {
 	ca_wind_armosshop_1 = {
 		desc = ca_wind_armosshop_desc
 		potential = {
-			culture = gerudo 
+			culture = wind_tribe 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -1138,7 +1230,7 @@ castle = {
 	ca_wind_armosshop_2 = {
 		desc = ca_wind_armosshop_desc
 		potential = {
-			culture = gerudo 
+			culture = wind_tribe 
 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -1154,7 +1246,7 @@ castle = {
 	ca_wind_armosshop_3 = {
 		desc = ca_wind_armosshop_desc
 		potential = {
-			culture = gerudo 
+			culture = wind_tribe 
 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
@@ -1170,7 +1262,7 @@ castle = {
 	ca_wind_armosshop_4 = {
 		desc = ca_wind_armosshop_desc
 		potential = {
-			culture = gerudo 
+			culture = wind_tribe 
 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
@@ -1834,9 +1926,9 @@ castle = {
 		extra_tech_building_start = 0.8
 	}
  ##alien 
-	#twili duskwarriors
-	ca_twili_duskwarriors_1 = {
-		desc = ca_twili_duskwarriors_1_desc
+	#twili duskknights
+	ca_twili_duskknights_1 = {
+		desc = ca_twili_duskknights_1_desc
 		potential = {
 				culture = twili			
 		}
@@ -1850,13 +1942,13 @@ castle = {
 		
 		extra_tech_building_start = 0.8
 	}
-	ca_twili_duskwarriors_2 = {
-		desc = ca_twili_duskwarriors_1_desc
+	ca_twili_duskknights_2 = {
+		desc = ca_twili_duskknights_1_desc
 		potential = {
 				culture = twili			
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
-		upgrades_from = ca_twili_duskwarriors_1
+		upgrades_from = ca_twili_duskknights_1
 		gold_cost = 300
 		build_time = 1095
 		heavy_infantry = 30
@@ -1865,13 +1957,13 @@ castle = {
 		
 		extra_tech_building_start = 0.8
 	}
-	ca_twili_duskwarriors_3 = {
-		desc = ca_twili_duskwarriors_1_desc
+	ca_twili_duskknights_3 = {
+		desc = ca_twili_duskknights_1_desc
 		potential = {
 				culture = twili			
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
-		upgrades_from = ca_twili_duskwarriors_2
+		upgrades_from = ca_twili_duskknights_2
 		gold_cost = 400
 		build_time = 2190
 		heavy_infantry = 30
@@ -1883,13 +1975,13 @@ castle = {
 		
 		extra_tech_building_start = 0.8
 	}
-	ca_twili_duskwarriors_4 = {
-		desc = ca_twili_duskwarriors_1_desc
+	ca_twili_duskknights_4 = {
+		desc = ca_twili_duskknights_1_desc
 		potential = {
 				culture = twili			
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
-		upgrades_from = ca_twili_duskwarriors_3
+		upgrades_from = ca_twili_duskknights_3
 		gold_cost = 500
 		build_time = 2190
 		heavy_infantry = 40
@@ -2323,7 +2415,25 @@ city = {
 		
 		extra_tech_building_start = 0.8
 	}
+#tolemac astronomy tower
+	ct_tolemac_education_4 = {
+		desc = ct_education_4_desc
+		potential = {
+			culture = tolemac
 
+		}
+		trigger = { TECH_CITY_CONSTRUCTION = 8 }
+		upgrades_from = ct_education_3
+		gold_cost = 800
+		build_time = 2190
+		
+		tech_growth_modifier = 0.5
+		economy_techpoints = 0.05
+		
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 0.2
+	}
 ##lost humans
 #darknut
 	#see 00_darknutbuildings
@@ -2413,11 +2523,14 @@ city = {
 
 		extra_tech_building_start = 0.2
 	}
-#windtribe farm
+#windtribe+koroi terraced farm
 	ct_windtribe_agriculture_1 = {
 		desc = ct_windtribe_agriculture_1_desc
 		potential = {
+				OR = {
 				culture = wind_tribe
+				culture = koridain 
+				}
 				OR = {
 				terrain = farmlands
 				terrain = hills
@@ -2438,14 +2551,11 @@ city = {
 	ct_windtribe_agriculture_2 = {
 		desc = ct_windtribe_agriculture_2_desc
 		potential = {
-				culture = wind_tribe
 				OR = {
-				terrain = farmlands
-				terrain = hills
-				terrain = plains
-				terrain = steppe
-				terrain = mountains
-				}		}
+				culture = wind_tribe
+				culture = koridain 
+				}
+		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		replace = ct_agriculture_2
 		upgrades_from = ct_windtribe_agriculture_1
@@ -2460,7 +2570,10 @@ city = {
 	ct_windtribe_agriculture_3 = {
 		desc = ct_windtribe_agriculture_3_desc
 		potential = {
+				OR = {
 				culture = wind_tribe
+				culture = koridain 
+				}
 				OR = {
 				terrain = farmlands
 				terrain = hills

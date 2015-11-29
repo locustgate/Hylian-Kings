@@ -427,8 +427,8 @@ round_eared = {
 
 		modifier = default_culture_modifier
 	}
-	eldin = {#AZTEC 
-		graphical_culture = eldingfx 
+	eldin = { 
+		graphical_culture = eldingfx #AZTEC 
 		
 		#parent = dark_interloper
 		

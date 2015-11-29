@@ -127,7 +127,34 @@ goddesses_religion = {
 		intermarry = sheikahism 
 		intermarry = wizzrobe_doctrine
 		intermarry = great_maku 
+	} 
+	celestial_signs = {
+		graphical_culture = westerngfx
+
+		icon = 2
+		heresy_icon = 7
+		
+		color = { 0.6 0.6 1 }
+		parent = golden_goddesses 
+
+		scripture_name = THE_SINGS
+		priest_title = KEEPER
+		
+		high_god_name = THE_CELESTIAL_SIGNS		
+		god_names = {
+			THE_CELESTIAL_SIGNS SIGN_EARTH SIGN_ILLUSION SIGN_AIR SIGN_DESTINY SIGN_WATER SIGN_STRENGTH SIGN_FIRE
+		}
+		priests_can_marry = yes
+		attacking_same_religion_piety_loss = yes
+		allow_looting = yes
+
+
+		intermarry = hylia_religion
+		intermarry = sheikahism 
+		intermarry = wizzrobe_doctrine
+		intermarry = great_maku 
 	}
+
 
 	hylia_religion = {
 		graphical_culture = norsegfx
@@ -418,7 +445,7 @@ guardian_deity = {
 		
 		color = { 1 0.55 0}	
 
-		priest_title = SHAMAN
+		priest_title = MESSENGER
 		scripture_name = MOTHERS_MERCY
 		
 		high_god_name = GOD_MOUNTAIN_GODDESS 
@@ -428,8 +455,8 @@ guardian_deity = {
 		}
 		priests_can_inherit = no
 		priests_can_marry = yes 
- 		allow_female_priest = yes
-		feminist = yes
+
+		intermarry = fire_spirits
 	}
 }
 minor_deity = {
@@ -493,6 +520,8 @@ minor_deity = {
 		}
 		priests_can_inherit = no
 
+		intermarry = mother_mountain 
+
 	}
 	barba_religion = {
 		graphical_culture = norsegfx
@@ -515,10 +544,12 @@ minor_deity = {
 		max_consort = 3
 		peace_prestige_lost = yes
 
+		intermarry = demon_religion
 
 	}
 	volvagia_religion = {
 		graphical_culture = norsegfx
+		parent = fire_spirits
 
 		icon = 5
 		heresy_icon = 14
@@ -537,6 +568,8 @@ minor_deity = {
 
 		peace_prestige_lost = yes
 		priests_can_inherit = no
+		
+		intermarry = demon_religion
 	}
 	twin_frogs = {
 		graphical_culture = westerngfx
@@ -686,43 +719,6 @@ minor_deity = {
 		attacking_same_religion_piety_loss = yes
 
 	}
-	din_worship = {
-		graphical_culture = mongolgfx
-		reformed = gerudo_goddess
-		reformer_head_of_religion = yes
-
-		icon = 3
-		heresy_icon = 8
-
-		
-		color = { 0.7 0.13 0.13 }
-		
-		scripture_name = DIN_POWER
-		priest_title = PRIEST
-		
-		allow_looting = yes
-
-		priests_can_inherit = no
-		priests_can_marry = yes 
- 		allow_female_priest = yes
-		allow_viking_invasion = yes
-		can_hold_temples = yes 
-		feminist = yes
-		max_wives = 4
-
-
-		high_god_name = GOD_DIN
-		
-		god_names = {
-			GOD_DIN 
-		}
-		
-		evil_god_names = {
-				GOD_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE
-		}
-		intermarry = pirate_doctrines
-		intermarry = wizzrobe
-	}
 	gerudo_goddess = {
 		graphical_culture = mongolgfx
 
@@ -740,8 +736,7 @@ minor_deity = {
 		priests_can_inherit = no
 		priests_can_marry = yes 
  		allow_female_priest = yes
-		allow_viking_invasion = yes
-		can_hold_temples = yes 
+		allow_viking_invasion = yes 
 		feminist = yes
 		max_wives = 4
 		aggression = 1.5
@@ -795,6 +790,29 @@ minor_deity = {
 		}
 		intermarry = pirate_doctrines
 		intermarry = wizzrobe
+	}
+	yamatami_gods = {
+		graphical_culture = norsegfx
+		parent = yamatami_gods
+
+
+		icon = 5
+		heresy_icon = 14
+		
+		color = { 1 0.65 0}	
+
+		priest_title = SHAMAN
+		scripture_name = MOUNTAIN_SONG
+		
+		high_god_name = GOD_YAMATAMI_GODS
+		
+		god_names = {
+			GOD_YAMATAMI_GODS
+		}
+		priests_can_inherit = no
+
+		intermarry = mother_mountain 
+
 	}
 }
 
