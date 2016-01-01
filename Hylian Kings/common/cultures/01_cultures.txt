@@ -607,7 +607,7 @@ lost_tribe = {
 		
 		
 		male_names = {
-			Ganondorf Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Ravos Amun Rusan Gaku Rusan Neme Reku Zolu Aghalmun ANun Vaku Garookun Gavun Dokun Kyicaba Reirun Zirun Jirekan Nodicon Kidabiku Rakorun Tamime Nonit Zati Kyas Geese Valyo Namin Goulmere Meka Gomin Gorun Scun Annun Nonon Doku Kakin Anoku Maphun Akun Vekun Nekun Reras Vun Terin Veku Muban Kupha Temas Gekeku Duti Jaba Guren Vulmas Kokas Gukas Mikun Dikun Reves Zokan Zupha Kame Geku Kyon Rinno Amin Ren Zakun Ucori Unnas Vurim Kakol Kalan Rimace Ukiku Rokas Ukabe Rekas Kavas Vuphi Anen Veidi Morun Gelu Scas
+			Ganondorf Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Ravos Amun Rusan Gaku Rusan Neme Reku Zolu Aghalmun Anun Vaku Garookun Gavun Dokun Kyicaba Reirun Zirun Jirekan Nodicon Kidabiku Rakorun Tamime Nonit Zati Kyas Geese Valyo Namin Goulmere Meka Gomin Gorun Scun Annun Nonon Doku Kakin Anoku Maphun Akun Vekun Nekun Reras Vun Terin Veku Muban Kupha Temas Gekeku Duti Jaba Guren Vulmas Kokas Gukas Mikun Dikun Reves Zokan Zupha Kame Geku Kyon Rinno Amin Ren Zakun Ucori Unnas Vurim Kakol Kalan Rimace Ukiku Rokas Ukabe Rekas Kavas Vuphi Anen Veidi Morun Gelu Scas
 		}
 		female_names = {
 			Koume Uma Telma Kotake Aveil Nabooru Runeka Rova Numi Dizi Ari Neesha Apheri Zulika Nacarat Scarlet Aphyx Rien Amplisa Gemsha Jinni Gaiadon Ganian Kyoko Maryn Talya Nerin Usema Nuri Geloori Arema Noronio Takun Kielu Hiesa Arona Keku Gekikava Jecis Nusin Rakeri Araku Gava Rimun Nalit Karu Kami Riku Nakun Viciku Avet Naku Koca Ukun Nukun Noni Jipha Aleku Nova Rapha Aronan Mikan Nezu Alaku Gikio Nobi Ranen Vekinin Akas Rieva Ruvit Neku Amoana Jesa Roren Randase Gekeki Akorime Arake Ruku Jerecura Natuk Nikun ALyukas Haika Nooba Rakun Kekun Gikun Aghacaku Kyelmun Nasokun Geras Mekas Veven Noci Umase Daiku Vole Volemaiku Jaraku Makas Dipha Nashoku Tekit Tovi Goulmenna Gounoka Tiekun Azendun Roriakun NOma Avas Atas Gemin Nekin Anana Aphekun Reken Zaken Gede Gelyo Talyo Amplas Vova Vines Nilu Okouku Goanas Koku Dame Kesa Hoonice Zarokun Ramikun Alyun Goku Kuphi Voli Tuba Gaba Kepha Nunas Riras Akorun Nocos Mokas Geden Keeba Giki 
@@ -976,8 +976,44 @@ aquatic_group = {
 		allow_looting = yes
 		seafarer = yes
 	}
+
+	geozard = {
+		graphical_culture = geozardgfx
+	
+		parent = demon
+
+		color = { 0.86 0.63 .87 }
+
+		male_names = {
+			Akbas Aollah Arafazl Ayuorz Daiash Gorashir Hactoo Haruhir Hayad Hiar Hotram Ichraz Isaooz Itsouz Jirana Jurruz Kaeyal Kaiara Kaoush Katvud Kazhim Kensan Kicail Koudar Kuroon Kyookh Makoon Masoun Micoun Minroz Naolam Nobhan Norzar Osaadi Renmid Riksan Roklil Ryoshed Ryueed Sabved Shibiz Shoaja Shuian Sorush Sothdi Sououd Susmud Taiood Takoud Tarud Tsuhdi Yamehr Yaseed Yorima Yosvid Yukeza Yuutam Hanmid Ali Han Haosun Shori Nukijurad Sosal Sholafaz Tusha Hitron Yatsijan Jabha Juklal Alour Akish Jounil Sarud Siha Tubhad Torum Yohal Ifod Sekban Deekoch Raarered Okur Yisa Nusan Yaon Shol Rayad Mojun Jijon Jisad Sutal Joural Mosur Tsebha Roran Jnud Yan Yisal Motoctan
+		}
+
+		female_names = {
+		Areko Atemi Avana Azaane Azremi Bahiko Banami Danuka Daraya Delaka Ehsame Elane Elhano Faika Fatako Feruka Firtsu Ghoiyo Goloko Hamcho Jalemi Katuko Khana Khoako Khuaru Laluka Leiuna Leyaru Mahina Marata Masoko Minomi Mitoka Mojshi Moriko Naharu Narumi Nasnko Nedede Nilori Niuumi Nouzue Omiuko Paniko Pariku Rogoko Rosaku Saharu Sakoro Sanone Sariko Shakyo Shayou Shimai Shoto Simami Sohami Somao Soriko Yasuyo Zahmei Zarchi Zeiori Zeyika Zhamio Zibiyu Ziniko Fikati Shari ZOra Dakamo Abuho Abimaki Zeki Abasana Fikedo Narate Zimata Zira Zeriki Sharo Deri Galeli Sakete Nani Atoke Aremo Zirikio Shoto Mami Nozei Miko Muse Zako Amamo Faka Mete Zemi Akamai Hazri
+		}
+	}
+}
+mountainous_group = {
+	keaton = {
+		graphical_culture = keatongfx # mc keaton
+
+		parent = demon
+
+		color = { 0.88 1 1 }
+		horde = yes 
+		
+		male_names = {
+		Akio Akira Aoi Arata Ayumu Daichi Daiki Daisuke Goro Gorou Hachiro Haru Haruki Haruto Hayate Hayato Hibiki Hideaki Hideyoshi Hikaru Hiroshi Hiroto Hotaka Ichiro Ichirou Isamu Itsuki Jiro Jirou Juro Jurou Kaede Kaito Kaoru Katashi Katsu Kazuo Kenji Kenshin Kenta Kichiro Kiyorshi Kohaku Kuro Kyo Makoto Masaru Michi Minato Naoki Naomi Noboru Nobu Nori Osamu Ren Riku Rikuto Rokurou Ryota Ryou Ryouichi Ryouta Ryuu Saburo Shichiro Shin Shinobu Shiori Shiro Sho Shouta Shun Sora Sota Souma Susumu Taichi Taiki Takahiro Takashi Takeshi Takuma Taro Tsubasa Yamato Yasu Yori Yoshi Yoshiro Youta Yuki Yuudai Yuuma Yuuta 
+		}
+		female_names = {
+		Kuzunoha Inari Mae Ai Aiko Aimi Aina Airi Akane Akemi Aki Akiko Akira Ami Aoi Asuka Atsuko Aya Ayaka Ayako Ayame Ayane Ayano Chika Chikako Chinatsu Chiyo Chiyoko Cho Chou Chouko Emi Etsuko Hana Hanae Hanako Haru Haruka Haruna Hikari Hikaru Hina Hinata Hiroko Hitomi Honoka Hoshi Hoshiko Hotaru Izumi Junko Kaede Kanon Kaori Kaoru Kasumi Kazue Kazuko Keiko Kiku Kimiko Kiyoko Kohaku Koharu Kokoro Kotone Kumiko Kyo Mai Makoto Mami Manami Mao Mariko Masami Masuyo Mayu Megumi Mei Michi Michiko Midori Mika Miki Miku Minako Mio Misaki Mitsuko Miu Miyako Miyu Mizuki Moe Momoka Moriko Nana Nanami Naomi Natsuko
+		}
+
+	}
+
 	rito = {
 		graphical_culture = ritogfx # portraits
+		parent = lake_zora
 
 		color = { 0.88 1 1 }
 		
@@ -1004,47 +1040,66 @@ aquatic_group = {
 		modifier = default_culture_modifier
 
 	}
-
-	geozard = {
-		graphical_culture = geozardgfx
-	
-		parent = demon
-
-		color = { 0.86 0.63 .87 }
+	watarara = {
 
 		male_names = {
-			Akbas Aollah Arafazl Ayuorz Daiash Gorashir Hactoo Haruhir Hayad Hiar Hotram Ichraz Isaooz Itsouz Jirana Jurruz Kaeyal Kaiara Kaoush Katvud Kazhim Kensan Kicail Koudar Kuroon Kyookh Makoon Masoun Micoun Minroz Naolam Nobhan Norzar Osaadi Renmid Riksan Roklil Ryoshed Ryueed Sabved Shibiz Shoaja Shuian Sorush Sothdi Sououd Susmud Taiood Takoud Tarud Tsuhdi Yamehr Yaseed Yorima Yosvid Yukeza Yuutam Hanmid Ali Han Haosun Shori Nukijurad Sosal Sholafaz Tusha Hitron Yatsijan Jabha Juklal Alour Akish Jounil Sarud Siha Tubhad Torum Yohal Ifod Sekban Deekoch Raarered Okur Yisa Nusan Yaon Shol Rayad Mojun Jijon Jisad Sutal Joural Mosur Tsebha Roran Jnud Yan Yisal Motoctan
+		Guufo Rouru Erou Ruufo Euurou Afo Bouru Buufo Duufo Celro Terou Guutara Gato Buuro Ruuru Befo Doufo Dourefo Bato Doureru Erafo Cuufo Garero Ruufa Baro Buufo Efou Refou Ruufu Deruufa Bafu Bafou Roufo Doutou Ruufo Guuro Afafo Euufo Baru Rou Berou Cera Guufo Arero Aruufa Buufa Delruuro Gafu Euufu Buufu Bara Duufu Aferu Cafo Rero Guuta Buufero Buuru Tefou Cuulro Baruura Afu Duuru Coufo Aruufu Rouru Efo Bero Duufo Cuufa Goufo Coufa Cuuru Bateru Rouro Gefou Telru Duuro Coufelra Garu Cuuto Euulru Douro Ruura Gara Etuutu Tuuro Cuura Currefo Gafaro Duura Batero Barou Buuta Efu Gouro Duuta Balfero Coufu Duufa
 		}
-
-		female_names = {
-		Areko Atemi Avana Azaane Azremi Bahiko Banami Danuka Daraya Delaka Ehsame Elane Elhano Faika Fatako Feruka Firtsu Ghoiyo Goloko Hamcho Jalemi Katuko Khana Khoako Khuaru Laluka Leiuna Leyaru Mahina Marata Masoko Minomi Mitoka Mojshi Moriko Naharu Narumi Nasnko Nedede Nilori Niuumi Nouzue Omiuko Paniko Pariku Rogoko Rosaku Saharu Sakoro Sanone Sariko Shakyo Shayou Shimai Shoto Simami Sohami Somao Soriko Yasuyo Zahmei Zarchi Zeiori Zeyika Zhamio Zibiyu Ziniko Fikati Shari ZOra Dakamo Abuho Abimaki Zeki Abasana Fikedo Narate Zimata Zira Zeriki Sharo Deri Galeli Sakete Nani Atoke Aremo Zirikio Shoto Mami Nozei Miko Muse Zako Amamo Faka Mete Zemi Akamai Hazri
+		females_names = {
+		Elrora Yelra Gelra Relra Ara Bora Dula Calra Rela Bara Dera Dela Balra Alra Dera Gela Yelra Yerela Erala Yerora Delra Alera Elara Ela Erera Rolra Yala Rera Cara Rolola Cela Cola Rala Elola Bera Rela Rola Dara Erora Dolra arala Ara Cera Erara Gera Elora Bora Elela Alara Erela Elara Bola Arora Rara Yolra Celara Yula Yela Cura Belera Ala Elura Dala Relra Dura Bolra Dola Rora Yara Alora Gelra Dora Erola Yulra Dalra Galra Cora Barelra Erura Dela Culra Ralra Gulra Belra Rura Alura Gula Bura Corera Erula Elula Bala Elra Yola Bulra Year Alela Arera Yalra Cula
 		}
 	}
-}
+	yeti = {
+		graphical_culture = yetigfx # portraits
+		#parent = mogma
 
-fae = {
-
-	great_fairy = {
-		graphical_culture = fairygfx # portraits 
-
-		used_for_random = no 
-
-		color = { 1 0.75 0.8 }
+		color = { 0.88 1 1 }
 		
-		
-		male_names = { 
-		Tael Leaf Aeneas Amulius Aries Consus Cupid Evander Evandrus Faunus Gemini Hercules Ianus Iovis Italus Iuppiter Janus Jove Jupiter Liber Mars Mercury Neptune Neptunus Numitor Pluto Pollux Quirinus Remus Romulus Saturn Saturnus Silvanus Silvius Summanus Tatius Terminus Ulysses Vulcan Alecjo Aleksandro Ancjo Antono Jocjo Johano Jozefo Koralo Lucjo Ludoviko Micjo Mihaelo Mikelo Nicjo Nikolao Rapcjo Paulo Petro Vilcjo Vilhelmo Achilles Achilleus Adonis Adrastos Aeolus Aeson Agamemnon Aias Aineias Aiolos Ajax Alexander Alexandros Apollo Apollon Ares Argus Aristaeus Aristodemos Asklepios Atlas Brontes Bacchus Castor Cephalus Cepheus Cerberus Charon Chryses Coeus Crius Cronus Daedalus Damocles Damon Dardanos Deimos Diomedes Dionysos Epimetheus Erebus
+		male_names = {
+			Yeto Yash Yam Yak Ya Yado Yush Yaj Yoshi Yut Yeng Yudak Yudat Yush Yash Yato Yedi Yushi Yatum Yersh Yedak Yotuj Yashi Yum Yudi Yasho Yatak Yadat Yaj Yati Yado Yem Yesho Yoduj Yutum Yeng Yat Yuk Yadok Yosho Yang Yodak Yodat Yetej Yeto Yek Yudaj Yutoj Yushak Yetum Yok Yushedo Yadut Yong Yetek Yedam Yadam Yutam Yutadaj Yadoj Yeshi Yeduj Yedum Yotet Yaduj Yedum Yotet Yaduj Yung Yuti Yatam Yotej Yatok Yatek Yutuk Yatoto Yuj Yatom Yadum Yudum Yuduk Yatet Yatut Yedem Yudum Yutok Yej Yotuk Yadom Yetam Yataj Yutom Yataj Yutom Yutut Yudej Yutak Yotot Yedej Yedok
 		}
 		female_names = {
-		Venus Navi Tatl Fi Ciela Neri Yume Nieve Melvina Nuria Rill Lucia Una Tiamara Proxi Miff Spryte Felicia Epheremelda Angerona Aurora Bellona Camilla Cardea Ceres Concordia Diana Dido Elissa Fauna Felicitas Flora Hersilia Iuno Juno Juturna Juventas Lara Larunda Lavinia Libitina Luvinia Lucretia Luna Maia Minerva Naenia Nona Pax Pomona Proserpina Proserpine Rhea Salacia Silvia Vesta Victoria Adorinda Amika Aminda ABrava Dezirinda Esperanta Fajra Fiera Gaja Glorinda Juvela Kandaja Karesinda Katida Luksa Maraja Merita Miela Mirinda Orabela Pipra Rava Rozabela Rubena Safira Sprita Stelara Tondra Valora Venka Vespera Acantha Adrasteia Aegle Aella Agau Aglae Aglaia Aigle Akantha Alcippe Alcyone Alecto
-		 }
-		
+			Yeta Yusha Yudita Yushi Yusa Yaa Yanta Yati Yesha Yuda Yuta Yasha Yedi Yededi Yusa Yashadi Yasi Yata Yunta Yunshi Yunta Yiti Yada Yataa Yasa Yidi Yusha Yudi Yesa Yati Yisha Yutaa Yunti Yenta Yanta Yitaa Yeda Yedata Yetaa Yishi Yashi Yusi Yeshi Yusaa Yudasi Yesi Yinta Yanti Yadi Yuti Yiti Yisa Yida Yisaa Yisi Yesaa Yedaa Yesati Yenti Yaa Yashaa Yitita Yatusa Yesata Yutata Yasaa Yushaa Yetusa Yusidi Yitata Yusudi Yetenta Yusida Yedushi Yatusi Yitasi Yetada Yusiti Yetuda Yasata Yesita Yususi Yeseti Yetedi Yusita Yuseda Yituta Yedusa Yatata Yetita Yushusa Yutedi Yituda Yuseti Yutesi Yusasi Yusuda Yututa Yasuta Yeteta
+		}		
 		dukes_called_kings = no
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 10
 		
-		from_dynasty_prefix = "of "
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 10
 
 		modifier = default_culture_modifier
 	}
+	yook = {
+		parent = demon
+	}	
+}
+fae = {
+	deku_tree = {
+
+		graphical_culture = dekugfx # portraits 
+
+		used_for_random = no
+		
+		color = { 0 0.39 0 }
+		
+		male_names = {
+		Deku
+		}
+		female_names = {
+		Deku
+		}
+		
+		dukes_called_kings = yes
+		
+		modifier = default_culture_modifier
+	}
+
 	demon = {
 		graphical_culture = demongfx # portraits 
 
@@ -1069,23 +1124,26 @@ fae = {
 		modifier = default_culture_modifier
 		allow_looting = yes
 	}
-	deku_tree = {
 
-		graphical_culture = dekugfx # portraits 
+	great_fairy = {
+		graphical_culture = fairygfx # portraits 
 
-		used_for_random = no
+		used_for_random = no 
+
+		color = { 1 0.75 0.8 }
 		
-		color = { 0 0.39 0 }
 		
-		male_names = {
-		Deku
+		male_names = { 
+		Tael Leaf Aeneas Amulius Aries Consus Cupid Evander Evandrus Faunus Gemini Hercules Ianus Iovis Italus Iuppiter Janus Jove Jupiter Liber Mars Mercury Neptune Neptunus Numitor Pluto Pollux Quirinus Remus Romulus Saturn Saturnus Silvanus Silvius Summanus Tatius Terminus Ulysses Vulcan Alecjo Aleksandro Ancjo Antono Jocjo Johano Jozefo Koralo Lucjo Ludoviko Micjo Mihaelo Mikelo Nicjo Nikolao Rapcjo Paulo Petro Vilcjo Vilhelmo Achilles Achilleus Adonis Adrastos Aeolus Aeson Agamemnon Aias Aineias Aiolos Ajax Alexander Alexandros Apollo Apollon Ares Argus Aristaeus Aristodemos Asklepios Atlas Brontes Bacchus Castor Cephalus Cepheus Cerberus Charon Chryses Coeus Crius Cronus Daedalus Damocles Damon Dardanos Deimos Diomedes Dionysos Epimetheus Erebus
 		}
 		female_names = {
-		Deku
-		}
+		Venus Navi Tatl Fi Ciela Neri Yume Nieve Melvina Nuria Rill Lucia Una Tiamara Proxi Miff Spryte Felicia Epheremelda Angerona Aurora Bellona Camilla Cardea Ceres Concordia Diana Dido Elissa Fauna Felicitas Flora Hersilia Iuno Juno Juturna Juventas Lara Larunda Lavinia Libitina Luvinia Lucretia Luna Maia Minerva Naenia Nona Pax Pomona Proserpina Proserpine Rhea Salacia Silvia Vesta Victoria Adorinda Amika Aminda ABrava Dezirinda Esperanta Fajra Fiera Gaja Glorinda Juvela Kandaja Karesinda Katida Luksa Maraja Merita Miela Mirinda Orabela Pipra Rava Rozabela Rubena Safira Sprita Stelara Tondra Valora Venka Vespera Acantha Adrasteia Aegle Aella Agau Aglae Aglaia Aigle Akantha Alcippe Alcyone Alecto
+		 }
 		
-		dukes_called_kings = yes
+		dukes_called_kings = no
 		
+		from_dynasty_prefix = "of "
+
 		modifier = default_culture_modifier
 	}
 }
@@ -1373,6 +1431,32 @@ undead = {
 }
 
 other_world = {
+
+	garo = {
+		graphical_culture = garogfx # portraits 
+
+		color = { 0.63 0.13 0.94 }
+		#last Names Jalimpa Nengminja Sangma 
+		male_names = { 
+		Togan Jappa Sonaram Songma Jongla Babukona Kamrup Goalpara Siju Tura Korap Gaga Sap Jorara Tana Gara Tigura Gonaru Soboja Saja Gomra Gagum Gun Sajana Jabaru Tolpu Jaba Koja Talpuna Taru Boram Sara Goga Jomra Tuppa Jora Saga Garu Sabum Turoron Gajip Karaj Gaja Sora Soja Tuna Gonaba Goaram Samra Tonup Gonam Sajap Sija Bujuja Gajaba Jonoka Gajuja Sogariram Garam Tobop Kappam Jorun Suja Jajum Tuja Jaram Suru Solpa Juru Gana Sagu Soru Jonora Baga Tulpa Gagaka Solpoga Kanora Barora Karinora Suranu Banum Jujop Joruba Samrana Tanaram Suga Jobura Buja Sanora Kunora Gonabu Joru Tolpa Scara Kabora Sajup Jara Sabalpora Tara
+		}
+		female_names = {
+		Mapen Nagaburi Babukona Rebagre Resubelpara Hunnay Karbi Anglong Assam Nibekay Molpi Kubon Hasagri Nisan Regan Kapaseba Abanarbi Ranokabem Mupen Munnan Nalpi Mebe Nugabuga Mirulpum Raba Arabi Hobagre Nibugong Naram Rarbam Hagen Kaban Rubusan Agaren Hababe Haren Ragen Mabosan Rebogre Raralpe Relpem Rulpebi Kapom Hasan Annapan Arasessum Roragra Roki Rarorum Maban Rubassi Haranung Rubepam Resseba Arubabay Raralpe Relpem Rulpebi Kapom Hasan Annapan Roragra Roki Rarorum Maban Rubassi Haranung Rubepam Resseba Arubabay Raraba Apessi Rupebe Ababam Aroba Hagagra Mimbabi Hurebun Rarakay Akubara Agaraka Miraba Assam Nabi Agipuba Hunglang Runnupa Mirube Holpung Naberbay Ambarem Apissa Hanuram Abusan Robara Mupuran Mesan Hannen	 Rusan Alpopa	}
+		
+		dukes_called_kings = no 
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 40
+		mother_name_chance = 25
+
+		modifier = default_culture_modifier
+	}
 
 	undead_ikanan = {
 
