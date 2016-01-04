@@ -734,6 +734,17 @@ spirit_continent = {
 			Anjean Weol Traquer Kasie Trame Kerij Sleg Dron Fyool Tran Tendre Trame Tam Funis Koil Plat Fram Brak Pinn Levir Valv Pomp Chimne Haper Porder Cheryl Kem Ahlen Fyer Kitan Pomaleg Threg Ehlen Lirdondeg Vorde Pelun Fraut Peven Bogaeb Candan Kolatan Pamaevan Bren Pihleg Kisip Kogaum Cheg Vehle Pelik Kulob Kisig Amneg Chaum Piqen Blemereg Kaleg Lasen Fahlel Lyte Froeserde Trege Kulerbe Bahle Geg Asote Boqel Weg Bondir Balas Rarde Bondab Aletan Kulavil Frameg Bargem Kisus Walib Braeb Paeb Patil HatemWelaum Pesel Pator Kesen Kehle Keg Ahleg Kisan Kiten Pelot Pele Kaser Avel Ter Traeb Pelie Kamim Rugik Belel Fraul
 		}
 	}
+	yook = {
+		graphical_culture = yookgfx
+		parent = demon
+		
+		male_names = {
+		Yoka Yaetl Yaed Yaex Yae Yaeba Yitl Yaet Yatl Yik Yors Yibaex Yibaek Yitl Yaetl Yaeka Yob Yitl Yaekid Youtl Yobaex Yakit Yaetl Yid Yib Yaetla Yaekaex Yaebaek Yaet Yaek Yaeba Yod Yotla Yabit Yikid Yors Yaek Yix Yaebax Yatla Yaers Yabaex Yabaek Yokot Yoka Yox Yibaet Yikat Yitlaex Yokid Yax Yitloba Yaebik Yars Yokox Yobaed Yaebaed Yikaed Yikaebaet Yaebat Yotl Yobit Yobid Yakok Yaebit Yobid Yakok Yaebit Yirs Yik Yaekaed Yakot Yaekax Yaekox Yikix Yaekaka Yit Yaekad Yaebid Yibid Yibix Yaekok Yaekik Yobod Yibid Yikax Yot Yakix Yaebad Yokaed Yaekaet Yikad Yaekaet Yikad Yikik Yibot Yikaex Yakak Yobot Yobax
+		}
+		female_names = {
+		Yokae Yitlae Yib'kae Yitl Yitae Yaeae Yaerkae Yaek Yotlae Yibae Yikae Yaetlae Yob Yobob Yitae Yaetlaeb Yaet Yaekae Yirkae Yirtl Yirkae Y'k Yaebae Yaekaeae Yaetae Y'b Yitlae Yib Yotae Yaek Y'tlae Yikaeae Yirk Yorkae Yaerkae Y'kaeae Yobae Yobaekae Yokaeae Y'tl Yaetl Yit Yotl Yitaeae Yibaet Yot Y'rkae Yaerk Yaeb Yik Y'k Y'tae Y'bae Y'taeae Y't Yotaeae Yobaeae Yotaek York Yaeae Yaetlaeae Y'k'kae Yaekitae Yotaekae Yikaekae Yaetaeae Yitlaeae Yokitae Yit'b Y'kaekae Yitib Yokorkae Yit'bae Yobitl Yaekit Y'kaet Yokaebae Yit'k Yokibae Yaetaekae Yot'kae Yitit Yotok Yokob Yit'kae Yitobae Y'kikae Yobitae Yaekaekae Yok'kae Yitlitae Yikob Y'kibae Yitok Yikot Yitaet Yitibae Yikikae Yaetikae Yokokae
+		}
+	}
 	new_hyrulean = {
 		graphical_culture = newhyruleangfx # portraits
 		
@@ -886,6 +897,17 @@ goron_group = {
 		}
 		female_names = {
 			Rigoron Kargoron Karigoron Karagoron Kiro Roragon Raroggo Rarugo Korirogo Zarongon Kikgoringon Rangon Kororon Zogorgon Bogiggo Korogon Kogogon Kogorogo Arirn Birogin Zigogin Zoroggoron Moroggo Dikgin Kikgoron Arorgon Roririn Rirogogin Zogoron Garoran Aogarorin Kiroran Rororon Borokging Gikgoron Boroin Kogongoron Rorogoron Rogoran Boggoron Kangoron Kogagin Riringon Ririgo Zogoron Raririn Rorogin Rongoran Kogogon Kogon Zogin Zikgoron Zorgoron Ziriron Riraron Birogon Kogirion Dokgogo Karin Koggon Kogigon Garigon Mogogin Rirugon Zogoggo Arororin Arokgor Zorirgin Korogin Zogaron Zogon Roggiron Koroggon Roggin Mogogo Zororokgon Roggoran Rongon Zogigin Koguron Borargan Rororan Kugogoron Mururon Rorin Kogaron Riroro Gogaron Bororon Karogon Aoron Garon Agagon Digin Zorogoron Rorangoron Zirakgon Dorogon Rogorin Boron
+		}
+	}
+	subrosian = {
+		graphical_culture = subrosiangfx # 
+		color = { 1 0.65 0 }
+		
+		male_names = {
+		Seker Ptah Bes Huehue Xochipilli Kokopelli Kothar Khasis Han Xiangzi Qingfu Beizhu Nuska Vainamoinen Apollo Pan Abhean Odin Gwydion Lono Arshi Prometheus Alaz Agni Aganju Adranus Manqu Qhapaq Cacus Eate Gedi Gerra Gibil Grannus Hephaestus Huracan Ishum Jacawitz Hacavitz Kagu Tsuchi Kojin Sambo Kresnik Logi Halogi Mixcoatl Nusku Ogun Vulcan Peklenc Perun Shango Svarog Tatewari Tohil Verbti Xiuhte Cuhtli Xolotl Zhurong Oceanus Hyperion Coeus Koios Polus Cronus Kros Kreios Lapetus Lelantos Leto Atlas Epimethus Menoetius Metis Persis Pallas Astraeus Ascalaphus Charon Erebus Erinyes Albinus Blandus Brutus Alan Arkaitz Cephas Haldor Halle Hallr Halstein Halvard Harlow Kalju Sakhr Seok Ujarak Zuriel
+		}
+		female_names = {
+		Rosa Meret Hathor Bastet Erzulie Delai Nuwa Saraswati Ame Uzume Mikoto Benzaiten Ninlil Maria Arubani Brigin Menvra Athena Izanami Matarisvan Sethlans Gaia Mnemosyne Tethys Theia Phoebe Rhea Themis Selene Eos Nyx Gaea Hecate Macaria Melinoe Harlow Lorelei Oneida Rochelle Sela Cybele Gemma Itziar Jade Peninnah Pinja Chau Lin Ngoc Kim Ayaka Blejan Blodeuyn Blodwen Bluma Bopha Calanthe Chika Cvetka Diantha Endzela Euanthe Fioralba Fleur Flora Florinda Gol Golnar Golnaz Gul Hajnalka Hana Hanae Hanako Haruka Hoa Honoka Kasumi Kapua Kanon Ione Ianthe Hua Lei Lehua Leilani Leimoni Lule Luljeta Malai Mali Margarida Margarita Melati Melantha Narges Ornella Pa Patigul Pua
 		}
 	}
 }
@@ -1074,9 +1096,6 @@ mountainous_group = {
 		mother_name_chance = 10
 
 		modifier = default_culture_modifier
-	}
-	yook = {
-		parent = demon
 	}	
 }
 fae = {
