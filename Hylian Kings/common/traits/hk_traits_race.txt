@@ -1,23 +1,19 @@
+#Human
 race_hylian = {
 	diplomacy = 1
 	learning = 2
-	same_opinion = 5
-	opposite_opinion = -10
-
-	ai_honor = 10
+	
+}
+race_human = {
+	diplomacy = 1
+	stewardship = 2
 }
 race_sheikah = {
-	opposites = {
-		hylian_blood
-	}
-	intrigue = 4
-	martial = 3
-	same_opinion = 5
-	opposite_opinion = 50
+	intrigue = 2
+	martial = 1	
 
-	ai_honor = 20
-	ai_zeal = 20
-
+	ai_rationality = 5
+	ai_honor = 5
 }
 race_gerudo = {
 	opposites = {
@@ -25,124 +21,74 @@ race_gerudo = {
 	}
 	intrigue = 1
 	martial = 2
-	same_opinion = 5
-	opposite_opinion = -10
+	
+	opposite_opinion = -5
 
 	ai_honor = -5
-	ai_ambition = 10
-
+	ai_ambition = 5
 }
-race_zora = {
-	martial = 1
-	learning = 2
-	same_opinion = 5
 
-	ai_honor = 5		
-}
-race_zola = {
-	opposites = {
-		race_hylian
-		race_gerudo 
-		race_zora
-		race_goron
-		race_kokiri
-	}
-	martial = 4
-	learning = -2
-	opposite_opinion = -10
-
-	ai_ambition = 10
-	ai_rationality = 10
-	ai_honor = -10		
-}
-race_goron = {
-	health = 3
-	martial = 3
-	stewardship = 3
-	same_opinion = 5
-
-	ai_rationality = 10
-
-	immortal = yes
-	
-}
-race_kokiri = {
-	health = 1
-	martial = -2
-	learning = 2
-	same_opinion = 5
-
-	immortal = yes
-
-	ai_ambition = -10
-	
-}
-race_stulkid = {
-	health = 1
-	martial = -2
-	same_opinion = 5
-	fertility = -1000
-
-	ai_zeal = 10
-	ai_honor = -10
-	ai_ambition = 10
-
-	immortal = yes
-	
-}
-race_lizalfos = {
-	martial = 3
-	same_opinion = 5
-
-	ai_ambition = 10	
-}
-race_tokay = {
-	intrigue = 3
-	same_opinion = 5
-
-	ai_greed = 10
-
-}
 race_darknut = {
 	health = 1
 	martial = 3
-	same_opinion = 5
+	same_opinion = 20
+	general_opinion = -10
 
-	ai_honor = 20
-	ai_rationality = 10	
+	ai_honor = 10
+	ai_rationality = 5	
 }
-race_zuna = {
-	stewardship = 2
-	same_opinion = 5
-
+race_wizzrobe = {
+	learning = 4
+	same_opinion = 20
+	general_opinion = -10
+	
+	ai_ambition = 5
+	ai_rationality = 5
 }
-race_stalfos = {
-	health = 5
-	martial = 5
-	learning = 5
-	same_opinion = 5
-	fertility = -1000
-
-	ai_honor = -20
-	ai_rationality = 30
-
-	imortal = yes	
+race_wind = {
+	learning = 4
+	general_opinion = 10
+	
+	ai_ambition = -5
+}
+race_lolian =  {
+	intrigue = 2
+	learning = 1
+	
+	ai_ambition = 5
+	ai_greed = 5
 }
 race_twili = {
 	stewardship = 1
 	learning = 2
 
-	ai_rationality = 10
+	ai_rationality = 5
 	ai_ambition = 5
 
 }
-race_deku = {
-	martial = 2
-	learning = -2
-	same_opinion = 5
+race_garo = {
+	intrigue = 1
+	martial = 2	
 
-	ai_ambition = 10
-	ai_rationality = -10
+	ai_rationality = -5
+	ai_honor = -5
+}
+race_ikanan = {
+	stewardship = 2
+	learning = 1	
+
+}
+#fae
+race_kokiri = {
+	health = 1
+	martial = -2
+	learning = 2
+	
+
+	immortal = yes
+
+	ai_ambition = -5
+	
 }
 race_tree_deity = {
 
@@ -152,7 +98,11 @@ race_tree_deity = {
 	martial = -5
 	learning = 5
 	opposite_opinion = -50
-	same_opinion = 5
+	
+	fertility = -500
+	
+
+	immortal = yes
 
 	ai_ambition = -50
 	ai_honor = 50
@@ -164,7 +114,10 @@ race_tree_demon = {
 	martial = 5
 	learning = -5
 	opposite_opinion = -50
-	same_opinion = 5
+	
+	fertility = -500
+
+	immortal = yes
 
 	ai_ambition = 50
 	ai_honor = -50
@@ -172,37 +125,218 @@ race_tree_demon = {
 race_fairy = {
 	diplomacy = 2
 	learning = 2
-	same_opinion = 5
-	general_opinion = 10
+	
+	general_opinion = 5
 
 	immortal = yes
 }
 race_demon = {
 	martial = 2
 	diplomacy = -2
-	same_opinion = 20
-	general_opinion = -10
-	opposite_oppinon = -10
+	same_opinion = 10
+	general_opinion = -5
+	opposite_oppinon = -5
 
-	ai_ambition = 10
-	ai_honor = -10
+	ai_ambition = 5
+	ai_honor = -5
 
 	immortal = yes
 }
+#aquatic
+race_zora = {
+	martial = 1
+	learning = 2
+	
 
+	ai_honor = 5		
+}
+race_zola = {
+	opposites = {
+		race_hylian
+		race_gerudo 
+		race_zora
+		race_goron
+		race_kokiri
+	}
+	martial = 2
+	learning = -1
+	opposite_opinion = -5
+
+	ai_ambition = 5
+	ai_rationality = 5
+	ai_honor = -5		
+}
+#goron
+race_goron = {
+	health = 2
+	martial = 2
+	learning = 2
+	
+
+	ai_rationality = 5
+	ai_honor = 5
+
+	immortal = yes
+	
+}
+race_subrosian = {
+	health = 1
+	intrigue = 2
+	stewardship = 2
+
+	ai_rationality = 5
+	ai_ambition = -5
+
+	immortal = yes
+}
+#monster (made by demons)
+race_lizalfos = {
+	martial = 2
+	
+
+	ai_ambition = 5	
+}
+race_dinolfos = {
+	martial = 3
+	health = 1
+	
+
+	ai_ambition = 5
+	ai_honor = 5	
+}
+race_aerolfos = {
+	martial = 2
+	intrigue = 1
+	
+
+	ai_ambition = 5
+	ai_rationality = 5	
+}
+race_tokay = {
+	intrigue = 4
+	martial = -1
+	
+
+	ai_greed = 5
+
+}
+race_moblin = {
+	martial = 3
+
+	ai_ambition = 5
+	ai_honor = 5
+}
+race_bokoblin = {
+	martial = 1
+	intrigue = 2
+
+	ai_ambition = 5
+	ai_honor = -5
+}
+race_bulblin = {
+	martial = 2
+	diplomacy = 1
+
+	ai_ambition = 5
+	ai_honor = 5
+}
+race_keaton = {
+	intrigue = 4
+
+	ai_greed = 10
+	ai_ambition = 5
+	ai_honor = -5
+}
+race_geozard = {#repro with  zora
+	martial = 3
+	
+	ai_ambition = 5
+	ai_honor = 5
+	ai_zeal = 5
+}
+race_yook = {#repro with yeti
+	martial = 4
+	health = 1
+
+	ai_ambition = 5
+	ai_rationality = -5
+}
+#avian
+race_watarara = {
+	diplomacy = 2
+	intrigue = 2
+}
+race_rito = {#repro human
+	diplomacy = 2
+	stewardship = 2
+}
+#plant
+race_zuna = {
+	diplomacy = 2
+	stewardship = 2
+	
+
+}
+race_deku = {
+	martial = 2
+	learning = -2
+	
+
+	ai_ambition = 5
+	ai_rationality = -5
+}
+
+#undead
+race_stulkid = {
+	health = 1
+	martial = -2
+	
+	fertility = -500
+
+	ai_zeal = 5
+	ai_honor = -5
+	ai_ambition = 5
+
+	immortal = yes
+	
+}
+race_stalfos = {
+	health = 5
+	martial = 5
+	learning = 5
+	
+	fertility = -500
+
+	ai_honor = -10
+	ai_rationality = 30
+
+	imortal = yes	
+}
+#marriage
 incompatible_marriage = {
-	fertility = -1000
+	fertility = -500
 
 	customizer = no 
 }
 
-compatible_marriage = {
+semicompatible_marriage = {
 	fertility = -0.25
 
 	customizer = no 
 }
 abomination = {
-	health = -200
+	health = -100
 
 	customizer = no 
 }
+
+
+#####Breeding Chart
+#all compatible in #(group)
+##compatible
+###Fae-human/monster(demon)
+###human-rito
+##semi-compatible
+###monster(demon)-human
+###fae-everoneelse
+

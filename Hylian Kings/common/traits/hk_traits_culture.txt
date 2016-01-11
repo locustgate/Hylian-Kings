@@ -1,11 +1,11 @@
-#hyrulean+cobble
-hyrulean_squire = {
+#hyrulean+cobble+greater
+knight_squire = {
 	martial = 1
 }
-hyrulean _knight = {
+knight = {
 	martial = 2
 	command_modifier = {
-		morale_defense = +0.04
+		morale_defense = 0.04
 	}
 
 } 
@@ -19,7 +19,7 @@ mail_tunic = {
 }
 ##knight
 plate_tunic = {
-	martial = +3
+	martial = 3
 	command_modifier = {
 		defence = 0.02
 		morale_defence = 0.02
@@ -62,9 +62,9 @@ loftwing_knight = {
 }
 #darknut
 darknut_armor = {
-	martial = +3
+	martial = 3
 	command_modifier = {
-		defence =+0.04
+		defence =0.04
 		morale_defence = 0.04
 		speed = -0.04
 	}
