@@ -243,17 +243,248 @@ castle = {
 	}
 ##doctrine aux
 
-	ca_gerudo_auxilary_1 = {
-		desc = ca_initiat_barracks_1_desc
+	ca_horse_archers_auxilary_1 = {
+		desc = ca_horse_archers_auxilary_1_desc
 		potential = {			
 			culture = darknut
 			religion = darknut_doctrine
-			FROM = {any_vassal = {culture = gerudo }}
+			FROM = {
+				any_vassal = {
+					 OR = {
+						culture = gerudo
+						culture = ordonon	
+						culture = eldin	
+				 }
+			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
+		horse_archers = 10
+		horse_archers_morale = -0.05
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_horse_archers_auxilary_2 = {
+		desc = ca_horse_archers_auxilary_1_desc
+		potential = {			
+			culture = darknut
+			religion = darknut_doctrine
+			FROM = {
+				any_vassal = {
+					 OR = {
+						culture = gerudo
+						culture = ordonon	
+						culture = eldin	
+				 }
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = ca_horse_archers_auxilary_1
+		gold_cost = 100
+		build_time = 365
+		horse_archers = 10
+		horse_archers_morale = -0.05
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_horse_archers_auxilary_3 = {
+		desc = ca_horse_archers_auxilary_1_desc
+		potential = {			
+			culture = darknut
+			religion = darknut_doctrine
+			FROM = {
+				any_vassal = {
+					 OR = {
+						culture = gerudo
+						culture = ordonon	
+						culture = eldin	
+				 }
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = ca_horse_archers_auxilary_2
+		gold_cost = 100
+		build_time = 365
+		horse_archers = 20
+		horse_archers_morale = -0.05
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_knight_auxilary_1 = {
+		desc = ca_knight_auxilary_1_desc
+		potential = {			
+			culture = darknut
+			religion = darknut_doctrine
+			FROM = {
+					any_vassal = {
+					OR = {
+					culture = cobble
+					culture = hyrulean
+					culture = arcadian
+					culture = calatian
+					culture = tolemac
+					culture = little_hyrulean
+					}
+				}
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		knights = 10
+		knights_morale = -0.05
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_knight_auxilary_2 = {
+		desc = ca_knight_auxilary_1_desc
+		potential = {			
+			culture = darknut
+			religion = darknut_doctrine
+			FROM = {
+					any_vassal = {
+					OR = {
+					culture = cobble
+					culture = hyrulean
+					culture = arcadian
+					culture = calatian
+					culture = tolemac
+					culture = little_hyrulean
+					}
+				}
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = ca_knight_auxilary_2
+		gold_cost = 100
+		build_time = 365
+		knights = 10
+		knights_morale = -0.05
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_knight_auxilary_3 = {
+		desc = ca_knight_auxilary_1_desc
+		potential = {			
+			culture = darknut
+			religion = darknut_doctrine
+			FROM = {
+					any_vassal = {
+					OR = {
+					culture = cobble
+					culture = hyrulean
+					culture = arcadian
+					culture = calatian
+					culture = tolemac
+					culture = little_hyrulean
+					culture = sarian
+					culture = west_hyrulean
+					}
+				}
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		knights = 20
+		knights_morale = -0.05
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+
+	ca_infantry_auxilary_1 = {
+		desc = ca_infantry_auxilary_1_desc
+		potential = {			
+			culture = darknut
+			religion = darknut_doctrine
+			FROM = {
+				any_vassal = {
+					OR = {
+					culture = labrynnan
+					culture = ikanan
+					culture = lorulean
+					culture = hytopian
+					culture = gamelon
+					culture = horon 
+					culture = frozen_isles
+					culture = sarian
+					culture = west_hyrulean
+					}
+				}
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 30
+		light_infantry_morale = -0.05
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_infantry_auxilary_2 = {
+		desc = ca_geruo_auxilary_1_desc
+		potential = {			
+			culture = darknut
+			religion = darknut_doctrine
+			FROM = {
+				any_vassal = {
+					OR = {
+					culture = labrynnan
+					culture = ikanan
+					culture = lorulean
+					culture = hytopian
+					culture = gamelon
+					culture = horon 
+					culture = frozen_isles
+					}
+				}
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = ca_infantry_auxilary_2
+		gold_cost = 100
+		build_time = 365
 		light_infantry = 40
+		light_infantry_morale = -0.05
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_infantry_auxilary_3 = {
+		desc = ca_geruo_auxilary_1_desc
+		potential = {			
+			culture = darknut
+			religion = darknut_doctrine
+		potential = {			
+			culture = darknut
+			religion = darknut_doctrine
+			FROM = {
+				any_vassal = {
+					OR = {
+					culture = labrynnan
+					culture = ikanan
+					culture = lorulean
+					culture = hytopian
+					culture = gamelon
+					culture = horon 
+					culture = frozen_isles 
+					}
+				}
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 50
+		light_infantry_morale = -0.05
 		ai_creation_factor = 100
 		
 		extra_tech_building_start = 1.0

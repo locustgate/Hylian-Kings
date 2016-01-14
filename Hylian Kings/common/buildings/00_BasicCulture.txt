@@ -4,7 +4,7 @@
  #<tag> = {
  #	desc = description used in the tooltip of the building
  #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
- #	gold_cost = cost to build the building
+ #	gold_cost = cost to build th`e building
  #	build_time = time to build, in days
  #	
  #	ai_creation_factor = weight that the AI uses to determine what building to build
@@ -403,12 +403,16 @@ castle = {
 	ca_mercenary_office_1 = {
 		desc = ca_mercenary_office_1_desc
 		potential = {
-			culture = port_towner
+				any_realm_ruler = {
+					culture = port_towner
+				}
+			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
-		light_infantry = 30
+		light_infantry = 60
+		light_infantry_morale = -0.05
 
 		ai_creation_factor = 100
 		
@@ -417,14 +421,18 @@ castle = {
 	ca_mercenary_office_2 = {
 		desc = ca_mercenary_office_2_desc
 		potential = {
-			culture = port_towner
+				any_realm_ruler = {
+					culture = port_towner
+				}
+			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		prerequisites = { ca_wall_1 }
 		upgrades_from = ca_mercenary_office_1
 		gold_cost = 120
 		build_time = 547
-		light_infantry = 50
+		light_infantry = 70
+		light_infantry_morale = -0.05
 
 		ai_creation_factor = 99
 
@@ -433,13 +441,17 @@ castle = {
 	ca_mercenary_office_3 = {
 		desc = ca_mercenary_office_3_desc
 		potential = {
-			culture = port_towner
+				any_realm_ruler = {
+					culture = port_towner
+				}
+			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
 		upgrades_from = ca_mercenary_office_2
 		gold_cost = 200
 		build_time = 1095
-		light_infantry = 70
+		light_infantry = 80
+		light_infantry_morale = -0.05
 
 		ai_creation_factor = 98
 
@@ -448,13 +460,17 @@ castle = {
 	ca_mercenary_office_4 = {
 		desc = ca_mercenary_office_3_desc
 		potential = {
-			culture = port_towner
+				any_realm_ruler = {
+					culture = port_towner
+				}
+			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
 		upgrades_from = ca_mercenary_office_3
 		gold_cost = 300
 		build_time = 1095
-		light_infantry = 80
+		light_infantry = 90
+		light_infantry_morale = -0.05
 
 		ai_creation_factor = 98
 
