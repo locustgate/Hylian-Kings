@@ -25,7 +25,7 @@ fairy_bottled = {
 }
 
 #armor
-mail = {
+chain_mail = {
 	martial = 1
 	command_modifier = {
 		defence = 0.01
@@ -35,7 +35,7 @@ mail = {
 bomb_bag = {
 	martial = 2
 	command_modifier = {
-		morale_offense = .08
+		morale_offence = 0.08
 	}
 }
 #magic
@@ -61,21 +61,19 @@ loftwing = {
 	martial = 1
 	command_modifier = {
 		speed = 0.03
-		morale_defense = 0.02
+		morale_defence = 0.02
 	}
 }
 hyrulean_horse = {
 	martial = 2
 	command_modifier = {
 		speed = 0.01
-		morale_offense = 0.02
 	}
 }
 gerudo_horse = {
 	martial = 2
 	command_modifier = {
 		speed = 0.04
-		light_cavalry_morale = 0.02
 	}
 }
 #masks

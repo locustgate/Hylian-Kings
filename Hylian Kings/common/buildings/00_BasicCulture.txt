@@ -1,16 +1,4 @@
- # Triggers are in Province scope. The From Scope contains the settlement holder (character)
- # start trigger is in title scope.
- 
- #<tag> = {
- #	desc = description used in the tooltip of the building
- #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
- #	gold_cost = cost to build th`e building
- #	build_time = time to build, in days
- #	
- #	ai_creation_factor = weight that the AI uses to determine what building to build
- #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
- #}
- 
+
  # Castle
 castle = {
 ##hylian
@@ -177,7 +165,7 @@ castle = {
 				culture = koridain 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		replace = ca_militia_baracks_1
+		replaces = ca_militia_barracks_1
 		gold_cost = 100
 		build_time = 365
 		pikemen = 40
@@ -196,7 +184,7 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		prerequisites = { ca_wall_1 }
-		replace = ca_militia_baracks_2
+		replaces = ca_militia_barracks_2
 		upgrades_from = ca_koridain_guard_1
 		gold_cost = 120
 		build_time = 547
@@ -215,7 +203,7 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
 		upgrades_from = ca_koridain_guard_2
-		replace = ca_militia_baracks_3
+		replaces = ca_militia_barracks_3
 		gold_cost = 200
 		build_time = 1095
 		pikemen = 500
@@ -233,7 +221,7 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
 		upgrades_from = ca_koridain_guard_3
-		replace = ca_militia_baracks_4
+		replaces = ca_militia_barracks_4
 		gold_cost = 300
 		build_time = 1095
 		pikemen = 50
@@ -252,7 +240,7 @@ castle = {
 				culture = horon 
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		replace = ca_militia_baracks_1
+		replaces = ca_militia_barracks_1
 		gold_cost = 100
 		build_time = 365
 		light_infantry = 40
@@ -271,7 +259,7 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		prerequisites = { ca_wall_1 }
-		replace = ca_militia_baracks_2
+		replaces = ca_militia_barracks_2
 		upgrades_from = ca_horon_ranger_1
 		gold_cost = 120
 		build_time = 547
@@ -290,7 +278,7 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
 		upgrades_from = ca_horon_ranger_2
-		replace = ca_militia_baracks_3
+		replaces = ca_militia_barracks_3
 		gold_cost = 200
 		build_time = 1095
 		light_infantry = 500
@@ -308,7 +296,7 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
 		upgrades_from = ca_horon_ranger_3
-		replace = ca_militia_baracks_4
+		replaces = ca_militia_barracks_4
 		gold_cost = 300
 		build_time = 1095
 		light_infantry = 50
@@ -403,10 +391,9 @@ castle = {
 	ca_mercenary_office_1 = {
 		desc = ca_mercenary_office_1_desc
 		potential = {
-				any_realm_ruler = {
+				any_realm_lord = {
 					culture = port_towner
 				}
-			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -421,9 +408,8 @@ castle = {
 	ca_mercenary_office_2 = {
 		desc = ca_mercenary_office_2_desc
 		potential = {
-				any_realm_ruler = {
-					culture = port_towner
-				}
+			any_realm_lord = {
+				culture = port_towner
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
@@ -441,9 +427,8 @@ castle = {
 	ca_mercenary_office_3 = {
 		desc = ca_mercenary_office_3_desc
 		potential = {
-				any_realm_ruler = {
-					culture = port_towner
-				}
+			any_realm_lord = {
+				culture = port_towner
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
@@ -460,9 +445,8 @@ castle = {
 	ca_mercenary_office_4 = {
 		desc = ca_mercenary_office_3_desc
 		potential = {
-				any_realm_ruler = {
-					culture = port_towner
-				}
+			any_realm_lord = {
+				culture = port_towner
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
@@ -742,6 +726,7 @@ castle = {
 		ai_creation_factor = 101
 		
 		extra_tech_building_start = 0.8
+	}
 	#eldin crow warriors
 	ca_eldin_crow_warriors_1 = {
 		desc = ca_eldin_crow_warriors_1_desc
@@ -937,7 +922,7 @@ castle = {
 		gold_cost = 300
 		build_time = 1095
 		heavy_infantry = 40
-.		archers = 80
+		archers = 80
 		tax_income = 2
 
 		ai_creation_factor = 98
@@ -1086,7 +1071,7 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_2 }
-		replace = ca_town_1
+		replaces = ca_town_1
 		gold_cost = 200
 		build_time = 730
 		archers = 20
@@ -1103,7 +1088,7 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		upgrades_from = ca_culture_gerudo_house_1
-		replace = ca_town_2
+		replaces = ca_town_2
 		gold_cost = 300
 		build_time = 1095
 		archers = 40
@@ -1120,7 +1105,7 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		upgrades_from = ca_culture_gerudo_house_2
-		replace = ca_town_3
+		replaces = ca_town_3
 		gold_cost = 400
 		build_time = 2190
 		archers = 40
@@ -1137,7 +1122,7 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ca_culture_gerudo_house_3
-		replace = ca_town_4
+		replaces = ca_town_4
 		gold_cost = 500
 		build_time = 2190
 		archers = 50
@@ -2205,7 +2190,7 @@ city = {
 				}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		replace = ct_agriculture_1
+		replaces = ct_agriculture_1
 		gold_cost = 200
 		build_time = 730
 		tax_income = 2
@@ -2225,7 +2210,7 @@ city = {
 				}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
-		replace = ct_agriculture_2
+		replaces = ct_agriculture_2
 		upgrades_from = ct_hyrulean_agriculture_1
 		gold_cost = 300
 		build_time = 1095
@@ -2245,7 +2230,7 @@ city = {
 				terrain = plains
 				terrain = steppe
 				}		}
-		replace = ct_agriculture_3
+		replaces = ct_agriculture_3
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		upgrades_from = ct_hyrulean_agriculture_2
 		gold_cost = 400
@@ -2339,7 +2324,7 @@ city = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_2 }
-		replace = ct_agriculture_1
+		replaces = ct_agriculture_1
 		gold_cost = 200
 		build_time = 730
 		tax_income = 2
@@ -2362,7 +2347,7 @@ city = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_2 }
 		upgrades_from = ct_ordon_agriculture_1
-		replace = ct_agriculture_2
+		replaces = ct_agriculture_2
 		gold_cost = 200
 		build_time = 730
 		light_cavalry = 20
@@ -2386,7 +2371,7 @@ city = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_2 }
 		upgrades_from = ct_ordon_agriculture_2
-		replace = ct_agriculture_3
+		replaces = ct_agriculture_3
 		gold_cost = 200
 		build_time = 730
 		light_cavalry = 30
@@ -2428,7 +2413,7 @@ city = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_2 }
-		replace = ct_agriculture_1
+		replaces = ct_agriculture_1
 		gold_cost = 200
 		build_time = 730
 		tax_income = 3
@@ -2451,7 +2436,7 @@ city = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_2 }
 		upgrades_from = ct_yamatami_agriculture_1
-		replace = ct_agriculture_2
+		replaces = ct_agriculture_2
 		gold_cost = 200
 		build_time = 730
 		tax_income = 3.5
@@ -2474,7 +2459,7 @@ city = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_2 }
 		upgrades_from = ct_yamatami_agriculture_2
-		replace = ct_agriculture_3
+		replaces = ct_agriculture_3
 		gold_cost = 200
 		build_time = 730
 		tax_income = 3.5
@@ -2644,7 +2629,7 @@ city = {
 				}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		replace = ct_agriculture_1
+		replaces = ct_agriculture_1
 		gold_cost = 200
 		build_time = 730
 		tax_income = 2
@@ -2661,7 +2646,7 @@ city = {
 				}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
-		replace = ct_agriculture_2
+		replaces = ct_agriculture_2
 		upgrades_from = ct_windtribe_agriculture_1
 		gold_cost = 300
 		build_time = 1095
@@ -2686,7 +2671,7 @@ city = {
 				terrain = mountains
 				}
 		}
-		replace = ct_agriculture_3
+		replaces = ct_agriculture_3
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		upgrades_from = ct_windtribe_agriculture_2
 		gold_cost = 400
@@ -2709,7 +2694,7 @@ city = {
 		trigger = { TECH_CITY_CONSTRUCTION = 2 }
 		gold_cost = 600
 		build_time = 1095
-		replace = ct_education_1
+		replaces = ct_education_1
 		
 		tech_growth_modifier = 0.2
 		economy_techpoints = 0.05
@@ -2730,7 +2715,7 @@ city = {
 		upgrades_from = ct_wiz_college_1
 		gold_cost = 800
 		build_time = 2190
-		replace = ct_education_2
+		replaces = ct_education_2
 		
 		tech_growth_modifier = 0.4
 		economy_techpoints = 0.05
@@ -2750,7 +2735,7 @@ city = {
 		upgrades_from = ct_wiz_college_2
 		gold_cost = 800
 		build_time = 2190
-		replace = ct_education_3
+		replaces = ct_education_3
 		
 		tech_growth_modifier = 0.5
 		economy_techpoints = 0.05
@@ -2799,7 +2784,7 @@ city = {
 				}
 			}
 		}
-		trigger = { TECH_CITY_CONSTRUCT_AQUATICION = 0 }
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
 		tax_income = 2
@@ -2822,7 +2807,7 @@ city = {
 			}
 		}
 		prerequisites = { ct_aquatic_wall_1 }
-		trigger = { TECH_CITY_CONSTRUCT_AQUATICION = 0 }
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
 		upgrades_from = ct_aquatic_agriculture_1
 		gold_cost = 120
 		build_time = 547
@@ -2846,7 +2831,7 @@ city = {
 			}
 		}
 
-		trigger = { TECH_CITY_CONSTRUCT_AQUATICION = 1 }
+		trigger = { TECH_CITY_CONSTRUCTION = 1 }
 		prerequisites = { ct_aquatic_wall_2 }
 		upgrades_from = ct_aquatic_agriculture_2
 		gold_cost = 200
@@ -2866,7 +2851,7 @@ city = {
 			OR = {
 			culture = lake_zora
 			culture = sea_zora
-			)
+			}
 			location = { 
 				OR = { 
 					port = yes
@@ -2876,7 +2861,7 @@ city = {
 			}
 		}
 
-		trigger = { TECH_CITY_CONSTRUCT_AQUATICION = 1 }
+		trigger = { TECH_CITY_CONSTRUCTION = 1 }
 		prerequisites = { ct_wall_2 }
 		upgrades_from = ct_economy_3
 		gold_cost = 200
@@ -2895,7 +2880,7 @@ city = {
 				culture = rito
 				culture = watarara
 		}
-		trigger = { TECH_CTSTLE_CONSTRUCTION = 0 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
 		tax_income = 2
@@ -2909,7 +2894,7 @@ city = {
 				culture = rito
 				culture = watarara 
 		}
-		trigger = { TECH_CTSTLE_CONSTRUCTION = 0 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_1 }
 		upgrades_from = ct_post_1
 		gold_cost = 120
@@ -2926,7 +2911,7 @@ city = {
 				culture = rito
 				culture = watarara 
 		}
-		trigger = { TECH_CTSTLE_CONSTRUCTION = 2 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		prerequisites = { ct_wall_2 }
 		upgrades_from = ct_post_2
 		gold_cost = 200
@@ -2943,7 +2928,7 @@ city = {
 		potential = {				
 				culture = keaton 
 		}
-		trigger = { TECH_CTSTLE_CONSTRUCTION = 2 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		prerequisites = { ct_wall_2 }
 		upgrades_from = ct_post_2
 		gold_cost = 200
@@ -2983,7 +2968,7 @@ city = {
 		trigger = { TECH_CITY_CONSTRUCTION = 1 }
 		prerequisites = { ct_wall_2 }
 		upgrades_from = ct_economy_2
-		replace = ct_economy_3
+		replaces = ct_economy_3
 		gold_cost = 100
 		build_time = 500
 		tax_income = 4
@@ -3017,7 +3002,7 @@ city = {
 		potential = {
 			culture = skylofter
 		}
-		trigger = { TECH_CTSTLE_CONSTRUCTION = 0 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
 		heavy_infantry = 20
@@ -3030,7 +3015,7 @@ city = {
 		potential = {
 			culture = skylofter
 		}
-		trigger = { TECH_CTSTLE_CONSTRUCTION = 0 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ct_wall_1 }
 		upgrades_from = ct_knight_actdamy_1
 		gold_cost = 120
@@ -3046,7 +3031,7 @@ city = {
 		potential = {
 			culture = skylofter 
 		}
-		trigger = { TECH_CTSTLE_CONSTRUCTION = 2 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		prerequisites = { ct_wall_2 }
 		upgrades_from = ct_knight_actdamy_2
 		gold_cost = 200
@@ -3062,7 +3047,7 @@ city = {
 		potential = {
 			culture = skylofter
 		}
-		trigger = { TECH_CTSTLE_CONSTRUCTION = 4 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ct_knight_actdamy_3
 		gold_cost = 300
 		build_time = 1095

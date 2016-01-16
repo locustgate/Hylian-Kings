@@ -1,23 +1,12 @@
-# Triggers are in Province scope. The From Scope contains the settlement holder (character)
- # start trigger is in title scope.
- 
- #<tag> = {
- #	desc = description used in the tooltip of the building
- #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
- #	gold_cost = cost to build the building
- #	build_time = time to build, in days
- #	
- #	ai_creation_factor = weight that the AI uses to determine what building to build
- #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
- #}
+
 castle = {
 	# Wall quality, gives fortlevel
 	#ditch#bombflowers#boulders#groosinators#lavamoat 
-	ca_wall_goron_q_1 = {
+	ca_goron_wall_q_1 = {
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
-		desc = ca_wall_goron_q_1_desc
+		desc = ca_goron_wall_q_1_desc
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
 		gold_cost = 50
 		build_time = 182
@@ -26,13 +15,13 @@ castle = {
 		
 		extra_tech_building_start = 1.0
 	}
-	ca_wall_goron_q_2 = {
-		desc = ca_wall_goron_q_2_desc
+	ca_goron_wall_q_2 = {
+		desc = ca_goron_wall_q_2_desc
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
-		upgrades_from = ca_wall_goron_q_1
+		upgrades_from = ca_goron_wall_q_1
 		prerequisites = { ca_wall_1 }
 		gold_cost = 50
 		build_time = 182
@@ -41,13 +30,13 @@ castle = {
 
 		extra_tech_building_start = 0.6
 	}
-	ca_wall_goron_q_3 = {
+	ca_goron_wall_q_3 = {
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
-		desc = ca_wall_goron_q_3_desc
+		desc = ca_goron_wall_q_3_desc
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
-		upgrades_from = ca_wall_goron_q_2
+		upgrades_from = ca_goron_wall_q_2
 		gold_cost = 50
 		build_time = 182
 		fort_level = 0.5
@@ -55,13 +44,13 @@ castle = {
 		
 		extra_tech_building_start = 0.2
 	}
-	ca_wall_goron_q_4 = {
+	ca_goron_wall_q_4 = {
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
-		desc = ca_wall_goron_q_4_desc
+		desc = ca_goron_wall_q_4_desc
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
-		upgrades_from = ca_wall_goron_q_3
+		upgrades_from = ca_goron_wall_q_3
 		gold_cost = 100
 		build_time = 365
 		fort_level = 1.0
@@ -69,13 +58,13 @@ castle = {
 		
 		extra_tech_building_start = 0.2
 	}
-	ca_wall_goron_q_5 = {
+	ca_goron_wall_q_5 = {
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
-		desc = ca_wall_goron_q_5_desc
+		desc = ca_goron_wall_q_5_desc
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
-		upgrades_from = ca_wall_goron_q_4
+		upgrades_from = ca_goron_wall_q_4
 		gold_cost = 100
 		build_time = 365
 		fort_level = 1.0
@@ -87,7 +76,7 @@ castle = {
 	#Walls, gives fortlevel, levysize and income
 	ca_goron_wall_1 = {
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
 		desc = ca_wall_1_desc
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
@@ -102,7 +91,7 @@ castle = {
 	}
 	ca_goron_wall_2 = {
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
 		desc = ca_goron_wall_2_desc
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
@@ -118,7 +107,7 @@ castle = {
 	}
 	ca_goron_wall_3 = {
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
 		desc = ca_goron_wall_3_desc
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
@@ -134,7 +123,7 @@ castle = {
 	}
 	ca_goron_wall_4 = {
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
 		desc = ca_goron_wall_4_desc
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
@@ -150,7 +139,7 @@ castle = {
 	}
 	ca_goron_wall_5 = {
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
 		desc = ca_goron_wall_5_desc
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
@@ -168,7 +157,7 @@ castle = {
 	ca_warrior_den_1 = {
 		desc = ca_warrior_den_1_desc
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -181,7 +170,7 @@ castle = {
 	ca_warrior_den_2 = {
 		desc = ca_warrior_den_2_desc
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		prerequisites = { ca_wall_1 }
@@ -196,7 +185,7 @@ castle = {
 	ca_warrior_den_3 = {
 		desc = ca_warrior_den_3_desc
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
 		upgrades_from = ca_warrior_den_2
@@ -210,7 +199,7 @@ castle = {
 	ca_warrior_den_4 = {
 		desc = ca_warrior_den_3_desc
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
 		upgrades_from = ca_warrior_den_3
@@ -225,21 +214,21 @@ castle = {
 	ca_bomb_farm_1 = {
 		desc = ca_bomb_farm_1_desc
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
 		archer = 30
 		ai_creation_factor = 100
-		archer_skrimish = .1	
+		archer_skrimish = 0.1	
 
 		extra_tech_building_start = 1.0
 	}
 	ca_bomb_farm_2 = {
 		desc = ca_bomb_farm_2_desc
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		prerequisites = { ca_wall_1 }
@@ -248,14 +237,14 @@ castle = {
 		build_time = 547
 		archer = 40
 		ai_creation_factor = 99
-		archer_skrimish = .1
+		archer_skrimish = 0.1
 
 		extra_tech_building_start = 2.0
 	}
 	ca_bomb_farm_3 = {
 		desc = ca_bomb_farm_3_desc
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
 		upgrades_from = ca_bomb_farm_2
@@ -263,21 +252,21 @@ castle = {
 		build_time = 1095
 		archer = 50
 		ai_creation_factor = 98
-		archer_skrimish = .1
+		archer_skrimish = 0.1
 
 		extra_tech_building_start = 0.5
 	}
 	ca_bomb_farm_4 = {
 		desc = ca_bomb_farm_3_desc
 		potential = {				
-		culture_goron = goron_group
+		culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
 		upgrades_from = ca_bomb_farm_3
 		gold_cost = 300
 		build_time = 1095
 		archer = 60
-		archer_skrimish = .1
+		archer_skrimish = 0.1
 		ai_creation_factor = 98
 
 		extra_tech_building_start = 0.5
@@ -286,7 +275,7 @@ castle = {
 	ca_elite_barracks_1 = {
 		desc = ca_elite_barracks_1_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -300,7 +289,7 @@ castle = {
 	ca_elite_barracks_2 = {
 		desc = ca_elite_barracks_1_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_1 }
@@ -316,7 +305,7 @@ castle = {
 	ca_elite_barracks_3 = {
 		desc = ca_elite_barracks_1_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		prerequisites = { ca_wall_2 }
@@ -332,7 +321,7 @@ castle = {
 	ca_elite_barracks_4 = {
 		desc = ca_elite_barracks_1_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
 		upgrades_from = ca_elite_barracks_3
@@ -347,7 +336,7 @@ castle = {
 	ca_elite_barracks_5 = {
 		desc = ca_elite_barracks_1_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 		}
 
 		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
@@ -363,7 +352,7 @@ castle = {
 	ca_elite_barracks_6 = {
 		desc = ca_elite_barracks_1_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
 		upgrades_from = ca_elite_barracks_5
@@ -379,7 +368,7 @@ castle = {
 	ca_hotrod_barracks_1 = {
 		desc = ca_hotrod_barracks_1_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -392,7 +381,7 @@ castle = {
 	ca_hotrod_barracks_2 = {
 		desc = ca_hotrod_barracks_1_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_1 }
@@ -407,7 +396,7 @@ castle = {
 	ca_hotrod_barracks_3 = {
 		desc = ca_hotrod_barracks_1_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		prerequisites = { ca_wall_2 }
@@ -422,7 +411,7 @@ castle = {
 	ca_hotrod_barracks_4 = {
 		desc = ca_hotrod_barracks_1_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ca_hotrod_barracks_3
@@ -436,7 +425,7 @@ castle = {
 	ca_hotrod_barracks_5 = {
 		desc = ca_hotrod_barracks_1_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
 		upgrades_from = ca_hotrod_barracks_4
@@ -451,7 +440,7 @@ castle = {
 	ca_hotrod_barracks_6 = {
 		desc = ca_hotrod_barracks_1_desc
 			potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
 		upgrades_from = ca_hotrod_barracks_5
@@ -466,7 +455,7 @@ castle = {
 	ca_hotspring_1 = {
 		desc = ca_hotspring_1_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 			terrain = mountain
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -482,7 +471,7 @@ castle = {
 	ca_hotspring_2 = {
 		desc = ca_hotspring_2_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 			terrain = mountain
 		}
 
@@ -501,7 +490,7 @@ castle = {
 	ca_hotspring_3 = {
 		desc = ca_hotspring_3_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 			terrain = mountain
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
@@ -519,7 +508,7 @@ castle = {
 	ca_hotspring_4 = {
 		desc = ca_hotspring_4_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 			terrain = mountain
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
@@ -536,7 +525,7 @@ castle = {
 	ca_hotspring_5 = {
 		desc = ca_hotspring_4_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 			terrain = mountain
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
@@ -553,7 +542,7 @@ castle = {
 	ca_hotspring_6 = {
 		desc = ca_hotspring_5_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 			terrain = mountain
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
@@ -570,7 +559,7 @@ castle = {
 	ca_goron_drydocks_1 = {
 		desc = goron_drydocks_desc
 		potential = {				
-			culture_goron = goron_group
+			culture_group = goron_group
 		}
 		port = yes
 		trigger = { TECH_NAVAL = 1 }
@@ -585,7 +574,7 @@ castle = {
 	ca_goron_drydocks_2 = {
 		desc = goron_drydocks_desc
 			potential = {				
-				NOT = {culture_goron = goron_group}
+				NOT = {culture_group = goron_group}
 				NOT = {culture_group = lfos}
 				NOT = {culture_group = deku}
 		}
@@ -603,7 +592,7 @@ castle = {
 	ca_goron_drydocks_3 = {
 		desc = goron_drydocks_desc
 		potential = {				
-				NOT = {culture_goron = goron_group}
+				NOT = {culture_group = goron_group}
 				NOT = {culture_group = lfos}
 				NOT = {culture_group = deku}
 		}
@@ -621,7 +610,7 @@ castle = {
 	ca_goron_drydocks_4 = {
 		desc = goron_drydocks_desc
 		potential = {				
-				NOT = {culture_goron = goron_group}
+				NOT = {culture_group = goron_group}
 				NOT = {culture_group = lfos}
 				NOT = {culture_group = deku}
 		}
@@ -891,7 +880,7 @@ castle = {
 		potential = {				
 			culture = subrosian
 		}
-		replace = ca_hotrod_barracks_1
+		replaces = ca_hotrod_barracks_1
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
@@ -905,7 +894,7 @@ castle = {
 		potential = {				
 			culture = subrosian
 		}
-		replace = ca_hotrod_barracks_2
+		replaces = ca_hotrod_barracks_2
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_1 }
 		upgrades_from = ca_dodongo_stables_1
@@ -921,7 +910,7 @@ castle = {
 		potential = {				
 			culture = subrosian
 		}
-		replace = ca_hotrod_barracks_3
+		replaces = ca_hotrod_barracks_3
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		prerequisites = { ca_wall_2 }
 		upgrades_from = ca_dodongo_stables_2
@@ -937,7 +926,7 @@ castle = {
 		potential = {				
 			culture = subrosian
 		}
-		replace = ca_hotrod_barracks_4
+		replaces = ca_hotrod_barracks_4
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ca_dodongo_stables_3
 		gold_cost = 300
@@ -952,7 +941,7 @@ castle = {
 		potential = {				
 			culture = subrosian
 		}
-		replace = ca_hotrod_barracks_5
+		replaces = ca_hotrod_barracks_5
 		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
 		upgrades_from = ca_dodongo_stables_4
 		gold_cost = 400
@@ -967,7 +956,7 @@ castle = {
 			potential = {				
 			culture = subrosian
 		}
-		replace = ca_hotrod_barracks_6
+		replaces = ca_hotrod_barracks_6
 		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
 		upgrades_from = ca_dodongo_stables_5
 		gold_cost = 500
@@ -2650,7 +2639,7 @@ tribal = {
 		potential = {
 			culture_group = goron_group
 		}
-		trigger = { TECH_LIGHT_CAVALRY = 0 }
+		trigger = { TECH_CAVALRY = 0 }
 		prestige_cost = 300
 		build_time = 365
 		light_cavalry = 20
@@ -2664,7 +2653,7 @@ tribal = {
 		potential = {
 			culture_group = goron_group
 		}
-		trigger = { TECH_LIGHT_CAVALRY = 0 }
+		trigger = { TECH_CAVALRY = 0 }
 		upgrades_from = tb_goron_track_1
 		prestige_cost = 400
 		build_time = 547
@@ -2682,7 +2671,7 @@ tribal = {
 		potential = {
 			culture_group = goron_group
 		}
-		trigger = { TECH_LIGHT_CAVALRY = 0 }
+		trigger = { TECH_CAVALRY = 0 }
 		upgrades_from = tb_goron_track_2
 		prestige_cost = 500
 		build_time = 730
@@ -2697,7 +2686,7 @@ tribal = {
 		potential = {
 			culture_group = goron_group
 		}
-		trigger = { TECH_LIGHT_CAVALRY = 0 }
+		trigger = { TECH_CAVALRY = 0 }
 		upgrades_from = tb_goron_track_3
 		prestige_cost = 600
 		build_time = 1095
@@ -3876,6 +3865,3 @@ nomad = {
 		garrison_size = 1.8
 	}	
 }
-
-
-

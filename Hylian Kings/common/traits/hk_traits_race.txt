@@ -16,9 +16,7 @@ race_sheikah = {
 	ai_honor = 5
 }
 race_gerudo = {
-	opposites = {
-		race_hylian
-	}
+	opposites = { race_hylian }
 	intrigue = 1
 	martial = 2
 	
@@ -91,10 +89,7 @@ race_kokiri = {
 	
 }
 race_tree_deity = {
-
-	opposite = {
-		race_tree_demon
-	} 
+	opposites = { race_tree_demon }
 	martial = -5
 	learning = 5
 	opposite_opinion = -50
@@ -108,9 +103,7 @@ race_tree_deity = {
 	ai_honor = 50
 }
 race_tree_demon = {
-	opposite = {
-		race_tree_deity
-	}
+	opposites = { race_tree_deity }
 	martial = 5
 	learning = -5
 	opposite_opinion = -50
@@ -151,16 +144,10 @@ race_zora = {
 	ai_honor = 5		
 }
 race_zola = {
-	opposites = {
-		race_hylian
-		race_gerudo 
-		race_zora
-		race_goron
-		race_kokiri
-	}
+
 	martial = 2
 	learning = -1
-	opposite_opinion = -5
+	general_opinion = -20
 
 	ai_ambition = 5
 	ai_rationality = 5
@@ -310,7 +297,7 @@ race_stalfos = {
 	ai_honor = -10
 	ai_rationality = 30
 
-	imortal = yes	
+	immortal = yes	
 }
 #marriage
 incompatible_marriage = {

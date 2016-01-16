@@ -1,4 +1,15 @@
-
+#big creatures
+club_blin = {
+	morale = 5
+	maintenance = 4
+	phase_skirmish_attack = 0.25
+	phase_melee_attack = 15
+	phase_pursue_attack = 3
+	phase_skirmish_defense = 2
+	phase_melee_defense = 4
+	phase_pursue_defense = 1
+	base_type = light_infantry
+}
 #mounted
 horse_archers = {
 	morale = 5
@@ -107,7 +118,7 @@ iron_knuckle = {
 	phase_pursue_defense = 2
 	base_type = heavy_infantry
 }
-phantoms {
+phantoms = {
 	morale = 20
 	maintenance = 5
 	phase_skirmish_attack = 0.25

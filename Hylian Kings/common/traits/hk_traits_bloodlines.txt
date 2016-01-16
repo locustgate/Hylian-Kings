@@ -4,46 +4,46 @@ bloodline_gustaf = {
 		bloodline_hero
 		bloodline_firstborn 
 		}
-	diplomacy = +2
-	learning = +1
-	prestige = +1
+	diplomacy = 2
+	learning = 1
+	prestige = 1
 }
 bloodline_hero = {
 	opposites = {
 	bloodline_gustaf
 	bloodline_firstborn 
 		}
-	martial = +1
+	martial = 1
 }
 bloodline_lonlon = {
-	stewardship = +3
-	prestige = -0.5
+	stewardship = 3
+	monthly_character_prestige  = -0.5
 }
 bloodline_debon = {
-	learning = +1
-	diplomacy = +1
-	prestige = +1
+	learning = 1
+	diplomacy = 1
+	monthly_character_prestige  = 1
 }
 #not direct descendents or ra, ‘adopted/educated’
 bloodline_sage = {
-	learning = +2
-	piety = +1
-	ai_honor = +10
+	learning = 2
+	piety = 1
+	ai_honor = 10
 }
 #demise’s creations, his first of each ‘breed’
 bloodline_firstborn = {
-	Martial = +2
-	Prestige = +1
+	Martial = 2
+	monthly_character_prestige  = 1
 	ai_honor = -10
 }
 bloodline_candora = {
-	Martial = +2
-	Prestige = +1
+	Martial = 2
+	monthly_character_prestige  = 1
 }
 #OOT
 bloodline_ganondorf = {
-	Martial = +2
-	intrigue = +1
+	Martial = 2
+	intrigue = 1
 	ai_honor = -10
 }
 #created

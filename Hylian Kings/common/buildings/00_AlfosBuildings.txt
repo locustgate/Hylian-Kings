@@ -1,17 +1,5 @@
- # Triggers are in Province scope. The From Scope contains the settlement holder (character)
- # start trigger is in title scope.
- 
- #<tag> = {
- #	desc = description used in the tooltip of the building
- #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
- #	gold_cost = cost to build the building
- #	build_time = time to build, in days
- #	
- #	ai_creation_factor = weight that the AI uses to determine what building to build
- #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
- #}
- 
- # Castle
+
+# Castle
 castle = {
 	#snaretraps,ditch,pitfalls,ambush posts,
 	ca_lfos_wall_q_1 = {
@@ -1048,37 +1036,6 @@ city = {
 
 		extra_tech_building_start = 0.8
 	}
-#pig farm,cow farm
-	ct_lfos_agriculture_1 = {
-		desc = ct_lfos_agriculture_1_desc
-		potential = {
-			culture_group = lfos
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 0 }
-		gold_cost = 100
-		build_time = 365
-		tax_income = 3
-		ai_creation_factor = 110
-		add_number_to_name = no
-		
-		extra_tech_building_start = 0.4
-	}
-	ct_lfos_agriculture_2 = {
-		desc = ct_lfos_agriculture_2_desc
-		potential = {
-			culture_group = lfos
-		}
-		prerequisites = { ct_lfos_wall_1 }
-		trigger = { TECH_CITY_CONSTRUCTION = 0 }
-		upgrades_from = ct_lfos_agriculture_1
-		gold_cost = 120
-		build_time = 547
-		tax_income = 3
-		ai_creation_factor = 109
-		add_number_to_name = no
-
-		extra_tech_building_start = 0.8
-	}
 }
 temple = {
 	#snaretraps,ditch,pitfalls,ambush posts,
@@ -2036,7 +1993,7 @@ nomad = {
 	no_flight_contest_1 = {
 		desc = no_flight_contest_desc
 		potential = {
-			culture = aroflos
+			culture = aeralfos
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 0 } }
 		prerequisites = { no_horse_breeder_1 }
@@ -2046,14 +2003,14 @@ nomad = {
 		extra_tech_building_start = 1
 
 		light_infantry_offensive = 0.04
-		heavy_infantrys_offensive = 0.04
+		heavy_infantry_offensive = 0.04
 		global_movement_speed = 0.02
 	}
 
 	no_flight_contest_2 = {
 		desc = no_flight_contest_desc
 		potential = {
-			culture = aroflos
+			culture = aeralfos
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 1 } }
 		prerequisites = { no_horse_breeder_2 }
@@ -2064,14 +2021,14 @@ nomad = {
 		extra_tech_building_start = 2
 
 		light_infantry_offensive = 0.04
-		heavy_infantrys_offensive = 0.04
+		heavy_infantry_offensive = 0.04
 		global_movement_speed = 0.02
 	}
 
 	no_flight_contest_3 = {
 		desc = no_flight_contest_desc
 		potential = {
-			culture = aroflos
+			culture = aeralfos
 		}
 
 		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 1 } }
@@ -2083,14 +2040,14 @@ nomad = {
 		extra_tech_building_start = 3
 
 		light_infantry_offensive = 0.04
-		heavy_infantrys_offensive = 0.04
+		heavy_infantry_offensive = 0.04
 		global_movement_speed = 0.03
 	}
 
 	no_flight_contest_4 = {
 		desc = no_flight_contest_desc
 		potential = {
-			culture = aroflos
+			culture = aeralfos
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 2 } }
 		prerequisites = { no_horse_breeder_4 }
@@ -2101,14 +2058,14 @@ nomad = {
 		extra_tech_building_start = 4
 
 		light_infantry_offensive = 0.05
-		heavy_infantrys_offensive = 0.05
+		heavy_infantry_offensive = 0.05
 		global_movement_speed = 0.03
 	}
 	
 	no_flight_contest_5 = {
 		desc = no_flight_contest_desc
 		potential = {
-			culture = aroflos
+			culture = aeralfos
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 2 } }
 		prerequisites = { no_horse_breeder_5 }
@@ -2119,14 +2076,14 @@ nomad = {
 		extra_tech_building_start = 4
 
 		light_infantry_offensive = 0.05
-		heavy_infantrys_offensive = 0.05
+		heavy_infantry_offensive = 0.05
 		global_movement_speed = 0.04
 	}
 	
 	no_flight_contest_6 = {
 		desc = no_flight_contest_desc
 		potential = {
-			culture = aroflos
+			culture = aeralfos
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 3 } }
 		prerequisites = { no_horse_breeder_6 }
@@ -2137,14 +2094,14 @@ nomad = {
 		extra_tech_building_start = 4
 
 		light_infantry_offensive = 0.05
-		heavy_infantrys_offensive = 0.05
+		heavy_infantry_offensive = 0.05
 		global_movement_speed = 0.05
 	}
 	
 	no_flight_contest_7 = {
 		desc = no_flight_contest_desc
 		potential = {
-			culture = aroflos
+			culture = aeralfos
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 4 } }
 		prerequisites = { no_horse_breeder_7 }
@@ -2155,14 +2112,14 @@ nomad = {
 		extra_tech_building_start = 4
 
 		light_infantry_offensive = 0.06
-		heavy_infantrys_offensive = 0.06
+		heavy_infantry_offensive = 0.06
 		global_movement_speed = 0.05
 	}
 	
 	no_flight_contest_8 = {
 		desc = no_flight_contest_desc
 		potential = {
-			culture = aroflos
+			culture = aeralfos
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 5 } }
 		prerequisites = { no_horse_breeder_8 }
@@ -2173,7 +2130,7 @@ nomad = {
 		extra_tech_building_start = 4
 
 		light_infantry_offensive = 0.06
-		heavy_infantrys_offensive = 0.06
+		heavy_infantry_offensive = 0.06
 		global_movement_speed = 0.06
 	}
 

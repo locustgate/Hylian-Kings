@@ -1152,15 +1152,14 @@ doctrine = {
 	}
 }
 
-alien_religion
+alien_religion = {
 	ai_convert_same_group = 1 # always try to convert
 	ai_convert_other_group  = 0 # always try to convert
 
 	male_names = {Sol Majora}
 	female_names = {Solaria Majora Lolia Jin Raron Mayru}
 
-	goddesses_lorule =
-	}
+	goddesses_lorule = {}
 	lolia	 = {
 		parent = goddesses_lorule
 	}

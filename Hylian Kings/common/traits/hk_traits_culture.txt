@@ -5,7 +5,7 @@ knight_squire = {
 knight = {
 	martial = 2
 	command_modifier = {
-		morale_defense = 0.04
+		morale_defence = 0.04
 	}
 
 } 
@@ -32,7 +32,7 @@ gerudo_boyfriend = {
 	cannot_inherit = yes
 	cannot_marry = yes
 
-	prestige = -1
+	monthly_character_prestige = -1
 	general_oppinion = -30
 	same_trait_oppinion = 30
 }
@@ -43,20 +43,20 @@ gerudo_lover = {
 }
 #skyloft
 loftwing_cadet = {
-	Martial = 1
-	prestige = 0.5
+	martial = 1
+	monthly_character_prestige  = 0.5
 
 } 
 loftwing_failed = {
-	Martial = 1
-	prestige = -1
+	martial = 1
+	monthly_character_prestige = -1
 
 }
 loftwing_knight = {
-	Martial = 3
-	prestige = 1
+	martial = 3
+	monthly_character_prestige = 1
 	command_modifier = {
-		morale_defense = 0.04
+		morale_defence = 0.04
 		speed = 0.03
 	}
 }
