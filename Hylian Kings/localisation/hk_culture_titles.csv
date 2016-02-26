@@ -1,32 +1,88 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+##Hylian
 emperor_hyrulean;King;;;;;;;;;;;;x
-emperor_female_hyrulean;Queen;;;;;;;;;;;;;x
+emperor_female_hyrulean;Princess;;;;;;;;;;;;;x
+emperor_consort_hyrulean;Prince Consort;;;;;;;;;;;;x
+emperor_female_consort_hyrulean;Queen Consort;;;;;;;;;;;;;x
 king_hyrulean;King;;;;;;;;;;;;;;;x
 king_female_hyrulean;Princess;;;;;;;;;;;;;x
-emperor_death_mountain_goron;King;;;;;;;;;;;;x
-emperor_female_death_mountain_goron;Queen;;;;;;;;;;;;;x
-emperor_title_ruler_consort_death_mountain_goron;King Consort;;;;;;;;;;;;;x
-emperor_title_ruler_consort_female_death_mountain_goron;Queen Consort;;;;;;;;;;;;;x
-king_title_ruler_consort_death_mountain_goron;Consort;;;;;;;;;;;;;x
-king_title_ruler_consort_female_death_mountain_goron;Consort;;;;;;;;;;;;;x
-king_death_mountain_goron:High Chief;;;;;;;;;;;;;;;x
-king_female_death_mountain_goron;High Chief;;;;;;;;;;;;;x
-duke_death_mountain_goron;Chief;;;;;;;;;;;;;x
-duke_female_death_mountain_goron;Chief;;;;;;;;;;;;;x
-duke_title_ruler_consort_death_mountain_goron;Consort;;;;;;;;;;;;;x
-duke_title_ruler_consort_female_death_mountain_goron;Consort;;;;;;;;;;;;;x
-count_death_mountain_goron;Big Brother;;;;;;;;;;;;;x
-count_female_death_mountain_goron;Big Sister;;;;;;;;;;;;;x
-count_title_ruler_consort_death_mountain_goron;Big Brother;;;;;;;;;;;;;x
-cout_title_ruler_consort_female_death_mountain_goron;Big Sister;;;;;;;;;;;;;x
-baron_death_mountain_goron;Elder;;;;;;;;;;;;;x
-baron_female_death_mountain_goron;Elder;;;;;;;;;;;;;x
-emperor_ordonion;High King;;;;;;;;;;;;x
-emperor_female_ordonion;High Queen;;;;;;;;;;;;;x
-emperor_title_ruler_consort_ordonion;High King Consort;;;;;;;;;;;;;x
-emperor_title_ruler_consort_female_ordonion;High Queen Consort;;;;;;;;;;;;;x
-emperor_gerudo;Emperor;;;;;;;;;;;;x
-emperor_female_gerudo;Empress;;;;;;;;;;;;;x
+king_consort_hyrulean;Prince Consort;;;;;;;;;;;;x
+emperor_new_hyrulean;King;;;;;;;;;;;;x
+emperor_female_new_hyrulean;Great Princess;;;;;;;;;;;;;x
+king_new_hyrulean;Prince;;;;;;;;;;;;;;;x
+king_female_new_hyrulean;Princess;;;;;;;;;;;;;x
+emperor_cobble;King;;;;;;;;;;;;x
+emperor_female_cobble;Queen;;;;;;;;;;;;;x
+emperor_consort_cobble;King Consort;;;;;;;;;;;;x
+emperor_female_consort_cobble;Queen Consort;;;;;;;;;;;;;x
+king_cobble;Princess;;;;;;;;;;;;;;;x
+king_female_cobble;Princess;;;;;;;;;;;;;x
+king_consort_cobble;Prince Consort;;;;;;;;;;;;x
+king_female_consort_cobble;Princess Consort;;;;;;;;;;;;;x
+emperor_pebble;King;;;;;;;;;;;;x
+emperor_female_pebble;Queen;;;;;;;;;;;;;x
+emperor_consort_pebble;King Consort;;;;;;;;;;;;x
+emperor_female_consort_pebble;Queen Consort;;;;;;;;;;;;;x
+king_pebble;Princess;;;;;;;;;;;;;;;x
+king_female_pebble;Princess;;;;;;;;;;;;;x
+king_consort_pebble;Prince Consort;;;;;;;;;;;;x
+king_female_consort_pebble;Princess Consort;;;;;;;;;;;;;x
+##Human
+king_ordonion;High King;;;;;;;;;;;;x
+king_female_ordonion;High Queen;;;;;;;;;;;;;x
+king_title_ruler_consort_ordonion;High King Consort;;;;;;;;;;;;;x
+king_title_ruler_consort_female_ordonion;High Queen Consort;;;;;;;;;;;;;x
+king_horon;High King;;;;;;;;;;;;x
+king_female_horon;High Queen;;;;;;;;;;;;;x
+king_title_ruler_consort_horon;High King Consort;;;;;;;;;;;;;x
+king_title_ruler_consort_female_horon;High Queen Consort;;;;;;;;;;;;;x
+emperor_gravel;King;;;;;;;;;;;;x
+emperor_female_gravel;Queen;;;;;;;;;;;;;x
+emperor_consort_gravel;King Consort;;;;;;;;;;;;x
+emperor_female_consort_gravel;Queen Consort;;;;;;;;;;;;;x
+king_gravel;Princess;;;;;;;;;;;;;;;x
+king_female_gravel;Princess;;;;;;;;;;;;;x
+king_consort_gravel;Prince Consort;;;;;;;;;;;;x
+king_female_consort_gravel;Princess Consort;;;;;;;;;;;;;x
+emperor_gem_lander;Samrat;Samrat;Samrat;;Samrat;;;;;;;;;x;;;;;;;;;;;;
+emperor_female_gem_lander;Samrajni;Samrajni;Samrajni;;Samrajní;;;;;;;;;x;;;;;;;;;;;;
+king_gem_lander;Maharaja;Maharaja;Maharadscha;;Maharaja;;;;;;;;;x;;;;;;;;;;;;
+king_female_gem_lander;Maharani;Maharani;Maharani;;Maharaní;;;;;;;;;x;;;;;;;;;;;;
+duke_gem_lander;Raja;Raja;Radscha;;Rajá;;;;;;;;;x;;;;;;;;;;;;
+duke_female_gem_lander;Rani;Rani;Rani;;Raní;;;;;;;;;x;;;;;;;;;;;;
+count_gem_lander;Thakur;Thakur;Thakur;;Thakur;;;;;;;;;x;;;;;;;;;;;;
+count_female_gem_lander;Thakurani;Thakurani;Thakurani;;Thakuraní;;;;;;;;;x;;;;;;;;;;;;
+baron_gem_lander;Damapati;Damapati;Damapati;;Damapati;;;;;;;;;x;;;;;;;;;;;;
+baron_female_gem_lander;Damapatni;Damapatni;Damapatni;;Damapatní;;;;;;;;;x;;;;;;;;;;;;
+##lost
+king_sheikah;Shadow King;;;;;;;;;;;;x
+king_female_sheikah;Shadow Queen;;;;;;;;;;;;;x
+king_title_ruler_consort_sheikah;King Consort;;;;;;;;;;;;x
+king_title_ruler_consort_female_sheikah;Queen Consort;;;;;;;;;;;;;x
+king_sheikah:Great Chief;;;;;;;;;;;;;;;x
+king_female_sheikah;Great Chief;;;;;;;;;;;;;x
+king_title_ruler_consort_sheikah:Great Husband;;;;;;;;;;;;;;;x
+king_female_title_ruler_consort_sheikah;Great Wife;;;;;;;;;;;;;x
+duke_sheikah;Tribe Chief;;;;;;;;;;;;;x
+duke_female_sheikah;Tribe Chief;;;;;;;;;;;;;x
+count_sheikah;Chief;;;;;;;;;;;;;x
+count_female_sheikah;Chief;;;;;;;;;;;;;x
+baron_sheikah;Clan Father;;;;;;;;;;;;;x
+baron_female_sheikah;Clan Mother;;;;;;;;;;;;;x
+king_darknut;Dux;;;;;;;;;;;;x
+king_female_darknut;Dux;;;;;;;;;;;;;x
+king_title_ruler_consort_darknut;Lati;;;;;;;;;;;;x
+king_title_ruler_consort_female_darknut;Lati;;;;;;;;;;;;;x
+king_darknut:Legatus;;;;;;;;;;;;;;;x
+king_female_darknut;Legatus;;;;;;;;;;;;;x
+king_title_ruler_consort_darknut:Lati;;;;;;;;;;;;;;;x
+king_female_title_ruler_consort_darknut;Lati;;;;;;;;;;;;;x
+duke_darknut;Angusti;;;;;;;;;;;;;x
+duke_female_darknut;Angusti;;;;;;;;;;;;;x
+count_darknut;Ordinis;;;;;;;;;;;;;x
+count_female_darknut;Ordinis;;;;;;;;;;;;;x
+baron_darknut;Centurion;;;;;;;;;;;;;x
+baron_female_darknut;Centurion;;;;;;;;;;;;;x
 king_gerudo:King of Gerudos;;;;;;;;;;;;;;;x
 duke_gerudo;Leader;;;;;;;;;;;;;x
 duke_female_gerudo;Leader;;;;;;;;;;;;;x
@@ -34,42 +90,96 @@ count_gerudo;Commander;;;;;;;;;;;;;x
 count_female_gerudo;Commander;;;;;;;;;;;;;x
 baron_gerudo;Captain;;;;;;;;;;;;;x
 baron_female_gerudo;Captain;;;;;;;;;;;;;x
-emperor_horon;High King;;;;;;;;;;;;x
-emperor_female_horon;High Queen;;;;;;;;;;;;;x
-emperor_title_ruler_consort_horon;High King Consort;;;;;;;;;;;;;x
-emperor_title_ruler_consort_female_horon;High Queen Consort;;;;;;;;;;;;;x
-emperor_twili;Twilight Emperor;;;;;;;;;;;;x
-emperor_female_twili;Twilight Queen;;;;;;;;;;;;;x
-king_twili:Twilight King;;;;;;;;;;;;;;;x
-king_female_twili;Twilight Princess;;;;;;;;;;;;;x
-duke_twili;Twilight Duke;;;;;;;;;;;;;x
-duke_female_twili;Twilight Duchess;;;;;;;;;;;;;x
-count_twili;Twilight Count;;;;;;;;;;;;;x
-count_female_twili;Twilight Countess;;;;;;;;;;;;;x
-baron_twili;Twilight Lord;;;;;;;;;;;;;x
-baron_female_twili;Twilight Lady;;;;;;;;;;;;;x
-emperor_darknut;Dux;;;;;;;;;;;;x
-emperor_female_darknut;Dux;;;;;;;;;;;;;x
-emperor_title_ruler_consort_darknut;Lord;;;;;;;;;;;;x
-emperor_title_ruler_consort_female_darknut;Lady;;;;;;;;;;;;;x
-king_darknut:Legatus;;;;;;;;;;;;;;;x
-king_female_darknut;Legatus;;;;;;;;;;;;;x
-king_title_ruler_consort_darknut:Lord;;;;;;;;;;;;;;;x
-king_female_title_ruler_consort_darknut;Lady;;;;;;;;;;;;;x
-duke_darknut;Strategos;;;;;;;;;;;;;x
-duke_female_darknut;Strategos;;;;;;;;;;;;;x
-count_darknut;Praetor;;;;;;;;;;;;;x
-count_female_darknut;Praetor;;;;;;;;;;;;;x
-baron_darknut;Prefect;;;;;;;;;;;;;x
-baron_female_darknut;Prefect;;;;;;;;;;;;;x
-emperor_title_ruler_consort_zuna;Chief Husband;;;;;;;;;;;;x
-emperor_title_ruler_consort_female_zuna;Chief Wife;;;;;;;;;;;;;x
-emperor_zuna;Pharaoh;;;;;;;;;;;;x
-emperor_female_zuna;Pharaoh;;;;;;;;;;;;;x
+king_title_ruler_wizzrobe;Arch-King;;;;;;;;;;;;x
+king_title_ruler_female_wizzrobe;Arch-Queen;;;;;;;;;;;;;x
+king_title_ruler_consort_wizzrobe;Arch-Consort;;;;;;;;;;;;x
+king_title_ruler_consort_female_wizzrobe;Arch-Consort;;;;;;;;;;;;;x
+king_wizzrobe:Mage-King;;;;;;;;;;;;;;;x
+king_female_wizzrobe;Mage-Queen;;;;;;;;;;;;;x
+king_title_ruler_consort_wizzrobe:King Consort;;;;;;;;;;;;;;;x
+king_female_title_ruler_consort_wizzrobe;Queen Consort;;;;;;;;;;;;;x
+duke_wizzrobe;Journeymen King;;;;;;;;;;;;;x
+duke_female_wizzrobe;Journeymen Queen;;;;;;;;;;;;;x
+count_wizzrobe;Apprentice King;;;;;;;;;;;;;x
+count_female_wizzrobe;Apprentice Queen;;;;;;;;;;;;;x
+baron_wizzrobe;Initiate King;;;;;;;;;;;;;x
+baron_female_wizzrobe;Initiate Queen;;;;;;;;;;;;;x
+##spirit
+##Goron
+king_great_fairy;Great Patriarch;;;;;;;;;;;;x
+king_female_great_fairy;Great Matriarch;;;;;;;;;;;;;x
+king_title_ruler_consort_great_fairy;Great Patriarch;;;;;;;;;;;;;x
+king_title_ruler_consort_female_great_fairy;Great Matriarch;;;;;;;;;;;;;x
+king_title_ruler_consort_great_fairy;Patriarch;;;;;;;;;;;;;x
+king_title_ruler_consort_female_great_fairy;Matriarch;;;;;;;;;;;;;x
+king_great_fairy:High Chief;;;;;;;;;;;;;;;x
+king_female_great_fairy;High Chief;;;;;;;;;;;;;x
+duke_great_fairy;Chief;;;;;;;;;;;;;x
+duke_female_great_fairy;Chief;;;;;;;;;;;;;x
+duke_title_ruler_consort_great_fairy;Consort;;;;;;;;;;;;;x
+duke_title_ruler_consort_female_great_fairy;Consort;;;;;;;;;;;;;x
+count_great_fairy;Big Brother;;;;;;;;;;;;;x
+count_female_great_fairy;Big Sister;;;;;;;;;;;;;x
+count_title_ruler_consort_great_fairy;Big Brother;;;;;;;;;;;;;x
+cout_title_ruler_consort_female_great_fairy;Big Sister;;;;;;;;;;;;;x
+baron_great_fairy;Elder;;;;;;;;;;;;;x
+baron_female_great_fairy;Elder;;;;;;;;;;;;;x
+##fae
+king_great_fairy;Fairy King;;;;;;;;;;;;x
+king_female_great_fairy;Fairy Queen;;;;;;;;;;;;;x
+king_title_ruler_consort_great_fairy;Fairy King Consort;;;;;;;;;;;;;x
+king_title_ruler_consort_female_great_fairy;Fairy Queen Consort;;;;;;;;;;;;;x
+king_great_fairy:Fairy Prince;;;;;;;;;;;;;;;x
+king_female_great_fairy;Fairy Princess;;;;;;;;;;;;;x
+duke_great_fairy;Grand Fairy;;;;;;;;;;;;;x
+duke_female_great_fairy;Grand Fairy;;;;;;;;;;;;;x
+duke_title_ruler_consort_great_fairy;Grand Fairy;;;;;;;;;;;;;x
+duke_title_ruler_consort_female_great_fairy;Grand Fairy;;;;;;;;;;;;;x
+count_great_fairy;Fairy Lord;;;;;;;;;;;;;x
+count_female_great_fairy;Fairy Lady;;;;;;;;;;;;;x
+count_title_ruler_consort_great_fairy;Fairy Lord;;;;;;;;;;;;;x
+cout_title_ruler_consort_female_great_fairy;Fairy Lady;;;;;;;;;;;;;x
+baron_great_fairy;Great Fairy;;;;;;;;;;;;;x
+baron_female_great_fairy;Great Fairy;;;;;;;;;;;;;x
+emperor_demon;Demon King;;;;;;;;;;;;x
+emperor_female_demon;Demon Queen;;;;;;;;;;;;;x
+emperor_title_ruler_consort_demon;Demon King Consort;;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_demon;Demon Queen Consort;;;;;;;;;;;;;x
+king_demon;Demon Lord;;;;;;;;;;;;;;;x
+king_female_demon;Demon Lady;;;;;;;;;;;;;x
+duke_demon;Great Demon;;;;;;;;;;;;;x
+duke_female_demon;Great Demoness;;;;;;;;;;;;;x
+duke_title_ruler_consort_demon;Great Demon;;;;;;;;;;;;;x
+duke_title_ruler_consort_female_demon;Great Demoness;;;;;;;;;;;;;x
+count_demon;Demon General;;;;;;;;;;;;;x
+count_female_demon;Demon General;;;;;;;;;;;;;x
+count_title_ruler_consort_demon;Demon Master;;;;;;;;;;;;;x
+cout_title_ruler_consort_female_demon;Demon Mistress;;;;;;;;;;;;;x
+baron_demon;Great Demon;;;;;;;;;;;;;x
+baron_female_demon;Great Demon;;;;;;;;;;;;;x
+##plant
+king_zuna;Pharaoh;;;;;;;;;;;;x
+king_female_zuna;Pharaoh;;;;;;;;;;;;;x
+king_title_ruler_consort_zuna;Chief Husband;;;;;;;;;;;;x
+king_title_ruler_consort_female_zuna;Chief Wife;;;;;;;;;;;;;x
 duke_zuna;Nomarch;;;;;;;;;;;;;x
 duke_female_zuna;Nomarch;;;;;;;;;;;;;x
 count_zuna;Haty-a;;;;;;;;;;;;;x
 count_female_zuna;Haty-a;;;;;;;;;;;;;x
 baron_zuna;Nobleman;;;;;;;;;;;;;x
 baron_female_zuna;Noblewoman;;;;;;;;;;;;;x
-
+##Alien
+king_title_ruler_consort_twili;King Consort;;;;;;;;;;;;;x
+king_title_ruler_consort_female_twili;Queen Consort;;;;;;;;;;;;;x
+king_twili;Twilight king;;;;;;;;;;;;x
+king_female_twili;Twilight Queen;;;;;;;;;;;;;x
+king_twili:Twilight King;;;;;;;;;;;;;;;x
+king_female_twili;Twilight Princess;;;;;;;;;;;;;x
+king_title_ruler_consort_twilight;Prince Consort;;;;;;;;;;;;;x
+king_title_ruler_consort_female_twilight;Queen Consort;;;;;;;;;;;;;x
+duke_twili;Twilight Duke;;;;;;;;;;;;;x
+duke_female_twili;Twilight Duchess;;;;;;;;;;;;;x
+count_twili;Twilight Count;;;;;;;;;;;;;x
+count_female_twili;Twilight Countess;;;;;;;;;;;;;x
+baron_twili;Twilight Lord;;;;;;;;;;;;;x
+baron_female_twili;Twilight Lady;;;;;;;;;;;;;x
