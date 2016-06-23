@@ -1,0 +1,59 @@
+#combat skill
+warrior_1 = { #you know the basics
+	martial = 1
+	combat_rating = 1
+	opposites =  {  warrior_2 warrior_3 warrior_4 }
+}
+warrior_2 = { #you know a couple of advanced techniques
+	martial = 2
+	combat_rating = 2
+	opposites =  {  warrior_1 warrior_3 warrior_4 }
+}
+warrior_3 = { #you know 
+	martial = 3
+	combat_rating = 4
+	monthly_character_prestige = 0.05
+	opposites =  {  warrior_2 warrior_1 warrior_4 }
+}
+warrior_4 = { #over 60 impossible 
+	martial = 4
+	combat_rating = 8
+	monthly_character_prestige = 0.1
+	opposites =  {  warrior_2 warrior_3 warrior_1 }
+}
+#humans and sages ONLY and not darknut
+mage_1  = { #hereditary in wind and wizzrobe 100% even in wind 50% in wizzrobe
+	learning = 1
+	combat_rating = 1
+	opposites = { mage_2 mage_3 mage_4 }
+}
+mage_2 = {
+	learning = 2
+	combat_rating = 2
+	opposites = { mage_1 mage_3 mage_4 }
+}
+mage_3 = {
+	learning = 3
+	combat_rating = 4
+	monthly_character_prestige = 0.05
+	opposites = { mage_2 mage_1 mage_4 }
+}
+mage_4 = {
+	learning = 4
+	combat_rating = 8
+	monthly_character_prestige = 0.1
+	immortal = yes
+	opposites = { mage_2 mage_3 mage_1 }
+}
+#command
+sapper = {
+	leader = yes
+	random = no
+	potential = {
+		culture_group = goron_group
+		culture = kakirikon
+	}
+	command_modifier = {
+	siege = 0.1
+	}
+}

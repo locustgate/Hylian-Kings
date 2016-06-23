@@ -1207,7 +1207,7 @@ temple = {
 		gold_cost = 100
 		build_time = 365
 		heavy_infantry = 40
-		pikeman = 30
+		pikemen = 30
 		archers = 20
 
 		ai_creation_factor = 95
@@ -1225,7 +1225,7 @@ temple = {
 		gold_cost = 120
 		build_time = 730
 		heavy_infantry = 50
-		pikeman = 40
+		pikemen = 40
 		archers = 30
 		ai_creation_factor = 94
 
@@ -1242,7 +1242,7 @@ temple = {
 		gold_cost = 200
 		build_time = 730
 		heavy_infantry = 60
-		pikeman = 50
+		pikemen = 50
 		archers = 40
 
 		ai_creation_factor = 93
@@ -1259,7 +1259,7 @@ temple = {
 		gold_cost = 300
 		build_time = 1095
 		heavy_infantry = 70
-		pikeman = 60
+		pikemen = 60
 		archers = 50
 
 		ai_creation_factor = 92
@@ -1276,7 +1276,7 @@ temple = {
 		gold_cost = 400
 		build_time = 2190
 		heavy_infantry = 80
-		pikeman = 50
+		pikemen = 50
 		archers = 80
 
 		ai_creation_factor = 91
@@ -1293,7 +1293,7 @@ temple = {
 		gold_cost = 500
 		build_time = 2190
 		heavy_infantry = 80
-		pikeman = 50
+		pikemen = 50
 		archers = 100
 
 		ai_creation_factor = 90

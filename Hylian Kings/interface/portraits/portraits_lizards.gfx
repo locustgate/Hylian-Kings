@@ -1,0 +1,1109 @@
+#all can reproduce with eachother
+#### Lfos, aeralfos, dinolfos, lizalfos, tokay
+spriteTypes = { 
+####aeralfos
+	#aeralfos male
+	portraitType = {
+		name = "PORTRAIT_aeralfosgfx_male"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_aeralfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	#aeralfos male middle age
+	portraitType = {
+		name = "PORTRAIT_aeralfosgfx_male1"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_aeralfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	#aeralfos male old age
+	portraitType = {
+		name = "PORTRAIT_aeralfosgfx_male2"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_aeralfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	# aeralfos female
+	portraitType = {
+		name = "PORTRAIT_aeralfosgfx_female"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_aeralfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { }
+	}
+
+	# aeralfos female midage
+	portraitType = {
+		name = "PORTRAIT_aeralfosgfx_female1"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_aeralfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { }
+	}
+
+	# aeralfos male oldage
+	portraitType = {
+		name = "PORTRAIT_aeralfosgfx_female2"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_aeralfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { }
+	}
+####dinolfos
+	# dino male
+	portraitType = {
+		name = "PORTRAIT_dinolfosgfx_male"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_dinolfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	# dino male middle age
+	portraitType = {
+		name = "PORTRAIT_dinolfosgfx_male1"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_dinolfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	# dino male old age
+	portraitType = {
+		name = "PORTRAIT_dinolfosgfx_male2"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_dinolfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	# dino female
+	portraitType = {
+		name = "PORTRAIT_dinolfosgfx_female"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_dinolfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { }
+	}
+
+	# dino female midage
+	portraitType = {
+		name = "PORTRAIT_dinolfosgfx_female1"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_dinolfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { }
+	}
+
+	# dino female oldage
+	portraitType = {
+		name = "PORTRAIT_dinolfosgfx_female2"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_dinolfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { }
+	}
+####lizalfos
+	# lizalfos male
+	portraitType = {
+		name = "PORTRAIT_lizalfosgfx_male"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_lizalfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	# lizalfos male middle age
+	portraitType = {
+		name = "PORTRAIT_lizalfosgfx_male1"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_lizalfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	# lizalfos male old age
+	portraitType = {
+		name = "PORTRAIT_lizalfosgfx_male2"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_lizalfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	# lizalfos female
+	portraitType = {
+		name = "PORTRAIT_lizalfosgfx_female"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_lizalfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { }
+	}
+
+	# lizalfos female midage
+	portraitType = {
+		name = "PORTRAIT_lizalfosgfx_female1"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_lizalfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { }
+	}
+
+	# lizalfos female oldage
+	portraitType = {
+		name = "PORTRAIT_lizalfosgfx_female2"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_lizalfos_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { }
+	}
+####tokay
+	# tokay male
+	portraitType = {
+		name = "PORTRAIT_tokaygfx_male"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_tokay_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	# tokay male middle age
+	portraitType = {
+		name = "PORTRAIT_tokaygfx_male1"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_tokay_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	# tokay male old age
+	portraitType = {
+		name = "PORTRAIT_tokaygfx_male2"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_tokay_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	# tokay female	
+	portraitType = {
+		name = "PORTRAIT_tokaygfx_female"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_tokay_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { }
+	}
+
+	# tokay female midage
+	portraitType = {
+		name = "PORTRAIT_tokaygfx_female1"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_tokay_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { }
+	}
+
+	# tokay female oldage
+	portraitType = {
+		name = "PORTRAIT_tokaygfx_female2"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_tokay_male_base:p2"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+		}
+		
+		headgear_that_hides_hair = { }
+	}
+}	
+	

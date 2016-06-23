@@ -1,18 +1,52 @@
 #goddesses
-#patron_din = {}
-#patron_naryu = {}
-#patron_farore = {}
-##hylia worship
-#patron_hylia = {}
-#patron_faron_d = {}
-#patron_eldin_d = {}
-#patron_lanayru_d = {}
-#patron_levias  = {}
-#light spirits
-#patron_ordona  = {}
-#patron_faron  = {}
-#patron_eldin  = {}
-#patron_lanaryu = {}
+patron_din = {
+	opposites = {
+		patron_naryu
+		patron_farore
+	}
+
+	opposite_opinion = -5
+	
+	martial = 2
+
+	potential = { religion = golden_goddesses }
+	religious_branch = golden_goddesses
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+patron_naryu = {
+	opposites = {
+		patron_din
+		patron_farore
+	}
+
+	opposite_opinion = -5
+	
+	learning = 2
+
+	potential = { religion = golden_goddesses }
+	religious_branch = golden_goddesses
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+patron_farore = {
+	opposites = {
+		patron_naryu
+		patron_din
+	}
+
+	opposite_opinion = -5
+	
+	vassal_opinion = 5
+
+	potential = { religion = golden_goddesses }
+	religious_branch = golden_goddesses
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
 #gerudo
 iron_knuckle = {
 	martial = 4

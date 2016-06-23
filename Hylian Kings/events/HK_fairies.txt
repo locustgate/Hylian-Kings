@@ -1,0 +1,83 @@
+namespace = fairy
+################################################
+#################################################
+
+# Gain Fairy
+character_event = {
+	id = fairy.0
+	desc = "DESC_FAIRY.0"
+	picture = "GFX_evt_child_play"
+	
+	is_triggered_only = yes
+	
+	min_age = 6
+	max_age = 13
+
+	trigger = {
+		OR = {
+			religion = great_deku
+			religion = great_fairies
+		}
+		NOR = {
+			trait = companion_fairy
+			trait = companion_piccori
+			trait = race_fairy
+		}
+		prisoner = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = race_kokiri
+		}
+		modifier = {
+			factor = 4
+			trait = hero_soul
+		}
+		modifier = {
+			culture = kokiri
+			factor = 1.05
+		}
+		modifier = {
+			trait = kokiri_blood
+			factor = 1.10
+		}
+		modifier = {
+			trait = fairy_blood
+			factor = 1.5
+		}
+	}
+		
+	option = {
+		name = "OPFAIRY.0A"
+		add_trait = companion_fairy
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = fairy.1
+					days = 3
+				}
+			}
+		}
+	}
+}
+# Guardian discourages gluttony
+character_event = {
+	id = fairy.1
+	desc = "DESC_FAIRY.1"
+	picture = "GFX_evt_guardian"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_tooltip = {
+			add_trait = companion_fairy 
+		}
+	}
+	
+	option = {
+		name = "OPFAIRY.1A"
+	}
+}

@@ -1,0 +1,468 @@
+castle = {
+#pit trap, ambush spots, deku baba, skulltulas traps, lookout post ,wolfos guards
+	ca_wall_q_1 = {
+		potential = {
+			OR = {		
+				culture = deku_scrub
+				culture = kokiri
+			}
+		}
+		desc = ca_wall_q_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 80
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_wall_q_2 = {
+		desc = ca_wall_q_2_desc
+		potential = {
+			OR = {		
+				culture = deku_scrub
+				culture = kokiri
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		upgrades_from = ca_wall_q_1
+		prerequisites = { ca_wall_1 }
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 79
+
+		extra_tech_building_start = 0.6
+	}
+	ca_wall_q_3 = {
+		potential = {
+			OR = {		
+				culture = deku_scrub
+				culture = kokiri
+			}
+		}		desc = ca_wall_q_3_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+		upgrades_from = ca_wall_q_2
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 78
+		
+		extra_tech_building_start = 0.2
+	}
+	ca_wall_q_4 = {
+		potential = {
+			OR = {		
+				culture = deku_scrub
+				culture = kokiri
+			}
+		}
+		desc = ca_wall_q_4_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		upgrades_from = ca_wall_q_3
+		gold_cost = 100
+		build_time = 365
+		fort_level = 1.0
+		ai_creation_factor = 77
+		
+		extra_tech_building_start = 0.2
+	}
+	ca_wall_q_5 = {
+		potential = {
+			OR = {		
+				culture = deku_scrub
+				culture = kokiri
+			}
+		}
+		desc = ca_wall_q_5_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+		upgrades_from = ca_wall_q_4
+		gold_cost = 100
+		build_time = 365
+		fort_level = 1.0
+		ai_creation_factor = 76
+
+		extra_tech_building_start = 0.2
+	}
+	ca_wall_q_6 = {
+		potential = {
+			OR = {		
+				culture = deku_scrub
+				culture = kokiri
+			}
+		}
+		desc = ca_wall_q_6_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+		upgrades_from = ca_wall_q_5
+		gold_cost = 100
+		build_time = 365
+		fort_level = 1.0
+		ai_creation_factor = 76
+
+		extra_tech_building_start = 0.2
+	}
+}
+
+tribal = {
+	#'hillfort' 1 = dug outs 2 = carved out trees 3= suspended village 4 tree top village
+	tb_grove_1 = {
+		desc = tb_grove_1_desc
+		potential = {
+					culture = kokiri
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 365
+		
+		fort_level = 0.25
+		levy_size = 0.05
+		ai_creation_factor = 97
+		ai_feudal_modifier = 10
+		ai_republic_modifier = -10
+		
+		extra_tech_building_start = 1
+	}
+	
+	tb_grove_2 = {
+		desc = tb_grove_2_desc
+		potential = {
+					culture = kokiri
+		}
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = tb_grove_1
+		gold_cost = 100
+		build_time = 365
+		
+		fort_level = 0.25
+		levy_size = 0.05
+		ai_creation_factor = 98
+		ai_feudal_modifier = 10
+		ai_republic_modifier = -10
+		
+		convert_to_city = ct_wall_1
+		
+		extra_tech_building_start = 1.5
+	}
+	
+	tb_grove_3 = {
+		desc = tb_grove_3_desc
+		potential = {
+					culture = kokiri
+		}
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		upgrades_from = tb_grove_2
+		gold_cost = 100
+		build_time = 365
+		
+		fort_level = 0.25
+		levy_size = 0.05
+		ai_creation_factor = 99
+		ai_feudal_modifier = 10
+		ai_republic_modifier = -10
+		
+		extra_tech_building_start = 2
+	}
+	
+	tb_grove_4 = {
+		desc = tb_grove_4_desc
+		potential = {
+					culture = kokiri
+		}
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		upgrades_from = tb_grove_3
+		gold_cost = 100
+		build_time = 365
+		
+		fort_level = 0.25
+		levy_size = 0.05
+		ai_creation_factor = 100
+		ai_feudal_modifier = 10
+		ai_republic_modifier = -10
+		
+		convert_to_city = ct_wall_2
+		
+		extra_tech_building_start = 2.5
+	}
+	tb_training_facility_1 = {
+		desc = tb_training_facility_desc
+		potential = {
+			culture = kokiri 
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		prestige_cost = 300
+		build_time = 547
+		levy_size = 0.04
+		garrison_size = 0.04
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 1
+	}
+	
+	tb_training_facility_2 = {
+		desc = tb_training_facility_desc
+		potential = {
+			culture = kokiri 
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = tb_training_facility_1
+		prestige_cost = 400
+		build_time = 730
+		levy_size = 0.065
+		garrison_size = 0.065
+		ai_creation_factor = 97
+		
+		convert_to_castle = ca_keep_1
+		convert_to_city = ct_training_facility_1
+
+		extra_tech_building_start = 1.5
+	} 
+	
+	tb_training_facility_3 = {
+		desc = tb_training_facility_desc
+		potential = {
+			culture = kokiri 
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = tb_training_facility_2
+		prestige_cost = 500
+		build_time = 1095
+		levy_size = 0.09
+		garrison_size = 0.09
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 2
+	}
+	
+	tb_training_facility_4 = {
+		desc = tb_training_facility_desc
+		potential = {
+			culture = kokiri 
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = tb_training_facility_3
+		prestige_cost = 600
+		build_time = 1460
+		levy_size = 0.15
+		garrison_size = 0.15
+		ai_creation_factor = 95
+		
+		convert_to_castle = ca_keep_2
+		convert_to_city = ct_training_facility_2
+
+		extra_tech_building_start = 2.5
+	} 
+	
+	tb_kokiri_armory_1 = {
+		desc = tb_kokiri_armory_desc
+		potential = {
+			culture = kokiri
+		}
+		trigger = { TECH_LIGHT_INFANTRY = 0 }
+		prestige_cost = 300
+		build_time = 365
+		light_infantry = 40
+		ai_creation_factor = 95
+		
+		extra_tech_building_start = 1
+	}
+	
+	tb_kokiri_armory_2 = {
+		desc = tb_kokiri_armory_desc
+		potential = {
+			culture = kokiri
+		}
+		trigger = { TECH_LIGHT_INFANTRY = 0 }
+		upgrades_from = tb_kokiri_armory_1
+		prestige_cost = 400
+		build_time = 547
+		light_infantry = 40
+		ai_creation_factor = 94
+		
+		convert_to_castle = ca_barracks_1
+		convert_to_city = ct_guard_1
+
+		extra_tech_building_start = 1.5
+	}
+	
+	tb_kokiri_armory_3 = {
+		desc = tb_kokiri_armory_desc
+		potential = {
+			culture = kokiri
+		}
+		trigger = { TECH_LIGHT_INFANTRY = 0 }
+		upgrades_from = tb_kokiri_armory_2
+		prestige_cost = 500
+		build_time = 730
+		light_infantry = 40
+		ai_creation_factor = 93
+		
+		extra_tech_building_start = 2
+	}
+	
+	tb_kokiri_armory_4 = {
+		desc = tb_kokiri_armory_desc
+		potential = {
+			culture = kokiri
+		}
+		trigger = { TECH_LIGHT_INFANTRY = 0 }
+		upgrades_from = tb_kokiri_armory_3
+		prestige_cost = 600
+		build_time = 1095
+		light_infantry = 40
+		ai_creation_factor = 92
+		
+		convert_to_castle = ca_barracks_2
+		convert_to_city = ct_guard_2
+
+		extra_tech_building_start = 2.5
+	}
+	tb_war_grove_1 = {
+		desc = tb_war_grove_desc
+		potential = {
+		potential = {
+			culture = deku_scrub
+		}
+		trigger = { TECH_LIGHT_INFANTRY = 0 }
+		prestige_cost = 300
+		build_time = 365
+		light_infantry = 30
+		ai_creation_factor = 95
+		
+		extra_tech_building_start = 1
+	}
+	
+	tb_war_grove_2 = {
+		desc = tb_war_grove_desc
+		potential = {
+		potential = {
+			culture = deku_scrub
+		}
+		trigger = { TECH_LIGHT_INFANTRY = 0 }
+		upgrades_from = tb_war_grove_1
+		prestige_cost = 400
+		build_time = 547
+		light_infantry = 30
+		ai_creation_factor = 94
+		
+		convert_to_castle = ca_barracks_1
+		convert_to_city = ct_guard_1
+
+		extra_tech_building_start = 1.5
+	}
+	
+	tb_war_grove_3 = {
+		desc = tb_war_grove_desc
+		potential = {
+			culture = deku_scrub
+		}
+		trigger = { TECH_LIGHT_INFANTRY = 0 }
+		upgrades_from = tb_war_grove_2
+		prestige_cost = 500
+		build_time = 730
+		light_infantry = 40
+		ai_creation_factor = 93
+		
+		extra_tech_building_start = 2
+	}
+	
+	tb_war_grove_4 = {
+		desc = tb_war_grove_desc
+		potential = {
+			culture = deku_scrub
+		}
+		trigger = { TECH_LIGHT_INFANTRY = 0 }
+		upgrades_from = tb_war_grove_3
+		prestige_cost = 600
+		build_time = 1095
+		light_infantry = 30
+		ai_creation_factor = 92
+		
+		convert_to_castle = ca_barracks_2
+		convert_to_city = ct_guard_2
+
+		extra_tech_building_start = 2.5
+	}
+	
+	tb_mad_grove_1 = {#mad scrub grove
+		desc = tb_mad_grove_desc
+		potential = {
+			culture = deku_scrub
+		}
+		trigger = { TECH_LIGHT_INFANTRY = 0 }
+		prestige_cost = 300
+		build_time = 365
+		archers = 25
+		ai_creation_factor = 95
+		
+		extra_tech_building_start = 1
+	}
+	
+	tb_mad_grove_2 = {
+		desc = tb_mad_grove_desc
+		potential = {
+				NOR = {
+					culture = darknut
+					culture_group = lfos
+					culture_group = goron_group
+					culture_group = blin
+				}
+		}
+		trigger = { TECH_LIGHT_INFANTRY = 0 }
+		upgrades_from = tb_mad_grove_1
+		prestige_cost = 400
+		build_time = 547
+		archers = 25
+		ai_creation_factor = 94
+		
+		convert_to_castle = ca_militia_barracks_1
+		convert_to_city = ct_barracks_1
+
+		extra_tech_building_start = 1.5
+	}
+	
+	tb_mad_grove_3 = {
+		desc = tb_mad_grove_desc
+		potential = {
+				NOR = {
+					culture = darknut
+					culture_group = lfos
+					culture_group = goron_group
+					culture_group = blin
+				}
+		}
+		trigger = { TECH_LIGHT_INFANTRY = 0 }
+		upgrades_from = tb_mad_grove_2
+		prestige_cost = 500
+		build_time = 730
+		archers = 25
+		ai_creation_factor = 93
+		
+		extra_tech_building_start = 2
+	}
+	
+	tb_mad_grove_4 = {
+		desc = tb_mad_grove_desc
+		potential = {
+				NOR = {
+					culture = darknut
+					culture_group = lfos
+					culture_group = goron_group
+					culture_group = blin
+				}
+		}
+		trigger = { TECH_LIGHT_INFANTRY = 0 }
+		upgrades_from = tb_mad_grove_3
+		prestige_cost = 600
+		build_time = 1095
+		archers = 25
+		ai_creation_factor = 92
+		
+		convert_to_castle = ca_militia_barracks_2
+		convert_to_city = ct_barracks_2
+
+		extra_tech_building_start = 2.5
+	}
+}

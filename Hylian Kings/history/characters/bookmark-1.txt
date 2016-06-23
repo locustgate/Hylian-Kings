@@ -1,0 +1,463 @@
+#3387
+#x1 = { #1
+#	name=Gustaf
+#	historical = yes
+#	dynasty=1
+#	mother/father=y
+#	religion=golden_goddesses
+#	culture=hyrulean
+#	trait=brilliant_strategist
+#	trait=bloodline_goddess
+#	trait=race_hylian
+#	trait=warrior_2
+#	trait=robust
+#	trait=just
+#	3367.10.18={
+#		birth=yes
+#	}
+#   3385.4.30 = {
+#		add_spouse=x9
+#	}
+#	3425.1.1={
+#		death={
+#			death_reason=death_depression
+#		}
+#	}
+#}
+#x2 = {
+#	name=Zelda 
+#	dna="ddaga0glab0"
+#	properties="qm0cbkbebbbb"
+#	historical = yes
+#	dynasty=1
+#	female=yes
+#	father=x1
+#	mother=x9
+#	religion=golden_goddesses
+#	culture=hyrulean
+#	trait=race_hylian
+#	trait=attractive
+#	trait=goddess_soul
+#	trait=bloodline_goddess
+#	3386.4.18={
+#		birth=yes
+#	}
+#}
+#x3 = {
+#	name=Flurris
+#	historical = yes
+#	dynasty=1
+#	father=x1
+#	mother=x9
+#	religion=golden_goddesses
+#	culture=hyrulean
+#	trait=race_hylian
+#	trait=bloodline_goddess
+#	3391.5.2={
+#		birth=yes
+#	}
+#}
+#x4 = {
+#	name=Potho
+#	historical = yes
+#	dynasty=1
+#	father=x1
+#	mother=x9
+#	religion=golden_goddesses
+#	culture=hyrulean
+#	trait=race_hylian
+#	trait=bloodline_goddess
+#	3399.7.26={
+#		birth=yes
+#	}
+#}
+#x5 = {#2
+#	name=Flurris
+#	historical = yes
+#	dynasty=6001
+#	religion=light_force
+#	culture=wind_tribe
+#	trait=underhanded_rogue
+#	trait=race_wind_tribe
+#	trait=warrior_3
+#	trait=mage_3
+#	3331.3.26={
+#		birth=yes
+#	}
+#   3347.8.2 = {
+#		add_spouse=x6
+#	}
+#	3403.1.1={
+#		death={
+#		death_reason= death_battle}
+#	}
+#}
+#x6 = {
+#	name=Chell
+#	historical = yes
+#	female=yes
+#	religion=light_force
+#	culture=wind_tribe
+#	trait=flamboyant_schemer
+#	trait=decietful
+#	trait=shrewd
+#	trait=race_wind_tribe
+#	trait=mage_4
+#	3331.8.2={
+#		birth=yes
+#	}
+#   3347.8.2 = {
+#		add_spouse=x6
+#	}
+#	3403.1.1={
+#		death={
+#		death_reason= death_battle}
+#	}
+#}
+#x7 = {
+#	name=Strato
+#	historical = yes
+#	dynasty=6001
+#	father=x5
+#	mother=x6
+#	religion=light_force
+#	trait=skilled_tactician 
+#	culture=wind_tribe
+#	trait=race_wind_tribe
+#	trait=mage_1
+#	trait=coward
+#	3349.4.28={
+#		birth=yes
+#	}
+#   3385.4.30 = {
+#		add_spouse=x
+#	}
+#	3403.1.1={
+#		death={
+#		death_reason= death_battle}
+#	}
+#}
+#x8 = {
+#	name=Mazin
+#	historical = yes
+#	dynasty=6001
+#	father=x5
+#	mother=x6
+#	religion=light_force
+#	culture=wind_tribe
+#	trait=grey_eminence  
+#	trait=race_wind_tribe
+#	trait=mage_3
+#	3356.12.25={
+#		birth=yes
+#	}
+#   3385.4.30 = {
+#		add_spouse=x
+#	}
+#	3428.1.1={
+#		death=yes
+#	}
+#}
+#x9 = {
+#	name=Aurora
+#	historical = yes
+#	dynasty=6001
+#	female=yes
+#	father=x5
+#	mother=x6
+#	religion=light_force
+#	culture=wind_tribe
+#	trait=scholarly_theologian
+#	trait=race_wind_tribe
+#	trait=mage_2
+#	trait=attractive
+#	trait = feeble
+#	3369.4.28={
+#		birth=yes
+#	}
+#   3385.4.30 = {
+#		add_spouse=x1
+#	}
+#	3403.1.1={
+#		death={
+#		death_reason= death_battle}
+#	}
+#}
+#x10 = {
+#	name=Hagan
+#	historical = yes
+#	dynasty=14601
+#	mother/father=y
+#	religion=golden_goddesses
+#	culture=hyrulean
+#	trait=brilliant_strategist
+#	trait=bloodline_hero
+#	trait=race_hylian
+#	trait=warrior_3
+#	trait=robust
+#	trait=strong
+#	trait=content
+#	trait=brave
+#	trait=experimenter
+#	trait=cavalry_leader
+#	3358.2.10={
+#		birth=yes
+#	}
+#   3385.10.16 = {
+#		add_spouse=x11
+#	}
+#   3388.1.25 = {
+#		add_spouse=xz
+#	}
+#	3420.1.1={
+#		death=yes
+#	}
+#}
+#x11 = {
+#	name=Anju
+#	historical = yes
+#	female=yes
+#	religion=golden_goddesses
+#	culture=hyrulean
+#	trait=thrifty_clerk
+#	trait=race_hylian
+#	trait=feeble
+#	trait=weak
+#	trait=chaste
+#	trait=envious
+#	3369.10.15={
+#		birth=yes
+#	}
+#   3385.10.16 = {
+#		add_spouse=x10
+#	}
+#	3386.9.29={
+#		death={ death_reason=death_childbirth }
+#	}
+#}
+#x12 = {
+#	name=Link
+#	historical = yes
+#	father=x10
+#	mother=x11
+#	dna="demab0flab0"
+#	properties="qe0chkbebbbb"
+#	religion=golden_goddesses
+#	culture=hyrulean
+#	trait=bloodline_hero
+#	trait=hero_soul
+#	trait=race_hylian
+#	3386.9.28={
+#		birth=yes
+#	}
+#}
+#x13 = {
+#	name=Talon
+#	historical = yes
+#	dynasty=40
+#	religion=golden_goddesses
+#	culture=hyrulean
+#	trait=midas_touched
+#	trait=race_hylian
+#	trait=robust
+#	trait=slothful
+#	trait=content
+#	trait=drunkard
+#	3345.7.19={
+#		birth=yes
+#	}
+#   3385.3.16 = {
+#		add_spouse=x14
+#	}
+#	3412.1.1={
+#		death=yes
+#	}
+#}
+#x14 = {
+#	name=Lissa
+#	historical = yes
+#	female=yes
+#	religion=golden_goddesses
+#	culture=hyrulean
+#	trait=undearhanded_rogue
+#	trait=race_hylian
+#	trait=shy
+#	trait=trusting
+#	trait=kind
+#	3369.7.19={
+#		birth=yes
+#	}
+#   3385.3.16 = {
+#		add_spouse=x13
+#	}
+#	3403.1.1={
+#		death=yes
+#	}
+#}
+#x15 = {
+#	name=Malon
+#	historical = yes
+#	female=yes
+#	father=x13
+#	mother=x14
+#	religion=golden_goddesses
+#	culture=hyrulean
+#	trait=race_hylian
+#	trait=fair
+#	3384.9.26={
+#		birth=yes
+#	}
+#}
+11 = {
+	name=Onolu
+	historical = yes
+	dynasty=9801
+	religion=demise_religion
+	culture=koridain
+	trait=race_hylian
+	trait=zealot
+	trait=flamboyant_schemer
+	trait=legit_bastard 
+	trait=insane
+	trait=kinslayer
+	3337.6.6={
+		birth=yes
+	}
+	3374.3.16 = {
+	add_spouse = 12 
+	}
+	3386.1.1 = {
+		death={ 
+		death_reason = death_murder
+		killer = 13
+		}
+	}
+}
+12 = {
+	name=Hamsha
+	historical = yes
+	dynasty=9807
+	female=yes
+	religion=demise_religion
+	culture=koridain
+	trait=race_hylian
+	trait=grey_eminence
+	trait=mage_1
+	trait=ugly
+	trait=kind
+	3357.8.13={
+		birth=yes
+	}
+	3374.3.16 = {
+	add_spouse = 11 
+	}
+}
+13 = {
+	name=Dram
+	historical = yes
+	dynasty=9801
+	father=11
+	religion=demise_religion
+	culture=koridain
+	trait=race_hylian
+	trait=zealot
+	trait=flamboyant_schemer
+	trait=legit_bastard 
+	trait=insane
+	trait=kinslayer
+	3368.10.10={
+		birth=yes
+	}
+	3388.1.1={
+		death={ death_reason= death_suicide}
+	}
+}
+14 = {
+	name=Aponak
+	historical = yes
+	dynasty=9801
+	father=11
+	mother=12
+	religion=demise_religion
+	culture=koridain
+	trait=race_hylian
+	3374.12.28={
+		birth=yes
+	}
+}
+#xx = {#6
+#	name=Gavun
+#	historical = yes
+#	dynasty=1003
+#	religion=gerudo_goddess
+#	culture=gerudo
+#	trait=race_gerudo
+#	trait=scarred
+#	trait=warrior_3
+#	trait=kind
+#	trait = ambitious
+#	trait=bow_ice
+#	3357.7.4={
+#		birth=yes
+#	}
+#	3430.10.8={
+#		death={
+#		death_reason=death_ill}
+#	}
+#}
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#

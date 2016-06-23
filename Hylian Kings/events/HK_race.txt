@@ -1,0 +1,375 @@
+namespace = race
+
+character_event = {
+	id = race.0
+	desc = EVTDESCRACE0
+	picture = GFX_evt_lovers
+	hide_window = yes
+	
+	trigger = {
+		NOR = { 
+		trait = race_hylian
+		trait = race_human
+		trait = race_sheikah
+		trait = race_gerudo
+		trait = race_darknut
+		trait = race_wizzrobe
+		trait = race_wind
+		trait = race_lolian
+		trait = race_twili
+		trait = race_garo
+		trait = race_kokiri
+		trait = race_tree_deity
+		trait = race_demon
+		trait = race_tree_demon
+		trait = race_fairy
+		trait = race_zora
+		trait = race_zola
+		trait = race_goron
+		trait = race_subrosian
+		trait = race_lizalfos
+		trait = race_dinolfos
+		trait = race_aerolfos
+		trait = race_tokay
+		trait = race_moblin
+		trait = race_bulblin
+		trait = race_bokoblin
+		trait = race_keaton
+		trait = race_geozard
+		trait = race_yook
+		trait = race_yeti
+		trait = race_watarara
+		trait = race_rito
+		trait = race_zuna
+		trait = race_stulkid
+		trait = race_stalfos
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					graphical_culture = hyliangfx
+					graphical_culture = cobblegfx
+				}
+			}
+			add_trait = race_hylian
+		}
+		if = {
+			limit = {
+				OR = {
+					graphical_culture = hyruleangfx
+					graphical_culture = hohogfx
+				}
+			}
+			add_trait = race_hylian
+		}
+		if = {
+			limit = {
+				OR = {
+					graphical_culture = turkishgfx
+					graphical_culture = koridaingfx
+				}
+			}
+			add_trait = race_hylian
+		}
+		if = {
+			limit = {
+				OR = {
+				graphical_culture = norsegfx
+				graphical_culture = celticgfx
+				}
+			}
+			add_trait = race_human
+		}	
+		if = {
+			limit = {
+				OR = {
+				graphical_culture = ugricgfx
+				graphical_culture = germangfx
+				}
+			}
+			add_trait = race_human
+		}	
+		if = {
+			limit = {
+				OR = {
+				graphical_culture = celticgfx
+				graphical_culture = mesoamericangfx
+				}
+			}
+			add_trait = race_human
+		}	
+		if = {
+			limit = {
+				OR = {
+				graphical_culture = byzantinegfx
+				graphical_culture = southerngfx 
+				}
+			}
+			add_trait = race_human
+		}
+		if = {
+			limit = {
+				graphical_culture = sheikahgfx
+			}
+			add_trait = race_sheikah
+		} 
+		if = {
+			limit = {
+				graphical_culture = gerudogfx
+			}
+			add_trait = race_gerudo
+		} 
+		if = {
+			limit = {
+				graphical_culture = darknutgfx
+			}
+			add_trait = race_darknut
+		}
+		if = {
+			limit = {
+				graphical_culture = windtribegfx
+			}
+			add_trait = race_wind
+		}
+		if = {
+			limit = {
+				graphical_culture = wizzrobegfx
+			}
+			add_trait = race_wizzrobe
+		}
+		if = {
+			limit = {
+				graphical_culture = anoukigfx
+			}
+			add_trait = race_anouki
+		}
+		if = {
+			limit = {
+				OR = {
+					graphical_culture = easternslavicgfx
+					graphical_culture = easterngfx
+				}
+			}
+			add_trait = race_lokomo
+		}
+		if = {
+			limit = {
+				OR = {
+					graphical_culture = southerngorongfx
+					graphical_culture = westerngorongfx
+				}
+			}
+			add_trait = race_goron
+		}
+		if = {
+			limit = {
+				graphical_culture = dmgorongfx
+			}
+			add_trait = race_goron
+		}
+		if = {
+			limit = {
+				graphical_culture = subrosiangfx
+			}
+			add_trait = race_subrosian
+		}
+		if = {
+			limit = {
+				OR = {
+					graphical_culture = zoragfx
+					graphical_culture = seazoragfx
+					}
+			}
+			add_trait = race_race_zora
+		}
+		if = {
+			limit = {
+				graphical_culture = zolagfx
+			}
+			add_trait = race_zola
+		}
+		if = {
+			limit = {
+				graphical_culture = geozardgfx
+			}
+			add_trait = race_geozard
+		}
+		if = {
+			limit = {
+				graphical_culture = ritogfx
+			}
+			add_trait = race_rito
+		}
+		if = {
+			limit = {
+				graphical_culture = watararagfx
+			}
+			add_trait = race_watarara
+		}
+		if = {
+			limit = {
+				graphical_culture = yetigfx
+			}
+			add_trait = race_yeti
+		}
+		if = {
+			limit = {
+				graphical_culture = yookgfx
+			}
+			add_trait = race_yook
+		}
+		if = {
+			limit = {
+				graphical_culture = keatongfx
+			}
+			add_trait = race_keaton
+		}
+		if = {
+			limit = {
+				graphical_culture = dekugfx
+			}
+			add_trait = race_tree_deity
+		}
+		if = {
+			limit = {
+				graphical_culture = greatfairygfx
+			}
+			add_trait = race_fairy
+		}
+		if = {
+			limit = {
+				graphical_culture = bagagfx
+			}
+			add_trait = race_tree_demon
+		}
+		if = {
+			limit = {
+				graphical_culture = demongfx
+			}
+			add_trait = race_demon
+		}
+		if = {
+			limit = {
+				graphical_culture = scrubgfx
+			}
+			add_trait = race_deku
+		}
+		if = {
+			limit = {
+				graphical_culture = kokirigfx
+			}
+			add_trait = race_kokiri
+		}
+		if = {
+			limit = {
+				graphical_culture = zunagfx
+			}
+			add_trait = race_zuna
+		}
+		if = {
+			limit = {
+				graphical_culture = bokogfx
+			}
+			add_trait = race_bokoblin
+		}
+		if = {
+			limit = {
+				graphical_culture = bulgfx
+			}
+			add_trait = race_bulblin
+		}
+		if = {
+			limit = {
+				graphical_culture = moblingfx
+			}
+			add_trait = race_moblin
+		}
+		if = {
+			limit = {
+				graphical_culture = aeralfosgfx
+			}
+			add_trait = race_aerolfos
+		}
+		if = {
+			limit = {
+				graphical_culture = dinolfosgfx
+			}
+			add_trait = race_dinolfos
+		}
+		if = {
+			limit = {
+				graphical_culture = lizalfosgfx
+			}
+			add_trait = race_lizalfos
+		}
+		if = {
+			limit = {
+				graphical_culture = tokaygfx
+			}
+			add_trait = race_tokay
+		}
+		if = {
+			limit = {
+				graphical_culture = stalfosgfx
+			}
+			add_trait = race_stalfos
+		}
+		if = {
+			limit = {
+				graphical_culture = skullkidgfx
+			}
+			add_trait = race_stulkid
+		}
+		if = {
+			limit = {
+				graphical_culture = garogfx
+			}
+			add_trait = race_garo 
+		}
+		if = {
+			limit = {
+				graphical_culture = cursedgfx
+			}
+			add_trait = race_stalfos
+		}
+		if = {
+			limit = {
+				graphical_culture = ikanangfx
+				graphical_culture = westafricangfx
+			}
+			add_trait = race_human
+		}
+		if = {
+			limit = {
+				graphical_culture = loliangfx
+			}
+			add_trait = race_lolian 
+		}
+		if = {
+			limit = {
+				graphical_culture = twiligfx
+			}
+			add_trait = race_twili
+		}
+		if = {
+			limit = {
+				graphical_culture = skyliangfx
+			}
+			add_trait = race_hylian
+		}
+		if = {
+			limit = {
+				graphical_culture = cumangfx
+			}
+			add_trait = race_hylian
+		}
+	}
+	option = { name = OK }
+}

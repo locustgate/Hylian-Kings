@@ -26,13 +26,43 @@ plate_tunic = {
 		speed = -0.02
 	}
 }
+
+#hytopia (Anyone can get...but chances are very high for hytopia)
+fab = {
+	opposites = { drab }
+	
+	diplomacy = 1
+	
+	sex_appeal_opinion = 10
+	same_opinion = 10
+	opposite_opinion = -20
+	
+	monthly_character_prestige = 0.5
+	
+	male_compliment_adj = COMPL_FAB
+	female_compliment_adj = COMPL_FAB
+}
+drab = {
+	opposites = { fab }
+	
+	diplomacy = -1
+	
+	sex_appeal_opinion = -10
+	same_opinion = 10
+	opposite_opinion = -20
+	
+	monthly_character_prestige = -1
+	
+	male_insult_adj = INSULT_DRAB
+	female_insult_adj = INSULT_DRAB
+}
 #gerudo
 ##unwilling
 gerudo_boyfriend = {
 	cannot_inherit = yes
 	cannot_marry = yes
 
-	monthly_character_prestige = -1
+	monthly_character_prestige = -0.5
 	general_oppinion = -30
 	same_trait_oppinion = 30
 }
@@ -54,19 +84,12 @@ loftwing_failed = {
 }
 loftwing_knight = {
 	martial = 3
-	monthly_character_prestige = 1
+	monthly_character_prestige = 0.5
 	command_modifier = {
 		morale_defence = 0.04
 		speed = 0.03
 	}
 }
-#darknut
-darknut_armor = {
-	martial = 3
-	command_modifier = {
-		defence =0.04
-		morale_defence = 0.04
-		speed = -0.04
-	}
-}
+
+
 

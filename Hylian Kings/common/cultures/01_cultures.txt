@@ -38,7 +38,6 @@ hylian_group = {
 	}
 	ho_ho = {
 		graphical_cultures = { hohogfx hyliangfx }
-		graphical_unit_culture = ugricgfx 
 
 		parent = skylofter
 
@@ -279,9 +278,9 @@ Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
 	}
 }
 round_eared = {
-	graphical_cultures = { englishgfx }
+	graphical_cultures = { germangfx }
 	ordonion = {
-		graphical_cultures = { norsegfx englishgfx }
+		graphical_cultures = { norsegfx germangfx }
 		
 		parent = hyrulean
 
@@ -301,7 +300,7 @@ round_eared = {
 		modifier = default_culture_modifier
 	}
 	horon = {
-		graphical_cultures = { englishgfx englishgfx }
+		graphical_cultures = { germangfx }
 		
 		color = { 0 0 0.5 }
 		
@@ -332,7 +331,7 @@ round_eared = {
 		modifier = default_culture_modifier
 	} 
 	labrynnan = {#irish
-		graphical_cultures = { celticgfx englishgfx } 
+		graphical_cultures = { celticgfx germangfx } 
 
 		
 		color = { 0.1 0.1 0.44 }
@@ -362,7 +361,7 @@ round_eared = {
 		modifier = default_culture_modifier
 	}
 	port_towner = {
-		graphical_cultures = { celticgfx englishgfx } 
+		graphical_cultures = { celticgfx germangfx } 
 
 		parent = labrynnan
 		
@@ -393,7 +392,7 @@ round_eared = {
 	}
 
 	frozen_isle = {
-		graphical_cultures = { mesoamericangfx englishgfx } 
+		graphical_cultures = { mesoamericangfx germangfx } 
 
 		parent = ho_ho
 
@@ -414,7 +413,7 @@ round_eared = {
 		seafarer = yes
 	}
 	kasuton = {
-		graphical_cultures = { ugricgfx englishgfx } 
+		graphical_cultures = { ugricgfx germangfx } 
 
 		color = { 0.69 0.13 0.13 }
 
@@ -425,7 +424,7 @@ round_eared = {
 		Annika Jennifer Jessica Maria Lahja Tulika Sylvia Anastasia Michelle Bernedine Teddie Wiltrud Shaneace Lidia Albertine Sarita Revony Toini Martha Rebecca Selma Tahakhiro Yasmine Ashley Hilma Jolida Albena Ana Angel Anka Bozhidara Dara Bozhi Branimira Boyana Desislava Diana Donka Ektrina Eleonora Elisaveta Emiliya Eva Evangeliya Evdokiya Gabriela Galena Galina Grozda Hristina Iliana Ilina Iona Irina Kalina Katerina Klavdya Magdalena Magdalina Malina Margarita Marina Mira Nadejda Nadia Ognyana Olga Paraskeva Petya Polina Rada Radka Radoslava Rosa Rosica Rositsa Roza Rumena Ruzha Silva Silviya Simona Sofiya Stanislava Stanka Stoyanka Svetlana Tatiana Teodora Tereza Todorka Tsveta Venera Vaska Veronika Viktoriya Violeta Yana Yoana Yuliana
 
 		}		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "ot "
 		male_patronym = "ov"
 		female_patronym = "ova"
 		prefix = no
@@ -433,7 +432,7 @@ round_eared = {
 		modifier = default_culture_modifier
 	}
 	sarian = {
-		graphical_cultures = { byzantinegfx englishgfx } 
+		graphical_cultures = { byzantinegfx germangfx } 
 
 		color = { 0.53 0.81 0.98 }
 
@@ -451,7 +450,7 @@ round_eared = {
 		modifier = default_culture_modifier
 	}
 	eldin = { 
-		graphical_cultures = { mesoamericangfx englishgfx } #AZTEC 
+		graphical_cultures = { mesoamericangfx germangfx } #AZTEC 
 		
 		#parent = dark_interloper
 		
@@ -472,7 +471,7 @@ round_eared = {
 	}
 
 	kakarikon = {
-		graphical_cultures = { kakarikongfx } 
+		graphical_cultures = { southerngfx germangfx } 
 
 		used_for_random = no 
 
@@ -494,7 +493,7 @@ round_eared = {
 	}
 		
 	arcadian = {
-		graphical_cultures = { englishgfx } 
+		graphical_cultures = { germangfx } 
 
 		color = { 1 0.84 0 }
 
@@ -505,18 +504,26 @@ round_eared = {
 		Adelaide Adele Agnes Aimee Alex Barbara Beatrice Benedicte Berengere Berthe Brigitte Camille Cassandra Catherine Chloe Clemence Delia Denise Domitille Dorothee Edith Elise Elodie Elvire Emilie Emma Fifi Flavie Fleur Fleurette Flore Francine Gervaise Germaine Genevieve Gilberte Gisele Heloise Hortense Huguette Hyacinthe Herma Irene Iris Isaure Isabelle Jacinthe Jacqueline Jacquette Jessica Joanne Julienne Juliette Katarin Katell Laetitia Laure Lea Leonide Lise Luce Lydie Mahaut Mailys Marceline Margaux Mari Meline Muriel Murielle Natalie Nina Noele Noelle Oanez Oceane Odette Odile Olympe Paule Paulette Petronile Pierrette Rachel Raphaelle Renee Rolande Romane Sandra Sarah Sidonie Simone Solange Toinette Valentine Valerie Verene Victoire Viviane Yannic
 		}
 		from_dynasty_prefix = "de "
-
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+		
 		modifier = default_culture_modifier
-
 	}
 
 	koholinter = {
-		graphical_cultures = { englishgfx } 
+		graphical_cultures = { germangfx } 
 		
 		color = { 0.68 0.85 0.87 }
 		
 		male_names = {
-			Richard Tarin Papahl Edouard errard Etienne Adalbert Ademar Adrien Aimery Alain Aldebert Alderic Alphonse Amalric Amedee Ancel Andre Angelbert Antoine Archambaud Arnaud Arnault Arnoul Aubry Aymar Bartolomeus	Baudouin Benoit Berengar Bernard Bertrand Bohemond Boson Bouchard Centule Charles Ebbon Enguerrand Eudes Eustache Evrard Foulques Francis Frederick Gerald Gargamel Gaucher Gaucelin Gauthier Abner Alvin Blake Brook Cayden Chile Colbert Dane Dudley Esme Ethan Felix Forest Gabe Galahad Gordon Hank Howard Issac Ivan Jace JoJo Kendal Kyle Larid Lake Malcom Mo Norbert Nikolas Orville Osborn Pip Presley Ralph Ramsey Quinton Quin Sebastian Sanford Theobald Titus Ulysses Upton Val Vere Wilbur Whitaker Zak Zavier
+			Richard Tarin Papahl Edouard Errard Etienne Adalbert Ademar Adrien Aimery Alain Aldebert Alderic Alphonse Amalric Amedee Ancel Andre Angelbert Antoine Archambaud Arnaud Arnault Arnoul Aubry Aymar Bartolomeus	Baudouin Benoit Berengar Bernard Bertrand Bohemond Boson Bouchard Centule Charles Ebbon Enguerrand Eudes Eustache Evrard Foulques Francis Frederick Gerald Gargamel Gaucher Gaucelin Gauthier Abner Alvin Blake Brook Cayden Chile Colbert Dane Dudley Esme Ethan Felix Forest Gabe Galahad Gordon Hank Howard Issac Ivan Jace JoJo Kendal Kyle Larid Lake Malcom Mo Norbert Nikolas Orville Osborn Pip Presley Ralph Ramsey Quinton Quin Sebastian Sanford Theobald Titus Ulysses Upton Val Vere Wilbur Whitaker Zak Zavier
 	 	}
 		female_names = {
 			Marin Martha Tracy Belleassez Benoite Berengere Berthe Blanche Bonne Bourgogne Bourguigne Cecile Catherine Charlotte Constance Denise Douce Echive Eglantine Elisabeth Emma Ermengarde Ermessinde Esclarmonde Euphrosine Eustachie Eva Gerberge Gisela Guillaumette Heloise Helvis Hodierne Ide_Ida Ida Ileegarde Isabeau_Elisabeth Isabelle Joan Judith Juliana Mafalda Mahaut Margot Margaret Maria Martha Mascarosa Matilda Melisende Melusine Abbi Addy Babs Brenda Chantel Celia Dellia Deitra Elea Elfreda Flora Fiona Greer Gussie Hatty Iris Iona Jayme Juniper Kacie Kimmie Laurel Lexi Margo Meadow Nia Nevaeh Opal Ora Patsy Patricia Queen Quintella Rae Rena Savannah Shana Tabby Tonia Violet Vikki Wilda Wendi Yazmin Xaviera Yolonda Yvette Zaria
@@ -544,7 +551,7 @@ round_eared = {
 
 	}
 	gravel = {
-		graphical_cultures = { africangfx englishgfx }
+		graphical_cultures = { africangfx germangfx }
  
 		parent = cobble
 		
@@ -556,12 +563,13 @@ round_eared = {
 		female_names = {
 		Joanne Jolene Adeodata Alexiana Amadea Auxilia Amantia Caritas Carminia Chionia Domna Donatia Donatilla Dulcina Emerentia Emerita Exuperia Fabriciana Filumena Floria Gentiana Hadria Lucidia Lysia Macrina Maesa Liliosa Lucidia Maesa Maurina Nonia Opellia Orbiana Pacifica Plautilla Poma Prima Pudentia Sabbatia Sanctia Seraphia Servanda Sixta Tertia Venantia Veridia Verina Zephyrina Virgilia Vincentia Abigail Ada Adela Adele Agatha Alanna Alexa Angel Aston Bea Bekki Berenice Bernetta Bethany Biddy Blythe Bobbi Brianna Brook Caitlyn Cam Candis Caprice Carly Cary Ceder Cecily Charla Cher Cori Danni Darby Deena Deirdre Dell Detta Eileen Ella Ellie Emely Faye Florrie Freida Georgia Gladys Gretta Hadley Harriet Hattie Ilean
 		}
-		dukes_called_kings = no
-				
+		founder_named_dynasties = yes
+		dukes_called_kings = yes
+
 		modifier = default_culture_modifier
 	}
 	yamatamian = {
-		graphical_cultures = { africangfx englishgfx } 
+		graphical_cultures = { westafricangfx germangfx } 
 		
 		parent = gravel
 		
@@ -572,28 +580,38 @@ round_eared = {
 	 	}
 		female_names = {
 			Mamba Fox Addra Niki Asp Boa Boiga Boiga Cat Coran Collett Garter Glossy Okina Sakishima Tokara Harlequin Ikeheka Lora Ora Mamushi Mussurana Woma Stiletto Polonga Zecora Fea Yarara Fossa Doe Lioness Serval Oribi Gazelle Quagga Lechwe Coua Petrel Dove Lates Tilapias Dichistii Dae Anaban Tidae Paracha Croilia Arridae Ancha Amphili Clari Claro Mala Perui Mochoki Gala Aploch Poecil Tana Kia Vipera Proa Grayia Typhlops Dura Pris Lacerta Chirindia Dia Zyga Syna Cycla Mouse Cane Lovebird Stork Marabous Sandgrous Corac Coraci Phasia Barbet Picult Honey Herrier Melierax Trogon Raven Cola Finch Quelea Nesomydae Dolphin Leopard Hyena Cheetah Cheetara Impala Dibatag Bonobo
-		}		
-		dukes_called_kings = no
-		
+		}				
 		founder_named_dynasties = yes
 				
 		modifier = default_culture_modifier
 
 	}
 	hytopian = {
-		graphical_cultures = { frankishgfx englishgfx }
+		graphical_cultures = { frankishgfx germangfx }
 		
 		color = { .9 0 .9}
 		
-		male_names = {
+		male_names = {#italian
 			Tuft Curlking Tripin Boccolone Adamao Adriano Agapito Alcide Alberto Ampelio Angelino Battista Benedetto Benito Biagio Bruno Cecilio Celeste Celino Ciriaco Ciro Costanzo Crescenzo Demetrio Dino Diodato Edmondo Efisio Eliseo Elmo Elpidio Emidio Ercole Ermanno Ezio Fabio Fabrizio Fausto Filippo Fredo Fulgenzio Germano Gian Giampiero Giorgio Giovanni Leonardo Gualtiero Isidoro Italo Jacopop Ladislao Lapo Lauro Lazzaro Lino Leonida Leonzio Luca Luciano Lucilio Manuel Manfredo Mariano Massimo Natale Natanaele Nico Nicodemo Nicola Orazio Orfeo Orlando Ovidio Palmiro Pancrazio Panfilo Pietro Pino Pio Raffaello Raniero Raoul Raul Rocco Rufino Ruggero Sabino Santo Savino Saturnino Sesto Settimio Severiano Sisto Stefano Tacito Terenzio Timoteo Tore
 		}
 		female_names = {
-			Styla Maude Frill Mimi Cursilinda Fonzolina Degala Nonstille Adele Adelina Adriana Albina ALda Alfreda Alex Amanda Amaranta Angelica Andreina Annetta Beatrice Benigna Berenice Bice Brigida Carla Carmela Carmen Cecillia Caterina Chiara Cinzia Clelia Cloe Dafne Crocetta Daria Debora Delfina Domitilla Donata Elena Elda Edvige Elettra Eliana Elisabetta Felicita Fernanda Fiammetta Flora Franca Fulvia Gaia Germana Gessica Gia Gilda Gina Ilda Ileana Imelda Ines Iolanda Isotta Jolanda Lara Laura Lia Lisa Livia Loretta Ludovica Maria Mariangela Marisa Marta Michela Mirella Monica Nadia Nerina Nicoletta Nina Nunzia Ofelia Orsola Osanna Perla Pia Romana Romilda Rubina Sandra Samuela Scilla Sebastiana Selvaggia Tamara Tina
+			Styla Maude Frill Mimi Cursilinda Fonzolina Degala Nonstille Adele Adelina Adriana Albina Alda Alfreda Alex Amanda Amaranta Angelica Andreina Annetta Beatrice Benigna Berenice Bice Brigida Carla Carmela Carmen Cecillia Caterina Chiara Cinzia Clelia Cloe Dafne Crocetta Daria Debora Delfina Domitilla Donata Elena Elda Edvige Elettra Eliana Elisabetta Felicita Fernanda Fiammetta Flora Franca Fulvia Gaia Germana Gessica Gia Gilda Gina Ilda Ileana Imelda Ines Iolanda Isotta Jolanda Lara Laura Lia Lisa Livia Loretta Ludovica Maria Mariangela Marisa Marta Michela Mirella Monica Nadia Nerina Nicoletta Nina Nunzia Ofelia Orsola Osanna Perla Pia Romana Romilda Rubina Sandra Samuela Scilla Sebastiana Selvaggia Tamara Tina
  		}
+		from_dynasty_prefix = "di "
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	tolemac = {
-		graphical_cultures = { englishgfx }
+		graphical_cultures = { celticgfx germangfx }
 		
 
 		color = { 0 0.39 0}
@@ -605,23 +623,53 @@ round_eared = {
 		female_names = {
 		Shurmak Glebb Yvonne Lall Yvaurop Garem Lirra Farra Golda Solda Senne Germe Larra Gorre Krobb Krerra Yvep Latha Wansa Iarra Shall Yvonnarre Erre Wanse Wabb Glalda Werebb Shast Sharre Linnac Glest Liribb Wansup WEthast Yverop Krabb Ennam Seldall Senna Forre Yvobb Warma Lerar Ethop Lill Yvall Lerill Gaup Sinnak Ermip Sarac Sill Lora Warebb Shok Wam Krem Serra Garma Lorop Sall Werra Yvabb Ethall Lunnerrre Silde Gerar Worre Worill Sabb Yvirre Sennap Yvom Ethak Sarre Gloric Yvac Shost Saldast Sak Fara Yvor Iara Lolde Shek Shist Fuspara Seror Glolda Sinsa Eldill Sennep Gorra Sirre Etha Lirum Glerra Sennar Lilda Lurast 
 		}		
-		dukes_called_kings = no
-				
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "ap "
+		female_patronym = "ferch "
+		prefix = yes
+
 		modifier = default_culture_modifier
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
 	}
 	morian = {
-		graphical_cultures = { englishgfx }
+		graphical_cultures = { germangfx }
 		color = { 0.4 0 0 }
 
 		male_names = {
-			Charles Abel Achille Aubin Arthur Baptiste  Bertrand Blaise Brice Calixte Corentine Clovis Cyril David Dorian Donat Dominique Edgar  Eustache Evrard Fabien Fernand Fiacre Flavien Gael Gaubert Geoffroy Gervis Gilbert Godefroy Gregoire Henri Hector Herve Ignace Irenee Isidore Jacques Joachim Jodoc Joseph Juste Justin Leo Leon Leonceluc Lucien Marc Marin Michel Moise Noel Norbert Paul Per Perig Pharamond Philippe Prosper Quentin Rainer Remy Renard Renaud Reynaud Robert Romain Roparazh Rosaire Samson Samuel Sebastien Simon Sixte Sylvain Theirn Theo Thierry Thomas Tristan Ulrich Ulysse Urbain Valentin Valere Valerian Vespasien Victor Vivien Winoc Xavier Yanick Yann Yannic Yezekael Yves Yvon Zacharie
+		Charles Accolon Aglovale Agravain Amr Andred Aurelius Ban Balan Balin Bedivere Bors Breunor Brutus Cador Calogrenant Caradoc Catigern Cerdic Claudas Claudin Culhwch Cynric Dagonet Daniel Dinadan Durnure Ector Edern Ellwlod Epinogres Erec Esclabor Esclados Feirefiz Gaheris Galahad Galehault Galeschin Gareth Gawain Geraint Gingalain Gorlois Gornemant Guiron Griflet Hector Hengest Uther Hoel Horsa Joseph Josephus Kay Kahedin Lamorak Lancelot Lanval Ywain Leodegrance Lionel Lohengrin Loholt Loth Lucan Mabon Madoc Maleagant Mark Meirchion Melehan Meliodas Menw Merlin Mordred Morholt Morien Oberon Owain Peleleas Pellinore Percival Rience Safir Sagramore Segwarides Taliesin Tom Tor Tristan Urien Vortigern Vortimer Ywain Valentin Valere Valerian Vespasien Victor
 		}
 		female_names = {
-		Adele Agnes Aimee Albine Alexandra Amelie Anais Andree Angelique Arielle Arlette Berenice Benoite Blandine Brigitte Candide Capucine Carine Carole Caroline Catherine Cecile Celeste Chloe Claire Cyrielle Cyrille Daniele Dianne Dieudonnee Doriane Dorothee Edith Edmee Edwige Eleonore Elodie Elvire Estelle Esther Eugenie Eveline Fanny Felicie Felicite Fernande Florette Floriane Florine Francoise Frederique Gabrielle Genevieve Georgette Giselle Guenievre Heloise Helene Hermine Honorine Huguette Hyacinthe Ines Iris Isaure Jacinthe Jade Jeanette Jocelyn Joelle Johanne Josee Lara Laure Katell Leonie Lili Lise Livie Loane Lucie Lucile Magalie Maeva Marceline Margaux Marie Meline Melissa Nolwenn Noemie Oanez Odile Odette Pascale Paule Pauline Prune Rachel
+		Brangain Caelia Dindrane Elaine Elyan Enide Evaine Guinevere Guinevak Igraine Iseult Nimue Laudine Lunete Lynette Lyonesse Modron Morgan Morgaus Morvydd Olwen Orgeluse Parcenet Catherine Cecile Celeste Chloe Claire Cyrielle Cyrille Daniele Dianne Dieudonnee Doriane Dorothee Edith Edmee Edwige Eleonore Elodie Elvire Estelle Esther Eugenie Eveline Fanny Felicie Felicite Fernande Florette Floriane Florine Francoise Frederique Gabrielle Genevieve Georgette Giselle Guenievre Heloise Helene Hermine Honorine Huguette Hyacinthe Ines Iris Isaure Jacinthe Jade Jeanette Jocelyn Joelle Johanne Josee Lara Laure Katell Leonie Lili Lise Livie Loane Lucie Lucile Magalie Maeva Marceline Margaux Marie Meline Melissa Nolwenn Noemie Oanez Odile Odette Pascale Paule Pauline
 		}
+		from_dynasty_prefix = "le "
+		male_patronym = "ap "
+		female_patronym = "ferch "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
 	}
-	xing = {
-		graphical_cultures = { mongolgfx englishgfx }
+	hanman = {
+		graphical_cultures = { mongolgfx germangfx }
 		color = { 0 0.4 0 }
 
 		male_names = {
@@ -630,9 +678,12 @@ round_eared = {
 		female_names = {
 		Sing Dao Manilay Puelli Vanida Ailani Iokina Havika Halia Keala Keanu Kealli Paku Ioda Kakia Kalia Hani Healli Maka Vilinao Hanao Deani Daku Iola Kavadi Malli Hina Kueni Pilu Sinao Peaka Danay Aika Hilay Dani Sanu Dikia Kila Mueka Vani Sinaka Kilu Deaka Kinao Hika Ionao Kani Havao Peani Makay Mavao Meadi Ainao Halla Danilu Veaka Vava Kavao Aili Keaka Mini Sanao Muedi Vanadi Sili Davao Heaka Hana Kika Mana Huedi Paka Haninu Aila Keadi Hilia Hinana Dinini Halani Makalay Sika Keana Kini Hikani Padi Heana Dini Vinaka Sillani Hineani Dilay Hala Heani Veana Malao Kadina Vueni Hadiva Kanala Hallana
 		}
+		
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
 	}
 	gem_lander = {
-		graphical_cultures = { southindiangfx indiangfx englishgfx }
+		graphical_cultures = { southindiangfx indiangfx germangfx }
 		color = { 0.45 0.0 0.0 }
 
 		male_names = {
@@ -641,9 +692,22 @@ round_eared = {
 		female_names = {
 		Gauri Uma Devi Ammavaru Aranyaniis Devi Durga Bhadrakali Shakti Radha Parvati Saraswati Lakshmi Priyanka Ammati Padhi Sha Priyari Geri Atara Geviyareri Parati Ganyami Lataravi Lati Hbava Dadhi Dari Demmali Riiveli Larvalari Bharu Bheta Saru Prarargi Dali Paki Panas Ulas Araka Parga Utari Bhavi Bhata Bheva Laudhata Sammi Dargavi Gargi Rari Rargi Dauti Dakargi Aktammu Bhergi Ganki Gunya Liili Lurgi Bhavuvu Samammi Lavaru Ameswi Aktani Saravi Aktaswi Bhara Largi Atali Arevali Pali Akti Gata Dammu Guli Urani Ravi Deli Dedhari Pauvi Uri Aruvi Largammu Bhiilaranka Bhavami Sharala Devuli Praki Gauvi Bhavari Gankarvi Bhavama Atari Bhatar Dargi Satali Bhiikes Bhali Dani Pargi
 		}
+
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
 	}
 	falsian = {#italine names
-		graphical_cultures = { italiangfx southerngfx englishgfx }
+		graphical_cultures = { italiangfx southerngfx germangfx }
 		
 				color = { 0.4 1 0.4 }
 
@@ -653,6 +717,20 @@ round_eared = {
 		female_names = {
 		Ada Adele Agata Agnese Alba Amedea Ambra Annette Antonella Arianna Azzurra Beatrice Benedetta Bice Brigida Bruna Brunella Carlotta Carmela Carmina Carola Cinzia Clara Claretta Cloe Clio Concetta Crocetta Crocifissa Dafne Damiana Dania Daniella Delia Diana Dina Edda Elda Elena Elettra Emilia Elsa Ersilia Eugenia Federica Fiorenza Flavia Flora Fulvia Gaetana Gaia Geltrude Gemma Genoveffa Gerarda Gina Gioia Gisella Giuditta Giuiana Giuseppa Ida Ilaria Ileana Irene Ines Irma Jessica Jolandalia Leonora Letizia Lia Liana Lidia Liliana Lora Lorena Loreta Luisa Mafalda Marietta Marina Marta Maristella Mimi Mirella Nella Nives Noemi Nora Norma Nunzia Ofelia Olimia Olivia Oria Orsina Paola Perla Pia
 		}
+		
+		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		disinherit_from_blinding = yes
 	}
 }
 lost_tribe = {
@@ -951,7 +1029,10 @@ goron_group = {
 		female_names = {
 			Rigoron Kargoron Karigoron Karagoron Kiro Roragon Raroggo Rarugo Korirogo Zarongon Kikgoringon Rangon Kororon Zogorgon Bogiggo Korogon Kogogon Kogorogo Arirn Birogin Zigogin Zoroggoron Moroggo Dikgin Kikgoron Arorgon Roririn Rirogogin Zogoron Garoran Aogarorin Kiroran Rororon Borokging Gikgoron Boroin Kogongoron Rorogoron Rogoran Boggoron Kangoron Kogagin Riringon Ririgo Raririn Rorogin Rongoran Kogon Zogin Zikgoron Zorgoron Ziriron Riraron Birogon Kogirion Dokgogo Karin Koggon Kogigon Garigon Mogogin Rirugon Zogoggo Arororin Arokgor Zorirgin Korogin Zogaron Zogon Roggiron Koroggon Roggin Mogogo Zororokgon Roggoran Rongon Zogigin Koguron Borargan Rororan Kugogoron Mururon Rorin Kogaron Riroro Gogaron Bororon Karogon Aoron Garon Agagon Digin Zorogoron Rorangoron Zirakgon Dorogon Rogorin Boron
 		}
-			modifier = default_culture_modifier
+		
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
 	}
 	goro_goron = {
 		graphical_cultures = { westerngorongfx }
@@ -963,14 +1044,16 @@ goron_group = {
 		female_names = {
 		Ragoron Kulgoron Kulagoron Kulugoron Kala Ralugoron Rugoron Rulika Kalalaka Zulavgoron Kakgorongoron Ruvgoron Kalalav Zakalgoron Bakakka Kagoron Kakagoron Kakalaka Alalv Bagoron Zakagoron Zalakgoron Magoron Dakgoron Kakgoron Alalgoron Ralalav Ralakagoron Zagoron Gulaluv Aakulalav Kalaluv Ralalav Bagoronvk Gakgoron Balaav Kagorongoron Ralagoron Rakaluv Bakgoron Kuvgoron Kakugoron Ralavgoron Ralaka Rulalav Ragoron Ravkaluv Kagoron Zagoron Zakgoron Zalgoron Zalalav Ralulav Bagoron Kakalaav Dakkaka Kulav Kakgoron Kakagoron Gugoron Makagoron Raligoron Zakakka Alalalav Agoronl Zalalgoron Kagoron Zakulav Zagoron Rakgoron Kagoronv Rakgoron Makaka Zalagoronv Rakkaluv Ravgoron Zakagoron Kakilav Balulkuv Ralaluv Kikagoron Mililav Ralav Kakulav Ralala Gakulav Balalav Kugoron Aalav Gulav Akugoron Dagoron Zalagoron Raluvgoron Zalukgoron Dagoron Ragoron Balav
 		}
-			modifier = default_culture_modifier
+		
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
 	}
 	rolling_goron = {
 
 		graphical_cultures = { southerngorongfx } 
 		
 		color = { 0.85 0.655 0.13 }
-		
 		
 		male_names = {
 			Darunia Darmani Darbus Amoto Coron Ebizo Liggs Gongoron Kagoron Golo Gortram Gorko Goht Longi Agingi Gotom Gugan Korkom Enomon Gungi Erkizo Erarbom Kuti Caggs Dogom Liroman Duno Garan Gamom Kars Gomoht Darom Loron Lungo Dono Arom Engomi Carmolo Caran Gumos Goggs Koro Cago Cangan Gabos Durkom Gorozos Langi Gotia Cirom Gubos Carmoro Galano Catam Gongon Dormi Carom Catan Cararo Gotobo Kongi Caroht Colom Curmi Garkan Culati Gos Gago Gonono Daran Gagan Durmo Dogam Darkongos Galobos Gologalia Dorozingi Arbono Kingi Garbo Canogo Dozon Karmo Canom Kigos Aningi Gozo Gano Lanom Amoniri Dunaros Konoros Dazos Dungi Diro Doron Gogonom Guman Azotom Eros
@@ -996,6 +1079,9 @@ goron_group = {
 		female_names = {
 		Rosa Meret Hathor Bastet Erzulie Delai Nuwa Saraswati Ame Uzume Mikoto Benzaiten Ninlil Maria Arubani Brigin Menvra Athena Izanami Matarisvan Sethlans Gaia Mnemosyne Tethys Theia Phoebe Rhea Themis Selene Eos Nyx Gaea Hecate Macaria Melinoe Harlow Lorelei Oneida Rochelle Sela Cybele Gemma Itziar Jade Peninnah Pinja Chau Lin Ngoc Kim Ayaka Blejan Blodeuyn Blodwen Bluma Bopha Calanthe Chika Cvetka Diantha Endzela Euanthe Fioralba Fleur Flora Florinda Gol Golnar Golnaz Gul Hajnalka Hana Hanae Hanako Haruka Hoa Honoka Kasumi Kapua Kanon Ione Ianthe Hua Lei Lehua Leilani Leimoni Lule Luljeta Malai Mali Margarida Margarita Melati Melantha Narges Ornella Pa Patigul Pua
 		}
+		
+		founder_named_dynasties = yes
+
 		modifier = default_culture_modifier
 	}
 }
@@ -1106,7 +1192,7 @@ aquatic_group = {
 		seafarer = yes
 	}
 }
-semi_human_group = {
+avian_group = {
 	rito = {
 		graphical_cultures = { ritogfx } 
 		parent = lake_zora
@@ -1148,6 +1234,8 @@ semi_human_group = {
 		}
 		modifier = default_culture_modifier
 	}
+}
+mammalian_group = {
 	yeti = {
 	
 		graphical_cultures = { yetigfx } 
@@ -1164,6 +1252,40 @@ semi_human_group = {
 		dukes_called_kings = no
 		founder_named_dynasties = yes 
 				
+		modifier = default_culture_modifier
+	}
+	yook = {
+		graphical_cultures = { yookgfx }
+		parent = demon
+	
+		color = { 0.8 1 1 }
+		horde = yes 
+		
+		male_names = {
+		Yoka Yaetl Yaed Yaex Yae Yaeba Yitl Yaet Yatl Yik Yors Yibaex Yibaek Yitl Yaeka Yob Yitl Yaekid Youtl Yobaex Yakit Yid Yib Yaetla Yaekaex Yaebaek Yaek Yod Yotla Yabit Yikid Yaek Yix Yaebax Yatla Yaers Yabaex Yabaek Yokot Yoka Yox Yibaet Yikat Yitlaex Yokid Yax Yitloba Yaebik Yars Yokox Yobaed Yaebaed Yikaed Yikaebaet Yaebat Yotl Yobit Yobid Yaebit Yakok Yirs Yaekaed Yakot Yaekax Yaekox Yikix Yaekaka Yit Yaekad Yaebid Yibid Yibix Yaekok Yaekik Yobod Yibid Yikax Yot Yakix Yaebad Yokaed Yikad Yaekaet Yikik Yibot Yikaex Yakak Yobot Yobax
+		}
+		female_names = {
+		Yokae Yitlae Yib'kae Yitl Yitae Yaeae Yaerkae Yaek Yotlae Yibae Yikae Yaetlae Yob Yobob Yitae Yaetlaeb Yaet Yaekae Yirkae Yirtl Yirkae Y'k Yaebae Yaekaeae Yaetae Y'b Yitlae Yib Yotae Yaek Y'tlae Yikaeae Yirk Yorkae Yaerkae Y'kaeae Yobae Yobaekae Yokaeae Y'tl Yaetl Yit Yotl Yitaeae Yibaet Yot Y'rkae Yaerk Yaeb Yik Y'k Y'tae Y'bae Y'taeae Y't Yotaeae Yobaeae Yotaek York Yaeae Yaetlaeae Y'k'kae Yaekitae Yotaekae Yikaekae Yaetaeae Yitlaeae Yokitae Yit'b Y'kaekae Yitib Yokorkae Yit'bae Yobitl Yaekit Y'kaet Yokaebae Yit'k Yokibae Yaetaekae Yot'kae Yitit Yotok Yokob Yit'kae Yitobae Y'kikae Yobitae Yaekaekae Yok'kae Yitlitae Yikob Y'kibae Yitok Yikot Yitaet Yitibae Yikikae Yaetikae Yokokae
+		}
+		allow_looting = yes
+		founder_named_dynasties = yes
+		modifier = default_culture_modifier		
+	}	
+	keaton = {
+		graphical_cultures = { keatongfx } # mc keaton
+		parent = demon
+
+		color = { 0.88 1 1 }
+		horde = yes 
+		
+		male_names = {
+		Akio Akira Aoi Arata Ayumu Daichi Daiki Daisuke Goro Gorou Hachiro Haru Haruki Haruto Hayate Hayato Hibiki Hideaki Hideyoshi Hikaru Hiroshi Hiroto Hotaka Ichiro Ichirou Isamu Itsuki Jiro Jirou Juro Jurou Kaede Kaito Kaoru Katashi Katsu Kazuo Kenji Kenshin Kenta Kichiro Kiyorshi Kohaku Kuro Kyo Makoto Masaru Michi Minato Naoki Naomi Noboru Nobu Nori Osamu Ren Riku Rikuto Rokurou Ryota Ryou Ryouichi Ryouta Ryuu Saburo Shichiro Shin Shinobu Shiori Shiro Sho Shouta Shun Sora Sota Souma Susumu Taichi Taiki Takahiro Takashi Takeshi Takuma Taro Tsubasa Yamato Yasu Yori Yoshi Yoshiro Youta Yuki Yuudai Yuuma Yuuta 
+		}
+		female_names = {
+		Kuzunoha Inari Mae Ai Aiko Aimi Aina Airi Akane Akemi Aki Akiko Akira Ami Aoi Asuka Atsuko Aya Ayaka Ayako Ayame Ayane Ayano Chika Chikako Chinatsu Chiyo Chiyoko Cho Chou Chouko Emi Etsuko Hana Hanae Hanako Haru Haruka Haruna Hikari Hikaru Hina Hinata Hiroko Hitomi Honoka Hoshi Hoshiko Hotaru Izumi Junko Kaede Kanon Kaori Kaoru Kasumi Kazue Kazuko Keiko Kiku Kimiko Kiyoko Kohaku Koharu Kokoro Kotone Kumiko Kyo Mai Makoto Mami Manami Mao Mariko Masami Masuyo Mayu Megumi Mei Michi Michiko Midori Mika Miki Miku Minako Mio Misaki Mitsuko Miu Miyako Miyu Mizuki Moe Momoka Moriko Nana Nanami Naomi Natsuko
+		}
+		allow_looting = yes
+		founder_named_dynasties = yes
 		modifier = default_culture_modifier
 	}
 }
@@ -1187,10 +1309,32 @@ fae = {
 		
 		modifier = default_culture_modifier
 	}
+	great_fairy = {
+		graphical_cultures = { greatfairygfx }  
+
+		used_for_random = no 
+
+		color = { 1 0.75 0.8 }
+		
+		
+		male_names = { 
+		Tael Leaf Aeneas Amulius Aries Consus Cupid Evander Evandrus Faunus Gemini Hercules Ianus Iovis Italus Iuppiter Janus Jove Jupiter Liber Mars Mercury Neptune Neptunus Numitor Pluto Pollux Quirinus Remus Romulus Saturn Saturnus Silvanus Silvius Summanus Tatius Terminus Ulysses Vulcan Alecjo Aleksandro Ancjo Antono Jocjo Johano Jozefo Koralo Lucjo Ludoviko Micjo Mihaelo Mikelo Nicjo Nikolao Rapcjo Paulo Petro Vilcjo Vilhelmo Achilles Achilleus Adonis Adrastos Aeolus Aeson Agamemnon Aias Aineias Aiolos Ajax Alexander Alexandros Apollo Apollon Ares Argus Aristaeus Aristodemos Asklepios Atlas Brontes Bacchus Castor Cephalus Cepheus Cerberus Charon Chryses Coeus Crius Cronus Daedalus Damocles Damon Dardanos Deimos Diomedes Dionysos Epimetheus Erebus
+		}
+		female_names = {
+		Venus Navi Tatl Fi Ciela Neri Yume Nieve Melvina Nuria Rill Lucia Una Tiamara Proxi Miff Spryte Felicia Epheremelda Angerona Aurora Bellona Camilla Cardea Ceres Concordia Diana Dido Elissa Fauna Felicitas Flora Hersilia Iuno Juno Juturna Juventas Lara Larunda Lavinia Libitina Luvinia Lucretia Luna Maia Minerva Naenia Nona Pax Pomona Proserpina Proserpine Rhea Salacia Silvia Vesta Victoria Adorinda Amika Aminda ABrava Dezirinda Esperanta Fajra Fiera Gaja Glorinda Juvela Kandaja Karesinda Katida Luksa Maraja Merita Miela Mirinda Orabela Pipra Rava Rozabela Rubena Safira Sprita Stelara Tondra Valora Venka Vespera Acantha Adrasteia Aegle Aella Agau Aglae Aglaia Aigle Akantha Alcippe Alcyone Alecto
+		 }
+		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "of "
+
+		modifier = default_culture_modifier
+	}
 	baga_tree = {
 
 		graphical_cultures = { bagagfx }  
 
+		horde = yes 
 		used_for_random = no
 		
 		color = { 0 0.39 0 }
@@ -1224,37 +1368,13 @@ fae = {
 		
 		dukes_called_kings = no
 		
-		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes 
-
-		modifier = default_culture_modifier
 		allow_looting = yes
-	}
-
-	great_fairy = {
-		graphical_cultures = { greatfairygfx }  
-
-		used_for_random = no 
-
-		color = { 1 0.75 0.8 }
-		
-		
-		male_names = { 
-		Tael Leaf Aeneas Amulius Aries Consus Cupid Evander Evandrus Faunus Gemini Hercules Ianus Iovis Italus Iuppiter Janus Jove Jupiter Liber Mars Mercury Neptune Neptunus Numitor Pluto Pollux Quirinus Remus Romulus Saturn Saturnus Silvanus Silvius Summanus Tatius Terminus Ulysses Vulcan Alecjo Aleksandro Ancjo Antono Jocjo Johano Jozefo Koralo Lucjo Ludoviko Micjo Mihaelo Mikelo Nicjo Nikolao Rapcjo Paulo Petro Vilcjo Vilhelmo Achilles Achilleus Adonis Adrastos Aeolus Aeson Agamemnon Aias Aineias Aiolos Ajax Alexander Alexandros Apollo Apollon Ares Argus Aristaeus Aristodemos Asklepios Atlas Brontes Bacchus Castor Cephalus Cepheus Cerberus Charon Chryses Coeus Crius Cronus Daedalus Damocles Damon Dardanos Deimos Diomedes Dionysos Epimetheus Erebus
-		}
-		female_names = {
-		Venus Navi Tatl Fi Ciela Neri Yume Nieve Melvina Nuria Rill Lucia Una Tiamara Proxi Miff Spryte Felicia Epheremelda Angerona Aurora Bellona Camilla Cardea Ceres Concordia Diana Dido Elissa Fauna Felicitas Flora Hersilia Iuno Juno Juturna Juventas Lara Larunda Lavinia Libitina Luvinia Lucretia Luna Maia Minerva Naenia Nona Pax Pomona Proserpina Proserpine Rhea Salacia Silvia Vesta Victoria Adorinda Amika Aminda ABrava Dezirinda Esperanta Fajra Fiera Gaja Glorinda Juvela Kandaja Karesinda Katida Luksa Maraja Merita Miela Mirinda Orabela Pipra Rava Rozabela Rubena Safira Sprita Stelara Tondra Valora Venka Vespera Acantha Adrasteia Aegle Aella Agau Aglae Aglaia Aigle Akantha Alcippe Alcyone Alecto
-		 }
-		
-		dukes_called_kings = no
-		
-		from_dynasty_prefix = "of "
 
 		modifier = default_culture_modifier
 	}
 }
 plant_group = {
-
 	deku_scrub = {
 		graphical_cultures = { scrubgfx }  
 
@@ -1272,6 +1392,7 @@ plant_group = {
 		dukes_called_kings = yes
 		
 		from_dynasty_prefix = "of "
+		allow_looting = yes
 				
 		modifier = default_culture_modifier
 	} 
@@ -1319,15 +1440,8 @@ plant_group = {
 		female_patronym = "bint "
 		prefix = yes
 				
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 30
-		mat_grf_name_chance = 40
-		father_name_chance = 0
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 40
-		mat_grm_name_chance = 30
-		mother_name_chance = 0
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
 
 		modifier = default_culture_modifier
 	}
@@ -1348,10 +1462,10 @@ blin = {
 			Wielda Herida Elfyne Roonin Delei Herita Elfin Berlis Dari Welda Rera Wira Wita Beneira Weldi Hetena Hieda Hera Dieti Hura Bera Helen Enira Biera Wauta Hiede Welfa Helal Hanera Hildes Dera Dita Hereta Werela Helid Gieta Ereta Rirv Huleta Woora Hirera Welun Erien Birei Heli Hirid Rild Harun Herir Bara Reiri Werli Wereti Rirera Enina Wera Hielirv Wereld Direta Rurla Rerada Hiere Girv Bitil Wilda Wena Hirirv Hiras Hira Hiera Rurli Erlal Betul Helei Heren Welde Werla Birira Weda Hirla Wirla Geta Wela Heta Wuta Dira Bita Belda Birera Hara Hena Dura Berana Elaun Weta Rira Rerla Wiera Goora Dauta
 		}
 		
-		dukes_called_kings = yes
-		founder_named_dynasties = yes 
-		modifier = default_culture_modifier
 		allow_looting = yes 
+		founder_named_dynasties = yes 
+		
+		modifier = default_culture_modifier
 
 	}
  	bulblin = {
@@ -1369,10 +1483,10 @@ blin = {
 			Valar Bes Bulbes Vikyr Bolben Bira Riba Bura Rua Ria Rares Rolaba Bolcilca Bilba Buria Bilir Rola Velba Baban Bilua Ruria Rolur Bales Balura Rolus Rires Relus Bulen Burun Boron Belen Belbus Bel Bedilir Budir Budibir Viria Belia Bububua Bulba Barun Bulbir Bala Beres Bidelun Rolua Velan Bibun Berun Rilis Bilen Balubun Rulba Vuba Bires Buben Velen Bules Birl Beria Rilen Bilis Bubes Bilca Rabab Vuria Bolus Babir Vubun Berir Bulas Bilcin Bola Bolon Bulus Rolar Bibis Bubilen Rulin Rulen Rilba Ralib Rira Relbir Vula Vurun Rir Relca Riris Bula Rilin Ribir Vulca Velua Bulia Bebulba Valba Baria Buba Rilcolulua
 		}
 		
-		dukes_called_kings = yes
-		founder_named_dynasties = yes		
-		modifier = default_culture_modifier
 		allow_looting = yes 
+		founder_named_dynasties = yes 
+		
+		modifier = default_culture_modifier
 
 	}
 	moblin = {
@@ -1391,10 +1505,10 @@ blin = {
 			Ogalon Vaylanon Dharmina Bulbalus Balba Lyre Bagana Molya	Halya Molba Mulya Maga Kogon Kanas Mala Rein Halbala Lyan Grona Bona Bogalya Banon Dhanas Hurmormala Greinch Grein Onogo Vonone Orman Balyala Valon Monas Malbane Dhanon Holbon Golah Lyron Dhein Monoley Banolon Bananon Gogarman Hanon Balanas Kolanon Kugalya Rola Monan Monoh Bonas Kala Malbey Olunas Maley Ralyon Manah Reinah Monein Bryana Keigo Konalbe Malinon Bagas Kalyon Balyas Hurma Rolya Halinas Gale Bryalon Mana Kanala Malon Olyalun Konanon Kalan Mulah Balalya Vunagein Honan Balya Haley Harme Muna Vona Mulyan Manoh Volya Lyras Valona Kurme Rala Balein Monanas Mulan Kolah Golana Golola Gina Valarmun
 		}
 		
-		dukes_called_kings = yes
-		founder_named_dynasties = yes		
-		modifier = default_culture_modifier
 		allow_looting = yes 
+		founder_named_dynasties = yes 
+		
+		modifier = default_culture_modifier
 
 	}
 }	
@@ -1416,10 +1530,10 @@ lfos = {
 		Nardu Okakusha Talik Nell Akima Narda Tarda Drana Harda Vosha Ananu Alaka Alama Anemokat Nananalako Drobra Taxuka Oshu Akilgabra Tebra Habra Nuxima Vanika Alexakall Vakosha Tibruga Anako Alashamu Vasha Nagargra Abrabra Nokkabra Ashakasha Hakaxo Hemu Ryakas ANeshoka Nakulu Nalgus Dranu Hikim Nasha Anoka Nanok Nalak Olicha Vaxak Alexo Tanus Nakuka Ryoxu Nanushu Vikalirda Lirda Vika Draka ANuku Akanat Ryacha Tabra Virgralga Virgra Ralga Olill Tirda Onaxu Haxu Hirda Hakuk Tikerda Alaxa Nagu Algamu Himu Vabra Vanarda Xexu Ashas Vanos Hakos Ashu Akka Ryuku Amus Nenka Alas Ryas Vonas Nanas Nal Nalga Galan Vara Akagu Nachu Cixu Drilgu Amabra Vilixu Ryoxat
 		} 
 		
-		dukes_called_kings = yes
-		founder_named_dynasties = yes		
-		modifier = default_culture_modifier
 		allow_looting = yes 
+		founder_named_dynasties = yes 
+		
+		modifier = default_culture_modifier
 
 	}
 	dinolfos = {
@@ -1436,9 +1550,6 @@ lfos = {
 		female_names = {
 		Nardu Okakusha Talik Thea Dianne Ardada Ashiadu Olbada Talea Annas Hakea Akaku Albea Dashat Talek Harda Hidan Thakea Nadak Tiaka Ashun Halba Neske Thashan Nedrea Hannun Nian Tidan Tiar Hadaka Arikea Kea Thada Halan Odrea Vadan Tiashalu Shalu Tia Tasha Talila Tala Tiarda Dardisher Vadiak Tadrea Talak Narda Okannak Daden Okaku Tashar Adakan Nashu Nakas Hian Niakan Ardas Talas Nakaku Odran Ardik Thiat Halu Ardiat Ardir Nashan Arden Spakak Ardea Valan THaka Akadu Adrea Talan Veku Niduk Henna Nelbe Takak Ordadu Adaku Hakus Dakik Dadrik Ardut Niakar Ardak Spiar Niakin Hekit Olbakan Niat Adrun Adara Thiade Olakea Nerda Heliar Tadra
 		}
-		
-		dukes_called_kings = yes
-		founder_named_dynasties = yes 
 				
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 30
@@ -1450,8 +1561,10 @@ lfos = {
 		mat_grm_name_chance = 30
 		mother_name_chance = 0
 
+		allow_looting = yes 
+		founder_named_dynasties = yes 
+		
 		modifier = default_culture_modifier
-		allow_looting = yes
 
 	}
 	lizalfos = {
@@ -1470,11 +1583,10 @@ lfos = {
 		Nardu Okakusha Talik Lutia Dione Cat Ulear Liranu Tapa Wetazu Wetaku Kakashes Kakar Kelan Lilos Ombata Keakas Vashat Wakas Vipas Onata Konat Uzas Lirir Lira Lirakarelu Vionashu Viona Kion Kiona Kionakas Kesa Wetalia Wepa Lapokota Kota Liruta Corazear Disata Dula Dalas Liosa Kipor Onazas Cetis Vilake Cotas Tekear Lezear Kelek Liolu Kazas Ula Tutas Kukak Vetu Lita Datata Ongeta Liosusata Vakala Lamga Vapen Vilar Kangia Cetaza Vuta Catas Wekia Canga Wanga Cepia Kepa Utas Datota Kete Lioze Nuror Vipike Neatu Urulo Weshak Ciosho Lotear Tarear Vatita Snesho Liolut Lioka Cazik Kukar Lasin Kelat Dorar Kanear Katear Visas Walia Kotia Wetas
 		}
 		
-		dukes_called_kings = yes
-		founder_named_dynasties = yes 
-				
-		modifier = default_culture_modifier
 		allow_looting = yes 
+		founder_named_dynasties = yes 
+		
+		modifier = default_culture_modifier
 
 	}
 	tokay = {
@@ -1489,48 +1601,10 @@ lfos = {
 		Adj Aich Aiss Amina Amita Aoa Bara Kisa Binto Dey Djen Eba Djenl Djire Fadima Fatim Fatou Halim Hawa Ena Kadi Kilea Kolon Nana Namis Safia Tou Sali Mata Sas Souma Sid Ibe Siy Sogol Tekhay Youma Zeina Badj Kekr Kelal Djadu Tima Alaba Alaym Blou Yabir Foi Aley Alada Alir Tatey Tako Adima Fetir Alim Alota Ulir Amata Datey Bakel Atota Alom Kakir Amir Zaki Djoma Kikama Foma Kemoi Bamo Yodam Umor Kalo Atoba Keko Kuder Akema Kelili Alukr Kater Fidir Kebay Atey Fatey Kudam Kumir Telel Keday Faler Filay Fukam Keti Dir Amay Zamir Fabo Fema Omata
 		}
 		
-		dukes_called_kings = yes
-				
-		modifier = default_culture_modifier
-		allow_looting = yes
-		seafarer = yes
-	}
-}
-monster = {
-	yook = {
-		graphical_cultures = { yookgfx }
-		parent = demon
-	
-		color = { 0.8 1 1 }
-		horde = yes 
+		allow_looting = yes 
+		founder_named_dynasties = yes 
 		
-		male_names = {
-		Yoka Yaetl Yaed Yaex Yae Yaeba Yitl Yaet Yatl Yik Yors Yibaex Yibaek Yitl Yaeka Yob Yitl Yaekid Youtl Yobaex Yakit Yid Yib Yaetla Yaekaex Yaebaek Yaek Yod Yotla Yabit Yikid Yaek Yix Yaebax Yatla Yaers Yabaex Yabaek Yokot Yoka Yox Yibaet Yikat Yitlaex Yokid Yax Yitloba Yaebik Yars Yokox Yobaed Yaebaed Yikaed Yikaebaet Yaebat Yotl Yobit Yobid Yaebit Yakok Yirs Yaekaed Yakot Yaekax Yaekox Yikix Yaekaka Yit Yaekad Yaebid Yibid Yibix Yaekok Yaekik Yobod Yibid Yikax Yot Yakix Yaebad Yokaed Yikad Yaekaet Yikik Yibot Yikaex Yakak Yobot Yobax
-		}
-		female_names = {
-		Yokae Yitlae Yib'kae Yitl Yitae Yaeae Yaerkae Yaek Yotlae Yibae Yikae Yaetlae Yob Yobob Yitae Yaetlaeb Yaet Yaekae Yirkae Yirtl Yirkae Y'k Yaebae Yaekaeae Yaetae Y'b Yitlae Yib Yotae Yaek Y'tlae Yikaeae Yirk Yorkae Yaerkae Y'kaeae Yobae Yobaekae Yokaeae Y'tl Yaetl Yit Yotl Yitaeae Yibaet Yot Y'rkae Yaerk Yaeb Yik Y'k Y'tae Y'bae Y'taeae Y't Yotaeae Yobaeae Yotaek York Yaeae Yaetlaeae Y'k'kae Yaekitae Yotaekae Yikaekae Yaetaeae Yitlaeae Yokitae Yit'b Y'kaekae Yitib Yokorkae Yit'bae Yobitl Yaekit Y'kaet Yokaebae Yit'k Yokibae Yaetaekae Yot'kae Yitit Yotok Yokob Yit'kae Yitobae Y'kikae Yobitae Yaekaekae Yok'kae Yitlitae Yikob Y'kibae Yitok Yikot Yitaet Yitibae Yikikae Yaetikae Yokokae
-		}
-		founder_named_dynasties = yes
-		modifier = default_culture_modifier		
-		allow_looting = yes
-	}	
-	
-	keaton = {
-		graphical_cultures = { keatongfx } # mc keaton
-		parent = demon
-
-		color = { 0.88 1 1 }
-		horde = yes 
-		
-		male_names = {
-		Akio Akira Aoi Arata Ayumu Daichi Daiki Daisuke Goro Gorou Hachiro Haru Haruki Haruto Hayate Hayato Hibiki Hideaki Hideyoshi Hikaru Hiroshi Hiroto Hotaka Ichiro Ichirou Isamu Itsuki Jiro Jirou Juro Jurou Kaede Kaito Kaoru Katashi Katsu Kazuo Kenji Kenshin Kenta Kichiro Kiyorshi Kohaku Kuro Kyo Makoto Masaru Michi Minato Naoki Naomi Noboru Nobu Nori Osamu Ren Riku Rikuto Rokurou Ryota Ryou Ryouichi Ryouta Ryuu Saburo Shichiro Shin Shinobu Shiori Shiro Sho Shouta Shun Sora Sota Souma Susumu Taichi Taiki Takahiro Takashi Takeshi Takuma Taro Tsubasa Yamato Yasu Yori Yoshi Yoshiro Youta Yuki Yuudai Yuuma Yuuta 
-		}
-		female_names = {
-		Kuzunoha Inari Mae Ai Aiko Aimi Aina Airi Akane Akemi Aki Akiko Akira Ami Aoi Asuka Atsuko Aya Ayaka Ayako Ayame Ayane Ayano Chika Chikako Chinatsu Chiyo Chiyoko Cho Chou Chouko Emi Etsuko Hana Hanae Hanako Haru Haruka Haruna Hikari Hikaru Hina Hinata Hiroko Hitomi Honoka Hoshi Hoshiko Hotaru Izumi Junko Kaede Kanon Kaori Kaoru Kasumi Kazue Kazuko Keiko Kiku Kimiko Kiyoko Kohaku Koharu Kokoro Kotone Kumiko Kyo Mai Makoto Mami Manami Mao Mariko Masami Masuyo Mayu Megumi Mei Michi Michiko Midori Mika Miki Miku Minako Mio Misaki Mitsuko Miu Miyako Miyu Mizuki Moe Momoka Moriko Nana Nanami Naomi Natsuko
-		}
-		founder_named_dynasties = yes
 		modifier = default_culture_modifier
-		allow_looting = yes
 	}
 }
 undead = {
@@ -1551,9 +1625,10 @@ undead = {
 		dukes_called_kings = yes
 		
 		from_dynasty_prefix = "of "
-				
-		modifier = default_culture_modifier
 		allow_looting = yes
+		
+		modifier = default_culture_modifier#undead_culture_modifier
+
 	} 
 
 	skull_kid = {
@@ -1572,9 +1647,9 @@ undead = {
 		dukes_called_kings = yes
 		
 		from_dynasty_prefix = "of "
-				
-		modifier = default_culture_modifier
-		allow_looting = yes 
+		allow_looting = yes
+		
+		modifier = default_culture_modifier#undead_culture_modifier
 	}
 }
 
@@ -1602,8 +1677,8 @@ other_world = {
 		mat_grm_name_chance = 40
 		mother_name_chance = 25
 
-		modifier = default_culture_modifier
 		allow_looting = yes
+		modifier = default_culture_modifier
 	}
 	undead_ikanan = {
 
@@ -1621,14 +1696,12 @@ other_world = {
 		Gomess Kamura Aikara Naroh Iegra Ala Gauza Igras Kara Zara Aira Gauka Iemara Kagal Ketah Zas Kima Shara Imoma Atara Kaula Kagalal Kaga Ateel Kokuss Amekoza Ila Ira Nalol Zakuh Irola Ikuss Noka Nales Koma Gora Kass Ireel Shaka Nalareh Aigah Gata Gauzoga Kauman Kola Nura Zomuh Akema Ireeka Ireteel Aitas Ieran Kota Karess Gauzal Imara Nalas Gaura Keela Igra Arara Zeer Gauzan Naza Keka Qauss Galaura Katah Garikara Gaurah Atora Iekola Ikoma Kitah Aka Gaula Aikora Shama Gura Kagema Nirura Zautera Karera Nagoss Gama Atama Nama Zoma Akah Kakah Naruss Guss Aizan Gaula Kala Gauta Nola Irara Gaga Kuss
 		}
 		
-		dukes_called_kings = no
-		
 		from_dynasty_prefix = "du "
 		male_patronym = "dun"
 		female_patronym = "dutor"
 		prefix = no
 				
-		modifier = default_culture_modifier
+		modifier = default_culture_modifier#undead_culture_modifier
 	}
 	#Readopted Goddesses/Goddess of Time
 	ikanan = {
@@ -1646,12 +1719,11 @@ other_world = {
 		Gomess Kamura Aikara Naroh Iegra Ala Gauza Igras Kara Zara Aira Gauka Iemara Kagal Ketah Zas Kima Shara Imoma Atara Kaula Kagalal Kaga Ateel Kokuss Amekoza Ila Ira Nalol Zakuh Irola Ikuss Noka Nales Koma Gora Kass Ireel Shaka Nalareh Aigah Gata Gauzoga Kauman Kola Nura Zomuh Akema Ireeka Ireteel Aitas Ieran Kota Karess Gauzal Imara Nalas Gaura Keela Igra Arara Zeer Gauzan Naza Keka Qauss Galaura Katah Garikara Gaurah Atora Iekola Ikoma Kitah Aka Gaula Aikora Shama Gura Kagema Nirura Zautera Karera Nagoss Gama Atama Nama Zoma Akah Kakah Naruss Guss Aizan Gaula Kala Gauta Nola Irara Gaga Kuss
 		}
 		
-		dukes_called_kings = no
-		
+		from_dynasty_prefix = "du "
 		male_patronym = "dun"
 		female_patronym = "dutor"
 		prefix = no
-
+				
 		modifier = default_culture_modifier
 	} 
 	lorulean = {
@@ -1692,12 +1764,12 @@ other_world = {
 		prefix = yes 
 
 				
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		# Chance of male children being named after their paternal or maternal grandfather  or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 30
 		mat_grf_name_chance = 30
 		father_name_chance = 10
 		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		# Chance of female children being named after their paternal or maternal grandmother  or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 30
 		mat_grm_name_chance = 30
 		mother_name_chance = 10
@@ -1709,7 +1781,7 @@ dead_cultures = {
 	skylofter = {
 		graphical_cultures = { skyliangfx hyliangfx } 
 
-		parent = elf
+		parent = hylian
 
 		used_for_random = no
 
@@ -1746,8 +1818,10 @@ dead_cultures = {
 	}
 	
 	ancient_xing = { #lan
-		graphical_cultures = { langfx hyliangfx }
+		graphical_cultures = { cumangfx hyliangfx }
 		color = { 0 0.4 0 }
+		
+		parent = skylofter
 
 		male_names = {
 		Arthit Kamon Klahan Kulap Mongkut Prasert Preecha Sombun Somchai Somphorn Somsakdi Suchart Sunan Thaksin Wattana

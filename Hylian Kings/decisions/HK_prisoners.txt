@@ -1,0 +1,39 @@
+targetted_decisions = {
+
+	steal_triforce = {
+	filter = home_court	
+	ai_target_filter = home_court
+	
+	from_potential = {
+		is_playable = yes
+		OR = {
+			trait = ambitious
+			trait = cruel
+			trait = deceitful
+			trait = arbitrary
+			trait = impaler
+			trait = triforce_power
+			religion_group = demon_group
+		}
+	}
+	
+	potential = {
+		prisoner = yes
+		OR = {
+			trait = triforce_courage
+			trait = triforce_power
+			trait = triforce_wisdom
+		}
+			host = { character = FROM }
+		}
+
+		effect = {
+			FROM = { character_event = { id = prisoner.0 } }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+

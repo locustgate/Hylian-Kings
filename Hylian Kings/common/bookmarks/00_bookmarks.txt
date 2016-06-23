@@ -1,0 +1,22 @@
+bm_ERA_PROSPERITY = {
+	name = "BM_ERA_PROSPERITY"	
+	desc = "BM_ERA_PROSPERITY_DESC"
+	date = 3387.1.1
+	
+	custom_start = yes
+	selectable_character = {
+		id = 13 #temp
+	}
+#	selectable_character = {
+#		id = x1 #hyrule
+#	}
+#	selectable_character = {
+#		id = x2 #windtribe
+#	}	
+#	selectable_character = {
+#		id = x3 #cobble
+#	}	
+#	selectable_character = {
+#		id = x6 #gerudo
+#	}
+}

@@ -1,0 +1,142 @@
+#vassal
+d_knights_hyrule = {
+	color={ 0 0 204 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+
+	capital = 1
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = hyrulean
+	
+	mercenary = yes
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = knights_hyrule_composition
+}
+d_knights_cobble = {
+	color={ 204 0 0 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = hashshashingfx
+
+	capital = 1
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = cobble
+	
+	mercenary = yes
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = knight_cobble_composition
+}
+d_knights_saria = {
+		color={ 177 60 100 }
+		color2={ 255 255 23 }
+	
+	graphical_culture = holygfx
+
+	capital = 1
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = sarian
+	
+	mercenary = yes
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = knights_saria_composition
+}
+d_knights_great_hyrule = {
+	color={ 204 0 0 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+
+	capital = 1
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = west_hyrulean
+	
+	mercenary = yes
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = knights_great_hyrule_composition
+}
+
+d_knights_moria = {
+	color={ 204 0 0 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+
+	capital = 1
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = plains_morian
+	
+	mercenary = yes
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = knights_moria_composition
+}

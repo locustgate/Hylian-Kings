@@ -1,0 +1,148 @@
+#In same order as event folder
+#
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+DESC_FAIRY.0;I am awoken in the morning to a suddent yell of "Hey! Wake Up!" and find a fairy floating above me.;Je réveillé le matin pour un cri suddent de " Hey ! Wake Up! " et de trouver une fée flottant au-dessus de moi.;Ich bin am Morgen zu einem suddent Schrei aufgewacht "Hey! Wach auf! " und finden Sie eine Fee über mir schweben.;;Me despertaron en la mañana a un grito suddent de " Hey ! Wake Up ! " y encontrar un hada flotando por encima de mí .;;;;;;;;;x
+OPFAIRY.0A;Does this mean I finally have a fairy friend!?;Est- ce que cela signifie que j'ai enfin un ami de fées !?;Heißt das, ich habe endlich eine Fee Freund !?;;¿Esto significa que por fin tengo un amigo de hadas !?;;;;;;;;x
+DESC_FAIRY.1;My ward came running into my chambers trailed by fairy. They explained that they were finally chosen by a fairy.;Mon service est arrivé en courant dans mes chambres traînées par fée. Ils ont expliqué qu'ils ont finalement été choisis par une fée .;Meine Station kam mir in den Kammern von Fee schleppte läuft. Sie erklärten, dass sie von einer Fee schließlich ausgewählt wurden.;;Mi barrio entró corriendo en mis cámaras perdían por hadas. Explicaron que finalmente fueron elegidos por un hada .;;;;;;;;;x
+OPFAIRY.1A;They are truly favored by [Root.Religion.GetRandomGodName].;[Root.Religion.GetRandomGodName] les favorise vraiment.;[Root.Religion.GetRandomGodName] begünstigt sie wirklich.;;[Root.Religion.GetRandomGodName] verdaderamente les favorece .;;;;;;;;;x
+#item
+DESC_item.0;I stand in the market square seeing multiple stalls, many so crowded that I can't see the seller or what they are selling, and others with a collection of produce.;;;;;;;;;x
+OPITEMPOTION;I need to find the potion maker.;;;;;;;;;x
+OPITEMGENERAL;I need to find the general store.;;;;;;;;;x
+OPITEMCLOTHING;I need to find a good tailor.;;;;;;;;;x
+OPITEMILLEGAL;I need to find.....a guy.;;;;;;;;;;x
+OPITEMWASTE;I'm better off saving my money.;;;;;;;;;x
+DESC_item.1;As I walk in I see the owner, an elderly woman stroking a small tiger. "Oh Dearie are you here for some of my potions or some stories." she asks looking up at me.;;;;;;;;;x
+OPITEMRED;"What is the red potion for?";;;;;;;;;x
+OPITEMBLUE;"What is the blue potion for?";;;;;;;;;x
+OPITEMPURPLE;"What is the green potion for?";;;;;;;;;x
+OPPOTIONFULL;"Sorry Dearie but it looks like you don't have any empty bottles.";;;;;;;;;x
+OPITEMBROWSING;"Sorry, I'm just browsing.";;;;;;;;;x
+DESC_item.2;"The red potion is good for healing minor wounds and ilnesses, though some good soup from granny can cure anything.";;;;;;;;;x
+OPITEMYES;"I'll take it.";;;;;;;;;x
+OPITEMLOW;"Sorry, but I don't have enough rupees.";;;;;;;;;x
+OPITEMNM;"Maybe something else.";;;;;;;;;x
+DESC_item.3;"The blue potion is used to restore your magic power and heal minor wounds.";;;;;;;;;x
+DESC_item.4;"The green potion is used to restore your magic power." ;;;;;;;;;x
+DESC_item.5;As I walk in I see the owner standing behind the counter, a large brawny man with a bushy beard wearing a leather vest. "Welcome are you looking to buy or just looking?";;;;;;;;;x
+DESC_item.6;"It is a bow, you shoot stuff with it.";;;;;;;;;x
+DESC_item.7;"It is a bag full of bombs. You can use it to clear obstacles and crack open some of the harder monsters out there.";;;;;;;;;x
+DESC_item.8;"It is a fairy in a bottle. If you release it, it can heal most serious injuries and illnesses.";;;;;;;;;x
+DESC_item.9;I stand in the quartermaster rotunda. The ringing of a metal on metal coming from one room, the smell of alcohol coming from another, and the moaning of wounded coming from another.;;;;;;;;;x
+OPITEM9A;I'll go to the medic.;;;;;;;;;x
+OPITEM9B;I'll go to the armorer.;;;;;;;;;x
+DESC_item.10; As you walk past the stretchers, some empty and some occupied, you find a man in white robes with a red sword entwined by a sandworm. "If you can walk in then you just need some medicine.";;;;;;;;;x
+OP10A;"Do you have any red potion?";;;;;;;;;x
+OP10B;"Do you have any fairies?";;;;;;;;;x
+DESC_item.11;"I do. There is some over in the jugs. It can heal most of your minor wounds on the battlefield. A jar full will be 10 rupees.";;;;;;;;;x
+DESC_item.12;"I do. They're in the chest over there. When released it can heal most serious wounds. Just don't release it if you aren't hurt or else it might help your enemy. One will be 50 rupees.";;;;;;;;;x
+DESC_item.13;I walk into the armorer's room the heat is almost like a volcano. Among the various Darknut working at the forges there is the oldest man walking around and inspecting the other's work, until he approaches me. "Do you need to use a forge or are you here to commision something?";;;;;;;;;x
+OP13B;"I'd like some armor.";;;;;;;;;x
+OP13A;"I'd like a sword.";;;;;;;;;x
+OP13C;"I'd like some bombs.";;;;;;;;;x
+DESC_item.14;"Did you lose your sword? A darknut sword will cost you 100 rupees.";;;;;;;;;x
+DESC_item.15;"Do you need replacement armor or did you decide you couldn't make your own? A suit of darknut forged armor will cost you 50 rupees. Though you can always make your own.";;;;;;;;;x
+DESC_item.16;"Are you somekind of a sapper? You can use them to bring down walls of crack open some of the armored monsters out there, if you can't break them open with a mace.";;;;;;;;;x
+DESC_item.17;As I stand in the market square I see an assortment of stalls and shops. There are several stalls surrounded by women making it impossible to see, other stalls with old produce. You see a jar shapped building and a large covered area.;;;;;;;;;x
+DESC_item.18;I enter the potion maker's jar shapped building with several vats infront of a counter. The potion maker is an old woman with a pronounced sloach. "If you are looking for my sister she's out gathering ingrediants. If you need potions step up.";;;;;;;;;x
+DESC_item.19;"The red potion is mostly used for healing wounds, but it can be used to cure a cold. It's almost always out of stock so that'll be 20 rupees.";;;;;;;;;x
+DESC_item.20;"The blue potion does what both the green and blue potions do. It'll cost you 30 rupees.";;;;;;;;;x
+DESC_item.21;"The green potion is used to restore your magic. Because of that almost no one buys it.";;;;;;;;;x
+DESC_item.22;You enter the shaded area seeing several gerudo women and a couple of men carrying containers in and out. A burly woman stands in the center yelling orders at a young man, as she notices you she approaches to impromptu counter. "Welcome to the Aveil and daughters trading Co, if you can't get it here you can't get it in any gerudo market and no I'm not Aveil." ;;;;;;;;;x
+OPITEMICEBOW;"How much is the Bow and Ice Arrows?";;;;;;;;;x
+DESC_item.23;"Good choice the arrows are made by one of my daughters, I don't remember which one. You can use it freeze guards in their tracks, I also hear from one of my sisters that it is good for freezing some of the more fiery monsters.";;;;;;;;;x
+DESC_item.24;"I see you don't want to die. These are from a fairy spring nearby, family secret, they can heal most major wounds and can cure some curses.";;;;;;;;;x
+DESC_item.25;"So are you planning on breaking into some place, we also fence. You can break open those pesky doors or according to one of my cousins can break open some hard shelled monsters. A bag of them will set you back 50 rupees.";;;;;;;;;x
+DESC_item.26;As I stand in the market cavern I see an assortment of counters with rocks and ores, from one corridor I hear the ringing of metal on metal, and one corridor with a sign for "General Store".;;;;;;;;;x
+DESC_item.27;As I enter the general store I see the shopkeeper leaning againt the stone counter. "Hey Brother, are you looking to buy?";;;;;;;;;x
+DESC_item.28;"Traders frequently bring us red potions, we don't usually sell very many of it so, I'll give you a discount, bringing your total to 10 rupees." ;;;;;;;;;x
+DESC_item.29;"Goron specil bag of bombs, you can use them to mine some tasty rocks or get rid of those pesky dodongos.";;;;;;;;;x
+DESC_item.30;As I enter the the forge I see a large goron taking up most of the room. "Welcome I mostly make stuff for the warriors, but I always have extra equipment laying around.";;;;;;;;;x
+OPITEMKNIFE;"What's that large sword?";;;;;;;;;x
+DESC_item.31;"That's a knife for a Biggoron, but he doesn't really use them very much.";;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+#triforce
+OPTF0A;Grats you broke the game;Grats vous avez cassé le jeu;Grats brach man das Spiel;;Grats que se rompió el juego;;;;;;;;;x
+DESC_TF.3;I awaken this morning to find that the mark of the triforce on my hand had disappeared with no explanation.;Je me réveille ce matin pour constater que la marque de la triforce sur ma main avait disparu sans explication .;Ich erwache heute Morgen zu finden , dass die Marke des triforce auf meiner Hand ohne Erklärung verschwunden war.;;Me despierto esta mañana para encontrar que la marca de la Trifuerza en mi mano había desaparecido sin explicación .;;;;;;;;;x
+OPTF3A;What have I done to deserve this!;Qu'ai-je fait pour mériter cela!;Was habe ich getan, um das zu verdienen!;;¡Qué he hecho para merecer esto!.;;;;;;;;;x
+FT;Form Triforce;Forme Triforce;Bilden Triforce;;Formar Triforce;;;;;;;;;x
+DESC_TF.10;With all fragments of the Triforce in my possession it is time to unite them and form the reform the Triforce.;Avec tous les fragments de la Triforce en ma possession , il est temps de les réunir et de former la réforme de la Triforce .;Bei allen Fragmente des Triforce in meinem Besitz ist es Zeit, sie zu vereinen und die Reform der triforce bilden.;;Con todos los fragmentos de la Trifuerza en mi poder es el momento de unirlos y formar la reforma de la Trifuerza .;;;;;;;;;x
+OPTF10A;It is time for the Triforce to be whole again;Il est temps pour la Triforce soit à nouveau ensemble;Es ist Zeit für das Triforce zu sein wieder ganz;;Es hora de que la Trifuerza para ser de nuevo todo;;;;;;;;;x
+OPTF10B;I'll just go ahead and make a wish.;Je vais aller de l'avant et faire un souhait.;Ich gehe einfach weiter und machen Sie einen Wunsch .;;Voy a seguir adelante y hacer un deseo.;;;;;;;;;x
+OPTF10C;The time isn't right to form the Triforce;Il ne convient pas de former la Triforce;Es ist nicht richtig, das Triforce zu bilden;;El tiempo no es el adecuado para formar la Trifuerza;;;;;;;;;x
+DESC_TF.11;In a flash of light the three markings on my hand vanishes only for a golden triangle made of the three pieces appear before my eyes;Dans un éclair de lumière les trois marques sur ma main disparaît que pour un triangle d'or en trois morceaux comparaître devant mes yeux;In einem Lichtblitz die drei Markierungen auf meiner Hand verschwindet nur für ein goldenes Dreieck aus den drei Stücke erscheinen vor meinen Augen;;En un destello de luz las tres marcas en mi mano desaparece sólo por un triángulo de oro hecho de las tres piezas aparecer ante mis ojos;;;;;;;;;x
+PRAISE_DEITY;Praise [Root.Religion.GetRandomGodName]!;Louange [Root.Religion.GetRandomGodName]!;Loben [Root.Religion.GetRandomGodName]!;;Alabanza [Root.Religion.GetRandomGodName]!;;;;;;;;;x
+TW;Triforce Wish;Triforce Wish Needs to Be translated;Triforce Wish Needs to Be translated;;Triforce Wish Needs to Be translated;;;;;;;;;x
+DESC_TF.20;I place my hand on the Triforce and say "I wish....;;;;;;;;;x
+OPTRIFORCEWEALTH;...to be the richest person in all the lands.";;;;;;;;;x
+OPTRIFORCEINTELLIGENCE;...M-o-o-n that spells smarter.";;;;;;;;;x
+OPTRIFORCESTRENGTH;...to be strong.";;;;;;;;;x
+OPTRIFORCEBEAUTY;...to be beautiful.";;;;;;;;;x
+OPTF20NO;...wait, I need more time to decide.";;;;;;;;;x
+DESC_TF.21;In a flash the Triforce vanishes. As my vision clears I find 3 hylian sized orange rupees.;;;;;;;;;x
+OPTF21YES;I will never need to worry about rupees again!;;;;;;;;;x
+DESC_TF.22;In a flash the Triforce vanishes. I feel as if a fog has been cleared from my mind.;;;;;;;;;x
+OPTF22YES;T-R-I-F-O-R-C-E that spells Triforce.;;;;;;;;;x
+DESC_TF.23;In a flash the Triforce vanishes. I feel my muscles tensing and taking shape.;;;;;;;;;x
+OPTF23YES;I feel like I could defeat a Legion of Darknuts by myself.;;;;;;;;;x
+DESC_TF.24;In a flash the Triforce vanishes. I feel no different till a maid walks in and starts to blush.;;;;;;;;;x
+OPTF24YES;I must truly be beutiful.;;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x
+;;;;;;;;;x

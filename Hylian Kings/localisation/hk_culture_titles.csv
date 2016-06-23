@@ -1,7 +1,16 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#title
+emperor;King;;;;;;;;;;;;x
+emperor_female;Queen;;;;;;;;;;;;x
+emperor_consort;King Consort;;;;;;;;;;;;x
+emperor_consort_female;Queen Consort;;;;;;;;;;;;x
+emperor_title_queen_mother_female;Queen Mother;;;;;;;;;;;;x
+king;Minor King;;;;;;;;;;;;x
+king_title_queen_mother_female;Queen Mother;;;;;;;;;;;;x
+king_female;Minor Queen;;;;;;;;;;;;x
 ##Hylian
-emperor_hyrulean;King;;;;;;;;;;;;x
-emperor_female_hyrulean;Princess;;;;;;;;;;;;;x
+emperor_hyrulean;Great King;;;;;;;;;;;;x
+emperor_female_hyrulean;Great Princess;;;;;;;;;;;;;x
 emperor_consort_hyrulean;Prince Consort;;;;;;;;;;;;x
 emperor_female_consort_hyrulean;Queen Consort;;;;;;;;;;;;;x
 king_hyrulean;King;;;;;;;;;;;;;;;x
@@ -15,23 +24,21 @@ emperor_cobble;King;;;;;;;;;;;;x
 emperor_female_cobble;Queen;;;;;;;;;;;;;x
 emperor_consort_cobble;King Consort;;;;;;;;;;;;x
 emperor_female_consort_cobble;Queen Consort;;;;;;;;;;;;;x
-king_cobble;Princess;;;;;;;;;;;;;;;x
-king_female_cobble;Princess;;;;;;;;;;;;;x
+king_cobble;Minor Princess;;;;;;;;;;;;;;;x
+king_female_cobble;Minor Princess;;;;;;;;;;;;;x
 king_consort_cobble;Prince Consort;;;;;;;;;;;;x
 king_female_consort_cobble;Princess Consort;;;;;;;;;;;;;x
 emperor_pebble;King;;;;;;;;;;;;x
 emperor_female_pebble;Queen;;;;;;;;;;;;;x
 emperor_consort_pebble;King Consort;;;;;;;;;;;;x
 emperor_female_consort_pebble;Queen Consort;;;;;;;;;;;;;x
-king_pebble;Princess;;;;;;;;;;;;;;;x
+king_pebble;Prince;;;;;;;;;;;;;;;x
 king_female_pebble;Princess;;;;;;;;;;;;;x
 king_consort_pebble;Prince Consort;;;;;;;;;;;;x
 king_female_consort_pebble;Princess Consort;;;;;;;;;;;;;x
 ##Human
-king_ordonion;High King;;;;;;;;;;;;x
-king_female_ordonion;High Queen;;;;;;;;;;;;;x
-king_title_ruler_consort_ordonion;High King Consort;;;;;;;;;;;;;x
-king_title_ruler_consort_female_ordonion;High Queen Consort;;;;;;;;;;;;;x
+emperor_ordonion;High King;;;;;;;;;;;;x
+emperor_female_ordonion;High Queen;;;;;;;;;;;;;x
 king_horon;High King;;;;;;;;;;;;x
 king_female_horon;High Queen;;;;;;;;;;;;;x
 king_title_ruler_consort_horon;High King Consort;;;;;;;;;;;;;x
@@ -55,10 +62,10 @@ count_female_gem_lander;Thakurani;Thakurani;Thakurani;;Thakuraní;;;;;;;;;x;;;;;;
 baron_gem_lander;Damapati;Damapati;Damapati;;Damapati;;;;;;;;;x;;;;;;;;;;;;
 baron_female_gem_lander;Damapatni;Damapatni;Damapatni;;Damapatní;;;;;;;;;x;;;;;;;;;;;;
 ##lost
-king_sheikah;Shadow King;;;;;;;;;;;;x
-king_female_sheikah;Shadow Queen;;;;;;;;;;;;;x
-king_title_ruler_consort_sheikah;King Consort;;;;;;;;;;;;x
-king_title_ruler_consort_female_sheikah;Queen Consort;;;;;;;;;;;;;x
+emperor_sheikah;Shadow King;;;;;;;;;;;;x
+emperor_female_sheikah;Shadow Queen;;;;;;;;;;;;;x
+emperor_title_ruler_consort_sheikah;King Consort;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_sheikah;Queen Consort;;;;;;;;;;;;;x
 king_sheikah:Great Chief;;;;;;;;;;;;;;;x
 king_female_sheikah;Great Chief;;;;;;;;;;;;;x
 king_title_ruler_consort_sheikah:Great Husband;;;;;;;;;;;;;;;x
@@ -69,23 +76,30 @@ count_sheikah;Chief;;;;;;;;;;;;;x
 count_female_sheikah;Chief;;;;;;;;;;;;;x
 baron_sheikah;Clan Father;;;;;;;;;;;;;x
 baron_female_sheikah;Clan Mother;;;;;;;;;;;;;x
-king_darknut;Dux;;;;;;;;;;;;x
-king_female_darknut;Dux;;;;;;;;;;;;;x
-king_title_ruler_consort_darknut;Lati;;;;;;;;;;;;x
-king_title_ruler_consort_female_darknut;Lati;;;;;;;;;;;;;x
+emperor_darknut;Dux;;;;;;;;;;;;x
+emperor_female_darknut;Dux;;;;;;;;;;;;;x
+emperor_title_ruler_consort_darknut;Lati;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_darknut;Lati;;;;;;;;;;;;;x
 king_darknut:Legatus;;;;;;;;;;;;;;;x
 king_female_darknut;Legatus;;;;;;;;;;;;;x
 king_title_ruler_consort_darknut:Lati;;;;;;;;;;;;;;;x
 king_female_title_ruler_consort_darknut;Lati;;;;;;;;;;;;;x
-duke_darknut;Angusti;;;;;;;;;;;;;x
-duke_female_darknut;Angusti;;;;;;;;;;;;;x
-count_darknut;Ordinis;;;;;;;;;;;;;x
-count_female_darknut;Ordinis;;;;;;;;;;;;;x
-baron_darknut;Centurion;;;;;;;;;;;;;x
-baron_female_darknut;Centurion;;;;;;;;;;;;;x
-king_gerudo:King of Gerudos;;;;;;;;;;;;;;;x
-duke_gerudo;Leader;;;;;;;;;;;;;x
-duke_female_gerudo;Leader;;;;;;;;;;;;;x
+duke_darknut;Primus Centurion;;;;;;;;;;;;;x
+duke_female_darknut;Primus Centurion;;;;;;;;;;;;;x
+count_darknut;Centurion;;;;;;;;;;;;;x
+count_female_darknut;Centurion;;;;;;;;;;;;;x
+baron_darknut;Governer;;;;;;;;;;;;;x
+baron_female_darknut;Governess;;;;;;;;;;;;;x
+emperor_gerudo;High King;;;;;;;;;;;;x
+emperor_female_gerudo;High Queen;;;;;;;;;;;;;x
+emperor_title_ruler_consort_gerudo;King Consort;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_gerudo;Queen;;;;;;;;;;;;;x
+king_gerudo:King;;;;;;;;;;;;;;;x
+king_female_gerudo;Queen;;;;;;;;;;;;;x
+king_title_ruler_consort_gerudo:King Constort;;;;;;;;;;;;;;;x
+king_female_title_ruler_consort_gerudo;Queen;;;;;;;;;;;;x
+duke_gerudo;Petty King;;;;;;;;;;;;;x
+duke_female_gerudo;Petty Queen;;;;;;;;;;;;;
 count_gerudo;Commander;;;;;;;;;;;;;x
 count_female_gerudo;Commander;;;;;;;;;;;;;x
 baron_gerudo;Captain;;;;;;;;;;;;;x
@@ -183,3 +197,62 @@ count_twili;Twilight Count;;;;;;;;;;;;;x
 count_female_twili;Twilight Countess;;;;;;;;;;;;;x
 baron_twili;Twilight Lord;;;;;;;;;;;;;x
 baron_female_twili;Twilight Lady;;;;;;;;;;;;;x
+#land
+##default
+empire;Kingdom;;;;;;;;;;;;;x
+empire_of;Kingdom of;;;;;;;;;;;;;x
+kingdom;Minor Kingdom;;;;;;;;;;;;;x
+kingdom_of;Minor Kingdom of;;;;;;;;;;;;;x
+##culture
+###hylian
+empire_hyrulean;Great Kingdom;;;;;;;;;;;;;x
+empire_of_hyrulean;Great Kingdom;;;;;;;;;;;;;x
+kingdom_hyrulean;Kingdom;;;;;;;;;;;;;x
+kingdom_of_hyrulean;Kingdom;;;;;;;;;;;;;x
+empire_little_hyrulean;Kingdom;;;;;;;;;;;;;x
+empire_of_little_hyrulean;Kingdom;;;;;;;;;;;;;x
+kingdom_little_hyrulean;Minor Kingdom;;;;;;;;;;;;;x
+kingdom_of_little_hyrulean;Minor Kingdom;;;;;;;;;;;;;x
+empire_west_hyrulean;Kingdom;;;;;;;;;;;;;x
+empire_of_west_hyrulean;Kingdom;;;;;;;;;;;;;x
+kingdom_west_hyrulean;Minor Kingdom;;;;;;;;;;;;;x
+kingdom_of_west_hyrulean;Minor Kingdom;;;;;;;;;;;;;x
+empire_east_hyrulean;Kingdom;;;;;;;;;;;;;x
+empire_of_east_hyrulean;Kingdom;;;;;;;;;;;;;x
+kingdom_east_hyrulean;Minor Kingdom;;;;;;;;;;;;;x
+kingdom_of_east_hyrulean;Minor Kingdom;;;;;;;;;;;;;x
+###human
+empire_ordonion;High Kingdom;;;;;;;;;;;;;x
+empire_of_ordonion;High Kingdom;;;;;;;;;;;;;x
+kingdom_ordonion;Kingdom;;;;;;;;;;;;;x
+kingdom_of_ordonion;Kingdom;;;;;;;;;;;;;x
+empire_horon;High Kingdom;;;;;;;;;;;;;x
+empire_of_horon;High Kingdom;;;;;;;;;;;;;x
+kingdom_horon;Kingdom;;;;;;;;;;;;;x
+kingdom_of_horon;Kingdom;;;;;;;;;;;;;x
+###lost
+empire_gerudo;High Queendom;;;;;;;;;;;;;x
+empire_of_gerudo;High Queendom of;;;;;;;;;;;;;x
+kingdom_gerudo;Queendom;;;;;;;;;;;;;x
+kingdom_of_gerudo;Queendom;;;;;;;;;;;;;x
+duchy_gerudo;Petty Queendom;;;;;;;;;;;;;x
+duchy_of_gerudo;Petty Queendom of;;;;;;;;;;;;;x
+county_gerudo;Tribe;;;;;;;;;;;;;x
+county_of_gerudo;Tribe of;;;;;;;;;;;;;x
+empire_darknut;Legions;;;;;;;;;;;;;x
+empire_of_darknut;Legions of;;;;;;;;;;;;;x
+kingdom_darknut;Legion;;;;;;;;;;;;;x
+kingdom_of_darknut;Legion;;;;;;;;;;;;;x
+duchy_darknut;Cohort;;;;;;;;;;;;;x
+duchy_of_darknut;Cohort of;;;;;;;;;;;;;x
+county_darknut;Century;;;;;;;;;;;;;x
+county_of_darknut;Century of;;;;;;;;;;;;;x
+barony_darknut;Maniple;;;;;;;;;;;;;x
+barony_of;_darknutManiple of;;;;;;;;;;;;;x
+###plant
+empire_zuna;Great Kingdom;;;;;;;;;;;;x
+empire_of_zuna;Great Kingdom of;;;;;;;;;;;;x
+kingdom_zuna;Kingdom;;;;;;;;;;;;x
+kingdom_of_zuna;Kingdom of;;;;;;;;;;;;;x
+duke_zuna;Nomarchy;;;;;;;;;;;;;x
+duke_of_zuna;Nomarchy of;;;;;;;;;;;;;x

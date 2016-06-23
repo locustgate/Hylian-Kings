@@ -1,50 +1,89 @@
 #starting
-bloodline_gustaf = {
+bloodline_goddess = {
 	opposites = {
 		bloodline_hero
-		bloodline_firstborn 
-		}
+	}
 	diplomacy = 2
 	learning = 1
-	prestige = 1
+	monthly_character_prestige  = 0.1
 }
 bloodline_hero = {
 	opposites = {
-	bloodline_gustaf
-	bloodline_firstborn 
-		}
-	martial = 1
+	bloodline_goddess 
+	}
+	martial = 2
+	
+	combat_rating = 1
 }
 bloodline_lonlon = {
 	stewardship = 3
-	monthly_character_prestige  = -0.5
+	monthly_character_prestige  = -0.025
 }
 bloodline_debon = {
 	learning = 1
 	diplomacy = 1
-	monthly_character_prestige  = 1
+	monthly_character_prestige  = 0.1
 }
 #not direct descendents or ra, ‘adopted/educated’
 bloodline_sage = {
 	learning = 2
-	piety = 1
+	
+	monthly_character_piety = 0.1
+	
 	ai_honor = 10
 }
 #demise’s creations, his first of each ‘breed’
 bloodline_firstborn = {
 	Martial = 2
-	monthly_character_prestige  = 1
+	monthly_character_prestige  = 0.1
 	ai_honor = -10
 }
-bloodline_candora = {
-	Martial = 2
-	monthly_character_prestige  = 1
+#Firstdox Caesar
+bloodline_firstdox = {
+	opposites = {
+		bloodline_betrayers
+	}
+	diplomacy = 2
+	martial = 1
+
+	general_oppinion = 10
+	
+	monthly_character_prestige  = 0.1
 }
+##badblood
+#the 6 murderers of the first dox
+bloodline_ betrayers = {
+	opposites = {
+		bloodline_firstdox
+	}
+	intrigue = 1
+	martial = 2
+	
+	general_oppinion = -10
+	
+	monthly_character_prestige  = -0.1
+}
+
+
+##bookmark only
 #OOT
 bloodline_ganondorf = {
-	Martial = 2
+	martial = 2
 	intrigue = 1
 	ai_honor = -10
 }
-#created
-
+#daruni's ancestor slew vaati
+bloodline_dragonslayer = {
+	martial = 2
+	
+	monthly_character_prestige = 1
+}
+#ambi founder of labrynna
+bloodline_ambi = {
+	diplomacy = 2
+	learning = 1
+	
+	general_oppinion = 20
+	
+	monthly_character_prestige = 1
+}

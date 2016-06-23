@@ -1,0 +1,112 @@
+#big creatures
+club_blin = {
+	morale = 5
+	maintenance = 4
+	phase_skirmish_attack = 0.25
+	phase_melee_attack = 15
+	phase_pursue_attack = 3
+	phase_skirmish_defense = 2
+	phase_melee_defense = 4
+	phase_pursue_defense = 1
+	base_type = light_infantry
+}
+#mounted
+horse_archers = {
+	morale = 5
+	maintenance = 4
+	phase_skirmish_attack = 4
+	phase_melee_attack = 3
+	phase_pursue_attack = 7
+	phase_skirmish_defense = 4
+	phase_melee_defense = 4
+	phase_pursue_defense = 7
+	base_type = light_cavalry
+}
+#animated
+##cobble,yama
+stone_soldier = {
+	morale = 20
+	maintenance = 30
+	phase_skirmish_attack = 2
+	phase_melee_attack = 10
+	phase_pursue_attack = 1
+	phase_skirmish_defense = 10
+	phase_melee_defense = 10
+	phase_pursue_defense = 10
+	base_type = heavy_infantry
+}
+
+##WT yama
+golem = {
+	morale = 20
+	maintenance = 10
+	phase_skirmish_attack = 0.25
+	phase_melee_attack = 6
+	phase_pursue_attack = 1
+	phase_skirmish_defense = 10
+	phase_melee_defense = 4
+	phase_pursue_defense = 1
+	base_type = heavy_infantry
+}
+
+#Magic
+mage = {
+	morale = 5
+	maintenance = 4
+	phase_skirmish_attack = 4
+	phase_melee_attack = 4
+	phase_pursue_attack = 4
+	phase_skirmish_defense = 8
+	phase_melee_defense = 4
+	phase_pursue_defense = 8
+	base_type = archer
+}
+mage_sword = {
+	morale = 5
+	maintenance = 4
+	phase_skirmish_attack = 4
+	phase_melee_attack = 8
+	phase_pursue_attack = 4
+	phase_skirmish_defense = 8
+	phase_melee_defense = 8
+	phase_pursue_defense = 8
+	base_type = archer
+}
+
+#religion
+flying_knight = {
+	morale = 5
+	maintenance = 4
+	phase_skirmish_attack = 2
+	phase_melee_attack = 3
+	phase_pursue_attack = 15
+	phase_skirmish_defense = 1
+	phase_melee_defense = 10
+	phase_pursue_defense = 20
+	base_type = light_cavalry
+} 
+iron_knuckle = {
+	morale = 20
+	maintenance = 5
+	phase_skirmish_attack = 0.25
+	phase_melee_attack = 12
+	phase_pursue_attack = 0.25
+	phase_skirmish_defense = 4
+	phase_melee_defense = 4
+	phase_pursue_defense = 2
+	base_type = heavy_infantry
+}
+phantoms = {
+	morale = 20
+	maintenance = 5
+	phase_skirmish_attack = 0.25
+	phase_melee_attack = 12
+	phase_pursue_attack = 1
+	phase_skirmish_defense = 10
+	phase_melee_defense = 10
+	phase_pursue_defense = 5
+	base_type = heavy_infantry
+}
+
+
+

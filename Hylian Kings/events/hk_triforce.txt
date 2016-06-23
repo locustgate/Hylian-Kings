@@ -1,0 +1,612 @@
+namespace = triforce
+
+character_event = {
+	id = triforce.0
+	desc = "DESC_TF.0"
+	picture = "GFX_evt_comet"
+	
+	min_age = 9
+	max_age = 30
+	capable_only = yes
+	
+	trigger = {
+		NOT = { trait = triforce }
+		NOT = { trait = triforce_courage }
+		NOT = { trait = triforce_power }
+		NOT = { trait = triforce_wisdom }
+		NOR = { trait = weak 
+				trait = feeble }
+		NOT = { religion_group = demon_group }
+		NOR= {
+			triforce_power = {
+				is_alive = yes
+			}
+			triforce = {
+				is_alive = yes
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 100
+		modifier = { 
+			factor = 0.5
+			ai = no
+		}
+		modifier = {
+			factor = 0.5
+			trait = demise_soul
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.5
+			trait = strong
+		}
+		modifier = {
+			factor = 0.5
+			trait = robust
+		}
+		modifier = {
+			factor = 0.5
+			trait = race_hylian
+		}
+		modifier = {
+			factor = 0.5
+			culture = gerudo
+		}
+		modifier = {
+			factor = 0.5
+			culture = darknut
+		}
+		modifier = {
+			factor = 0.6
+			trait = race_darknut
+		}
+		modifier = {
+			factor = 0.6
+			trait = race_gerudo
+		}
+		modifier = {
+			factor = 0.6
+			trait = proud
+		}
+		modifier = {
+			factor = 0.7
+			trait = race_human
+		}
+		modifier = {
+			factor = 0.9
+			trait = race_wind
+		}
+		modifier = {
+			factor = 0.9
+			trait = race_sheikah
+		}
+		modifier = {
+			factor = 0.9
+			trait = race_wizzrobe
+		}
+	}
+	immediate = {
+		add_trait = triforce_power
+	}
+	option = {
+		name = "OPTF0A"
+	}
+}
+character_event = {
+	id = triforce.1
+	desc = "DESC_TF.1"
+	picture = "GFX_evt_comet"
+	
+	min_age = 9
+	max_age = 18
+	capable_only = yes
+	
+	trigger = {
+		NOT = { trait = triforce }
+		NOT = { trait = triforce_courage }
+		NOT = { trait = triforce_power }
+		NOT = { trait = triforce_wisdom }
+		NOR = { trait = coward 
+				trait = greedy 
+				trait = envious 
+				trait = weak 
+				trait = proud	
+				trait = arbitrary }
+		NOT = { religion_group = demon_group }
+		NOR= {
+			triforce_courage = {
+				is_alive = yes
+			}
+			triforce = {
+				is_alive = yes
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 0.90
+		modifier = { 
+			factor = 0.5
+			ai = no
+		}
+		modifier = {
+			factor = 0.5
+			age = 9
+		}
+		modifier = {
+			factor = 0.4
+			age = 0.9
+		}
+		modifier = {
+			factor = 0.3
+			age = 12
+		}
+		modifier = {
+			factor = 0.05
+			age = 17
+		}
+		modifier = {
+			factor = 0.05
+			trait = hero_soul
+		}
+		modifier = {
+			factor = 0.1
+			trait = bloodline_hero
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.5
+			trait = brave
+		}
+		modifier = {
+			factor = 0.5
+			trait = race_hylian
+		}
+		modifier = {
+			factor = 0.5
+			culture = hyrulean
+		}
+		modifier = {
+			factor = 0.5
+			culture = west_hyrulean
+		}
+		modifier = {
+			factor = 0.5
+			culture = east_hyrulean
+		}
+		modifier = {
+			factor = 0.5
+			culture = little_hyrulean
+		}
+		modifier = {
+			factor = 0.5
+			culture = new_hyrulean
+		}
+		modifier = {
+			factor = 0.5
+			culture = calatian
+		}
+		modifier = {
+			factor = 0.5
+			culture = ordonion
+		}
+		modifier = {
+			factor = 0.6
+			trait = race_sheikah
+		}
+		modifier = {
+			factor = 0.6
+			trait = race_human
+		}
+		modifier = {
+			factor = 0.9
+			trait = race_gerudo
+		}
+		modifier = {
+			factor = 0.9
+			trait = race_wind
+		}
+		modifier = {
+			factor = 0.9
+			trait = race_darknut
+		}
+		modifier = {
+			factor = 0.9
+			trait = race_wizzrobe
+		}
+	}
+	immediate = {
+		add_trait = triforce_courage
+	}
+	option = {
+		name = "OPTF0A"
+	}
+}
+character_event = {
+	id = triforce.2
+	desc = "DESC_TF.2"
+	picture = "GFX_evt_comet"
+	
+	min_age = 9
+	max_age = 20
+	capable_only = yes
+	
+	trigger = {
+		NOT = { trait = triforce }
+		NOT = { trait = triforce_courage }
+		NOT = { trait = triforce_power }
+		NOT = { trait = triforce_wisdom }
+		NOR = { trait = slow 
+				trait = imbecile }
+		NOT = { religion_group = demon_group }
+		NOR= {
+			triforce_wisdom = {
+				is_alive = yes
+			}
+			triforce = {
+				is_alive = yes
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 0.90
+		modifier = { 
+			factor = 0.5
+			ai = no
+		}
+		modifier = {
+			factor = 0.5
+			age = 13
+		}
+		modifier = {
+			factor = 0.4
+			age = 16
+		}
+		modifier = {
+			factor = 0.05
+			age = 18
+		}
+		modifier = {
+			factor = 0.05
+			trait = hylia_soul
+		}
+		modifier = { 
+			factor = 0.5
+			is_female = yes
+		}
+		modifier = {
+			factor = 0.1
+			trait = bloodline_goddess
+		}
+		modifier = {
+			factor = 0.5
+			trait = scholar
+		}
+		modifier = {
+			factor = 0.5
+			trait = theologian
+		}
+		modifier = {
+			factor = 0.5
+			trait = mystic
+		}
+		modifier = {
+			factor = 0.5
+			trait = shrewd
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = genius
+		}
+		modifier = {
+			factor = 0.8
+			trait = quick
+		}
+		modifier = {
+			factor = 0.5
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.5
+			trait = race_hylian
+		}
+		modifier = {
+			factor = 0.5
+			culture = hyrulean
+		}
+		modifier = {
+			factor = 0.5
+			culture = west_hyrulean
+		}
+		modifier = {
+			factor = 0.5
+			culture = east_hyrulean
+		}
+		modifier = {
+			factor = 0.5
+			culture = little_hyrulean
+		}
+		modifier = {
+			factor = 0.5
+			culture = new_hyrulean
+		}
+		modifier = {
+			factor = 0.6
+			trait = race_wind
+		}
+		modifier = {
+			factor = 0.6
+			trait = race_wizzrobe
+		}
+		modifier = {
+			factor = 0.7
+			trait = race_sheikah
+		}
+		modifier = {
+			factor = 0.7
+			trait = race_human
+		}
+		modifier = {
+			factor = 0.9
+			trait = race_gerudo
+		}
+		modifier = {
+			factor = 0.9
+			trait = race_darknut
+		}
+	}
+	immediate = {
+		add_trait = triforce_wisdom
+	}
+	option = {
+		name = "OPTF0A"
+	}
+}
+
+character_event = {
+	id = triforce.3
+	desc = "DESC_TF.3"
+	picture = "GFX_evt_comet"
+	
+	trigger = {
+		OR = {
+			AND = {
+				trait = triforce_power
+				OR = {
+					trait = feeble
+					trait = infirm
+					trait = incapable
+					trait = coward
+				}
+			}
+			AND = {
+				trait = triforce_courage
+				OR = {
+					trait = greedy
+					trait = envious
+					trait = infirm
+					trait = incapable
+					trait = coward
+					trait = cruel
+					trait = arbitrary
+				}
+			}
+			AND = {
+				trait = triforce_wisdom
+				OR = {
+					trait = wroth
+					trait = gluttonous
+					trait = infirm
+					trait = incapable
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				trait = triforce_power
+			}
+		remove_trait = triforce_power
+		}
+		if = {
+			limit = {
+				trait = triforce_courage
+			}
+		remove_trait = triforce_courage
+		}
+		if = {
+			limit = {
+				trait = triforce_wisdom
+			}
+		remove_trait = triforce_wisdom
+		}
+	}
+	option = { name = "OPTF3A" } #what have I done to deserve this!
+}
+
+character_event = {
+	id = triforce.10
+	desc = "DESC_TF.10"
+	picture = "GFX_evt_comet"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OPTF10A" #Make it whole
+		FROM = {
+			character_event = { id = triforce.11 }
+		}
+	}
+	option = {
+		name = "OPTF10B" #I'll just go ahead and make a wish
+		FROM = {
+			character_event = { id = triforce.20 }
+		}
+	}
+	option = {
+		name = "OPTF10C" # The Time Isn't Right
+	}
+}
+
+character_event = {
+	id = triforce.11
+	desc = "DESC_TF.11"
+	picture = "GFX_evt_comet"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "PRAISE_DEITY"
+		hidden_tooltip = {
+		remove_trait = triforce_courage
+		remove_trait = triforce_power
+		remove_trait = triforce_wisdom
+		}
+		add_trait = triforce
+	}
+}
+character_event = {
+	id = triforce.20
+	desc = "DESC_TF.20"
+	picture = "GFX_evt_comet"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OPTRIFORCEWEALTH" #I Want wealth
+		FROM = { character_event = { id = triforce.21 }	}
+	}
+	option = {
+		name = "OPTRIFORCEINTELLIGENCE" #I want to be smart
+		FROM = { character_event = { id = triforce.22 }	}
+		trigger = {
+			OR = {
+				trait = imbecile
+				trait = slow
+			}
+		}
+	}
+	option = {
+		name = "OPTRIFORCESTRENGTH" #I want to be strong
+		FROM = { character_event = { id = triforce.23 }	}
+		trigger = {
+			OR = {
+				trait = weak
+				trait = feeble
+			}
+		}
+	}
+	option = {
+		name = "OPTRIFORCEBEAUTY" #I want to be attractive
+		FROM = { character_event = { id = triforce.24 }	}
+		trigger = {
+			trait = ugly
+		}
+	}
+	option = { 
+		name = "OPTF20NO" # I can't make up my mind
+	}
+}
+character_event = {
+	id = triforce.21
+	desc = "DESC_TF.21"
+	picture = "GFX_evt_comet"
+	
+	is_triggered_only = yes
+	option = {
+		name = "OPTF21YES"
+			hidden_tooltip = {
+				remove_trait = triforce
+				remove_trait = triforce_courage
+				remove_trait = triforce_power
+				remove_trait = triforce_wisdom
+			}
+			wealth = 20000
+	}
+}
+character_event = {
+	id = triforce.22
+	desc = "DESC_TF.22"
+	picture = "GFX_evt_comet"
+	
+	is_triggered_only = yes
+	option = {
+		name = "OPTF22YES"
+			hidden_tooltip = {
+				remove_trait = triforce
+				remove_trait = triforce_courage
+				remove_trait = triforce_power
+				remove_trait = triforce_wisdom
+				remove_trait = imbecile
+				remove_trait = slow
+			}
+			add_trait = genius
+	}
+}
+character_event = {
+	id = triforce.23
+	desc = "DESC_TF.23"
+	picture = "GFX_evt_comet"
+	
+	is_triggered_only = yes
+	option = {
+		name = "OPTF23YES"
+			hidden_tooltip = {
+				remove_trait = triforce
+				remove_trait = triforce_courage
+				remove_trait = triforce_power
+				remove_trait = triforce_wisdom
+				remove_trait = weak
+				remove_trait = feeble
+				remove_trait = brawny
+				remove_trait = strong
+			}
+			add_trait = strong
+			add_trait = brawny
+	}
+}
+character_event = {
+	id = triforce.24
+	desc = "DESC_TF.24"
+	picture = "GFX_evt_comet"
+	
+	is_triggered_only = yes
+	option = {
+		name = "OPTF24YES"
+			hidden_tooltip = {
+				remove_trait = triforce
+				remove_trait = triforce_courage
+				remove_trait = triforce_power
+				remove_trait = triforce_wisdom
+				remove_trait = ugly
+			}
+			add_trait = fair
+	}
+}

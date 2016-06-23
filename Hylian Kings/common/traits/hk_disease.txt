@@ -1,0 +1,114 @@
+#normal disease
+#magical
+magic_ill = { #potion cured
+	is_health = yes
+	is_illness = yes
+	
+	opposites =  {
+		pneumonic
+		ill
+	}
+	
+	martial = -2
+	health = -3
+	fertility = -0.2
+	
+	combat_rating = -2
+	
+	customizer = no
+}
+curse_gibdo = { #great fairy tears or golden skultaka or poe soul
+	is_health = yes
+	is_illness = yes
+	diplomacy = -2
+	health = -2
+	fertility = -0.2
+	
+	sex_appeal_opinion = -50
+	same_opinion = 5
+	 
+	vassal_opinion = -20
+	
+	combat_rating = -2
+	
+	male_insult = INSULT_GIBDO
+	female_insult = INSULT_GIBDO
+	male_insult_adj = INSULT_UNCLEAN
+	female_insult_adj = INSULT_UNCLEAN
+}
+curse_sleep = { #great fairy tears or golden skultaka or poe soul
+	is_health = yes
+	
+	incapacitating = yes # Will need a regent
+	
+	diplomacy = -10
+	intrigue = -10
+	stewardship = -10
+	martial = -10
+	learning = -10
+	
+	fertility = -0.3 #sleeping beutey.....dirty dirty fairytail
+	immortal = yes
+	
+	combat_rating = -10
+	
+	male_insult = INSULT_VEGETABLE
+	female_insult = INSULT_VEGETABLE
+}
+curse_petrified = { #great fairy tears or golden skultaka or poe soul
+	is_health = yes
+	#downgrades to partial
+	incapacitating = yes # Will need a regent
+	
+	diplomacy = -10
+	intrigue = -10
+	stewardship = -10
+	martial = -10
+	learning = -10
+	
+	fertility = -50
+	immortal = yes
+	
+	combat_rating = -100
+	
+	male_insult = INSULT_STATUE
+	female_insult = INSULT_STATUE
+}
+curse_petrified_partial = {#great fairy tears or golden skultaka or poe soul
+	is_health = yes
+	
+	incapacitating = no # Will not need a regent
+	
+	diplomacy = -3
+	intrigue = -3
+	stewardship = -3
+	martial = -3
+	learning = -3
+	
+	fertility = -50
+	immortal = yes
+	
+	combat_rating = -3
+	
+	male_insult = INSULT_STATUE
+	female_insult = INSULT_STATUE
+}
+curse_disfigured = { #has been horribly disfigured, but can still talk and function slightly normally
+	is_health = yes #great fairy tears or golden skultaka or poe soul
+	
+	incapacitating = no # Will not need a regent
+	
+	diplomacy = -3
+	intrigue = -3
+	stewardship = -3
+	martial = -3
+	learning = -3
+	
+	fertility = -50
+	immortal = yes
+	
+	combat_rating = -3
+	
+	male_insult = INSULT_MONSTER
+	female_insult = INSULT_MONSTER
+}

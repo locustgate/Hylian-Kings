@@ -1,0 +1,203 @@
+feudal_governments = {
+
+	feudal_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE 
+			FORT
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		gerudo_government 
+		goron_government
+		imperialism_government
+		legion_government
+		mage_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		accepts_liege_government_religion = {
+		barbaric_government
+		}
+		vassal_call_to_arms = {
+			tribal_government
+			barbaric_government
+			goron_government
+			gerudo_government
+			imperialism_government
+			mage_government
+			kokiri_government
+		}
+		potential = {
+			NOR = {
+			culture_group = blin 
+			culture_group = lfos
+			cultur_group = goron_group
+			culture = demon
+			religion_group = demon_religion
+			culture = gerudo
+			}
+		}
+		color = { 91 133 207 }
+		
+		barons_need_dynasty = yes
+		capital_move_delay = 960
+
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+	}
+
+	#barbaric feudal
+	barbaric_governmnet = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE
+			FORT
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead	
+		feudal_government
+		gerudo_government
+		imperialism_government
+		mage_government
+		goron_government		
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		vassal_call_to_arms = {
+			tribal_government
+			feudal_government
+			goron_government
+			gerudo_government
+			imperialism_government
+			mage_government
+			kokiri_government
+		}
+		potential = {
+			OR = {
+				culture_group = blin
+				culture_group = lfos
+				culture = demon
+				culture = river_zora
+				culture = geozard
+				religion_group = demon_group
+			}
+			is_patrician = no
+		}
+		
+		color = { 207 91 91 }
+		
+		uses_prestige_for_law_change = yes
+		capital_move_delay = 960
+		
+		dukes_called_kings = yes
+		barons_need_dynasty = yes
+		free_retract_vassalage = yes
+		can_build_tribal = no
+		allow_looting = yes
+		max_consorts = 3
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+			kokiri_government
+			legion_government
+		}
+	}
+#darknut
+	imperialism_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE
+			FORT
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments_religion = { # They don't like being below
+		mage_government
+		feudal_government
+		}
+		
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		potential = {
+			religion = darknut_doctrine
+			culture = darknut
+			is_patrician = no
+		}
+		vassal_call_to_arms = {
+			tribal_government
+			legion_government
+			mage_government
+			kokiri_government
+		}	
+		color = { 254 254 200}
+		
+		uses_prestige_for_law_change = yes
+		
+		barons_need_dynasty = yes
+		can_build_tribal = no
+		capital_move_delay = 960
+		can_build_city = no
+		allow_looting = yes
+		uses_prestige_for_law_change = yes
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+			kokiri_government
+			legion_government
+		}
+	}
+	#mageocracy
+	mage_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE 
+			CITY
+			TEMPLE
+			FORT
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments_religion = { # They don't like being below
+		imperialism_government
+		feudal_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		vassal_call_to_arms = {
+			tribal_government
+			imperialism_government
+			legion_government
+			kokiri_government
+		}
+		potential = {
+			religion = wizzrobe_doctrine 
+		}
+		
+		color = { 123 36 46 }
+		
+		dukes_called_kings = no
+		barons_need_dynasty = yes
+		can_build_tribal = no
+		capital_move_delay = 960
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+			kokiri_government
+			legion_government
+		}
+	}
+}

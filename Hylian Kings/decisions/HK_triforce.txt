@@ -1,0 +1,75 @@
+decisions = {
+	form_triforce = {
+	is_high_prio = yes
+	filter = home_court	
+	ai_target_filter = home_court
+	
+	from_potential = {
+		is_ruler = yes
+		is_prisoner = no
+	}
+	
+	potential = {
+		OR = {
+		trait = triforce_wisdom
+		trait = triforce_power
+		trait = triforce_courage }
+	}
+	
+	allow = {
+		trait = triforce_wisdom
+		trait = triforce_power
+		trait = triforce_courage
+	}
+
+	effect = {
+		FROM = { character_event = { id = triforce.10 } }
+	}
+
+	ai_will_do = {
+		factor = 1
+		}
+	}
+}
+decisions = {
+	triforce_wish = {
+	is_high_prio = yes
+	filter = home_court	
+	ai_target_filter = home_court
+	
+	from_potential = {
+		is_ruler = yes
+		is_prisoner = no
+	}
+	
+	potential = {
+		OR = {
+			AND = {
+				trait = triforce_wisdom
+				trait = triforce_power
+				trait = triforce_courage
+			}
+			trait = triforce
+		}
+	}
+	
+	allow = {
+		OR = {
+			AND = {
+				trait = triforce_wisdom
+				trait = triforce_power
+				trait = triforce_courage
+			}
+			trait = triforce
+		}
+	}
+
+	effect = {
+		FROM = { character_event = { id = triforce.20 } }
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+	}
+}
