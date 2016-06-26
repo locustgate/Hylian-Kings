@@ -623,13 +623,14 @@ k_koridai = {
 			}
 		}
 	}
-	d_main_island = {
+	d_koridai = {
 			color={ 161 83 0 }
 			color2={ 220 75 44 }
 			capital = 1
 		c_lower_crater = {
 			color={ 161 83 0 }
 			color2={ 220 75 44 }
+			
 			b_centrum = {}
 			b_glutko = {}
 			b_goronu = {}
@@ -645,15 +646,13 @@ k_koridai = {
 			b_nortinka
 			b_serigon
 		}
-		c_bite_mark
-		c_right_ear
-		c_left_ear
-		c_bend
-		}
-		d_west_chain= {
-		}
-		d_east_chain = {
-		}
+		c_bite_mark = {}
+		c_right_ear = {}
+		c_left_ear = {}
+		c_bend = {}
+	}
+	#d_collar = {
+	#}
 }
 k_gamelon = {
 		color={ 214 18 0 }
