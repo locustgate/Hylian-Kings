@@ -6,13 +6,13 @@ title = c_lower_crater
 # Settlements
 max_settlements = 4
 
-b_centrum = castle
-b_glutko = castle
-b_goronu = city
-b_toyku = temple
+b_centrum = tribal
+#b_glutko = castle
+#b_goronu = city
+#b_toyku = temple
 
 # Misc
 culture = koridain
 religion = golden_goddesses
-terrain = desert
+terrain = DESERT
 #History

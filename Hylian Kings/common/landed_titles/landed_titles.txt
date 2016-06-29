@@ -60,6 +60,8 @@ e_hyrule_central = {
 	
 		d_royal_woods = {
 		}
+		d_royal_graveyard = { #later old kakariko
+		}
 		d_hyrule_field = {
 		}
 		d_lon_lon_hill = {
@@ -97,7 +99,7 @@ k_gerudo = {
 		}
 		d_gerudo_valley = {
 		}
-		d_haunted_wasteland
+		d_haunted_wastes
 }
 k_zora_domain = {
 
@@ -173,10 +175,6 @@ e_saria = {#Saria
 		d_saria = {
 		}
 		d_midoro = {
-		}
-		d_tantan = {
-		}
-		d_parapa = {
 		}
 		d_palace_island = {
 		}
@@ -258,11 +256,11 @@ e_cobble = {
 		}
 	}
 	k_cobble =  {
-		d_monument_mountain = {
-		}
 		d_pyramid_lands = {
 		}
 		d_east_banan = {
+		}
+		d_monument_lands = {
 		}
 	}
 	k_gravel = {
@@ -288,7 +286,7 @@ e_cobble = {
 		d_frost_peaks = {
 		}
 	}
-}
+
 k_mason =  = { #part of cobble 4 swords
 	d_ichiro = {
 	}
@@ -327,12 +325,11 @@ e_holodrum = {
 		}
 	}
 	k_horon  = {
-		d_holodrum_plain = {
+		d_horon_plains = {
 		}
-		d_spool_swamp = {
+		d_horon = {
 		}
-		d_horon_woods = {
-		}
+		d_jungle_happiness
 	}
 	k_holodrum = {
 		d_cucco = {
@@ -376,7 +373,7 @@ e_labrynna = {
 		d_talus = {
 			c_talus = {
 			}
-			c_cymmetry = {
+			c_symmetry = {
 			}
 		}
 		d_lynna = {
@@ -405,9 +402,7 @@ e_hytopia = {
 		}
 		d_witch_highlands = {
 		}
-		d_isle_trials = {
-		}
-		d_sky_realm  = {
+		d_witch_isles = {
 		}
 	}
 	k_fablands = {
@@ -613,7 +608,7 @@ k_koridai = {
 		color={ 112 227 220 }
 		color2={ 220 75 44 }
 		
-		capital = 1 #Gowrie
+		capital = 2 #Upper crater
 			allow = {
 		hidden_tooltip = {
 			OR = {
@@ -626,7 +621,7 @@ k_koridai = {
 	d_koridai = {
 			color={ 161 83 0 }
 			color2={ 220 75 44 }
-			capital = 1
+			capital = 2
 		c_lower_crater = {
 			color={ 161 83 0 }
 			color2={ 220 75 44 }
@@ -636,23 +631,103 @@ k_koridai = {
 			b_goronu = {}
 			b_toyku = {}
 		}
-		c_uppder_crater = {
+		c_upper_crater = {
 			color={ 154 96 34 }
 			color2={ 220 75 44 }
-			b_firestone
-			b_harlequin
-			b_lupay
-			b_militron
-			b_nortinka
-			b_serigon
+			b_firestone = {}
+			b_harlequin = {}
+			b_lupay = {}
+			b_militron = {}
+			b_nortinka = {}
+			b_serigon = {}
 		}
-		c_bite_mark = {}
-		c_right_ear = {}
-		c_left_ear = {}
-		c_bend = {}
+		c_left_ear = {
+			color={ 250 162 68 }
+			color2={ 255 255 255 }
+			b_linekpa = {}
+			b_senu = {}
+			b_horay  = {}	
+		}
+		c_bite_mark = {	
+			color={ 248 143 29 }
+			color2={ 0 0 0 }
+			b_nerlen = {}
+			b_mitra = {}	
+		}
+		c_right_ear = {
+			color={ 160 94 23 }
+			color2={ 160 94 23 }
+			b_hunitra = {}
+			b_huqisto = {}
+		}
+		c_bend = {
+			color={ 154 108 58 }
+			color2={ 216 255 0 }
+			b_loren = {}
+			b_huitra = {}
+			b_surlu = {}	
+		}
 	}
-	#d_collar = {
-	#}
+	d_chain = {
+		color={ 253 176 107 }
+		color2={ 150 83 24 }
+		capital = 11
+		c_menen  = {
+		
+			b_glepo = {}
+			b_gioro = {}
+			b_malonu = {}
+			b_cotra = {}
+		}	
+		c_lunen  = {
+			color={ 223 126 40 }
+			color2={ 218 193 170 }
+			b_lerere = {}
+			b_getra = {}
+			b_malonu = {}
+			b_cotra = {}
+		
+		}	
+		c_cotko  = {
+			color={ 102 255 0 }
+			color2={ 222 105 1 }
+		
+			b_ciqenu = {}
+			b_ceropo = {}
+		}	
+		c_suroro  = {
+			color={ 255 228 204 }
+			color2={ 247 204 255 }
+		
+			b_tuire = {}
+			b_huqin = {}
+		
+		}	
+		c_fokoqa  = {
+			color={ 253 176 107 }
+			color2={ 150 83 24 }
+		
+			b_gisten = {}
+			b_selere = {}
+		}	
+		c_coken  = {
+			color={ 252 148 56 }
+			color2={ 252 93 56 }
+		
+			b_tekum = {}
+			b_nukore = {}
+			b_tuqo = {}
+			b_hirotra = {}
+		}	
+		c_fetku  = {
+			color={ 255 121 0 }
+			color2={ 73 47 3}
+		
+			b_cigoru = {}
+			b_girla = {}
+			b_fatra = {}
+		}	
+	}
 }
 k_gamelon = {
 		color={ 214 18 0 }
@@ -661,15 +736,7 @@ k_gamelon = {
 		capital = 43 #Gowrie
 		d_dodomai = {
 		}
-		d_hanyu = {
-		}
-		d_reesong = {
-		}
-		d_tykogi_isles = {
-		}
 		d_aru_ainu = {
-		}
-		d_ahitaru = {
 		}
 }
 #kingdoms
@@ -684,21 +751,11 @@ k_tolemac = {
 		color2={ 255 255 255 }
 		
 		capital = 43 #Gowrie
-		d_south_lost_forest = {
-		}
-		d_andor = {
-		}
 		d_skotness = {
 		}
 		d_canvula = {
 		}
 		d_sabasha = {
-		}
-		d_ubata = {
-		}
-		d_hobel = {
-		}
-		d_vendoss = {
 		}
 		d_tolemac = {
 		}
@@ -713,4 +770,15 @@ k_western_isles = {
 	d_steamy_isle = {
 	}
 }
-k_port_isle
+k_moria = {
+	d_avelon
+	d_moria
+	
+}
+k_port_isle = {
+
+}
+k_koholint = {
+	d_tal_tal
+	d_ukuku
+}
