@@ -276,6 +276,19 @@ Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
 
 		modifier = default_culture_modifier
 	}
+	hylian_hanman = { 
+		graphical_cultures = { hhanmangfx cumangfx hyliangfx } #hhanmangfx
+		color = { 0 0.4 0 }
+		
+		parent = skylofter
+
+		male_names = {
+		Rahn Khaga Lak Popoo Novay Hatitoi Xagar Novaso Xinsa Lomoi Bamira Jaluk Sukar Khago Xax Crin Xinmo Soron Phun Sour Noviga Mamir Bohn Pando Noo Lugar Saego Xipoo Pim Mamak Sar Phinmo Jalat Bamoy Poth Sansa Jalit Par Jimoi Khavosour Lagix Lapir Rok Lagik Xasar Jalak Bivoi Sanmo Sapik Nour Lagara Lago Juma Lagax Sukakik Khayt Jalim Pimik Phuman Jalir Lagin Kipoo Baek Ninmo Kisir Khahn Xanmo Khasar Pumoi Kang Lisar Hyaek Baman Lagama Paelar Lapay Lagila Jalout Samisir Soorar Nitaek Pour Xagax Sumoi Bagoi Lato Mint Samuroi Honmo Phara Xalar Lamoi Satar Har Namar Mapoo Runmo Linmo Sorat Jalix
+		}
+		female_names = {
+		Kanu Ioka Iolinu Hida Hikunada Hilla Kinida Pulina Vanali Meadana Dinay Ionili Pueka Veali Paka Kieku Kulavili Vikao Manay Pieda Viva Hivia Hiki Aivay Hikay Keala Iolili Kanao Kueva Hilli Hivil Ionay Vinia Sanay Palla Heala Hillu Pinanay Deakuelao Kivay Hieni Pinia Savay Hika Hanay Ionana Diku Vidinu Halao Kikabay Pivay Pani Killaku Kanunay Kulay Hinay Kika Killika Kueng Pavay Kaku Hani Maka Salao Mei Kaka Haka Hinina Kalal Ioal Dilaka Hanilla Kanealika Ionani Ioku Wrynika Milia Meali Dalila Sileaki Pakieni Hunu Ioli Pinineal Sinay Kadika Hilava Sakali Saku Sanu Panay Keaka Hanal Hilay Ionika Hilani Makali Pali Pika Aina 
+		}
+	}
 }
 round_eared = {
 	graphical_cultures = { germangfx }
@@ -669,7 +682,7 @@ round_eared = {
 		modifier = default_culture_modifier
 	}
 	hanman = {
-		graphical_cultures = { mongolgfx germangfx }
+		graphical_cultures = { hanmangfx germangfx }
 		color = { 0 0.4 0 }
 
 		male_names = {
@@ -1502,7 +1515,7 @@ blin = {
 
 		}
 		female_names = {
-			Ogalon Vaylanon Dharmina Bulbalus Balba Lyre Bagana Molya	Halya Molba Mulya Maga Kogon Kanas Mala Rein Halbala Lyan Grona Bona Bogalya Banon Dhanas Hurmormala Greinch Grein Onogo Vonone Orman Balyala Valon Monas Malbane Dhanon Holbon Golah Lyron Dhein Monoley Banolon Bananon Gogarman Hanon Balanas Kolanon Kugalya Rola Monan Monoh Bonas Kala Malbey Olunas Maley Ralyon Manah Reinah Monein Bryana Keigo Konalbe Malinon Bagas Kalyon Balyas Hurma Rolya Halinas Gale Bryalon Mana Kanala Malon Olyalun Konanon Kalan Mulah Balalya Vunagein Honan Balya Haley Harme Muna Vona Mulyan Manoh Volya Lyras Valona Kurme Rala Balein Monanas Mulan Kolah Golana Golola Gina Valarmun
+			Ogalon Vaylanon Dharmina Bulbalus Balba Lyre Bagana Molya Halya Molba Mulya Maga Kogon Kanas Mala Rein Halbala Lyan Grona Bona Bogalya Banon Dhanas Hurmormala Greinch Grein Onogo Vonone Orman Balyala Valon Monas Malbane Dhanon Holbon Golah Lyron Dhein Monoley Banolon Bananon Gogarman Hanon Balanas Kolanon Kugalya Rola Monan Monoh Bonas Kala Malbey Olunas Maley Ralyon Manah Reinah Monein Bryana Keigo Konalbe Malinon Bagas Kalyon Balyas Hurma Rolya Halinas Gale Bryalon Mana Kanala Malon Olyalun Konanon Kalan Mulah Balalya Vunagein Honan Balya Haley Harme Muna Vona Mulyan Manoh Volya Lyras Valona Kurme Rala Balein Monanas Mulan Kolah Golana Golola Gina Valarmun
 		}
 		
 		allow_looting = yes 
@@ -1815,19 +1828,5 @@ dead_cultures = {
 			Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Leila Mama Marcy Pina Pita Maggie Paige Sheila Tina Verona Honey Marilla Judo Cremia Epona Romani Pamela Ashei Iza Hena Agitha Kili Hanna Misha Fanadi Telma Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Aryll Rose Sue-Belle Sue Belle Gillian Joanna Potova Linda Maggie Milia Minenco Missey Pompie Peach Daisy Rosalina Lissa Lucinia Emmeryn Hylia Linkette Yelda Linkle
 		}
 	modifier = default_culture_modifier
-	}
-	
-	ancient_xing = { #lan
-		graphical_cultures = { cumangfx hyliangfx }
-		color = { 0 0.4 0 }
-		
-		parent = skylofter
-
-		male_names = {
-		Arthit Kamon Klahan Kulap Mongkut Prasert Preecha Sombun Somchai Somphorn Somsakdi Suchart Sunan Thaksin Wattana
-		}
-		female_names = {
-		 Among Kamon Kanda Kanya Kulap Lawan Malai Mali Pakpao Ratree Sasithorn Siriporn Sukhon Sunan Ubon
-		}
 	}
 }
