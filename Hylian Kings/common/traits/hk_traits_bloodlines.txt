@@ -50,6 +50,15 @@ bloodline_firstdox = {
 	
 	monthly_character_prestige  = 0.1
 }
+#Batraux blood of a former demon and advisor and ally to the Jakamara bloodline_
+bloodline_batreaux = {
+	health = 0.5
+	learning = 2
+	diplomacy = 1
+	monthly_character_piety  = -0.1
+	
+	ai_honor = 10
+}
 ##badblood
 #the 6 murderers of the first dox
 bloodline_ betrayers = {

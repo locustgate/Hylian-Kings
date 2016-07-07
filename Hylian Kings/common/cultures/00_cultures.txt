@@ -277,7 +277,7 @@ Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
 		modifier = default_culture_modifier
 	}
 	hylian_hanman = { 
-		graphical_cultures = { hhanmangfx cumangfx hyliangfx } #hhanmangfx
+		graphical_cultures = { hhanmangfx mongolgfx hyliangfx } #hhanmangfx
 		color = { 0 0.4 0 }
 		
 		parent = skylofter
@@ -511,10 +511,10 @@ round_eared = {
 		color = { 1 0.84 0 }
 
 		male_names= {
-		Facade Abel Absolon Aime Alain Alderic Barnabe Baptiste Basile Baudouin Benoit Celestin Clair Clovis Cosme Cyril Donat Dorian Dimitri Didier Desire Edgar Edme Edmond Edouard Eloi Emile Fiarce Firmin Florence Florent Felix Gabril Gaultier Gilles Gratien Guy Gwenneg Henri Hercule Hilaire Honore Hubert Jasmin Jean Jeremie Joachim Jodoc Kevin Lambert Leon Leandre Luc Lucas Lucrece Ludovic Mael Maxence Maxime Michael Morgan Narcisse Nathan Nathanael Nazaire Norbert Odilon Olivier Onesime Padrig Paol Pierrick Placide Pons Prosper Quentin Rainier Raoul Raphael Raymond Regis Roch Samuel Seraphin Serge Stephane Sylvain Theo Tristan Timothee Toussaint Ulrich Urban Valentin Velery Victor Vincent Yann Xavier Winoc 
+		Arcadius Facade Abel Absolon Aime Alain Alderic Barnabe Baptiste Basile Baudouin Benoit Celestin Clair Clovis Cosme Cyril Donat Dorian Dimitri Didier Desire Edgar Edme Edmond Edouard Eloi Emile Fiarce Firmin Florence Florent Felix Gabril Gaultier Gilles Gratien Guy Gwenneg Henri Hercule Hilaire Honore Hubert Jasmin Jean Jeremie Joachim Jodoc Kevin Lambert Leon Leandre Luc Lucas Lucrece Ludovic Mael Maxence Maxime Michael Morgan Narcisse Nathan Nathanael Nazaire Norbert Odilon Olivier Onesime Padrig Paol Pierrick Placide Pons Prosper Quentin Rainier Raoul Raphael Raymond Regis Roch Samuel Seraphin Serge Stephane Sylvain Theo Tristan Timothee Toussaint Ulrich Urban Valentin Velery Victor Vincent Yann Xavier Winoc 
 		}
 		female_names = {
-		Adelaide Adele Agnes Aimee Alex Barbara Beatrice Benedicte Berengere Berthe Brigitte Camille Cassandra Catherine Chloe Clemence Delia Denise Domitille Dorothee Edith Elise Elodie Elvire Emilie Emma Fifi Flavie Fleur Fleurette Flore Francine Gervaise Germaine Genevieve Gilberte Gisele Heloise Hortense Huguette Hyacinthe Herma Irene Iris Isaure Isabelle Jacinthe Jacqueline Jacquette Jessica Joanne Julienne Juliette Katarin Katell Laetitia Laure Lea Leonide Lise Luce Lydie Mahaut Mailys Marceline Margaux Mari Meline Muriel Murielle Natalie Nina Noele Noelle Oanez Oceane Odette Odile Olympe Paule Paulette Petronile Pierrette Rachel Raphaelle Renee Rolande Romane Sandra Sarah Sidonie Simone Solange Toinette Valentine Valerie Verene Victoire Viviane Yannic
+		Arcadia Adelaide Adele Agnes Aimee Alex Barbara Beatrice Benedicte Berengere Berthe Brigitte Camille Cassandra Catherine Chloe Clemence Delia Denise Domitille Dorothee Edith Elise Elodie Elvire Emilie Emma Fifi Flavie Fleur Fleurette Flore Francine Gervaise Germaine Genevieve Gilberte Gisele Heloise Hortense Huguette Hyacinthe Herma Irene Iris Isaure Isabelle Jacinthe Jacqueline Jacquette Jessica Joanne Julienne Juliette Katarin Katell Laetitia Laure Lea Leonide Lise Luce Lydie Mahaut Mailys Marceline Margaux Mari Meline Muriel Murielle Natalie Nina Noele Noelle Oanez Oceane Odette Odile Olympe Paule Paulette Petronile Pierrette Rachel Raphaelle Renee Rolande Romane Sandra Sarah Sidonie Simone Solange Toinette Valentine Valerie Verene Victoire Viviane Yannic
 		}
 		from_dynasty_prefix = "de "
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.

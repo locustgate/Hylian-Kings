@@ -1,9 +1,9 @@
 namespace = item
 ###
 #Shopping events 
-# item.0-
+# item.0-32
 #Item use
-# item. -
+# item.33-
 character_event = {
 	id = item.0
 	desc = "DESC_item.0"
@@ -17,7 +17,7 @@ character_event = {
 	}
 	option = {
 		name = "OPITEMGENERAL" #I want to go to the general store
-		FROM = { character_event = { id = item.9 }	}
+		FROM = { character_event = { id = item.5 }	}
 	}
 #	option = {
 #		name = "OPITEMCLOTHING" #I want to go to the general store
@@ -221,6 +221,15 @@ character_event = {
 			trigger = {
 			NOR = {
 				trait = bomb_bag
+			}
+		}
+	}
+	option = {
+		name = "OPITEMMAGICARMOR" #I Want to go to the potion make
+		FROM = { character_event = { id = item.32 } } 
+			trigger = {
+			NOR = {
+				trait = magic_armor
 			}
 		}
 	}
