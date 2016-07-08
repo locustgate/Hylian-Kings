@@ -1,6 +1,9 @@
 #In same order as event folder
 #
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#courtier
+
+#fairy
 DESC_FAIRY.0;I am awoken in the morning to a suddent yell of "Hey! Wake Up!" and find a fairy floating above me.;Je réveillé le matin pour un cri suddent de " Hey ! Wake Up! " et de trouver une fée flottant au-dessus de moi.;Ich bin am Morgen zu einem suddent Schrei aufgewacht "Hey! Wach auf! " und finden Sie eine Fee über mir schweben.;;Me despertaron en la mañana a un grito suddent de " Hey ! Wake Up ! " y encontrar un hada flotando por encima de mí .;;;;;;;;;x
 OPFAIRY.0A;Does this mean I finally have a fairy friend!?;Est- ce que cela signifie que j'ai enfin un ami de fées !?;Heißt das, ich habe endlich eine Fee Freund !?;;¿Esto significa que por fin tengo un amigo de hadas !?;;;;;;;;x
 DESC_FAIRY.1;My ward came running into my chambers trailed by fairy. They explained that they were finally chosen by a fairy.;Mon service est arrivé en courant dans mes chambres traînées par fée. Ils ont expliqué qu'ils ont finalement été choisis par une fée .;Meine Station kam mir in den Kammern von Fee schleppte läuft. Sie erklärten, dass sie von einer Fee schließlich ausgewählt wurden.;;Mi barrio entró corriendo en mis cámaras perdían por hadas. Explicaron que finalmente fueron elegidos por un hada .;;;;;;;;;x
@@ -60,6 +63,8 @@ DESC_item.29;"Goron specil bag of bombs, you can use them to mine some tasty roc
 DESC_item.30;As I enter the the forge I see a large goron taking up most of the room. "Welcome I mostly make stuff for the warriors, but I always have extra equipment laying around.";;;;;;;;;x
 OPITEMKNIFE;"What's that large sword?";;;;;;;;;x
 DESC_item.31;"That's a knife for a Biggoron, but he doesn't really use them very much.";;;;;;;;;x
+OPITEMMAGICARMOR;"What is that set of armor?";;;;;;;;;x
+DESC_item.32;"That's a set of Wizzrobe made Magic Armor. It'll protect you from almost any form of attack."
 ;;;;;;;;;x
 ;;;;;;;;;x
 ;;;;;;;;;x

@@ -1,3 +1,26 @@
+e_rebels = {
+	rebel = yes
+	landless = yes
+	primary = yes
+
+	culture = swedish
+	tribe = yes
+
+	color={ 0 0 0 }
+	color2={ 0 0 0 }
+}
+
+e_pirates = {
+	pirate = yes
+	landless = yes
+	primary = yes
+
+	culture = swedish
+	tribe = yes
+
+	color={ 0 0 0 }
+	color2={ 0 0 0 }
+}
 #hyrule
 e_hyrule_central = {
 	color={ 0 0 204 }
@@ -26,8 +49,8 @@ e_hyrule_central = {
 		color={ 213 25 10 }
 		color2={ 255 255 255 }
 		capital = 32 # Middlesex
-		dignity = 5 # Counted as having this many more counties than it does
-	
+		dignity = 10 # Counted as having this many more counties than it does
+			
 		#late_hyrulean = Hyrule
 		hyrulean = North Hyrule
 		kakarikon = Kakariko
@@ -47,7 +70,7 @@ e_hyrule_central = {
 		color={ 145 196 251 }
 		color2={ 255 255 255 }
 		capital = 32 # Middlesex
-		dignity = 10 # Counted as having this many more counties than it does
+		dignity = 20 # Counted as having this many more counties than it does
 		allow = {
 		hidden_tooltip = {
 			OR = {
@@ -109,7 +132,7 @@ k_zora_domain = {
 	}
 }
 e_saria = {#Saria
-	color={ 204 0 0 }
+	color={ 177 60 60 }
 	color2={ 255 255 255 }
 	capital = 32 # Middlesex
 	dignity = 10 # Counted as having this many more counties than it does
@@ -771,7 +794,9 @@ k_western_isles = {
 	}
 }
 k_moria = {
-	d_avelon
+	color={ 80 101 60 }
+	color2={ 255 0 0	}
+	d_grindle
 	d_moria
 	
 }

@@ -1,42 +1,42 @@
 #unique items
 
-mask_truth = {
-	intrigue = 5
-	
-}
-lens_truth = {
-	intrigue = 5
-}
-megaton_hammer = {
-	martial = 3
-	combat_rating = 2
-}
-spinner = {
-	martial = 2
-	combat_rating = 2
-}
+#mask_truth = {
+#	intrigue = 5
+#	
+#}
+#lens_truth = {
+#	intrigue = 5
+#}
+#megaton_hammer = {
+#	martial = 3
+#	combat_rating = 2
+#}
+#spinner = {
+#	martial = 2
+#	combat_rating = 2
+#}
 ##religion only unless link
-great_fairy_sword = { #fairy
-	martial = 3
-	combat_rating = 2
-}
-gale_boomerang = { #fairy
-	martial = 2
-	combat_rating = 2
-}
-lokomo_sword = { #spirits
-	martial = 3
-	combat_rating = 2
-}
-phantom_sword = { #oshus
-	martial = 2
-	combat_rating = 2	
-}
-picori_blade = { #
-	martial = 3
-	combat_rating = 2
-}
-#armor
+#great_fairy_sword = { #fairy
+#	martial = 3
+#	combat_rating = 2
+#}
+#gale_boomerang = { #fairy
+#	martial = 2
+#	combat_rating = 2
+#}
+#lokomo_sword = { #spirits
+#	martial = 3
+#	combat_rating = 2
+#}
+#phantom_sword = { #oshus
+#	martial = 2
+#	combat_rating = 2	
+#}
+#picori_blade = { #
+#	martial = 3
+#	combat_rating = 2
+#}
+##armor
 zora_armor = { #armor made for human by zora
 	martial = 2
 	combat_rating = 1
@@ -67,28 +67,28 @@ darknut_sword = {
 }
 ##magic
 
-sand_rod = {
-	combat_rating = 1
-	command_modifier = {
-	}
-}
-ice_rod = {
-	combat_rating = 1
-	command_modifier = {
-	}
-}
-wind_rod = {
-	combat_rating = 1
-	
-	command_modifier = {
-	}
-}
-fire_rod = {
-	combat_rating = 1
-	
-	command_modifier = {
-	}
-}
+#sand_rod = {
+#	combat_rating = 1
+#	command_modifier = {
+#	}
+#}
+#ice_rod = {
+#	combat_rating = 1
+#	command_modifier = {
+#	}
+#}
+#wind_rod = {
+#	combat_rating = 1
+#	
+#	command_modifier = {
+#	}
+#}
+#fire_rod = {
+#	combat_rating = 1
+#	
+#	command_modifier = {
+#	}
+#}
 #healing
 fairy_bottled = {} #cures maimed and plagues
 potion_red = {} #cures wound and illness
@@ -96,24 +96,25 @@ potion_blue = {} # cures wound and illness while replenishing magic
 potion_green = {} # fills magic
 
 #masks
-hawkeye = {
-	intrique = 2
-	martial = 1
-}
+#hawkeye = {
+#	intrique = 2
+#	martial = 1
+#}
 ##transformative
-gerudo_mask = {
-}
-darknut_mask = {
-}
-zora_mask = {
-}
-goron_mask = {
-}
-deku_mask = {
-}
+#gerudo_mask = {
+#}
+#darknut_mask = {
+#}
+#zora_mask = {
+#}
+#goron_mask = {
+#}
+#deku_mask = {
+#}
 
 #monster killing items
 bomb_bag = { #kills dodongos and rock mobs
+	martial = 2
 	command_modifier = {
 		morale_offence = 0.08
 	}
@@ -127,6 +128,6 @@ bow_ice = { #gerudo #kills fire mobs
 bow_fire = { #kills ice mobs
 	martial = 2
 }
-clawshot = { #kills hemlsaurs
-	intrique = 2
-}
+#clawshot = { #kills hemlsaurs
+#	intrique = 2
+#}

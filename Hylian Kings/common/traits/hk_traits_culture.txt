@@ -1,95 +1,91 @@
 #hyrulean+cobble+greater
-knight_squire = {
-	martial = 1
-}
-knight = {
-	martial = 2
-	command_modifier = {
-		morale_defence = 0.04
-	}
-
-} 
+#knight_squire = {
+#	martial = 1
+#}
+#knight = {
+#	martial = 2
+#	command_modifier = {
+#		morale_defence = 0.04
+#	}
+#} 
 ##knight
-mail_tunic = {
-	martial = 2
-	command_modifier = {
-		defence = 0.01
-		morale_defence = 0.02
-	}
-}
+#mail_tunic = {
+#	martial = 2
+#	command_modifier = {
+#		defence = 0.01
+#		morale_defence = 0.02
+#	}
+#}
 ##knight
-plate_tunic = {
-	martial = 3
-	command_modifier = {
-		defence = 0.02
-		morale_defence = 0.02
-		speed = -0.02
-	}
-}
+#plate_tunic = {
+#	martial = 3
+#	command_modifier = {
+#		defence = 0.02
+#		morale_defence = 0.02
+#		speed = -0.02
+#	}
+#}
 
 #hytopia (Anyone can get...but chances are very high for hytopia)
-fab = {
-	opposites = { drab }
-	
-	diplomacy = 1
-	
-	sex_appeal_opinion = 10
-	same_opinion = 10
-	opposite_opinion = -20
-	
-	monthly_character_prestige = 0.5
-	
-	male_compliment_adj = COMPL_FAB
-	female_compliment_adj = COMPL_FAB
-}
-drab = {
-	opposites = { fab }
-	
-	diplomacy = -1
-	
-	sex_appeal_opinion = -10
-	same_opinion = 10
-	opposite_opinion = -20
-	
-	monthly_character_prestige = -1
-	
-	male_insult_adj = INSULT_DRAB
-	female_insult_adj = INSULT_DRAB
-}
+#fab = {
+#	opposites = { drab }
+#	
+#	diplomacy = 1
+#	
+#	sex_appeal_opinion = 10
+#	same_opinion = 10
+#	opposite_opinion = -20
+#	
+#	monthly_character_prestige = 0.5
+#	
+#	male_compliment_adj = COMPL_FAB
+#	female_compliment_adj = COMPL_FAB
+#}
+#drab = {
+#	opposites = { fab }
+#	
+#	diplomacy = -1
+#	
+#	sex_appeal_opinion = -10
+#	same_opinion = 10
+#	opposite_opinion = -20
+#	
+#	monthly_character_prestige = -1
+#	
+#	male_insult_adj = INSULT_DRAB
+#	female_insult_adj = INSULT_DRAB
+#}
 #gerudo
 ##unwilling
-gerudo_boyfriend = {
-	cannot_inherit = yes
-	cannot_marry = yes
-
-	monthly_character_prestige = -0.5
-	general_oppinion = -30
-	same_trait_oppinion = 30
-}
+#gerudo_boyfriend = {
+#	cannot_inherit = yes
+#	cannot_marry = yes
+#
+#	monthly_character_prestige = -0.5
+#	general_oppinion = -30
+#	same_trait_oppinion = 30
+#}
 ##willing (stockholme event/willingly)
-gerudo_lover = {
-	cannot_marry = yes
-	general_oppinon = -10
-}
+#gerudo_lover = {
+#	cannot_marry = yes
+#	general_oppinon = -10
+#}
 #skyloft
-loftwing_cadet = {
-	martial = 1
-	monthly_character_prestige  = 0.5
-
-} 
-loftwing_failed = {
-	martial = 1
-	monthly_character_prestige = -1
-
-}
-loftwing_knight = {
-	martial = 3
-	monthly_character_prestige = 0.5
-	command_modifier = {
-		morale_defence = 0.04
-		speed = 0.03
-	}
-}
-
-
-
+#loftwing_cadet = {
+#	martial = 1
+#	monthly_character_prestige  = 0.5
+#
+#} 
+#loftwing_failed = {
+#	martial = 1
+#	monthly_character_prestige = -1
+#
+#}
+#loftwing_knight = {
+#	martial = 3
+#	monthly_character_prestige = 0.5
+#	command_modifier = {
+#		morale_defence = 0.04
+#		speed = 0.03
+#	}
+#}

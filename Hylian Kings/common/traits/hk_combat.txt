@@ -46,14 +46,14 @@ mage_4 = {
 	opposites = { mage_2 mage_3 mage_1 }
 }
 #command
-sapper = {
-	leader = yes
-	random = no
-	potential = {
-		culture_group = goron_group
-		culture = kakirikon
-	}
-	command_modifier = {
-	siege = 0.1
-	}
-}
+#sapper = {
+#	leader = yes
+#	random = no
+#	potential = {
+#		culture_group = goron_group
+#		culture = kakirikon
+#	}
+#	command_modifier = {
+#	siege = 0.1
+#	}
+#}

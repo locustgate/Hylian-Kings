@@ -4,71 +4,67 @@ companion_fairy = {
 	intrigue = 2
 	diplomacy = -2 #they can be annoying
 }
-fairy_bottled = {
-}
-companion_piccori = {
-	intrigue = 2
-	learning = 1
-	general_oppinion = -10 #most people can't see
-	same_opinion = 20
-}
+#companion_piccori = {
+#	intrigue = 2
+#	learning = 1
+#	general_oppinion = -10 #most people can't see
+#	same_opinion = 20
+#}
 #animal companions
-loftwing = {
-	martial = 1
-	command_modifier = {
-		speed = 0.03
-		morale_defence = 0.02
-	}
-}
-alicorn = {
-	martial = 1
-	command_modifier = {
-		speed = 0.03
-		morale_defence = 0.02
-	}
-}
-hyrulean_horse = {
-	martial = 2
-	command_modifier = {
-		speed = 0.01
-	}
-}
-bulbo = {
-	martial = 2
-	command_modifier = {
-		speed = 0.01
-	}
-}
-gerudo_horse = {
-	martial = 2
-	command_modifier = {
-		speed = 0.04
-	}
-}
-companion_cat = {
-	same_opinion = 10
-	opposite_opinion = -10
-	opposites = {}
-}
-companion_dog = {
-}
-companion_cucco = {
-}
-companion_bird = {
-}
-companion_keese = {
-}
-companion_moink ={
-}
+#loftwing = {
+#	martial = 1
+#	command_modifier = {
+#	#	speed = 0.03
+#	#	morale_defence = 0.02
+#	#}
+#}
+#alicorn = {
+#	martial = 1
+#	command_modifier = {
+#	#	speed = 0.03
+#	#	morale_defence = 0.02
+#	#}
+#}
+#hyrulean_horse = {
+#	martial = 2
+#	command_modifier = {
+#	#	speed = 0.01
+#	#}
+#}
+#bulbo = {
+#	martial = 2
+#	command_modifier = {
+#	#	speed = 0.01
+#	#}
+#}
+#gerudo_horse = {
+#	martial = 2
+#	command_modifier = {
+#	#	speed = 0.04
+#	#}
+#}
+#companion_cat = {
+#	same_opinion = 10
+#	opposite_opinion = -10
+#	opposites = {#}
+#}
+#companion_dog = {
+#}
+#companion_cucco = {
+#}
+#companion_bird = {
+#}
+##companion_keese = {
+#}
+#companion_moink ={
+#}
 
-companion_insect = {
-}
+#companion_insect = {
+#}
 #rare companions
-companion_dog = {
-}
-companion_furon_monkey = {
-}
-companion_cucco_pocket = {
-}
-companion_golden_insect = {
-}
+#companion_furon_monkey = {
+#}
+#companion_cucco_pocket = {
+#}
+#companion_golden_insect = {
+#}

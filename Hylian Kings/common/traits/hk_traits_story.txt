@@ -33,18 +33,19 @@ triforce = {
 	customizer = no
 }
 
-master_sword = {
-	martial = 5
-	combat_rating = 4
-	
-	customizer = no
-}
+#master_sword = {
+#	martial = 5
+#	combat_rating = 4
+#	
+#	customizer = no
+#}
 #characters
 hylia_soul = {
 	opposites = { hero_soul race_sheikah }
 	diplomacy = 10
 	learning = 10
 	intrigue = 5
+	cached = yes
 	
 	opposite_opinion = 20
 
@@ -58,6 +59,7 @@ hero_soul = {
 	martial = 10
 	diplomacy	= -5
 	combat_rating = 1
+	cached = yes
 	
 	opposite_opinion = 60
 
@@ -68,6 +70,7 @@ hero_soul = {
 demise_soul = {
 	martial = 10
 	health = 0.5
+	cached = yes
 
 	ai_ambition = 30
 	ai_honor = -30
@@ -78,6 +81,7 @@ hylia = {
 	diplomacy = 20
 	martial = 10
 	health = 4
+	cached = yes
 
 	ai_rationality = 30
 	ai_honor = 30
@@ -87,6 +91,7 @@ demise = {
 	martial = 20
 	learning = 10
 	health = 4
+	cached = yes
 
 	ai_ambition = 30
 	ai_greed = 30
@@ -98,6 +103,7 @@ ganon = {
 	martial = 10
 	health = 2 
 	immortal = yes
+	cached = yes
 
 	same_opinion_if_same_religion = 60
 
@@ -112,7 +118,8 @@ malladus = {
 	immortal = yes
 
 	same_opinion_if_same_religion = 60
-
+	cached = yes
+	
 	ai_honor = -30
 	ai_zeal = 30
 
@@ -124,7 +131,8 @@ vaati = {
 	immortal = yes
 
 	same_opinion_if_same_religion = 60
-
+	cached = yes
+	
 	ai_rationality = 30
 	ai_ambition = 30
 
@@ -138,29 +146,29 @@ demon_king = {
 
 	ai_rationality = 30
 	ai_ambition = 30
-
+	cached = yes
 	customizer = no
 }
 #gods
-mask_diety = {
-	health = 2
-	martial = 5
-
-	ai_rational = -10
-	ai_honor = 10
-}
-mask_majora = {
-	health = 2
-	intrigue = 5
-
-	ai_honor = -10
-	ai_ambition = 10
-}
-corrupted_majora = {
-	health = 4
-	intrigue = 10
-
-	ai_honor = -30
-	ai_ambition = 30
-}
+#mask_diety = {
+#	health = 2
+#	martial = 5
+#	cached = yes
+#	ai_rational = -10
+#	ai_honor = 10
+#}
+#mask_majora = {
+#	health = 2
+#	intrigue = 5
+#	cached = yes
+#	ai_honor = -10
+#	ai_ambition = 10
+#}
+#corrupted_majora = {
+#	health = 4
+#	intrigue = 10
+#	cached = yes
+#	ai_honor = -30
+#	ai_ambition = 30
+#}
 

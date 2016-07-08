@@ -48,33 +48,33 @@ patron_farore = {
 	ruler_designer_cost = 0
 }
 #gerudo
-iron_knuckle = {
-	martial = 4
-	health = 2
-	fertility = -100
-
-	cannot_inherit = yes
-	cannot_marry = yes
-
-	ai_ambition = -100
-	ai_honor = 100
-	command_modifier = {
-		morale_defence = 0.04
-	}
-}
+#iron_knuckle = {
+#	martial = 4
+#	health = 2
+#	fertility = -100
+#
+#	cannot_inherit = yes
+#	cannot_marry = yes
+#
+#	ai_ambition = -100
+#	ai_honor = 100
+#	command_modifier = {
+#		morale_defence = 0.04
+#	}
+#}
 #darknut
 ##A woman (man?) captured during a raid and taken as a prize
-trophy = {
-	cannot_inherit = yes
-
-	prestige = -1
-}
+#trophy = {
+#	cannot_inherit = yes
+#
+#	prestige = -1
+#}
 #ruling caste
-legionnaire = {
-}
+#legionnaire = {
+#}
 #non-doctrin 
-auxiliary = {
-}
+#auxiliary = {
+#}
 #priest
-judge = {
-}
+#judge = {
+#}

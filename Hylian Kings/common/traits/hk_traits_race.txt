@@ -10,16 +10,19 @@
 race_hylian = {
 	diplomacy = 1
 	learning = 2
+	cached = yes
 	
 }
 race_human = {
 	stewardship = 2
+	cached = yes
 	
 	fertility = 0.1
 }
 race_sheikah = {
 	intrigue = 2
 	martial = 1	
+	cached = yes
 
 	ai_rationality = 5
 	ai_honor = 5
@@ -28,6 +31,7 @@ race_gerudo = {
 	opposites = { gerudo_token }
 	intrigue = 1
 	martial = 2
+	cached = yes
 	
 	general_opinion = -10
 	opposite_opinion = 20
@@ -45,6 +49,7 @@ race_darknut = {
 	general_opinion = -10
 	opposite_opinion = 30
 	combat_rating = 3
+	cached = yes
 	
 	ai_honor = 10
 	ai_rationality = 5	
@@ -54,6 +59,7 @@ race_wizzrobe = {
 	same_opinion = 20
 	general_opinion = -10
 	combat_rating = 2
+	cached = yes
 	
 	ai_ambition = 5
 	ai_rationality = 5
@@ -61,12 +67,14 @@ race_wizzrobe = {
 race_wind = {
 	learning = 3
 	general_opinion = 10
+	cached = yes
 	
 	ai_ambition = -5
 }
 race_lolian =  {
 	intrigue = 2
 	learning = 1
+	cached = yes
 	
 	ai_ambition = 5
 	ai_greed = 5
@@ -74,6 +82,7 @@ race_lolian =  {
 race_twili = {
 	stewardship = 1
 	learning = 2
+	cached = yes
 
 	ai_rationality = 5
 	ai_ambition = 5
@@ -83,6 +92,7 @@ race_garo = {
 	intrigue = 1
 	martial = 2	
 	combat_rating = 1
+	cached = yes
 	
 	ai_rationality = -5
 	ai_honor = -5
@@ -93,6 +103,7 @@ race_kokiri = {
 	martial = -2
 	learning = 2
 	combat_rating = -1
+	cached = yes
 		
 	immortal = yes
 
@@ -109,6 +120,7 @@ race_tree_deity = {
 	opposite_opinion = -40
 	combat_rating = -100 #ITS A TREE	
 	fertility = -500
+	cached = yes
 	
 
 	immortal = yes
@@ -126,6 +138,7 @@ race_tree_demon = {
 	opposite_opinion = -40
 	combat_rating = -100 #ITS A TREE
 	fertility = -500
+	cached = yes
 
 	immortal = yes
 
@@ -140,6 +153,7 @@ race_fairy = {
 	general_opinion = 5
 	sex_appeal_opinion = 20
 	opposite_opinion = -40
+	cached = yes
 
 	immortal = yes
 }
@@ -149,6 +163,7 @@ race_demon = {
 	diplomacy = -2
 	combat_rating = 4
 	opposite_opinion = -40
+	cached = yes
 
 	ai_ambition = 5
 	ai_honor = -5
@@ -159,6 +174,7 @@ race_demon = {
 race_zora = {
 	martial = 1
 	learning = 2
+	cached = yes
 
 	ai_honor = 5		
 }
@@ -166,6 +182,7 @@ race_zola = {
 	martial = 2
 	learning = -1
 	general_opinion = -20
+	cached = yes
 
 	ai_ambition = 5
 	ai_rationality = 5
@@ -177,6 +194,7 @@ race_goron = {
 	martial = 2
 	learning = 2
 	combat_rating = 1
+	cached = yes
 	
 	ai_rationality = 5
 	ai_honor = 5
@@ -189,6 +207,7 @@ race_subrosian = {
 	intrigue = 2
 	stewardship = 2
 	combat_rating = -1
+	cached = yes
 	
 	ai_rationality = 5
 	ai_ambition = -5
@@ -199,6 +218,7 @@ race_subrosian = {
 race_lizalfos = {
 	martial = 2
 	combat_rating = 1
+	cached = yes
 	
 	ai_ambition = 5	
 }
@@ -206,6 +226,7 @@ race_dinolfos = {
 	martial = 3
 	health = 1
 	combat_rating = 1	
+	cached = yes
 
 	ai_ambition = 5
 	ai_honor = 5	
@@ -214,6 +235,7 @@ race_aerolfos = {
 	martial = 2
 	intrigue = 1
 	combat_rating = 2	
+	cached = yes
 
 	ai_ambition = 5
 	ai_rationality = 5	
@@ -221,6 +243,7 @@ race_aerolfos = {
 race_tokay = {
 	intrigue = 4
 	martial = -1	
+	cached = yes
 
 	ai_greed = 5
 
@@ -228,6 +251,7 @@ race_tokay = {
 race_moblin = {
 	martial = 3
 	combat_rating = 1
+	cached = yes
 	
 	ai_ambition = 5
 	ai_honor = 5
@@ -237,6 +261,7 @@ race_bokoblin = {
 	intrigue = 2
 	combat_rating = -1
 	fertility = 0.25
+	cached = yes
 	
 	ai_ambition = 5
 	ai_honor = -5
@@ -244,6 +269,7 @@ race_bokoblin = {
 race_bulblin = {
 	martial = 2
 	diplomacy = 1
+	cached = yes
 
 	ai_ambition = 5
 	ai_honor = 5
@@ -251,6 +277,7 @@ race_bulblin = {
 race_keaton = {
 	intrigue = 4
 	fertility = 0.25
+	cached = yes
 
 	ai_greed = 10
 	ai_ambition = 5
@@ -259,6 +286,7 @@ race_keaton = {
 race_geozard = {#repro with  zora
 	martial = 3
 	combat_rating = 2
+	cached = yes
 	
 	ai_ambition = 5
 	ai_honor = 5
@@ -268,6 +296,7 @@ race_yook = {#repro with yeti
 	martial = 4
 	health = 1
 	combat_rating = 2
+	cached = yes
 	
 	ai_ambition = 5
 	ai_rationality = -5
@@ -276,20 +305,24 @@ race_yook = {#repro with yeti
 race_watarara = {
 	diplomacy = 2
 	intrigue = 2
+	cached = yes
 }
 race_rito = {#repro human
 	diplomacy = 2
 	stewardship = 2
+	cached = yes
 }
 #plant
 race_zuna = {
 	diplomacy = 2
 	stewardship = 2
+	cached = yes
 }
 race_deku = {
 	martial = 2
 	learning = -2
 	combat_rating = -1
+	cached = yes
 	
 	ai_ambition = 5
 	ai_rationality = -5
@@ -299,6 +332,7 @@ race_yeti = {#repro with yook
 	martial = 4
 	health = 1
 	combat_rating = 3
+	cached = yes
 }
 #undead
 race_stulkid = {
@@ -306,6 +340,7 @@ race_stulkid = {
 	martial = -2
 	intrigue = 4
 	combat_rating = 2
+	cached = yes
 	
 	fertility = -500
 
@@ -320,6 +355,7 @@ race_stalfos = {
 	health = 5
 	martial = 2
 	combat_rating = 1
+	cached = yes
 	
 	fertility = -500
 
@@ -329,27 +365,30 @@ race_stalfos = {
 	immortal = yes	
 }
 #marriage
-incompatible_marriage = {
-	fertility = -500
+semicompatible_marriage = {
+	fertility = -0.15
+	cached = yes
 
 	customizer = no 
 }
 abomination = {
 	health = -100
+	cached = yes
 
 	customizer = no 
 }
 #subspecies
-race_keaton_multitailed = {
-	intrigue = 6
-	fertility = 0.25
-	monthly_character_prestige = 0.5
-	combat_rating = -1
-
-	ai_greed = -10
-	ai_ambition = -5
-	ai_honor = -5
-}
+#race_keaton_multitailed = {
+#	intrigue = 6
+#	fertility = 0.25
+#	monthly_character_prestige = 0.5
+#	combat_rating = -1
+#	cached = yes
+#
+#	ai_greed = -10
+#	ai_ambition = -5
+#	ai_honor = -5
+#}
 
 
 #####Breeding Chart
@@ -361,27 +400,10 @@ race_keaton_multitailed = {
 ##semi-compatibl
 ###fae-demon
 
-#race 'friends'
-
-goron_brother = {
-	opposites = { race_goron }
-	
-	opposite_opinion = 20
-
-	monthly_character_prestige = 0.1
+child_stage = {
+	fertility = -100.0
+	customizer = no	
+	cannot_marry = yes
+	cached = yes
 }
 
-gerudo_token = {
-	opposites = { race_gerudo }
-
-	opposite_opinion = 20
-	
-	monthly_character_prestige = 0.1
-}
-darknut_honorary = {
-	opposites = { race_darknut }
-
-	opposite_opinion = 30
-	
-	monthly_character_prestige = 0.1
-}

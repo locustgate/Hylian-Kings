@@ -25,7 +25,7 @@ bloodline_debon = {
 	monthly_character_prestige  = 0.1
 }
 #not direct descendents or ra, ‘adopted/educated’
-bloodline_sage = {
+bloodline_sage = { #expand at later date
 	learning = 2
 	
 	monthly_character_piety = 0.1
@@ -81,7 +81,7 @@ bloodline_ganondorf = {
 	intrigue = 1
 	ai_honor = -10
 }
-#daruni's ancestor slew vaati
+#daruni's ancestor slew v
 bloodline_dragonslayer = {
 	martial = 2
 	
