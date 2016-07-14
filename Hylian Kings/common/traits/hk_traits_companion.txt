@@ -1,8 +1,11 @@
 #companions
 companion_fairy = {
-	martial = 2
-	intrigue = 2
+	learning = 2 #a lot of information
+	martial = 2 #a lot of battlefield information
+	intrigue = 2 #can spy
 	diplomacy = -2 #they can be annoying
+	
+	general_oppinion = -10 #SO ANNOYING!
 }
 #companion_piccori = {
 #	intrigue = 2

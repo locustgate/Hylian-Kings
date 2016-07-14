@@ -14,21 +14,21 @@ tall = {
 	
 	combat_rating = 2
 }
-huge = {
-	opposites = { tall dwarf short  }
-	
-	birth = 25
-	inherit_chance = 25
-	both_parent_has_trait_inherit_chance = 50
-
-	sex_appeal_opinion = -10
-	same_opinion = 5
-	
-	martial = 4
-	intrigue = -4
-	
-	combat_rating = 4
-}
+#huge = {
+#	opposites = { tall dwarf short  }
+#	
+#	birth = 25
+#	inherit_chance = 25
+#	both_parent_has_trait_inherit_chance = 50
+#
+#	sex_appeal_opinion = -10
+#	same_opinion = 5
+#	
+#	martial = 4
+#	intrigue = -4
+#	
+#	combat_rating = 4
+#}
 short = {
 	opposites = { tall dwarf huge  }
 	
@@ -39,8 +39,6 @@ short = {
 	sex_appeal_opinion = 10
 	same_opinion = 5
 	
-	martial = -2
-	intrigue = 2
 	
 	combat_rating = -1
 }
@@ -51,7 +49,7 @@ mute = {
 
 	same_opinion = 5
 	
-	diplomacy = -5
+	diplomacy = -5 #can't talk, has to use a go between 
 }
 #knights
 knight_hyrule = {
