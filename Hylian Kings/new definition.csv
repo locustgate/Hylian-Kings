@@ -486,7 +486,7 @@ province;red;green;blue;x;x
 485;0;177;170;Sacred Grove;x
 486;42;180;43;Gerudo Valley;x
 487;84;183;171;Gerudo Fortress;x
-488;126;186;44;Windy Desert;x
+488;126;186;44;Desert of Winds;x
 489;168;189;172;Hidden Fortress;x
 490;0;192;45;Haunted Wasteland;x
 491;42;195;173;Desert Colossus;x
@@ -498,52 +498,52 @@ province;red;green;blue;x;x
 497;84;0;176;Cliff Cities;x
 498;126;3;49;Spirit Gates;x
 499;168;6;177;Forgotten City;x
-500;0;9;50;;x
-501;42;12;178;;x
-502;84;15;51;;x
-503;126;18;179;;x
-504;168;21;52;;x
-505;0;24;180;;x
-506;42;27;53;;x
-507;84;30;181;;x
-508;126;33;54;;x
-509;168;36;182;;x
-510;0;39;55;;x
-511;42;42;183;;x
-512;84;45;56;;x
-513;126;48;184;;x
-514;168;51;57;;x
-515;0;54;185;;x
-516;42;57;58;;x
-517;84;60;186;;x
-518;126;63;59;;x
-519;168;66;187;;x
-520;0;69;60;;x
-521;42;72;188;;x
-522;84;75;61;;x
-523;126;78;189;;x
-524;168;81;62;;x
-525;0;84;190;;x
-526;126;21;144;;x
-527;84;90;191;;x
-528;126;93;64;;x
-529;168;96;192;;x
-530;0;99;65;;x
-531;42;102;193;;x
-532;84;105;66;;x
-533;126;108;194;;x
-534;168;111;67;;x
-535;0;114;195;;x
-536;42;117;68;;x
-537;84;120;196;;x
-538;126;123;69;;x
-539;168;126;197;;x
-540;0;129;70;;x
-541;42;132;198;;x
-542;84;135;71;;x
-543;126;138;199;;x
-544;168;141;72;;x
-545;0;144;200;;x
+500;0;9;50;Gerudo Mesa;x
+501;42;12;178;Gerudo Sands;x
+502;84;15;51;Dayfly Desert;x
+503;126;18;179;Watchtower Waste;x
+504;168;21;52;Leever Waste;x
+505;0;24;180;Lake Cliffs;x
+506;42;27;53;Gerudo Desert;x
+507;84;30;181;Gerudo Mountain;x
+508;126;33;54;Desert Stockades;x
+509;168;36;182;Arbiters Grounds;x
+510;0;39;55;Mirror Valley;x
+511;42;42;183;Gerudo River;x
+512;84;45;56;Faron Canyon;x
+513;126;48;184;Great Faron Tree;x
+514;168;51;57;Faron Swamp;x
+515;0;54;185;Faron Spring;x
+516;42;57;58;Faron Bridge;x
+517;84;60;186;Faron Grove;x
+518;126;63;59;Faron Woods;x
+519;168;66;187;Faron Basin;x
+520;0;69;60;South Hylia Bridge;x
+521;42;72;188;Keaton Stockades;x
+522;84;75;61;South Faron Forest;x
+523;126;78;189;Central Faron Forest;x
+524;168;81;62;North Faron Forest;x
+525;0;84;190;East Faron Field;x
+526;126;21;144;South Faron Field;x
+527;84;90;191;West Faron Field;x
+528;126;93;64;North Faron Field;x
+529;168;96;192;New Kakariko;x
+530;0;99;65;Eldin Spring;x
+531;42;102;193;Kakariko Graveyard;x
+532;84;105;66;Kakariko Pass;x
+533;126;108;194;Southeast Eldin Field;x
+534;168;111;67;Kakariko Gorge;x
+535;0;114;195;Southwest Eldin Field;x
+536;42;117;68;Central Eldin Field;x
+537;84;120;196;Northwest Eldin Field;x
+538;126;123;69;South Eldin Bridge;x
+539;168;126;197;Northeast Eldin Field;x
+540;0;129;70;Great Death Mountain;x
+541;42;132;198;Goron Mines;x
+542;84;135;71;Goron Road;x
+543;126;138;199;Hot Springs Mountain;x
+544;168;141;72;Goron Canyon;x
+545;0;144;200;Bombchu Mountain;x
 546;42;147;73;;x
 547;84;150;201;;x
 548;126;153;74;;x
