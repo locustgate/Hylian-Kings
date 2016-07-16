@@ -1,4 +1,4 @@
-3387
+#3387
 1000 = { 
 	name=Gustaf
 	historical = yes
@@ -548,7 +548,7 @@
 		add_spouse = 1022
 	}
 	3385.1.1 = { 
-		death = { death_reason = death_execution killer 1030 }
+		death = { death_reason = death_execution killer=1030 }
 	}
 }
 1029 = {
@@ -634,83 +634,24 @@
 	trait=race_moblin
 	trait=arbitrary
 	trait=tough_soldier
-	3353.2.20 = {
+	3343.2.20 = {
 		birth=yes
 	}
 }
-1034 = { 
+1034 = {
 	name=Olan
 	historical = yes
 	dynasty=4242
 	religion=demise_religion
 	culture=moblin
-	trait=race_moblin
-	trait=cruel
+	race_moblin
 	trait=zealous
 	trait=lustful
 	trait=ambitious
 	trait=mastermind_theologian
-	3350.5.17 = {
+	3368.5.17 = {
 		birth=yes
 	}
-	3371.7.7 = { 
-		add_spouse = 1035
-	}
-	3373.9.12 = {
-		add_spouse = 1037
-	}
-}
-1035 = { 
-	name=Lyan
-	female=yes
-	historical = yes
-	religion=demise_religion
-	culture=moblin
-	trait=race_moblin
-	trait=frail
-	trait=gregarious 
-	trait=drunkard
-	trait=trusting
-	trait=indulgent_wastrel 
-	3355.10.6 = {
-		birth=yes
-	}
-	3371.7.7 = { 
-		add_spouse = 1034
-	}
-	3373.2.16 = {
-		death = { death_reason = death_childbirth }
-	}
-}
-1036 = { 
-	name=Dhanas
-	female=yes
-	historical = yes
-	dynasty=4242
-	mother=1035
-	father=1034
-	religion=demise_religion
-	culture=moblin
-	trait=race_moblin
-	3373.2.16 = {
-		birth=yes
-	}
-}
-1037 = { 
-	name=Drulu
-	female=yes
-	historical = yes
-	religion=golden_goddesses
-	culture=koridain
-	trait=race_hylian
-	trait=shy
-	trait=coward
-	trait=quick
-	trait=charismatic_negotiator 
-	3371.1.1 = {
-		birth=yes
-	}
-	3387.1.1 = { add_spouse = 1034 }
 }
 #xx = {
 #	name=Gavun

@@ -63,19 +63,12 @@ character_event = {
 		}
 	}
 }
-# Guardian discourages gluttony
 character_event = {
 	id = fairy.1
 	desc = "DESC_FAIRY.1"
 	picture = "GFX_evt_guardian"
 	
 	is_triggered_only = yes
-	
-	immediate = {
-		hidden_tooltip = {
-			add_trait = companion_fairy 
-		}
-	}
 	
 	option = {
 		name = "OPFAIRY.1A"

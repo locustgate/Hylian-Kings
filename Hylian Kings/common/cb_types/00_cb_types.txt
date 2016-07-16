@@ -5529,7 +5529,7 @@ seize_trade_post = {
 	}
 }
 
-# Pagans can subjugate other pagans
+# Demon worshippers and Hylians can subjugate others
 pagan_subjugation = {
 	name = CB_NAME_PAGAN_SUBJUGATION
 	war_name = WAR_NAME_PAGAN_SUBJUGATION
@@ -5540,8 +5540,10 @@ pagan_subjugation = {
 	
 	can_use = {
 		ROOT = {
-			religion_group = pagan_group
-			is_reformed_religion = no
+			OR = {
+			religion_group = demon_religion
+			culture_group = hylian_group
+			}
 			NOT = { same_realm = FROM }
 			NOT = { is_liege_or_above = FROM }
 			mercenary = no

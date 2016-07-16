@@ -3,7 +3,7 @@ e_rebels = {
 	landless = yes
 	primary = yes
 
-	culture = swedish
+	culture = gerudo
 	tribe = yes
 
 	color={ 0 0 0 }
@@ -15,7 +15,7 @@ e_pirates = {
 	landless = yes
 	primary = yes
 
-	culture = swedish
+	culture = gerudo
 	tribe = yes
 
 	color={ 0 0 0 }
@@ -31,6 +31,7 @@ e_hyrule_central = {
 	eldin = Eldin
 	ordonion = Ordon
 	kakarikon = Kakariko
+	skylofter = Grooseland
 	
 	# Creation/usurpation trigger
 	allow = {
@@ -70,7 +71,8 @@ e_hyrule_central = {
 		color={ 145 196 251 }
 		color2={ 255 255 255 }
 		capital = 32 # Middlesex
-		dignity = 20 # Counted as having this many more counties than it does
+		dignity = 50 # Counted as having this many more counties than it does
+		skylofter = Grooseland
 		allow = {
 		hidden_tooltip = {
 			OR = {
@@ -172,14 +174,21 @@ e_saria = {#Saria
 		little_hyrulean = East Hyrule
 		
 		d_kasuto = {
+			c_kasuto_town
+			c_hidden_valley
+			c_three_eye_rock
+			c_hyron_island
 		}
 		d_nabooru = {
-		}
-		d_darunia = {
-		}
-		d_hyron_island = {
+			c_kasuto_palace
+			c_nabooru
+			c_darunia
+			c_bridge_forest
 		}
 		d_maze_island = {
+			c_north_maze_island
+			c_maze_palace
+			c_south_maze_island
 		}
 	}
 	k_saria = {
@@ -194,15 +203,27 @@ e_saria = {#Saria
 		little_hyrulean = West Hyrule
 		
 		d_moruge = {
+			c_morgue
+			c_tantari
+			c_mido
 		}
 		d_saria = {
+			c_navi
+			c_saria
+			c_impa			
 		}
 		d_midoro = {
+			c_graveyard_vale
+			c_midoro
+			c_ruto
+			c_rauru
+			c_parapa
 		}
 		d_palace_island = {
+			c_palace_island
 		}
 	}
-	k_east_death_mountains = {
+	k_eldin = {
 		color={ 122 46 58 }
 		color2={ 200 0 0 }
 		capital = 32 # Middlesex
@@ -212,12 +233,18 @@ e_saria = {#Saria
 		west_hyrulean = Little Hyrule
 		
 		d_east_death_mountains= {
+			c_eldin_death_mountains
+			c_eldin_spectacle_rock
+			c_eldin_cemetary
 		}
 		d_lost_hills = {
+			c_spryte
+			c_oberon
 		}
 		d_lost_plains= {
-		}
-		d_lost_forest_north = {
+			c_moblinia
+			c_miff
+			c_eldin_lost_forest
 		}
 	}
 }
@@ -393,27 +420,64 @@ e_labrynna = {
 		}
 	}
 	k_labrynna = {
-		d_talus = {
-			c_talus = {
-			}
-			c_symmetry = {
-			}
+		d_labrynna = {
+			c_west_lynna
+			c_black_tower
+			c_tower_shore
+			c_south_shore
+			c_south_lynna
+			c_sea_of_no_return
+			c_spirit_coast
+			c_yoll
+			c_poevale
 		}
-		d_lynna = {
+		d_talus = {
+			c_labrynna_palace
+			c_lyanna
+			c_talus_peaks
+			c_talus_ridge
+			c_symmetry
+			c_labrynna_palace
+			c_nuun_highlands
+			c_maku_grove
+			c_forest_of_time
+			c_witchwoods
 		}
 		d_rolling_ridge = {
+			c_cart_mines
+			c_mermaids_cave
+			c_crown_caverns
+			c_rolling_ridge
+			c_moblin_keep
+			c_nuun_mountains
+			c_restoration_peak
+			c_skull_mountains
 		}
 	}
 	k_storm_islands  = { #becomes zora domain
 		d_zora_islands = {
+			c_fairy_island
+			c_treasure_islands
+			c_eyeglass_island
 		}
 		d_zora_bay  = {
+			c_zora_cove
+			c_sand_island
+			c_palm_island
+			c_gale_island
+			zora_isles
 		}
 	}
-	k_crescent_island  = {
-		d_east_crescent = {
+	k_tokay  = {
+		d_crescent_island = {
+			c_north_crescnet_island
+			c_south_crescent_island
+			c_central_crescent_island
 		}
-		d_west_crescent = {
+		d_minor_islands = {
+			c_moonlight_island
+			c_grotto_island
+			c_tokay_island
 		}
 	}
 }
@@ -571,6 +635,12 @@ e_sea_tree = {
 	k_lost = {
 	}
 	k_fairy = {
+		d_fairy_woods = {
+			c_mystery_woods
+			c_fairy_woods
+			c_deku_grove
+			c_wing_woods
+		}
 	}
 	k_minish = {
 	}
@@ -768,6 +838,46 @@ k_arcadia = {#todo
 		color2={ 78 116 197 }
 		
 		capital = 43 #Gowrie
+		
+			c_arcadia
+			c_pausania
+			c_lyonia
+			c_xenonia
+			c_lykaia
+			c_wosuia
+			c_ardennia
+			c_hippodria
+			c_rolandia
+			c_paronia
+			c_silvania
+			c_marcania
+			c_achenia
+			c_joeusia
+			c_durendalia
+			c_curtania
+			c_facadia
+			c_polia
+			c_acasesia
+			c_odyssia
+			c_doricia
+			c_stoicia
+			c_tyria
+			c_tegia
+			c_batteria
+			c_megaria
+			c_aroania
+			c_agmemnia
+			c_peloponnia
+			c_argolia
+			c_daigonia
+			c_ladonia
+			c_capetia
+			c_cliva
+			c_syagria
+			c_merovia
+			c_valoia
+			c_louia
+			c_aegidia
 }
 k_tolemac = {
 		color={ 202 26 26 }
@@ -775,12 +885,34 @@ k_tolemac = {
 		
 		capital = 43 #Gowrie
 		d_skotness = {
+			c_skotness
+			c_sea_island
+			c_findo
+			c_seacoast_plain
+			c_ogbam
+			c_larrocthest
 		}
 		d_canvula = {
+			c_canvula
+			c_ubato
+			c_toria
+			c_armarob
+			c_glonna
 		}
 		d_sabasha = {
+			c_north_subasha
+			c_subasha
+			c_ensilon
+			c_vendoss
+			c_hobel
 		}
 		d_tolemac = {
+			c_triplet_coast
+			c_tolemac	
+			c_legatnit
+			c_nolava
+			c_talotsa
+			c_noelreac
 		}
 }
 k_western_isles = {
@@ -804,6 +936,22 @@ k_port_isle = {
 
 }
 k_koholint = {
-	d_tal_tal
-	d_ukuku
+	d_tal_tal= {
+		c_tal_tal_heights
+		c_tal_tal_mountains
+		c_goponga
+	}
+	d_ukuku = {
+		c_kanalet
+		c_ukuku
+		c_toronbo
+		c_mabe
+	}
+}
+k_bastion = { #darknut
+}
+k_myrddin = { #wizzrobe
+}
+k_hanman = {
+
 }

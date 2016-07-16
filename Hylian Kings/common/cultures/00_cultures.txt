@@ -682,7 +682,7 @@ round_eared = {
 		modifier = default_culture_modifier
 	}
 	hanman = {
-		graphical_cultures = { hanmangfx germangfx }
+		graphical_cultures = { mongolgfx germangfx }
 		color = { 0 0.4 0 }
 
 		male_names = {
@@ -883,23 +883,6 @@ lost_tribe = {
 	}
 }
 spirit_continent = {
-	anouki = {
-		graphical_cultures = { anoukigfx }
-
-		color = { 0.37 0.62 0.63 }
-
-		male_names = {
-			Honcho Bulu Kofu Noko Yefu Yeko Nobodo Mazo Kumu Hintobo Gumo Fofo Dodo Aroo Aukoo Aariak Aassa Naaq Aippaq Aklaq Aippaq Amaq Juaq Amaruq Ammaga Ruqnik Anik Apaata Aput Aputi Aqak Uktuq Aqil Lutaq Aqpalib Aaqtug Aquyi Ittuq Arnauyq Asuilaak Laak Atanar Juat Atiq Talaaq Atuq Tuaq Aujaq Aviqming Ila Nnaq Innu Gati Inuk Uksuk Irniq Itiga Ituk Kanguq Katak Tuaq Kayuq Tuq Keed Tapeck Kissar Viarsuk Kugma Glak Kunik Paa Malik Nanouk Nasak Natsiq Nauja Nirliq Nuniq Nuvuk Oki Pakak Pamiuq Patuktuq Pauloosie Petuwaq Pimniq Piqq Aluyu Ungmik Tonroq Desna Varrik Sokka Nuktuk Pakku Hakoda Bato Tarrlok Yakone Rafa
-		}
-		female_names = {
-			Yeketo Aarik Aippaq Aklaq Aluki Amaruq Amma Garuqnik Anaay Anniagruk Appay Aput Aputi Aqaku Uktuq Arnaq Atiqtalik Atuat Availuk Elisapie Estuuya Higalik Luava Malina Naaq Tuuq Opik Pallu Uqtuq Pamiuq Panikpak Piquuraq Puja Pung Washa Aloo Qaaynak Qaiyaan Qamaniq Suqi Tapeesa Tobanga Tupiq Tuuq Uki Ukiuk Uluriaq Uputsi Yakone Lani Sinaaq Parka Shan Nirotii Aiishara Makki Kita Yuna Mita Nilak Tausha Kaori Azhure Mazu Urufi Misu Amari Iluq Riku Kateri Kanami Lunais Yuli Aya Toka Kanni Anni Urufei Nita Ita Aomi Ihao Sita Ari Ikoa Kana Zoni Azo Ato Yemo Yadi Nakoo Nezu Zufo Honi Fezo Zoto Kedu Fuku Naroo
-		}
-		
-		dukes_called_kings = no
-						
-		modifier = default_culture_modifier
-
-	}
 	lokomo = {
 		graphical_cultures = { easternslavicgfx easterngfx } 
 		#rusian
@@ -1242,13 +1225,30 @@ avian_group = {
 		male_names = {
 		Guufo Rouru Erou Ruufo Euurou Afo Bouru Buufo Duufo Celro Terou Guutara Gato Buuro Ruuru Befo Doufo Dourefo Bato Doureru Erafo Cuufo Garero Ruufa Baro Buufo Efou Refou Ruufu Deruufa Bafu Bafou Roufo Doutou Guuro Afafo Euufo Baru Rou Berou Cera Arero Aruufa Buufa Delruuro Gafu Euufu Buufu Bara Duufu Aferu Cafo Rero Guuta Buufero Buuru Tefou Cuulro Baruura Afu Duuru Coufo Aruufu Efo Bero Cuufa Goufo Coufa Cuuru Bateru Rouro Gefou Telru Duuro Coufelra Garu Cuuto Euulru Douro Ruura Gara Etuutu Tuuro Cuura Currefo Gafaro Duura Batero Barou Buuta Efu Gouro Duuta Balfero Coufu Duufa
 		}
-		females_names = {
+		female_names = {
 		Elrora Yelra Gelra Relra Ara Bora Dula Calra Rela Bara Dera Dela Balra Alra Dera Gela Yelra Yerela Erala Yerora Delra Alera Elara Ela Erera Rolra Yala Rera Cara Rolola Cela Cola Rala Elola Bera Rela Rola Dara Erora Dolra arala Ara Cera Erara Gera Elora Bora Elela Alara Erela Elara Bola Arora Rara Yolra Celara Yula Yela Cura Belera Ala Elura Dala Relra Dura Bolra Dola Rora Yara Alora Gelra Dora Erola Yulra Dalra Galra Cora Barelra Erura Dela Culra Ralra Gulra Belra Rura Alura Gula Bura Corera Erula Elula Bala Elra Yola Bulra Year Alela Arera Yalra Cula
 		}
 		modifier = default_culture_modifier
 	}
 }
 mammalian_group = {
+	anouki = {
+		graphical_cultures = { anoukigfx }
+
+		color = { 0.37 0.62 0.63 }
+
+		male_names = {
+			Honcho Bulu Kofu Noko Yefu Yeko Nobodo Mazo Kumu Hintobo Gumo Fofo Dodo Aroo Aukoo Aariak Aassa Naaq Aippaq Aklaq Aippaq Amaq Juaq Amaruq Ammaga Ruqnik Anik Apaata Aput Aputi Aqak Uktuq Aqil Lutaq Aqpalib Aaqtug Aquyi Ittuq Arnauyq Asuilaak Laak Atanar Juat Atiq Talaaq Atuq Tuaq Aujaq Aviqming Ila Nnaq Innu Gati Inuk Uksuk Irniq Itiga Ituk Kanguq Katak Tuaq Kayuq Tuq Keed Tapeck Kissar Viarsuk Kugma Glak Kunik Paa Malik Nanouk Nasak Natsiq Nauja Nirliq Nuniq Nuvuk Oki Pakak Pamiuq Patuktuq Pauloosie Petuwaq Pimniq Piqq Aluyu Ungmik Tonroq Desna Varrik Sokka Nuktuk Pakku Hakoda Bato Tarrlok Yakone Rafa
+		}
+		female_names = {
+			Yeketo Aarik Aippaq Aklaq Aluki Amaruq Amma Garuqnik Anaay Anniagruk Appay Aput Aputi Aqaku Uktuq Arnaq Atiqtalik Atuat Availuk Elisapie Estuuya Higalik Luava Malina Naaq Tuuq Opik Pallu Uqtuq Pamiuq Panikpak Piquuraq Puja Pung Washa Aloo Qaaynak Qaiyaan Qamaniq Suqi Tapeesa Tobanga Tupiq Tuuq Uki Ukiuk Uluriaq Uputsi Yakone Lani Sinaaq Parka Shan Nirotii Aiishara Makki Kita Yuna Mita Nilak Tausha Kaori Azhure Mazu Urufi Misu Amari Iluq Riku Kateri Kanami Lunais Yuli Aya Toka Kanni Anni Urufei Nita Ita Aomi Ihao Sita Ari Ikoa Kana Zoni Azo Ato Yemo Yadi Nakoo Nezu Zufo Honi Fezo Zoto Kedu Fuku Naroo
+		}
+		
+		dukes_called_kings = no
+						
+		modifier = default_culture_modifier
+
+	}
 	yeti = {
 	
 		graphical_cultures = { yetigfx } 
@@ -1748,7 +1748,7 @@ other_world = {
 		color = { 0.58 0 0.83 }
 
 		male_names = {
-		Yuga Ravio Dampe Mandala Raigozu Beelow Hinox Arrghus Gretule Gigabari Grinexx Squry Orog Ralos Sqolde Hidix Mirudo Abage Sqane Sampaw Azege Atird Ceeg Araxx Senis Sqole Rado Grid Mugio Vake Digi Sala Balio Redali Grez Yedid Seniw Piged Pigendure Hompe Hurio Pigos Atint Vodu Sazex Grina Groldos Ragna Bagna Aloneka Gaula Sampu Ataku Higna Herurena Ranido Pavigna Pinerolma Alitidi Migado Belignidu Validu Sampiled Goki Hileke Yebagula Vutrona Alode Yegas Aluvio Sedeeg Pigi Siela Oluke Hadu Sgedu Alini Gredu Atate Hery Bitige Vauze Roke Peeg Pigox Alonas Munabi Pinalabi Adiza Senad Varos Sqori Sqoras Grido Pigiro Hent Saldigi Grix Sirox
+		Yuga Ravio Dampe Mandala Raigozu Beelow Hinox Arrghus Gretule Gigabari Grinexx Squry Orog Ralos Sqolde Hidix Mirudo Abage Sqane Sampaw Azege Atird Ceeg Araxx Senis Sqole Rado Grid Mugio Vake Digi Sala Balio Redali Grez Yedid Seniw Piged Pigendure Hompe Hurio Pigos Atint Vodu Sazex Grina Groldos Ragna Bagna Aloneka Sampu Ataku Higna Herurena Ranido Pavigna Pinerolma Alitidi Migado Belignidu Validu Sampiled Goki Hileke Yebagula Vutrona Alode Yegas Aluvio Sedeeg Pigi Siela Oluke Hadu Sgedu Alini Gredu Atate Hery Bitige Vauze Roke Peeg Pigox Alonas Munabi Pinalabi Adiza Senad Varos Sqori Sqoras Grido Pigiro Hent Saldigi Grix Sirox
 		}
 		female_names = {
 		Hilda Pinant Vird Adele Agnes Bettina Cora Friederike Gertraud Lilo Mitzi Petra Sandra Vilma Page Abi Grigereza Migna Serabi Vadina Arotula Sittala Cina Bila Gena Akena Veela Beza Hagna Ovinula Yegelazerd Pigini Pigna Anola Pelana Azotta Yegura Gurila Sela Cana Bize Bildi Dakage Atexx Aredo Anina Grivu Almure Higod Yalina Creedira Ceveed Saula Melena Gienalird Ragna Vola Laligna Rena Vigigna Alira Grore Daido Atax Mugna Vilidu Yegake Pigeera Belmula Gatza Pala Grolde Higili Viena Yorina Hotird Hidula Alara Hadula Meguna Pina Vaiw Lira Sagova Yona Hileke Yebagula Vutrona Aloda Yegini Orolu Higeg Mena Pittigna Aluliga Alevi ALuka Vaunes Rigna Sirint
@@ -1825,7 +1825,7 @@ dead_cultures = {
 		}
 
 		female_names = {
-			Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Leila Mama Marcy Pina Pita Maggie Paige Sheila Tina Verona Honey Marilla Judo Cremia Epona Romani Pamela Ashei Iza Hena Agitha Kili Hanna Misha Fanadi Telma Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Aryll Rose Sue-Belle Sue Belle Gillian Joanna Potova Linda Maggie Milia Minenco Missey Pompie Peach Daisy Rosalina Lissa Lucinia Emmeryn Hylia Linkette Yelda Linkle
+			Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Leila Mama Marcy Pina Pita Paige Sheila Tina Verona Honey Marilla Judo Cremia Epona Romani Pamela Ashei Iza Hena Agitha Kili Hanna Misha Fanadi Telma Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Aryll Rose Sue-Belle Sue Belle Gillian Joanna Potova Linda Maggie Milia Minenco Missey Pompie Peach Daisy Rosalina Lissa Lucinia Emmeryn Hylia Linkette Yelda Linkle
 		}
 	modifier = default_culture_modifier
 	}

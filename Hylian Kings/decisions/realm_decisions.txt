@@ -1,15 +1,23 @@
 decisions = {
 
-	hold_a_epic_tournament  = {
+	hold_a_epic_tournament  = { #modern hyrule golden_goddesses
 		is_high_prio = yes
 		potential = {
 			NOT = {
 				has_character_flag = epic_tournament
 			}
 			OR = {
-				religion_group = christian
-				religion_group = jewish_group
-				religion_group = zoroastrian_group
+				culture_group = hylian_group
+				culture_group = round_eared
+				culture_group = lost_tribes
+			}
+			OR = {
+				religion = great_maku
+				religion = goddess_time
+				religion = goddesses_lorule
+				religion = golden_goddesses
+				religion = light_spirits
+				religion = celestial_signs
 			}
 			independent = yes
 			NOT = { is_nomadic = yes }

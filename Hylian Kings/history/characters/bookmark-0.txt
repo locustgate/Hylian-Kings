@@ -65,7 +65,7 @@
 	3000.6.1={
 		death = {
 			death_reason = death_battle
-			killer = 
+			killer = 8
 		}
 	}
 }
@@ -73,7 +73,7 @@
 	name=Malladus
 	historical = yes
 	dynasty=14604
-	father== 3
+	father=3
 	religion=malladus_religion
 	culture=demon
 	trait=demise
@@ -95,7 +95,6 @@
 	trait=race_demon
 	trait=frail
 	trait=greedy
-	trait
 	200.1.1={
 		birth=yes
 	}

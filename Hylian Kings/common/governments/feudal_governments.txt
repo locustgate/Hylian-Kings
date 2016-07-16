@@ -37,8 +37,8 @@ feudal_governments = {
 			culture_group = lfos
 			cultur_group = goron_group
 			culture = demon
-			religion_group = demon_religion
 			culture = gerudo
+			religion_group = demon_religion
 			}
 		}
 		color = { 91 133 207 }
@@ -89,7 +89,7 @@ feudal_governments = {
 				culture = demon
 				culture = river_zora
 				culture = geozard
-				religion_group = demon_group
+				religion_group = demon_religion
 			}
 			is_patrician = no
 		}
