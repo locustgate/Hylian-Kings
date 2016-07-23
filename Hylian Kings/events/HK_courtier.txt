@@ -1,0 +1,37 @@
+namespace = HKC
+
+#How To Tame your Aliens
+
+#twili
+character_event = { #garden twili
+	id = HKC.0
+	desc = "DESC_HKC.0"
+	picture = GFX_evt_throne_room
+	
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	ai = no
+
+	option = {
+		name = "HKCOA"
+		prestige = -20
+		hidden_tooltip = {
+					#FROM = { character_event = { id = courtier.x1 } #it stayed }
+				
+		}
+	}
+	
+	option = {
+		name = "HKC0B" #Approach
+		prestige = 20
+		pottential = { NOT = { trait = coward } }
+		hidden_tooltip = {
+					#FROM = { character_event = { id = courtier.x3 } #it stayed } 
+		}
+	}
+	
+	option = {
+		name = "HKC0C" #it's nothing
+	}
+}
