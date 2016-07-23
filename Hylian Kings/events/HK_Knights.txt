@@ -1,0 +1,4366 @@
+namespace = knights
+# Knights of Hyrule Guard Founded (Emperor)
+narrative_event = {
+	id = knights.0
+	title = EVTNAME_knights.0
+	desc = EVTDESC_knights.0
+	picture = GFX_evt_viking_battle_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_knights.0
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					ai = no
+					OR = { culture_group hylian_group
+							culture_group = round_eared
+							culture_group = lost_tribes
+					}
+				}
+				narrative_event = { id = knights.1 }
+			}
+		}
+	}
+}
+
+# Knights of Hyrule Guard Founded ()
+narrative_event = {
+	id = knights.1
+	title = EVTNAME_knights.0
+	desc = EVTDESC_knights.1
+	picture = GFX_evt_viking_battle_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.1
+		custom_tooltip = { text = knight_hyrules_organized }
+	}
+}
+
+# Knights of Hyrule Captain gets Knights of Hyrule trait
+character_event = {
+	id = knights.2
+	hide_window = yes
+	
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		has_landed_title = d_knights_hyrule
+		NOT = { trait = knight_hyrule }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_trait = knight_hyrule
+	}
+}
+
+# Son has served a few years
+character_event = {
+	id = knights.3
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = wants_knights_hyrule
+	}
+	
+	immediate = {
+		set_character_flag = serving_knights.hyrule
+		clr_character_flag = wants_knights_hyrule
+	}
+}
+
+# Son wants to join the Knights of Hyrules (Son)
+character_event = {
+	id = knights.4
+	hide_window = yes
+	
+	ai = yes
+	min_age = 16
+	max_age = 40
+	only_men = no
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+
+		is_landed = no
+		in_command = no
+		has_global_flag = knight_hyrule_founded
+		OR = {
+				culture = hyrulean
+				culture = sheikah
+				culture = gerudo
+				culture = ordonion
+				culture = eldin
+				culture = wind_tribe
+				culture = lake_zora
+		}
+		NOR = { 
+			trait = knight_hyrule 
+			has_character_flag = wants_knights_hyrule
+			has_character_flag = denied_knights_hyrule
+		}
+		father = {
+			is_alive = yes
+			OR = {
+					culture = hyrulean
+					culture = sheikah
+					culture = gerudo
+					culture = ordonion
+					culture = eldin
+					culture = wind_tribe
+					culture = lake_zora
+			}
+			is_ruler = yes
+			is_liege_of = ROOT
+			prisoner = no
+			NOT = { trait = incapable }
+			ROOT = { host = { character = PREVPREV } }
+		}
+		NOT = { trait = in_hiding }
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+		
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			trait = berserker
+		}
+		modifier = {
+			factor = 0.75
+			trait = proud
+		}
+		modifier = {
+			factor = 0.75
+			trait = impaler
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			trait = content
+		}
+		modifier = {
+			factor = 1.5
+			is_primary_heir = yes
+		}
+		modifier = {
+			factor = 2.0
+			trait = craven
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.5 } }
+		set_character_flag = wants_knights_hyrule
+	}
+}
+
+# Son wants to join the Knights of Hyrules (Father)
+character_event = {
+	id = knights.5
+	desc = EVTDESC_knights.5
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # Deny
+		name = EVTOPTA_knights.5
+		FROM = {
+			opinion = {
+				modifier = opinion_very_disappointed
+				years = 1
+				who = ROOT
+			}
+			clr_character_flag = wants_knights_hyrule
+			set_character_flag = denied_knights_hyrule
+		}
+		prestige = -100
+	}
+	option = { # Allow
+		name = EVTOPTB_knights.5
+		d_knights_hyrule = {
+			holder_scope = {
+				FROM = {
+					move_character = PREV
+				}
+			}
+		}
+		hidden_tooltip = {
+			FROM = { 
+				character_event = { id = knights.3 days = 1460 }
+			}
+		}
+		prestige = 100
+	}
+}
+
+# Son stays in Hyrule with wife (Son)
+character_event = {
+	id = knights.6
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights.hyrule
+		is_married = no
+		NOT = {
+			OR = {
+				father = {
+					primary_title = {
+						current_heir = { character = ROOT }
+					}
+				}
+				mother = {
+					primary_title = {
+						current_heir = { character = ROOT }
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+		
+		modifier = {
+			factor = 0.75
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.75
+			trait = content
+		}
+		modifier = {
+			factor = 0.75
+			trait = slothful
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.7 } }
+		e_hyrule_center = {
+			holder_scope = {
+				character_event = { id = knights.8 }
+			}
+		}
+		clr_character_flag = serving_knights.hyrule
+	}
+}
+
+# Son stays in Greece with wife ( father)
+character_event = {
+	id = knights.7
+	desc = EVTDESC_knights.7
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.7
+		tooltip = {
+			e_hyrule_center = {
+				holder_scope = {
+					FROM = {
+						move_character = PREV
+						religion = PREV
+					}
+				}
+			}
+		}
+		FROM = { add_trait = knight_hyrule }
+	}
+}
+
+# Son stays in Greece with wife (Byzantine Emperor)
+character_event = {
+	id = knights.8
+	desc = EVTDESC_knights.8
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.8
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			female = yes
+			age = 26
+			religion = ROOT
+			culture = hyrulean
+		}
+		new_character = {
+			add_spouse_matrilineal = FROM
+		}
+		FROM = {
+			move_character = ROOT
+			religion = ROOT
+		}
+	}
+}
+
+# Son returns scarred but seasoned (Son)
+character_event = {
+	id = knights.9
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights.hyrule
+		NOT = { trait = scarred }
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+		
+		modifier = {
+			factor = 0.75
+			trait = brave
+		}
+		modifier = {
+			factor = 1.25
+			trait = craven
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.10 } }
+		clr_character_flag = serving_knights.hyrule
+	}
+}
+
+# Son returns scarred but seasoned
+character_event = {
+	id = knights.10
+	desc = EVTDESC_knights.10
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.10
+		FROM = {
+			move_character = ROOT
+			add_trait = scarred
+			add_trait = knight_hyrule
+			change_martial = 4
+		}
+	}
+}
+
+# Son returns as excellent strategist (Son)
+character_event = {
+	id = knights.12
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights.hyrule
+		NOT = { trait = brilliant_strategist }
+		OR = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+		
+		modifier = {
+			factor = 0.5
+			trait = genius
+		}
+		modifier = {
+			factor = 0.75
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.75
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				trait = slow
+				trait = dull
+			}
+		}
+		modifier = {
+			factor = 1.5
+			trait = imbecile
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.13 } }
+		clr_character_flag = serving_knights.hyrule
+	}
+}
+
+# Son returns as excellent strategist
+character_event = {
+	id = knights.13
+	desc = EVTDESC_knights.13
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.13
+		if = {
+			limit = {
+				FROM = {
+					trait = skilled_tactician
+				}
+			}
+			FROM = {
+				hidden_tooltip = { remove_trait = skilled_tactician }
+				add_trait = brilliant_strategist
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					OR = {
+						trait = misguided_warrior
+						trait = tough_soldier
+					}	
+				}
+			}
+			FROM = {
+				hidden_tooltip = { 
+					remove_trait = misguided_warrior
+					remove_trait = tough_soldier
+				}
+				add_trait = skilled_tactician
+			}
+		}
+		FROM = {
+			change_martial = 2
+			add_trait = knight_hyrule
+			move_character = ROOT
+		}
+	}
+}
+
+# Son returns with PTSD (Son)
+character_event = {
+	id = knights.14
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights.hyrule
+		NOT = { trait = depressed }
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+		
+		modifier = {
+			factor = 0.75
+			trait = kind
+		}
+		modifier = {
+			factor = 0.75
+			trait = poet
+		}
+		modifier = {
+			factor = 0.75
+			trait = just
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.15 } }
+		clr_character_flag = serving_knights.hyrule
+	}
+}
+
+# Son returns with PTSD
+character_event = {
+	id = knights.15
+	desc = EVTDESC_knights.15
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.15
+		FROM = {
+			move_character = ROOT
+			add_trait = stressed
+			add_trait = depressed
+			add_trait = knight_hyrule
+		}
+	}
+}
+
+# Son returns home with  wife (Son)
+character_event = {
+	id = knights.16
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights.hyrule
+		is_married = no
+		e_byzantium = {
+			holder_scope = {
+				culture = hyrulean
+				religion = golden_goddesses
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+		
+		modifier = {
+			factor = 0.75
+			trait = lustful
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.17 } }
+		clr_character_flag = serving_knights.hyrule
+	}
+}
+
+# Son returns home with  wife
+character_event = {
+	id = knights.17
+	desc = EVTDESC_knights.17
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.17
+		create_character = {
+			random_traits = yes
+			dynasty = NONE
+			female = yes
+			age = 26
+			religion = golden_goddesses
+			culture = hyrulean
+		}
+		new_character = {
+			add_spouse = FROM
+		}
+		FROM = { 
+			add_trait = knight_hyrule 
+			move_character = ROOT
+		}
+	}
+}
+
+# Son returns home as a seasoned warrior (Son)
+character_event = {
+	id = knights.18
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights.hyrule
+	}
+	
+	mean_time_to_happen = {
+		months = 118
+		
+		modifier = {
+			factor = 0.75
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			is_strong_trigger = yes
+		}
+		modifier = {
+			factor = 0.75
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+		}
+		modifier = {
+			factor = 0.75
+			trait = genius
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				trait = slow
+				trait = dull
+			}
+		}
+		modifier = {
+			factor = 1.5
+			trait = imbecile
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.19 } }
+		clr_character_flag = serving_knights.hyrule
+	}
+}
+
+# Son returns home as a seasoned warrior
+character_event = {
+	id = knights.19
+	desc = EVTDESC_knights.19
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.19
+		FROM = {
+			move_character = ROOT
+			add_trait = brave
+			add_trait = knight_hyrule
+			change_martial = 2
+		}
+	}
+}
+
+# Son dies in battle (Son)
+character_event = {
+	id = knights.20
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights.hyrule
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+		
+		modifier = {
+			factor = 0.75
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.75
+			trait = berserker
+		}
+		modifier = {
+			factor = 1.25
+			trait = craven
+		}
+		modifier = {
+			factor = 0.75
+			trait = drunkard
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_tuberculosis
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_typhoid_fever
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_typhus
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_bubonic_plague
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_measles
+		}		
+		modifier = {
+			factor = 0.75
+			trait = has_small_pox
+		}
+		modifier = {
+			factor = 0.75
+			trait = wounded
+		}
+		modifier = {
+			factor = 0.5
+			trait = infirm
+		}
+		modifier = {
+			factor = 0.5
+			trait = incapable
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.21 } }
+		clr_character_flag = serving_knights.hyrule
+	}
+}
+
+# Son dies in battle 
+character_event = {
+	id = knights.21
+	desc = EVTDESC_knights.21
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.21
+		FROM = { death = { death_reason = death_battle } }
+	}
+}
+#future event son captured by gerudo
+# Son returns with loot (Son)
+character_event = {
+	id = knights.22
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights.hyrule
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+		
+		modifier = {
+			factor = 0.75
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.75
+			stewardship = 10
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.23 } }
+		clr_character_flag = serving_knights.hyrule
+	}
+}
+
+# Son returns with loot
+character_event = {
+	id = knights.23
+	desc = EVTDESC_knights.23
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.23
+		FROM = {
+			move_character = ROOT
+			add_trait = knight_hyrule
+		}
+		wealth = 300
+	}
+}
+
+# Father dies, Player Son is heir
+character_event = {
+	id = knights.24
+	desc = EVTDESC_knights.24
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	ai = no
+	
+	trigger = {
+
+		OR = {
+			has_character_flag = wants_knights_hyrule
+			has_character_flag = serving_knights.hyrule
+		}
+		father_even_if_dead = { is_alive = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_character_flag = wants_knights_hyrule
+		clr_character_flag = serving_knights.hyrule
+	}
+	
+	option = {
+		name = EVTOPTA_knights.24
+		add_trait = knight_hyrule
+		prestige = 180
+		wealth = 180
+	}
+}
+
+# Father dies, Son gets Knights of Hyrule trait
+character_event = {
+	id = knights.25
+	hide_window = yes
+	
+	min_age = 16
+	ai = yes
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+
+		OR = {
+			has_character_flag = wants_knights_hyrule
+			has_character_flag = serving_knights.hyrule
+		}
+		father_even_if_dead = { is_alive = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_trait = knight_hyrule
+		clr_character_flag = wants_knights_hyrule
+		clr_character_flag = serving_knights.hyrule
+	}
+}
+#Knights of Cobble
+# Knights of Cobble Founded (Emperor)
+narrative_event = {
+	id = knights.26
+	title = EVTNAME_knights.26
+	desc = EVTDESC_knights.26
+	picture = GFX_evt_viking_battle_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_knights.26
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					ai = no
+					OR = {
+						culture_group hylian_group
+						culture_group = round_eared
+						culture_group = lost_tribes
+					}
+				}
+				narrative_event = { id = knights.27 }
+			}
+		}
+	}
+}
+
+# Knights of cobble Guard Founded ()
+narrative_event = {
+	id = knights.27
+	title = EVTNAME_knights.27
+	desc = EVTDESC_knights.27
+	picture = GFX_evt_viking_battle_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.27
+		custom_tooltip = { text = knight_cobbles_organized }
+	}
+}
+
+# Knights of cobble Captain gets Knights of cobble trait
+character_event = {
+	id = knights.28
+	hide_window = yes
+	
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		has_landed_title = d_knights_cobble
+		NOT = { trait = knight_cobble }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_trait = knight_cobble
+	}
+}
+
+# Son has served a few years
+character_event = {
+	id = knights.29
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = wants_knights_cobble
+	}
+	
+	immediate = {
+		set_character_flag = serving_knights_cobble
+		clr_character_flag = wants_knights_cobble
+	}
+}
+
+# Son wants to join the Knights of cobbles (Son)
+character_event = {
+	id = knights.30
+	hide_window = yes
+	
+	ai = yes
+	min_age = 16
+	max_age = 40
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+
+		is_landed = no
+		in_command = no
+		has_global_flag = knight_cobble_founded
+		OR = {
+				culture = cobble
+				culture = pebble
+				culture = gerudo
+				culture = gravel
+		}
+		NOR = { 
+			trait = knight_cobble 
+			has_character_flag = wants_knights_cobble
+			has_character_flag = denied_knights_cobble
+		}
+		father = {
+			is_alive = yes
+			OR = {
+				culture = cobble
+				culture = pebble
+				culture = gerudo
+				culture = gravel
+			}
+			is_ruler = yes
+			is_liege_of = ROOT
+			prisoner = no
+			NOT = { trait = incapable }
+			ROOT = { host = { character = PREVPREV } }
+		}
+		NOT = { trait = in_hiding }
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+		
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			trait = berserker
+		}
+		modifier = {
+			factor = 0.75
+			trait = proud
+		}
+		modifier = {
+			factor = 0.75
+			trait = impaler
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			trait = content
+		}
+		modifier = {
+			factor = 1.5
+			is_primary_heir = yes
+		}
+		modifier = {
+			factor = 2.0
+			trait = craven
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.31 } }
+		set_character_flag = wants_knights_cobble
+	}
+}
+
+# Son wants to join the Knights of cobbles (Father)
+character_event = {
+	id = knights.31
+	desc = EVTDESC_knights.31
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # Deny
+		name = EVTOPTA_knights.31
+		FROM = {
+			opinion = {
+				modifier = opinion_very_disappointed
+				years = 1
+				who = ROOT
+			}
+			clr_character_flag = wants_knights_cobble
+			set_character_flag = denied_knights_cobble
+		}
+		prestige = -100
+	}
+	option = { # Allow
+		name = EVTOPTB_knights.31
+		d_knights_cobble = {
+			holder_scope = {
+				FROM = {
+					move_character = PREV
+				}
+			}
+		}
+		hidden_tooltip = {
+			FROM = { 
+				character_event = { id = knights.29 days = 1460 }
+			}
+		}
+		prestige = 100
+	}
+}
+
+# Son stays in cobble with wife (Son)
+character_event = {
+	id = knights.32
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_cobble
+		is_married = no
+		NOT = {
+			OR = {
+				father = {
+					primary_title = {
+						current_heir = { character = ROOT }
+					}
+				}
+				mother = {
+					primary_title = {
+						current_heir = { character = ROOT }
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+		
+		modifier = {
+			factor = 0.75
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.75
+			trait = content
+		}
+		modifier = {
+			factor = 0.75
+			trait = slothful
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.33 } }
+		e_cobble_center = {
+			holder_scope = {
+				character_event = { id = knights.34 }
+			}
+		}
+		clr_character_flag = serving_knights_cobble
+	}
+}
+
+# Son stays in Greece with wife ( father)
+character_event = {
+	id = knights.33
+	desc = EVTDESC_knights.33
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.34
+		tooltip = {
+			e_cobble_center = {
+				holder_scope = {
+					FROM = {
+						move_character = PREV
+						religion = PREV
+					}
+				}
+			}
+		}
+		FROM = { add_trait = knight_cobble }
+	}
+}
+
+# Son stays in Greece with wife (Byzantine Emperor)
+character_event = {
+	id = knights.34
+	desc = EVTDESC_knights.34
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.34
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			female = yes
+			age = 26
+			religion = ROOT
+			culture = cobble
+		}
+		new_character = {
+			add_spouse_matrilineal = FROM
+		}
+		FROM = {
+			move_character = ROOT
+			religion = ROOT
+		}
+	}
+}
+
+# Son returns scarred but seasoned (Son)
+character_event = {
+	id = knights.35
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_cobble
+		NOT = { trait = scarred }
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+		
+		modifier = {
+			factor = 0.75
+			trait = brave
+		}
+		modifier = {
+			factor = 1.25
+			trait = craven
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.36 } }
+		clr_character_flag = serving_knights_cobble
+	}
+}
+
+# Son returns scarred but seasoned
+character_event = {
+	id = knights.36
+	desc = EVTDESC_knights.36
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.36
+		FROM = {
+			move_character = ROOT
+			add_trait = scarred
+			add_trait = knight_cobble
+			change_martial = 4
+		}
+	}
+}
+
+# Son returns as excellent strategist (Son)
+character_event = {
+	id = knights.37
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_cobble
+		NOT = { trait = brilliant_strategist }
+		OR = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+		
+		modifier = {
+			factor = 0.5
+			trait = genius
+		}
+		modifier = {
+			factor = 0.75
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.75
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				trait = slow
+				trait = dull
+			}
+		}
+		modifier = {
+			factor = 1.5
+			trait = imbecile
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.38 } }
+		clr_character_flag = serving_knights_cobble
+	}
+}
+
+# Son returns as excellent strategist
+character_event = {
+	id = knights.38
+	desc = EVTDESC_knights.38
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.38
+		if = {
+			limit = {
+				FROM = {
+					trait = skilled_tactician
+				}
+			}
+			FROM = {
+				hidden_tooltip = { remove_trait = skilled_tactician }
+				add_trait = brilliant_strategist
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					OR = {
+						trait = misguided_warrior
+						trait = tough_soldier
+					}	
+				}
+			}
+			FROM = {
+				hidden_tooltip = { 
+					remove_trait = misguided_warrior
+					remove_trait = tough_soldier
+				}
+				add_trait = skilled_tactician
+			}
+		}
+		FROM = {
+			change_martial = 2
+			add_trait = knight_cobble
+			move_character = ROOT
+		}
+	}
+}
+
+# Son returns with PTSD (Son)
+character_event = {
+	id = knights.39
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_cobble
+		NOT = { trait = depressed }
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+		
+		modifier = {
+			factor = 0.75
+			trait = kind
+		}
+		modifier = {
+			factor = 0.75
+			trait = poet
+		}
+		modifier = {
+			factor = 0.75
+			trait = just
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.40 } }
+		clr_character_flag = serving_knights_cobble
+	}
+}
+
+# Son returns with PTSD
+character_event = {
+	id = knights.40
+	desc = EVTDESC_knights.40
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.40
+		FROM = {
+			move_character = ROOT
+			add_trait = stressed
+			add_trait = depressed
+			add_trait = knight_cobble
+		}
+	}
+}
+
+# Son returns home with  wife (Son)
+character_event = {
+	id = knights.41
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_cobble
+		is_married = no
+		e_byzantium = {
+			holder_scope = {
+				culture = cobble
+				religion = golden_goddesses
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+		
+		modifier = {
+			factor = 0.75
+			trait = lustful
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.42 } }
+		clr_character_flag = serving_knights_cobble
+	}
+}
+
+# Son returns home with  wife
+character_event = {
+	id = knights.42
+	desc = EVTDESC_knights.42
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.42
+		create_character = {
+			random_traits = yes
+			dynasty = NONE
+			female = yes
+			age = 26
+			religion = golden_goddesses
+			culture = cobble
+		}
+		new_character = {
+			add_spouse = FROM
+		}
+		FROM = { 
+			add_trait = knight_cobble 
+			move_character = ROOT
+		}
+	}
+}
+
+# Son returns home as a seasoned warrior (Son)
+character_event = {
+	id = knights.43
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_cobble
+	}
+	
+	mean_time_to_happen = {
+		months = 118
+		
+		modifier = {
+			factor = 0.75
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			is_strong_trigger = yes
+		}
+		modifier = {
+			factor = 0.75
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+		}
+		modifier = {
+			factor = 0.75
+			trait = genius
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				trait = slow
+				trait = dull
+			}
+		}
+		modifier = {
+			factor = 1.5
+			trait = imbecile
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.44 } }
+		clr_character_flag = serving_knights_cobble
+	}
+}
+
+# Son returns home as a seasoned warrior
+character_event = {
+	id = knights.44
+	desc = EVTDESC_knights.44
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.44
+		FROM = {
+			move_character = ROOT
+			add_trait = brave
+			add_trait = knight_cobble
+			change_martial = 2
+		}
+	}
+}
+
+# Son dies in battle (Son)
+character_event = {
+	id = knights.45
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_cobble
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+		
+		modifier = {
+			factor = 0.75
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.75
+			trait = berserker
+		}
+		modifier = {
+			factor = 1.25
+			trait = craven
+		}
+		modifier = {
+			factor = 0.75
+			trait = drunkard
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_tuberculosis
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_typhoid_fever
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_typhus
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_bubonic_plague
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_measles
+		}		
+		modifier = {
+			factor = 0.75
+			trait = has_small_pox
+		}
+		modifier = {
+			factor = 0.75
+			trait = wounded
+		}
+		modifier = {
+			factor = 0.5
+			trait = infirm
+		}
+		modifier = {
+			factor = 0.5
+			trait = incapable
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.46 } }
+		clr_character_flag = serving_knights_cobble
+	}
+}
+
+# Son dies in battle
+character_event = {
+	id = knights.46
+	desc = EVTDESC_knights.46
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.46
+		FROM = { death = { death_reason = death_battle } }
+	}
+}
+
+# Son returns with loot (Son)
+character_event = {
+	id = knights.47
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_cobble
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+		
+		modifier = {
+			factor = 0.75
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.75
+			stewardship = 10
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.48 } }
+		clr_character_flag = serving_knights_cobble
+	}
+}
+
+# Son returns with loot
+character_event = {
+	id = knights.48
+	desc = EVTDESC_knights.48
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.48
+		FROM = {
+			move_character = ROOT
+			add_trait = knight_cobble
+		}
+		wealth = 300
+	}
+}
+
+# Father dies, Player Son is heir
+character_event = {
+	id = knights.49
+	desc = EVTDESC_knights.49
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	ai = no
+	
+	trigger = {
+
+		OR = {
+			has_character_flag = wants_knights_cobble
+			has_character_flag = serving_knights_cobble
+		}
+		father_even_if_dead = { is_alive = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_character_flag = wants_knights_cobble
+		clr_character_flag = serving_knights_cobble
+	}
+	
+	option = {
+		name = EVTOPTA_knights.24
+		add_trait = knight_cobble
+		prestige = 180
+		wealth = 180
+	}
+}
+
+# Father dies, Son gets Knights of cobble trait
+character_event = {
+	id = knights.50
+	hide_window = yes
+	
+	min_age = 16
+	ai = yes
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+
+		OR = {
+			has_character_flag = wants_knights_cobble
+			has_character_flag = serving_knights_cobble
+		}
+		father_even_if_dead = { is_alive = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_trait = knight_cobble
+		clr_character_flag = wants_knights_cobble
+		clr_character_flag = serving_knights_cobble
+	}
+}
+#Rivermen of Saria
+# Knights of Saria Founded (Emperor)
+narrative_event = {
+	id = knights.51
+	title = EVTNAME_knights.51
+	desc = EVTDESC_knights.51
+	picture = GFX_evt_viking_battle_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_knights.51
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					ai = no
+					OR = {
+						culture_group hylian_group
+						culture_group = round_eared
+					}
+				}
+				narrative_event = { id = knights.52 }
+			}
+		}
+	}
+}
+
+# Knights of saria Guard Founded ()
+narrative_event = {
+	id = knights.52
+	title = EVTNAME_knights.52
+	desc = EVTDESC_knights.52
+	picture = GFX_evt_viking_battle_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.52
+		custom_tooltip = { text = knight_sarias_organized }
+	}
+}
+
+# Knights of saria Captain gets Knights of saria trait
+character_event = {
+	id = knights.53
+	hide_window = yes
+	
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		has_landed_title = d_knights_saria
+		NOT = { trait = knight_saria }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_trait = knight_saria
+	}
+}
+
+# Son has served a few years
+character_event = {
+	id = knights.54
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = wants_knights_saria
+	}
+	
+	immediate = {
+		set_character_flag = serving_knights_saria
+		clr_character_flag = wants_knights_saria
+	}
+}
+
+# Son wants to join the Knights of sarias (Son)
+character_event = {
+	id = knights.55
+	hide_window = yes
+	
+	ai = yes
+	min_age = 16
+	max_age = 40
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+
+		is_landed = no
+		in_command = no
+		has_global_flag = knight_saria_founded
+		OR = {
+				culture = saria
+				culture = kasuton
+				culture = little_hyrulean
+				culture = east_hyrulean
+				culture = calatian
+		}
+		NOR = { 
+			trait = knight_saria 
+			has_character_flag = wants_knights_saria
+			has_character_flag = denied_knights_saria
+		}
+		father = {
+			is_alive = yes
+			OR = {
+				culture = saria
+				culture = kasuton
+				culture = little_hyrulean
+				culture = east_hyrulean
+				culture = calatian
+			}
+			is_ruler = yes
+			is_liege_of = ROOT
+			prisoner = no
+			NOT = { trait = incapable }
+			ROOT = { host = { character = PREVPREV } }
+		}
+		NOT = { trait = in_hiding }
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+		
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			trait = berserker
+		}
+		modifier = {
+			factor = 0.75
+			trait = proud
+		}
+		modifier = {
+			factor = 0.75
+			trait = impaler
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			trait = content
+		}
+		modifier = {
+			factor = 1.5
+			is_primary_heir = yes
+		}
+		modifier = {
+			factor = 2.0
+			trait = craven
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.56 } }
+		set_character_flag = wants_knights_saria
+	}
+}
+
+# Son wants to join the Knights of sarias (Father)
+character_event = {
+	id = knights.56
+	desc = EVTDESC_knights.56
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # Deny
+		name = EVTOPTA_knights.56
+		FROM = {
+			opinion = {
+				modifier = opinion_very_disappointed
+				years = 1
+				who = ROOT
+			}
+			clr_character_flag = wants_knights_saria
+			set_character_flag = denied_knights_saria
+		}
+		prestige = -100
+	}
+	option = { # Allow
+		name = EVTOPTB_knights.56
+		d_knights_saria = {
+			holder_scope = {
+				FROM = {
+					move_character = PREV
+				}
+			}
+		}
+		hidden_tooltip = {
+			FROM = { 
+				character_event = { id = knights.54 days = 1460 }
+			}
+		}
+		prestige = 100
+	}
+}
+
+# Son stays in saria with wife (Son)
+character_event = {
+	id = knights.57
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_saria
+		is_married = no
+		NOT = {
+			OR = {
+				father = {
+					primary_title = {
+						current_heir = { character = ROOT }
+					}
+				}
+				mother = {
+					primary_title = {
+						current_heir = { character = ROOT }
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+		
+		modifier = {
+			factor = 0.75
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.75
+			trait = content
+		}
+		modifier = {
+			factor = 0.75
+			trait = slothful
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.58 } }
+		e_saria_center = {
+			holder_scope = {
+				character_event = { id = knights.59 }
+			}
+		}
+		clr_character_flag = serving_knights_saria
+	}
+}
+
+# Son stays in Greece with wife ( father)
+character_event = {
+	id = knights.58
+	desc = EVTDESC_knights.59
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.59
+		tooltip = {
+			e_saria_center = {
+				holder_scope = {
+					FROM = {
+						move_character = PREV
+						religion = PREV
+					}
+				}
+			}
+		}
+		FROM = { add_trait = knight_saria }
+	}
+}
+
+# Son stays in Greece with wife (Byzantine Emperor)
+character_event = {
+	id = knights.59
+	desc = EVTDESC_knights.59
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.59
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			female = yes
+			age = 26
+			religion = ROOT
+			culture = saria
+		}
+		new_character = {
+			add_spouse_matrilineal = FROM
+		}
+		FROM = {
+			move_character = ROOT
+			religion = ROOT
+		}
+	}
+}
+
+# Son returns scarred but seasoned (Son)
+character_event = {
+	id = knights.60
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_saria
+		NOT = { trait = scarred }
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+		
+		modifier = {
+			factor = 0.75
+			trait = brave
+		}
+		modifier = {
+			factor = 1.25
+			trait = craven
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.61 } }
+		clr_character_flag = serving_knights_saria
+	}
+}
+
+# Son returns scarred but seasoned
+character_event = {
+	id = knights.61
+	desc = EVTDESC_knights.61
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.61
+		FROM = {
+			move_character = ROOT
+			add_trait = scarred
+			add_trait = knight_saria
+			change_martial = 4
+		}
+	}
+}
+
+# Son returns as excellent strategist (Son)
+character_event = {
+	id = knights.62
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_saria
+		NOT = { trait = brilliant_strategist }
+		OR = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+		
+		modifier = {
+			factor = 0.5
+			trait = genius
+		}
+		modifier = {
+			factor = 0.75
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.75
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				trait = slow
+				trait = dull
+			}
+		}
+		modifier = {
+			factor = 1.5
+			trait = imbecile
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.63 } }
+		clr_character_flag = serving_knights_saria
+	}
+}
+
+# Son returns as excellent strategist
+character_event = {
+	id = knights.63
+	desc = EVTDESC_knights.63
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.63
+		if = {
+			limit = {
+				FROM = {
+					trait = skilled_tactician
+				}
+			}
+			FROM = {
+				hidden_tooltip = { remove_trait = skilled_tactician }
+				add_trait = brilliant_strategist
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					OR = {
+						trait = misguided_warrior
+						trait = tough_soldier
+					}	
+				}
+			}
+			FROM = {
+				hidden_tooltip = { 
+					remove_trait = misguided_warrior
+					remove_trait = tough_soldier
+				}
+				add_trait = skilled_tactician
+			}
+		}
+		FROM = {
+			change_martial = 2
+			add_trait = knight_saria
+			move_character = ROOT
+		}
+	}
+}
+
+# Son returns with PTSD (Son)
+character_event = {
+	id = knights.64
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_saria
+		NOT = { trait = depressed }
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+		
+		modifier = {
+			factor = 0.75
+			trait = kind
+		}
+		modifier = {
+			factor = 0.75
+			trait = poet
+		}
+		modifier = {
+			factor = 0.75
+			trait = just
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.65 } }
+		clr_character_flag = serving_knights_saria
+	}
+}
+
+# Son returns with PTSD
+character_event = {
+	id = knights.65
+	desc = EVTDESC_knights.65
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.65
+		FROM = {
+			move_character = ROOT
+			add_trait = stressed
+			add_trait = depressed
+			add_trait = knight_saria
+		}
+	}
+}
+
+# Son returns home with  wife (Son)
+character_event = {
+	id = knights.66
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_saria
+		is_married = no
+		e_byzantium = {
+			holder_scope = {
+				culture = saria
+				religion = golden_goddesses
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+		
+		modifier = {
+			factor = 0.75
+			trait = lustful
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.67 } }
+		clr_character_flag = serving_knights_saria
+	}
+}
+
+# Son returns home with  wife
+character_event = {
+	id = knights.67
+	desc = EVTDESC_knights.67
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.67
+		create_character = {
+			random_traits = yes
+			dynasty = NONE
+			female = yes
+			age = 26
+			religion = golden_goddesses
+			culture = saria
+		}
+		new_character = {
+			add_spouse = FROM
+		}
+		FROM = { 
+			add_trait = knight_saria 
+			move_character = ROOT
+		}
+	}
+}
+
+# Son returns home as a seasoned warrior (Son)
+character_event = {
+	id = knights.68
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_saria
+	}
+	
+	mean_time_to_happen = {
+		months = 118
+		
+		modifier = {
+			factor = 0.75
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			is_strong_trigger = yes
+		}
+		modifier = {
+			factor = 0.75
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+		}
+		modifier = {
+			factor = 0.75
+			trait = genius
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				trait = slow
+				trait = dull
+			}
+		}
+		modifier = {
+			factor = 1.5
+			trait = imbecile
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.69 } }
+		clr_character_flag = serving_knights_saria
+	}
+}
+
+# Son returns home as a seasoned warrior
+character_event = {
+	id = knights.69
+	desc = EVTDESC_knights.69
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.69
+		FROM = {
+			move_character = ROOT
+			add_trait = brave
+			add_trait = knight_saria
+			change_martial = 2
+		}
+	}
+}
+
+# Son dies in battle (Son)
+character_event = {
+	id = knights.70
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_saria
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+		
+		modifier = {
+			factor = 0.75
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.75
+			trait = berserker
+		}
+		modifier = {
+			factor = 1.25
+			trait = craven
+		}
+		modifier = {
+			factor = 0.75
+			trait = drunkard
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_tuberculosis
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_typhoid_fever
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_typhus
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_bubonic_plague
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_measles
+		}		
+		modifier = {
+			factor = 0.75
+			trait = has_small_pox
+		}
+		modifier = {
+			factor = 0.75
+			trait = wounded
+		}
+		modifier = {
+			factor = 0.5
+			trait = infirm
+		}
+		modifier = {
+			factor = 0.5
+			trait = incapable
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.71 } }
+		clr_character_flag = serving_knights_saria
+	}
+}
+
+# Son dies in battle
+character_event = {
+	id = knights.71
+	desc = EVTDESC_knights.71
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.71
+		FROM = { death = { death_reason = death_battle } }
+	}
+}
+
+# Son returns with loot (Son)
+character_event = {
+	id = knights.72
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_saria
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+		
+		modifier = {
+			factor = 0.75
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.75
+			stewardship = 10
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.73 } }
+		clr_character_flag = serving_knights_saria
+	}
+}
+
+# Son returns with loot
+character_event = {
+	id = knights.73
+	desc = EVTDESC_knights.73
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.73
+		FROM = {
+			move_character = ROOT
+			add_trait = knight_saria
+		}
+		wealth = 300
+	}
+}
+
+# Father dies, Player Son is heir
+character_event = {
+	id = knights.74
+	desc = EVTDESC_knights.74
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	ai = no
+	
+	trigger = {
+
+		OR = {
+			has_character_flag = wants_knights_saria
+			has_character_flag = serving_knights_saria
+		}
+		father_even_if_dead = { is_alive = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_character_flag = wants_knights_saria
+		clr_character_flag = serving_knights_saria
+	}
+	
+	option = {
+		name = EVTOPTA_knights.24
+		add_trait = knight_saria
+		prestige = 180
+		wealth = 180
+	}
+}
+
+# Father dies, Son gets Knights of saria trait
+character_event = {
+	id = knights.75
+	hide_window = yes
+	
+	min_age = 16
+	ai = yes
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+
+		OR = {
+			has_character_flag = wants_knights_saria
+			has_character_flag = serving_knights_saria
+		}
+		father_even_if_dead = { is_alive = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_trait = knight_saria
+		clr_character_flag = wants_knights_saria
+		clr_character_flag = serving_knights_saria
+	}
+}
+#Knights of Great Hyrule
+
+# Knights of Great Hyrule Founded (Emperor)
+narrative_event = {
+	id = knights.76
+	title = EVTNAME_knights.76
+	desc = EVTDESC_knights.76
+	picture = GFX_evt_viking_battle_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_knights.76
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					ai = no
+					OR = {
+						culture_group hylian_group
+					}
+				}
+				narrative_event = { id = knights.77 }
+			}
+		}
+	}
+}
+
+# Knights of saria Guard Founded (Norse)
+narrative_event = {
+	id = knights.77
+	title = EVTNAME_knights.77
+	desc = EVTDESC_knights.77
+	picture = GFX_evt_viking_battle_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.77
+		custom_tooltip = { text = knight_great_hyrule_organized }
+	}
+}
+
+# Knights of saria Captain gets Knights of saria trait
+character_event = {
+	id = knights.78
+	hide_window = yes
+	
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		has_landed_title = d_knights_great_hyrule
+		NOT = { trait = knight_great_hyrule }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_trait = knight_great_hyrule
+	}
+}
+
+# Son has served a few years
+character_event = {
+	id = knights.79
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = wants_knights_great_hyrule
+	}
+	
+	immediate = {
+		set_character_flag = serving_knights_great_hyrule
+		clr_character_flag = wants_knights_great_hyrule
+	}
+}
+
+# Son wants to join the Knights of sarias (Son)
+character_event = {
+	id = knights.80
+	hide_window = yes
+	
+	ai = yes
+	min_age = 16
+	max_age = 40
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+
+		is_landed = no
+		in_command = no
+		has_global_flag = knight_great_hyrule_founded
+		OR = {
+				culture = little_hyrulean
+				culture = east_hyrulean
+				culture = west_hyrulean
+				culture = gamelon
+				culture = tolemac
+				culture = calatian
+		}
+		NOR = { 
+			trait = knight_great_hyrule 
+			has_character_flag = wants_knights_great_hyrule
+			has_character_flag = denied_knights_great_hyrule
+		}
+		father = {
+			is_alive = yes
+			OR = {
+				culture = little_hyrulean
+				culture = east_hyrulean
+				culture = west_hyrulean
+				culture = gamelon
+				culture = tolemac
+				culture = calatian
+			}
+			is_ruler = yes
+			is_liege_of = ROOT
+			prisoner = no
+			NOT = { trait = incapable }
+			ROOT = { host = { character = PREVPREV } }
+		}
+		NOT = { trait = in_hiding }
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+		
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			trait = berserker
+		}
+		modifier = {
+			factor = 0.75
+			trait = proud
+		}
+		modifier = {
+			factor = 0.75
+			trait = impaler
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			trait = content
+		}
+		modifier = {
+			factor = 1.5
+			is_primary_heir = yes
+		}
+		modifier = {
+			factor = 2.0
+			trait = craven
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.81 } }
+		set_character_flag = wants_knights_great_hyrule
+	}
+}
+
+# Son wants to join the Knights of sarias (Father)
+character_event = {
+	id = knights.81
+	desc = EVTDESC_knights.81
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # Deny
+		name = EVTOPTA_knights.81
+		FROM = {
+			opinion = {
+				modifier = opinion_very_disappointed
+				years = 1
+				who = ROOT
+			}
+			clr_character_flag = wants_knights_great_hyrule
+			set_character_flag = denied_knights_great_hyrule
+		}
+		prestige = -100
+	}
+	option = { # Allow
+		name = EVTOPTB_knights.81
+		d_knights_great_hyrule = {
+			holder_scope = {
+				FROM = {
+					move_character = PREV
+				}
+			}
+		}
+		hidden_tooltip = {
+			FROM = { 
+				character_event = { id = knights.79 days = 1460 }
+			}
+		}
+		prestige = 100
+	}
+}
+
+# Son stays in saria with wife (Son)
+character_event = {
+	id = knights.82
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_great_hyrule
+		is_married = no
+		NOT = {
+			OR = {
+				father = {
+					primary_title = {
+						current_heir = { character = ROOT }
+					}
+				}
+				mother = {
+					primary_title = {
+						current_heir = { character = ROOT }
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+		
+		modifier = {
+			factor = 0.75
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.75
+			trait = content
+		}
+		modifier = {
+			factor = 0.75
+			trait = slothful
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.83 } }
+		e_saria_center = {
+			holder_scope = {
+				character_event = { id = knights.84 }
+			}
+		}
+		clr_character_flag = serving_knights_great_hyrule
+	}
+}
+
+# Son stays in Greece with wife (Norse father)
+character_event = {
+	id = knights.83
+	desc = EVTDESC_knights.84
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.84
+		tooltip = {
+			e_saria_center = {
+				holder_scope = {
+					FROM = {
+						move_character = PREV
+						religion = PREV
+					}
+				}
+			}
+		}
+		FROM = { add_trait = knight_great_hyrule }
+	}
+}
+
+# Son stays in Greece with wife (Byzantine Emperor)
+character_event = {
+	id = knights.84
+	desc = EVTDESC_knights.84
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.84
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			female = yes
+			age = 26
+			religion = ROOT
+			culture = west_hyrulean
+		}
+		new_character = {
+			add_spouse_matrilineal = FROM
+		}
+		FROM = {
+			move_character = ROOT
+			religion = ROOT
+		}
+	}
+}
+
+# Son returns scarred but seasoned (Son)
+character_event = {
+	id = knights.84
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_great_hyrule
+		NOT = { trait = scarred }
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+		
+		modifier = {
+			factor = 0.75
+			trait = brave
+		}
+		modifier = {
+			factor = 1.25
+			trait = craven
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.85 } }
+		clr_character_flag = serving_knights_great_hyrule
+	}
+}
+
+# Son returns scarred but seasoned
+character_event = {
+	id = knights.85
+	desc = EVTDESC_knights.85
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.85
+		FROM = {
+			move_character = ROOT
+			add_trait = scarred
+			add_trait = knight_great_hyrule
+			change_martial = 4
+		}
+	}
+}
+
+# Son returns as excellent strategist (Son)
+character_event = {
+	id = knights.86
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_great_hyrule
+		NOT = { trait = brilliant_strategist }
+		OR = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+		
+		modifier = {
+			factor = 0.5
+			trait = genius
+		}
+		modifier = {
+			factor = 0.75
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.75
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				trait = slow
+				trait = dull
+			}
+		}
+		modifier = {
+			factor = 1.5
+			trait = imbecile
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.87 } }
+		clr_character_flag = serving_knights_great_hyrule
+	}
+}
+
+# Son returns as excellent strategist
+character_event = {
+	id = knights.87
+	desc = EVTDESC_knights.87
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.87
+		if = {
+			limit = {
+				FROM = {
+					trait = skilled_tactician
+				}
+			}
+			FROM = {
+				hidden_tooltip = { remove_trait = skilled_tactician }
+				add_trait = brilliant_strategist
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					OR = {
+						trait = misguided_warrior
+						trait = tough_soldier
+					}	
+				}
+			}
+			FROM = {
+				hidden_tooltip = { 
+					remove_trait = misguided_warrior
+					remove_trait = tough_soldier
+				}
+				add_trait = skilled_tactician
+			}
+		}
+		FROM = {
+			change_martial = 2
+			add_trait = knight_great_hyrule
+			move_character = ROOT
+		}
+	}
+}
+
+# Son returns with PTSD (Son)
+character_event = {
+	id = knights.88
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_great_hyrule
+		NOT = { trait = depressed }
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+		
+		modifier = {
+			factor = 0.75
+			trait = kind
+		}
+		modifier = {
+			factor = 0.75
+			trait = poet
+		}
+		modifier = {
+			factor = 0.75
+			trait = just
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.89 } }
+		clr_character_flag = serving_knights_great_hyrule
+	}
+}
+
+# Son returns with PTSD
+character_event = {
+	id = knights.89
+	desc = EVTDESC_knights.89
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.89
+		FROM = {
+			move_character = ROOT
+			add_trait = stressed
+			add_trait = depressed
+			add_trait = knight_great_hyrule
+		}
+	}
+}
+
+# Son returns home with Greek wife (Son)
+character_event = {
+	id = knights.90
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_great_hyrule
+		is_married = no
+		e_byzantium = {
+			holder_scope = {
+			culture = west_hyrulean
+				religion = golden_goddesses
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+		
+		modifier = {
+			factor = 0.75
+			trait = lustful
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.91 } }
+		clr_character_flag = serving_knights_great_hyrule
+	}
+}
+
+# Son returns home with Greek wife
+character_event = {
+	id = knights.91
+	desc = EVTDESC_knights.91
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.91
+		create_character = {
+			random_traits = yes
+			dynasty = NONE
+			female = yes
+			age = 26
+			religion = golden_goddesses
+			culture = west_hyrulean
+		}
+		new_character = {
+			add_spouse = FROM
+		}
+		FROM = { 
+			add_trait = knight_great_hyrule 
+			move_character = ROOT
+		}
+	}
+}
+
+# Son returns home as a seasoned warrior (Son)
+character_event = {
+	id = knights.92
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_great_hyrule
+	}
+	
+	mean_time_to_happen = {
+		months = 118
+		
+		modifier = {
+			factor = 0.75
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			is_strong_trigger = yes
+		}
+		modifier = {
+			factor = 0.75
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+		}
+		modifier = {
+			factor = 0.75
+			trait = genius
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				trait = slow
+				trait = dull
+			}
+		}
+		modifier = {
+			factor = 1.5
+			trait = imbecile
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.93 } }
+		clr_character_flag = serving_knights_great_hyrule
+	}
+}
+
+# Son returns home as a seasoned warrior
+character_event = {
+	id = knights.93
+	desc = EVTDESC_knights.93
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.93
+		FROM = {
+			move_character = ROOT
+			add_trait = brave
+			add_trait = knight_great_hyrule
+			change_martial = 2
+		}
+	}
+}
+
+# Son dies in battle (Son)
+character_event = {
+	id = knights.94
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_great_hyrule
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+		
+		modifier = {
+			factor = 0.75
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.75
+			trait = berserker
+		}
+		modifier = {
+			factor = 1.25
+			trait = craven
+		}
+		modifier = {
+			factor = 0.75
+			trait = drunkard
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_tuberculosis
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_typhoid_fever
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_typhus
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_bubonic_plague
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_measles
+		}		
+		modifier = {
+			factor = 0.75
+			trait = has_small_pox
+		}
+		modifier = {
+			factor = 0.75
+			trait = wounded
+		}
+		modifier = {
+			factor = 0.5
+			trait = infirm
+		}
+		modifier = {
+			factor = 0.5
+			trait = incapable
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.95 } }
+		clr_character_flag = serving_knights_great_hyrule
+	}
+}
+
+# Son dies in battle
+character_event = {
+	id = knights.95
+	desc = EVTDESC_knights.95
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.95
+		FROM = { death = { death_reason = death_battle } }
+	}
+}
+
+# Son returns with loot (Son)
+character_event = {
+	id = knights.96
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_great_hyrule
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+		
+		modifier = {
+			factor = 0.75
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.75
+			stewardship = 10
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.97 } }
+		clr_character_flag = serving_knights_great_hyrule
+	}
+}
+
+# Son returns with loot
+character_event = {
+	id = knights.97
+	desc = EVTDESC_knights.97
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.97
+		FROM = {
+			move_character = ROOT
+			add_trait = knight_great_hyrule
+		}
+		wealth = 300
+	}
+}
+
+# Father dies, Player Son is heir
+character_event = {
+	id = knights.98
+	desc = EVTDESC_knights.98
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	ai = no
+	
+	trigger = {
+
+		OR = {
+			has_character_flag = wants_knights_great_hyrule
+			has_character_flag = serving_knights_great_hyrule
+		}
+		father_even_if_dead = { is_alive = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_character_flag = wants_knights_great_hyrule
+		clr_character_flag = serving_knights_great_hyrule
+	}
+	
+	option = {
+		name = EVTOPTA_knights.24
+		add_trait = knight_great_hyrule
+		prestige = 180
+		wealth = 180
+	}
+}
+
+# Father dies, Son gets Knights of saria trait
+character_event = {
+	id = knights.99
+	hide_window = yes
+	
+	min_age = 16
+	ai = yes
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+
+		OR = {
+			has_character_flag = wants_knights_great_hyrule
+			has_character_flag = serving_knights_great_hyrule
+		}
+		father_even_if_dead = { is_alive = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_trait = knight_great_hyrule
+		clr_character_flag = wants_knights_great_hyrule
+		clr_character_flag = serving_knights_great_hyrule
+	}
+}
+#Knights of Moria
+# Knights of Moria Founded (Emperor)
+narrative_event = {
+	id = knights.100
+	title = EVTNAME_knights.100
+	desc = EVTDESC_knights.100
+	picture = GFX_evt_viking_battle_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_knights.100
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					ai = no
+					culture_group = round_eared
+				}
+				narrative_event = { id = knights.101 }
+			}
+		}
+	}
+}
+
+# Knights of Moria Founded ()
+narrative_event = {
+	id = knights.101
+	title = EVTNAME_knights.101
+	desc = EVTDESC_knights.101
+	picture = GFX_evt_viking_battle_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.101
+		custom_tooltip = { text = knights_moria_organized }
+	}
+}
+
+# Knights of moria Captain gets Knights of moria trait
+character_event = {
+	id = knights.102
+	hide_window = yes
+	
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		has_landed_title = d_knights_moria
+		NOT = { trait = knight_moria }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_trait = knight_moria
+	}
+}
+
+# Son has served a few years
+character_event = {
+	id = knights.103
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = wants_knights_moria
+	}
+	
+	immediate = {
+		set_character_flag = serving_knights_moria
+		clr_character_flag = wants_knights_moria
+	}
+}
+
+# Son wants to join the Knights of morias (Son)
+character_event = {
+	id = knights.104
+	hide_window = yes
+	
+	ai = yes
+	min_age = 16
+	max_age = 40
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+
+		is_landed = no
+		in_command = no
+		has_global_flag = knight_moria_founded
+		OR = {
+				culture = moria
+				culture = hanman
+				culture = falsian
+				culture = labrynnan
+		}
+		NOR = { 
+			trait = knight_moria 
+			has_character_flag = wants_knights_moria
+			has_character_flag = denied_knightss_moria
+		}
+		father = {
+			is_alive = yes
+		OR = {
+				culture = moria
+				culture = hanman
+				culture = falsian
+				culture = labrynnan
+		}
+			is_ruler = yes
+			is_liege_of = ROOT
+			prisoner = no
+			NOT = { trait = incapable }
+			ROOT = { host = { character = PREVPREV } }
+		}
+		NOT = { trait = in_hiding }
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+		
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			trait = berserker
+		}
+		modifier = {
+			factor = 0.75
+			trait = proud
+		}
+		modifier = {
+			factor = 0.75
+			trait = impaler
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			trait = content
+		}
+		modifier = {
+			factor = 1.5
+			is_primary_heir = yes
+		}
+		modifier = {
+			factor = 2.0
+			trait = craven
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.105 } }
+		set_character_flag = wants_knights_moria
+	}
+}
+
+# Son wants to join the Knights of morias (Father)
+character_event = {
+	id = knights.105
+	desc = EVTDESC_knights.105
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # Deny
+		name = EVTOPTA_knights.105
+		FROM = {
+			opinion = {
+				modifier = opinion_very_disappointed
+				years = 1
+				who = ROOT
+			}
+			clr_character_flag = wants_knights_moria
+			set_character_flag = denied_knightss_moria
+		}
+		prestige = -100
+	}
+	option = { # Allow
+		name = EVTOPTB_knights.105
+		d_knights_moria = {
+			holder_scope = {
+				FROM = {
+					move_character = PREV
+				}
+			}
+		}
+		hidden_tooltip = {
+			FROM = { 
+				character_event = { id = knights.103 days = 1460 }
+			}
+		}
+		prestige = 100
+	}
+}
+
+# Son stays in moria with wife (Son)
+character_event = {
+	id = knights.106
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_moria
+		is_married = no
+		NOT = {
+			OR = {
+				father = {
+					primary_title = {
+						current_heir = { character = ROOT }
+					}
+				}
+				mother = {
+					primary_title = {
+						current_heir = { character = ROOT }
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+		
+		modifier = {
+			factor = 0.75
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.75
+			trait = content
+		}
+		modifier = {
+			factor = 0.75
+			trait = slothful
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.107 } }
+		e_moria_center = {
+			holder_scope = {
+				character_event = { id = knights.108 }
+			}
+		}
+		clr_character_flag = serving_knights_moria
+	}
+}
+
+# Son stays in Greece with wife ( father)
+character_event = {
+	id = knights.107
+	desc = EVTDESC_knights.108
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.108
+		tooltip = {
+			e_moria_center = {
+				holder_scope = {
+					FROM = {
+						move_character = PREV
+						religion = PREV
+					}
+				}
+			}
+		}
+		FROM = { add_trait = knight_moria }
+	}
+}
+
+# Son stays in Greece with wife (Byzantine Emperor)
+character_event = {
+	id = knights.108
+	desc = EVTDESC_knights.108
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.108
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			female = yes
+			age = 26
+			religion = ROOT
+			culture = moria
+		}
+		new_character = {
+			add_spouse_matrilineal = FROM
+		}
+		FROM = {
+			move_character = ROOT
+			religion = ROOT
+		}
+	}
+}
+
+# Son returns scarred but seasoned (Son)
+character_event = {
+	id = knights.109
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_moria
+		NOT = { trait = scarred }
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+		
+		modifier = {
+			factor = 0.75
+			trait = brave
+		}
+		modifier = {
+			factor = 1.25
+			trait = craven
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.110 } }
+		clr_character_flag = serving_knights_moria
+	}
+}
+
+# Son returns scarred but seasoned
+character_event = {
+	id = knights.110
+	desc = EVTDESC_knights.110
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.110
+		FROM = {
+			move_character = ROOT
+			add_trait = scarred
+			add_trait = knight_moria
+			change_martial = 4
+		}
+	}
+}
+
+# Son returns as excellent strategist (Son)
+character_event = {
+	id = knights.111
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_moria
+		NOT = { trait = brilliant_strategist }
+		OR = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+		
+		modifier = {
+			factor = 0.5
+			trait = genius
+		}
+		modifier = {
+			factor = 0.75
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.75
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				trait = slow
+				trait = dull
+			}
+		}
+		modifier = {
+			factor = 1.5
+			trait = imbecile
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.112 } }
+		clr_character_flag = serving_knights_moria
+	}
+}
+
+# Son returns as excellent strategist
+character_event = {
+	id = knights.112
+	desc = EVTDESC_knights.112
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.112
+		if = {
+			limit = {
+				FROM = {
+					trait = skilled_tactician
+				}
+			}
+			FROM = {
+				hidden_tooltip = { remove_trait = skilled_tactician }
+				add_trait = brilliant_strategist
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					OR = {
+						trait = misguided_warrior
+						trait = tough_soldier
+					}	
+				}
+			}
+			FROM = {
+				hidden_tooltip = { 
+					remove_trait = misguided_warrior
+					remove_trait = tough_soldier
+				}
+				add_trait = skilled_tactician
+			}
+		}
+		FROM = {
+			change_martial = 2
+			add_trait = knight_moria
+			move_character = ROOT
+		}
+	}
+}
+
+# Son returns with PTSD (Son)
+character_event = {
+	id = knights.113
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_moria
+		NOT = { trait = depressed }
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+		
+		modifier = {
+			factor = 0.75
+			trait = kind
+		}
+		modifier = {
+			factor = 0.75
+			trait = poet
+		}
+		modifier = {
+			factor = 0.75
+			trait = just
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.114 } }
+		clr_character_flag = serving_knights_moria
+	}
+}
+
+# Son returns with PTSD
+character_event = {
+	id = knights.114
+	desc = EVTDESC_knights.114
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.114
+		FROM = {
+			move_character = ROOT
+			add_trait = stressed
+			add_trait = depressed
+			add_trait = knight_moria
+		}
+	}
+}
+
+# Son returns home with  wife (Son)
+character_event = {
+	id = knights.115
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_moria
+		is_married = no
+		e_byzantium = {
+			holder_scope = {
+				culture = moria
+				religion = golden_goddesses
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+		
+		modifier = {
+			factor = 0.75
+			trait = lustful
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.116 } }
+		clr_character_flag = serving_knights_moria
+	}
+}
+
+# Son returns home with  wife
+character_event = {
+	id = knights.116
+	desc = EVTDESC_knights.116
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.116
+		create_character = {
+			random_traits = yes
+			dynasty = NONE
+			female = yes
+			age = 26
+			religion = golden_goddesses
+			culture = moria
+		}
+		new_character = {
+			add_spouse = FROM
+		}
+		FROM = { 
+			add_trait = knight_moria 
+			move_character = ROOT
+		}
+	}
+}
+
+# Son returns home as a seasoned warrior (Son)
+character_event = {
+	id = knights.117
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_moria
+	}
+	
+	mean_time_to_happen = {
+		months = 118
+		
+		modifier = {
+			factor = 0.75
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			is_strong_trigger = yes
+		}
+		modifier = {
+			factor = 0.75
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+		}
+		modifier = {
+			factor = 0.75
+			trait = genius
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				trait = slow
+				trait = dull
+			}
+		}
+		modifier = {
+			factor = 1.5
+			trait = imbecile
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.118 } }
+		clr_character_flag = serving_knights_moria
+	}
+}
+
+# Son returns home as a seasoned warrior
+character_event = {
+	id = knights.118
+	desc = EVTDESC_knights.118
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.118
+		FROM = {
+			move_character = ROOT
+			add_trait = brave
+			add_trait = knight_moria
+			change_martial = 2
+		}
+	}
+}
+
+# Son dies in battle (Son)
+character_event = {
+	id = knights.119
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_moria
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+		
+		modifier = {
+			factor = 0.75
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.75
+			trait = berserker
+		}
+		modifier = {
+			factor = 1.25
+			trait = craven
+		}
+		modifier = {
+			factor = 0.75
+			trait = drunkard
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_tuberculosis
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_typhoid_fever
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_typhus
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_bubonic_plague
+		}
+		modifier = {
+			factor = 0.75
+			trait = has_measles
+		}		
+		modifier = {
+			factor = 0.75
+			trait = has_small_pox
+		}
+		modifier = {
+			factor = 0.75
+			trait = wounded
+		}
+		modifier = {
+			factor = 0.5
+			trait = infirm
+		}
+		modifier = {
+			factor = 0.5
+			trait = incapable
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.120 } }
+		clr_character_flag = serving_knights_moria
+	}
+}
+
+# Son dies in battle
+character_event = {
+	id = knights.120
+	desc = EVTDESC_knights.120
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.120
+		FROM = { death = { death_reason = death_battle } }
+	}
+}
+
+# Son returns with loot (Son)
+character_event = {
+	id = knights.121
+	hide_window = yes
+	
+	trigger = {
+
+		has_character_flag = serving_knights_moria
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+		
+		modifier = {
+			factor = 0.75
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.75
+			stewardship = 10
+		}
+	}
+	
+	immediate = {
+		father = { character_event = { id = knights.122 } }
+		clr_character_flag = serving_knights_moria
+	}
+}
+
+# Son returns with loot
+character_event = {
+	id = knights.122
+	desc = EVTDESC_knights.122
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_knights.122
+		FROM = {
+			move_character = ROOT
+			add_trait = knight_moria
+		}
+		wealth = 300
+	}
+}
+
+# Father dies, Player Son is heir
+character_event = {
+	id = knights.123
+	desc = EVTDESC_knights.123
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_war
+	
+	ai = no
+	
+	trigger = {
+
+		OR = {
+			has_character_flag = wants_knights_moria
+			has_character_flag = serving_knights_moria
+		}
+		father_even_if_dead = { is_alive = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_character_flag = wants_knights_moria
+		clr_character_flag = serving_knights_moria
+	}
+	
+	option = {
+		name = EVTOPTA_knights.24
+		add_trait = knight_moria
+		prestige = 180
+		wealth = 180
+	}
+}
+
+# Father dies, Son gets Knights of moria trait
+character_event = {
+	id = knights.124
+	hide_window = yes
+	
+	min_age = 16
+	ai = yes
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+
+		OR = {
+			has_character_flag = wants_knights_moria
+			has_character_flag = serving_knights_moria
+		}
+		father_even_if_dead = { is_alive = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_trait = knight_moria
+		clr_character_flag = wants_knights_moria
+		clr_character_flag = serving_knights_moria
+	}
+}
+

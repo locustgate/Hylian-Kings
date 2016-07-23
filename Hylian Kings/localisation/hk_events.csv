@@ -2,7 +2,13 @@
 #
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 #courtier
-
+#courtier
+HKC.0;Imp In The Garden;;;;;;;;;x
+EVTNAMEHKC.0;Twili In The Garden;;;;;;;;;x
+DESC_HKC.0;As I walk through the garden at dusk the movement of something in the bushes catches my eye.;;;;;;;;;x
+HKCOA;Call the guards;;;;;;;;;x
+HKC0B;I'll get a close look.;;;;;;;;;x
+HKC0C;It must be my mind playing tricks on me;;;;;;;;;x
 #fairy
 DESC_FAIRY.0;I am awoken in the morning to a suddent yell of "Hey! Wake Up!" and find a fairy floating above me.;Je réveillé le matin pour un cri suddent de " Hey ! Wake Up! " et de trouver une fée flottant au-dessus de moi.;Ich bin am Morgen zu einem suddent Schrei aufgewacht "Hey! Wach auf! " und finden Sie eine Fee über mir schweben.;;Me despertaron en la mañana a un grito suddent de " Hey ! Wake Up ! " y encontrar un hada flotando por encima de mí .;;;;;;;;;x
 OPFAIRY.0A;Does this mean I finally have a fairy friend!?;Est- ce que cela signifie que j'ai enfin un ami de fées !?;Heißt das, ich habe endlich eine Fee Freund !?;;¿Esto significa que por fin tengo un amigo de hadas !?;;;;;;;;x
@@ -65,28 +71,147 @@ OPITEMKNIFE;"What's that large sword?";;;;;;;;;x
 DESC_item.31;"That's a knife for a Biggoron, but he doesn't really use them very much.";;;;;;;;;x
 OPITEMMAGICARMOR;"What is that set of armor?";;;;;;;;;x
 DESC_item.32;"That's a set of Wizzrobe made Magic Armor. It'll protect you from almost any form of attack."
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
+#knights
+EVTNAME_knights.0;The Knights of Hyrule;;;;;;;;;x
+EVTDESC_knights.0;The armies of Hyrule can barely protect itself from the monsterous hordes and the Gerudo raiders. It is time to form an organization to protect Holy Hyrule much like the aerborne knights of Legend defended the last of the Hylians during the time that gods walked the earth. They will be the Knights of Hyrule and will never falter.;;;;;;;;;x
+EVTOPTA_knights.0;Let the world see the Glory of Hyrule.;;;;;;;;;x
+EVTDESC_knights.1;Unable to with stand the monsterous hordes and desert raiders the Kingdom of Hyrule has formed the Knights of Hyrule and calls all able bodies who wish to protect the kingdom founded by the Goddesses.;;;;;;;;;x
+EVTOPTA_knights.1;May Hyrule never fall.;;;;;;;;;x
+EVTDESC_knights.5;[From.GetTitledFirstName] came to me and said that they have decided to join the Knights of Hyrule! While [From.GetTitledFirstName] will gain fame, fortune, and experience leading the perils will match protecting Hyrule from the thieving gerudos and the creature's of Demise.;;;;;;;;;x
+EVTOPTA_knights.5;I will not allow it!;Je ne permettrai pas !;Das werde ich nicht erlauben!;;¡No lo permitiré!;;;;;;;;;x;;;;;;;;;x
+EVTOPTB_knights.5;Go [From.GetTitledFirstName] follow the will of the Goddesses and make me proud.;;;;;;;;;x
+EVTDESC_knights.7;A post man from Hyrule arrived today bearing a letter from [From.GetTitledFirstName], it says that he has fallen in love with a woman from Hyrule and left the Knighthood. He expresses that he is sorry to say that he will not be returning to Hyrule as he and his wife wishes to make a name for themselves in Hyrule.;;;;;;;;;x
+EVTOPTA_knights.7;My boy...;Mon garçon...;Mein Junge…;;Mi chico…;;;;;;;;;x
+EVTDESC_knights.8;[From.GetTitledFirstName] has finished his term of service in the Knights of Hyrule, but his wife convinced him that he should stay in Hyrule. So [From.GetTitledFirstName] will be staying in Hyrule to lend me service if needed.;;;;;;;;;x
+EVTOPTA_knights.8;Very well.;Très bien.;Sehr gut.;;Muy bien.;;;;;;;;;x;;;;;;;;;x
+EVTDESC_knights.10;A knight arrive to your caste wearing a full plate armor, the knight quickly disarms your guards and steps up to your throne, but instead drawing their sword the remove their helm revealing it to be [From.GetTitledFirstName].;;;;;;;;;x
+EVTOPTA_knights.10;[From.GetFirstName]! You've... changed!;[From.GetFirstName] ! Tu as... changé !;[From.GetFirstName]! Ihr habt Euch… verändert!;;¡[From.GetFirstName]! ¡Has… cambiado!;;;;;;;;;x
+EVTOPTA_knights.11;[From.GetFirstName] has returned home from Hyrule while looking the same as before you can tell that they are not the same person as before.;;;;;;;;;x
+EVTOPTA_knights.11;No matter, I'm just glad he made it home!;Ça ne fait rien, son retour me fait grand plaisir !;Egal, hauptsache er ist wieder da!;;¡No importa, sólo estoy feliz de que esté de vuelta en casa!;;;;;;;;;x
+EVTDESC_knights.15;A frail robed figure into your throne room, the guards explain that it was seized trying to enter the room and couldn't get anything out of it other than your name. The figure shakingly reveals it's face to be that of [From.GetFirstName].;;;;;;;;x
+EVTOPTA_knights.15;Oh Gods [From.GetFirstName], what have they done to you.;;;;;;;;;x
+EVTDESC_knights.17;[From.GetFirstName] has returned from the Knights of Hyrule, but not alone he has come with a Hyrulean woman, while she misses her home in Castle Town she in exited to meet her new family.;;;;;;;;;x
+EVTOPTA_knights.17;Each to their own.;À chacun sa façon.;Jedem das Seine.;;Cada uno a lo suyo.;;;;;;;;;x
+EVTDESC_knights.19;[From.GetFirstName] has returned from Hyrule with tales of battles against a hundred different forms of monsters and horros.;;;;;;;;;x
+EVTOPTA_knights.19;Tell me of your battles!;;;;;;;;;x
+EVTDESC_knights.22;Three Knights of Hyrule entered the throne room, the express their condolences as the tell me that [From.GetFirstName] fell in battle while defending castle town from a band of Bokoblin. The appologise that they could not recover enough of the remains for transport.;;;;;;;;;x
+EVTOPTA_knights.22;[From.GetFirstName] died a hero...;[From.GetFirstName] est mort en héros...;Er ist als Held gestorben…;;Murió como un héroe…;;;;;;;;;x
+EVTDESC_knights.23;[From.GetFirstName] returned home with a giant wallet filled with rupees, claiming to have been awarded it for outstanding services in defense of Castle Town.;;;;;;;;;x
+EVTOPTA_knights.23;[From.GetFirstName] you've made me proud.;;;;;;;;;x
+EVTDESC_knights.24;Upon learning of my father's death I left for home. My wallet filled with rupees and letter from the king of Hyrule thanking me for my service and expressing his condolences for my lost.;;;;;;;;;x
+EVTOPTA_knights.24;I'm home.;;;;;;;;;x
+EVTNAME_knights.26;The Knights of Cobble;;;;;;;;;x
+EVTDESC_knights.26;Faced with the threats of the expansionist Zuna to the east, the blood thirst Yook to the south, and monstrous pirates threaten Cobble have proven that the armies of Cobble are inefective and it is for these reasons that the King of Cobble forms the Knights of Cobble;;;;;;;;;x
+EVTOPTA_knights.26;Let the world see the Glory of Cobble.;;;;;;;;;x
+EVTDESC_knights.27;The King of Cobble have declared his armies incompetant against the his enemies and has declared that he is forming the Knights of Cobble to defend against Cobble's enemies.;;;;;;;;;x
+EVTOPTA_knights.27;I hope it helps..;;;;;;;;;x
+EVTDESC_knights.31;[From.GetTitledFirstName] came to me and said that they have decided to join the Knights of Cobble! While [From.GetTitledFirstName] will gain fame, fortune, and experience leading the perils will match protecting Cobble from the Yook.;;;;;;;;;x
+EVTOPTA_knights.31;I will not allow it!;Je ne permettrai pas !;Das werde ich nicht erlauben!;;¡No lo permitiré!;;;;;;;;;x;;;;;;;;;x
+EVTOPTB_knights.31;Go [From.GetTitledFirstName] follow your desires and make me proud.;;;;;;;;;x
+EVTDESC_knights.33;A post man from Cobble arrived today bearing a letter from [From.GetTitledFirstName], it says that he has fallen in love with a woman from Cobble and left the Knighthood. He expresses that he is sorry to say that he will not be returning to Cobble as he and his wife wishes to make a name for themselves in Cobble.;;;;;;;;;x
+EVTOPTA_knights.33;My boy...;Mon garçon...;Mein Junge…;;Mi chico…;;;;;;;;;x
+EVTDESC_knights.34;[From.GetTitledFirstName] has finished his term of service in the Knights of Cobble, but his wife convinced him that he should stay in Cobble. So [From.GetTitledFirstName] will be staying in Cobble to lend me service if needed.;;;;;;;;;x
+EVTOPTA_knights.34;Very well.;Très bien.;Sehr gut.;;Muy bien.;;;;;;;;;x;;;;;;;;;x
+EVTDESC_knights.36;A knight arrive to your castle wearing a strange set of armor, the knight quickly disarms your guards and steps up to your throne, but instead drawing their sword the remove their helm revealing it to be [From.GetTitledFirstName].;;;;;;;;;x
+EVTOPTA_knights.36;[From.GetFirstName]! You've... changed!;[From.GetFirstName] ! Tu as... changé !;[From.GetFirstName]! Ihr habt Euch… verändert!;;¡[From.GetFirstName]! ¡Has… cambiado!;;;;;;;;;x
+EVTOPTA_knights.38;[From.GetFirstName] has returned home from Cobble while looking the same as before you can tell that they are not the same person as before.;;;;;;;;;x
+EVTOPTA_knights.38;No matter, I'm just glad he made it home!;Ça ne fait rien, son retour me fait grand plaisir !;Egal, hauptsache er ist wieder da!;;¡No importa, sólo estoy feliz de que esté de vuelta en casa!;;;;;;;;;x
+EVTDESC_knights.40;A frail robed figure into your throne room, the guards explain that it was seized trying to enter the room and couldn't get anything out of it other than your name. The figure shakingly reveals it's face to be that of [From.GetFirstName].;;;;;;;;x
+EVTOPTA_knights.40;Oh Gods [From.GetFirstName], what have they done to you.;;;;;;;;;x
+EVTDESC_knights.42;[From.GetFirstName] has returned from the Knights of Cobble, but not alone he has come with a Cobble woman, while she misses her home in Castle Town she in exited to meet her new family.;;;;;;;;;x
+EVTOPTA_knights.42;Each to their own.;À chacun sa façon.;Jedem das Seine.;;Cada uno a lo suyo.;;;;;;;;;x
+EVTDESC_knights.44;[From.GetFirstName] has returned from Cobble with tales of battles against a hundred different forms of monsters and horros.;;;;;;;;;x
+EVTOPTA_knights.44;Tell me of your battles!;;;;;;;;;x
+EVTDESC_knights.46;Three Knights of Cobble entered the throne room, the express their condolences as the tell me that [From.GetFirstName] fell in battle while fighting a nomad band of Zuna. They appologise that they could not recover enough of the remains for transport.;;;;;;;;;x
+EVTOPTA_knights.46;[From.GetFirstName] died a hero...;[From.GetFirstName] est mort en héros...;Er ist als Held gestorben…;;Murió como un héroe…;;;;;;;;;x
+EVTDESC_knights.48;[From.GetFirstName] returned home with a giant wallet filled with rupees, claiming to have been awarded it for outstanding services in defense of Monument Mountain.;;;;;;;;;x
+EVTOPTA_knights.48;[From.GetFirstName] you've made me proud.;;;;;;;;;x
+EVTDESC_knights.49;Upon learning of my father's death I left for home. My wallet filled with rupees and letter from the king of Cobble thanking me for my service and expressing his condolences for my lost.;;;;;;;;;x
+EVTOPTA_knights.49;I'm home.;;;;;;;;;x
+EVTNAME_knights.51;The Rivermen of Saria;;;;;;;;;x
+EVTDESC_knights.51;The armies of Saria have been found wanting against the Moblin to the north and the Bokoblin raiders to the south. It is for this reason that the Rivermen of Saria have been founded to face the threats against Saria whether it comes from sea or land.;;;;;;;;;x
+EVTOPTA_knights.51;Let the world see the Saria is strong.;;;;;;;;;x
+EVTDESC_knights.52;Faced with monsterous hordes from both sea and land the Kingdom of Saria has formed the Rivermen to face invaders no matter where they come from.;;;;;;;;;x
+EVTOPTA_knights.52;It won't help..;;;;;;;;;x
+EVTDESC_knights.56;[From.GetTitledFirstName] came to me and said that they have decided to join the Rivermen! While [From.GetTitledFirstName] will gain fame, fortune, and experience leading the perils will match protecting Saria from the Yook.;;;;;;;;;x
+EVTOPTA_knights.56;I will not allow it!;Je ne permettrai pas !;Das werde ich nicht erlauben!;;¡No lo permitiré!;;;;;;;;;x;;;;;;;;;x
+EVTOPTB_knights.56;Go [From.GetTitledFirstName] follow your desires and make me proud.;;;;;;;;;x
+EVTDESC_knights.58;A post man from Saria arrived today bearing a letter from [From.GetTitledFirstName], it says that he has fallen in love with a woman from Saria and left the Knighthood. He expresses that he is sorry to say that he will not be returning to Saria as he and his wife wishes to make a name for themselves in Saria.;;;;;;;;;x
+EVTOPTA_knights.58;My boy...;Mon garçon...;Mein Junge…;;Mi chico…;;;;;;;;;x
+EVTDESC_knights.59;[From.GetTitledFirstName] has finished his term of service in the Rivermen, but his wife convinced him that he should stay in Saria. So [From.GetTitledFirstName] will be staying in Saria to lend me service if needed.;;;;;;;;;x
+EVTOPTA_knights.59;Very well.;Très bien.;Sehr gut.;;Muy bien.;;;;;;;;;x;;;;;;;;;x
+EVTDESC_knights.61;A warrior arrive to your castle wearing a mailed set, the man quickly disarms your guards and steps up to your throne, but instead drawing their sword the remove their helm revealing it to be [From.GetTitledFirstName].;;;;;;;;;x
+EVTOPTA_knights.61;[From.GetFirstName]! You've... changed!;[From.GetFirstName] ! Tu as... changé !;[From.GetFirstName]! Ihr habt Euch… verändert!;;¡[From.GetFirstName]! ¡Has… cambiado!;;;;;;;;;x
+EVTOPTA_knights.63;[From.GetFirstName] has returned home from Saria while looking the same as before you can tell that they are not the same person as before.;;;;;;;;;x
+EVTOPTA_knights.63;No matter, I'm just glad he made it home!;Ça ne fait rien, son retour me fait grand plaisir !;Egal, hauptsache er ist wieder da!;;¡No importa, sólo estoy feliz de que esté de vuelta en casa!;;;;;;;;;x
+EVTDESC_knights.65;A frail robed figure into your throne room, the guards explain that it was seized trying to enter the room and couldn't get anything out of it other than your name. The figure shakingly reveals it's face to be that of [From.GetFirstName].;;;;;;;;x
+EVTOPTA_knights.65;Oh Gods [From.GetFirstName], what have they done to you.;;;;;;;;;x
+EVTDESC_knights.67;[From.GetFirstName] has returned from the Rivermen, but not alone he has come with a Saria woman, while she misses her home in Saria she in exited to meet her new family.;;;;;;;;;x
+EVTOPTA_knights.67;Each to their own.;À chacun sa façon.;Jedem das Seine.;;Cada uno a lo suyo.;;;;;;;;;x
+EVTDESC_knights.69;[From.GetFirstName] has returned from Saria with tales of battles against a hundred different forms of monsters and horros.;;;;;;;;;x
+EVTOPTA_knights.69;Tell me of your battles!;;;;;;;;;x
+EVTDESC_knights.71;Three Rivermen entered the throne room, the express their condolences as the tell me that [From.GetFirstName] fell in battle while fighting on the beaches against a horde of Moblin. They apologize that the could not find his remains as it was swept out to sea.;;;;;;;;;x
+EVTOPTA_knights.71;[From.GetFirstName] died a hero...;[From.GetFirstName] est mort en héros...;Er ist als Held gestorben…;;Murió como un héroe…;;;;;;;;;x
+EVTDESC_knights.73;[From.GetFirstName] returned home with a giant wallet filled with rupees, claiming to have been awarded it for outstanding services in defense of Monument Mountain.;;;;;;;;;x
+EVTOPTA_knights.73;[From.GetFirstName] you've made me proud.;;;;;;;;;x
+EVTDESC_knights.74;Upon learning of my father's death I left for home. My wallet filled with rupees and letter from the king of Saria thanking me for my service and expressing his condolences for my lost.;;;;;;;;;x
+EVTOPTA_knights.74;I'm home.;;;;;;;;;x
+EVTNAME_knights.76;The Knights of Greater Hyrule;;;;;;;;;x
+EVTDESC_knights.76;Faced with threats from Moblins pirates to the north, Bokoblin raiders to the south, and the perpetual bickering of nobles the King of Hyrule forms the Knight of Hyrule to be deployed against the threats both internal and external.;;;;;;;;;x
+EVTOPTA_knights.76;Long Live Hyrule.;;;;;;;;;x
+EVTDESC_knights.77;The king of Hyrule has declared the nobles to dishonorble to face the threats of the external enemies and so has formed his own private army to face the threats and keep the nobles in line.;;;;;;;;;x
+EVTOPTA_knights.77;Fools, fighting amongst themselves..;;;;;;;;;x
+EVTDESC_knights.81;[From.GetTitledFirstName] came to me and said that they have decided to join the Knights of Greater Hyrule! While [From.GetTitledFirstName] will gain fame, fortune, and experience leading the perils will match protecting Greater Hyrule from the Yook.;;;;;;;;;x
+EVTOPTA_knights.81;I will not allow it!;Je ne permettrai pas !;Das werde ich nicht erlauben!;;¡No lo permitiré!;;;;;;;;;x;;;;;;;;;x
+EVTOPTB_knights.81;Go [From.GetTitledFirstName] follow your desires and make me proud.;;;;;;;;;x
+EVTDESC_knights.83;A post man from Greater Hyrule arrived today bearing a letter from [From.GetTitledFirstName], it says that he has fallen in love with a woman from Greater Hyrule and left the Knighthood. He expresses that he is sorry to say that he will not be returning to Greater Hyrule as he and his wife wishes to make a name for themselves in Greater Hyrule.;;;;;;;;;x
+EVTOPTA_knights.83;My boy...;Mon garçon...;Mein Junge…;;Mi chico…;;;;;;;;;x
+EVTDESC_knights.84;[From.GetTitledFirstName] has finished his term of service in the Knights of Greater Hyrule, but his wife convinced him that he should stay in Greater Hyrule. So [From.GetTitledFirstName] will be staying in Greater Hyrule to lend me service if needed.;;;;;;;;;x
+EVTOPTA_knights.84;Very well.;Très bien.;Sehr gut.;;Muy bien.;;;;;;;;;x;;;;;;;;;x
+EVTDESC_knights.86;A knight arrive to your castle wearing a set of full plate armor, the knight quickly disarms your guards and steps up to your throne, but instead drawing their sword the remove their helm revealing it to be [From.GetTitledFirstName].;;;;;;;;;x
+EVTOPTA_knights.86;[From.GetFirstName]! You've... changed!;[From.GetFirstName] ! Tu as... changé !;[From.GetFirstName]! Ihr habt Euch… verändert!;;¡[From.GetFirstName]! ¡Has… cambiado!;;;;;;;;;x
+EVTOPTA_knights.88;[From.GetFirstName] has returned home from Greater Hyrule while looking the same as before you can tell that they are not the same person as before.;;;;;;;;;x
+EVTOPTA_knights.88;No matter, I'm just glad he made it home!;Ça ne fait rien, son retour me fait grand plaisir !;Egal, hauptsache er ist wieder da!;;¡No importa, sólo estoy feliz de que esté de vuelta en casa!;;;;;;;;;x
+EVTDESC_knights.90;A frail robed figure into your throne room, the guards explain that it was seized trying to enter the room and couldn't get anything out of it other than your name. The figure shakingly reveals it's face to be that of [From.GetFirstName].;;;;;;;;x
+EVTOPTA_knights.90;Oh Gods [From.GetFirstName], what have they done to you.;;;;;;;;;x
+EVTDESC_knights.92;[From.GetFirstName] has returned from the Knights of Greater Hyrule, but not alone he has come with a Greater Hyrule woman, while she misses her home in Castle Town she in exited to meet her new family.;;;;;;;;;x
+EVTOPTA_knights.92;Each to their own.;À chacun sa façon.;Jedem das Seine.;;Cada uno a lo suyo.;;;;;;;;;x
+EVTDESC_knights.94;[From.GetFirstName] has returned from Greater Hyrule with tales of battles against a hundred different forms of monsters and horros.;;;;;;;;;x
+EVTOPTA_knights.94;Tell me of your battles!;;;;;;;;;x
+EVTDESC_knights.96;Three Knights of Greater Hyrule entered the throne room, the express their condolences as the tell me that [From.GetFirstName] was poisoned by a petty noble when he found out [From.GetFirstName] would not take his bribes. They appologise that they could not capture the noble as he had fled for Gamelon before the body was found.;;;;;;;;;x
+EVTOPTA_knights.96;[From.GetFirstName] died a hero...;[From.GetFirstName] est mort en héros...;Er ist als Held gestorben…;;Murió como un héroe…;;;;;;;;;x
+EVTDESC_knights.98;[From.GetFirstName] returned home with a giant wallet filled with rupees, claiming to have been awarded it for outstanding services in defense of Monument Mountain.;;;;;;;;;x
+EVTOPTA_knights.98;[From.GetFirstName] you've made me proud.;;;;;;;;;x
+EVTDESC_knights.99;Upon learning of my father's death I left for home. My wallet filled with rupees and letter from the king of Greater Hyrule thanking me for my service and expressing his condolences for my lost.;;;;;;;;;x
+EVTOPTA_knights.99;I'm home.;;;;;;;;;x
+EVTNAME_knights.100;The Questing Knights of Moria;;;;;;;;;x
+EVTDESC_knights.100;After centuries of strugle the men of the Moria mountains have founded their kingdom, but the light of hope is still faint. The king of Moria declares that all who wish to spread the spark of hope across the world may join the Questing Knights.;;;;;;;;;x
+EVTOPTA_knights.100;Let hope spread across the world.;;;;;;;;;x
+EVTDESC_knights.101;The king of Moria have formed the Questing Knights of Moria in hopes of spreading good deeds and Morian culture across the world..;;;;;;;;;x
+EVTOPTA_knights.101;Curse those nefarious mountain dwellers..;;;;;;;;;x
+EVTDESC_knights.105;[From.GetTitledFirstName] came to me and said that they have decided to join the Knights of Moria! While [From.GetTitledFirstName] will gain fame, fortune, and experience leading the perils will match protecting Moria from the Yook.;;;;;;;;;x
+EVTOPTA_knights.105;I will not allow it!;Je ne permettrai pas !;Das werde ich nicht erlauben!;;¡No lo permitiré!;;;;;;;;;x;;;;;;;;;x
+EVTOPTB_knights.105;Go [From.GetTitledFirstName] follow your desires and make me proud.;;;;;;;;;x
+EVTDESC_knights.107;A post man from Moria arrived today bearing a letter from [From.GetTitledFirstName], it says that he has fallen in love with a woman from Moria and left the Knighthood. He expresses that he is sorry to say that he will not be returning to Moria as he and his wife wishes to make a name for themselves in Moria.;;;;;;;;;x
+EVTOPTA_knights.107;My boy...;Mon garçon...;Mein Junge…;;Mi chico…;;;;;;;;;x
+EVTDESC_knights.108;[From.GetTitledFirstName] has finished his term of service in the Knights, but his wife convinced him that he should stay in Moria. So [From.GetTitledFirstName] will be staying in Moria to lend me service if needed.;;;;;;;;;x
+EVTOPTA_knights.108;Very well.;Très bien.;Sehr gut.;;Muy bien.;;;;;;;;;x;;;;;;;;;x
+EVTDESC_knights.110;A knight arrive to your castle wearing a set of full plate, the man quickly disarms your guards and steps up to your throne, but instead drawing their sword the remove their helm revealing it to be [From.GetTitledFirstName].;;;;;;;;;x
+EVTOPTA_knights.110;[From.GetFirstName]! You've... changed!;[From.GetFirstName] ! Tu as... changé !;[From.GetFirstName]! Ihr habt Euch… verändert!;;¡[From.GetFirstName]! ¡Has… cambiado!;;;;;;;;;x
+EVTOPTA_knights.112;[From.GetFirstName] has returned home from Moria while looking the same as before you can tell that they are not the same person as before.;;;;;;;;;x
+EVTOPTA_knights.112;No matter, I'm just glad he made it home!;Ça ne fait rien, son retour me fait grand plaisir !;Egal, hauptsache er ist wieder da!;;¡No importa, sólo estoy feliz de que esté de vuelta en casa!;;;;;;;;;x
+EVTDESC_knights.114;A frail robed figure into your throne room, the guards explain that it was seized trying to enter the room and couldn't get anything out of it other than your name. The figure shakingly reveals it's face to be that of [From.GetFirstName].;;;;;;;;x
+EVTOPTA_knights.114;Oh Gods [From.GetFirstName], what have they done to you.;;;;;;;;;x
+EVTDESC_knights.116;[From.GetFirstName] has returned from the Knights of Moria, but not alone he has come with a Moria woman, while she misses her home in Moria she in exited to meet her new family.;;;;;;;;;x
+EVTOPTA_knights.116;Each to their own.;À chacun sa façon.;Jedem das Seine.;;Cada uno a lo suyo.;;;;;;;;;x
+EVTDESC_knights.118;[From.GetFirstName] has returned from Moria with tales of battles against a hundred different forms of monsters and horros.;;;;;;;;;x
+EVTOPTA_knights.118;Tell me of your battles!;;;;;;;;;x
+EVTDESC_knights.120;Three Knights entered the throne room, the express their condolences as the tell me that [From.GetFirstName] fell in battle while defending a farm from a band of Bulblins. They apologize that they could not transport the remains and instead left it overlooking the farm he gave his life defending.;;;;;;;;;x
+EVTOPTA_knights.120;[From.GetFirstName] died a hero...;[From.GetFirstName] est mort en héros...;Er ist als Held gestorben…;;Murió como un héroe…;;;;;;;;;x
+EVTDESC_knights.122;[From.GetFirstName] returned home with a giant wallet filled with rupees, claiming to have been awarded it for outstanding services in defense of Morian Ideas.;;;;;;;;;x
+EVTOPTA_knights.122;[From.GetFirstName] you've made me proud.;;;;;;;;;x
+EVTDESC_knights.123;Upon learning of my father's death I left for home. My wallet filled with rupees and letter from the king of Moria thanking me for my service and expressing his condolences for my lost.;;;;;;;;;x
+EVTOPTA_knights.123;I'm home.;;;;;;;;;x
 ;;;;;;;;;x
 ;;;;;;;;;x
 ;;;;;;;;;x
@@ -127,6 +252,7 @@ DESC_TF.23;In a flash the Triforce vanishes. I feel my muscles tensing and takin
 OPTF23YES;I feel like I could defeat a Legion of Darknuts by myself.;;;;;;;;;x
 DESC_TF.24;In a flash the Triforce vanishes. I feel no different till a maid walks in and starts to blush.;;;;;;;;;x
 OPTF24YES;I must truly be beutiful.;;;;;;;;;;x
+
 ;;;;;;;;;x
 ;;;;;;;;;x
 ;;;;;;;;;x
