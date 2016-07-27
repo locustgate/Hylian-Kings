@@ -2,13 +2,70 @@
 #
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 #courtier
-#courtier
 HKC.0;Imp In The Garden;;;;;;;;;x
 EVTNAMEHKC.0;Twili In The Garden;;;;;;;;;x
 DESC_HKC.0;As I walk through the garden at dusk the movement of something in the bushes catches my eye.;;;;;;;;;x
-HKCOA;Call the guards;;;;;;;;;x
-HKC0B;I'll get a close look.;;;;;;;;;x
+HKC0A;Call the guards;;;;;;;;;x
+HKC0B;Get a close look.;;;;;;;;;x
 HKC0C;It must be my mind playing tricks on me;;;;;;;;;x
+DESC_HKC.1;Something dark appears out of the corner of my eye right as the guards round the corner and into the creature. After a brief strugle the guards drag a short hidous creature with glowing hair and lines accross it's body. The thing quickly explains that it was cursed and banished by a cruel ruler from a land of eternal twilight.;;;;;;;;;x
+HKC1A;Throw it in a cell for questioning.;;;;;;;;;x
+HKC1B;Offer shelter.;;;;;;;;;x
+HKC1C;Get rid of it.;;;;;;;;;x
+DESC_HKC.2;The guards arrive within seconds and quickly search the bush and every one around it, but report not finding anything.;;;;;;;;;x
+DESC_HKC.3;As I approach the bush I hear a rustle noise. A weak voice speaks out and explains that it was cursed and banished by a cruel king from a land far away.;;;;;;;;;x
+HKC3B;You may stay in my court till you can return.;;;;;;;;;x
+HKC3C;Leave now and you will face no repercussions.;;;;;;;;;x
+DESC_HKC.4;Something dark appears out of the corner of my eye right as the guards round the corner and into the creature. After a brief strugle the guards drag a short hidous creature with glowing hair and lines accross it's body.;;;;;;;;;x
+DESC_HKC.5;As I was retireing from the throne room a pair of guards entered unannounced escorting a robed woman. The guards explain that she was found attempting to enter through the main gates and refused to leave without talking to me.;;;;;;;;;x
+HKC5A;She can talk to the dungeoun master.;;;;;;;;;x
+HKC5B;Go on.;;;;;;;;;x
+HKC5C;Not interested.;;;;;;;;;x
+DESC_HKC.6;The woman explains that she is a princess from a land not on any map because of a neighboring kingdom conquering her kingdom. She goes on to say she has been hiding in my land with some guardians but they have been slowly killed by the inhabitants and now has no other place to seek shelter.;;;;;;;;;x
+HKC6A;She may stay in my kingdom till she can return to her homeland.;;;;;;;;;x
+HKC6B;You neighbor would pay to have you back.;;;;;;;;;x
+HKC6C;You may stay and recover but must leave when you can.;;;;;;;;;x
+DESC_HKC.7;As I was sureveying my demesne me and my party came across the scene of a fierce battle, six men in bizzare armor each surrounded by scores of bokoblin corpses and the remains of another man similarly dressed near a woman. Upon closer inspection by my party's healer she informs me that the man guarding the woman is still breathing but barely, he needs a potion immediatly or he will perish.
+HKC7A;Make his passing as painless as possible.;;;;;;;;;x
+HKC7BR;Use my red potion.;;;;;;;;;x
+HKC7BB;Use my blue potion.;;;;;;;;;x
+HKC7BF;Use my bottled fairy.;;;;;;;;;x
+HKC7C;This is none of our buisness.;;;;;;;;;x
+DESC_HKC.8;With the healers care the man recovered enough to talk, he revealed that his party is from a land not on the maps that had been conquered by it's neighbor they were escorting the surviving princess before being attacked by the Bokoblins. He asked after the princess's health and upon learning of her fate was in no condition to talk.;;;;;;;;;x
+HKC8A;See that he recovers before sending him on his way.;;;;;;;;;x
+HKC8B;Offer him a place in my court when he recovers.;;;;;;;;;x
+HKC8C;We have done enough for him.;;;;;;;;;x
+DESC_HKC.9;The healer reported that the man had passed before he did he asked if the princess was uninjured, he assumed the woman was who he was asking, the healer said that he told him she was.
+HKC9A;I hope he finds peace.;;;;;;;;;x
+DESC_HKC.10;As I was sureveying my demesne me and my party came across the scene of a fierce battle, six men in bizzare armor each surrounded by scores of bokoblin corpses and the remains of another man similarly dressed near a woman. Upon closer inspection by my party's healer she informs me that the man and woman are both living but if he tries to help both they will probably both die as he does not have enough red potion for two and the one he doesn't help will die.;;;;;;;;;x
+HKC10A;Help the man.;;;;;;;;;x
+HKC10B;Help the woman.;;;;;;;;;x
+HKC10C;Help both.;;;;;;;;;x
+DESC_HKC.11;Thanks to the healer the man survived he explained that he and is brothers were sent to this world to find shelter for their princess.;;;;;;;;;x
+DESC_HKC.12;Despite the healers help the man passed away his last words were to ask if the princess was ok.;;;;;;;;;x
+DESC_HKC.13;Thanks to the healer the woman survives she explains that she and her knights were driven from their homes by a warlike neighbor.;;;;;;;;;x
+DESC_HKC.14;Despite the healers help the woman passed away her last words were to aski if her knights were ok.;;;;;;;;;x
+DESC_HKC.15;The healer explains that he can split the potion but the chances of them both living is slim, unless I have another potion then he could give it to the woman.;;;;;;;;;x
+HKC15A;Nevermind, help the man.;;;;;;;;;x
+HKC15B;Nevermind, help the woman.;;;;;;;;;x
+HKC15C;Give both half.;;;;;;;;;x
+DESC_HKC.16;Both recover enough to talk after a brief reunion the woman explains that she is a princess from a land far away, but do to turmoil in her homelands it is no longer safe for her so they came to this land in hopes of finding shelter. Both give their gratituted and are both eternally gratefull for you hope.;;;;;;;;;x
+HKC16A;See that they are well taken care of till they recover fully.;;;;;;;;;x
+HKC16B;They both could stay at my court till it is safe to return to their homeland.;;;;;;;;;x
+HKC16C;They can take care of themselves now.;;;;;;;;;x
+DESC_HKC.17;The healer explains that he is sorry to say that he could not save them but they were able live long enough to talk before they passed.
+HKC17A;I hope they find peace.;;;;;;;;;x
+DESC_HKC.x1;As I was surveying a river in my demesne a splash and a call for help came from the river. A several feet into the deeper parts of the river is a child struggling to stay afloat and calling for help.;;;;;;;;;x
+HKCx1A;Before I know what is happening I find myself diving into the river and heading to the child.;;;;;;;;;x
+HKCx1B;Before I know what is happening one of the scouts is diving into the river and swimming to the child.;;;;;;;;;x
+DESC_HKC.x2;As the child is dragged to the river it starts coughing and getting in a gulp of air. The child explains that it was traveling with their flock when they hit a downgust and could only try to land into the river instead of the ground.;;;;;;;;;x
+HKCx2A;You may stay and recover till your flock returns.;;;;;;;;;x
+HKCx2B;I'll see that you find a good home till your flock returns.;;;;;;;;;x
+DESC_HKC.x3;As I reach the child and start swimming back to shore I find myself struggling to keep my head above water.;;;;;;;;;x
+HKCx3A;I will not leave the child behind!;;;;;;;;;x
+HKCx3B;I'm sorry.;;;;;;;;;x
+DESC_HKC.x4;As I sink under the surface I see the child plucked from the water. My vision starts to fade as the water invades my lungs as the panic sets in. My last thoughts is at least the child will live.;;;;;;;;;x
+HKCx4A;It is a good death.;;;;;;;;;x
 #fairy
 DESC_FAIRY.0;I am awoken in the morning to a suddent yell of "Hey! Wake Up!" and find a fairy floating above me.;Je réveillé le matin pour un cri suddent de " Hey ! Wake Up! " et de trouver une fée flottant au-dessus de moi.;Ich bin am Morgen zu einem suddent Schrei aufgewacht "Hey! Wach auf! " und finden Sie eine Fee über mir schweben.;;Me despertaron en la mañana a un grito suddent de " Hey ! Wake Up ! " y encontrar un hada flotando por encima de mí .;;;;;;;;;x
 OPFAIRY.0A;Does this mean I finally have a fairy friend!?;Est- ce que cela signifie que j'ai enfin un ami de fées !?;Heißt das, ich habe endlich eine Fee Freund !?;;¿Esto significa que por fin tengo un amigo de hadas !?;;;;;;;;x

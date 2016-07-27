@@ -23,7 +23,7 @@ character_event = {
 		is_adult = yes
 		war = no
 		in_command = no
-		religion = catholic
+		religion = golden_goddesses
 		NOT = { has_character_flag = hedge_knights_visiting }
 		NOT = { has_character_flag = hates_hedge_knights }
 		any_courtier = {
@@ -538,7 +538,7 @@ character_event = {
 	
 	only_playable = yes
 	prisoner = no
-	religion = catholic
+	religion = golden_goddesses
 	
 	picture = GFX_evt_melee
 	
