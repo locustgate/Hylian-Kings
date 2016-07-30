@@ -280,7 +280,7 @@ e_hyrule_central = {
 		}
 	}
 	k_zora_domain = {
-		color={ 188 0 57 }
+		color={ 255 127 80 }
 		color2={ 234 212 77 }
 		capital = 474 # Zora Domain
 
@@ -605,7 +605,10 @@ k_hyrule_minish = { #Minish
 		wind_tribe = Wind
 		
 		d_minish_fields= {
-			c_lon_lon_ranch
+			color={ 135 206 235 }
+			color2={ 176 23 31 }
+			capital = 631 # Middlesex
+			c_lon_lon_field
 			c_minish_town
 			c_eastern_hills
 			c_smith_field
@@ -619,17 +622,26 @@ k_hyrule_minish = { #Minish
 			c_west_minish_plains
 		}
 		d_minish_mountains = {
+			color={ 178 34 34 }
+			color2={ 30 30 30 }
+			capital = 610 # Middlesex
 			c_mount_crenal
 			c_crenal_base
 			c_veil_falls
 			c_veil_mountain
 		}
-		d_keatonia = {		
-			c_keatonia_freehold
+		d_keatonia = {	
+			color={ 227 168 105 }
+			color2={ 176 23 31 }
+			capital = 637 # Middlesex	
+			c_keatonia
 			c_earth_temple
 			c_jewel_mines
 		}
 		d_castor_wilds= { #10
+			color={ 253 138 119 }
+			color2={ 0 0 0 }
+			capital = 623 # Middlesex
 			c_north_castor_wilds
 			c_south_castor_wilds
 			c_wind_city
@@ -639,14 +651,21 @@ k_hyrule_minish = { #Minish
 			c_central_castor_wilds
 		}
 		d_royal_valey= {
+			color={ 82 184 220}
+			color2={ 0 0 0 }
+			capital = 623 # Middlesex
 			c_royal_crypt
 			c_north_royal_road
 			c_minish_hyrule_field
 			c_western_wood
 			c_trilby_highlands
 			c_royal_valley
+			c_minish_hyrule_castle
 		}
 		d_minish_savannah = {
+			color={ 189 183 107 }
+			color2={ 139 136 120 }
+			capital = 644 # Middlesex
 			c_acacia_point
 			c_west_acacia_savannah
 			c_south_acacia_savannah
@@ -659,9 +678,9 @@ k_hyrule_minish = { #Minish
 #hylians empires
 
 e_cobble = {
-	color={ 204 0 0 }
-	color2={ 255 255 255 }
-	capital = 32 # Middlesex
+	color={ 118 238 0 }
+	color2={ 238 232 170 }
+	capital = x1 # Middlesex
 	dignity = 10 # Counted as having this many more counties than it does
 	
 	# Creation/usurpation trigger
@@ -676,6 +695,9 @@ e_cobble = {
 		}
 	}
 	k_cobble =  {
+		color={ 118 238 0 }
+		color2={ 238 232 170 }
+		capital = x1 # Middlesex
 		d_pyramid_lands = {
 		}
 		d_east_banan = {
@@ -684,6 +706,9 @@ e_cobble = {
 		}
 	}
 	k_gravel = {
+		color={ 110 123 139 }
+		color2={ 238 232 170 }
+		capital = 32 # Middlesex
 		d_gust_desert = {
 		}
 		d_zauz = {
@@ -693,6 +718,9 @@ e_cobble = {
 		}
 	}
 	k_pebble = {
+		color={ 106 90 205 }
+		color2={ 238 232 170 }
+		capital = 32 # Middlesex
 		d_mercay= {
 		}
 		d_spirit_lands = {
@@ -701,6 +729,9 @@ e_cobble = {
 		}
 	}
 	k_goron_mountains = {
+		color={ 139 26 26 }
+		color2={ 192 192 192 }
+		capital = 32 # Middlesex
 		d_goron_peak = {
 		}
 		d_frost_peaks = {
@@ -708,6 +739,9 @@ e_cobble = {
 	}
 
 k_mason =  = { #part of cobble 4 swords
+	color={ 244 164 96 }
+	color2={ 41 36 33 }
+	capital = 32 # Middlesex
 	d_ichiro = {
 	}
 	d_jiro = {
@@ -717,12 +751,21 @@ k_mason =  = { #part of cobble 4 swords
 	d_shiro = {
 	}
 }
-k_auros = { #part of cobble oot 
+k_auros = { #part of cobble oot
+	color={ 205 0 0 }
+	color2={ 139 69 19 }
+	capital = 388 # Middlesex 
 	d_auros = {
+		color={ 205 55 0 }
+		color2={ 225 225 255 }
+		capital = 388 # Middlesex
 		c_auros
 		c_fairy_garden
 	}
 	d_desma = {
+		color={ 85 107 47 }
+		color2={ 255 255 240 }
+		capital = 391 # Middlesex
 		c_yamatami
 		c_desma
 	}
@@ -731,7 +774,7 @@ k_auros = { #part of cobble oot
 e_holodrum = {
 	color={ 204 0 0 }
 	color2={ 255 255 255 }
-	capital = 32 # Middlesex
+	capital = 349 # Middlesex
 	dignity = 10 # Counted as having this many more counties than it does
 
 	# Creation/usurpation trigger
@@ -747,7 +790,13 @@ e_holodrum = {
 		}
 	}
 	k_horon  = {
+		color={ 0 250 154 }
+		color2={ 85 107 47 }
+		capital = 342 # Middlesex
 		d_horon_plains = {
+			color={ 0 100 0 }
+			color2={ 240 255 255 }
+			capital = 343 # Middlesex
 			c_spool_fields
 			c_spool_swamp
 			c_holodrum_plain
@@ -759,6 +808,9 @@ e_holodrum = {
 			c_horon_field
 		}
 		d_horon = {
+			color={ 0 250 154 }
+			color2={ 85 107 47 }
+			capital = 342 # Middlesex
 			c_holly_woods
 			c_snake_woods
 			c_gasha_woods
@@ -772,6 +824,9 @@ e_holodrum = {
 			c_pirate_island
 		}
 		d_jungle_happiness = {
+			color={ 50 205 50 }
+			color2={ 255 255 255 }
+			capital = 376 # Middlesex
 			c_tarm_rainforest
 			c_ape_forest
 			c_jungle_city
@@ -779,7 +834,13 @@ e_holodrum = {
 		}
 	}
 	k_holodrum = {
+		color={ 138 51 36 }
+		color2={ 205 173 0 }
+		capital = 342 # Middlesex
 		d_cucco = {
+			color={ 252 230 201 }
+			color2={ 210 180 140 }
+			capital = 342 # Middlesex
 			c_mount_cucco  = {
 			}
 			c_northern_peak
@@ -789,24 +850,39 @@ e_holodrum = {
 			c_gates_of_subrosia
 		}
 		d_tarm = {
+			color={ 138 54 15 }
+			color2={ 255 245 238 }
+			capital = 371 # Middlesex
 			c_tarm_field
 			c_tarm
 		}
-		d_natzu  = {
+		d_holodrum  = {
+			color={ 138 51 36 }
+			color2={ 205 173 0 }
+			capital = 342 # Middlesex
 			c_natzu
-			c_sunken
+			c_holodrum
 			
 		}
 	}
 	k_samasa  = {
+		color={ 250 250 210 }
+		color2={ 244 164 96 }
+		capital = 334 # Middlesex
 		d_east_samasa = {
+			color={ 205 133 0 }
+			color2={ 255 228 196 }
+			capital = 334 # Middlesex
 			c_east_samasa
-			c_samasa_gate
 			c_samasa_gate
 			c_samasa_pyramids
 			c_pokey_plateau
+			c_samasa
 		}
 		d_west_samasa = {
+		color={ 193 255 193 }
+		color2={ 255 245 238 }
+		capital = 340 # Middlesex
 			c_samasa_oasis
 			c_shipwreck_beach
 			c_west_samasa
@@ -815,9 +891,9 @@ e_holodrum = {
 	}
 }
 e_labrynna = {
-	color={ 204 0 0 }
-	color2={ 255 255 255 }
-	capital = 32 # Middlesex
+	color={ 30 144 255 }
+	color2={ 250 250 210 }
+	capital = 331 # Middlesex
 	dignity = 10 # Counted as having this many more counties than it does
 	
 	# Creation/usurpation trigger
@@ -834,8 +910,15 @@ e_labrynna = {
 		}
 	}
 	k_labrynna = {
-		d_labrynna = {
+		color={ 39 64 139 }
+		color2={ 238 232 170 }
+		capital = 331 # Middlesex
+		d_lynna = {
+			color={ 138 43 226 }
+			color2={ 87 87 87}
+			capital = 286 # Middlesex
 			c_west_lynna
+			c_lyanna
 			c_black_tower
 			c_tower_shore
 			c_south_shore
@@ -845,9 +928,11 @@ e_labrynna = {
 			c_yoll
 			c_poevale
 		}
-		d_talus = {
+		d_labrynna = {
+			color={ 255 236 139 }
+			color2={ 138 51 36 }
+			capital = 342 # Middlesex
 			c_labrynna_palace
-			c_lyanna
 			c_talus_peaks
 			c_talus_ridge
 			c_symmetry
@@ -858,6 +943,9 @@ e_labrynna = {
 			c_witchwoods
 		}
 		d_rolling_ridge = {
+			color={ 138 26 26}
+			color2={ 142 142 56 }
+			capital = 316 # Middlesex
 			c_cart_mines
 			c_mermaids_cave
 			c_crown_caverns
@@ -868,27 +956,45 @@ e_labrynna = {
 			c_skull_mountains
 		}
 	}
-	k_storm_islands  = { #becomes zora domain
+	k_storm_islands  = { #becomes zora islands
+		color={ 202 225 255 }
+		color2={ 255 127 80 }
+		capital = 299 # Middlesex
 		d_zora_islands = {
+			color={ 255 127 80 }
+			color2={ 255 255 0 }
+			capital = 298 # Middlesex
 			c_fairy_island
 			c_treasure_islands
 			c_eyeglass_island
 		}
 		d_zora_bay  = {
+			color={ 202 225 255 }
+			color2={ 255 250 205 }
+			capital = 299 # Middlesex
 			c_zora_cove
 			c_sand_island
 			c_palm_island
 			c_gale_island
-			zora_isles
+			c_zora_isles
 		}
 	}
 	k_tokay  = {
+		color={ 107 142 35 }
+		color2={ 192 255 62 }
+		capital = 288 # Middlesex
 		d_crescent_island = {
+			color={ 107 142 35 }
+			color2={ 255 239 213 }
+			capital = 288 # Middlesex
 			c_north_crescnet_island
 			c_south_crescent_island
 			c_central_crescent_island
 		}
 		d_minor_islands = {
+			color={ 192 255 62 }
+			color2={ 240 255 240 }
+			capital = 290 # Middlesex
 			c_moonlight_island
 			c_grotto_island
 			c_tokay_island
@@ -896,21 +1002,48 @@ e_labrynna = {
 	}
 }
 e_hytopia = {
+		color={ 179 160 205 }
+		color2={ 139 105 105 }
+		capital = 32 # Middlesex
 	k_drablands = {
+		color={ 139 105 105 }
+		color2={ 142 142 56 }
+		capital = 32 # Middlesex
 		d_south_drablands = {
+			color={ 139 69 19 }
+			color2={ 0 139 69 }
+			capital = 32 # Middlesex
 		}
 		d_drab_mountains = {
+			color={ 139 105 105 }
+			color2={ 113 113 198 }
+			capital = 32 # Middlesex
 		}
 		d_witch_highlands = {
+			color={ 139 35 35 }
+			color2={ 85 107 47 }
+			capital = 32 # Middlesex
 		}
 		d_witch_isles = {
+			color={ 255 127 36 }
+			color2={ 245 245 220 }
+			capital = 32 # Middlesex
 		}
 	}
 	k_fablands = {
-	hytopian = hytopia
+		color={ 179 160 205 }
+		color2={ 244 154 76 }
+		capital = 32 # Middlesex
+		hytopian = hytopia
 		d_west_fablands = {
+			color={ 179 160 205 }
+			color2={ 255 236 193 }
+			capital = 32 # Middlesex
 		}
 		d_east_fablands = {
+			color={ 244 154 76 }
+			color2={ 238 232 170 }
+			capital = 32 # Middlesex
 		}
 	}
 }
@@ -953,59 +1086,91 @@ e_spirit = {
 		}
 	}
 	k_forest = {
+		color={ 34 139 34}
+		color2={ 255 255 255 }
+		capital = 32 # Middlesex
 		d_spirit_forest = {
+			color={ 48 128 20 }
+			color2={ 156 102 31 }
+			capital = 32 # Middlesex
 		}
 		d_adoba = {
+			color={ 113 198 113 }
+			color2={ 139 35 35 }
+			capital = 32 # Middlesex
 		}
 		d_spirit_plains = {
+			color={ 34 139 34 }
+			color2={ 139 35 35 }
+			capital = 32 # Middlesex
 		}
 		d_rabbit_land = {
+			color={ 142 142 56 }
+			color2={ 197 193 170 }
+			capital = 32 # Middlesex
 		}		
 	}
 	k_snow = {
+		color={ 255 250 250 }
+		color2={ 205 201 201 }
+		capital = 32 # Middlesex
 		d_wellspring = {
+			color={ 125 158 192 }
+			color2={ 211 211 211 }
+			capital = 32 # Middlesex
 		}
-		d_snow = {
+		d_snow_plains = {
+			color={ 255 250 250 }
+			color2={ 105 105 105 }
+			capital = 32 # Middlesex
 		}
 	}
 	k_ocean = {
+		color={ 0 0 128 }
+		color2={ 198 226 255 }
+		capital = 32 # Middlesex
 		d_east_islands = {
-			c_ocean_sanctuary = {
-			}
-			c_lost_island = {
-			}
-			c_ocean_temple_island = {
-			}
-			c_
-			c_
+			color={ 51 161 201 }
+			color2={ 255 255 255 }
+			capital = 32 # Middlesex
 		}
 		d_west_islands = {
-			c_papuchia_north = {
-			}
-			c_papuchia_south = {
-			}
-			c_pirate_island = {
-			}
+			color={ 72 96 104 }
+			color2={ 255 255 255 }
+			capital = 32 # Middlesex
 		}
 		
 	}
 	k_fire = {
+		color={ 176 23 31 }
+		color2={ 139 90 0 }
+		capital = 32 # Middlesex
 		d_mountain_fire = {
-		}
-		d_disorientation = {
+			color={ 72 96 104 }
+			color2={ 255 255 255 }
+			capital = 32 # Middlesex
 		}
 	}
 	k_sand = {
+		color={ 255 239 213 }
+		color2={ 139 69 19 }
+		capital = 32 # Middlesex
 		d_sand_temple = {
+			color={ 72 96 104 }
+			color2={ 255 255 255 }
+			capital = 32 # Middlesex
 		}
 		d_sand_sancuary = {
+			color={ 238 229 222 }
+			color2={ 250 250 210 }
+			capital = 32 # Middlesex
 		}
 	}
 }
 #gemlands
 e_rupee = {
-	color={ 204 0 0 }
-	color2={ 255 255 255 }
+	color={ 176 23 31 }
+	color2={ 65 105 225 }
 	capital = 32 # Middlesex
 	dignity = 10 # Counted as having this many more counties than it does
 
@@ -1024,32 +1189,95 @@ e_rupee = {
 		}
 	}
 	k_emerald = {
+		color={ 0 201 87 }
+		color2={ 255 236 139 }
+		capital = 32 # Middlesex
 		d_peridot = { #jungle
+			color={ 189 252 201 }
+			color2={ 255 236 139 }
+			capital = 32 # Middlesex
 		}
 		d_turqoise = { #grasslands
+			color={ 0 245 255 }
+			color2={ 0 201 87 }
+			capital = 32 # Middlesex
 		}
 	}
 	k_ruby = {
+		color={ 255 0 0 }
+		color2={ 255 255 255 }
+		capital = 32 # Middlesex
 		d_garnet = { #desert
+			color={ 128 0 0 }
+			color2={ 255 255 255 }
+			capital = 32 # Middlesex
 		}
 		d_spinel = { #steppe
+			color={ 255 64 64 }
+			color2={ 255 255 255 }
+			capital = 32 # Middlesex
 		}
 	}
 	k_sapphire = {
 		d_zircon = { #upper desert
+			color={ 0 255 255 }
+			color2={ 255 236 139 }
+			capital = 32 # Middlesex
 		}
 		d_topaz = { #lower desert
+			color={ 191 239 255}
+			color2={ 238 201 0 }
+			capital = 32 # Middlesex
 		}
 	}
 }
 #nonhuman empires
 e_sea_tree = {
+	color={ 34 139 34}
+	color2={ 85 107 47 }
+	capital = 660 # Middlesex
 	k_kokiri = {
+		color={ 34 139 34}
+		color2={ 85 107 47 }
+		capital = 659 # Middlesex
+		d_kokiri_woods = {
+			color={ 255 0 0 }
+			color2={ 139 69 19 }
+			capital = 659 # Middlesex
+			c_mount_hylia
+			c_forest_temple
+			c_sacred_forest_meadow
+			c_forest_stage
+			c_forest_gate
+			c_kokiri_lost_woods
+			c_kokiri
+			c_great_deku_tree_grove
+			c_forest_shrine
+			c_west_kokiri_forest
+			c_south_kokiri_forest
+			c_east_kokiri_forest
+		}
 	}
 	k_lost = {
+		color={ 0 100 0 }
+		color2={ 0 0 0 }
+		capital = 671 # Middlesex
+		d_lost_woods = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671 # Middlesex
+			c_lost_woods
+			c_sword_woods
+		}
 	}
 	k_fairy = {
+		color={ 255 105 180 }
+		color2={ 245 255 250  }
+		capital = 303 # Middlesex
 		d_fairy_woods = {
+			color={ 255 225 255 }
+			color2={ 148 0 211 }
+			capital = 303 # Middlesex
 			c_mystery_woods
 			c_fairy_woods
 			c_deku_grove
@@ -1057,24 +1285,66 @@ e_sea_tree = {
 		}
 	}
 	k_minish = {
+		color={ 82 184 220}
+		color2={ 0 100 0 }
+		capital = 666 # Middlesex
+		d_minish = {
+			color={ 82 184 220}
+			color2={ 0 100 0 }
+			capital = 666 # Middlesex
+			c_hylia_swamp
+			c_minish_woods
+			c_minish_groves
+			c_east_hylia_woods
+			c_west_hylia_woods
+			c_thief_woods
+		
+		}
 	}
 }
 e_zuna = {
+	color={ 192 255 62 }
+	color2={ 255 255 224 }
+	capital = 666 # Middlesex
 	k_upper_zuna = {
+	color={ 192 255 62 }
+	color2={ 139 117 0 }
+	capital = 666 # Middlesex
 		d_iskandariyyah = {
+			color={ 255 185 15 }
+			color2={ 0 0 0 }			
+			capital = 802 # Alexandria
 			hytopian = dunes
 		}
 		d_kairo = {
+			color={ 100 219 134 }
+			color2={ 255 255 255 }			
+			capital = 802 # Alexandria
 		}
 		d_dumyat = {
+			color={ 3 255 74 }
+			color2={ 255 255 255 }			
+			capital = 798 # Damietta
 		}
 	}
 	k_lower_zuna = {
+	color={ 255 255 224 }
+	color2={ 255 165 0 }
+	capital = 666 # Middlesex
 		d_Sina = {
+			color={ 20 232 115 }
+			color2={ 255 255 255 }
+			capital = 796 # Cairo
 		}
 		d_aswan = {
+			color={ 41 188 120 }
+			color2={ 255 255 255 }			
+			capital = 794 # Aswan
 		}
 		d_zuna = { #despair
+			color={ 88 99 2 }
+			color2={ 255 255 255 }			
+			capital = 788 # Farama
 			zuna = Zuna
 		}
 	}
@@ -1103,12 +1373,23 @@ k_hoho = {
 		}
 	}
 	d_ho = {
+		color={ 194 171 117 }
+		capital = 387 # Kola
 	}
 	d_ho_ho = {
+		color={ 150 75 75 }
+		color2={ 255 255 255 }			
+		capital = 378 # Kalevan
 	}
 	d_way = {
+		color={ 110 50 50 }
+		color2={ 255 255 255 }			
+		capital = 375 # Liivimaa
 	}
 	d_way_way = {
+		color={ 155 135 45 }
+		color2={ 255 255 255 }			
+		capital = 388 # Karjala
 	}
 }
 k_koridai = {
@@ -1116,7 +1397,7 @@ k_koridai = {
 		color2={ 220 75 44 }
 		
 		capital = 2 #Upper crater
-			allow = {
+		allow = {
 		hidden_tooltip = {
 			OR = {
 				ai = no
@@ -1238,10 +1519,12 @@ k_koridai = {
 }
 k_gamelon = {
 		color={ 214 18 0 }
-		color2={ 218 8 79 }
-		
-		capital = 43 #Gowrie
+		color2={ 218 8 79 }		
+		capital = 167 #Gowrie
 		d_dodomai = {
+			color={ 0 178 238 }
+			color2={ 47 79 79 }		
+			capital = 167 #Gowrie
 			c_dodomai
 			c_ahitaru
 			c_shutoy
@@ -1249,6 +1532,9 @@ k_gamelon = {
 			c_sakado
 		}
 		d_aru_ainu = {
+			color={ 139 34 82 }
+			color2={ 250 250 210 }		
+			capital = 171 #Gowrie
 			c_aru_ainu
 			c_nokani
 			c_kobitan
@@ -1258,10 +1544,12 @@ k_gamelon = {
 #kingdoms
 k_arcadia = {
 		color={ 229 220 244 }
-		color2={ 78 116 197 }
-		
-		capital = 43 #Gowrie
+		color2={ 78 116 197 }		
+		capital = 247 #Gowrie
 		d_arcadia = {
+			color={ 255 255 0 }
+			color2={ 255 255 255 }		
+			capital = 247 #Gowrie
 			c_arcadia
 			c_wosuia
 			c_xenonia
@@ -1278,6 +1566,9 @@ k_arcadia = {
 			c_capetia
 		}
 		d_curtania = {
+			color={ 240 230 140 }
+			color2={ 250 250 210 }		
+			capital = 262 #Gowrie
 			c_curtania
 			c_polia
 			c_stoicia
@@ -1291,6 +1582,9 @@ k_arcadia = {
 			c_aroania
 		}
 		d_louia = {
+			color={ 238 232 170 }
+			color2={ 0 0 0 }		
+			capital = 284 #Gowrie
 			c_agamemnia
 			c_argolia
 			c_ladonia
@@ -1300,6 +1594,9 @@ k_arcadia = {
 			c_louia
 		}
 		d_silvania = {
+			color={ 255 255 255 }
+			color2={ 255 231 186 }		
+			capital = 257 #Gowrie
 			c_valoia
 			c_merovia
 			c_marcania
@@ -1310,10 +1607,12 @@ k_arcadia = {
 }
 k_tolemac = {
 		color={ 202 26 26 }
-		color2={ 255 255 255 }
-		
-		capital = 43 #Gowrie
+		color2={ 255 255 255 }		
+		capital = 242 #Gowrie
 		d_skotness = {
+			color={ 0 139 69 }
+			color2={ 255 255 255 }		
+			capital = 228 #Gowrie
 			c_skotness
 			c_sea_island
 			c_findo
@@ -1321,7 +1620,10 @@ k_tolemac = {
 			c_ogbam
 			c_larrocthest
 		}
-		d_canvula = {
+		d_canvula = {	
+			color={ 205 102 0 }
+			color2={ 250 240 230 }
+			capital = 236 #Gowrie
 			c_canvula
 			c_ubato
 			c_toria
@@ -1329,6 +1631,9 @@ k_tolemac = {
 			c_glonna
 		}
 		d_sabasha = {
+			color={ 255 97 3 }
+			color2={ 205 197 191 }			
+			capital = 231 #Gowrie
 			c_north_subasha
 			c_subasha
 			c_ensilon
@@ -1336,6 +1641,9 @@ k_tolemac = {
 			c_hobel
 		}
 		d_tolemac = {
+			color={ 202 26 26 }
+			color2={ 255 255 255 }		
+			capital = 228 #Gowrie
 			c_triplet_coast
 			c_tolemac	
 			c_legatnit
@@ -1345,20 +1653,30 @@ k_tolemac = {
 		}
 }
 k_western_isles = {
+	color={ 195 190 255 }
+	color2={ 128 128 0 }
+	capital = 387
 	d_frozen_isle = {
 		color={ 195 190 255 }
 		color2={ 220 220 220 }
+		capital = 387
 		c_icy_plain
 		c_icy_peak
 		c_snowfield
 	}
 	d_gooey isle = {
+		color={ 113 113 198 }
+		color2={ 224 102 255 }
+		capital = 381
 		c_gooey_swamp
 		c_insect_cavern
 		c_basecamp
 		c_codile_cove
 	}
 	d_steamy_isle = {
+		color={ 128 128 105 }
+		color2={ 255 248 220 }
+		capital = 378
 		c_steamy_marsh
 		c_kamonano
 		c_hiveville
@@ -1366,11 +1684,26 @@ k_western_isles = {
 }
 k_moria = {
 	color={ 80 101 60 }
-	color2={ 255 0 0	}
+	color2={ 255 0 0 }
+	capital = 31 
 	d_galfridia = {
-	
+		color={ 119 136 153 }
+		color2={ 47 79 79 }
+		capital = 56 
+		c_ambadon
+		c_camlain
+		c_gilbadon
+		c_glennith
+		c_ardemoria
+		c_gauness
+		c_gargrail
+		c_galeas
+		c_galfridia	
 	}
 	d_grindle = {
+		color={ 139 71 93 }
+		color2={ 255 255 255 }
+		capital = 37
 		c_borodour
 		c_caliborn
 		c_swanpoint
@@ -1384,6 +1717,9 @@ k_moria = {
 		c_agravoron
 	}
 	d_moria = {
+		color={ 80 101 60 }
+		color2={ 255 0 0 }
+		capital = 31 
 		c_moria
 		c_bawang
 		c_maelgryn
