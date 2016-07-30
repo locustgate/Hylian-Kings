@@ -9,7 +9,7 @@
 	trait=brilliant_strategist
 	trait=bloodline_goddess
 	trait=race_hylian
-	trait=warrior_2
+	#trait=warrior_2
 	trait=robust
 	trait=just
 	3367.10.18={
@@ -79,8 +79,8 @@
 	culture=wind_tribe
 	trait=underhanded_rogue
 	trait=race_wind_tribe
-	trait=warrior_3
-	trait=mage_3
+	#trait=warrior_3
+	#trait=mage_3
 	3331.3.26={
 		birth=yes
 	}
@@ -102,7 +102,7 @@
 	trait=decietful
 	trait=shrewd
 	trait=race_wind_tribe
-	trait=mage_4
+	#trait=mage_4
 	3331.8.2={
 		birth=yes
 	}
@@ -124,7 +124,7 @@
 	trait=skilled_tactician 
 	culture=wind_tribe
 	trait=race_wind_tribe
-	trait=mage_1
+	#trait=mage_1
 	trait=coward
 	3349.4.28={
 		birth=yes
@@ -147,7 +147,7 @@
 	culture=wind_tribe
 	trait=grey_eminence  
 	trait=race_wind_tribe
-	trait=mage_3
+	#trait=mage_3
 	3356.12.25={
 		birth=yes
 	}
@@ -169,7 +169,7 @@
 	culture=wind_tribe
 	trait=scholarly_theologian
 	trait=race_wind_tribe
-	trait=mage_2
+	#trait=mage_2
 	trait=attractive
 	trait = feeble
 	3369.4.28={
@@ -193,7 +193,7 @@
 	trait=brilliant_strategist
 	trait=bloodline_hero
 	trait=race_hylian
-	trait=warrior_3
+	#trait=warrior_3
 	trait=robust
 	trait=strong
 	trait=content
@@ -316,7 +316,7 @@
 	culture=koridain
 	trait=race_hylian
 	trait=lustful
-	trait=warrior_1
+	#trait=warrior_1
 	trait=gluttonous
 	trait=content
 	trait=misguided_warrior
@@ -342,7 +342,7 @@
 	culture=koridain
 	trait=race_hylian
 	trait=grey_eminence
-	trait=mage_1
+	#trait=mage_1
 	trait=ugly
 	trait=kind
 	3357.8.13 = {
@@ -394,7 +394,7 @@
 	culture=koridain
 	trait=race_hylian
 	trait=lustful
-	trait=warrior_2
+	#trait=warrior_2
 	trait=dwarf
 	trait=ambitious
 	trait=scholarly_theologian 
@@ -575,7 +575,7 @@
 	religion=demise_religion
 	culture=moblin
 	trait=race_moblin
-	trait=warrior_3
+	#trait=warrior_3
 	trait=lustful
 	trait=gluttonous
 	trait=wroth
@@ -597,7 +597,7 @@
 	religion=demise_religion
 	culture=moblin
 	trait=race_moblin
-	trait=warrior_1
+	#trait=warrior_1
 	trait=slow
 	trait=decietful
 	trait=intricate_webweaver
@@ -653,6 +653,298 @@
 		birth=yes
 	}
 }
+1035 = { #gerudo gate
+	name=Percy
+	historical = yes 
+	dna="dcida0iabb0"
+	properties="im0cbdbbbbbb"
+	dynasty=13
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=skilled_tactician
+	trait=race_hylian
+	#trait=warrior_2
+	trait=wounded
+	trait=brave
+	trait=robust
+	trait=dull
+	trait=duelist
+	3369.3.24={
+		birth=yes
+	}
+}
+1036 = { #west fields former rebel leader against gerudos
+	name=Beedle
+	historical = yes 
+	dna="adhgb0acdc0"
+	properties="ok0kfkbebbab"
+	dynasty=21
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=tough_soldier
+	trait=race_hylian
+	#trait=warrior_3
+	trait=blinded
+	trait=zealous
+	trait=wroth
+	trait=honest
+	trait=stubborn
+	trait=inspiring_leader
+	3361.8.3={
+		birth=yes
+	}
+	#3377.8.4={
+	#	add_spouse = gerudovalleyduke1
+	#}	
+	#3382.10.26={
+	#	remove_spouse = gerudovalleyduke1
+	#}
+	3384.4.7={
+		add_spouse = 1037
+	}
+}
+1037 = { 
+	name=Ashei
+	female = yes
+	historical = yes 
+	dna="cfjgd0daaa0"
+	properties="ob0d0kbebbbb"
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=thrifty_clerk
+	trait=race_hylian
+	trait=chaste
+	trait=kind
+	trait=dull
+	3368.4.6={
+		birth=yes
+	}
+	3384.4.7={
+		add_spouse = 1037
+	}
+}
+1038 = { 
+	name=Ashei
+	historical = yes 
+	mother=1037
+	father=1036
+	dna="cfjgd0jaaa0"
+	properties="oc0dhkbebbbb"
+	religion=golden_goddesses
+	culture=hyrulean
+	3386.2.7={
+		birth=yes
+	}
+}
+1039 = { #south+southwest +duke of west fields
+	name=Hagen
+	historical = yes 
+	dna="cbjgj0iacb0"
+	properties="oi0lhbbebbbb"
+	dynasty=84
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=charismatic_negotiator
+	trait=race_hylian
+	trait=lustful
+	trait=gluttonous
+	trait=quick
+	trait=tall
+	3345.2.22={
+		birth=yes
+	}
+	3361.4.22={
+		add_spouse = 1037
+	}
+}
+1040 = { 
+	name=Verona
+	historical = yes 
+	female=yes
+	dna="cdflj0eabc0"
+	properties="ob0l0bbebbbb"
+	dynasty=123
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=elusive_shadow
+	trait=race_hylian
+	trait=frail
+	trait=drunkard
+	trait=fair
+	trait=shrewd
+	3345.4.21={
+		birth=yes
+	}
+	3361.4.22={
+		add_spouse = 1037
+	}
+}
+1041 = {
+	name=Jim
+	historical = yes 
+	mother=1040
+	father=1039
+	dna="cdflj0eabc0"
+	properties="ob0lfbbebbbb"
+	dynasty=84
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=martial_cleric
+	trait=race_hylian
+	trait=charitable
+	trait=proud
+	trait=stubborn
+	3362.8.22={
+		birth=yes
+	}
+	3378.12.26={
+		add_spouse = 1042
+	}
+	3381.3.14={
+		death={ death_reason = death_battle
+			killer=1000
+		}
+	}
+}
+1042 = {
+	name=Epona
+	historical = yes 
+	dna="deihc0cfba0"
+	properties="fb0i0fbebbbb"
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=thrifty_clerk
+	trait=race_hylian
+	trait=zealous
+	trait=chaste
+	trait=humble
+	trait=nun
+	trait=celibite
+	3362.12.22={
+		birth=yes
+	}
+	3378.12.26={
+		add_spouse = 1041
+	}
+}
+1043 = {
+	name=Klaus
+	historical = yes 
+	mother=1041
+	father=1042
+	dna="aebaf0ieac0"
+	properties="mi0fckbebbbb"
+	dynasty=84
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=race_hylian
+	trait=charitable
+	trait=willful
+	trait=rowdy
+	3380.5.13={
+		birth=yes
+	}
+}
+1044 = {
+	name=Sue
+	female=yes
+	historical = yes 
+	mother=1040
+	father=1039
+	dna="aaikb0cbba0"
+	properties="sk0a0abebbbb"
+	dynasty=84
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=indulgent_wastrel
+	trait=race_hylian
+	trait=slow
+	trait=fair
+	trait=shy
+	trait=trusting
+	3365.11.7={
+		birth=yes
+	}
+	3381.12.26={
+		add_spouse = 1046
+	}
+}
+1045 = {
+	name=Klaus
+	historical = yes 
+	mother=1040
+	father=1039
+	dna="aebah0ejbc0"
+	properties="me0ebfbebbbb"
+	dynasty=84
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=race_hylian
+	trait=scholarly_theologian 
+	trait=fair
+	trait=chaste
+	trait=poet
+	trait=zealous
+	trait=erudite
+	3369.9.28={
+		birth=yes
+	}
+}
+1046  = { #bridge and lakeside
+	name=Gorman
+	historical = yes 
+	dna="dciff0jbda0"
+	properties="pl0fdfbebbbb"
+	dynasty=32
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=race_hylian
+	trait=charismatic_negotiator
+	trait=gregarious
+	trait=cynical
+	trait=paranoid
+	trait=just
+	3362.5.13={
+		birth=yes
+	}
+	3381.12.26={
+		add_spouse = 1044
+	}
+}
+1047  = { #sun island
+	name=Rem
+	historical = yes 
+	dna="dgkad0fcdc0"
+	properties="aj0hbebebbbb"
+	dynasty=none
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=race_hylian
+	trait=scholarly_theologian
+	trait=gregarious
+	trait=kind
+	trait=chaste
+	3365.3.4={
+		birth=yes
+	}
+}
+1048  = { #water island
+	name=Zuju
+	historical = yes 
+	dna="ddggc0head0"
+	properties="na0laebebbbb"
+	dynasty=none
+	religion=jabu_jabu
+	culture=lake_zora
+	trait=race_zora
+	trait=scholarly_theologian
+	trait=lustful
+	trait=erudite
+	trait=celibite
+	3351.2.28={
+		birth=yes
+	}
+}
 #xx = {
 #	name=Gavun
 #	historical = yes
@@ -661,7 +953,7 @@
 #	culture=gerudo
 #	trait=race_gerudo
 #	trait=scarred
-#	trait=warrior_3
+#	#trait=warrior_3
 #	trait=kind
 #	trait = ambitious
 #	trait=bow_ice
@@ -673,14 +965,86 @@
 #		death_reason=death_ill}
 #	}
 #}
-
-
-
-
-
-
-
-
+#gerudovalleyduke1 = {
+#	name=Uma
+#	historical = yes
+#	dynasty=1013
+#	dna="cfhde0acaa0"
+#	properties="oe0a0ababbbb"
+#	female=yes
+#	religion=gerudo_goddess
+#	culture=gerudo
+#	trait=cruel
+#	trait=scarred
+#	trait=shrewd
+#	trait=lustful
+#	trait=wroth
+#	trait=cavalry_leader
+#	trait=inspiring_leader
+#	trait=grey_eminence
+#	3355.1.8={
+#		birth=yes
+#	}
+#	3377.8.4={
+#		add_spouse = 1036
+#	}	
+#	3382.10.26={
+#		remove_spouse = 1036
+#	}
+#}
+#gerudovalleyduke1a = {
+#	name=Dizi
+#	historical = yes
+#	dna="cafdk0faaa0"
+#	properties="oa0d0kbebbbb"
+#	dynasty=1013
+#	mother=gerudovalleyduke1
+#	father=1036
+#	female=yes
+#	religion=gerudo_goddess
+#	culture=gerudo
+#	trait=idolizer
+#	trait=rowdy
+#	trait=willful
+#	3378.7.23={
+#		birth=yes
+#	}
+#}
+#gerudovalleyduke1b = {
+#	name=Aphyx
+#	historical = yes
+#	dna="ckfad0laaa0"
+#	properties="oi0d0kbebbbb"
+#	dynasty=1013
+#	mother=gerudovalleyduke1
+#	father=1036
+#	female=yes
+#	religion=gerudo_goddess
+#	culture=gerudo
+#	trait=affectionate
+#	3380.2.21={
+#		birth=yes
+#	}
+#}
+#gerudovalleyduke1c = {
+#	name=Garookun
+#	historical = yes
+#	dynasty=1013
+#	mother=gerudovalleyduke1
+#	father=1036
+#	female=yes
+#	religion=gerudo_goddess
+#	culture=gerudo
+#	trait=sickly
+#	3382.5.5={
+#		birth=yes
+#	}
+#	3382.5.12={		
+#		death={
+#			death_reason=death_sickly
+#		}
+#	}
+#}
 
 
 
