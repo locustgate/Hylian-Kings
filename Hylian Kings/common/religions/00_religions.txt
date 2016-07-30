@@ -1237,7 +1237,7 @@ alien_religion = {
 		priests_can_marry = yes 
 	}
 	mask_cult = {
-	parent = goddesses_lorule
+		parent = goddesses_lorule
 		graphical_culture = norsegfx
 
 		icon = 2
