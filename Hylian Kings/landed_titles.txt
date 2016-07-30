@@ -1737,15 +1737,40 @@ k_moria = {
 	
 }
 k_port_isle = {
+	color={ 34 139 34 }
+	color2={ 0 0 255 }
+	capital = 176
+	d_port_isle = {
+		color={ 0 0 255 }
+		color2={ 34 139 34 }
+		capital = 176
+		c_port_town
+		c_hometown_prarie
+		c_deku_island
+		c_lon_lon_island
+		c_sunshine_seashore
+		c_cape_treasure
+		c_tingle_island
+		c_step_island
+	}
 
 }
 k_koholint = {
+	color={ 252 230 201 }
+	color2={ 232 32 152 }
+	capital = 216
 	d_tal_tal= {
+		color={ 232 32 152 }
+		color2={ 252 230 201 }
+		capital = 218
 		c_tal_tal_heights
 		c_tal_tal_mountains
 		c_goponga
 	}
 	d_ukuku = {
+		color={ 0 199 140 }
+		color2={ 255 64 64 }
+		capital = 216
 		c_kanalet
 		c_ukuku
 		c_toronbo
@@ -1753,11 +1778,23 @@ k_koholint = {
 	}
 }
 k_bastion = { #darknut
+	color={ 40 40 40 }
+	color2={ 139 0 0 }
+	capital = 216
 }
 k_myrddin = { #wizzrobe
+	color={ 135 206 255 }
+	color2={ 154 50 205 }
+	capital = 216
 }
 k_hanman = {
+	color={ 222 41 16 }
+	color2={ 255 222 0 }
+	capital = 72
 	d_singysia = {
+		color={ 237 41 57 }
+		color2={ 255 255 255 }
+		capital = 99
 		c_kimheon
 		c_seoran
 		c_famusa
@@ -1769,6 +1806,9 @@ k_hanman = {
 		c_kanru
 	}
 	d_lost_desert = {
+		color={ 244 164 96 }
+		color2={ 255 222 0 }
+		capital = 160
 		c_quruman
 		c_hotho
 		c_kangso
@@ -1782,6 +1822,9 @@ k_hanman = {
 		c_shamen
 	}
 	d_laong = {
+		color={ 206 17 38 }
+		color2={ 0 40 104 }
+		capital = 108
 		c_sukang
 		c_shisan
 		c_dangwu
@@ -1793,6 +1836,9 @@ k_hanman = {
 		c_kukiel
 	}
 	d_nihpan = {
+		color={ 188 0 45 }
+		color2={ 255 255 255 }
+		capital = 130
 		c_yami
 		c_seroa
 		c_ataya
@@ -1807,6 +1853,9 @@ k_hanman = {
 		c_kanakan
 	}
 	d_jappon = {
+		color={ 255 255 255 }
+		color2={ 188 0 45 }
+		capital = 117
 		c_daya
 		c_kaliman
 		c_aryuk
@@ -1822,6 +1871,9 @@ k_hanman = {
 		c_lusung
 	}
 	d_hanman = {
+		color={ 222 41 16 }
+		color2={ 255 222 0 }
+		capital = 72
 		c_sang
 		c_purajoho
 		c_sing
@@ -1840,13 +1892,16 @@ k_hanman = {
 		
 	}
 	d_grand_hanman = {
+		color={ 255 222 0 }
+		color2={ 222 41 16 }
+		capital = 84
 		c_shire
 		c_changyi
 		c_omoni
 		c_sumbala
 		c_lumapa
 		c_horyul
-		haebal
+		c_haebal
 		c_deokmin
 		c_puyeo
 		c_jinla
@@ -1857,6 +1912,9 @@ k_hanman = {
 		c_torugol
 	}
 	d_shanghua_islands = { #jade Islands
+		color={ 255 153 51 }
+		color2={ 18 136 7 }
+		capital = 153
 		c_kinisha
 		c_sapango
 		c_sajidao
@@ -1873,13 +1931,22 @@ k_hanman = {
 
 }
 k_falsia = {
+	color={ 41 255 30 }
+	color2={ 250 250 210 }
+	capital = 60
 	d_falsia = {
+		color={ 41 255 30 }
+		color2={ 18 136 7 }
+		capital = 60
 		c_falsia
 		c_lachry
 		c_fetsia
 		c_farial
 	}
 	d_faria = {
+		color={ 34 139 34 }
+		color2={ 18 136 7 }
+		capital = 27
 		c_flower_gardens
 		c_faria
 		c_maku_sanctuary
@@ -1889,6 +1956,9 @@ k_falsia = {
 		c_beach_caves
 	}
 	d_proodyl = {
+		color={ 255 240 245 }
+		color2={ 18 136 7 }
+		capital = 15
 		c_clockwork
 		c_magma_mines
 		c_misty_marshes
