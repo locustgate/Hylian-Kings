@@ -1,9 +1,15 @@
 #3387
 1000 = { 
 	name=Gustaf
+	disallow_random_traits = yes 
 	historical = yes
 	dynasty=1
-	mother/father=y
+	#mother/father=y
+	diplomacy=13
+	martial=8
+	intrigue=5
+	stewardship=7
+	learning=5
 	religion=golden_goddesses
 	culture=hyrulean
 	trait=brilliant_strategist
@@ -12,10 +18,15 @@
 	#trait=warrior_2
 	trait=robust
 	trait=just
+	trait=gregarious
+	trait=patron_din
 	3367.10.18={
 		birth=yes
 	}
-   3385.4.30 = {
+	3381.1.1 = {
+		add_friend = 1010
+	}
+	3385.4.30 = {
 		add_spouse=1009
 	}
 	3425.1.1={
@@ -26,8 +37,8 @@
 }
 1001 = {
 	name=Zelda 
-	dna="ddaga0glab0"
-	properties="qm0cbkbebbbb"
+	dna="ddagd0laac0"
+	properties="pm0f0kbebbbb"
 	historical = yes
 	dynasty=1
 	female=yes
@@ -186,29 +197,39 @@
 1010 = {
 	name=Hagan
 	historical = yes
+	disallow_random_traits = yes 
 	dynasty=14601
-	mother/father=y
+	#mother/father=y
+	diplomacy=9
+	martial=15
+	intrigue=5
+	stewardship=5
+	learning=5
 	religion=golden_goddesses
 	culture=hyrulean
 	trait=brilliant_strategist
 	trait=bloodline_hero
 	trait=race_hylian
-	#trait=warrior_3
+#	trait=warrior_3
 	trait=robust
 	trait=strong
 	trait=content
 	trait=brave
 	trait=experimenter
 	trait=cavalry_leader
+	trait=patron_din
 	3358.2.10={
 		birth=yes
+	}
+	3381.1.1 = {
+		add_friend = 1000
 	}
    3385.10.16 = {
 		add_spouse=1011
 	}
-   3388.1.25 = {
-		add_spouse=xz
-	}
+#   3388.1.25 = {
+#		add_spouse=xz
+#	}
 	3420.1.1={
 		death=yes
 	}
@@ -238,6 +259,7 @@
 1012 = {
 	name=Link
 	historical = yes
+	dynasty=14601
 	father=1010
 	mother=1011
 	dna="demab0flab0"
@@ -298,6 +320,7 @@
 	name=Malon
 	historical = yes
 	female=yes
+	dynasty=40
 	father=1013
 	mother=1014
 	religion=golden_goddesses
@@ -720,11 +743,11 @@
 		birth=yes
 	}
 	3384.4.7={
-		add_spouse = 1037
+		add_spouse = 1036
 	}
 }
 1038 = { 
-	name=Ashei
+	name=Baris
 	historical = yes 
 	mother=1037
 	father=1036
@@ -736,7 +759,7 @@
 		birth=yes
 	}
 }
-1039 = { #south+southwest +duke of west fields
+1039 = { #south+southwest 
 	name=Hagen
 	historical = yes 
 	dna="cbjgj0iacb0"
@@ -776,7 +799,7 @@
 		birth=yes
 	}
 	3361.4.22={
-		add_spouse = 1037
+		add_spouse = 1039
 	}
 }
 1041 = {
@@ -809,6 +832,7 @@
 1042 = {
 	name=Epona
 	historical = yes 
+	female=yes
 	dna="deihc0cfba0"
 	properties="fb0i0fbebbbb"
 	religion=golden_goddesses
@@ -942,6 +966,62 @@
 	trait=erudite
 	trait=celibite
 	3351.2.28={
+		birth=yes
+	}
+}
+1049  = { #castle city
+	name=Gulley
+	historical = yes
+	dna="abgmh0mfbc0"
+	properties="ng0hfhbebbbb"
+	dynasty=none
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=race_hylian
+	trait=midas_touched
+	trait=just
+	trait=greedy
+	trait=lustful
+	3362.1.18={
+		birth=yes
+	}
+}
+1050  = { #castle city gate and gastle road
+	name=Dotour
+	historical = yes 
+	dna="bakjb0jgba0"
+	properties="fn0abibebbbb"
+	dynasty=148
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=race_hylian
+	trait=brilliant_strategist
+	#trait=warrior_3
+	trait=drunkard
+	trait=lustful
+	trait=brave
+	trait=zealous
+	3371.5.11={
+		birth=yes
+	}
+}
+1051  = { #sacred grove
+	name=Shikashi
+	historical = yes 
+	dna="agjef0dgaa0"
+	properties="pf0dehbebbbb"
+	dynasty=171
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=race_hylian
+	trait=tough_soldier
+	#trait=warrior_1
+	trait=shy
+	trait=greedy
+	trait=brave
+	trait=cynical
+	trait=falconer
+	3369.9.8={
 		birth=yes
 	}
 }

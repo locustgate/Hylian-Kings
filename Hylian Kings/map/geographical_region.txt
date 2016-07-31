@@ -12,7 +12,7 @@
 ###########################################################################
 
 world_central_hyrule = {
-	duchies = {}
+	duchies = { d_faron d_eldin d_lanayru d_peak d_royal_woods d_royal_graveyard d_west_hyrule_field d_east_hyrule_field d_hylia d_lon_lon_hill d_ordon_woods d_ordon d_ordonia d_great_death_mountains d_death_mountain d_north_domain d_south_domain }
 }
 
 world_sea_sand = {

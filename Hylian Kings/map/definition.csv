@@ -1,10 +1,10 @@
 province;red;green;blue;x;x
-1;42;3;128;Lower Crater;x
-2;84;6;1;Upper Crater;x
-3;126;9;129;Left Ear;x
-4;168;12;2;Bite Mark;x
-5;0;15;130;Bend;x
-6;168;45;177;Right Ear;x
+1;42;3;128;Notra;x
+2;84;6;1;Cuiqenon;x
+3;126;9;129;Hinitra;x
+4;168;12;2;Nutra;x
+5;0;15;130;Gistum;x
+6;168;45;177;Lorom;x
 7;84;21;131;Menen;x
 8;126;24;4;Lunen;x
 9;168;27;132;Cotko;x
@@ -12,100 +12,100 @@ province;red;green;blue;x;x
 11;42;33;133;Fokoqa;x
 12;84;36;6;Coken;x
 13;126;39;134;Fetku;x
-14;168;42;7;Stonepoint;x
-15;0;45;135;Proodyl;x
+14;168;42;7;Hirunu;x #koridai
+15;0;45;135;Proodyl;x #falsia
 16;42;48;8;Falsia Falls;x
-17;84;51;136;Clock Tower;x
+17;84;51;136;Clock Work;x
 18;126;54;9;Magma Mines;x
 19;168;57;137;Misty Marshes;x
 20;0;60;10;Vampire Crypt;x
 21;42;63;138;Westvale;x
 22;84;66;11;Zora Point;x
 23;126;69;139;Temple of Light;x
-24;168;72;12;Falsia;x
-25;0;75;140;Beach Cave;x
-26;42;78;13;Sundial Shrine;x
-27;126;84;14;Faria Village;x
-28;84;81;141;Maku Grove;x
-29;168;87;142;Hourglass Pyramid;x
-30;0;90;15;Flower Gardens;x
-31;42;93;143;Moria;x
-32;84;96;16;Maelgryn;x
-33;126;99;144;Anadora;x
-34;168;102;17;Borodour;x
-35;0;105;145;Daleport;x
-36;42;108;18;Anaurion;x
-37;84;111;146;Avelon;x
-38;126;114;19;Seawall Tower;x
-39;168;117;147;Avelon Fields;x
-40;0;120;20;Caliborn;x
-41;42;123;148;Lothodin;x
-42;84;126;21;Swanpoint;x
-43;126;129;149;Agravoron;x
-44;168;132;22;Taprian;x
-45;0;135;150;Mungar;x
-46;42;138;23;Ereway;x
-47;84;141;151;Malithoron;x
-48;126;144;24;Ambadon;x
-49;168;147;152;Camlain;x
-50;0;150;25;Gilbadon;x
-51;42;153;153;Glennith;x
-52;84;156;26;Ardemoria;x
-53;126;159;154;Gauness;x
-54;168;162;27;Gargrail;x
-55;0;165;155;Galeas;x
-56;42;168;28;Galfridia;x
-57;84;171;156;Mountain Gate;x
-58;126;174;29;Laning;x
-59;168;177;157;Nisiam;x
-60;0;180;30;Kambujaya;x
-61;42;183;158;Lachen;x
-62;84;186;31;Sang;x
-63;126;189;159;Purajoho;x
-64;168;192;32;Sing;x
+24;168;72;12;New Falsia;x
+25;0;75;140;Beach Caves;x
+26;42;78;13;Sundial Shores;x
+27;126;84;14;Faria;x
+28;84;81;141;Maku Sanctuary;x
+29;168;87;142;Hourglass Sands;x
+30;0;90;15;Flower Gardens;x #falsia end
+31;42;93;143;Moria;x #moria #m13
+32;84;96;16;Maelgryn;x #m13
+33;126;99;144;Anadora;x#m13
+34;168;102;17;Borodour;x#g11
+35;0;105;145;Daleport;x#g11
+36;42;108;18;Anaurion;x#g11
+37;84;111;146;Grindle;x#g11
+38;126;114;19;Seawall;x#g11
+39;168;117;147;Grindle Fields;x#g11
+40;0;120;20;Caliborn;x#g11
+41;42;123;148;Lothodin;x#g11
+42;84;126;21;Swanpoint;x#g11
+43;126;129;149;Agravoron;x#g11
+44;168;132;22;Taprian;x#g11
+45;0;135;150;Mungar;x#m13
+46;42;138;23;Ereway;x#m13
+47;84;141;151;Malithoron;x#m13
+48;126;144;24;Ambadon;x#gf9
+49;168;147;152;Camlain;x#gf9
+50;0;150;25;Gilbadon;x#gf9
+51;42;153;153;Glennith;x#gf9
+52;84;156;26;Ardemoria;x#gf9
+53;126;159;154;Gauness;x#gf9
+54;168;162;27;Gargrail;x#gf9
+55;0;165;155;Galeas;x#gf9
+56;42;168;28;Galfridia;x#gf9
+57;84;171;156;Mountain Gate;x#m13
+58;126;174;29;Farial;x #falsia
+59;168;177;157;Fetsia;x
+60;0;180;30;Falsia;x
+61;42;183;158;Lachry;x #falsia end
+62;84;186;31;Sang;x #hanman #h16
+63;126;189;159;Purajoho;x#h16
+64;168;192;32;Sing;x#h16
 65;0;195;160;Lansang;x
 66;42;198;33;Bangrajang;x
 67;84;201;161;Pagaung;x
-68;126;204;34;Maomong;x
-69;168;207;162;Suangma;x
-70;0;210;35;Bawang;x
-71;42;0;163;Xang;x
-72;84;3;36;Hanman;x
-73;126;6;164;Batang;x
-74;168;9;37;Tuong;x
-75;0;12;165;Mayi;x
-76;42;15;38;Chonmul;x
-77;84;18;166;Jakali;x
-78;126;21;39;Gaomar;x
-79;168;24;167;Shenma;x
-80;0;27;40;Gorlang;x
-81;42;30;168;Xinang;x
-82;84;33;41;Suliming;x
-83;126;36;169;Haizhu;x
-84;168;39;42;Shire;x
-85;0;42;170;Changyi;x
-86;42;45;43;Omoni;x
-87;84;48;171;Sumbala;x
-88;126;51;44;Lumapa;x
-89;168;54;172;Horyul;x
-90;0;57;45;Haebal;x
-91;42;60;173;Deokmin;x
-92;84;63;46;Puyeo;x
-93;126;66;174;Jinla;x
-94;168;69;47;Changmo;x
-95;0;72;175;Damujin;x
-96;42;75;48;Baiman;x
-97;84;78;176;Sinwei;x
-98;126;81;49;Torugol;x
-99;168;84;177;Kimheon;x
-100;0;87;50;Seoran;x
-101;42;90;178;Famusa;x
-102;84;93;51;Arang;x
-103;126;96;179;Morusego;x
-104;168;99;52;Jinghan;x
-105;0;102;180;Minumchi;x
-106;42;105;53;Huodan;x
-107;84;108;181;Kanru;x
+68;126;204;34;Maomong;x#m13
+69;168;207;162;Suangma;x#m13
+70;0;210;35;Bawang;x#m13
+71;42;0;163;Xang;x#h16
+72;84;3;36;Hanman;x#h16
+73;126;6;164;Batang;x#h16
+74;168;9;37;Tuong;x#h16
+75;0;12;165;Mayi;x#h16
+76;42;15;38;Chonmul;x#h16
+77;84;18;166;Jakali;x#h16
+78;126;21;39;Gaomar;x#h16
+79;168;24;167;Shenma;x#h16
+80;0;27;40;Gorlang;x#h16
+81;42;30;168;Xinang;x#h16
+82;84;33;41;Suliming;x#h16
+83;126;36;169;Haizhu;x#gh16
+84;168;39;42;Shire;x#gh16
+85;0;42;170;Changyi;x#gh16
+86;42;45;43;Omoni;x#gh16
+87;84;48;171;Sumbala;x#gh16
+88;126;51;44;Lumapa;x#gh16
+89;168;54;172;Horyul;x#gh16
+90;0;57;45;Haebal;x#gh16
+91;42;60;173;Deokmin;x#gh16
+92;84;63;46;Puyeo;x#gh16
+93;126;66;174;Jinla;x#gh16
+94;168;69;47;Changmo;x#gh16
+95;0;72;175;Damujin;x#gh16
+96;42;75;48;Baiman;x#gh16
+97;84;78;176;Sinwei;x#gh16
+98;126;81;49;Torugol;x#gh16
+99;168;84;177;Kimheon;x#s9
+100;0;87;50;Seoran;x#s9
+101;42;90;178;Famusa;x#s9
+102;84;93;51;Arang;x#s9
+103;126;96;179;Morusego;x#s9
+104;168;99;52;Jinghan;x#s9
+105;0;102;180;Minumchi;x#s9
+106;42;105;53;Huodan;x#s9
+107;84;108;181;Kanru;x#s9
 108;126;111;54;Sukang;x
 109;168;114;182;Shisan;x
 110;0;117;55;Dangwu;x
@@ -115,562 +115,562 @@ province;red;green;blue;x;x
 114;168;129;57;Khaohom;x
 115;0;132;185;Duyi;x
 116;42;135;58;Kukiel;x
-117;84;138;186;Daya;x
-118;126;141;59;Kaliman;x
-119;168;144;187;Aryuk;x
-120;0;147;60;Simang;x
-121;42;150;188;Mangyan;x
-122;84;153;61;Orang;x
-123;126;156;189;Kamba;x
-124;168;159;62;Tangra;x
-125;0;162;190;Paiwei;x
-126;42;165;63;Nurung;x
-127;84;168;191;Seludong;x
-128;126;171;64;Tundok;x
-129;168;174;192;Lusung;x
-130;0;177;65;Yami;x
-131;42;180;193;Seroa;x
-132;84;183;66;Ataya;x
-133;126;186;194;Bunam;x
-134;168;189;67;Porapa;x
-135;0;192;195;Anyaho;x
-136;42;195;68;Putao;x
-137;84;198;196;Rakai;x
-138;126;201;69;Kaxa;x
-139;168;204;197;Siayasi;x
-140;0;207;70;Thao;x
-141;42;210;198;Kanakan;x
+117;84;138;186;Daya;x#jn13
+118;126;141;59;Kaliman;x#jn13
+119;168;144;187;Aryuk;x#jn13
+120;0;147;60;Simang;x#jn13
+121;42;150;188;Mangyan;x#jn13
+122;84;153;61;Orang;x#jn13
+123;126;156;189;Kamba;x#jn13
+124;168;159;62;Tangra;x#jn13
+125;0;162;190;Paiwei;x#jn13
+126;42;165;63;Nurung;x#jn13
+127;84;168;191;Seludong;x#jn13
+128;126;171;64;Tundok;x#jn13
+129;168;174;192;Lusung;x#jn13
+130;0;177;65;Yami;x#j
+131;42;180;193;Seroa;x#j
+132;84;183;66;Ataya;x#j
+133;126;186;194;Bunam;x#j
+134;168;189;67;Porapa;x#j
+135;0;192;195;Anyaho;x#j
+136;42;195;68;Putao;x#j
+137;84;198;196;Rakai;x#j
+138;126;201;69;Kaxa;x#j
+139;168;204;197;Siayasi;x#j
+140;0;207;70;Thao;x#j
+141;42;210;198;Kanakan;x#j
 142;84;0;71;Ruchuwa;x
 143;126;3;199;Okara;x
-144;168;6;72;Kinisha;x
+144;168;6;72;Kinisha;x#si13
 145;0;9;200;Sapango;x
 146;42;12;73;Sajidao;x
-147;84;15;201;Yezima;x
+147;84;15;201;Yezima;x#si13
 148;126;18;74;Odori;x
 149;168;21;202;Iburu;x
 150;0;24;75;Kakarima;x
 151;42;27;203;Sanbu;x
 152;84;30;76;Kabichi;x
-153;126;33;204;Kimchi;x
-154;168;36;77;Banro;x
-155;0;39;205;Daemashi;x
-156;42;42;78;Hotho;x
-157;84;45;206;Kangso;x
-158;126;48;79;Huomen;x
-159;168;51;207;Makare;x
-160;0;54;80;Yitara;x
-161;42;57;208;Hakumul;x
-162;84;60;81;Makanlataka;x
-163;126;63;209;Durufen;x
-164;168;66;82;Sisashan;x
-165;0;69;210;Quruman;x
-166;42;72;83;Shamen;x
-167;84;75;211;Dodomai;x
-168;126;78;84;Reesong;x
-169;168;81;212;Ahitaru;x
-170;0;84;85;Kobitan;x
-171;42;87;213;Aru Ainu;x
-172;84;90;86;Shutoy;x
-173;126;93;214;Sakado;x
-174;168;96;87;Nokani;x
-175;0;99;215;Tykogi;x
-176;42;102;88;;x
-177;84;105;216;;x
-178;126;108;89;;x
-179;168;111;217;;x
-180;0;114;90;;x
-181;42;117;218;;x
-182;84;120;91;;x
-183;126;123;219;;x
-184;168;126;92;;x
-185;0;129;220;;x
-186;42;132;93;;x
-187;84;135;221;;x
-188;126;138;94;;x
-189;168;141;222;;x
-190;0;144;95;;x
-191;42;147;223;;x
-192;84;150;96;;x
-193;126;153;224;;x
-194;168;156;97;;x
-195;0;159;225;;x
-196;42;162;98;;x
-197;84;165;226;;x
-198;126;168;99;;x
-199;168;171;227;;x
-200;0;174;0;;x
-201;42;177;128;;x
-202;84;180;1;;x
-203;126;183;129;;x
-204;168;186;2;;x
-205;0;189;130;;x
-206;42;192;3;;x
-207;84;195;131;;x
-208;126;198;4;;x
-209;168;201;132;;x
-210;0;204;5;;x
-211;42;207;133;;x
-212;84;210;6;;x
-213;126;0;134;;x
-214;168;3;7;;x
-215;0;6;135;;x
-216;42;9;8;;x
-217;84;12;136;;x
-218;126;15;9;;x
-219;168;18;137;;x
-220;0;21;10;;x
-221;42;24;138;;x
-222;84;27;11;;x
-223;126;30;139;;x
-224;168;33;12;;x
-225;0;36;140;;x
-226;42;39;13;;x
-227;84;42;141;;x
-228;126;45;14;;x
-229;168;48;142;;x
-230;0;51;15;;x
-231;42;54;143;;x
-232;84;57;16;;x
-233;126;60;144;;x
-234;168;63;17;;x
-235;0;66;145;;x
-236;42;69;18;;x
-237;84;72;146;;x
-238;126;75;19;;x
-239;168;78;147;;x
-240;0;81;20;;x
-241;42;84;148;;x
-242;84;87;21;;x
-243;126;138;49;;x
-244;168;93;22;;x
-245;0;96;150;;x
-246;42;99;23;;x
-247;84;102;151;;x
-248;126;105;24;;x
-249;168;108;152;;x
-250;0;111;25;;x
-251;42;114;153;;x
-252;84;117;26;;x
-253;126;120;154;;x
-254;168;123;27;;x
-255;0;126;155;;x
-256;42;129;28;;x
-257;84;132;156;;x
-258;126;135;29;;x
-259;168;138;157;;x
-260;0;141;30;;x
-261;42;144;158;;x
-262;84;147;31;;x
-263;126;150;159;;x
-264;168;153;32;;x
-265;0;156;160;;x
-266;42;159;33;;x
-267;84;162;161;;x
-268;126;165;34;;x
-269;168;168;162;;x
-270;0;171;35;;x
-271;42;174;163;;x
-272;84;177;36;;x
-273;126;180;164;;x
-274;168;183;37;;x
-275;0;186;165;;x
-276;42;189;38;;x
-277;84;192;166;;x
-278;126;195;39;;x
-279;168;198;167;;x
-280;0;201;40;;x
-281;42;204;168;;x
-282;84;207;41;;x
-283;126;210;169;;x
-284;168;0;42;;x
-285;0;3;170;;x
-286;42;6;43;;x
-287;84;9;171;;x
-288;126;12;44;;x
-289;168;15;172;;x
-290;0;18;45;;x
-291;42;21;173;;x
-292;84;24;46;;x
-293;126;27;174;;x
-294;168;30;47;;x
-295;0;33;175;;x
-296;42;36;48;;x
-297;84;39;176;;x
-298;126;42;49;;x
-299;43;81;138;;x
-300;0;48;50;;x
-301;42;51;178;;x
-302;84;54;51;;x
-303;126;57;179;;x
-304;168;60;52;;x
-305;0;63;180;;x
-306;42;66;53;;x
-307;84;69;181;;x
-308;126;72;54;;x
-309;168;75;182;;x
-310;0;78;55;;x
-311;42;81;183;;x
-312;84;84;56;;x
-313;126;87;184;;x
-314;168;90;57;;x
-315;0;93;185;;x
-316;42;96;58;;x
-317;84;99;186;;x
-318;126;102;59;;x
-319;168;105;187;;x
-320;0;108;60;;x
-321;42;111;188;;x
-322;84;114;61;;x
-323;126;117;189;;x
-324;168;120;62;;x
-325;0;123;190;;x
-326;42;126;63;;x
-327;84;129;191;;x
-328;126;132;64;;x
-329;168;135;192;;x
-330;0;138;65;;x
-331;42;141;193;;x
-332;84;144;66;;x
-333;126;147;194;;x
-334;168;150;67;;x
-335;0;153;195;;x
-336;42;156;68;;x
-337;84;159;196;;x
-338;126;162;69;;x
-339;168;165;197;;x
-340;0;168;70;;x
-341;42;171;198;;x
-342;84;174;71;;x
-343;126;177;199;;x
-344;168;180;72;;x
-345;0;183;200;;x
-346;42;186;73;;x
-347;84;189;201;;x
-348;126;192;74;;x
-349;168;195;202;;x
-350;0;198;75;;x
-351;42;201;203;;x
-352;84;204;76;;x
-353;126;207;204;;x
-354;168;210;77;;x
-355;0;0;205;;x
-356;42;3;78;;x
-357;84;6;206;;x
-358;126;9;79;;x
-359;168;12;207;;x
-360;0;15;80;;x
-361;42;18;208;;x
-362;84;21;81;;x
-363;126;24;209;;x
-364;168;27;82;;x
-365;0;30;210;;x
-366;42;33;83;;x
-367;84;36;211;;x
-368;126;39;84;;x
-369;168;42;212;;x
-370;0;45;85;;x
-371;42;48;213;;x
-372;84;51;86;;x
-373;126;54;214;;x
-374;168;57;87;;x
-375;0;60;215;;x
-376;42;63;88;;x
-377;84;66;216;;x
-378;126;69;89;;x
-379;168;72;217;;x
-380;0;75;90;;x
-381;42;78;218;;x
-382;84;81;91;;x
-383;126;84;219;;x
-384;168;87;92;;x
-385;0;90;220;;x
-386;42;93;93;;x
-387;84;96;221;;x
-388;126;99;94;;x
-389;168;102;222;;x
-390;0;105;95;;x
-391;42;108;223;;x
-392;84;111;96;;x
-393;126;114;224;;x
-394;168;117;97;;x
-395;0;120;225;;x
-396;42;123;98;;x
-397;84;126;226;;x
-398;126;129;99;;x
-399;168;132;227;;x
-400;0;135;0;;x
-401;42;138;128;;x
-402;84;141;1;;x
-403;126;144;129;;x
-404;168;147;2;;x
-405;0;150;130;;x
-406;42;153;3;;x
-407;84;156;131;;x
-408;126;159;4;;x
-409;168;162;132;;x
-410;0;165;5;;x
-411;42;168;133;;x
-412;84;171;6;;x
-413;126;174;134;;x
-414;168;177;7;;x
-415;0;180;135;;x
-416;42;183;8;;x
-417;84;186;136;;x
-418;126;189;9;;x
-419;168;192;137;;x
-420;0;195;10;;x
-421;42;198;138;;x
-422;84;201;11;;x
-423;126;204;139;;x
-424;168;207;12;;x
-425;0;210;140;;x
-426;42;0;13;;x
-427;84;3;141;;x
-428;126;6;14;;x
-429;168;9;142;;x
-430;0;12;15;;x
-431;42;15;143;;x
-432;84;18;16;;x
-433;42;87;63;;x
-434;168;24;17;;x
-435;0;27;145;;x
-436;42;30;18;;x
-437;84;33;146;;x
-438;126;36;19;;x
-439;168;39;147;;x
-440;0;42;20;;x
-441;42;45;148;;x
-442;84;48;21;;x
-443;126;51;149;;x
-444;168;54;22;;x
-445;0;57;150;;x
-446;42;60;23;;x
-447;84;63;151;;x
-448;126;66;24;;x
-449;168;69;152;;x
-450;0;72;25;;x
-451;42;75;153;;x
-452;84;78;26;;x
-453;126;81;154;;x
-454;168;84;27;;x
-455;0;87;155;;x
-456;42;90;28;;x
-457;84;93;156;;x
-458;126;96;29;;x
-459;168;99;157;;x
-460;0;102;30;;x
-461;42;105;158;;x
-462;84;108;31;;x
-463;126;111;159;;x
-464;168;114;32;;x
-465;0;117;160;;x
-466;42;120;33;;x
-467;84;123;161;;x
-468;126;126;34;;x
-469;168;129;162;;x
-470;0;132;35;;x
-471;42;135;163;;x
-472;84;138;36;;x
-473;126;141;164;;x
-474;168;144;37;;x
-475;0;147;165;;x
-476;42;150;38;;x
-477;84;153;166;;x
-478;126;156;39;;x
-479;168;159;167;;x
-480;0;162;40;;x
-481;42;165;168;;x
-482;84;168;41;;x
-483;126;171;169;;x
-484;168;174;42;;x
-485;0;177;170;;x
-486;42;180;43;;x
-487;84;183;171;;x
-488;126;186;44;;x
-489;168;189;172;;x
-490;0;192;45;;x
-491;42;195;173;;x
-492;84;198;46;;x
-493;126;201;174;;x
-494;168;204;47;;x
-495;0;207;175;;x
-496;42;210;48;;x
-497;84;0;176;;x
-498;126;3;49;;x
-499;168;6;177;;x
-500;0;9;50;;x
-501;42;12;178;;x
-502;84;15;51;;x
-503;126;18;179;;x
-504;168;21;52;;x
-505;0;24;180;;x
-506;42;27;53;;x
-507;84;30;181;;x
-508;126;33;54;;x
-509;168;36;182;;x
-510;0;39;55;;x
-511;42;42;183;;x
-512;84;45;56;;x
-513;126;48;184;;x
-514;168;51;57;;x
-515;0;54;185;;x
-516;42;57;58;;x
-517;84;60;186;;x
-518;126;63;59;;x
-519;168;66;187;;x
-520;0;69;60;;x
-521;42;72;188;;x
-522;84;75;61;;x
-523;126;78;189;;x
-524;168;81;62;;x
-525;0;84;190;;x
-526;126;21;144;;x
-527;84;90;191;;x
-528;126;93;64;;x
-529;168;96;192;;x
-530;0;99;65;;x
-531;42;102;193;;x
-532;84;105;66;;x
-533;126;108;194;;x
-534;168;111;67;;x
-535;0;114;195;;x
-536;42;117;68;;x
-537;84;120;196;;x
-538;126;123;69;;x
-539;168;126;197;;x
-540;0;129;70;;x
-541;42;132;198;;x
-542;84;135;71;;x
-543;126;138;199;;x
-544;168;141;72;;x
-545;0;144;200;;x
-546;42;147;73;;x
-547;84;150;201;;x
-548;126;153;74;;x
-549;168;156;202;;x
-550;0;159;75;;x
-551;42;162;203;;x
-552;84;165;76;;x
-553;126;168;204;;x
-554;168;171;77;;x
-555;0;174;205;;x
-556;42;177;78;;x
-557;84;180;206;;x
-558;126;183;79;;x
-559;168;186;207;;x
-560;0;189;80;;x
-561;42;192;208;;x
-562;84;195;81;;x
-563;126;198;209;;x
-564;168;201;82;;x
-565;0;204;210;;x
-566;42;207;83;;x
-567;84;210;211;;x
-568;126;0;84;;x
-569;168;3;212;;x
-570;0;6;85;;x
-571;42;9;213;;x
-572;84;12;86;;x
-573;126;15;214;;x
-574;168;18;87;;x
-575;0;21;215;;x
-576;42;24;88;;x
-577;84;27;216;;x
-578;126;30;89;;x
-579;168;33;217;;x
-580;0;36;90;;x
-581;42;39;218;;x
-582;84;42;91;;x
-583;126;45;219;;x
-584;168;48;92;;x
-585;0;51;220;;x
-586;42;54;93;;x
-587;84;57;221;;x
-588;126;60;94;;x
-589;168;63;222;;x
-590;0;66;95;;x
-591;42;69;223;;x
-592;84;72;96;;x
-593;126;75;224;;x
-594;168;78;97;;x
-595;0;81;225;;x
-596;42;84;98;;x
-597;84;87;226;;x
-598;126;90;99;;x
-599;168;93;227;;x
-600;0;96;0;;x
-601;42;99;128;;x
-602;84;102;1;;x
-603;126;105;129;;x
-604;168;108;2;;x
-605;0;111;130;;x
-606;42;114;3;;x
-607;84;117;131;;x
-608;126;120;4;;x
-609;168;123;132;;x
-610;0;126;5;;x
-611;42;129;133;;x
-612;84;132;6;;x
-613;126;135;134;;x
-614;168;138;7;;x
-615;0;141;135;;x
-616;42;144;8;;x
-617;84;147;136;;x
-618;126;150;9;;x
-619;168;153;137;;x
-620;0;156;10;;x
-621;42;159;138;;x
-622;84;162;11;;x
-623;126;165;139;;x
-624;168;168;12;;x
-625;0;171;140;;x
-626;42;174;13;;x
-627;84;177;141;;x
-628;126;180;14;;x
-629;168;183;142;;x
-630;0;186;15;;x
-631;42;189;143;;x
-632;84;192;16;;x
-633;126;195;144;;x
-634;168;198;17;;x
-635;0;201;145;;x
-636;42;204;18;;x
-637;84;207;146;;x
-638;126;210;19;;x
-639;168;0;147;;x
-640;0;3;20;;x
-641;42;6;148;;x
-642;84;9;21;;x
-643;126;12;149;;x
-644;168;15;22;;x
-645;0;18;150;;x
-646;42;21;23;;x
-647;84;24;151;;x
-648;126;27;24;;x
-649;168;30;152;;x
-650;0;33;25;;x
-651;42;36;153;;x
-652;84;39;26;;x
-653;126;42;154;;x
-654;168;45;27;;x
-655;0;48;155;;x
-656;42;51;28;;x
-657;84;54;156;;x
-658;126;57;29;;x
-659;168;60;157;;x
-660;0;63;30;;x
-661;42;66;158;;x
-662;84;69;31;;x
-663;126;72;159;;x
-664;168;75;32;;x
-665;0;78;160;;x
-666;42;81;33;;x
-667;84;84;161;;x
-668;126;87;34;;x
-669;168;90;162;;x
-670;0;93;35;;x
-671;42;96;163;;x
-672;84;99;36;;x
+153;126;33;204;Kimchi;x#si13 
+154;168;36;77;Banro;x#si13
+155;0;39;205;Daemashi;x#si13
+156;42;42;78;Hotho;x#ld11
+157;84;45;206;Kangso;x#ld11
+158;126;48;79;Huomen;x#ld11
+159;168;51;207;Makare;x#ld11
+160;0;54;80;Yitara;x#ld11
+161;42;57;208;Hakumul;x#ld11
+162;84;60;81;Makanlataka;x#ld11
+163;126;63;209;Durufen;x#ld11
+164;168;66;82;Sisashan;x#ld11
+165;0;69;210;Quruman;x#ld11
+166;42;72;83;Shamen;x#hanman end#ld11
+167;84;75;211;Dodomai;x#gamelon#d
+168;126;78;84;Reesong;x#
+169;168;81;212;Ahitaru;x#
+170;0;84;85;Kobitan;x#
+171;42;87;213;Aru Ainu;x#
+172;84;90;86;Shutoy;x#
+173;126;93;214;Sakado;x#
+174;168;96;87;Nokani;x#
+175;0;99;215;Tykogi;x#gamelon end#
+176;42;102;88;Port Town;x#port isles
+177;84;105;216;Hometown Prarie;x
+178;126;108;89;Deku Island;x
+179;168;111;217;Lon Lon Island;x
+180;0;114;90;Sunshine Seashore;x
+181;42;117;218;Cape Treasure;x
+182;84;120;91;Tingle Island;x
+183;126;123;219;Step Island;x #port isles end
+184;168;126;92;North Maze Island;x #kasuto
+185;0;129;220;Maze Palace;x
+186;42;132;93;South Maze Island;x
+187;84;135;221;Kasuto Palace;x
+188;126;138;94;Kasuto;x
+189;168;141;222;Hidden Valley;x
+190;0;144;95;Three Eye Rock;x
+191;42;147;223;Hyron Island;x
+192;84;150;96;Nabooru;x
+193;126;153;224;Darunia;x #kasuto end
+194;168;156;97;Bridge Forest;x #kasuto 
+195;0;159;225;Palace Island;x
+196;42;162;98;Saria;x
+197;84;165;226;Navi;x
+198;126;168;99;Morgue;x
+199;168;171;227;Graveyard Vale;x
+200;0;174;0;Mido;x
+201;42;177;128;Parapa;x
+202;84;180;1;Midoro;x
+203;126;183;129;Rauru;x
+204;168;186;2;Tantari;x
+205;0;189;130;Ruto;x
+206;42;192;3;North Palace;x
+207;84;195;131;Impa;x #saria end
+208;126;198;4;Eldin Death Mountain;x #eldin
+209;168;201;132;Eldin Spectacle Rock;x
+210;0;204;5;Eldin Cemetary;x
+211;42;207;133;Eldin Lost Forest;x
+212;84;210;6;Miff;x
+213;126;0;134;Spryte;x
+214;168;3;7;Oberon;x
+215;0;6;135;Moblinia;x #eldin end
+216;42;9;8;Kanalet;x #koholinter
+217;84;12;136;Yarna;x
+218;126;15;9;Tal Tal Heights;x
+219;168;18;137;Ukuku;x
+220;0;21;10;Toronbo;x
+221;42;24;138;Mabe;x
+222;84;27;11;Goponga;x
+223;126;30;139;Tal Tal Mountains;x #koholinter end
+224;168;33;12;Sea Island;x #tolemac
+225;0;36;140;Andor;x
+226;42;39;13;Ogbam;x
+227;84;42;141;Seacoast Plain;x
+228;126;45;14;Skotness;x
+229;168;48;142;Vendoss;x
+230;0;51;15;Hobel;x
+231;42;54;143;Subasha;x
+232;84;57;16;North Subasha;x
+233;126;60;144;Ensilon;x
+234;168;63;17;Ubato;x
+235;0;66;145;Torian;x
+236;42;69;18;Canvula;x
+237;84;72;146;Findo;x
+238;126;75;19;Larrocthest;x
+239;168;78;147;Glonna;x
+240;0;81;20;Armarob;x
+241;42;84;148;Triplet Coast;x
+242;84;87;21;Tolemac;x
+243;126;138;49;Nolava;x
+244;168;93;22;Legatnit;x
+245;0;96;150;Talotsa;x
+246;42;99;23;Noelreac;x #Tolemac end
+247;84;102;151;Arcadia;x #arcadia#
+248;126;105;24;Pausania;x
+249;168;108;152;Lyonia;x
+250;0;111;25;Xenonia;x #
+251;42;114;153;Lykaia;x
+252;84;117;26;Wosuia;x #
+253;126;120;154;Ardennia;x
+254;168;123;27;Hippodria;x
+255;0;126;155;Rolandia;x
+256;42;129;28;Parnonia;x
+257;84;132;156;Silvania;x
+258;126;135;29;Marcania;x
+259;168;138;157;Achenia;x
+260;0;141;30;Joyeusia;x
+261;42;144;158;Durendalia;x
+262;84;147;31;Curtania;x
+263;126;150;159;Facadia;x
+264;168;153;32;Polia;x
+265;0;156;160;Acacesia;x
+266;42;159;33;Odyssia;x
+267;84;162;161;Doricia;x
+268;126;165;34;Stoicia;x
+269;168;168;162;Tyria;x
+270;0;171;35;Tegia;x
+271;42;174;163;Batteria;x
+272;84;177;36;Megaria;x
+273;126;180;164;Aroania;x
+274;168;183;37;Agamemnia;x
+275;0;186;165;Peloponnia;x
+276;42;189;38;Argolia;x
+277;84;192;166;Daigonia;x
+278;126;195;39;Ladonia;x
+279;168;198;167;Capetia;x
+280;0;201;40;Clovia;x
+281;42;204;168;Syagria;x
+282;84;207;41;Merovia;x
+283;126;210;169;Valoia;x
+284;168;0;42;Louia;x
+285;0;3;170;Aegidia;x #arcadia end
+286;42;6;43;Lyanna;x #labrynna 
+287;84;9;171;North Crescent Island;x
+288;126;12;44;Central Crescent Island;x
+289;168;15;172;South Crescent Island;x
+290;0;18;45;Tokay Island;x
+291;42;21;173;Storm Island;x
+292;84;24;46;Grotto Island;x
+293;126;27;174;Moonlight Island;x
+294;168;30;47;Zora Cove;x
+295;0;33;175;Gale Island;x
+296;42;36;48;Sand Island;x
+297;84;39;176;Palm Island;x
+298;126;42;49;Eyeglass Island;x
+299;43;81;138;Zora Isles;x
+300;0;48;50;Treasure Islands;x
+301;42;51;178;Fairy Island;x
+302;84;54;51;Mystery Woods;x
+303;126;57;179;Fairy Woods;x
+304;168;60;52;Deku Grove;x
+305;0;63;180;Wing Woods;x
+306;42;66;53;Black Tower;x
+307;84;69;181;Tower Shore;x
+308;126;72;54;South Shore;x
+309;168;75;182;South Lynna;x
+310;0;78;55;Sea of No Return;x
+311;42;81;183;Forest of Time;x
+312;84;84;56;Yoll;x
+313;126;87;184;Spirit Coast;x
+314;168;90;57;Poevale;x
+315;0;93;185;Witchwoods;x
+316;42;96;58;Rolling Ridge;x
+317;84;99;186;Maku Grove;x
+318;126;102;59;Mermaids Cave;x
+319;168;105;187;Cart Mines;x
+320;0;108;60;Crown Caverns;x
+321;42;111;188;Moblin Keep;x
+322;84;114;61;Nuun Highlands;x
+323;126;117;189;Nuun Mountains;x
+324;168;120;62;Talus Ridge;x
+325;0;123;190;Restoration Peak;x
+326;42;126;63;Symmetry;x
+327;84;129;191;Skull Mountains;x
+328;126;132;64;Talus Peaks;x
+329;168;135;192;Nuun;x
+330;0;138;65;West Lynna;x
+331;42;141;193;Labrynna Palace;x #labrynna end
+332;84;144;66;East Samasa;x #holodrum start #continue
+333;126;147;194;Samasa Gate;x
+334;168;150;67;Samasa;x
+335;0;153;195;Samasa Pyramids;x
+336;42;156;68;Samasa Shores;x
+337;84;159;196;Pokey Plateau;x
+338;126;162;69;Samasa Oasis;x
+339;168;165;197;Shipwreck Beach;x
+340;0;168;70;West Samasa;x
+341;42;171;198;East Horon;x
+342;84;174;71;Horon;x
+343;126;177;199;Horon Field;x
+344;168;180;72;Moldorm Island;x
+345;0;183;200;Maku Woods;x
+346;42;186;73;Pupil Islands;x
+347;84;189;201;Gasha Woods;x
+348;126;192;74;Snake Woods;x
+349;168;195;202;Holly Woods;x
+350;0;198;75;Moblin Tower;x
+351;42;201;203;Unicorn Field;x
+352;84;204;76;Natzu;x
+353;126;207;204;North Horon;x
+354;168;210;77;Gnarled Root Island;x
+355;0;0;205;River Island;x
+356;42;3;78;Holodrum;x
+357;84;6;206;Mount Cucco;x
+358;126;9;79;Cucco Vale;x
+359;168;12;207;Gates of Subrosia;x
+360;0;15;80;Goron Mountain;x
+361;42;18;208;Ore Mines;x
+362;84;21;81;Temple Mountain;x
+363;126;24;209;Northern Peak;x
+364;168;27;82;Fungus Woods;x
+365;0;30;210;Holodrum Plain;x
+366;42;33;83;Western Coast;x
+367;84;36;211;Holodrum Docks;x
+368;126;39;84;Geozard Bay;x
+369;168;42;212;Spool Fields;x
+370;0;45;85;Spool Swamp;x
+371;42;48;213;Tarm;x
+372;84;51;86;Tarm Field;x
+373;126;54;214;Pirate Island;x
+374;168;57;87;Jungle of Happiness;x
+375;0;60;215;Ape Forest;x
+376;42;63;88;Jungle City;x
+377;84;66;216;Tarm Rainforest;x #holodrum end
+378;126;69;89;Steamy Marsh;x #western isles
+379;168;72;217;Kamonano;x
+380;0;75;90;Hiveville;x
+381;42;78;218;Gooey Swamp;x
+382;84;81;91;Insect Cavern;x
+383;126;84;219;Basecamp;x
+384;168;87;92;Codile Cove;x
+385;0;90;220;Icy Plain;x
+386;42;93;93;Icy Peak;x
+387;84;96;221;Snowfield;x #western isles end
+388;126;99;94;Auros;x #auros
+389;168;102;222;Fairy Garden;x
+390;0;105;95;Yamatami;x
+391;42;108;223;Desma;x #auros end
+392;84;111;96;Swamp Palace;x #grand hyrule
+393;126;114;224;Hyrule Swamp;x
+394;168;117;97;Swamp Canyon;x
+395;0;120;225;Great Swamp;x
+396;42;123;98;Sandy Marshes;x
+397;84;126;226;Misery Mire;x
+398;126;129;99;Toppo Bogs;x
+399;168;132;227;Gohma Mire;x
+400;0;135;0;Gohmanest;x
+401;42;138;128;Sinking Swamp;x
+402;84;141;1;Turongo Wetlands;x
+403;126;144;129;Turongo;x
+404;168;147;2;Saltmarsh;x
+405;0;150;130;Morango;x
+406;42;153;3;Reed Hills;x
+407;84;156;131;Hylia Bog;x
+408;126;159;4;Portville;x
+409;168;162;132;River Temple;x
+410;0;165;5;Village of the Blue Maiden;x
+411;42;168;133;Cave of No Return;x
+412;84;171;6;Guild Road;x
+413;126;174;134;Ice Cave;x
+414;168;177;7;Gale Isle;x
+415;0;180;135;Hylia Bay;x
+416;42;183;8;Isle of Happiness;x
+417;84;186;136;Zora Mouth;x
+418;126;189;9;Pinnacle Pier;x
+419;168;192;137;Cave Roads;x
+420;0;195;10;Desert of Mystery;x
+421;42;198;138;Desert Palace;x
+422;84;201;11;Oasis Pass;x
+423;126;204;139;Mudora;x
+424;168;207;12;Soldier Fields;x
+425;0;210;140;Haunted Grove;x
+426;42;0;13;Cucco Ranch;x
+427;84;3;141;Little Kakariko;x
+428;126;6;14;Blacksmith Fields;x
+429;168;9;142;Northern Fields;x
+430;0;12;15;Miner Pass;x
+431;42;15;143;Sanctuary;x
+432;84;18;16;Eastern Plains;x
+433;42;87;63;Eastern Hills;x
+434;168;24;17;Eastern Palace;x
+435;0;27;145;Zora Valley;x
+436;42;30;18;Waterfall Domain;x
+437;84;33;146;Temple of Darkness;x
+438;126;36;19;Tower of Flames;x
+439;168;39;147;Mountain Paths;x
+440;0;42;20;Zora Caverns;x
+441;42;45;148;Hera Ore Mines;x
+442;84;48;21;Mountain Plateau;x
+443;126;51;149;Hera;x
+444;168;54;22;Southern Death Mountain;x
+445;0;57;150;Eastern Tower;x
+446;42;60;23;Goriya Keep;x
+447;84;63;151;Lynel Labyrinth;x
+448;126;66;24;Eastern Pass;x #grand hyrule
+449;168;69;152;Hylia Lakeside;x #sacred grove
+450;0;72;25;Bridge Island;x
+451;42;75;153;Sun Island;x
+452;84;78;26;Water Temple;x
+453;126;81;154;Lon Lon Hill;x
+454;168;84;27;Gerudo Gate;x
+455;0;87;155;Southwest Hyrule Field;x
+456;42;90;28;South Hyrule Field;x
+457;84;93;156;West Hyrule Field;x
+458;126;96;29;South East Hyrule Field;x
+459;168;99;157;East Hyrule Field;x
+460;0;102;30;North Hyrule Field;x
+461;42;105;158;Central Hyrule Field;x
+462;84;108;31;Kakariko;x
+463;126;111;159;Shadow Temple;x
+464;168;114;32;Mountain Gate;x
+465;0;117;160;Dodongo Cavern;x
+466;42;120;33;Goron City;x
+467;84;123;161;Death Mountain Trail;x
+468;126;126;34;Death Mountain;x
+469;168;129;162;Chasm Pass;x
+470;0;132;35;Fire Temple;x
+471;42;135;163;Ancient Tunnels;x #sacred grove 
+472;84;138;36;Zora Fountain;x  #zora domain
+473;126;141;164;Ice Caverns;x
+474;168;144;37;Zoras Domain;x
+475;0;147;165;Sleepless Waterfalls;x
+476;42;150;38;Frog Marsh;x
+477;84;153;166;Zoras River;x #zora domain
+478;126;156;39;Castle Town Gate;x #sacred grove cont
+479;168;159;167;West Castle Town;x
+480;0;162;40;East Castle Town;x
+481;42;165;168;Central Castle Town;x
+482;84;168;41;Temple of Time;x
+483;126;171;169;Castle Road;x
+484;168;174;42;Hyrule Castle;x
+485;0;177;170;Sacred Grove;x #sacred grove
+486;42;180;43;Gerudo Valley;x #gerudo
+487;84;183;171;Gerudo Fortress;x
+488;126;186;44;Desert of Winds;x
+489;168;189;172;Hidden Fortress;x
+490;0;192;45;Haunted Wasteland;x
+491;42;195;173;Desert Colossus;x
+492;84;198;46;Lake Hylia;x
+493;126;201;174;Spirit Desert;x
+494;168;204;47;Desert Valley;x
+495;0;207;175;Mirror Sands;x
+496;42;210;48;Gerudo Dunes;x
+497;84;0;176;Cliff Cities;x
+498;126;3;49;Spirit Gates;x
+499;168;6;177;Forgotten City;x#
+500;0;9;50;Gerudo Mesa;x
+501;42;12;178;Gerudo Sands;x
+502;84;15;51;Dayfly Desert;x
+503;126;18;179;Watchtower Waste;x
+504;168;21;52;Leever Waste;x
+505;0;24;180;Lake Cliffs;x
+506;42;27;53;Gerudo Desert;x
+507;84;30;181;Gerudo Mountain;x
+508;126;33;54;Desert Stockades;x
+509;168;36;182;Arbiters Grounds;x
+510;0;39;55;Mirror Valley;x
+511;42;42;183;Gerudo River;x #gerudo end
+512;84;45;56;Faron Canyon;x #hyrule
+513;126;48;184;Great Faron Tree;x
+514;168;51;57;Faron Swamp;x
+515;0;54;185;Faron Spring;x
+516;42;57;58;Faron Bridge;x
+517;84;60;186;Faron Grove;x
+518;126;63;59;Faron Woods;x
+519;168;66;187;Faron Basin;x
+520;0;69;60;South Hylia Bridge;x
+521;42;72;188;Keaton Stockades;x
+522;84;75;61;South Faron Forest;x
+523;126;78;189;Central Faron Forest;x
+524;168;81;62;North Faron Forest;x
+525;0;84;190;East Faron Field;x
+526;126;21;144;South Faron Field;x
+527;84;90;191;West Faron Field;x
+528;126;93;64;North Faron Field;x
+529;168;96;192;New Kakariko;x
+530;0;99;65;Eldin Spring;x
+531;42;102;193;Kakariko Graveyard;x
+532;84;105;66;Kakariko Pass;x
+533;126;108;194;Southeast Eldin Field;x
+534;168;111;67;Kakariko Gorge;x
+535;0;114;195;Southwest Eldin Field;x
+536;42;117;68;Central Eldin Field;x
+537;84;120;196;Northwest Eldin Field;x
+538;126;123;69;South Eldin Bridge;x
+539;168;126;197;Northeast Eldin Field;x #hyrule disc
+540;0;129;70;Great Death Mountain;x #death mountain
+541;42;132;198;Goron Mines;x
+542;84;135;71;Goron Road;x
+543;126;138;199;Hot Springs Mountain;x
+544;168;141;72;Goron Canyon;x
+545;0;144;200;Bombchu Mountain;x #death mountain end
+546;42;147;73;North Eldin Bridge;x
+547;84;150;201;Hidden Village;x
+548;126;153;74;Eldin Foothills;x
+549;168;156;202;North Eldin Plateau;x
+550;0;159;75;South Gate;x
+551;42;162;203;South Castle;x
+552;84;165;76;West Castle;x
+553;126;168;204;Central Castle;x
+554;168;171;77;East Castle;x
+555;0;174;205;East Gate;x
+556;42;177;78;West Gate;x
+557;84;180;206;Amphitheater Field;x
+558;126;183;79;Castle Gate;x
+559;168;186;207;North Hyrule Castle;x
+560;0;189;80;Chasm Road;x
+561;42;192;208;Lanayru Hills;x
+562;84;195;81;East Lanayru Field;x
+563;126;198;209;North Lanayru Field;x
+564;168;201;82;West Lanayru Field;x
+565;0;204;210;South Lanayru Field;x
+566;42;207;83;North Hylia Bridge;x
+567;84;210;211;Zora Spring;x#zora
+568;126;0;84;North Zoras Domain;x
+569;168;3;212;Zora Falls;x
+570;0;6;85;Frozen Caves;x
+571;42;9;213;Upper Zoras River;x
+572;84;12;86;Zora Rapids;x#zora
+573;126;15;214;Frozen Lake;x
+574;168;18;87;Snowpeak Ascent;x
+575;0;21;215;Snowpeak Top;x
+576;42;24;88;Snowpeak Watchtower;x
+577;84;27;216;Snowpeak Slopes;x
+578;126;30;89;Ice Cliffs;x
+579;168;33;217;Snowpeak Manor;x
+580;0;36;90;Mountain Village;x
+581;42;39;218;Yeti Peaks;x
+582;84;42;91;Yeti Mountain;x#
+583;126;45;219;Ordon Spring;x
+584;168;48;92;Ordon Woods;x
+585;0;51;220;Eaves of Ordon;x
+586;42;54;93;North Ordon Forest;x
+587;84;57;221;Ordon Groves;x
+588;126;60;94;South Ordon Forest;x #
+589;168;63;222;Ordon;x
+590;0;66;95;Ordon Ranch;x
+591;42;69;223;Ordon Plains;x
+592;84;72;96;Ordon Wedge;x
+593;126;75;224;Loggervale;x
+594;168;78;97;South Ordon Field;x
+595;0;81;225;East Ordon Field;x
+596;42;84;98;West Ordon Field;x
+597;84;87;226;North Ordon Field;x
+598;126;90;99;Laketown;x #
+599;168;93;227;Fords of Ordonia;x
+600;0;96;0;Wooddell;x
+601;42;99;128;Rivertown;x
+602;84;102;1;Ordonia Gap;x
+603;126;105;129;Ordonia;x
+604;168;108;2;South Ordonia Plateau;x
+605;0;111;130;East Ordonia Plateau;x
+606;42;114;3;Great Ordonia Plateau;x
+607;84;117;131;North Ordonia Plateau;x
+608;126;120;4;West Ordonia Plateau;x
+609;168;123;132;Sea of Sand;x546;42;147;73;;x
+610;0;126;5;Mount Crenel;x#minish start#c10
+611;42;129;133;Crenel Base;x#c10
+612;84;132;6;North Castor Wilds;x#c10
+613;126;135;134;South Castor Wilds;x#c10
+614;168;138;7;Wind City;x#c10
+615;0;141;135;Fortress of Winds;x#c10
+616;42;144;8;Tower of Winds;x#c10
+617;84;147;136;Palace of Winds;x#c10
+618;126;150;9;Central Castor Wilds;x#c10
+619;168;153;137;Royal Valley;x#rv7
+620;0;156;10;Trilby Highlands;x#rv7
+621;42;159;138;Western Wood;x#rv7
+622;84;162;11;North Minish Field;x#rv7
+623;126;165;139;Minish Hyrule Castle;x#rv7
+624;168;168;12;North Royal Road;x#rv7
+625;0;171;140;Veil Falls;x#mm
+626;42;174;13;Veil Mountain;x#mm
+627;84;177;141;Royal Crypt;x#rv7
+628;126;180;14;Lakeside Retreat;x
+629;168;183;142;Hylia Treehouses;x
+630;0;186;15;Lon Lon Field;x#mf10
+631;42;189;143;Minish Town;x#mf10
+632;84;192;16;Eastern Hills;x#mf10
+633;126;195;144;Minish Mines;x #cw10
+634;168;198;17;Smith Field;x#mf10
+635;0;201;145;South Minish Field;x#mf10
+636;42;204;18;West Wind Bridge;x#mf10
+637;84;207;146;Keatonia;x#mm
+638;126;210;19;East Wind Bridge;x#mf10
+639;168;0;147;North Minish Plains;x#mf10
+640;0;3;20;Central Minish Plains;x#mf10
+641;42;6;148;East Minish Plains;x#mf10
+642;84;9;21;South Minish Plains;x#mf10
+643;126;12;149;West Minish Plains;x#mf10
+644;168;15;22;Port Minish;x#ms7
+645;0;18;150;Jewel Mines;x#mm
+646;42;21;23;Earth Temple;x#mm
+647;84;24;151;Acacia Island;x#ms7
+648;126;27;24;North Acacia Savannah;x#ms7
+649;168;30;152;East Acacia Savannah;x#ms7
+650;0;33;25;South Acacia Savannah;x#ms7
+651;42;36;153;West Acacia Savannah;x#ms7
+652;84;39;26;Acacia Point;x#minish end#ms7
+653;126;42;154;Mount Hylia;x
+654;168;45;27;Forest Temple;x
+655;0;48;155;Sacred Forest Meadow;x
+656;42;51;28;Forest Stage;x
+657;84;54;156;Forest Gate;x
+658;126;57;29;Kokiri Lost Woods;x
+659;168;60;157;Kokiri;x
+660;0;63;30;Great Deku Tree Grove;x
+661;42;66;158;Forest Shrine;x
+662;84;69;31;West Kokiri Forest;x
+663;126;72;159;South Kokiri Forest;x
+664;168;75;32;East Kokiri Forest;x
+665;0;78;160;Hylia Swamp;x
+666;42;81;33;Minish Woods;x
+667;84;84;161;Minish Groves;x
+668;126;87;34;East Hylia Woods;x
+669;168;90;162;West Hylia Woods;x
+670;0;93;35;Thief Woods;x
+671;42;96;163;Lost Woods;x
+672;84;99;36;Sword Woods;x
 673;126;102;164;;x
 674;168;105;37;;x
 675;0;108;165;;x
