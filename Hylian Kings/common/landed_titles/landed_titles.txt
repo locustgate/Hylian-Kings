@@ -70,28 +70,279 @@ e_hyrule_central = {
 	k_sacred_grove = {
 		color={ 145 196 251 }
 		color2={ 255 255 255 }
-		capital = 32 # Middlesex
+		capital = 484 # Hyrule Castle
 		dignity = 50 # Counted as having this many more counties than it does
-		skylofter = Grooseland
+
 		allow = {
-		hidden_tooltip = {
-			OR = {
-				ai = no
-				culture = hyrule
-				}
-			}
+			culture = hyrulean
 		}
+		skylofter = Grooseland
 		hyrulean = Hyrule
+		#late_hyrulean = Holy Hyrule
 	
 		d_royal_woods = {
+			color={ 238 116 238 }
+			color2={ 255 223 0 }
+			capital = 484 # Hyrule Castle
+			c_mount_hylia = {
+				color={ 148 0 211 }
+				color2={ 255 255 255 }
+				
+				b_hylia_retreat = {}
+				b_mountain_town = {}
+				b_hylia_point = {}
+			}
+			c_castle_town_gate = {
+				color={ 145 196 251 }
+				color2={ 255 255 255 }
+				
+				b_great_gate = {}
+				b_gate_guard_house = {}
+				b_guards_temple = {}
+				b_southern_castle_town = {}
+				b_southern_back_alley = {}
+				b_guard_district = {}
+				b_knights_castle = {}
+			}
+			c_west_castle_town = {
+				color = { 0 238 0 }
+				color2 = { 250 250 210}	
+				
+				b_west_castle_town = {}
+				b_west_guard_house = {}
+				b_farore = {}
+				b_market_gate = {}
+				b_merchant_district = {}
+				b_manor_district
+				b_west_back_alley = {}
+			}
+			c_east_castle_town = {
+				color = { 255 0 0 }
+				color2 = { 250 250 210}				
+			
+				b_castle_town_slums = {}
+				b_east_guard_house = {}
+				b_din = {}
+				b_thieves_alley = {}
+				b_slum_gate = {}
+				b_temple_slums = {}
+				b_east_back_alley = {}
+			}
+			c_central_castle_town = {
+				color = { 0 0 255 }
+				color2 = { 0 0 0 }	
+				
+				b_market_town = {}
+				b_castle_town_north_gate = {}
+				b_naryu = {}
+				b_central_guard_house = {}
+				b_central_castle_town = {}
+				b_central_back_alley = {}
+				b_knights_house = {}
+				
+			}			
+			c_temple_of_time = {
+				color = { 255 215 0 }
+				color2 = { 250 250 210}			
+				holy_site = golden_goddesses
+				holy_site = light_force
+				holy_site = hylia_religion
+				holy_site = sheikahism
+				holy_site = great_maku
+				holy_site = gerudo_goddess
+				holy_site = demise_religion
+				holy_site = vaati_religion
+				holy_site = ganon_religion
+				holy_site = wizzrobe_doctrine
+				holy_site = darknut_doctrine
+				holy_site = goddesses_lorule
+				holy_site = sol_religion
+				holy_site = goddess_of_time
+				
+				b_temple_of_time = { pentarchy = yes }
+				b_temple_guard = {}
+				b_temple_gate = {}
+				b_monastary_of_hylia = {}
+				b_temple_of_time_graveyard = {}
+				b_temple_district = {}
+				b_beggers_alley = {}
+			}
+			c_castle_road = {	
+				color={ 238 116 238 }
+				color2={ 112 128 144 }
+				
+				holy_site = great_fairies
+				
+				b_castle_gate = {}
+				b_fairy_spring_of_courage = {}
+				b_reststop = {}
+			
+			}
+			c_hyrule_castle = {				
+				color={ 238 116 238 }
+				color2={ 255 223 0 }
+				
+				b_hyrule_castle = {} 
+				b_royal_temple = {}
+			}
+			c_sacred_grove = {
+				color={ 84 255 159 }
+				color2={ 34 139 34 }
+				
+				b_bordergate = {}
+				b_forest_retreat = {}
+				b_grove_town = {}
+				b_sacred_grove = {}
+			
+			}
 		}
 		d_royal_graveyard = { #later old kakariko
+			color={ 185 0 0 }
+			color2={ 255 255 255 }
+			capital = 462 # Hyrule Castle
+			c_kakariko = {
+				color={ 220 20 60 }
+				color2={ 255 255 255 }
+				b_kakariko_gate = {}
+				b_kakariko = {}
+				b_kakariko_temple = {}
+				b_hidden_castle = {}
+			}
+			c_shadow_temple = {	
+				color={ 0 0 0 }
+				color2={ 255 255 255 }		
+				b_royal_graveyard = {}
+				b_shadow_temple = {}
+				b_shadow_city = {}
+			}
 		}
-		d_hyrule_field = {
+		d_west_hyrule_field = {
+			color={ 1 171 74 }
+			color2={ 65 69 156 }
+			capital = 457 # Hyrule Castle
+			c_south_hyrule_field = {			
+				color={ 185 0 0 }
+				color2={ 255 255 255 }
+				
+				b_oryaro = {}
+				b_maron = {}
+				b_hyre = {}
+				b_dobaro = {}
+			}
+			c_southwest_hyrule_field= {			
+				color={ 185 0 0 }
+				color2={ 255 255 255 }
+				
+				b_hylia_gate = {}
+				b_dadu = {}
+				b_crarunun = {}
+			}
+			c_gerudo_gate = {
+				color={ 185 0 0 }
+				color2={ 255 255 255 }
+				b_gerudo_gate = {}
+				b_danin = {}
+			}
+			c_west_hyrule_field = {			
+				color={ 185 0 0 }
+				color2={ 255 255 255 }
+				b_ediri = {}
+				b_munugia = {}
+				b_kuti = {}
+				b_monin = {}
+			}
+		}
+		d_east_hyrule_field = {		
+			color={ 2 0 174 }
+			color2={ 206 15 15 }
+			capital = 459 # Hyrule Castle
+			c_east_hyrule_field = {			
+				color={ 2 0 174 }
+				color2={ 206 15 15 }
+				
+				b_madas = {}
+				b_madas_town = {}
+				b_hero_shrine = {}
+				b_foro = {}
+				b_opo = {}
+			
+			}
+			c_north_hyrule_field = {
+				color={ 220 20 60 }
+				color2={ 238 232 170 }
+				
+				b_nalo = {}
+				b_minin = {}
+				b_faru = {}
+				b_dogin = {}
+				b_kurin = {}
+			}
+			c_south_east_hyrule_field = {
+				color={ 34 139 34 }
+				color2={ 0 0 238 }
+				
+				b_madas_retreat = {}
+				b_dikon = {}
+				b_osanan = {}
+				b_torin = {}
+			}
+			c_central_hyrule_field = {
+				color={ 28 134 238 }
+				color2={ 255 255 255 }
+				b_muro = {}
+				b_hyrin = {}
+				b_madin = {}
+				b_odekodu = {}
+			}
+		}
+		d_hylia = {
+			color={ 111 138 191 }
+			color2={ 255 223 0 }
+			capital = 452 # Water Temple
+			c_hylia_lakeside = {
+				color={ 125 38 205 }
+				color2={ 255 255 255 }
+				
+
+				b_lakeside_retreat = {}
+				b_lakeside = {}
+				b_scientist_point = {}
+				b_fishermens_pond = {}
+			
+			}
+			c_bridge_island = {
+				color={ 202 225 255 }
+				color2={ 255 223 0 }
+				
+				b_bridge_island	 = {}			
+			}
+			c_sun_island = {
+				color={ 255 255 0 }
+				color2={ 72 118 255 }
+				
+				b_sun_temple = {}
+			}
+			c_water_temple = {
+				color={ 111 138 191 }
+				color2={ 255 223 0 }
+				
+				b_water_temple = {}
+				b_water = {}
+			}
+		
 		}
 		d_lon_lon_hill = {
-		}
-		d_death_mountain = {
+			color={ 19 63 158 }
+			color2={ 255 255 255 }
+			capital = 453 # Look below
+			c_lon_lon_hill = {
+				color={ 19 63 158 }
+				color2={ 255 255 255 }				
+				b_lon_lon_gate = {}
+				b_lon_lon_ranch = {}
+				b_farmers_town = {}
+				b_farmers_temple = {}
+			}
 		}
 	}
 	k_ordon = {
@@ -702,7 +953,7 @@ k_koridai = {
 		color2={ 220 75 44 }
 		
 		capital = 2 #Upper crater
-			allow = {
+		allow = {
 		hidden_tooltip = {
 			OR = {
 				ai = no
@@ -715,7 +966,7 @@ k_koridai = {
 			color={ 161 83 0 }
 			color2={ 220 75 44 }
 			capital = 2
-		c_lower_crater = {
+		c_notra = {
 			color={ 161 83 0 }
 			color2={ 220 75 44 }
 			
@@ -724,7 +975,7 @@ k_koridai = {
 			b_goronu = {}
 			b_toyku = {}
 		}
-		c_upper_crater = {
+		c_cuiqenon = {
 			color={ 154 96 34 }
 			color2={ 220 75 44 }
 			b_firestone = {}
@@ -734,34 +985,41 @@ k_koridai = {
 			b_nortinka = {}
 			b_serigon = {}
 		}
-		c_left_ear = {
+		c_hinitra = {
 			color={ 250 162 68 }
 			color2={ 255 255 255 }
 			b_linekpa = {}
 			b_senu = {}
 			b_horay  = {}	
 		}
-		c_bite_mark = {	
+		c_nutra = {	
 			color={ 248 143 29 }
 			color2={ 0 0 0 }
 			b_nerlen = {}
 			b_mitra = {}	
 		}
-		c_right_ear = {
+		c_gistum = {
 			color={ 160 94 23 }
 			color2={ 160 94 23 }
 			b_hunitra = {}
 			b_huqisto = {}
 		}
-		c_bend = {
+		c_lorom = {
 			color={ 154 108 58 }
 			color2={ 216 255 0 }
 			b_loren = {}
 			b_huitra = {}
 			b_surlu = {}	
 		}
+		c_hirunu = {
+			color={ 216 255 0 }
+			color2={ 154 108 58 }
+			b_huqire = {}
+			b_ferelon = {}			
+			
+		}
 	}
-	d_chain = {
+	d_mitkogo = {
 		color={ 253 176 107 }
 		color2={ 150 83 24 }
 		capital = 11
