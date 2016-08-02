@@ -1336,6 +1336,245 @@
 		death=yes
 	}
 }
+1063 = { 
+	name=Engon
+	disallow_random_traits = yes
+	historical = yes
+	female=no
+	dynasty=801
+	diplomacy=10
+	martial=14
+	intrigue=4
+	stewardship=6
+	learning=9
+	religion=fire_spirit
+	culture=death_mountain_goron
+	trait=brilliant_strategist
+	trait=race_goron
+	trait=honest
+	trait=strong
+	trait=gregarious
+	trait=erudite
+	trait=brave
+	3267.3.18={
+		birth=yes
+	}
+	3361.10.3 = {
+		add_spouse = 1064
+	}
+	3401.2.3={
+		death={ death_reason=death_battle }
+	}
+}
+1064 = { 
+	name=Cabim
+	disallow_random_traits = yes
+	historical = yes
+	female=yes
+	dynasty=823
+	diplomacy=10
+	martial=6
+	intrigue=4
+	stewardship=12
+	learning=5
+	religion=fire_spirit
+	culture=death_mountain_goron
+	trait=underhanded_rogue
+	trait=race_goron
+	trait=trusting
+	trait=shy
+	trait=gluttonous
+	trait=kind
+	3281.10.1={
+		birth=yes
+	}
+	3361.10.3 = {
+		add_spouse = 1063
+	}
+	3448.4.2={
+		death=yes
+	}
+}
+1065 = { 
+	name=Lasho
+	disallow_random_traits = yes
+	historical = yes
+	female=no
+	dynasty=4601
+	diplomacy=5
+	martial=20
+	intrigue=4
+	stewardship=6
+	learning=4
+	religion=demise_religion
+	culture=lizalfos
+	trait=brilliant_strategist
+	trait=race_lizalfos
+	trait=wroth
+	trait=lustful
+	trait=tall
+	trait=decietful
+	trait=brave
+	3335.6.14={
+		birth=yes
+	}
+	3350.11.3 = {
+		add_spouse = 1066
+	}
+	3386.2.3={
+		death={ death_reason=death_battle
+			killer = 1063
+		}
+	}
+}
+1066 = { 
+	name=Wetazu
+	disallow_random_traits = yes
+	historical = yes
+	female=no
+	dynasty=4661
+	diplomacy=14
+	martial=5
+	intrigue=20
+	stewardship=6
+	learning=4
+	religion=demise_religion
+	culture=lizalfos
+	trait=elusive_shadow
+	trait=race_lizalfos
+	trait=cruel
+	trait=lustful
+	trait=greedy
+	trait=proud
+	trait=decietful
+	trait=coward
+	3336.11.1={
+		birth=yes
+	}
+	3352.11.3 = {
+		add_spouse = 1065
+	}
+}
+1067 = { 
+	name=Vapukupat
+	disallow_random_traits = no
+	historical = yes
+	mother=1066
+	father=1065
+	female=no
+	dynasty=4601
+	diplomacy=5
+	martial=20
+	intrigue=4
+	stewardship=6
+	learning=4
+	religion=demise_religion
+	culture=lizalfos
+	trait=tough_soldier
+	trait=race_lizalfos
+	trait=ambitious
+	trait=proud
+	trait=envious
+	trait=brave
+	3352.4.28={
+		birth=yes
+	}
+	3372.11.3 = {
+		add_spouse = 1070
+	}
+}
+1068 = { 
+	name=Lilos
+	disallow_random_traits = no
+	historical = yes
+	mother=1066
+	father=1065
+	female=yes
+	dynasty=4601
+	diplomacy=10
+	martial=5
+	intrigue=10
+	stewardship=6
+	learning=4
+	religion=demise_religion
+	culture=lizalfos
+	trait=martial_cleric
+	trait=race_lizalfos
+	trait=content
+	trait=craven
+	trait=shy
+	trait=patiant
+	3355.4.28={
+		birth=yes
+	}
+}
+1069 = { 
+	name=Dirdakazo
+	disallow_random_traits = no
+	historical = yes
+	mother=1066
+	father=1065
+	female=no
+	dynasty=4601
+	diplomacy=10
+	martial=9
+	intrigue=4
+	stewardship=8
+	learning=4
+	religion=demise_religion
+	culture=lizalfos
+	trait=charismatic_negotiator
+	trait=race_lizalfos
+	trait=content
+	trait=slouthful
+	trait=content
+	trait=brave
+	trait=tall
+	3358.7.8={
+		birth=yes
+	}
+	3380.1.3 = {
+		add_spouse = 1071
+	}
+}
+1070 = { 
+	name=Konat
+	disallow_random_traits = no
+	historical = yes
+	female=yes
+	dynasty=4678
+	religion=demise_religion
+	culture=lizalfos
+	trait=underhanded_rogue
+	trait=race_lizalfos
+	trait=zealous
+	trait=craven
+	trait=paranoid
+	trait=cruel
+	3356.11.1 = {
+		birth=yes
+	}
+	3372.11.3 = {
+		add_spouse = 1067
+	}
+}
+1071 = { 
+	name=Konia
+	disallow_random_traits = no
+	historical = yes
+	female=yes
+	dynasty=4689
+	religion=demise_religion
+	culture=lizalfos
+	trait=flamboyant_schemer
+	trait=race_lizalfos
+	3364.12.30 = {
+		birth=yes
+	}
+	3380.1.3 = {
+		add_spouse = 1069
+	}
+}
 #xx = {
 #	name=Gavun
 #	historical = yes

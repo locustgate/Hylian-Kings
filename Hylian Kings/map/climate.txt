@@ -1,13 +1,22 @@
-#Example: Most of Europe north of med.
-mild_winter = {}
-
+#Example: Most of Southern Hyrule and the sacred grove
+mild_winter = { 
+	#sacred grove and southern zora domain
+	449 450 451 452 453 454 455 456 457 458 459 460 461 462 463 474 475 476 477 }
+#Example Northern Coastal Hyrule 
 normal_winter = {
-		#koridai
+		#koridai crater
 		1 2 
+		#southern kasuto
+		188 189 190 191 195	187
+		#southern saria
+		 194 195 196 197 198 207 199 200 204
 }
-#Example: Russia & Lappland
+#Example: 
 severe_winter = {
 		#koridai outside of crater
-		3 4 5 6 7 8 9 10 11 12 13
-		#
+		3 4 5 6 7 8 9 10 11 12 13 14
+		#north kasuto coastal and maze island
+		184 185 186 192 193 194 
+		#north saria
+		 201 202 203 205 206
 }

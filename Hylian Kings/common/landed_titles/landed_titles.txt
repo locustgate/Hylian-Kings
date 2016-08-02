@@ -358,8 +358,115 @@ e_hyrule_central = {
 	k_west_death_mountains = {
 		color={ 91 100 100 }
 		color2={ 255 42 0 }
-		capital = 32 # Middlesex
+		capital = 540 # Great Death Mountain
+		d_great_death_mountains = {
+			color={ 91 100 100 }
+			color2={ 255 42 0 }
+			capital = 540 # Great Death Mountain
+
+		}
+		d_death_mountain = {
+			color={ 71 6 4 }
+			color2={ 168 5 0 }
+			capital = 466 # Goron City
+			c_mountain_gate = {
+				color={ 139 117 0 }
+				color2={ 139 139 131  }
+				
+				b_mountain_gate = {}
+				b_ermom = {
+					#lizalfos =
+				}
+			}
+			c_dodongo_cavern = {
+				color={ 227 207 87 }
+				color2={ 139 125 107  }
+				
+				b_dodongo_cavern = {}
+				b_dodongo_mine = {}
+				b_bomb_flower_shrine = {}
+				b_dodongo_lair = {}
+			}
+			c_goron_city = {
+				color={ 255 165 0 }
+				color2={ 255 239 213  }
+				
+				b_chief's_keep = {}
+				b_goron_city = {
+					#lizalfos =
+				}
+				b_gomoht  = {
+					#lizalfos =
+				}
+				b_arom  = {
+					#lizalfos =
+				}
+				b_gumos  = {
+					#lizalfos =
+				}
+				b_cago = {
+					#lizalfos =
+				}
+			}
+			c_death_mountain = {
+				color={ 220 20 60 }
+				color2={ 197 193 170  }
+				
+				b_death_mountain = {}
+				b_nere = {
+					#goron = 
+				}			
+			}
+			c_death_mountain_trail  = {
+				color={ 238 44 44 }
+				color2={ 255 193 193  }	
+
+				b_trail_gate  = {}
+				b_spring_power = {}
+				b_longi = {
+					#goron = 
+				}
+				b_oke = {
+					#goron = 
+				}
+			}
+			c_chasm_pass = {
+				color={ 165 42 42 }
+				color2={ 255 255 255  }
+				
+				b_cozok = {
+					#goron = 
+				}
+				b_vilas= {
+					#goron = 
+				}
+				b_snake= {
+					#goron = 
+				}
+			}
+			c_death_mountain_crater = {
+				color={ 255 48 48 }
+				color2={ 255 215 0  }
+				
+				b_crater_gate = {}
+				b_fire_temple = {}
+				b_spring_wisdom = {}
+			}
+			c_ancient_tunnels = {
+				color={ 135 38 87 }
+				color2={ 255 255 255  }
+				
+				b_wisho = {
+					#goron = 
+				}
+				b_wazear= {
+					#goron = 
+				}
+				b_vazas
+			}
+		}
 	}
+	
 	k_zora_domain = {
 		color={ 255 127 80 }
 		color2={ 234 212 77 }
@@ -430,585 +537,6 @@ e_hyrule_central = {
 				b_muna = {}
 			}
 		}
-	}
-}
-k_gerudo = {
-		darknut = Legio Prima
-		
-		d_platau = {
-		color={ 91 100 100 }
-		color2={ 172 67 46 }
-		capital = 32 # Middlesex
-		
-		gerudo = Gerudo Platau
-		darknut = Prima Century
-		}
-		d_gerudo_valley = {
-		}
-		d_haunted_wastes
-}
-e_saria = {#Saria
-	color={ 177 60 60 }
-	color2={ 255 255 255 }
-	capital = 32 # Middlesex
-	dignity = 10 # Counted as having this many more counties than it does
-
-	eldin = Eldin
-	#sarian = Saria
-	kasuton = Kasuto
-	hyrulean = Hyrule Major
-	little_hyrulean = Hyrule
-	west_hyrulean = Hyrule
-	east_hyrulean = Hyrule
-	
-	# Creation/usurpation trigger
-	allow = {
-		hidden_tooltip = {
-			OR = {
-				ai = no
-				culture = eldin
-				culture = sarian
-				culture = kasuton
-				culture = hyrulean
-				culture = little_hyrulean
-				culture = west_hyrulean
-				culture = east_hyrulean
-			}
-		}
-	}
-	k_kasuto = {
-		color={ 165 11 111 }
-		color2={ 255 255 23 }
-		capital = 32 # Middlesex
-		dignity = 5 # Counted as having this many more counties than it does
-	
-		#late_hyrulean = Hyrule
-		east_hyrulean = East Hyrule
-		west_hyrulean = East Hyrule
-		little_hyrulean = East Hyrule
-		
-		d_kasuto = {
-			c_kasuto_town
-			c_hidden_valley
-			c_three_eye_rock
-			c_hyron_island
-		}
-		d_nabooru = {
-			c_kasuto_palace
-			c_nabooru
-			c_darunia
-			c_bridge_forest
-		}
-		d_maze_island = {
-			c_north_maze_island
-			c_maze_palace
-			c_south_maze_island
-		}
-	}
-	k_saria = {
-		color={ 177 60 100 }
-		color2={ 255 255 23 }
-		capital = 32 # Middlesex
-		dignity = 10 # Counted as having this many more counties than it does
-
-	
-		west_hyrulean = West Hyrule
-		east_hyrulean = West Hyrule
-		little_hyrulean = West Hyrule
-		
-		d_moruge = {
-			c_morgue
-			c_tantari
-			c_mido
-		}
-		d_saria = {
-			c_navi
-			c_saria
-			c_impa			
-		}
-		d_midoro = {
-			c_graveyard_vale
-			c_midoro
-			c_ruto
-			c_rauru
-			c_parapa
-		}
-		d_palace_island = {
-			c_palace_island
-		}
-	}
-	k_eldin = {
-		color={ 122 46 58 }
-		color2={ 200 0 0 }
-		capital = 32 # Middlesex
-		
-		little_hyrulean = Little Hyrule
-		east_hyrulean = Little Hyrule
-		west_hyrulean = Little Hyrule
-		
-		d_east_death_mountains= {
-			c_eldin_death_mountains
-			c_eldin_spectacle_rock
-			c_eldin_cemetary
-		}
-		d_lost_hills = {
-			c_spryte
-			c_oberon
-		}
-		d_lost_plains= {
-			c_moblinia
-			c_miff
-			c_eldin_lost_forest
-		}
-	}
-}
-k_grand_plains = {#Faron plains
-		color={ 0 170 0 }
-		color2={ 255 255 255 }
-		capital = 32 # Middlesex
-		dignity = 5 # Counted as having this many more counties than it does
-	
-		#late_hyrulean = Hyrule Minor
-		hyrulean = Grand Hyrule	
-
-		d_grand_plains = {
-		}
-		d_grand_hylia= {
-		}
-		d_great_swamp= {
-		}
-		d_desert_of_mystery= {
-		}
-		d_south_death_moutains= {
-		}
-}
-k_hyrule_minish = { #Minish
-		color={ 40 192 248 }
-		color2={ 255 255 255 }
-		capital = 32 # Middlesex
-		dignity = 5 # Counted as having this many more counties than it does
-
-		hyrulean = Minish Hyrule
-		wind_tribe = Wind
-		
-		d_minish_fields= {
-		}
-		d_mount_crenal= {
-		}
-		d_castor_wilds= {
-		}
-		d_royal_valey= {
-		}
-}
-#hylians empires
-
-e_cobble = {
-	color={ 204 0 0 }
-	color2={ 255 255 255 }
-	capital = 32 # Middlesex
-	dignity = 10 # Counted as having this many more counties than it does
-	
-	# Creation/usurpation trigger
-	allow = {
-		hidden_tooltip = {
-			OR = {
-				ai = no
-				culture = cobble
-				culture = gravel
-				culture = pebble
-			}
-		}
-	}
-	k_cobble =  {
-		d_pyramid_lands = {
-		}
-		d_east_banan = {
-		}
-		d_monument_lands = {
-		}
-	}
-	k_gravel = {
-		d_gust_desert = {
-		}
-		d_zauz = {
-		}
-		d_west_banan = {
-			c_dee_ess
-		}
-	}
-	k_pebble = {
-		d_mercay= {
-		}
-		d_spirit_lands = {
-		}
-		d_ivory_coast = {
-		}
-	}
-	k_goron_mountains = {
-		d_goron_peak = {
-		}
-		d_frost_peaks = {
-		}
-	}
-
-k_mason =  = { #part of cobble 4 swords
-	d_ichiro = {
-	}
-	d_jiro = {
-	}
-	d_sabooro = {
-	}
-	d_shiro = {
-	}
-}
-k_auros = { #part of cobble oot 
-	d_auros = {
-	}
-	d_desma = {
-	}
-	d_garden = {
-	}
-}
-#human empires
-e_holodrum = {
-	color={ 204 0 0 }
-	color2={ 255 255 255 }
-	capital = 32 # Middlesex
-	dignity = 10 # Counted as having this many more counties than it does
-
-	# Creation/usurpation trigger
-	allow = {
-		hidden_tooltip = {
-			OR = {
-				ai = no
-				culture = coco_goron
-				culture = horon
-				culture = deku_scrub
-				culture = subrosia
-			}
-		}
-	}
-	k_horon  = {
-		d_horon_plains = {
-		}
-		d_horon = {
-		}
-		d_jungle_happiness
-	}
-	k_holodrum = {
-		d_cucco = {
-			c_mt_holodrum = {#becomes mt goron
-			}
-			c_mt_cucco  = {
-			}
-		}
-		d_tarm = {
-		}
-		d_natzu  = {
-		}
-	}
-	k_samasa  = {
-		d_east_samasa = {
-		}
-		d_west_samasa = {
-		}
-	}
-}
-e_labrynna = {
-	color={ 204 0 0 }
-	color2={ 255 255 255 }
-	capital = 32 # Middlesex
-	dignity = 10 # Counted as having this many more counties than it does
-	
-	# Creation/usurpation trigger
-	allow = {
-		hidden_tooltip = {
-			OR = {
-				ai = no
-				culture = sea_zora
-				culture = labrynna
-				culture = rolling_goron
-				culture = deku_scrub
-				culture = tokay
-			}
-		}
-	}
-	k_labrynna = {
-		d_labrynna = {
-			c_west_lynna
-			c_black_tower
-			c_tower_shore
-			c_south_shore
-			c_south_lynna
-			c_sea_of_no_return
-			c_spirit_coast
-			c_yoll
-			c_poevale
-		}
-		d_talus = {
-			c_labrynna_palace
-			c_lyanna
-			c_talus_peaks
-			c_talus_ridge
-			c_symmetry
-			c_labrynna_palace
-			c_nuun_highlands
-			c_maku_grove
-			c_forest_of_time
-			c_witchwoods
-		}
-		d_rolling_ridge = {
-			c_cart_mines
-			c_mermaids_cave
-			c_crown_caverns
-			c_rolling_ridge
-			c_moblin_keep
-			c_nuun_mountains
-			c_restoration_peak
-			c_skull_mountains
-		}
-	}
-	k_storm_islands  = { #becomes zora domain
-		d_zora_islands = {
-			c_fairy_island
-			c_treasure_islands
-			c_eyeglass_island
-		}
-		d_zora_bay  = {
-			c_zora_cove
-			c_sand_island
-			c_palm_island
-			c_gale_island
-			zora_isles
-		}
-	}
-	k_tokay  = {
-		d_crescent_island = {
-			c_north_crescnet_island
-			c_south_crescent_island
-			c_central_crescent_island
-		}
-		d_minor_islands = {
-			c_moonlight_island
-			c_grotto_island
-			c_tokay_island
-		}
-	}
-}
-e_hytopia = {
-	k_drablands = {
-		d_south_drablands = {
-		}
-		d_drab_mountains = {
-		}
-		d_witch_highlands = {
-		}
-		d_witch_isles = {
-		}
-	}
-	k_fablands = {
-	hytopian = hytopia
-		d_west_fablands = {
-		}
-		d_east_fablands = {
-		}
-	}
-}
-#spirit continent
-e_spirit = {
-	color={ 72 96 104 }
-	color2={ 255 255 255 }
-	capital = 32 # Middlesex
-	dignity = 10 # Counted as having this many more counties than it does
-
-	hyrulean = New Hyrule
-	little_hyrulean = New Hyrule
-	west_hyrulean = New Hyrule
-	east_hyrulean = New Hyrule
-	cobble = New Cobble
-	pebble = New Cobble
-	gravel = New Cobble
-	ho_ho = Waywayway
-	labrynna = New Labrynna
-	horon = New Holodrum
-	
-	# Creation/usurpation trigger
-	allow = {
-		hidden_tooltip = {
-			OR = {
-				ai = no
-				culture = lokomo
-				culture = demon
-				culture = ho_ho
-				culture = labrynnan
-				culture = horon
-				culture = cobble
-				culture = pebble
-				culture = gravel
-				culture = hyrulean
-				culture = little_hyrulean
-				culture = west_hyrulean
-				culture = east_hyrulean
-			}
-		}
-	}
-	k_forest = {
-		d_spirit_forest = {
-		}
-		d_adoba = {
-		}
-		d_spirit_plains = {
-		}
-		d_rabbit_land = {
-		}		
-	}
-	k_snow = {
-		d_wellspring = {
-		}
-		d_snow = {
-		}
-	}
-	k_ocean = {
-		d_east_islands = {
-			c_ocean_sanctuary = {
-			}
-			c_lost_island = {
-			}
-			c_ocean_temple_island = {
-			}
-			c_
-			c_
-		}
-		d_west_islands = {
-			c_papuchia_north = {
-			}
-			c_papuchia_south = {
-			}
-			c_pirate_island = {
-			}
-		}
-		
-	}
-	k_fire = {
-		d_mountain_fire = {
-		}
-		d_disorientation = {
-		}
-	}
-	k_sand = {
-		d_sand_temple = {
-		}
-		d_sand_sancuary = {
-		}
-	}
-}
-#gemlands
-e_rupee = {
-	color={ 204 0 0 }
-	color2={ 255 255 255 }
-	capital = 32 # Middlesex
-	dignity = 10 # Counted as having this many more counties than it does
-
-	gemlander = Gem
-	
-	# Creation/usurpation trigger
-	allow = {
-		hidden_tooltip = {
-			OR = {
-				ai = no
-				culture = gemlander
-				culture = demon
-				religion = uncle_rupee
-
-			}
-		}
-	}
-	k_emerald = {
-		d_peridot = { #jungle
-		}
-		d_turqoise = { #grasslands
-		}
-	}
-	k_ruby = {
-		d_garnet = { #desert
-		}
-		d_spinel = { #steppe
-		}
-	}
-	k_sapphire = {
-		d_zircon = { #upper desert
-		}
-		d_topaz = { #lower desert
-		}
-	}
-}
-#nonhuman empires
-e_sea_tree = {
-	k_kokiri = {
-	}
-	k_lost = {
-	}
-	k_fairy = {
-		d_fairy_woods = {
-			c_mystery_woods
-			c_fairy_woods
-			c_deku_grove
-			c_wing_woods
-		}
-	}
-	k_minish = {
-	}
-}
-e_zuna = {
-	k_upper_zuna = {
-		d_iskandariyyah = {
-			hytopian = dunes
-		}
-		d_kairo = {
-		}
-		d_dumyat = {
-		}
-	}
-	k_lower_zuna = {
-		d_Sina = {
-		}
-		d_aswan = {
-		}
-		d_zuna = { #despair
-			zuna = Zuna
-		}
-	}
-}
-#hylian kingdoms
-
-k_calatia = {
-		color={ 78 116 197 }
-		color2={ 160 176 87 }
-		
-		capital = 43 #Gowrie
-}
-k_hoho = {
-		color={ 170 170 210 }
-		color2={ 220 220 220 }
-		
-		capital = 32 # Middlesex
-	allow = {
-		hidden_tooltip = {
-			OR = {
-				ai = no
-				culture_group = hylian_group
-				culture = yeti
-				culture = yook
-			}
-		}
-	}
-	d_ho = {
-	}
-	d_ho_ho = {
-	}
-	d_way = {
-	}
-	d_way_way = {
 	}
 }
 k_koridai = {
@@ -1142,137 +670,4 @@ k_koridai = {
 			b_fatra = {}
 		}	
 	}
-}
-k_gamelon = {
-		color={ 214 18 0 }
-		color2={ 218 8 79 }
-		
-		capital = 43 #Gowrie
-		d_dodomai = {
-		}
-		d_aru_ainu = {
-		}
-}
-#kingdoms
-k_arcadia = {#todo
-		color={ 229 220 244 }
-		color2={ 78 116 197 }
-		
-		capital = 43 #Gowrie
-		
-			c_arcadia
-			c_pausania
-			c_lyonia
-			c_xenonia
-			c_lykaia
-			c_wosuia
-			c_ardennia
-			c_hippodria
-			c_rolandia
-			c_paronia
-			c_silvania
-			c_marcania
-			c_achenia
-			c_joeusia
-			c_durendalia
-			c_curtania
-			c_facadia
-			c_polia
-			c_acasesia
-			c_odyssia
-			c_doricia
-			c_stoicia
-			c_tyria
-			c_tegia
-			c_batteria
-			c_megaria
-			c_aroania
-			c_agmemnia
-			c_peloponnia
-			c_argolia
-			c_daigonia
-			c_ladonia
-			c_capetia
-			c_cliva
-			c_syagria
-			c_merovia
-			c_valoia
-			c_louia
-			c_aegidia
-}
-k_tolemac = {
-		color={ 202 26 26 }
-		color2={ 255 255 255 }
-		
-		capital = 43 #Gowrie
-		d_skotness = {
-			c_skotness
-			c_sea_island
-			c_findo
-			c_seacoast_plain
-			c_ogbam
-			c_larrocthest
-		}
-		d_canvula = {
-			c_canvula
-			c_ubato
-			c_toria
-			c_armarob
-			c_glonna
-		}
-		d_sabasha = {
-			c_north_subasha
-			c_subasha
-			c_ensilon
-			c_vendoss
-			c_hobel
-		}
-		d_tolemac = {
-			c_triplet_coast
-			c_tolemac	
-			c_legatnit
-			c_nolava
-			c_talotsa
-			c_noelreac
-		}
-}
-k_western_isles = {
-	d_frozen_isle = {
-		color={ 195 190 255 }
-		color2={ 220 220 220 }
-	}
-	d_gooey isle = {
-	}
-	d_steamy_isle = {
-	}
-}
-k_moria = {
-	color={ 80 101 60 }
-	color2={ 255 0 0	}
-	d_grindle
-	d_moria
-	
-}
-k_port_isle = {
-
-}
-k_koholint = {
-	d_tal_tal= {
-		c_tal_tal_heights
-		c_tal_tal_mountains
-		c_goponga
-	}
-	d_ukuku = {
-		c_kanalet
-		c_ukuku
-		c_toronbo
-		c_mabe
-	}
-}
-k_bastion = { #darknut
-}
-k_myrddin = { #wizzrobe
-}
-k_hanman = {
-
 }
