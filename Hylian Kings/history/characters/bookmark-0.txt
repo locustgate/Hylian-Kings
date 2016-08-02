@@ -1,7 +1,7 @@
 #2987
 1 = {
 	name=Hylia
-	historical = yes
+	historical=yes
 	dna="dkaaekhfgcb"
 	properties="cm0dgd000000"
 	female=yes
@@ -23,7 +23,7 @@
 }
 2 = {
 	name=Link
-	historical = yes
+	historical=yes
 	dna="cafijdibgbb"
 	properties="ce0dhd000000"
 	religion=hylia_religion
@@ -48,7 +48,7 @@
 }
 3 = {
 	name=Demise
-	historical = yes
+	historical=yes
 	dynasty=14604
 	religion=demise_religion
 	culture=demon
@@ -71,7 +71,7 @@
 }
 4 = {
 	name=Malladus
-	historical = yes
+	historical=yes
 	dynasty=14604
 	father=3
 	religion=malladus_religion
@@ -86,7 +86,7 @@
 }
 5 = {
 	name=Rupee
-	historical = yes
+	historical=yes
 	dynasty=14604
 	father=3
 	religion=uncle_rupee_religion
@@ -101,7 +101,7 @@
 }
 6 = {
 	name=Gaepora
-	historical = yes
+	historical=yes
 	dynasty=1
 	religion=hylia_religion
 	culture=skylofter
@@ -120,7 +120,7 @@
 }
 7 = {
 	name=Zelda
-	historical = yes
+	historical=yes
 	dna="dkaaekhfgcb"
 	properties="cm0dgd000000"
 	female = yes
@@ -145,18 +145,17 @@
 }
 8 = {
 	name=Link
-	historical = yes
+	historical=yes
 	dynasty=14601
 	dna="cafijdibgbb"
 	properties="ce0dhd000000"
 	religion=hylia_religion
 	culture=skylofter
 	trait=hero_soul
-   trait=bloodline_hero
+	trait=bloodline_hero
 	trait=brave
 	trait=warrior_4
 	trait=content
-	trait=brave
 	2982.6.1={
 		birth=yes
 	}
@@ -171,7 +170,7 @@
 }
 9 = {
 	name=Fi
-	historical = yes
+	historical=yes
 	female = yes
 	dynasty=14601
 	religion=hylia_religion
@@ -192,14 +191,14 @@
 }
 10 = {
 	name=Groose
-	historical = yes
+	historical=yes
 	dynasty=1
 	religion=hylia_religion
 	culture=skylofter
 	mother=7
 	trait=race_hylian
 	trait=bloodline_goddess
-	trait=brawny
+	trait=robust
 	3006.1.1={
 		birth=yes
 	}

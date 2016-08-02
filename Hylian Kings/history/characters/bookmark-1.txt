@@ -667,7 +667,7 @@
 	dynasty=4242
 	religion=demise_religion
 	culture=moblin
-	race_moblin
+	trait=race_moblin
 	trait=zealous
 	trait=lustful
 	trait=ambitious
@@ -1023,6 +1023,317 @@
 	trait=falconer
 	3369.9.8={
 		birth=yes
+	}
+}
+1052 = { 
+	name=Zora
+	disallow_random_traits = yes 
+	historical = yes
+	dynasty=601
+	#mother/father=y
+	diplomacy=13
+	martial=4
+	intrigue=8
+	stewardship=7
+	learning=7
+	religion=jabu_jabu
+	culture=lake_zora
+	trait=grey_eminence
+	trait=bloodline_debon
+	trait=race_zora
+	trait=robust
+	trait=gluttonous
+	trait=lustful
+	trait=gregarious
+	trait=charitable
+	trait=zealous
+	3324.8.26 = {
+		birth=yes
+	}
+	3343.12.1 = {
+		add_lover = 1053
+	}
+	3345.11.10 = {
+		add_spouse=1054
+	}
+	3370.7.19 = {
+		remove_lover = 1053
+	}
+	3388.7.19={
+		death=yes
+	}
+}
+1053 = { 
+	name=Nautia
+	disallow_random_traits = yes 
+	historical = yes
+	female=yes
+	dynasty=none
+	diplomacy=8
+	martial=4
+	intrigue=11
+	stewardship=4
+	learning=14
+	religion=jabu_jabu
+	culture=lake_zora
+	trait=thrifty_clerk
+	trait=race_zora
+	trait=hedonist
+	trait=lustful
+	trait=fair
+	3327.1.28={
+		birth=yes
+	}
+	3343.12.1 = {
+		add_lover = 1052
+	}
+	3370.7.19 = {
+		remove_lover = 1052
+	}
+}
+1054 = { 
+	name=Udi
+	disallow_random_traits = yes 
+	historical = yes
+	female=yes
+	dynasty=667
+	#mother/father=y
+	diplomacy=6
+	martial=4
+	intrigue=11
+	stewardship=4
+	learning=14
+	religion=jabu_jabu
+	culture=lake_zora
+	trait=mastermind_theologian
+	trait=race_zora
+	trait=kind
+	trait=chaste
+	trait=charitable
+	trait=zealous
+	3329.10.28={
+		birth=yes
+	}
+	3345.11.10 = {
+		add_spouse=10523
+	}
+	3408.7.19={
+		death=yes
+	}
+}
+1055 = {
+	name=Lati
+	historical = yes
+	disallow_random_traits = yes
+	dynasty=632
+	female = yes
+	father=1052
+	mother=1053
+	religion=jabu_jabu
+	culture=lake_zora
+	trait=flamboyant_schemer
+	trait=race_zora
+	trait=bloodline_debon
+	trait=bastard
+	trait=decietful
+	trait=fair
+	trait=frail
+	3348.7.19 = {
+		birth=yes
+	}
+}
+1056 = {
+	name=Elo
+	historical = yes
+	disallow_random_traits = yes
+	dynasty=632
+	female = yes
+	father=1052
+	mother=1053
+	religion=jabu_jabu
+	culture=lake_zora
+	trait=amateurish_plotter 
+	trait=race_zora
+	trait=bloodline_debon
+	trait=bastard
+	trait=slow
+	trait=honest
+	trait=trusting
+	trait=robust
+	3353.2.24 = {
+		birth=yes
+	}
+}
+1057 = {
+	name=Zenal
+	historical = yes
+	disallow_random_traits = yes
+	dynasty=632
+	female = no
+	father=1052
+	mother=1053
+	religion=jabu_jabu
+	culture=lake_zora
+	trait=skilled_tactician
+	trait=race_zora
+	trait=bloodline_debon
+	trait=bastard
+	trait=robust
+	trait=gluttonous
+	trait=cynical
+	trait=robust
+	3358.2.24 = {
+		birth=yes
+	}
+}
+1058 = { 
+	name=Tono
+	disallow_random_traits = yes 
+	historical = yes
+	female=no
+	dynasty=601
+	mother=1054
+	father=1052
+	diplomacy=8
+	martial=4
+	intrigue=6
+	stewardship=8
+	learning=7
+	religion=jabu_jabu
+	culture=lake_zora
+	trait=charismatic_negotiator
+	trait=bloodline_debon
+	trait=race_zora
+	trait=gluttonous
+	trait=chaste
+	trait=honest
+	trait=paranoid
+	3349.10.28={
+		birth=yes
+	}
+	3378.3.14 = {
+		add_spouse=1061
+	}
+	3418.4.27={
+		death=yes
+	}
+}
+1059 = { 
+	name=Enajo
+	disallow_random_traits = yes 
+	historical = yes
+	female=yes
+	dynasty=601
+	mother=1054
+	father=1052
+	diplomacy=4
+	martial=4
+	intrigue=2
+	stewardship=1
+	learning=18
+	religion=jabu_jabu
+	culture=lake_zora
+	trait=martial_cleric
+	trait=bloodline_debon
+	trait=race_zora
+	trait=nun
+	trait=homosexual
+	trait=chaste
+	trait=honest
+	trait=trusting
+	3353.5.9={
+		birth=yes
+	}
+	3438.4.27={
+		death=yes
+	}
+}
+1060 = { 
+	name=Pona
+	disallow_random_traits = yes 
+	historical = yes
+	female=no
+	dynasty=601
+	mother=1054
+	father=1052
+	diplomacy=7
+	martial=10
+	intrigue=6
+	stewardship=8
+	learning=7
+	religion=jabu_jabu
+	culture=lake_zora
+	trait=thrifty_clerk
+	trait=bloodline_debon
+	trait=race_zora
+	trait=greedy
+	trait=gregarious
+	trait=honest
+	trait=content
+	3359.10.28={
+		birth=yes
+	}
+	3382.8.9 = {
+		add_spouse=1062
+	}
+	3417.7.17={
+		death=yes
+	}
+}
+1061 = { 
+	name=Laka
+	disallow_random_traits = no 
+	historical = yes
+	female=yes
+	dynasty=483
+	diplomacy=4
+	martial=4
+	intrigue=8
+	stewardship=5
+	learning=7
+	religion=jabu_jabu
+	culture=lake_zora
+	trait=thrifty_clerk
+	trait=race_zora
+	trait=kind
+	trait=lustful
+	trait=decietful
+	3362.2.14={
+		birth=yes
+	}
+	3378.3.14 = {
+		add_spouse = 1058
+	}
+	3409.7.7={
+		death=yes
+	}
+}
+1062 = { 
+	name=Laha
+	disallow_random_traits = no 
+	historical = yes
+	female=yes
+	dynasty=483
+	diplomacy=8
+	martial=6
+	intrigue=5
+	stewardship=8
+	learning=5
+	religion=jabu_jabu
+	culture=lake_zora
+	trait=underhanded_rogue
+	trait=race_zora
+	trait=kind
+	trait=lustful
+	trait=decietful
+	3366.8.7={
+		birth=yes
+	}
+	3382.8.9 = {
+		add_spouse = 1060
+	}
+	3409.7.7={
+		death=yes
 	}
 }
 #xx = {
