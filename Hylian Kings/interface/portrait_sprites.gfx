@@ -1568,6 +1568,36 @@ spriteTypes = {
 		norefcount = yes
 		can_be_lowres = yes
 	}
+	spriteType = {
+		name = "PORTRAIT_keatongfx_child_male"
+		texturefile = "gfx\\characters\\default_son.tga"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	
+	spriteType = {
+		name = "PORTRAIT_keatongfx_child_female"
+		texturefile = "gfx\\characters\\default_daughter.tga"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	spriteType = {
+		name = "PORTRAIT_lynolgfx_child_male"
+		texturefile = "gfx\\characters\\default_son.tga"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	
+	spriteType = {
+		name = "PORTRAIT_lynolgfx_child_female"
+		texturefile = "gfx\\characters\\default_daughter.tga"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
 ################Hylian################
 
 	spriteType = {
