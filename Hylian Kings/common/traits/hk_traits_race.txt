@@ -301,6 +301,23 @@ race_yook = {#repro with yeti
 	ai_ambition = 5
 	ai_rationality = -5
 }
+race_girrin = {
+	martial = -2
+	learning = 4
+	cached = yes
+	
+	ai_ambition = -5
+	ai_rationality = 5
+}
+race_lynol = {
+	martial = 2
+	learning = -2
+	fertility = 0.25
+	cached = yes
+	
+	ai_ambition = -5
+	ai_rationality = 5
+}
 #avian
 race_watarara = {
 	diplomacy = 2

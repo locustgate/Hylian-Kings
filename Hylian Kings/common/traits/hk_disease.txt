@@ -113,8 +113,9 @@
 #	female_insult = INSULT_MONSTER
 #}
 curse_imp = {
-	diplomacy = -3 #reviled
-	intrigue = 2 #harder to see
-	martial = -3 #smaller
-	combat_rating = -2 #smaller
+	diplomacy = -3
+	intrigue = 3
+	martial = -3
+	
+	general_opinion = -30
 }

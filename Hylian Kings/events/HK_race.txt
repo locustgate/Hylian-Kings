@@ -43,6 +43,8 @@ character_event = {
 		trait = race_zuna
 		trait = race_stulkid
 		trait = race_stalfos
+		trait = race_girrin
+		trait = race_lynol
 		}
 	}
 	
@@ -369,6 +371,18 @@ character_event = {
 				graphical_culture = cumangfx
 			}
 			add_trait = race_hylian
+		}
+		if = {
+			limit = {
+				graphical_culture = girringfx
+			}
+			add_trait = race_girrin
+		}
+		if = {
+			limit = {
+				graphical_culture = lynolgfx
+			}
+			add_trait = race_lynol
 		}
 	}
 	option = { name = OK }
