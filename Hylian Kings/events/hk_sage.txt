@@ -1,0 +1,62 @@
+namespace = sage
+
+character_event = {
+	id = sage.0
+	desc = "DESC_S.0"
+	picture = "GFX_evt_comet"
+	
+	min_age = 16
+	capable_only = yes
+	
+	trigger = {
+		trait = bloodline_light
+		NOT = { religion_group = demon_group }
+		NOT = { trait = sage_light }
+		#NOT = { trait = sage_fire }
+		#NOT = { trait = sage_spirit }
+		#NOT = { trait = sage_ }
+		NOT= {
+			sage_light = {
+				is_alive = yes
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 100
+		modifier = { 
+			factor = 0.5
+			ai = no
+		}
+		modifier = {
+			factor = 0.5
+			trait = bloodline_light
+		}
+		modifier = {
+			factor = 0.5
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.5
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = race_hylian
+		}
+		modifier = {
+			factor = 0.5
+			trait = genius
+		}
+		modifier = {
+			factor = 0.5
+			trait = quick
+		}
+	}
+	immediate = {
+		add_trait = sage_light
+	}
+	option = {
+		name = "OPS0A"
+	}
+}

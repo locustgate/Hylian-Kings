@@ -137,6 +137,14 @@ knight_moria = {
 	
 	customizer = no
 }
+sage_light = {
+	learning = 4
+	diplomacy = 2
+	
+	immortal = yes
+	general_opinion_opinion = 20
+	combat_rating = 2
+}
 #learned traits
 #A former adventurer that has explored many dangerous locations
 #ex_adventurer = { #spent years exploring their home continent and helping those in need
