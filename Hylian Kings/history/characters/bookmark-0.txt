@@ -1,6 +1,7 @@
 #2987
 1 = {
 	name=Hylia
+	disallow_random_traits = yes 
 	historical=yes
 	dna="dkaaekhfgcb"
 	properties="cm0dgd000000"
@@ -23,6 +24,7 @@
 }
 2 = {
 	name=Link
+	disallow_random_traits = yes 
 	historical=yes
 	dna="cafijdibgbb"
 	properties="ce0dhd000000"
@@ -48,6 +50,7 @@
 }
 3 = {
 	name=Demise
+	disallow_random_traits = yes 
 	historical=yes
 	dynasty=14604
 	religion=demise_religion
@@ -71,6 +74,7 @@
 }
 4 = {
 	name=Malladus
+	disallow_random_traits = yes 
 	historical=yes
 	dynasty=14604
 	father=3
@@ -86,6 +90,7 @@
 }
 5 = {
 	name=Rupee
+	disallow_random_traits = yes 
 	historical=yes
 	dynasty=14604
 	father=3
@@ -101,6 +106,7 @@
 }
 6 = {
 	name=Gaepora
+	disallow_random_traits = yes 
 	historical=yes
 	dynasty=1
 	religion=hylia_religion
@@ -120,10 +126,12 @@
 }
 7 = {
 	name=Zelda
+	disallow_random_traits = yes 
 	historical=yes
 	dna="dkaaekhfgcb"
 	properties="cm0dgd000000"
 	female = yes
+	father=6
 	dynasty=1
 	religion=hylia_religion
 	culture=skylofter
@@ -145,6 +153,7 @@
 }
 8 = {
 	name=Link
+	disallow_random_traits = yes 
 	historical=yes
 	dynasty=14601
 	dna="cafijdibgbb"
@@ -170,6 +179,7 @@
 }
 9 = {
 	name=Fi
+	disallow_random_traits = yes 
 	historical=yes
 	female = yes
 	dynasty=14601
@@ -191,6 +201,7 @@
 }
 10 = {
 	name=Groose
+	disallow_random_traits = yes 
 	historical=yes
 	dynasty=1
 	religion=hylia_religion
@@ -206,6 +217,299 @@
 		death=yes
 	}
 }
+#3034 11 m
+11 = {
+	name=Goselle
+	disallow_random_traits = yes 
+	female=no
+	historical=yes
+	father=10
+	dynasty=1
+	religion=hylia_religion
+	culture=skylofter
+	trait=bloodline_goddess
+	3034.6.1={
+		birth=yes
+	}
+	3083.1.1={
+		death = yes
+	}
+}
+#3058 12 f
+12 = {
+	name=Kiki
+	disallow_random_traits = yes 
+	female=yes
+	historical=yes
+	father=11
+	dynasty=1
+	religion=hylia_religion
+	culture=skylofter
+	trait=bloodline_goddess
+	3058.6.1={
+		birth=yes
+	}
+	3125.1.1={
+		death = yes
+	}
+}
+#3082 13 m 
+13 = {
+	name=Pum
+	disallow_random_traits = yes 
+	female=no
+	historical=yes
+	mother=12
+	dynasty=1
+	religion=golden_goddesses
+	culture=skylofter
+	trait=bloodline_goddess
+	3082.6.1={
+		birth=yes
+	}
+	3149.1.1={
+		death = yes
+	}
+}
+#3109 zelda 14
+14 = {
+	name=Zelda
+	disallow_random_traits = yes 
+	historical=yes
+	dna="dkaaekhfgcb"
+	properties="cm0dgd000000"
+	female = yes
+	father=13
+	dynasty=1
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=race_hylian
+	trait=hylia_soul
+   trait=bloodline_goddess
+	trait=fair
+	trait=kind
+	trait=just
+	3109.1.1={
+		birth=yes
+	}
+	3157.1.1={
+		death=yes
+	}
+}
+#3129 m
+15 = {
+	name=Bindle
+	disallow_random_traits = yes 
+	female=no
+	historical=yes
+	mother=14
+	dynasty=1
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=bloodline_goddess
+	3129.6.1={
+		birth=yes
+	}
+	3188.1.1={
+		death = yes
+	}
+}
+#3150 m 
+16 = {
+	name=Borlov
+	disallow_random_traits = yes 
+	female=no
+	historical=yes
+	father=15
+	dynasty=1
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=bloodline_goddess
+	3150.6.1={
+		birth=yes
+	}
+	3211.1.1={
+		death = yes
+	}
+}
+#3176 f
+17 = {
+	name=Mama
+	disallow_random_traits = yes 
+	female=yes
+	historical=yes
+	father=16
+	dynasty=1
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=bloodline_goddess
+	3176.6.1={
+		birth=yes
+	}
+	3210.1.1={
+		death = yes
+	}
+}
+#3195 f
+18 = {
+	name=Maggie
+	disallow_random_traits = yes 
+	female=yes
+	historical=yes
+	mother=17
+	dynasty=1
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=bloodline_goddess
+	3195.6.1={
+		birth=yes
+	}
+	3252.1.1={
+		death = yes
+	}
+}
+#3219 m 
+19 = {
+	name=Gepper
+	disallow_random_traits = yes 
+	female=no
+	historical=yes
+	mother=18
+	dynasty=1
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=bloodline_goddess
+	3219.6.1={
+		birth=yes
+	}
+	3266.1.1={
+		death = yes
+	}
+}
+#3251 f 
+20 = {
+	name=Verona
+	disallow_random_traits = yes 
+	female=yes
+	father=19
+	historical=yes
+	dynasty=1
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=bloodline_goddess
+	3251.6.1={
+		birth=yes
+	}
+	3300.1.1={
+		death = yes
+	}
+}
+#3275 m 
+21  = {
+	name=Klaus
+	disallow_random_traits = yes 
+	female=no
+	historical=yes
+	mother=20
+	dynasty=1
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=bloodline_goddess
+	3275.6.1={
+		birth=yes
+	}
+	3311.1.1={
+		death = yes
+	}
+}
+#3278 m R
+ 22 = { 
+	name=Rauru
+	disallow_random_traits = yes 
+	historical = yes
+	dynasty=1
+	mother=20
+	diplomacy=7
+	martial=5
+	intrigue=10
+	stewardship=10
+	learning=15
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=mastermind_theologian
+	trait=bloodline_light
+	trait=race_hylian
+	trait=sage_light
+	trait=robust
+	trait=diligent
+	trait=stubborn
+	trait=patron_nayru
+	trait=kind
+	trait=erudite
+	trait=shrewd
+	3278.4.12={
+		birth=yes
+	}
+}
+#3295 zelda 13
+23 = {
+	name=Zelda
+	historical=yes
+	dna="dkaaekhfgcb"
+	properties="cm0dgd000000"
+	female = yes
+	dynasty=1
+	father=21
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=race_hylian
+	trait=hylia_soul
+   trait=bloodline_goddess
+	trait=fair
+	trait=kind
+	trait=just
+	3295.1.1={
+		birth=yes
+	}
+	3326.1.1={
+		death=yes
+	}
+}
+#3316 m 
+24 = {
+	name=Daltus
+	female=no
+	historical=yes
+	mother=23
+	dynasty=1
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=bloodline_goddess
+	3316.1.1={
+		birth=yes
+	}
+	3368.1.1={
+		death = yes
+	}
+}
+#3340 m 
+25 = {
+	name=Jim
+	female=no
+	historical=yes
+	father=24
+	dynasty=1
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=bloodline_goddess
+	3340.1.1={
+		birth=yes
+	}
+	3381.1.1={
+		death = yes
+	}
+}
+#3367 
 
 
 
