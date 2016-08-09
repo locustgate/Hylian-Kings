@@ -184,7 +184,7 @@ goddesses_religion = {
 		feminist = yes
 	}	
 	three_dragons = {
-		graphical_culture = norsengfx
+		graphical_culture = norsegfx
 
 		icon = 2
 		heresy_icon = 6
@@ -330,8 +330,34 @@ guardian_deity = {
 	male_names = {Oshus Leaf Jabu Jabun Valoo Deku Maku}
 	female_names = {Neri Ciela}
 
+	water_spirit = {
+	graphical_culture = norsegfx
+
+		icon = 14
+		heresy_icon = 15
+		
+		color = { 0 0 1 }
+
+		allow_rivermovement = yes
+		allow_female_priest = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		can_hold_temples = yes 
+		seafarer = yes		
+
+		priest_title = SHAMAN
+		scripture_name = SERENDADE_WATER
+		
+		high_god_name = GOD_WATER_SPIRITS
+		
+		god_names = {
+			GOD_WATER_SPIRITS GOD_SPIRITS
+		}
+	
+	}
 	jabu_jabu = {
 		graphical_culture = westerngfx
+		parent = water_spirit
 
 		icon = 14
 		heresy_icon = 15
@@ -356,7 +382,7 @@ guardian_deity = {
 	}
 	jabun_religion = {
 		graphical_culture = westerngfx
-		parent = jabu_jabu
+		parent = jabu_spirit
 
 		icon = 14
 		heresy_icon = 15
@@ -383,7 +409,7 @@ guardian_deity = {
 	}
 	valoo_religion = {
 		graphical_culture = norsegfx
-		parent = jabu_jabu
+		parent = water_spirit
 
 		icon = 11
 		heresy_icon = 12
@@ -480,7 +506,7 @@ guardian_deity = {
 		priests_can_inherit = no
 		priests_can_marry = yes 
 
-		intermarry = fire_spirits
+		intermarry = fire_spirit
 	}
 }
 minor_deity = {
@@ -574,7 +600,7 @@ minor_deity = {
 	}
 	volvagia_religion = {
 		graphical_culture = norsegfx
-		parent = fire_spirits
+		parent = fire_spirit
 
 		icon = 5
 		heresy_icon = 14
@@ -595,6 +621,24 @@ minor_deity = {
 		priests_can_inherit = no
 		
 		intermarry = demon_religion
+	}
+	wind_spirits = {
+		graphical_culture = norsegfx
+
+		icon = 11
+		heresy_icon = 12
+		
+		color = { 0.4 0.58 0.93 }
+
+		priest_title = SHAMAN
+		scripture_name = WIND_CONCERT
+
+		high_god_name = GOD_WINDS
+		god_names = {
+			GOD_WINDS GOD_WIND_SPIRITS GOD_WEST_WINDS GOD_EAST_WIND
+		}
+		priests_can_inherit = no
+		priests_can_marry = yes 
 	}
 	twin_frogs = {
 		graphical_culture = westerngfx
@@ -1237,7 +1281,7 @@ alien_religion = {
 		priests_can_marry = yes 
 	}
 	mask_cult = {
-		parent = goddesses_lorule
+	parent = goddesses_lorule
 		graphical_culture = norsegfx
 
 		icon = 2

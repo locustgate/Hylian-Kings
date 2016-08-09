@@ -52,6 +52,9 @@ GOD_HYLIA_REBORN;Hylia Reborn;Hylia Reborn;Hylia Reborn;;Hylia Renacer;;;;;;;;;x
 sheikahism_nihalism;Sheikahism Rejections;;;;;;;;;;;;x#translate
 sheikahism_nihalism_DESC;A heresy of Sheikahism that states that the goddess Hylia lied about her reincarnation.;;;;;;;;;;;;x#translate
 guardian_deity;Guardian Deities;Gardiens Divinités;Schutzgottheiten;;Deidades Guardianes;;;;;;;;;;x
+water_spirits;Water Spirits;;;;;;;;;;x
+water_spirits_DESC:The water spirit religion is wide and varried the worshippers revears the fae being that inhabit rivers, lakes, and oceans. Though no specific being is worshipped.;;;;;;;;;;x
+GOD_WATER_SPIRITS;Water Spirits;;;;;;;;;;x
 jabu_jabu;Jabu Jabu;Jabu Jabu;Jabu Jabu;;Jabu Jabu;;;;;;;;;;x
 jabu_jabu_DESC;Jabu Jabu is the guardian deity of the Zora, taking the form of a giant whale like creature. It is believed that Jabu Jabu brings fortune to his followers and protects them while they are near the water.;Jabu Jabu est la divinité gardienne de la Zora , prenant la forme d'une baleine géante comme la créature . On croit que Jabu Jabu apporte la fortune à ses disciples et les protège alors qu'ils sont près de l'eau .;Jabu Jabu ist die Hütergottheit der Zora , die die Form eines riesigen Wals ähnliche Kreatur . Es wird angenommen, dass Jabu Jabu bringt Glück, seine Anhänger und schützt sie, während sie in der Nähe des Wassers sind .;;Jabu Jabu es la deidad guardiana de los Zora , tomando la forma de una ballena gigante como criatura . Se cree que Jabu Jabu trae fortuna a sus seguidores y les protege mientras están cerca del agua.;;;;;;;;;x
 SERANADE_WATER;Serenade of Water;Serenade de l'Eau;Serenade of Water;;Serenata del Agua;;;;;x
@@ -105,6 +108,12 @@ twin_frogs_DESC;The Twin Frogs are a pair of minor deities Zephos, a forgiving g
 GOD_THE_TWINS;The Twins;les jumeaux;die Zwillinge;;los gemelos;;;;;;;;;x
 GOD_ZEPHOS;Zephos;Zephos;Zephos;;Zephos;;;;;;;;;x
 GOD_CYCLOS;Cyclos;Cyclos;Cyclos;;Cyclos;;;;;;;;;x
+wind_spirits;Wind Spirits;;;;;;;;;;x
+wind_spirits_DESC;The wind spirits is little more than a loose collection of ancestral religions worshipping the beings that are carried from on the winds or the actual winds themselves.;;;;;;;;;;x
+GOD_WINDS;Winds;;;;;;;;;;x
+GOD_WIND_SPIRITS;Wind Spirits;;;;;;;;;;x
+GOD_WEST_WINDS;West Winds;;;;;;;;;;x
+GOD_EAST_WINDS;East Winds;;;;;;;;;;x
 zephos_religion;Zephos;Zephos;Zephos;;Zephos;;;;;;;;;x
 zephos_religion_DESC;A heresy of the Twin Frogs religion, followers reject Cyclos and views him as little more than a demon.;Une hérésie de la religion Lits Frog , les adeptes rejettent Cyclos et vues lui comme peu plus d' un démon .;Eine Häresie der Twin Frog Religion Anhänger lehnen Cyclos und Ansichten ihn als wenig mehr als ein Dämon.;;Una herejía de la religión gemelo de la rana , los seguidores rechazan Cyclos y puntos de vista él como poco más que un demonio.;;;;;;;;;x
 WIND_REQUIEM;Wind's Requiem;Requiem de Vent;Wind Requiem;;Réquiem de viento;;;;;;;;;x
@@ -221,8 +230,15 @@ fierce_deity;Fierce Deity;Divinité Fierce;Fierce Deity;;Deidad Fierce;;;;;;;;;x
 fierce_deity_DESC;The Fierce Deity was a god like being that fought Majora, however he did not care what damage he caused and for the good of Termina the Goddess of Time sealed him within a mask, the act draining her of her divinity.;La divinité féroce était un dieu comme être qui a combattu Majora , cependant , il se fichait de ce préjudice qu'il a causé et pour le bien de Termina la Déesse du Temps lui scellé dans un masque , l'acte lui vidange de sa divinité.;Der Fierce Deity war ein Gott wie Wesen, Majora gekämpft , aber war es ihm egal , welchen Schaden er verursacht und für das Wohl der Termina die Göttin der Zeit versiegelt ihn innerhalb einer Maske , die Handlung Entleeren sie an ihre Göttlichkeit.;;La Fiera Deidad era un dios como ser que luchó Majora , sin embargo él no le importaba lo que causó daños y para el bien de Termina la Diosa de Time lo sellado dentro de una máscara , el acto de drenaje de su de su divinidad.;;;;;;;;;x
 RAGE;Rage;Rage;Wut;;Rabia;;;;;;;;;x
 DEITY_WRATH;The Deity's Wrath;Colère de la Divinité;Der Gottheit Wrath;;Ira del Deidad;;;;;;;;;x
-
 #titles
+temple_king;High Priest;;;;;;;;;;;;;x
+temple_duke;Great-Priest;;;;;;;;;;;;;x
+temple_count;Arch-Priest;;;;;;;;;;;;;x
+temple_baron;Priest;;;;;;;;;;;;;x
+temple_king_of;Theocracy of;;;;;;;;;;;;;x
+temple_duchy_of;High Temple of;;;;;;;;;;;;;x
+temple_county_of;Great Temple of;;;;;;;;;;;;;x
+temple_barony_of;Temple of;;;;;;;;;;;;;x
 temple_king_sheikahism;Monk;;;;;;;;;;;;;x
 temple_king_female_sheikahism;Nun;;;;;;;;;;;;;x
 temple_duke_sheikahism;Monk;;;;;;;;;;;;;x
