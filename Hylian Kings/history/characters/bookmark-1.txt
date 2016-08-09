@@ -2,6 +2,8 @@
 1000 = { 
 	name=Gustaf
 	disallow_random_traits = yes 
+	dna="bgeib0cdaa0"
+	properties="ie0bhabebbbb"
 	historical = yes
 	dynasty=1
 	father=25
@@ -37,8 +39,8 @@
 }
 1001 = {
 	name=Zelda 
-	dna="ddagd0laac0"
-	properties="pm0f0kbebbbb"
+	dna="bmagc0mdaa0"
+	properties="ie0b0abebbbb"
 	historical = yes
 	dynasty=1
 	female=yes
@@ -54,6 +56,7 @@
 		birth=yes
 	}
 }
+#1002 zelda's brother
 1003 = {
 	name=Flurris
 	historical = yes
@@ -82,15 +85,21 @@
 		birth=yes
 	}
 }
-1005 = {
+1005 = {#k minish d_royal c_ crypt, fields, north road, minish hyrule
 	name=Flurris
+	disallow_random_traits=yes
 	historical = yes
 	dynasty=6001
+	diplomacy=10
+	martial=5
+	intrigue=5
+	stewardship=9
+	learning=4
 	religion=light_force
 	culture=wind_tribe
 	trait=underhanded_rogue
 	trait=race_wind_tribe
-	#trait=warrior_3
+	#trait=warrior_1
 	#trait=mage_3
 	3331.3.26={
 		birth=yes
@@ -107,6 +116,12 @@
 	name=Chell
 	historical = yes
 	female=yes
+	diplomacy=10
+	martial=5
+	intrigue=10
+	stewardship=5
+	learning=5
+	dynasty=6017
 	religion=light_force
 	culture=wind_tribe
 	trait=flamboyant_schemer
@@ -118,16 +133,21 @@
 		birth=yes
 	}
    3347.8.2 = {
-		add_spouse=1006
+		add_spouse=1005
 	}
 	3403.1.1={
 		death={
 		death_reason= death_battle}
 	}
 }
-1007 = {
+1007 = { c western wood highlands valley
 	name=Strato
 	historical = yes
+	diplomacy=8
+	martial=10
+	intrigue=5
+	stewardship=5
+	learning=5
 	dynasty=6001
 	father=1005
 	mother=1006
@@ -140,17 +160,23 @@
 	3349.4.28={
 		birth=yes
 	}
-   3385.4.30 = {
-		add_spouse=x
-	}
+  # 3385.4.30 = {
+	#	add_spouse=x
+	#}
 	3403.1.1={
 		death={
 		death_reason= death_battle}
 	}
 }
-1008 = {
+1008 = { #d castor c wind city tower palace fortress
 	name=Mazin
+	disallow_random_traits=yes
 	historical = yes
+	diplomacy=15
+	martial=8
+	intrigue=5
+	stewardship=7
+	learning=5
 	dynasty=6001
 	father=1005
 	mother=1006
@@ -170,10 +196,21 @@
 	}
 }
 1009 = {
-	name=Aurora
+	name=Aurora	
+	disallow_random_traits=yes
 	historical = yes
+	diplomacy=8
+	martial=4
+	intrigue=5
+	stewardship=10
+	learning=10
 	dynasty=6001
 	female=yes
+	diplomacy=13
+	martial=8
+	intrigue=5
+	stewardship=7
+	learning=5
 	father=1005
 	mother=1006
 	religion=light_force
@@ -183,6 +220,7 @@
 	#trait=mage_2
 	trait=attractive
 	trait = feeble
+	trait=shrewd
 	3369.4.28={
 		birth=yes
 	}
@@ -1599,6 +1637,291 @@
 	trait=patron_nayru
 	3366.7.18={
 		birth=yes
+	}
+}
+1073 = { #north south central castor wilds
+	name=Cirro
+	historical = yes
+	dynasty=6024
+	religion=light_force
+	culture=wind_tribe
+	trait=charismatic_negotiator 
+	trait=race_wind_tribe
+	#trait=mage_3
+	3366.7.21={
+		birth=yes
+	}
+}
+1074 = { #d minish c_lon,minish,easternhill,smith
+	name=Thermo
+	disallow_random_traits=yes
+	historical=yes
+	diplomacy=7
+	martial=5
+	intrigue=6
+	stewardship=10
+	learning=7
+	dynasty=6034
+	religion=light_force
+	culture=wind_tribe
+	trait=fortune_builder
+	trait=race_wind_tribe
+	trait=greedy
+	trait=diligant
+	trait=ambitious
+	trait=cynical
+	3365.1.7={
+		birth=yes
+	}
+}
+1075 = { #south fiel north plains
+	name=Caprice
+	historical=yes
+	dynasty=6031
+	religion=light_force
+	culture=wind_tribe
+	trait=underhanded_rogue
+	trait=race_wind_tribe
+	3370.4.17={
+		birth=yes
+	}
+}
+1076 = { #central east south west plains
+	name=Meseria
+	historical=yes
+	dynasty=6047
+	religion=light_force
+	culture=wind_tribe
+	trait=charismatic_negotiator
+	trait=race_wind_tribe
+	3368.7.7={
+		birth=yes
+	}
+}
+1077 = { #bridge
+	name=Mazin
+	historical=yes
+	dynasty=6021
+	religion=light_force
+	culture=wind_tribe
+	trait=underhanded_rogue
+	trait=race_wind_tribe
+	3370.4.17={
+		birth=yes
+	}
+}
+1078 = {  #keatonia freehold
+	name=Kaito
+	disallow_random_traits=yes
+	historical=yes
+	diplomacy=7
+	martial=5
+	intrigue=14
+	stewardship=6
+	learning=4
+	dynasty=10401
+	religion=demise_religion
+	culture=keaton
+	trait=elusive_shadow
+	trait=race_keaton
+	trait=diligant
+	trait=cruel
+	trait=zealous
+	trait=ambitious
+	trait=decietful
+	3361.5.27={
+		birth=yes
+	}
+	3377.5.29 ={
+		add_spouse = 1079
+	}
+}
+1079 = { 
+	name=Hana
+	female=yes
+	historical=yes
+	dynasty=10421
+	religion=demise_religion
+	culture=keaton
+	trait=race_keaton
+	3361.4.8={
+		birth=yes
+	}
+	3377.5.29 ={
+		add_spouse = 1078
+	}
+}
+1080 = { 
+	name=Hiroto
+	historical=yes
+	mother=1079
+	father=1088
+	dynasty=10401
+	religion=demise_religion
+	culture=keaton
+	trait=race_keaton
+	3378.8.12={
+		birth=yes
+	}
+}
+1081 = { 
+	name=Ichirou
+	historical=yes
+	mother=1079
+	father=1088
+	dynasty=10401
+	religion=demise_religion
+	culture=keaton
+	trait=race_keaton
+	3380.9.17={
+		birth=yes
+	}
+}
+1082 = { 
+	name=Hikari
+	historical=yes
+	female=yes
+	mother=1079
+	father=1088
+	dynasty=10401
+	religion=demise_religion
+	culture=keaton
+	trait=race_keaton
+	3382.12.13={
+		birth=yes
+	}
+}
+1083 = { 
+	name=Hiroto
+	historical=yes
+	mother=1079
+	father=1088
+	dynasty=10401
+	religion=demise_religion
+	culture=keaton
+	trait=race_keaton
+	3384.5.17={
+		birth=yes
+	}
+}
+1084 = { 
+	name=Kaoru
+	historical=yes
+	female=yes
+	mother=1079
+	father=1088
+	dynasty=10401
+	religion=demise_religion
+	culture=keaton
+	trait=race_keaton
+	3386.12.1={
+		birth=yes
+	}
+}
+1085 = { 
+	name=Gori
+	disallow_random_traits = yes
+	historical = yes
+	female=no
+	dynasty=7400
+	diplomacy=7
+	martial=8
+	intrigue=4
+	stewardship=10
+	learning=7
+	religion=fire_spirit
+	culture=crenal_goron
+	trait=midas_touched
+	trait=race_goron
+	trait=decietful
+	trait=strong
+	trait=gregarious
+	trait=greedy
+	trait=diligant
+	3287.8.14={
+		birth=yes
+	}
+	3374.1.2 = {
+		add_spouse = 1086
+	}
+}
+1086 = { 
+	name=Dozin
+	historical = yes
+	female=yes
+	dynasty=7347
+	religion=fire_spirit
+	culture=crenal_goron
+	trait=race_goron
+	3287.8.14={
+		birth=yes
+	}
+	3374.1.2 = {
+		add_spouse = 1085
+	}
+}
+1087 = { 
+	name=Amoto
+	historical = yes
+	mother=1086
+	father=1085
+	female=no
+	dynasty=7400
+	religion=fire_spirit
+	culture=crenal_goron
+	trait=race_goron
+	3380.2.24={
+		birth=yes
+	}
+}
+1088 = { 
+	name=Ezon
+	historical = yes
+	female=no
+	dynasty=7347
+	religion=fire_spirit
+	culture=crenal_goron
+	trait=race_goron
+	3305.4.24={
+		birth=yes
+	}
+}
+1089 = { 
+	name=Furemo
+	historical = yes
+	female=no
+	dynasty=14609
+	religion=wind_spirits
+	culture=girrin
+	trait=race_girrin
+	3305.4.24={
+		birth=yes
+	}
+}
+1090 = {  #trillby
+	name=Katsu
+	disallow_random_traits=yes
+	historical=yes
+	diplomacy=6
+	martial=14
+	intrigue=5
+	stewardship=8
+	learning=4
+	dynasty=10441
+	religion=demise_religion
+	culture=keaton
+	trait=skilled_tactician
+	trait=race_keaton
+	trait=brave
+	trait=cruel
+	trait=wroth
+	trait=patiant
+	trait=decietful
+	3361.5.27={
+		birth=yes
+	}
+	3377.5.29 ={
+		add_spouse = 1079
 	}
 }
 #xx = {

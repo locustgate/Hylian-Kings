@@ -214,6 +214,15 @@ e_hyrule_central = {
 				b_shadow_temple = {}
 				b_shadow_city = {}
 			}
+			c_mountain_gate = {
+				color={ 139 117 0 }
+				color2={ 139 139 131  }
+				
+				b_mountain_gate = {}
+				b_ermom = {
+					#lizalfos =
+				}
+			}
 		}
 		d_west_hyrule_field = {
 			color={ 1 171 74 }
@@ -355,6 +364,90 @@ e_hyrule_central = {
 		d_ordon_plains = {
 		}
 	}
+	k_zora_domain = {
+		color={ 255 127 80 }
+		color2={ 234 212 77 }
+		capital = 474 # Zora Domain
+
+		d_north_domain = {
+			color={ 0 214 253 }
+			color2={ 234 212 77 }
+			capital = 568 #North Zora Domain
+		}
+		d_south_domain = {
+			color={ 188 0 57 }
+			color2={ 234 212 77 }
+			capital = 474 # Zora Domain
+			c_zora_fountain = {
+				color={ 39 64 139 }
+				color2={ 202 225 255 }
+				
+				holy_site = jabu_jabu
+				holy_site = jabun_religion
+				
+				b_fountain_gate = {}
+				b_jabu_jabus_platform = {}
+				b_zora_fountain = {}
+			}
+			c_ancient_tunnels = {
+				color={ 135 38 87 }
+				color2={ 255 255 255  }
+				
+				b_wisho = {
+					#goron = 
+					#lake_zora=
+				}
+				b_wazear= {
+					#goron = 
+				}
+				b_vazas
+			}
+			c_ice_caverns = {
+				color={ 176 226 255 }
+				color2={ 255 255 255 }	
+				
+				b_ice_castle = {}
+				b_ice_cavern = {}
+				b_runoff_cave = {}
+			}
+			c_zora_domain = {
+				color={ 65 105 225 }
+				color2={ 255 215 0 }
+
+				b_upper_zora_caves = {}
+				b_lower_zora_cavern = {}
+				b_royal_water_fall = {}
+				b_cavern_entrance = {}
+			}
+			c_sleepless_waterfalls = {
+				color={ 151 255 255 }
+				color2={ 255 255 255 }		
+
+				b_zora_gate = {}
+				b_zora_village = {}
+				b_pato = {}
+				b_fajon = {}
+				b_panana = {}
+			}
+			c_frog_marsh = {
+				color={ 127 255 212 }
+				color2={ 255 255 255 }	
+
+				b_fatas = {}
+				b_roko = {}
+				b_roji = {}
+				b_elaju = {}
+			}
+			c_zora_river = {
+				color={ 39 64 139 }
+				color2={ 255 255 255 }	
+				
+				b_river_gate = {}
+				b_rotu = {}
+				b_muna = {}
+			}
+		}
+	}
 	k_west_death_mountains = {
 		color={ 91 100 100 }
 		color2={ 255 42 0 }
@@ -369,15 +462,6 @@ e_hyrule_central = {
 			color={ 71 6 4 }
 			color2={ 168 5 0 }
 			capital = 466 # Goron City
-			c_mountain_gate = {
-				color={ 139 117 0 }
-				color2={ 139 139 131  }
-				
-				b_mountain_gate = {}
-				b_ermom = {
-					#lizalfos =
-				}
-			}
 			c_dodongo_cavern = {
 				color={ 227 207 87 }
 				color2={ 139 125 107  }
@@ -466,75 +550,399 @@ e_hyrule_central = {
 			}
 		}
 	}
-	
-	k_zora_domain = {
-		color={ 255 127 80 }
-		color2={ 234 212 77 }
-		capital = 474 # Zora Domain
+}
 
-		d_north_domain = {
-			color={ 0 214 253 }
-			color2={ 234 212 77 }
-			capital = 568 #North Zora Domain
+k_hyrule_minish = { #Minish
+		color={ 82 184 220}
+		color2={ 253 138 119 }
+		capital = 623 # Middlesex
+		dignity = 5 # Counted as having this many more counties than it does
+		
+		d_minish_fields= {
+			color={ 135 206 235 }
+			color2={ 176 23 31 }
+			capital = 631 # Middlesex
+			c_lon_lon_field = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+								
+				b_wind_ranch = {
+					#hyrulean = Lon Lon Ranch
+				}
+				b_marda = {}
+				b_more = {}
+				b_nanin = {}
+			}
+			c_minish_town = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_minish_guard_post = {
+					#wind_tribe = Wind Town Guard Post
+				}
+				b_minish_town = {
+					#wind_tribe = Wind Town
+				}
+				b_minish_temple = {
+					##wind_tribe = Wind Temple
+				}
+			}
+			c_eastern_hills = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_rodia = {}
+				b_tarya = {}
+				b_ogine = {}
+				b_muru = {}
+			}
+			c_smith_field = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_crapu = {}
+				b_turo = {}
+				b_mulin = {}
+				b_monal = {}
+			}
+			c_north_minish_field = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_dinon = {}
+				b_doosh = {}
+				b_maure = {}
+				b_edoti = {}
+			}
+			c_south_minish_field = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_rorin = {}
+				b_darco = {}
+				b_otalu = {}
+			}
+			c_west_wind_bridge = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_west_bridge_wind = {}
+				b_milu = {}
+				b_naudu = {}
+				
+			}
+			c_east_wind_bridge = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_west_bridge_gate = {}
+				b_kilu = {}
+				b_mulo = {}
+			}
 		}
-		d_south_domain = {
-			color={ 188 0 57 }
-			color2={ 234 212 77 }
-			capital = 474 # Zora Domain
-			c_zora_fountain = {
-				color={ 39 64 139 }
-				color2={ 202 225 255 }
+		d_minish_plains = {
+			c_north_minish_plains = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
 				
-				holy_site = jabu_jabu
-				holy_site = jabun_religion
-				
-				b_fountain_gate = {}
-				b_jabu_jabus_platform = {}
-				b_zora_fountain = {}
+				b_karia = {}
+				b_eryodu = {}
+				b_rinin = {}
+				b_oradu = {}
+				b_sarare = {}
 			}
-			c_ice_caverns = {
-				color={ 176 226 255 }
-				color2={ 255 255 255 }	
+			c_central_minish_plains = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
 				
-				b_ice_castle = {}
-				b_ice_cavern = {}
-				b_runoff_cave = {}
-			}
-			c_zora_domain = {
-				color={ 65 105 225 }
-				color2={ 255 215 0 }
+				b_maldo = {}
+				b_obarco = {}
+				b_mul = {}
+				b_tare = {}
 
-				b_upper_zora_caves = {}
-				b_lower_zora_cavern = {}
-				b_royal_water_fall = {}
-				b_cavern_entrance = {}
 			}
-			c_sleepless_waterfalls = {
-				color={ 151 255 255 }
-				color2={ 255 255 255 }		
-
-				b_zora_gate = {}
-				b_zora_village = {}
-				b_pato = {}
-				b_fajon = {}
-				b_panana = {}
-			}
-			c_frog_marsh = {
-				color={ 127 255 212 }
-				color2={ 255 255 255 }	
-
-				b_fatas = {}
-				b_roko = {}
-				b_roji = {}
-				b_elaju = {}
-			}
-			c_zora_river = {
-				color={ 39 64 139 }
-				color2={ 255 255 255 }	
+			c_east_minish_plains = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
 				
-				b_river_gate = {}
-				b_rotu = {}
-				b_muna = {}
+				b_munabi = {}
+				b_daru = {}
+				b_rulal = {}
+			}
+			c_south_minish_plains = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_kalal = {}
+				b_fopolu = {}
+				b_mura = {}
+				b_ogin = {}
+			}
+			c_west_minish_plains = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_nin = {}
+				b_ere = {}
+				b_ligokan = {}
+			}
+		}
+		d_minish_mountains = {
+			color={ 178 34 34 }
+			color2={ 30 30 30 }
+			capital = 610 # Middlesex
+			c_minish_mines = {
+				color={ 178 34 34 }
+				color2={ 30 30 30 }
+				
+				b_minish_mines = {}
+				b_hamor = {}
+				b_jam = {}
+			}
+			c_mount_crenel = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_taszkas = {}
+				b_ekatta = {}
+				b_hamor = {}
+				b_paruncer = {}
+			}
+			c_crenel_base = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_athamonc = {}
+				b_jaror = {}
+			}
+			c_veil_falls = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_bappe = {}
+				b_cadra = {}
+				b_erar = {}
+			}
+			c_veil_mountain = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_ador = {}
+				b_toppe = {}
+				b_arunc = {}
+				b_karor = {}
+			}
+		}
+		d_keatonia = {	
+			color={ 227 168 105 }
+			color2={ 176 23 31 }
+			capital = 637 # Middlesex	
+			c_keatonia = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_keatonia = {}
+				b_keatonan = {}
+				b_keato = {}
+			}
+			c_earth_temple = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_koba = {}
+				b_earth_temple = {}
+			}
+			c_jewel_mines = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_mine_entrance = {}
+				b_mining_town = {}
+				b_jewel_sanctuary = {}
+			}
+		}
+		d_castor_wilds= { #10#
+			color={ 253 138 119 }
+			color2={ 0 0 0 }
+			capital = 623 # Middlesex
+			c_north_castor_wilds = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_sobo = {}
+				b_fardan = {}
+				b_tinin = {}
+			}
+			c_south_castor_wilds = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_edabe = {}
+				b_oron = {}
+			}
+			c_wind_city = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_wind_city_gate  = {}
+				b_wind_city = {}
+				b_maral = {}
+			}
+			c_fortress_of_winds = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_fortress_of_winds = {}
+				b_dobe = {}
+			}
+			c_tower_of_winds = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_tower_winds = {}
+				b_fodia = {}
+			}
+			c_palace_of_winds = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_palace_winds = {}
+				b_faton = {}
+				b_pin = {}
+			}
+			c_central_castor_wilds = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_aru = {}
+				b_repu = {}
+			}
+		}
+		d_royal_valey= {#
+			color={ 82 184 220}
+			color2={ 0 0 0 }
+			capital = 623 # Middlesex
+			c_royal_crypt = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_crypt_entrance = {}
+				b_royal_crypts = {}
+				b_crypt_town = {}
+			}
+			c_north_royal_road = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_lere = {}
+				b_dobal = {}
+				b_morin = {}
+				b_pirin = {}
+			}
+			c_minish_hyrule_field = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+			}
+			c_western_wood = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_falal = {}
+				b_orore = {}
+				b_daro = {}
+				b_nirore = {}
+				b_edari  = {}
+			}
+			c_trilby_highlands = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_norin = {}
+				b_koryu = {}
+				b_norin = {}
+				b_mutosh = {}				
+			}
+			c_royal_valley = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_kabo = {}
+				b_kinin = {}
+				b_sipia = {}
+				b_marudan = {}
+			}
+			c_minish_hyrule_castle = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_minish_castle = {
+					#wind_tribe = Wind Castle
+				}
+				b_elemental_sanctuary = {}
+			}
+		}
+		d_minish_savannah = {
+			color={ 189 183 107 }
+			color2={ 139 136 120 }
+			capital = 644
+			c_acacia_point = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_acacia_point = {}
+				b_siria = {}
+				b_masin = {}
+				b_mubin = {}
+				b_kire = {}
+			}
+			c_west_acacia_savannah = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_onore = {}
+				b_kanon = {}
+				b_orire = {}
+				b_mogin = {}
+			}
+			c_south_acacia_savannah = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_lanin = {}
+				b_crudu = {}
+				b_dokoon = {}
+				b_edosh = {}
+			}
+			c_east_acacia_savannah = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_ninin = {}
+				b_hyran = {}
+				b_egarin = {}
+			}
+			c_north_acacia_savannah = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_tatul = {}
+				b_ataro = {}
+				b_korin = {}
+				b_muryi = {}
+			}
+			c_acacia_island = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_acacia_resort = {}
+				b_narin = {}
+			}
+			c_port_minish = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_port_minish = {}
+				b_port_resort = {}
 			}
 		}
 	}
@@ -669,5 +1077,34 @@ k_koridai = {
 			b_girla = {}
 			b_fatra = {}
 		}	
+	}
+}
+e_sea_tree = {
+	k_minish = {
+		color={ 82 184 220}
+		color2={ 0 100 0 }
+		capital = 666 
+		d_minish = {
+			color={ 82 184 220}
+			color2={ 0 100 0 }
+			capital = 666 #Middlesex
+			c_hylia_treehouses  = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_nanin = {}
+				b_ogiru = {}
+				b_edinu = {}
+			}
+			c_lakeside_retreat = {	
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_minish_retreat = {}
+				b_soro = {}
+				b_manane = {}
+				b_kirde = {}
+			}
+		}
 	}
 }
