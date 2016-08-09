@@ -974,7 +974,7 @@ goron_group = {
 		founder_named_dynasties = yes
 		modifier = default_culture_modifier
 	}
-	crenal_goron = {
+	crenel_goron = {
 
 		graphical_cultures = { southerngorongfx } 
 		
@@ -1268,8 +1268,8 @@ mammalian_group = {
 				
 		modifier = default_culture_modifier
 	}
-	kirife = {
-		graphical_cultures = { kirafegfx }
+	girrin = {
+		graphical_cultures = { girringfx }
 		
 		color = { 0.8 0.3 0.1 }
 		
