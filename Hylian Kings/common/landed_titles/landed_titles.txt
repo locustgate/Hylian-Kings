@@ -45,28 +45,6 @@ e_hyrule_central = {
 			}
 		}
 	}
-
-	k_hyrule = {
-		color={ 204 0 0 }
-		color2={ 255 255 255 }
-		capital = 559 # Middlesex
-		dignity = 10 # Counted as having this many more counties than it does
-			
-		#late_hyrulean = Hyrule
-		hyrulean = North Hyrule
-		kakarikon = Kakariko
-		eldin = Eldin
-		ordonion = North Ordon
-		
-		d_faron = {
-		}
-		d_eldin = {
-		}
-		d_lanayru = {
-		}
-		d_peak = {
-		}
-	}
 	k_sacred_grove = {
 		color={ 145 196 251 }
 		color2={ 255 255 255 }
@@ -353,27 +331,11 @@ e_hyrule_central = {
 			}
 		}
 	}
-	k_ordon = {
-		color={ 172 67 46 }
-		color2={ 255 255 255 }
-		capital = 32 # Middlesex
-		
-		d_ordon_woods = {
-		}
-		d_ordon_valley
-		d_ordon_plains = {
-		}
-	}
 	k_zora_domain = {
 		color={ 255 127 80 }
 		color2={ 234 212 77 }
 		capital = 474 # Zora Domain
 
-		d_north_domain = {
-			color={ 0 214 253 }
-			color2={ 234 212 77 }
-			capital = 568 #North Zora Domain
-		}
 		d_south_domain = {
 			color={ 188 0 57 }
 			color2={ 234 212 77 }
@@ -452,12 +414,7 @@ e_hyrule_central = {
 		color={ 91 100 100 }
 		color2={ 255 42 0 }
 		capital = 540 # Great Death Mountain
-		d_great_death_mountains = {
-			color={ 91 100 100 }
-			color2={ 255 42 0 }
-			capital = 540 # Great Death Mountain
-
-		}
+		
 		d_death_mountain = {
 			color={ 71 6 4 }
 			color2={ 168 5 0 }
@@ -536,24 +493,12 @@ e_hyrule_central = {
 				b_fire_temple = {}
 				b_spring_wisdom = {}
 			}
-			c_ancient_tunnels = {
-				color={ 135 38 87 }
-				color2={ 255 255 255  }
-				
-				b_wisho = {
-					#goron = 
-				}
-				b_wazear= {
-					#goron = 
-				}
-				b_vazas
-			}
 		}
 	}
 }
 
 k_hyrule_minish = { #Minish
-		color={ 82 184 220}
+		color={ 82 184 220 }
 		color2={ 253 138 119 }
 		capital = 623 # Middlesex
 		dignity = 5 # Counted as having this many more counties than it does
@@ -563,8 +508,8 @@ k_hyrule_minish = { #Minish
 			color2={ 176 23 31 }
 			capital = 631 # Middlesex
 			c_lon_lon_field = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 135 206 235 }
+				color2={ 255 255 255 }
 								
 				b_wind_ranch = {
 					#hyrulean = Lon Lon Ranch
@@ -574,8 +519,8 @@ k_hyrule_minish = { #Minish
 				b_nanin = {}
 			}
 			c_minish_town = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 253 138 119 }
+				color2={ 255 255 255 }
 				
 				b_minish_guard_post = {
 					#wind_tribe = Wind Town Guard Post
@@ -588,8 +533,8 @@ k_hyrule_minish = { #Minish
 				}
 			}
 			c_eastern_hills = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 176 226 255 }
+				color2={ 250 128 114 }
 				
 				b_rodia = {}
 				b_tarya = {}
@@ -597,8 +542,8 @@ k_hyrule_minish = { #Minish
 				b_muru = {}
 			}
 			c_smith_field = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 151 255 255 }
+				color2={ 47 79 79 }
 				
 				b_crapu = {}
 				b_turo = {}
@@ -606,8 +551,8 @@ k_hyrule_minish = { #Minish
 				b_monal = {}
 			}
 			c_north_minish_field = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 224 255 255 }
+				color2={ 176 23 31 }
 				
 				b_dinon = {}
 				b_doosh = {}
@@ -615,16 +560,41 @@ k_hyrule_minish = { #Minish
 				b_edoti = {}
 			}
 			c_south_minish_field = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 99 184 255 }
+				color2={ 138 51 36 }
 				
 				b_rorin = {}
 				b_darco = {}
 				b_otalu = {}
 			}
+			c_trilby_highlands = {
+				color={ 0 206 209 }
+				color2={ 47 79 79 }
+				
+				b_norin = {}
+				b_koryu = {}
+				b_norin = {}
+				b_mutosh = {}				
+			}
+			c_western_wood = {
+				color={ 0 134 193 }
+				color2={ 47 79 79 }
+				
+				b_falal = {}
+				b_orore = {}
+				b_daro = {}
+				b_nirore = {}
+				b_edari  = {}
+			}
+		}
+		d_minish_plains = {
+			color={ 205 79 57 }
+			color2={ 255 255 255 }		
+			capital=640
+			
 			c_west_wind_bridge = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 125 158 192 }
+				color2={ 128 0 0 }
 				
 				b_west_bridge_wind = {}
 				b_milu = {}
@@ -632,18 +602,17 @@ k_hyrule_minish = { #Minish
 				
 			}
 			c_east_wind_bridge = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 0 255 255 }
+				color2={ 255 255 255 }
 				
 				b_west_bridge_gate = {}
 				b_kilu = {}
 				b_mulo = {}
 			}
-		}
-		d_minish_plains = {
+			
 			c_north_minish_plains = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 255 0 0 }
+				color2={ 113 113 198 }
 				
 				b_karia = {}
 				b_eryodu = {}
@@ -652,8 +621,8 @@ k_hyrule_minish = { #Minish
 				b_sarare = {}
 			}
 			c_central_minish_plains = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 255 64 64 }
+				color2={ 187 255 255 }
 				
 				b_maldo = {}
 				b_obarco = {}
@@ -662,16 +631,16 @@ k_hyrule_minish = { #Minish
 
 			}
 			c_east_minish_plains = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 238 59 59 }
+				color2={ 51 161 201 }
 				
 				b_munabi = {}
 				b_daru = {}
 				b_rulal = {}
 			}
 			c_south_minish_plains = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 205 92 92 }
+				color2={ 152 245 238 }
 				
 				b_kalal = {}
 				b_fopolu = {}
@@ -679,8 +648,8 @@ k_hyrule_minish = { #Minish
 				b_ogin = {}
 			}
 			c_west_minish_plains = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 205 85 85 }
+				color2={ 0 154 205 }
 				
 				b_nin = {}
 				b_ere = {}
@@ -700,8 +669,8 @@ k_hyrule_minish = { #Minish
 				b_jam = {}
 			}
 			c_mount_crenel = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 255 69 0 }
+				color2={ 139 139 131}
 				
 				b_taszkas = {}
 				b_ekatta = {}
@@ -709,23 +678,23 @@ k_hyrule_minish = { #Minish
 				b_paruncer = {}
 			}
 			c_crenel_base = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 205 128 128 }
+				color2={ 128 128 105 }
 				
 				b_athamonc = {}
 				b_jaror = {}
 			}
 			c_veil_falls = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 139 26 26 }
+				color2={ 139 119 101 }
 				
 				b_bappe = {}
 				b_cadra = {}
 				b_erar = {}
 			}
 			c_veil_mountain = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 139 0 0 }
+				color2={ 139 143 130 }
 				
 				b_ador = {}
 				b_toppe = {}
@@ -738,23 +707,23 @@ k_hyrule_minish = { #Minish
 			color2={ 176 23 31 }
 			capital = 637 # Middlesex	
 			c_keatonia = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 227 168 105 }
+				color2={ 128 128 0 }
 				
 				b_keatonia = {}
 				b_keatonan = {}
 				b_keato = {}
 			}
 			c_earth_temple = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 205 205 0 }
+				color2={ 139 105 20 }
 				
 				b_koba = {}
 				b_earth_temple = {}
 			}
 			c_jewel_mines = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 139 90 0 }
+				color2={ 252 230 201 }
 				
 				b_mine_entrance = {}
 				b_mining_town = {}
@@ -766,105 +735,82 @@ k_hyrule_minish = { #Minish
 			color2={ 0 0 0 }
 			capital = 623 # Middlesex
 			c_north_castor_wilds = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 227 168 105 }
+				color2={ 82 184 220 }
 				
 				b_sobo = {}
 				b_fardan = {}
 				b_tinin = {}
 			}
 			c_south_castor_wilds = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 237 145 33 }
+				color2={ 82 184 220 }
 				
 				b_edabe = {}
 				b_oron = {}
 			}
 			c_wind_city = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 238 118 0 }
+				color2={ 82 184 220 }
 				
 				b_wind_city_gate  = {}
 				b_wind_city = {}
 				b_maral = {}
 			}
 			c_fortress_of_winds = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 205 133 63 }
+				color2={ 82 184 220 }
 				
 				b_fortress_of_winds = {}
 				b_dobe = {}
 			}
 			c_tower_of_winds = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 255 218 185 }
+				color2={ 82 184 220 }
 				
 				b_tower_winds = {}
 				b_fodia = {}
 			}
 			c_palace_of_winds = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 255 153 18 }
+				color2={ 82 184 220 }
 				
 				b_palace_winds = {}
 				b_faton = {}
 				b_pin = {}
 			}
 			c_central_castor_wilds = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 205 133 0 }
+				color2={ 82 184 220 }
 				
 				b_aru = {}
 				b_repu = {}
 			}
 		}
-		d_royal_valey= {#
-			color={ 82 184 220}
+		d_royal_valley= {#
+			color={ 82 184 220 }
 			color2={ 0 0 0 }
 			capital = 623 # Middlesex
 			c_royal_crypt = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 47 79 79 }
+				color2={ 82 184 220 }
 				
 				b_crypt_entrance = {}
 				b_royal_crypts = {}
 				b_crypt_town = {}
 			}
 			c_north_royal_road = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 105 105 105 }
+				color2={ 82 184 220 }
 				
 				b_lere = {}
 				b_dobal = {}
 				b_morin = {}
 				b_pirin = {}
 			}
-			c_minish_hyrule_field = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
-			}
-			c_western_wood = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
-				
-				b_falal = {}
-				b_orore = {}
-				b_daro = {}
-				b_nirore = {}
-				b_edari  = {}
-			}
-			c_trilby_highlands = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
-				
-				b_norin = {}
-				b_koryu = {}
-				b_norin = {}
-				b_mutosh = {}				
-			}
 			c_royal_valley = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 132 112 255 }
+				color2={ 82 184 220 }
 				
 				b_kabo = {}
 				b_kinin = {}
@@ -872,8 +818,8 @@ k_hyrule_minish = { #Minish
 				b_marudan = {}
 			}
 			c_minish_hyrule_castle = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 30 144 255 }
+				color2={ 82 184 220 }
 				
 				b_minish_castle = {
 					#wind_tribe = Wind Castle
@@ -886,8 +832,8 @@ k_hyrule_minish = { #Minish
 			color2={ 139 136 120 }
 			capital = 644
 			c_acacia_point = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 139 139 0 }
+				color2={ 139 136 120 }
 				
 				b_acacia_point = {}
 				b_siria = {}
@@ -896,8 +842,8 @@ k_hyrule_minish = { #Minish
 				b_kire = {}
 			}
 			c_west_acacia_savannah = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 189 183 107 }
+				color2={ 139 136 120 }
 				
 				b_onore = {}
 				b_kanon = {}
@@ -905,8 +851,8 @@ k_hyrule_minish = { #Minish
 				b_mogin = {}
 			}
 			c_south_acacia_savannah = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 205 190 112 }
+				color2={ 139 136 120 }
 				
 				b_lanin = {}
 				b_crudu = {}
@@ -914,16 +860,16 @@ k_hyrule_minish = { #Minish
 				b_edosh = {}
 			}
 			c_east_acacia_savannah = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 139 117 0 }
+				color2={ 139 136 120 }
 				
 				b_ninin = {}
 				b_hyran = {}
 				b_egarin = {}
 			}
 			c_north_acacia_savannah = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 255 222 173 }
+				color2={ 139 136 120 }
 				
 				b_tatul = {}
 				b_ataro = {}
@@ -931,18 +877,18 @@ k_hyrule_minish = { #Minish
 				b_muryi = {}
 			}
 			c_acacia_island = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
+				color={ 205 133 63 }
+				color2={ 139 136 120 }
 				
 				b_acacia_resort = {}
 				b_narin = {}
 			}
 			c_port_minish = {
-				color={ 0 0 0 }
+				color={ 139 87 66}
 				color2={ 0 0 0 }
 				
-				b_port_minish = {}
 				b_port_resort = {}
+				b_port_minish = {}
 			}
 		}
 	}

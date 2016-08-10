@@ -1,6 +1,12 @@
 #tribes are culture group wide empires
-e_tribe_hylian = {}
-e_tribe_human = {}
-e_tribe_zora = {}
-e_tribe_rito = {}
+k_bulblin = {
+	allow = {
+		culture = bulblin
+		ai = no
+	}
+}
+#e_tribe_hylian = {}
+#e_tribe_human = {}
+#e_tribe_zora = {}
+#e_tribe_rito = {}
 

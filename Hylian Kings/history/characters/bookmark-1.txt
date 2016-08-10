@@ -85,7 +85,7 @@
 		birth=yes
 	}
 }
-1005 = {#k minish d_royal c_ crypt, fields, north road, minish hyrule
+1005 = {#k minish d_royal c_ crypt, north road, minish hyrule
 	name=Flurris
 	disallow_random_traits=yes
 	historical = yes
@@ -1039,7 +1039,7 @@
 	trait=lustful
 	trait=brave
 	trait=zealous
-	3371.5.11={
+	3367.5.11={
 		birth=yes
 	}
 }
@@ -1674,7 +1674,7 @@
 		birth=yes
 	}
 }
-1075 = { #south fiel north plains
+1075 = { #south fiel 
 	name=Caprice
 	historical=yes
 	dynasty=6031
@@ -1830,7 +1830,7 @@
 	stewardship=10
 	learning=7
 	religion=fire_spirit
-	culture=crenal_goron
+	culture=crenel_goron
 	trait=midas_touched
 	trait=race_goron
 	trait=decietful
@@ -1851,7 +1851,7 @@
 	female=yes
 	dynasty=7347
 	religion=fire_spirit
-	culture=crenal_goron
+	culture=crenel_goron
 	trait=race_goron
 	3287.8.14={
 		birth=yes
@@ -1868,7 +1868,7 @@
 	female=no
 	dynasty=7400
 	religion=fire_spirit
-	culture=crenal_goron
+	culture=crenel_goron
 	trait=race_goron
 	3380.2.24={
 		birth=yes
@@ -1880,7 +1880,7 @@
 	female=no
 	dynasty=7347
 	religion=fire_spirit
-	culture=crenal_goron
+	culture=crenel_goron
 	trait=race_goron
 	3305.4.24={
 		birth=yes
@@ -1894,7 +1894,7 @@
 	religion=wind_spirits
 	culture=girrin
 	trait=race_girrin
-	3305.4.24={
+	3365.4.24={
 		birth=yes
 	}
 }
@@ -1922,6 +1922,216 @@
 	}
 	3377.5.29 ={
 		add_spouse = 1079
+	}
+}
+
+1091 = {#k minish d_royal c_ crypt, north road, minish hyrule
+	name=Indra
+	historical = yes
+	dynasty=6201
+	religion=light_force
+	culture=wind_tribe
+	trait=underhanded_rogue
+	trait=race_wind_tribe
+	3369.4.14={
+		birth=yes
+	}
+}
+1092 = {#k minish d_royal c_ crypt, north road, minish hyrule
+	name=Mazin
+	historical = yes
+	dynasty=6251
+	religion=light_force
+	culture=wind_tribe
+	trait=underhanded_rogue
+	trait=race_wind_tribe
+	3369.2.12={
+		birth=yes
+	}
+}
+1093 = {#k bulblin faron canyon to grove
+	name=Burl
+	disallow_random_traits=yes
+	historical = yes
+	dynasty=4001
+	diplomacy=8
+	martial=14
+	intrigue=5
+	stewardship=4
+	learning=4
+	religion=demise_religion
+	culture=bulblin
+	trait=brilliant_strategist
+	trait=race_bulblin
+	trait=wroth
+	trait=ambitious
+	trait=honest
+	trait=robust
+	trait=gluttonous
+	trait=tall
+	trait=cavalry_leader
+	trait=inspiring_leader
+	3358.1.24={
+		birth=yes
+	}
+	3377.1.1={ add_spouse = 1094 }
+	3405.2.4={
+		death={ death_reason=death_battle }
+	}
+}
+1094 = {
+	name=Bira
+	historical = yes
+	female=yes
+	dynasty=4011
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3361.1.1={
+		birth=yes
+	}
+	3377.1.1={ add_spouse = 1093 }
+
+1095 = {
+	name=Bos
+	historical = yes
+	mother=1094
+	father=1093
+	dynasty=4001
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3380.4.2={
+		birth=yes
+	}
+}
+1096 = {
+	name=Ralus
+	historical = yes
+	mother=1094
+	father=1093
+	dynasty=4001
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3382.5.1={
+		birth=yes
+	}
+}
+1097 = {
+	name=Velba
+	historical = yes
+	female=yes
+	mother=1094
+	father=1093
+	dynasty=4001
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3385.6.3={
+		birth=yes
+	}
+}
+1098 = {
+	name=Vubos
+	historical = yes
+	mother=1094
+	father=1093
+	dynasty=4001
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3386.10.1={
+		birth=yes
+	}
+}
+1099 = {#faron woods to bridges
+	name=Roles
+	disallow_random_traits=no
+	historical = yes
+	dynasty=4021
+	diplomacy=8
+	martial=10
+	intrigue=5
+	stewardship=4
+	learning=4
+	religion=demise_religion
+	culture=bulblin
+	trait=tough_soldier
+	trait=race_bulblin
+	3366.4.14={
+		birth=yes
+	}
+}
+1100 = {#keaton stok
+	name=Roles
+	disallow_random_traits=no
+	historical = yes
+	dynasty=4021
+	religion=demise_religion
+	culture=keaton
+	trait=elusive_shadow
+	trait=race_keaton
+	3365.9.12={
+		birth=yes
+	}
+}
+1101 = {#faron forest
+	name=Belin
+	disallow_random_traits=no
+	historical = yes
+	dynasty=4031
+	diplomacy=8
+	martial=8
+	intrigue=5
+	stewardship=4
+	learning=4
+	religion=demise_religion
+	culture=bulblin
+	trait=skilled_tactician
+	trait=race_bulblin
+	3367.1.1={
+		birth=yes
+	}
+}
+1102 = {#faron field
+	name=Rib
+	disallow_random_traits=no
+	historical = yes
+	dynasty=4031
+	diplomacy=6
+	martial=7
+	intrigue=5
+	stewardship=6
+	learning=4
+	religion=demise_religion
+	culture=bulblin
+	trait=skilled_tactician
+	trait=race_bulblin
+	3367.1.1={
+		birth=yes
+	}
+}
+1103 = {#north zora domain and lanayru field
+	name=Tozetu
+	disallow_random_traits=yes
+	historical = yes
+	dynasty=4001
+	diplomacy=8
+	martial=14
+	intrigue=5
+	stewardship=4
+	learning=4
+	religion=demise_religion
+	culture=bulblin
+	trait=mastermind_theologian
+	trait=race_bulblin
+	trait=zealous
+	trait=content
+	trait=frail
+	trait=shrewd
+	3361.5.23={
+		birth=yes
 	}
 }
 #xx = {
