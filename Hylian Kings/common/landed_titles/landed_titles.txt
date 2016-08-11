@@ -25,7 +25,7 @@ e_pirates = {
 e_hyrule_central = {
 	color={ 204 0 0 }
 	color2={ 255 255 255 }
-	capital = 484 # Middlesex
+	capital = 484
 	dignity = 20 # Counted as having this many more counties than it does
 
 	eldin = Eldin
@@ -42,6 +42,297 @@ e_hyrule_central = {
 				culture = ordonion
 				culture = kakarikon
 				culture = eldin
+			}
+		}
+	}		
+	k_faron = {
+		color={ 0 110 47 }
+		color2={ 255 255 255 }
+		capital = 515
+	
+		d_west_faron = {
+			capital = 513
+			c_faron_canyon ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+					
+					b_chasm_gate = {}
+			}
+			c_great_faron_tree ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+				
+				b_father_tree = {}
+				#b_son_tree = {}
+				#b_tree_village = {}
+			}
+			c_faron_swamp ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+				
+				b_mure = {}
+				b_onune = {}
+			}
+			c_faron_spring ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }					
+				holy_site = light_spirits
+				
+				b_faron_spring
+				b_erabo = {}
+				b_odibo = {}
+				b_marono = {}
+			}	
+			c_faron_woods ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+				
+				b_onan = {}
+				b_edatu = {}
+				b_ordodu = {}
+			}	
+			c_faron_basin ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+				
+				b_ordodu = {}
+				b_mupia = {}
+				b_darin = {}
+				b_noryu = {}
+			}			
+		}
+		
+		d_east_faron = {
+			capital = 523
+			c_faron_bridge ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+				
+				b_faron_bridge_gate = {}
+				b_nulu = {}
+				b_oru = {}
+				b_foryu = {}
+			}
+			c_faron_grove ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+				
+				b_modu = {}
+				b_moran = {}
+				b_sorya = {}
+				b_fakin = {}
+			}	
+			c_south_faron_forest ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+			
+				b_korore = {}
+				b_ture = {}
+				b_sare = {}
+			}
+			c_central_faron_forest ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+				
+				b_luton = {}
+				b_fash = {}
+				b_edeku = {}
+			}
+			c_north_faron_forest ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+				
+					b_donia = {}
+					b_mupa = {}
+					b_enuru = {}
+			}
+			c_keaton_stockades ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+				
+				b_erilu = {}
+				b_fatia = {}
+			}					
+		}
+			
+		d_faron_fields = {
+			capital = 528
+			c_south_hylia_bridge ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+				
+				b_south_hylia_gate = {}
+				b_noryu = {}
+				b_oryidan = {}
+				b_nane = {}
+				b_marogo = {}
+			}
+			c_east_faron_field ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+				
+				b_roore = {}
+				b_muno = {}
+				b_muton = {}
+				b_radu = {}
+			}
+			c_south_faron_field ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+				
+				b_hyrore = {}
+				b_midu = {}
+				b_dobon = {}
+			}
+			c_west_faron_field ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+				
+				b_orasal = {}
+				b_rudu = {}
+				b_edaral = {}
+				b_oryade = {}
+			}
+			c_north_faron_field ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+				
+				b_didu = {}
+				b_nurore = {}
+				b_dabo = {}
+			}
+		}
+	}
+	k_lanayru = {
+		color={ 0 108 255 }
+		color2={ 255 255 255 }
+		capital = 559 # North Hyrule Castle
+		
+		d_royal_town = {
+			capital = 559
+			c_north_hyrule_castle = {			
+				color={ 0 108 255 }
+				color2={ 255 255 255 }
+				
+				b_north_hyrule_castle = {}
+				b_west_wing = {}
+				b_east_wing = {}
+				b_north_wing = {}
+				b_south_wing = {}
+				b_castle_gate = {}
+			}
+			c_south_castle = {			
+				color={ 0 108 255 }
+				color2={ 255 255 255 }
+				
+				b_south_castle = {}
+				b_south_town = {}
+				b_south_temple = {}
+				b_south_gate = {}
+			}
+			c_west_castle = {			
+				color={ 0 108 255 }
+				color2={ 255 255 255 }
+				
+				b_west_castle = {}
+				b_west_town = {}
+				b_west_temple = {}
+				b_west_gate = {}
+			}
+			c_central_castle = {			
+				color={ 0 108 255 }
+				color2={ 255 255 255 }
+				
+				b_central_castle_town = {}
+				b_central_city = {}
+				b_central_temple = {}
+				b_central_guard_post = {}
+			}
+			c_east_castle = {			
+				color={ 0 108 255 }
+				color2={ 255 255 255 }
+				
+				b_east_castle = {}
+				b_east_city = {}
+				b_east_temple = {}
+				b_east_gate = {}
+			}
+		}
+		d_north_lanayru = {
+			capital = 563
+			c_north_lanayru_field = {			
+				color={ 0 108 255 }
+				color2={ 255 255 255 }
+				
+				b_mash = {}
+				b_edoradadia = {}
+				b_karabo = {}
+				b_anodu = {}
+			}		
+			c_amphitheater_field = {			
+				color={ 0 108 255 }
+				color2={ 255 255 255 }
+				
+				b_amphitheater_gate = {}
+				b_amphitheater_of_hylia = {}
+			}			
+			c_chasm_road = {			
+				color={ 0 108 255 }
+				color2={ 255 255 255 }
+				
+				b_chasm_tower = {}
+				b_chasm_city = {}
+				b_chasm_temple = {}
+			}
+			c_lanayru_hills = {			
+				color={ 0 108 255 }
+				color2={ 255 255 255 }
+				
+				b_edural = {}
+				b_produ = {}
+				b_opane = {}
+			}
+		}
+		d_hylia_lanayru = {
+			capital = 566
+			c_east_lanayru_field = {			
+				color={ 0 108 255 }
+				color2={ 255 255 255 }
+				
+				b_orange = {}
+				b_muryia = {}
+				b_paran = {}
+				b_eron = {}
+				b_ninore = {}
+			}
+			c_west_lanayru_field = {			
+				color={ 0 108 255 }
+				color2={ 255 255 255 }
+				
+				b_edusa = {}
+				b_fodu = {}
+				b_fotidu = {}
+				b_mobo = {}
+				b_edontu = {}
+			}
+			c_south_lanayru_field = {			
+				color={ 0 108 255 }
+				color2={ 255 255 255 }
+				
+				b_cruta = {}
+				b_sarco = {}
+				b_luridu = {}
+				b_talu = {}
+				b_murol = {}
+			}
+			c_north_hylia_bridge = {			
+				color={ 0 108 255 }
+				color2={ 255 255 255 }
+				
+				b_north_hylia_gate = {}
+				b_orunu = {}
+				b_kosin = {}
+				
 			}
 		}
 	}
@@ -331,176 +622,229 @@ e_hyrule_central = {
 			}
 		}
 	}
-	k_zora_domain = {
-		color={ 255 127 80 }
+}
+k_zora_domain = {
+	color={ 255 127 80 }
+	color2={ 234 212 77 }
+	capital = 474 # Zora Domain
+	
+	d_north_domain = {
+		color={ 0 214 253 }
+		color2={ 234 212 77 }
+		capital = 568 #North Zora Domain
+		c_zora_spring = {
+			color={ 0 214 253 }
+			color2={ 234 212 77 }
+				
+			b_hylonin = {}
+			b_mapan = {}
+			b_forin = {}
+		}
+		c_north_zora_domain = {
+				color={ 0 214 253 }
+				color2={ 234 212 77 }
+			
+				b_otaure = {}
+				b_turudu = {}
+				b_parosh = {}
+				b_maryu = {}
+			}
+			c_zora_falls = {
+				color={ 0 214 253 }
+				color2={ 234 212 77 }
+			
+				b_cribo = {}
+				b_manilu = {}
+				b_onane = {}
+			}
+			c_frozen_caves = {
+				color={ 0 214 253 }
+				color2={ 234 212 77 }
+				
+				b_odire = {}
+				b_edonon = {}
+				b_erolu = {}
+				b_kirin = {}
+			}
+			c_upper_zoras_river = {
+				color={ 0 214 253 }
+				color2={ 234 212 77 }
+				
+				b_moolu = {}
+				b_madane = {}
+				b_analu = {}
+				b_osan = {}
+			}
+			c_zora_rapids = {
+				color={ 0 214 253 }
+				color2={ 234 212 77 }
+					
+				b_hyrire = {}
+				b_hyrure = {}
+				b_daron = {}
+			}
+	}
+	d_south_domain = {
+		color={ 188 0 57 }
 		color2={ 234 212 77 }
 		capital = 474 # Zora Domain
-
-		d_south_domain = {
-			color={ 188 0 57 }
-			color2={ 234 212 77 }
-			capital = 474 # Zora Domain
-			c_zora_fountain = {
-				color={ 39 64 139 }
-				color2={ 202 225 255 }
+		c_zora_fountain = {
+			color={ 39 64 139 }
+			color2={ 202 225 255 }
 				
-				holy_site = jabu_jabu
-				holy_site = jabun_religion
-				
-				b_fountain_gate = {}
-				b_jabu_jabus_platform = {}
-				b_zora_fountain = {}
-			}
-			c_ancient_tunnels = {
-				color={ 135 38 87 }
-				color2={ 255 255 255  }
-				
-				b_wisho = {
-					#goron = 
-					#lake_zora=
+			holy_site = jabu_jabu
+			holy_site = jabun_religion
+			
+			b_fountain_gate = {}
+			b_jabu_jabus_platform = {}
+			b_zora_fountain = {}
+		}
+		c_ancient_tunnels = {
+			color={ 135 38 87 }
+			color2={ 255 255 255  }
+			
+			b_wisho = {
+				#goron = 
+				#lake_zora=
 				}
-				b_wazear= {
-					#goron = 
-				}
-				b_vazas
+			b_wazear= {
+				#goron = 
 			}
-			c_ice_caverns = {
-				color={ 176 226 255 }
-				color2={ 255 255 255 }	
-				
-				b_ice_castle = {}
-				b_ice_cavern = {}
-				b_runoff_cave = {}
-			}
-			c_zora_domain = {
-				color={ 65 105 225 }
-				color2={ 255 215 0 }
-
-				b_upper_zora_caves = {}
-				b_lower_zora_cavern = {}
-				b_royal_water_fall = {}
-				b_cavern_entrance = {}
-			}
-			c_sleepless_waterfalls = {
-				color={ 151 255 255 }
-				color2={ 255 255 255 }		
-
-				b_zora_gate = {}
+			b_vazas
+		}
+		c_ice_caverns = {
+			color={ 176 226 255 }
+			color2={ 255 255 255 }	
+			
+			b_ice_castle = {}
+			b_ice_cavern = {}
+			b_runoff_cave = {}
+		}
+		c_zora_domain = {
+			color={ 65 105 225 }
+			color2={ 255 215 0 }
+			b_upper_zora_caves = {}
+			b_lower_zora_cavern = {}
+			b_royal_water_fall = {}
+			b_cavern_entrance = {}
+		}
+		c_sleepless_waterfalls = {
+			color={ 151 255 255 }
+			color2={ 255 255 255 }		
+			b_zora_gate = {}
 				b_zora_village = {}
-				b_pato = {}
-				b_fajon = {}
-				b_panana = {}
-			}
-			c_frog_marsh = {
-				color={ 127 255 212 }
-				color2={ 255 255 255 }	
-
-				b_fatas = {}
+			b_pato = {}
+			b_fajon = {}
+			b_panana = {}
+	}
+		c_frog_marsh = {
+			color={ 127 255 212 }
+			color2={ 255 255 255 }	
+			b_fatas = {}
 				b_roko = {}
-				b_roji = {}
-				b_elaju = {}
-			}
-			c_zora_river = {
-				color={ 39 64 139 }
-				color2={ 255 255 255 }	
-				
-				b_river_gate = {}
+			b_roji = {}
+			b_elaju = {}
+		}
+		c_zora_river = {
+			color={ 39 64 139 }
+			color2={ 255 255 255 }	
+			
+			b_river_gate = {}
 				b_rotu = {}
-				b_muna = {}
-			}
+			b_muna = {}
 		}
 	}
-	k_west_death_mountains = {
-		color={ 91 100 100 }
-		color2={ 255 42 0 }
-		capital = 540 # Great Death Mountain
-		
-		d_death_mountain = {
-			color={ 71 6 4 }
-			color2={ 168 5 0 }
-			capital = 466 # Goron City
-			c_dodongo_cavern = {
-				color={ 227 207 87 }
-				color2={ 139 125 107  }
-				
-				b_dodongo_cavern = {}
-				b_dodongo_mine = {}
+}
+k_west_death_mountains = {
+	color={ 91 100 100 }
+	color2={ 255 42 0 }
+	capital = 540 # Great Death Mountain
+	
+	d_death_mountain = {
+		color={ 71 6 4 }
+		color2={ 168 5 0 }
+		capital = 466 # Goron City
+		c_dodongo_cavern = {
+			color={ 227 207 87 }
+			color2={ 139 125 107  }
+			
+			b_dodongo_cavern = {}
+			b_dodongo_mine = {}
 				b_bomb_flower_shrine = {}
-				b_dodongo_lair = {}
+			b_dodongo_lair = {}
+		}
+		c_goron_city = {
+			color={ 255 165 0 }
+			color2={ 255 239 213  }
+			
+			b_chief's_keep = {}
+			b_goron_city = {
+				#lizalfos =
 			}
-			c_goron_city = {
-				color={ 255 165 0 }
-				color2={ 255 239 213  }
-				
-				b_chief's_keep = {}
-				b_goron_city = {
-					#lizalfos =
-				}
-				b_gomoht  = {
-					#lizalfos =
-				}
-				b_arom  = {
-					#lizalfos =
-				}
-				b_gumos  = {
-					#lizalfos =
-				}
-				b_cago = {
-					#lizalfos =
-				}
+			b_gomoht  = {
+				#lizalfos =
 			}
-			c_death_mountain = {
-				color={ 220 20 60 }
-				color2={ 197 193 170  }
+			b_arom  = {
+				#lizalfos =
+			}
+			b_gumos  = {
+				#lizalfos =
+			}
+			b_cago = {
+					#lizalfos =
+			}
+		}
+		c_death_mountain = {
+			color={ 220 20 60 }
+			color2={ 197 193 170  }
 				
-				b_death_mountain = {}
-				b_nere = {
-					#goron = 
+			b_death_mountain = {}
+		b_nere = {
+				#goron = 
 				}			
+		}
+		c_death_mountain_trail  = {
+			color={ 238 44 44 }
+			color2={ 255 193 193  }	
+			b_trail_gate  = {}
+			b_spring_power = {}
+			b_longi = {
+				#goron = 
 			}
-			c_death_mountain_trail  = {
-				color={ 238 44 44 }
-				color2={ 255 193 193  }	
-
-				b_trail_gate  = {}
-				b_spring_power = {}
-				b_longi = {
-					#goron = 
-				}
-				b_oke = {
-					#goron = 
-				}
+			b_oke = {
+				#goron = 
 			}
-			c_chasm_pass = {
-				color={ 165 42 42 }
-				color2={ 255 255 255  }
+		}
+		c_chasm_pass = {
+			color={ 165 42 42 }
+			color2={ 255 255 255  }
 				
-				b_cozok = {
-					#goron = 
-				}
-				b_vilas= {
-					#goron = 
-				}
-				b_snake= {
-					#goron = 
-				}
+			b_cozok = {
+				#goron = 
 			}
-			c_death_mountain_crater = {
+			b_vilas= {
+				#goron = 
+			}
+			b_snake= {
+				#goron = 
+			}
+		}
+		c_death_mountain_crater = {
 				color={ 255 48 48 }
-				color2={ 255 215 0  }
-				
-				b_crater_gate = {}
-				b_fire_temple = {}
-				b_spring_wisdom = {}
-			}
+			color2={ 255 215 0  }
+			
+			b_crater_gate = {}
+			b_fire_temple = {}
+		b_spring_wisdom = {}
 		}
 	}
 }
 
+
 k_hyrule_minish = { #Minish
 		color={ 82 184 220 }
 		color2={ 253 138 119 }
-		capital = 623 # Middlesex
+		capital = 623
 		dignity = 5 # Counted as having this many more counties than it does
 		
 		d_minish_fields= {
