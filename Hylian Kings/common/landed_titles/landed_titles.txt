@@ -157,16 +157,6 @@ e_hyrule_central = {
 			
 		d_faron_fields = {
 			capital = 528
-			c_south_hylia_bridge ={
-				color={ 0 0 0 }
-				color={ 255 255 255 }
-				
-				b_south_hylia_gate = {}
-				b_noryu = {}
-				b_oryidan = {}
-				b_nane = {}
-				b_marogo = {}
-			}
 			c_east_faron_field ={
 				color={ 0 0 0 }
 				color={ 255 255 255 }
@@ -333,6 +323,185 @@ e_hyrule_central = {
 				b_orunu = {}
 				b_kosin = {}
 				
+			}
+			c_south_hylia_bridge ={
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+				
+				b_south_hylia_gate = {}
+				b_noryu = {}
+				b_oryidan = {}
+				b_nane = {}
+				b_marogo = {}
+			}
+			c_lanayru_spring = {
+				color={ 0 0 0 }
+				color={ 255 255 255 }
+				holy_site = light_spirits
+				
+				b_lanayru_spring = {}
+				b_funia = {}
+				b_nirin = {}
+				
+			}
+		}
+	}
+	k_eldin = {
+		color={ 208 0 0 }
+		color2={ 204 203 203 }
+		capital = 529 # New Kakariko
+		
+		d_north_eldin = {
+			color={ 208 0 0 }
+			color2={ 204 203 203 }
+			capital =547
+			c_north_eldin_plateau = {
+				color={ 208 0 0 }
+				color2={ 204 203 203 }
+				
+				b_edora = {}
+				b_dolde = {}
+				b_kuralu = {}
+				b_nidan = {}
+			}
+			c_north_eldin_bridge = {
+				color={ 208 0 0 }
+				color2={ 204 203 203 }
+				
+				b_north_eldin_gate = {}
+				b_kune = {}
+				b_ontapo = {}
+				b_mubia = {}
+			}
+			c_hidden_village = {
+				color={ 208 0 0 }
+				color2={ 204 203 203 }
+				
+				b_hidden_watchtower = {}
+				b_hidden_village = {}
+				b_hidden_shrine = {}
+			}
+			c_eldin_foothills = {
+				color={ 208 0 0 }
+				color2={ 204 203 203 }
+				
+				b_erapu = {}
+				b_oranin = {}
+				b_enapu = {}
+				b_raure = {}
+			}
+		}
+		d_central_eldin = {
+			color={ 208 0 0 }
+			color2={ 204 203 203 }
+			capital = 536
+			c_northeast_eldin_field = {
+				color={ 208 0 0 }
+				color2={ 204 203 203 }
+				
+				b_mubia = {}
+				b_nure = {}
+				b_orolu = {}
+			}
+			c_central_eldin_field = {
+				color={ 208 0 0 }
+				color2={ 204 203 203 }
+				
+				b_roria = {}
+				b_rudin = {}
+				b_anire = {}
+				b_orobo = {}
+				b_korosh = {}
+			}
+			c_northwest_eldin_field = {
+				color={ 208 0 0 }
+				color2={ 204 203 203 }
+				
+				b_roryu = {}
+				b_fanan = {}
+				b_onin = {}
+			}
+			c_south_eldin_bridge = {
+				color={ 208 0 0 }
+				color2={ 204 203 203 }
+				
+				b_south_eldin_gate = {}
+				b_odadu = {}
+				b_hyrode = {}
+				b_datu = {}
+			}
+			c_southwest_eldin_field = {
+				color={ 208 0 0 }
+				color2={ 204 203 203 }
+				
+				b_croda = {}
+				b_orobe = {}
+				b_korosha = {}
+			}
+		}
+		d_south_eldin = {
+			color={ 208 0 0 }
+			color2={ 204 203 203 }
+			capital = 530
+			c_new_kakariko = {
+				color={ 208 0 0 }
+				color2={ 204 203 203 }
+				
+				#eldin = Eldin
+				
+				b_new_kakariko_gate = {
+					#eldin = Eldin Gate
+				}
+				b_new_kakariko_shrine = {
+					#eldin = Eldin Shrine
+				}
+				b_new_kakariko = {
+					#eldin = Eldin
+				}
+			}
+			c_eldin_spring = {
+				color={ 208 0 0 }
+				color2={ 204 203 203 }
+				
+				b_eldin_spring = {}
+				b_kore = {}
+				b_narun = {}
+				
+			}
+			c_kakariko_graveyard = {
+				color={ 208 0 0 }
+				color2={ 204 203 203 }
+				
+				b_grave_guard = {}
+				b_watery_grave = {}
+				
+			}
+			c_kakariko_pass = {
+				color={ 208 0 0 }
+				color2={ 204 203 203 }
+				
+				#eldin = Eldin Pass
+				
+				b_mugo = {}
+				b_salu = {}
+				b_marara = {}
+				b_narun = {}
+				
+			}
+			c_southeast_eldin_field = {
+				color={ 208 0 0 }
+				color2={ 204 203 203 }
+				
+				b_minane = {}
+				b_mire = {}
+				b_fina = {}
+			}
+			c_kakariko_gorge = {
+				color={ 208 0 0 }
+				color2={ 204 203 203 }
+				
+				b_gorge_watchtower = {}
+				b_gorgetown = {}
 			}
 		}
 	}
