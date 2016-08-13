@@ -2296,25 +2296,25 @@
 	name=Kutozear
 	disallow_random_traits=no
 	historical = yes
-	diplomacy=5
+	diplomacy=8
 	martial=6
-	intrigue=8
+	intrigue=4
 	stewardship=4
 	learning=4
-	dynasty=4671
+	dynasty=4675
 	religion=demise_religion
 	culture=lizalfos
 	trait=race_lizalfos
-	trait=decietful
-	trait=diligant
-	trait=content
-	trait=flamboyant_schemer
+	trait=kind
+	trait=slothful
+	trait=craven
+	trait=underhanded_rogue
 	3363.8.11={
 		birth=yes
 	}
 }
 1114 = {
-	name=Renado
+	name=Snipes
 	disallow_random_traits=yes
 	historical = yes
 	diplomacy=8
@@ -2436,6 +2436,194 @@
 	trait=lustful
 	trait=robust
 	3367.9.24={
+		birth=yes
+	}
+}
+1120 = {#
+	name=Virgilio
+	disallow_random_traits=yes
+	historical = yes
+	diplomacy=8
+	martial=6
+	intrigue=4
+	stewardship=8
+	learning=5
+	dynasty=8101
+	religion=light_force
+	culture=eldin
+	trait=charismatic_negotiator
+	trait=race_human
+	trait=charitable
+	trait=kind
+	trait=lustful
+	trait=stubborn
+	trait=brave
+	trait=cavalry_leader
+	3355.4.14={
+		birth=yes
+	}
+	3379.1.1={
+		add_spouse=1121
+	}
+}
+1121 = {#
+	name=Rosa
+	disallow_random_traits=no
+	historical = yes
+	female=yes
+	dynasty=8124
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3363.1.1={
+		birth=yes
+	}
+	3379.1.1={
+		add_spouse=1121
+	}
+}
+1122 = {#
+	name=Pitina
+	disallow_random_traits=no
+	historical = yes
+	female=yes
+	mother=1121
+	father=1120
+	dynasty=8101
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3382.4.9={
+		birth=yes
+	}
+}
+1122 = {#
+	name=Spiro
+	disallow_random_traits=no
+	historical = yes
+	female=yes
+	mother=1121
+	father=1120
+	dynasty=8101
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3386.7.1={
+		birth=yes
+	}
+}
+1123 = {#south west and gorge
+	name=Rib
+	disallow_random_traits=no
+	historical = yes
+	dynasty=4048
+	diplomacy=6
+	martial=8
+	intrigue=5
+	stewardship=4
+	learning=4
+	religion=demise_religion
+	culture=bulblin
+	trait=tough_soldier
+	trait=race_bulblin
+	trait=envious
+	trait=robust
+	trait=cavalry_leader
+	3361.8.14={
+		birth=yes
+	}
+}
+1124 = {#d central
+	name=Bodir
+	disallow_random_traits=yes
+	historical = yes
+	dynasty=4087
+	diplomacy=8
+	martial=11
+	intrigue=5
+	stewardship=4
+	learning=4
+	religion=demise_religion
+	culture=bulblin
+	trait=charismatic_negotiator
+	trait=race_bulblin
+	trait=decietful
+	trait=erudite
+	trait=strong
+	trait=patiant
+	trait=lustful
+	trait=cavalry_leader
+	3356.9.4={
+		birth=yes
+	}
+	3382.4.2={
+		add_spouse=1125
+	}
+}
+1125 = {
+	name=Bala
+	disallow_random_traits=no
+	historical = yes
+	dynasty=4091
+	religion=demise_religion
+	culture=bulblin
+	trait=charismatic_negotiator
+	trait=race_bulblin
+	3366.4.2={
+		birth=yes
+	}
+	3382.4.2={
+		add_spouse=1124
+	}
+}
+1126 = {#c south bridge
+	name=Rilir
+	disallow_random_traits=no
+	historical = yes
+	dynasty=4186
+	diplomacy=6
+	martial=8
+	intrigue=5
+	stewardship=4
+	learning=6
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3366.4.24={
+		birth=yes
+	}
+}
+1127 = {
+	name=Birir
+	disallow_random_traits=no
+	historical = yes
+	dynasty=4189
+	diplomacy=8
+	martial=6
+	intrigue=5
+	stewardship=4
+	learning=6
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3366.4.24={
+		birth=yes
+	}
+}
+1128 = {
+	name=Belar
+	disallow_random_traits=no
+	historical = yes
+	dynasty=4117
+	diplomacy=10
+	martial=6
+	intrigue=5
+	stewardship=4
+	learning=6
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3368.9.19={
 		birth=yes
 	}
 }

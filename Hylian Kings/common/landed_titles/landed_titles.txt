@@ -53,13 +53,13 @@ e_hyrule_central = {
 		d_west_faron = {
 			capital = 513
 			c_faron_canyon ={
-				color={ 0 0 0 }
+				color={ 0 100 20 }
 				color={ 255 255 255 }
 					
 					b_chasm_gate = {}
 			}
 			c_great_faron_tree ={
-				color={ 0 0 0 }
+				color={85 107 47 }
 				color={ 255 255 255 }
 				
 				b_father_tree = {}
@@ -67,14 +67,14 @@ e_hyrule_central = {
 				#b_tree_village = {}
 			}
 			c_faron_swamp ={
-				color={ 0 0 0 }
+				color={ 124 252 0 }
 				color={ 255 255 255 }
 				
 				b_mure = {}
 				b_onune = {}
 			}
 			c_faron_spring ={
-				color={ 0 0 0 }
+				color={ 0 238 0 }
 				color={ 255 255 255 }					
 				holy_site = light_spirits
 				
@@ -84,7 +84,7 @@ e_hyrule_central = {
 				b_marono = {}
 			}	
 			c_faron_woods ={
-				color={ 0 0 0 }
+				color={ 107 142 35 }
 				color={ 255 255 255 }
 				
 				b_onan = {}
@@ -92,7 +92,7 @@ e_hyrule_central = {
 				b_ordodu = {}
 			}	
 			c_faron_basin ={
-				color={ 0 0 0 }
+				color={ 105 139 34 }
 				color={ 255 255 255 }
 				
 				b_ordodu = {}
@@ -103,9 +103,11 @@ e_hyrule_central = {
 		}
 		
 		d_east_faron = {
+			color={ 48 128 20 }
+			color={ 255 255 255 }
 			capital = 523
 			c_faron_bridge ={
-				color={ 0 0 0 }
+				color={ 144 238 144 }
 				color={ 255 255 255 }
 				
 				b_faron_bridge_gate = {}
@@ -114,7 +116,7 @@ e_hyrule_central = {
 				b_foryu = {}
 			}
 			c_faron_grove ={
-				color={ 0 0 0 }
+				color={ 202 255 112 }
 				color={ 255 255 255 }
 				
 				b_modu = {}
@@ -123,7 +125,7 @@ e_hyrule_central = {
 				b_fakin = {}
 			}	
 			c_south_faron_forest ={
-				color={ 0 0 0 }
+				color={84 139 84 }
 				color={ 255 255 255 }
 			
 				b_korore = {}
@@ -131,7 +133,7 @@ e_hyrule_central = {
 				b_sare = {}
 			}
 			c_central_faron_forest ={
-				color={ 0 0 0 }
+				color={ 67 205 128 }
 				color={ 255 255 255 }
 				
 				b_luton = {}
@@ -139,7 +141,7 @@ e_hyrule_central = {
 				b_edeku = {}
 			}
 			c_north_faron_forest ={
-				color={ 0 0 0 }
+				color={ 61 145 64 }
 				color={ 255 255 255 }
 				
 					b_donia = {}
@@ -147,7 +149,7 @@ e_hyrule_central = {
 					b_enuru = {}
 			}
 			c_keaton_stockades ={
-				color={ 0 0 0 }
+				color={ 69 139 116 }
 				color={ 255 255 255 }
 				
 				b_erilu = {}
@@ -156,10 +158,12 @@ e_hyrule_central = {
 		}
 			
 		d_faron_fields = {
+			color={ 0 100 0 }
+			color={ 224 238 224 }
 			capital = 528
 			c_east_faron_field ={
-				color={ 0 0 0 }
-				color={ 255 255 255 }
+				color={ 192 255 62 }
+				color={ 224 238 224 }
 				
 				b_roore = {}
 				b_muno = {}
@@ -167,16 +171,16 @@ e_hyrule_central = {
 				b_radu = {}
 			}
 			c_south_faron_field ={
-				color={ 0 0 0 }
-				color={ 255 255 255 }
+				color={ 173 255 47 }
+				color={ 224 238 224 }
 				
 				b_hyrore = {}
 				b_midu = {}
 				b_dobon = {}
 			}
 			c_west_faron_field ={
-				color={ 0 0 0 }
-				color={ 255 255 255 }
+				color={ 124 252 0 }
+				color={ 224 238 224 }
 				
 				b_orasal = {}
 				b_rudu = {}
@@ -184,8 +188,8 @@ e_hyrule_central = {
 				b_oryade = {}
 			}
 			c_north_faron_field ={
-				color={ 0 0 0 }
-				color={ 255 255 255 }
+				color={ 154 255 154 }
+				color={ 224 238 224 }
 				
 				b_didu = {}
 				b_nurore = {}
@@ -204,7 +208,7 @@ e_hyrule_central = {
 				color={ 0 108 255 }
 				color2={ 255 255 255 }
 				
-				b_lanayru_castle = {}
+				b_north_hyrule_castle = {}
 				b_west_wing = {}
 				b_east_wing = {}
 				b_north_wing = {}
@@ -212,7 +216,7 @@ e_hyrule_central = {
 				b_castle_gate = {}
 			}
 			c_south_castle = {			
-				color={ 0 108 255 }
+				color={ 0 0 255 }
 				color2={ 255 255 255 }
 				
 				b_south_castle = {}
@@ -221,7 +225,7 @@ e_hyrule_central = {
 				b_south_gate = {}
 			}
 			c_west_castle = {			
-				color={ 0 108 255 }
+				color={ 61 89 171 }
 				color2={ 255 255 255 }
 				
 				b_west_castle = {}
@@ -230,7 +234,7 @@ e_hyrule_central = {
 				b_west_gate = {}
 			}
 			c_central_castle = {			
-				color={ 0 108 255 }
+				color={ 25 25 112 }
 				color2={ 255 255 255 }
 				
 				b_central_castle_town = {}
@@ -239,7 +243,7 @@ e_hyrule_central = {
 				b_central_guard_post = {}
 			}
 			c_east_castle = {			
-				color={ 0 108 255 }
+				color={ 72 118 255 }
 				color2={ 255 255 255 }
 				
 				b_east_castle = {}
@@ -248,10 +252,12 @@ e_hyrule_central = {
 				b_east_gate = {}
 			}
 		}
-		d_north_lanayru = {
+		d_north_lanayru = {		
+			color={ 188 210 238 }
+			color2={ 255 255 255 }
 			capital = 563
 			c_north_lanayru_field = {			
-				color={ 0 108 255 }
+				color={ 188 210 238 }
 				color2={ 255 255 255 }
 				
 				b_mash = {}
@@ -260,14 +266,14 @@ e_hyrule_central = {
 				b_anodu = {}
 			}		
 			c_amphitheater_field = {			
-				color={ 0 108 255 }
+				color={ 202 225 255 }
 				color2={ 255 255 255 }
 				
 				b_amphitheater_gate = {}
 				b_amphitheater_of_hylia = {}
 			}			
 			c_chasm_road = {			
-				color={ 0 108 255 }
+				color={ 198 226 255 }
 				color2={ 255 255 255 }
 				
 				b_chasm_tower = {}
@@ -275,7 +281,7 @@ e_hyrule_central = {
 				b_chasm_temple = {}
 			}
 			c_lanayru_hills = {			
-				color={ 0 108 255 }
+				color={ 30 144 255 }
 				color2={ 255 255 255 }
 				
 				b_edural = {}
@@ -286,7 +292,7 @@ e_hyrule_central = {
 		d_hylia_lanayru = {
 			capital = 566
 			c_east_lanayru_field = {			
-				color={ 0 108 255 }
+				color={ 16 78 139 }
 				color2={ 255 255 255 }
 				
 				b_orange = {}
@@ -296,7 +302,7 @@ e_hyrule_central = {
 				b_ninore = {}
 			}
 			c_west_lanayru_field = {			
-				color={ 0 108 255 }
+				color={ 135 206 255 }
 				color2={ 255 255 255 }
 				
 				b_edusa = {}
@@ -306,7 +312,7 @@ e_hyrule_central = {
 				b_edontu = {}
 			}
 			c_south_lanayru_field = {			
-				color={ 0 108 255 }
+				color={ 74 112 139 }
 				color2={ 255 255 255 }
 				
 				b_cruta = {}
@@ -316,7 +322,7 @@ e_hyrule_central = {
 				b_murol = {}
 			}
 			c_north_hylia_bridge = {			
-				color={ 0 108 255 }
+				color={ 0 104 139 }
 				color2={ 255 255 255 }
 				
 				b_north_hylia_gate = {}
@@ -325,7 +331,7 @@ e_hyrule_central = {
 				
 			}
 			c_south_hylia_bridge ={
-				color={ 0 0 0 }
+				color={ 0 134 139 }
 				color={ 255 255 255 }
 				
 				b_south_hylia_gate = {}
@@ -335,7 +341,7 @@ e_hyrule_central = {
 				b_marogo = {}
 			}
 			c_lanayru_spring = {
-				color={ 0 0 0 }
+				color={ 51 161 201 }
 				color={ 255 255 255 }
 				holy_site = light_spirits
 				
@@ -352,11 +358,11 @@ e_hyrule_central = {
 		capital = 529 # New Kakariko
 		
 		d_north_eldin = {
-			color={ 208 0 0 }
+			color={ 139 35 35 }
 			color2={ 204 203 203 }
 			capital =547
 			c_north_eldin_plateau = {
-				color={ 208 0 0 }
+				color={ 238 0 0 }
 				color2={ 204 203 203 }
 				
 				b_edora = {}
@@ -365,7 +371,7 @@ e_hyrule_central = {
 				b_nidan = {}
 			}
 			c_north_eldin_bridge = {
-				color={ 208 0 0 }
+				color={ 139 0 0 }
 				color2={ 204 203 203 }
 				
 				b_north_eldin_gate = {}
@@ -374,7 +380,7 @@ e_hyrule_central = {
 				b_mubia = {}
 			}
 			c_hidden_village = {
-				color={ 208 0 0 }
+				color={ 255 48 48 }
 				color2={ 204 203 203 }
 				
 				b_hidden_watchtower = {}
@@ -382,7 +388,7 @@ e_hyrule_central = {
 				b_hidden_shrine = {}
 			}
 			c_eldin_foothills = {
-				color={ 208 0 0 }
+				color={ 128 0 0 }
 				color2={ 204 203 203 }
 				
 				b_erapu = {}
@@ -392,11 +398,11 @@ e_hyrule_central = {
 			}
 		}
 		d_central_eldin = {
-			color={ 208 0 0 }
+			color={ 205 92 92 }
 			color2={ 204 203 203 }
 			capital = 536
 			c_northeast_eldin_field = {
-				color={ 208 0 0 }
+				color={ 205 92 92 }
 				color2={ 204 203 203 }
 				
 				b_mubia = {}
@@ -404,7 +410,7 @@ e_hyrule_central = {
 				b_orolu = {}
 			}
 			c_central_eldin_field = {
-				color={ 208 0 0 }
+				color={ 139 58 58 }
 				color2={ 204 203 203 }
 				
 				b_roria = {}
@@ -414,7 +420,7 @@ e_hyrule_central = {
 				b_korosh = {}
 			}
 			c_northwest_eldin_field = {
-				color={ 208 0 0 }
+				color={ 165 42 42 }
 				color2={ 204 203 203 }
 				
 				b_roryu = {}
@@ -422,21 +428,13 @@ e_hyrule_central = {
 				b_onin = {}
 			}
 			c_south_eldin_bridge = {
-				color={ 208 0 0 }
+				color={ 139 26 26 }
 				color2={ 204 203 203 }
 				
 				b_south_eldin_gate = {}
 				b_odadu = {}
 				b_hyrode = {}
 				b_datu = {}
-			}
-			c_southwest_eldin_field = {
-				color={ 208 0 0 }
-				color2={ 204 203 203 }
-				
-				b_croda = {}
-				b_orobe = {}
-				b_korosha = {}
 			}
 		}
 		d_south_eldin = {
@@ -460,7 +458,7 @@ e_hyrule_central = {
 				}
 			}
 			c_eldin_spring = {
-				color={ 208 0 0 }
+				color={ 238 0 0 }
 				color2={ 204 203 203 }
 				
 				b_eldin_spring = {}
@@ -469,7 +467,7 @@ e_hyrule_central = {
 				
 			}
 			c_kakariko_graveyard = {
-				color={ 208 0 0 }
+				color={ 238 0 0 }
 				color2={ 204 203 203 }
 				
 				b_grave_guard = {}
@@ -477,7 +475,7 @@ e_hyrule_central = {
 				
 			}
 			c_kakariko_pass = {
-				color={ 208 0 0 }
+				color={ 176 23 31 }
 				color2={ 204 203 203 }
 				
 				#eldin = Eldin Pass
@@ -488,8 +486,16 @@ e_hyrule_central = {
 				b_narun = {}
 				
 			}
+			c_southwest_eldin_field = {
+				color={ 220 20 60 }
+				color2={ 204 203 203 }
+				
+				b_croda = {}
+				b_orobe = {}
+				b_korosha = {}
+			}
 			c_southeast_eldin_field = {
-				color={ 208 0 0 }
+				color={ 139 37 0 }
 				color2={ 204 203 203 }
 				
 				b_minane = {}
@@ -497,7 +503,7 @@ e_hyrule_central = {
 				b_fina = {}
 			}
 			c_kakariko_gorge = {
-				color={ 208 0 0 }
+				color={ 255 64 64 }
 				color2={ 204 203 203 }
 				
 				b_gorge_watchtower = {}
