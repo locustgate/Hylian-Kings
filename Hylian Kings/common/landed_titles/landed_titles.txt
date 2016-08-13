@@ -200,11 +200,11 @@ e_hyrule_central = {
 		
 		d_royal_town = {
 			capital = 559
-			c_north_hyrule_castle = {			
+			c_lanayru_castle = {			
 				color={ 0 108 255 }
 				color2={ 255 255 255 }
 				
-				b_north_hyrule_castle = {}
+				b_lanayru_castle = {}
 				b_west_wing = {}
 				b_east_wing = {}
 				b_north_wing = {}
