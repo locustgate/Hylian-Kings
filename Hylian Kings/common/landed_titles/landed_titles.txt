@@ -511,6 +511,247 @@ e_hyrule_central = {
 			}
 		}
 	}
+	k_ordon = {
+		color={ 249 228 83 }
+		color2={ 255 255 255 }
+		capital = 589 # ordon
+		
+		d_ordon_woods = {
+			color={ 0 104 46 }
+			color2={ 249 228 83 }
+			capital = 583 # Middlesex
+			c_ordon_spring = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_ordon_spring = {}
+				b_ordon_spring_gate = {}
+				b_ordon_spring_town  = {}
+			}
+			c_ordon_woods = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_cidon = {}
+				b_mordi = {}
+				b_orgi = {}
+				b_tado = {}
+			}
+			c_eaves_of_ordon = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_aladi = {}
+				b_odia = {}
+				b_talia = {}
+			}
+			c_north_ordon_forest = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_midia = {}
+				b_polin = {}
+				b_polan = {}
+				b_irdo = {}
+			}
+			c_ordon_groves = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_mono = {}
+				b_palo = {}
+				b_codia = {}
+			}
+			c_south_ordon_forest = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_cidia = {}
+				b_pon = {}
+				b_sodo = {}
+			}
+		}
+		d_ordon = {
+			color={ 249 228 83 }
+			color2={ 255 255 255 }
+			capital = 589 # ordon
+			c_ordon = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_ordon = {}
+				b_ordon_shrine = {}
+				b_ordon_village = {}
+				b_tadia = {}
+			}
+			c_ordon_ranch = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_ordon_ranch_gate = {}
+				b_ordon_ranch = {}
+				b_cin = {}
+				b_adano = {}
+			}
+			c_ordon_plains = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_tirgo = {}
+				b_odin = {}
+				b_tania = {}
+				b_tilo = {}
+			}
+			c_ordon_wedge = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_cadia = {}
+				b_fadin = {}
+				b_folo = {}
+			}
+			c_loggervale = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_loggervale = {}
+				b_loggertown = {}
+				b_wooden_shrine = {}
+			}
+			c_south_ordon_field = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_tilan = {}
+				b_podan = {}
+				b_mino = {}
+			}
+			c_east_ordon_field = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_talo = {				
+				}
+				b_odi = {}
+				b_midor = {}
+				b_mardo = {}
+			}
+			c_west_ordon_field = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_ordia = {}
+				b_finam = {}
+				b_idal = {}
+			}
+			c_north_ordon_field = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_calin = {}
+				b_cano = {}
+				b_finan = {}
+				b_idalo = {}
+			}
+			c_laketown = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_lake_palace = {}
+				b_laketown = {}
+				b_lake_shrine = {}
+			}
+		}
+		d_ordonia = {
+			color={ 181 85 63 }
+			color2={ 203 176 85 }
+			capital = 603 # Ordonia
+			c_fords_of_ordonia = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_ordonia_gate = {}
+				b_alido = {}
+				b_pila = {}
+				b_padia = {}
+			}
+			c_wooddell = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_wooddell = {}
+				b_pilan = {}
+				b_calo = {}
+			}
+			c_rivertown = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_river_palace = {}
+				b_river_town = {}
+			}
+			c_ordonia_gap = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_ardia = {}
+				b_fido = {}
+				b_cilia = {}
+			}
+			c_ordonia = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_ordonia_castle = {}
+				b_ordonia_town = {}
+				b_ordonia_temple = {}
+			}
+			c_south_ordonia_plateau = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_fono = {}
+				b_cali = {}
+				b_ania = {}
+				b_alia = {}
+			}
+			c_east_ordonia_plateau = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_ilino = {}
+				b_olo = {}
+				b_odo = {}
+			}
+			c_great_ordonia_plateau = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_filo = {}
+				b_pili = {}
+				b_ilo = {}
+				b_margo = {}
+				b_zargo = {}
+			}
+			c_north_ordonia_plateau = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_podin = {}
+				b_tin = {}
+				b_pono = {}
+			}
+			c_west_ordonia_plateau = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_mano = {}
+				b_podo = {}
+				b_tirdo = {}
+				b_cado = {}				
+			}
+		}
+	}
 	k_sacred_grove = {
 		color={ 145 196 251 }
 		color2={ 255 255 255 }
@@ -1408,6 +1649,374 @@ k_hyrule_minish = { #Minish
 				
 				b_port_resort = {}
 				b_port_minish = {}
+			}
+		}
+	}
+}
+e_saria = {#Saria
+	color={ 0 0 204 }
+	color2={ 255 255 255 }
+	capital = 32 # Middlesex
+	dignity = 196 # Counted as having this many more counties than it does
+
+	eldin = Eldin
+	#sarian = Saria
+	kasuton = Kasuto
+	hyrulean = Hyrule Major
+	little_hyrulean = Hyrule
+	west_hyrulean = Hyrule
+	east_hyrulean = Hyrule
+	
+	# Creation/usurpation trigger
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture = sarian
+				culture = kasuton
+				culture = hyrulean
+				culture = little_hyrulean
+				culture = west_hyrulean
+				culture = east_hyrulean
+			}
+		}
+	}
+	k_kasuto = {
+		color={ 11 76 0 }
+		color2={ 88 80 62 }
+		capital = 188 # Middlesex
+		dignity = 5 # Counted as having this many more counties than it does
+	
+		#late_hyrulean = Hyrule
+		east_hyrulean = East Hyrule
+		west_hyrulean = East Hyrule
+		little_hyrulean = East Hyrule
+		
+		d_kasuto = {
+			color={ 11 76 0 }
+			color2={ 88 80 62 }
+			capital = 188 # Middlesex
+			c_kasuto = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_maupo  = {}
+				b_kasuto = {}
+				b_lapara = {}
+				b_maso = {}
+			}
+			c_hidden_valley = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_kasuto_pass = {}
+				b_munu = {}
+				b_new_kasuto = {}
+			}
+			c_three_eye_rock = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_maup
+				b_lapar
+				b_crebapo
+			}
+			c_hyron_island = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_hyron_palace = {}
+				b_nirale = {}
+			}
+		}
+		d_nabooru = {
+			color={ 255 135 251 }
+			color2={ 106 110 255 }
+			capital = 187 # Middlesex
+			c_kasuto_palace = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_kasuto_palace = {}
+				b_turyu = {}
+				b_lolu = {}
+				b_enasalu = {}
+			}
+			c_nabooru = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_ruro = {}
+				b_tiro = {}
+				b_nabooru = {}
+				b_otarana = {}
+			}
+			c_darunia = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_oduro = {}
+				b_naria = {}
+				b_darunia = {}
+			}
+			c_bridge_forest = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_eryu = {}
+				b_parona = {}
+			}
+		}
+		d_maze_island = {
+			color={ 78 78 95 }
+			color2={ 255 255 255 }
+			capital = 185 # Middlesex
+			c_north_maze_island = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_magone = {}
+				b_dobaru = {}
+			}
+			c_maze_palace = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_maze_palace = {}
+				b_aridu = {}
+			}
+			c_south_maze_island = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_migin = {}
+				b_nonin = {}
+			}
+		}
+	}
+	k_saria = {
+		color={ 0 0 204 }
+		color2={ 255 255 23 }
+		capital = 196 # Middlesex
+		dignity = 10 # Counted as having this many more counties than it does
+
+	
+		west_hyrulean = West Hyrule
+		east_hyrulean = West Hyrule
+		little_hyrulean = West Hyrule
+		
+		d_moruge = {
+			color={ 108 91 54 }
+			color2={ 6 122 0 }
+			capital = 198 # Middlesex
+			c_morgue = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_morgue_palace = {}
+				b_morgue = {}
+				b_mukia = {}
+				b_pina = {}
+			}
+			c_tantari = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_tantari = {}
+				b_sanin = {}
+				b_nodo = {}
+			}
+			c_mido = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_mido_palace = {}
+				b_mido = {}
+				b_maryibo = {}
+				b_mobadane = {}
+				
+			}
+			c_palace_island = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_island_palace = {}
+				b_adikabo = {}
+				b_muryen = {}
+			}
+		}
+		d_saria = {
+			color={ 0 0 204 }
+			color2={ 255 255 23 }
+			capital = 196 # Middlesex
+			c_navi = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_navi_palace = {}
+				b_navi = {}
+				b_liro = {}
+				b_riro = {}
+				b_murdi = {}
+			}
+			c_saria = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_saria_palace = {}
+				b_saria = {}
+				b_ery = {}
+				b_paron = {}
+				b_kidu = {}
+				b_murye = {}
+			}
+			c_impa	 = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_impa = {}
+				b_moldo = {}
+				b_kalu = {}
+				b_moldin = {}
+			}		
+		}
+		d_midoro = {
+			color={ 0 78 255 }
+			color2={ 0 0 0 }
+			capital = 202 # Middlesex
+			c_graveyard_vale = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_saria_graveguard = {}
+				b_graveyard_saria = {}
+			}
+			c_midoro = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_mir = {}
+				b_midoro = {}
+				b_finay = {}
+				b_liko = {}
+				b_mururin = {}
+			}
+			c_ruto = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_doba = {}
+				b_ruto = {}
+				b_fabo = {}
+			}
+			c_rauru = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_rauru_palace = {}
+				b_rauru = {}
+				b_olorin = {}
+				b_muryidido = {}
+			}
+			c_parapa = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_parapa = {}
+				b_parapa_city = {}
+				b_oririn = {}
+			}
+			c_north_palace = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_north_palace = {}
+			}
+		}
+	}
+	k_oberon = {
+		color={ 0 0 0 }
+		color2={ 112 17 17 }
+		capital = 212 # Middlesex
+		
+		little_hyrulean = Little Hyrule
+		east_hyrulean = Little Hyrule
+		west_hyrulean = Little Hyrule
+		
+		d_east_death_mountains= {
+			color={ 81 81 81}
+			color2={ 133 91 0 }
+			capital = 209 # Middlesex
+			c_oberon_death_mountains = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_oberon_gate = {}
+			}
+			c_oberon_spectacle_rock = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_modun = {}
+				b_ronaria = {}
+				b_naon = {}
+			}
+			c_oberon_cemetary = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_ardu = {}
+				b_oberon_cemetary = {}
+				b_taro = {}
+			}
+		}
+		d_oberon_hills = {
+			color={ 139 69 19 }
+			color2={ 139 0 0 }
+			capital = 214 # Middlesex
+			c_spryte = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_spryte = {}
+				b_spryte_spring = {}
+				b_kinto = {}
+				b_kircan = {}
+			}
+			c_oberon = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_oberon = {}
+				b_oberon_spring = {}
+				b_muso = {}
+			}
+			c_moblinia = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_moblinia = {}
+				b_faryu = {}
+				b_orone = {}
+			}
+			c_miff = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_miff = {}
+				b_miff_spring = {}
+				b_orure = {}
+				b_murorane = {}
+			}
+			c_north_lost_forest = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_rordu = {}
+				b_monedu = {}
+				b_mudon = {}
+				b_magati = {}
+				b_medore = {}
 			}
 		}
 	}
