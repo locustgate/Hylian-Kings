@@ -15,6 +15,13 @@ geographical_region = "geographical_region.txt"
 static = "statics"
 seasons = "seasons.txt"
 
+#Lakes
+sea_zones = { 492 }
+sea_zones = { 550 }
+sea_zones = { 555 556 }
+sea_zones = { 558 }
+sea_zones = { 762 }
+
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
 tree = { 3 4 7 10 }
 
