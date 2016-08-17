@@ -2182,3 +2182,201 @@ e_sea_tree = {
 		}
 	}
 }
+k_falsia = {
+	color={ 41 255 30 }
+	color2={ 250 250 210 }
+	capital = 60
+	d_falsia = {
+		color={ 41 255 30 }
+		color2={ 18 136 7 }
+		capital = 60
+		c_falsia = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+		
+			b_falsia_tower = {}
+			b_sania = {}
+			b_falsia = {}
+			b_fange = {}
+			b_sene = {}
+		}
+		c_lachry = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+		
+			b_lachry = {}
+			b_fadyl = {}
+			b_sedyl = {}
+			b_sia = {}
+		}
+		c_fetsia = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+		
+			b_fetsia = {}
+			b_fetse = {}
+			b_fenia = {}
+			b_fari = {}
+		}
+		c_farial = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+			
+			b_farial = {}
+			b_fial = {}
+			b_lange = {}
+		}
+		c_flower_gardens = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+			
+			b_rose = {}
+			b_tulip = {}
+			b_daffodil = {}
+			b_iris = {}
+		}
+	}
+	d_faria = {
+		color={ 34 139 34 }
+		color2={ 18 136 7 }
+		capital = 27
+		c_faria = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+			
+			b_faria	 = {}
+			b_farndal = {}
+			b_ponria = {}
+			b_ardyl = {}
+		}
+		c_maku_sanctuary = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+		
+			b_falsia_maku_grove = {}
+			b_false = {}
+			b_sadyl = {}
+		}
+		c_hourglass_sands = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+			
+			b_hourglass_pyramid = {}
+			b_sangia = {}
+			b_fangel = {}
+		}
+		c_new_falsia = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+			
+			b_new_falsia = {}
+			b_siatsia = {}
+			b_foone = {}
+			b_luine = {}
+			b_fatse = {}
+			b_satse = {}
+		}
+		c_sundial_shores = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+			
+			b_sundial_pyramid = {}
+			b_fuil = {}
+			b_felse = {}
+			b_fangal = {}
+			b_paria = {}
+		}
+		c_beach_caves = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+			
+			b_fuile = {}
+			b_foore = {}
+			b_ialsia = {}
+		}
+	}
+	d_proodyl = {
+		color={ 255 240 245 }
+		color2={ 18 136 7 }
+		capital = 15
+		c_clockwork = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+			
+			b_clock_tower = {}
+			b_cog_city = {}
+			b_geared_temple = {}
+			b_greaseworks = {}
+		}
+		c_magma_mines = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+			
+			b_magma_mines = {}
+			b_lania = {}
+			b_luire = {}
+		}
+		c_misty_marshes = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+			
+			b_siarel = {}
+			b_fiatsia = {}
+			b_farane = {}
+		}
+		c_sanguine_shores = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+			
+			b_vampire_crypt = {}
+			b_haunted_town = {}
+			b_salsia = {}
+			b_faneria = {}
+			b_foolsia = {}
+		}
+		c_westvale = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+		
+			b_westvale = {}
+			b_siare = {}
+			b_liare = {}
+			b_suire = {}
+		}
+		c_zora_point = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+		
+			b_laral = {}
+			b_fanal = {}
+		}
+		c_light_field = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+		
+			b_ladyl = {}
+			b_temple_of_light = {}
+			b_prare = {}
+			b_latse = {}
+			b_senal = {}
+		}
+		c_proodyl = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+		
+			b_proodyl = {}
+			b_lia = {}
+			b_fiare = {}
+			b_pria = {}
+			b_liaral = {}
+		}
+		c_falsia_falls = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+		
+			b_falls_retreat = {}
+			b_flia = {}
+			b_falania = {}
+		}
+	}
+}
