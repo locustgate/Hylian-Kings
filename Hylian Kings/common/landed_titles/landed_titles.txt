@@ -63,8 +63,8 @@ e_hyrule_central = {
 				color={ 255 255 255 }
 				
 				b_father_tree = {}
-				#b_son_tree = {}
-				#b_tree_village = {}
+				b_son_tree = {}
+				b_tree_village = {}
 			}
 			c_faron_swamp ={
 				color={ 124 252 0 }
@@ -78,7 +78,7 @@ e_hyrule_central = {
 				color={ 255 255 255 }					
 				holy_site = light_spirits
 				
-				b_faron_spring
+				b_faron_spring = {}
 				b_erabo = {}
 				b_odibo = {}
 				b_marono = {}
@@ -208,7 +208,7 @@ e_hyrule_central = {
 				color={ 0 108 255 }
 				color2={ 255 255 255 }
 				
-				b_north_hyrule_castle = {}
+				b_lanayru_castle = {}
 				b_west_wing = {}
 				b_east_wing = {}
 				b_north_wing = {}
@@ -237,7 +237,7 @@ e_hyrule_central = {
 				color={ 25 25 112 }
 				color2={ 255 255 255 }
 				
-				b_central_castle_town = {}
+				b_central_castle = {}
 				b_central_city = {}
 				b_central_temple = {}
 				b_central_guard_post = {}
@@ -797,7 +797,7 @@ e_hyrule_central = {
 				b_farore = {}
 				b_market_gate = {}
 				b_merchant_district = {}
-				b_manor_district
+				b_manor_district = {}
 				b_west_back_alley = {}
 			}
 			c_east_castle_town = {
@@ -1126,7 +1126,7 @@ k_zora_domain = {
 			b_wazear= {
 				#goron = 
 			}
-			b_vazas
+			b_vazas = {}
 		}
 		c_ice_caverns = {
 			color={ 176 226 255 }
@@ -1258,32 +1258,32 @@ k_west_death_mountains = {
 
 
 k_hyrule_minish = { #Minish
-		color={ 82 184 220 }
-		color2={ 253 138 119 }
-		capital = 623
-		dignity = 5 # Counted as having this many more counties than it does
-		
-		d_minish_fields= {
-			color={ 135 206 235 }
-			color2={ 176 23 31 }
-			capital = 631 # Middlesex
-			c_lon_lon_field = {
-				color={ 135 206 235 }
-				color2={ 255 255 255 }
-								
-				b_wind_ranch = {
-					#hyrulean = Lon Lon Ranch
-				}
-				b_marda = {}
-				b_more = {}
-				b_nanin = {}
+	color={ 82 184 220 }
+	color2={ 253 138 119 }
+	capital = 623
+	dignity = 5 # Counted as having this many more counties than it does
+	
+	d_minish_fields= {
+		color={ 135 206 235 }
+		color2={ 176 23 31 }
+		capital = 631 # Middlesex
+		c_lon_lon_field = {
+		color={ 135 206 235 }
+		color2={ 255 255 255 }
+						
+			b_wind_ranch = {
+				#hyrulean = Lon Lon Ranch
 			}
-			c_minish_town = {
-				color={ 253 138 119 }
-				color2={ 255 255 255 }
-				
-				b_minish_guard_post = {
-					#wind_tribe = Wind Town Guard Post
+			b_marda = {}
+			b_more = {}
+			b_nanin = {}
+		}
+		c_minish_town = {
+			color={ 253 138 119 }
+			color2={ 255 255 255 }
+		
+			b_minish_guard_post = {
+				#wind_tribe = Wind Town Guard Post
 				}
 				b_minish_town = {
 					#wind_tribe = Wind Town
@@ -1346,310 +1346,309 @@ k_hyrule_minish = { #Minish
 				b_nirore = {}
 				b_edari  = {}
 			}
-		}
-		d_minish_plains = {
-			color={ 205 79 57 }
-			color2={ 255 255 255 }		
-			capital=640
+	}
+	d_minish_plains = {
+		color={ 205 79 57 }
+		color2={ 255 255 255 }		
+		capital=640
+		
+		c_west_wind_bridge = {
+			color={ 125 158 192 }
+			color2={ 128 0 0 }
 			
-			c_west_wind_bridge = {
-				color={ 125 158 192 }
-				color2={ 128 0 0 }
-				
-				b_west_bridge_wind = {}
-				b_milu = {}
-				b_naudu = {}
-				
-			}
-			c_east_wind_bridge = {
-				color={ 0 255 255 }
-				color2={ 255 255 255 }
-				
-				b_west_bridge_gate = {}
-				b_kilu = {}
-				b_mulo = {}
-			}
+			b_west_bridge_wind = {}
+			b_milu = {}
+			b_naudu = {}
 			
-			c_north_minish_plains = {
-				color={ 255 0 0 }
-				color2={ 113 113 198 }
-				
-				b_karia = {}
-				b_eryodu = {}
-				b_rinin = {}
-				b_oradu = {}
-				b_sarare = {}
-			}
-			c_central_minish_plains = {
-				color={ 255 64 64 }
-				color2={ 187 255 255 }
-				
-				b_maldo = {}
-				b_obarco = {}
-				b_mul = {}
-				b_tare = {}
-
-			}
-			c_east_minish_plains = {
-				color={ 238 59 59 }
-				color2={ 51 161 201 }
-				
-				b_munabi = {}
-				b_daru = {}
-				b_rulal = {}
-			}
-			c_south_minish_plains = {
-				color={ 205 92 92 }
-				color2={ 152 245 238 }
-				
-				b_kalal = {}
-				b_fopolu = {}
-				b_mura = {}
-				b_ogin = {}
-			}
-			c_west_minish_plains = {
-				color={ 205 85 85 }
-				color2={ 0 154 205 }
-				
-				b_nin = {}
-				b_ere = {}
-				b_ligokan = {}
-			}
 		}
-		d_minish_mountains = {
+		c_east_wind_bridge = {
+			color={ 0 255 255 }
+			color2={ 255 255 255 }
+			
+			b_west_bridge_gate = {}
+			b_kilu = {}
+			b_mulo = {}
+		}
+			
+		c_north_minish_plains = {
+			color={ 255 0 0 }
+			color2={ 113 113 198 }
+			
+			b_karia = {}
+			b_eryodu = {}
+			b_rinin = {}
+			b_oradu = {}
+			b_sarare = {}
+		}
+		c_central_minish_plains = {
+			color={ 255 64 64 }
+			color2={ 187 255 255 }
+			
+			b_maldo = {}
+			b_obarco = {}
+			b_mul = {}
+			b_tare = {}
+		}
+		c_east_minish_plains = {
+			color={ 238 59 59 }
+			color2={ 51 161 201 }
+				
+			b_munabia = {}
+			b_daru = {}
+			b_rulal = {}
+		}
+		c_south_minish_plains = {
+			color={ 205 92 92 }
+			color2={ 152 245 238 }
+			
+			b_kalal = {}
+			b_fopolu = {}
+			b_mura = {}
+			b_ogin = {}
+		}
+		c_west_minish_plains = {
+			color={ 205 85 85 }
+			color2={ 0 154 205 }
+			
+			b_nin = {}
+			b_ere = {}
+			b_ligokan = {}
+		}
+	}
+	d_minish_mountains = {
+		color={ 178 34 34 }
+		color2={ 30 30 30 }
+		capital = 610 # Middlesex
+		c_minish_mines = {
 			color={ 178 34 34 }
 			color2={ 30 30 30 }
-			capital = 610 # Middlesex
-			c_minish_mines = {
-				color={ 178 34 34 }
-				color2={ 30 30 30 }
 				
-				b_minish_mines = {}
-				b_hamor = {}
-				b_jam = {}
-			}
-			c_mount_crenel = {
-				color={ 255 69 0 }
-				color2={ 139 139 131}
-				
-				b_taszkas = {}
-				b_ekatta = {}
-				b_hamor = {}
-				b_paruncer = {}
-			}
-			c_crenel_base = {
-				color={ 205 128 128 }
-				color2={ 128 128 105 }
-				
-				b_athamonc = {}
-				b_jaror = {}
-			}
-			c_veil_falls = {
-				color={ 139 26 26 }
-				color2={ 139 119 101 }
-				
-				b_bappe = {}
-				b_cadra = {}
-				b_erar = {}
-			}
-			c_veil_mountain = {
-				color={ 139 0 0 }
-				color2={ 139 143 130 }
-				
-				b_ador = {}
-				b_toppe = {}
-				b_arunc = {}
-				b_karor = {}
-			}
+			b_minish_mines = {}
+			b_hamor = {}
+			b_jam = {}
 		}
-		d_keatonia = {	
+		c_mount_crenel = {
+			color={ 255 69 0 }
+			color2={ 139 139 131}
+				
+			b_taszkas = {}
+			b_ekatta = {}
+			b_hamor = {}
+			b_paruncer = {}
+		}
+		c_crenel_base = {
+			color={ 205 128 128 }
+			color2={ 128 128 105 }
+			
+			b_athamonc = {}
+			b_jaror = {}
+		}
+		c_veil_falls = {
+			color={ 139 26 26 }
+			color2={ 139 119 101 }
+			
+			b_bappe = {}
+			b_cadra = {}
+			b_erar = {}
+		}
+		c_veil_mountain = {
+			color={ 139 0 0 }
+			color2={ 139 143 130 }
+				
+			b_ador = {}
+			b_toppe = {}
+			b_arunc = {}
+			b_karor = {}
+		}
+	}
+	d_keatonia = {	
+		color={ 227 168 105 }
+		color2={ 176 23 31 }
+		capital = 637 # Middlesex	
+		c_keatonia = {
 			color={ 227 168 105 }
-			color2={ 176 23 31 }
-			capital = 637 # Middlesex	
-			c_keatonia = {
-				color={ 227 168 105 }
-				color2={ 128 128 0 }
-				
-				b_keatonia = {}
-				b_keatonan = {}
-				b_keato = {}
-			}
-			c_earth_temple = {
-				color={ 205 205 0 }
-				color2={ 139 105 20 }
-				
-				b_koba = {}
-				b_earth_temple = {}
-			}
-			c_jewel_mines = {
-				color={ 139 90 0 }
-				color2={ 252 230 201 }
-				
-				b_mine_entrance = {}
-				b_mining_town = {}
-				b_jewel_sanctuary = {}
-			}
+			color2={ 128 128 0 }
+			
+			b_keatonia = {}
+			b_keatonan = {}
+			b_keato = {}
 		}
-		d_castor_wilds= { #10#
-			color={ 253 138 119 }
-			color2={ 0 0 0 }
-			capital = 623 # Middlesex
-			c_north_castor_wilds = {
-				color={ 227 168 105 }
-				color2={ 82 184 220 }
+		c_earth_temple = {
+			color={ 205 205 0 }
+			color2={ 139 105 20 }
+			
+			b_koba = {}
+			b_earth_temple = {}
+		}
+		c_jewel_mines = {
+		color={ 139 90 0 }
+			color2={ 252 230 201 }
 				
-				b_sobo = {}
-				b_fardan = {}
-				b_tinin = {}
-			}
-			c_south_castor_wilds = {
-				color={ 237 145 33 }
-				color2={ 82 184 220 }
+			b_mine_entrance = {}
+			b_mining_town = {}
+			b_jewel_sanctuary = {}
+		}
+	}
+	d_castor_wilds= { #10#
+		color={ 253 138 119 }
+		color2={ 0 0 0 }
+		capital = 623 # Middlesex
+		c_north_castor_wilds = {
+			color={ 227 168 105 }
+			color2={ 82 184 220 }
+			
+			b_sobo = {}
+			b_fardan = {}
+			b_tinin = {}
+		}
+		c_south_castor_wilds = {
+			color={ 237 145 33 }
+			color2={ 82 184 220 }
 				
-				b_edabe = {}
-				b_oron = {}
-			}
-			c_wind_city = {
-				color={ 238 118 0 }
-				color2={ 82 184 220 }
-				
-				b_wind_city_gate  = {}
-				b_wind_city = {}
-				b_maral = {}
-			}
-			c_fortress_of_winds = {
-				color={ 205 133 63 }
-				color2={ 82 184 220 }
-				
-				b_fortress_of_winds = {}
-				b_dobe = {}
-			}
-			c_tower_of_winds = {
-				color={ 255 218 185 }
-				color2={ 82 184 220 }
-				
-				b_tower_winds = {}
+			b_edabe = {}
+			b_oron = {}
+		}
+		c_wind_city = {
+			color={ 238 118 0 }
+			color2={ 82 184 220 }
+			
+			b_wind_city_gate  = {}
+			b_wind_city = {}
+			b_maral = {}
+		}
+		c_fortress_of_winds = {
+			color={ 205 133 63 }
+			color2={ 82 184 220 }
+			
+			b_fortress_of_winds = {}
+			b_dobe = {}
+		}
+		c_tower_of_winds = {
+			color={ 255 218 185 }
+			color2={ 82 184 220 }
+			
+			b_tower_winds = {}
 				b_fodia = {}
-			}
-			c_palace_of_winds = {
-				color={ 255 153 18 }
-				color2={ 82 184 220 }
-				
-				b_palace_winds = {}
-				b_faton = {}
-				b_pin = {}
-			}
-			c_central_castor_wilds = {
-				color={ 205 133 0 }
-				color2={ 82 184 220 }
-				
-				b_aru = {}
-				b_repu = {}
-			}
 		}
-		d_royal_valley= {#
-			color={ 82 184 220 }
-			color2={ 0 0 0 }
-			capital = 623 # Middlesex
-			c_royal_crypt = {
-				color={ 47 79 79 }
-				color2={ 82 184 220 }
-				
-				b_crypt_entrance = {}
-				b_royal_crypts = {}
-				b_crypt_town = {}
-			}
+		c_palace_of_winds = {
+			color={ 255 153 18 }
+			color2={ 82 184 220 }
+			
+			b_palace_winds = {}
+			b_faton = {}
+			b_pin = {}
+		}
+		c_central_castor_wilds = {
+			color={ 205 133 0 }
+			color2={ 82 184 220 }
+			
+			b_aru = {}
+			b_repu = {}
+		}
+	}
+	d_royal_valley= {#
+		color={ 82 184 220 }
+		color2={ 0 0 0 }
+		capital = 623 # Middlesex
+		c_royal_crypt = {
+			color={ 47 79 79 }
+			color2={ 82 184 220 }
+			
+			b_crypt_entrance = {}
+			b_royal_crypts = {}
+			b_crypt_town = {}
+		}
 			c_north_royal_road = {
-				color={ 105 105 105 }
-				color2={ 82 184 220 }
-				
-				b_lere = {}
-				b_dobal = {}
-				b_morin = {}
-				b_pirin = {}
-			}
-			c_royal_valley = {
-				color={ 132 112 255 }
-				color2={ 82 184 220 }
-				
-				b_kabo = {}
-				b_kinin = {}
-				b_sipia = {}
-				b_marudan = {}
-			}
-			c_minish_hyrule_castle = {
-				color={ 30 144 255 }
-				color2={ 82 184 220 }
-				
-				b_minish_castle = {
-					#wind_tribe = Wind Castle
-				}
-				b_elemental_sanctuary = {}
-			}
+			color={ 105 105 105 }
+			color2={ 82 184 220 }
+			
+			b_lere = {}
+			b_dobal = {}
+			b_morin = {}
+			b_pirin = {}
 		}
-		d_minish_savannah = {
+		c_royal_valley = {
+			color={ 132 112 255 }
+			color2={ 82 184 220 }
+			
+			b_kabo = {}
+			b_kinin = {}
+			b_sipia = {}
+			b_marudan = {}
+		}
+		c_minish_hyrule_castle = {
+			color={ 30 144 255 }
+			color2={ 82 184 220 }
+			
+			b_minish_castle = {
+				#wind_tribe = Wind Castle
+			}
+			b_elemental_sanctuary = {}
+		}
+	}
+	d_minish_savannah = {
+		color={ 189 183 107 }
+		color2={ 139 136 120 }
+		capital = 644
+		c_acacia_point = {
+			color={ 139 139 0 }
+			color2={ 139 136 120 }
+			
+			b_acacia_point = {}
+			b_siria = {}
+			b_masin = {}
+			b_mubin = {}
+			b_kire = {}
+		}
+		c_west_acacia_savannah = {
 			color={ 189 183 107 }
 			color2={ 139 136 120 }
-			capital = 644
-			c_acacia_point = {
-				color={ 139 139 0 }
-				color2={ 139 136 120 }
+			
+			b_onore = {}
+			b_kanon = {}
+			b_orire = {}
+			b_mogin = {}
+		}
+		c_south_acacia_savannah = {
+			color={ 205 190 112 }
+			color2={ 139 136 120 }
+			
+			b_lanin = {}
+			b_crudu = {}
+			b_dokoon = {}
+			b_edosh = {}
+		}
+		c_east_acacia_savannah = {
+			color={ 139 117 0 }
+			color2={ 139 136 120 }
+			
+			b_ninin = {}
+			b_hyran = {}
+			b_egarin = {}
+		}
+		c_north_acacia_savannah = {
+			color={ 255 222 173 }
+			color2={ 139 136 120 }
+			
+			b_tatul = {}
+			b_ataro = {}
+			b_marun = {}
+			b_korin = {}
+			b_muryi = {}
+		}
+		c_acacia_island = {
+			color={ 205 133 63 }
+			color2={ 139 136 120 }
+			
+			b_acacia_resort = {}
+			b_narin = {}
+		}
+		c_port_minish = {
+			color={ 139 87 66}
+			color2={ 0 0 0 }
 				
-				b_acacia_point = {}
-				b_siria = {}
-				b_masin = {}
-				b_mubin = {}
-				b_kire = {}
-			}
-			c_west_acacia_savannah = {
-				color={ 189 183 107 }
-				color2={ 139 136 120 }
-				
-				b_onore = {}
-				b_kanon = {}
-				b_orire = {}
-				b_mogin = {}
-			}
-			c_south_acacia_savannah = {
-				color={ 205 190 112 }
-				color2={ 139 136 120 }
-				
-				b_lanin = {}
-				b_crudu = {}
-				b_dokoon = {}
-				b_edosh = {}
-			}
-			c_east_acacia_savannah = {
-				color={ 139 117 0 }
-				color2={ 139 136 120 }
-				
-				b_ninin = {}
-				b_hyran = {}
-				b_egarin = {}
-			}
-			c_north_acacia_savannah = {
-				color={ 255 222 173 }
-				color2={ 139 136 120 }
-				
-				b_tatul = {}
-				b_ataro = {}
-				b_korin = {}
-				b_muryi = {}
-			}
-			c_acacia_island = {
-				color={ 205 133 63 }
-				color2={ 139 136 120 }
-				
-				b_acacia_resort = {}
-				b_narin = {}
-			}
-			c_port_minish = {
-				color={ 139 87 66}
-				color2={ 0 0 0 }
-				
-				b_port_resort = {}
-				b_port_minish = {}
-			}
+			b_port_resort = {}
+			b_port_minish = {}
 		}
 	}
 }
@@ -1659,13 +1658,13 @@ e_saria = {#Saria
 	capital = 32 # Middlesex
 	dignity = 196 # Counted as having this many more counties than it does
 
-	eldin = Eldin
+	#eldin = Eldin
 	#sarian = Saria
-	kasuton = Kasuto
-	hyrulean = Hyrule Major
-	little_hyrulean = Hyrule
-	west_hyrulean = Hyrule
-	east_hyrulean = Hyrule
+	#kasuton = Kasuto
+	#hyrulean = Hyrule Major
+	#little_hyrulean = Hyrule
+	#west_hyrulean = Hyrule
+	#east_hyrulean = Hyrule
 	
 	# Creation/usurpation trigger
 	allow = {
@@ -1688,9 +1687,9 @@ e_saria = {#Saria
 		dignity = 5 # Counted as having this many more counties than it does
 	
 		#late_hyrulean = Hyrule
-		east_hyrulean = East Hyrule
-		west_hyrulean = East Hyrule
-		little_hyrulean = East Hyrule
+	#	east_hyrulean = East Hyrule
+	#	west_hyrulean = East Hyrule
+	#	little_hyrulean = East Hyrule
 		
 		d_kasuto = {
 			color={ 11 76 0 }
@@ -1717,9 +1716,9 @@ e_saria = {#Saria
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
 				
-				b_maup
-				b_lapar
-				b_crebapo
+				b_maup = {}
+				b_lapar = {}
+				b_crebapo = {}
 			}
 			c_hyron_island = {
 				color={ 0 104 46 }
@@ -1801,9 +1800,9 @@ e_saria = {#Saria
 		dignity = 10 # Counted as having this many more counties than it does
 
 	
-		west_hyrulean = West Hyrule
-		east_hyrulean = West Hyrule
-		little_hyrulean = West Hyrule
+		#west_hyrulean = West Hyrule
+		#east_hyrulean = West Hyrule
+		#little_hyrulean = West Hyrule
 		
 		d_moruge = {
 			color={ 108 91 54 }
@@ -1879,11 +1878,6 @@ e_saria = {#Saria
 				b_kalu = {}
 				b_moldin = {}
 			}		
-		}
-		d_midoro = {
-			color={ 0 78 255 }
-			color2={ 0 0 0 }
-			capital = 202 # Middlesex
 			c_graveyard_vale = {
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
@@ -1891,6 +1885,11 @@ e_saria = {#Saria
 				b_saria_graveguard = {}
 				b_graveyard_saria = {}
 			}
+		}
+		d_midoro = {
+			color={ 0 78 255 }
+			color2={ 0 0 0 }
+			capital = 202 # Middlesex
 			c_midoro = {
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
@@ -1939,9 +1938,9 @@ e_saria = {#Saria
 		color2={ 112 17 17 }
 		capital = 212 # Middlesex
 		
-		little_hyrulean = Little Hyrule
-		east_hyrulean = Little Hyrule
-		west_hyrulean = Little Hyrule
+		#little_hyrulean = Little Hyrule
+		#east_hyrulean = Little Hyrule
+		#west_hyrulean = Little Hyrule
 		
 		d_east_death_mountains= {
 			color={ 81 81 81}
@@ -2021,6 +2020,1288 @@ e_saria = {#Saria
 		}
 	}
 }
+e_moria = {
+	color={ 80 101 60 }
+	color2={ 255 0 0 }
+	capital = 31 
+	k_galfridia = {
+		color={ 119 136 153 }
+		color2={ 47 79 79 }
+		capital = 56 
+		d_camlain = {
+			color={ 119 136 153 }
+			color2={ 47 79 79 }
+			
+			c_ambadon = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_ambadon = {}
+				b_tanon = {}
+				b_lilan = {}
+				b_gedia = {}
+				b_girath = {}
+			}
+			c_camlain = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_camlain = {}
+				b_genal = {}
+				b_depray = {}
+				b_moloth = {}
+			}
+			c_gilbadon = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_govass = {}
+				b_gradanal = {}
+				b_marelia = {}
+			}
+		}
+		d_galeas = {
+			color={ 119 136 153 }
+			color2={ 47 79 79 }
+			
+			c_glennith = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_glennith = {}
+				b_galbin = {}
+				b_arilia = {}
+				b_mivopray = {}
+			}
+			c_ardemoria = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_ardemoria = {}
+				b_diamal = {}
+			}
+			c_galeas = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_galeas = {}
+				b_cergra = {}
+			}
+		}
+		d_galfridia = {
+			color={ 119 136 153 }
+			color2={ 47 79 79 }
+			c_galfridia	 = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_galfridia = {}
+				b_anin = {}
+				b_dubane = {}
+				b_gowiross = {}
+				b_manelia = {}
+			}
+			c_gargrail = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_gargrail = {}
+				b_galoth = {}
+				b_garay = {}
+				b_linath = {}
+			}
+			c_gauness = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_gauness = {}
+				b_adath = {}
+				b_aworon = {}
+			}
+		}
+	}
+	k_grindle = {
+		color={ 139 71 93 }
+		color2={ 255 255 255 }
+		capital = 37
+		d_swanshores = {
+			color={ 80 101 60 }
+			color2={ 255 0 0 }
+			
+			c_swanpoint ={
+				color={ 80 101 60 }
+				color2={ 255 0 0 }
+				
+				b_swan_tower = {}
+				b_swanpoint = {}
+			}
+			c_taprian ={
+				color={ 80 101 60 }
+				color2={ 255 0 0 }
+				
+				b_taprian = {}
+				b_lid = {}
+				b_barath = {}
+			}
+			c_agravoron ={
+				color={ 80 101 60 }
+				color2={ 255 0 0 }
+				
+				b_agravoron = {}
+				b_awora = {}
+				b_adeve = {}
+				b_ganoun = {}
+			}
+		}
+		d_dale = {
+			color={ 80 101 60 }
+			color2={ 255 0 0 }
+			
+			c_daleport ={
+				color={ 80 101 60 }
+				color2={ 255 0 0 }
+				
+				b_dale = {}
+				b_daleport = {}
+				b_dalen = {}
+				b_lamberg = {}
+			}
+			c_anaurion ={
+				color={ 80 101 60 }
+				color2={ 255 0 0 }
+			
+				b_anaurion = {}
+				b_alanon = {}
+				b_mave = {}
+				b_caul = {}
+			}
+			c_borodour ={
+				color={ 80 101 60 }
+				color2={ 255 0 0 }
+				
+				b_borodour = {}
+				b_gride = {}
+				b_geven = {}
+				b_aridelia = {}
+				b_arer = {}
+			}
+			c_grindle_fields ={
+				color={ 80 101 60 }
+				color2={ 255 0 0 }
+				
+				b_genire = {}
+				b_geman = {}
+				b_godaura = {}
+				b_genon = {}
+			}
+		}		
+		d_grindle = {
+			color={ 80 101 60 }
+			color2={ 255 0 0 }
+			c_grindle ={
+				color={ 80 101 60 }
+				color2={ 255 0 0 }
+			
+				b_grindle = {}
+				b_ani = {}
+				b_bove = {}
+				b_moth = {}
+				b_maeth = {}
+			}
+			c_caliborn ={
+				color={ 80 101 60 }
+				color2={ 255 0 0 }
+				
+				b_caliborn = {}
+				b_gotha = {}
+				b_genaros = {}
+			}
+			c_lothodin ={
+				color={ 80 101 60 }
+				color2={ 255 0 0 }
+				b_lothodin = {}
+				b_adev = {}
+				b_ganou = {}
+			}
+			c_seawall ={
+				color={ 80 101 60 }
+				color2={ 255 0 0 }
+				
+				b_seawall = {}
+				b_seaburg = {}
+			}
+		}
+	}
+	k_moria = {
+		color={ 80 101 60 }
+		color2={ 255 0 0 }
+		capital = 31 
+		d_moria = {
+			color={ 80 101 60 }
+			color2={ 255 0 0 }
+			
+			c_moria = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_moria = {}
+				b_govera = {}
+				b_aridon = {}
+			}
+			c_mungar = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_mungar = {}
+				b_lido = {}
+			}
+			c_ereway = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_moda = {}
+				b_lidon = {}
+				b_cairoun = {}
+			}
+			c_malithoron = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_malithoron = {}
+				b_thoron = {}
+				b_gira = {}
+			}
+		}
+		d_anadora = {
+			color={ 80 101 60 }
+			color2={ 255 0 0 }
+			c_anadora = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_anadora = {}
+				b_annas = {}
+				b_linongay = {}
+				b_gamle = {}
+			}
+			c_mountain_pass = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_mountain_gate_moria = {}
+				b_miwoss = {}
+				b_glalia = {}
+				b_gaprin = {}
+			}
+			c_maelgryn = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_maelgryn = {}
+				b_garoth = {}
+				b_moray = {}
+				b_meadia = {}
+			}
+		}
+		d_hanoria = {
+			color={ 80 101 60 }
+			color2={ 255 0 0 }
+			
+			c_suangma = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_damputon = {}
+				b_miken = {}
+				b_xanin = {}
+			}
+			c_pagaung = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_judaraton = {}
+				b_baon = {}
+				b_akatu = {}
+				b_mumu = {}
+			}
+			c_maomong = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_ting = {}
+				b_guol = {}
+				b_jaria = {}
+			}
+			c_bangrajang = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_goton = {}
+				b_jiami = {}
+				b_bason = {}
+			}
+			c_lansang = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				
+				b_pameng = {}
+			}
+			c_bawang = {
+				color={ 119 136 153 }
+				color2={ 47 79 79 }
+				b_iweril = {}
+			}
+		}
+	}	
+}
+e_sea_tree = {
+	k_minish = {
+		color={ 82 184 220}
+		color2={ 0 100 0 }
+		capital = 666 
+		d_minish = {
+			color={ 82 184 220}
+			color2={ 0 100 0 }
+			capital = 666 #Middlesex
+			c_hylia_treehouses  = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_nanin = {}
+				b_ogiru = {}
+				b_edinu = {}
+			}
+			c_lakeside_retreat = {	
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_minish_retreat = {}
+				b_soro = {}
+				b_manane = {}
+				b_kirde = {}
+			}
+		}
+	}
+}
+e_hanman = {
+	color={ 222 41 16 }
+	color2={ 255 222 0 }
+	capital = 72
+	k_lost_desert = {
+		color={ 244 164 96 }
+		color2={ 255 222 0 }
+		capital = 160
+		
+		d_hotho = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			capital = 160
+
+			c_hotho = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_hotho = {}
+			}
+			c_kangso = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_kangso = {}
+			}
+			c_huomen = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_huomen = {}
+				b_soman = {}
+			}
+			c_makare = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_makare = {}
+				b_dinom = {}
+			}
+			c_hakumul = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_hakumul = {}
+				b_duara = {}
+			}
+		}
+		d_quruman = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			capital = 160
+			
+			c_quruman = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_quruman = {}
+				b_surao = {}
+			}
+			c_yitara = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_yitara = {}
+				b_farun = {}
+			}
+			c_makanlataka = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_makanlataka = {}
+				b_momum = {}
+				b_duana = {}
+			}
+			c_durufen = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_durufen = {}
+				b_jing = {}
+			}
+			c_sisashan = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_sisashan = {}
+				b_kanma = {}
+			}
+			c_shamen = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_shamen = {}
+				b_oruol = {}
+			}
+		}
+	}
+	k_laong = {
+		color={ 206 17 38 }
+		color2={ 0 40 104 }
+		capital = 108	
+		
+		d_kimheon = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			capital = 160
+			
+			c_kimheon = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_kimheon = {}
+				b_duano = {}
+				b_larum = {}
+				b_ping = {}
+			}
+			c_seoran = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_seoran = {}
+				b_pafon = {}
+				b_moreruton = {}
+			}
+			c_famusa = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_famusa = {}
+				b_tairi = {}
+				b_kenan = {}
+				b_sal = {}
+			}
+			c_arang = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_arang = {}
+				b_saru = {}
+			}
+			c_morusego = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_morusego = {}
+				b_maleng = {}
+			}
+		}
+		d_jinghan = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			capital = 160
+			
+			c_jinghan = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_jinghan = {}
+				b_siji = {}
+				b_keoki = {}
+				b_sapaon = {}
+			}
+			c_minumchi = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_minumchi = {}
+				b_jaduol = {}
+				b_dalang = {}
+			}
+			c_huodan = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_huodan = {}
+				b_han = {}
+				b_pama = {}
+				b_hajamil = {}
+			}
+			c_kanru = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_kanru = {}
+				b_garal = {}
+				b_sidage = {}
+				b_kilan = {}
+			}
+		}
+		d_sukang = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			capital = 160
+			
+			c_sukang = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_sukang = {}
+				b_yutan = {}
+			}
+			c_shisan = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_shisan = {}
+				b_onrun = {}
+			}
+			c_dangwu = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_dangwu = {}
+				b_garabi = {}
+			}
+			c_lihan = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_lihan = {}
+				b_harin = {}
+			}
+		}
+		d_viang = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			capital = 160
+			
+			c_viang = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_viang = {}
+				b_siro = {}
+				b_maryei = {}
+			}
+			c_muang = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_muang = {}
+				b_daring = {}
+				b_sorila = {}
+			}
+			c_khaohom = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_khaohom = {}
+				b_kaon = {}
+				b_kamo = {}
+				b_itaho = {}
+			}
+			c_duyi = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_duyi = {}
+				b_jum = {}
+				b_kurinb = {}
+				b_sung = {}
+				b_yumupima = {}
+			}
+			c_kukiel	 = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_kukiel = {}
+			}	
+		}
+		d_yami = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			capital = 160
+			
+			c_yami = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_yami = {}
+			}
+			c_seroa = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_seroa = {}
+				b_masom = {}
+			}
+			c_ataya = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_ataya = {}
+				b_jakung = {}
+				b_shitun = {}
+			}
+			c_bunam = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_bunam = {}
+				b_marage = {}
+				b_duaren = {}
+				b_okogi = {}
+			}
+			c_porapa = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_porapa = {}
+				b_shaowi = {}
+			}
+			c_anyaho = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_anyaho = {}
+				b_bareng = {}
+			}
+		}
+		d_putao = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			capital = 160
+			
+			c_putao = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_putao = {}
+			}
+			c_rakai = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_rakai = {}
+			}
+			c_kaxa = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_kaxa = {}
+			}
+			c_siayasi = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_siayasi = {}
+			}
+			c_thao = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_thao = {}
+				b_sirong = {}
+			}
+			c_kanakan = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_kanakan = {}
+				b_mareng = {}
+			}
+		}
+	}
+	k_jappon = {
+		color={ 255 255 255 }
+		color2={ 188 0 45 }
+		capital = 117
+		d_daya = {
+			color={ 255 255 255 }
+			color2={ 188 0 45 }
+			capital = 117
+			
+			c_daya	 = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_daya = {}
+			}	
+			c_kaliman = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_kaliman = {}
+				b_sirok = {}
+				b_mirlahi = {}
+			}
+			c_aryuk = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_aryuk = {}
+			}
+		}
+		d_simang = {
+			color={ 255 255 255 }
+			color2={ 188 0 45 }
+			capital = 117
+			
+			c_simang = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_simang = {}
+				b_dudari = {}
+			}
+			c_mangyan = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_mangyan = {}
+				b_sira = {}
+				b_sukua = {}
+				b_ambaga = {}
+			}
+			c_paiwei = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_paiwei = {}
+			}
+		}
+		d_kamba = {
+			color={ 255 255 255 }
+			color2={ 188 0 45 }
+			capital = 117
+			
+			c_kamba = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_kamba = {}
+			}
+			c_tangra = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_tangra = {}
+				b_duaka = {}
+			}
+			c_nurung = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_nurung = {}
+				b_yanung = {}
+				b_soraka = {}
+			}
+		}
+		d_seludong = {
+			color={ 255 255 255 }
+			color2={ 188 0 45 }
+			capital = 117
+			
+			c_seludong = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_seludong = {}
+				b_soraka_2 = {}
+				b_mufara = {}
+			}
+			c_orang = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_orang_2 = {}
+				b_ambaga_2 = {}
+			}
+			c_tundok = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_tundok = {}
+				b_kige = {}
+				b_thigi = {}
+			}
+			c_lusung = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_lusung = {}
+				b_pading = {}
+			}
+		}
+	}
+	k_hanman = {
+		color={ 222 41 16 }
+		color2={ 255 222 0 }
+		capital = 72
+		d_hanman = {
+			color={ 222 41 16 }
+			color2={ 255 222 0 }
+			capital = 72
+			
+			c_purajoho = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_suge = {}
+			}
+			c_sing = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_kao = {}
+			}
+			c_xang = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_sorun = {}
+				b_song = {}
+			}
+			c_hanman = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_golden_palace = {}
+				b_faron = {}
+				b_eldin = {}
+				b_lanayru = {}
+				b_kao_2 = {}
+				b_pameng_2 = {}
+				b_qoton = {}
+			}
+			c_batang = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_dundu = {}
+				b_duanra = {}
+				b_macho = {}
+				b_oming = {}
+				b_ming = {}
+			}
+		}
+		d_tuong = {
+			color={ 222 41 16 }
+			color2={ 255 222 0 }
+			capital = 72
+		
+			c_tuong	 = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_siraena = {}
+				b_yalang = {}
+				b_malik = {}
+				b_pung = {}
+				b_orang = {}
+			}	
+			c_sang	 = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_biatoa = {}
+			}	
+			c_mayi = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_juna = {}
+				b_duaga = {}
+				b_manyun = {}
+				b_surung = {}
+			}
+			c_chonmul = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_itemen = {}
+				b_imaon = {}
+				b_vatom = {}
+				b_komangoa = {}
+			}		
+		}
+		d_jakali = {
+			color={ 222 41 16 }
+			color2={ 255 222 0 }
+			capital = 72
+		
+			c_jakali = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_puming = {}
+				b_duami = {}
+				b_sonun = {}
+				b_pawun = {}
+			}
+			c_gaomar = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_ruppun = {}
+				b_dimaring = {}
+				b_siri = {}
+			}
+			c_shenma = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_pakung = {}
+				b_sorin = {}
+				b_sirei = {}
+			}		
+			c_gorlang = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_sirom = {}
+				b_jachi = {}
+			}
+		}
+		d_xinang = {
+			color={ 222 41 16 }
+			color2={ 255 222 0 }
+			capital = 72
+		
+			c_xinang = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_chine = {}
+				b_khasaleng = {}
+				b_damol = {}
+				b_mekomu = {}
+			}
+			c_suliming = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_harikei = {}
+				b_siring = {}
+				b_latik = {}
+				b_mirupu = {}
+				b_sinating = {}
+			}
+			c_baiman = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_kuratun = {}
+				b_bahum = {}
+				b_bokal = {}
+				b_amara = {}
+			}
+			c_sinwei = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_siaba = {}
+				b_sakum = {}
+			}
+		}	
+		d_changyi = {
+			color={ 222 41 16 }
+			color2={ 255 222 0 }
+			capital = 72
+		
+			c_shire = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_suju = {}
+				b_otuming = {}
+				b_kishun = {}
+				b_feokun = {}
+			}
+			c_changyi = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_laha = {}
+				b_siruxang = {}
+				b_muli = {}
+				b_pating = {}
+				b_mindum = {}
+				b_diryum = {}
+			}
+			c_omoni = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_kutun = {}
+				b_chika = {}
+				b_ading = {}
+				b_makemu = {}
+				b_datum = {}
+			}
+			c_sumbala = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_soran = {}
+				b_kikei = {}
+				b_omang = {}
+				b_kenin = {}
+			}
+		}
+		d_lumpa = {
+			color={ 222 41 16 }
+			color2={ 255 222 0 }
+			capital = 72
+		
+			c_lumapa = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_halul = {}
+				b_furik = {}
+				b_duraria = {}
+				b_sudom = {}
+				b_sororemi = {}
+			}
+			c_horyul = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_tatun = {}
+				b_kichi = {}
+				b_suhun = {}
+			}
+			c_haebal = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_lachi = {}
+				b_merom = {}
+				b_hitik = {}
+				b_dajam = {}
+			}
+		}
+		d_deokgol = {
+			color={ 222 41 16 }
+			color2={ 255 222 0 }
+			capital = 72
+		
+			c_deokmin = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_ahung = {}
+				b_qakomum = {}
+				b_jang = {}
+			}
+			c_torugol = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_ozang = {}
+				b_sorar = {}
+				b_kuruol = {}
+			}
+		}
+		d_puyeo = {
+			color={ 222 41 16 }
+			color2={ 255 222 0 }
+			capital = 72
+		
+			c_puyeo = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_siran = {}
+				b_kiting = {}
+				b_fangal = {}
+				b_omamon = {}
+			}
+			c_jinla = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_yiman = {}
+				b_jamikang = {}
+				b_mulon = {}
+			}
+		}
+		d_changmo = {
+			color={ 222 41 16 }
+			color2={ 255 222 0 }
+			capital = 72
+		
+			c_changmo = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_duawi = {}
+				b_porakung = {}
+				b_nanum = {}
+			}
+			c_damujin = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_besun = {}
+				b_binluge = {}
+				b_horaon = {}
+			}
+		}
+	}
+	k_shanghua = { #jade islands
+		color={ 255 153 51 }
+		color2={ 18 136 7 }
+		capital = 153
+		
+		d_kinisha = {
+			color={ 255 153 51 }
+			color2={ 18 136 7 }
+			capital = 153
+			
+			c_kinisha = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_kinisha = {}
+				b_masom_2 = {}
+				b_jakung_2 = {}
+			}
+			c_sapango = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_sapango = {}
+			}
+			c_okara = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_okara = {}
+				b_thigi_2 = {}
+			}
+			c_kakarima = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_okara = {}
+				b_thigi_2 = {}
+				
+				b_kakarima = {}
+				b_satun = {}
+				b_mashumang = {}
+			}
+			c_sanbu = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_sanbu = {}
+				b_sirago = {}
+				b_shang = {}
+			}
+		}
+		d_daemashi = {
+			color={ 255 153 51 }
+			color2={ 18 136 7 }
+			capital = 153
+			
+			c_kimchi = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_kimchi = {}
+				b_damon = {}
+			}
+			c_banro = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_banro = {}
+			}
+			c_daemashi = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_daemashi = {}
+				b_dusha = {}
+			}
+		}
+		d_yezima = {
+			color={ 255 153 51 }
+			color2={ 18 136 7 }
+			capital = 153
+			
+			c_yezima = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_yezima = {}
+				b_ahirel = {}
+				b_purage = {}
+			}
+			c_odori = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_odori = {}
+				b_okogi_2 = {}
+			}
+			c_iburu = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_iburu = {}
+				b_shaow = {}
+				b_siron = {}
+				b_marng = {}
+			}
+			c_sajidao = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_sajidao = {}
+			}
+		}
+	}
+}
 k_koridai = {
 		color={ 112 227 220 }
 		color2={ 220 75 44 }
@@ -2061,7 +3342,8 @@ k_koridai = {
 		c_hinitra = {
 			color={ 250 162 68 }
 			color2={ 255 255 255 }
-			b_linekpa = {}
+			
+			b_linkepa = {}
 			b_senu = {}
 			b_horay  = {}	
 		}
@@ -2127,6 +3409,10 @@ k_koridai = {
 			b_huqin = {}
 		
 		}	
+	}
+	d_fokoqa = {
+		color={ 253 176 107 }
+		color2={ 150 83 24 }
 		c_fokoqa  = {
 			color={ 253 176 107 }
 			color2={ 150 83 24 }
@@ -2151,35 +3437,6 @@ k_koridai = {
 			b_girla = {}
 			b_fatra = {}
 		}	
-	}
-}
-e_sea_tree = {
-	k_minish = {
-		color={ 82 184 220}
-		color2={ 0 100 0 }
-		capital = 666 
-		d_minish = {
-			color={ 82 184 220}
-			color2={ 0 100 0 }
-			capital = 666 #Middlesex
-			c_hylia_treehouses  = {
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
-				
-				b_nanin = {}
-				b_ogiru = {}
-				b_edinu = {}
-			}
-			c_lakeside_retreat = {	
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
-				
-				b_minish_retreat = {}
-				b_soro = {}
-				b_manane = {}
-				b_kirde = {}
-			}
-		}
 	}
 }
 k_falsia = {
@@ -2276,6 +3533,10 @@ k_falsia = {
 			b_fatse = {}
 			b_satse = {}
 		}
+	}
+	d_faria_shores = {
+		color={ 41 255 30 }
+		color2={ 18 136 7 }
 		c_sundial_shores = {
 			color={ 41 255 30 }
 			color2={ 18 136 7 }
@@ -2299,6 +3560,7 @@ k_falsia = {
 		color={ 255 240 245 }
 		color2={ 18 136 7 }
 		capital = 15
+		
 		c_clockwork = {
 			color={ 41 255 30 }
 			color2={ 18 136 7 }
@@ -2307,48 +3569,6 @@ k_falsia = {
 			b_cog_city = {}
 			b_geared_temple = {}
 			b_greaseworks = {}
-		}
-		c_magma_mines = {
-			color={ 41 255 30 }
-			color2={ 18 136 7 }
-			
-			b_magma_mines = {}
-			b_lania = {}
-			b_luire = {}
-		}
-		c_misty_marshes = {
-			color={ 41 255 30 }
-			color2={ 18 136 7 }
-			
-			b_siarel = {}
-			b_fiatsia = {}
-			b_farane = {}
-		}
-		c_sanguine_shores = {
-			color={ 41 255 30 }
-			color2={ 18 136 7 }
-			
-			b_vampire_crypt = {}
-			b_haunted_town = {}
-			b_salsia = {}
-			b_faneria = {}
-			b_foolsia = {}
-		}
-		c_westvale = {
-			color={ 41 255 30 }
-			color2={ 18 136 7 }
-		
-			b_westvale = {}
-			b_siare = {}
-			b_liare = {}
-			b_suire = {}
-		}
-		c_zora_point = {
-			color={ 41 255 30 }
-			color2={ 18 136 7 }
-		
-			b_laral = {}
-			b_fanal = {}
 		}
 		c_light_field = {
 			color={ 41 255 30 }
@@ -2373,10 +3593,56 @@ k_falsia = {
 		c_falsia_falls = {
 			color={ 41 255 30 }
 			color2={ 18 136 7 }
-		
+	
 			b_falls_retreat = {}
 			b_flia = {}
 			b_falania = {}
+		}
+	}
+	d_westvale = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+			c_misty_marshes = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+		
+			b_siarel = {}
+			b_fiatsia = {}
+			b_farane = {}
+		}
+		c_magma_mines = {
+				color={ 41 255 30 }
+			color2={ 18 136 7 }
+			
+			b_magma_mines = {}
+			b_lania = {}
+			b_luire = {}
+		}
+		c_sanguine_shores = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+			
+			b_vampire_crypt = {}
+			b_haunted_town = {}
+			b_salsia = {}
+			b_faneria = {}
+			b_foolsia = {}
+		}
+		c_westvale = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+	
+			b_westvale = {}
+			b_siare = {}
+			b_liare = {}
+			b_suire = {}
+		}
+		c_zora_point = {
+			color={ 41 255 30 }
+			color2={ 18 136 7 }
+	
+			b_laral = {}
+			b_fanal = {}
 		}
 	}
 }

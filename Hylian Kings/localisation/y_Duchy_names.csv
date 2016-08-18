@@ -1,10 +1,35 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+d_west_faron;West Faron;West Faron;;West Faron;;;;;;;;;x
+d_west_faron_adj;West Faronion;West Faronion;;West Faronion;;;;;;;;;x
+d_east_faron;East Faron;East Faron;;East Faron;;;;;;;;;x
+d_east_faron_adj;East Faronion;East Faronion;;East Faronion;;;;;;;;;x
+d_faron_fields;Faron Fields;Faron Fields;;Faron Fields;;;;;;;;;x
+d_faron_fields_adj;Faron Fieldsman;Faron Fieldsman;;Faron Fieldsman;;;;;;;;;x
+d_royal_town;Royal Town;Royal Town;;Royal Town;;;;;;;;;x
+d_royal_town_adj;Royal Towner;Royal Towner;;Royal Towner;;;;;;;;;x
+d_north_lanayru;North Lanayru;North Lanayru;;North Lanayru;;;;;;;;;x
+d_north_lanayru_adj;North Lanayruian;North Lanayruian;;North Lanayruian;;;;;;;;;x
+d_hylia_lanayru;Hylia Lanayru;Hylia Lanayru;;Hylia Lanayru;;;;;;;;;x
+d_hylia_lanayru_adj;Lanayruian;Lanayruian;;Lanayruian;;;;;;;;;x
+d_north_eldin;North Eldin;North Eldin;;North Eldin;;;;;;;;;x
+d_north_eldin;North Eldin;North Eldin;;North Eldin;;;;;;;;;x
+d_north_eldin_adj;North Eldin;North Eldin;;North Eldin;;;;;;;;;x
+d_central_eldin;Central Eldin;Central Eldin;;Central Eldin;;;;;;;;;x
+d_central_eldin_adj;Central Eldin;Central Eldin;;Central Eldin;;;;;;;;;x
+d_south_eldin;South Eldin;South Eldin;;South Eldin;;;;;;;;;x
+d_south_eldin_adj;South Eldin;South Eldin;;South Eldin;;;;;;;;;x
+d_ordon;Ordon;Ordon;;Ordon;;;;;;;;;;;x
+d_ordon_adj;Ordonion;Ordonion;;Ordonion;;;;;;;;;;;x
+d_ordon_woods;Ordon Woods;Ordon Woods;;Ordon Woods;;;;;;;;;;;x
+d_ordon_woods_adj;
 d_mitkogo;Mitkogo;Mitkogo;Mitkogo;;Mitkogo;;;;;;;;;x
 d_mitkogo_adj;Mitkogoian;;Mitkogoer;;;;;;;;;;;x
 d_koridai;Koridai;Koridai;Koridai;;Koridai;;;;;;;;;x
 d_koridai_adj;Koridian;;korider;;;;;;;;;;;x
 d_royal_woods;Royal Woods;;;;;;;;;;;;;x
-d_royal_woods_adj;Royal Woodsman;;;;;;;;;;;x
+d_royal_woods_adj;Royal Woodsman;Royal Woodsman;;Royal Woodsman;;;;;;;;;;;x
+d_ordonia;Ordonia;Ordonia;;Ordonia;;;;;;;;;;;x
+d_ordonia_adj;Ordonian;Ordonian;;Ordonian;;;;;;;;;;;x
 d_royal_graveyard;Royal Graveyard;;;;;;;;;;;x
 d_royal_graveyard_adj;Royal Gravesman;;;;;;;;;;;x
 d_west_hyrule_field;West Hyrule Fields;;;;;;;;;;;x
@@ -12,6 +37,54 @@ d_west_hyrule_field_adj;West Hyrule Fielder;;;;;;;;;;;x
 d_east_hyrule_field;East Hyrule Fields;;;;;;;;;;;x
 d_east_hyrule_field_adj;East Hyrule Fielder;;;;;;;;;;;x
 d_hylia;Lake Hylia;;;;;;;;;;;x
-d_hylia_adj;Lake Hylian;;;;;;;;;;;x
+d_hylia;Lake Hylian;;;;;;;;;;;x
 d_lon_lon_hill;Lon Lon Hill;;;;;;;;;;;x
 d_lon_lon_hill_adj;Lon Lon Hillsman;;;;;;;;;;;x
+d_changyi;Changyi;Changyi;Changyi;;Changyi;;;;;;;;;x
+d_changyi_adj;Changian;;changer;;;;;;;;;;;x
+d_daemashi;Daemashi;Daemashi;Daemashi;;Daemashi;;;;;;;;;x
+d_daemashi_adj;Daemashian;;daemasher;;;;;;;;;;;x
+d_daya;Daya;Daya;Daya;;Daya;;;;;;;;;x
+d_daya_adj;Dayan;;daer;;;;;;;;;;;x
+d_deokgol;Deokgol;Deokgol;Deokgol;;Deokgol;;;;;;;;;x
+d_deokgol_adj;Deokgolian;;deokgoler;;;;;;;;;;;x
+d_hanman;Hanman;Hanman;Hanman;;Hanman;;;;;;;;;x
+d_hanman_adj;Hanmanian;;hanmaner;;;;;;;;;;;x
+d_hanoria;Hanoria;Hanoria;Hanoria;;Hanoria;;;;;;;;;x
+d_hanoria_adj;Hanorian;;hanorer;;;;;;;;;;;x
+d_hotho;Hotho;Hotho;Hotho;;Hotho;;;;;;;;;x
+d_hotho_adj;Hothian;;hother;;;;;;;;;;;x
+d_jakali;Jakali;Jakali;Jakali;;Jakali;;;;;;;;;x
+d_jakali_adj;Jakalian;;jakaler;;;;;;;;;;;x
+d_jinghan;Jinghan;Jinghan;Jinghan;;Jinghan;;;;;;;;;x
+d_jinghan_adj;Jinghanian;;jinghaner;;;;;;;;;;;x
+d_kamba;Kamba;Kamba;Kamba;;Kamba;;;;;;;;;x
+d_kamba_adj;Kamban;;kamber;;;;;;;;;;;x
+d_kimheon;Kimheon;Kimheon;Kimheon;;Kimheon;;;;;;;;;x
+d_kimheon_adj;Kimheonian;;kimheoner;;;;;;;;;;;x
+d_kinisha;Kinisha;Kinisha;Kinisha;;Kinisha;;;;;;;;;x
+d_kinisha_adj;Kinishan;;kinisher;;;;;;;;;;;x
+d_lumpa;Lumpa;Lumpa;Lumpa;;Lumpa;;;;;;;;;x
+d_lumpa_adj;Lumpan;;lumper;;;;;;;;;;;x
+d_putao;Putao;Putao;Putao;;Putao;;;;;;;;;x
+d_putao_adj;Putian;;puter;;;;;;;;;;;x
+d_puyeo;Puyeo;Puyeo;Puyeo;;Puyeo;;;;;;;;;x
+d_puyeo_adj;Puian;;puer;;;;;;;;;;;x
+d_quruman;Quruman;Quruman;Quruman;;Quruman;;;;;;;;;x
+d_quruman_adj;Qurumanian;;qurumaner;;;;;;;;;;;x
+d_seludon;Seludon;Seludon;Seludon;;Seludon;;;;;;;;;x
+d_seludon_adj;Seludonian;;seludoner;;;;;;;;;;;x
+d_simang;Simang;Simang;Simang;;Simang;;;;;;;;;x
+d_simang_adj;Simangian;;simanger;;;;;;;;;;;x
+d_sukang;Sukang;Sukang;Sukang;;Sukang;;;;;;;;;x
+d_sukang_adj;Sukangian;;sukanger;;;;;;;;;;;x
+d_tuong;Tuong;Tuong;Tuong;;Tuong;;;;;;;;;x
+d_tuong_adj;Tuongian;;tuonger;;;;;;;;;;;x
+d_viang;Viang;Viang;Viang;;Viang;;;;;;;;;x
+d_viang_adj;Viangian;;vianger;;;;;;;;;;;x
+d_xinang;Xinang;Xinang;Xinang;;Xinang;;;;;;;;;x
+d_xinang_adj;Xinangian;;xinanger;;;;;;;;;;;x
+d_yami;Yami;Yami;Yami;;Yami;;;;;;;;;x
+d_yami_adj;Yamian;;yamer;;;;;;;;;;;x
+d_yezima;Yezima;Yezima;Yezima;;Yezima;;;;;;;;;x
+d_yezima_adj;Yeziman;;yezimer;;;;;;;;;;;x

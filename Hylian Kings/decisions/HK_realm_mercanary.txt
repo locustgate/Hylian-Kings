@@ -7,14 +7,9 @@ decisions = {
 				has_landed_title = k_hyrule
 				has_landed_title = e_hyrule
 			}
-			is_female = no
 			prisoner = no
 			age = 16
 			NOT = { has_global_flag = knights_hyrule_founded }
-			any_playable_ruler = {
-				culture = hyrulean
-				NOT = { religion_group = demon_group }
-			}
 		}
 		allow = {
 			prestige = 300
@@ -26,7 +21,7 @@ decisions = {
 			wealth = -300
 			activate_title = { title = d_knights_hyrule status = yes }
 			hidden_tooltip = {
-				narrative_event = { id = knights_orginization_x1 }
+				narrative_event = { id = knights.0 }
 				create_character = {
 					random_traits = yes
 					religion = golden_goddesses
@@ -76,7 +71,7 @@ decisions = {
 			wealth = -300
 			activate_title = { title = d_knights_cobble status = yes }
 			hidden_tooltip = {
-				narrative_event = { id = knights_orginization.x2 }
+				narrative_event = { id = knights.26 }
 				create_character = {
 					random_traits = yes
 					religion = golden_goddesses
@@ -127,7 +122,7 @@ decisions = {
 			wealth = -300
 			activate_title = { title = d_knights_saria status = yes }
 			hidden_tooltip = {
-				narrative_event = { id = knights_orginization.x3 }
+				narrative_event = { id = knights.51 }
 				create_character = {
 					random_traits = yes
 					religion = golden_goddesses
@@ -181,7 +176,7 @@ decisions = {
 			wealth = -300
 			activate_title = { title = d_knights_great_hyrule status = yes }
 			hidden_tooltip = {
-				narrative_event = { id = knights_orginization.x4 }
+				narrative_event = { id = knights.76 }
 				create_character = {
 					random_traits = yes
 					religion = golden_goddesses
@@ -231,7 +226,7 @@ decisions = {
 			wealth = -300
 			activate_title = { title = d_knights_moria status = yes }
 			hidden_tooltip = {
-				narrative_event = { id = knights_orginization.x5 }
+				narrative_event = { id = knights.100 }
 				create_character = {
 					random_traits = yes
 					religion = golden_goddesses
