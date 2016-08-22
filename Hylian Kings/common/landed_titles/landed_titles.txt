@@ -3411,8 +3411,7 @@ e_holodrum = {
 			c_east_horon = {			
 				color={ 193 255 193 }
 				color2={ 255 245 238 }
-				b_subur	= {}
-				b_guard_post = {}
+				b_suburb_guard_post = {}
 				b_windmill_cave = {}
 				b_horon_suburbs = {}
 			}
@@ -4430,7 +4429,7 @@ k_falsia = {
 			color={ 41 255 30 }
 			color2={ 18 136 7 }
 		
-			b_proodyl = {}
+			b_proodyl_fortress = {}
 			b_lia = {}
 			b_fiare = {}
 			b_pria = {}
@@ -4651,14 +4650,15 @@ k_koholint = {
 		capital = 218
 		c_tal_tal_heights = {		
 			color={ 0 199 140 }
-			color2={ 255 64 64 }
-			
+			color2={ 255 64 64 }			
+			holy_site = wind_fish_religion
 			b_eagles_tower = {}
 			b_anglers_tunnel = {}
 		}
 		c_tal_tal_mountains = {		
 			color={ 0 199 140 }
 			color2={ 255 64 64 }
+			holy_site = wind_fish_religion
 			
 			b_mount_tamaranch = {}
 			b_wind_fishs_egg = {}
@@ -4683,15 +4683,16 @@ k_koholint = {
 		capital = 216
 		c_yarna = {
 			color={ 0 0 0 }
-			color2={ 0 0 0 }
-			
+			color2={ 0 0 0 }			
+			holy_site = wind_fish_religion
 			b_yarna = {}
 			b_face = {}
 			b_animal_village = {}
 		}
 		c_ukuku = {		
 			color={ 0 199 140 }
-			color2={ 255 64 64 }
+			color2={ 255 64 64 }			
+			holy_site = wind_fish_religion
 			
 			b_key_cavern = {}
 			b_koholint_graveyard = {}
@@ -4708,8 +4709,8 @@ k_koholint = {
 		}
 		c_mabe = {		
 			color={ 0 199 140 }
-			color2={ 255 64 64 }
-			
+			color2={ 255 64 64 }			
+			holy_site = wind_fish_religion
 			b_tail_cavern = {}
 			b_mabe_village = {}
 			b_crazy_tracys_health_spa = {}
@@ -5235,6 +5236,134 @@ k_arcadia = {
 			color2={ 255 255 255 }	
 			b_aegidia = {}
 			b_macendia = {}
+		
+		}
+	}
+}
+
+k_western_isles = {
+	color={ 195 190 255 }
+	color2={ 128 128 0 }
+	capital = 387
+	d_frozen_isle = {
+		color={ 195 190 255 }
+		color2={ 220 220 220 }
+		capital = 387
+		c_icy_plain = {
+			color={ 128 128 105 }
+			color2={ 255 248 220 }
+			b_icy_bird_rock = {}
+			b_haunted_woods = {}
+		}
+		c_icy_peak = {
+			color={ 128 128 105 }
+			color2={ 255 248 220 }
+			b_bear_crag = {}
+		}
+		c_snowfield = {
+			color={ 128 128 105 }
+			color2={ 255 248 220 }
+			b_chuchu_ponds = {}
+			b_bunny_field = {}
+		}
+	}
+	d_gooey isle = {
+		color={ 113 113 198 }
+		color2={ 224 102 255 }
+		capital = 381
+		c_gooey_swamp = {
+			color={ 128 128 105 }
+			color2={ 255 248 220 }
+			b_newt_bogs = {}
+			b_toadstool_field = {}
+		}
+		c_insect_cavern = {
+			color={ 128 128 105 }
+			color2={ 255 248 220 }
+			b_insect_cavern = {}
+			b_death_bug_cave = {}
+		}
+		c_basecamp = {
+			color={ 128 128 105 }
+			color2={ 255 248 220 }
+			b_basecamp = {}
+		}
+		c_codile_cove = {
+			color={ 128 128 105 }
+			color2={ 255 248 220 }
+			b_codile_bog = {}
+			b_codile_bluff = {}
+			b_codile_island = {}
+		}
+	}
+	d_steamy_isle = {
+		color={ 128 128 105 }
+		color2={ 255 248 220 }
+		capital = 378
+		c_steamy_marsh = {
+			color={ 128 128 105 }
+			color2={ 255 248 220 }
+			b_burning_oil_pit = {}
+			
+		}
+		c_kamonano = {
+			color={ 128 128 105 }
+			color2={ 255 248 220 }
+			b_steamy_oil_field = {}
+		}
+		c_hiveville = {
+			color={ 128 128 105 }
+			color2={ 255 248 220 }
+			b_bee_hive = {}
+			b_queen_bee_domain = {}
+		}
+	}
+}
+
+k_auros = {
+	color={ 205 0 0 }
+	color2={ 139 69 19 }
+	capital = 388 
+	d_auros = {
+		color={ 205 55 0 }
+		color2={ 225 225 255 }
+		capital = 388
+		c_auros = {
+			color={ 85 107 47 }
+			color2={ 255 255 240 }
+			b_auros = {}
+			b_rupee_shrine = {}
+			b_auros_city = {}
+			b_fairy_prison = {}
+		
+		}
+		c_fairy_garden = {
+			color={ 85 107 47 }
+			color2={ 255 255 240 }
+			b_fairy_garden = {}
+			b_aqua_shrine = {}
+			b_earth_shrine = {}
+			b_leaf_shrine = {}
+			b_magma_shrine = {}
+			b_metal_shrine = {}
+		
+		}
+	}
+	d_desma = {
+		color={ 85 107 47 }
+		color2={ 255 255 240 }
+		capital = 391
+		c_yamatami = {
+			color={ 85 107 47 }
+			color2={ 255 255 240 }
+			b_desmas_labryinth = {}
+			b_chuchu_cave = {}
+		}
+		c_desma = {
+			color={ 85 107 47 }
+			color2={ 255 255 240 }
+			b_yamatami = {}
+			b_nidorian_grove = {}
 		
 		}
 	}
