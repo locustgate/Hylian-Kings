@@ -297,7 +297,11 @@ baron_twili;Twilight Lord;;;;;;;;;;;;;x
 baron_female_twili;Twilight Lady;;;;;;;;;;;;;x
 #land
 ##default
-empire;Kingdom;;;;;;;;;;;;;x
+EMPIRE;Kingdom;;;;;;;;;;;;;x
+EMPIRE_OF;Kingdom of;;;;;;;;;;;;;x
+KINGDOM;Minor Kingdom;;;;;;;;;;;;;x
+KINGDOM_OF;Minor Kingdom of;;;;;;;;;;;;;x
+empire;Kingdom of;;;;;;;;;;;;;x
 empire_of;Kingdom of;;;;;;;;;;;;;x
 kingdom;Minor Kingdom;;;;;;;;;;;;;x
 kingdom_of;Minor Kingdom of;;;;;;;;;;;;;x
@@ -306,33 +310,33 @@ kingdom_of;Minor Kingdom of;;;;;;;;;;;;;x
 empire_hyrulean;Great Kingdom;;;;;;;;;;;;;x
 empire_of_hyrulean;Great Kingdom;;;;;;;;;;;;;x
 kingdom_hyrulean;Kingdom;;;;;;;;;;;;;x
-kingdom_of_hyrulean;Kingdom;;;;;;;;;;;;;x
+kingdom_of_hyrulean;Kingdom of;;;;;;;;;;;;;x
 empire_little_hyrulean;Kingdom;;;;;;;;;;;;;x
-empire_of_little_hyrulean;Kingdom;;;;;;;;;;;;;x
+empire_of_little_hyrulean;Kingdom of;;;;;;;;;;;;;x
 kingdom_little_hyrulean;Minor Kingdom;;;;;;;;;;;;;x
-kingdom_of_little_hyrulean;Minor Kingdom;;;;;;;;;;;;;x
+kingdom_of_little_hyrulean;Minor Kingdom of;;;;;;;;;;;;;x
 empire_west_hyrulean;Kingdom;;;;;;;;;;;;;x
-empire_of_west_hyrulean;Kingdom;;;;;;;;;;;;;x
+empire_of_west_hyrulean;Kingdom of;;;;;;;;;;;;;x
 kingdom_west_hyrulean;Minor Kingdom;;;;;;;;;;;;;x
-kingdom_of_west_hyrulean;Minor Kingdom;;;;;;;;;;;;;x
+kingdom_of_west_hyrulean;Minor Kingdom of;;;;;;;;;;;;;x
 empire_east_hyrulean;Kingdom;;;;;;;;;;;;;x
-empire_of_east_hyrulean;Kingdom;;;;;;;;;;;;;x
+empire_of_east_hyrulean;Kingdom of;;;;;;;;;;;;;x
 kingdom_east_hyrulean;Minor Kingdom;;;;;;;;;;;;;x
-kingdom_of_east_hyrulean;Minor Kingdom;;;;;;;;;;;;;x
+kingdom_of_east_hyrulean;Minor Kingdom of;;;;;;;;;;;;;x
 ###human
 empire_ordonion;High Kingdom;;;;;;;;;;;;;x
-empire_of_ordonion;High Kingdom;;;;;;;;;;;;;x
+empire_of_ordonion;High Kingdom of;;;;;;;;;;;;;x
 kingdom_ordonion;Kingdom;;;;;;;;;;;;;x
-kingdom_of_ordonion;Kingdom;;;;;;;;;;;;;x
+kingdom_of_ordonion;Kingdom of;;;;;;;;;;;;;x
 empire_horon;High Kingdom;;;;;;;;;;;;;x
-empire_of_horon;High Kingdom;;;;;;;;;;;;;x
+empire_of_horon;High Kingdom of;;;;;;;;;;;;;x
 kingdom_horon;Kingdom;;;;;;;;;;;;;x
-kingdom_of_horon;Kingdom;;;;;;;;;;;;;x
+kingdom_of_horon;Kingdom of;;;;;;;;;;;;;x
 ###lost
 empire_gerudo;High Queendom;;;;;;;;;;;;;x
 empire_of_gerudo;High Queendom of;;;;;;;;;;;;;x
 kingdom_gerudo;Queendom;;;;;;;;;;;;;x
-kingdom_of_gerudo;Queendom;;;;;;;;;;;;;x
+kingdom_of_gerudo;Queendom of;;;;;;;;;;;;;x
 duchy_gerudo;Petty Queendom;;;;;;;;;;;;;x
 duchy_of_gerudo;Petty Queendom of;;;;;;;;;;;;;x
 county_gerudo;Tribe;;;;;;;;;;;;;x
@@ -346,7 +350,7 @@ duchy_of_darknut;Cohort of;;;;;;;;;;;;;x
 county_darknut;Century;;;;;;;;;;;;;x
 county_of_darknut;Century of;;;;;;;;;;;;;x
 barony_darknut;Maniple;;;;;;;;;;;;;x
-barony_of;_darknutManiple of;;;;;;;;;;;;;x
+barony_of_darknut;Maniple of;;;;;;;;;;;;;x
 ###plant
 empire_zuna;Great Kingdom;;;;;;;;;;;;x
 empire_of_zuna;Great Kingdom of;;;;;;;;;;;;x
