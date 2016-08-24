@@ -140,7 +140,7 @@
 		death_reason= death_battle}
 	}
 }
-1007 = { c western wood highlands valley
+1007 = {
 	name=Strato
 	historical = yes
 	diplomacy=8
@@ -996,7 +996,7 @@
 	dna="ddggc0head0"
 	properties="na0laebebbbb"
 	dynasty=none
-	religion=water_spirits
+	religion=water_spirit
 	culture=lake_zora
 	trait=race_zora
 	trait=scholarly_theologian
@@ -1074,7 +1074,7 @@
 	intrigue=8
 	stewardship=7
 	learning=7
-	religion=water_spirits
+	religion=water_spirit
 	culture=lake_zora
 	trait=grey_eminence
 	trait=bloodline_debon
@@ -1112,7 +1112,7 @@
 	intrigue=11
 	stewardship=4
 	learning=14
-	religion=water_spirits
+	religion=water_spirit
 	culture=lake_zora
 	trait=thrifty_clerk
 	trait=race_zora
@@ -1141,7 +1141,7 @@
 	intrigue=11
 	stewardship=4
 	learning=14
-	religion=water_spirits
+	religion=water_spirit
 	culture=lake_zora
 	trait=mastermind_theologian
 	trait=race_zora
@@ -1167,7 +1167,7 @@
 	female = yes
 	father=1052
 	mother=1053
-	religion=water_spirits
+	religion=water_spirit
 	culture=lake_zora
 	trait=flamboyant_schemer
 	trait=race_zora
@@ -1188,7 +1188,7 @@
 	female = yes
 	father=1052
 	mother=1053
-	religion=water_spirits
+	religion=water_spirit
 	culture=lake_zora
 	trait=amateurish_plotter 
 	trait=race_zora
@@ -1210,7 +1210,7 @@
 	female = no
 	father=1052
 	mother=1053
-	religion=water_spirits
+	religion=water_spirit
 	culture=lake_zora
 	trait=skilled_tactician
 	trait=race_zora
@@ -1237,7 +1237,7 @@
 	intrigue=6
 	stewardship=8
 	learning=7
-	religion=water_spirits
+	religion=water_spirit
 	culture=lake_zora
 	trait=charismatic_negotiator
 	trait=bloodline_debon
@@ -1269,7 +1269,7 @@
 	intrigue=2
 	stewardship=1
 	learning=18
-	religion=water_spirits
+	religion=water_spirit
 	culture=lake_zora
 	trait=martial_cleric
 	trait=bloodline_debon
@@ -1299,7 +1299,7 @@
 	intrigue=6
 	stewardship=8
 	learning=7
-	religion=water_spirits
+	religion=water_spirit
 	culture=lake_zora
 	trait=thrifty_clerk
 	trait=bloodline_debon
@@ -1329,7 +1329,7 @@
 	intrigue=8
 	stewardship=5
 	learning=7
-	religion=water_spirits
+	religion=water_spirit
 	culture=lake_zora
 	trait=thrifty_clerk
 	trait=race_zora
@@ -1357,7 +1357,7 @@
 	intrigue=5
 	stewardship=8
 	learning=5
-	religion=water_spirits
+	religion=water_spirit
 	culture=lake_zora
 	trait=underhanded_rogue
 	trait=race_zora
@@ -2296,25 +2296,25 @@
 	name=Kutozear
 	disallow_random_traits=no
 	historical = yes
-	diplomacy=5
+	diplomacy=8
 	martial=6
-	intrigue=8
+	intrigue=4
 	stewardship=4
 	learning=4
-	dynasty=4671
+	dynasty=4675
 	religion=demise_religion
 	culture=lizalfos
 	trait=race_lizalfos
-	trait=decietful
-	trait=diligant
-	trait=content
-	trait=flamboyant_schemer
+	trait=kind
+	trait=slothful
+	trait=craven
+	trait=underhanded_rogue
 	3363.8.11={
 		birth=yes
 	}
 }
 1114 = {
-	name=Renado
+	name=Snipes
 	disallow_random_traits=yes
 	historical = yes
 	diplomacy=8
@@ -2436,6 +2436,862 @@
 	trait=lustful
 	trait=robust
 	3367.9.24={
+		birth=yes
+	}
+}
+1120 = {#
+	name=Virgilio
+	disallow_random_traits=yes
+	historical = yes
+	diplomacy=8
+	martial=6
+	intrigue=4
+	stewardship=8
+	learning=5
+	dynasty=8101
+	religion=light_force
+	culture=eldin
+	trait=charismatic_negotiator
+	trait=race_human
+	trait=charitable
+	trait=kind
+	trait=lustful
+	trait=stubborn
+	trait=brave
+	trait=cavalry_leader
+	3355.4.14={
+		birth=yes
+	}
+	3379.1.1={
+		add_spouse=1121
+	}
+}
+1121 = {#
+	name=Rosa
+	disallow_random_traits=no
+	historical = yes
+	female=yes
+	dynasty=8124
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3363.1.1={
+		birth=yes
+	}
+	3379.1.1={
+		add_spouse=1121
+	}
+}
+1122 = {#
+	name=Pitina
+	disallow_random_traits=no
+	historical = yes
+	female=yes
+	mother=1121
+	father=1120
+	dynasty=8101
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3382.4.9={
+		birth=yes
+	}
+}
+1122 = {#
+	name=Spiro
+	disallow_random_traits=no
+	historical = yes
+	female=yes
+	mother=1121
+	father=1120
+	dynasty=8101
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3386.7.1={
+		birth=yes
+	}
+}
+1123 = {#south west and gorge
+	name=Rib
+	disallow_random_traits=no
+	historical = yes
+	dynasty=4048
+	diplomacy=6
+	martial=8
+	intrigue=5
+	stewardship=4
+	learning=4
+	religion=demise_religion
+	culture=bulblin
+	trait=tough_soldier
+	trait=race_bulblin
+	trait=envious
+	trait=robust
+	trait=cavalry_leader
+	3361.8.14={
+		birth=yes
+	}
+}
+1124 = {#d central
+	name=Bodir
+	disallow_random_traits=yes
+	historical = yes
+	dynasty=4087
+	diplomacy=8
+	martial=11
+	intrigue=5
+	stewardship=4
+	learning=4
+	religion=demise_religion
+	culture=bulblin
+	trait=charismatic_negotiator
+	trait=race_bulblin
+	trait=decietful
+	trait=erudite
+	trait=strong
+	trait=patiant
+	trait=lustful
+	trait=cavalry_leader
+	3356.9.4={
+		birth=yes
+	}
+	3382.4.2={
+		add_spouse=1125
+	}
+}
+1125 = {
+	name=Bala
+	disallow_random_traits=no
+	historical = yes
+	dynasty=4091
+	religion=demise_religion
+	culture=bulblin
+	trait=charismatic_negotiator
+	trait=race_bulblin
+	3366.4.2={
+		birth=yes
+	}
+	3382.4.2={
+		add_spouse=1124
+	}
+}
+1126 = {#c south bridge
+	name=Rilir
+	disallow_random_traits=no
+	historical = yes
+	dynasty=4186
+	diplomacy=6
+	martial=8
+	intrigue=5
+	stewardship=4
+	learning=6
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3366.4.24={
+		birth=yes
+	}
+}
+1127 = {
+	name=Birir
+	disallow_random_traits=no
+	historical = yes
+	dynasty=4189
+	diplomacy=8
+	martial=6
+	intrigue=5
+	stewardship=4
+	learning=6
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3366.4.24={
+		birth=yes
+	}
+}
+1128 = {
+	name=Belar
+	disallow_random_traits=no
+	historical = yes
+	dynasty=4117
+	diplomacy=10
+	martial=6
+	intrigue=5
+	stewardship=4
+	learning=6
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3368.9.19={
+		birth=yes
+	}
+}
+1129 = {
+	name=Hanch
+	disallow_random_traits=yes
+	historical = yes
+	dynasty=401
+	diplomacy=10
+	martial=8
+	intrigue=5
+	stewardship=4
+	learning=6
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	trait=grey_eminence
+	trait=brave
+	trait=tall
+	trait=robust
+	trait=gregarious
+	trait=honest
+	trait=cavalry_leader
+	trait=inspiring_leader
+	3339.4.27={
+		birth=yes
+	}
+	3363.9.14={
+		add_spouse=1130
+	}
+	3386.7.7={
+		death={ death_reason=death_accident }
+	}
+}
+1130 = {
+	name=Alela
+	disallow_random_traits=no
+	historical = yes
+	female=yes
+	dynasty=411
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3347.9.14={
+		birth=yes
+	}
+	3363.9.14={
+		add_spouse=1129
+	}
+}
+1131 = {
+	name=Bal
+	disallow_random_traits=yes
+	historical = yes
+	mother=1130
+	father=1129
+	dynasty=401
+	diplomacy=8
+	martial=10
+	intrigue=5
+	stewardship=4
+	learning=6
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	trait=brilliant_strategist
+	trait=brave
+	trait=tall
+	trait=gregarious
+	trait=honest
+	trait=content
+	trait=cavalry_leader
+	3364.8.14={
+		birth=yes
+	}
+}
+1132 = {
+	name=Cido
+	disallow_random_traits=yes
+	historical = yes
+	mother=1130
+	father=1129
+	dynasty=401
+	diplomacy=10
+	martial=6
+	intrigue=5
+	stewardship=8
+	learning=6
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	trait=grey_eminence
+	trait=trusting
+	trait=gregarious
+	trait=shrewd
+	trait=ambitious
+	trait=greedy
+	3366.7.1={
+		birth=yes
+	}
+}
+1133 = {
+	name=Irgei
+	disallow_random_traits=no
+	female=yes
+	historical = yes
+	mother=1130
+	father=1129
+	dynasty=401
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3369.9.14={
+		birth=yes
+	}
+}
+1134 = {
+	name=Curgi
+	disallow_random_traits=no
+	female=yes
+	historical = yes
+	mother=1130
+	father=1129
+	dynasty=401
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3370.12.24={
+		birth=yes
+	}
+}
+1135 = {
+	name=Palo
+	disallow_random_traits=no
+	female=no
+	historical = yes
+	mother=1130
+	father=1129
+	dynasty=401
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3373.2.23={
+		birth=yes
+	}
+}
+1136 = {
+	name=Ulo
+	disallow_random_traits=no
+	female=no
+	historical = yes
+	mother=1130
+	father=1129
+	dynasty=401
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3377.9.14={
+		birth=yes
+	}
+}
+1137 = {
+	name=Irgal
+	disallow_random_traits=no
+	female=yes
+	historical = yes
+	mother=1130
+	father=1129
+	dynasty=401
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3381.2.23={
+		birth=yes
+	}
+}
+1138 = {
+	name=Curgi
+	disallow_random_traits=no
+	female=yes
+	historical = yes
+	mother=1130
+	father=1129
+	dynasty=401
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3385.6.13={
+		birth=yes
+	}
+}
+1139 = {
+	name=Folo
+	disallow_random_traits=yes
+	female=no
+	diplomacy=6
+	martial=8
+	intrigue=4
+	stewardship=6
+	learning=5
+	historical = yes
+	dynasty=402
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	trait=tough_soldier
+	trait=cruel
+	trait=charitable
+	trait=craven
+	trait=stubborn
+	3348.3.1={
+		birth=yes
+	}	
+	3361.7.11={
+		add_spouse=1140
+	}
+}
+1140 = {
+	name=Irgen
+	disallow_random_traits=no
+	female=yes
+	historical = yes
+	dynasty=434
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3353.7.11={
+		birth=yes
+	}
+	
+	3361.7.11={
+		add_spouse=1139
+	}
+}
+1141 = {
+	name=Fel
+	disallow_random_traits=yes
+	female=no
+	historical = yes
+	mother=1140
+	father=1139
+	dynasty=402
+	diplomacy=10
+	martial=7
+	intrigue=5
+	stewardship=6
+	learning=5
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	trait=charismatic_negotiator
+	trait=kind
+	trait=charitable
+	trait=erudite
+	trait=stutter
+	3370.9.4={
+		birth=yes
+	}
+	
+	3384.9.4={
+		add_spouse=1145
+	}
+}
+1142 = {
+	name=Ceda
+	disallow_random_traits=no
+	female=yes
+	historical = yes
+	mother=1140
+	father=1139
+	dynasty=402
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3375.7.14={
+		birth=yes
+	}
+}
+1143 = {
+	name=Ulen
+	disallow_random_traits=no
+	female=no
+	historical = yes
+	mother=1140
+	father=1139
+	dynasty=402
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3379.3.27={
+		birth=yes
+	}
+}
+1144 = {
+	name=Peshe
+	disallow_random_traits=no
+	female=yes
+	historical = yes
+	mother=1140
+	father=1139
+	dynasty=402
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3385.11.4={
+		birth=yes
+	}
+}
+1145 = {
+	name=Utia
+	disallow_random_traits=no
+	female=yes
+	historical = yes
+	mother=1140
+	father=1139
+	dynasty=3605
+	diplomacy=6
+	martial=9
+	intrigue=5
+	stewardship=6
+	learning=6
+	religion=great_deku
+	culture=kokiri
+	trait=race_kokiri
+	trait=elusive_shadow
+	trait=kind
+	trait=quick
+	trait=shrewd
+	trait=paranoid
+	trait=chaste
+	3302.3.24={
+		birth=yes
+	}
+	3384.9.4={
+		add_spouse=1141
+	}
+}
+1146 = {
+	name=Silo
+	disallow_random_traits=yes
+	female=no
+	diplomacy=7
+	martial=4
+	intrigue=8
+	stewardship=6
+	learning=5
+	historical = yes
+	dynasty=405
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	trait=underhanded_rogue
+	trait=decietful
+	trait=lustful
+	trait=envious
+	trait=ambitious
+	3370.9.10={
+		birth=yes
+	}	
+}
+1147 = {
+	name=Talo
+	disallow_random_traits=no
+	female=no
+	diplomacy=5
+	martial=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	historical = yes
+	dynasty=406
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3369.2.27={
+		birth=yes
+	}	
+}
+1148 = {
+	name=Rusl
+	disallow_random_traits=no
+	female=no
+	diplomacy=5
+	martial=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	historical = yes
+	dynasty=407
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3369.2.27={
+		birth=yes
+	}	
+}
+1149 = {
+	name=Pado
+	disallow_random_traits=no
+	female=no
+	diplomacy=5
+	martial=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	historical = yes
+	dynasty=412
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3370.1.7={
+		birth=yes
+	}	
+}
+1150 = {
+	name=Jali
+	disallow_random_traits=no
+	female=no
+	diplomacy=5
+	martial=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	historical = yes
+	dynasty=416
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3371.1.7={
+		birth=yes
+	}	
+}
+1151 = {#ordonia, gap, east ordonia plat
+	name=Paden
+	disallow_random_traits=yes
+	female=no
+	diplomacy=8
+	martial=5
+	intrigue=5
+	stewardship=9
+	learning=6
+	historical = yes
+	dynasty=420
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	trait=thrifty_clerk
+	trait=erudite
+	trait=greedy
+	trait=shrewd
+	trait=frail
+	3353.7.24={
+		birth=yes
+	}	
+	3372.3.18={
+		add_spouse=1152
+	}	
+}
+1152 = {
+	name=Tada
+	disallow_random_traits=no
+	female=yes
+	historical = yes
+	dynasty=421
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human	
+	3356.3.18={
+		birth=yes
+	}
+	3372.3.18={
+		add_spouse=1151
+	}	
+}
+1153 = {
+	name=Irari
+	disallow_random_traits=no
+	female=yes
+	historical = yes
+	dynasty=420
+	mother=1152
+	father=1151
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human	
+	3375.6.26={
+		birth=yes
+	}
+}
+1154 = {
+	name=Cishe
+	disallow_random_traits=no
+	female=yes
+	historical = yes
+	dynasty=420
+	mother=1152
+	father=1151
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human	
+	3378.9.24={
+		birth=yes
+	}
+}
+1155 = {
+	name=Teri
+	disallow_random_traits=no
+	female=no
+	historical = yes
+	dynasty=420
+	mother=1152
+	father=1151
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human	
+	3381.7.8={
+		birth=yes
+	}
+}
+1156 = {
+	name=Mench
+	disallow_random_traits=no
+	female=no
+	historical = yes
+	dynasty=420
+	mother=1152
+	father=1151
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human	
+	3384.11.8={
+		birth=yes
+	}
+}
+1157 = {
+	name=Carul
+	disallow_random_traits=no
+	female=yes
+	historical = yes
+	dynasty=420
+	mother=1152
+	father=1151
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human	
+	3386.10.8={
+		birth=yes
+	}
+}
+1158 = { #south+river
+	name=Haran
+	disallow_random_traits=no
+	female=no
+	historical = yes
+	dynasty=423
+	diplomacy=8
+	martial=5
+	intrigue=5
+	stewardship=9
+	learning=6
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	trait=elusive_shadow
+	trait=decietful
+	trait=gregarious
+	trait=wroth
+	trait=content
+	trait=charitable
+	3370.10.8={
+		birth=yes
+	}
+}
+1159 = { #fords
+	name=Cale
+	disallow_random_traits=yes
+	female=no
+	historical = yes
+	dynasty=424
+	diplomacy=8
+	martial=10
+	intrigue=5
+	stewardship=6
+	learning=6
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	trait=tough_soldier
+	trait=wroth
+	trait=zealous
+	trait=ambitious
+	3368.4.27={
+		birth=yes
+	}
+}
+1160 = { #wooddell
+	name=Cale
+	disallow_random_traits=yes
+	female=no
+	historical = yes
+	dynasty=425
+	diplomacy=8
+	martial=10
+	intrigue=5
+	stewardship=6
+	learning=6
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	trait=charismatic_negotiator
+	trait=gregarious
+	trait=lustful
+	trait=hedonist
+	3369.1.27={
+		birth=yes
+	}
+}
+1161 = { 
+	name=Urath
+	disallow_random_traits=no
+	female=no
+	historical = yes
+	dynasty=426
+	diplomacy=5
+	martial=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3368.12.27={
+		birth=yes
+	}
+}
+1162 = {
+	name=Cale
+	disallow_random_traits=no
+	female=no
+	historical = yes
+	dynasty=427
+	diplomacy=5
+	martial=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3367.3.27={
+		birth=yes
+	}
+}
+1163 = { 
+	name=Alan
+	disallow_random_traits=no
+	female=no
+	historical = yes
+	dynasty=428
+	diplomacy=5
+	martial=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3368.12.7={
 		birth=yes
 	}
 }
