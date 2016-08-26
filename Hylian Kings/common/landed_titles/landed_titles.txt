@@ -267,8 +267,8 @@ e_hyrule_central = {
 			}		
 			c_amphitheater_field = {			
 				color={ 202 225 255 }
-				color2={ 255 255 255 }
-				
+				color2={ 255 255 255 }				
+				holy_site = golden_goddesses #temp
 				b_amphitheater_gate = {}
 				b_amphitheater_of_hylia = {}
 			}			
@@ -827,15 +827,15 @@ e_hyrule_central = {
 			}			
 			c_temple_of_time = {
 				color = { 255 215 0 }
-				color2 = { 250 250 210}			
+				color2 = { 250 250 210}
 				holy_site = golden_goddesses
 				holy_site = light_force
 				holy_site = hylia_religion
 				holy_site = sheikahism
-				holy_site = great_maku
+				holy_site = great_maku				
+				holy_site = vaati_religion
 				holy_site = gerudo_goddess
 				holy_site = demise_religion
-				holy_site = vaati_religion
 				holy_site = ganon_religion
 				holy_site = wizzrobe_doctrine
 				holy_site = darknut_doctrine
@@ -1078,7 +1078,8 @@ e_mudora = {
 			}
 			c_sanctuary = {
 				color={ 0 170 0 }
-				color2={ 255 255 255 }
+				color2={ 255 255 255 }				
+				holy_site = golden_goddesses
 				b_sanctuary_gathe = {}
 				b_sanctuary = {}
 				b_sanctuary_graveyard = {}
@@ -1875,8 +1876,8 @@ k_hyrule_minish = { #Minish
 		capital = 610 # Middlesex
 		c_minish_mines = {
 			color={ 178 34 34 }
-			color2={ 30 30 30 }
-				
+			color2={ 30 30 30 }				
+			holy_site = vaati_religion
 			b_minish_mines = {}
 			b_hamor = {}
 			b_jam = {}
@@ -1986,8 +1987,8 @@ k_hyrule_minish = { #Minish
 		}
 		c_palace_of_winds = {
 			color={ 255 153 18 }
-			color2={ 82 184 220 }
-			
+			color2={ 82 184 220 }			
+			holy_site = vaati_religion
 			b_palace_winds = {}
 			b_faton = {}
 			b_pin = {}
@@ -2032,8 +2033,8 @@ k_hyrule_minish = { #Minish
 		}
 		c_minish_hyrule_castle = {
 			color={ 30 144 255 }
-			color2={ 82 184 220 }
-			
+			color2={ 82 184 220 }			
+				holy_site = vaati_religion
 			b_minish_castle = {
 				#wind_tribe = Wind Castle
 			}
@@ -2334,8 +2335,8 @@ e_saria = {#Saria
 			}		
 			c_graveyard_vale = {
 				color={ 0 104 46 }
-				color2={ 249 228 83 }
-			
+				color2={ 249 228 83 }			
+				holy_site = golden_goddesses
 				b_saria_graveguard = {}
 				b_graveyard_saria = {}
 			}
@@ -2381,8 +2382,7 @@ e_saria = {#Saria
 			}
 			c_north_palace = {
 				color={ 0 104 46 }
-				color2={ 249 228 83 }
-				
+				color2={ 249 228 83 }		
 				b_north_palace = {}
 			}
 		}
@@ -2809,6 +2809,618 @@ e_moria = {
 	}	
 }
 e_sea_tree = {
+	color={ 34 139 34}
+	color2={ 85 107 47 }
+	capital = 660
+	k_kokiri = {
+		color={ 34 139 34}
+		color2={ 85 107 47 }
+		capital = 659
+		d_kokiri_woods = {
+			color={ 255 0 0 }
+			color2={ 139 69 19 }
+			c_kokiri = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_kokiri = {}
+				b_kokiri_village = {}
+				b_deku_stream = {}
+
+			}
+			c_great_deku_grove = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_great_deku_grove = {}
+				b_great_grove_guard = {}
+				b_deku_roots = {}
+			}
+			c_forest_shrine = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_foria = {}
+				b_forest_shrine = {}
+			}
+			c_west_kokiri_forest = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_feria = {}
+				b_sedovo = {}
+			}
+			c_east_kokiri_forest = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_media = {}
+				b_deria = {}
+				b_keki = {}
+			}
+			c_south_kokiri_forest = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_sokia = {}
+				b_savu = {}
+				b_meluk = {}
+			}
+		}
+		d_kokiri_lost_woods = {
+			color={ 255 0 0 }
+			color2={ 139 69 19 }
+			c_forest_temple = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_forest_manor = {}
+				b_forest_temple = {}
+
+			}
+			c_sacred_forest_meadow = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_dudilu = {}
+		
+			}
+			c_forest_stage = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_kudia = {}
+				b_deku_theater = {}
+
+			}
+			c_forest_gate = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_forest_gate = {}
+				b_favaku = {}
+			}
+			c_kokiri_lost_woods = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_sikeleso = {}
+				b_dekia = {}
+			}
+		}
+		d_stal_woods = {
+			color={ 255 0 0 }
+			color2={ 139 69 19 }
+			c_stalkades = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_keria = {}
+				b_sudi = {}
+			}
+			c_baga_woods = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_kasi = {}
+				b_dodia = {}		
+			}
+			c_stalkid_woods = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_dorikia = {}
+				b_dek = {}
+				b_dokia = {}
+
+			}
+			c_stal_woods = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_sesi = {}
+				b_dosi = {}
+
+			}
+		}
+		d_haunted_woods = {
+			color={ 255 0 0 }
+			color2={ 139 69 19 }
+			c_haunted_woods = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_sidia = {}
+				b_desudi = {}
+				b_haunted_woods = {}
+
+			}
+			c_labyrinth_temple = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_mikia = {}
+				b_labyrinth_temple = {}
+				b_doria = {}
+
+			}
+			c_stalgroves = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_kadia = {}
+				b_dulia = {}
+				b_kerek = {}
+				b_kakobu = {}
+
+			}
+		}
+		d_skull_woods = {
+			color={ 255 0 0 }
+			color2={ 139 69 19 }
+			c_east_skull_woods = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_moredak = {}
+				b_scrokidi = {}
+				b_kokakodi = {}
+			}
+			c_south_skull_woods = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_doko = {}
+				b_kakevo = {}
+				b_dedadori = {}
+
+			}
+			c_west_skull_woods = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_kovo = {}
+				b_soresi = {}
+				b_kovo_2 = {}
+
+			}
+			c_north_skull_woods = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_mavo = {}
+				b_dedia = {}
+				b_fokia = {}
+
+			}
+		}
+		d_wolfos_woods = {
+			color={ 255 0 0 }
+			color2={ 139 69 19 }
+			c_howling_woods = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_sakekia = {}
+				b_disi = {}
+				b_didi = {}
+				b_howling_woods = {}
+
+			}
+			c_wolfos_woods = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_mikesakia = {}
+				b_kikia = {}
+
+			}
+		}
+		d_korok_woods = {
+			color={ 255 0 0 }
+			color2={ 139 69 19 }
+			c_great_baga_tree_grove = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_great_baga_grove = {}
+				b_great_baga_guard = {}
+				b_baga_roots = {}
+				b_fuviru = {}
+
+			}
+			c_haunted_narrows = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_favokevi = {}
+				b_saseluk = {}
+			}
+			c_korok_woods = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_dekekia = {}
+				b_fodikoko = {}
+
+			}
+			c_spirit_woods = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_modovi = {}
+				b_debu = {}
+				b_fuvek = {}
+
+			}
+		}
+		d_baba_forest = {
+			color={ 255 0 0 }
+			color2={ 139 69 19 }
+			c_baba_forest = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_mukia = {}
+				b_fedi = {}
+				b_kokia = {}
+				b_fodovok = {}
+
+			}
+			c_manhandla_forest = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_sivo = {}
+				b_sero = {}
+				b_sasi = {}
+			}
+			c_diababa_woods = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_fuvalo = {}
+				b_kuria = {}
+				b_faria = {}
+
+			}
+		}
+		d_forest_road = {
+			color={ 255 0 0 }
+			color2={ 139 69 19 }
+			c_forest_road = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_muvo = {}
+				b_kosi = {}
+			}
+			c_skull_road = {
+				color={ 255 0 0 }
+				color2={ 139 69 19 }
+				b_dovabu = {}
+				b_kuvo = {}
+				b_fodek = {}
+			}
+		}
+	}
+	k_deku = {
+		color={ 0 100 0 }
+		color2={ 0 0 0 }
+		capital = 671
+		d_lost_woods = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_thief_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_sorelu = {}
+				b_dedadia = {}
+				b_sikevo = {}
+
+			}
+			c_lost_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_sovia = {}
+				b_fukukoro = {}
+				b_fodevi = {}
+				b_solia = {}
+
+			}
+			c_sword_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_sekuria = {}
+				b_sebikaro = {}
+				b_moro = {}
+
+			}
+			c_dark_woods = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+					b_seki = {}
+				b_sedili = {}
+				b_kebubo = {}
+				b_sukivo = {}			
+			}
+			c_maze_woods = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+					b_kukia = {}
+				b_serubia = {}
+				b_darikia = {}
+				b_dodebu = {}
+
+			}
+		}
+		d_deku_marsh = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_deku_road = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_favia = {}
+				b_sarebu = {}
+				b_fevuso = {}
+				b_kavia = {}
+
+			}
+			c_deku_marshes = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_sivo_2 = {}
+				b_sero_2 = {}
+				b_sasi_2 = {}
+
+			}
+			
+		}
+		d_dekuvia = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_deku_palace = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+				b_deku_palace = {}
+			
+			}
+			c_dekuvia = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+				b_dekuvia = {}
+				b_dekuvia_gate = {}
+				b_dekuvia_grove = {}
+	
+			}
+			c_swamp_temple = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_swamp_temple = {}
+				b_bubbling_pools = {}
+
+			}
+			c_scrub_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_fuvalo_2 = {}
+				b_kuria_2 = {}
+				b_faria_2 = {}
+
+			}
+			c_trader_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_favia_2 = {}
+				b_sarebu_2 = {}
+				b_fevuso_2 = {}
+
+			}
+		}
+		d_scrubavia = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_woodfalls = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_kavia_2 = {}
+				b_sekia = {}
+
+			}
+			c_business_lodges = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_modia = {}
+				b_mekeria = {}
+
+			}
+			c_scrub_road = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_miria = {}
+				b_kiro = {}
+
+			}
+			c_scrubavia = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_sikiko = {}
+				b_fubiria = {}
+
+			}
+		}
+		d_deku_forest = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_deku_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_favuku = {}
+				b_seria = {}
+				b_foravo = {}
+				b_savo = {}
+				b_maru = {}
+
+			}
+			c_southwest_deku_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_sevia = {}
+				b_darivo = {}
+
+			}
+			c_west_deku_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_suria = {}
+				b_doraku = {}
+				b_mosoria = {}
+				b_sekesi = {}
+
+			}
+			c_forest_tradeposts = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_kerak = {}
+				b_kodekia = {}
+				b_daria = {}
+
+			}
+			c_north_deku_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_kudevo = {}
+				b_mevik = {}
+				b_sivia = {}
+				b_morevu = {}
+
+			}
+			c_south_deku_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_savia = {}
+				b_dakia = {}
+				b_kirovia = {}
+				b_midoria = {}
+
+			}
+		}
+		d_sweltering_woods = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_fire_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_fokedi = {}
+				b_fovo = {}
+
+			}
+			c_dusty_bogs = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_dune_bogs = {}
+				b_sandy_waters = {}
+
+			}
+		}
+		d_tricksters_woods = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_robberwood = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_makia = {}
+				b_dobia = {}
+				b_fodo = {}
+				b_kolaki = {}
+
+			}
+			c_thief_forts = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_sudia = {}
+				b_sebia = {}
+				b_fadia = {}
+			}
+			c_poe_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_faro = {}
+				b_kevo = {}
+				b_dulobo = {}
+			}
+			c_skeleton_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_seravia = {}
+				b_mevobo = {}
+				b_sasak = {}
+			}
+			c_mystery_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_farokia = {}
+				b_moli = {}
+
+			}
+		}
+		d_fresh_woods = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_woodsman_hills = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_mobaki = {}
+				b_kuvia = {}
+			}
+			c_lumberjack_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_sediria = {}
+				b_dorak = {}
+				b_sasuk = {}
+			}
+			c_sawmill_hollow = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_soko = {}
+				b_kolia = {}
+				b_movi = {}
+			}
+		}
+		d_flower_woods = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_deku_flower_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_mivesi = {}
+				b_derarili = {}
+
+			}
+			c_dekublin_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_kudi = {}
+				b_sovaria = {}
+				b_farovia = {}
+			}
+		}
+		d_deku_gate = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_dekugates = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_kesedo = {}
+				b_mevia = {}
+			}
+			c_deku_river = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_sobek = {}
+				b_kobia = {}
+			}
+		}
+	}
 	k_fairy = {
 		color={ 255 105 180 }
 		color2={ 245 255 250  }
@@ -2820,41 +3432,214 @@ e_sea_tree = {
 			c_mystery_woods = {
 				color={ 255 225 255 }
 				color2={ 148 0 211 }
-			b_mystery_grove = {}
-			b_neku = {}
-			b_talu = {}
+					b_mystery_grove = {}
+					b_neku = {}
+					b_talu = {}
 			}
 			c_fairy_woods = {
 				color={ 255 225 255 }
 				color2={ 148 0 211 }
-			b_gasha_cave = {}
-			b_fairy_town = {}
-			b_lema = {}
+					b_gasha_cave = {}
+					b_fairy_town = {}
+					b_lema = {}
 			}
 			c_deku_grove = {
 				color={ 255 225 255 }
 				color2={ 148 0 211 }
-			b_forest_cave = {}
-			b_deku_town = {}
-			b_talas = {}
+					b_forest_cave = {}
+					b_deku_town = {}
+					b_talas = {}
 			}
 			c_wing_woods = {
 				color={ 255 225 255 }
 				color2={ 148 0 211 }
-			b_wing_dungeon = {}
-			b_animal_grove = {}
-			b_naleku = {}
+					b_wing_dungeon = {}
+					b_animal_grove = {}
+					b_naleku = {}
+			}
+		}		
+		d_whisp_woods = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_web_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+				b_maria = {}
+				b_kavoria = {}
+				b_sebodo = {}
+				b_serovi = {}
+			}
+			c_whisp_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_sevisi = {}
+				b_daro = {}
+				b_duvia = {}
+
+			}
+		}
+		d_blin_woods = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_bulblin_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_meki = {}
+				b_fuvero = {}
+				b_sakia = {}
+			}
+			c_bokoblin_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_dasu = {}
+				b_kadavi = {}
+				b_devi = {}
+			}
+			c_moblin_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_dadia = {}
+				b_diravo = {}
+				b_dovio = {}
+			}
+		}
+		d_crackling_woods = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_dry_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_scrarabo = {}
+				b_favobi = {}
+				b_divia_2 = {}
+
+			}
+			c_withering_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_favuki = {}
+				b_kedo_2 = {}
+				b_fodibo = {}
+
+			}
+		}
+		d_spring_forest = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_sprite_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_dakivo = {}
+				b_sovo = {}
+
+			}
+			c_fairy_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+				b_fudok = {}
+				b_seraro = {}
+	
+			}
+			c_fountain_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_kasovu = {}
+				b_fodi = {}
+				b_sokasi = {}
+
+			}
+			c_spring_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_sikiko_2 = {}
+				b_mosia = {}
+				b_keralo = {}
+				b_sosi = {}
+			}
+		}
+		d_blin_forest = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_north_blin_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_miloro = {}
+				b_fodokia = {}
+				b_kedia = {}
+			}
+			c_west_blin_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+				b_dakosu = {}
+				b_moredu = {}
+				b_divia = {}
+				b_kedo = {}
+	
+			}
+			c_south_blin_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+				b_sakia_2 = {}
+				b_meki_2 = {}
+				b_deasu = {}
+				b_kadavi_2 = {}
+	
+			}
+			c_east_blin_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_devo = {}
+				b_feloku = {}
+				b_dadia_2 = {}
+				b_diravo_2 = {}
+
+			}
+		}		
+		d_ghoma_woods = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_gohma_hollows = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_kibia = {}
+				b_modi = {}
+			}
+			c_gohma_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_dudoko = {}
+				b_mokia = {}
+			}
+			c_gohma_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_kali = {}
+				b_dadek = {}
+				b_fuvia = {}
+
 			}
 		}
 	}
 	k_minish = {
 		color={ 82 184 220}
 		color2={ 0 100 0 }
-		capital = 666 
+		capital = 666		
 		d_minish = {
 			color={ 82 184 220}
 			color2={ 0 100 0 }
-			capital = 666 #Middlesex
+			capital = 666
+			c_hylia_swamp = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				b_kasolia = {}
+
+			}
 			c_hylia_treehouses  = {
 				color={ 0 0 0 }
 				color2={ 0 0 0 }
@@ -2871,6 +3656,167 @@ e_sea_tree = {
 				b_soro = {}
 				b_manane = {}
 				b_kirde = {}
+			}
+			
+			c_minish_woods = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				b_seri = {}
+				b_kekiri = {}
+				b_divo = {}
+			}
+			c_minish_groves = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				b_mikok = {}
+				b_fivo = {}
+			}
+			c_east_hylia_woods = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				b_fekia = {}
+				b_kukevo = {}
+				b_fodoku = {}
+				b_milia = {}
+
+			}
+			c_west_hylia_woods = {
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				b_dokik = {}
+				b_fikia = {}
+				b_sevo = {}
+
+			}
+		
+		}
+		d_girrin_woods = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_sanctuary_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_salo = {}
+				b_davo = {}
+
+			}
+			c_girrin_groves = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_koria = {}
+				b_feki = {}
+
+			}
+		}
+		d_baga_forest = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_north_baga_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_movia = {}
+				b_keli = {}
+				b_suvikia = {}
+				b_dobo = {}
+
+			}
+			c_east_baga_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_kusi = {}
+				b_korodia = {}
+				b_kevia = {}
+				b_dodori = {}
+
+			}
+			c_great_baga_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_dovia = {}
+				b_sebuko = {}
+				b_sadari = {}
+				b_kivia = {}
+				b_moko = {}
+			}
+			c_south_baga_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_devia = {}
+				b_fovia = {}
+				b_fodia = {}
+				b_mekia = {}
+			}
+			c_west_baga_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_sodi = {}
+				b_mesi = {}
+				b_sedivo = {}
+
+			}
+		}
+		d_cucco_woods = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_cucco_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_fekadia = {}
+				b_davia = {}
+				b_kelia = {}
+			}
+			c_selosia_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_selosia = {}
+				b_feky = {}
+				b_sukia = {}
+
+			}
+		}
+		d_creeping_woods = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_creeping_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_karia = {}
+				b_sasia = {}
+				b_mekivo = {}
+			}
+			c_boko_woods = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_sari = {}
+				b_favok = {}
+				b_favevu = {}
+				b_sidodia = {}
+
+			}
+		} 
+		d_picori_forest = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671
+			c_picori_groves = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_kolo = {}
+				b_sikoko = {}
+				b_sikelobo = {}
+
+			}
+			c_picori_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_dibo = {}
+				b_sobia = {}
+				b_favavadu = {}
+				b_kero = {}
 			}
 		}
 	}
@@ -3940,9 +4886,19 @@ e_holodrum = {
 			}
 			c_maku_woods = {			
 				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color2={ 255 245 238 }				
+				holy_site = great_maku	
 				b_maku_grove_of_horon = {}
 				b_maku_gate = {}
+			}
+			c_holodrum_forest = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+				b_miloro_2 = {}
+				b_kedia_2 = {}
+				b_dakosu_2 = {}
+				b_moredu_2 = {}
+
 			}
 		}
 		d_fungus = {
@@ -4345,7 +5301,9 @@ e_labrynna = {
 			c_maku_grove = {
 				color={ 107 142 35 }
 				color2={ 255 239 213 }
-							b_maku_grove_of_labrynna = {}
+				
+				holy_site = great_maku	
+				b_maku_grove_of_labrynna = {}
 				b_maku_road = {}
 			}
 			c_south_shore = {
@@ -4455,7 +5413,8 @@ e_labrynna = {
 			capital = 286
 			c_lynna = {
 				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color2={ 255 239 213 }				
+				holy_site = golden_goddesses
 				b_lynna = {}
 				b_lynna_village = {}
 				b_lynna_theater = {}
@@ -4810,8 +5769,8 @@ k_falsia = {
 		}
 		c_maku_sanctuary = {
 			color={ 41 255 30 }
-			color2={ 18 136 7 }
-		
+			color2={ 18 136 7 }		
+				holy_site = great_maku	
 			b_falsia_maku_grove = {}
 			b_false = {}
 			b_sadyl = {}
@@ -5824,4 +6783,5 @@ k_auros = {
 		
 		}
 	}
+}
 }
