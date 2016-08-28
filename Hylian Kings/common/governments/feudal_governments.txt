@@ -5,11 +5,68 @@ feudal_governments = {
 		allowed_holdings = { 
 			CASTLE 
 			FORT
+			HOSPITAL
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 			TRIBAL
 		}
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		feudalcratic_government 
+		imperialism_government
+		mage_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		accepts_liege_government_religion = {
+		barbaric_government
+		}
+		vassal_call_to_arms = {
+			tribal_government
+			barbaric_government
+			imperialism_government
+			mage_government
+		}
+		potential = {
+			NOR = {
+			religion = pirate_doctrine
+			culture_group = blin 
+			culture_group = lfos
+			cultur_group = goron_group
+			culture = demon
+			religion_group = demon_religion			
+			religion = great_deku
+			religion = great_fairies
+			religion = gerudo_goddess
+			religion = darknut_doctrine
+			religion = wizzrobe_doctrine 
+			}
+		}
+		color = { 91 133 207 }
+		
+		barons_need_dynasty = yes
+		capital_move_delay = 960
+
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+	}
+	#theocratic+feudal
+	feudalcratic_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE 
+			TEMPLE
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		feudal_government
 		gerudo_government 
 		goron_government
 		imperialism_government
@@ -32,16 +89,13 @@ feudal_governments = {
 			kokiri_government
 		}
 		potential = {
-			NOR = {
-			culture_group = blin 
-			culture_group = lfos
-			cultur_group = goron_group
-			culture = demon
-			culture = gerudo
-			religion_group = demon_religion
+			OR = {
+			religion = great_deku
+			religion = great_fairies
+			religion = gerudo_goddess
 			}
 		}
-		color = { 91 133 207 }
+		color = { 255 255 240 }
 		
 		barons_need_dynasty = yes
 		capital_move_delay = 960
@@ -94,7 +148,7 @@ feudal_governments = {
 			is_patrician = no
 		}
 		
-		color = { 207 91 91 }
+		color = { 220 20 60 }
 		
 		uses_prestige_for_law_change = yes
 		capital_move_delay = 960
@@ -118,6 +172,7 @@ feudal_governments = {
 		allowed_holdings = { 
 			CASTLE
 			FORT
+			HOSPITAL
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 			TRIBAL
@@ -131,8 +186,10 @@ feudal_governments = {
 			tribal_government
 		}
 		potential = {
+			OR = {
 			religion = darknut_doctrine
-			culture = darknut
+			religion = pirate_doctrine
+			}
 			is_patrician = no
 		}
 		vassal_call_to_arms = {
@@ -141,7 +198,7 @@ feudal_governments = {
 			mage_government
 			kokiri_government
 		}	
-		color = { 254 254 200}
+		color = { 176 23 31 }
 		
 		uses_prestige_for_law_change = yes
 		
@@ -166,6 +223,7 @@ feudal_governments = {
 			CITY
 			TEMPLE
 			FORT
+			HOSPITAL
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 			TRIBAL
@@ -187,7 +245,7 @@ feudal_governments = {
 			religion = wizzrobe_doctrine 
 		}
 		
-		color = { 123 36 46 }
+		color = { 39 64 139 }
 		
 		dukes_called_kings = no
 		barons_need_dynasty = yes

@@ -6,6 +6,11 @@ tribal_governments = {
 			TRIBAL
 			FORT
 		}
+		potential = {
+			is_patrician = no
+			mercenary = no
+			holy_order = no
+		}
 		accepts_liege_governments_culture_and_religion = { # Tribals have no opinion penalty towards their liege if of the same culture
 			feudal_government
 			republic_government
@@ -62,134 +67,3 @@ tribal_governments = {
 		demesne_size = 2
 		vassal_limit = -10
 	}
-	kokiri_government = {
-		preferred_holdings = { TRIBAL }
-		allowed_holdings = {
-			TRIBAL 
-			TEMPLE
-		}
-		accepts_liege_governments = { 
-			feudal_government
-			republic_government
-			merchant_republic_government
-			theocracy_government
-			muslim_government
-			goron_governmnet
-			gerudo_government
-			barbaric_government
-			mage_government
-			imperialism_government
-			tribal_government
-		}
-		vassal_call_to_arms = {
-			tribal_government 
-			kokiri_government
-			legion_government
-		}
-		no_vassal_tax = {
-			tribal_government
-			kokiri_government
-		}
-		builds_with_prestige = {
-			TRIBAL
-			TEMPLE
-		}
-		frame_suffix = "_grove"
-		title_prefix = "grove_"
-		potential = {
-			religion = deku_tree
-			NAND = {
-				controls_religion = yes
-				NOT = { religion = deku_tree }
-			}
-			is_patrician = no
-			mercenary = no
-			holy_order = no
-		}
-		
-		color = { 26 92 23}
-				
-		allow_looting = no
-		ignores_de_jure_laws = yes
-		can_build_castle = no
-		can_build_city = no
-		can_build_fort = no
-		can_build_temple = yes
-		can_build_tribal = yes
-		can_change_to_nomad_on_start = no
-		capital_move_delay = 960
-		uses_piety_for_law_change = yes
-		
-		demesne_size = 0
-		vassal_limit = +10
-	}	
-	legion_government = {
-		preferred_holdings = { TRIBAL }
-		allowed_holdings = {
-			TRIBAL 
-			FORT
-		}
-
-		accepts_liege_governments_religion_and_culture = {
-			feudal_government
-			republic_government
-			merchant_republic_government
-			theocracy_government
-			muslim_government
-			goron_governmnet
-			gerudo_government
-			barbaric_government
-			mage_government
-			imperialism_government
-			tribal_government
-		}
-		accepts_liege_governments = {
-			imperialism_government
-		}
-		vassal_call_to_arms = {
-			tribal_government
-			kokiri_government
-			legion_government
-		}
-		no_vassal_tax = {
-			tribal_government
-			kokiri_government
-		}
-		builds_with_prestige = {
-			TRIBAL
-			TEMPLE
-			FORT
-		}
-		frame_suffix = "_castrum"
-		title_prefix = "castrum_"
-		potential = {
-			religion = darknut_doctrine
-			NAND = {
-				controls_religion = yes
-				NOT = { religion_group = wizzrobe_doctrine }
-				NOT = { religion = darknut_doctrine }
-			}
-			is_patrician = no
-			mercenary = no
-			holy_order = no
-		}
-		
-		color = { 85 92 23 }
-		
-		uses_decadence = no
-		
-		allow_looting = no
-		ignores_de_jure_laws = yes
-		can_build_castle = no
-		can_build_city = no
-		can_build_fort = yes
-		can_build_temple = yes
-		can_build_tribal = yes
-		can_change_to_nomad_on_start = no
-		capital_move_delay = 960
-		uses_piety_for_law_change = yes
-		
-		demesne_size = 3
-		vassal_limit = -10
-	}
-}
