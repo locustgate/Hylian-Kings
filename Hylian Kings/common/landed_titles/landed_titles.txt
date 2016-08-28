@@ -6784,4 +6784,314 @@ k_auros = {
 		}
 	}
 }
+k_bastion = {
+	color={ 40 40 40 }
+	color2={ 139 0 0 }
+	capital = 216
+	d_maw_valley = {
+		color={ 244 164 96 }
+		color2={ 255 222 0 }
+		capital = 160
+		c_maw_valley = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_maw_gate = {}
+			b_mawed_pit = {}
+			b_maw_sands = {}
+		}
+		c_bastion_gates = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_last_bulwark = {}
+			b_legionnaires_rest = {}
+			b_bastion_gate = {}
+			b_river_gate = {}
+		}
+	}
+	d_bastion = {
+		color={ 244 164 96 }
+		color2={ 255 222 0 }
+		capital = 160
+		c_darknut_bastion = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_last_bastion = {}
+			b_judges_grounds = {}
+			b_aegis = {}
+			b_bastion_rampart = {}
+			b_martial_grounds = {}
+			b_judges_bluff = {}
+		}
+		c_river_fork = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_snake_river = {}
+			b_hyrda_split = {}
+			b_cockatrace_plains = {}
+			b_pesto_river = {}
+			b_drowned_river = {}
+		}
+	}
+	d_jackal_desert = {
+		color={ 244 164 96 }
+		color2={ 255 222 0 }
+		capital = 160
+		c_wosu_wastes = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_blastworm = {}
+			b_flamola = {}
+			b_madderpillar = {}
+		}
+		c_jackal_desert = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_jackal = {}
+			b_sandworm = {}
+			b_skytail = {}
+		}
+	}
+	d_deaths_valley = {
+		color={ 244 164 96 }
+		color2={ 255 222 0 }
+		capital = 160
+		c_desert_of_death = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_winder_sands = {}
+			b_drowning_sands = {}
+		}
+		c_darknut_valley = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_swamola = {}
+			b_stailpasaran = {}
+			b_tile_worm = {}
+			b_mite = {}
+			b_beetle = {}
+		}
+		c_legion_gates = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_legion_gate = {}
+			b_legionnaires_court = {}
+			b_shield_gate = {}
+			b_seer_lookout = {}
+		}
+	}
+	d_bastion_cliffs = {
+		color={ 244 164 96 }
+		color2={ 255 222 0 }
+		capital = 160
+		c_darknut_cliffs = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_shield_cliff = {}
+			b_sword_pinnacle = {}
+			b_last_redoubt = {}
+			b_soldiers_rest = {}
+		}
+		c_cliff_bastions = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_magtail_cliff = {}
+			b_frozen_judgement = {}
+			b_mortis_cliff = {}
+		}
+		c_bastion_caverns = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_moldorn = {}
+			b_moldworm = {}
+			b_pincer = {}
+		}
+	}
+	
+}
+k_myrddin = {
+	color={ 135 206 255 }
+	color2={ 154 50 205 }
+	capital = 216
+	d_valley_of_seers = {
+		color={ 244 164 96 }
+		color2={ 255 222 0 }
+		capital = 160
+		c_soul_temple = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+				b_temple_of_souls = {}
+			b_gotanon = {}
+		}
+		c_lanayru_gorge = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_aetot = {}
+			b_todd = {}
+			b_cagesen = {}
+		}
+		c_valley_of_seers = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_geydd = {}
+			b_coluneteydd = {}
+			b_cotia = {}
+			b_ceinereydd = {}
+		}
+	}
+	d_drydrui = {
+		color={ 244 164 96 }
+		color2={ 255 222 0 }
+		capital = 160
+		c_moridunon = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_moridunon = {}
+			b_otonedd = {}
+			b_gogmenules = {}
+			b_ores = {}
+			b_goddes = {}
+		}
+		c_cymclut = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_cymclut = {}
+			b_meddoneydd = {}
+			b_tarat = {}
+		}
+		c_drydrui = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_drydrui = {}
+			b_mionin = {}
+			b_gidot = {}
+		}
+	}
+	d_pryniach = {
+		color={ 244 164 96 }
+		color2={ 255 222 0 }
+		capital = 160
+		c_aeron = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_aeron = {}
+			b_gesen = {}
+			b_magmia = {}
+			b_oninui = {}
+		}
+		c_pryniach = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_pryniach = {}
+			b_modom = {}
+			b_modot = {}
+		}
+	}
+	d_canabon = {
+		color={ 244 164 96 }
+		color2={ 255 222 0 }
+		capital = 160
+		c_cenabon = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_cenabon = {}
+			b_onon = {}
+			b_minat = {}
+			b_cinos = {}
+		}
+		c_ogmionos = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_ogmionos = {}
+			b_prynotot = {}
+			b_mienat = {}
+			b_mombodd = {}
+		}
+	}
+	d_talesium = {
+		color={ 244 164 96 }
+		color2={ 255 222 0 }
+		capital = 160
+		c_cambion = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+				b_cambion = {}
+			b_catan = {}
+			b_onaran = {}
+			b_menen = {}
+		}
+		c_taliesium = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_taliesium = {}
+			b_manon = {}
+			b_aetuon = {}
+			b_gwrtharn = {}
+		}
+		c_guotoddin = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_guotoddin = {}
+			b_tagmia = {}
+			b_prynobedd = {}
+		}
+		c_gogledd = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_gogledd = {}
+			b_aedgion = {}
+			b_gumbas = {}
+			b_gonui = {}
+		}
+	}
+	d_morgania = {
+		color={ 244 164 96 }
+		color2={ 255 222 0 }
+		capital = 160
+		c_gwrtheyrn = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_gwrtheyrn = {}
+			b_godgon = {}
+			b_modotia = {}
+			b_tonatia = {}
+			b_gubiorui = {}
+		}
+		c_morgania = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_morgania = {}
+			b_caletia = {}
+			b_coroneiniin = {}
+			b_golan = {}
+		}
+		c_rhegeit = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_rhegeit = {}
+			b_monion = {}
+			b_oddan = {}
+			b_mobeyum = {}
+		}
+	}
+	d_myrddin = {
+		color={ 244 164 96 }
+		color2={ 255 222 0 }
+		capital = 160
+		c_myrddin = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_myrddin = {}
+			b_tiatia = {}
+			b_mutarn = {}
+			b_muban = {}
+		}
+		c_guidgen = {
+			color={ 244 164 96 }
+			color2={ 255 222 0 }
+			b_guidgen = {}
+			b_modin = {}
+			b_genion = {}
+		}
+	}	
+}
 }
