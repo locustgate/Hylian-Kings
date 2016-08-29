@@ -1829,7 +1829,7 @@ k_hyrule_minish = { #Minish
 			color={ 255 0 0 }
 			color2={ 113 113 198 }
 			
-			b_karia = {}
+			b_kari = {}
 			b_eryodu = {}
 			b_rinin = {}
 			b_oradu = {}
@@ -3765,7 +3765,7 @@ e_sea_tree = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
 					b_fekadia = {}
-				b_davia = {}
+				b_davi = {}
 				b_kelia = {}
 			}
 			c_selosia_woods = {
@@ -3784,7 +3784,7 @@ e_sea_tree = {
 			c_creeping_woods = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
-					b_karia = {}
+				b_kara = {}
 				b_sasia = {}
 				b_mekivo = {}
 			}
@@ -5562,6 +5562,480 @@ e_labrynna = {
 			}
 		}
 	}
+}
+e_calatia = {
+		color={ 78 116 197 }
+		color2={ 160 176 87 }
+		
+		capital = 43
+		
+		k_calatia = {
+			color={ 78 116 197 }
+			color2={ 160 176 87 }
+		
+			capital = 43
+			d_calatia = {
+				color={ 150 75 75 }
+				color2={ 255 255 255 }			
+				capital = 378
+				c_calatia = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_calatia = {}
+					b_bidas = {}
+					b_tysus = {}
+				}
+				c_encyra = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_encyra = {}
+					b_epilas = {}
+					b_rycan = {}
+					b_rican = {}
+				}
+				c_thyrgia = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_thyrgia = {}
+					b_rophigan = {}
+					b_pixagan = {}
+				}
+				c_bisidia = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_bisidia = {}
+					b_pipazis = {}
+					b_conicia = {}
+					b_bacia = {}
+				}
+				c_baphlagoina = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+				
+									b_baphlagoina = {}
+					b_rycia = {}
+					b_ghithoda = {}
+					b_cutozoce = {}
+					b_lhais = {}
+				}
+			}
+			d_lhodia = {
+				color={ 150 75 75 }
+				color2={ 255 255 255 }			
+				capital = 378
+				c_xamos = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_xamos = {}
+				}
+				c_lhodia = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }
+					b_lhodia = {}
+					b_texos = {}					
+				}
+				c_rydia = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_rydia = {}
+					b_pipudus = {}
+					b_banos = {}
+					b_tysanos = {}
+				}
+			}
+			d_phracia = {
+				color={ 150 75 75 }
+				color2={ 255 255 255 }			
+				capital = 378
+				c_phracia = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }
+					b_phracia = {}
+					b_adan = {}					
+				}
+				c_resbos = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_resbos = {}
+				}
+				c_droy = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }
+					b_droy = {}
+					b_xadas = {}					
+				}
+				c_droad = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_droad = {}
+					b_cepha = {}
+					b_tysa = {}
+				}
+				c_nysia = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_nysia = {}
+					b_pinos = {}
+				}
+			}
+			d_tysia = {
+				color={ 150 75 75 }
+				color2={ 255 255 255 }			
+				capital = 378
+				c_ghios = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_ghios = {}
+				}
+				c_tysia = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_tysia = {}
+					b_bia = {}
+					b_entagia = {}
+					b_piceny = {}
+				}
+				c_karia = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_karia = {}
+					b_boezazis = {}
+					b_enios = {}
+					b_gecan = {}
+				}
+			}
+			d_zymryna = {
+				color={ 150 75 75 }
+				color2={ 255 255 255 }			
+				capital = 378
+				c_toris = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_toris = {}
+					b_zonta = {}
+					b_rinentan = {}
+				}
+				c_zmyrna = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_zmyrna = {}
+					b_pipes = {}
+					b_caces = {}
+				}
+				c_ieolis = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_ieolis = {}
+					b_sesan = {}
+				}
+		
+			}
+			d_aphesos = {
+				color={ 150 75 75 }
+				color2={ 255 255 255 }			
+				capital = 378
+				c_aphesos = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_aphesos = {}
+				}
+				c_pithinya = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_pithinya = {}
+					b_canta = {}
+				}
+				c_bergamon = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_bergamon = {}
+				}
+				
+			}
+			d_micomedia = {
+				color={ 150 75 75 }
+				color2={ 255 255 255 }			
+				capital = 378
+				c_davia = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_davia_2 = {}
+					b_oled = {}
+					b_dapos = {}
+				}
+				c_micomedia = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_micomedia = {}
+					b_ghithes = {}
+				}
+				c_licaea = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_licaea = {}
+					b_mitenos = {}
+				}
+			}
+			d_rycaonia	 = {
+				color={ 150 75 75 }
+				color2={ 255 255 255 }			
+				capital = 378
+				c_rycaonia = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_rycaonia = {}
+					b_galos = {}
+					b_ogios = {}
+					b_pinas = {}
+				}
+				c_gappadocia = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_gappadocia = {}
+					b_ecos = {}
+					b_drapa = {}
+					b_mesas = {}
+					b_podia = {}
+					b_pilas = {}
+					b_podia_2 = {}
+				}
+			}		
+			
+		}
+		k_enatolia = {
+			color={ 78 116 197 }
+			color2={ 160 176 87 }
+		
+			capital = 43
+			d_enatolia = {
+				color={ 150 75 75 }
+				color2={ 255 255 255 }			
+				capital = 378
+				c_enatolia = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_entolia = {}
+					b_siocu = {}
+					b_intecas = {}
+					b_gayten = {}
+				}
+				c_darsos = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }
+					b_darsos = {}
+					b_drape = {}
+					b_gicia = {}
+					b_cuniode = {}
+					b_soene = {}					
+				}
+				c_sephyrion = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_sephyrion = {}
+					b_zicon = {}
+					b_mulas = {}
+					b_olaciya = {}
+				}
+				c_edana = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+									b_edana = {}
+					b_casia_2 = {}
+					b_dacre_2 = {}
+					b_dacras = {}
+					b_bamania = {}
+				}
+			}
+			d_pyzantion = {
+				color={ 150 75 75 }
+				color2={ 255 255 255 }			
+				capital = 378
+				c_pyzantion = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_pyzantion = {}
+					b_bos = {}
+					b_necan = {}
+					b_lhixima = {}
+					b_grocacima = {}
+				}
+				c_grete = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_grete = {}
+				}
+			}
+			d_semnos = {
+				color={ 150 75 75 }
+				color2={ 255 255 255 }			
+				capital = 378
+				c_semnos = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }
+					b_semnos = {}
+					b_zontota = {}
+					b_ghithemmos = {}					
+				}
+				c_maxos = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_maxos = {}
+				}
+				c_dyana = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }
+					b_dyana = {}
+					b_ghisania = {}
+					b_xiosezos = {}
+					b_exesican = {}
+				}
+			}
+			d_bontus = {
+				color={ 150 75 75 }
+				color2={ 255 255 255 }			
+				capital = 378
+				c_bontus = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }
+					b_bontus = {}
+					b_alos = {}
+					b_galas = {}					
+				}
+				c_bessinus = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_bessinus = {}
+					b_dodia = {}
+				}
+				c_cayseria = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_cayseria = {}
+					b_xocia = {}
+					b_ghined = {}
+				}
+			}
+			d_gommagene = {
+				color={ 150 75 75 }
+				color2={ 255 255 255 }			
+				capital = 378
+				c_gommagene = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }
+					b_gommagene = {}
+					b_pyzos = {}
+					b_ghia = {}
+					b_dacrony = {}
+					b_xicia = {}					
+				}
+				c_zilicia = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_zilicia = {}
+					b_ugis = {}
+					b_drinany = {}
+					b_enidia = {}
+					b_acorocan = {}
+					b_pyzizan = {}
+					b_pipas = {}
+				}
+				c_lypros = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_lypros = {}
+				}
+				c_bamphylia = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_bamphylia = {}
+					b_esbadan = {}
+					b_drana = {}
+				}
+			}
+			d_ontioch = {
+				color={ 150 75 75 }
+				color2={ 255 255 255 }			
+				capital = 378
+				c_ontioch = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_ontioch = {}
+				}
+				c_nazaca = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }
+					b_nazaca = {}
+					b_dacre = {}					
+				}
+				c_uzinis = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_uzunis = {}
+					b_razia = {}
+				}
+			}
+			d_drapezous = {
+				color={ 150 75 75 }
+				color2={ 255 255 255 }			
+				capital = 378
+				c_drapezous = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_drapezous = {}
+					b_bocan = {}
+					b_axazan = {}
+					b_pitisis = {}
+					b_celas = {}
+				}
+				c_ruwiya = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_ruwiya = {}
+					b_tocos = {}
+					b_casia = {}
+				}
+			}
+			d_cophene = {
+				color={ 150 75 75 }
+				color2={ 255 255 255 }			
+				capital = 378
+				c_cophene= {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_cophene = {}
+					b_bosas = {}
+					b_imnitas = {}
+					b_grozia = {}
+				}
+				c_esroene  = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_esroene = {}
+					b_zoria = {}
+					b_cenirucia = {}
+					b_macan = {}
+					b_tecia = {}
+				}
+				c_tordyene = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_tordye = {}
+					b_galixos = {}
+					b_piwus = {}
+					b_xagacan = {}
+					b_pipadia = {}
+				}
+				c_irartu = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+					b_irartu = {}
+					b_ghima = {}
+					b_begata = {}
+					b_vasadia = {}
+				}
+			}
+			
+		}
 }
 k_koridai = {
 		color={ 112 227 220 }

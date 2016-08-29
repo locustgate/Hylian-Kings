@@ -1,17 +1,18 @@
-# c_lower_crater
+# c_ruwiya
 
 # County Title
-title = c_ruto
+title = c_ruwiya
 
 # Settlements
 max_settlements = 3
 
-b_doba = tribal
-b_ruto = city
-#b_fabo = temple
+b_ruwiya = castle
+b_tocos = temple
+#b_casia = temple
 
 # Misc
 culture = moblin
 religion = demise_religion
-terrain = plains
+terrain = hills
+
 #History
