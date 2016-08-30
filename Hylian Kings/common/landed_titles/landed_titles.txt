@@ -49,7 +49,20 @@ e_hyrule_central = {
 		color={ 0 110 47 }
 		color2={ 255 255 255 }
 		capital = 515
-	
+		allow = {
+			hidden_tooltip = {
+			OR = {
+				ai = no
+				culture_group = hylian_group
+				culture_group = lost_tribe
+				culture = ordonion
+				culture = kakarikon
+				culture = eldin
+				culture = bulblin
+				culture = bokoblin
+				}
+			}
+		}	
 		d_west_faron = {
 			capital = 513
 			c_faron_canyon ={
@@ -200,8 +213,21 @@ e_hyrule_central = {
 	k_lanayru = {
 		color={ 0 108 255 }
 		color2={ 255 255 255 }
-		capital = 559 # North Hyrule Castle
-		
+		capital = 559 # North Hyrule Castle	
+		allow = {
+			hidden_tooltip = {
+			OR = {
+				ai = no
+				culture_group = hylian_group
+				culture = ordonion
+				culture = kakarikon
+				culture = eldin
+				culture_group = lost_tribe
+				culture = bulblin
+				culture = lizalfos
+				}
+			}
+		}	
 		d_royal_town = {
 			capital = 559
 			c_lanayru_castle = {			
@@ -356,7 +382,20 @@ e_hyrule_central = {
 		color={ 208 0 0 }
 		color2={ 204 203 203 }
 		capital = 529 # New Kakariko
-		
+		allow = {
+			hidden_tooltip = {
+			OR = {
+				ai = no
+				culture_group = hylian_group
+				culture = ordonion
+				culture = kakarikon
+				culture = eldin
+				culture_group = lost_tribe
+				culture = bulblin
+				culture = lizalfos
+				}
+			}
+		}			
 		d_north_eldin = {
 			color={ 139 35 35 }
 			color2={ 204 203 203 }
@@ -515,7 +554,20 @@ e_hyrule_central = {
 		color={ 249 228 83 }
 		color2={ 255 255 255 }
 		capital = 589 # ordon
-		
+		allow = {
+			hidden_tooltip = {
+			OR = {
+				ai = no
+				culture_group = hylian_group
+				culture = ordonion
+				culture = kakarikon
+				culture = eldin
+				culture_group = lost_tribe
+				culture = bulblin
+				culture = bokoblin
+				}
+			}
+		}		
 		d_ordon_woods = {
 			color={ 0 104 46 }
 			color2={ 249 228 83 }
@@ -752,6 +804,88 @@ e_hyrule_central = {
 			}
 		}
 	}
+	k_peak = {
+		color={ 190 218 255 }
+		color2={ 255 255 255 }
+		capital = 579 # Snow Top Manor
+		allow = {
+			hidden_tooltip = {
+			OR = {
+				ai = no
+				culture_group = hylian_group
+				culture = ordonion
+				culture = kakarikon
+				culture = eldin
+				culture_group = lost_tribe
+				culture = yeti
+				culture = lizalfos
+				}
+			}
+		}	
+		d_snowpeaks = {
+			capital = 579 # Snow Top Manor		
+			c_snowpeak_ascent = {
+				color={ 139 117 0 }
+				color2={ 139 139 131  }
+				b_moldia = {}
+				b_edoryia = {}
+			}
+			c_snowpeak_top = {
+				color={ 139 117 0 }
+				color2={ 139 139 131  }
+				b_madotun = {}
+				b_nanoko = {}
+			}
+			c_snowpeak_watchtower = {
+				color={ 139 117 0 }
+				color2={ 139 139 131  }
+				b_luraryu = {}
+			}
+			c_snowpeak_slopes = {
+				color={ 139 117 0 }
+				color2={ 139 139 131  }
+				b_nusilu = {}
+				b_onodelu = {}
+			}
+			c_ice_cliffs = {
+				color={ 139 117 0 }
+				color2={ 139 139 131  }
+				b_misakadu = {}
+				b_edotia = {}
+			}
+			c_snowpeak_manor = {
+				color={ 139 117 0 }
+				color2={ 139 139 131  }
+				b_snowpeak_manor = {}
+			}
+		}
+		d_yeti_peaks = {
+			capital = 581
+			c_mountain_village = {
+				color={ 139 117 0 }
+				color2={ 139 139 131  }
+				b_fira = {}
+				b_marudia = {}
+			}
+			c_yeti_peaks = {
+				color={ 139 117 0 }
+				color2={ 139 139 131  }
+				b_edinaral = {}
+			}
+			c_yeti_mountain = {
+				color={ 139 117 0 }
+				color2={ 139 139 131  }
+				b_edipash = {}
+			}
+			c_frozen_lake = {
+				color={ 139 117 0 }
+				color2={ 139 139 131  }
+				b_lonirdin = {}
+				b_odone = {}
+				b_rania = {}
+			}
+		}
+	}
 	k_sacred_grove = {
 		color={ 145 196 251 }
 		color2={ 255 255 255 }
@@ -760,6 +894,7 @@ e_hyrule_central = {
 
 		allow = {
 			culture = hyrulean
+			culture = demon
 		}
 		skylofter = Grooseland
 		hyrulean = Hyrule
@@ -1475,6 +1610,89 @@ k_zora_domain = {
 	color2={ 234 212 77 }
 	capital = 474 # Zora Domain
 	
+	allow = {
+		culture = lake_zora
+	}
+	
+	d_south_domain = {
+		color={ 188 0 57 }
+		color2={ 234 212 77 }
+		capital = 474 # Zora Domain
+		c_zora_fountain = {
+			color={ 39 64 139 }
+			color2={ 202 225 255 }
+				
+			holy_site = jabu_jabu
+			holy_site = jabun_religion
+			
+			b_fountain_gate = {}
+			b_jabu_jabus_platform = {}
+			b_zora_fountain = {}
+		}
+		c_ancient_tunnels = {
+			color={ 135 38 87 }
+			color2={ 255 255 255  }
+			
+			b_wisho = {
+				#goron = 
+				#lake_zora=
+				}
+			b_wazear= {
+				#goron = 
+			}
+			b_vazas = {}
+		}
+		c_ice_caverns = {
+			color={ 176 226 255 }
+			color2={ 255 255 255 }	
+			
+			b_ice_castle = {}
+			b_ice_cavern = {}
+			b_runoff_cave = {}
+		}
+		c_zora_domain = {
+			color={ 65 105 225 }
+			color2={ 255 215 0 }
+			b_upper_zora_caves = {}
+			b_lower_zora_cavern = {}
+			b_royal_water_fall = {}
+			b_cavern_entrance = {}
+		}
+		c_sleepless_waterfalls = {
+			color={ 151 255 255 }
+			color2={ 255 255 255 }		
+			b_zora_gate = {}
+				b_zora_village = {}
+			b_pato = {}
+			b_fajon = {}
+			b_panana = {}
+		}
+		c_frog_marsh = {
+			color={ 127 255 212 }
+			color2={ 255 255 255 }	
+			b_fatas = {}
+				b_roko = {}
+			b_roji = {}
+			b_elaju = {}
+		}
+		c_zora_river = {
+			color={ 39 64 139 }
+			color2={ 255 255 255 }	
+			
+			b_river_gate = {}
+				b_rotu = {}
+			b_muna = {}
+		}
+	}
+	
+k_north_domain = {
+	color={ 255 127 80 }
+	color2={ 234 212 77 }
+	capital = 474 # Zora Domain
+	
+	allow = {
+		culture = lake_zora
+	}
 	d_north_domain = {
 		color={ 0 214 253 }
 		color2={ 234 212 77 }
@@ -1531,6 +1749,16 @@ k_zora_domain = {
 				b_daron = {}
 			}
 	}
+}
+k_zora_valley = {
+	color={ 255 127 80 }
+	color2={ 234 212 77 }
+	capital = 474 # Zora Domain
+	
+	allow = {
+		culture = lake_zora
+		culture = river_zola
+	}
 	d_zora_valley = {
 		color={ 25 25 112 }
 		color2={ 255 215 0 }
@@ -1555,82 +1783,66 @@ k_zora_domain = {
 			b_zora_throneroom = {}
 		}
 	}
-	d_south_domain = {
-		color={ 188 0 57 }
-		color2={ 234 212 77 }
-		capital = 474 # Zora Domain
-		c_zora_fountain = {
-			color={ 39 64 139 }
-			color2={ 202 225 255 }
-				
-			holy_site = jabu_jabu
-			holy_site = jabun_religion
-			
-			b_fountain_gate = {}
-			b_jabu_jabus_platform = {}
-			b_zora_fountain = {}
-		}
-		c_ancient_tunnels = {
-			color={ 135 38 87 }
-			color2={ 255 255 255  }
-			
-			b_wisho = {
-				#goron = 
-				#lake_zora=
-				}
-			b_wazear= {
-				#goron = 
-			}
-			b_vazas = {}
-		}
-		c_ice_caverns = {
-			color={ 176 226 255 }
-			color2={ 255 255 255 }	
-			
-			b_ice_castle = {}
-			b_ice_cavern = {}
-			b_runoff_cave = {}
-		}
-		c_zora_domain = {
-			color={ 65 105 225 }
-			color2={ 255 215 0 }
-			b_upper_zora_caves = {}
-			b_lower_zora_cavern = {}
-			b_royal_water_fall = {}
-			b_cavern_entrance = {}
-		}
-		c_sleepless_waterfalls = {
-			color={ 151 255 255 }
-			color2={ 255 255 255 }		
-			b_zora_gate = {}
-				b_zora_village = {}
-			b_pato = {}
-			b_fajon = {}
-			b_panana = {}
-	}
-		c_frog_marsh = {
-			color={ 127 255 212 }
-			color2={ 255 255 255 }	
-			b_fatas = {}
-				b_roko = {}
-			b_roji = {}
-			b_elaju = {}
-		}
-		c_zora_river = {
-			color={ 39 64 139 }
-			color2={ 255 255 255 }	
-			
-			b_river_gate = {}
-				b_rotu = {}
-			b_muna = {}
-		}
-	}
 }
 k_west_death_mountains = {
 	color={ 91 100 100 }
 	color2={ 255 42 0 }
 	capital = 540 # Great Death Mountain
-	
+	d_great_death_mountains = {
+		color={ 91 100 100 }
+		color2={ 255 42 0 }
+		capital = 540 # Great Death Mountain
+		c_great_death_mountain = {
+			color={ 139 117 0 }
+			color2={ 139 139 131  }
+			b_ircumil = {}
+			b_finius = {}
+			b_falium = {}
+			b_ciult = {}
+		}
+		c_goron_mines = {
+			color={ 139 117 0 }
+			color2={ 139 139 131  }
+			b_dinemi = {}
+			b_sippamiun = {}
+			b_tiurmiun = {}
+			b_comiun = {}
+			b_celas = {}
+			b_semia = {}
+		}
+		c_goron_road = {
+			color={ 139 117 0 }
+			color2={ 139 139 131  }
+			b_culil = {}
+			b_zuppil = {}
+			b_dockim = {}
+			b_ircon = {}
+		}
+		c_hot_springs_mountain = {
+			color={ 139 117 0 }
+			color2={ 139 139 131  }
+			b_garcos = {}
+			b_ziniur = {}
+			b_ginzan = {}
+		}
+		c_goron_canyon = {
+			color={ 139 117 0 }
+			color2={ 139 139 131  }
+			b_tinia = {}
+			b_malas = {}
+		}
+		c_bombchu_mountain = {
+			color={ 139 117 0 }
+			color2={ 139 139 131  }
+			b_arror = {}
+		}
+		c_eldin_caves = {
+			color={ 139 117 0 }
+			color2={ 139 139 131  }
+			b_eldin_caves = {}
+			b_spring_cave = {}
+		}
+	}
 	d_death_mountain = {
 		color={ 71 6 4 }
 		color2={ 168 5 0 }
@@ -1710,8 +1922,6 @@ k_west_death_mountains = {
 		}
 	}
 }
-
-
 k_hyrule_minish = { #Minish
 	color={ 82 184 220 }
 	color2={ 253 138 119 }
@@ -5121,19 +5331,6 @@ e_holodrum = {
 				b_hor = {}
 				b_padra = {}
 				b_hoson = {}
-			}
-		}
-		d_natzu = {
-			color={ 138 51 36 }
-			color2={ 205 173 0 }
-			capital = 342
-			c_natzu = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
-			}
-			c_holodrum = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
 			}
 		}
 	}
