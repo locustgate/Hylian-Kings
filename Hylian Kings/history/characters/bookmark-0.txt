@@ -833,7 +833,217 @@
 		death={ death_reason=child_birth }
 	}
 }
-
+42={
+	name=Boris
+	dynasty=7001
+	dna="akmjeolnbfc"
+	culture=calatian 
+	religion=golden_goddesses
+	martial=7 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=8
+	learning=8
+	add_trait=misguided_warrior
+	add_trait=shy
+	add_trait=brave 
+	add_trait=greedy 
+	add_trait=temperate 
+	3250.10.17={ birth=yes }
+	3293.7.10={ death=yes }
+}
+43={
+	name=Zorka
+	female=yes
+	dynasty=7001
+	dna="akddfolijfp"
+	culture=calatian 
+	religion=golden_goddesses
+	father=42	#Boris
+	3271.2.10={ birth=yes }
+	3334.12.9={ death=yes }
+}
+44={
+	name=Mario
+	dynasty=7001
+	dna="bmbjdolnjbd"
+	culture=calatian 
+	religion=golden_goddesses
+	martial=4 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=6 
+	learning=7
+	add_trait=intricate_webweaver
+	add_trait=brave
+	add_trait=patient 
+	add_trait=cynical 
+	father=42	#Boris
+	3273.7.9={ birth=yes }
+	3346.2.10={ death=yes }
+}
+45={
+	name=Zorica
+	female=yes
+	dynasty=7001
+	dna="kjllaolnhik"
+	culture=calatian 
+	religion=golden_goddesses
+	father=42	#Boris
+	3275.11.13={ birth=yes }
+	3338.5.6={ death=yes }
+}
+46={
+	name=Dario
+	dynasty=7001
+	dna="apmjaolphcc"
+	culture=calatian
+	religion=golden_goddesses
+	martial=4
+	diplomacy=5 
+	stewardship=4
+	intrigue=5 
+	learning=5
+	add_trait=scholarly_theologian
+	add_trait=hunter
+	add_trait=greedy 
+	add_trait=patient 
+	add_trait=brave 
+	add_trait=kind 
+	father=42	#Boris
+	3277.5.4={ birth=yes }
+	3345.11.30={ death=yes }
+}
+47={
+	name=Jasmina
+	female=yes
+	dynasty=7001
+	dna="mfmbmolnbfo"
+	culture=calatian 
+	religion=golden_goddesses
+	father=42	#Boris
+	3279.12.8={ birth=yes }
+	3348.11.23={ death=yes }
+}
+48={
+	name=Oliver
+	dynasty=7001
+	dna="bmiddolijbc"
+	culture=calatian religion=golden_goddesses
+	martial=7
+	diplomacy=7
+	stewardship=5 
+	intrigue=7 
+	learning=8
+	add_trait=naive_appeaser
+	add_trait=shy 
+	add_trait=charitable
+	add_trait=envious
+	add_trait=content 
+	add_trait=lustful 
+	add_trait=ill 
+	father=44	#Mario
+	3298.7.24={ birth=yes }
+	3344.1.28={ death=yes }
+}
+49={
+	name=Sinisa
+	dynasty=7001
+	dna="bmdjdoabjkd"
+	culture=calatian 
+	religion=golden_goddesses
+	martial=8 diplomacy=7 
+	stewardship=6 
+	intrigue=8 
+	learning=4
+	add_trait=indulgent_wastrel
+	add_trait=content
+	add_trait=zealous
+	add_trait=patient 
+	father=44	#Mario
+	3302.6.26={ birth=yes }
+	3356.3.29={ death=yes }
+}
+50={
+	name=Jozefina
+	female=yes
+	dynasty=7001
+	dna="bmbdbojkncd"
+	culture=calatian
+	religion=golden_goddesses
+	father=44	#Mario
+	3305.4.4={ birth=yes }
+	3351.2.15={ death=yes }
+}
+51={
+	name=Nensi
+	female=yes
+	dynasty=7001
+	dna="lkbjnolocbd"
+	culture=calatian
+	religion=golden_goddesses
+	father=44	#Mario
+	3307.9.22={ birth=yes }
+	3365.9.20={ death=yes }
+}
+52={
+	name=Alen
+	dynasty=7001
+	dna="bmifbkanjgc"
+	culture=calatian 
+	religion=golden_goddesses
+	martial=5 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=5 
+	learning=6
+	add_trait=detached_priest
+	add_trait=zealous
+	add_trait=kind 
+	father=48	#Oliver
+	3320.4.10={ birth=yes }
+	3375.3.18={ death=yes }
+}
+53={
+	name=Marin
+	dynasty=7001
+	dna="phiidaliedc"
+	culture=calatian 
+	religion=golden_goddesses
+	martial=4 
+	diplomacy=8
+	stewardship=8 
+	intrigue=6
+	learning=8
+	add_trait=charismatic_negotiator
+	add_trait=gregarious 
+	add_trait=gluttonous 
+	father=48	#Oliver
+	3323.7.3={ birth=yes }
+	3376.8.22={ death=yes }
+}
+54={
+	name=Kristina
+	female=yes
+	dynasty=7001
+	dna="bmgkdblfjbb"
+	culture=calatian 
+	religion=golden_goddesses
+	father=48	#Oliver
+	3328.1.14={ birth=yes }
+	3389.10.9={ death=yes }
+}
+55={
+	name=Karla
+	female=yes
+	dynasty=7001
+	dna="imndbolmabg"
+	culture=calatian
+	religion=golden_goddesses
+	father=48	#Oliver
+	3332.12.5={ birth=yes }
+	3383.4.9={ death=yes }
+}
 
 
 
