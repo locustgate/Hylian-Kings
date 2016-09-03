@@ -1,0 +1,125 @@
+
+1063 = { 
+	name=Engon
+	disallow_random_traits = yes
+	historical = yes
+	dynasty=801
+	diplomacy=10
+	martial=14
+	intrigue=4
+	stewardship=6
+	learning=9
+	religion=fire_spirit
+	culture=death_mountain_goron
+	trait=brilliant_strategist
+	trait=race_goron
+	trait=honest
+	trait=strong
+	trait=gregarious
+	trait=erudite
+	trait=brave
+	3267.3.18={
+		birth=yes
+	}
+	3361.10.3 = {
+		add_spouse = 1064
+	}
+	3401.2.3={
+		death={ death_reason=death_battle }
+	}
+}
+1064 = { 
+	name=Cabim
+	disallow_random_traits = yes
+	historical = yes
+	female=yes
+	dynasty=823
+	diplomacy=10
+	martial=6
+	intrigue=4
+	stewardship=12
+	learning=5
+	religion=fire_spirit
+	culture=death_mountain_goron
+	trait=underhanded_rogue
+	trait=race_goron
+	trait=trusting
+	trait=shy
+	trait=gluttonous
+	trait=kind
+	3281.10.1={
+		birth=yes
+	}
+	3361.10.3 = {
+		add_spouse = 1063
+	}
+	3448.4.2={
+		death=yes
+	}
+}
+
+1085 = { 
+	name=Gori
+	disallow_random_traits = yes
+	historical = yes
+	dynasty=7400
+	diplomacy=7
+	martial=8
+	intrigue=4
+	stewardship=10
+	learning=7
+	religion=earth_spirit
+	culture=crenel_goron
+	trait=midas_touched
+	trait=race_goron
+	trait=decietful
+	trait=strong
+	trait=gregarious
+	trait=greedy
+	trait=diligant
+	3287.8.14={
+		birth=yes
+	}
+	3374.1.2 = {
+		add_spouse = 1086
+	}
+}
+1086 = { 
+	name=Dozin
+	historical = yes
+	female=yes
+	dynasty=7347
+	religion=earth_spirit
+	culture=crenel_goron
+	trait=race_goron
+	3287.8.14={
+		birth=yes
+	}
+	3374.1.2 = {
+		add_spouse = 1085
+	}
+}
+1087 = { 
+	name=Amoto
+	historical = yes
+	mother=1086
+	father=1085
+	dynasty=7400
+	religion=earth_spirit
+	culture=crenel_goron
+	trait=race_goron
+	3380.2.24={
+		birth=yes
+	}
+}
+1088 = { 
+	name=Ezon
+	historical = yes
+	dynasty=7347
+	religion=earth_spirit
+	culture=crenel_goron
+	trait=race_goron
+	3305.4.24={
+		birth=yes
+	}
+}

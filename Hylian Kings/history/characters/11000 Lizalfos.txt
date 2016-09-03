@@ -1,0 +1,347 @@
+
+1065 = { 
+	name=Lasho
+	disallow_random_traits = yes
+	historical = yes
+	dynasty=4601
+	diplomacy=5
+	martial=20
+	intrigue=4
+	stewardship=6
+	learning=4
+	religion=demise_religion
+	culture=lizalfos
+	trait=brilliant_strategist
+	trait=race_lizalfos
+	trait=wroth
+	trait=lustful
+	trait=tall
+	trait=decietful
+	trait=brave
+	3335.6.14={
+		birth=yes
+	}
+	3350.11.3 = {
+		add_spouse = 1066
+	}
+	3386.2.3={
+		death={ death_reason=death_battle
+			killer = 1063
+		}
+	}
+}
+1066 = { 
+	name=Wetazu
+	disallow_random_traits = yes
+	historical = yes
+	dynasty=4661
+	diplomacy=14
+	martial=5
+	intrigue=20
+	stewardship=6
+	learning=4
+	religion=demise_religion
+	culture=lizalfos
+	trait=elusive_shadow
+	trait=race_lizalfos
+	trait=cruel
+	trait=lustful
+	trait=greedy
+	trait=proud
+	trait=decietful
+	trait=coward
+	3336.11.1={
+		birth=yes
+	}
+	3352.11.3 = {
+		add_spouse = 1065
+	}
+}
+1067 = { 
+	name=Vapukupat
+	historical = yes
+	mother=1066
+	father=1065
+	dynasty=4601
+	diplomacy=5
+	martial=20
+	intrigue=4
+	stewardship=6
+	learning=4
+	religion=demise_religion
+	culture=lizalfos
+	trait=tough_soldier
+	trait=race_lizalfos
+	trait=ambitious
+	trait=proud
+	trait=envious
+	trait=brave
+	3352.4.28={
+		birth=yes
+	}
+	3372.11.3 = {
+		add_spouse = 1070
+	}
+}
+1068 = { 
+	name=Lilos
+	historical = yes
+	mother=1066
+	father=1065
+	female=yes
+	dynasty=4601
+	diplomacy=10
+	martial=5
+	intrigue=10
+	stewardship=6
+	learning=4
+	religion=demise_religion
+	culture=lizalfos
+	trait=martial_cleric
+	trait=race_lizalfos
+	trait=content
+	trait=craven
+	trait=shy
+	trait=patiant
+	3355.4.28={
+		birth=yes
+	}
+}
+1069 = { 
+	name=Dirdakazo
+	historical = yes
+	mother=1066
+	father=1065
+	dynasty=4601
+	diplomacy=10
+	martial=9
+	intrigue=4
+	stewardship=8
+	learning=4
+	religion=demise_religion
+	culture=lizalfos
+	trait=charismatic_negotiator
+	trait=race_lizalfos
+	trait=content
+	trait=slouthful
+	trait=content
+	trait=brave
+	trait=tall
+	3358.7.8={
+		birth=yes
+	}
+	3380.1.3 = {
+		add_spouse = 1071
+	}
+}
+1070 = { 
+	name=Konat
+	historical = yes
+	female=yes
+	dynasty=4678
+	religion=demise_religion
+	culture=lizalfos
+	trait=underhanded_rogue
+	trait=race_lizalfos
+	trait=zealous
+	trait=craven
+	trait=paranoid
+	trait=cruel
+	3356.11.1 = {
+		birth=yes
+	}
+	3372.11.3 = {
+		add_spouse = 1067
+	}
+}
+1071 = { 
+	name=Konia
+	historical = yes
+	female=yes
+	dynasty=4689
+	religion=demise_religion
+	culture=lizalfos
+	trait=flamboyant_schemer
+	trait=race_lizalfos
+	3364.12.30 = {
+		birth=yes
+	}
+	3380.1.3 = {
+		add_spouse = 1069
+	}
+}
+
+1104 = {#
+	name=Vike
+	disallow_random_traits=yes
+	historical = yes
+	dynasty=4603
+	diplomacy=10
+	martial=8
+	intrigue=7
+	stewardship=6
+	learning=4
+	religion=demise_religion
+	culture=lizalfos
+	trait=grey_eminence
+	trait=race_lizalfos
+	trait=bloodline_firstborn
+	trait=kind
+	trait=ambitious
+	trait=decietful
+	trait=quick
+	3358.7.2={
+		birth=yes
+	}
+	3383.6.7 = {
+		add_spouse = 1105
+	}
+}
+1105 = {#
+	name=Lira
+	historical = yes
+	female=yes
+	dynasty=4604
+	religion=demise_religion
+	culture=lizalfos
+	trait=race_lizalfos
+	3367.6.7={
+		birth=yes
+	}
+	3383.6.7 = {
+		add_spouse = 1104
+	}
+}
+1106 = {#
+	name=Olat
+	historical = yes
+	dynasty=4603
+	mother=1105
+	father=1104
+	religion=demise_religion
+	culture=lizalfos
+	trait=grey_eminence
+	trait=race_lizalfos
+	trait=bloodline_firstborn
+	3385.4.3={
+		birth=yes
+	}
+}
+1107 = {#
+	name=Cashu
+	historical = yes
+	dynasty=4679
+	religion=demise_religion
+	culture=lizalfos
+	trait=race_lizalfos
+	3364.4.3={
+		birth=yes
+	}
+}
+1108 = {#
+	name=Urangak
+	historical = yes
+	dynasty=4605
+	religion=demise_religion
+	culture=lizalfos
+	trait=race_lizalfos
+	3363.8.21={
+		birth=yes
+	}
+}
+1109 = {
+	name=Wezu
+	historical = yes
+	diplomacy=6
+	martial=9
+	intrigue=4
+	stewardship=4
+	learning=4
+	dynasty=4647
+	religion=demise_religion
+	culture=lizalfos
+	trait=race_lizalfos
+	trait=wroth
+	trait=thrifty_clerk
+	3365.1.21={
+		birth=yes
+	}
+}
+1110 = {
+	name=Narambe
+	historical = yes
+	diplomacy=6
+	martial=4
+	intrigue=4
+	stewardship=4
+	learning=8
+	dynasty=4657
+	religion=demise_religion
+	culture=lizalfos
+	trait=race_lizalfos
+	trait=martial_cleric
+	trait=erudite
+	trait=drunkard
+	trait=patiant
+	3365.1.21={
+		birth=yes
+	}
+}
+1111 = {
+	name=Kizear
+	historical = yes
+	diplomacy=6
+	martial=9
+	intrigue=4
+	stewardship=4
+	learning=4
+	dynasty=4617
+	religion=demise_religion
+	culture=lizalfos
+	trait=race_lizalfos
+	trait=wroth
+	trait=thrifty_clerk
+	3365.1.1={
+		birth=yes
+	}
+}
+1112 = {
+	name=Kutozear
+	historical = yes
+	diplomacy=5
+	martial=6
+	intrigue=8
+	stewardship=4
+	learning=4
+	dynasty=4671
+	religion=demise_religion
+	culture=lizalfos
+	trait=race_lizalfos
+	trait=decietful
+	trait=diligant
+	trait=content
+	trait=flamboyant_schemer
+	3365.4.21={
+		birth=yes
+	}
+}
+1113 = {
+	name=Kutozear
+	historical = yes
+	diplomacy=8
+	martial=6
+	intrigue=4
+	stewardship=4
+	learning=4
+	dynasty=4675
+	religion=demise_religion
+	culture=lizalfos
+	trait=race_lizalfos
+	trait=kind
+	trait=slothful
+	trait=craven
+	trait=underhanded_rogue
+	3363.8.11={
+		birth=yes
+	}
+}

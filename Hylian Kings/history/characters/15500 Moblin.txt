@@ -1,0 +1,417 @@
+
+1030 = {
+	name=Mago
+	disallow_random_traits = yes 
+	historical = yes
+	dynasty=4324
+	religion=demise_religion
+	culture=moblin
+	trait=race_moblin
+	#trait=warrior_3
+	trait=lustful
+	trait=gluttonous
+	trait=wroth
+	trait=honest
+	trait=quick
+	trait=decietful
+	3366.9.30 = {
+		birth=yes
+	}
+	3385.1.1 = { add_trait = scarred }
+	3385.1.2 = { 
+		add_spouse = 1022
+	}
+}
+1031 = {
+	name=Grale
+	historical = yes
+	dynasty=4332
+	religion=demise_religion
+	culture=moblin
+	trait=race_moblin
+	#trait=warrior_1
+	trait=slow
+	trait=decietful
+	trait=intricate_webweaver
+	3353.2.20 = {
+		birth=yes
+	}
+	3387.1.1 = { 
+		add_spouse = 1032
+	}
+}
+1032 = {
+	name=Molba
+	historical = yes
+	female=yes
+	religion=demise_religion
+	culture=moblin
+	trait=race_moblin
+	trait=thrifty_clerk
+	trait=lustful
+	trait=honest
+	3370.3.20 = {
+		birth=yes
+	}
+	3387.1.1 = {
+		add_spouse = 1031
+	}
+}
+1033 = {
+	name=Moe
+	historical = yes
+	dynasty=4358
+	religion=demise_religion
+	culture=moblin
+	trait=race_moblin
+	trait=arbitrary
+	trait=tough_soldier
+	3343.2.20 = {
+		birth=yes
+	}
+}
+1034 = {
+	name=Olan
+	historical = yes
+	dynasty=4242
+	religion=demise_religion
+	culture=moblin
+	trait=race_moblin
+	trait=zealous
+	trait=lustful
+	trait=ambitious
+	trait=mastermind_theologian
+	3368.5.17 = {
+		birth=yes
+	}
+}
+
+1172={#2parapa and n palace
+	name=Manun
+	dynasty=4250
+	dna="cianfcakmbm"
+	culture=moblin 
+	religion=demise_religion
+	martial=8
+	diplomacy=8 
+	stewardship=6
+	intrigue=5 
+	learning=5
+	add_trait=martial_cleric
+	add_trait=mystic
+	add_trait=shy 
+	add_trait=just 
+	add_trait=cruel 
+	add_trait=brave
+	3351.4.8={ birth=yes }
+	3397.4.19={ death=yes }
+}
+1173={
+	name=Hagon
+	dynasty=4250
+	dna="ciaoiigdgbp"
+	culture=moblin religion=demise_religion
+	martial=6 diplomacy=6 stewardship=8 intrigue=6 learning=4
+	add_trait=flamboyant_schemer add_trait=lustful add_trait=greedy add_trait=wroth add_trait=gregarious 
+	add_trait=depressed 
+	father=1172	#Manun
+	3372.7.20={ birth=yes }
+	3425.1.12={ death=yes }
+}
+1174={
+	name=Malan
+	dynasty=4250
+	dna="okacfmaembc"
+	culture=moblin
+	religion=demise_religion
+	martial=6
+	diplomacy=6 
+	stewardship=7 
+	intrigue=5 
+	learning=6
+	add_trait=thrifty_clerk 
+	add_trait=just 
+	add_trait=ambitious 
+	add_trait=trusting
+	add_trait=chaste 
+	add_trait=honest
+	add_trait=drunkard
+	add_trait=lunatic 
+	father=1172	#Manun
+	3375.7.27={ birth=yes }
+	3440.4.24={ death=yes }
+}
+1175={
+	name=Gronon
+	dynasty=4250
+	dna="cfaafnnkkbm"
+	culture=moblin
+	religion=demise_religion
+	martial=8
+	diplomacy=4 
+	stewardship=8 
+	intrigue=8 
+	learning=4
+	add_trait=misguided_warrior
+	add_trait=chaste 
+	add_trait=cynical 
+	father=1172	#Manun
+	3379.4.12={ birth=yes }
+	3412.3.2={ death=yes }
+}
+1176={ #tantara
+	name=Goloe
+	dynasty=4260
+	dna="pfjejckopeb"
+	culture=moblin 
+	religion=demise_religion
+	martial=8
+	diplomacy=5 
+	stewardship=7 
+	intrigue=8 
+	learning=4
+	add_trait=scholarly_theologian 
+	add_trait=impaler 
+	add_trait=diligent 
+	add_trait=brave 
+	3370.8.21={ birth=yes }
+	3420.3.31={ death=yes }
+}
+1177={
+	name=Olan
+	dynasty=4270
+	dna="ckfbkfcdhpl"
+	culture=moblin 
+	religion=demise_religion
+	martial=5
+	diplomacy=4 
+	stewardship=8 
+	intrigue=4
+	learning=6
+	add_trait=flamboyant_schemer
+	add_trait=gardener 
+	add_trait=cruel
+	add_trait=deceitful 
+	add_trait=charitable 
+	3370.1.20={ birth=yes }
+	3431.11.10={ death=yes }
+}
+1178={
+	name=Banon
+	dynasty=4280
+	dna="gbhikohdeio"
+	culture=moblin 
+	religion=demise_religion
+	martial=7 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=4 
+	learning=4
+	add_trait=midas_touched 
+	add_trait=wroth
+	add_trait=chaste 
+	add_trait=charitable 
+	3367.3.2={ birth=yes }
+	3414.3.22={ death=yes }
+}
+1179={
+	name=Muno
+	dynasty=4290
+	dna="oebhhhhcogd"
+	culture=moblin
+	religion=demise_religion
+	martial=4
+	diplomacy=7 
+	stewardship=5 
+	intrigue=4 
+	learning=6
+	add_trait=charismatic_negotiator
+	add_trait=impaler add_trait=gregarious add_trait=chaste add_trait=trusting 
+	add_trait=envious
+	add_trait=just 
+	3360.1.1={ birth=yes }
+	3416.2.11={ death=yes }
+}
+1180={
+	name=Golan
+	dynasty=4290
+	dna="oebhebegofh"
+	culture=moblin 
+	religion=demise_religion
+	martial=6 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=4 
+	learning=5
+	add_trait=misguided_warrior 
+	add_trait=cynical
+	add_trait=diligent
+	add_trait=gregarious 
+	add_trait=ambitious 
+	add_trait=lunatic 
+	father=1179	#Muno
+	3385.12.13={ birth=yes }
+	3426.6.23={ death=yes }
+}
+1181={
+	name=Halya
+	female=yes
+	dynasty=4290
+	dna="oebhhfflegc"
+	culture=moblin
+	religion=demise_religion
+	father=1179	#Muno
+	3385.1.1={ birth=yes }
+	3485.8.2={ death=yes }
+}
+1182={
+	name=Ganon
+	dynasty=4290
+	dna="oeelkhlcogj"
+	culture=moblin 
+	religion=demise_religion
+	martial=7 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=7 
+	learning=8
+	add_trait=misguided_warrior 
+	add_trait=just 
+	add_trait=kind 
+	father=1179	#Muno
+	3388.12.23={ birth=yes }
+	3440.7.27={ death=yes }
+}
+1183={
+	name=Valilan
+	dynasty=4290
+	dna="oebhdhjcopd"
+	culture=moblin 
+	religion=demise_religion
+	martial=5 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=6 
+	learning=5
+	add_trait=elusive_shadow 
+	add_trait=celibate 
+	add_trait=cynical 
+	add_trait=humble
+	add_trait=greedy 
+	add_trait=cruel 
+	add_trait=content 
+	add_trait=wroth 
+	father=1179	#Muno
+	3389.5.13={ birth=yes }
+	3441.11.4={ death=yes }
+}
+1193={
+	name=Lyren
+	dynasty=4400
+	dna="opjhpnfaepa"
+	culture=moblin 
+	religion=demise_religion
+	martial=7
+	diplomacy=5
+	stewardship=7 
+	intrigue=8
+	learning=8
+	add_trait=grey_eminence 
+	add_trait=scholar 
+	add_trait=slothful 
+	add_trait=just 
+	3363.7.9={ birth=yes }
+	3420.6.7={ death=yes }
+}
+1194={
+	name=Reino
+	dynasty=4205
+	dna="glgmdjfjdnk"
+	culture=moblin
+	religion=demise_religion
+	martial=8
+	diplomacy=8
+	stewardship=4 
+	intrigue=7 
+	learning=8
+	add_trait=scholarly_theologian 
+	add_trait=shy
+	add_trait=brave
+	add_trait=paranoid 
+	add_trait=charitable 
+	add_trait=proud 
+	3364.8.26={ birth=yes }
+	3408.9.26={ death=yes }
+}
+1195={
+	name=Gron
+	dynasty=4206
+	dna="abhmbpdnbnp"
+	culture=moblin religion=demise_religion
+	martial=6 diplomacy=6 stewardship=6 intrigue=6 learning=8
+	add_trait=scholarly_theologian add_trait=proud add_trait=kind add_trait=patient add_trait=slothful 
+	add_trait=content add_trait=cynical 
+	3364.4.6={ birth=yes }
+	3416.3.3={ death=yes }
+}
+1196={
+	name=Mormo
+	dynasty=4394
+	dna="jojjgdgmgcb"
+	culture=moblin
+	religion=demise_religion
+	martial=6 
+	diplomacy=8 
+	stewardship=7
+	intrigue=4 
+	learning=4
+	add_trait=skilled_tactician 
+	add_trait=zealous 
+	add_trait=envious 
+	add_trait=arbitrary
+	add_trait=cruel 
+	3362.11.16={ birth=yes }
+	3413.12.28={ death=yes }
+}
+1209={
+	name=Gron
+	dynasty=4211
+	dna="hnjhednhodj"
+	culture=moblin
+	religion=demise_religion
+	martial=7
+	diplomacy=5 
+	stewardship=5 
+	intrigue=7 
+	learning=6
+	add_trait=midas_touched 
+	add_trait=slothful
+	add_trait=deceitful
+	add_trait=cynical
+	add_trait=craven 
+	add_trait=cruel 
+	3368.12.7={ birth=yes }
+	3412.3.26={ death=yes }
+}
+1210={
+	name=Dhago
+	dynasty=4221
+	dna="ndpdakobban"
+	culture=moblin 
+	religion=demise_religion
+	martial=7
+	diplomacy=5 
+	stewardship=8 
+	intrigue=4 
+	learning=8
+	add_trait=flamboyant_schemer 
+	add_trait=mystic
+	add_trait=just 
+	add_trait=craven 
+	add_trait=trusting 
+	add_trait=cruel
+	add_trait=envious 
+	add_trait=content 
+	3366.4.8={ birth=yes }
+	3408.9.22={ death=yes }
+}

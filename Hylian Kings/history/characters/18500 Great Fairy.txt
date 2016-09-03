@@ -1,0 +1,115 @@
+
+1203={
+	name=Adrastos
+	dynasty=3011
+	dna="dcjiheoegpc"
+	culture=great_fairy 
+	religion=great_fairies
+	martial=6 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=4 
+	learning=8
+	add_trait=grey_eminence
+	add_trait=envious
+	add_trait=chaste 
+	add_trait=content 
+	add_trait=arbitrary 
+	add_trait=diligent 
+	add_trait=temperate 
+	3200.9.12={ birth=yes }
+	3290.1.20={ add_spouse=1204 }
+	3518.3.28={ death=yes }
+}
+1204={
+	female=yes
+	name=Ciela
+	dna="fnkjfkeplhj"
+	culture=great_fairy 
+	religion=great_fairies
+	3230.1.20={ birth=yes }	
+	3290.1.20={ add_spouse=1203 }
+	3716.9.30={ death=yes }
+}
+1205={
+	name=Tatius
+	dynasty=3011
+	dna="fnkjfkeplhj"
+	culture=great_fairy religion=great_fairies
+	martial=7
+	diplomacy=4 
+	stewardship=5 
+	intrigue=6
+	learning=8
+	add_trait=thrifty_clerk
+	add_trait=diligent
+	add_trait=cruel
+	add_trait=temperate 
+	add_trait=proud 
+	add_trait=honest
+	add_trait=trusting 
+	mother=1204
+	father=1203
+	3299.12.20={ birth=yes }
+	3716.9.30={ death=yes }
+}
+
+1206={
+	name=Koblak
+	dynasty=3011
+	dna="edcplelblcc"
+	culture=kokiri religion=great_fairies
+	martial=4 
+	diplomacy=8
+	stewardship=4 
+	intrigue=8 
+	learning=4
+	add_trait=intricate_webweaver 
+	add_trait=just 
+	add_trait=cruel
+	add_trait=zealous
+	add_trait=trusting 
+	father=1203
+	3332.1.20={ birth=yes }
+	3843.10.31={ death=yes }
+}
+1207={
+	name=Arabesque
+	female=yes
+	dynasty=3011
+	dna="ldolllabalk"
+	culture=kokiri 
+	religion=great_fairies
+	martial=8
+	diplomacy=4
+	stewardship=8
+	intrigue=4
+	learning=4
+	father=1203
+	trait=skilled_tactician
+	trait=brave
+	trait=robust
+	trait=gregarious
+	3338.7.14={ birth=yes }
+	3971.4.4={ death=yes }
+}
+1208={
+	name=Gig
+	female=yes
+	dynasty=3011
+	dna="mdcaeeeialj"
+	culture=kokiri
+	religion=great_fairies
+	martial=4 
+	diplomacy=4
+	stewardship=8
+	intrigue=4 
+	learning=8
+	father=1203
+	trait=martial_cleric
+	trait=zealous
+	trait=kind
+	trait=lustful
+	3343.12.22={ birth=yes }
+	3885.12.31={ death=yes }
+}

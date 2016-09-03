@@ -1,0 +1,207 @@
+
+1093 = {#k bulblin faron canyon to grove
+	name=Burl
+	disallow_random_traits=yes
+	historical = yes
+	dynasty=4001
+	diplomacy=8
+	martial=14
+	intrigue=5
+	stewardship=4
+	learning=4
+	religion=demise_religion
+	culture=bulblin
+	trait=brilliant_strategist
+	trait=race_bulblin
+	trait=wroth
+	trait=ambitious
+	trait=honest
+	trait=robust
+	trait=gluttonous
+	trait=tall
+	trait=cavalry_leader
+	trait=inspiring_leader
+	3358.1.24={
+		birth=yes
+	}
+	3377.1.1={ add_spouse = 1094 }
+	3405.2.4={
+		death={ death_reason=death_battle }
+	}
+}
+1094 = {
+	name=Bira
+	historical = yes
+	female=yes
+	dynasty=4011
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3361.1.1={
+		birth=yes
+	}
+	3377.1.1={ add_spouse = 1093 }
+}
+1095 = {
+	name=Bos
+	historical = yes
+	mother=1094
+	father=1093
+	dynasty=4001
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3380.4.2={
+		birth=yes
+	}
+}
+1096 = {
+	name=Ralus
+	historical = yes
+	mother=1094
+	father=1093
+	dynasty=4001
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3382.5.1={
+		birth=yes
+	}
+}
+1097 = {
+	name=Velba
+	historical = yes
+	female=yes
+	mother=1094
+	father=1093
+	dynasty=4001
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3385.6.3={
+		birth=yes
+	}
+}
+1098 = {
+	name=Vubos
+	historical = yes
+	mother=1094
+	father=1093
+	dynasty=4001
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3386.10.1={
+		birth=yes
+	}
+}
+1123 = {#south west and gorge
+	name=Rib
+	historical = yes
+	dynasty=4048
+	diplomacy=6
+	martial=8
+	intrigue=5
+	stewardship=4
+	learning=4
+	religion=demise_religion
+	culture=bulblin
+	trait=tough_soldier
+	trait=race_bulblin
+	trait=envious
+	trait=robust
+	trait=cavalry_leader
+	3361.8.14={
+		birth=yes
+	}
+}
+1124 = {#d central
+	name=Bodir
+	disallow_random_traits=yes
+	historical = yes
+	dynasty=4087
+	diplomacy=8
+	martial=11
+	intrigue=5
+	stewardship=4
+	learning=4
+	religion=demise_religion
+	culture=bulblin
+	trait=charismatic_negotiator
+	trait=race_bulblin
+	trait=decietful
+	trait=erudite
+	trait=strong
+	trait=patiant
+	trait=lustful
+	trait=cavalry_leader
+	3356.9.4={
+		birth=yes
+	}
+	3382.4.2={
+		add_spouse=1125
+	}
+}
+1125 = {
+	name=Bala
+	historical = yes
+	dynasty=4091
+	religion=demise_religion
+	culture=bulblin
+	trait=charismatic_negotiator
+	trait=race_bulblin
+	3366.4.2={
+		birth=yes
+	}
+	3382.4.2={
+		add_spouse=1124
+	}
+}
+1126 = {#c south bridge
+	name=Rilir
+	historical = yes
+	dynasty=4186
+	diplomacy=6
+	martial=8
+	intrigue=5
+	stewardship=4
+	learning=6
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3366.4.24={
+		birth=yes
+	}
+}
+1127 = {
+	name=Birir
+	historical = yes
+	dynasty=4189
+	diplomacy=8
+	martial=6
+	intrigue=5
+	stewardship=4
+	learning=6
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3366.4.24={
+		birth=yes
+	}
+}
+1128 = {
+	name=Belar
+	historical = yes
+	dynasty=4117
+	diplomacy=10
+	martial=6
+	intrigue=5
+	stewardship=4
+	learning=6
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3368.9.19={
+		birth=yes
+	}
+}

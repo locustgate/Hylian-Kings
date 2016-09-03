@@ -1,0 +1,249 @@
+
+1005 = {#k minish d_royal c_ crypt, north road, minish hyrule
+	name=Flurris
+	dynasty=6001
+	dna="amgke0fdaa0"
+	properties="rj0ablbebbbb"
+	disallow_random_traits=yes
+	historical = yes
+	diplomacy=10
+	martial=5
+	intrigue=5
+	stewardship=9
+	learning=4
+	religion=light_force
+	culture=wind_tribe
+	trait=underhanded_rogue
+	trait=race_wind_tribe
+	#trait=warrior_1
+	#trait=mage_3
+	3331.3.26={
+		birth=yes
+	}
+   3347.8.2 = {
+		add_spouse=1006
+	}
+	3403.1.1={
+		death={
+		death_reason= death_battle}
+	}
+}
+1006 = {
+	female=yes
+	name=Chell
+	dynasty=6017
+	historical = yes
+	diplomacy=10
+	martial=5
+	intrigue=10
+	stewardship=5
+	learning=5
+	religion=light_force
+	culture=wind_tribe
+	trait=flamboyant_schemer
+	trait=decietful
+	trait=shrewd
+	trait=race_wind_tribe
+	#trait=mage_4
+	3331.8.2={
+		birth=yes
+	}
+   3347.8.2 = {
+		add_spouse=1005
+	}
+	3403.1.1={
+		death={
+		death_reason= death_battle}
+	}
+}
+1007 = {
+	name=Strato
+	historical = yes
+	diplomacy=8
+	martial=10
+	intrigue=5
+	stewardship=5
+	learning=5
+	dynasty=6001
+	father=1005
+	mother=1006
+	religion=light_force
+	trait=skilled_tactician 
+	culture=wind_tribe
+	trait=race_wind_tribe
+	#trait=mage_1
+	trait=coward
+	3349.4.28={
+		birth=yes
+	}
+  # 3385.4.30 = {
+	#	add_spouse=x
+	#}
+	3403.1.1={
+		death={
+		death_reason= death_battle}
+	}
+}
+1008 = { #d castor c wind city tower palace fortress
+	name=Mazin
+	disallow_random_traits=yes
+	historical = yes
+	diplomacy=15
+	martial=8
+	intrigue=5
+	stewardship=7
+	learning=5
+	dynasty=6001
+	father=1005
+	mother=1006
+	religion=light_force
+	culture=wind_tribe
+	trait=grey_eminence  
+	trait=race_wind_tribe
+	#trait=mage_3
+	3356.12.25={
+		birth=yes
+	}
+   3385.4.30 = {
+		add_spouse=x
+	}
+	3428.1.1={
+		death=yes
+	}
+}
+1009 = {
+	name=Aurora	
+	disallow_random_traits=yes
+	historical = yes
+	 dna="aabac0gdaa0"
+	properties="re0a0abebbbb"
+	diplomacy=8
+	martial=4
+	intrigue=5
+	stewardship=10
+	learning=10
+	dynasty=6001
+	female=yes
+	diplomacy=13
+	martial=8
+	intrigue=5
+	stewardship=7
+	learning=5
+	father=1005
+	mother=1006
+	religion=light_force
+	culture=wind_tribe
+	trait=scholarly_theologian
+	trait=race_wind_tribe
+	#trait=mage_2
+	trait=attractive
+	trait = feeble
+	trait=shrewd
+	3369.4.28={
+		birth=yes
+	}
+   3385.4.30 = {
+		add_spouse=1000
+	}
+	3403.1.1={
+		death={
+		death_reason= death_battle}
+	}
+}
+
+1073 = { #north south central castor wilds
+	name=Cirro
+	historical = yes
+	dynasty=6024
+	religion=light_force
+	culture=wind_tribe
+	trait=charismatic_negotiator 
+	trait=race_wind_tribe
+	#trait=mage_3
+	3366.7.21={
+		birth=yes
+	}
+}
+1074 = { #d minish c_lon,minish,easternhill,smith
+	name=Thermo
+	disallow_random_traits=yes
+	historical=yes
+	diplomacy=7
+	martial=5
+	intrigue=6
+	stewardship=10
+	learning=7
+	dynasty=6034
+	religion=light_force
+	culture=wind_tribe
+	trait=fortune_builder
+	trait=race_wind_tribe
+	trait=greedy
+	trait=diligant
+	trait=ambitious
+	trait=cynical
+	3365.1.7={
+		birth=yes
+	}
+}
+1075 = { #south fiel 
+	name=Caprice
+	historical=yes
+	dynasty=6031
+	religion=light_force
+	culture=wind_tribe
+	trait=underhanded_rogue
+	trait=race_wind_tribe
+	3370.4.17={
+		birth=yes
+	}
+}
+1076 = { #central east south west plains
+	name=Meseria
+	historical=yes
+	dynasty=6047
+	religion=light_force
+	culture=wind_tribe
+	trait=charismatic_negotiator
+	trait=race_wind_tribe
+	3368.7.7={
+		birth=yes
+	}
+}
+1077 = { #bridge
+	name=Mazin
+	historical=yes
+	dynasty=6021
+	religion=light_force
+	culture=wind_tribe
+	trait=underhanded_rogue
+	trait=race_wind_tribe
+	3370.4.17={
+		birth=yes
+	}
+}
+
+1091 = {#k minish d_royal c_ crypt, north road, minish hyrule
+	name=Indra
+	historical = yes
+	dynasty=6201
+	religion=light_force
+	culture=wind_tribe
+	trait=underhanded_rogue
+	trait=race_wind_tribe
+	3369.4.14={
+		birth=yes
+	}
+}
+1092 = {#k minish d_royal c_ crypt, north road, minish hyrule
+	name=Mazin
+	historical = yes
+	dynasty=6251
+	religion=light_force
+	culture=wind_tribe
+	trait=underhanded_rogue
+	trait=race_wind_tribe
+	3369.2.12={
+		birth=yes
+	}
+}

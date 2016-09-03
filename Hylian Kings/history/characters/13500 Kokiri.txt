@@ -1,0 +1,29 @@
+
+1145 = {
+	name=Utia
+	female=yes
+	historical = yes
+	mother=1140
+	father=1139
+	dynasty=3605
+	diplomacy=6
+	martial=9
+	intrigue=5
+	stewardship=6
+	learning=6
+	religion=great_deku
+	culture=kokiri
+	trait=race_kokiri
+	trait=elusive_shadow
+	trait=kind
+	trait=quick
+	trait=shrewd
+	trait=paranoid
+	trait=chaste
+	3302.3.24={
+		birth=yes
+	}
+	3384.9.4={
+		add_spouse=1141
+	}
+}

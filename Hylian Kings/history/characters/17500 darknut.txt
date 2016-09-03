@@ -1,0 +1,100 @@
+
+1197={
+	name=Sulpicius
+	dynasty=4208
+	dna="pemmegiobpd"
+	culture=darknut 
+	religion=darknut_doctrine
+	martial=5 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=5
+	learning=7
+	add_trait=skilled_tactician 
+	add_trait=shy 
+	add_trait=just 
+	add_trait=deceitful
+	add_trait=chaste 
+	add_trait=cruel 
+	3361.8.1={ birth=yes }
+	3382.9.4={ add_spouse=1202 }
+	3402.2.15={ death=yes }
+}
+1198={
+	name=Laenas
+	dynasty=4208
+	dna="pemiemcobpk"
+	culture=darknut 
+	religion=darknut_doctrine
+	martial=6 
+	diplomacy=5 
+	stewardship=7
+	intrigue=6 
+	learning=6
+	add_trait=intricate_webweaver 
+	add_trait=cynical 
+	add_trait=kind 
+	add_trait=greedy 
+	add_trait=temperate 
+	add_trait=just 
+	father=1197	#Sulpicius
+	mother=1202
+	3383.9.4={ birth=yes }
+	3432.5.6={ death=yes }
+}
+1199={
+	name=Caterina
+	female=yes
+	dynasty=4208
+	dna="pcmeegaopdm"
+	culture=darknut 
+	religion=darknut_doctrine
+	father=1197	#Sulpicius
+	mother=1202
+	3384.11.22={ birth=yes }
+	3432.4.2={ death=yes }
+}
+1200={
+	name=Nora
+	female=yes
+	dynasty=4208
+	dna="pgjmegioepd"
+	culture=darknut 
+	religion=darknut_doctrine
+	father=1197	#Sulpicius
+	mother=1202
+	3386.8.13={ birth=yes }
+	3434.6.3={ death=yes }
+}
+1201={
+	name=Vento
+	dynasty=4208
+	dna="debpeeiobkd"
+	culture=darknut 
+	religion=darknut_doctrine
+	martial=7 
+	diplomacy=5 
+	stewardship=7
+	intrigue=4 
+	learning=6
+	add_trait=misguided_warrior 
+	add_trait=slothful 
+	add_trait=humble 
+	add_trait=honest 
+	add_trait=charitable 
+	father=1197	#Sulpicius
+	mother=1202
+	3389.2.21={ birth=yes }
+	3431.10.29={ death=yes }
+}
+
+1202={
+	name=Olga
+	female=yes
+	dna="pgjmegioepd"
+	culture=darknut 
+	religion=darknut_doctrine
+	3367.8.3={ birth=yes }
+	3383.9.4={ add_spouse=1197 }
+	3434.6.3={ death=yes }
+}

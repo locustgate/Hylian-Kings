@@ -1,0 +1,195 @@
+
+1114 = {
+	name=Snipes
+	disallow_random_traits=yes
+	historical = yes
+	diplomacy=8
+	martial=8
+	intrigue=4
+	stewardship=4
+	learning=9
+	dynasty=8001
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	trait=martial_cleric
+	trait=cruel
+	trait=diligant
+	trait=zealous
+	3336.7.18={
+		birth=yes
+	}
+	3357.10.8={
+		add_spouse=1115
+	}
+}
+1115 = {
+	name=Berenice
+	historical = yes
+	female=yes
+	dynasty=8011
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3341.7.18={
+		birth=yes
+	}
+	3357.10.8={
+		add_spouse=1114
+	}
+}
+1116 = {
+	name=Aura
+	historical = yes
+	female=yes
+	father=1114
+	mother=1115
+	dynasty=8001
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3360.7.18={
+		birth=yes
+	}
+	3376.7.19={
+		add_spouse=1117
+	}
+}
+1117 = {#north bridge
+	name=Emilio
+
+	historical = yes
+	diplomacy=5
+	martial=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	dynasty=8012
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3351.7.18={
+		birth=yes
+	}
+	3376.7.19={
+		add_spouse=1116
+	}
+}
+1118 = {#hidden
+	name=Emilio
+	disallow_random_traits=yes
+	historical = yes
+	diplomacy=8
+	martial=6
+	intrigue=4
+	stewardship=4
+	learning=6
+	mother=1016
+	father=1015
+	dynasty=8001
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	trait=underhanded_rogue
+	trait=ambitious
+	trait=chaste
+	trait=wroth
+	trait=short
+	3363.4.24={
+		birth=yes
+	}
+}
+1119 = {#
+	name=Isdel
+	disallow_random_traits=yes
+	historical = yes
+	diplomacy=4
+	martial=8
+	intrigue=7
+	stewardship=6
+	learning=5
+	mother=1016
+	father=1015
+	dynasty=8001
+	religion=light_force
+	culture=eldin
+	trait=brilliant_strategist
+	trait=race_human
+	trait=content
+	trait=brave
+	trait=lustful
+	trait=robust
+	3367.9.24={
+		birth=yes
+	}
+}
+1120 = {#
+	name=Virgilio
+	disallow_random_traits=yes
+	historical = yes
+	diplomacy=8
+	martial=6
+	intrigue=4
+	stewardship=8
+	learning=5
+	dynasty=8101
+	religion=light_force
+	culture=eldin
+	trait=charismatic_negotiator
+	trait=race_human
+	trait=charitable
+	trait=kind
+	trait=lustful
+	trait=stubborn
+	trait=brave
+	trait=cavalry_leader
+	3355.4.14={
+		birth=yes
+	}
+	3379.1.1={
+		add_spouse=1121
+	}
+}
+1121 = {#
+	name=Rosa
+	historical = yes
+	female=yes
+	dynasty=8124
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3363.1.1={
+		birth=yes
+	}
+	3379.1.1={
+		add_spouse=1121
+	}
+}
+1122 = {#
+	name=Pitina
+	historical = yes
+	female=yes
+	mother=1121
+	father=1120
+	dynasty=8101
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3382.4.9={
+		birth=yes
+	}
+}
+1122 = {#
+	name=Spiro
+	historical = yes
+	female=yes
+	mother=1121
+	father=1120
+	dynasty=8101
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3386.7.1={
+		birth=yes
+	}
+}

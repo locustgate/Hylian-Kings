@@ -1,0 +1,147 @@
+
+1078 = {  #keatonia freehold
+	name=Kaito
+	disallow_random_traits=yes
+	historical=yes
+	diplomacy=7
+	martial=5
+	intrigue=14
+	stewardship=6
+	learning=4
+	dynasty=10401
+	religion=demise_religion
+	culture=keaton
+	trait=elusive_shadow
+	trait=race_keaton
+	trait=diligant
+	trait=cruel
+	trait=zealous
+	trait=ambitious
+	trait=decietful
+	3361.5.27={
+		birth=yes
+	}
+	3377.5.29 ={
+		add_spouse = 1079
+	}
+}
+1079 = { 
+	name=Hana
+	female=yes
+	historical=yes
+	dynasty=10421
+	religion=demise_religion
+	culture=keaton
+	trait=race_keaton
+	3361.4.8={
+		birth=yes
+	}
+	3377.5.29 ={
+		add_spouse = 1078
+	}
+}
+1080 = { 
+	name=Hiroto
+	historical=yes
+	mother=1079
+	father=1078
+	dynasty=10401
+	religion=demise_religion
+	culture=keaton
+	trait=race_keaton
+	3378.8.12={
+		birth=yes
+	}
+}
+1081 = { 
+	name=Ichirou
+	historical=yes
+	mother=1079
+	father=1078
+	dynasty=10401
+	religion=demise_religion
+	culture=keaton
+	trait=race_keaton
+	3380.9.17={
+		birth=yes
+	}
+}
+1082 = { 
+	name=Hikari
+	historical=yes
+	female=yes
+	mother=1079
+	father=1078
+	dynasty=10401
+	religion=demise_religion
+	culture=keaton
+	trait=race_keaton
+	3382.12.13={
+		birth=yes
+	}
+}
+1083 = { 
+	name=Hiroto
+	historical=yes
+	mother=1079
+	father=1078
+	dynasty=10401
+	religion=demise_religion
+	culture=keaton
+	trait=race_keaton
+	3384.5.17={
+		birth=yes
+	}
+}
+1084 = { 
+	name=Kaoru
+	historical=yes
+	female=yes
+	mother=1079
+	father=1078
+	dynasty=10401
+	religion=demise_religion
+	culture=keaton
+	trait=race_keaton
+	3386.12.1={
+		birth=yes
+	}
+}
+1090 = {  #trillby
+	name=Katsu
+	disallow_random_traits=yes
+	historical=yes
+	diplomacy=6
+	martial=14
+	intrigue=5
+	stewardship=8
+	learning=4
+	dynasty=10441
+	religion=demise_religion
+	culture=keaton
+	trait=skilled_tactician
+	trait=race_keaton
+	trait=brave
+	trait=cruel
+	trait=wroth
+	trait=patiant
+	trait=decietful
+	3361.5.27={
+		birth=yes
+	}
+	3377.5.29 ={
+		add_spouse = 1079
+	}
+}
+1100 = {#keaton stok
+	name=Roles
+	historical = yes
+	dynasty=4021
+	religion=demise_religion
+	culture=keaton
+	trait=elusive_shadow
+	trait=race_keaton
+	3365.9.12={
+		birth=yes
+	}
+}
