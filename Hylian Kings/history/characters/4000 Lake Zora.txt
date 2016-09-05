@@ -39,6 +39,7 @@
 	trait=gregarious
 	trait=charitable
 	trait=zealous
+	father=48
 	3324.8.26 = {
 		birth=yes
 	}
@@ -323,3 +324,370 @@
 		death=yes
 	}
 }
+4000={
+	name=Maju
+	dynasty=601
+	dna="hkefamapafm"
+	culture=lake_zora religion=water_spirit
+	martial=6 diplomacy=7 stewardship=7 intrigue=5 learning=5
+	add_trait=tough_soldier add_trait=hedonist add_trait=gregarious add_trait=diligent add_trait=deceitful 
+	add_trait=lunatic 
+	father=49
+	3323.10.20={ birth=yes }
+	3383.4.13={ death=yes }
+}
+4001={
+	name=Ceto
+	female=yes
+	dynasty=601
+	dna="hkefoeajlcm"
+	culture=lake_zora religion=water_spirit
+	father=4000	#Maju
+	3344.4.15={ birth=yes }
+	3374.1.1={ add_spouse = 4004}
+	3401.4.28={ death=yes }
+}
+4002={
+	name=Kalato
+	female=yes
+	dynasty=601
+	dna="hjbnhmppdom"
+	culture=lake_zora religion=water_spirit
+	father=4001	#Tono
+	mother=4004
+	3376.12.23={ birth=yes }
+	3441.12.12={ death=yes }
+}
+4003={
+	name=Farkon
+	dynasty=601
+	dna="njejkmjobom"
+	culture=lake_zora religion=water_spirit
+	martial=8 diplomacy=4 stewardship=4 intrigue=6 learning=7
+	add_trait=thrifty_clerk add_trait=charitable add_trait=gluttonous add_trait=chaste 
+	father=4001	#Tono
+	mother=4004
+	3382.8.8={ birth=yes }
+	3439.9.26={ death=yes }
+}
+4004={
+	name=Zora
+	culture=lake_zora religion=water_spirit
+	3356.12.23={ birth=yes }
+	3374.1.1={ add_spouse = 4001}
+	3441.12.12={ death=yes }
+}
+4005={
+	name=Rano
+	dynasty=601
+	dna="mfogeiemocc"
+	culture=lake_zora religion=water_spirit
+	martial=8 diplomacy=8 stewardship=5 intrigue=8 learning=5
+	add_trait=naive_appeaser add_trait=chaste add_trait=temperate add_trait=cruel add_trait=charitable 
+	add_trait=brave add_trait=drunkard add_trait=slow 
+	father=50
+	3325.2.11={ birth=yes }
+	3400.12.6={ death=yes }
+}
+4006={
+	name=Zano
+	female=yes
+	dynasty=601
+	dna="mfogkipeejc"
+	culture=lake_zora religion=water_spirit
+	father=4005	#Rano
+	3343.10.26={ birth=yes }
+	3408.1.1={ death=yes }
+}
+4007={
+	name=Zonala
+	female=yes
+	dynasty=601
+	dna="jlofenkmcfc"
+	culture=lake_zora religion=water_spirit
+	father=4005	#Rano
+	3347.12.8={ birth=yes }
+	3401.5.19={ death=yes }
+}
+4008={
+	name=Maja
+	female=yes
+	dynasty=601
+	dna="mfegblmmacc"
+	culture=lake_zora religion=water_spirit
+	father=4005	#Rano
+	3353.2.11={ birth=yes }
+	3430.11.5={ death=yes }
+}
+4009={
+	name=Ruten
+	dynasty=601
+	dna="efppoleiink"
+	culture=lake_zora religion=water_spirit
+	martial=6 diplomacy=7 stewardship=7 intrigue=4 learning=6
+	add_trait=elusive_shadow add_trait=charitable add_trait=craven add_trait=trusting add_trait=lustful 
+	add_trait=slothful 
+	father=4005	#Rano
+	3356.12.2={ birth=yes }
+	3427.10.6={ death=yes }
+}
+4010={
+	name=Ceju
+	female=yes
+	dynasty=601
+	dna="eaploljmcnk"
+	culture=lake_zora religion=water_spirit
+	father=4009	#Ruten
+	3381.1.6={ birth=yes }
+	3460.11.20={ death=yes }
+}
+4011={
+	name=Kutol
+	dynasty=601
+	dna="befmldeipnk"
+	culture=lake_zora religion=water_spirit
+	martial=6 diplomacy=5 stewardship=5 intrigue=8 learning=8
+	add_trait=intricate_webweaver add_trait=cruel add_trait=paranoid add_trait=slothful add_trait=zealous 
+	add_trait=kind add_trait=drunkard 
+	father=4009	#Ruten
+	3386.4.11={ birth=yes }
+	3441.5.25={ death=yes }
+}
+4012={
+	name=Mallanu
+	dynasty=610
+	dna="hcnblopcopb"
+	culture=lake_zora religion=water_spirit
+	martial=4 diplomacy=8 stewardship=6 intrigue=6 learning=6
+	add_trait=midas_touched add_trait=scholar add_trait=kind add_trait=cynical add_trait=trusting 
+	add_trait=brave 
+	3353.10.17={ birth=yes }
+	3374.1.1={add_spouse=4014}
+	3402.12.24={ death=yes }
+}
+4013={
+	name=Motai
+	dynasty=610
+	dna="hknbbjpcopd"
+	culture=lake_zora religion=water_spirit
+	martial=8 diplomacy=7 stewardship=5 intrigue=4 learning=7
+	add_trait=scholarly_theologian add_trait=cruel add_trait=ambitious add_trait=shy add_trait=brave 
+	add_trait=cynical 
+	father=4012	#Mallanu
+	3375.10.6={ birth=yes }
+	3431.10.20={ death=yes }
+}
+4014={
+	Name=Lala
+	female=yes
+	culture=lake_zora
+	religion=water_spirit
+	3358.1.1={birth=yes}
+	3374.1.1={add_spouse=4012}
+	3412.1.1={death=yes}
+}
+4015={
+	name=Zilla
+	dynasty=620
+	dna="flcnjedfmbd"
+	culture=lake_zora religion=water_spirit
+	martial=4 diplomacy=8 stewardship=7 intrigue=6 learning=6
+	add_trait=grey_eminence add_trait=hedonist add_trait=kind add_trait=ambitious 
+	3363.5.13={ birth=yes }
+	3409.9.19={ death=yes }
+}
+4016={
+	name=Katan
+	dynasty=630
+	dna="bcnhonncmej"
+	culture=lake_zora religion=water_spirit
+	martial=8 diplomacy=5 stewardship=4 intrigue=5 learning=8
+	add_trait=elusive_shadow add_trait=celibite add_trait=trusting add_trait=lustful add_trait=gluttonous 
+	add_trait=shy add_trait=cruel 
+	3362.5.24={ birth=yes }
+	3433.2.16={ death=yes }
+}
+4017={
+	name=Mallanu
+	dynasty=640
+	dna="fojphnidpme"
+	culture=lake_zora religion=water_spirit
+	martial=4 diplomacy=7 stewardship=7 intrigue=4 learning=7
+	add_trait=detached_priest add_trait=cruel add_trait=cynical add_trait=arbitrary add_trait=ill 
+	3352.5.6={ birth=yes }
+	3374.1.1={add_spouse=4021}
+	3418.12.8={ death=yes }
+}
+4018={
+	name=Ruten
+	dynasty=640
+	dna="acjdbhbdohi"
+	culture=lake_zora religion=water_spirit
+	martial=7 diplomacy=7 stewardship=7 intrigue=7 learning=8
+	add_trait=thrifty_clerk add_trait=brave add_trait=arbitrary add_trait=zealous add_trait=greedy 
+	add_trait=content 
+	father=4017	#Mallanu
+	mother=4021
+	3379.9.20={ birth=yes }
+	3443.11.21={ death=yes }
+}
+4019={
+	name=Roris
+	female=yes
+	dynasty=640
+	dna="aojfjlompme"
+	culture=lake_zora religion=water_spirit
+	father=4017	#Mallanu
+	mother=4021
+	3382.6.27={ birth=yes }
+	3443.3.8={ death=yes }
+}
+4020={
+	name=Malo
+	female=yes
+	dynasty=640
+	dna="foachdkdjne"
+	culture=lake_zora religion=water_spirit
+	father=4017	#Mallanu
+	mother=4021
+	3386.2.15={ birth=yes }
+	3438.5.14={ death=yes }
+}
+4021={
+	Name=Mira
+	female=yes
+	culture=lake_zora
+	religion=water_spirit
+	3358.1.1={birth=yes}
+	3374.1.1={add_spouse=4017}
+	3412.1.1={death=yes}
+}
+4022={
+	name=Taha
+	dynasty=650
+	dna="ihbgkjdfiei"
+	culture=lake_zora religion=water_spirit
+	martial=6 diplomacy=5 stewardship=7 intrigue=4 learning=7
+	add_trait=flamboyant_schemer add_trait=greedy add_trait=craven add_trait=patient add_trait=kind 
+	add_trait=gregarious 
+	3341.8.17={ birth=yes }
+	3395.6.22={ death=yes }
+}
+4023={
+	name=Elunan
+	dynasty=650
+	dna="imdgkjkfoce"
+	culture=lake_zora religion=water_spirit
+	martial=6 diplomacy=8 stewardship=5 intrigue=5 learning=8
+	add_trait=indulgent_wastrel add_trait=chaste add_trait=wroth 
+	father=4022	#Taha
+	mother=4025
+	3367.9.3={ birth=yes }
+	3413.6.5={ death=yes }
+}
+4024={
+	name=Elunan
+	dynasty=650
+	dna="idbgjjpflli"
+	culture=lake_zora religion=water_spirit
+	martial=7 diplomacy=5 stewardship=5 intrigue=5 learning=8
+	add_trait=tough_soldier add_trait=craven add_trait=gregarious add_trait=chaste add_trait=arbitrary 
+	add_trait=kind add_trait=ambitious add_trait=possessed 
+	father=4022	#Taha
+	mother=4025
+	3371.9.10={ birth=yes }
+	3418.11.17={ death=yes }
+}
+
+4025={
+	Name=Mira
+	female=yes
+	culture=lake_zora
+	religion=water_spirit
+	3342.1.1={birth=yes}
+	3366.1.1={add_spouse=4022}
+	3412.1.1={death=yes}
+}
+4026={
+	name=Farkos
+	dynasty=670
+	dna="gokllejfand"
+	culture=lake_zora religion=water_spirit
+	martial=8 diplomacy=5 stewardship=6 intrigue=8 learning=8
+	add_trait=detached_priest add_trait=impaler add_trait=temperate add_trait=cruel add_trait=diligent 
+	add_trait=deceitful add_trait=content add_trait=stressed 
+	3361.8.11={ birth=yes }
+	3427.1.14={ death=yes }
+}
+4027={
+name=Paphal
+	dynasty=680
+	dna="lphchlbbhen"
+	culture=lake_zora religion=water_spirit
+	martial=8 diplomacy=6 stewardship=6 intrigue=5 learning=7
+	add_trait=naive_appeaser add_trait=ambitious add_trait=arbitrary add_trait=greedy add_trait=humble 
+	3342.2.16={ birth=yes }
+	3371.1.={add_spouse=4032}
+	3403.9.20={ death=yes }
+}
+4028={
+	name=Fono
+	dynasty=680
+	dna="eohchlbkmbj"
+	culture=lake_zora religion=water_spirit
+	martial=7 diplomacy=8 stewardship=7 intrigue=6 learning=8
+	add_trait=midas_touched add_trait=cynical add_trait=brave add_trait=ambitious add_trait=gluttonous 
+	add_trait=diligent add_trait=just 
+	father=4027	#Paphal
+	mother= 4032
+	3371.9.8={ birth=yes }
+	3420.12.4={ death=yes }
+}
+4029={
+	name=Zenal
+	dynasty=680
+	dna="ofhchmlbhen"
+	culture=lake_zora religion=water_spirit
+	martial=6 diplomacy=8 stewardship=5 intrigue=6 learning=6
+	add_trait=thrifty_clerk add_trait=lustful add_trait=deceitful add_trait=temperate add_trait=proud 
+	add_trait=slow 
+	father=4027	#Paphal
+	mother= 4032
+	3374.6.12={ birth=yes }
+	3446.4.11={ death=yes }
+}
+4030={
+	name=Moti
+	female=yes
+	dynasty=680
+	dna="loldhppbhef"
+	culture=lake_zora religion=water_spirit
+	father=4027	#Paphal
+	mother= 4032
+	3377.8.23={ birth=yes }
+	3429.6.10={ death=yes }
+}
+4031={
+	name=Roras
+	dynasty=680
+	dna="pphchlofden"
+	culture=lake_zora religion=water_spirit
+	martial=7 diplomacy=4 stewardship=4 intrigue=6 learning=4
+	add_trait=mastermind_theologian add_trait=honest add_trait=wroth add_trait=brave add_trait=humble 
+	add_trait=diligent 
+	father=4027	#Paphal
+	mother= 4032
+	3381.7.25={ birth=yes }
+	3440.4.16={ death=yes }
+}
+4032={
+	name=Ralai
+	female=yes
+	culture=lake_zora religion=water_spirit
+	3354.1.1={ birth=yes }
+	3371.1.={add_spouse=4027}
+	3429.6.10={ death=yes }
+}
+
+
+
