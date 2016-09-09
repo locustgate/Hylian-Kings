@@ -691,7 +691,7 @@
 	martial=4 diplomacy=4 stewardship=8 intrigue=8 learning=7
 	add_trait=elusive_shadow add_trait=gluttonous add_trait=diligent add_trait=kind 
 	3357.1.13={ birth=yes }
-	3380.1.1={ add_pouse=15535 }
+	3380.1.1={ add_spouse=15535 }
 	3407.2.12={ death=yes }
 }
 15533={
@@ -722,7 +722,7 @@
 	female=yes
 	culture=moblin religion=demise_religion
 	3357.1.13={ birth=yes }
-	3380.1.1={ add_pouse=15532 }
+	3380.1.1={ add_spouse=15532 }
 	3407.1.8={ death=yes }
 }
 15536={
@@ -1377,4 +1377,274 @@
 	add_trait=honest add_trait=ill 
 	3365.6.2={ birth=yes }
 	3426.9.14={ death=yes }
+}
+15595={
+	name=Oligole
+	dynasty=4373
+	dna="baaacehmall"
+	culture=moblin religion=demise_religion
+	martial=4 diplomacy=7 stewardship=8 intrigue=5 learning=5
+	add_trait=grey_eminence add_trait=honest add_trait=gregarious add_trait=envious add_trait=zealous 
+	add_trait=humble 
+	3342.10.13={ birth=yes }
+	3428.9.7={ death=yes }
+}
+15596={
+	name=Dhago
+	dynasty=4373
+	dna="macdcchaafg"
+	culture=moblin religion=demise_religion
+	martial=4 diplomacy=5 stewardship=7 intrigue=4 learning=4
+	add_trait=misguided_warrior add_trait=trusting add_trait=charitable add_trait=ambitious add_trait=humble 
+	add_trait=kind add_trait=cruel add_trait=possessed 
+	father=15595	#Oligole
+	3364.1.20={ birth=yes }
+	3434.9.22={ death=yes }
+}
+15597={
+	name=Bolale
+	dynasty=4373
+	dna="baaccehpabb"
+	culture=moblin religion=demise_religion
+	martial=4 diplomacy=7 stewardship=7 intrigue=7 learning=7
+	add_trait=charismatic_negotiator add_trait=diligent add_trait=chaste add_trait=honest add_trait=ambitious 
+	add_trait=craven add_trait=just add_trait=drunkard add_trait=genius 
+	father=15595	#Oligole
+	3370.8.14={ birth=yes }
+	3429.2.23={ death=yes }
+}
+15598={
+	name=Kogein
+	dynasty=4373
+	dna="bheoceilcll"
+	culture=moblin religion=demise_religion
+	martial=6 diplomacy=5 stewardship=7 intrigue=5 learning=4
+	add_trait=midas_touched add_trait=temperate add_trait=brave add_trait=honest add_trait=cruel 
+	add_trait=depressed 
+	father=15595	#Oligole
+	3372.4.3={ birth=yes }
+	3427.10.3={ death=yes }
+}
+15599={
+	name=Balus
+	dynasty=4372
+	dna="oacodmbjbha"
+	culture=moblin religion=demise_religion
+	martial=7 diplomacy=5 stewardship=8 intrigue=5 learning=4
+	add_trait=intricate_webweaver add_trait=gardener add_trait=zealous add_trait=paranoid add_trait=slothful 
+	add_trait=humble add_trait=patient add_trait=temperate 
+	3362.4.25={ birth=yes }
+	3413.1.22={ death=yes }
+}
+15600={
+	name=Dhon
+	dynasty=4371
+	dna="odkbleedobp"
+	culture=moblin religion=demise_religion
+	martial=5 diplomacy=6 stewardship=5 intrigue=8 learning=7
+	add_trait=midas_touched add_trait=kind add_trait=ambitious add_trait=charitable add_trait=gluttonous 
+	add_trait=deceitful add_trait=trusting 
+	3359.8.25={ birth=yes }
+	3384.1.1={add_spouse=15602}
+	3407.3.6={ death=yes }
+}
+15601={
+	name=Bona
+	female=yes
+	dynasty=4371
+	dna="bdkbleedpbp"
+	culture=moblin religion=demise_religion
+	father=15600	#Dhon
+	mother=15602
+	3386.3.24={ birth=yes }
+	3443.1.31={ death=yes }
+}
+15602={
+	name=Dhon
+	female=yes
+	culture=moblin religion=demise_religion
+	3359.8.25={ birth=yes }
+	3384.1.1={add_spouse=15600}
+	3407.3.6={ death=yes }
+}
+15603={
+	name=Lyrano
+	dynasty=4369
+	dna="gbnhjmikpdp"
+	culture=moblin religion=demise_religion
+	martial=4 diplomacy=7 stewardship=6 intrigue=7 learning=8
+	add_trait=elusive_shadow add_trait=humble add_trait=diligent add_trait=arbitrary add_trait=cruel 
+	3350.9.5={ birth=yes }
+	3373.1.1={add_spouse=15607}
+	3395.7.26={ death=yes }
+}
+15604={
+	name=Kanas
+	dynasty=4369
+	dna="gbmkjailbdc"
+	culture=moblin religion=demise_religion
+	martial=7 diplomacy=4 stewardship=5 intrigue=8 learning=5
+	add_trait=tough_soldier add_trait=slothful add_trait=honest add_trait=proud add_trait=ambitious 
+	add_trait=ill 
+	father=15603	#Lyrano
+	mother=15607
+	3374.2.12={ birth=yes }
+	3446.12.24={ death=yes }
+}
+15605={
+	name=Bunonon
+	dynasty=4369
+	dna="gbnhnmljidp"
+	culture=moblin religion=demise_religion
+	martial=7 diplomacy=8 stewardship=5 intrigue=6 learning=6
+	add_trait=scholarly_theologian add_trait=gardener add_trait=craven add_trait=arbitrary add_trait=paranoid 
+	add_trait=kind add_trait=patient 
+	father=15603	#Lyrano
+	mother=15607
+	3377.11.2={ birth=yes }
+	3433.10.22={ death=yes }
+}
+15606={
+	name=Balyala
+	female=yes
+	dynasty=4369
+	dna="ebnhlmbkedp"
+	culture=moblin religion=demise_religion
+	father=15603	#Lyrano
+	mother=15607
+	3380.9.15={ birth=yes }
+	3441.5.16={ death=yes }
+}
+15607={
+	name=Lyrano
+	female=yes
+	culture=moblin religion=demise_religion
+	3350.9.5={ birth=yes }
+	3373.1.1={add_spouse=15603}
+	3395.7.26={ death=yes }
+}
+15608={
+	name=Rarmoe
+	dynasty=4368
+	dna="nolkbcehpik"
+	culture=moblin religion=demise_religion
+	martial=5 diplomacy=7 stewardship=6 intrigue=5 learning=6
+	add_trait=mastermind_theologian add_trait=brave add_trait=wroth add_trait=temperate add_trait=greedy 
+	3367.11.26={ birth=yes }
+	3387.1.1={add_spouse=15609}
+	3425.11.22={ death=yes }
+}
+15609={
+	name=Ogalon
+	female=yes
+	culture=moblin religion=demise_religion
+	3367.11.26={ birth=yes }
+	3387.1.1={add_spouse=15608}
+	3425.11.22={ death=yes }
+}
+15610={
+	name=Kala
+	female=yes
+	dynasty=4367
+	dna="npndgjenikd"
+	culture=moblin religion=demise_religion
+	father=15608	#Ganolan
+	mother=15612
+	3382.8.2={ birth=yes }
+	3440.4.21={ death=yes }
+}
+15611={
+	name=Monan
+	female=yes
+	dynasty=4367
+	dna="ibnbgjdniel"
+	culture=moblin religion=demise_religion
+	father=15608	#Ganolan
+	mother=15612
+	3384.11.22={ birth=yes }
+	3437.7.8={ death=yes }
+}
+15612={
+	name=Vaylano
+	female=yes
+	culture=moblin religion=demise_religion
+	3352.3.12={ birth=yes }
+	3377.1.1={ add_spouse=15608 }
+	3406.10.4={ death=yes }
+}
+15613={
+	name=Valban
+	dynasty=4366
+	dna="hijhcjfoneg"
+	culture=moblin religion=demise_religion
+	martial=6 diplomacy=8 stewardship=4 intrigue=5 learning=7
+	add_trait=flamboyant_schemer add_trait=arbitrary add_trait=zealous add_trait=genius 
+	3346.4.9={ birth=yes }	
+	3371.1.1={add_spouse=15618}
+	3418.11.5={ death=yes }
+}
+15614={
+	name=Ralanon
+	dynasty=4366
+	dna="mijpejffneg"
+	culture=moblin religion=demise_religion
+	martial=5 diplomacy=7 stewardship=5 intrigue=8 learning=4
+	add_trait=detached_priest add_trait=content add_trait=kind add_trait=deceitful 
+	father=15613	#Valban
+	mother=15618
+	3372.7.6={ birth=yes }
+	3417.7.29={ death=yes }
+}
+15615={
+	name=Bunonon
+	dynasty=4366
+	dna="fijlccfbajk"
+	culture=moblin religion=demise_religion
+	martial=4 diplomacy=4 stewardship=8 intrigue=4 learning=7
+	add_trait=misguided_warrior add_trait=shy add_trait=wroth add_trait=charitable add_trait=zealous 
+	add_trait=lustful 
+	father=15613	#Valban
+	mother=15618
+	3375.5.8={ birth=yes }
+	3436.2.6={ death=yes }
+}
+15616={
+	name=Rein
+	female=yes
+	dynasty=4366
+	dna="hiphhgfoggg"
+	culture=moblin religion=demise_religion
+	father=15613	#Valban
+	mother=15618
+	3378.6.19={ birth=yes }
+	3444.1.21={ death=yes }
+}
+15617={
+	name=Lyron
+	female=yes
+	dynasty=4366
+	dna="hidfhjfonek"
+	culture=moblin religion=demise_religion
+	father=15613	#Valban
+	mother=15618
+	3382.12.23={ birth=yes }
+	3434.1.27={ death=yes }
+}
+15618={
+	name=Ogalon
+	female=yes
+	culture=moblin religion=demise_religion
+	3346.4.9={ birth=yes }
+	3371.1.1={add_spouse=15613}
+	3418.11.5={ death=yes }
+}
+15619={
+	name=Mano
+	dynasty=4364
+	dna="fbdnkiijnpj"
+	culture=moblin religion=demise_religion
+	martial=5 diplomacy=7 stewardship=6 intrigue=5 learning=7
+	add_trait=flamboyant_schemer add_trait=wroth add_trait=greedy add_trait=ambitious add_trait=humble 
+	3362.7.8={ birth=yes }
+	3432.5.8={ death=yes }
 }
