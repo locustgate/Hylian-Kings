@@ -294,7 +294,8 @@ e_hyrule_central = {
 			c_amphitheater_field = {			
 				color={ 202 225 255 }
 				color2={ 255 255 255 }				
-				holy_site = golden_goddesses #temp
+				holy_site = golden_goddesses #temp				
+				holy_site = demise_religion
 				b_amphitheater_gate = {}
 				b_amphitheater_of_hylia = {}
 			}			
@@ -1214,7 +1215,8 @@ e_mudora = {
 			c_sanctuary = {
 				color={ 0 170 0 }
 				color2={ 255 255 255 }				
-				holy_site = golden_goddesses
+				holy_site = golden_goddesses				
+				holy_site = demise_religion
 				b_sanctuary_gathe = {}
 				b_sanctuary = {}
 				b_sanctuary_graveyard = {}
@@ -1836,6 +1838,7 @@ e_saria = {#Saria
 				color={ 0 104 46 }
 				color2={ 249 228 83 }			
 				holy_site = golden_goddesses
+				holy_site = demise_religion
 				b_saria_graveguard = {}
 				b_graveyard_saria = {}
 			}
@@ -4156,6 +4159,11 @@ e_hanman = {
 				b_okara = {}
 				b_thigi_2 = {}
 			}
+		}
+		d_sanbu = {
+			color={ 255 153 51 }
+			color2={ 18 136 7 }
+			capital = 153
 			c_kakarima = {
 				color={ 244 164 96 }
 				color2={ 255 222 0 }
@@ -4167,6 +4175,7 @@ e_hanman = {
 				b_satun = {}
 				b_mashumang = {}
 			}
+			
 			c_sanbu = {
 				color={ 244 164 96 }
 				color2={ 255 222 0 }
@@ -6894,7 +6903,7 @@ k_tolemac = {
 				b_mobilins_head = {}
 			}
 		}
-		d_sabasha = {
+		d_subasha = {
 			color={ 255 97 3 }
 			color2={ 205 197 191 }			
 			capital = 231
@@ -7765,5 +7774,4 @@ k_myrddin = {
 			b_genion = {}
 		}
 	}	
-}
 }

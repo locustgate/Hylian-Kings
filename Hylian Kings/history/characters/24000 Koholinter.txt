@@ -1,0 +1,257 @@
+24000={
+	name=Orville
+	dynasty=14702
+	dna="ipdbeilombc"
+	culture=koholinter religion=wind_fish_religion
+	martial=6 diplomacy=5 stewardship=5 intrigue=6 learning=6
+	add_trait=martial_cleric add_trait=temperate add_trait=ambitious add_trait=cruel add_trait=zealous 
+	add_trait=weak 
+	3342.1.24={ birth=yes }
+	3362.11.25={ add_spouse=24006 }
+	3411.4.19={ death=yes }
+}
+24001={
+	name=Flora
+	female=yes
+	dynasty=14702
+	dna="ipabkimdmmc"
+	culture=koholinter religion=wind_fish_religion
+	father=24000	#Orville
+	mother=24006
+	3362.11.25={ birth=yes }
+	3411.3.5={ death=yes }
+}
+24002={
+	name=Eudes
+	dynasty=14702
+	dna="jpdbeoljfpa"
+	culture=koholinter religion=wind_fish_religion
+	martial=5 diplomacy=4 stewardship=7 intrigue=4 learning=5
+	add_trait=flamboyant_schemer add_trait=kind add_trait=gluttonous add_trait=wroth add_trait=just 
+	father=24000	#Orville
+	mother=24006
+	3364.10.11={ birth=yes }
+	3427.8.18={ death=yes }
+}
+24003={
+	name=Ileegarde
+	female=yes
+	dynasty=14702
+	dna="ipebeidimlc"
+	culture=koholinter religion=wind_fish_religion
+	father=24000	#Orville
+	mother=24006
+	3366.6.6={ birth=yes }
+	3433.3.28={ death=yes }
+}
+24004={
+	name=Patsy
+	female=yes
+	dynasty=14702
+	dna="nndaeikggmh"
+	culture=koholinter religion=wind_fish_religion
+	father=24000	#Orville
+	mother=24006
+	3369.12.27={ birth=yes }
+	3425.9.29={ death=yes }
+}
+24005={
+	name=Ide
+	female=yes
+	dynasty=14702
+	dna="iddbmiemmef"
+	culture=koholinter religion=wind_fish_religion
+	father=24000	#Orville
+	mother=24006
+	3371.7.23={ birth=yes }
+	3429.1.1={ death=yes }
+}
+24006={
+	name=Belleassez
+	female=yes
+	culture=koholinter religion=wind_fish_religion
+	3342.1.24={ birth=yes }
+	3362.11.25={ add_spouse=24000 }
+	3411.4.19={ death=yes }
+}
+24007={
+	name=Zak
+	dynasty=6401
+	dna="ohhoendkgmb"
+	culture=koholinter religion=wind_fish_religion
+	martial=8 diplomacy=8 stewardship=8 intrigue=7 learning=5
+	add_trait=flamboyant_schemer add_trait=lustful add_trait=gluttonous add_trait=ambitious add_trait=slothful 
+	3366.5.1={ birth=yes }
+	3440.10.18={ death=yes }
+}
+24008={
+	name=Adrien
+	dynasty=6405
+	dna="dfiejnfilpl"
+	culture=koholinter religion=wind_fish_religion
+	martial=5 diplomacy=8 stewardship=5 intrigue=8 learning=4
+	add_trait=charismatic_negotiator add_trait=deceitful add_trait=lustful add_trait=envious add_trait=content 
+	add_trait=just 
+	3362.7.16={ birth=yes }
+	3387.1.1={add_spouse=24009}
+	3421.10.14={ death=yes }
+}
+24009={
+	name=Berengere
+	female=yes
+	culture=koholinter religion=wind_fish_religion
+	3362.7.16={ birth=yes }
+	3387.1.1={add_spouse=24008}
+	3421.10.14={ death=yes }
+}
+24010={
+	name=Titus
+	dynasty=6410
+	dna="hghjcidfaoo"
+	culture=koholinter religion=wind_fish_religion
+	martial=8 diplomacy=8 stewardship=5 intrigue=4 learning=8
+	add_trait=flamboyant_schemer add_trait=proud add_trait=craven add_trait=deceitful add_trait=content 
+	3356.10.15={ birth=yes }
+	3354.10.15={ add_spouse=24014 }
+	3414.6.9={ death=yes }
+}
+24011={
+	name=Aymar
+	dynasty=6410
+	dna="gggapidaadi"
+	culture=koholinter religion=wind_fish_religion
+	martial=5 diplomacy=6 stewardship=4 intrigue=4 learning=5
+	add_trait=indulgent_wastrel add_trait=brave add_trait=cynical add_trait=envious add_trait=chaste 
+	add_trait=cruel add_trait=temperate 
+	father=24010	#Titus
+	mother=24014
+	3381.3.13={ birth=yes }
+	3455.5.19={ death=yes }
+}
+24012={
+	name=Gerald
+	dynasty=6410
+	dna="hggjcnkcaco"
+	culture=koholinter religion=wind_fish_religion
+	martial=8 diplomacy=6 stewardship=4 intrigue=6 learning=7
+	add_trait=intricate_webweaver add_trait=honest add_trait=just add_trait=gregarious 
+	father=24010	#Titus
+	mother=24014
+	3382.1.18={ birth=yes }
+	3434.12.28={ death=yes }
+}
+24013={
+	name=Ademar
+	dynasty=6410
+	dna="hghjgiailoe"
+	culture=koholinter religion=wind_fish_religion
+	martial=5 diplomacy=4 stewardship=5 intrigue=5 learning=8
+	add_trait=flamboyant_schemer add_trait=just add_trait=temperate add_trait=diligent add_trait=zealous 
+	add_trait=paranoid 
+	father=24010	#Titus
+	mother=24014
+	3386.4.24={ birth=yes }
+	3437.1.22={ death=yes }
+}
+24014={
+	name=Martha
+	culture=koholinter religion=wind_fish_religion
+	3356.10.15={ birth=yes }
+	3354.10.15={ add_spouse=24010 }
+	3414.6.9={ death=yes }
+}
+24015={
+	name=Howard
+	dynasty=6420
+	dna="nnlcielaiio"
+	culture=koholinter religion=wind_fish_religion
+	martial=7 diplomacy=8 stewardship=4 intrigue=6 learning=8
+	add_trait=indulgent_wastrel add_trait=duelist add_trait=cruel add_trait=greedy add_trait=trusting 
+	add_trait=craven add_trait=strong 
+	3341.11.6={ birth=yes }
+	3360.1.1={add_spouse=24022}
+	3388.10.24={ death=yes }
+}
+24016={
+	name=Kendal
+	dynasty=6420
+	dna="bhlcielanio"
+	culture=koholinter religion=wind_fish_religion
+	martial=8 diplomacy=8 stewardship=6 intrigue=7 learning=8
+	add_trait=misguided_warrior add_trait=deceitful add_trait=content add_trait=cruel 
+	father=24015	#Howard
+	mother=24022
+	3367.4.17={ birth=yes }
+	3418.6.17={ death=yes }
+}
+24017={
+	name=Titus
+	dynasty=6420
+	dna="iflnieipiim"
+	culture=koholinter religion=wind_fish_religion
+	martial=4 diplomacy=4 stewardship=4 intrigue=8 learning=5
+	add_trait=misguided_warrior add_trait=hunter add_trait=envious add_trait=proud add_trait=ambitious 
+	add_trait=cynical 
+	father=24015	#Howard
+	mother=24022
+	3370.12.23={ birth=yes }
+	3441.7.16={ death=yes }
+}
+24018={
+	name=Gerberge
+	female=yes
+	dynasty=6420
+	dna="pglcijnabff"
+	culture=koholinter religion=wind_fish_religion
+	father=24015	#Howard
+	mother=24022
+	3373.8.10={ birth=yes }
+	3443.4.6={ death=yes }
+}
+24019={
+	name=Brook
+	dynasty=6420
+	dna="bcgckedckio"
+	culture=koholinter religion=wind_fish_religion
+	martial=8 diplomacy=4 stewardship=5 intrigue=7 learning=5
+	add_trait=martial_cleric add_trait=gluttonous add_trait=honest add_trait=wounded 
+	father=24015	#Howard
+	mother=24022
+	3375.5.9={ birth=yes }
+	3421.2.19={ death=yes }
+}
+24020={
+	name=Mahaut
+	female=yes
+	dynasty=6420
+	dna="nnlpdehiido"
+	culture=koholinter religion=wind_fish_religion
+	father=24015	#Howard
+	mother=24022
+	3380.10.27={ birth=yes }
+	3434.8.15={ death=yes }
+}
+24021={
+	name=Aldebert
+	dynasty=6425
+	dna="efkanclnhdc"
+	culture=koholinter religion=wind_fish_religion
+	martial=5 diplomacy=8 stewardship=5 intrigue=4 learning=5
+	add_trait=detached_priest add_trait=duelist add_trait=slothful add_trait=proud add_trait=kind 
+	add_trait=shy 
+	3366.4.16={ birth=yes }
+	3434.5.29={ death=yes }
+}
+24022={
+	name=Howard
+	dynasty=6420
+	dna="nnlcielaiio"
+	culture=koholinter religion=wind_fish_religion
+	martial=7 diplomacy=8 stewardship=4 intrigue=6 learning=8
+	add_trait=indulgent_wastrel add_trait=duelist add_trait=cruel add_trait=greedy add_trait=trusting 
+	add_trait=craven add_trait=strong 
+	3341.11.6={ birth=yes }
+	3360.1.1={add_spouse=24015}
+	3388.10.24={ death=yes }
+}
+
