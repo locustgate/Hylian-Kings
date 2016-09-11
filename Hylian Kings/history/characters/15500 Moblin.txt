@@ -2284,3 +2284,66 @@
 	3367.10.1={ birth=yes }
 	3440.8.18={ death=yes }
 }
+15679={
+	name=Reiley
+	dynasty=4938
+	dna="pbbnmlgjhoh"
+	culture=moblin religion=demise_religion
+	martial=8 diplomacy=7 stewardship=6 intrigue=5 learning=8
+	add_trait=grey_eminence add_trait=craven add_trait=gregarious add_trait=just 
+	3357.6.12={ birth=yes }
+	3380.1.1={add_spouse=15682}
+	3409.10.10={ death=yes }
+}
+15680={
+	name=Reinah
+	female=yes
+	dynasty=4938
+	dna="bnbnmleomoh"
+	culture=moblin religion=demise_religion
+	father=15679	#Reiley
+	mother=15682
+	3385.1.16={ birth=yes }
+	3431.7.21={ death=yes }
+}
+15681={
+	name=Hulon
+	dynasty=4938
+	dna="pbbnmkinhoh"
+	culture=moblin religion=demise_religion
+	martial=6 diplomacy=5 stewardship=8 intrigue=8 learning=6
+	add_trait=mastermind_theologian add_trait=craven add_trait=kind 
+	father=15679	#Reiley
+	mother=15682
+	3387.1.9={ birth=yes }
+	3450.6.28={ death=yes }
+}
+15682={
+	name=Reiley
+	female=yes
+	culture=moblin religion=demise_religion
+	3357.6.12={ birth=yes }
+	3380.1.1={add_spouse=15679}
+	3409.10.10={ death=yes }
+}
+15683={
+	name=Mano
+	dynasty=4937
+	dna="ddjfjedllgd"
+	culture=moblin religion=demise_religion
+	martial=8 diplomacy=4 stewardship=7 intrigue=8 learning=5
+	add_trait=flamboyant_schemer add_trait=greedy add_trait=trusting add_trait=proud add_trait=just 
+	3367.7.18={ birth=yes }
+	3428.6.3={ death=yes }
+}
+15684={
+	name=Gogan
+	dynasty=4936
+	dna="imccfiacpog"
+	culture=moblin religion=demise_religion
+	martial=8 diplomacy=4 stewardship=8 intrigue=8 learning=6
+	add_trait=grey_eminence add_trait=craven add_trait=gregarious add_trait=gluttonous add_trait=zealous 
+	add_trait=content add_trait=lustful 
+	3367.12.23={ birth=yes }
+	3420.4.15={ death=yes }
+}
