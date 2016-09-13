@@ -1,0 +1,166 @@
+24500={
+	name=Ali
+	dynasty=2401
+	dna="igakhioapab"
+	culture=tokay religion=great_maku
+	martial=4 diplomacy=4 stewardship=5 intrigue=6 learning=5
+	add_trait=midas_touched add_trait=gregarious add_trait=kind add_trait=ill 
+	3366.7.10={ birth=yes }
+	3384.1.1={add_spouse=24500}
+	3409.7.24={ death=yes }
+}
+24501={
+	name=Bisi
+	dynasty=2401
+	dna="jgakhioppnh"
+	culture=tokay religion=great_maku
+	martial=7 diplomacy=8 stewardship=6 intrigue=6 learning=4
+	add_trait=misguided_warrior add_trait=gregarious add_trait=just add_trait=trusting add_trait=kind 
+	add_trait=wroth add_trait=brave add_trait=ill 
+	father=24500	#Ali
+	mother=24502
+	3385.7.26={ birth=yes }
+	3441.11.26={ death=yes }
+}
+24502={
+	name=Aich
+	female=yes
+	culture=tokay religion=great_maku
+	3366.7.10={ birth=yes }
+	3384.1.1={add_spouse=24500}
+	3409.7.24={ death=yes }
+}
+24503={
+	name=Yaqub
+	dynasty=2405
+	dna="cpihjnojdpg"
+	culture=tokay religion=great_maku
+	martial=6 diplomacy=4 stewardship=6 intrigue=7 learning=4
+	add_trait=flamboyant_schemer add_trait=content add_trait=wroth add_trait=cruel 
+	3361.12.5={ birth=yes }	
+	3379.1.1={add_spouse=24507}
+	3402.8.30={ death=yes }
+}
+24504={
+	name=Anli
+	dynasty=2405
+	dna="calpennjdhg"
+	culture=tokay religion=great_maku
+	martial=6 diplomacy=4 stewardship=7 intrigue=6 learning=4
+	add_trait=flamboyant_schemer add_trait=chaste add_trait=paranoid add_trait=charitable add_trait=humble 
+	add_trait=craven add_trait=cruel 
+	father=24503	#Yaqub
+	mother=24507
+	3381.6.6={ birth=yes }
+	3432.2.9={ death=yes }
+}
+24505={
+	name=Datey
+	female=yes
+	dynasty=2405
+	dna="cjihjnbpdpg"
+	culture=tokay religion=great_maku
+	father=24503	#Yaqub
+	mother=24507
+	3382.2.1={ birth=yes }
+	3432.4.13={ death=yes }
+}
+24506={
+	name=Sulayman
+	dynasty=2405
+	dna="dpdkefmjdmg"
+	culture=tokay religion=great_maku
+	martial=6 diplomacy=4 stewardship=4 intrigue=7 learning=5
+	add_trait=flamboyant_schemer add_trait=paranoid add_trait=zealous add_trait=kind add_trait=possessed 
+	father=24503	#Yaqub
+	mother=24507
+	3384.9.2={ birth=yes }
+	3446.9.14={ death=yes }
+}
+24507={
+	name=Amina
+	female=yes
+	culture=tokay religion=great_maku
+	3361.12.5={ birth=yes }
+	3379.1.1={add_spouse=24503}
+	3402.8.30={ death=yes }
+}
+24508={
+	name=Alay
+	dynasty=2410
+	dna="jjggpjanepp"
+	culture=tokay religion=great_maku
+	martial=4 diplomacy=8 stewardship=6 intrigue=5 learning=5
+	add_trait=charismatic_negotiator add_trait=arbitrary add_trait=temperate add_trait=strong 
+	3365.12.5={ birth=yes }
+	3417.1.19={ death=yes }
+}
+24509={
+	name=Solomon
+	dynasty=2415
+	dna="eefleccigog"
+	culture=tokay religion=great_maku
+	martial=8 diplomacy=6 stewardship=5 intrigue=6 learning=8
+	add_trait=detached_priest add_trait=chaste add_trait=just add_trait=patient add_trait=cruel 
+	add_trait=content 
+	3357.1.23={ birth=yes }
+	3404.5.24={ death=yes }
+}
+24510={
+	name=Nuh
+	dynasty=2415
+	dna="eefnlcgjeag"
+	culture=tokay religion=great_maku
+	martial=4 diplomacy=4 stewardship=8 intrigue=5 learning=5
+	add_trait=intricate_webweaver add_trait=gardener add_trait=slothful add_trait=just add_trait=charitable 
+	add_trait=humble 
+	father=24509	#Solomon
+	mother=24513
+	3378.12.15={ birth=yes }
+	3443.10.29={ death=yes }
+}
+24511={
+	name=Yabir
+	female=yes
+	dynasty=2415
+	dna="epfleacbgog"
+	culture=tokay religion=great_maku
+	father=24509	#Solomon
+	mother=24513
+	3379.5.12={ birth=yes }
+	3439.9.8={ death=yes }
+}
+24512={
+	name=Mamadi
+	dynasty=2415
+	dna="gbfleccmebm"
+	culture=tokay religion=great_maku
+	martial=5 diplomacy=8 stewardship=8 intrigue=4 learning=7
+	add_trait=mastermind_theologian add_trait=paranoid add_trait=envious add_trait=deceitful add_trait=craven 
+	father=24509	#Solomon
+	mother=24513
+	3381.6.11={ birth=yes }
+	3438.1.23={ death=yes }
+}
+24513={
+	name=Bara
+	dynasty=2415
+	dna="eefleccigog"
+	culture=tokay religion=great_maku
+	martial=8 diplomacy=6 stewardship=5 intrigue=6 learning=8
+	add_trait=detached_priest add_trait=chaste add_trait=just add_trait=patient add_trait=cruel 
+	add_trait=content 
+	3357.1.23={ birth=yes }
+	3481.6.12={ death=yes }
+}
+24514={
+	name=Zelir
+	dynasty=2425
+	dna="kokbgilmpoi"
+	culture=tokay religion=great_maku
+	martial=7 diplomacy=7 stewardship=4 intrigue=5 learning=4
+	add_trait=detached_priest add_trait=patient add_trait=lustful add_trait=cruel add_trait=gluttonous 
+	add_trait=greedy 
+	3368.6.26={ birth=yes }
+	3419.11.14={ death=yes }
+}
