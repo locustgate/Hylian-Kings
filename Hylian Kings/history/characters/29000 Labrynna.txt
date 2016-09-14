@@ -130,4 +130,155 @@
 	3386.1.1={add_spouse=29010}
 	3453.12.23={ death=yes }
 }
-
+29011={
+	name=Adlar
+	dynasty=2015
+	dna="bkppkcolffg"
+	culture=labrynnan religion=great_maku
+	martial=8 diplomacy=5 stewardship=5 intrigue=6 learning=6
+	add_trait=elusive_shadow add_trait=craven add_trait=diligent add_trait=gregarious add_trait=paranoid 
+	3353.5.6={ birth=yes }
+	3375.1.1={add_spouse=29016}
+	3403.5.27={ death=yes }
+}
+29012={
+	name=Lara
+	female=yes
+	dynasty=2015
+	dna="bcpokfibcdg"
+	culture=labrynnan religion=great_maku
+	father=29011	#Adlar
+	mother=29016
+	3377.9.11={ birth=yes }
+	3447.7.8={ death=yes }
+}
+29013={
+	name=Jan
+	dynasty=2015
+	dna="kkdpeclbamh"
+	culture=labrynnan religion=great_maku
+	martial=4 diplomacy=7 stewardship=5 intrigue=4 learning=5
+	add_trait=grey_eminence add_trait=diligent add_trait=greedy add_trait=content add_trait=kind 
+	add_trait=temperate 
+	father=29011	#Adlar
+	mother=29016
+	3381.11.19={ birth=yes }
+	3445.2.18={ death=yes }
+}
+29014={
+	name=Fotini
+	female=yes
+	dynasty=2015
+	dna="jkbpdchlfhg"
+	culture=labrynnan religion=great_maku
+	father=29011	#Adlar
+	mother=29016
+	3383.12.3={ birth=yes }
+	3448.10.28={ death=yes }
+}
+29015={
+	name=Pippin
+	dynasty=2015
+	dna="efbpncbmffg"
+	culture=labrynnan religion=great_maku
+	martial=4 diplomacy=5 stewardship=8 intrigue=7 learning=8
+	add_trait=grey_eminence add_trait=duelist add_trait=gregarious add_trait=chaste add_trait=cynical 
+	add_trait=diligent 
+	father=29011	#Adlar
+	mother=29016
+	3385.11.22={ birth=yes }
+	3450.3.21={ death=yes }
+}
+29016={
+	name=Veran
+	female=yes
+	culture=labrynnan religion=great_maku
+	3353.5.6={ birth=yes }
+	3375.1.1={add_spouse=29011}
+	3403.5.27={ death=yes }
+}
+29017={
+	name=Quirin
+	dynasty=2020
+	dna="eionckoekom"
+	culture=labrynnan religion=pirate_doctrine
+	martial=5 diplomacy=6 stewardship=6 intrigue=6 learning=6
+	add_trait=midas_touched add_trait=cynical add_trait=just add_trait=paranoid 
+	3363.10.20={ birth=yes }
+	3433.11.20={ death=yes }
+}
+29018={
+	name=Oanez
+	dynasty=2025
+	dna="mhaanbiipai"
+	culture=labrynnan religion=pirate_doctrine
+	martial=4 diplomacy=4 stewardship=5 intrigue=5 learning=8
+	add_trait=mastermind_theologian add_trait=kind add_trait=diligent add_trait=gregarious add_trait=cruel 
+	3367.3.9={ birth=yes }
+	3418.4.6={ death=yes }
+}
+29019={
+	name=Chrysanthos
+	dynasty=2030
+	dna="pdlmedecack"
+	culture=labrynnan religion=pirate_doctrine
+	martial=4 diplomacy=4 stewardship=8 intrigue=4 learning=5
+	add_trait=indulgent_wastrel add_trait=humble add_trait=shy add_trait=arbitrary add_trait=greedy 
+	add_trait=kind 
+	3367.4.5={ birth=yes }
+	3439.6.24={ death=yes }
+}
+29020={
+	name=Seppel
+	dynasty=2035
+	dna="gpiklfpihmd"
+	culture=labrynnan religion=pirate_doctrine
+	martial=4 diplomacy=7 stewardship=5 intrigue=7 learning=8
+	add_trait=detached_priest add_trait=brave add_trait=chaste add_trait=envious add_trait=paranoid 
+	add_trait=wroth add_trait=cruel 
+	3369.4.15={ birth=yes }
+	3454.8.8={ death=yes }
+}
+29021={
+	name=Keefe
+	dynasty=2040
+	dna="acdphiikcko"
+	culture=labrynnan religion=pirate_doctrine
+	martial=4 diplomacy=7 stewardship=6 intrigue=4 learning=7
+	add_trait=tough_soldier add_trait=slothful add_trait=just add_trait=patient add_trait=kind 
+	add_trait=ill 
+	3363.1.15={ birth=yes }
+	3424.7.12={ death=yes }
+}
+29022={
+	name=Gavriil
+	dynasty=2045
+	dna="jnghbcglnld"
+	culture=labrynnan religion=pirate_doctrine
+	martial=8 diplomacy=5 stewardship=5 intrigue=5 learning=4
+	add_trait=detached_priest add_trait=honest add_trait=envious add_trait=humble 
+	3363.1.1={ birth=yes }
+	3430.6.14={ death=yes }
+}
+29023={
+	name=Lance
+	dynasty=2050
+	dna="hiigbjhejck"
+	culture=labrynnan religion=pirate_doctrine
+	martial=4 diplomacy=8 stewardship=8 intrigue=8 learning=4
+	add_trait=mastermind_theologian add_trait=duelist add_trait=zealous add_trait=humble add_trait=paranoid 
+	add_trait=arbitrary add_trait=chaste 
+	3364.11.20={ birth=yes }
+	3430.1.23={ death=yes }
+}
+29024={
+	name=Nikolaus
+	dynasty=2055
+	dna="iojbeongmhg"
+	culture=labrynnan religion=pirate_doctrine
+	martial=8 diplomacy=8 stewardship=7 intrigue=5 learning=5
+	add_trait=midas_touched add_trait=just add_trait=deceitful add_trait=lustful add_trait=trusting 
+	add_trait=ambitious add_trait=diligent 
+	3368.12.1={ birth=yes }
+	3415.8.17={ death=yes }
+}
