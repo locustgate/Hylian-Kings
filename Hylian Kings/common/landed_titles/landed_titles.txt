@@ -967,8 +967,7 @@ e_hyrule_central = {
 				holy_site = golden_goddesses
 				holy_site = light_force
 				holy_site = hylia_religion
-				holy_site = sheikahism
-				holy_site = great_maku				
+				holy_site = sheikahism			
 				holy_site = vaati_religion
 				holy_site = gerudo_goddess
 				holy_site = demise_religion
@@ -2031,7 +2030,8 @@ e_moria = {
 			}
 			c_ardemoria = {
 				color={ 119 136 153 }
-				color2={ 47 79 79 }
+				color2={ 47 79 79 }				
+				holy_site = great_maku	
 				
 				b_ardemoria = {}
 				b_diamal = {}
@@ -4485,7 +4485,8 @@ e_holodrum = {
 			}
 			c_jungle_city = {			
 				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color2={ 255 245 238 }				
+				holy_site = great_maku	
 				b_vine_keep = {}
 				b_jungle_city = {}
 				b_maldey = {}
@@ -4971,7 +4972,7 @@ e_labrynna = {
 				b_palm_oil_fields = {}
 			}
 		}
-		d_sotrm_isles = {
+		d_storm_isles = {
 			color={ 255 127 80 }
 			color2={ 255 255 0 }
 			c_eyeglass_island = {

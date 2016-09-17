@@ -2,7 +2,7 @@
 	name=Cador
 	dynasty=13001
 	dna="gnddfkhcojg"
-	culture=morian religion=golden_goddesses
+	culture=morian religion=great_maku
 	martial=4 diplomacy=5 stewardship=4 intrigue=5 learning=4
 	add_trait=misguided_warrior add_trait=honest add_trait=just add_trait=trusting 
 	3323.2.11={ birth=yes }
@@ -13,17 +13,17 @@
 	female=yes
 	dynasty=13001
 	dna="gdkmefhcoak"
-	culture=morian religion=golden_goddesses
+	culture=morian religion=great_maku
 	father=25000	#Cador
 	3347.12.8={ birth=yes }
-	33xx.y.x={add_spouse=hanmoria1}
+	3372.1.13={add_spouse=31059}
 	3403.3.27={ death=yes }
 }
 25002={
 	name=Bedivere
 	dynasty=13001
 	dna="gnddfnliojg"
-	culture=morian religion=golden_goddesses
+	culture=morian religion=great_maku
 	martial=4 diplomacy=4 stewardship=8 intrigue=8 learning=7
 	add_trait=detached_priest add_trait=hedonist add_trait=patient add_trait=cruel add_trait=just 
 	add_trait=temperate add_trait=chaste add_trait=ill 
@@ -36,7 +36,7 @@
 	female=yes
 	dynasty=13001
 	dna="hmdminmiong"
-	culture=morian religion=golden_goddesses
+	culture=morian religion=great_maku
 	father=25002	#Bedivere
 	3375.10.10={ birth=yes }
 	3446.10.15={ death=yes }
@@ -46,7 +46,7 @@
 	female=yes
 	dynasty=13001
 	dna="gnddkidgehp"
-	culture=morian religion=golden_goddesses
+	culture=morian religion=great_maku
 	father=25002	#Bedivere
 	3379.4.4={ birth=yes }
 	3452.4.1={ death=yes }
@@ -56,7 +56,7 @@
 	female=yes
 	dynasty=13001
 	dna="ggodfnlidjg"
-	culture=morian religion=golden_goddesses
+	culture=morian religion=great_maku
 	father=25002	#Bedivere
 	3382.1.22={ birth=yes }
 	3430.10.3={ death=yes }
@@ -65,7 +65,7 @@
 	name=Oberon
 	dynasty=13001
 	dna="dopdfidlofg"
-	culture=morian religion=golden_goddesses
+	culture=morian religion=great_maku
 	martial=6 diplomacy=7 stewardship=4 intrigue=5 learning=5
 	add_trait=flamboyant_schemer add_trait=patient add_trait=charitable 
 	father=25002	#Bedivere
@@ -76,7 +76,7 @@
 	name=Melehan
 	dynasty=13005
 	dna="kcembmedgbj"
-	culture=morian religion=golden_goddesses
+	culture=morian religion=great_maku
 	martial=4 diplomacy=6 stewardship=4 intrigue=4 learning=4
 	add_trait=martial_cleric add_trait=temperate add_trait=kind add_trait=patient 
 	3356.3.8={ birth=yes }
@@ -87,7 +87,7 @@
 	female=yes
 	dynasty=13005
 	dna="knedjmediba"
-	culture=morian religion=golden_goddesses
+	culture=morian religion=great_maku
 	father=25007	#Melehan
 	3380.3.10={ birth=yes }
 	3427.2.24={ death=yes }
@@ -96,7 +96,7 @@
 	name=Geraint
 	dynasty=13005
 	dna="kgohbnodgbj"
-	culture=morian religion=golden_goddesses
+	culture=morian religion=great_maku
 	martial=7 diplomacy=7 stewardship=6 intrigue=7 learning=6
 	add_trait=mastermind_theologian add_trait=shy add_trait=ambitious add_trait=patient add_trait=honest 
 	father=25007	#Melehan
@@ -107,7 +107,7 @@
 	name=Galehault
 	dynasty=13005
 	dna="kcedbkedgne"
-	culture=morian religion=golden_goddesses
+	culture=morian religion=great_maku
 	martial=8 diplomacy=4 stewardship=6 intrigue=4 learning=4
 	add_trait=grey_eminence add_trait=paranoid add_trait=diligent add_trait=ambitious add_trait=temperate 
 	add_trait=brave add_trait=chaste 
@@ -119,7 +119,7 @@
 	name=Ban
 	dynasty=13010
 	dna="aomlkcfbhho"
-	culture=morian religion=golden_goddesses
+	culture=morian religion=great_maku
 	martial=5 diplomacy=6 stewardship=4 intrigue=4 learning=7
 	add_trait=midas_touched add_trait=paranoid add_trait=slothful add_trait=patient add_trait=arbitrary 
 	add_trait=kind 
@@ -130,7 +130,7 @@
 	name=Charles
 	dynasty=13015
 	dna="imfifmbicno"
-	culture=morian religion=golden_goddesses
+	culture=morian religion=great_maku
 	martial=4 diplomacy=4 stewardship=6 intrigue=4 learning=4
 	add_trait=indulgent_wastrel add_trait=ambitious add_trait=arbitrary add_trait=deceitful 
 	3363.9.1={ birth=yes }
@@ -140,7 +140,7 @@
 25013={
 	name=Brangain
 	female=yes
-	culture=morian religion=golden_goddesses
+	culture=morian religion=great_maku
 	3363.9.1={ birth=yes }
 	3377.9.1={add_spouse=25012}
 	3414.1.11={ death=yes }
