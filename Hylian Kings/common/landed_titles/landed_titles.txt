@@ -3369,6 +3369,13 @@ e_hanman = {
 				
 				b_hakumul = {}
 				b_duara = {}
+			}			
+			c_yitara = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				
+				b_yitara = {}
+				b_farun = {}
 			}
 		}
 		d_quruman = {
@@ -3382,13 +3389,6 @@ e_hanman = {
 				
 				b_quruman = {}
 				b_surao = {}
-			}
-			c_yitara = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
-				
-				b_yitara = {}
-				b_farun = {}
 			}
 			c_makanlataka = {
 				color={ 244 164 96 }
@@ -3995,6 +3995,11 @@ e_hanman = {
 				b_otuming = {}
 				b_kishun = {}
 				b_feokun = {}
+			}
+			c_haizhu = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				b_haizhu
 			}
 			c_changyi = {
 				color={ 244 164 96 }

@@ -26,11 +26,6 @@ epidemics = {
 		desc = "RULE_EPIDEMICS_DELAYED_DYNAMIC_DESC"
 	}
 	option = {
-		name = historical
-		text = "RULE_OPTION_HISTORICAL"
-		desc = "RULE_EPIDEMICS_HISTORICAL_DESC"
-	}
-	option = {
 		name = deadly
 		text = "RULE_EPIDEMICS_DEADLY"
 		desc = "RULE_EPIDEMICS_DEADLY_DESC"
@@ -54,46 +49,6 @@ minor_epidemics = {
 		name = fewer
 		text = "RULE_FEWER"
 		desc = "RULE_EPIDEMICS_FEWER_DESC"
-	}
-}
-
-mongol_invasion = {
-	name = "RULE_MONGOL_INVASION"
-	option = {
-		name = historical
-		text = "RULE_OPTION_HISTORICAL"
-		desc = "RULE_MONGOL_INVASION_HISTORICAL_DESC"
-	}
-	option = {
-		name = random
-		text = "RULE_OPTION_RANDOM"
-		desc = "RULE_MONGOL_INVASION_RANDOM_DESC"
-	}
-	option = {
-		name = off
-		achievements = no
-		text = "RULE_OPTION_OFF"
-		desc = "RULE_MONGOL_INVASION_OFF_DESC"
-	}
-}
-
-aztec_invasion = {
-	name = "RULE_AZTEC_INVASION"
-	dlc = "Sunset Invasion"
-	option = {
-		name = historical
-		text = "RULE_AZTEC_13TH"
-		desc = "RULE_AZTEC_INVASION_HISTORICAL_DESC"
-	}
-	option = {
-		name = random
-		text = "RULE_OPTION_RANDOM"
-		desc = "RULE_AZTEC_INVASION_RANDOM_DESC"
-	}
-	option = {
-		name = off
-		text = "RULE_OPTION_OFF"
-		desc = "RULE_AZTEC_INVASION_OFF_DESC"
 	}
 }
 
@@ -131,11 +86,6 @@ gender = {
 		name = default
 		text = "RULE_OPTION_DEFAULT"
 		desc = "RULE_GENDER_DEFAULT_DESC"
-	}
-	option = {
-		name = historical
-		text = "RULE_OPTION_HISTORICAL"
-		desc = "RULE_GENDER_HISTORICAL_DESC"
 	}
 	option = {
 		name = all
@@ -330,21 +280,6 @@ dynamic_realms = {
 		name = off
 		text = "RULE_OPTION_OFF"
 		desc = "RULE_DYNAMIC_REALMS_OFF_DESC"
-	}
-}
-
-charlemagne_story = {
-	name = "RULE_CHARLEMAGNE_STORY"
-	dlc = "Charlemagne"
-	option = {
-		name = on
-		text = "RULE_OPTION_ON"
-		desc = "RULE_CHARLEMAGNE_STORY_ON_DESC"
-	}
-	option = {
-		name = off
-		text = "RULE_OPTION_OFF"
-		desc = "RULE_CHARLEMAGNE_STORY_OFF_DESC"
 	}
 }
 

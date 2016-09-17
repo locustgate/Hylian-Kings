@@ -1,0 +1,200 @@
+33000={
+	name=Nashat
+	dynasty=4805
+	dna="cgocfdnbcbo"
+	culture=dinolfos religion=demise_religion
+	martial=4 diplomacy=4 stewardship=6 intrigue=7 learning=4
+	add_trait=grey_eminence add_trait=humble add_trait=charitable add_trait=content add_trait=gluttonous 
+	add_trait=trusting 
+	3340.6.5={ birth=yes }
+	3386.12.15={ death=yes }
+}
+33001={
+	name=Nilan
+	dynasty=4805
+	dna="cgocfpnakbo"
+	culture=dinolfos religion=demise_religion
+	martial=6 diplomacy=8 stewardship=8 intrigue=4 learning=4
+	add_trait=indulgent_wastrel add_trait=diligent add_trait=temperate 
+	father=33000	#Noi
+	3364.1.13={ birth=yes }
+	3423.10.7={ death=yes }
+}
+33002={
+	name=Ashiadu
+	female=yes
+	dynasty=4805
+	dna="cgicfkmaabo"
+	culture=dinolfos religion=demise_religion
+	father=33001	#Khama
+	3383.6.16={ birth=yes }
+	3444.9.1={ death=yes }
+}
+33003={
+	name=Olbada
+	female=yes
+	dynasty=4805
+	dna="ggdadclgkbb"
+	culture=dinolfos religion=demise_religion
+	father=33001	#Khama
+	3386.6.26={ birth=yes }
+	3439.11.27={ death=yes }
+}
+33004={
+	name=Hakik
+	dynasty=4805
+	dna="ggncgohkkba"
+	culture=dinolfos religion=demise_religion
+	martial=4 diplomacy=8 stewardship=4 intrigue=4 learning=6
+	add_trait=flamboyant_schemer add_trait=gardener add_trait=greedy add_trait=ambitious 
+	father=33001	#Khama
+	3387.2.4={ birth=yes }
+	3427.10.31={ death=yes }
+}
+33005={
+	name=Dianne
+	female=yes
+	dynasty=4805
+	dna="hoocfpnndlo"
+	culture=dinolfos religion=demise_religion
+	father=33001	#Khama
+	3389.1.1={ birth=yes }
+	3418.1.15={ death=yes }
+}
+33006={
+	name=Nakin
+	dynasty=4810
+	dna="cpijdfmeimf"
+	culture=dinolfos religion=demise_religion
+	martial=6 diplomacy=8 stewardship=8 intrigue=6 learning=8
+	add_trait=detached_priest add_trait=diligent add_trait=wroth add_trait=paranoid add_trait=proud 
+	add_trait=gregarious 
+	3362.3.22={ birth=yes }
+	3433.7.21={ death=yes }
+}
+33007={
+	name=Alban
+	dynasty=4815
+	dna="oplglidaada"
+	culture=dinolfos religion=demise_religion
+	martial=4 diplomacy=7 stewardship=7 intrigue=4 learning=4
+	add_trait=flamboyant_schemer add_trait=charitable add_trait=envious add_trait=deceitful add_trait=stressed 
+	3365.3.16={ birth=yes }
+	3426.6.6={ death=yes }
+}
+33008={
+	name=Hiskar
+	dynasty=4820
+	dna="mgijdbmgjgk"
+	culture=dinolfos religion=demise_religion
+	martial=4 diplomacy=4 stewardship=7 intrigue=8 learning=5
+	add_trait=intricate_webweaver add_trait=humble add_trait=wroth add_trait=gluttonous add_trait=zealous 
+	3369.2.11={ birth=yes }
+	3442.6.25={ death=yes }
+}
+33009={
+	name=Vakat
+	dynasty=4825
+	dna="lojhhckafdn"
+	culture=dinolfos religion=demise_religion
+	martial=5 diplomacy=4 stewardship=8 intrigue=5 learning=5
+	add_trait=tough_soldier add_trait=kind add_trait=lustful add_trait=honest add_trait=trusting 
+	add_trait=humble 
+	3367.11.24={ birth=yes }
+	3377.11.24={add_spouse=33010}
+	3442.6.19={ death=yes }
+}
+33010={
+	name=Nardu
+	culture=dinolfos religion=demise_religion
+	3367.11.24={ birth=yes }
+	3377.11.24={add_spouse=33009}
+	3442.6.19={ death=yes }
+}
+33011={
+	name=Hiskar
+	dynasty=4830
+	dna="kodihadknhc"
+	culture=dinolfos religion=demise_religion
+	martial=8 diplomacy=8 stewardship=5 intrigue=8 learning=6
+	add_trait=misguided_warrior add_trait=humble add_trait=patient 
+	3356.7.27={ birth=yes }
+	3375.1.1={add_spouse=33015}
+	3424.5.5={ death=yes }
+}
+33012={
+	name=Akin
+	dynasty=4830
+	dna="modihppkehc"
+	culture=dinolfos religion=demise_religion
+	martial=4 diplomacy=8 stewardship=8 intrigue=5 learning=6
+	add_trait=martial_cleric add_trait=greedy add_trait=honest add_trait=cruel add_trait=temperate 
+	add_trait=gregarious 
+	father=33011	#Hiskar
+	mother=33015
+	3377.6.13={ birth=yes }
+	3436.5.12={ death=yes }
+}
+33013={
+	name=Hadaka
+	female=yes
+	dynasty=4830
+	dna="pocihadikbc"
+	culture=dinolfos religion=demise_religion
+	father=33011	#Hiskar
+	mother=33015
+	3377.3.9={ birth=yes }
+	3426.3.23={ death=yes }
+}
+33014={
+	name=Spaka
+	dynasty=4830
+	dna="klbnhidknmc"
+	culture=dinolfos religion=demise_religion
+	martial=7 diplomacy=5 stewardship=8 intrigue=5 learning=7
+	add_trait=charismatic_negotiator add_trait=duelist add_trait=gluttonous add_trait=honest add_trait=lustful 
+	add_trait=cruel add_trait=envious 
+	father=33011	#Hiskar
+	mother=33015
+	3380.5.22={ birth=yes }
+	3435.1.26={ death=yes }
+}
+33015={
+	name=Nardu
+	female=yes
+	culture=dinolfos religion=demise_religion
+	martial=8 diplomacy=8 stewardship=5 intrigue=8 learning=6
+	3356.7.27={ birth=yes }
+	3375.1.1={add_spouse=33011}
+	3424.5.5={ death=yes }
+}
+33016={
+	name=Tadris
+	dynasty=4835
+	dna="jjhajkffjel"
+	culture=dinolfos religion=demise_religion
+	martial=8 diplomacy=6 stewardship=5 intrigue=7 learning=6
+	add_trait=misguided_warrior add_trait=lustful add_trait=cruel 
+	3365.9.10={ birth=yes }
+	3428.12.9={ death=yes }
+}
+33017={
+	name=Ardus
+	dynasty=4840
+	dna="mlcelmbolae"
+	culture=dinolfos religion=demise_religion
+	martial=5 diplomacy=4 stewardship=5 intrigue=7 learning=6
+	add_trait=charismatic_negotiator add_trait=greedy add_trait=slothful add_trait=cruel add_trait=paranoid 
+	3366.7.22={ birth=yes }
+	3447.8.9={ death=yes }
+}
+33018={
+	name=Olbadan
+	dynasty=4845
+	dna="foenhjmgdbg"
+	culture=dinolfos religion=demise_religion
+	martial=5 diplomacy=6 stewardship=6 intrigue=4 learning=7
+	add_trait=mastermind_theologian add_trait=arbitrary add_trait=cynical add_trait=humble add_trait=paranoid 
+	3367.1.17={ birth=yes }
+	3432.10.22={ death=yes }
+}
