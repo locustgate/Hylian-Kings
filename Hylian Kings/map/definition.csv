@@ -196,7 +196,7 @@ province;red;green;blue;x;x
 195;0;159;225;Palace Island;x
 196;42;162;98;Saria;x
 197;84;165;226;Navi;x
-198;126;168;99;Moruge;x
+198;126;168;99;Morgue;x
 199;168;171;227;Graveyard Vale;x
 200;0;174;0;Mido;x
 201;42;177;128;Parapa;x
@@ -490,7 +490,7 @@ province;red;green;blue;x;x
 489;168;189;172;Hidden Fortress;x
 490;0;192;45;Haunted Wasteland;x
 491;42;195;173;Desert Colossus;x
-492;84;198;46;;x
+492;84;198;46;Lake Hylia;x
 493;126;201;174;Spirit Desert;x
 494;168;204;47;Desert Valley;x
 495;0;207;175;Mirror Sands;x
@@ -548,15 +548,15 @@ province;red;green;blue;x;x
 547;84;150;201;Hidden Village;x
 548;126;153;74;Eldin Foothills;x
 549;168;156;202;North Eldin Plateau;x
-550;0;159;75;;x#
+550;0;159;75;Domain Lake;x#
 551;42;162;203;South Castle;x#
 552;84;165;76;West Castle;x#
 553;126;168;204;Central Castle;x
 554;168;171;77;East Castle;x#
-555;0;174;205;;x#
-556;42;177;78;;x#
+555;0;174;205;River Lake;x#
+556;42;177;78;East Lake Hylia;x#
 557;84;180;206;Amphitheater Field;x
-558;126;183;79;;x
+558;126;183;79;West Lake Hylia;x
 559;168;186;207;Lanayru Castle;x
 560;0;189;80;Chasm Road;x
 561;42;192;208;Lanayru Hills;x
@@ -760,7 +760,7 @@ province;red;green;blue;x;x
 759;168;147;207;Whisp Woods;x
 760;0;150;80;Lanayru Spring;x
 761;42;153;208;Eldin Caves;x
-762;84;156;81;;x
+762;84;156;81;Rapids Lake;x
 763;126;159;209;Soul Temple;x
 764;168;162;82;Lanayru Gorge;x
 765;0;165;210;Valley of Seers;x
@@ -844,7 +844,7 @@ province;red;green;blue;x;x
 843;126;186;149;Esroene;x
 844;168;189;22;Tordyene;x
 845;0;192;150;Irartu;x
-846;42;195;23;;x#Hoho Start
+846;42;195;23;;x#hoho
 847;84;198;151;;x
 848;0;3;225;;x
 849;126;201;24;;x
@@ -935,7 +935,8 @@ province;red;green;blue;x;x
 934;1;135;55;;x
 935;43;138;183;;x
 936;42;39;68;;x
-937;84;42;196;;x#Hoho End
+937;84;42;196;;x
+938;126;45;69;;x#hoho end
 938;126;45;69;Lake Hylia;x#Seazone Start
 939;168;48;197;Domain Spring;x
 940;0;51;70;Rapids Lake;x
@@ -959,13 +960,13 @@ province;red;green;blue;x;x
 958;42;132;48;Lake Boruna;x
 959;84;135;176;Shutoy Lake;x
 960;168;171;182;Marthas Bay;x
-961;168;141;177;Kanalet Moat;x
+961;168;141;177;South Kanalet Moat;x
 962;0;144;50;Lesser Lake Hylia;x
 963;42;147;178;Lake Hytopia;x
-964;84;150;51;;x
-965;126;153;179;;x
-966;168;156;52;;x
-967;0;159;180;;x
+964;84;150;51;Pyzantion Cove;x
+965;126;153;179;South Lake Hylia;x
+966;168;156;52;North Kanalet Moat;x
+967;0;159;180;Catfish River;x
 968;42;162;53;;x
 969;84;87;76;;x
 970;168;21;157;;x
