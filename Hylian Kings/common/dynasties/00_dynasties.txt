@@ -1,11 +1,14 @@
 #Hyrule
 1 = {
 	name="Hyrule"
+	culture = hyrulean
+	used_for_random = no
+	can_appear = no	
 	coat_of_arms = {
 		template = 0
 		layer = {
 			texture = 5
-			texture_internal = 0
+			texture_internal = 1
 			emblem = 0
 			color = 0
 			color = 0
@@ -68,9 +71,7 @@
 
 }
 14 = {
-	name="Calatia"
-	culture = hyrulean
-	
+	name="Calatia"	
 	 
 
 }
@@ -1089,6 +1090,9 @@
 #Impa
 201 = {
 	name="Sheikah"
+	culture = sheikah
+	used_for_random = no
+	can_appear = no	
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -2099,6 +2103,8 @@
 401 = {
 	name="Bo"
 	culture = ordonion
+	used_for_random = no
+	can_appear = no	
 	
 
 }
@@ -9332,996 +9338,996 @@
 
 1802 = {
 	name="Chalon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1803 = {
 	name="Chertgoron"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1804 = {
 	name="Claysgon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1805 = {
 	name="Conglomerog"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1806 = {
 	name="Dolomron"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1807 = {
 	name="Limesron"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1808 = {
 	name="Mudsrog"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1809 = {
 	name="Saltgon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1810 = {
 	name="Sandsrog"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1811 = {
 	name="Shalmus"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1812 = {
 	name="Siltigon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1813 = {
 	name="Diorigon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1814 = {
 	name="Gabbron"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1815 = {
 	name="Granicus"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1816 = {
 	name="Andesicus"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1817 = {
 	name="Basalt"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1818 = {
 	name="Dacicus"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1819 = {
 	name="Obsidicus"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1820 = {
 	name="Rhyolicus"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1821 = {
 	name="Magmus"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1822 = {
 	name="Gneisogon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1823 = {
 	name="Marbron"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1824 = {
 	name="Phyllise"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1825 = {
 	name="Quartzise"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1826 = {
 	name="Schise"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1827 = {
 	name="Slatigon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1828 = {
 	name="Sladoron"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1829 = {
 	name="Slag"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1830 = {
 	name="Gravelgus"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1831 = {
 	name="Dises"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1832 = {
 	name="Secon"
-	culture = cocco_goron 
+	culture = cucco_goron 
 }
 
 1833 = {
 	name="Sinabsun"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1834 = {
 	name="Cogok"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1835 = {
 	name="Sosis"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1836 = {
 	name="Litasrog"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1837 = {
 	name="Dasasis"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1838 = {
 	name="Cosoricon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1839 = {
 	name="Dalon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1840 = {
 	name="Sosurin"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1841 = {
 	name="Disose"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1842 = {
 	name="Lamin"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1843 = {
 	name="Slolin"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1844 = {
 	name="Samrug"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1845 = {
 	name="Sadsrug"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1846 = {
 	name="Cul"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1847 = {
 	name="Tasacok"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1848 = {
 	name="Dagas"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1849 = {
 	name="Schin"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1850 = {
 	name="Gices"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1851 = {
 	name="Cirzton"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1852 = {
 	name="Sosoran"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1853 = {
 	name="Slirbre"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1854 = {
 	name="Sinoson"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1855 = {
 	name="Mire"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1856 = {
 	name="Madelte"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1857 = {
 	name="Dodsran"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1858 = {
 	name="Gison"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1859 = {
 	name="Dacolte"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1860 = {
 	name="Muson"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1861 = {
 	name="Dolug"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1862 = {
 	name="Mocon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1863 = {
 	name="Chodun"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1864 = {
 	name="Diron"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1865 = {
 	name="Shogos"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1866 = {
 	name="Soson"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1867 = {
 	name="Casride"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1868 = {
 	name="Bosilte"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1869 = {
 	name="Shocagon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1870 = {
 	name="Dasuagos"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1871 = {
 	name="Chodok"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1872 = {
 	name="Chomose"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1873 = {
 	name="Socoge"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1874 = {
 	name="Sudocon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1875 = {
 	name="Miridon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1876 = {
 	name="Dasis"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1877 = {
 	name="Chodalt"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1878 = {
 	name="Miosgon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1879 = {
 	name="Mirin"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1880 = {
 	name="Migode"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1881 = {
 	name="Mirocan"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1882 = {
 	name="Gosin"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1883 = {
 	name="Migon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1884 = {
 	name="Micunglon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1885 = {
 	name="Mica"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1886 = {
 	name="Rhyosog"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1887 = {
 	name="Lubbrak"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1888 = {
 	name="Dosomon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1889 = {
 	name="Slabsag"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1890 = {
 	name="Somilte"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1891 = {
 	name="Chalon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1892 = {
 	name="Clalte"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1893 = {
 	name="Digade"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1894 = {
 	name="Dagos"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1895 = {
 	name="Garulon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1896 = {
 	name="Simon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1897 = {
 	name="Bilacon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1898 = {
 	name="Gomon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1899 = {
 	name="Mococon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1900 = {
 	name="Garocan"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 1901 = {
 	name="Garibson"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1902 = {
 	name="Misumon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1903 = {
 	name="Bamolte"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1904 = {
 	name="Dicus"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1905 = {
 	name="Lunurug"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1906 = {
 	name="Samracag"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1907 = {
 	name="Crag"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1908 = {
 	name="Dasedure"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1909 = {
 	name="Dure"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1910 = {
 	name="Sinonin"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1911 = {
 	name="Clulilte"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1912 = {
 	name="Duron"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1913 = {
 	name="Gnodun"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1914 = {
 	name="Losolte"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1915 = {
 	name="Mirisan"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1916 = {
 	name="Grolil"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1917 = {
 	name="Sladun"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1918 = {
 	name="Rhyeron"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1919 = {
 	name="Dotel"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1920 = {
 	name="Cocimon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1921 = {
 	name="Mocalte"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1922 = {
 	name="Dasudan"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1923 = {
 	name="Sodeson"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1924 = {
 	name="Omules"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1925 = {
 	name="Cocolte"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1926 = {
 	name="Olilte"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1927 = {
 	name="Sladocar"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1928 = {
 	name="Gisason"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1929 = {
 	name="Onis"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1930 = {
 	name="Sosen"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1931 = {
 	name="Gilte"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1932 = {
 	name="Chodig"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1933 = {
 	name="Licacig"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1934 = {
 	name="Gosgon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1935 = {
 	name="Omolon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1936 = {
 	name="Cacon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1937 = {
 	name="Groce"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1938 = {
 	name="Ganide"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1939 = {
 	name="Nide"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1940 = {
 	name="Daseicos"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1941 = {
 	name="Slocon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1942 = {
 	name="Deciltes"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1943 = {
 	name="Dasos"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1944 = {
 	name="Slace"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1945 = {
 	name="Momres"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1946 = {
 	name="Dunde"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1947 = {
 	name="Slados"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1948 = {
 	name="Dasin"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1949 = {
 	name="Cabsus"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1950 = {
 	name="Osig"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1951 = {
 	name="Gogon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1952 = {
 	name="Gogide"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1953 = {
 	name="Gire"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1954 = {
 	name="Cigus"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1955 = {
 	name="Omog"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1956 = {
 	name="Dasug"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1957 = {
 	name="Bogan"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1958 = {
 	name="Colis"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1959 = {
 	name="Bicicok"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1960 = {
 	name="Cadaces"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1961 = {
 	name="Sican"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1962 = {
 	name="Gagote"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1963 = {
 	name="Sinidon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1964 = {
 	name="Sigasun"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1965 = {
 	name="Molalte"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1966 = {
 	name="Omon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1967 = {
 	name="Ligman"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1968 = {
 	name="Decon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1969 = {
 	name="Schadis"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1970 = {
 	name="Salomade"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1971 = {
 	name="Stalagmight"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1972 = {
 	name="Stalagton"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1973 = {
 	name="Dasag"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1974 = {
 	name="Gnilon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1975 = {
 	name="Docon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1976 = {
 	name="Chodis"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1977 = {
 	name="Dasag"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1978 = {
 	name="Mondete"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1979 = {
 	name="Gidace"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1980 = {
 	name="Disocas"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1981 = {
 	name="Osogan"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1982 = {
 	name="Qugolte"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1983 = {
 	name="Golte"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1984 = {
 	name="Dasayn"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1985 = {
 	name="Cidon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1986 = {
 	name="Dasein"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1987 = {
 	name="Slirin"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1988 = {
 	name="Garok"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1989 = {
 	name="Miradag"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1990 = {
 	name="Dosede"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1991 = {
 	name="Clorog"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1992 = {
 	name="Sirtgan"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1993 = {
 	name="Losilon"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1994 = {
 	name="Disos"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1995 = {
 	name="sediros"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1996 = {
 	name="Sulate"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1997 = {
 	name="Disasog"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1998 = {
 	name="Dasole"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 1999 = {
 	name="Domiton"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 2000 = {
 	name="Sosog"
-	culture = cocco_goron
+	culture = cucco_goron
 }
 
 
@@ -43317,6 +43323,8 @@
 }
 8601 = {
 	name="Twilight"
+	used_for_random = no
+	can_appear = no	
 	culture = twili
 }
 
@@ -71225,7 +71233,7 @@
 }
 
 14194 = {
-	name="Earas
+	name="Earas"
 	culture = skylofter
 }
 
@@ -72257,7 +72265,7 @@
 	culture = hylian
 }
 14401 = {
-	name="Ranos
+	name="Ranos"
 	culture = hylian_hanman
 }
 
@@ -73016,7 +73024,7 @@
 }
 
 14553 = {
-	name="Dangh
+	name="Dangh"
 	culture = hylian_hanman
 }
 
@@ -73254,28 +73262,1020 @@
 	name="Raner"
 	culture = hylian_hanman
 }
-14601 = {#LINK Pre Sealing War Bookmark
+14601 = {
 	name="Madas"
+	culture = hyrulean
+	used_for_random = no
+	can_appear = no	
 }
-14601 = {#LINK Sealing War Bookmark
+14602 = {#LINK Sealing War Bookmark
 	name="Lon-Madas"
+	culture = hyrulean
+	used_for_random = no
+	can_appear = no	
 }
 14603 = {#LINK Post Sealing War Bookmark
 	name="Lodas"
+	culture = hyrulean
+	used_for_random = no
+	can_appear = no	
 }
 14604 = {
 	name="Demise"
+	culture = hyrulean
+	used_for_random = no
+	can_appear = no	
 }
 14605 = {
 	name="Hylia"
+	culture = hyrulean
+	used_for_random = no
+	can_appear = no	
 }
 14606 = {
 	name="Jakamar"
+	culture = skylofter
+	used_for_random = no
+	can_appear = no	
 }
 14607 = {
 	name="Batreaux"
+	culture = demon
+	used_for_random = no
+	can_appear = no	
 }
 
 14608 = {
 	name="Morusego"
-}}
+	culture = demon
+	used_for_random = no
+	can_appear = no	
+}
+
+14609 = {
+	name="Mwana"
+	culture = girrin
+}
+
+14610 = {
+	name="Nyumi"
+	culture = girrin
+}
+
+14611 = {
+	name="Faje"
+	culture = girrin
+}
+
+14612 = {
+	name="Ilehya"
+	culture = girrin
+}
+
+14613 = {
+	name="Jarun"
+	culture = girrin
+}
+
+14614 = {
+	name="Semuworun"
+	culture = girrin
+}
+
+14615 = {
+	name="Nyufi"
+	culture = girrin
+}
+
+14616 = {
+	name="Nuswaolun"
+	culture = girrin
+}
+
+14617 = {
+	name="Naroja"
+	culture = girrin
+}
+
+14618 = {
+	name="Jibhin"
+	culture = girrin
+}
+
+14619 = {
+	name="Fumuwe"
+	culture = girrin
+}
+
+14620 = {
+	name="Feung"
+	culture = girrin
+}
+
+14621 = {
+	name="Mwufi"
+	culture = girrin
+}
+
+14622 = {
+	name="Nyung"
+	culture = girrin
+}
+
+14623 = {
+	name="Khun"
+	culture = girrin
+}
+
+14624 = {
+	name="Chuhyo"
+	culture = girrin
+}
+
+14625 = {
+	name="Mwehyo"
+	culture = girrin
+}
+
+14626 = {
+	name="Meursawala"
+	culture = girrin
+}
+
+14627 = {
+	name="Magja"
+	culture = girrin
+}
+
+14628 = {
+	name="Zefi"
+	culture = girrin
+}
+
+14629 = {
+	name="Karin"
+	culture = girrin
+}
+
+14630 = {
+	name="Mileung"
+	culture = girrin
+}
+
+14631 = {
+	name="Chumabjawowiruon"
+	culture = girrin
+}
+
+14632 = {
+	name="Jimon"
+	culture = girrin
+}
+
+14633 = {
+	name="Jomi"
+	culture = girrin
+}
+
+14634 = {
+	name="Mwara"
+	culture = girrin
+}
+
+14635 = {
+	name="Zarun"
+	culture = girrin
+}
+
+14636 = {
+	name="Iwifi"
+	culture = girrin
+}
+
+14637 = {
+	name="Joran"
+	culture = girrin
+}
+
+14638 = {
+	name="Aman"
+	culture = girrin
+}
+
+14639 = {
+	name="Fawan"
+	culture = girrin
+}
+
+14640 = {
+	name="Irono"
+	culture = girrin
+}
+
+14641 = {
+	name="Fufi"
+	culture = girrin
+}
+
+14642 = {
+	name="Jibhon"
+	culture = girrin
+}
+
+14643 = {
+	name="Sonan"
+	culture = girrin
+}
+
+14644 = {
+	name="Sabhan"
+	culture = girrin
+}
+
+14645 = {
+	name="Neung"
+	culture = girrin
+}
+
+14646 = {
+	name="Sorun"
+	culture = girrin
+}
+
+14647 = {
+	name="Jefi"
+	culture = girrin
+}
+
+14648 = {
+	name="Keon"
+	culture = girrin
+}
+
+14649 = {
+	name="Nyufe"
+	culture = girrin
+}
+
+14650 = {
+	name="Ireon"
+	culture = girrin
+}
+
+14651 = {
+	name="Someok"
+	culture = girrin
+}
+
+14652 = {
+	name="Fabha"
+	culture = girrin
+}
+
+14653 = {
+	name="Mumuhyo"
+	culture = girrin
+}
+
+14654 = {
+	name="Unuhyo"
+	culture = girrin
+}
+
+14655 = {
+	name="Irebyan"
+	culture = girrin
+}
+
+14656 = {
+	name="Jarja"
+	culture = girrin
+}
+
+14657 = {
+	name="Tomen"
+	culture = girrin
+}
+
+14658 = {
+	name="Soswung"
+	culture = girrin
+}
+
+14659 = {
+	name="Song"
+	culture = girrin
+}
+
+14660 = {
+	name="Nyunan"
+	culture = girrin
+}
+
+14661 = {
+	name="Naomen"
+	culture = girrin
+}
+
+14662 = {
+	name="Enumi"
+	culture = girrin
+}
+
+14663 = {
+	name="Tara"
+	culture = girrin
+}
+
+14664 = {
+	name="Kabyewon"
+	culture = girrin
+}
+
+14665 = {
+	name="Tiarimiron"
+	culture = girrin
+}
+
+14666 = {
+	name="Keron"
+	culture = girrin
+}
+
+14667 = {
+	name="Siring"
+	culture = girrin
+}
+
+14668 = {
+	name="Nuruhyo"
+	culture = girrin
+}
+
+14669 = {
+	name="Anihyo"
+	culture = girrin
+}
+
+14670 = {
+	name="Zeohyo"
+	culture = girrin
+}
+
+14671 = {
+	name="Suomubhuri"
+	culture = girrin
+}
+
+14672 = {
+	name="Seori"
+	culture = girrin
+}
+
+14673 = {
+	name="Mwiwuri"
+	culture = girrin
+}
+
+14674 = {
+	name="Ibhanin"
+	culture = girrin
+}
+
+14675 = {
+	name="Mowi"
+	culture = girrin
+}
+
+14676 = {
+	name="Sanyi"
+	culture = girrin
+}
+
+14677 = {
+	name="Fagjashehyo"
+	culture = girrin
+}
+
+14678 = {
+	name="Seomek"
+	culture = girrin
+}
+
+14679 = {
+	name="Zamen"
+	culture = girrin
+}
+
+14680 = {
+	name="Tunaun"
+	culture = girrin
+}
+
+14681 = {
+	name="Foriri"
+	culture = girrin
+}
+
+14682 = {
+	name="Toluri"
+	culture = girrin
+}
+
+14683 = {
+	name="Toluri"
+	culture = girrin
+}
+
+14684 = {
+	name="Chalafa"
+	culture = girrin
+}
+
+14685 = {
+	name="Chala"
+	culture = girrin
+}
+
+14686 = {
+	name="Faonin"
+	culture = girrin
+}
+
+14687 = {
+	name="Senan"
+	culture = girrin
+}
+
+14688 = {
+	name="Murse"
+	culture = girrin
+}
+
+14689 = {
+	name="Ifeung"
+	culture = girrin
+}
+
+14690 = {
+	name="Memon"
+	culture = girrin
+}
+
+14691 = {
+	name="Injon"
+	culture = girrin
+}
+
+14692 = {
+	name="Joji"
+	culture = girrin
+}
+
+14693 = {
+	name="Seumeok"
+	culture = girrin
+}
+
+14694 = {
+	name="Jun"
+	culture = girrin
+}
+
+14695 = {
+	name="Jihyi"
+	culture = girrin
+}
+
+14696 = {
+	name="Faomunen"
+	culture = girrin
+}
+
+14697 = {
+	name="Narara"
+	culture = girrin
+}
+
+14698 = {
+	name="Sojon"
+	culture = girrin
+}
+
+14699 = {
+	name="Menyo"
+	culture = girrin
+}
+
+14600 = {
+	name="Saursuwaun"
+	culture = girrin
+}
+14701 = {
+	name="Aligir"
+	culture = lynol
+}
+
+14702 = {
+	name="Baula"
+	culture = lynol
+}
+
+14703 = {
+	name="Jokiy"
+	culture = lynol
+}
+
+14704 = {
+	name="Olizwa"
+	culture = lynol
+}
+
+14705 = {
+	name="Jesi"
+	culture = lynol
+}
+
+14706 = {
+	name="Avinibe"
+	culture = lynol
+}
+
+14707 = {
+	name="Mongi"
+	culture = lynol
+}
+
+14708 = {
+	name="Bauzwosi"
+	culture = lynol
+}
+
+14709 = {
+	name="Bukane"
+	culture = lynol
+}
+
+14710 = {
+	name="Isabar"
+	culture = lynol
+}
+
+14711 = {
+	name="Adakero"
+	culture = lynol
+}
+
+14712 = {
+	name="Maro"
+	culture = lynol
+}
+
+14713 = {
+	name="Aribi"
+	culture = lynol
+}
+
+14714 = {
+	name="Bausa"
+	culture = lynol
+}
+
+14715 = {
+	name="Abata"
+	culture = lynol
+}
+
+14716 = {
+	name="Ozodat"
+	culture = lynol
+}
+
+14717 = {
+	name="Baliro"
+	culture = lynol
+}
+
+14718 = {
+	name="Kanih"
+	culture = lynol
+}
+
+14719 = {
+	name="Bada"
+	culture = lynol
+}
+
+14720 = {
+	name="Bhali"
+	culture = lynol
+}
+
+14721 = {
+	name="Chibisi"
+	culture = lynol
+}
+
+14722 = {
+	name="Jase"
+	culture = lynol
+}
+
+14723 = {
+	name="Jorul"
+	culture = lynol
+}
+
+14724 = {
+	name="Uriba"
+	culture = lynol
+}
+
+14725 = {
+	name="Abam"
+	culture = lynol
+}
+
+14726 = {
+	name="Utobi"
+	culture = lynol
+}
+
+14727 = {
+	name="Kinnu"
+	culture = lynol
+}
+
+14728 = {
+	name="Kinnu"
+	culture = lynol
+}
+
+14729 = {
+	name="Bozwa"
+	culture = lynol
+}
+
+14730 = {
+	name="Bhata"
+	culture = lynol
+}
+
+14731 = {
+	name="Chavo"
+	culture = lynol
+}
+
+14732 = {
+	name="Oker"
+	culture = lynol
+}
+
+14733 = {
+	name="Jsareh"
+	culture = lynol
+}
+
+14734 = {
+	name="Ibose"
+	culture = lynol
+}
+
+14735 = {
+	name="Isasa"
+	culture = lynol
+}
+
+14736 = {
+	name="Awase"
+	culture = lynol
+}
+
+14737 = {
+	name="Chebi"
+	culture = lynol
+}
+
+14738 = {
+	name="Ase"
+	culture = lynol
+}
+
+14739 = {
+	name="Nongi"
+	culture = lynol
+}
+
+14740 = {
+	name="Kesase"
+	culture = lynol
+}
+
+14741 = {
+	name="Besagadike"
+	culture = lynol
+}
+
+14742 = {
+	name="Chikeb"
+	culture = lynol
+}
+
+14743 = {
+	name="Akandi"
+	culture = lynol
+}
+
+14744 = {
+	name="Ogasu"
+	culture = lynol
+}
+
+14745 = {
+	name="Ibivu"
+	culture = lynol
+}
+
+14746 = {
+	name="Azwat"
+	culture = lynol
+}
+
+14747 = {
+	name="Atose"
+	culture = lynol
+}
+
+14748 = {
+	name="Otoba"
+	culture = lynol
+}
+
+14749 = {
+	name="Chagar"
+	culture = lynol
+}
+
+14750 = {
+	name="Imasih"
+	culture = lynol
+}
+
+14751 = {
+	name="Besel"
+	culture = lynol
+}
+
+14752 = {
+	name="Chikebu"
+	culture = lynol
+}
+
+14753 = {
+	name="Chiza"
+	culture = lynol
+}
+
+14754 = {
+	name="Idasiy"
+	culture = lynol
+}
+
+14755 = {
+	name="Chikih"
+	culture = lynol
+}
+
+14756 = {
+	name="Yilikise"
+	culture = lynol
+}
+
+14757 = {
+	name="Maka"
+	culture = lynol
+}
+
+14758 = {
+	name="Bhase"
+	culture = lynol
+}
+
+14759 = {
+	name="Okit"
+	culture = lynol
+}
+
+14760 = {
+	name="Orikata"
+	culture = lynol
+}
+
+14761 = {
+	name="Alise"
+	culture = lynol
+}
+
+14762 = {
+	name="Chiko"
+	culture = lynol
+}
+
+14763 = {
+	name="Isam"
+	culture = lynol
+}
+
+14764 = {
+	name="Hilu"
+	culture = lynol
+}
+
+14765 = {
+	name="Hinly"
+	culture = lynol
+}
+
+14766 = {
+	name="Hitat"
+	culture = lynol
+}
+
+14767 = {
+	name="Babingi"
+	culture = lynol
+}
+
+14768 = {
+	name="Malob"
+	culture = lynol
+}
+
+14769 = {
+	name="Obaku"
+	culture = lynol
+}
+
+14770 = {
+	name="Baulah"
+	culture = lynol
+}
+
+14771 = {
+	name="Hidasu"
+	culture = lynol
+}
+
+14772 = {
+	name="Bhazongat"
+	culture = lynol
+}
+
+14773 = {
+	name="Chabi"
+	culture = lynol
+}
+
+14774 = {
+	name="Isadir"
+	culture = lynol
+}
+
+14775 = {
+	name="Aziningi"
+	culture = lynol
+}
+
+14776 = {
+	name="Bamala"
+	culture = lynol
+}
+
+14777 = {
+	name="Azwaya"
+	culture = lynol
+}
+
+14778 = {
+	name="Avaro"
+	culture = lynol
+}
+
+14779 = {
+	name="Akada"
+	culture = lynol
+}
+
+14780 = {
+	name="Avawwi"
+	culture = lynol
+}
+
+14781 = {
+	name="Niwila"
+	culture = lynol
+}
+
+14782 = {
+	name="Kanatasu"
+	culture = lynol
+}
+
+14783 = {
+	name="Chal"
+	culture = lynol
+}
+
+14784 = {
+	name="Isibdu"
+	culture = lynol
+}
+
+14785 = {
+	name="Chadatar"
+	culture = lynol
+}
+
+14786 = {
+	name="Osangi"
+	culture = lynol
+}
+
+14787 = {
+	name="Buse"
+	culture = lynol
+}
+
+14788 = {
+	name="Alikat"
+	culture = lynol
+}
+
+14789 = {
+	name="Adangi"
+	culture = lynol
+}
+
+14790 = {
+	name="egisa"
+	culture = lynol
+}
+
+14791 = {
+	name="Isaze"
+	culture = lynol
+}
+
+14792 = {
+	name="Biniy"
+	culture = lynol
+}
+
+14793 = {
+	name="Bangi"
+	culture = lynol
+}
+
+14794 = {
+	name="Jakangi"
+	culture = lynol
+}
+
+14795 = {
+	name="Karat"
+	culture = lynol
+}
+
+14796 = {
+	name="Obasu"
+	culture = lynol
+}
+
+14797 = {
+	name="Ongi"
+	culture = lynol
+}
+
+14798 = {
+	name="Kisangi"
+	culture = lynol
+}
+
+14799 = {
+	name="Obawi"
+	culture = lynol
+}
+
+14700 = {
+	name="Bisu"
+	culture = lynol
+}
+14701 = {
+	name="Proodyl"
+	culture=darknut
+}
+
+14702 = {
+	name="Kanalet"
+	culture=koholinter
+}

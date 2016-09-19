@@ -3699,7 +3699,13 @@ e_hanman = {
 			color2={ 188 0 45 }
 			capital = 117
 			
-			c_daya	 = {
+			c_ruchuwa = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				b_ruchuwa={}
+			}
+			
+			c_daya = {
 				color={ 244 164 96 }
 				color2={ 255 222 0 }
 				
@@ -4163,6 +4169,11 @@ e_hanman = {
 				
 				b_okara = {}
 				b_thigi_2 = {}
+			}
+			c_kabichi = {
+				color={ 244 164 96 }
+				color2={ 255 222 0 }
+				b_kabichi={}
 			}
 		}
 		d_sanbu = {
