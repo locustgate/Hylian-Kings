@@ -730,14 +730,6 @@ e_hyrule_central = {
 				b_pila = {}
 				b_padia = {}
 			}
-			c_wooddell = {
-				color={ 0 104 46 }
-				color2={ 249 228 83 }
-				
-				b_wooddell = {}
-				b_pilan = {}
-				b_calo = {}
-			}
 			c_rivertown = {
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
@@ -1229,13 +1221,6 @@ e_mudora = {
 				b_temple_of_darkness = {}
 				b_dordo = {}
 			}
-			c_eastern_plains = {
-				color={ 0 170 0 }
-				color2={ 255 255 255 }
-				b_doniratun = {}
-				b_doliran = {}
-				b_rorcardu = {}
-			}
 		}
 		d_western_mudora = {
 			color={ 0 170 0 }
@@ -1320,7 +1305,14 @@ e_mudora = {
 				color={ 0 170 0 }
 				color2={ 255 255 255 }
 				b_mudora_gate = {}
-			}		
+			}	
+			c_eastern_plains = {
+				color={ 0 170 0 }
+				color2={ 255 255 255 }
+				b_doniratun = {}
+				b_doliran = {}
+				b_rorcardu = {}
+			}	
 		}
 		d_grand_hylia= {
 			color={ 65 105 225 }
@@ -1541,12 +1533,6 @@ e_mudora = {
 				b_dutari = {}
 				b_sorinori = {}
 			}
-			c_morango = {
-				color={ 0 170 0 }
-				color2={ 255 255 255 }
-				b_modari = {}
-				b_onari = {}
-			}
 			c_turongo = {
 				color={ 0 170 0 }
 				color2={ 255 255 255 }
@@ -1604,7 +1590,13 @@ e_mudora = {
 				b_toodu = {}
 				b_kisin = {}
 				b_dobish = {}
-			}	
+			}
+			c_morango = {
+				color={ 0 170 0 }
+				color2={ 255 255 255 }
+				b_modari = {}
+				b_onari = {}
+			}			
 		}
 	}
 }
@@ -2673,7 +2665,13 @@ e_sea_tree = {
 		d_dekuvia = {
 			color={ 34 139 34}
 			color2={ 85 107 47 }
-			capital = 671
+			capital = 671			
+			c_deku_river = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_sobek = {}
+				b_kobia = {}
+			}
 			c_deku_palace = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
@@ -2741,8 +2739,13 @@ e_sea_tree = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
 					b_sikiko = {}
-				b_fubiria = {}
-
+					b_fubiria = {}
+			}			
+			c_dekugates = {
+				color={ 34 139 34}
+				color2={ 85 107 47 }
+					b_kesedo = {}
+				b_mevia = {}
 			}
 		}
 		d_deku_forest = {
@@ -2887,6 +2890,14 @@ e_sea_tree = {
 				b_kolia = {}
 				b_movi = {}
 			}
+			c_wooddell = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+				
+				b_wooddell = {}
+				b_pilan = {}
+				b_calo = {}
+			}
 		}
 		d_flower_woods = {
 			color={ 34 139 34}
@@ -2905,23 +2916,6 @@ e_sea_tree = {
 					b_kudi = {}
 				b_sovaria = {}
 				b_farovia = {}
-			}
-		}
-		d_deku_gate = {
-			color={ 34 139 34}
-			color2={ 85 107 47 }
-			capital = 671
-			c_dekugates = {
-				color={ 34 139 34}
-				color2={ 85 107 47 }
-					b_kesedo = {}
-				b_mevia = {}
-			}
-			c_deku_river = {
-				color={ 34 139 34}
-				color2={ 85 107 47 }
-					b_sobek = {}
-				b_kobia = {}
 			}
 		}
 	}
@@ -5122,16 +5116,6 @@ e_calatia = {
 					b_conicia = {}
 					b_bacia = {}
 				}
-				c_baphlagoina = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
-				
-									b_baphlagoina = {}
-					b_rycia = {}
-					b_ghithoda = {}
-					b_cutozoce = {}
-					b_lhais = {}
-				}
 			}
 			d_lhodia = {
 				color={ 150 75 75 }
@@ -5247,7 +5231,17 @@ e_calatia = {
 			d_aphesos = {
 				color={ 150 75 75 }
 				color2={ 255 255 255 }			
-				capital = 378
+				capital = 378				
+				c_baphlagoina = {
+					color={ 150 75 75 }
+					color2={ 255 255 255 }	
+				
+					b_baphlagoina = {}
+					b_rycia = {}
+					b_ghithoda = {}
+					b_cutozoce = {}
+					b_lhais = {}
+				}
 				c_aphesos = {
 					color={ 150 75 75 }
 					color2={ 255 255 255 }	
@@ -7880,7 +7874,13 @@ k_arcadia = {
 	d_arcadia = {
 		color={ 255 255 0 }
 		color2={ 255 255 255 }		
-		capital = 247
+		capital = 247		
+		c_curtania = {
+			color={ 255 255 0 }
+			color2={ 255 255 255 }	
+			b_curtania = {}
+			b_voarinia = {}
+		}
 		c_arcadia = {
 			color={ 255 255 0 }
 			color2={ 255 255 255 }	
@@ -8010,23 +8010,10 @@ k_arcadia = {
 			b_codia_2 = {}
 		}
 	}
-	d_curtania = {
+	d_odyssia = {
 		color={ 255 255 0 }
 		color2={ 255 255 255 }		
 		capital = 247
-		c_curtania = {
-			color={ 255 255 0 }
-			color2={ 255 255 255 }	
-			b_curtania = {}
-			b_voarinia = {}
-		}
-		c_polia = {
-			color={ 255 255 0 }
-			color2={ 255 255 255 }	
-			b_polia = {}
-			b_sigia = {}
-			b_xoria = {}
-		}
 		c_odyssia = {
 			color={ 255 255 0 }
 			color2={ 255 255 255 }	
@@ -8144,7 +8131,14 @@ k_arcadia = {
 	d_acacesia = {
 		color={ 255 255 0 }
 		color2={ 255 255 255 }		
-		capital = 247
+		capital = 247		
+		c_polia = {
+			color={ 255 255 0 }
+			color2={ 255 255 255 }	
+			b_polia = {}
+			b_sigia = {}
+			b_xoria = {}
+		}
 		c_capetia = {
 			color={ 255 255 0 }
 			color2={ 255 255 255 }	
