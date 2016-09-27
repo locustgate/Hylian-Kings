@@ -1,0 +1,134 @@
+37000={
+	name=Edme
+	dynasty=14607
+	dna="aocjcmbmpib"
+	culture=arcadian religion=golden_goddesses
+	martial=6 diplomacy=5 stewardship=7 intrigue=5 learning=4
+	add_trait=charismatic_negotiator add_trait=slothful add_trait=deceitful add_trait=shy add_trait=cruel 
+	add_trait=proud add_trait=zealous 
+	trait=bloodline_batreaux
+	father=72
+	3157.11.24={ birth=yes }
+	3238.5.10={ death=yes }
+}
+37001={
+	name=Ludovic
+	dynasty=14607
+	dna="adjjcmkmeeb"
+	culture=arcadian religion=golden_goddesses
+	martial=7 diplomacy=4 stewardship=8 intrigue=4 learning=5
+	add_trait=midas_touched add_trait=patient add_trait=envious add_trait=cynical add_trait=lustful 
+	trait=bloodline_batreaux
+	father=37000	#Edme
+	3187.9.9={ birth=yes }
+	3252.1.13={ death=yes }
+}
+37002={
+	name=Mael
+	dynasty=14607
+	dna="ffbjcmkleek"
+	culture=arcadian religion=golden_goddesses
+	martial=7 diplomacy=8 stewardship=6 intrigue=7 learning=6
+	add_trait=midas_touched add_trait=gregarious add_trait=zealous add_trait=craven add_trait=proud 
+	add_trait=patient 
+	trait=bloodline_batreaux
+	father=37001	#Ludovic
+	3217.4.3={ birth=yes }
+	3283.4.16={ death=yes }
+}
+37003={
+	name=Florent
+	dynasty=14607
+	dna="hapjcmkljcj"
+	culture=arcadian religion=golden_goddesses
+	martial=8 diplomacy=8 stewardship=6 intrigue=7 learning=5
+	add_trait=misguided_warrior
+	trait=bloodline_batreaux add_trait=diligent add_trait=just add_trait=envious 
+	father=37002	#Mael
+	3245.6.24={ birth=yes }
+	3300.3.4={ death=yes }
+}
+37004={
+	name=Firmin
+	dynasty=14607
+	dna="hjhjgifehlj"
+	culture=arcadian religion=golden_goddesses
+	martial=4 diplomacy=5 stewardship=4 intrigue=4 learning=5
+	add_trait=midas_touched
+	trait=bloodline_batreaux add_trait=hedonist add_trait=proud add_trait=gluttonous add_trait=shy 
+	add_trait=lunatic 
+	father=37003	#Florent
+	3274.10.17={ birth=yes }
+	3334.6.12={ death=yes }
+}
+37005={
+	name=Maxime
+	dynasty=14607
+	dna="ijmlgiddflk"
+	culture=arcadian religion=golden_goddesses
+	martial=7 diplomacy=5 stewardship=5 intrigue=8 learning=8
+	add_trait=scholarly_theologian
+	trait=bloodline_batreaux add_trait=temperate add_trait=cynical add_trait=kind 
+	father=37004	#Firmin
+	3301.9.20={ birth=yes }
+	3365.4.18={ death=yes }
+}
+37006={
+	name=Seraphin
+	dynasty=14607
+	dna="icflgildllo"
+	culture=arcadian religion=golden_goddesses
+	martial=8 diplomacy=8 stewardship=7 intrigue=5 learning=8
+	add_trait=midas_touched
+	trait=bloodline_batreaux add_trait=gardener add_trait=arbitrary add_trait=deceitful add_trait=charitable 
+	add_trait=zealous 
+	father=37005	#Maxime
+	3327.3.25={ birth=yes }
+	3387.1.1={ death=yes }
+}
+37007={
+	name=Ulrich
+	dynasty=14607
+	dna="hcelajfdlln"
+	culture=arcadian religion=golden_goddesses
+	martial=8 diplomacy=5 stewardship=4 intrigue=7 learning=5
+	add_trait=grey_eminance
+	trait=bloodline_batreaux add_trait=arbitrary add_trait=envious add_trait=kind trait=greedy trait=temperate trait=brave
+	father=37006	#Seraphin
+	3352.8.5={ birth=yes }
+	3377.1.1={add_spouse=37010}
+	3400.3.18={ death=yes }
+}
+37008={
+	name=Pierrick
+	dynasty=14607
+	dna="blelaifdfle"
+	culture=arcadian religion=golden_goddesses
+	martial=6 diplomacy=7 stewardship=5 intrigue=6 learning=5
+	add_trait=charismatic
+	trait=bloodline_batreaux_negotiator add_trait=kind add_trait=zealous add_trait=proud 
+	father=37007	#Ulrich
+	mother=37010
+	3379.1.25={ birth=yes }
+	3428.5.20={ death=yes }
+}
+37009={
+	name=Arcadia
+	female=yes
+	dynasty=14607
+	dna="dcemdjfdmln"
+	culture=arcadian religion=golden_goddesses
+		trait=bloodline_batreaux
+	father=37007	#Ulrich
+	mother=37010
+	3381.6.20={ birth=yes }
+	3448.10.25={ death=yes }
+}
+37010={
+	name=Camile
+	female=yes
+	culture=arcadian religion=golden_goddesses
+	3352.8.5={ birth=yes }
+	3377.1.1={add_spouse=37007}
+	3400.3.18={ death=yes }
+}

@@ -213,3 +213,155 @@
 	3371.1.1={birth=yes}
 	9000.1.1={death=yes}
 }
+35019={
+	name=Ron
+	dynasty=8235
+	dna="kcifjkemcoc"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=4 diplomacy=5 stewardship=7 intrigue=4 learning=8
+	add_trait=elusive_shadow add_trait=hedonist add_trait=diligent add_trait=kind add_trait=just 
+	add_trait=proud add_trait=honest 
+	3351.4.18={ birth=yes }
+	3375.1.1={add_spouse=35023}
+	3400.5.19={ death=yes }
+}
+35020={
+	name=Lena
+	female=yes
+	dynasty=8235
+	dna="mmgkjkeocac"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	father=35019	#Ron
+	mother=35023
+	3379.7.18={ birth=yes }
+	3410.9.20={ death=yes }
+}
+35021={
+	name=Daryl
+	dynasty=8235
+	dna="ldifikemcoc"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=5 diplomacy=6 stewardship=6 intrigue=8 learning=4
+	add_trait=detached_priest add_trait=paranoid add_trait=charitable add_trait=deceitful add_trait=envious 
+	add_trait=wroth add_trait=gregarious 
+	father=35019	#Ron
+	mother=35023
+	3382.8.11={ birth=yes }
+	3434.11.23={ death=yes }
+}
+35022={
+	name=Alice
+	female=yes
+	dynasty=8235
+	dna="jcaideemjoi"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	father=35019	#Ron
+	mother=35023
+	3385.1.26={ birth=yes }
+	3443.6.28={ death=yes }
+}
+35023={
+	name=Cia
+	female=yes
+	culture=wizzrobe religion=wizzrobe_doctrine
+	3351.4.18={ birth=yes }
+	3375.1.1={add_spouse=35019}
+	3400.5.19={ death=yes }
+}
+35024={
+	name=Greg
+	dynasty=8240
+	dna="lfgclkapoon"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=5 diplomacy=8 stewardship=6 intrigue=6 learning=5
+	add_trait=skilled_tactician add_trait=diligent add_trait=patient 
+	3364.1.13={ birth=yes }
+	3417.7.6={ death=yes }
+}
+35025={
+	name=Alexander
+	dynasty=8245
+	dna="bkfookehgok"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=5 diplomacy=8 stewardship=8 intrigue=5 learning=6
+	add_trait=tough_soldier add_trait=trusting add_trait=charitable add_trait=just 
+	3351.1.12={ birth=yes }
+	3370.1.1={add_spouse=35028}
+	3409.3.31={ death=yes }
+}
+35026={
+	name=Juliana
+	female=yes
+	dynasty=8245
+	dna="bhggodehgmd"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	father=35025	#Alexander
+	mother=35028
+	3372.4.26={ birth=yes }
+	3410.2.26={ death=yes }
+}
+35027={
+	name=Ahmed
+	dynasty=8245
+	dna="alfhokehkbk"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=5 diplomacy=8 stewardship=8 intrigue=4 learning=8
+	add_trait=charismatic_negotiator add_trait=scholar add_trait=envious add_trait=ambitious add_trait=diligent 
+	add_trait=trusting add_trait=cruel add_trait=possessed 
+	father=35025	#Alexander
+	mother=35028
+	3375.3.12={ birth=yes }
+	3444.7.4={ death=yes }
+}
+35028={
+	name=Lana
+	female=yes
+	culture=wizzrobe religion=wizzrobe_doctrine
+	3351.1.12={ birth=yes }
+	3370.1.1={add_spouse=35025}
+	3409.3.31={ death=yes }
+}
+35029={
+	name=Dedi
+	dynasty=8250
+	dna="pkchnigohkl"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=6 diplomacy=4 stewardship=6 intrigue=7 learning=4
+	add_trait=detached_priest add_trait=wroth add_trait=brave add_trait=slothful add_trait=cruel 
+	add_trait=paranoid add_trait=charitable 
+	3367.2.4={ birth=yes }
+	3415.8.22={ death=yes }
+}
+35030={
+	name=Allan
+	dynasty=8255
+	dna="mfdbkffkhjc"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=6 diplomacy=8 stewardship=5 intrigue=4 learning=6
+	add_trait=indulgent_wastrel add_trait=paranoid add_trait=patient add_trait=arbitrary add_trait=chaste 
+	add_trait=stressed 
+	3368.1.18={ birth=yes }
+	3437.3.25={ death=yes }
+}
+35031={
+	name=Merlin
+	dynasty=8260
+	dna="oiifdaadhoi"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=6 diplomacy=4 stewardship=5 intrigue=5 learning=5
+	add_trait=charismatic_negotiator add_trait=hunter add_trait=shy add_trait=gluttonous add_trait=slothful 
+	add_trait=wounded 
+	3368.11.1={ birth=yes }
+	3422.9.28={ death=yes }
+}
+35032={
+	name=Martin
+	dynasty=8265
+	dna="hmpolbjblio"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=8 diplomacy=6 stewardship=7 intrigue=6 learning=8
+	add_trait=midas_touched add_trait=proud add_trait=arbitrary add_trait=cruel add_trait=zealous 
+	add_trait=ambitious 
+	3367.6.15={ birth=yes }
+	3420.2.19={ death=yes }
+}
