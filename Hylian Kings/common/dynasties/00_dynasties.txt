@@ -7,8 +7,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 5
-			texture_internal = 1
+			texture = 2
+			texture_internal = 2
 			emblem = 0
 			color = 0
 			color = 0
@@ -251,6 +251,17 @@
 40 = {
 	name="Lon Lon"
 	culture = hyrulean
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 	 
 }
 41 = {
@@ -34345,8 +34356,8 @@
 }
 
 6802 = {
-	name="Abraham"
-	culture = arcadian
+	name="Facadia"
+	culture = hylian
 }
 
 6803 = {
@@ -42329,7 +42340,7 @@
 }
 
 8400 = {
-	
+	name="Cia"
 	culture = wizzrobe
 }
 
@@ -73264,52 +73275,129 @@
 }
 14601 = {
 	name="Madas"
-	culture = hyrulean
+	culture = hylian
 	used_for_random = no
 	can_appear = no	
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 14602 = {#LINK Sealing War Bookmark
 	name="Lon-Madas"
-	culture = hyrulean
+	culture = hylian
 	used_for_random = no
 	can_appear = no	
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 14603 = {#LINK Post Sealing War Bookmark
 	name="Lodas"
-	culture = hyrulean
+	culture = hylian
 	used_for_random = no
 	can_appear = no	
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 14604 = {
 	name="Demise"
-	culture = hyrulean
+	culture = demon
 	used_for_random = no
 	can_appear = no	
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 14605 = {
 	name="Hylia"
-	culture = hyrulean
+	culture = hylian
 	used_for_random = no
 	can_appear = no	
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 14606 = {
 	name="Jakamar"
-	culture = skylofter
+	culture = hylian
 	used_for_random = no
 	can_appear = no	
 }
 14607 = {
 	name="Batreaux"
-	culture = demon
+	culture = hylian
 	used_for_random = no
 	can_appear = no	
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 14608 = {
 	name="Morusego"
-	culture = demon
+	culture = hylian
 	used_for_random = no
 	can_appear = no	
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 14609 = {
