@@ -136,6 +136,14 @@ king_pebble;Prince;;;;;;;;;;;;;;;x
 king_female_pebble;Princess;;;;;;;;;;;;;x
 king_consort_pebble;Prince Consort;;;;;;;;;;;;x
 king_female_consort_pebble;Princess Consort;;;;;;;;;;;;;x
+emperor_gem_lander;King;King;King;;King;;;;;;;;;x;;;;;;;;;;;;
+emperor_female_gem_lander;Queen;Queen;Queen;;Samrajní;;;;;;;;;x;;;;;;;;;;;;
+king_gamelon;Duke;Duke;Maharadscha;;Duke;;;;;;;;;x;;;;;;;;;;;;
+king_female_gamelon;Duchess;Duchess;Duchess;;Maharaní;;;;;;;;;x;;;;;;;;;;;;
+duke_gamelon;Count;Count;Radscha;;Rajá;;;;;;;;;x;;;;;;;;;;;;
+duke_female_gamelon;Countess;Countess;Countess;;Raní;;;;;;;;;x;;;;;;;;;;;;
+count_gamelon;Lord;Lord;Lord;;Lord;;;;;;;;;x;;;;;;;;;;;;
+count_female_gamelon;Lady;Lady;Lady;;Lady;;;;;;;;;x;;;;;;;;;;;;
 ##Human
 emperor_ordonion;High King;;;;;;;;;;;;x
 emperor_female_ordonion;High Queen;;;;;;;;;;;;;x
@@ -325,6 +333,14 @@ empire_east_hyrulean;Kingdom;;;;;;;;;;;;;x
 empire_of_east_hyrulean;Kingdom of;;;;;;;;;;;;;x
 kingdom_east_hyrulean;Minor Kingdom;;;;;;;;;;;;;x
 kingdom_of_east_hyrulean;Minor Kingdom of;;;;;;;;;;;;;x
+empire_gamelon;Kingdom;;;;;;;;;;;;;x
+empire_of_gamelon;Kingdom of;;;;;;;;;;;;;x
+kingdom_gamelon;Duchy;;;;;;;;;;;;;x
+kingdom_of_gamelon;Duchy of;;;;;;;;;;;;;x
+duchy_gamelon;County;;;;;;;;;;;;;x
+duchy_of_gamelon;County of;;;;;;;;;;;;;x
+county_gamelon;Lordship;;;;;;;;;;;;;x
+county_of_gamelon;Lordship of;;;;;;;;;;;;;x
 ###human
 empire_ordonion;High Kingdom;;;;;;;;;;;;;x
 empire_of_ordonion;High Kingdom of;;;;;;;;;;;;;x

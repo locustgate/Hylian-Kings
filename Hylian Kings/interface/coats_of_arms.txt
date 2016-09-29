@@ -78,6 +78,13 @@ culture = {
 			emblem = no
 			random = no # Do not use for random CoAs
 		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_humans.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 40
+			color = 2
+			emblem = no
+		}
 		# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
 	}
 }
@@ -222,6 +229,13 @@ culture = {
 			color = 2
 			emblem = no
 		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_humans.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 40
+			color = 2
+			emblem = no
+		}
 		
 		# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
 	}
@@ -278,6 +292,13 @@ culture = {
 			file = "gfx\\coats_of_arms\\dynasties_sheikahism.tga"
 			size = { x = 10 y = 5 }
 			noOfFrames = 25
+			color = 2
+			emblem = no
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_humans.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 40
 			color = 2
 			emblem = no
 		}

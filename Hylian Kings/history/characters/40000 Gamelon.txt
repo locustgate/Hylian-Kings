@@ -1,0 +1,138 @@
+40000={
+	name=Hango
+	dynasty=10101
+	dna="dampebpkpbl"
+	culture=gamelon religion=hylia_religion
+	martial=7 diplomacy=7 stewardship=6 intrigue=4 learning=5
+	add_trait=detached_priest add_trait=paranoid add_trait=envious add_trait=temperate add_trait=craven 
+	add_trait=ambitious 
+	3359.3.7={ birth=yes }
+	3384.1.1={add_spouse=40002}
+	3432.6.12={ death=yes }
+}
+40001={
+	name=Grikun
+	dynasty=10101
+	dna="fkmpdbplpba"
+	culture=gamelon religion=hylia_religion
+	martial=7 diplomacy=7 stewardship=8 intrigue=7 learning=5
+	add_trait=scholarly_theologian add_trait=duelist add_trait=proud add_trait=honest add_trait=greedy 
+	add_trait=trusting add_trait=content 
+	father=40000	#Hango
+	mother=40002
+	3386.7.7={ birth=yes }
+	3430.11.29={ death=yes }
+}
+40002={
+	name=Alma
+	female=yes
+	culture=gamelon religion=hylia_religion
+	martial=7 diplomacy=7 stewardship=6 intrigue=4 learning=5
+	3359.3.7={ birth=yes }
+	3384.1.1={add_spouse=40000}
+	3432.6.12={ death=yes }
+}
+40003={
+	name=Abak
+	dynasty=10105
+	dna="neklbjmjioo"
+	culture=gamelon religion=hylia_religion
+	martial=6 diplomacy=6 stewardship=8 intrigue=7 learning=5
+	add_trait=midas_touched add_trait=brave add_trait=charitable add_trait=wroth add_trait=diligent 
+	add_trait=paranoid 
+	3367.12.23={ birth=yes }
+	3417.9.28={ death=yes }
+}
+40004={
+	name=Hekten
+	dynasty=10110
+	dna="hjoipdlgocc"
+	culture=gamelon religion=hylia_religion
+	martial=7 diplomacy=8 stewardship=6 intrigue=7 learning=8
+	add_trait=detached_priest add_trait=humble add_trait=envious add_trait=temperate add_trait=arbitrary 
+	3367.1.16={ birth=yes }
+	3412.8.22={ death=yes }
+}
+40005={
+	name=Heban
+	dynasty=10115
+	dna="gicpkbgdacd"
+	culture=gamelon religion=hylia_religion
+	martial=5 diplomacy=8 stewardship=6 intrigue=6 learning=6
+	add_trait=thrifty_clerk add_trait=envious add_trait=deceitful add_trait=cruel add_trait=patient 
+	add_trait=slothful add_trait=content add_trait=depressed 
+	3366.2.17={ birth=yes }
+	3384.1.1={add_spouse=40007}
+	3422.10.10={ death=yes }
+}
+40006={
+	name=Hika
+	female=yes
+	dynasty=10115
+	dna="cgcokbgmecn"
+	culture=gamelon religion=hylia_religion
+	father=40005	#Heban
+	mother=40007
+	3386.1.21={ birth=yes }
+	3447.3.20={ death=yes }
+}
+40007={
+	name=Lubonga
+	female=yes
+	culture=gamelon religion=hylia_religion
+	3366.2.17={ birth=yes }
+	3384.1.1={add_spouse=40005}
+	3422.10.10={ death=yes }
+}
+40008={
+	name=Gribon
+	dynasty=10120
+	dna="hpdpfpcafnl"
+	culture=gamelon religion=hylia_religion
+	martial=8 diplomacy=4 stewardship=5 intrigue=7 learning=5
+	add_trait=detached_priest add_trait=brave add_trait=paranoid add_trait=wroth add_trait=humble 
+	3362.6.23={ birth=yes }
+	3380.1.1={add_spouse=40010}
+	3425.12.3={ death=yes }
+}
+40009={
+	name=Loka
+	female=yes
+	dynasty=10120
+	dna="epbcppelgll"
+	culture=gamelon religion=hylia_religion
+	father=40008	#Gribon
+	mother=40010
+	3383.10.20={ birth=yes }
+	3434.6.8={ death=yes }
+}
+40010={
+	name=Myra
+	female=yes
+	culture=gamelon religion=hylia_religion
+	3362.6.23={ birth=yes }
+	3380.1.1={add_spouse=40008}
+	3425.12.3={ death=yes }
+}
+40011={
+	name=Yarbo
+	dynasty=10125
+	dna="ehpdaglmbgj"
+	culture=gamelon religion=hylia_religion
+	martial=7 diplomacy=8 stewardship=6 intrigue=6 learning=5
+	add_trait=mastermind_theologian add_trait=cruel add_trait=lustful add_trait=brave add_trait=shy 
+	add_trait=paranoid 
+	3368.3.15={ birth=yes }
+	3437.12.7={ death=yes }
+}
+40012={
+	name=Hakan
+	dynasty=10130
+	dna="hkinjajeoah"
+	culture=gamelon religion=hylia_religion
+	martial=6 diplomacy=5 stewardship=4 intrigue=8 learning=8
+	add_trait=martial_cleric add_trait=arbitrary add_trait=content add_trait=zealous add_trait=shy 
+	add_trait=paranoid 
+	3368.1.13={ birth=yes }
+	3440.10.19={ death=yes }
+}
