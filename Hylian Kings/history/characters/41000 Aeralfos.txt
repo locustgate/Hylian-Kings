@@ -1,0 +1,266 @@
+41000={
+	name=Vanat
+	dynasty=5001
+	dna="pecnabjeooe"
+	culture=aeralfos religion=demise_religion
+	martial=7 diplomacy=6 stewardship=7 intrigue=7 learning=4
+	add_trait=flamboyant_schemer add_trait=trusting add_trait=lustful add_trait=wroth add_trait=envious 
+	add_trait=cynical 
+	3342.8.4={ birth=yes }
+	3365.1.1={add_spouse=41005}
+	3424.9.29={ death=yes }
+}
+41001={
+	name=Agagakok
+	dynasty=5001
+	dna="pmdneijeome"
+	culture=aeralfos religion=demise_religion
+	martial=7 diplomacy=8 stewardship=6 intrigue=6 learning=7
+	add_trait=thrifty_clerk add_trait=scholar add_trait=patient add_trait=honest add_trait=cynical 
+	add_trait=charitable add_trait=temperate 
+	father=41000	#Vanat
+	mother=41005
+	3369.11.8={ birth=yes }
+	3430.11.19={ death=yes }
+}
+41002={
+	name=Hakuk
+	female=yes
+	dynasty=5001
+	dna="ficnadjecod"
+	culture=aeralfos religion=demise_religion
+	father=41000	#Vanat
+	mother=41005
+	3371.4.26={ birth=yes }
+	3440.4.27={ death=yes }
+}
+41003={
+	name=Akka
+	female=yes
+	dynasty=5001
+	dna="peclcbieooj"
+	culture=aeralfos religion=demise_religion
+	father=41000	#Vanat
+	mother=41005
+	3374.5.4={ birth=yes }
+	3424.11.12={ death=yes }
+}
+41004={
+	name=Axeku
+	dynasty=5001
+	dna="picnahlejoe"
+	culture=aeralfos religion=demise_religion
+	martial=7 diplomacy=8 stewardship=5 intrigue=5 learning=4
+	add_trait=midas_touched add_trait=ambitious add_trait=cruel add_trait=zealous add_trait=diligent 
+	add_trait=deceitful add_trait=trusting 
+	father=41000	#Vanat
+	mother=41005
+	3380.4.1={ birth=yes }
+	3441.2.8={ death=yes }
+}
+41005={
+	name=Okakusha
+	female=yes
+	culture=aeralfos religion=demise_religion
+	3342.8.4={ birth=yes }
+	3365.1.1={add_spouse=41000}
+	3424.9.29={ death=yes }
+}
+41006={
+	name=Ashak
+	dynasty=5005
+	dna="dbcoadophkp"
+	culture=aeralfos religion=demise_religion
+	martial=8 diplomacy=4 stewardship=6 intrigue=4 learning=7
+	add_trait=midas_touched add_trait=wroth add_trait=gregarious add_trait=paranoid add_trait=arbitrary 
+	3356.1.19={ birth=yes }
+	3380.1.1={add_spouse=41009}
+	3421.10.31={ death=yes }
+}
+41007={
+	name=Alemokus
+	dynasty=5005
+	dna="bdcoadopekp"
+	culture=aeralfos religion=demise_religion
+	martial=5 diplomacy=6 stewardship=6 intrigue=5 learning=4
+	add_trait=midas_touched add_trait=just add_trait=brave add_trait=kind 
+	father=41006	#Ashak
+	mother=41009
+	3383.5.24={ birth=yes }
+	3440.8.8={ death=yes }
+}
+41008={
+	name=Alakos
+	dynasty=5005
+	dna="nclojdcehjp"
+	culture=aeralfos religion=demise_religion
+	martial=8 diplomacy=7 stewardship=6 intrigue=4 learning=5
+	add_trait=grey_eminence add_trait=celibate add_trait=deceitful add_trait=kind add_trait=chaste 
+	add_trait=cynical add_trait=gluttonous add_trait=harelip 
+	father=41006	#Ashak
+	mother=41009
+	3386.7.17={ birth=yes }
+	3446.10.2={ death=yes }
+}
+41009={
+	name=Akima
+	female=yes
+	culture=aeralfos religion=demise_religion
+	3356.1.19={ birth=yes }
+	3380.1.1={add_spouse=41006}
+	3421.10.31={ death=yes }
+}
+41010={
+	name=Alekaku
+	dynasty=5010
+	dna="imlhkjehcde"
+	culture=aeralfos religion=demise_religion
+	martial=4 diplomacy=8 stewardship=4 intrigue=4 learning=7
+	add_trait=scholarly_theologian add_trait=humble add_trait=gregarious add_trait=greedy add_trait=honest 
+	3364.9.22={ birth=yes }
+	3415.10.26={ death=yes }
+}
+41011={
+	name=Nagilu
+	dynasty=5015
+	dna="nbkekkggbik"
+	culture=aeralfos religion=demise_religion
+	martial=7 diplomacy=5 stewardship=4 intrigue=4 learning=7
+	add_trait=misguided_warrior add_trait=temperate add_trait=zealous add_trait=kind 
+	3364.1.3={ birth=yes }
+	3417.5.7={ death=yes }
+}
+41012={
+	name=Druma
+	dynasty=5020
+	dna="gaepifplbkp"
+	culture=aeralfos religion=demise_religion
+	martial=7 diplomacy=6 stewardship=7 intrigue=5 learning=4
+	add_trait=detached_priest add_trait=patient add_trait=humble add_trait=diligent add_trait=lustful 
+	add_trait=cruel 
+	3364.9.25={ birth=yes }
+	3418.1.5={ death=yes }
+}
+41013={
+	name=Dranot
+	dynasty=5025
+	dna="ekbpdmahdel"
+	culture=aeralfos religion=demise_religion
+	martial=7 diplomacy=5 stewardship=7 intrigue=6 learning=4
+	add_trait=mastermind_theologian add_trait=arbitrary add_trait=paranoid 
+	3351.4.24={ birth=yes }
+	3376.1.1={add_spouse=41016}
+	3422.6.16={ death=yes }
+}
+41014={
+	name=Alalgas
+	dynasty=5025
+	dna="akbodcafdef"
+	culture=aeralfos religion=demise_religion
+	martial=5 diplomacy=4 stewardship=4 intrigue=4 learning=6
+	add_trait=flamboyant_schemer add_trait=honest add_trait=cruel add_trait=shy add_trait=gluttonous 
+	father=41013	#Dranot
+	mother=41016
+	3379.3.22={ birth=yes }
+	3453.3.10={ death=yes }
+}
+41015={
+	name=Alis
+	dynasty=5025
+	dna="cknpdpmddoj"
+	culture=aeralfos religion=demise_religion
+	martial=4 diplomacy=7 stewardship=5 intrigue=8 learning=8
+	add_trait=flamboyant_schemer add_trait=lustful add_trait=gregarious add_trait=trusting add_trait=slothful 
+	add_trait=arbitrary 
+	father=41013	#Dranot
+	mother=41016
+	3383.4.23={ birth=yes }
+	3444.6.2={ death=yes }
+}
+41016={
+	name=Dranot
+	female=yes
+	culture=aeralfos religion=demise_religion
+	3351.4.24={ birth=yes }
+	3376.1.1={add_spouse=41013}
+	3422.6.16={ death=yes }
+}
+41017={
+	name=Ardut
+	dynasty=5030
+	dna="annhmkbjahi"
+	culture=aeralfos religion=demise_religion
+	martial=8 diplomacy=5 stewardship=8 intrigue=6 learning=7
+	add_trait=grey_eminence add_trait=kind add_trait=shy add_trait=zealous add_trait=greedy 
+	add_trait=possessed 
+	3351.5.19={ birth=yes }
+	3370.1.1={add_spouse=41023}
+	3417.5.18={ death=yes }
+}
+41018={
+	name=Nardat
+	dynasty=5030
+	dna="annhmkijkhi"
+	culture=aeralfos religion=demise_religion
+	martial=7 diplomacy=8 stewardship=8 intrigue=5 learning=6
+	add_trait=midas_touched add_trait=ambitious add_trait=diligent add_trait=envious 
+	father=41017	#Ardut
+	mother=41023
+	3373.11.24={ birth=yes }
+	3439.9.28={ death=yes }
+}
+41019={
+	name=Amis
+	dynasty=5030
+	dna="cnkhcebjehd"
+	culture=aeralfos religion=demise_religion
+	martial=8 diplomacy=8 stewardship=4 intrigue=6 learning=4
+	add_trait=midas_touched add_trait=greedy add_trait=shy add_trait=deceitful add_trait=just 
+	add_trait=diligent 
+	father=41017	#Ardut
+	mother=41023
+	3375.12.21={ birth=yes }
+	3432.6.28={ death=yes }
+}
+41020={
+	name=Ryoxat
+	female=yes
+	dynasty=5030
+	dna="inajmajemfi"
+	culture=aeralfos religion=demise_religion
+	father=41017	#Ardut
+	mother=41023
+	3379.2.23={ birth=yes }
+	3456.2.14={ death=yes }
+}
+41021={
+	name=Alano
+	dynasty=5030
+	dna="celhmkpjghh"
+	culture=aeralfos religion=demise_religion
+	martial=7 diplomacy=8 stewardship=8 intrigue=7 learning=4
+	add_trait=intricate_webweaver add_trait=cynical add_trait=cruel add_trait=shy 
+	father=41017	#Ardut
+	mother=41023
+	3381.5.2={ birth=yes }
+	3428.12.20={ death=yes }
+}
+41022={
+	name=Abrabra
+	female=yes
+	dynasty=5030
+	dna="jinhboljhhj"
+	culture=aeralfos religion=demise_religion
+	father=41017	#Ardut
+	mother=41023
+	3384.7.11={ birth=yes }
+	3432.6.3={ death=yes }
+}
+41023={
+	name=Ardut
+	female=yes
+	culture=aeralfos religion=demise_religion
+	3351.5.19={ birth=yes }
+	3370.1.1={add_spouse=41017}
+	3417.5.18={ death=yes }
+}
