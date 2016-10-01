@@ -72,7 +72,7 @@ culture = {
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties_unique.tga"
 			size = { x = 10 y = 5 }
-			noOfFrames = 10 #unique
+			noOfFrames = 13 #unique
 			color = 0
 			emblem = no
 			random = no # Do not use for random CoAs
@@ -80,7 +80,7 @@ culture = {
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties_humans.tga"
 			size = { x = 10 y = 5 }
-			noOfFrames = 40 #humans 
+			noOfFrames = 37 #humans 
 			color = 2
 			emblem = no
 		}
@@ -231,7 +231,7 @@ culture = {
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties_humans.tga"
 			size = { x = 10 y = 5 }
-			noOfFrames = 40 #humans
+			noOfFrames = 37 #humans 
 			color = 2
 			emblem = no
 		}
@@ -297,7 +297,7 @@ culture = {
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties_humans.tga"
 			size = { x = 10 y = 5 }
-			noOfFrames = 40 #humans
+			noOfFrames = 37 #humans 
 			color = 2
 			emblem = no
 		}
@@ -452,14 +452,14 @@ culture = {
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties_kokiri.tga"
 			size = { x = 10 y = 5 }
-			noOfFrames = 3
+			noOfFrames = 7
 			color = 2
 			emblem = no
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties_tree.tga"
 			size = { x = 10 y = 5 }
-			noOfFrames = 11
+			noOfFrames = 14 #tree
 			color = 2
 			emblem = no
 		}
@@ -538,7 +538,7 @@ culture = {
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties_tree.tga"
 			size = { x = 10 y = 5 }
-			noOfFrames = 11
+			noOfFrames = 14 #tree
 			color = 2
 			emblem = no
 		}
@@ -618,16 +618,10 @@ culture = {
 		# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
 	}
 }
-culture = { #TEMP
+
+culture = {
 	religion = {
-		"twin_frogs"
-		"zephos_religion"
-		"cyclos_religion"
 		"spirits_good"
-		"yamatami_gods"
-		"wizzrobe_doctrine"
-		"darknut_doctrine"
-		"pirate_doctrine"
 	}
 
 	templates = {
@@ -684,6 +678,156 @@ culture = { #TEMP
 			file = "gfx\\coats_of_arms\\dynasties_universal.tga"
 			size = { x = 10 y = 5 }
 			noOfFrames = 40 #universal
+			color = 2
+			emblem = no
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_spirits_good.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 33 #good
+			color = 2
+			emblem = no
+		}		
+		# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
+	}
+}
+culture = { #TEMP
+	religion = {
+		"twin_frogs"
+		"zephos_religion"
+		"cyclos_religion"
+		"yamatami_gods"
+		"wizzrobe_doctrine"
+	}
+
+	templates = {
+		"coa_plain:1"
+	}
+
+	color = {
+		{ 255 231 93 }	#0  	Or (Gold)
+		{ 245 245 245 } #1   	Argent (White )
+		{ 48 92 164 } 	#2   	Azure ( Blue)
+		{ 201 43 43 } 	#3   	Gules (Red)
+		{ 131 192 114 } #4   	Vert (Light Green)
+		{ 20 20 20 }	#5   	Sable (Black)
+		{ 129 24 164 }	#6   	Purple
+		{ 113 0 0 }		#7   	Sanguine (Blood Red)
+		{ 205 87 10 }	#8   	Tenné (Tawny aka orange)
+		{ 133 194 226 }	#9		Bleu-Celeste (Sky Blue)
+		{ 128 0 40 }	#10  	Murrey (Mulberry) Burgundy
+		{ 17 53 13 }	#11  	Dark green
+		{ 51 33 20 }	#12  	Brown
+		{ 50 173 192 }	#13  	Turqouise
+		{ 1 182 108 }	#14  	Teal
+	}
+	
+	rebel_colors = { 3 5 7 }
+
+	banned_colors = 
+	{ 
+		{ 0 1 }						#0		
+		{ 0 1 9}					#1		
+		{ 2 3 4 6 7 8 9 12 14 }		#2		
+		{ 2 3 4 7 9 10  }			#3		
+		{ 2 4 6 7 9 10 13 14}		#4		
+		{ 5 10 14 15}				#5		
+		{ 2 4 6 10 11 12 }			#6		
+		{ 2 3 4 7 8 10 13 }			#7		
+		{ 2 4 6 7 8 9 }				#8		
+		{ 2 3 4 8 9 10 11 13 }		#9		
+		{ 3 4 5 6 7 9 10 }			#10		
+		{ 6 9 11 }					#11
+		{ 6 12 }					#12
+		{ 4 7 9 13 14 }				#13
+		{ 2 4 13 14 }				#14
+	}
+	
+	emblem = {
+		file = "gfx\\coats_of_arms\\emblem_muslim.dds"
+		noOfFrames = 1
+	}
+	
+	# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
+	textures = {
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_universal.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 40 #universal
+			color = 2
+			emblem = no
+		}
+		
+		# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
+	}
+}
+
+culture = {
+	religion = {
+		"darknut_doctrine"
+	}
+
+	templates = {
+		"coa_plain:1"
+	}
+
+	color = {
+		{ 255 231 93 }	#0  	Or (Gold)
+		{ 245 245 245 } #1   	Argent (White )
+		{ 48 92 164 } 	#2   	Azure ( Blue)
+		{ 201 43 43 } 	#3   	Gules (Red)
+		{ 131 192 114 } #4   	Vert (Light Green)
+		{ 20 20 20 }	#5   	Sable (Black)
+		{ 129 24 164 }	#6   	Purple
+		{ 113 0 0 }		#7   	Sanguine (Blood Red)
+		{ 205 87 10 }	#8   	Tenné (Tawny aka orange)
+		{ 133 194 226 }	#9		Bleu-Celeste (Sky Blue)
+		{ 128 0 40 }	#10  	Murrey (Mulberry) Burgundy
+		{ 17 53 13 }	#11  	Dark green
+		{ 51 33 20 }	#12  	Brown
+		{ 50 173 192 }	#13  	Turqouise
+		{ 1 182 108 }	#14  	Teal
+	}
+	
+	rebel_colors = { 3 5 7 }
+
+	banned_colors = 
+	{ 
+		{ 0 1 }						#0		
+		{ 0 1 9}					#1		
+		{ 2 3 4 6 7 8 9 12 14 }		#2		
+		{ 2 3 4 7 9 10  }			#3		
+		{ 2 4 6 7 9 10 13 14}		#4		
+		{ 5 10 14 15}				#5		
+		{ 2 4 6 10 11 12 }			#6		
+		{ 2 3 4 7 8 10 13 }			#7		
+		{ 2 4 6 7 8 9 }				#8		
+		{ 2 3 4 8 9 10 11 13 }		#9		
+		{ 3 4 5 6 7 9 10 }			#10		
+		{ 6 9 11 }					#11
+		{ 6 12 }					#12
+		{ 4 7 9 13 14 }				#13
+		{ 2 4 13 14 }				#14
+	}
+	
+	emblem = {
+		file = "gfx\\coats_of_arms\\emblem_muslim.dds"
+		noOfFrames = 1
+	}
+	
+	# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
+	textures = {
+		#texture = {
+		#	file = "gfx\\coats_of_arms\\dynasties_universal.tga" #temp
+		#	size = { x = 10 y = 5 }
+		#	noOfFrames = 40 #universal
+		#	color = 2
+		#	emblem = no
+		#}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_darknut.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 26 #darknut
 			color = 2
 			emblem = no
 		}
@@ -955,6 +1099,86 @@ culture = {
 			file = "gfx\\coats_of_arms\\dynasties_oshus.tga"
 			size = { x = 10 y = 5 }
 			noOfFrames = 11
+			color = 5
+			emblem = no
+		}
+		
+		# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
+	}
+}
+culture = {
+	religion = {
+		"pirate_doctrine"
+	}
+
+	templates = {
+		"coa_plain:1"
+	}
+
+	color = {
+		{ 255 231 93 }	#0  	Or (Gold)
+		{ 245 245 245 } #1   	Argent (White )
+		{ 48 92 164 } 	#2   	Azure ( Blue)
+		{ 201 43 43 } 	#3   	Gules (Red)
+		{ 131 192 114 } #4   	Vert (Light Green)
+		{ 20 20 20 }	#5   	Sable (Black)
+		{ 129 24 164 }	#6   	Purple
+		{ 113 0 0 }		#7   	Sanguine (Blood Red)
+		{ 205 87 10 }	#8   	Tenné (Tawny aka orange)
+		{ 133 194 226 }	#9		Bleu-Celeste (Sky Blue)
+		{ 128 0 40 }	#10  	Murrey (Mulberry) Burgundy
+		{ 17 53 13 }	#11  	Dark green
+		{ 51 33 20 }	#12  	Brown
+		{ 50 173 192 }	#13  	Turqouise
+		{ 1 182 108 }	#14  	Teal
+	}
+	
+	rebel_colors = { 3 5 7 }
+
+	banned_colors = 
+	{ 
+		{ 0 1 }						#0		
+		{ 0 1 9}					#1		
+		{ 2 3 4 6 7 8 9 12 14 }		#2		
+		{ 2 3 4 7 9 10  }			#3		
+		{ 2 4 6 7 9 10 13 14}		#4		
+		{ 5 10 14 15}				#5		
+		{ 2 4 6 10 11 12 }			#6		
+		{ 2 3 4 7 8 10 13 }			#7		
+		{ 2 4 6 7 8 9 }				#8		
+		{ 2 3 4 8 9 10 11 13 }		#9		
+		{ 3 4 5 6 7 9 10 }			#10		
+		{ 6 9 11 }					#11
+		{ 6 12 }					#12
+		{ 4 7 9 13 14 }				#13
+		{ 2 4 13 14 }				#14
+	}
+	
+	emblem = {
+		file = "gfx\\coats_of_arms\\emblem_muslim.dds"
+		noOfFrames = 1
+	}
+	
+	# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
+	textures = {
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_universal.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 40 #universal
+			color = 2
+			emblem = no
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_sea.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 12
+			color = 2
+			emblem = no
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_pirates.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 7 #pirates
 			color = 5
 			emblem = no
 		}

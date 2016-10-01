@@ -264,3 +264,274 @@
 	3370.1.1={add_spouse=41017}
 	3417.5.18={ death=yes }
 }
+41023={
+	name=Akakiku
+	dynasty=5035
+	dna="ojpfkcmecba"
+	culture=aeralfos religion=demise_religion
+	martial=4 diplomacy=7 stewardship=5 intrigue=8 learning=5
+	add_trait=scholarly_theologian add_trait=trusting add_trait=envious add_trait=patient add_trait=proud 
+	add_trait=ambitious add_trait=just add_trait=ill 
+	3340.1.19={ birth=yes }	
+	3364.1.1={add_spouse=41030}
+	3402.7.16={ death=yes }
+}
+41024={
+	name=Hakak
+	dynasty=5035
+	dna="oapilcmbcfn"
+	culture=aeralfos religion=demise_religion
+	martial=4 diplomacy=4 stewardship=6 intrigue=7 learning=5
+	add_trait=charismatic_negotiator add_trait=trusting add_trait=cruel add_trait=gregarious add_trait=humble 
+	father=41023	#Akakiku
+	mother=41030
+	3366.6.27={ birth=yes }
+	3418.12.6={ death=yes }
+}
+41025={
+	name=Naxuno
+	dynasty=5035
+	dna="ojjfkcpeclj"
+	culture=aeralfos religion=demise_religion
+	martial=6 diplomacy=7 stewardship=5 intrigue=4 learning=6
+	add_trait=thrifty_clerk add_trait=zealous add_trait=craven add_trait=patient add_trait=charitable 
+	add_trait=chaste add_trait=stutter 
+	father=41023	#Akakiku
+	mother=41030
+	3370.7.14={ birth=yes }
+	3440.5.27={ death=yes }
+}
+41026={
+	name=Ryomo
+	dynasty=5035
+	dna="pjjcgjmehap"
+	culture=aeralfos religion=demise_religion
+	martial=5 diplomacy=5 stewardship=7 intrigue=4 learning=8
+	add_trait=tough_soldier add_trait=greedy add_trait=cynical add_trait=paranoid add_trait=just 
+	father=41023	#Akakiku
+	mother=41030
+	3372.3.21={ birth=yes }
+	3427.10.16={ death=yes }
+}
+41027={
+	name=Hirda
+	female=yes
+	dynasty=5035
+	dna="ccpfkcdeofn"
+	culture=aeralfos religion=demise_religion
+	father=41023	#Akakiku
+	mother=41030
+	3377.7.8={ birth=yes }
+	3446.7.15={ death=yes }
+}
+41028={
+	name=Drilgu
+	female=yes
+	dynasty=5035
+	dna="ajdpbcmbmpk"
+	culture=aeralfos religion=demise_religion
+	father=41023	#Akakiku
+	mother=41030
+	3379.12.13={ birth=yes }
+	3437.6.6={ death=yes }
+}
+41029={
+	name=Nagu
+	female=yes
+	dynasty=5035
+	dna="jjofkjgfcbk"
+	culture=aeralfos religion=demise_religion
+	father=41023	#Akakiku
+	mother=41030
+	3382.6.12={ birth=yes }
+	3450.11.28={ death=yes }
+}
+41030={
+	name=Okakuksha
+	female=yes
+	culture=aeralfos religion=demise_religion
+	3340.1.19={ birth=yes }
+	3364.1.1={add_spouse=41023}
+	3402.7.16={ death=yes }
+}
+41031={
+	name=Drakes
+	dynasty=5040
+	dna="naplklggfek"
+	culture=aeralfos religion=demise_religion
+	martial=7 diplomacy=7 stewardship=4 intrigue=5 learning=7
+	add_trait=indulgent_wastrel add_trait=ambitious add_trait=cruel 
+	3358.5.4={ birth=yes }
+	3437.9.12={ death=yes }
+}
+41032={
+	name=Nego
+	dynasty=5040
+	dna="nablmliodea"
+	culture=aeralfos religion=demise_religion
+	martial=4 diplomacy=8 stewardship=4 intrigue=8 learning=8
+	add_trait=indulgent_wastrel add_trait=wroth add_trait=gluttonous add_trait=shy add_trait=chaste 
+	father=41031	#Drakes
+	3386.4.17={ birth=yes }
+	3444.7.17={ death=yes }
+}
+41033={
+	name=Drigos
+	dynasty=5045
+	dna="nnapecdmmal"
+	culture=aeralfos religion=demise_religion
+	martial=4 diplomacy=4 stewardship=7 intrigue=7 learning=4
+	add_trait=skilled_tactician add_trait=gregarious add_trait=paranoid add_trait=proud 
+	3359.7.26={ birth=yes }
+	3380.1.1={add_spouse=41036}
+	3435.12.26={ death=yes }
+}
+41034={
+	name=Nabrak
+	dynasty=5045
+	dna="ndjodedjmdl"
+	culture=aeralfos religion=demise_religion
+	martial=5 diplomacy=4 stewardship=4 intrigue=8 learning=5
+	add_trait=midas_touched add_trait=trusting add_trait=kind add_trait=honest add_trait=cruel 
+	father=41033	#Drigos
+	mother=41036
+	3381.2.24={ birth=yes }
+	3446.4.6={ death=yes }
+}
+41035={
+	name=Abrabra
+	female=yes
+	dynasty=5045
+	dna="nmaflcfmhaf"
+	culture=aeralfos religion=demise_religion
+	father=41033	#Drigos
+	mother=41036
+	3386.4.20={ birth=yes }
+	3435.8.10={ death=yes }
+}
+41036={
+	name=Drigos
+	female=yes
+	culture=aeralfos religion=demise_religion
+	3359.7.26={ birth=yes }
+	3380.1.1={add_spouse=41033}
+	3435.12.26={ death=yes }
+}
+41037={
+	name=Acho
+	dynasty=5050
+	dna="aejoaflcobp"
+	culture=aeralfos religion=demise_religion
+	martial=5 diplomacy=6 stewardship=8 intrigue=4 learning=4
+	add_trait=scholarly_theologian add_trait=impaler add_trait=gregarious add_trait=wroth add_trait=wounded 
+	3366.9.3={ birth=yes }
+	3425.5.10={ death=yes }
+}
+41038={
+	name=Vimo
+	dynasty=5055
+	dna="pfieabgbplc"
+	culture=aeralfos religion=demise_religion
+	martial=4 diplomacy=7 stewardship=4 intrigue=8 learning=6
+	add_trait=detached_priest add_trait=content add_trait=deceitful add_trait=paranoid add_trait=envious 
+	3365.3.9={ birth=yes }
+	3437.7.3={ death=yes }
+}
+41039={
+	name=Tilgu
+	dynasty=5060
+	dna="jjobljcpfgk"
+	culture=aeralfos religion=demise_religion
+	martial=6 diplomacy=6 stewardship=8 intrigue=7 learning=6
+	add_trait=tough_soldier add_trait=deceitful add_trait=craven add_trait=cruel add_trait=paranoid 
+	add_trait=humble add_trait=wounded 
+	3351.6.4={ birth=yes }
+	3372.1.1={add_spouse=41044}
+	3413.11.3={ death=yes }
+}
+41040={
+	name=Vika
+	female=yes
+	dynasty=5060
+	dna="djobljcpflk"
+	culture=aeralfos religion=demise_religion
+	father=41039	#Tilgu
+	mother=41044
+	3374.3.16={ birth=yes }
+	3457.5.27={ death=yes }
+}
+41041={
+	name=Anoll
+	dynasty=5060
+	dna="gkmbgjcafhe"
+	culture=aeralfos religion=demise_religion
+	martial=7 diplomacy=8 stewardship=4 intrigue=8 learning=5
+	add_trait=martial_cleric add_trait=hedonist add_trait=slothful add_trait=envious add_trait=lustful 
+	add_trait=deceitful add_trait=zealous 
+	father=41039	#Tilgu
+	mother=41044
+	3378.4.4={ birth=yes }
+	3435.1.16={ death=yes }
+}
+41042={
+	name=Aniku
+	dynasty=5060
+	dna="jgpbhjajfoa"
+	culture=aeralfos religion=demise_religion
+	martial=7 diplomacy=4 stewardship=4 intrigue=8 learning=4
+	add_trait=mastermind_theologian add_trait=proud add_trait=lustful add_trait=cynical 
+	father=41039	#Tilgu
+	mother=41044
+	3381.2.26={ birth=yes }
+	3431.9.26={ death=yes }
+}
+41043={
+	name=Alas
+	female=yes
+	dynasty=5060
+	dna="ljoblefpjak"
+	culture=aeralfos religion=demise_religion
+	father=41039	#Tilgu
+	mother=41044
+	3384.4.18={ birth=yes }
+	3443.12.23={ death=yes }
+}
+41044={
+	name=Nardu
+	female=yes
+	culture=aeralfos religion=demise_religion
+	3351.6.4={ birth=yes }
+	3372.1.1={add_spouse=41039}
+	3413.11.3={ death=yes }
+}
+41045={
+	name=Abraxis
+	dynasty=5065
+	dna="aejflcheigp"
+	culture=aeralfos religion=demise_religion
+	martial=7 diplomacy=6 stewardship=6 intrigue=5 learning=8
+	add_trait=misguided_warrior add_trait=trusting add_trait=charitable add_trait=wroth 
+	3365.5.12={ birth=yes }
+	3422.10.14={ death=yes }
+}
+41046={
+	name=Alano
+	dynasty=5070
+	dna="fifgghcbkfj"
+	culture=aeralfos religion=demise_religion
+	martial=7 diplomacy=8 stewardship=8 intrigue=8 learning=5
+	add_trait=detached_priest add_trait=deceitful add_trait=content add_trait=trusting add_trait=diligent 
+	add_trait=gluttonous add_trait=brave add_trait=strong 
+	3364.7.10={ birth=yes }
+	3429.6.29={ death=yes }
+}
+41047={
+	name=Nibru
+	dynasty=5075
+	dna="holameijbhc"
+	culture=aeralfos religion=demise_religion
+	martial=5 diplomacy=6 stewardship=6 intrigue=4 learning=4
+	add_trait=tough_soldier add_trait=envious add_trait=proud add_trait=brave 
+	3364.12.23={ birth=yes }
+	3420.12.13={ death=yes }
+}
