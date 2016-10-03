@@ -119,7 +119,7 @@ e_hyrule_central = {
 		
 		d_east_faron = {
 			color={ 48 128 20 }
-			color={ 255 255 255 }
+			color2={ 255 255 255 }
 			capital = 523
 			c_faron_bridge ={
 				color={ 144 238 144 }
@@ -132,7 +132,7 @@ e_hyrule_central = {
 			}
 			c_faron_grove ={
 				color={ 202 255 112 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				
 				b_modu = {}
 				b_moran = {}
@@ -141,7 +141,7 @@ e_hyrule_central = {
 			}	
 			c_south_faron_forest ={
 				color={84 139 84 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 			
 				b_korore = {}
 				b_ture = {}
@@ -149,7 +149,7 @@ e_hyrule_central = {
 			}
 			c_central_faron_forest ={
 				color={ 67 205 128 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				
 				b_luton = {}
 				b_fash = {}
@@ -157,7 +157,7 @@ e_hyrule_central = {
 			}
 			c_north_faron_forest ={
 				color={ 61 145 64 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				
 					b_donia = {}
 					b_mupa = {}
@@ -165,7 +165,7 @@ e_hyrule_central = {
 			}
 			c_keaton_stockades ={
 				color={ 69 139 116 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				
 				b_erilu = {}
 				b_fatia = {}
@@ -174,7 +174,7 @@ e_hyrule_central = {
 			
 		d_faron_fields = {
 			color={ 0 100 0 }
-			color={ 224 238 224 }
+			color2={ 224 238 224 }
 			capital = 528
 			c_east_faron_field ={
 				color={ 192 255 62 }
@@ -187,7 +187,7 @@ e_hyrule_central = {
 			}
 			c_south_faron_field ={
 				color={ 173 255 47 }
-				color={ 224 238 224 }
+				color2={ 224 238 224 }
 				
 				b_hyrore = {}
 				b_midu = {}
@@ -195,7 +195,7 @@ e_hyrule_central = {
 			}
 			c_west_faron_field ={
 				color={ 124 252 0 }
-				color={ 224 238 224 }
+				color2={ 224 238 224 }
 				
 				b_orasal = {}
 				b_rudu = {}
@@ -204,7 +204,7 @@ e_hyrule_central = {
 			}
 			c_north_faron_field ={
 				color={ 154 255 154 }
-				color={ 224 238 224 }
+				color2={ 224 238 224 }
 				
 				b_didu = {}
 				b_nurore = {}
@@ -1757,12 +1757,12 @@ e_saria = { #empire
 			color={ 108 91 54 }
 			color2={ 6 122 0 }
 			capital = 198 # Middlesex
-			c_morgue = {
+			c_moruge = {
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
 			
 				b_morgue_palace = {}
-				b_morgue = {}
+				b_moruge = {}
 				b_mukia = {}
 				b_pina = {}
 			}
@@ -3195,7 +3195,7 @@ e_sea_tree = {
 			c_sanctuary_woods = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
-					b_salo = {}
+					b_zalo = {}
 				b_davo = {}
 
 			}
@@ -4180,8 +4180,8 @@ e_hanman = {
 				color={ 244 164 96 }
 				color2={ 255 222 0 }
 				
-				b_okara = {}
-				b_thigi_2 = {}
+				b_ocara = {}
+				b_thigi_3 = {}
 				
 				b_kakarima = {}
 				b_satun = {}
@@ -4271,10 +4271,10 @@ e_holodrum = {
 		hidden_tooltip = {
 			OR = {
 				ai = no
-				culture = coco_goron
+				culture = cucco_goron
 				culture = horon
 				culture = deku_scrub
-				culture = subrosia
+				culture = subrosian
 				culture = darknut
 				culture = wizzrobe
 			}
@@ -4797,7 +4797,7 @@ e_labrynna = {
 			c_south_lynna = {
 				color={ 107 142 35 }
 				color2={ 255 239 213 }
-				b_sala = {}
+				b_zala = {}
 				b_sakaku = {}
 			}
 			c_sea_of_no_return = {
@@ -5278,15 +5278,15 @@ e_calatia = {
 					b_drapa = {}
 					b_mesas = {}
 					b_podia = {}
-					b_pilas = {}
+					b_pilaz = {}
 					b_podia_2 = {}
 				}
 			}		
 			
 		}
 		k_enatolia = {
-			color={ 78 116 197 }
-			color2={ 160 176 87 }
+		color={ 78 116 197 }
+		color2={ 160 176 87 }
 		
 			capital = 43
 			d_enatolia = {
@@ -5529,7 +5529,7 @@ e_ho_ho = {
 			OR = {
 				ai = no
 				culture_group = hylian_group
-				culture = hoho
+				culture = ho_ho
 				culture = yeti
 				culture = yook
 			}
@@ -5544,7 +5544,7 @@ e_ho_ho = {
 				OR = {
 					ai = no
 					culture_group = hylian_group
-					culture = hoho
+					culture = ho_ho
 					culture = yeti
 					culture = yook
 				}
@@ -5557,20 +5557,20 @@ e_ho_ho = {
 			
 			c_tunta = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_tunta = {}
 				b_pare = {}
 			}
 			c_aland = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_aland = {}
 				b_pilas = {}
 				b_luoli = {}
 			}
 			c_keski = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_keski = {}
 				b_kala = {}
 			}			
@@ -5583,17 +5583,17 @@ e_ho_ho = {
 			
 			c_kate = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kate = {}
 			}
 			c_paij = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_paij = {}
 			}
 			c_tava = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_tava = {}
 			}
 		}
@@ -5605,19 +5605,19 @@ e_ho_ho = {
 			
 			c_kanta = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kanta = {}
 				b_kavolia = {}
 			}
 			c_tavlia = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_tavlia = {}
 				b_kamsa = {}
 			}
 			c_sastia = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_sastia = {}
 			}
 		}
@@ -5629,12 +5629,12 @@ e_ho_ho = {
 			
 			c_etela = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_etela = {}
 			}
 			c_vars = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_vars = {}
 				b_kinso = {}
 			}
@@ -5648,34 +5648,34 @@ e_ho_ho = {
 			
 			c_hame = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_hame = {}
 				b_patan = {}
 				b_vars_2 = {}
 			}
 			c_hamaa = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_hamaa = {}
 				b_jamaj = {}
 				b_kamsi = {}
 			}
 			c_kymentunta = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kymentunta = {}
 				b_haluvi = {}
 			}
 			c_varsbothnia = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_varsbothnia = {}
 				b_pato = {}
 				b_iri = {}
 			}
 			c_savlaakso = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_savlaakso = {}
 			}
 		}
@@ -5687,21 +5687,21 @@ e_ho_ho = {
 			
 			c_eskia = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_eskia = {}
 				b_vurgi = {}
 				b_jamama = {}
 			}
 			c_hels = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_hels = {}
 				b_halansela = {}
 				b_paksu = {}
 			}
 			c_tamsinki = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_tamsinki = {}
 				b_kars = {}
 				b_lomvi = {}
@@ -5715,14 +5715,14 @@ e_ho_ho = {
 			
 			c_turkaakso = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_turkaakso = {}
 				b_kaluu = {}
 				b_kaluu_2 = {}
 			}
 			c_oulu = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_oulu = {}
 				b_polii = {}
 				b_vevla = {}
@@ -5736,21 +5736,21 @@ e_ho_ho = {
 			capital = 513
 			c_vaker = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_vaker = {}
 				b_halama = {}
 				b_halia = {}
 			}
 			c_lahsuu = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_lahsuu = {}
 				b_barati = {}
 				b_piruu = {}
 			}
 			c_kotkso = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kotkso = {}
 				b_halala = {}
 				b_puoj = {}
@@ -5769,7 +5769,7 @@ e_ho_ho = {
 				OR = {
 					ai = no
 					culture_group = hylian_group
-					culture = hoho
+					culture = ho_ho
 					culture = yeti
 					culture = yook
 				}
@@ -5782,23 +5782,23 @@ e_ho_ho = {
 			capital = 513
 			c_seibothnia = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_seibothnia = {}
 				b_halivstam = {}
 			}
 			c_rovantunta = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_rovantunta = {}
 			}
 			c_kouvkyla = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kouvkyla = {}
 			}
 			c_hamvola = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_hamvola = {}
 			}			
 		}
@@ -5809,14 +5809,14 @@ e_ho_ho = {
 			capital = 513
 			c_kot = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kot = {}
 				b_latas = {}
 				b_peinu = {}
 			}
 			c_hyvitunta = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_hyvitunta = {}
 				b_halie = {}
 				b_farerars = {}
@@ -5824,18 +5824,18 @@ e_ho_ho = {
 			}
 			c_porsuu = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_porsuu = {}
 				b_koulonu = {}
 			}
 						c_mikkvoo = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_mikkvoo = {}
 			}
 			c_kokkso = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kokkso = {}
 				b_bakersa = {}
 			}
@@ -5848,43 +5848,43 @@ e_ho_ho = {
 			capital = 513
 			c_hamn = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_hamn = {}
 			}
 			c_mikk	 = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_mikk = {}
 			}	
 			c_sala = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_sala = {}
 			}
 			c_pietara = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_pietara = {}
 			}
-						c_marie = {
+			c_marie = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_marie = {}
 			}
 			c_kuria = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kuria = {}
 				b_paramva = {}
 			}
 			c_imati = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_imati = {}
 			}
 			c_lisala = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_lisala = {}
 			}
 		}
@@ -5896,23 +5896,23 @@ e_ho_ho = {
 			
 			c_jyvaska = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_jyvaska = {}
 				b_kolola = {}
 			}
 			c_vola = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_vola = {}
 			}
 			c_kuopka = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kuopka = {}
 			}
 			c_jamsuu = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_jamsuu = {}
 			}
 			
@@ -5925,17 +5925,17 @@ e_ho_ho = {
 			
 			c_kemi = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kemi = {}
 			}
 			c_kyla = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kyla = {}
 			}
 			c_kajaa = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kajaa = {}
 			}
 		}
@@ -5947,22 +5947,22 @@ e_ho_ho = {
 			
 			c_kouv = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kouv = {}
 			}
 			c_kyrk = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kyrk = {}
 			}
 			c_kokk = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kokk = {}
 			}
 			c_kotka = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kotka = {}
 			}
 		}
@@ -5974,22 +5974,22 @@ e_ho_ho = {
 			
 			c_lojo = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_lojo = {}
 			}
 			c_kuu = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kuu = {}
 			}
 			c_lapu = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_lapu = {}
 			}
 			c_mantsa = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_mantsa = {}
 			}
 		}
@@ -6001,33 +6001,33 @@ e_ho_ho = {
 			
 			c_kola = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kola = {}
 				b_bakav = {}
 			}
 			c_num = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_num = {}
 			}
 			c_nasto = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_nasto = {}
 			}
 			c_zoulu = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_zoulu = {}
 			}
 			c_salo = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_salo = {}
 			}
 			c_rii = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_rii = {}
 			}
 		}		
@@ -6037,22 +6037,22 @@ e_ho_ho = {
 			capital = 513
 			c_pori = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_pori = {}
 			}
 			c_pieksa = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_pieksa = {}
 			}
 			c_samaki = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_samaki = {}
 			}
 			c_borga = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_borga = {}
 			}
 		}
@@ -6067,7 +6067,7 @@ e_ho_ho = {
 				OR = {
 					ai = no
 					culture_group = hylian_group
-					culture = hoho
+					culture = ho_ho
 					culture = yeti
 					culture = yook
 				}
@@ -6081,14 +6081,14 @@ e_ho_ho = {
 			
 			c_hoheh = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_hoheh = {}
 				b_laali = {}
 				b_kikuu = {}
 			}
 			c_luhohaa = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_luhohaa = {}
 				b_hyvev = {}
 				b_imars = {}
@@ -6096,7 +6096,7 @@ e_ho_ho = {
 			}
 			c_ham = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_ham = {}
 				b_hyvapase = {}
 				b_halo = {}
@@ -6104,7 +6104,7 @@ e_ho_ho = {
 			}
 			c_hevaa = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_hevaa = {}
 				b_kamut = {}
 				b_bakev = {}
@@ -6119,13 +6119,13 @@ e_ho_ho = {
 			
 			c_taves = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_taves = {}
 				b_hunu = {}
 			}
 			c_liatunta = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_liatunta = {}
 				b_liht = {}
 			}
@@ -6138,21 +6138,21 @@ e_ho_ho = {
 			
 			c_sata = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_sata = {}
 				b_eksia = {}
 				b_parounta = {}
 			}
 			c_uusi = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_uusi = {}
 				b_paruski = {}
 				b_jomsen = {}
 			}
 			c_kymen = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kymen = {}
 				b_vuksa = {}
 				b_founu = {}
@@ -6168,7 +6168,7 @@ e_ho_ho = {
 				OR = {
 					ai = no
 					culture_group = hylian_group
-					culture = hoho
+					culture = ho_ho
 					culture = yeti
 					culture = yook
 				}
@@ -6181,7 +6181,7 @@ e_ho_ho = {
 			
 			c_heina = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_heina = {}
 				b_titop = {}
 				b_panta = {}
@@ -6189,7 +6189,7 @@ e_ho_ho = {
 			}
 			c_hamin = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_hamin = {}
 			}
 			c_hyvinsa = {
@@ -6206,18 +6206,18 @@ e_ho_ho = {
 			
 			c_larto = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_larto = {}
 				b_toro_2 = {}
 			}
 			c_hehay = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_hehay = {}
 			}
 			c_fin = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_fin = {}
 				b_fovila = {}
 			}
@@ -6230,13 +6230,13 @@ e_ho_ho = {
 			
 			c_lap = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_lap = {}
 				b_rori = {}
 			}
 			c_kain = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kain = {}
 				b_polon = {}
 				b_ponu = {}
@@ -6250,7 +6250,7 @@ e_ho_ho = {
 			
 			c_kare={
 				color={ 0 100 20 }
-				color={ 255 255 255 }			
+				color2={ 255 255 255 }			
 				b_kare = {}
 				b_bakovanti = {}
 				b_para = {}
@@ -6259,14 +6259,14 @@ e_ho_ho = {
 			
 			c_savo = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_savo = {}
 				b_hala = {}
 				b_bakon = {}
 			}
 			c_lia = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_lia = {}
 				b_linsa = {}
 				b_pava = {}
@@ -6274,7 +6274,7 @@ e_ho_ho = {
 			}
 			c_liania = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_liania = {}
 				b_lunu = {}
 				b_keto = {}
@@ -6284,18 +6284,18 @@ e_ho_ho = {
 		
 		d_lesser_yetari = {
 			color={ 0 100 20 }
-			color={ 255 255 255 }
+			color2={ 255 255 255 }
 			
 			c_ostro = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_ostro = {}
 				b_liska = {}
 
 			}
 			c_bothnia = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_bothnia = {}
 				b_halop = {}
 			}
@@ -6307,19 +6307,19 @@ e_ho_ho = {
 			capital = 513
 			c_jyva = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_jyva = {}
 			}
 			
 			c_turkyla = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_turkyla = {}
 				b_jamatals = {}
 			}
 			c_lahti = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_lahti = {}
 				b_halaikuu = {}
 			}
@@ -6331,20 +6331,20 @@ e_ho_ho = {
 			capital = 513
 			c_lahyla = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_lahyla = {}
 				b_vula = {}
 			}
 			c_porsinki = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_porsinki = {}
 				b_piji = {}
 				b_rotupara = {}
 			}
 			c_lori = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }				
+				color2={ 255 255 255 }			
 				b_lori = {}
 				b_halasuu = {}
 			}
@@ -6356,18 +6356,18 @@ e_ho_ho = {
 			capital = 513
 			c_forsuu = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_forsuu = {}
 			}
 			
 			c_kuopio = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_kuopio = {}
 			}
 			c_vaasa = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_vaasa = {}
 				b_jinu = {}
 			}
@@ -6526,7 +6526,7 @@ k_zora_valley = {
 	
 	allow = {
 		culture = lake_zora
-		culture = river_zola
+		culture = river_zora
 	}
 	d_zora_valley = {
 		color={ 25 25 112 }
@@ -6710,7 +6710,7 @@ k_hyrule_minish = { #Minish
 			}
 			b_marda = {}
 			b_more = {}
-			b_nanin = {}
+			b_nani = {}
 		}
 		c_minish_town = {
 			color={ 253 138 119 }
@@ -7096,7 +7096,7 @@ k_koridai = {
 			OR = {
 				ai = no
 				culture_group = hylian_group
-				religion_group = demon_group
+				religion_group = demon_religion
 			}
 		}
 	}

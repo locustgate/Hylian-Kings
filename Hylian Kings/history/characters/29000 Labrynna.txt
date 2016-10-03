@@ -2,7 +2,7 @@
 	name=Serafeim
 	dynasty=2001
 	dna="naajhpnfihc"
-	culture=labrynna religion=great_maku
+	culture=labrynnan religion=great_maku
 	martial=8 diplomacy=6 stewardship=8 intrigue=5 learning=5
 	add_trait=grey_eminence add_trait=wroth add_trait=diligent add_trait=cruel add_trait=humble 
 	3323.9.6={ birth=yes }
@@ -12,7 +12,7 @@
 	name=Lance
 	dynasty=2001
 	dna="nadjhomfjlc"
-	culture=labrynna religion=great_maku
+	culture=labrynnan religion=great_maku
 	martial=7 diplomacy=4 stewardship=4 intrigue=7 learning=7
 	add_trait=grey_eminence add_trait=gardener add_trait=shy add_trait=envious add_trait=brave 
 	add_trait=cynical 
@@ -25,7 +25,7 @@
 	name=Dekadin
 	dynasty=2001
 	dna="kmdjhomicbc"
-	culture=labrynna religion=great_maku
+	culture=labrynnan religion=great_maku
 	martial=6 diplomacy=5 stewardship=5 intrigue=8 learning=8
 	add_trait=tough_soldier add_trait=temperate add_trait=trusting add_trait=content add_trait=shy 
 	father=29001	#Lance
@@ -36,7 +36,7 @@
 	name=Edwin
 	dynasty=2001
 	dna="dnljnbmfmgc"
-	culture=labrynna religion=great_maku
+	culture=labrynnan religion=great_maku
 	martial=5 diplomacy=8 stewardship=6 intrigue=6 learning=5
 	add_trait=detached_priest add_trait=brave add_trait=cruel add_trait=proud add_trait=lustful 
 	father=29001	#Lance
@@ -47,7 +47,7 @@
 	name=Ernst
 	dynasty=2001
 	dna="pnfkjmmfjla"
-	culture=labrynna religion=great_maku
+	culture=labrynnan religion=great_maku
 	martial=8 diplomacy=5 stewardship=4 intrigue=4 learning=8
 	add_trait=grey_eminence add_trait=duelist add_trait=brave add_trait=temperate 
 	father=29001	#Lance
@@ -59,7 +59,7 @@
 	female=yes
 	dynasty=2001
 	dna="njljpoofmjk"
-	culture=labrynna religion=great_maku
+	culture=labrynnan religion=great_maku
 	father=29001	#Lance
 	3378.4.13={ birth=yes }
 	3447.6.26={ death=yes }
@@ -68,7 +68,7 @@
 	name=Vlasis
 	dynasty=2005
 	dna="ahchajlnmad"
-	culture=labrynna religion=great_maku
+	culture=labrynnan religion=great_maku
 	martial=8 diplomacy=8 stewardship=8 intrigue=4 learning=6
 	add_trait=mastermind_theologian add_trait=duelist add_trait=gregarious add_trait=kind add_trait=cruel 
 	add_trait=honest add_trait=slothful add_trait=wounded 
@@ -80,7 +80,7 @@
 	name=Isidore
 	dynasty=2005
 	dna="gnpnaolpmao"
-	culture=labrynna religion=great_maku
+	culture=labrynnan religion=great_maku
 	martial=4 diplomacy=5 stewardship=5 intrigue=7 learning=5
 	add_trait=intricate_webweaver add_trait=hedonist add_trait=content add_trait=envious add_trait=cruel 
 	add_trait=diligent 
@@ -93,7 +93,7 @@
 	name=Sylvestre
 	dynasty=2005
 	dna="ajlokflkbad"
-	culture=labrynna religion=great_maku
+	culture=labrynnan religion=great_maku
 	martial=4 diplomacy=6 stewardship=5 intrigue=8 learning=4
 	add_trait=thrifty_clerk add_trait=duelist add_trait=brave add_trait=lustful add_trait=content 
 	add_trait=proud add_trait=patient add_trait=kind add_trait=lunatic 
@@ -105,7 +105,7 @@
 29009={
 	name=Veran
 	female=yes
-	culture=labrynna religion=great_maku
+	culture=labrynnan religion=great_maku
 	3358.9.8={ birth=yes }
 	3380.1.1={add_spouse=29006}
 	3409.8.25={ death=yes }
@@ -114,7 +114,7 @@
 	name=Cesaire
 	dynasty=2010
 	dna="cgagolngiil"
-	culture=labrynna religion=great_maku
+	culture=labrynnan religion=great_maku
 	martial=8 diplomacy=8 stewardship=6 intrigue=5 learning=4
 	add_trait=intricate_webweaver add_trait=humble add_trait=diligent add_trait=greedy add_trait=shy 
 	3366.9.8={ birth=yes }
@@ -124,7 +124,7 @@
 29011={
 	name=Ambi
 	female=yes
-	culture=labrynna religion=great_maku
+	culture=labrynnan religion=great_maku
 	martial=8 diplomacy=8 stewardship=6 intrigue=5 learning=4
 	3366.9.8={ birth=yes }
 	3386.1.1={add_spouse=29010}

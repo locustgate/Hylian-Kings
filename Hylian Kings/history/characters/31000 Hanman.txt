@@ -89,6 +89,7 @@
 	culture=hylian_hanman religion=golden_goddesses
 	martial=4 diplomacy=4 stewardship=7 intrigue=8 learning=7
 	add_trait=indulgent_wastrel add_trait=wroth add_trait=zealous add_trait=chaste add_trait=craven 
+	trait=bloodline_batreaux
 	3156.1.7={ birth=yes }
 	3243.5.2={ death=yes }
 }
@@ -99,6 +100,7 @@
 	culture=hylian_hanman religion=golden_goddesses
 	martial=7 diplomacy=4 stewardship=4 intrigue=5 learning=5
 	add_trait=intricate_webweaver add_trait=shy add_trait=paranoid add_trait=cruel add_trait=gluttonous 
+	trait=bloodline_batreaux
 	father=31008	#Hatitoi
 	3187.5.21={ birth=yes }
 	3232.9.21={ death=yes }
@@ -110,6 +112,7 @@
 	culture=hylian_hanman religion=golden_goddesses
 	martial=6 diplomacy=7 stewardship=5 intrigue=6 learning=7
 	add_trait=grey_eminence add_trait=diligent add_trait=wroth add_trait=chaste 
+	trait=bloodline_batreaux
 	father=31009	#Mint
 	3205.3.2={ birth=yes }
 	3280.6.21={ death=yes }
@@ -121,6 +124,7 @@
 	culture=hylian_hanman religion=golden_goddesses
 	martial=8 diplomacy=4 stewardship=4 intrigue=6 learning=8
 	add_trait=grey_eminence add_trait=brave add_trait=patient add_trait=diligent add_trait=trusting 
+	trait=bloodline_batreaux
 	father=31010	#Xalar
 	3229.10.18={ birth=yes }
 	3291.3.26={ death=yes }
@@ -131,7 +135,11 @@
 	dna="nhpjoneanji"
 	culture=hylian_hanman religion=golden_goddesses
 	martial=6 diplomacy=8 stewardship=7 intrigue=8 learning=8
-	add_trait=misguided_warrior add_trait=zealous add_trait=gregarious add_trait=lustful add_trait=stutter `
+	add_trait=misguided_warrior 
+	add_trait=zealous
+	add_trait=gregarious
+	add_trait=lustful
+	add_trait=stutter 
 	trait=bloodline_batreaux
 	father=31011	#Soorar
 	3253.6.4={ birth=yes }
