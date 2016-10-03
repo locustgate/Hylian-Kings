@@ -550,6 +550,27 @@ minor_deity = {
 		feminist = yes
 
 	}
+	earth_spirits = {
+		graphical_culture = norsegfx
+
+		icon = 5
+		heresy_icon = 14
+		
+		color = { 1 0.55 0}	
+
+		priest_title = PRIEST
+		scripture_name = EARTH_LYRIC
+		
+		high_god_name = GOD_EARTH_SPIRIT
+		
+		god_names = {
+			GOD_EARTH_SPIRIT
+		}
+		priests_can_inherit = no
+		priests_can_marry = yes 
+
+		intermarry = fire_spirit
+	}
 	fire_spirit = {
 		graphical_culture = norsegfx
 		parent = fire_spirit
@@ -571,6 +592,7 @@ minor_deity = {
 		priests_can_inherit = no
 
 		intermarry = mother_mountain 
+		intermarry = earth_spirits
 
 	}
 	barba_religion = {

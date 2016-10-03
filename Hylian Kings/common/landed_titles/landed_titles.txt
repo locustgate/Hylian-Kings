@@ -280,7 +280,7 @@ e_hyrule_central = {
 				b_east_gate = {}
 			}
 		}
-		d_north_lanayru = {		
+		d_north_lanayru = {		#todo
 			color={ 188 210 238 }
 			color2={ 255 255 255 }
 			capital = 563
@@ -1168,7 +1168,7 @@ e_hyrule_central = {
 		}
 	}
 }
-e_mudora = {
+e_mudora = { #empire
 	color={ 0 170 0 }
 	color2={ 255 255 255 }
 	capital = 426 # Middlesex
@@ -1601,7 +1601,7 @@ e_mudora = {
 	}
 }
 
-e_saria = {#Saria
+e_saria = { #empire
 	color={ 0 0 204 }
 	color2={ 255 255 255 }
 	capital = 32 # Middlesex
@@ -1969,7 +1969,7 @@ e_saria = {#Saria
 		}
 	}
 }
-e_moria = {
+e_moria = {#empire
 	color={ 80 101 60 }
 	color2={ 255 0 0 }
 	capital = 31 
@@ -3333,7 +3333,7 @@ e_hanman = {
 			color2={ 255 222 0 }
 			capital = 160
 
-			c_hotho = {
+			c_hotho = { #todo
 				color={ 244 164 96 }
 				color2={ 255 222 0 }
 				
@@ -4538,32 +4538,6 @@ e_holodrum = {
 				b_molkul = {}
 				b_cakul = {}
 				b_madra = {}
-			}
-		}
-		d_tarm = {
-			color={ 252 230 201 }
-			color2={ 210 180 140 }
-			capital = 342
-			c_tarm = {		
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
-				b_ancient_tower = {}
-				b_tarm_fountain = {}
-			}
-			c_tarm_field = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
-				b_zadra = {}
-				b_naldu = {}
-				b_cotzon = {}
-				b_tomolu = {}
-			}
-			c_tarm_rainforest = {	
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
-				b_hor = {}
-				b_padra = {}
-				b_hoson = {}
 			}
 		}
 		d_holodrum_mountain = {
@@ -8535,7 +8509,7 @@ k_myrddin = {
 			b_modot = {}
 		}
 	}
-	d_canabon = {
+	d_cenabon = {
 		color={ 244 164 96 }
 		color2={ 255 222 0 }
 		capital = 160
