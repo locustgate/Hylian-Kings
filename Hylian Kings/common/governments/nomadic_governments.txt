@@ -22,11 +22,13 @@ nomadic_governments = {
 		}
 		frame_suffix = "_nomadic"
 		title_prefix = "nomadic_"
-		potential = {
+		potential = {			
 			NAND = {
 				controls_religion = yes
-				NOT = { religion_group = muslim }
-				NOT = { religion = norse_pagan_reformed }
+				NOT = { religion_group = gerudo_goddess }
+				NOT = { religion = darknut_doctrine }
+				NOT = { religion = wizzrobe_doctrine }
+				NOT = { religion_group = demon_religion }
 			}
 			is_patrician = no
 			mercenary = no

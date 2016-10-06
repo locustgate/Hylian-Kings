@@ -40,7 +40,15 @@ feudal_governments = {
 			religion = gerudo_goddess
 			religion = darknut_doctrine
 			religion = wizzrobe_doctrine 
+			}			
+			NAND = {
+				controls_religion = yes
+				NOT = { religion_group = gerudo_goddess }
+				NOT = { religion = darknut_doctrine }
+				NOT = { religion = wizzrobe_doctrine }
+				NOT = { religion_group = demon_religion }
 			}
+			
 		}
 		color = { 91 133 207 }
 		
@@ -93,6 +101,13 @@ feudal_governments = {
 			religion = great_deku
 			religion = great_fairies
 			religion = gerudo_goddess
+			}			
+			NAND = {
+				controls_religion = yes
+				NOT = { religion_group = gerudo_goddess }
+				NOT = { religion = darknut_doctrine }
+				NOT = { religion = wizzrobe_doctrine }
+				NOT = { religion_group = demon_religion }
 			}
 		}
 		color = { 255 255 240 }
@@ -145,7 +160,14 @@ feudal_governments = {
 				culture = geozard
 				religion_group = demon_religion
 			}
-			is_patrician = no
+			is_patrician = no			
+			NAND = {
+				controls_religion = yes
+				NOT = { religion_group = gerudo_goddess }
+				NOT = { religion = darknut_doctrine }
+				NOT = { religion = wizzrobe_doctrine }
+				NOT = { religion_group = demon_religion }
+			}
 		}
 		
 		color = { 220 20 60 }
@@ -190,7 +212,14 @@ feudal_governments = {
 			religion = darknut_doctrine
 			religion = pirate_doctrine
 			}
-			is_patrician = no
+			is_patrician = no			
+			NAND = {
+				controls_religion = yes
+				NOT = { religion_group = gerudo_goddess }
+				NOT = { religion = darknut_doctrine }
+				NOT = { religion = wizzrobe_doctrine }
+				NOT = { religion_group = demon_religion }
+			}
 		}
 		vassal_call_to_arms = {
 			tribal_government
@@ -242,7 +271,14 @@ feudal_governments = {
 			kokiri_government
 		}
 		potential = {
-			religion = wizzrobe_doctrine 
+			religion = wizzrobe_doctrine 			
+			NAND = {
+				controls_religion = yes
+				NOT = { religion_group = gerudo_goddess }
+				NOT = { religion = darknut_doctrine }
+				NOT = { religion = wizzrobe_doctrine }
+				NOT = { religion_group = demon_religion }
+			}
 		}
 		
 		color = { 39 64 139 }

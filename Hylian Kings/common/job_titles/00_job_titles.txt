@@ -17,7 +17,7 @@ job_chancellor = {
 	opinion_effect = 10
 	
 	monthly_salary = 0.1
-	monthly_prestige = 0.015
+	monthly_prestige = 0.75
 	
 	allow = {
 		can_be_chancellor_trigger = yes
@@ -57,7 +57,7 @@ job_marshal = {
 	opinion_effect = 10
 	
 	monthly_salary = 0.1
-	monthly_prestige = 0.015
+	monthly_prestige = 0.75
 	
 	allow = {
 		can_be_marshal_trigger = yes
@@ -98,7 +98,7 @@ job_treasurer = {
 	opinion_effect = 10
 	
 	monthly_salary = 0.1
-	monthly_prestige = 0.015
+	monthly_prestige = 0.75
 	
 	allow = {
 		can_be_treasurer_trigger = yes
@@ -178,7 +178,7 @@ job_spiritual = {
 	opinion_effect = 10
 	
 	monthly_salary = 0.1
-	monthly_piety = 0.015
+	monthly_piety = 0.5
 	
 	allow = {
 		can_be_spiritual_trigger = yes

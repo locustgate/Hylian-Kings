@@ -36,7 +36,9 @@ goddesses_religion = {
 		priests_can_marry = yes
 		attacking_same_religion_piety_loss = yes
 		feminist = yes
-
+		autocephaly = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
 
 		intermarry = hylia_religion
 		intermarry = sheikahism
@@ -1154,7 +1156,8 @@ doctrine = {
 		priests_can_marry = yes 
  		allow_female_priest = yes
 		can_hold_temples = yes 
-		feminist = yes
+		feminist = yes		
+		autocephaly = yes
 
 		intermarry = goddesses_religion
 		intermarry = gerudo_goddess

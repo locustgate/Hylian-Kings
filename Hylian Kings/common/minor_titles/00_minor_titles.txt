@@ -147,37 +147,18 @@ title_courtesan = {
 }
 
 # Commander, granted via its own interaction, so very special
-title_commander = {
-	is_high_prio = yes
-	
-	attribute = martial
-	dignity = 0.05
-	opinion_effect = 10
-	realm_in_name = yes
-	
-	monthly_salary = 0.05
-	monthly_prestige = 0.50
-	
-	allowed_to_hold = {
-		OR = {
-			primary_title = { temporary = no }
-			NOT = {
-				primary_title = {
-					always = yes
-				}
-			}
-		}
-		liege = { character = FROM }
 		OR = {
 			AND = {
 				OR = {
 					is_female = no
 					AND = {
 						OR = {
-							religion = messalian
-							religion = cathar
+							religion_group = goddesses_religion
+							religion = gerudo_goddess
+							religion = ganon_religion
+							religion = great_fairy
+							religion = great_deku
 						}
-						liege = { religion = ROOT }
 					}
 					liege = {
 						primary_title = {

@@ -1,0 +1,96 @@
+# Commander, granted via its own interaction, so very special
+
+title_biggoron = {
+	is_high_prio = yes
+	
+	dignity = 0.9
+	revoke_allowed = no
+	is_voter = yes
+	grant_limit = 1
+	opinion_effect = 10
+	
+	monthly_salary = 0.1
+	monthly_prestige = 1.50
+	
+	allowed_to_hold = {
+		OR = {
+			primary_title = { temporary = no }
+			NOT = {
+				primary_title = {
+					always = yes
+				}
+			}
+		}
+		is_adult = yes
+		trait = giant
+		trait = race_goron
+	}
+	
+	allowed_to_grant = {
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
+		primary_title = {
+			OR = {
+				tier = duke
+				tier = king
+				tier = emperor
+			}
+		}	
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+title_midgoron = {
+	is_high_prio = yes
+	
+	dignity = 0.9
+	revoke_allowed = no
+	is_voter = yes
+	grant_limit = 1
+	opinion_effect = 10
+	
+	monthly_salary = 0.05
+	monthly_prestige = 0.75
+	
+	allowed_to_hold = {
+		OR = {
+			primary_title = { temporary = no }
+			NOT = {
+				primary_title = {
+					always = yes
+				}
+			}
+		}
+		is_adult = yes
+		trait = tall
+		trait = race_goron
+	}
+	
+	allowed_to_grant = {
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
+		primary_title = {
+			OR = {
+				tier = duke
+				tier = king
+				tier = emperor
+			}
+		}	
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}

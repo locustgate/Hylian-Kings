@@ -186,3 +186,46 @@ darknut_dishonored_composition={
 	heavy_infantry=50
 
 }
+bane_koridai_composition = {
+	levy_size = 1
+	pikemen = 300
+	light_infantry = 100
+	archers = 100
+	galleys = 40
+}
+gamelon_shipwreckers_composition = {
+	levy_size = 1
+	pikemen = 300
+	heavy_infantry = 100
+	archers = 100
+	galleys = 40
+}
+kokiri_hunters_composition = {
+	levy_size = 1
+	pikemen = 100
+	heavy_infantry = 300
+	archers = 100
+}
+mountain_terror_company_composition = {
+	levy_size = 1
+	light_infantry = 100
+	heavy_infantry = 300
+	archers = 100
+}
+bulblin_bandits_composition = {
+	levy_size = 1
+	light_infantry = 75
+	archers = 50
+	bullbo = 25
+}
+moblin_bandits_composition = {
+	levy_size = 1
+	light_infantry = 75
+	pikemen = 50
+	archers = 25
+}
+bandits_composition = {
+	levy_size = 1
+	light_infantry = 100 
+	archers = 50
+}

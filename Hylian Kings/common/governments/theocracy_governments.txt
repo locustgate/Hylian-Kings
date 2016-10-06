@@ -21,8 +21,18 @@ theocracy_governments = {
 		}
 		frame_suffix = "_theocracy"
 		title_prefix = "temple_"
-		potential = {
-			NOT = {	religion_group = muslim	}
+		potential = {			
+			NAND = {
+				controls_religion = yes
+				NOT = { religion_group = gerudo_goddess }
+				NOT = { religion = darknut_doctrine }
+				NOT = { religion = wizzrobe_doctrine }
+				NOT = { religion_group = demon_religion }
+			}
+			NOR = {	religion = gerudo_goddesses
+					religion = great_fairy
+					religion = great_deku
+			}
 			is_patrician = no
 		}
 		

@@ -1,5 +1,5 @@
 namespace = knights
-# Knights of Hyrule Guard Founded (Emperor)
+# Knights of Hyrule Guard Founded {Emperor}
 narrative_event = {
 	id = knights.0
 	title = EVTNAME_knights.0
@@ -17,7 +17,7 @@ narrative_event = {
 			any_playable_ruler = {
 				limit = {
 					ai = no
-					OR = { culture_group hylian_group
+					OR = { culture_group = hylian_group
 							culture_group = round_eared
 							culture_group = lost_tribes
 					}
@@ -28,7 +28,7 @@ narrative_event = {
 	}
 }
 
-# Knights of Hyrule Guard Founded ()
+# Knights of Hyrule Guard Founded {}
 narrative_event = {
 	id = knights.1
 	title = EVTNAME_knights.0
@@ -85,7 +85,7 @@ character_event = {
 	}
 }
 
-# Son wants to join the Knights of Hyrules (Son)
+# Son wants to join the Knights of Hyrules {Son}
 character_event = {
 	id = knights.4
 	hide_window = yes
@@ -183,7 +183,7 @@ character_event = {
 	}
 }
 
-# Son wants to join the Knights of Hyrules (Father)
+# Son wants to join the Knights of Hyrules {Father}
 character_event = {
 	id = knights.5
 	desc = EVTDESC_knights.5
@@ -223,7 +223,7 @@ character_event = {
 	}
 }
 
-# Son stays in Hyrule with wife (Son)
+# Son stays in Hyrule with wife {Son}
 character_event = {
 	id = knights.6
 	hide_window = yes
@@ -276,7 +276,7 @@ character_event = {
 	}
 }
 
-# Son stays in Greece with wife ( father)
+# Son stays in Greece with wife { father}
 character_event = {
 	id = knights.7
 	desc = EVTDESC_knights.7
@@ -301,7 +301,7 @@ character_event = {
 	}
 }
 
-# Son stays in Greece with wife (Byzantine Emperor)
+# Son stays in Greece with wife {Byzantine Emperor}
 character_event = {
 	id = knights.8
 	desc = EVTDESC_knights.8
@@ -330,7 +330,7 @@ character_event = {
 	}
 }
 
-# Son returns scarred but seasoned (Son)
+# Son returns scarred but seasoned {Son}
 character_event = {
 	id = knights.9
 	hide_window = yes
@@ -380,7 +380,7 @@ character_event = {
 	}
 }
 
-# Son returns as excellent strategist (Son)
+# Son returns as excellent strategist {Son}
 character_event = {
 	id = knights.12
 	hide_window = yes
@@ -480,7 +480,7 @@ character_event = {
 	}
 }
 
-# Son returns with PTSD (Son)
+# Son returns with PTSD {Son}
 character_event = {
 	id = knights.14
 	hide_window = yes
@@ -534,7 +534,7 @@ character_event = {
 	}
 }
 
-# Son returns home with  wife (Son)
+# Son returns home with  wife {Son}
 character_event = {
 	id = knights.16
 	hide_window = yes
@@ -595,7 +595,7 @@ character_event = {
 	}
 }
 
-# Son returns home as a seasoned warrior (Son)
+# Son returns home as a seasoned warrior {Son}
 character_event = {
 	id = knights.18
 	hide_window = yes
@@ -670,7 +670,7 @@ character_event = {
 	}
 }
 
-# Son dies in battle (Son)
+# Son dies in battle {Son}
 character_event = {
 	id = knights.20
 	hide_window = yes
@@ -762,7 +762,7 @@ character_event = {
 	}
 }
 #future event son captured by gerudo
-# Son returns with loot (Son)
+# Son returns with loot {Son}
 character_event = {
 	id = knights.22
 	hide_window = yes
@@ -876,7 +876,7 @@ character_event = {
 	}
 }
 #Knights of Cobble
-# Knights of Cobble Founded (Emperor)
+# Knights of Cobble Founded {Emperor}
 narrative_event = {
 	id = knights.26
 	title = EVTNAME_knights.26
@@ -895,7 +895,7 @@ narrative_event = {
 				limit = {
 					ai = no
 					OR = {
-						culture_group hylian_group
+						culture_group = hylian_group
 						culture_group = round_eared
 						culture_group = lost_tribes
 					}
@@ -906,7 +906,7 @@ narrative_event = {
 	}
 }
 
-# Knights of cobble Guard Founded ()
+# Knights of cobble Guard Founded {}
 narrative_event = {
 	id = knights.27
 	title = EVTNAME_knights.27
@@ -963,7 +963,7 @@ character_event = {
 	}
 }
 
-# Son wants to join the Knights of cobbles (Son)
+# Son wants to join the Knights of cobbles {Son}
 character_event = {
 	id = knights.30
 	hide_window = yes
@@ -1055,7 +1055,7 @@ character_event = {
 	}
 }
 
-# Son wants to join the Knights of cobbles (Father)
+# Son wants to join the Knights of cobbles {Father}
 character_event = {
 	id = knights.31
 	desc = EVTDESC_knights.31
@@ -1095,7 +1095,7 @@ character_event = {
 	}
 }
 
-# Son stays in cobble with wife (Son)
+# Son stays in cobble with wife {Son}
 character_event = {
 	id = knights.32
 	hide_window = yes
@@ -1148,7 +1148,7 @@ character_event = {
 	}
 }
 
-# Son stays in Greece with wife ( father)
+# Son stays in Greece with wife { father}
 character_event = {
 	id = knights.33
 	desc = EVTDESC_knights.33
@@ -1173,7 +1173,7 @@ character_event = {
 	}
 }
 
-# Son stays in Greece with wife (Byzantine Emperor)
+# Son stays in Greece with wife {Byzantine Emperor}
 character_event = {
 	id = knights.34
 	desc = EVTDESC_knights.34
@@ -1202,7 +1202,7 @@ character_event = {
 	}
 }
 
-# Son returns scarred but seasoned (Son)
+# Son returns scarred but seasoned {Son}
 character_event = {
 	id = knights.35
 	hide_window = yes
@@ -1252,7 +1252,7 @@ character_event = {
 	}
 }
 
-# Son returns as excellent strategist (Son)
+# Son returns as excellent strategist {Son}
 character_event = {
 	id = knights.37
 	hide_window = yes
@@ -1352,7 +1352,7 @@ character_event = {
 	}
 }
 
-# Son returns with PTSD (Son)
+# Son returns with PTSD {Son}
 character_event = {
 	id = knights.39
 	hide_window = yes
@@ -1406,7 +1406,7 @@ character_event = {
 	}
 }
 
-# Son returns home with  wife (Son)
+# Son returns home with  wife {Son}
 character_event = {
 	id = knights.41
 	hide_window = yes
@@ -1467,7 +1467,7 @@ character_event = {
 	}
 }
 
-# Son returns home as a seasoned warrior (Son)
+# Son returns home as a seasoned warrior {Son}
 character_event = {
 	id = knights.43
 	hide_window = yes
@@ -1542,7 +1542,7 @@ character_event = {
 	}
 }
 
-# Son dies in battle (Son)
+# Son dies in battle {Son}
 character_event = {
 	id = knights.45
 	hide_window = yes
@@ -1634,7 +1634,7 @@ character_event = {
 	}
 }
 
-# Son returns with loot (Son)
+# Son returns with loot {Son}
 character_event = {
 	id = knights.47
 	hide_window = yes
@@ -1748,7 +1748,7 @@ character_event = {
 	}
 }
 #Rivermen of Saria
-# Knights of Saria Founded (Emperor)
+# Knights of Saria Founded {Emperor}
 narrative_event = {
 	id = knights.51
 	title = EVTNAME_knights.51
@@ -1767,7 +1767,7 @@ narrative_event = {
 				limit = {
 					ai = no
 					OR = {
-						culture_group hylian_group
+						culture_group = hylian_group
 						culture_group = round_eared
 					}
 				}
@@ -1777,7 +1777,7 @@ narrative_event = {
 	}
 }
 
-# Knights of saria Guard Founded ()
+# Knights of saria Guard Founded {}
 narrative_event = {
 	id = knights.52
 	title = EVTNAME_knights.52
@@ -1834,7 +1834,7 @@ character_event = {
 	}
 }
 
-# Son wants to join the Knights of sarias (Son)
+# Son wants to join the Knights of sarias {Son}
 character_event = {
 	id = knights.55
 	hide_window = yes
@@ -1928,7 +1928,7 @@ character_event = {
 	}
 }
 
-# Son wants to join the Knights of sarias (Father)
+# Son wants to join the Knights of sarias {Father}
 character_event = {
 	id = knights.56
 	desc = EVTDESC_knights.56
@@ -1968,7 +1968,7 @@ character_event = {
 	}
 }
 
-# Son stays in saria with wife (Son)
+# Son stays in saria with wife {Son}
 character_event = {
 	id = knights.57
 	hide_window = yes
@@ -2021,7 +2021,7 @@ character_event = {
 	}
 }
 
-# Son stays in Greece with wife ( father)
+# Son stays in Greece with wife { father}
 character_event = {
 	id = knights.58
 	desc = EVTDESC_knights.59
@@ -2046,7 +2046,7 @@ character_event = {
 	}
 }
 
-# Son stays in Greece with wife (Byzantine Emperor)
+# Son stays in Greece with wife {Byzantine Emperor}
 character_event = {
 	id = knights.59
 	desc = EVTDESC_knights.59
@@ -2075,7 +2075,7 @@ character_event = {
 	}
 }
 
-# Son returns scarred but seasoned (Son)
+# Son returns scarred but seasoned {Son}
 character_event = {
 	id = knights.60
 	hide_window = yes
@@ -2125,7 +2125,7 @@ character_event = {
 	}
 }
 
-# Son returns as excellent strategist (Son)
+# Son returns as excellent strategist {Son}
 character_event = {
 	id = knights.62
 	hide_window = yes
@@ -2225,7 +2225,7 @@ character_event = {
 	}
 }
 
-# Son returns with PTSD (Son)
+# Son returns with PTSD {Son}
 character_event = {
 	id = knights.64
 	hide_window = yes
@@ -2279,7 +2279,7 @@ character_event = {
 	}
 }
 
-# Son returns home with  wife (Son)
+# Son returns home with  wife {Son}
 character_event = {
 	id = knights.66
 	hide_window = yes
@@ -2340,7 +2340,7 @@ character_event = {
 	}
 }
 
-# Son returns home as a seasoned warrior (Son)
+# Son returns home as a seasoned warrior {Son}
 character_event = {
 	id = knights.68
 	hide_window = yes
@@ -2415,7 +2415,7 @@ character_event = {
 	}
 }
 
-# Son dies in battle (Son)
+# Son dies in battle {Son}
 character_event = {
 	id = knights.70
 	hide_window = yes
@@ -2507,7 +2507,7 @@ character_event = {
 	}
 }
 
-# Son returns with loot (Son)
+# Son returns with loot {Son}
 character_event = {
 	id = knights.72
 	hide_window = yes
@@ -2622,7 +2622,7 @@ character_event = {
 }
 #Knights of Great Hyrule
 
-# Knights of Great Hyrule Founded (Emperor)
+# Knights of Great Hyrule Founded {Emperor}
 narrative_event = {
 	id = knights.76
 	title = EVTNAME_knights.76
@@ -2650,7 +2650,7 @@ narrative_event = {
 	}
 }
 
-# Knights of saria Guard Founded (Norse)
+# Knights of saria Guard Founded {Norse}
 narrative_event = {
 	id = knights.77
 	title = EVTNAME_knights.77
@@ -2707,7 +2707,7 @@ character_event = {
 	}
 }
 
-# Son wants to join the Knights of sarias (Son)
+# Son wants to join the Knights of sarias {Son}
 character_event = {
 	id = knights.80
 	hide_window = yes
@@ -2803,7 +2803,7 @@ character_event = {
 	}
 }
 
-# Son wants to join the Knights of sarias (Father)
+# Son wants to join the Knights of sarias {Father}
 character_event = {
 	id = knights.81
 	desc = EVTDESC_knights.81
@@ -2843,7 +2843,7 @@ character_event = {
 	}
 }
 
-# Son stays in saria with wife (Son)
+# Son stays in saria with wife {Son}
 character_event = {
 	id = knights.82
 	hide_window = yes
@@ -2896,7 +2896,7 @@ character_event = {
 	}
 }
 
-# Son stays in Greece with wife (Norse father)
+# Son stays in Greece with wife {Norse father}
 character_event = {
 	id = knights.83
 	desc = EVTDESC_knights.84
@@ -2921,7 +2921,7 @@ character_event = {
 	}
 }
 
-# Son stays in Greece with wife (Byzantine Emperor)
+# Son stays in Greece with wife {Byzantine Emperor}
 character_event = {
 	id = knights.84
 	desc = EVTDESC_knights.84
@@ -2950,7 +2950,7 @@ character_event = {
 	}
 }
 
-# Son returns scarred but seasoned (Son)
+# Son returns scarred but seasoned {Son}
 character_event = {
 	id = knights.84
 	hide_window = yes
@@ -3000,7 +3000,7 @@ character_event = {
 	}
 }
 
-# Son returns as excellent strategist (Son)
+# Son returns as excellent strategist {Son}
 character_event = {
 	id = knights.86
 	hide_window = yes
@@ -3100,7 +3100,7 @@ character_event = {
 	}
 }
 
-# Son returns with PTSD (Son)
+# Son returns with PTSD {Son}
 character_event = {
 	id = knights.88
 	hide_window = yes
@@ -3154,7 +3154,7 @@ character_event = {
 	}
 }
 
-# Son returns home with Greek wife (Son)
+# Son returns home with Greek wife {Son}
 character_event = {
 	id = knights.90
 	hide_window = yes
@@ -3215,7 +3215,7 @@ character_event = {
 	}
 }
 
-# Son returns home as a seasoned warrior (Son)
+# Son returns home as a seasoned warrior {Son}
 character_event = {
 	id = knights.92
 	hide_window = yes
@@ -3290,7 +3290,7 @@ character_event = {
 	}
 }
 
-# Son dies in battle (Son)
+# Son dies in battle {Son}
 character_event = {
 	id = knights.94
 	hide_window = yes
@@ -3382,7 +3382,7 @@ character_event = {
 	}
 }
 
-# Son returns with loot (Son)
+# Son returns with loot {Son}
 character_event = {
 	id = knights.96
 	hide_window = yes
@@ -3496,7 +3496,7 @@ character_event = {
 	}
 }
 #Knights of Moria
-# Knights of Moria Founded (Emperor)
+# Knights of Moria Founded {Emperor}
 narrative_event = {
 	id = knights.100
 	title = EVTNAME_knights.100
@@ -3522,7 +3522,7 @@ narrative_event = {
 	}
 }
 
-# Knights of Moria Founded ()
+# Knights of Moria Founded {}
 narrative_event = {
 	id = knights.101
 	title = EVTNAME_knights.101
@@ -3579,7 +3579,7 @@ character_event = {
 	}
 }
 
-# Son wants to join the Knights of morias (Son)
+# Son wants to join the Knights of morias {Son}
 character_event = {
 	id = knights.104
 	hide_window = yes
@@ -3671,7 +3671,7 @@ character_event = {
 	}
 }
 
-# Son wants to join the Knights of morias (Father)
+# Son wants to join the Knights of morias {Father}
 character_event = {
 	id = knights.105
 	desc = EVTDESC_knights.105
@@ -3711,7 +3711,7 @@ character_event = {
 	}
 }
 
-# Son stays in moria with wife (Son)
+# Son stays in moria with wife {Son}
 character_event = {
 	id = knights.106
 	hide_window = yes
@@ -3764,7 +3764,7 @@ character_event = {
 	}
 }
 
-# Son stays in Greece with wife ( father)
+# Son stays in Greece with wife { father}
 character_event = {
 	id = knights.107
 	desc = EVTDESC_knights.108
@@ -3789,7 +3789,7 @@ character_event = {
 	}
 }
 
-# Son stays in Greece with wife (Byzantine Emperor)
+# Son stays in Greece with wife {Byzantine Emperor}
 character_event = {
 	id = knights.108
 	desc = EVTDESC_knights.108
@@ -3818,7 +3818,7 @@ character_event = {
 	}
 }
 
-# Son returns scarred but seasoned (Son)
+# Son returns scarred but seasoned {Son}
 character_event = {
 	id = knights.109
 	hide_window = yes
@@ -3868,7 +3868,7 @@ character_event = {
 	}
 }
 
-# Son returns as excellent strategist (Son)
+# Son returns as excellent strategist {Son}
 character_event = {
 	id = knights.111
 	hide_window = yes
@@ -3968,7 +3968,7 @@ character_event = {
 	}
 }
 
-# Son returns with PTSD (Son)
+# Son returns with PTSD {Son}
 character_event = {
 	id = knights.113
 	hide_window = yes
@@ -4022,7 +4022,7 @@ character_event = {
 	}
 }
 
-# Son returns home with  wife (Son)
+# Son returns home with  wife {Son}
 character_event = {
 	id = knights.115
 	hide_window = yes
@@ -4083,7 +4083,7 @@ character_event = {
 	}
 }
 
-# Son returns home as a seasoned warrior (Son)
+# Son returns home as a seasoned warrior {Son}
 character_event = {
 	id = knights.117
 	hide_window = yes
@@ -4158,7 +4158,7 @@ character_event = {
 	}
 }
 
-# Son dies in battle (Son)
+# Son dies in battle {Son}
 character_event = {
 	id = knights.119
 	hide_window = yes
@@ -4250,7 +4250,7 @@ character_event = {
 	}
 }
 
-# Son returns with loot (Son)
+# Son returns with loot {Son}
 character_event = {
 	id = knights.121
 	hide_window = yes

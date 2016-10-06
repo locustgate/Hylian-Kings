@@ -1,2 +1,9 @@
 pagan_subjugation_desc;Certain religions and cultures are allowed to subjugate others rulers once in their lifetime. (With the 'Become King' ambition, there is no such time limit against targets within the kingdom.);;;;;;;;;x
 marsh;Marsh;;;;;;;;;x
+REL_PENTARCHS;Great Sage;;;;;;;;;x
+REL_PENTARCHS_NON_ORTHODOX_DESC;The Sages are the traditional care takers of holy sites for the $RELIGION$ church.;Les pentarques étaient les cinq patriarches originels de l'Église Chrétienne. Leur autorité en tant que patriarches autocéphales sur leurs Églises respectives est toujours reconnue par l'Église $RELIGION$.;Die Pentarchie waren die fünf Patriarchate der frühchristlichen Kirche. Ihre Authorität innerhalb ihrer Stammsitze ist innerhalb der $RELIGION$en Kirche noch immer anerkannt.;;Los Pentarcas fueron los cinco Patriarcas originales del Cristianismo. Su autoridad como Patriarcas autocéfalos sobre sus antiguas sedes es todavía reconocida por la religión $RELIGION$.;;;;;;;;;x
+#REL_AUTOCEPHALY_DESC;Multiple Patriarchs - the five Pentarchs and Autocephalous Patriarchs under Kings;Patriarches multiples – les cinq pentarques et patriarches autocéphales dépendant de rois;Mehrere Patriarchen: die fünf Pentarchen und die Autokephalen Patriarchen unter Königen;;Patriarcas múltiples - los cinco pentarcas y patriarcas autocéfalos bajo reyes;;;;;;;;;x
+AUTOCEPHALOUS_REL_HEAD_TITLE;Sage;;;;;;;;;x
+AUTOCEPHALOUS_PATRIARCHS;Realm Sage;;;;;;;;x
+AUTOCEPHALY_IRO;Additional Sage;;;;;;;;;x
+AUTOCEPHALY_DRO;Apart from the original five Sages all other $RELIGION$ kingdoms or empires also have their own autonomous Sage. The Court Chaplain of such a kingdom or empire is also considered the Sage of that realm. He will always do what his liege asks of him. Each High Priest controls Excommunication within their respective realm.;;;;;;;;;;x

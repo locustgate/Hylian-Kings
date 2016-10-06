@@ -5,135 +5,135 @@
 #################################################
 
 # Province culture changes
-province_event = {
-	id = 55000
-	desc = "EVTDESC55000"
-	picture = GFX_evt_stone_church
-	
-	trigger = {
-		NOT = {
-			top_liege = {
-				OR = { 
-				culture = deku_tree
-				culture = demon
-				culture = great_fairy
-				}
-			}
-		}
-		owner = {
-			top_liege = {
-				culture = PREV
-			}
-			NOT = { culture = ROOT }
-			religion = ROOT
-		}
-		any_neighbor_province = {
-			has_owner = yes
-			ROOT = {
-				owner = {
-					culture = PREVPREV
-				}
-			}
-			owner = {
-				ROOT = {
-					owner = {
-						culture = PREVPREV
-					}
-				}
-			}
-		}
-		NOR = {
-			culture = deku_tree
-			culture = demon
-			culture = great_fairy
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 1200
-
-		modifier = {
-			factor = 1.5
-			owner = { NOT = { stewardship = 2 } }
-		}
-		modifier = {
-			factor = 1.5
-			owner = { NOT = { stewardship = 3 } }
-		}
-		modifier = {
-			factor = 1.5
-			owner = { NOT = { stewardship = 4 } }
-		}
-		modifier = {
-			factor = 1.5
-			owner = { NOT = { stewardship = 5 } }
-		}
-		modifier = {
-			factor = 0.75
-			owner = { stewardship = 9 }
-		}
-		modifier = {
-			factor = 0.75
-			owner = { stewardship = 11 }
-		}
-		modifier = {
-			factor = 0.75
-			owner = { stewardship = 13 }
-		}
-		modifier = {
-			factor = 0.75
-			owner = { stewardship = 15 }
-		}
-		modifier = {
-			factor = 0.75
-			owner = {
-				OR = {
-					primary_title = {
-						conquest_culture = PREV
-					}
-					ROOT = {
-						county = {
-							conquest_culture = PREVPREV
-						}
-					}
-					ROOT = {
-						duchy = {
-							holder_scope = {
-								character = PREVPREVPREV
-							}
-							conquest_culture = PREVPREV
-						}
-					}
-					ROOT = {
-						kingdom = {
-							holder_scope = {
-								character = PREVPREVPREV
-							}
-							conquest_culture = PREVPREV
-						}
-					}
-					ROOT = {
-						empire = {
-							holder_scope = {
-								character = PREVPREVPREV
-							}
-							conquest_culture = PREVPREV
-						}
-					}
-				}
-			}
-		}
-	}
-
-	option = {
-		name = "EVTOPTA55000"
-		owner = {
-			ROOT = {
-				culture = PREV
-			}
-		}
-	}
-}
+#province_event = {
+#	id = 55000
+#	desc = "EVTDESC55000"
+#	picture = GFX_evt_stone_church
+#	
+#	trigger = {
+#		NOT = {
+#			top_liege = {
+#				OR = { 
+#				culture = deku_tree
+#				culture = demon
+#				culture = great_fairy
+#				}
+#			}
+#		}
+#		owner = {
+#			top_liege = {
+#				culture = PREV
+#			}
+#			NOT = { culture = ROOT }
+#			religion = ROOT
+#		}
+#		any_neighbor_province = {
+#			has_owner = yes
+#			ROOT = {
+#				owner = {
+#					culture = PREVPREV
+#				}
+#			}
+#			owner = {
+#				ROOT = {
+#					owner = {
+#						culture = PREVPREV
+#					}
+#				}
+#			}
+#		}
+#		NOR = {
+#			culture = deku_tree
+#			culture = demon
+#			culture = great_fairy
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1200
+#
+#		modifier = {
+#			factor = 1.5
+#			owner = { NOT = { stewardship = 2 } }
+#		}
+#		modifier = {
+#			factor = 1.5
+#			owner = { NOT = { stewardship = 3 } }
+#		}
+#		modifier = {
+#			factor = 1.5
+#			owner = { NOT = { stewardship = 4 } }
+#		}
+#		modifier = {
+#			factor = 1.5
+#			owner = { NOT = { stewardship = 5 } }
+#		}
+#		modifier = {
+#			factor = 0.75
+#			owner = { stewardship = 9 }
+#		}
+#		modifier = {
+#			factor = 0.75
+#			owner = { stewardship = 11 }
+#		}
+#		modifier = {
+#			factor = 0.75
+#			owner = { stewardship = 13 }
+#		}
+#		modifier = {
+#			factor = 0.75
+#			owner = { stewardship = 15 }
+#		}
+#		modifier = {
+#			factor = 0.75
+#			owner = {
+#				OR = {
+#					primary_title = {
+#						conquest_culture = PREV
+#					}
+#					ROOT = {
+#						county = {
+#							conquest_culture = PREVPREV
+#						}
+#					}
+#					ROOT = {
+#						duchy = {
+#							holder_scope = {
+#								character = PREVPREVPREV
+#							}
+#							conquest_culture = PREVPREV
+#						}
+#					}
+#					ROOT = {
+#						kingdom = {
+#							holder_scope = {
+#								character = PREVPREVPREV
+#							}
+#							conquest_culture = PREVPREV
+#						}
+#					}
+#					ROOT = {
+#						empire = {
+#							holder_scope = {
+#								character = PREVPREVPREV
+#							}
+#							conquest_culture = PREVPREV
+#						}
+#					}
+#				}
+#			}
+#		}
+#	}
+#
+#	option = {
+#		name = "EVTOPTA55000"
+#		owner = {
+#			ROOT = {
+#				culture = PREV
+#			}
+#		}
+#	}
+#}
 
 # Bring in some settlers
 province_event = {
