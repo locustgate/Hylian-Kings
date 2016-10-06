@@ -323,3 +323,119 @@
 	3378.12.19={ birth=yes }
 	3652.4.25={ death=yes }
 }
+13527={
+	name=Dire
+	dynasty=3730
+	dna="aboeabigemn"
+	culture=kokiri religion=great_deku
+	martial=6 diplomacy=4 stewardship=5 intrigue=6 learning=6
+	add_trait=scholarly_theologian add_trait=duelist add_trait=proud add_trait=slothful add_trait=charitable 
+	add_trait=zealous add_trait=lisp 
+	3300.5.20={ birth=yes }
+	3529.12.27={ death=yes }
+}
+13528={
+	name=Rama
+	dynasty=3735
+	dna="golbfbgedda"
+	culture=kokiri religion=great_deku
+	martial=5 diplomacy=7 stewardship=6 intrigue=6 learning=8
+	add_trait=tough_soldier add_trait=gregarious add_trait=cynical add_trait=weak 
+	3299.12.6={ birth=yes }
+	3639.8.25={ death=yes }
+}
+13529={
+	name=Rolu
+	dynasty=3740
+	dna="dcjfhjhkeal"
+	culture=kokiri religion=great_deku
+	martial=8 diplomacy=8 stewardship=7 intrigue=4 learning=5
+	add_trait=flamboyant_schemer add_trait=impaler add_trait=wroth add_trait=paranoid add_trait=brave 
+	add_trait=content add_trait=gregarious add_trait=ill 
+	3289.9.2={ birth=yes }
+	3375.1.1={add_spouse=13531}
+	3712.2.20={ death=yes }
+}
+13530={
+	name=Fado
+	dynasty=3740
+	dna="dcidhnhjekg"
+	culture=kokiri religion=great_deku
+	martial=6 diplomacy=8 stewardship=6 intrigue=8 learning=5
+	add_trait=martial_cleric add_trait=celibate add_trait=deceitful add_trait=gluttonous add_trait=craven 
+	add_trait=zealous add_trait=lunatic 
+	father=13529	#Rolu
+	mother=1531
+	3379.8.15={ birth=yes }
+	3639.1.25={ death=yes }
+}
+13531={
+	name=Saria
+	female=yes
+	culture=kokiri religion=great_deku
+	3289.9.2={ birth=yes }
+	3375.1.1={add_spouse=13529}
+	3712.2.20={ death=yes }
+}
+13532={
+	name=Ilis
+	dynasty=3745
+	dna="hbijbchknkm"
+	culture=kokiri religion=great_deku
+	martial=7 diplomacy=7 stewardship=5 intrigue=6 learning=6
+	add_trait=midas_touched add_trait=gardener add_trait=wroth add_trait=diligent add_trait=cruel 
+	add_trait=zealous add_trait=temperate 
+	3296.9.16={ birth=yes }
+	3370.1.1={add_spouse=13534}
+	3606.12.10={ death=yes }
+}
+13533={
+	name=Faso
+	female=yes
+	dynasty=3745
+	dna="kbajbchkekh"
+	culture=kokiri religion=great_deku
+	father=13532	#Ilis
+	mother=1354
+	3375.3.15={ birth=yes }
+	3675.9.14={ death=yes }
+}
+13534={
+	name=Faso
+	female=yes
+	culture=kokiri religion=great_deku
+	3296.9.16={ birth=yes }
+	3370.1.1={add_spouse=13532}
+	3606.12.10={ death=yes }
+}
+13535={
+	name=Ventes
+	dynasty=3755
+	dna="fpbhmhgjgcf"
+	culture=kokiri religion=great_deku
+	martial=6 diplomacy=7 stewardship=8 intrigue=7 learning=5
+	add_trait=midas_touched add_trait=cynical add_trait=proud add_trait=cruel add_trait=craven 
+	3286.5.27={ birth=yes }
+	3559.12.4={ death=yes }
+}
+13536={
+	name=Alto
+	dynasty=3760
+	dna="cjdplgfiohh"
+	culture=kokiri religion=great_deku
+	martial=7 diplomacy=5 stewardship=4 intrigue=5 learning=8
+	add_trait=tough_soldier add_trait=chaste add_trait=diligent add_trait=cruel add_trait=ugly 
+	3299.10.23={ birth=yes }
+	3608.4.18={ death=yes }
+}
+13537={
+	name=Dire
+	dynasty=3765
+	dna="acfhhiplgig"
+	culture=kokiri religion=great_deku
+	martial=5 diplomacy=4 stewardship=8 intrigue=5 learning=4
+	add_trait=midas_touched add_trait=duelist add_trait=honest add_trait=cruel add_trait=craven 
+	add_trait=slothful add_trait=drunkard 
+	3297.11.10={ birth=yes }
+	3555.5.25={ death=yes }
+}

@@ -959,7 +959,6 @@ e_hyrule_central = {
 				color = { 255 215 0 }
 				color2 = { 250 250 210}
 				holy_site = golden_goddesses
-				holy_site = light_force
 				holy_site = hylia_religion
 				holy_site = sheikahism			
 				holy_site = vaati_religion
@@ -972,7 +971,7 @@ e_hyrule_central = {
 				holy_site = sol_religion
 				holy_site = goddess_of_time
 				
-				b_temple_of_time = { pentarchy = yes }
+				b_temple_of_time = { }
 				b_temple_guard = {}
 				b_temple_gate = {}
 				b_monastary_of_hylia = {}
@@ -1729,7 +1728,8 @@ e_saria = { #empire
 			c_maze_palace = {
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
-				
+				holy_site = darknut_doctrine
+
 				b_maze_palace = {}
 				b_aridu = {}
 			}
@@ -4553,6 +4553,8 @@ e_holodrum = {
 			c_temple_mountain = {			
 				color={ 193 255 193 }
 				color2={ 255 245 238 }
+				holy_site = darknut_doctrine
+
 				b_winter_tower = {}
 				b_summer_tower = {}
 				b_spring_tower = {}
@@ -4972,7 +4974,7 @@ e_labrynna = {
 				b_jabu_throne = {}
 				b_zora_village = {}
 			}
-			c_treasure_island = {
+			c_treasure_islands = {
 				color={ 107 142 35 }
 				color2={ 255 239 213 }
 				b_treasure_island = {}
@@ -7367,7 +7369,8 @@ k_falsia = {
 		c_proodyl = {
 			color={ 41 255 30 }
 			color2={ 18 136 7 }
-		
+			holy_site = darknut_doctrine
+
 			b_proodyl_fortress = {}
 			b_lia = {}
 			b_fiare = {}
@@ -8338,6 +8341,8 @@ k_bastion = {
 		c_darknut_bastion = {
 			color={ 244 164 96 }
 			color2={ 255 222 0 }
+			holy_site = darknut_doctrine
+
 			b_last_bastion = {}
 			b_judges_grounds = {}
 			b_aegis = {}
@@ -8616,4 +8621,933 @@ k_myrddin = {
 			b_genion = {}
 		}
 	}	
+}
+#vassal
+d_knights_hyrule = {
+	color={ 0 0 204 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+
+	capital = 1
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = hyrulean
+	
+	mercenary = yes
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = knights_hyrule_composition
+}
+d_knights_cobble = {
+	color={ 204 0 0 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = hashshashingfx
+
+	capital = 1
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = cobble
+	
+	mercenary = yes
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = knights_cobble_composition
+}
+d_knights_saria = {
+		color={ 177 60 100 }
+		color2={ 255 255 23 }
+	
+	graphical_culture = holygfx
+
+	capital = 1
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = sarian
+	
+	mercenary = yes
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = knights_saria_composition
+}
+d_knights_great_hyrule = {
+	color={ 204 0 0 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+
+	capital = 1
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = west_hyrulean
+	
+	mercenary = yes
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = knights_great_hyrule_composition
+}
+
+d_knights_moria = {
+	color={ 204 0 0 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+
+	capital = 1
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = plains_morian
+	
+	mercenary = yes
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = knights_moria_composition
+}
+#'good' mercs
+d_dins_sons = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 481 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		religion_group = goddesses_religion
+	}
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = dins_sons_composition
+}
+d_farore_company = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 481 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		religion_group = goddesses_religion
+	}
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = farore_company_composition
+}
+d_ravens_company = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 481 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = goddesses_religion
+			religion_group = minor_deity
+			religion_group = guardian_deity
+		}
+		year = 3700
+	}
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = ravens_company_composition
+}
+
+d_ordonion_goat_wrestlers = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 481 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = goddesses_religion
+			religion_group = minor_deity
+			religion_group = guardian_deity
+		}
+	}
+	
+	# Parent Religion 
+	religion = light_spirits
+	
+	culture = ordonion
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = ordonion_goat_wrestlers_composition
+}
+d_grand_arcadia_company = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 481 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = goddesses_religion
+			religion_group = minor_deity
+			religion_group = guardian_deity
+		}
+	}
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = arcadian
+	
+	mercenary = yes
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = grand_arcadia_company_composition
+}
+d_tolemac_band = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 481 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = goddesses_religion
+			religion_group = minor_deity
+			religion_group = guardian_deity
+		}
+	}
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = tolemac
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = tolemac_band_composition
+}
+d_koridai_band = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 1 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		NOT = { culture_group = blin }
+	}
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = koridai
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = koridai_band_composition
+}
+#'neutral' mercs
+#d_third_daughters = {
+#	color={ 150 60 60 }
+#	color2={ 255 255 255 }
+#
+#	capital = 235 # Lombardia
+#	
+#	# Hire Trigger
+#	allow = {
+#		religion_group = guardian_deity
+#		religion_group = minor_deity
+#		religion = ganon_religion
+#	}
+#	
+#	# Parent Religion 
+#	religion = gerudo_goddess
+#	
+#	mercenary = yes
+#
+#	title = "CAPTAIN"
+#	foa = "CAPTAIN_FOA"
+#	# Always exists
+#	landless = yes
+#	
+#	# Cannot be held as a secondary title
+#	primary = yes
+#		
+#	# Cannot be vassalized
+#	independent = yes
+#	
+#	strength_growth_per_century = 1.0
+#
+#	mercenary_type = lombard_band_composition #large
+#}
+#d_motherless = {
+#	color={ 150 60 60 }
+#	color2={ 255 255 255 }
+#
+#	capital = 235 # Lombardia
+#	
+#	# Hire Trigger
+#	allow = {
+#		religion_group = guardian_deity
+#		religion_group = minor_deity
+#		religion = ganon_religion
+#	}
+#	
+#	# Parent Religion 
+#	religion = gerudo_goddess
+#	
+#	mercenary = yes
+#	
+#	title = "CAPTAIN"
+#	foa = "CAPTAIN_FOA"
+#
+#	# Always exists
+#	landless = yes
+#	
+#	# Cannot be held as a secondary title
+#	primary = yes
+#		
+#	# Cannot be vassalized
+#	independent = yes
+#	
+#	strength_growth_per_century = 1.0
+#
+#	mercenary_type = lombard_band_composition #medium
+#}
+#d_sand_crawlers = {
+#	color={ 150 60 60 }
+#	color2={ 255 255 255 }
+#
+#	capital = 235 # Lombardia
+#	
+#	# Hire Trigger
+#	allow = {
+#		religion_group = guardian_deity
+#		religion_group = minor_deity
+#		religion = ganon_religion
+#	}
+#	
+#	# Parent Religion 
+#	religion = gerudo_goddess
+#	
+#	mercenary = yes
+#	
+#	title = "CAPTAIN"
+#	foa = "CAPTAIN_FOA"
+#
+#	# Always exists
+#	landless = yes
+#	
+#	# Cannot be held as a secondary title
+#	primary = yes
+#		
+#	# Cannot be vassalized
+#	independent = yes
+#	
+#	strength_growth_per_century = 1.0
+#
+#	mercenary_type = lombard_band_composition #small
+#}
+#d_nabooru_gang = {
+#	color={ 150 60 60 }
+#	color2={ 255 255 255 }
+#
+#	capital = 235 # Lombardia
+#	
+#	# Hire Trigger
+#	allow = {
+#		religion_group = guardian_deity
+#		religion_group = minor_deity
+#		religion = ganon_religion
+#	}
+#	
+#	# Parent Religion 
+#	religion = gerudo_goddess
+#	
+#	mercenary = yes
+#	
+#	title = "CAPTAIN"
+#	foa = "CAPTAIN_FOA"
+#
+#	# Always exists
+#	landless = yes
+#	
+#	# Cannot be held as a secondary title
+#	primary = yes
+#		
+#	# Cannot be vassalized
+#	independent = yes
+#	
+#	strength_growth_per_century = 1.0
+#
+#	mercenary_type = lombard_band_composition #small
+#}
+d_gerudo_bane = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 481 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		NOT = { culture = darknut }
+	}
+	
+	# Parent Religion 
+	religion = darknut_doctrine
+	
+	culture = darknut
+	
+	mercenary = yes
+
+	title = "LEGATUS"
+	foa = "LEGATUS_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = darknut_legion_composition #small
+}
+d_unbroken = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 481 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		NOT = { culture = darknut }
+	}
+	
+	# Parent Religion 
+	religion = darknut_doctrine
+	
+	culture = darknut
+	
+	mercenary = yes
+
+	title = "LEGATUS"
+	foa = "LEGATUS_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+		mercenary_type = darknut_legion_composition #small
+}
+d_unending = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 481 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		NOT = { culture = darknut }
+	}
+	
+	# Parent Religion 
+	religion = darknut_doctrine
+	
+	culture = darknut
+	
+	mercenary = yes
+
+	title = "LEGATUS"
+	foa = "LEGATUS_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+		mercenary_type = darknut_legion_composition #small
+}
+d_dishonored = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 481 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		NOT = { culture = darknut }
+	}
+	
+	# Parent Religion 
+	religion = darknut_doctrine
+	
+	culture = darknut
+	
+	mercenary = yes
+
+	title = "CENTURION"
+	foa = "CENTURION_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = darknut_dishonored_composition
+}
+d_kain = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 481 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		NOT = { culture = darknut }
+	}
+	
+	# Parent Religion 
+	religion = darknut_doctrine
+	
+	culture = darknut
+	
+	mercenary = yes
+
+	title = "PRIMUS"
+	foa = "PRIMUS_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = darknut_cohort_composition #small
+}
+
+d_hyrulean_deserters_1 = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 481 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		NOT = { culture = hyrulean }
+	}
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = hyrulean
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = hyrulean_deserters_composition #small
+}
+
+d_hyrulean_deserters_2 = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 481 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		NOT = { culture = hyrulean }
+	}
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = hyrulean
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = hyrulean_deserters_composition #small
+}
+
+d_hyrulean_deserters_3 = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 481 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		NOT = { culture = hyrulean }
+	}
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = hyrulean
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = hyrulean_deserters_composition #small
+}
+
+d_hyrulean_deserters_4 = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 481 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		NOT = { culture = hyrulean }
+	}
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	culture = hyrulean
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = hyrulean_deserters_composition #small
+}
+#'evil' mercs
+#naval mercs
+
+d_labrynnan_pirates_1 = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 300 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+		religion_group = guardian_deity
+		religion_group = minor_deity
+		religion_group = goddesses_religion
+		religion_group = demon_religion
+		}
+	}
+	
+	# Parent Religion 
+	religion = pirate_doctrine
+	
+	culture = labrynnan
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = naval_merc_composition
+}
+
+d_labrynnan_pirates_2 = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 300 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+		religion_group = guardian_deity
+		religion_group = minor_deity
+		religion_group = goddesses_religion
+		religion_group = demon_religion
+		}
+	}
+	
+	# Parent Religion 
+	religion = pirate_doctrine
+	
+	culture = labrynnan
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = naval_merc_composition
+}
+#Religion
+k_judicars = { #Judiciary
+	color={ 255 249 198 }
+	color2={ 220 220 0 }
+	
+	capital = 768 #temp 509
+	
+	title = "HIGH_EXEMPLAR"
+	foa = "HIGH_EXEMPLAR_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = darknut_doctrine
+	
+	religion = darknut_doctrine
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+	
+	# Regnal names
+	male_names = {
+		Sword Shield Maul Scroll
+	}
+	female_names = {
+		Sword Shield Maul Scroll
+	}
 }

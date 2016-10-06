@@ -267,18 +267,18 @@ temple_county_of_great_fairies;Fairy Fountain of;;;;;;;;;x
 temple_barony_of_great_fairies;Fairy Fountain of;;;;;;;;;x
 temple_barony_of_sheikahism;Shrine of;;;;;;;;;x
 JUDICAR;Judicar;Judicar;Judicar;;Judicar;;;;;;;;;x
-temple_king_darknut_doctrin;High Exemplar ;;;;;;;;;;;;;x
-temple_king_female_darknut_doctrin;Exemplar;;;;;;;;;;;;;x
-temple_duke_darknut_doctrin;Paragon;;;;;;;;;;;;;x
-temple_duke_female_darknut_doctrin;Paragon;;;;;;;;;;;;;x
-temple_count_darknut_doctrin;Judicar;;;;;;;;;;;;;x
-temple_count_female_darknut_doctrin;Judicar;;;;;;;;;;;;;x
-temple_baron_darknut_doctrin;Arbiter;;;;;;;;;;;;;x
-temple_baron_female_darknut_doctrin;Arbiter;;;;;;;;;;;;;x
-temple_kingdom_of_darknut_doctrin;Supreme Tribunal of;;;;;;;;;;;;;x
-temple_duchy_of_darknut_doctrin;High Tribunal of;;;;;;;;;;;;;x
-temple_county_of_darknut_doctrin;County Tribunal of;;;;;;;;;;;;;x
-temple_barony_of_darknut_doctrin;Tribunal of;;;;;;;;;;;;;x
+temple_king_darknut_doctrine;High Exemplar ;;;;;;;;;;;;;x
+temple_king_female_darknut_doctrine;High Exemplar;;;;;;;;;;;;;x
+temple_duke_darknut_doctrine;Paragon;;;;;;;;;;;;;x
+temple_duke_female_darknut_doctrine;Paragon;;;;;;;;;;;;;x
+temple_count_darknut_doctrine;Judicar;;;;;;;;;;;;;x
+temple_count_female_darknut_doctrine;Judicar;;;;;;;;;;;;;x
+temple_baron_darknut_doctrine;Arbiter;;;;;;;;;;;;;x
+temple_baron_female_darknut_doctrine;Arbiter;;;;;;;;;;;;;x
+temple_kingdom_of_darknut_doctrine;Supreme Tribunal of;;;;;;;;;;;;;x
+temple_duchy_of_darknut_doctrine;High Tribunal of;;;;;;;;;;;;;x
+temple_county_of_darknut_doctrine;County Tribunal of;;;;;;;;;;;;;x
+temple_barony_of_darknut_doctrine;Tribunal of;;;;;;;;;;;;;x
 ELDER;Elder;;;;;;;;;;;;;x
 temple_duke_mask_cult;Priest;;;;;;;;;;;;;x
 temple_duke_female_mask_cult;Priestess;;;;;;;;;;;;;x
@@ -290,15 +290,15 @@ temple_duchy_of_mask_cult;Church of;;;;;;;;;;;;;x
 temple_county_of_mask_cult;Cult of;;;;;;;;;;;;;x
 temple_barony_of_mask_cult;Following of;;;;;;;;;;;;;x
 TEACHER;Educator;;;;;;;;;;;;;x
-temple_duke_wizzrobe_doctrin;Arch-Wizzard;;;;;;;;;;;;;x
-temple_duke_female_wizzrobe_doctrin;Arch-Witch;;;;;;;;;;;;;x
-temple_count_wizzrobe_doctrin;Head Wizzard;;;;;;;;;;;;;x
-temple_count_female_wizzrobe_doctrin;Head Witch;;;;;;;;;;;;;x
-temple_baron_wizzrobe_doctrin;Guild Master;;;;;;;;;;;;;x
-temple_baron_female_wizzrobe_doctrin;Guild Mistress;;;;;;;;;;;;;x
-temple_duchy_of_wizzrobe_doctrin;University of;;;;;;;;;;;;;x
-temple_county_of_wizzrobe_doctrin;School of;;;;;;;;;;;;;x
-temple_barony_of_wizzrobe_doctrin;Guild of;;;;;;;;;;;;;x
+temple_duke_wizzrobe_doctrine;Arch-Wizzard;;;;;;;;;;;;;x
+temple_duke_female_wizzrobe_doctrine;Arch-Witch;;;;;;;;;;;;;x
+temple_count_wizzrobe_doctrine;Head Wizzard;;;;;;;;;;;;;x
+temple_count_female_wizzrobe_doctrine;Head Witch;;;;;;;;;;;;;x
+temple_baron_wizzrobe_doctrine;Guild Master;;;;;;;;;;;;;x
+temple_baron_female_wizzrobe_doctrine;Guild Mistress;;;;;;;;;;;;;x
+temple_duchy_of_wizzrobe_doctrine;University of;;;;;;;;;;;;;x
+temple_county_of_wizzrobe_doctrine;School of;;;;;;;;;;;;;x
+temple_barony_of_wizzrobe_doctrine;Guild of;;;;;;;;;;;;;x
 temple_duke_demon_religion;Hight Shaman;;;;;;;;;;;;;x
 temple_duke_female_demon_religion;Hight Shaman;;;;;;;;;;;;;x
 temple_count_demon_religion;Shaman;;;;;;;;;;;;;x
@@ -308,17 +308,21 @@ temple_baron_female_demon_religion;Acolyte;;;;;;;;;;;;;x
 temple_duchy_of_demon_religion;Church of;;;;;;;;;;;;;x
 temple_county_of_demon_religion;High Temple of;;;;;;;;;;;;;x
 temple_barony_of_demon_religion;Temple of;;;;;;;;;;;;;x
-
-
-temple_king_
-temple_king_female_
-temple_duke_
-temple_duke_female_
-temple_count_
-temple_count_female_
-temple_baron_
-temple_baron_female_
-temple_kingdom_of_
-temple_duchy_of_
-temple_county_of_
-temple_barony_of_
+#heads of church
+title_exemplar;Exemplar;Exemplar;Exemplar;;Exemplar;;;;;;;;;;x
+SECONDUS_EXEMPLAR;Secondus Exemplar;Secondus Exemplar;Secondus Exemplar;;Secondus Exemplar;;;;;;;;;x#translate
+SECONDUS_EXEMPLAR_TOOLTIP;The Secondus Exemplar is the Exemplar expected to succeed the current High Exemplar;;;;;;;;;;;;;;x
+best_cadidate_title_exemplar;My Best Exemplar Candidate;;;;;;;;;;;;;x
+expected_next_title_exemplar;Expected Next Exemplar;;;;;;;;;;;;;;x
+#temple_king_
+#temple_king_female_
+#temple_duke_
+#temple_duke_female_
+#temple_count_
+#temple_count_female_
+#temple_baron_
+#temple_baron_female_
+#temple_kingdom_of_
+#temple_duchy_of_
+#temple_county_of_
+#temple_barony_of_

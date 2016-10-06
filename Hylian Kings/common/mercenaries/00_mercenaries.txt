@@ -37,5 +37,152 @@ ordon_culture_band_composition = {
 	light_cavalry = 70
 	horse_archers = 30
 }
+#vassal mercs
 
+knights_hyrule_composition = {
+	levy_size = 6
+	heavy_infantry = 200
+	pikemen = 100
+	knights = 100
+	archers = 50
+}
+knights_cobble_composition = {
+	levy_size = 6
+	heavy_infantry = 250
+	war_elephant = 20
+	camel_cavalry = 100
+	archers = 80
+}
+knights_saria_composition = {
+	levy_size = 6
+	heavy_infantry = 250
+	knights = 50
+	archers = 150
+	galleys=50
+}
+knights_great_hyrule_composition = {
+	levy_size = 6
+	heavy_infantry = 200
+	mage_sword = 50
+	knights = 50
+	archers = 100
+	mage = 50
+	galleys=50
+}
+knights_moria_composition = {
+	levy_size = 6
+	heavy_infantry = 200
+	knights = 100
+	archers = 150
+}
+#knights_labrynna_composition = { #Swordsmen of Labrynna
+#	levy_size = 6
+#	heavy_infantry = 300
+#	knights = 50
+#	archers = 100
+#}
+#knights_hytopia_composition = { #Witchhunters
+#	levy_size = 6
+#	heavy_infantry = 250
+#	knights = 50
+#	archers = 150
+#}
+#knights_hoho_composition = { #Treasure Hunters
+#	levy_size = 6
+#	heavy_infantry = 300
+#	archers = 150
+#	galleys=50
+#}
+#Genaric Mercs
+hyrulean_deserters_composition = { 
+	levy_size = 2
+	archers = 50
+	pikemen = 100
+	heavy_infantry = 50
+}
+pirate_composition = {
+	levy_size=1
+	archers=50
+	light_infantry=100
+	galleys=20
+}
+naval_merc_composition = {
+	levy_size = 9
+	galleys = 10
+}
+#Reg Mercs
+dins_sons_composition = {
+	levy_size = 3
+	archers = 150
+	light_infantry = 150
+	pikemen=200
+	heavy_infantry = 200
+	knights = 15
+}
+farore_company_composition = {
+	levy_size = 3
+	archers = 150
+	light_infantry = 150
+	heavy_infantry = 200
+	light_cavalry = 50
+}
+ravens_company_composition = {
+	levy_size = 3
+	archers = 150
+	pikemen=200
+	heavy_infantry = 200
+	knights = 30
+}
+ordonion_goat_wrestlers_composition = {
+	levy_size=2
+	horse_archers=50
+	light_cavalry=100
+	light_infantry=200	
+}
+grand_arcadia_company_composition = {
+	levy_size = 3
+	archers = 150
+	light_infantry = 150
+	heavy_infantry = 435
+	knights = 15
+}
+tolemac_band_composition = {
+	levy_size = 1
+	archers = 150
+	pikemen = 150
+	light_infantry = 300
+}
+koridai_band_composition = {
+	levy_size = 1
+	archers = 150
+	pikemen = 200
+	light_infantry = 200
+	galleys=40
+}
+darknut_legion_composition={
+	levy_size=1
+	archers=50
+	light_infantry=150
+	heavy_infantry=300
 
+}
+darknut_cohort_composition={
+	levy_size=1
+	archers=50
+	light_infantry=50
+	heavy_infantry=150
+
+}
+darknut_century_composition={
+	levy_size=1
+	light_infantry=15
+	heavy_infantry=35
+
+}
+darknut_dishonored_composition={
+	levy_size=1
+	archers=50
+	light_infantry=150
+	heavy_infantry=50
+
+}

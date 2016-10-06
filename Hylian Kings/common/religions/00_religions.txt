@@ -448,6 +448,8 @@ guardian_deity = {
 		priests_can_marry = yes
 		priests_can_inherit = yes
 		can_hold_temples = yes 
+		feminist=yes
+		pacifist = yes
 
 		
 		high_god_name = GOD_GREAT_DEKU_TREE
@@ -547,7 +549,8 @@ minor_deity = {
 		priests_can_inherit = yes
 		priests_can_marry = yes 
  		allow_female_priest = yes
-		feminist = yes
+		feminist=yes
+		pacifist = yes
 
 	}
 	earth_spirits = {
@@ -1168,11 +1171,12 @@ doctrine = {
 		priest_title = JUDGE
 		scripture_name = THE_CODE
 
-		priests_can_inherit = no
+		priests_can_inherit = yes
 		priests_can_marry = yes 
- 		allow_female_priest = yes
+ 		female_temple_holders  = yes
 		peace_prestige_loss = yes
 		allow_viking_invasion = yes
+		can_excommunicate = yes
 		
 		high_god_name = THE_CODE
 		god_names = {
