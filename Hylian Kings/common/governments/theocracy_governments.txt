@@ -15,7 +15,6 @@ theocracy_governments = {
 		}
 		accepts_liege_governments = {
 			feudal_government
-			muslim_government
 			republic_government
 			merchant_republic_government
 		}
@@ -24,14 +23,12 @@ theocracy_governments = {
 		potential = {			
 			NAND = {
 				controls_religion = yes
-				NOT = { religion_group = gerudo_goddess }
+				NOT = { religion = great_deku }
+				NOT = { religion = great_fairy }
+				NOT = { religion = gerudo_goddess }
 				NOT = { religion = darknut_doctrine }
 				NOT = { religion = wizzrobe_doctrine }
 				NOT = { religion_group = demon_religion }
-			}
-			NOR = {	religion = gerudo_goddesses
-					religion = great_fairy
-					religion = great_deku
 			}
 			is_patrician = no
 		}
@@ -44,5 +41,43 @@ theocracy_governments = {
 
 		can_build_tribal = no
 	}
-	
+	theocracy_government = {
+		preferred_holdings = { TEMPLE }
+		allowed_holdings = {
+			TEMPLE
+			CASTLE
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		accepts_liege_governments = {
+			feudal_government
+			muslim_government
+			republic_government
+			merchant_republic_government
+		}
+		frame_suffix = "_theocracy"
+		title_prefix = "temple_"
+		potential = {
+			NOR = {	
+			religion = great_deku
+			religion = great_fairies
+			religion = gerudo_goddess
+			}
+			is_patrician = no
+		}
+		
+		color = { 220 220 220 }
+		
+		can_create_kingdoms = no
+		have_gender_laws = no
+		can_be_granted_kingdoms_and_empires_by_other_government = no
+
+		can_build_tribal = no
+	}
 }

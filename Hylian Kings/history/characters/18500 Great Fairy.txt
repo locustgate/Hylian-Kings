@@ -113,3 +113,21 @@
 	3343.12.22={ birth=yes }
 	3885.12.31={ death=yes }
 }
+18500={
+	name=Arabesque
+	female=yes
+	dynasty=3020
+	culture=great_fairy 
+	religion=great_fairies
+	martial=8
+	diplomacy=10
+	stewardship=8
+	intrigue=4
+	learning=4
+	trait=grey_eminence
+	trait=lustful
+	trait=frail
+	trait=gregarious
+	3150.7.14={ birth=yes }
+	4000.4.4={ death=yes }
+}

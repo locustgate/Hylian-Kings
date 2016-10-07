@@ -14,7 +14,7 @@ tribal_governments = {
 				controls_religion = yes
 				NOT = { religion = great_deku }
 				NOT = { religion = great_fairy }
-				NOT = { religion_group = gerudo_goddess }
+				NOT = { religion = gerudo_goddess }
 				NOT = { religion = darknut_doctrine }
 				NOT = { religion = wizzrobe_doctrine }
 				NOT = { religion_group = demon_religion }
@@ -25,41 +25,24 @@ tribal_governments = {
 			republic_government
 			merchant_republic_government
 			theocracy_government
-			muslim_government
-			goron_governmnet
-			gerudo_government
 			barbaric_government
 			mage_government
 			imperialism_government
 			tribal_government
-			kokiri_government
-			legion_government
 		}
 		vassal_call_to_arms = {
 			tribal_government
-			kokiri_government
 			imperialism_government
 			mage_government
 		}
 		no_vassal_tax = {
 			tribal_government
-			kokiri_government
 		}
 		builds_with_prestige = {
 			TRIBAL
 		}
 		frame_suffix = "_tribal"
 		title_prefix = "tribal_"
-		potential = {
-			NAND = {
-				controls_religion = yes
-				NOT = { religion_group = wizzrobe_doctrine }
-				NOT = { religion = darknut_doctrine }
-			}
-			is_patrician = no
-			mercenary = no
-			holy_order = no
-		}
 		
 		color = { 92 31 23 }
 		
@@ -72,7 +55,7 @@ tribal_governments = {
 		can_build_tribal = yes
 		can_change_to_nomad_on_start = yes
 		capital_move_delay = 960
-		
+		have_gender_laws = no 
 		demesne_size = 2
 		vassal_limit = -10
 	}

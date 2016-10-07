@@ -75,8 +75,8 @@ feudal_governments = {
 		}
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
 		feudal_government
-		gerudo_government 
-		goron_government
+		 
+		
 		imperialism_government
 		legion_government
 		mage_government
@@ -90,11 +90,10 @@ feudal_governments = {
 		vassal_call_to_arms = {
 			tribal_government
 			barbaric_government
-			goron_government
-			gerudo_government
+			
+			
 			imperialism_government
 			mage_government
-			kokiri_government
 		}
 		potential = {
 			OR = {
@@ -134,10 +133,10 @@ feudal_governments = {
 		}
 		accepts_liege_governments = { # Gets the wrong religion modifier instead	
 		feudal_government
-		gerudo_government
+		
 		imperialism_government
 		mage_government
-		goron_government		
+				
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
@@ -145,11 +144,11 @@ feudal_governments = {
 		vassal_call_to_arms = {
 			tribal_government
 			feudal_government
-			goron_government
-			gerudo_government
+			
+			
 			imperialism_government
 			mage_government
-			kokiri_government
+			
 		}
 		potential = {
 			OR = {
@@ -184,8 +183,8 @@ feudal_governments = {
 		
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
-			kokiri_government
-			legion_government
+			
+			
 		}
 	}
 #darknut
@@ -223,9 +222,9 @@ feudal_governments = {
 		}
 		vassal_call_to_arms = {
 			tribal_government
-			legion_government
+			
 			mage_government
-			kokiri_government
+			
 		}	
 		color = { 176 23 31 }
 		
@@ -240,8 +239,8 @@ feudal_governments = {
 		
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
-			kokiri_government
-			legion_government
+			
+			
 		}
 	}
 	#mageocracy
@@ -267,8 +266,8 @@ feudal_governments = {
 		vassal_call_to_arms = {
 			tribal_government
 			imperialism_government
-			legion_government
-			kokiri_government
+			
+			
 		}
 		potential = {
 			religion = wizzrobe_doctrine 			
@@ -290,8 +289,8 @@ feudal_governments = {
 		
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
-			kokiri_government
-			legion_government
+			
+			
 		}
 	}
 }

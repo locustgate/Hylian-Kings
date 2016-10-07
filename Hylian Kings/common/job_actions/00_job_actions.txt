@@ -201,6 +201,16 @@ action_settle_tribe = {
 	attribute = stewardship
 
 	potential = {
+		NOR = {
+			culture = deku_tree
+			culture = great_fairy
+			culture = demon
+		}
+		NOT = {	
+			FROM = {
+				is_nomadic = yes
+			}
+		}
 		#FROM = {
 		#	is_tribal = yes
 		#}

@@ -27,6 +27,7 @@ title_biggoron = {
 	}
 	
 	allowed_to_grant = {
+		culture_group = goron_group
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
@@ -74,6 +75,7 @@ title_midgoron = {
 	}
 	
 	allowed_to_grant = {
+		culture_group = goron_group
 		OR = {
 			is_feudal = yes
 			is_tribal = yes

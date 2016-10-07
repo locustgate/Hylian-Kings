@@ -76,6 +76,8 @@ e_hyrule_central = {
 			c_great_faron_tree ={
 				color={85 107 47 }
 				color={ 255 255 255 }
+				holy_site = great_deku
+				holy_site = baga_tree				
 				
 				b_father_tree = {}
 				b_son_tree = {}
@@ -962,13 +964,13 @@ e_hyrule_central = {
 				color2 = { 250 250 210}
 				holy_site = golden_goddesses
 				holy_site = hylia_religion
-				holy_site = sheikahism			
+				holy_site = sheikahism
 				holy_site = vaati_religion
 				holy_site = gerudo_goddess
 				holy_site = demise_religion
 				holy_site = ganon_religion
-				holy_site = wizzrobe_doctrine
-				holy_site = darknut_doctrine
+				holy_site = wizzrobe_doctrine#temp
+				holy_site = darknut_doctrine#temp
 				holy_site = goddesses_lorule
 				holy_site = sol_religion
 				holy_site = goddess_of_time
@@ -1151,6 +1153,7 @@ e_hyrule_central = {
 			c_water_temple = {
 				color={ 111 138 191 }
 				color2={ 255 223 0 }
+				holy_site = water_spirit
 				
 				b_water_temple = {}
 				b_water = {}
@@ -1326,6 +1329,7 @@ e_mudora = { #empire
 			c_hylia_bay = {
 				color={ 0 170 0 }
 				color2={ 255 255 255 }
+				holy_site = great_fairies#temp
 				b_lin = {}
 			}
 			c_gale_isle = {
@@ -1458,7 +1462,8 @@ e_mudora = { #empire
 			}
 			c_southern_death_mountain = {
 				color={ 0 170 0 }
-				color2={ 255 255 255 }
+				color2={ 255 255 255 }		
+			holy_site = fire_spirit
 				b_lower_cavenrs = {}
 				b_middle_caverns = {}
 				b_upper_cavern = {}
@@ -1738,7 +1743,7 @@ e_saria = { #empire
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
 				holy_site = darknut_doctrine
-
+				holy_site = earth_spirit
 				b_maze_palace = {}
 				b_aridu = {}
 			}
@@ -1907,7 +1912,8 @@ e_saria = { #empire
 			capital = 209 # Middlesex
 			c_oberon_death_mountains = {
 				color={ 0 104 46 }
-				color2={ 249 228 83 }
+				color2={ 249 228 83 }		
+			holy_site = fire_spirit
 				
 				b_oberon_gate = {}
 			}
@@ -1944,6 +1950,7 @@ e_saria = { #empire
 			c_oberon = {
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
+				holy_site = great_fairies
 				
 				b_oberon = {}
 				b_oberon_spring = {}
@@ -2336,6 +2343,7 @@ e_sea_tree = {
 			c_great_deku_grove = {
 				color={ 255 0 0 }
 				color2={ 139 69 19 }
+				holy_site = great_deku
 				b_great_deku_grove = {}
 				b_great_grove_guard = {}
 				b_deku_roots = {}
@@ -2373,6 +2381,8 @@ e_sea_tree = {
 			c_forest_temple = {
 				color={ 255 0 0 }
 				color2={ 139 69 19 }
+				holy_site = great_deku
+				holy_site = baga_tree	
 				b_forest_manor = {}
 				b_forest_temple = {}
 
@@ -2524,6 +2534,7 @@ e_sea_tree = {
 			c_great_baga_tree_grove = {
 				color={ 255 0 0 }
 				color2={ 139 69 19 }
+				holy_site = baga_tree	
 				b_great_baga_grove = {}
 				b_great_baga_guard = {}
 				b_baga_roots = {}
@@ -2699,7 +2710,7 @@ e_sea_tree = {
 			c_swamp_temple = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
-					b_swamp_temple = {}
+				b_swamp_temple = {}
 				b_bubbling_pools = {}
 
 			}
@@ -3054,7 +3065,8 @@ e_sea_tree = {
 			}
 			c_fountain_woods = {
 				color={ 34 139 34}
-				color2={ 85 107 47 }
+				color2={ 85 107 47 }				
+				holy_site = great_fairies
 					b_kasovu = {}
 				b_fodi = {}
 				b_sokasi = {}
@@ -3169,6 +3181,8 @@ e_sea_tree = {
 			c_minish_woods = {
 				color={ 0 0 0 }
 				color2={ 0 0 0 }
+				holy_site = great_deku
+				holy_site = baga_tree	
 				b_seri = {}
 				b_kekiri = {}
 				b_divo = {}
@@ -3242,6 +3256,7 @@ e_sea_tree = {
 			c_great_baga_forest = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				holy_site = baga_tree	
 					b_dovia = {}
 				b_sebuko = {}
 				b_sadari = {}
@@ -4301,6 +4316,7 @@ e_holodrum = {
 			c_gates_of_subrosia = {			
 				color={ 193 255 193 }
 				color2={ 255 245 238 }
+				holy_site = fire_spirit
 				b_great_subrosia_gates = {}
 				b_subrosia_village = {}
 				b_subrosia_cemetery = {}
@@ -4560,6 +4576,7 @@ e_holodrum = {
 			c_goron_mountain = {			
 				color={ 193 255 193 }
 				color2={ 255 245 238 }
+				holy_site = earth_spirit
 				b_holodrum_pinacle = {}
 				b_goron_cave = {}
 			}
@@ -4769,7 +4786,8 @@ e_labrynna = {
 			capital = 286
 			c_rolling_ridge = {
 				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color2={ 255 239 213 }				
+				holy_site = earth_spirit
 				b_rolling_keep = {}
 				b_dancers_hall = {}
 			}
@@ -4988,6 +5006,9 @@ e_labrynna = {
 			c_zora_isles = {
 				color={ 107 142 35 }
 				color2={ 255 239 213 }
+				#lake_zora = Zora Isles
+				
+				holy_site = water_spirit
 				b_jabu_throne = {}
 				b_zora_village = {}
 			}
@@ -6488,6 +6509,7 @@ k_north_domain = {
 		c_zora_spring = {
 			color={ 0 214 253 }
 			color2={ 234 212 77 }
+			holy_site = water_spirit
 				
 			b_hylonin = {}
 			b_mapan = {}
@@ -6543,6 +6565,8 @@ k_zora_valley = {
 	color2={ 234 212 77 }
 	capital = 474 # Zora Domain
 	
+	#lake_zora = Waterfall Domain
+	
 	allow = {
 		culture = lake_zora
 		culture = river_zora
@@ -6560,7 +6584,8 @@ k_zora_valley = {
 		}
 		c_waterfall_domain = {
 			color={ 0 170 0 }
-			color2={ 255 255 255 }
+			color2={ 255 255 255 }			
+			holy_site = water_spirit
 			b_waterfall_gate = {}
 			b_waterfall_of_wishing = {}
 			b_waterfall_village = {}
@@ -6590,7 +6615,8 @@ k_west_death_mountains = {
 		}
 		c_goron_mines = {
 			color={ 139 117 0 }
-			color2={ 139 139 131  }
+			color2={ 139 139 131  }		
+			holy_site = fire_spirit
 			b_dinemi = {}
 			b_sippamiun = {}
 			b_tiurmiun = {}
@@ -6702,7 +6728,8 @@ k_west_death_mountains = {
 		}
 		c_death_mountain_crater = {
 				color={ 255 48 48 }
-			color2={ 255 215 0  }
+			color2={ 255 215 0  }			
+			holy_site = fire_spirit
 			
 			b_crater_gate = {}
 			b_fire_temple = {}
@@ -6882,8 +6909,8 @@ k_hyrule_minish = { #Minish
 		}
 		c_mount_crenel = {
 			color={ 255 69 0 }
-			color2={ 139 139 131}
-				
+			color2={ 139 139 131}				
+			holy_site = earth_spirit
 			b_taszkas = {}
 			b_ekatta = {}
 			b_hamor = {}
@@ -6898,8 +6925,8 @@ k_hyrule_minish = { #Minish
 		}
 		c_veil_falls = {
 			color={ 139 26 26 }
-			color2={ 139 119 101 }
-			
+			color2={ 139 119 101 }			
+			holy_site = earth_spirit
 			b_bappe = {}
 			b_cadra = {}
 			b_erar = {}
@@ -7091,7 +7118,8 @@ k_hyrule_minish = { #Minish
 		}
 		c_acacia_island = {
 			color={ 205 133 63 }
-			color2={ 139 136 120 }
+			color2={ 139 136 120 }			
+			holy_site = water_spirit
 			
 			b_acacia_resort = {}
 			b_narin = {}
@@ -7542,6 +7570,8 @@ k_port_isle = {
 			color={ 0 199 140 }
 			color2={ 255 64 64 }
 			
+			holy_site = great_fairies
+			
 			b_port_castle = {}
 			b_port_town = {}
 		}
@@ -7571,6 +7601,7 @@ k_port_isle = {
 		c_deku_island = {		
 			color={ 0 199 140 }
 			color2={ 255 64 64 }
+			holy_site = great_deku
 			
 			b_jungleo_treehouse = {}
 			b_deku_temple = {}
@@ -10186,10 +10217,10 @@ k_judicars = { #Judiciary
 	
 	# Regnal names
 	male_names = {
-		Sword Shield Maul Scroll
+		Sword Shortsword Shield Maul
 	}
 	female_names = {
-		Sword Shield Maul Scroll
+		Sword Shortsword Shield Maul
 	}
 }
 k_golden_goddesses = {
@@ -10263,6 +10294,30 @@ d_deku = {
 	controls_religion = great_deku
 	
 	religion = great_deku
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+e_baga = {
+	color={ 155 155 235 }
+	color2={ 220 220 0 }
+	
+	capital = 304
+	
+	title = "GREAT"
+	title_female = "GREAT"
+	foa = "GREAT_FOA"
+	
+	creation_requires_capital = no
+	
+
+	short_name = yes
+	
+	dignity = 100 # Counted as having this many more counties than it does
+	
+	# Controls a religion
+	controls_religion = baga_tree
+	
+	religion = baga_tree
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }

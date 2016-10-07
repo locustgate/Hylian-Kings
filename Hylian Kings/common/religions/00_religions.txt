@@ -32,7 +32,7 @@ goddesses_religion = {
 		}
 		can_retire_to_monastery = yes
 		priests_can_inherit = no
-		allow_female_priesy = yes
+		allow_female_priest = yes
 		priests_can_marry = yes
 		attacking_same_religion_piety_loss = yes
 		feminist = yes
@@ -144,7 +144,7 @@ goddesses_religion = {
 			GOD_GODDESSES SPIRIT_ELDIN SPIRIT_FARON SPIRIT_LANARYRU SPIRIT_ORDONA
 		} 
 		priests_can_inherit = yes
-		allow_female_priesy = yes 
+		allow_female_priest = yes 
 		priests_can_marry = yes
 		attacking_same_religion_piety_loss = yes
 		feminist = yes
@@ -344,7 +344,8 @@ guardian_deity = {
 		priests_can_marry = yes
 		priests_can_inherit = yes
 		can_hold_temples = yes 
-		seafarer = yes		
+		seafarer = yes	
+		defensive_attrition = yes	
 
 		priest_title = SHAMAN
 		scripture_name = SERENDADE_WATER
@@ -442,7 +443,7 @@ guardian_deity = {
 		allow_female_priest = yes
 		priests_can_marry = yes		
 		peace_piety_gain = 1.0		
-
+		has_heir_designation = yes 
 		#saria's song
 		scripture_name = DEKU_SONG
 		priest_title = ATTENDENT
@@ -533,7 +534,7 @@ minor_deity = {
 
 		allow_female_priest = yes
 		priests_can_marry = yes
-	
+	 	has_heir_designation = yes 
 
 		scripture_name = FAIRY_SONG
 		priest_title = PRIEST
@@ -898,7 +899,7 @@ demon_religion = {
 		allow_viking_invasion = yes
 		allow_looting = yes
 		peace_prestige_loss = yes
-
+		has_heir_designation = yes 
 		crusade_name = CLEANSING 
 		scripture_name = DEMISES_SAGA
 		priest_title = SHAMAN
@@ -933,7 +934,7 @@ demon_religion = {
 		priests_can_marry = yes
 		allow_viking_invasion = yes
 		allow_looting = yes
-
+		 has_heir_designation = yes 
 		crusade_name = CLEANSING 
 		priest_title = SHAMAN
 		scripture_name = VAATIS_LEGEND
@@ -968,7 +969,7 @@ demon_religion = {
 		feminist = yes #he IS a gerudo
 		max_wives = 4
 		allow_looting = yes 
-		
+			 has_heir_designation = yes 	
 		scripture_name = GANONS_LEGEND
 
 		crusade_name = PURGE
@@ -1005,7 +1006,7 @@ demon_religion = {
 		priests_can_marry = yes
 		allow_looting = yes
 		max_consorts = 3
-
+		 has_heir_designation = yes 
 		priest_title = PUJARI
 		piety_name = FORTUNE
 		scripture_name = RUPEES_HOW_TO
@@ -1041,7 +1042,7 @@ demon_religion = {
 		high_god_name = GOD_BELLUM
 		scripture_name = BELLUMS_SHANTI
 		piety_name = LIFE_FORCE
-		
+			 has_heir_designation = yes 	
 		god_names = {
 			GOD_BELLUM GOD_PHANTOM GOD_DREAM_GOD
 		}
@@ -1070,7 +1071,7 @@ demon_religion = {
 		priests_can_inherit = no
 		priests_can_marry = yes 
 		allow_looting = yes 
-		
+		has_heir_designation = yes 
 		priest_title = ATTENDENT
 		piety_name = MISCHIEF
 		scripture_name = BAGAS_SONG
@@ -1105,7 +1106,7 @@ demon_religion = {
 		allow_looting = yes
 		seafarer = yes
 		allow_viking_invasion = yes 
-		
+		 has_heir_designation = yes 
 		priest_title = SHAMAN 
 		scripture_name = MALLADUS_TRIUMPH
 		
@@ -1187,7 +1188,7 @@ doctrine = {
 		}
 
 		aggression = 2.0
-	}
+	} 
 	pirate_doctrine = {
 		graphical_culture = westerngfx
 
@@ -1239,7 +1240,7 @@ alien_religion = {
 		}
 		can_retire_to_monastery = yes
 		priests_can_inherit = no
-		allow_female_priesy = yes
+		allow_female_priest = yes
 		priests_can_marry = yes
 		attacking_same_religion_piety_loss = yes
 		feminist = yes
