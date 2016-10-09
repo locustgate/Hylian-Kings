@@ -1,5 +1,53 @@
 # Commander, granted via its own interaction, so very special
+#goron
+title_personal_smith = {
+	dignity = 0.05
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 5
+	
+	monthly_salary = 0.01
+	monthly_prestige = 0.50
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		OR = {
+			primary_title = { temporary = no }
+			NOT = {
+				primary_title = {
+					always = yes
+				}
+			}
+		}
+		is_adult = yes
+		NOT = { trait = incapable } 
+	}
+	
+	allowed_to_grant = {
+		OR = {
+			is_feudal = yes
+		}
+		primary_title = {
+			OR = {
+				tier = king
+				tier = emperor
+			}
+		}
+		OR = {
+			religion = earth_spirit
+			religion = fire_spirit
+			religion = mother_mountain
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
 
+	message = yes
+}
 title_biggoron = {
 	is_high_prio = yes
 	
@@ -31,13 +79,6 @@ title_biggoron = {
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
-		}
-		primary_title = {
-			OR = {
-				tier = duke
-				tier = king
-				tier = emperor
-			}
 		}	
 	}
 	
@@ -53,7 +94,6 @@ title_midgoron = {
 	
 	dignity = 0.9
 	revoke_allowed = no
-	is_voter = yes
 	grant_limit = 1
 	opinion_effect = 10
 	
@@ -79,14 +119,168 @@ title_midgoron = {
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
-		}
-		primary_title = {
-			OR = {
-				tier = duke
-				tier = king
-				tier = emperor
-			}
 		}	
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+#darknut
+title_duplicar = { #individual deemed to perform his duty beyond standard service
+	dignity = 0.15
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 20
+	is_voter = yes
+	
+	monthly_salary = 0.25
+	monthly_prestige = 0.1
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		always = yes
+	}
+	
+	allowed_to_grant = {
+		is_feudal = yes
+		OR = {
+			culture = darknut
+			religion = darknut_doctrine
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_immun = { #Deemed to have performed additional services than their scope.
+	dignity = 0.15
+	realm_in_name = yes
+	grant_limit = 4
+	opinion_effect = 10
+	
+	monthly_salary = 0.1
+	monthly_prestige = 0.1
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		always = yes
+	}
+	
+	allowed_to_grant = {
+		is_feudal = yes
+		OR = {
+			culture = darknut
+			religion = darknut_doctrine
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_imagifer = { #carries either the flag of the legion or image of the highest ranked individual
+	dignity = 0.15
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 10
+	
+	monthly_salary = 0.1
+	monthly_prestige = 0.25
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		always = yes
+	}
+	
+	allowed_to_grant = {
+		is_feudal = yes
+		tier = emperor
+		OR = {
+			culture = darknut
+			religion = darknut_doctrine
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_mighty = { #given to the strongest, sometimes the most skilled in command
+	dignity = 0.075
+	grant_limit = 4
+	opinion_effect = 5
+	
+	monthly_salary = 0.005
+	monthly_prestige = 0.25
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		OR = {
+			primary_title = { temporary = no }
+			NOT = {
+				primary_title = {
+					always = yes
+				}
+			}
+		}
+		OR = {
+			OR = {
+				trait = strong
+				trait = robust
+			}
+			martial = 15
+			duelist
+			strategist
+			
+		}
+		is_adult = yes
+		OR = { 
+			is_female = no
+			liege = {
+				OR = {
+					primary_title = {
+						has_law = status_of_women_4
+					}
+					has_game_rule = {
+						name = gender
+						value = all
+					}
+				}
+			}
+		}
+		NOT = { trait = incapable } 
+	}
+
+	allowed_to_grant = {
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
+		OR = {
+			culture = darknut
+			religion = darknut_doctrine
+		}
 	}
 	
 	gain_effect = {

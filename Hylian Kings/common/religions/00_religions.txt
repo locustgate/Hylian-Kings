@@ -13,6 +13,7 @@ goddesses_religion = {
 	female_names = {
 	Din Farore Nayru Hylia Faron Ordona 
 	}
+	
 	golden_goddesses = {
 
 		graphical_culture = westerngfx
@@ -32,7 +33,7 @@ goddesses_religion = {
 		}
 		can_retire_to_monastery = yes
 		priests_can_inherit = no
-		allow_female_priest = yes
+		female_temple_holders = yes
 		priests_can_marry = yes
 		attacking_same_religion_piety_loss = yes
 		feminist = yes
@@ -144,7 +145,7 @@ goddesses_religion = {
 			GOD_GODDESSES SPIRIT_ELDIN SPIRIT_FARON SPIRIT_LANARYRU SPIRIT_ORDONA
 		} 
 		priests_can_inherit = yes
-		allow_female_priest = yes 
+		female_temple_holders = yes 
 		priests_can_marry = yes
 		attacking_same_religion_piety_loss = yes
 		feminist = yes
@@ -181,7 +182,7 @@ goddesses_religion = {
 
 		priests_can_inherit = yes
 		priests_can_marry = yes 
- 		allow_female_priest = yes
+ 		female_temple_holders = yes
 		feminist = yes
 	}	
 	three_dragons = {
@@ -211,7 +212,7 @@ goddesses_religion = {
 
 		priests_can_inherit = yes
 		priests_can_marry = yes 
- 		allow_female_priest = yes
+ 		female_temple_holders = yes
 		feminist = yes
 		attacking_same_religion_piety_loss = yes
 
@@ -243,7 +244,7 @@ goddesses_religion = {
 
 		priests_can_inherit = yes
 		priests_can_marry = yes 
- 		allow_female_priest = yes
+ 		female_temple_holders = yes
 		feminist = yes
 		attacking_same_religion_piety_loss = yes
 
@@ -286,7 +287,7 @@ goddesses_religion = {
 
 		priests_can_inherit = no
 		priests_can_marry = yes 
- 		allow_female_priest = yes
+ 		female_temple_holders = yes
 		can_hold_temples = yes
 		feminist = yes
 
@@ -312,7 +313,7 @@ goddesses_religion = {
 
 		priests_can_inherit = no
 		priests_can_marry = yes 
- 		allow_female_priest = yes
+ 		female_temple_holders = yes
 		can_hold_temples = yes
 		feminist = yes
 
@@ -340,7 +341,7 @@ guardian_deity = {
 		color = { 0 0 1 }
 
 		allow_rivermovement = yes
-		allow_female_priest = yes
+		female_temple_holders = yes
 		priests_can_marry = yes
 		priests_can_inherit = yes
 		can_hold_temples = yes 
@@ -367,7 +368,7 @@ guardian_deity = {
 		color = { 0 0 1 }
 
 		allow_rivermovement = yes
-		allow_female_priest = yes
+		female_temple_holders = yes
 		priests_can_marry = yes
 		priests_can_inherit = yes
 		can_hold_temples = yes 
@@ -384,7 +385,7 @@ guardian_deity = {
 	}
 	jabun_religion = {
 		graphical_culture = westerngfx
-		parent = jabu_spirit
+		parent = water_spirit
 
 		icon = 14
 		heresy_icon = 15
@@ -392,7 +393,7 @@ guardian_deity = {
 		color = { 0.49 0.42 0.42 }
 
 		allow_rivermovement = yes
-		allow_female_priest = yes
+		female_temple_holders = yes
 		priests_can_marry = yes
 		priests_can_inherit = yes
 		can_hold_temples = yes 
@@ -421,7 +422,7 @@ guardian_deity = {
 		priest_title = CARETAKER
 		scripture_name = VALOO_SONG
 
-		allow_female_priest = yes
+		female_temple_holders = yes
 		
 		high_god_name = GOD_VALOO	
 		god_names = {
@@ -430,7 +431,7 @@ guardian_deity = {
 		intermarry = jabu_jabu
 		intermarry = goddesses_religion
 		priests_can_inherit = no
-		allow_female_priest = yes 
+		female_temple_holders = yes 
 	}
 	great_deku = {
 		graphical_culture = indiangfx
@@ -440,14 +441,14 @@ guardian_deity = {
 		
 		color = { 0.13 0.55 0.13 }
 
-		allow_female_priest = yes
+		female_temple_holders = yes
 		priests_can_marry = yes		
 		peace_piety_gain = 1.0		
 		has_heir_designation = yes 
 		#saria's song
 		scripture_name = DEKU_SONG
 		priest_title = ATTENDENT
-		allow_female_priest = yes
+		female_temple_holders = yes
 		priests_can_marry = yes
 		priests_can_inherit = yes
 		can_hold_temples = yes 
@@ -475,7 +476,7 @@ guardian_deity = {
 
 		priests_can_inherit = no
 		priests_can_marry = yes 
- 		allow_female_priest = yes
+ 		female_temple_holders = yes
 		
 
 		scripture_name = MAKU_SONG
@@ -532,7 +533,7 @@ minor_deity = {
 		
 		color = { 1 0.75 0.8 }
 
-		allow_female_priest = yes
+		female_temple_holders = yes
 		priests_can_marry = yes
 	 	has_heir_designation = yes 
 
@@ -551,7 +552,7 @@ minor_deity = {
 
 		priests_can_inherit = yes
 		priests_can_marry = yes 
- 		allow_female_priest = yes
+ 		female_temple_holders = yes
 		feminist=yes
 		pacifist = yes
 
@@ -694,7 +695,7 @@ minor_deity = {
 		scripture_name = WIND_REQUIEM
 
 		priests_can_inherit = no
-		allow_female_priest = yes
+		female_temple_holders = yes
 
 		color = { 0.69 0.88 0.9 }
 
@@ -806,46 +807,46 @@ minor_deity = {
 		can_retire_to_monastery = yes
 		priests_can_inherit = no
 		priests_can_marry = no 
- 		allow_female_priest = yes
+ 		female_temple_holders = yes
 		feminist = yes
 		attacking_same_religion_piety_loss = yes
 
 	}
-	gerudo_goddess = {
-		graphical_culture = mongolgfx
-
-		icon = 3
-		heresy_icon = 8
-
-		
-		color = { 0.7 0.13 0.13 }
-		
-		scripture_name = GODDESS_BALANCE
-		priest_title = PRIEST
-		
-		allow_looting = yes
-
-		priests_can_inherit = no
-		priests_can_marry = yes 
- 		allow_female_priest = yes
-		allow_viking_invasion = yes 
-		feminist = yes
-		max_wives = 4
-		aggression = 1.5
-		attacking_same_religion_piety_loss = yes
-
-		high_god_name = GOD_GODDESS_OF_THE_SAND
-		
-		god_names = {
-			GOD_DESERT_GODDESS GOD_GODDESS_OF_THE_SAND 
-		}
-		
-		evil_god_names = {
-				GOD_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE
-		}
-		intermarry = pirate_doctrines
-		intermarry = wizzrobe
-	}
+#	gerudo_goddess = {
+#		graphical_culture = mongolgfx
+#
+#		icon = 3
+#		heresy_icon = 8
+#
+#		
+#		color = { 0.7 0.13 0.13 }
+#		
+#		scripture_name = GODDESS_BALANCE
+#		priest_title = PRIEST
+#		
+#		allow_looting = yes
+#
+#		priests_can_inherit = no
+#		priests_can_marry = yes 
+# 		female_temple_holders = yes
+#		allow_viking_invasion = yes 
+#		feminist = yes
+#		max_wives = 4
+#		aggression = 1.5
+#		attacking_same_religion_piety_loss = yes
+#
+#		high_god_name = GOD_GODDESS_OF_THE_SAND
+#		
+#		god_names = {
+#			GOD_DESERT_GODDESS GOD_GODDESS_OF_THE_SAND 
+#		}
+#		
+#		evil_god_names = {
+#				GOD_GODDESSES GOD_DIN GOD_NARYU GOD_FARORE
+#		}
+#		intermarry = pirate_doctrines
+#		intermarry = wizzrobe
+#	}
 	
 
 	yamatami_gods = {
@@ -915,7 +916,7 @@ demon_religion = {
 		}
 		intermarry = vaati_religion
 		intermarry = baga_tree
-		intermarry = ganon_religion
+		#intermarry = ganon_religion
 		intermarry = uncle_rupee_religion
 		intermarry = malladus_religion
 		intermarry = bellum_religion 
@@ -946,7 +947,7 @@ demon_religion = {
 		}
 		intermarry = demise_religion
 		intermarry = baga_tree
-		intermarry = ganon_religion
+		#intermarry = ganon_religion
 		intermarry = uncle_rupee_religion
 		intermarry = malladus_religion
 		intermarry = bellum_religion 
@@ -955,44 +956,44 @@ demon_religion = {
 		aggression = 4
 
 	}
-	ganon_religion = {
-		graphical_culture = mongolgfx
-
-		icon = 27
-		heresy_icon = 28
-		
-		color = { 0.56 0.74 0.56 }
-
-		allow_female_priest = yes
-		priests_can_marry = yes
-		allow_viking_invasion = yes	
-		feminist = yes #he IS a gerudo
-		max_wives = 4
-		allow_looting = yes 
-			 has_heir_designation = yes 	
-		scripture_name = GANONS_LEGEND
-
-		crusade_name = PURGE
-		scripture_name = GANON_AMBITION
-		priest_title = PRIEST
-		
-		high_god_name = GOD_GANON
-		
-		god_names = {
-			GOD_GANON
-		}
-		evil_god_names = {
-			GOD_ZELDA GOD_LINK
-		}
-		intermarry = demise_religion
-		intermarry = baga_tree
-		intermarry = vaati_religion
-		intermarry = uncle_rupee_religion
-		intermarry = malladus_religion
-		intermarry = bellum_religion
-		aggression = 4
-
-	}
+#	ganon_religion = {
+#		graphical_culture = mongolgfx
+#
+#		icon = 27
+#		heresy_icon = 28
+#		
+#		color = { 0.56 0.74 0.56 }
+#
+#		female_temple_holders = yes
+#		priests_can_marry = yes
+#		allow_viking_invasion = yes	
+#		feminist = yes #he IS a gerudo
+#		max_wives = 4
+#		allow_looting = yes 
+#			 has_heir_designation = yes 	
+#		scripture_name = GANONS_LEGEND
+#
+#		crusade_name = PURGE
+#		scripture_name = GANON_AMBITION
+#		priest_title = PRIEST
+#		
+#		high_god_name = GOD_GANON
+#		
+#		god_names = {
+#			GOD_GANON
+#		}
+#		evil_god_names = {
+#			GOD_ZELDA GOD_LINK
+#		}
+#		intermarry = demise_religion
+#		intermarry = baga_tree
+#		intermarry = vaati_religion
+#		intermarry = uncle_rupee_religion
+#		intermarry = malladus_religion
+#		intermarry = bellum_religion
+#		aggression = 4
+#
+#	}
 	uncle_rupee_religion = {
 		graphical_culture = indiangfx
 
@@ -1018,7 +1019,7 @@ demon_religion = {
 		intermarry = demise_religion
 		intermarry = baga_tree
 		intermarry = vaati_religion
-		intermarry = ganon_religion
+		#intermarry = ganon_religion
 		intermarry = malladus_religion
 		intermarry = bellum_religion 
 		allow_viking_invasion = yes 
@@ -1051,7 +1052,7 @@ demon_religion = {
 		}
 		intermarry = vaati_religion
 		intermarry = baga_tree
-		intermarry = ganon_religion
+		#intermarry = ganon_religion
 		intermarry = uncle_rupee_religion
 		intermarry = malladus_religion
 		intermarry = demise_religion
@@ -1087,7 +1088,7 @@ demon_religion = {
 		}
 		intermarry = vaati_religion
 		intermarry = demise_religion
-		intermarry = ganon_religion
+		#intermarry = ganon_religion
 		intermarry = uncle_rupee_religion
 		intermarry = malladus_religion
 		intermarry = bellum_religion
@@ -1121,7 +1122,7 @@ demon_religion = {
 
 		intermarry = vaati_religion
 		intermarry = baga_tree
-		intermarry = ganon_religion
+		#intermarry = ganon_religion
 		intermarry = uncle_rupee_religion
 		intermarry = demise_religion
 		intermarry = bellum_religion
@@ -1155,7 +1156,7 @@ doctrine = {
 
 		priests_can_inherit = yes
 		priests_can_marry = yes 
- 		allow_female_priest = yes
+ 		female_temple_holders = yes
 		can_hold_temples = yes 
 		feminist = yes		
 		autocephaly = yes
@@ -1240,7 +1241,7 @@ alien_religion = {
 		}
 		can_retire_to_monastery = yes
 		priests_can_inherit = no
-		allow_female_priest = yes
+		female_temple_holders = yes
 		priests_can_marry = yes
 		attacking_same_religion_piety_loss = yes
 		feminist = yes
@@ -1280,7 +1281,7 @@ alien_religion = {
 
 		priests_can_inherit = yes
 		priests_can_marry = yes 
- 		allow_female_priest = yes
+ 		female_temple_holders = yes
 		feminist = yes
 	}
 	helmasaur_king = {
@@ -1372,7 +1373,7 @@ alien_religion = {
 		
 		priests_can_inherit = yes
 		priests_can_marry = yes
-		allow_female_priests = yes
+		female_temple_holders = yes
 		feminist = yes
 
 		high_god_name = GOD_GODDESS_OF_TIME
