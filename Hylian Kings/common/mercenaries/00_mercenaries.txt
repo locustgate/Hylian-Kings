@@ -159,6 +159,13 @@ koridai_band_composition = {
 	light_infantry = 200
 	galleys=40
 }
+oshus_company_composition = {
+	levy_size = 2
+	archers = 200
+	heavy_infantry = 200
+	light_infantry = 150
+	galleys=40
+}
 darknut_legion_composition={
 	levy_size=1
 	archers=50

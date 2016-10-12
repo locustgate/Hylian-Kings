@@ -1,0 +1,40 @@
+#Restore the horde
+decisions = {
+	restore_demise = {
+		only_independent = yes
+		is_high_prio = yes
+		
+		potential = {
+			is_playable = yes
+			religion = demise_religion
+			NOT = { has_global_flag = demise_refounded }
+		}
+		allow = {		
+			OR ={
+				AND = {
+					trait = demise_soul
+					has_landed_title = c_temple_of_time
+				}
+				AND = {
+					ai = no
+					has_landed_title = c_temple_of_time
+					OR = {
+						culture = demon
+						culture = baga_tree
+						#culture = demonic_fairy
+					}
+				}
+			}
+			piety = 300
+		}
+		effect = {
+			set_global_flag = demise_refounded
+			piety = -300
+			narrative_event = { id = HKR.1  }
+			prestige = 1000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

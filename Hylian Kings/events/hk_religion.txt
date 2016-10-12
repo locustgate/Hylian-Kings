@@ -1,0 +1,31 @@
+namespace = HKR
+narrative_event = {
+	id = HKR.1
+	title = EVTNAME_HKR_1
+	desc = EVTDESC_HKR_1
+	picture = GFX_evt_jerusalem_captured_jews
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				ai = no
+			}
+			
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_HKR_1
+		primary_title = {
+			e_demise = {
+				grant_title = ROOT
+				copy_title_laws = PREV
+			}
+		}
+	}
+}
