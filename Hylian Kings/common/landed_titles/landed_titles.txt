@@ -822,7 +822,7 @@ e_hyrule_central = {
 				culture = eldin
 				culture_group = lost_tribe
 				culture = yeti
-				culture = lizalfos
+				culture_group = lfos
 				}
 			}
 		}	
@@ -1190,12 +1190,43 @@ e_mudora = { #empire
 	capital = 423 # Middlesex
 	dignity = 5 # Counted as having this many more counties than it does
 	
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture_group = hylian_group
+				culture = sheikah
+				culture = wizzrobe
+				culture = darknut
+				culture = hanman
+				culture = hylian_hanman
+				culture = bulblin
+				culture = moblin
+			}
+		}
+	}
 	#late_hyrulean = Hyrule Minor
 	#hyrulean = Grand Hyrule	
 	k_mudora = {
 		color={ 0 170 0 }
 		color2={ 255 255 255 }
 		capital = 423 # Middlesex
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture_group = hylian_group
+					culture = sheikah
+					culture = wizzrobe
+					culture = darknut
+					culture = hanman
+					culture = hylian_hanman
+					culture = bulblin
+					culture = moblin
+				}
+			}
+		}
+	
 		d_mudora = {
 			color={ 0 170 0 }
 			color2={ 255 255 255 }
@@ -1488,6 +1519,21 @@ e_mudora = { #empire
 		color={ 127 255 0 }
 		color2={ 176 224 230 }
 		capital = 392 # Middlesex
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture_group = hylian_group
+					culture = sheikah
+					culture = wizzrobe
+					culture = darknut
+					culture = hanman
+					culture = hylian_hanman
+					culture = bulblin
+					culture = moblin
+				}
+			}
+		}
 		d_northern_swamp = {
 			color={ 25 25 112 }
 			color2={ 255 215 0 }
@@ -1652,6 +1698,8 @@ e_saria = { #empire
 				culture = little_hyrulean
 				culture = west_hyrulean
 				culture = east_hyrulean
+				culture = darknut
+				culture = wizzrobe
 			}
 		}
 	}
@@ -1665,7 +1713,21 @@ e_saria = { #empire
 	#	east_hyrulean = East Hyrule
 	#	west_hyrulean = East Hyrule
 	#	little_hyrulean = East Hyrule
-		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+				ai = no
+				culture = sarian
+				culture = kasuton
+				culture = hyrulean
+				culture = little_hyrulean
+				culture = west_hyrulean
+				culture = east_hyrulean
+				culture = darknut
+				culture = wizzrobe
+				}
+			}
+		}
 		d_kasuto = {
 			color={ 11 76 0 }
 			color2={ 88 80 62 }
@@ -1774,7 +1836,21 @@ e_saria = { #empire
 		color2={ 255 255 23 }
 		capital = 196 # Middlesex
 		dignity = 10 # Counted as having this many more counties than it does
-
+		allow = {
+			hidden_tooltip = {
+				OR = {
+				ai = no
+				culture = sarian
+				culture = kasuton
+				culture = hyrulean
+				culture = little_hyrulean
+				culture = west_hyrulean
+				culture = east_hyrulean
+				culture = darknut
+				culture = wizzrobe
+				}
+			}
+		}
 	
 		#west_hyrulean = West Hyrule
 		#east_hyrulean = West Hyrule
@@ -1917,7 +1993,24 @@ e_saria = { #empire
 		color={ 0 0 0 }
 		color2={ 112 17 17 }
 		capital = 212 # Middlesex
-		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+				ai = no
+				culture = sarian
+				culture = kasuton
+				culture = hyrulean
+				culture = little_hyrulean
+				culture = west_hyrulean
+				culture = east_hyrulean
+				culture = darknut
+				culture = wizzrobe
+				culture = kokiri
+				culture = great_fairy
+				culture = moblin
+				}
+			}
+		}
 		#little_hyrulean = Little Hyrule
 		#east_hyrulean = Little Hyrule
 		#west_hyrulean = Little Hyrule
@@ -2006,10 +2099,36 @@ e_moria = {#empire
 	color={ 80 101 60 }
 	color2={ 255 0 0 }
 	capital = 31 
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture = morian
+				#culture = grindle
+				culture = hanman
+				culture = hylian_hanman
+				culture = moblin
+				culture = deku_scrub
+			}
+		}
+	}
 	k_galfridia = {
 		color={ 119 136 153 }
 		color2={ 47 79 79 }
 		capital = 56 
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = morian
+					#culture = grindle
+					culture = hanman
+					culture = hylian_hanman
+					culture = moblin
+					culture = deku_scrub
+				}
+			}
+		}
 		d_camlain = {
 			color={ 119 136 153 }
 			color2={ 47 79 79 }
@@ -2108,6 +2227,19 @@ e_moria = {#empire
 		color={ 139 71 93 }
 		color2={ 255 255 255 }
 		capital = 37
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = morian
+					#culture = grindle
+					culture = hanman
+					culture = hylian_hanman
+					culture = moblin
+					culture = deku_scrub
+				}
+			}
+		}
 		d_swanshores = {
 			color={ 80 101 60 }
 			color2={ 255 0 0 }
@@ -2221,6 +2353,19 @@ e_moria = {#empire
 		color={ 80 101 60 }
 		color2={ 255 0 0 }
 		capital = 31 
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = morian
+					#culture = grindle
+					culture = hanman
+					culture = hylian_hanman
+					culture = moblin
+					culture = deku_scrub
+				}
+			}
+		}
 		d_moria = {
 			color={ 80 101 60 }
 			color2={ 255 0 0 }
@@ -2344,11 +2489,25 @@ e_moria = {#empire
 e_sea_tree = {
 	color={ 34 139 34}
 	color2={ 85 107 47 }
-	capital = 660
+	capital = 660 
+	allow = {
+		OR = {
+			religion = great_deku
+			religion = great_fairies
+			religion = baga_tree
+		}
+	}
 	k_kokiri = {
 		color={ 34 139 34}
 		color2={ 85 107 47 }
 		capital = 659
+		allow = {
+			OR ={
+				culture = tree_deity
+				culture = tree_demon
+				culture = kokiri
+			}
+		}
 		d_kokiri_woods = {
 			color={ 255 0 0 }
 			color2={ 139 69 19 }
@@ -2642,6 +2801,14 @@ e_sea_tree = {
 		color={ 0 100 0 }
 		color2={ 0 0 0 }
 		capital = 716
+		allow = {
+			OR ={
+				culture = tree_deity
+				culture = tree_demon
+				culture = great_fairy
+				culture = deku_scrub
+			}
+		}
 		d_lost_woods = {
 			color={ 34 139 34}
 			color2={ 85 107 47 }
@@ -2696,7 +2863,7 @@ e_sea_tree = {
 			c_deku_road = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
-					b_favia = {}
+				b_favia = {}
 				b_sarebu = {}
 				b_fevuso = {}
 				b_kavia = {}
@@ -2746,7 +2913,7 @@ e_sea_tree = {
 			c_scrub_woods = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
-					b_fuvalo_2 = {}
+				b_fuvalo_2 = {}
 				b_kuria_2 = {}
 				b_faria_2 = {}
 
@@ -2968,11 +3135,33 @@ e_sea_tree = {
 				b_farovia = {}
 			}
 		}
+		d_business_scrub_guild = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 716
+			dignity = 200 # Never want the Hanseatic League to change primary title
+	
+			allow = {
+				always = no
+				is_republic = yes
+				culture = deku_scrub
+			}
+			
+			culture = deku_scrub
+		}
 	}
 	k_fairy = {
 		color={ 255 105 180 }
 		color2={ 245 255 250  }
 		capital = 757
+		allow = {
+			OR ={
+				culture = tree_deity
+				culture = tree_demon
+				culture = great_fairy
+				culture = deku_scrub
+			}
+		}
 		d_fairy_woods = {
 			color={ 255 225 255 }
 			color2={ 148 0 211 }
@@ -3178,7 +3367,14 @@ e_sea_tree = {
 	k_minish = {
 		color={ 82 184 220}
 		color2={ 0 100 0 }
-		capital = 666		
+		capital = 666	
+		allow = {
+			OR ={
+				culture = tree_deity
+				culture = tree_demon
+				culture = great_fairy
+			}
+		}	
 		d_minish = {
 			color={ 82 184 220}
 			color2={ 0 100 0 }
@@ -3378,10 +3574,27 @@ e_hanman = {
 	color={ 222 41 16 }
 	color2={ 255 222 0 }
 	capital = 72
+	allow = {
+		OR ={
+			ai = no
+			culture = hylian_hanman
+			culture = hanman
+		}
+	}
 	k_lost_desert = {
 		color={ 244 164 96 }
 		color2={ 255 222 0 }
 		capital = 156
+		allow = {
+			OR ={
+				ai = no
+				culture = hylian_hanman
+				culture = hanman
+				culture = dinolfos
+				culutre = moblin
+				culture = aerolfos
+			}
+		}
 		
 		d_hotho = {
 			color={ 244 164 96 }
@@ -3476,6 +3689,16 @@ e_hanman = {
 		color={ 206 17 38 }
 		color2={ 0 40 104 }
 		capital = 99	
+		allow = {
+			OR ={
+				ai = no
+				culture = hylian_hanman
+				culture = hanman
+				culture = dinolfos
+				culutre = moblin
+				culture = aerolfos
+			}
+		}
 		
 		d_kimheon = {
 			color={ 244 164 96 }
@@ -3663,6 +3886,16 @@ e_hanman = {
 		color={ 255 255 255 }
 		color2={ 188 0 45 }
 		capital = 108
+		allow = {
+			OR ={
+				ai = no
+				culture = hylian_hanman
+				culture = hanman
+				culture = dinolfos
+				culutre = moblin
+				culture = aerolfos
+			}
+		}
 		
 		d_sukang = {
 			color={ 244 164 96 }
@@ -3873,6 +4106,16 @@ e_hanman = {
 		color={ 222 41 16 }
 		color2={ 255 222 0 }
 		capital = 72
+		allow = {
+			OR ={
+				ai = no
+				culture = hylian_hanman
+				culture = hanman
+				culture = dinolfos
+				culutre = moblin
+				culture = aerolfos
+			}
+		}
 		d_hanman = {
 			color={ 222 41 16 }
 			color2={ 255 222 0 }
@@ -4194,6 +4437,17 @@ e_hanman = {
 		color={ 255 153 51 }
 		color2={ 18 136 7 }
 		capital = 144
+		allow = {
+			OR ={
+				ai = no
+				culture = hylian_hanman
+				culture = hanman
+				culture = dinolfos
+				culutre = moblin
+				culture = aerolfos
+				culture = keaton
+			}
+		}
 		
 		d_kinisha = {
 			color={ 255 153 51 }
@@ -4339,6 +4593,9 @@ e_holodrum = {
 		color={ 0 250 154 }
 		color2={ 85 107 47 }
 		capital = 359
+		allow = {
+			culture = subrosian
+		}
 		d_north_subrosia = {
 			color={ 0 250 154 }
 			color2={ 85 107 47 }
@@ -4380,6 +4637,18 @@ e_holodrum = {
 		color={ 0 250 154 }
 		color2={ 85 107 47 }
 		capital = 342
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = cucco_goron
+					culture = horon
+					culture = deku_scrub
+					culture = darknut
+					culture = wizzrobe
+				}
+			}
+		}
 		d_south_horon = {
 			color={ 0 100 0 }
 			color2={ 240 255 255 }
@@ -4578,6 +4847,19 @@ e_holodrum = {
 		color={ 138 51 36 }
 		color2={ 205 173 0 }
 		capital = 362
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = cucco_goron
+					culture = horon
+					culture = deku_scrub
+					culture = subrosian
+					culture = darknut
+					culture = wizzrobe
+				}
+			}
+		}
 		d_cucco = {
 			color={ 252 230 201 }
 			color2={ 210 180 140 }
@@ -4685,6 +4967,20 @@ e_holodrum = {
 		color={ 250 250 210 }
 		color2={ 244 164 96 }
 		capital = 334
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = cucco_goron
+					culture = horon
+					culture = deku_scrub
+					culture = subrosian
+					culture = darknut
+					culture = wizzrobe
+					culture = moblin
+				}
+			}
+		}
 		d_east_samasa = {
 			color={ 205 133 0 }
 			color2={ 255 228 196 }
@@ -4766,13 +5062,29 @@ e_labrynna = {
 				culture = rolling_goron
 				culture = deku_scrub
 				culture = tokay
+				culture = darknut
+				culture = wizzrobe
 			}
 		}
 	}
 	k_labrynna = {
 		color={ 39 64 139 }
 		color2={ 238 232 170 }
-		capital = 331
+		capital = 331	
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = sea_zora
+					culture = labrynna
+					culture = rolling_goron
+					culture = deku_scrub
+					culture = tokay
+					culture = darknut
+					culture = wizzrobe
+				}
+			}
+		}
 		d_yoll = {
 			color={ 138 43 226 }
 			color2={ 87 87 87}
@@ -5001,6 +5313,20 @@ e_labrynna = {
 		color={ 202 225 255 }
 		color2={ 255 127 80 }
 		capital = 294
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = sea_zora
+					culture = labrynna
+					culture = rolling_goron
+					culture = deku_scrub
+					culture = tokay
+					culture = darknut
+					culture = wizzrobe
+				}
+			}
+		}
 		d_gale_isles = {
 			color={ 255 127 80 }
 			color2={ 255 255 0 }
@@ -5068,6 +5394,15 @@ e_labrynna = {
 		color={ 107 142 35 }
 		color2={ 192 255 62 }
 		capital = 289
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = deku_scrub
+					culture = tokay
+				}
+			}
+		}
 		d_crescent_island = {
 			color={ 107 142 35 }
 			color2={ 255 239 213 }
@@ -5123,13 +5458,34 @@ e_labrynna = {
 e_calatia = {
 		color={ 78 116 197 }
 		color2={ 160 176 87 }
-		
 		capital = 950
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = calatian
+					culture_group = lost_tribe
+					culture = moblin
+					culture = lake_zora
+					culture = lizalfos
+				}
+			}
+		}
 		
 		k_calatia = {
 			color={ 78 116 197 }
 			color2={ 160 176 87 }
-		
+			allow = {
+				hidden_tooltip = {
+					OR = {
+						ai = no
+						culture = calatian
+						culture_group = lost_tribe
+						culture = lake_zora
+						culture = lizalfos
+					}
+				}
+			}
 			capital = 950
 			d_calatia = {
 				color={ 150 75 75 }
@@ -5361,9 +5717,20 @@ e_calatia = {
 		}
 		k_enatolia = {
 		color={ 78 116 197 }
-		color2={ 160 176 87 }
-		
+		color2={ 160 176 87 }		
 			capital = 818
+			allow = {
+				hidden_tooltip = {
+					OR = {
+						ai = no
+						culture = calatian
+						culture_group = lost_tribe
+						culture = moblin
+						culture = lake_zora
+						culture = lizalfos
+					}
+				}
+			}
 			d_enatolia = {
 				color={ 150 75 75 }
 				color2={ 255 255 255 }			
@@ -5603,8 +5970,9 @@ e_ho_ho = {
 		hidden_tooltip = {
 			OR = {
 				ai = no
-				culture_group = hylian_group
 				culture = ho_ho
+				culture = frozen_isle
+				culture = anouki
 				culture = yeti
 				culture = yook
 			}
@@ -5618,7 +5986,8 @@ e_ho_ho = {
 			hidden_tooltip = {
 				OR = {
 					ai = no
-					culture_group = hylian_group
+					culture = anouki
+					culture = frozen_isle
 					culture = ho_ho
 					culture = yeti
 					culture = yook
@@ -5843,13 +6212,14 @@ e_ho_ho = {
 			hidden_tooltip = {
 				OR = {
 					ai = no
-					culture_group = hylian_group
+					culture = anouki
+					culture = frozen_isle
 					culture = ho_ho
 					culture = yeti
 					culture = yook
 				}
 			}
-		}	
+		}
 
 		d_seibothnia = {
 			color={ 0 0 0 }
@@ -6141,7 +6511,8 @@ e_ho_ho = {
 			hidden_tooltip = {
 				OR = {
 					ai = no
-					culture_group = hylian_group
+					culture = anouki
+					culture = frozen_isle
 					culture = ho_ho
 					culture = yeti
 					culture = yook
@@ -6242,7 +6613,8 @@ e_ho_ho = {
 			hidden_tooltip = {
 				OR = {
 					ai = no
-					culture_group = hylian_group
+					culture = anouki
+					culture = frozen_isle
 					culture = ho_ho
 					culture = yeti
 					culture = yook
@@ -6635,6 +7007,10 @@ k_west_death_mountains = {
 	color={ 91 100 100 }
 	color2={ 255 42 0 }
 	capital = 540 # Great Death Mountain
+	allow = {
+		culture_group = goron_group
+		culture_group = lfos
+	}
 	d_great_death_mountains = {
 		color={ 91 100 100 }
 		color2={ 255 42 0 }
@@ -6776,7 +7152,17 @@ k_hyrule_minish = { #Minish
 	color2={ 253 138 119 }
 	capital = 623
 	dignity = 5 # Counted as having this many more counties than it does
-	
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture = hyrulean
+				culture = wind_tribe
+				culture = girrin
+				culture = lynol
+			}
+		}
+	}
 	d_minish_fields= {
 		color={ 135 206 235 }
 		color2={ 176 23 31 }
@@ -7310,6 +7696,16 @@ k_falsia = {
 	color={ 41 255 30 }
 	color2={ 250 250 210 }
 	capital = 60
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture = falsian
+				culture = darknut
+				culture = moblin
+			}
+		}
+	}
 	d_falsia = {
 		color={ 41 255 30 }
 		color2={ 18 136 7 }
@@ -7521,6 +7917,15 @@ k_gamelon = {
 	color2={ 218 8 79 }		
 	capital = 167
 	
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				culture = gamelon
+				ai = no
+			}
+		}
+	}
+	
 	d_dodomai = {
 		color={ 0 178 238 }
 		color2={ 47 79 79 }		
@@ -7599,7 +8004,14 @@ k_port_isle = {
 	color={ 34 139 34 }
 	color2={ 0 0 255 }
 	capital = 176
-
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				is_republic = yes
+				ai = no
+			}
+		}
+	}
 	d_hometown_isles = {		
 		color={ 0 199 140 }
 		color2={ 255 64 64 }
@@ -7674,6 +8086,14 @@ k_koholint = {
 	color={ 252 230 201 }
 	color2={ 232 32 152 }
 	capital = 216
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				culture = koholinter
+				ai = no
+			}
+		}
+	}
 	d_tal_tal= {
 		color={ 232 32 152 }
 		color2={ 252 230 201 }
@@ -7752,6 +8172,16 @@ k_tolemac = {
 		color={ 202 26 26 }
 		color2={ 255 255 255 }		
 		capital = 242 
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					culture = tolemac
+					culture = darknut
+					culture = wizzrobe
+					ai = no
+				}
+			}
+		}
 		d_skotness = {
 			color={ 0 139 69 }
 			color2={ 255 255 255 }		
@@ -7936,6 +8366,18 @@ k_arcadia = {
 	color={ 229 220 244 }
 	color2={ 78 116 197 }		
 	capital = 247
+	allow = {
+			hidden_tooltip = {
+				OR = {
+					culture = arcadian
+					culture = hanman
+					culture = hylian_hanman
+					culture = darknut
+					culture = wizzrobe
+					ai = no
+				}
+			}
+		}
 	d_arcadia = {
 		color={ 255 255 0 }
 		color2={ 255 255 255 }		
@@ -8275,6 +8717,16 @@ k_western_isles = {
 	color={ 195 190 255 }
 	color2={ 128 128 0 }
 	capital = 387
+	allow = {
+			is_republic = yes
+			hidden_tooltip = {
+				OR = {
+					culture = frozen_isle
+					culture = darknut
+					culture = wizzrobe
+				}
+			}
+		}
 	d_frozen_isle = {
 		color={ 195 190 255 }
 		color2={ 220 220 220 }
@@ -8354,6 +8806,18 @@ k_auros = {
 	color={ 205 0 0 }
 	color2={ 139 69 19 }
 	capital = 388 
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				culture = cobble
+				culture = pebble
+				culture = auros
+				culture = gravel
+				culture = great_fairy
+				ai = no
+			}
+		}
+	}
 	d_auros = {
 		color={ 205 55 0 }
 		color2={ 225 225 255 }
@@ -8402,6 +8866,16 @@ k_bastion = {
 	color={ 40 40 40 }
 	color2={ 139 0 0 }
 	capital = 768
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				culture = gerudo
+				culture = darknut
+				culture = wizzrobe
+				ai = no
+			}
+		}
+	}
 	d_maw_valley = {
 		color={ 244 164 96 }
 		color2={ 255 222 0 }
@@ -8528,6 +9002,16 @@ k_myrddin = {
 	color={ 135 206 255 }
 	color2={ 154 50 205 }
 	capital = 216
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				culture = gerudo
+				culture = darknut
+				culture = wizzrobe
+				ai = no
+			}
+		}
+	}
 	d_valley_of_seers = {
 		color={ 244 164 96 }
 		color2={ 255 222 0 }
@@ -10610,3 +11094,31 @@ d_valoo_religion = {
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
+
+#business scrub guild
+
+b_bougain = {
+	culture = deku_scrub
+	religion = great_deku
+}
+
+b_calia = {
+	culture = deku_scrub
+	religion = great_deku
+}
+
+b_calluna_2 = {
+	culture = deku_scrub
+	religion = great_deku
+}
+
+b_carpenteria = {
+	culture = deku_scrub
+	religion = great_deku
+}
+
+b_stigma = {
+	culture = deku_scrub
+	religion = great_deku
+}
+
