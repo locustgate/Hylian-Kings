@@ -3140,7 +3140,9 @@ e_sea_tree = {
 			color2={ 85 107 47 }
 			capital = 716
 			dignity = 200 # Never want the Hanseatic League to change primary title
-	
+			
+			title="GUILD_MASTER"
+			
 			allow = {
 				always = no
 				is_republic = yes
@@ -9340,6 +9342,41 @@ d_knights_moria = {
 	mercenary_type = knights_moria_composition
 }
 #'good' mercs
+
+d_blade_brothers = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 481 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		religion_group = goddesses_religion
+	}
+	
+	# Parent Religion 
+	religion = golden_goddesses
+	
+	mercenary = yes
+
+	title = "MASTER"
+	foa = "MASTER_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	male_names = {
+		Swiftblade Grayblade Waveblade Grimblade Scarblade Splitblade Greatblade
+	}
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = blade_brothers_composition
+}
 d_dins_sons = {
 	color={ 150 60 60 }
 	color2={ 255 255 255 }
@@ -9617,28 +9654,26 @@ d_oshus_company = {
 
 	mercenary_type = oshus_company_composition
 }
-d_hoho_sailors_1 = {
+d_fab_witch = {
 	color={ 150 60 60 }
 	color2={ 255 255 255 }
 
-	capital = 875 # Castle Town
+	capital = 768
 	
 	# Hire Trigger
 	allow = {
-		OR = {
-			religion_group = goddesses_religion
-			religion_group = minor_deity
-			religion_group = guardian_deity
-		}
+		NOT = { religion_group = demon_religion }
 	}
 	
 	# Parent Religion 
-	religion = oshus_religion
+	religion = wizzrobe
+	
+	culture = wizzrobe_doctrine
 	
 	mercenary = yes
 
-	title = "CAPTAIN"
-	foa = "CAPTAIN"
+	title = "HEAD_MASTER"
+	title_female = "HEAD_MISTRESS"
 	# Always exists
 	landless = yes
 	
@@ -9648,45 +9683,7 @@ d_hoho_sailors_1 = {
 	# Cannot be vassalized
 	independent = yes
 	
-	strength_growth_per_century = 1.0
-
-	mercenary_type = naval_merc_composition
-}
-
-d_hoho_sailors_2 = {
-	color={ 150 60 60 }
-	color2={ 255 255 255 }
-
-	capital = 875 # Castle Town
-	
-	# Hire Trigger
-	allow = {
-		OR = {
-			religion_group = goddesses_religion
-			religion_group = minor_deity
-			religion_group = guardian_deity
-		}
-	}
-	
-	# Parent Religion 
-	religion = oshus_religion
-	
-	mercenary = yes
-
-	title = "CAPTAIN"
-	foa = "CAPTAIN"
-	# Always exists
-	landless = yes
-	
-	# Cannot be held as a secondary title
-	primary = yes
-		
-	# Cannot be vassalized
-	independent = yes
-	
-	strength_growth_per_century = 1.0
-
-	mercenary_type = naval_merc_composition
+	mercenary_type = non_martial_school_composition #small
 }
 #'neutral' mercs
 #d_third_daughters = {
@@ -9983,7 +9980,6 @@ d_kain = {
 	
 	mercenary_type = darknut_cohort_composition #small
 }
-
 d_hyrulean_deserters_1 = {
 	color={ 150 60 60 }
 	color2={ 255 255 255 }
@@ -10118,6 +10114,134 @@ d_hyrulean_deserters_4 = {
 	strength_growth_per_century = 1.0
 
 	mercenary_type = hyrulean_deserters_composition #small
+}
+d_hermione_school = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 768
+	
+	# Hire Trigger
+	allow = {
+		is_tribal = no
+	}
+	
+	# Parent Religion 
+	religion = wizzrobe
+	
+	culture = wizzrobe_doctrine
+	
+	mercenary = yes
+
+	title = "HEAD_MASTER"
+	title_female = "HEAD_MISTRESS"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+	mercenary_type = martial_school_composition #small
+}
+d_zatanna_school = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 768
+	
+	# Hire Trigger
+	allow = {
+		is_tribal = no
+	}
+	
+	# Parent Religion 
+	religion = wizzrobe
+	
+	culture = wizzrobe_doctrine
+	
+	mercenary = yes
+
+	title = "HEAD_MASTER"
+	title_female = "HEAD_MISTRESS"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+		strength_growth_per_century = 1.0
+	mercenary_type = martial_school_composition #small
+}
+d_excalibur_school = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 768
+	
+	# Hire Trigger
+	allow = {
+		is_tribal = no
+	}
+	
+	# Parent Religion 
+	religion = wizzrobe
+	
+	culture = wizzrobe_doctrine
+	
+	mercenary = yes
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+		strength_growth_per_century = 1.0
+	mercenary_type = martial_school_composition #small
+}
+d_kldenents_school = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 768
+	
+	# Hire Trigger
+	allow = {
+		is_tribal = no
+	}
+	
+	# Parent Religion 
+	religion = wizzrobe
+	
+	culture = wizzrobe_doctrine
+	
+	mercenary = yes
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+	mercenary_type = martial_school_composition #small
 }
 #'evil' mercs
 d_bane_koridai = {
@@ -10813,6 +10937,78 @@ d_labrynnan_pirates_2 = {
 	# Cannot be vassalized
 	independent = yes
 	
+	mercenary_type = naval_merc_composition
+}
+
+d_hoho_sailors_1 = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 875 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = goddesses_religion
+			religion_group = minor_deity
+			religion_group = guardian_deity
+		}
+	}
+	
+	# Parent Religion 
+	religion = oshus_religion
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = naval_merc_composition
+}
+
+d_hoho_sailors_2 = {
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 875 # Castle Town
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = goddesses_religion
+			religion_group = minor_deity
+			religion_group = guardian_deity
+		}
+	}
+	
+	# Parent Religion 
+	religion = oshus_religion
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+
 	mercenary_type = naval_merc_composition
 }
 #Religion

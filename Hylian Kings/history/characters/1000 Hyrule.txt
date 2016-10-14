@@ -581,6 +581,31 @@
 	trait=patron_nayru
 	3366.7.18={
 		birth=yes
+	}	
+}
+1260={
+	name=Swiftblade
+	disallow_random_traits = yes 
+	historical = yes
+	diplomacy=5
+	martial=15
+	intrigue=5
+	stewardship=5
+	learning=5
+	religion=golden_goddesses
+	culture=hyrulean
+	trait=brilliant_strategist
+	trait=race_hylian
+	#trait=warrior_4
+	trait=duelist
+	trait=shrewd
+	trait=heavy_infantry_leader
+	trait=light_foot_leader
+	trait=inspiring_leader
+	trait=patron_din
+	3366.7.18={
+		birth=yes
 	}
-	
+	3400.1.1={death=yes}
+
 }

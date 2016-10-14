@@ -17,6 +17,7 @@
 	add_trait=arbitrary 
 	add_trait=diligent 
 	add_trait=temperate 
+	trait=race_fairy
 	3200.9.12={ birth=yes }
 	3290.1.20={ add_spouse=1204 }
 	3518.3.28={ death=yes }
@@ -27,6 +28,7 @@
 	dna="fnkjfkeplhj"
 	culture=great_fairy 
 	religion=great_fairies
+	trait=race_fairy
 	3230.1.20={ birth=yes }	
 	3290.1.20={ add_spouse=1203 }
 	3716.9.30={ death=yes }
@@ -48,6 +50,7 @@
 	add_trait=proud 
 	add_trait=honest
 	add_trait=trusting 
+	trait=race_fairy
 	mother=1204
 	father=1203
 	3299.12.20={ birth=yes }
@@ -69,6 +72,7 @@
 	add_trait=cruel
 	add_trait=zealous
 	add_trait=trusting 
+	trait=race_fairy
 	father=1203
 	3332.1.20={ birth=yes }
 	3843.10.31={ death=yes }
@@ -90,6 +94,7 @@
 	trait=brave
 	trait=robust
 	trait=gregarious
+	trait=race_fairy
 	3338.7.14={ birth=yes }
 	3971.4.4={ death=yes }
 }
@@ -110,6 +115,7 @@
 	trait=zealous
 	trait=kind
 	trait=lustful
+	trait=race_fairy
 	3343.12.22={ birth=yes }
 	3885.12.31={ death=yes }
 }
@@ -128,6 +134,110 @@
 	trait=lustful
 	trait=frail
 	trait=gregarious
+	trait=race_fairy
 	3150.7.14={ birth=yes }
 	4000.4.4={ death=yes }
+}
+18501={
+	name=Navi
+	female=yes
+	dynasty=3001
+	dna="cdphakiffcc"
+	culture=great_fairy religion=great_fairies
+	martial=8 diplomacy=7 stewardship=6 intrigue=6 learning=7
+	add_trait=grey_eminence add_trait=envious add_trait=temperate add_trait=paranoid add_trait=gregarious 
+	add_trait=zealous add_trait=just 
+		trait = race_fairy
+	3099.8.8={ birth=yes }
+	3200.1.1={add_matrilineal_spouse=18505}
+	3554.6.16={ death=yes }
+}
+18502={
+	name=Fi
+		female=yes
+	dynasty=3001
+	dna="cdphambafcp"
+	culture=great_fairy religion=great_fairies
+	martial=6 diplomacy=6 stewardship=4 intrigue=8 learning=5
+	add_trait=martial_cleric add_trait=temperate add_trait=paranoid add_trait=content add_trait=slothful 
+	trait = race_fairy
+	mother=18501	#James
+	father=18505
+	3204.2.5={ birth=yes }
+	3887.11.29={ death=yes }
+}
+18503={
+	name=Amulius
+	dynasty=3001
+	dna="ndphajilfcc"
+	culture=great_fairy religion=great_fairies
+		trait = race_fairy
+	mother=18501	#James
+	father=18505
+	3257.2.1={ birth=yes }
+	3813.12.2={ death=yes }
+}
+18504={
+	name=Aeneas
+	dynasty=3001
+	dna="eaphkkicfch"
+	culture=great_fairy religion=great_fairies
+		trait = race_fairy
+	mother=18501	#James
+	father=18505
+	3321.6.19={ birth=yes }
+	3915.2.19={ death=yes }
+}
+18505={
+	name=Consus
+	dna="cdphakiffcc"
+	culture=great_fairy religion=great_fairies
+	trait = race_fairy
+	3099.8.8={ birth=yes }
+	3200.1.1={add_matrilineal_spouse=18501}
+	3554.6.16={ death=yes }
+}
+18506={
+	name=Melvina
+	female=yes
+	dynasty=3030
+	dna="bjfknanijee"
+	culture=great_fairy religion=great_fairies
+	martial=4 diplomacy=8 stewardship=6 intrigue=5 learning=5
+	add_trait=tough_soldier add_trait=trusting add_trait=brave add_trait=shy add_trait=diligent 
+	add_trait=gluttonous 
+	3199.9.2={ birth=yes }
+	3319.1.1={add_matrilineal_spouse=18509}
+	3764.5.19={ death=yes }
+}
+18507={
+	name=Melvina
+	female=yes
+	dynasty=3030
+	dna="dppkeaoihho"
+	culture=great_fairy religion=great_fairies
+	martial=6 diplomacy=4 stewardship=5 intrigue=6 learning=5
+	add_trait=midas_touched add_trait=humble add_trait=just add_trait=temperate add_trait=kind 
+	add_trait=wounded 
+	mother=18506	#John
+	father=18509
+	3322.1.2={ birth=yes }
+	3971.9.6={ death=yes }
+}
+18508={
+	name=Evandrus
+	dynasty=3030
+	dna="bcmknablpej"
+	culture=great_fairy religion=great_fairies
+	mother=18506	#John
+	father=18509
+	3370.4.4={ birth=yes }
+	4012.12.12={ death=yes }
+}
+18509={
+	name=Cupid
+	culture=great_fairy religion=great_fairies
+	3199.9.2={ birth=yes }
+	3319.1.1={add_matrilineal_spouse=18506}
+	3764.5.19={ death=yes }
 }

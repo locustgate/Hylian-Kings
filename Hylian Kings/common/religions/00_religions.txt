@@ -894,7 +894,7 @@ demon_religion = {
 		icon = 27
 		heresy_icon = 28
 		
-		color = { 0.4 0.4 0.4 }
+		color = { 1 1 1 }
 
 		priests_can_marry = yes
 		allow_viking_invasion = yes
@@ -1171,7 +1171,7 @@ doctrine = {
 		icon = 11
 		heresy_icon = 12
 		
-		color = { 0.4 0.4 0.4 }
+		color = { 0.8 0.7 0.5 }
 
 		priest_title = JUDGE
 		scripture_name = THE_CODE

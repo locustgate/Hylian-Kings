@@ -353,3 +353,113 @@
 	3367.4.7={ birth=yes }
 	3419.5.13={ death=yes }
 }
+43033={
+	name=Twiggy
+	dynasty=3470
+	dna="dkpikemgonn"
+	culture=deku_scrub religion=great_fairies
+	martial=4 diplomacy=6 stewardship=5 intrigue=8 learning=8
+	add_trait=detached_priest add_trait=proud add_trait=craven add_trait=ambitious add_trait=lustful 
+	3367.8.10={ birth=yes }
+	3425.8.3={ death=yes }
+}
+43034={
+	name=Idoki
+	dynasty=3475
+	dna="nehladbgefc"
+	culture=deku_scrub religion=great_fairies
+	martial=5 diplomacy=8 stewardship=8 intrigue=5 learning=7
+	add_trait=grey_eminence add_trait=craven add_trait=humble add_trait=patient add_trait=cynical 
+	add_trait=genius 
+	3350.8.12={ birth=yes }
+	3370.1.1={add_spouse=43034}
+	3407.5.17={ death=yes }
+}
+43035={
+	name=Daka
+	dynasty=3475
+	dna="iihbadfpdjk"
+	culture=deku_scrub religion=great_fairies
+	martial=8 diplomacy=6 stewardship=8 intrigue=5 learning=4
+	add_trait=midas_touched add_trait=charitable add_trait=shy add_trait=zealous 
+	father=43034	#Idoki
+	mother=34034
+	3374.5.7={ birth=yes }
+	3430.12.16={ death=yes }
+}
+43036={
+	name=Ivodu
+	female=yes
+	dynasty=3475
+	dna="npipadogefa"
+	culture=deku_scrub religion=great_fairies
+	father=43034	#Idoki
+	mother=34034
+	3379.1.18={ birth=yes }
+	3436.2.22={ death=yes }
+}
+43037={
+	name=Kedos
+	dynasty=3475
+	dna="nehleebgdfp"
+	culture=deku_scrub religion=great_fairies
+	martial=4 diplomacy=7 stewardship=7 intrigue=6 learning=4
+	add_trait=scholarly_theologian add_trait=poet add_trait=proud add_trait=honest add_trait=chaste 
+	add_trait=shy add_trait=charitable 
+	father=43034	#Idoki
+	mother=34034
+	3382.9.22={ birth=yes }
+	3431.1.20={ death=yes }
+}
+43038={
+	name=Dekwa
+	female=yes
+	culture=deku_scrub religion=great_fairies
+	3350.8.12={ birth=yes }
+	3370.1.1={add_spouse=43034}
+	3407.5.17={ death=yes }
+}
+43039={
+	name=Olado
+	dynasty=3480
+	dna="mnlmmmcgobi"
+	culture=deku_scrub religion=great_fairies
+	martial=7 diplomacy=5 stewardship=4 intrigue=5 learning=6
+	add_trait=midas_touched add_trait=impaler add_trait=chaste add_trait=temperate add_trait=cruel 
+	add_trait=envious 
+	3350.1.19={ birth=yes }
+	3367.1.1={add_spouse=43042}
+	3400.12.28={ death=yes }
+}
+43040={
+	name=Uliri
+	dynasty=3480
+	dna="melbemcghbf"
+	culture=deku_scrub religion=great_fairies
+	martial=8 diplomacy=8 stewardship=7 intrigue=7 learning=4
+	add_trait=grey_eminence add_trait=charitable add_trait=wroth add_trait=gluttonous add_trait=drunkard 
+	father=43039	#Olado
+	mother=43042
+	3369.12.18={ birth=yes }
+	3416.7.4={ death=yes }
+}
+43041={
+	name=Cycas
+	dynasty=3480
+	dna="iknfmhcabbi"
+	culture=deku_scrub religion=great_fairies
+	martial=6 diplomacy=7 stewardship=4 intrigue=6 learning=7
+	add_trait=martial_cleric add_trait=temperate add_trait=brave add_trait=charitable 
+	father=43039	#Olado
+	mother=43042
+	3373.1.13={ birth=yes }
+	3439.7.20={ death=yes }
+}
+43042={
+	name=Olado
+	female=yes
+	culture=deku_scrub religion=great_fairies
+	3350.1.19={ birth=yes }
+	3367.1.1={add_spouse=43039}
+	3400.12.28={ death=yes }
+}
