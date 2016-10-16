@@ -16,21 +16,52 @@ static = "statics"
 seasons = "seasons.txt"
 
 #Hyrule Sea
-sea_zones = { 969 1013 }
+sea_zones = { 939 943 }
+sea_zones = { 945 952 }
+sea_zones = { 955 963 }
+sea_zones = { 964 1054 }
 
-sea_zones = { 1020 1054 }
+#Non Navigatable
+sea_zones = { 938 938 }
+sea_zones = { 944 944 }
+sea_zones = { 953 953 }
+sea_zones = { 954 954 }
+sea_zones = { 963 963 }
 
-#hylia sea
-
-sea_zones = { 1014 1019 }
-
-
+ocean_region = {#ocean
+	sea_zones = { 1 2 3 4 }
+}
+#non navigatable
 ocean_region = {
-	sea_zones = { 1 2 }
+	sea_zones = { 5 }
+}
+ocean_region = {
+	sea_zones = { 6 }
+}
+ocean_region = {
+	sea_zones = { 7 }
+}
+ocean_region = {
+	sea_zones = { 8 }
 }
 
-ocean_region = { #hylia sea
-	sea_zones = { 3 }
+
+major_rivers = {
+	960 965 966 967 #koholint river
+	976 #labrynna river
+	#falsia river
+	945 #greatswamp river
+	#maiden river
+	#forest river
+	#minish river
+	#jungle river
+	#mudora river
+	#arcadia-ordon river
+	955 956 957#saria river
+	950 951 952 964 #saria-calatia river
+	#kasuto river
+	939 940 941 942 943 948 962 #zoras and hylias
+	938 944 953 946 954 963#non navigatable
 }
 
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
