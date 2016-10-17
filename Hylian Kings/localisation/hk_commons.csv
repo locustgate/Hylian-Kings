@@ -1,3 +1,7 @@
+#game rules
+RULE_LORULE_INVASION;§BHylian Kings:§! Lorulean Invasion;Stabilité nomade (§BSeigneurs de cavalerie§!);§BFürsten der Steppe:§! Nomadenstabilität;;§BSeñores a caballo:§! Estabilidad nómada;;;;;;;;;x
+
+RULE_TWILI_INVASION;§BHylian Kings:§! Twilian Invasion;Stabilité nomade (§BSeigneurs de cavalerie§!);§BFürsten der Steppe:§! Nomadenstabilität;;§BSeñores a caballo:§! Estabilidad nómada;;;;;;;;;x
 #orders
 d_knights_hyrule;Knights of Hyrule;;;;;;;;;;;;;;;;
 d_knights_hyrule_adj;Knight of Hyrule;;;;;;;;;;;;;;;;x
@@ -47,18 +51,28 @@ d_keaton_highwaymen_2;Keaton Highwaymen;;;;;;;;;;;;;;;;x
 d_labrynnan_pirates_1;Labrynnan Pirate Fleet;;;;;;;;;;;;;;;;x
 d_labrynnan_pirates_2;Labrynnan Pirate Fleet;;;;;;;;;;;;;;;;x
 d_oshus_company;Company of Oshush;;;;;;;;x
-d_hoho_sailor_1;Hoho Sailors;;;;;;;;x
-d_hoho_sailor_2;Hoho Sailors;;;;;;;;x
+d_hoho_sailors_1;Hoho Sailors;;;;;;;;x
+d_hoho_sailors_2;Hoho Sailors;;;;;;;;x
+d_fab_witch;Fab School of Enchanting;;;;;;;;x
+d_hermione_school;Hermione's School of Magic;;;;;;;;x
+d_zatanna_school;Zatanna's School of Magic;;;;;;;;x
+d_excalibur_school;Exalibur Acadamy;;;;;;;;x
+d_kldenents_school;Kldenent Acadamy;;;;;;;;x
 #minor titles
-title_biggoron;Biggoron.;;;;;;;;;;;;;;;;
-title_biggoron_desc;The title Biggoron is given to an individual who is the largest in his tribe, usually towering above all other gorons.;;;;;;;;;;;;;;;;
-title_midgoron;Midgoron.;;;;;;;;;;;;;;;;
-title_midgoron_desc;The title Midgoron is given to an individual who is the second largest in his tribe, usually only shorter than the biggoron.;;;;;;;;;;;;;;;;
+title_biggoron;Biggoron.;;;;;;;;;x
+title_biggoron_desc;The title Biggoron is given to an individual who is the largest in his tribe, usually towering above all other gorons.;;;;;;;;;x
+title_midgoron;Midgoron.;;;;;;;;;x
+title_midgoron_desc;The title Midgoron is given to an individual who is the second largest in his tribe, usually only shorter than the biggoron.;;;;;;;;;x
 title_duplicar;Duplicar;;;;;;;;;;;;;;;;
-title_duplicar_desc;A title traditionally given to those that have performed their duties well beyond expectations, usually acts of bravery in the face of certain death. Usually given to one no matter their rank.;;;;;;;;;;;;;;;;
+title_duplicar_desc;A title traditionally given to those that have performed their duties well beyond expectations, usually acts of bravery in the face of certain death. Usually given to one no matter their rank.;;;;;;;;;x
 title_immun;Immun;;;;;;;;;;;;;;;;
-title_immun_desc;The title Immun is usually given to those who perform extra duties, whether it is a duty that is usually beneath or above their rank.;;;;;;;;;;;;;;;;
+title_immun_desc;The title Immun is usually given to those who perform extra duties, whether it is a duty that is usually beneath or above their rank.;;;;;;;;;x
 title_imagifer;Imagifer;;;;;;;;;;;;;;;;
-title_imagifer_desc;The Imagifer is the title given to the one who carries the Dox's Legion's Standard or an image of the Dox in the case of the more vein Dox.;;;;;;;;;;;;;;;;
+title_imagifer_desc;The Imagifer is the title given to the one who carries the Dox's Legion's Standard or an image of the Dox in the case of the more vein Dox.;;;;;;;;;x
 title_mighty;Mighty;;;;;;;;;;;;;;;;
-title_mighty_desc;The title of mighty is given to the strongest or most skilled with the sword. There are cases when it is given to someone shown to be extremly skilled in tactics.;;;;;;;;;;;;;;;;
+title_mighty_desc;The title of mighty is given to the strongest or most skilled with the sword. There are cases when it is given to someone shown to be extremly skilled in tactics.;;;;;;;;;x
+#titles
+GUILD_MASTER;Guild Master;;;;;;;;;x
+GUILD_MISTRESS;Guild Mistress;;;;;;;;;x
+HEAD_MASTER;Head Master;;;;;;;;;x
+HEAD_MISTRESS;Head Mistress;;;;;;;;;x
