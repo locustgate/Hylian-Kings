@@ -22,10 +22,11 @@ character_event = {
 	only_women = yes
 	min_age = 16
 	prisoner = no
+	only_capable = yes
 	religion_group = muslim
+	is_married = yes
 	
 	trigger = {
-		is_married = yes
 		NOT = {
 			has_character_modifier = qadi_divorce_timer
 		}
@@ -382,6 +383,9 @@ character_event = {
 	
 	only_women = yes
 	min_age = 16
+	prisoner = no
+	only_capable = yes
+	has_character_flag = qadi_granted_divorce
 	
 	trigger = {
 		is_pregnant = no
@@ -534,16 +538,16 @@ character_event = {
 character_event = {
 	id = 105010
 	desc = "EVTDESC105010"
-	picture = GFX_evt_emissary #Placeholder!
+	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
 	
 	min_age = 16
 	prisoner = no
 	capable_only = yes
 	religion_group = muslim
+	war = no
 	
 	trigger = {
-		war = no
 		in_command = no
 		independent = no
 		NOT = {
@@ -848,138 +852,24 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA105011" #OK
-		trigger = {
-			has_character_flag = suggested_qadi_courtier
-			any_courtier = {
-				NOT = {
-					has_minor_title = title_chief_qadi
-				}
-				has_character_flag = suggested_qadi
-			}
-		}
-		ai_chance = {
-			factor = 40
-		}
-		clr_character_flag = suggested_qadi_courtier
-		random_courtier = {
-			limit = {
-				NOT = {
-					has_minor_title = title_chief_qadi
-				}
-				has_character_flag = suggested_qadi
-			}
-			clr_character_flag = suggested_qadi
-			give_minor_title = title_chief_qadi
-			character_event = {
-				id = 105012
-				days = 3
-				random = 3
-				tooltip = "EVTTOOLTIP105012"
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTB105011" #No
-		trigger = {
-			has_character_flag = suggested_qadi_courtier
-			any_courtier = {
-				NOT = {
-					has_minor_title = title_chief_qadi
-				}
-				has_character_flag = suggested_qadi
-			}
-		}
-		ai_chance = {
-			factor = 60
-		}
-		clr_character_flag = suggested_qadi_courtier
-		random_courtier = {
-			limit = {
-				NOT = {
-					has_minor_title = title_chief_qadi
-				}
-				has_character_flag = suggested_qadi
-			}
-			clr_character_flag = suggested_qadi
-		}
-		FROM = {
-			set_character_flag = dismissed_suggestion_qadi
-			character_event = {
-				id = 105013
-				days = 3
-				random = 3
-				tooltip = "EVTTOOLTIPA105013"
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTC105011" #Root will be Chief Qadi
-		trigger = {
-			has_character_flag = suggested_qadi_from
-		}
-		ai_chance = {
-			factor = 40
-		}
-		clr_character_flag = suggested_qadi_from
-		FROM = {
-			give_minor_title = title_chief_qadi
-			character_event = {
-				id = 105014
-				days = 3
-				random = 3
-				tooltip = "EVTTOOLTIPA105014"
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTD105011" #No
-		trigger = {
-			has_character_flag = suggested_qadi_from
-		}
-		ai_chance = {
-			factor = 60
-		}
-		clr_character_flag = suggested_qadi_from
-		FROM = {
-			set_character_flag = denied_qadi
-			opinion = {
-				modifier = opinion_disappointed
-				who = ROOT
-				years = 5
-			}
-			character_event = {
-				id = 105014
-				days = 3
-				random = 3
-				tooltip = "EVTTOOLTIPB105014"
-			}
-		}
-	}
-	option = {
 		name = "EVTOPTE105011" #OK
-		trigger = {
-			has_character_flag = suggested_qadi_vassal
-			any_vassal = {
-				NOT = {
-					has_minor_title = title_chief_qadi
-				}
-				has_character_flag = suggested_qadi
-			}
-		}
 		ai_chance = {
 			factor = 40
 		}
-		clr_character_flag = suggested_qadi_vassal
-		random_vassal = {
-			limit = {
-				NOT = {
-					has_minor_title = title_chief_qadi
-				}
-				has_character_flag = suggested_qadi
-			}
-			clr_character_flag = suggested_qadi
+		event_target:target_suggested_qadi = {
 			give_minor_title = title_chief_qadi
+			if = {
+				limit = {
+					FROM = { character = PREV }
+				}
+				character_event = {
+					id = 105014
+					days = 3
+					random = 3
+					tooltip = "EVTTOOLTIPA105014"
+				}
+				break = yes
+			}
 			character_event = {
 				id = 105012
 				days = 3
@@ -990,30 +880,26 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTF105011" #No
-		trigger = {
-			has_character_flag = suggested_qadi_vassal
-			any_vassal = {
-				NOT = {
-					has_minor_title = title_chief_qadi
-				}
-				has_character_flag = suggested_qadi
-			}
-		}
 		ai_chance = {
 			factor = 60
 		}
-		clr_character_flag = suggested_qadi_vassal
-		random_vassal = {
-			limit = {
-				NOT = {
-					has_minor_title = title_chief_qadi
-				}
-				has_character_flag = suggested_qadi
-			}
-			clr_character_flag = suggested_qadi
-		}
 		FROM = {
-			set_character_flag = dismissed_suggestion_qadi
+			if = {
+				limit = { 
+					character = event_target:target_suggested_qadi }
+				opinion = {
+					modifier = opinion_disappointed
+					who = ROOT
+					years = 5
+				}
+				character_event = {
+					id = 105014
+					days = 3
+					random = 3
+					tooltip = "EVTTOOLTIPB105014"
+				}
+				break = yes
+			}
 			character_event = {
 				id = 105013
 				days = 3
@@ -1046,7 +932,6 @@ character_event = {
 				who = ROOT
 				years = 5
 			}
-			set_character_flag = accepted_suggestion_qadi
 			character_event = {
 				id = 105013
 				days = 3
@@ -1068,18 +953,13 @@ character_event = {
 	
 	is_triggered_only = yes
 	
-	immediate = {
-		event_target:target_suggested_qadi = {
-			clr_character_flag = suggested_qadi
-		}
-	}
-	
 	option = {
 		name = EVTOPTA105013
 		trigger = {
-			has_character_flag = accepted_suggestion_qadi
+			event_target:target_suggested_qadi = {
+				has_minor_title = title_chief_qadi
+			}
 		}
-		clr_character_flag = accepted_suggestion_qadi
 		prestige = 15
 		event_target:target_suggested_qadi = {
 			tooltip = {
@@ -1095,9 +975,10 @@ character_event = {
 	option = {
 		name = EVTOPTB105013
 		trigger = {
-			has_character_flag = dismissed_suggestion_qadi
+			event_target:target_suggested_qadi = {
+				NOT = { has_minor_title = title_chief_qadi }
+			}
 		}
-		clr_character_flag = dismissed_suggestion_qadi
 		prestige = -5
 	}
 }
@@ -1129,9 +1010,8 @@ character_event = {
 	option = {
 		name = "EVTOPTB105014"
 		trigger = {
-			has_character_flag = denied_qadi
+			NOT = { has_minor_title = title_chief_qadi }
 		}
-		clr_character_flag = denied_qadi
 		prestige = -5
 		tooltip = {
 			opinion = {
@@ -1152,10 +1032,11 @@ character_event = {
 	
 	min_age = 16
 	prisoner = no
+	only_capable = yes
 	religion_group = muslim
+	war = no
 	
 	trigger = {
-		war = no
 		in_command = no
 		NOT = {
 			has_minor_title = title_chief_qadi
@@ -1301,6 +1182,15 @@ character_event = {
 	}
 	
 	immediate = {
+		hidden_tooltip = {
+			liege = { 
+				random_vassal = {
+					limit = { has_minor_title = title_chief_qadi }
+					save_event_target_as = bad_qadi
+				}
+			}
+		}
+
 		set_character_flag = new_qadi_suggester
 		hidden_tooltip = {
 			liege = {
@@ -1308,6 +1198,32 @@ character_event = {
 					name = suggested_new_qadi_timer
 					duration = 730
 					hidden = yes
+				}
+			}
+		}
+		liege = {
+			if = {
+				limit = {
+					any_vassal = {
+						has_minor_title = title_chief_qadi
+					}
+				}
+				random_vassal = {
+					limit = { has_minor_title = title_chief_qadi }
+					save_event_target_as = old_qadi
+					break = yes
+				}
+			}
+			if = {
+				limit = {
+					any_courtier = {
+						has_minor_title = title_chief_qadi
+					}
+				}
+				random_courtier = {
+					limit = { has_minor_title = title_chief_qadi }
+					save_event_target_as = old_qadi
+					break = yes
 				}
 			}
 		}
@@ -1375,9 +1291,8 @@ character_event = {
 						}
 					}
 				}
-				set_character_flag = suggested_new_qadi
+				save_event_target_as = target_suggested_qadi
 			}
-			set_character_flag = suggested_new_qadi_courtier
 			character_event = {
 				id = 105021
 				days = 2
@@ -1400,8 +1315,8 @@ character_event = {
 				trait = mastermind_theologian
 			}
 		}
+		save_event_target_as = target_suggested_qadi
 		liege = {
-			set_character_flag = suggested_new_qadi_from
 			character_event = {
 				id = 105021
 				days = 2
@@ -1478,11 +1393,10 @@ character_event = {
 						trait = slothful
 					}
 				}
-				set_character_flag = suggested_new_qadi
+				save_event_target_as = target_suggested_qadi
 			}
 		}
 		liege = {
-			set_character_flag = suggested_new_qadi_vassal
 			character_event = {
 				id = 105021
 				days = 2
@@ -1506,21 +1420,11 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA105021" #OK
-		trigger = {
-			has_character_flag = suggested_new_qadi_courtier
-			any_courtier = {
-				has_character_flag = suggested_new_qadi
-			}
-		}
-		clr_character_flag = suggested_new_qadi_courtier
+		name = "EVTOPTC105021" #OK
 		ai_chance = {
 			factor = 40
 		}
-		random_vassal = {
-			limit = {
-				has_minor_title = title_chief_qadi
-			}
+		event_target:old_qadi = {
 			remove_title = title_chief_qadi
 			if = {
 				limit = {
@@ -1534,12 +1438,18 @@ character_event = {
 				tooltip = "EVTTOOLTIP105025"
 			}
 		}
-		random_courtier = {
-			limit = {
-				has_character_flag = suggested_new_qadi
-			}
-			clr_character_flag = suggested_new_qadi
+		event_target:target_suggested_qadi = {
 			give_minor_title = title_chief_qadi
+			if = {
+				limit = { FROM = { character = PREV } }
+				character_event = {
+					id = 105024
+					days = 3
+					random = 3
+					tooltip = "EVTTOOLTIPA105014"
+				}
+				break = yes
+			}
 			character_event = {
 				id = 105022
 				days = 3
@@ -1550,160 +1460,30 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB105021" #No
-		trigger = {
-			has_character_flag = suggested_new_qadi_courtier
-			any_courtier = {
-				has_character_flag = suggested_new_qadi
-			}
-		}
 		ai_chance = {
 			factor = 60
 		}
-		clr_character_flag = suggested_new_qadi_courtier
-		random_courtier = {
-			limit = {
-				has_character_flag = suggested_new_qadi
-			}
-			clr_character_flag = suggested_new_qadi
-		}
 		FROM = {
-			set_character_flag = dismissed_suggestion_new_qadi
+			if = {
+				limit = { character = event_target:target_suggested_qadi }
+				opinion = {
+					modifier = opinion_disappointed
+					who = ROOT
+					years = 5
+				}
+				character_event = {
+					id = 105024
+					days = 3
+					random = 3
+					tooltip = "EVTTOOLTIPB105014"
+				}
+				break = yes
+			}
 			character_event = {
 				id = 105023
 				days = 3
 				random = 3
 				tooltip = "EVTTOOLTIPA105013"
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTC105021" #OK
-		trigger = {
-			has_character_flag = suggested_new_qadi_from
-		}
-		ai_chance = {
-			factor = 40
-		}
-		clr_character_flag = suggested_new_qadi_from
-		random_vassal = {
-			limit = {
-				has_minor_title = title_chief_qadi
-			}
-			remove_title = title_chief_qadi
-			if = {
-				limit = {
-					has_opinion_modifier = { who = ROOT modifier = opinion_chief_qadi }
-				}
-				remove_opinion = { who = ROOT modifier = opinion_chief_qadi }
-			}
-			character_event = {
-				id = 105025
-				days = 1
-				tooltip = "EVTTOOLTIP105025"
-			}
-		}
-		FROM = {
-			give_minor_title = title_chief_qadi
-			character_event = {
-				id = 105024
-				days = 3
-				random = 3
-				tooltip = "EVTTOOLTIPA105014"
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTB105021" #No
-		trigger = {
-			has_character_flag = suggested_new_qadi_from
-		}
-		ai_chance = {
-			factor = 60
-		}
-		clr_character_flag = suggested_new_qadi_from
-		FROM = {
-			set_character_flag = denied_qadi
-			opinion = {
-				modifier = opinion_disappointed
-				who = ROOT
-				years = 5
-			}
-			character_event = {
-				id = 105024
-				days = 3
-				random = 3
-				tooltip = "EVTTOOLTIPB105014"
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTE105021" #OK
-		trigger = {
-			has_character_flag = suggested_new_qadi_vassal
-			any_vassal = {
-				has_character_flag = suggested_new_qadi
-			}
-		}
-		ai_chance = {
-			factor = 40
-		}
-		clr_character_flag = suggested_new_qadi_vassal
-		random_vassal = {
-			limit = {
-				has_minor_title = title_chief_qadi
-			}
-			remove_title = title_chief_qadi
-			if = {
-				limit = {
-					has_opinion_modifier = { who = ROOT modifier = opinion_chief_qadi }
-				}
-				remove_opinion = { who = ROOT modifier = opinion_chief_qadi }
-			}
-			character_event = {
-				id = 105025
-				days = 1
-				tooltip = "EVTTOOLTIP105025"
-			}
-		}
-		random_vassal = {
-			limit = {
-				has_character_flag = suggested_new_qadi
-			}
-			clr_character_flag = suggested_new_qadi
-			give_minor_title = title_chief_qadi
-			character_event = {
-				id = 105022
-				days = 3
-				random = 3
-				tooltip = "EVTTOOLTIP105022"
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTB105021" #No
-		trigger = {
-			has_character_flag = suggested_new_qadi_vassal
-			any_vassal = {
-				has_character_flag = suggested_new_qadi
-			}
-		}
-		ai_chance = {
-			factor = 60
-		}
-		clr_character_flag = suggested_new_qadi_vassal
-		random_vassal = {
-			limit = {
-				has_character_flag = suggested_new_qadi
-			}
-			clr_character_flag = suggested_new_qadi
-		}
-		FROM = {
-			set_character_flag = dismissed_suggestion_new_qadi
-			character_event = {
-				id = 105023
-				days = 3
-				random = 3
-				tooltip = "EVTTOOLTIP105023"
 			}
 		}
 	}
@@ -1732,7 +1512,6 @@ character_event = {
 					who = ROOT
 					years = 5
 				}
-				set_character_flag = accepted_suggestion_new_qadi
 				character_event = {
 					id = 105023
 					days = 3
@@ -1758,9 +1537,10 @@ character_event = {
 	option = {
 		name = "EVTOPTA105023"
 		trigger = {
-			has_character_flag = accepted_suggestion_new_qadi
+			event_target:target_suggested_qadi = {
+				has_minor_title = title_chief_qadi
+			}
 		}
-		clr_character_flag = accepted_suggestion_new_qadi
 		prestige = 15
 		FROM = {
 			tooltip = {
@@ -1775,9 +1555,10 @@ character_event = {
 	option = {
 		name = "EVTOPTB105023"
 		trigger = {
-			has_character_flag = dismissed_suggestion_new_qadi
+			event_target:target_suggested_qadi = {
+				NOT = { has_minor_title = title_chief_qadi }
+			}
 		}
-		clr_character_flag = dismissed_suggestion_new_qadi
 		prestige = -5
 	}
 }
@@ -1809,9 +1590,8 @@ character_event = {
 	option = {
 		name = "EVTOPTB105014"
 		trigger = {
-			has_character_flag = denied_qadi
+			NOT = { has_minor_title = title_chief_qadi }
 		}
-		clr_character_flag = denied_qadi
 		prestige = -5
 		tooltip = {
 			opinion = {
@@ -1863,18 +1643,18 @@ character_event = {
 	min_age = 16
 	prisoner = no
 	religion_group = muslim
+	war = no
 	
 	trigger = {
-		war = no
 		in_command = no
 		has_minor_title = title_chief_qadi
 		liege = {
 			any_realm_character = {
-				NOT = {
+				NOR = {
 					character = PREV
-				}
-				NOT = {
 					character = ROOT
+					trait = incapable
+					is_inaccessible_trigger = yes
 				}
 				war = no
 				in_command = no
@@ -1882,10 +1662,6 @@ character_event = {
 				age = 16
 				trait = drunkard
 				prisoner = no
-				NOT = {
-					trait = incapable
-				}
-				NOT = { trait = in_hiding }
 			}
 		}
 	}
@@ -1901,6 +1677,28 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = zealous
+		}
+	}
+
+	immediate = {
+		liege = {
+			random_realm_character = {
+				limit = {
+					NOR = {
+						character = PREV
+						character = ROOT
+						trait = incapable
+						is_inaccessible_trigger = yes
+					}
+					war = no
+					in_command = no
+					religion_group = muslim
+					age = 16
+					trait = drunkard
+					prisoner = no
+				}
+				save_event_target_as = target_drunkard
+			}
 		}
 	}
 	
@@ -1935,18 +1733,7 @@ character_event = {
 			}
 		}
 		liege = {
-			random_realm_character = {
-				limit = {
-					war = no
-					in_command = no
-					religion_group = muslim
-					age = 16
-					trait = drunkard
-					prisoner = no
-					NOT = {
-						trait = incapable
-					}
-				}
+			event_target:target_drunkard = {
 				random = {
 					chance = 5
 					remove_trait = drunkard
@@ -1954,6 +1741,11 @@ character_event = {
 				random = {
 					chance = 30
 					add_trait = wounded
+					hidden_tooltip = {
+						character_event = {
+							id = 38280 #Notify Wounded
+						}
+					}
 				}
 				character_event = {
 					id = 105031
@@ -1991,18 +1783,7 @@ character_event = {
 			}
 		}
 		liege = {
-			random_realm_character = {
-				limit = {
-					war = no
-					in_command = no
-					religion_group = muslim
-					age = 16
-					trait = drunkard
-					prisoner = no
-					NOT = {
-						trait = incapable
-					}
-				}
+			event_target:target_drunkard = {
 				opinion = {
 					modifier = opinion_merciful_qadi
 					who = ROOT
@@ -2181,9 +1962,15 @@ character_event = {
 				tier = king
 				tier = emperor
 			}
-			any_courtier = {
-				has_minor_title = title_chief_qadi
-				NOT = { trait = in_hiding }
+			OR = {
+				any_courtier = {
+					has_minor_title = title_chief_qadi
+					NOT = { is_inaccessible_trigger = yes }
+				}
+				any_vassal = {
+					has_minor_title = title_chief_qadi
+					NOT = { is_inaccessible_trigger = yes }
+				}
 			}
 			any_vassal = {
 				is_female = no
@@ -2208,7 +1995,7 @@ character_event = {
 						}
 					}
 				}
-				NOT = { trait = in_hiding }
+				NOT = { is_inaccessible_trigger = yes }
 			}
 		}
 	}
@@ -2229,13 +2016,16 @@ character_event = {
 			trait = zealous
 		}
 	}
-	
-	option = {
-		name = "EVTOPTA105035"
+
+	immediate = {
 		liege = {
 			random_vassal = {
 				limit = {
+					is_female = no
 					has_lover = yes
+					NOT = {
+						trait = homosexual
+					}
 					religion_group = muslim
 					OR = {
 						trait = lustful
@@ -2246,62 +2036,68 @@ character_event = {
 					}
 					spouse = {
 						is_alive = yes
+						religion_group = muslim
 						NOT = {
 							any_lover = {
 								character = PREVPREV
 							}
 						}
 					}
-					NOT = { trait = in_hiding }
+					NOT = { is_inaccessible_trigger = yes }
 				}
-				set_character_flag = zina_suspected
+				save_event_target_as = unfaithful_vassal
 			}
-			random_courtier = {
+			if = {
 				limit = {
-					has_minor_title = title_chief_qadi
-					age = 16
-					is_female = no
-					NOT = { trait = in_hiding }
+					any_courtier = {
+						has_minor_title = title_chief_qadi
+					}
 				}
-				character_event = {
-					id = 105036
-					days = 2
-					random = 2
-					tooltip = "EVTTOOLTIP105036"
+				random_courtier = {
+					limit = {
+						has_minor_title = title_chief_qadi
+					}
+					save_event_target_as = chief_qadi
+					break = yes
 				}
+			}
+			if = {
+				limit = {
+					any_vassal = {
+						has_minor_title = title_chief_qadi
+					}
+				}
+				random_vassal = {
+					limit = {
+						has_minor_title = title_chief_qadi
+					}
+					save_event_target_as = chief_qadi
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA105035"
+		event_target:unfaithful_vassal = {
+		}
+		event_target:chief_qadi = {
+			character_event = {
+				id = 105036
+				days = 2
+				random = 2
+				tooltip = "EVTTOOLTIP105036"
 			}
 		}
 	}
 	option = {
 		name = "EVTOPTB105035"
-		liege = {
-			random_vassal = {
-				limit = {
-					has_lover = yes
-					religion_group = muslim
-					OR = {
-						trait = lustful
-						trait = deceitful
-						NOT = {
-							trait = zealous
-						}
-					}
-					spouse = {
-						is_alive = yes
-						NOT = {
-							any_lover = {
-								character = PREVPREV
-							}
-						}
-					}
-					NOT = { trait = in_hiding }
-				}
-				character_event = {
-					id = 105037
-					days = 2
-					random = 2
-					tooltip = "EVTTOOLTIP105037"
-				}
+		event_target:unfaithful_vassal = {
+			character_event = {
+				id = 105037
+				days = 2
+				random = 2
+				tooltip = "EVTTOOLTIP105037"
 			}
 		}
 	}
@@ -2325,18 +2121,13 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA105036" #Confront
-		liege = {
-			random_vassal = {
-				limit = {
-					has_character_flag = zina_suspected
-				}
-				character_event = {
-					id = 105038
-					days = 2
-					random = 2
-					tooltip = "EVTTOOLTIP105038"
-				}			
-			}
+		event_target:unfaithful_vassal = {
+			character_event = {
+				id = 105038
+				days = 2
+				random = 2
+				tooltip = "EVTTOOLTIP105038"
+			}			
 		}
 		hidden_tooltip = {
 			FROM = {
@@ -2597,17 +2388,12 @@ character_event = {
 				years = 2
 			}
 		}
-		liege = {
-			random_vassal = {
-				limit = {
-					has_character_flag = zina_suspected
-				}
-				character_event = {
-					id = 105037
-					days = 2
-					random = 2
-					tooltip = "EVTTOOLTIP105037"
-				}
+		event_target:unfaithful_vassal = {
+			character_event = {
+				id = 105037
+				days = 2
+				random = 2
+				tooltip = "EVTTOOLTIP105037"
 			}
 		}
 	}
@@ -2674,20 +2460,13 @@ character_event = {
 			}
 		}
 		clr_character_flag = ignored_threat
-		liege = {
-			random_courtier = {
-				limit = {
-					has_minor_title = title_chief_qadi
-					age = 16
-					is_female = no
-				}
-				set_character_flag = asked_qadi_zina
-				character_event = {
-					id = 105036
-					days = 2
-					random = 2
-					tooltip = "EVTTOOLTIP105036"
-				}
+		event_target:chief_qadi = {
+			set_character_flag = asked_qadi_zina
+			character_event = {
+				id = 105036
+				days = 2
+				random = 2
+				tooltip = "EVTTOOLTIP105036"
 			}
 		}
 	}
@@ -2703,20 +2482,13 @@ character_event = {
 			}
 		}
 		clr_character_flag = ignored_threat
-		liege = {
-			random_courtier = {
-				limit = {
-					has_minor_title = title_chief_qadi
-					age = 16
-					is_female = no
-				}
-				set_character_flag = asked_qadi_zina
-				character_event = {
-					id = 105036
-					days = 2
-					random = 2
-					tooltip = "EVTTOOLTIP105036"
-				}
+		event_target:chief_qadi = {
+			set_character_flag = asked_qadi_zina
+			character_event = {
+				id = 105036
+				days = 2
+				random = 2
+				tooltip = "EVTTOOLTIP105036"
 			}
 		}
 	}
@@ -2746,19 +2518,12 @@ character_event = {
 			}
 		}
 		clr_character_flag = lover_silenced
-		liege = {
-			random_courtier = {
-				limit = {
-					has_minor_title = title_chief_qadi
-					age = 16
-					is_female = no
-				}
-				character_event = {
-					id = 105036
-					days = 2
-					random = 2
-					tooltip = "EVTTOOLTIP105036"
-				}
+		event_target:chief_qadi = {
+			character_event = {
+				id = 105036
+				days = 2
+				random = 2
+				tooltip = "EVTTOOLTIP105036"
 			}
 		}
 	}
@@ -2895,6 +2660,11 @@ character_event = {
 			random = {
 				chance = 30
 				add_trait = wounded
+				hidden_tooltip = {
+					character_event = {
+						id = 38280 #Notify Wounded
+					}
+				}
 			}
 			character_event = {
 				id = 105044
@@ -3006,6 +2776,11 @@ character_event = {
 			random = {
 				chance = 30
 				add_trait = wounded
+				hidden_tooltip = {
+					character_event = {
+						id = 38280 #Notify Wounded
+					}
+				}
 			}
 			character_event = {
 				id = 105044
@@ -3016,6 +2791,11 @@ character_event = {
 				random = {
 					chance = 30
 					add_trait = wounded
+					hidden_tooltip = {
+						character_event = {
+							id = 38280 #Notify Wounded
+						}
+					}
 				}
 				character_event = {
 					id = 64045
@@ -3135,6 +2915,11 @@ character_event = {
 			random = {
 				chance = 30
 				add_trait = wounded
+				hidden_tooltip = {
+					character_event = {
+						id = 38280 #Notify Wounded
+					}
+				}
 			}
 			character_event = {
 				id = 105044
@@ -3267,11 +3052,16 @@ character_event = {
 	min_age = 16
 	prisoner = no
 	religion_group = muslim
+	war = no
 	
 	trigger = {
-		war = no
 		in_command = no
-		is_theocracy = yes
+		any_demesne_province = {
+			any_province_holding = {
+				holding_type = temple
+				owner = { character = ROOT }
+			}
+		}
 		NOT = {
 			has_minor_title = title_court_calligrapher
 		}
@@ -3280,21 +3070,39 @@ character_event = {
 			NOT = {
 				character = ROOT
 			}
-			any_vassal = {
-				in_command = no
-				has_minor_title = title_court_calligrapher
-				religion_group = muslim
-				age = 16
-				NOT = {
-					has_character_modifier= mosque_calligrapher_timer
-				}
-				NOT = {
-					reverse_has_opinion_modifier = { 
-						who = ROOT
-						modifier = opinion_disappointed_calligrapher
+			OR = {
+				any_vassal = {
+					in_command = no
+					has_minor_title = title_court_calligrapher
+					religion_group = muslim
+					age = 16
+					NOT = {
+						has_character_modifier= mosque_calligrapher_timer
 					}
+					NOT = {
+						reverse_has_opinion_modifier = { 
+							who = ROOT
+							modifier = opinion_disappointed_calligrapher
+						}
+					}
+					NOT = { is_inaccessible_trigger = yes }
 				}
-				NOT = { trait = in_hiding }
+				any_courtier = {
+					in_command = no
+					has_minor_title = title_court_calligrapher
+					religion_group = muslim
+					age = 16
+					NOT = {
+						has_character_modifier= mosque_calligrapher_timer
+					}
+					NOT = {
+						reverse_has_opinion_modifier = { 
+							who = ROOT
+							modifier = opinion_disappointed_calligrapher
+						}
+					}
+					NOT = { is_inaccessible_trigger = yes }
+				}
 			}
 		}
 	}
@@ -3333,27 +3141,41 @@ character_event = {
 				hidden = yes
 			}
 		}
+		liege = {
+			if = {
+				limit = {
+					any_courtier = {
+						has_minor_title = title_court_calligrapher
+					}
+				}
+				random_courtier = {
+					limit = { has_minor_title = title_court_calligrapher }
+					save_event_target_as = court_calligrapher
+				}
+				break = yes
+			}
+			if = {
+				limit = {
+					any_vassal = {
+						has_minor_title = title_court_calligrapher
+					}
+				}
+				random_vassal = {
+					limit = { has_minor_title = title_court_calligrapher }
+					save_event_target_as = court_calligrapher
+				}
+			}
+		}
 	}
 	
 	option = {
 		name = "EVTOPTA105050"
-		liege = {
-			random_vassal = {
-				limit = {
-					in_command = no
-					has_minor_title = title_court_calligrapher
-					religion_group = muslim
-					age = 16
-					NOT = {
-						has_character_modifier= mosque_calligrapher_timer
-					}
-				}
-				character_event = {
-					id = 105051
-					days = 3
-					random = 2
-					tooltip = "EVTTOOLTIP105051"
-				}
+		event_target:court_calligrapher = {
+			character_event = {
+				id = 105051
+				days = 3
+				random = 2
+				tooltip = "EVTTOOLTIP105051"
 			}
 		}
 	}
@@ -3757,6 +3579,7 @@ character_event = {
 	
 	min_age = 16
 	prisoner = no
+	only_capable = yes
 	religion_group = muslim
 	
 	trigger = {
@@ -3778,7 +3601,7 @@ character_event = {
 			religion_group = muslim
 			piety = 100
 		}
-		NOT = { trait = in_hiding }
+		NOT = { is_inaccessible_trigger = yes }
 	}
 	
 	mean_time_to_happen = {
@@ -3917,7 +3740,9 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	min_age = 30
+	only_men = yes
 	prisoner = no
+	only_capable = yes
 	religion_group = muslim
 	
 	trigger = {
@@ -3934,7 +3759,7 @@ character_event = {
 			}
 			religion_group = muslim
 		}
-		NOT = { trait = in_hiding }
+		NOT = { is_inaccessible_trigger = yes }
 	}
 	
 	mean_time_to_happen = {
@@ -4339,6 +4164,7 @@ character_event = {
 	
 	min_age = 16
 	prisoner = no
+	only_capable = yes
 	religion_group = muslim
 	
 	trigger = {
@@ -4361,7 +4187,7 @@ character_event = {
 				tier = emperor
 			}
 		}
-		NOT = { trait = in_hiding }
+		NOT = { is_inaccessible_trigger = yes }
 	}
 	
 	mean_time_to_happen = {
@@ -4375,6 +4201,7 @@ character_event = {
 				duration = 730
 				hidden = yes
 			}
+			save_event_target_as = court_musician
 		}
 	}
 	
@@ -4610,6 +4437,7 @@ character_event = {
 	
 	min_age = 16
 	prisoner = no
+	only_capable = yes
 	religion_group = muslim
 	
 	trigger = {
@@ -4632,7 +4460,7 @@ character_event = {
 				tier = emperor
 			}
 		}
-		NOT = { trait = in_hiding }
+		NOT = { is_inaccessible_trigger = yes }
 	}
 	
 	mean_time_to_happen = {
@@ -4893,9 +4721,10 @@ character_event = {
 	
 	min_age = 16
 	prisoner = no
+	only_capable = yes
+	war = no
 	
 	trigger = {
-		war = no
 		in_command = no
 		has_minor_title = title_cupbearer
 		OR = {
@@ -4913,7 +4742,7 @@ character_event = {
 			at_location = ROOT
 			NOT = { reverse_opinion = { who = ROOT value = 0 } }
 		}
-		NOT = { trait = in_hiding }
+		NOT = { is_inaccessible_trigger = yes }
 	}
 	
 	mean_time_to_happen = {
@@ -4963,7 +4792,22 @@ character_event = {
 						}
 					}
 					15 = {
+						if = {
+							limit = {
+								NOT = {
+									has_dlc = "Reapers"
+								}
+							}
 						add_trait = ill
+						}
+						if = {
+							limit = {
+								has_dlc = "Reapers"
+							}
+						set_character_flag = disease_not_serious
+						add_trait = vomiting
+						character_event = { id = RIP.11005 days = 10 random = 30 }
+						}
 						hidden_tooltip = {
 							character_event = {
 								id = 38290
@@ -5012,7 +4856,8 @@ character_event = {
 					}
 					5 = {
 						death = {
-							death_reason = death_murder_unknown
+							death_reason = death_murder_unknown_poison
+							killer = ROOT
 						}
 					}
 				}
@@ -5032,7 +4877,22 @@ character_event = {
 						}
 					}
 					25 = {
+						if = {
+							limit = {
+								NOT = {
+									has_dlc = "Reapers"
+								}
+							}
 						add_trait = ill
+						}
+						if = {
+							limit = {
+								has_dlc = "Reapers"
+							}
+						set_character_flag = disease_not_serious
+						add_trait = vomiting
+						character_event = { id = RIP.11005 days = 10 random = 30 }
+						}
 						hidden_tooltip = {
 							character_event = {
 								id = 38290
@@ -5081,7 +4941,8 @@ character_event = {
 					}
 					5 = {
 						death = {
-							death_reason = death_murder_unknown
+							death_reason = death_murder_unknown_poison
+							killer = ROOT
 						}
 					}
 				}
@@ -5273,6 +5134,7 @@ character_event = {
 	
 	min_age = 16
 	prisoner = no
+	only_capable = yes
 	religion_group = muslim
 	
 	trigger = {
@@ -5293,7 +5155,7 @@ character_event = {
 			}
 			religion_group = muslim
 		}
-		NOT = { trait = in_hiding }
+		NOT = { is_inaccessible_trigger = yes }
 	}
 	
 	mean_time_to_happen = {
@@ -5582,9 +5444,9 @@ character_event = {
 	
 	min_age = 16
 	prisoner = no
+	war = no
 	
 	trigger = {
-		war = no
 		in_command = no
 		has_minor_title = title_food_taster
 		OR = {
@@ -5602,7 +5464,7 @@ character_event = {
 			at_location = ROOT
 			NOT = { reverse_opinion = { who = ROOT value = 0 } }
 		}
-		NOT = { trait = in_hiding }
+		NOT = { is_inaccessible_trigger = yes }
 	}
 	
 	mean_time_to_happen = {
@@ -5668,7 +5530,22 @@ character_event = {
 						}
 					}
 					15 = {
+						if = {
+							limit = {
+								NOT = {
+									has_dlc = "Reapers"
+								}
+							}
 						add_trait = ill
+						}
+						if = {
+							limit = {
+								has_dlc = "Reapers"
+							}
+						set_character_flag = disease_not_serious
+						add_trait = vomiting
+						character_event = { id = RIP.11005 days = 10 random = 30 }
+						}
 						hidden_tooltip = {
 							character_event = {
 								id = 38290
@@ -5717,7 +5594,8 @@ character_event = {
 					}
 					5 = {
 						death = {
-							death_reason = death_murder_unknown
+							death_reason = death_murder_unknown_poison
+							killer = ROOT
 						}
 					}
 				}
@@ -5737,7 +5615,22 @@ character_event = {
 						}
 					}
 					25 = {
+						if = {
+							limit = {
+								NOT = {
+									has_dlc = "Reapers"
+								}
+							}
 						add_trait = ill
+						}
+						if = {
+							limit = {
+								has_dlc = "Reapers"
+							}
+						set_character_flag = disease_not_serious
+						add_trait = vomiting
+						character_event = { id = RIP.11005 days = 10 random = 30 }
+						}
 						hidden_tooltip = {
 							character_event = {
 								id = 38290
@@ -5786,7 +5679,8 @@ character_event = {
 					}
 					5 = {
 						death = {
-							death_reason = death_murder_unknown
+							death_reason = death_murder_unknown_poison
+							killer = ROOT
 						}
 					}
 				}

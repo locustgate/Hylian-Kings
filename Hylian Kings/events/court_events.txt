@@ -52,7 +52,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.9
-			trait = ill
+			is_ill = yes
 		}
 		modifier = {
 			factor = 0.8
@@ -72,7 +72,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.8
-			trait = maimed
+			is_maimed_trigger = yes
 		}
 		modifier = {
 			factor = 0.5
@@ -125,16 +125,21 @@ character_event = {
 	}	
 	option = {
 		name = EVTOPTB73000 #Ignore him
-		any_dynasty_member = {
-			limit = {
-				NOT = {
-					character = ROOT
+		custom_tooltip = {
+			text = ALL_DYNASTY_MEMBERS_MINUS_5
+			hidden_tooltip = {
+				any_dynasty_member = {
+					limit = {
+						NOT = {
+							character = ROOT
+						}
+					}
+					opinion = {
+						who = ROOT
+						modifier = disrespects_dynasty
+						months = 120
+					}
 				}
-			}
-			opinion = {
-				who = ROOT
-				modifier = disrespects_dynasty
-				months = 120
 			}
 		}
 		random = {
@@ -158,9 +163,9 @@ character_event = {
 	only_playable = yes
 	prisoner = no
 	only_men = yes
+	is_married = yes
 	
 	trigger = {
-		is_married = yes
 		spouse = {
 			is_abroad = no
 			prisoner = no
@@ -190,31 +195,53 @@ character_event = {
 	option = {
 		name = EVTOPTA73001 # Help her, by getting her more to read.
 		wealth = -10
-		spouse = { fertility = 0.1 }
-		if = {
-			limit = { spouse = { not = {trait = lustful } } }
-			spouse = { add_trait = lustful }
+		spouse = {
+			fertility = 0.1
+			if = {
+				limit = {
+					NOT = {
+						trait = lustful
+					}
+				}
+				add_trait = lustful
+			}
+			opinion = {
+				who = ROOT
+				modifier = spouse_encouraged
+				months = 12
+			}
 		}
-		opinion = {
-			who = ROOT
-			modifier = spouse_encouraged
-			months = 12
-		}		
 	}	
 	option = {
 		name = EVTOPTB73001 # That is her interests, not mine.
 		piety = 5
-		spouse = { fertility = -0.1 }
-		opinion = {
-			who = ROOT
-			modifier = spouse_ignores_me
-			months = 12
+		spouse = {
+			fertility = -0.1
+			opinion = {
+				who = ROOT
+				modifier = spouse_ignores_me
+				months = 12
+			}
 		}		
 	}
 	option = {
-		name = EVTOPTC73001 # These are books created by satan!
+		name = {
+			text = EVTOPTC73001 # These are books created by satan!
+			trigger = {
+				religion_group = goddesses_religion #christian
+			}
+		}
+		#name = {
+		#	text = EVTOPTD73001 # These are books created by Shaytan!
+		#	trigger = {
+		#		religion_group = muslim
+		#	}
+		#}
 		trigger = {
-			religion_group = christian
+			OR = {
+				religion_group = goddesses_religion #christian
+				#religion_group = muslim
+			}
 		}
 		ai_chance = {
 			factor = 1
@@ -223,97 +250,73 @@ character_event = {
 				NOT= { trait = zealous }
 			}
 		}
-		if = {
-			limit = {
-				spouse = {
+		spouse = {
+			if = {
+				limit = {
 					NOT = {
-						religion_group = muslim
+						#religion_group = muslim
 					}
 				}
+				add_trait = chaste
 			}
-			spouse = { add_trait = chaste }
-		}
-		piety = 10
-	}
-	option = {
-		name = EVTOPTD73001 # These are books created by Shaytan!
-		trigger = {
-			religion_group = muslim
-		}
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT= { trait = zealous }
-			}
-		}
-		if = {
-			limit = {
-				spouse = {
-					NOT = {
-						religion_group = muslim
-					}
-				}
-			}
-			spouse = { add_trait = chaste }
 		}
 		piety = 10
 	}
 }	
 
-#The Church wants to organise a Miracle play for a local saint
-character_event = {
-	id = 73002
-	desc = EVTDESC73002
-	picture = GFX_evt_bishop
-	border = GFX_event_normal_frame_religion
-	
-	is_triggered_only = yes
-	
-	min_age = 16
-	only_playable = yes
-	prisoner = no
-	
-	trigger = {
-		religion = catholic
-		in_command = no
-		any_vassal = {
-			tier = baron
-			is_theocracy = yes
-			NOT = {
-				has_opinion_modifier = { who = ROOT modifier = ignores_local_saints }
-			}
-		}
-	}
-
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			factor = 0.1
-			trait = cynical
-		}
-	}	
-	
-	option = {
-		name = EVTOPTA73002 # It is for the glory of God!
-		scaled_wealth = -0.20
-		piety = 10
-	}	
-	option = {
-		name = EVTOPTB73002 # If the Church wants it, the Church pays for it
-		random_vassal = {
-			limit = {
-				tier = baron
-				is_theocracy = yes
-			}
-			opinion = {
-				who = ROOT
-				modifier = ignores_local_saints
-				years = 2
-			}				
-		}
-	}	
-}	
+##The Church wants to organise a Miracle play for a local saint
+#character_event = {
+#	id = 73002
+#	desc = EVTDESC73002
+#	picture = GFX_evt_bishop
+#	border = GFX_event_normal_frame_religion
+#	
+#	is_triggered_only = yes
+#	
+#	min_age = 16
+#	only_playable = yes
+#	prisoner = no
+#	religion = catholic
+#	
+#	trigger = {
+#		in_command = no
+#		any_vassal = {
+#			tier = baron
+#			is_theocracy = yes
+#			NOT = {
+#				has_opinion_modifier = { who = ROOT modifier = ignores_local_saints }
+#			}
+#		}
+#	}
+#
+#	weight_multiplier = {
+#		days = 1
+#		modifier = {
+#			factor = 0.1
+#			trait = cynical
+#		}
+#	}	
+#	
+#	option = {
+#		name = EVTOPTA73002 # It is for the glory of God!
+#		scaled_wealth = -0.20
+#		piety = 10
+#	}	
+#	option = {
+#		name = EVTOPTB73002 # If the Church wants it, the Church pays for it
+#		random_vassal = {
+#			limit = {
+#				tier = baron
+#				is_theocracy = yes
+#			}
+#			opinion = {
+#				who = ROOT
+#				modifier = ignores_local_saints
+#				years = 2
+#			}				
+#		}
+#	}	
+#}	
 
 #The Peasants wants to organise a great carnival and ask for your funding
 character_event = {
@@ -326,9 +329,9 @@ character_event = {
 	min_age = 16
 	only_playable = yes
 	prisoner = no
+	religion_group = goddesses_religion #christian
 	
 	trigger = {
-		religion_group = christian
 		in_command = no
 		tier = count
 		wealth = 50
@@ -457,7 +460,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.9
-			trait = ill
+			is_ill = yes
 		}
 		modifier = {
 			factor = 0.8
@@ -477,7 +480,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.8
-			trait = maimed
+			is_maimed_trigger = yes
 		}
 		modifier = {
 			factor = 0.5
@@ -631,46 +634,46 @@ character_event = {
 			prestige = -5
 		}
 	}
-	option = {
-		name = EVTOPTC73006 #Give him a beating for messing with inferiors
-		if = {
-			limit = { religion = jain }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
-		event_target:knocked_up_maid = {
-			opinion = {
-				modifier = resentful_of_my_behaviour
-				who = ROOT
-				years = 2
-			}
-			add_trait = wroth
-			add_trait = ambitious
-		}
-	}
-	option = {
-		name = EVTOPTD73006 #Send him to confess his sins
-		trigger = {
-			OR = {
-				religion_group = christian
-				religion_group = muslim
-			}
-		}
-		event_target:knocked_up_maid = {
-			if = {
-				limit = {
-					religion_group = christian
-				}
-				add_trait = chaste
-			}
-			if = {
-				limit = {
-					religion_group = muslim
-				}
-				piety = -10
-			}
-		}
-	}
+	#option = {
+	#	name = EVTOPTC73006 #Give him a beating for messing with inferiors
+	#	if = {
+	#		limit = { religion = jain }
+	#		piety = -20
+	#		custom_tooltip = { text = jain_ahimsa_tooltip }
+	#	}
+	#	event_target:knocked_up_maid = {
+	#		opinion = {
+	#			modifier = resentful_of_my_behaviour
+	#			who = ROOT
+	#			years = 2
+	#		}
+	#		add_trait = wroth
+	#		add_trait = ambitious
+	#	}
+	#}
+	#option = {
+	#	name = EVTOPTD73006 #Send him to confess his sins
+	#	trigger = {
+	#		OR = {
+	#			religion_group = goddesses_religion #christian
+	#			#religion_group = muslim
+	#		}
+	#	}
+	#	event_target:knocked_up_maid = {
+	#		if = {
+	#			limit = {
+	#				religion_group = goddesses_religion #christian
+	#			}
+	#			add_trait = chaste
+	#		}
+	#		if = {
+	#			limit = {
+	#				#religion_group = muslim
+	#			}
+	#			piety = -10
+	#		}
+	#	}
+	#}
 }
 	
 ### Bored wife: Your wife wants latest fashion fad.... ###
@@ -737,7 +740,7 @@ character_event = {
 	option = {
 		name = EVTOPTB73007 #Let's go to the church instead, darling
 		trigger = {
-			religion_group = christian
+			religion_group = goddesses_religion #christian
 		}
 		if = {
 			limit = { trait = cynical }
@@ -774,6 +777,7 @@ character_event = {
 	min_age = 16
 	only_playable = yes
 	prisoner = no
+	ai = no
 	
 	trigger = {
 		is_landed = yes
@@ -818,9 +822,9 @@ character_event = {
 	min_age = 16
 	only_playable = yes
 	prisoner = no
+	war = yes
 	
 	trigger = {
-		war = yes
 		any_current_enemy = {
 			culture = ROOT
 		}
@@ -858,7 +862,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.9
-			trait = ill
+			is_ill = yes
 		}
 		modifier = {
 			factor = 0.8
@@ -878,7 +882,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.8
-			trait = maimed
+			is_maimed_trigger = yes
 		}
 		modifier = {
 			factor = 0.5
@@ -955,230 +959,230 @@ character_event = {
 
 }
 
-#I've been readin 'Ars Moriendi', and it claims that death is not something to be afraid of. 
-character_event = {
-	id = 73010
-	desc = EVTDESC73010
-	picture = GFX_evt_library
-	
-	min_age = 55
-	only_playable = yes
-	prisoner = no
-	capable_only = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		year = 1415
-		OR = {
-			religion = catholic
-			religion = cathar
-			religion = fraticelli
-			religion = waldensian
-			religion = lollard
-		}
-		NOT = { has_character_flag = ars_moriendi }
-	}
-	
-	weight_multiplier = {
-		days = 1	
-		modifier = {
-			factor = 1.5
-			age = 58
-		}
-		modifier = {
-			factor = 2.0
-			age = 62
-		}
-		modifier = {
-			factor = 100.0
-			age = 65
-		}
-		modifier = {
-			factor = 5.0
-			trait = zealous
-		}
-		
-		
-		modifier = {
-			factor = 1.25
-			trait = stressed
-		}
-		modifier = {
-			factor = 1.25
-			trait = depressed
-		}
-		modifier = {
-			factor = 1.5
-			trait = lunatic
-		}
-		modifier = {
-			factor = 1.5
-			trait = possessed
-		}
-		modifier = {
-			factor = 1.1
-			trait = ill
-		}
-		modifier = {
-			factor = 1.25
-			trait = pneumonic
-		}
-		modifier = {
-			factor = 1.25
-			trait = syphilitic
-		}
-		modifier = {
-			factor = 2.0
-			trait = leper
-		}
-		modifier = {
-			factor = 1.15
-			trait = wounded
-		}
-		modifier = {
-			factor = 1.25
-			trait = maimed
-		}
-		modifier = {
-			factor = 2.0
-			trait = infirm
-		}
-		modifier = {
-			factor = 3.0
-			trait = incapable
-		}
-		modifier = {
-			factor = 1.1
-			trait = drunkard
-		}
-		modifier = {
-			factor = 1.1
-			trait = has_tuberculosis
-		}
-		modifier = {
-			factor = 1.1
-			trait = has_typhoid_fever
-		}
-		modifier = {
-			factor = 1.5
-			trait = has_typhus
-		}
-		modifier = {
-			factor = 1.5
-			trait = has_bubonic_plague
-		}
-		modifier = {
-			factor = 1.1
-			trait = has_measles
-		}		
-		modifier = {
-			factor = 1.1
-			trait = has_small_pox
-		}		
-	}
-	
-	immediate = {
-		set_character_flag = ars_moriendi
-	}
-	
-	option = {
-		name = EVTOPTA73011 #I am avoiding tempration.
-		trigger = {
-			NOT = { trait = cynical }
-			NOT = { trait = lustful }
-			NOT = { trait = gluttonous }
-			NOT = { trait = greedy }
-			NOT = { trait = slothful }
-			NOT = { trait = envious }
-			NOT = { trait = wroth }
-			NOT = { trait = proud }
-
-		}
-		health = -1
-		piety = 100
-	}
-	option = {
-		name = EVTOPTB73011 #Forgive me father, for I have sinned.
-		trigger = {
-			NOT = { trait = cynical }
-			OR = {
-				trait = lustful
-				trait = gluttonous
-				trait = greedy
-				trait = slothful
-				trait = envious
-				trait = wroth
-				trait = proud
-			}
-		}
-		if = {
-			limit = {
-				trait = lustful
-			}
-			remove_trait = lustful
-			piety = -20
-		}
-		if = {
-			limit = {
-				trait = gluttonous
-			}
-			remove_trait = gluttonous
-			piety = -20
-		}
-		if = {
-			limit = {
-				trait = greedy
-			}
-			remove_trait = greedy
-			piety = -20
-		}		
-		if = {
-			limit = {
-				trait = slothful
-			}
-			remove_trait = slothful
-			piety = -20
-		}		
-		if = {
-			limit = {
-				trait = envious
-			}
-			remove_trait = envious
-			piety = -20
-		}		
-		if = {
-			limit = {
-				trait = wroth
-			}
-			remove_trait = wroth
-			piety = -20
-		}
-		if = {
-			limit = {
-				trait = proud
-			}
-			remove_trait = proud
-			piety = -20
-		}				
-	}
-	option = {
-		name = EVTOPTC73011 	#I do not fear death...
-		tooltip_info = cynical
-		trigger = { 
-			trait = cynical 
-			NOT = { trait = craven }
-		}
-		piety = -5
-		prestige = 5
-		health = -2
-	}
-	option = {
-		name = EVTOPTD73011 #I am just a poor sinner..
-		piety = -10
-		health = -2
-	}
-}
+##I've been readin 'Ars Moriendi', and it claims that death is not something to be afraid of. 
+#character_event = {
+#	id = 73010
+#	desc = EVTDESC73010
+#	picture = GFX_evt_library
+#	
+#	min_age = 55
+#	only_playable = yes
+#	prisoner = no
+#	capable_only = yes
+#	
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		year = 1415
+#		OR = {
+#			religion = catholic
+#			religion = cathar
+#			religion = fraticelli
+#			religion = waldensian
+#			religion = lollard
+#		}
+#		NOT = { has_character_flag = ars_moriendi }
+#	}
+#	
+#	weight_multiplier = {
+#		days = 1	
+#		modifier = {
+#			factor = 1.5
+#			age = 58
+#		}
+#		modifier = {
+#			factor = 2.0
+#			age = 62
+#		}
+#		modifier = {
+#			factor = 100.0
+#			age = 65
+#		}
+#		modifier = {
+#			factor = 5.0
+#			trait = zealous
+#		}
+#		
+#		
+#		modifier = {
+#			factor = 1.25
+#			trait = stressed
+#		}
+#		modifier = {
+#			factor = 1.25
+#			trait = depressed
+#		}
+#		modifier = {
+#			factor = 1.5
+#			trait = lunatic
+#		}
+#		modifier = {
+#			factor = 1.5
+#			trait = possessed
+#		}
+#		modifier = {
+#			factor = 1.1
+#			is_ill = yes
+#		}
+#		modifier = {
+#			factor = 1.25
+#			trait = pneumonic
+#		}
+#		modifier = {
+#			factor = 1.25
+#			trait = syphilitic
+#		}
+#		modifier = {
+#			factor = 2.0
+#			trait = leper
+#		}
+#		modifier = {
+#			factor = 1.15
+#			trait = wounded
+#		}
+#		modifier = {
+#			factor = 1.25
+#			is_maimed_trigger = yes
+#		}
+#		modifier = {
+#			factor = 2.0
+#			trait = infirm
+#		}
+#		modifier = {
+#			factor = 3.0
+#			trait = incapable
+#		}
+#		modifier = {
+#			factor = 1.1
+#			trait = drunkard
+#		}
+#		modifier = {
+#			factor = 1.1
+#			trait = has_tuberculosis
+#		}
+#		modifier = {
+#			factor = 1.1
+#			trait = has_typhoid_fever
+#		}
+#		modifier = {
+#			factor = 1.5
+#			trait = has_typhus
+#		}
+#		modifier = {
+#			factor = 1.5
+#			trait = has_bubonic_plague
+#		}
+#		modifier = {
+#			factor = 1.1
+#			trait = has_measles
+#		}		
+#		modifier = {
+#			factor = 1.1
+#			trait = has_small_pox
+#		}		
+#	}
+#	
+#	immediate = {
+#		set_character_flag = ars_moriendi
+#	}
+#	
+#	option = {
+#		name = EVTOPTA73011 #I am avoiding tempration.
+#		trigger = {
+#			NOT = { trait = cynical }
+#			NOT = { trait = lustful }
+#			NOT = { trait = gluttonous }
+#			NOT = { trait = greedy }
+#			NOT = { trait = slothful }
+#			NOT = { trait = envious }
+#			NOT = { trait = wroth }
+#			NOT = { trait = proud }
+#
+#		}
+#		health = -1
+#		piety = 100
+#	}
+#	option = {
+#		name = EVTOPTB73011 #Forgive me father, for I have sinned.
+#		trigger = {
+#			NOT = { trait = cynical }
+#			OR = {
+#				trait = lustful
+#				trait = gluttonous
+#				trait = greedy
+#				trait = slothful
+#				trait = envious
+#				trait = wroth
+#				trait = proud
+#			}
+#		}
+#		if = {
+#			limit = {
+#				trait = lustful
+#			}
+#			remove_trait = lustful
+#			piety = -20
+#		}
+#		if = {
+#			limit = {
+#				trait = gluttonous
+#			}
+#			remove_trait = gluttonous
+#			piety = -20
+#		}
+#		if = {
+#			limit = {
+#				trait = greedy
+#			}
+#			remove_trait = greedy
+#			piety = -20
+#		}		
+#		if = {
+#			limit = {
+#				trait = slothful
+#			}
+#			remove_trait = slothful
+#			piety = -20
+#		}		
+#		if = {
+#			limit = {
+#				trait = envious
+#			}
+#			remove_trait = envious
+#			piety = -20
+#		}		
+#		if = {
+#			limit = {
+#				trait = wroth
+#			}
+#			remove_trait = wroth
+#			piety = -20
+#		}
+#		if = {
+#			limit = {
+#				trait = proud
+#			}
+#			remove_trait = proud
+#			piety = -20
+#		}				
+#	}
+#	option = {
+#		name = EVTOPTC73011 	#I do not fear death...
+#		tooltip_info = cynical
+#		trigger = { 
+#			trait = cynical 
+#			NOT = { trait = craven }
+#		}
+#		piety = -5
+#		prestige = 5
+#		health = -2
+#	}
+#	option = {
+#		name = EVTOPTD73011 #I am just a poor sinner..
+#		piety = -10
+#		health = -2
+#	}
+#}
 
 
 
@@ -1197,9 +1201,9 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	prisoner = no
+	lacks_dlc = "Zeus"
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		is_ruler = no
 		is_councillor = no
 		independent = no
@@ -1422,9 +1426,9 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	prisoner = no
+	lacks_dlc = "Zeus"
 
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		is_ruler = no
 		independent = no
 		is_councillor = no
@@ -1642,9 +1646,9 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	prisoner = no
+	lacks_dlc = "Zeus"
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		is_ruler = no
 		independent = no
 		is_councillor = no
@@ -1859,20 +1863,20 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	prisoner = no
+	lacks_dlc = "Zeus"
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
-		NOT = {
-			religion_group = muslim
-		}
+		#NOT = {
+		#	#religion_group = muslim
+		#}
 		OR = {
 			is_theocracy = yes
 			AND = {
 				is_ruler = no
-				NOT = { religion = orthodox }
-				NOT = { is_heresy_of = orthodox }
-				NOT = { religion = miaphysite }
-				NOT = { is_heresy_of = miaphysite }
+				NOT = { religion = hylia_religion #orthodox }
+				NOT = { is_heresy_of = hylia_religion #orthodox }
+				NOT = { religion = light_spirits #miaphysite }
+				NOT = { is_heresy_of = light_spirits #miaphysite }
 			}
 		}
 		independent = no
@@ -1912,14 +1916,14 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA73230
-		if = {
-			limit = {
-				NOT = {
-					religion_group = muslim
-				}
-			}
-			liege = { letter_event = { id = 73231 tooltip = EVTTOOLTIP73231 } }
-		}
+		#if = {
+		#	limit = {
+		#		NOT = {
+		#			#religion_group = muslim
+		#		}
+		#	}
+		#	liege = { letter_event = { id = 73231 tooltip = EVTTOOLTIP73231 } }
+		#}
 	}
 }
 
@@ -2106,9 +2110,9 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	prisoner = no
+	lacks_dlc = "Zeus"
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		is_ruler = no
 		independent = no
 		is_councillor = no

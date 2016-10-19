@@ -652,23 +652,23 @@ character_event = {
 			text = EVTOPTA_WOL_10114_HORSES
 			trigger = { 
 				OR = {
-					religion_group = christian
-					religion_group = zoroastrian_group
-					religion_group = jewish_group
+					religion_group =goddesses_religion #christian
+					#religion_group = zoroastrian_group
+					religion_group = minor_deity #jewish_group
 				}
 			}
 		}
 		name = { # A dozen of sturdy camels
 			text = EVTOPTA_WOL_10114_CAMELS
-			trigger = { religion_group = muslim }
+			trigger = { culture = cobble #religion_group = muslim }
 		}
 		name = { # An elephant
 			text = EVTOPTA_WOL_10114_ELEPHANT
-			trigger = { religion_group = indian_group }
+			trigger = { culture=pebble #religion_group = indian_group }
 		}
 		name = { # A dozen of tough warriors
 			text = EVTOPTA_WOL_10114_WARRIORS
-			trigger = { religion_group = pagan_group }
+			trigger = { religion_group = demon_religion #pagan_group }
 		}
 		wealth = -30
 		FROM = {
@@ -798,7 +798,10 @@ character_event = {
 	
 	immediate = {
 		if = {
-			limit = { FROM = { has_character_flag = trade_priest } }
+			limit = { 
+				FROM = { has_character_flag = trade_priest } 
+				NOT = { religion = FROM }
+			}
 			FROM = {
 				character_event = { id = WoL.10118 days = 7 }
 			}
@@ -815,7 +818,7 @@ character_event = {
 	id = WoL.10118
 	is_triggered_only = yes
 	desc = EVTDESC_WOL_10118
-	picture = GFX_evt_bishop_pagan_group
+	picture = GFX_evt_bishop_demon_religion #pagan_group
 	border = GFX_event_normal_frame_economy
 	
 	option = {
@@ -875,6 +878,11 @@ character_event = {
 		random = {
 			chance = 50
 			add_trait = zealous
+			hidden_tooltip = {
+				character_event = {
+					id = 38269 #Notify Zealous
+				}
+			}
 		}
 		FROM = {
 			opinion = {
@@ -1174,7 +1182,12 @@ character_event = {
 		}
 		prestige = 150
 		set_character_flag = est_trade_route
-		set_character_flag = achievement_were_in_business
+		if = {
+			limit = {
+				ai = no
+			}
+			set_character_flag = achievement_were_in_business
+		}
 		clr_character_flag = trade_route_progress
 		clr_character_flag = trade_priest
 		capital_scope = {
@@ -1191,7 +1204,18 @@ character_event = {
 					duration = 9125
 					hidden = yes
 				}
-				province_event = { id = WoL.10129 years = 28 }
+				province_event = { id = WoL.10129 days = 10220 }
+			}
+			if = {
+				limit = {
+					has_dlc = "Reapers"
+				}
+				custom_tooltip = {
+					text = capital_prospers_custom_tooltip
+					hidden_tooltip = {
+						change_variable = { which = prosperity_value value = 6 }
+					}
+				}
 			}
 		}
 		
@@ -1254,6 +1278,11 @@ character_event = {
 		random = {
 			chance = 50
 			add_trait = greedy
+			hidden_tooltip = {
+				character_event = {
+					id = 38252 #Notify Greedy
+				}
+			}
 		}
 		event_target:steward = {
 			hidden_tooltip = {
@@ -1410,7 +1439,7 @@ province_event = {
 				duration = 9125
 				hidden = yes
 			}
-			province_event = { id = WoL.10129 years = 28 }
+			province_event = { id = WoL.10129 days = 10220 }
 		}
 	}
 	
@@ -1467,7 +1496,7 @@ province_event = {
 				duration = 9125
 				hidden = yes
 			}
-			province_event = { id = WoL.10129 years = 28 }
+			province_event = { id = WoL.10129 days = 10220 }
 		}
 	}
 	
@@ -1534,7 +1563,7 @@ character_event = {
 		capital_scope = {
 			create_character = {
 				random_traits = no
-				dynasty = culture
+				dynasty = NONE
 				religion = ROOT
 				culture = PREV
 				age = 28
@@ -1572,7 +1601,7 @@ character_event = {
 		capital_scope = {
 			create_character = {
 				random_traits = no
-				dynasty = culture
+				dynasty = NONE
 				religion = PREV
 				culture = PREV
 				age = 17
@@ -1813,6 +1842,17 @@ character_event = {
 				name = stone_quarry
 				duration = 29200 # 80 years
 			}
+			if = {
+				limit = {
+					has_dlc = "Reapers"
+				}
+				custom_tooltip = {
+					text = capital_prospers_custom_tooltip
+					hidden_tooltip = {
+						change_variable = { which = prosperity_value value = 6 }
+					}
+				}
+			}
 		}
 	}
 	
@@ -1883,8 +1923,8 @@ character_event = {
 			limit = {
 				NOT = {
 					OR = {
-						religion_group = indian_group
-						religion_group = pagan_group
+						#religion_group = indian_group
+						religion_group = demon_religion #pagan_group
 					}
 				}
 				any_vassal = {
@@ -2059,7 +2099,7 @@ character_event = {
 	
 	immediate = {
 		death = {
-			death_reason = death_accident
+			death_reason = death_accident_fall
 		}
 	}
 	
@@ -2067,7 +2107,7 @@ character_event = {
 		name = EVTOPTA_WOL_10214
 		tooltip = {
 			death = {
-				death_reason = death_accident
+				death_reason = death_accident_fall
 			}
 		}
 	}
@@ -2084,7 +2124,8 @@ character_event = {
 	immediate = {
 		FROMFROM = {
 			death = {
-				death_reason = death_accident
+				death_reason = death_murder_unknown_fall
+				killer = ROOT
 			}
 		}
 	}
@@ -2094,7 +2135,8 @@ character_event = {
 		tooltip = {
 			FROMFROM = {
 				death = {
-					death_reason = death_accident
+					death_reason = death_murder_unknown_fall
+					killer = ROOT
 				}
 			}
 		}
@@ -2150,7 +2192,7 @@ long_character_event = {
 								}
 							}
 						}
-						province_event = { id = WoL.10217 years = 10 }
+						province_event = { id = WoL.10217 days = 3650 }
 					}
 				}
 				if = {
@@ -2164,7 +2206,7 @@ long_character_event = {
 							}
 						}
 					}
-					capital_scope = { province_event = { id = WoL.10217 years = 10 } }
+					capital_scope = { province_event = { id = WoL.10217 days = 3650 } }
 				}
 				break = yes
 			}
@@ -2200,7 +2242,7 @@ long_character_event = {
 								}
 							}
 						}
-						province_event = { id = WoL.10217 years = 10 }
+						province_event = { id = WoL.10217 days = 3650 }
 					}
 				}
 				if = {
@@ -2214,7 +2256,7 @@ long_character_event = {
 							}
 						}
 					}
-					capital_scope = { province_event = { id = WoL.10217 years = 10 } }
+					capital_scope = { province_event = { id = WoL.10217 days = 3650 } }
 				}
 				break = yes
 			} 
@@ -2475,7 +2517,7 @@ character_event = {
 		name = EVTOPTA_WOL_10219
 		hidden_tooltip = {
 			FROM = {
-				long_character_event = { id = WoL.10221 years = 3 }
+				long_character_event = { id = WoL.10221 days = 1095 }
 			}
 		}
 	}
@@ -2974,38 +3016,38 @@ character_event = {
 		hidden_tooltip = { character_event = { id = WoL.10303 days = 28 } }
 	}
 	
-	option = {
-		trigger = {
-			NOT = {
-				OR = {
-					religion_group = muslim
-					religion = iconoclast
-				}
-			}
-		}
-		name = EVTOPTB_WOL_10302
-		set_character_flag = maze_statues
-		scaled_wealth = -0.6
-		religion_head = {
-			opinion = {
-				modifier = opinion_impressed
-				who = ROOT
-				months = 120
-			}
-		}
-		random_vassal = {
-			limit = {
-				is_priest = yes
-				religion_head = { NOT = { character = PREV } }
-			}
-			opinion = {
-				modifier = opinion_impressed
-				who = ROOT
-				months = 120
-			}
-		}
-		hidden_tooltip = { character_event = { id = WoL.10303 days = 28 } }
-	}
+	#option = {
+	#	trigger = {
+	#		NOT = {
+	#			OR = {
+	#				religion_group = muslim
+	#				religion = iconoclast
+	#			}
+	#		}
+	#	}
+	#	name = EVTOPTB_WOL_10302
+	#	set_character_flag = maze_statues
+	#	scaled_wealth = -0.6
+	#	religion_head = {
+	#		opinion = {
+	#			modifier = opinion_impressed
+	#			who = ROOT
+	#			months = 120
+	#		}
+	#	}
+	#	random_vassal = {
+	#		limit = {
+	#			is_priest = yes
+	#			religion_head = { NOT = { character = PREV } }
+	#		}
+	#		opinion = {
+	#			modifier = opinion_impressed
+	#			who = ROOT
+	#			months = 120
+	#		}
+	#	}
+	#	hidden_tooltip = { character_event = { id = WoL.10303 days = 28 } }
+	#}
 	
 	option = {
 		name = EVTOPTC_WOL_10302
@@ -3032,42 +3074,42 @@ character_event = {
 		hidden_tooltip = { character_event = { id = WoL.10304 days = 28 } }
 	}
 	
-	option = {
-		trigger = {
-			OR = {
-				trait = decadent
-				NOT = { religion_group = muslim }
-			}
-		}
-		name = EVTOPTB_WOL_10303
-		add_character_modifier = {
-			name = maze_fountain_extravagant
-			duration = -1
-		}
-		if = {
-			limit = { 
-				NOT = {
-					OR = {
-						trait = gluttonous 
-						trait = temperate
-					}
-				} 
-			}
-			random = {
-				chance = 33
-				add_trait = gluttonous
-				hidden_tooltip = {
-					character_event = { id = 38177 }
-				}
-			}
-		}
-		if = {
-			limit = { trait = temperate }
-			remove_trait = temperate
-		}
-		scaled_wealth = -3
-		hidden_tooltip = { character_event = { id = WoL.10304 days = 28 } }
-	}
+	#option = {
+	#	trigger = {
+	#		OR = {
+	#			trait = decadent
+	#			NOT = { religion_group = muslim }
+	#		}
+	#	}
+	#	name = EVTOPTB_WOL_10303
+	#	add_character_modifier = {
+	#		name = maze_fountain_extravagant
+	#		duration = -1
+	#	}
+	#	if = {
+	#		limit = { 
+	#			NOT = {
+	#				OR = {
+	#					trait = gluttonous 
+	#					trait = temperate
+	#				}
+	#			} 
+	#		}
+	#		random = {
+	#			chance = 33
+	#			add_trait = gluttonous
+	#			hidden_tooltip = {
+	#				character_event = { id = 38177 }
+	#			}
+	#		}
+	#	}
+	#	if = {
+	#		limit = { trait = temperate }
+	#		remove_trait = temperate
+	#	}
+	#	scaled_wealth = -3
+	#	hidden_tooltip = { character_event = { id = WoL.10304 days = 28 } }
+	#}
 	
 	option = {
 		name = EVTOPTC_WOL_10303
@@ -3230,10 +3272,11 @@ character_event = {
 	hide_window = yes
 	
 	only_playable = yes
+	prisoner = no
+	only_capable = yes
 	
 	trigger = {
 		has_focus = focus_business
-		prisoner = no
 		in_command = no
 		demesne_size = 1
 		NOT = {
@@ -3488,6 +3531,17 @@ long_character_event = {
 				name = carpenters_guild
 				duration = 3650
 			}
+			if = {
+				limit = {
+					has_dlc = "Reapers"
+				}
+				custom_tooltip = {
+					text = capital_prospers_custom_tooltip
+					hidden_tooltip = {
+						change_variable = { which = prosperity_value value = 6 }
+					}
+				}
+			}
 		}
 		hidden_tooltip = {
 			random = {
@@ -3695,6 +3749,17 @@ character_event = {
 				duration = 3650
 			}
 			clr_province_flag = workshop_construction
+			if = {
+				limit = {
+					has_dlc = "Reapers"
+				}
+				custom_tooltip = {
+					text = capital_prospers_custom_tooltip
+					hidden_tooltip = {
+						change_variable = { which = prosperity_value value = 6 }
+					}
+				}
+			}
 		}
 		hidden_tooltip = {
 			character_event = { id = WoL.10500 days = 7 }

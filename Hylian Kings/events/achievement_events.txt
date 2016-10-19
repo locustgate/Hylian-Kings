@@ -141,10 +141,10 @@ character_event = {
 	hide_window = yes
 	
 	is_triggered_only = yes
+	religion = catholic
 	
 	trigger = {
 		is_theocracy = yes
-		religion = catholic
 		killer = {
 			ai = no
 			is_liege_of = ROOT
@@ -311,11 +311,11 @@ character_event = {
 	hide_window = yes
 	
 	ai = no
+	religion_group = indian_group
 	
 	trigger = {
 		has_dlc = "Rajas of India"
 		NOT = { has_character_flag = achievement_the_british_raj }
-		religion_group = indian_group
 		has_landed_title = e_britannia
 	}
 	
@@ -380,10 +380,10 @@ character_event = {
 	hide_window = yes
 	
 	ai = no
+	religion_group = muslim
 	
 	trigger = {
 		has_dlc = "Rajas of India"
-		religion_group = muslim
 		NOT = { has_character_flag = achievement_great_indian_sultanate }
 		OR = {
 			AND = {
@@ -426,10 +426,10 @@ character_event = {
 	hide_window = yes
 	
 	ai = no
+	religion_group =  goddesses_religion #christian
 	
 	trigger = {
 		has_dlc = "Rajas of India"
-		religion_group = christian
 		NOT = { has_character_flag = achievement_saint_thomas_dream }
 		any_demesne_title = {
 			higher_tier_than = DUKE
@@ -443,7 +443,7 @@ character_event = {
 								empire = { title = PREVPREVPREVPREV }
 							}
 						}
-						NOT = { religion_group = christian }
+						NOT = { religion_group =  goddesses_religion #christian }
 					}
 				}
 			}
@@ -465,11 +465,11 @@ character_event = {
 	hide_window = yes
 	
 	ai = no
+	religion_group = indian_group
 	
 	trigger = {
 		has_dlc = "Rajas of India"
 		NOT = { has_character_flag = achievement_what_schism }
-		religion_group = indian_group
 		333 = { # Rome
 			religion = ROOT
 			OR = {
@@ -509,11 +509,11 @@ character_event = {
 	hide_window = yes
 	
 	ai = no
+	religion_group = indian_group
 	
 	trigger = {
 		has_dlc = "Rajas of India"
 		NOT = { has_character_flag = achievement_red_sea_resort }
-		religion_group = indian_group
 		719 = { # Mecca
 			religion = ROOT
 			OR = {
@@ -930,5 +930,94 @@ character_event = {
 	
 	immediate = {
 		set_character_flag = achievement_pay_to_win
+	}
+}
+
+# Eternity Denied (on death check)
+character_event = {
+	id = 731
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Reapers"
+		immortal = yes
+		killer = {
+			has_dlc = "Reapers"
+			ai = no
+			NOT = { has_character_flag = achievement_eternity_denied }
+		}
+	}
+	
+	immediate = {
+		killer = { set_character_flag = achievement_eternity_denied }
+	}
+}
+
+# Papal Mache ping (on death check)
+character_event = {
+	id = 732
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Reapers"
+		OR = {
+			primary_title = { title = k_papal_state }
+			primary_title = { title = d_fraticelli }
+			has_landed_title = d_sunni 
+			has_landed_title = d_shiite
+			has_landed_title = d_ibadi
+			has_landed_title = d_kharijite
+		}
+		death_reason = death_execution_elephants
+		killer = {
+			ai = no
+			NOT = { has_character_flag = achievement_papal_mache }
+		}
+	}
+	
+	immediate = {
+		killer = { set_character_flag = achievement_papal_mache }
+	}
+}
+
+# Hospitable, build a hospital
+character_event = {
+	id = 733
+	hide_window = yes
+	
+	ai = no
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Reapers"
+		NOT = { has_character_flag = achievement_hospitable }
+	}
+	
+	immediate = {
+		set_character_flag = achievement_hospitable
+	}
+}
+
+# Aptly Named (on death check)
+character_event = {
+	id = 734
+	hide_window = yes
+	
+	is_triggered_only = yes
+	ai = no
+	
+	trigger = {
+		is_ironman = yes
+		has_dlc = "Reapers"
+		trait = has_bubonic_plague
+		death_reason = death_trait
+	}
+	
+	immediate = {
+		set_global_flag = achievement_aptly_named
 	}
 }

@@ -1,0 +1,865 @@
+namespace = HKC
+
+#Twili courtier events .0-.17
+#wtarara courtier events .18-
+
+#twili
+#character_event = { 
+#	id = HKC.0
+#	desc = "DESC_HKC.0"
+#	picture = GFX_evt_castle_garden
+#	
+#	min_age = 16
+#	capable_only = yes
+#	prisoner = no
+#	ai = no
+#
+#	option = {
+#		name = "HKC0A"
+#		prestige = -20
+#		hidden_tooltip = {
+#			random_list = {
+#				25 = {
+#				character_event = { id = HKC.1 } #it stayed 
+#				}
+#				75 = {
+#				character_event = { id = HKC.2 } #it stayed 
+#				}
+#			}	
+#		}
+#	}
+#	
+#	option = {
+#		name = "HKC0B" #Approach
+#		trigger = { NOR = { trait = craven
+#							trait = paranoid
+#		} }
+#		prestige = 20
+#		hidden_tooltip = {
+#			character_event = { id = HKC.3 } #it stayed 
+#		}
+#	}
+#	
+#	option = {
+#		name = "HKC0C" #it's nothing
+#	}
+#}
+#character_event = { #garden twili
+#	id = HKC.1
+#	desc = "DESC_HKC.1"
+#	picture = GFX_evt_castle_garden
+#	
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "HKC1A"#imprison
+#		prestige = 20
+#		random_list = {
+#			50 = {
+#				create_character = {
+#				culture = twili
+#				religion = sol_religion
+#				random_traits = yes
+#				female = no
+#				dynasty = random
+#				age = 16
+#				trait = race_twili
+#				trait = curse_imp
+#				imprison = yes
+#				}
+#				new_character = { imprison = yes }
+#			}
+#			50 = {
+#				create_character = {
+#				culture = twili
+#				religion = sol_religion
+#				random_traits = yes
+#				female = yes
+#				dynasty = random
+#				age = 16
+#				trait = race_twili
+#				trait = curse_imp
+#				imprison = yes
+#				}
+#				new_character = { imprison = yes }
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "HKC1B" #offer shelter
+#		prestige = 20
+#		trigger = { NOT = { trait = paranoid } }
+#		random = {
+#			chance = 25
+#			
+#			add_trait = kind
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 38268 #kind
+#				}
+#			}
+#		}
+#		random_list = {
+#			50 = {
+#				create_character = {
+#				culture = twili
+#				religion = sol_religion
+#				random_traits = yes
+#				female = no
+#				dynasty = NONE
+#				age = 16
+#				trait = race_twili
+#				trait = curse_imp
+#				}
+#			}
+#			50 = {
+#				create_character = {
+#				culture = twili
+#				religion = sol_religion
+#				random_traits = yes
+#				female = yes
+#				dynasty = NONE
+#				age = 16
+#				trait = race_twili
+#				trait = curse_imp
+#				}
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "HKC1C" #off with it's head
+#		trigger = { NOT = { trait = kind } }
+#		random = {
+#			chance = 50
+#			
+#			add_trait = cruel
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 38259 #cruel
+#				}
+#			}
+#		}
+#	}
+#}
+#character_event = { #garden twili
+#	id = HKC.2
+#	desc = "DESC_HKC.2"
+#	picture = GFX_evt_castle_garden
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "HKC0C" #it got away
+#	}
+#}
+#
+#character_event = { #garden twili
+#	id = HKC.3
+#	desc = "DESC_HKC.3"
+#	picture = GFX_evt_castle_garden
+#	
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "HKC0A"#GUARDS
+#		prestige = -20
+#		hidden_tooltip = {
+#			random_list = {
+#				75 = {
+#					 character_event = { id = HKC.4 } 
+#				}
+#				25 = {
+#					character_event = { id = HKC.2 }
+#				}
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "HKC3B" #offer shelter
+#		prestige = 20
+#		trigger = { NOT = { trait = paranoid } }
+#		random = {
+#			chance = 25
+#			
+#			add_trait = kind
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 38268 #kind
+#				}
+#			}
+#		}
+#		create_character = {
+#			culture = twili
+#			religion = sol_religion
+#			random_traits = yes
+#			dynasty = NONE
+#			age = 16
+#			trait = race_twili
+#			trait = curse_imp
+#		}
+#	}
+#	
+#	option = {
+#		name = "HKC3C" #off with it's head
+#		trigger = { NOT = { trait = kind } }
+#		random = {
+#			chance = 50
+#			
+#			add_trait = cruel
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 38259 #cruel
+#				}
+#			}
+#		}
+#	}
+#}
+#character_event = { #garden twili
+#	id = HKC.4
+#	desc = "DESC_HKC.4"
+#	picture = GFX_evt_castle_garden
+#	
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "HKC1A"#imprison
+#		random_list = {
+#			50 = {
+#				create_character = {
+#				culture = twili
+#				religion = sol_religion
+#				random_traits = yes
+#				female = no
+#				dynasty = random
+#				age = 16
+#				trait = race_twili
+#				trait = curse_imp
+#				imprison = yes
+#				}
+#				new_character = { imprison = yes }
+#			}
+#			50 = {
+#				create_character = {
+#				culture = twili
+#				religion = sol_religion
+#				random_traits = yes
+#				female = yes
+#				dynasty = random
+#				age = 16
+#				trait = race_twili
+#				trait = curse_imp
+#				imprison = yes
+#				}
+#				new_character = { imprison = yes }
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "HKC1C" #execute
+#		prestige = 20
+#		hidden_tooltip = {
+#		}
+#	}
+#}
+#character_event = { #twili princess
+#	id = HKC.5
+#	desc = "DESC_HKC.5"
+#	picture = GFX_evt_throne_room
+#	
+#	min_age = 16
+#	capable_only = yes
+#	prisoner = no
+#	ai = no
+#
+#	option = {
+#		name = "HKC5A"
+#		trigger = { NOT = { trait = kind} }
+#		create_random_diplomat = {
+#			culture = twili
+#			religion = sol_religion
+#			random_traits = yes
+#			female = yes
+#			dynasty = random
+#			age = 16
+#			trait = race_twili
+#			trait = curse_imp
+#		}
+#		new_character = { imprison = yes }
+#	}
+#	
+#	option = {
+#		name = "HKC5B" #Go on
+#		trigger = { NOT = {	trait = paranoid } }
+#		hidden_tooltip = {
+#			character_event = { id = HKC.6 } #it stayed 
+#		}
+#	}
+#	option = {
+#		name = "HKC5C"
+#	}
+#}
+#character_event = { #Twili princess
+#	id = HKC.6
+#	desc = "DESC_HKC.6"
+#	picture = GFX_evt_throne_room
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "HKC6A" #offer shelter
+#		prestige = 25
+#		trigger = { NOT = { trait = paranoid } }
+#		random = {
+#			chance = 25
+#			
+#			add_trait = kind
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 38268 #kind
+#				}
+#			}
+#		}
+#		create_random_diplomat = {
+#			culture = twili
+#			religion = sol_religion
+#			random_traits = yes
+#			dynasty = random
+#			age = 16
+#			trait = race_twili
+#			trait = curse_imp
+#		}
+#	}
+#	
+#	option = {
+#		name = "HKC6B" #off with it's head
+#		trigger = { NOT = { trait = kind } }
+#		random = {
+#			chance = 55
+#			
+#			add_trait = cruel
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 38259 #cruel
+#				}
+#			}
+#		}
+#	}
+#	option = {
+#		name = "HKC6C" #Recover
+#		trigger = { NOT = { trait = kind } }
+#		
+#	}
+#}
+#
+#character_event = { #twili knight
+#	id = HKC.7
+#	desc = "DESC_HKC.7"
+#	picture = GFX_evt_bloody_man
+#	
+#	min_age = 16
+#	capable_only = yes
+#	prisoner = no
+#	ai = no
+#
+#	option = {
+#		name = "HKC7A"#make him comfortable
+#		trigger = { NOR = {
+#			trait = potion_blue
+#			trait = potion_red
+#			trait = fairy_bottled
+#		} }
+#		hidden_tooltip = {
+#			random_list = {
+#			15 = { character_event = { id = HKC.8 }} #survives
+#			85 = {character_event = { id = HKC.9 }} #die
+#			}
+#		}
+#	}
+#	option = {
+#		name = "HKC7A"#make him comfortable
+#		random = {
+#			chance = 50
+#			
+#			add_trait = cruel
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 38259 #cruel
+#				}
+#			}
+#		}
+#		hidden_tooltip = {
+#			random_list = {
+#			15 = { character_event = { id = HKC.8 }} #survives
+#			85 = {character_event = { id = HKC.9 }} #dies
+#			}
+#		}
+#	}
+#	option = {
+#		name = "HKC7BR" #
+#		trigger = {	trait = potion_red }
+#		immediate = { remove_trait = potion_blue }
+#		random = {
+#			chance = 60
+#			
+#			add_trait = kind
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 38268 #kind
+#				}
+#			}
+#		}
+#		hidden_tooltip = {
+#			random_list = {
+#			75 = { character_event = { id = HKC.8 }} #survives
+#			15 = {character_event = { id = HKC.9 }} #lives
+#			}
+#		}
+#	}
+#	option = {
+#		name = "HKC7BB" #
+#		trigger = {	trait = potion_blue }
+#		immediate = { remove_trait = potion_blue }
+#		random = {
+#			chance = 60
+#			
+#			add_trait = kind
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 38268 #kind
+#				}
+#			}
+#		}
+#		hidden_tooltip = {
+#			random_list = {
+#			75 = { character_event = { id = HKC.8 }} #survives
+#			15 = {character_event = { id = HKC.9 }} #lives
+#			}
+#		}
+#	}
+#	option = {
+#		name = "HKC7BF" #
+#		trigger = {	trait = fairy_bottled }
+#		immediate = { remove_trait = fairy_bottled }
+#		random = {
+#			chance = 60
+#			
+#			add_trait = kind
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 38268 #kind
+#				}
+#			}
+#		}
+#		hidden_tooltip = {
+#			character_event = { id = HKC.8 } #it stayed 
+#		}
+#	}
+#	option = {
+#		name = "HKC7C"
+#		random = {
+#			chance = 40
+#			
+#			add_trait = arbitrary
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 38266 #arbitrary
+#				}
+#			}
+#		}
+#	}
+#}
+#character_event = { #twili knight
+#	id = HKC.8
+#	desc = "DESC_HKC.8"
+#	picture = GFX_evt_bloody_man
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "HKC8A" 
+#		prestige = 20
+#		money = -10
+#		random = {
+#			chance = 25
+#			
+#			add_trait = kind
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 38268 #kind
+#				}
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "HKC8B" 
+#		trigger = { NOT = { trait = paranoid } }
+#		create_random_soldier = {
+#			random_traits = yes
+#			culture = twili
+#			religion = sol_religion
+#			trait = warrior_2
+#			trait = depressed
+#			trait = race_twili
+#			trait = scared
+#			dynasty = none
+#			female = no
+#		}
+#		random = {
+#			chance = 55
+#			
+#			add_trait = kind
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 38268 #cruel
+#				}
+#			}
+#		}
+#	}
+#	option = {
+#		name = "HKC8C" #Recover
+#		trigger = { NOT = { trait = kind } }
+#		prestige = -20
+#		
+#	}
+#}
+#character_event = { #twili knight
+#	id = HKC.9
+#	desc = "DESC_HKC.9"
+#	picture = GFX_evt_bloody_man
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "HKC9A" 
+#	}
+#}
+#character_event = { #twili knight and princess
+#	id = HKC.10
+#	desc = "DESC_HKC.10"
+#	picture = GFX_evt_bloody_man
+#	
+#	min_age = 16
+#	capable_only = yes
+#	prisoner = no
+#	ai = no
+#
+#	option = {
+#		name = "HKC10A"#Help the man
+#		hidden_tooltip = {
+#			random_list = {
+#				75 = { character_event = { id = HKC.11 }}
+#				15 = { character_event = { id = HKC.12 }}
+#			}
+#		}
+#	}
+#	option = {
+#		name = "HKC10B"#help the woman
+#		hidden_tooltip = {
+#			random_list = {
+#				75 = { character_event = { id = HKC.13 }}
+#				15 = { character_event = { id = HKC.14 }}
+#			}
+#		}
+#	}
+#	option = {
+#		name = "HKC10C" #
+#		hidden_tooltip = {
+#			random_list = { character_event = { id = HKC.15 }} #help both
+#		}
+#	}
+#}
+#character_event = { #twili knight
+#	id = HKC.11
+#	desc = "DESC_HKC.11"
+#	picture = GFX_evt_bloody_man
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "HKC8A" 
+#		prestige = 20
+#		money = -10
+#		random = {
+#			chance = 25
+#			
+#			add_trait = kind
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 3112611 #kind
+#				}
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "HKC8B" 
+#		trigger = { NOT = { trait = paranoid } }
+#		create_random_soldier = {
+#			random_traits = yes
+#			culture = twili
+#			religion = sol_religion
+#			trait = warrior_2
+#			trait = depressed
+#			trait = race_twili
+#			trait = scared
+#			dynasty = random
+#			female = no
+#		}
+#		random = {
+#			chance = 55
+#			
+#			add_trait = kind
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 3112611 #cruel
+#				}
+#			}
+#		}
+#	}
+#	option = {
+#		name = "HKC8C" #Recover
+#		trigger = { NOT = { trait = kind } }
+#		prestige = -20
+#		
+#	}
+#}
+#character_event = { #twili knight
+#	id = HKC.12
+#	desc = "DESC_HKC.12"
+#	picture = GFX_evt_bloody_man
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "HKC9A" 
+#	}
+#}
+#character_event = { #twili knight
+#	id = HKC.13
+#	desc = "DESC_HKC.13"
+#	picture = GFX_evt_bloody_man
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "HKC8A" 
+#		prestige = 20
+#		money = -10
+#		random = {
+#			chance = 25
+#			
+#			add_trait = kind
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 3112611 #kind
+#				}
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "HKC8B" 
+#		trigger = { NOT = { trait = paranoid } }
+#		create_random_diplomat = {
+#			random_traits = yes
+#			culture = twili
+#			religion = sol_religion
+#			female = yes
+#			trait = race_twili
+#			trait = scared
+#			dynasty = random
+#		}
+#		random = {
+#			chance = 55
+#			
+#			add_trait = kind
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 3112611 #cruel
+#				}
+#			}
+#		}
+#	}
+#	option = {
+#		name = "HKC8C" #Recover
+#		trigger = { NOT = { trait = kind } }
+#		prestige = -20
+#		
+#	}
+#}
+#character_event = { #twili knight
+#	id = HKC.14
+#	desc = "DESC_HKC.14"
+#	picture = GFX_evt_bloody_man
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "HKC9A" 
+#	}
+#}
+#character_event = { #twili knight
+#	id = HKC.15
+#	desc = "DESC_HKC.15"
+#	picture = GFX_evt_bloody_man
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "HKC15A"
+#		hidden_tooltip = {
+#			random_list = {
+#				75 = { character_event = { id = HKC.11 }}
+#				15 = { character_event = { id = HKC.12 }}
+#			}
+#		}
+#	}
+#	option = {
+#		name = "HKC15B"
+#		hidden_tooltip = {
+#			random_list = {
+#				75 = { character_event = { id = HKC.13 }}
+#				15 = { character_event = { id = HKC.14 }}
+#			}
+#		}
+#	}
+#	option = {
+#		name = "HKC15C"
+#		hidden_tooltip = {
+#			random_list = {
+#				15 = { character_event = { id = HKC.11 } }
+#				15 = {	character_event = { id = HKC.13 } }
+#				10 = { character_event = { id = HKC.16 } } #they both live
+#				60 = { character_event = { id = HKC.17 } } #they ded
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "HKC7BR" #
+#		trigger = {	trait = potion_red }
+#		immediate = { remove_trait = potion_blue }
+#		random = {
+#			chance = 60
+#			
+#			add_trait = kind
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 38268 #kind
+#				}
+#			}
+#		}
+#		hidden_tooltip = {
+#			random_list = {
+#				15 = { character_event = { id = HKC.11 } }
+#				15 = {	character_event = { id = HKC.13 } }
+#				55 = { character_event = { id = HKC.16 } } #they both live
+#				15 = { character_event = { id = HKC.17 } } #they ded
+#			}
+#		}
+#	}
+#	option = {
+#		name = "HKC7BB" #
+#		trigger = {	trait = potion_blue }
+#		immediate = { remove_trait = potion_blue }
+#		hidden_tooltip = {
+#			random_list = {
+#				15 = { character_event = { id = HKC.11 } }
+#				15 = {	character_event = { id = HKC.13 } }
+#				55 = { character_event = { id = HKC.16 } } #they both live
+#				15 = { character_event = { id = HKC.17 } } #they ded
+#			}
+#		}
+#	}
+#	option = {
+#		name = "HKC7BF" #
+#		trigger = {	trait = fairy_bottled }
+#		immediate = { remove_trait = fairy_bottled }
+#		hidden_tooltip = {
+#			random_list = {
+#				5 = { character_event = { id = HKC.11 } }
+#				5 = {	character_event = { id = HKC.13 } }
+#				80 = { character_event = { id = HKC.16 } } #they both live
+#				10 = { character_event = { id = HKC.17 } } #they ded
+#			}
+#		}
+#	}
+#}
+#character_event = { #twili knight
+#	id = HKC.16
+#	desc = "DESC_HKC.16"
+#	picture = GFX_evt_bloody_man
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "HKC16A" 
+#		prestige = 40
+#		money = -20
+#		random = {
+#			chance = 25
+#			
+#			add_trait = kind
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 3162616 #kind
+#				}
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "HKC16B" 
+#		trigger = { NOT = { trait = paranoid } }
+#		create_random_soldier = {
+#			random_traits = yes
+#			culture = twili
+#			religion = sol_religion
+#			trait = warrior_2
+#			trait = race_twili
+#			trait = scared
+#			dynasty = none
+#			female = no
+#		}
+#		create_random_diplomat = {
+#			random_traits = yes
+#			culture = twili
+#			religion = sol_religion
+#			trait = race_twili
+#			trait = scared
+#			dynasty = random
+#			female = yes
+#		}
+#		random = {
+#			chance = 55
+#			
+#			add_trait = kind
+#			hidden_tooltip = {
+#				character_event = {
+#					id = 3162616 #cruel
+#				}
+#			}
+#		}
+#	}
+#	option = {
+#		name = "HKC16C" #Recover
+#		trigger = { NOT = { trait = kind } }
+#		prestige = -20
+#		
+#	}
+#}character_event = { #twili knight
+#	id = HKC.17
+#	desc = "DESC_HKC.17"
+#	picture = GFX_evt_bloody_man
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "HKC17A" 
+#	}
+#}

@@ -31,6 +31,7 @@ character_event = {
 	picture = GFX_evt_heretic
 	border = GFX_event_normal_frame_religion
 
+	min_age = 16
 	capable_only = yes
 	prisoner = no
 	
@@ -64,6 +65,22 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			location = { religion_group = ROOT }
+		}
+		modifier = {
+			factor = 0.75
+			location = { has_province_modifier = depopulated_1 }
+		}
+		modifier = {
+			factor = 0.50
+			location = { has_province_modifier = depopulated_2 }
+		}
+		modifier = {
+			factor = 0.25
+			location = { has_province_modifier = depopulated_3 }
+		}
+		modifier = {
+			factor = 3.0
+			location = { is_hard_to_convert = yes }
 		}
 		modifier = {
 			factor = 1.25
@@ -181,6 +198,13 @@ character_event = {
 				has_province_modifier = heretic_stronghold
 			}
 		}
+		modifier = {
+			factor = 3
+			has_game_rule = {
+				name = religious_conversion
+				value = slower
+			}
+		}
 	}
 
 	option = {
@@ -205,7 +229,7 @@ character_event = {
 							religion = ROOT
 						}
 					}
-					top_liege = { letter_event = { id = 20001 } }
+					top_liege = { character_event = { id = 20001 } }
 				}
 			}
 		}
@@ -244,12 +268,15 @@ letter_event = {
 }
 
 # 20001: Informs top liege
-letter_event = {
+character_event = {
 	id = 20001
-	desc = "EVTDESC20001"
-	border = GFX_event_letter_frame_religion
+	desc = EVTDESC20001
+	picture = GFX_evt_heretic
+	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
+	
+	notification = yes
 
 	option = {
 		name = "EXCELLENT"
@@ -264,6 +291,7 @@ character_event = {
 	picture = GFX_evt_heretic
 	border = GFX_event_normal_frame_religion
 
+	min_age = 16
 	capable_only = yes
 	prisoner = no
 	
@@ -401,7 +429,7 @@ letter_event = {
 		
 		hidden_tooltip = {
 			FROM = {
-				liege = { letter_event = { id = 20011 days = 7 } }
+				liege = { letter_event = { id = 20011 } }
 			}
 			if = {
 				limit = {
@@ -459,6 +487,7 @@ character_event = {
 	picture = GFX_evt_peasants
 	border = GFX_event_normal_frame_religion
 
+	min_age = 16
 	capable_only = yes
 	prisoner = no
 	
@@ -589,7 +618,7 @@ character_event = {
 			}
 		}
 		add_trait = wounded
-		liege = { letter_event = { id = 20022 days = 7 tooltip = "EVTTOOLTIP20022" } }
+		liege = { letter_event = { id = 20022 tooltip = "EVTTOOLTIP20022" } }
 	}
 	option = {
 		name = "EVTOPTB20021"
@@ -600,7 +629,7 @@ character_event = {
 		}
 		add_trait = wounded
 		add_trait = zealous
-		liege = { letter_event = { id = 20022 days = 7 tooltip = "EVTTOOLTIP20022" } }
+		liege = { letter_event = { id = 20022 tooltip = "EVTTOOLTIP20022" } }
 	}
 	option = {
 		name = "EVTOPTC20021"
@@ -614,7 +643,7 @@ character_event = {
 			}
 		}
 		add_trait = wounded
-		liege = { letter_event = { id = 20022 days = 7 tooltip = "EVTTOOLTIP20022" } }
+		liege = { letter_event = { id = 20022 tooltip = "EVTTOOLTIP20022" } }
 	}
 }
 
@@ -656,6 +685,7 @@ character_event = {
 	picture = GFX_evt_heretic
 	border = GFX_event_normal_frame_religion
 
+	min_age = 16
 	capable_only = yes
 	prisoner = no
 	
@@ -781,7 +811,7 @@ character_event = {
 			}
 		}
 		FROM = {
-			liege = { letter_event = { id = 20032 days = 7 tooltip = "EVTTOOLTIP20032" } }
+			liege = { letter_event = { id = 20032 tooltip = "EVTTOOLTIP20032" } }
 		}
 	}
 	option = {
@@ -790,7 +820,7 @@ character_event = {
 			religion_group = muslim
 		}
 		FROM = {
-			liege = { letter_event = { id = 20032 days = 7 tooltip = "EVTTOOLTIP20032" } }
+			liege = { letter_event = { id = 20032 tooltip = "EVTTOOLTIP20032" } }
 		}
 	}
 }
@@ -950,6 +980,7 @@ character_event = {
 	picture = GFX_evt_peasants
 	border = GFX_event_normal_frame_religion
 
+	min_age = 16
 	capable_only = yes
 	prisoner = no
 	
@@ -1036,7 +1067,7 @@ character_event = {
 				}
 				# Inform liege
 				ROOT = {
-					liege = { letter_event = { id = 20039 days = 1 } }
+					liege = { letter_event = { id = 20039 } }
 					clr_character_flag = liege_informed
 				}
 			}
@@ -1143,10 +1174,10 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	prisoner = no
+	has_character_flag = preacher_arrives
 	
 	trigger = {
 		has_job_action = action_inquisition
-		has_character_flag = preacher_arrives
 		location = {
 			owner = {
 				is_adult = yes
@@ -1268,11 +1299,13 @@ character_event = {
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
 	
+	min_age = 16
+	capable_only = yes
 	prisoner = no
+	has_character_flag = preacher_arrives
 	
 	trigger = {
 		has_job_action = action_inquisition
-		has_character_flag = preacher_arrives
 		location = {
 			owner = {
 				NOT = { character = ROOT }
@@ -1367,11 +1400,13 @@ character_event = {
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
 	
+	min_age = 16
+	capable_only = yes
 	prisoner = no
+	has_character_flag = preacher_arrives
 	
 	trigger = {
 		has_job_action = action_inquisition
-		has_character_flag = preacher_arrives
 		location = {
 			owner = {
 				NOT = { character = ROOT }
@@ -1430,9 +1465,11 @@ character_event = {
 	hide_window = yes
 	
 	min_age = 16
+	capable_only = yes
+	prisoner = no
+	has_character_flag = preacher_arrives
 	
 	trigger = {
-		has_character_flag = preacher_arrives
 		NOT = { has_job_action = action_inquisition }
 	}
 	
@@ -1460,6 +1497,7 @@ character_event = {
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
 
+	min_age = 16
 	capable_only = yes
 	prisoner = no
 	
@@ -1558,7 +1596,7 @@ character_event = {
 		name = "EVTOPTA20060"
 		hidden_tooltip = {
 			FROM = {
-				liege = { letter_event = { id = 20061 days = 7 } }
+				liege = { letter_event = { id = 20061 } }
 			}
 		}
 	}
@@ -1595,12 +1633,16 @@ character_event = {
 	picture = GFX_evt_pope_feast
 	border = GFX_event_normal_frame_religion
 
+	min_age = 16
 	capable_only = yes
 	prisoner = no
 	
 	trigger = {
 		has_job_action = action_improve_rel_relations
 		NOT = { religion_group = indian_group }
+		religion_head = {
+			NOT = { character = liege }
+		}
 		location = { 
 			any_province_lord = {
 				NOT = { character = ROOT }
@@ -1686,7 +1728,7 @@ character_event = {
 		name = "EVTOPTA20070"
 		hidden_tooltip = {
 			FROM = {
-				liege = { letter_event = { id = 20071 days = 7 } }
+				liege = { letter_event = { id = 20071 } }
 			}
 		}
 	}
@@ -1730,6 +1772,7 @@ character_event = {
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
 	
+	min_age = 16
 	capable_only = yes
 	prisoner = no
 	
@@ -1783,7 +1826,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA926"
-		liege = { letter_event = { id = 20260 days = 7 tooltip = "EVTTOOLTIP20260" } }
+		liege = { letter_event = { id = 20260 tooltip = "EVTTOOLTIP20260" } }
 	}
 }
 
@@ -1799,6 +1842,21 @@ letter_event = {
 		name = "EVTOPTA20260"
 		scaled_wealth = -0.5
 		culture_techpoints = 50
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = increase_prosperity_custom_tooltip
+				hidden_tooltip = {
+					FROM = {
+						location = {
+							change_variable = { which = prosperity_value value = 6 }
+						}
+					}
+				}
+			}
+		}
 	}
 	option = {
 		name = "EVTOPTB20260"
@@ -1814,6 +1872,7 @@ character_event = {
 	picture = GFX_evt_heretic
 	border = GFX_event_normal_frame_religion
 	
+	min_age = 16
 	capable_only = yes
 	prisoner = no
 	
@@ -1822,16 +1881,16 @@ character_event = {
 		NOT = { religion_group = indian_group }
 		is_heretic = no
 		OR = {
-			religion_group = christian
+			religion_group =  goddesses_religion #christian
 			religion_group = muslim
-			religion_group = jewish_group
+			religion_group = minor_deity #jewish_group
 		}
 		liege = {
 			is_heretic = no
 			OR = {
-				religion_group = christian
+				religion_group =  goddesses_religion #christian
 				religion_group = muslim
-				religion_group = jewish_group
+				religion_group = minor_deity #jewish_group
 			}
 		}
 		NOT = {
@@ -1881,7 +1940,7 @@ character_event = {
 		ai_chance = { factor = 80 }
 		become_heretic = yes
 		hidden_tooltip = {
-			liege = { letter_event = { id = 20270 days = 2 } }
+			liege = { letter_event = { id = 20270 } }
 		}
 	}
 	option = {
@@ -1923,6 +1982,7 @@ character_event = {
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
 
+	min_age = 16
 	capable_only = yes
 	prisoner = no
 	
@@ -2055,6 +2115,7 @@ character_event = {
 	picture = GFX_evt_peasants
 	border = GFX_event_normal_frame_religion
 
+	min_age = 16
 	capable_only = yes
 	prisoner = no
 	
@@ -2207,6 +2268,7 @@ character_event = {
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
 	
+	min_age = 16
 	capable_only = yes
 	prisoner = no
 	
@@ -2279,6 +2341,7 @@ character_event = {
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
 	
+	min_age = 16
 	capable_only = yes
 	prisoner = no
 	
@@ -2357,10 +2420,12 @@ character_event = {
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
 
+	min_age = 16
 	capable_only = yes
 	prisoner = no
 	
 	trigger = {
+		has_job_action = action_build_zeal
 		liege = {
 			is_adult = yes
 			prisoner = no
@@ -2385,7 +2450,6 @@ character_event = {
 				}
 			}
 		}
-		has_job_action = action_build_zeal
 		location = {
 			county = {
 				is_occupied = no

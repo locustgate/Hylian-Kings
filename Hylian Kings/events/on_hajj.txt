@@ -150,7 +150,7 @@ character_event = {
 		NOT = { has_character_flag = hajj_company }
 		liege = {
 			war = no
-			is_female = no
+			#is_female = no
 			age = 40
 			religion_group = muslim
 			NOT = { trait = on_hajj }
@@ -1577,8 +1577,21 @@ character_event = {
 		name = "EVTOPTA86600"
 		set_character_flag = on_home_from_hajj
 		clr_character_flag = hajj_arrived_in_mecca
-
+		
+		if = {
+			limit = {
+				NOT  = { has_character_flag = gained_hajj_health }
+			}
 		health = 1
+		set_character_flag = gained_hajj_health #NoHax
+		break = yes
+		}
+		if = {
+			limit = {
+				has_character_flag = gained_hajj_health
+			}
+		piety = 25
+		}
 	}
 }
 	
@@ -1874,7 +1887,7 @@ character_event = {
 				OR = {
 					AND = {
 						defender = {
-							religion_group = christian 
+							religion_group =  goddesses_religion #christian 
 						}
 						attacker = {
 							character = ROOT
@@ -1882,7 +1895,7 @@ character_event = {
 					}
 					AND = {
 						attacker = {
-							religion_group = christian
+							religion_group =  goddesses_religion #christian
 						}
 						defender = {
 							character = ROOT
@@ -1920,7 +1933,7 @@ character_event = {
 		name = "EVTOPTB86900"
 		trigger = {
 			any_independent_ruler = {
-				religion_group = christian
+				religion_group =  goddesses_religion #christian
 				any_realm_province = {
 					religion_group = muslim
 				}
@@ -2003,7 +2016,7 @@ character_event = {
 		job_spiritual = { learning = 1 }
 		
 		any_independent_ruler = {
-			religion_group = christian
+			religion_group =  goddesses_religion #christian
 			any_realm_province = {
 				religion_group = muslim
 			}
@@ -2042,7 +2055,7 @@ character_event = {
 			}
 			any_defender = {
 				is_primary_war_defender = yes
-				religion_group = christian 
+				religion_group =  goddesses_religion #christian 
 			}
 		}
 	}

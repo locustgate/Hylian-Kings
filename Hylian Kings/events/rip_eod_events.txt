@@ -40,7 +40,7 @@ character_event = {
 
 		set_character_flag = end_of_days
 
-		character_event = { id = RIP.22020 years = 2 }
+		character_event = { id = RIP.22020 days = 730 }
 	}
 }
 
@@ -2196,7 +2196,7 @@ character_event = {
 
 		add_character_modifier = {
 			name = known_murderer
-			duration = -1
+			years = 50
 		}
 
 		hidden_tooltip = {

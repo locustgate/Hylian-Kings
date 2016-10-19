@@ -50,8 +50,8 @@ character_event = {
 					factor = 0
 					OR = {
 						has_character_modifier = expelled_jewish
-						religion_group = jewish_group
-						any_realm_province = { religion_group = jewish_group }
+						religion_group = minor_deity #jewish_group
+						any_realm_province = { religion_group = minor_deity #jewish_group }
 					}
 				}
 				set_character_flag = epidemic_blame_game
@@ -433,11 +433,8 @@ character_event = {
 				has_character_flag = cat_name_3
 			}
 		}
-		add_character_modifier = {
-			name = pet_cat
-			duration = -1
-		}
-		hidden_tooltip = { character_event = { id = 77802 days = 3000 random = 2000 } } # Cat dies
+		add_cat_effect = yes
+
 	}
 
 	#don't keep cat
@@ -881,7 +878,7 @@ character_event = { #you decide what to do
 				}
 			}
 			any_friend = {
-				limit = { religion_group = jewish_group }
+				limit = { religion_group = minor_deity #jewish_group }
 				remove_friend = ROOT
 			}
 	}

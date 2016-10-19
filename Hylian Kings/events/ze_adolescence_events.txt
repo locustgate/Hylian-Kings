@@ -3027,15 +3027,15 @@ character_event = {
 					set_character_flag = add_sympathy_christendom
 					modifier = {
 						factor = 0
-						religion_group = christian
+						religion_group =  goddesses_religion #christian
 					}
 					modifier = {
 						factor = 0
 						NOR = {
-							educator = { religion_group = christian }
-							location = { religion_group = christian } 
-							any_friend = { religion_group = christian }
-							any_sibling = { religion_group = christian } 
+							educator = { religion_group =  goddesses_religion #christian }
+							location = { religion_group =  goddesses_religion #christian } 
+							any_friend = { religion_group =  goddesses_religion #christian }
+							any_sibling = { religion_group =  goddesses_religion #christian } 
 						}
 					}
 				}
@@ -3091,15 +3091,15 @@ character_event = {
 					set_character_flag = add_sympathy_judaism
 					modifier = {
 						factor = 0
-						religion_group = jewish_group
+						religion_group = minor_deity #jewish_group
 					}
 					modifier = {
 						factor = 0
 						NOR = {
-							educator = { religion_group = jewish_group }
-							location = { religion_group = jewish_group }
-							any_friend = { religion_group = jewish_group }
-							any_sibling = { religion_group = jewish_group }
+							educator = { religion_group = minor_deity #jewish_group }
+							location = { religion_group = minor_deity #jewish_group }
+							any_friend = { religion_group = minor_deity #jewish_group }
+							any_sibling = { religion_group = minor_deity #jewish_group }
 						}
 					}
 				}
@@ -3973,6 +3973,22 @@ character_event = {
 
 	trigger = {
 		has_dlc = "Zeus"
+		educator = {
+			any_courtier = {	
+				age = 16
+				NOR = { 
+					age = 35
+					same_sex = ROOT
+					trait = incapable
+					trait = ugly
+					trait = blinded
+					trait = celibate
+					trait = eunuch
+					has_character_modifier = the_oubliette
+					has_character_modifier = the_dungeon
+				}
+			}
+		}
 	}
 
 	immediate = {

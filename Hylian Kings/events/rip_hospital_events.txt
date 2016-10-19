@@ -29,14 +29,7 @@ character_event = {
 		higher_tier_than = BARON
 		any_demesne_province = {
 			AND = {
-				OR = {
-					hospital_level = 1
-					hospital_level = 2
-					hospital_level = 3
-					hospital_level = 4
-					hospital_level = 5
-					hospital_level = 6
-				}
+				hospital_level = 1
 				religion = ROOT
 			}
 		}
@@ -63,14 +56,7 @@ character_event = {
 		any_demesne_province = {
 			limit = {
 				AND = {
-					OR = {
-						hospital_level = 1
-						hospital_level = 2
-						hospital_level = 3
-						hospital_level = 4
-						hospital_level = 5
-						hospital_level = 6
-					}
+					hospital_level = 1
 					religion = ROOT
 				}
 			}
@@ -121,7 +107,7 @@ character_event = {
 			}
 			if = {
 				limit = {
-					religion_group = christian
+					religion_group =  goddesses_religion #christian
 				}
 				add_trait = monk
 			}
@@ -197,28 +183,14 @@ character_event = {
 	
 	trigger = {
 		any_demesne_province = {
-			OR = {
-				hospital_level = 1
-				hospital_level = 2
-				hospital_level = 3
-				hospital_level = 4
-				hospital_level = 5
-				hospital_level = 6
-			}
+			hospital_level = 1
 		}
 	}
 	
 	immediate = {
 		any_demesne_province = {
 			limit = {
-				OR = {
-					hospital_level = 1
-					hospital_level = 2
-					hospital_level = 3
-					hospital_level = 4
-					hospital_level = 5
-					hospital_level = 6
-				}
+				hospital_level = 1
 			}
 			save_event_target_as = hospital_location
 		}
@@ -354,7 +326,7 @@ character_event = {
 	picture = GFX_evt_bloody_tools
 	border = GFX_event_normal_frame_religion
 	
-	religion_group = christian
+	religion_group =  goddesses_religion #christian
 	min_age = 16
 	capable_only = yes
 	only_playable = yes
@@ -368,14 +340,7 @@ character_event = {
 		higher_tier_than = BARON
 		any_demesne_province = {
 			AND = {
-				OR = {
-					hospital_level = 1
-					hospital_level = 2
-					hospital_level = 3
-					hospital_level = 4
-					hospital_level = 5
-					hospital_level = 6
-				}
+				hospital_level = 1
 				religion = ROOT
 			}
 		}
@@ -389,14 +354,7 @@ character_event = {
 		any_demesne_province = {
 			limit = {
 				AND = {
-					OR = {
-						hospital_level = 1
-						hospital_level = 2
-						hospital_level = 3
-						hospital_level = 4
-						hospital_level = 5
-						hospital_level = 6
-					}
+					hospital_level = 1
 					religion = ROOT
 				}
 			}
@@ -487,14 +445,7 @@ character_event = {
 	trigger = {
 		higher_tier_than = BARON
 		any_demesne_province = {
-			OR = {
-				hospital_level = 1
-				hospital_level = 2
-				hospital_level = 3
-				hospital_level = 4
-				hospital_level = 5
-				hospital_level = 6
-			}
+			hospital_level = 1
 			hospital_has_building = leper_colony_1
 		}
 	}
@@ -502,14 +453,7 @@ character_event = {
 	immediate = {
 		any_demesne_province = {
 			limit = {
-				OR = {
-					hospital_level = 1
-					hospital_level = 2
-					hospital_level = 3
-					hospital_level = 4
-					hospital_level = 5
-					hospital_level = 6
-				}
+				hospital_level = 1
 				hospital_has_building = leper_colony_1
 			}
 			save_event_target_as = hospital_location
@@ -597,14 +541,7 @@ character_event = {
 		any_demesne_province = {
 			owner = { character = ROOT }
 			NOT = { has_province_modifier = damaged_hospital }
-			OR = {
-				hospital_level = 1
-				hospital_level = 2
-				hospital_level = 3
-				hospital_level = 4
-				hospital_level = 5
-				hospital_level = 6
-			}
+			hospital_level = 1
 			hospital_has_building = soup_kitchen_1
 		}
 	}
@@ -615,14 +552,7 @@ character_event = {
 				AND = {
 					owner = { character = ROOT }
 					NOT = { has_province_modifier = damaged_hospital }
-					OR = {
-						hospital_level = 1
-						hospital_level = 2
-						hospital_level = 3
-						hospital_level = 4
-						hospital_level = 5
-						hospital_level = 6
-					}
+					hospital_level = 1
 					hospital_has_building = soup_kitchen_1
 				}
 			}
@@ -749,14 +679,7 @@ character_event = {
 	
 	trigger = {
 		any_demesne_province = {
-			OR = {
-				hospital_level = 1
-				hospital_level = 2
-				hospital_level = 3
-				hospital_level = 4
-				hospital_level = 5
-				hospital_level = 6
-			}
+			hospital_level = 1
 			OR = {
 				hospital_has_building = library_1
 				hospital_has_building = pharmacology_laboratory_1
@@ -773,14 +696,7 @@ character_event = {
 	immediate = {
 		any_demesne_province = {
 			limit = {
-				OR = {
-					hospital_level = 1
-					hospital_level = 2
-					hospital_level = 3
-					hospital_level = 4
-					hospital_level = 5
-					hospital_level = 6
-				}
+				hospital_level = 1
 				OR = {
 					hospital_has_building = library_1
 					hospital_has_building = pharmacology_laboratory_1

@@ -19,17 +19,16 @@ character_event = {
 	
 	only_playable = yes
 	only_independent = yes
+	only_capable = yes
+	prisoner = no
 	ai = no
 	
 	trigger = {
 		has_dlc = "Horse Lords"
-		independent = yes
 		higher_tier_than = COUNT
-		prisoner = no
 		NOR = {
 			has_character_flag = had_chinese_envoy
 			has_character_flag = do_not_disturb
-			trait = incapable
 			trait = infirm
 		}
 		capital_scope = {
@@ -53,6 +52,7 @@ character_event = {
 	}
 	
 	immediate = {
+		set_character_flag = had_chinese_envoy
 		random_demesne_province = {
 			limit = {
 				has_trade_post = yes
@@ -79,165 +79,165 @@ character_event = {
 	}
 }
 
-# Envoy offers his services
-character_event = {
-	id = HL.5001
-	desc = EVTDESC_HL_5001
-	picture = GFX_evt_chinese_emissary
-	border = GFX_event_normal_frame_diplomacy
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_HL_5001
-		ai_chance = {
-			factor = 100
-		}
-		create_character = {
-			random_traits = no
-			dynasty = NONE
-			religion = buddhist
-			culture = khitan
-			female = no
-			age = 34
-			attributes = {
-				diplomacy = 5
-				stewardship = 4
-			}
-			trait = administrator
-			historical = yes
-		}
-		hidden_tooltip = {
-			new_character = {
-				random_list = {
-					10 = {
-						# semi-random traits
-						add_trait = thrifty_clerk
-						add_trait = proud
-						add_trait = ambitious
-						add_trait = cynical
-					}
-					10 = {
-						add_trait = charismatic_negotiator
-						add_trait = just
-						add_trait = gregarious
-						add_trait = envious
-						add_trait = ambitious
-					}
-					10 = {
-						add_trait = fortune_builder
-						add_trait = greedy
-						add_trait = envious
-						add_trait = chaste
-						add_trait = shy
-					}
-					10 = {
-						add_trait = naive_appeaser
-						add_trait = temperate
-						add_trait = patient
-						add_trait = slothful
-						add_trait = craven
-					}
-				}
-				set_character_flag = is_chinese_envoy
-				save_event_target_as = chinese_envoy
-				opinion = {
-					who = ROOT
-					modifier = opinion_happy
-					months = 180
-				}
-			}
-		}
-		save_event_target_as = host
-		event_target:trade_province = {
-			add_province_modifier = {
-				modifier = trade_governor
-				duration = -1
-			}
-			hidden_tooltip = {
-				province_event = { id = HL.5047 days = 30 }
-			}
-		}
-		hidden_tooltip = {
-			character_event = { id = HL.5002 days = 365 } # Determine random events
-		}
-	}
-	
-	option = {
-		name = EVTOPTB_HL_5001
-		ai_chance = {
-			factor = 0
-		}
-		hidden_tooltip = { # Angry Emperor
-			letter_event = { id = HL.5048 days = 15 random = 15 }
-		}
-		create_character = {
-			random_traits = no
-			dynasty = NONE
-			religion = buddhist
-			culture = khitan
-			female = no
-			age = 34
-			attributes = {
-				diplomacy = 5
-				stewardship = 4
-			}
-			trait = administrator
-			historical = yes
-		}
-		hidden_tooltip = {
-			new_character = {
-				random_list = {
-					10 = {
-						# semi-random traits
-						add_trait = thrifty_clerk
-						add_trait = proud
-						add_trait = ambitious
-						add_trait = cynical
-					}
-					10 = {
-						add_trait = charismatic_negotiator
-						add_trait = just
-						add_trait = gregarious
-						add_trait = envious
-						add_trait = ambitious
-					}
-					10 = {
-						add_trait = fortune_builder
-						add_trait = greedy
-						add_trait = envious
-						add_trait = chaste
-						add_trait = shy
-					}
-					10 = {
-						add_trait = naive_appeaser
-						add_trait = temperate
-						add_trait = patient
-						add_trait = slothful
-						add_trait = craven
-					}
-				}
-				prestige = -100
-				add_character_modifier = {
-					modifier = dung_collector
-					months = 120
-				}
-				opinion = {
-					who = ROOT
-					modifier = opinion_mocked
-					months = 120
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = EVTOPTC_HL_5001
-		ai_chance = {
-			factor = 0
-		}
-	}
-}
+## Envoy offers his services
+#character_event = {
+#	id = HL.5001
+#	desc = EVTDESC_HL_5001
+#	picture = GFX_evt_chinese_emissary
+#	border = GFX_event_normal_frame_diplomacy
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_HL_5001
+#		ai_chance = {
+#			factor = 100
+#		}
+#		create_character = {
+#			random_traits = no
+#			dynasty = NONE
+#			religion = buddhist
+#			culture = khitan
+#			female = no
+#			age = 34
+#			attributes = {
+#				diplomacy = 5
+#				stewardship = 4
+#			}
+#			trait = administrator
+#			historical = yes
+#		}
+#		hidden_tooltip = {
+#			new_character = {
+#				random_list = {
+#					10 = {
+#						# semi-random traits
+#						add_trait = thrifty_clerk
+#						add_trait = proud
+#						add_trait = ambitious
+#						add_trait = cynical
+#					}
+#					10 = {
+#						add_trait = charismatic_negotiator
+#						add_trait = just
+#						add_trait = gregarious
+#						add_trait = envious
+#						add_trait = ambitious
+#					}
+#					10 = {
+#						add_trait = fortune_builder
+#						add_trait = greedy
+#						add_trait = envious
+#						add_trait = chaste
+#						add_trait = shy
+#					}
+#					10 = {
+#						add_trait = naive_appeaser
+#						add_trait = temperate
+#						add_trait = patient
+#						add_trait = slothful
+#						add_trait = craven
+#					}
+#				}
+#				set_character_flag = is_chinese_envoy
+#				save_event_target_as = chinese_envoy
+#				opinion = {
+#					who = ROOT
+#					modifier = opinion_happy
+#					months = 180
+#				}
+#			}
+#		}
+#		save_event_target_as = host
+#		event_target:trade_province = {
+#			add_province_modifier = {
+#				modifier = trade_governor
+#				duration = -1
+#			}
+#			hidden_tooltip = {
+#				province_event = { id = HL.5047 days = 30 }
+#			}
+#		}
+#		hidden_tooltip = {
+#			character_event = { id = HL.5002 days = 365 } # Determine random events
+#		}
+#	}
+#	
+#	option = {
+#		name = EVTOPTB_HL_5001
+#		ai_chance = {
+#			factor = 0
+#		}
+#		hidden_tooltip = { # Angry Emperor
+#			letter_event = { id = HL.5048 days = 15 random = 15 }
+#		}
+#		create_character = {
+#			random_traits = no
+#			dynasty = NONE
+#			religion = buddhist
+#			culture = khitan
+#			female = no
+#			age = 34
+#			attributes = {
+#				diplomacy = 5
+#				stewardship = 4
+#			}
+#			trait = administrator
+#			historical = yes
+#		}
+#		hidden_tooltip = {
+#			new_character = {
+#				random_list = {
+#					10 = {
+#						# semi-random traits
+#						add_trait = thrifty_clerk
+#						add_trait = proud
+#						add_trait = ambitious
+#						add_trait = cynical
+#					}
+#					10 = {
+#						add_trait = charismatic_negotiator
+#						add_trait = just
+#						add_trait = gregarious
+#						add_trait = envious
+#						add_trait = ambitious
+#					}
+#					10 = {
+#						add_trait = fortune_builder
+#						add_trait = greedy
+#						add_trait = envious
+#						add_trait = chaste
+#						add_trait = shy
+#					}
+#					10 = {
+#						add_trait = naive_appeaser
+#						add_trait = temperate
+#						add_trait = patient
+#						add_trait = slothful
+#						add_trait = craven
+#					}
+#				}
+#				prestige = -100
+#				add_character_modifier = {
+#					modifier = dung_collector
+#					months = 120
+#				}
+#				opinion = {
+#					who = ROOT
+#					modifier = opinion_mocked
+#					months = 120
+#				}
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = EVTOPTC_HL_5001
+#		ai_chance = {
+#			factor = 0
+#		}
+#	}
+#}
 
 # Determine random events
 character_event = {
@@ -542,9 +542,9 @@ character_event = {
 			random = {
 				chance = 25
 				add_trait = charitable
-			}
-			hidden_tooltip = {
-				character_event = { id = 38273 } # Notify charitable
+				hidden_tooltip = {
+					character_event = { id = 38273 } # Notify charitable
+				}
 			}
 		}
 		hidden_tooltip = {
@@ -1093,7 +1093,7 @@ character_event = {
 		}
 		event_target:chinese_envoy = {
 			death = {
-				death_reason = death_execution
+				death_reason = death_execution_beheading
 				killer = ROOT
 			}
 		}
@@ -1224,7 +1224,20 @@ character_event = {
 		random = {
 			chance = 5
 			add_trait = wounded
-			add_trait = ill
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Reapers"
+					}
+				}
+				add_trait = ill
+			}
+			if = {
+				limit = {
+					has_dlc = "Reapers"
+				}
+				add_symptom_effect = yes
+			}
 			hidden_tooltip = {
 				character_event = { id = 38290 }
 			}
@@ -1610,7 +1623,7 @@ character_event = {
 			20 = {
 				if = {
 					limit = {
-						NOT = { trait = maimed }
+						NOT = { is_maimed_trigger = yes }
 					}
 					add_trait = wounded
 				}
@@ -1692,7 +1705,7 @@ character_event = {
 		prestige = -10
 		if = {
 			limit = {
-				NOT = { trait = brave }
+				NOR = { trait = brave trait = berserker }
 			}
 			random = {
 				chance = 40
@@ -1853,7 +1866,7 @@ character_event = {
 				}
 				modifier = {
 					factor = 0
-					trait = maimed
+					is_maimed_trigger = yes
 				}
 				add_trait = wounded
 				hidden_tooltip = { character_event = { id = 38280 } }
@@ -1865,10 +1878,9 @@ character_event = {
 				}
 				modifier = {
 					factor = 3
-					trait = maimed
+					is_maimed_trigger = yes
 				}
-				add_trait = maimed
-				hidden_tooltip = { character_event = { id = 38281 } }
+				add_maimed_trait_effect = yes
 			}
 		}
 	}

@@ -12,12 +12,12 @@ character_event = {
 	picture = GFX_evt_death
 	
 	only_women = yes
+	is_married = yes
 	
 	is_triggered_only = yes
 	
 	trigger = {
-		is_female = yes
-		is_married = yes
+		immortal = no
 		spouse = {
 			is_alive = yes
 			is_abroad = no
@@ -74,7 +74,7 @@ character_event = {
 		add_trait = depressed
 		if = {
 			limit = {
-				religion_group = christian
+				religion_group =  goddesses_religion #christian
 			}
 			add_trait = celibate
 		}
@@ -148,7 +148,10 @@ character_event = {
 			}
 			random_list = {
 				90 = {
-					add_trait = craven
+					if = {
+						limit = { NOT = { trait = berserker } }
+						add_trait = craven
+					}
 				}
 				10 = {
 					add_trait = brave
@@ -184,7 +187,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		death_reason = death_murder_unknown
+		death_murder_unknown_trigger = yes
 		NOT = { has_character_flag = was_murdered_by_plot }
 		OR = {
 			AND = {
@@ -529,7 +532,7 @@ character_event = {
 					character = ROOT
 				}
 			}
-			NOT = { trait = in_hiding }
+			NOT = { is_inaccessible_trigger = yes }
 		}
 	}
 	
@@ -559,11 +562,11 @@ character_event = {
 	option = {
 		name = EVTOPTA4140
 		trigger = {
-			religion_group = christian
+			religion_group =  goddesses_religion #christian
 		}
 		add_character_modifier = {
 			name = the_sincere
-			duration = 180
+			years = 5
 		}
 	}
 	option = {
@@ -573,7 +576,7 @@ character_event = {
 		}
 		add_character_modifier = {
 			name = the_sincere
-			duration = 180
+			years = 5
 		}
 	}
 	option = {
@@ -581,12 +584,12 @@ character_event = {
 		trigger = {
 			NOT = {
 				religion_group = muslim
-				religion_group = christian
+				religion_group =  goddesses_religion #christian
 			}
 		}
 		add_character_modifier = {
 			name = the_sincere
-			duration = 180
+			years = 5
 		}
 	}
 	
@@ -594,7 +597,7 @@ character_event = {
 		name = EVTOPTB4140
 		add_character_modifier = {
 			name = the_cynical
-			duration = 180
+			years = 5
 		}
 	}
 	
@@ -606,13 +609,14 @@ character_event = {
 					is_alive = yes
 				}
 			}
+			wealth = -10
 		}
 		FROM = {
 			spouse = {
 				opinion = {
 					modifier = charitable_pos
 					who = ROOT
-					years = 2
+					years = 10
 				}
 			}
 		}

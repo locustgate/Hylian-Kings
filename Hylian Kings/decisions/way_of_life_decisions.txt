@@ -106,14 +106,14 @@ targetted_decisions = {
 						NOT = { father_even_if_dead = { is_child_of = ROOT } }
 					}
 				}
-				AND = {
-					religion_group = zoroastrian_group
-					FROM = { religion_group = zoroastrian_group }
-				}
-				AND = {
-					religion = messalian
-					FROM = { religion = messalian }
-				}
+				#AND = {
+				#	religion_group = zoroastrian_group
+				#	FROM = { religion_group = zoroastrian_group }
+				#}
+				#AND = {
+				#	religion = messalian
+				#	FROM = { religion = messalian }
+				#}
 			}
 			
 			OR = {
@@ -138,7 +138,7 @@ targetted_decisions = {
 			NOT = { trait = celibate }
 			NOT = { FROM = { trait = celibate } }
 			OR = {
-				religion_group = FROM
+				#religion_group = FROM
 				is_liege_or_above = FROM
 			}
 			is_within_diplo_range = FROM
@@ -156,8 +156,8 @@ targetted_decisions = {
 					if = {
 						limit = {
 							is_close_relative = ROOT
-							NOT = { religion = messalian }
-							NOT = { religion = zoroastrian }
+							#NOT = { religion = messalian }
+							#NOT = { religion = zoroastrian }
 						}
 						character_event = { id = WoL.102 days = 1 } # Warning - Incest scandal risk
 						break = yes
@@ -173,7 +173,7 @@ targetted_decisions = {
 					
 					if = {
 						limit = {
-							religion_group = christian
+							#religion_group = christian
 							OR = {
 								is_priest = yes
 								trait = monk
@@ -649,11 +649,11 @@ targetted_decisions = {
 				factor = 0
 				is_rival = FROM
 			}
-			modifier = {
-				factor = 0
-				trait = decadent
-				religion_group = muslim
-			}
+			#modifier = {
+			#	factor = 0
+			#	trait = decadent
+			#	religion_group = muslim
+			#}
 		}
 	}
 
@@ -697,17 +697,17 @@ targetted_decisions = {
 					NOT = { has_character_flag = do_not_disturb }
 				}
 			}
-			FROM = {
-				
-				war = no
-				NOT = { has_character_modifier = party_timer }
-				OR = {
-					NOT = { religion_group = muslim }
-					trait = decadent
-					trait = hedonist
-					trait = drunkard
-				}
-			}
+			#FROM = {
+			#	
+			#	war = no
+			#	NOT = { has_character_modifier = party_timer }
+			#	OR = {
+			#		NOT = { religion_group = muslim }
+			#		trait = decadent
+			#		trait = hedonist
+			#		trait = drunkard
+			#	}
+			#}
 		}
 		effect = {
 			FROM = {
@@ -777,10 +777,10 @@ targetted_decisions = {
 					is_female = yes
 					OR = {
 						trait = brave
-						religion_group = pagan_group
+						religion_group=goddesses_religion#religion_group = pagan_group
 						is_nomadic = yes
-						religion = buddhist
-						religion = bogomilist
+						religion=gerudo_goddesses#religion = buddhist
+						culture=gerudo#religion = bogomilist
 						gender_equality_trigger = yes
 					}
 				}
@@ -805,10 +805,10 @@ targetted_decisions = {
 									religion = FROM
 									trait = excommunicated
 								}
-								AND = {
-									FROM = { religion_group = muslim }
-									trait = decadent
-								}
+								#AND = {
+								#	FROM = { religion_group = muslim }
+								#	trait = decadent
+								#}
 							}
 						}
 						has_game_rule = {
@@ -824,18 +824,18 @@ targetted_decisions = {
 							OR = {
 								trait = brave
 								gender_equality_trigger = yes
-								religion_group = pagan_group
+								#religion_group = pagan_group
 								is_nomadic = yes
-								religion = buddhist
-								religion = bogomilist
+								#religion = buddhist
+								#religion = bogomilist
 							}
 							FROM = {
 								OR = {
 									gender_equality_trigger = yes
-									religion_group = pagan_group
+									#religion_group = pagan_group
 									is_nomadic = yes
-									religion = buddhist
-									religion = bogomilist
+									#religion = buddhist
+									#religion = bogomilist
 								}
 							}
 						}
@@ -869,7 +869,7 @@ targetted_decisions = {
 						}
 						custom_tooltip = {
 							text = duel_tooltip_decadent
-							FROM = { religion_group = muslim }
+							#FROM = { religion_group = muslim }
 							FROM = { trait = zealous }
 							trait = decadent
 						}
@@ -927,18 +927,18 @@ targetted_decisions = {
 									OR = {
 										trait = brave
 										gender_equality_trigger = yes
-										religion_group = pagan_group
+										religion_group = goddesses_religion#religion_group = pagan_group
 										is_nomadic = yes
-										religion = buddhist
-										religion = bogomilist
+										religion=gerudo_goddesses#religion = buddhist
+										culture=gerudo#religion = bogomilist
 									}
 									FROM = {
 										OR = {
 											gender_equality_trigger = yes
-											religion_group = pagan_group
+											religion_group=goddesses_religion#religion_group = pagan_group
 											is_nomadic = yes
-											religion = buddhist
-											religion = bogomilist
+											religion=gerudo_goddesses#religion = buddhist
+											culture=gerudo#religion = bogomilist
 										}
 									}
 								}
@@ -946,7 +946,7 @@ targetted_decisions = {
 							### Not priest or challenger religion is pagan
 							OR = {
 								is_priest = no
-								FROM = { religion_group = pagan_group }
+								FROM = { religion_group = demise_religion#pagan_group }
 							}
 							
 						}
@@ -1024,9 +1024,9 @@ targetted_decisions = {
 			}
 			FROM = {
 				if = {
-					limit = { religion = jain }
+					limit = { religion = great_deku#jain }
 					piety = -20
-					custom_tooltip = { text = jain_ahimsa_tooltip }
+					#custom_tooltip = { text = jain_ahimsa_tooltip }
 				}
 				add_character_modifier = {
 					modifier = recent_duel_timer

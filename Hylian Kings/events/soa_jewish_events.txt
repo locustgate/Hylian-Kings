@@ -153,7 +153,7 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 
 	only_playable = yes
-	religion_group = jewish_group
+	religion_group = minor_deity #jewish_group
 	only_independent = yes
 	
 	trigger = {
@@ -237,10 +237,10 @@ character_event = {
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		OR = {
-			religion_group = christian
+			religion_group =  goddesses_religion #christian
 			religion_group = muslim
 			religion_group = zoroastrian_group
-			religion_group = jewish_group
+			religion_group = minor_deity #jewish_group
 			culture = khazar
 		}
 		NOT = { 
@@ -324,10 +324,10 @@ character_event = {
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		OR = {
-			religion_group = christian
+			religion_group =  goddesses_religion #christian
 			religion_group = muslim
 			religion_group = zoroastrian_group
-			religion_group = jewish_group
+			religion_group = minor_deity #jewish_group
 			culture = khazar
 		}	
 		NOT = { 
@@ -411,10 +411,10 @@ character_event = {
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		OR = {
-			religion_group = christian
+			religion_group =  goddesses_religion #christian
 			religion_group = muslim
 			religion_group = zoroastrian_group
-			religion_group = jewish_group
+			religion_group = minor_deity #jewish_group
 			culture = khazar
 		}
 		NOT = { 
@@ -501,10 +501,10 @@ character_event = {
 			region = world_europe_west_iberia
 		}
 		OR = {
-			religion_group = christian
+			religion_group =  goddesses_religion #christian
 			religion_group = muslim
 			religion_group = zoroastrian_group
-			religion_group = jewish_group
+			religion_group = minor_deity #jewish_group
 		}	
 		NOT = { 
 			has_character_modifier = expelled_jewish
@@ -587,10 +587,10 @@ character_event = {
 			region = world_europe_west_iberia
 		}
 		OR = {
-			religion_group = christian
+			religion_group =  goddesses_religion #christian
 			religion_group = muslim
 			religion_group = zoroastrian_group
-			religion_group = jewish_group
+			religion_group = minor_deity #jewish_group
 		}	
 		NOT = { 
 			has_character_modifier = expelled_jewish
@@ -673,10 +673,10 @@ character_event = {
 			region = world_europe_west_iberia
 		}
 		OR = {
-			religion_group = christian
+			religion_group =  goddesses_religion #christian
 			religion_group = muslim
 			religion_group = zoroastrian_group
-			religion_group = jewish_group
+			religion_group = minor_deity #jewish_group
 		}	
 		NOT = { 
 			has_character_modifier = expelled_jewish
@@ -860,11 +860,6 @@ character_event = {
 		name = EVTOPTA_SoA_501
 		ai_chance = {
 			factor = 80
-			modifier  = {
-				factor = 0.1
-				ai = yes
-				is_inaccessible_trigger = yes
-			}
 			modifier = {
 				factor = 0
 				NOT = {	opinion = { who = ROOT value = -20 } }
@@ -997,14 +992,14 @@ narrative_event = {
 	option = {
 		name = EVTOPTA_SoA_550
 		trigger = {
-			religion_group = jewish_group
+			religion_group = minor_deity #jewish_group
 		}
 	}
 	option = {
 		name = EVTOPTB_TOG_6004
 		trigger = {
 			NOT = {
-				religion_group = jewish_group
+				religion_group = minor_deity #jewish_group
 				religion_group = muslim
 			}
 		}
@@ -1027,12 +1022,12 @@ character_event = {
 	min_age = 16
 	only_capable = yes
 	prisoner = no
-	religion_group = jewish_group
+	religion_group = minor_deity #jewish_group
 	
 	trigger = {
 		has_job_title = job_chancellor
 		employer = {
-			NOT = { religion_group = jewish_group }
+			NOT = { religion_group = minor_deity #jewish_group }
 		}
 	}
 	
@@ -1077,12 +1072,12 @@ character_event = {
 	min_age = 16
 	only_capable = yes
 	prisoner = no
-	religion_group = jewish_group
+	religion_group = minor_deity #jewish_group
 	
 	trigger = {
 		has_job_title = job_treasurer
 		employer = {
-			NOT = { religion_group = jewish_group }
+			NOT = { religion_group = minor_deity #jewish_group }
 		}
 	}
 	
@@ -1127,12 +1122,12 @@ character_event = {
 	min_age = 16
 	only_capable = yes
 	prisoner = no
-	religion_group = jewish_group
+	religion_group = minor_deity #jewish_group
 	
 	trigger = {
 		has_job_title = job_spymaster
 		employer = {
-			NOT = { religion_group = jewish_group }
+			NOT = { religion_group = minor_deity #jewish_group }
 		}
 	}
 	

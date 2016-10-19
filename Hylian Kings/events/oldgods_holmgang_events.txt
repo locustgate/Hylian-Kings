@@ -19,20 +19,21 @@ character_event = {
 	only_men = yes
 	capable_only = yes
 	prisoner = no
+	religion_group = demon_religion#pagan_group
 	
 	trigger = {
 		has_dlc = "The Old Gods"
 		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
+			religion = demise_religion #norse_pagan
+			#religion = norse_pagan_reformed
 		}
 		NOT = { 
 			has_character_flag = holmgang_target
 			has_character_flag = holmgang_challenger
 			trait = incapable 
 			trait = wounded
-			trait = maimed
-			trait = ill
+			is_maimed_trigger = yes
+			is_ill = yes
 		}
 		liege = {
 			age = 16
@@ -43,8 +44,8 @@ character_event = {
 			NOT = { 
 				trait = incapable 
 				trait = wounded
-				trait = maimed
-				trait = ill
+				is_maimed_trigger = yes
+				is_ill = yes
 			}
 			NOT = { character = ROOT }
 			NOT = { opinion = { who = ROOT value =  -40 } }
@@ -53,10 +54,10 @@ character_event = {
 				has_character_flag = holmgang_challenger
 			}
 			OR = {
-				religion = norse_pagan
-				religion = norse_pagan_reformed
+				religion = demise_religion # norse_pagan
+				religion = #norse_pagan_reformed
 			}
-			NOT = { trait = in_hiding }
+			NOT = { is_inaccessible_trigger = yes }
 		}
 	}
 	
@@ -140,20 +141,21 @@ character_event = {
 	only_men = yes
 	capable_only = yes
 	prisoner = no
+	religion_group = pagan_group
 	
 	trigger = {
 		has_dlc = "The Old Gods"
 		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
+			religion = demise_religion # norse_pagan
+			religion = #norse_pagan_reformed
 		}
 		NOT = { 
 			has_character_flag = holmgang_target
 			has_character_flag = holmgang_challenger
 			trait = incapable 
 			trait = wounded
-			trait = maimed
-			trait = ill
+			is_maimed_trigger = yes
+			is_ill = yes
 		}
 		liege = {
 			any_vassal = {
@@ -165,8 +167,8 @@ character_event = {
 				NOT = { 
 					trait = incapable 
 					trait = wounded
-					trait = maimed
-					trait = ill
+					is_maimed_trigger = yes
+					is_ill = yes
 				}
 				NOT = { 
 					character = ROOT
@@ -178,10 +180,10 @@ character_event = {
 					has_character_flag = holmgang_challenger
 				}
 				OR = {
-					religion = norse_pagan
-					religion = norse_pagan_reformed
+					religion = demise_religion # norse_pagan
+					religion = #norse_pagan_reformed
 				}
-				NOT = { trait = in_hiding }
+				NOT = { is_inaccessible_trigger = yes }
 			}
 		}
 	}
@@ -255,8 +257,8 @@ character_event = {
 					NOT = { 
 						trait = incapable 
 						trait = wounded
-						trait = maimed
-						trait = ill
+						is_maimed_trigger = yes
+						is_ill = yes
 					}
 					NOT = { 
 						character = ROOT
@@ -268,10 +270,10 @@ character_event = {
 						has_character_flag = holmgang_challenger
 					}
 					OR = {
-						religion = norse_pagan
-						religion = norse_pagan_reformed
+						religion = demise_religion # norse_pagan
+						religion = #norse_pagan_reformed
 					}
-					NOT = { trait = in_hiding }
+					NOT = { is_inaccessible_trigger = yes }
 				}
 				set_character_flag = holmgang_challenger
 				set_character_flag = do_not_disturb
@@ -295,20 +297,21 @@ character_event = {
 	only_men = yes
 	capable_only = yes
 	prisoner = no
+	religion_group = pagan_group
 	
 	trigger = {
 		has_dlc = "The Old Gods"
 		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
+			religion = demise_religion # norse_pagan
+			religion = #norse_pagan_reformed
 		}
 		NOT = { 
 			has_character_flag = holmgang_target
 			has_character_flag = holmgang_challenger
 			trait = incapable 
 			trait = wounded
-			trait = maimed
-			trait = ill
+			is_maimed_trigger = yes
+			is_ill = yes
 		}
 		any_vassal = {
 			is_ruler = yes
@@ -319,8 +322,8 @@ character_event = {
 			NOT = { 
 				trait = incapable 
 				trait = wounded
-				trait = maimed
-				trait = ill
+				is_maimed_trigger = yes
+				is_ill = yes
 			}
 			NOT = { character = ROOT }
 			NOT = { opinion = { who = ROOT value =  -40 } }
@@ -329,10 +332,10 @@ character_event = {
 				has_character_flag = holmgang_challenger
 			}
 			OR = {
-				religion = norse_pagan
-				religion = norse_pagan_reformed
+				religion = demise_religion # norse_pagan
+				religion = #norse_pagan_reformed
 			}
-			NOT = { trait = in_hiding }
+			NOT = { is_inaccessible_trigger = yes }
 		}
 	}
 	
@@ -404,8 +407,8 @@ character_event = {
 				NOT = { 
 					trait = incapable 
 					trait = wounded
-					trait = maimed
-					trait = ill
+					is_maimed_trigger = yes
+					is_ill = yes
 				}
 				NOT = { character = ROOT }
 				NOT = { opinion = { who = ROOT value =  -40 } }
@@ -414,10 +417,10 @@ character_event = {
 					has_character_flag = holmgang_challenger
 				}
 				OR = {
-					religion = norse_pagan
-					religion = norse_pagan_reformed
+					religion = demise_religion # norse_pagan
+					religion = #norse_pagan_reformed
 				}
-				NOT = { trait = in_hiding }
+				NOT = { is_inaccessible_trigger = yes }
 			}
 			set_character_flag = holmgang_challenger
 			set_character_flag = do_not_disturb
@@ -573,10 +576,16 @@ character_event = {
 			limit = { 
 				NOT = { trait = brave }
 				NOT = { trait = craven }
+				NOT = { trait = berserker }
 			}
 			random = {
 				chance = 33
 				add_trait = craven
+				hidden_tooltip = {
+					character_event = {
+						id = 38257 #Notify Craven
+					}
+				}
 			}
 		}
 	}
@@ -1052,7 +1061,12 @@ character_event = {
 			clr_character_flag = holmgang_target
 			clr_character_flag = do_not_disturb
 		}
+		if = {
+			limit = {
+				NOT = { trait = scarred }
+			}
 		add_trait = scarred
+		}
 		prestige = 200
 		tooltip = {
 			FROMFROM = { prestige = -200 }
@@ -1338,7 +1352,7 @@ character_event = {
 			FROMFROM = { prestige = 200 }
 		}
 		prestige = -200
-		add_trait = maimed
+		add_maimed_trait_effect = yes
 	}
 }
 
@@ -1558,7 +1572,7 @@ character_event = {
 			FROM = { prestige = 200 }
 		}
 		prestige = -200
-		add_trait = maimed
+		add_maimed_trait_effect = yes
 	}
 }
 

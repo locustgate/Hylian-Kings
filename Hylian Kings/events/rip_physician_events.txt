@@ -107,10 +107,10 @@ character_event = {
 						modifier = {
 							factor = 0
 							NOR = {
-								religion_group = christian
+								religion_group =  goddesses_religion #christian
 								religion_group = muslim
 								religion_group = zoroastrian_group
-								religion_group = jewish_group
+								religion_group = minor_deity #jewish_group
 								culture = khazar
 							}
 						}
@@ -172,10 +172,10 @@ character_event = {
 						modifier = {
 							factor = 0
 							NOR = {
-								religion_group = christian
+								religion_group =  goddesses_religion #christian
 								religion_group = muslim
 								religion_group = zoroastrian_group
-								religion_group = jewish_group
+								religion_group = minor_deity #jewish_group
 								culture = khazar
 							}
 						}
@@ -328,10 +328,10 @@ character_event = {
 						modifier = {
 							factor = 0
 							NOR = {
-								religion_group = christian
+								religion_group =  goddesses_religion #christian
 								religion_group = muslim
 								religion_group = zoroastrian_group
-								religion_group = jewish_group
+								religion_group = minor_deity #jewish_group
 								culture = khazar
 							}
 						}
@@ -415,10 +415,10 @@ character_event = {
 						modifier = {
 							factor = 0
 							NOR = {
-								religion_group = christian
+								religion_group =  goddesses_religion #christian
 								religion_group = muslim
 								religion_group = zoroastrian_group
-								religion_group = jewish_group
+								religion_group = minor_deity #jewish_group
 								culture = khazar
 							}
 						}
@@ -602,10 +602,10 @@ character_event = {
 				modifier = {
 					factor = 0
 					NOR = {
-						religion_group = christian
+						religion_group =  goddesses_religion #christian
 						religion_group = muslim
 						religion_group = zoroastrian_group
-						religion_group = jewish_group
+						religion_group = minor_deity #jewish_group
 						culture = khazar
 					}
 				}
@@ -620,10 +620,10 @@ character_event = {
 						modifier = {
 							factor = 0
 							NOR = {
-								religion_group = christian
+								religion_group =  goddesses_religion #christian
 								religion_group = muslim
 								religion_group = zoroastrian_group
-								religion_group = jewish_group
+								religion_group = minor_deity #jewish_group
 								culture = khazar
 							}
 						}
@@ -705,10 +705,10 @@ character_event = {
 						modifier = {
 							factor = 0
 							NOR = {
-								religion_group = christian
+								religion_group =  goddesses_religion #christian
 								religion_group = muslim
 								religion_group = zoroastrian_group
-								religion_group = jewish_group
+								religion_group = minor_deity #jewish_group
 								culture = khazar
 							}
 						}
@@ -788,10 +788,10 @@ character_event = {
 						modifier = {
 							factor = 0
 							NOR = {
-								religion_group = christian
+								religion_group =  goddesses_religion #christian
 								religion_group = muslim
 								religion_group = zoroastrian_group
-								religion_group = jewish_group
+								religion_group = minor_deity #jewish_group
 								culture = khazar
 							}
 						}
@@ -872,10 +872,10 @@ character_event = {
 						modifier = {
 							factor = 0
 							NOR = {
-								religion_group = christian
+								religion_group =  goddesses_religion #christian
 								religion_group = muslim
 								religion_group = zoroastrian_group
-								religion_group = jewish_group
+								religion_group = minor_deity #jewish_group
 								culture = khazar
 							}
 						}
@@ -1051,10 +1051,10 @@ character_event = {
 						modifier = {
 							factor = 0
 							NOR = {
-								religion_group = christian
+								religion_group =  goddesses_religion #christian
 								religion_group = muslim
 								religion_group = zoroastrian_group
-								religion_group = jewish_group
+								religion_group = minor_deity #jewish_group
 								culture = khazar
 							}
 						}
@@ -1128,10 +1128,10 @@ character_event = {
 						modifier = {
 							factor = 0
 							NOR = {
-								religion_group = christian
+								religion_group =  goddesses_religion #christian
 								religion_group = muslim
 								religion_group = zoroastrian_group
-								religion_group = jewish_group
+								religion_group = minor_deity #jewish_group
 								culture = khazar
 							}
 						}
@@ -1276,7 +1276,7 @@ character_event = {
 					}
 					if = {
 						limit = {
-							religion_group = christian
+							religion_group =  goddesses_religion #christian
 						}
 						add_trait = monk
 						give_nickname = nick_the_monk
@@ -1406,10 +1406,10 @@ character_event = {
 				modifier = {
 					factor = 0
 					NOR = {
-						religion_group = christian
+						religion_group =  goddesses_religion #christian
 						religion_group = muslim
 						religion_group = zoroastrian_group
-						religion_group = jewish_group
+						religion_group = minor_deity #jewish_group
 						religion_group = indian_group
 					}
 				}
@@ -1848,7 +1848,7 @@ character_event = {
 					}
 				}
 				random_list = {
-					75 = {
+					1 = {
 						create_character = {
 							religion = ROOT
 							culture = ROOT
@@ -2307,7 +2307,7 @@ character_event = {
 					}
 					if = {
 						limit = {
-							religion_group = christian
+							religion_group =  goddesses_religion #christian
 						}
 						add_trait = monk
 					}
@@ -2391,7 +2391,7 @@ character_event = {
 					}
 					if = {
 						limit = {
-							religion_group = christian
+							religion_group =  goddesses_religion #christian
 						}
 						add_trait = monk
 					}
@@ -2595,10 +2595,10 @@ character_event = {
 						modifier = {
 							factor = 0
 							NOR = {
-								religion_group = christian
+								religion_group =  goddesses_religion #christian
 								religion_group = muslim
 								religion_group = zoroastrian_group
-								religion_group = jewish_group
+								religion_group = minor_deity #jewish_group
 								culture = khazar
 							}
 						}
@@ -2673,10 +2673,10 @@ character_event = {
 						modifier = {
 							factor = 0
 							NOR = {
-								religion_group = christian
+								religion_group =  goddesses_religion #christian
 								religion_group = muslim
 								religion_group = zoroastrian_group
-								religion_group = jewish_group
+								religion_group = minor_deity #jewish_group
 								culture = khazar
 							}
 						}
@@ -2914,7 +2914,7 @@ character_event = {
 				}
 				modifier = {
 					factor = 0
-					NOT = { religion_group = christian }
+					NOT = { religion_group =  goddesses_religion #christian }
 				}
 				modifier = {
 					factor = 0
@@ -3143,7 +3143,15 @@ character_event = {
 				}
 				modifier = {
 					factor = 0
-					ai = yes
+					AND = {
+						ai = yes
+						NOT = {
+							has_game_rule = {
+								name = supernatural_events
+								value = unrestricted
+							}
+						}
+					}
 				}
 				modifier = {
 					factor = 0

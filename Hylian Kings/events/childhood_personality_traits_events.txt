@@ -23,9 +23,9 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = temperate }
 		NOT = { trait = gluttonous }
@@ -152,11 +152,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = temperate }
 		NOT = { trait = gluttonous }
@@ -286,9 +286,9 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = charitable }
 		NOT = { trait = greedy }
@@ -420,9 +420,9 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = charitable }
 		NOT = { trait = greedy }
@@ -552,12 +552,12 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	religion_group =  goddesses_religion #christian
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
-		religion_group = christian
 		NOT = { personality_traits = 5 }
 		NOT = { trait = diligent }
 		NOT = { trait = slothful }
@@ -688,11 +688,11 @@ character_event = {
 	
 	min_age = 11
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = diligent }
 		NOT = { trait = slothful }
@@ -823,11 +823,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = kind }
 		NOT = { trait = envious }
@@ -971,11 +971,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = kind }
 		NOT = { trait = envious }
@@ -1113,11 +1113,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = wroth }
 		NOT = { trait = patient }
@@ -1240,11 +1240,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = wroth }
 		NOT = { trait = patient }
@@ -1366,11 +1366,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = proud }
 		NOT = { trait = humble }
@@ -1493,11 +1493,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = proud }
 		NOT = { trait = humble }
@@ -1621,11 +1621,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = honest }
 		NOT = { trait = deceitful }
@@ -1747,11 +1747,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = {
 			religion_group = muslim
 		}
@@ -1876,12 +1876,12 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	religion_group = muslim
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
-		religion_group = muslim
 		NOT = { personality_traits = 5 }
 		NOT = { trait = zealous }
 		NOT = { trait = cynical }
@@ -1983,11 +1983,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = honest }
 		NOT = { trait = deceitful }
@@ -2109,11 +2109,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = craven }
 		NOT = { trait = brave }
@@ -2235,11 +2235,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = craven }
 		NOT = { trait = brave }
@@ -2362,11 +2362,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = shy }
 		NOT = { trait = gregarious }
@@ -2488,11 +2488,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = shy }
 		NOT = { trait = gregarious }
@@ -2615,11 +2615,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = content }
 		NOT = { trait = ambitious }
@@ -2691,11 +2691,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = content }
 		NOT = { trait = ambitious }
@@ -2767,11 +2767,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = just }
 		NOT = { trait = arbitrary }
@@ -2893,11 +2893,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = just }
 		NOT = { trait = arbitrary }
@@ -3019,11 +3019,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = {
 			religion_group = muslim
 		}
@@ -3145,12 +3145,12 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	religion_group = muslim
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
-		religion_group = muslim
 		NOT = { personality_traits = 5 }
 		NOT = { trait = zealous }
 		NOT = { trait = cynical }
@@ -3273,11 +3273,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = kind }
 		NOT = { trait = cruel }
@@ -3405,9 +3405,10 @@ character_event = {
 	min_age = 13
 	max_age = 17
 	only_men = yes
+	only_capable = yes
+	is_married = no
 	
 	trigger = {
-		is_married = no
 		has_guardian = yes
 		NOT = {
 			trait = zealous
@@ -3479,9 +3480,10 @@ character_event = {
 	min_age = 13
 	max_age = 17
 	only_men = yes
+	only_capable = yes
+	is_married = no
 	
 	trigger = {
-		is_married = no
 		has_guardian = yes
 		num_traits = 4
 		trait = homosexual
@@ -3517,9 +3519,10 @@ character_event = {
 	
 	min_age = 13
 	max_age = 17
+	only_capable = yes
+	is_married = no
 	
 	trigger = {
-		is_married = no
 		has_guardian = yes
 		num_traits = 4
 		trait = homosexual
@@ -3557,9 +3560,10 @@ character_event = {
 	min_age = 12
 	max_age = 17
 	only_women = yes
+	only_capable = yes
+	is_married = no
 	
 	trigger = {
-		is_married = no
 		has_guardian = yes
 		NOT = {
 			trait = zealous
@@ -3604,9 +3608,10 @@ character_event = {
 	min_age = 12
 	max_age = 17
 	only_women = yes
+	only_capable = yes
+	is_married = no
 	
 	trigger = {
-		is_married = no
 		has_guardian = yes
 		num_traits = 4
 		trait = homosexual
@@ -3678,11 +3683,11 @@ character_event = {
 	
 	max_age = 5
 	prisoner = no
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { trait = stutter }
 		father = {
 			is_alive = yes
@@ -3785,11 +3790,11 @@ character_event = {
 	
 	max_age = 6
 	prisoner = no
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { trait = trusting }
 		father = {
 			is_alive = yes
@@ -3896,11 +3901,11 @@ character_event = {
 	
 	max_age = 6
 	prisoner = no
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { trait = trusting }
 		father = {
 			is_alive = yes
@@ -4006,11 +4011,11 @@ character_event = {
 	
 	max_age = 6
 	prisoner = no
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { trait = wroth }
 		father = {
 			is_alive = yes
@@ -4117,11 +4122,11 @@ character_event = {
 	
 	max_age = 6
 	prisoner = no
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { trait = greedy }
 		father = {
 			is_alive = yes
@@ -4228,11 +4233,11 @@ character_event = {
 	min_age = 6
 	max_age = 11
 	prisoner = no
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { is_abroad = yes }
 		father = {
 			is_alive = yes
@@ -4341,11 +4346,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 11
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		NOT = { trait = gregarious }
 		has_guardian = yes
 		NOT = { personality_traits = 5 }
@@ -4442,11 +4447,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 11
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = { personality_traits = 5 }
 		NOT = {
@@ -4546,13 +4551,13 @@ character_event = {
 	
 	min_age = 6
 	max_age = 11
+	religion_group =  goddesses_religion #christian
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
-		religion_group = christian
 		NOT = { trait = zealous }
 		NOT = { trait = cynical }
 		NOT = { personality_traits = 5 }
@@ -4583,11 +4588,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 11
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = { trait = craven }
 		NOT = { personality_traits = 5 }
@@ -4685,13 +4690,13 @@ character_event = {
 	
 	min_age = 6
 	max_age = 11
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
-		#religion_group = christian
+		#religion_group =  goddesses_religion #christian
 		NOT = { trait = zealous }
 		NOT = { trait = cynical }
 		NOT = { personality_traits = 5 }
@@ -4787,11 +4792,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 11
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = { is_ruler = yes }
 		NOT = { personality_traits = 5 }
@@ -4888,11 +4893,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 11
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = { is_ruler = yes }
 		NOT = { personality_traits = 5 }
@@ -4989,11 +4994,11 @@ character_event = {
 	
 	min_age = 11
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = { trait = lustful }
 		NOT = { trait = chaste }
@@ -5029,13 +5034,13 @@ character_event = {
 	
 	min_age = 11
 	max_age = 16
+	religion = catholic
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
-		religion = catholic
 		NOT = { trait = cynical }
 		guardian = {
 			religion = catholic
@@ -5139,13 +5144,13 @@ character_event = {
 	
 	min_age = 11
 	max_age = 16
+	religion_group =  goddesses_religion #christian
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
-		religion_group = christian
 		NOT = { trait = zealous }
 		NOT = { trait = cynical }
 		NOT = { trait = charitable }
@@ -5243,11 +5248,11 @@ character_event = {
 	
 	min_age = 11
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = {	guardian = { trait = cruel } }
 		NOT = {	guardian = { trait = arbitrary } }
@@ -5344,11 +5349,11 @@ character_event = {
 	
 	min_age = 11
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = {	trait = kind }
 	}
@@ -5445,11 +5450,11 @@ character_event = {
 	
 	min_age = 11
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		learning = 4
 		NOT = { trait = diligent }
@@ -5546,11 +5551,11 @@ character_event = {
 	
 	min_age = 11
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = { religion_group = indian_group }
 		NOT = { trait = lustful }
@@ -5651,16 +5656,16 @@ character_event = {
 	
 	min_age = 11
 	max_age = 16
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		OR = {
-			religion_group = christian
+			religion_group =  goddesses_religion #christian
 			religion_group = muslim
-			religion_group = jewish_group
+			religion_group = minor_deity #jewish_group
 		}
 		NOT = { trait = cynical }
 		NOT = { trait = craven }
@@ -5761,11 +5766,11 @@ character_event = {
 	min_age = 6
 	max_age = 16
 	only_women = yes
+	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = {
 			trait = brave
@@ -5876,10 +5881,11 @@ character_event = {
 	
 	min_age = 11
 	max_age = 16
+	lacks_dlc = "Conclave"
+	
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		learning = 5
 		NOT = {
@@ -5977,10 +5983,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
+	
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = {
 			trait = craven
@@ -6088,10 +6095,11 @@ character_event = {
 	
 	min_age = 11
 	max_age = 16
+	lacks_dlc = "Conclave"
+	
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		learning = 6
 		NOT = {
@@ -6201,10 +6209,11 @@ character_event = {
 	
 	min_age = 10
 	max_age = 16
+	lacks_dlc = "Conclave"
+	
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		trait = ugly
 		guardian = {
@@ -6263,9 +6272,6 @@ character_event = {
 		NOT = {
 			trait = shy
 		}
-		NOT = {
-			trait = gregarious
-		}
 	}
 	
 	weight_multiplier = {
@@ -6292,10 +6298,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
+	
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		OR = {
 			AND = {
@@ -6409,10 +6416,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
+	
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		OR = {
 			AND = {
@@ -6524,10 +6532,11 @@ character_event = {
 	min_age = 6
 	max_age = 16
 	only_men = yes
+	lacks_dlc = "Conclave"
+	
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		OR = {
 			AND = {
@@ -6641,10 +6650,11 @@ character_event = {
 	
 	min_age = 11
 	max_age = 16
+	lacks_dlc = "Conclave"
+	
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		OR = {
 			trait = kind
@@ -6760,11 +6770,11 @@ character_event = {
 	min_age = 6
 	max_age = 16
 	only_men = yes
+	lacks_dlc = "Conclave"
 	
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = {
 			trait = brave
@@ -6870,10 +6880,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
+	
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = {
 			trait = brave
@@ -6887,9 +6898,7 @@ character_event = {
 		NOT = {
 			trait = craven
 		}
-		NOT = {
-			trait = maimed
-		}
+		can_be_maimed_trigger = yes
 		NOT = {
 			trait = wounded
 		}
@@ -6989,6 +6998,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = {
+			has_dlc = "Reapers"
+		}
 		has_guardian = yes
 		trait = ill
 	}
@@ -7048,10 +7060,11 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
+	lacks_dlc = "Conclave"
+	
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		OR = {
 			AND = {
@@ -7164,9 +7177,9 @@ character_event = {
 	max_age = 16
 	prisoner = no
 	capable_only = yes
+	lacks_dlc = "Conclave"
 	
 	trigger = {
-		NOT = { has_dlc = "Zeus" }
 		has_guardian = no
 		independent = no
 		NOT = {	personality_traits = 5 }

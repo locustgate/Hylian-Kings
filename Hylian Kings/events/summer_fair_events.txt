@@ -40,11 +40,13 @@ character_event = {
 		had_character_flag = {
 			flag = summer_fair_begin
 			days = 3
-		}		
+		}
+		NOT = { has_character_flag = fair_event_74000 }
 	}
 	
 	immediate = {
 		set_character_flag = fair_event_happened
+		set_character_flag = fair_event_74000
 	}		
 
 	mean_time_to_happen = {
@@ -175,11 +177,13 @@ character_event = {
 		had_character_flag = {
 			flag = summer_fair_begin
 			days = 3
-		}		
+		}
+		NOT = { has_character_flag = fair_event_74005 }	
 	}
 	
 	immediate = {
 		set_character_flag = fair_event_happened
+		set_character_flag = fair_event_74005
 	}	
 
 	mean_time_to_happen = {
@@ -275,11 +279,13 @@ character_event = {
 		had_character_flag = {
 			flag = summer_fair_begin
 			days = 3
-		}		
+		}
+		NOT = { has_character_flag = fair_event_74010 }
 	}
 	
 	immediate = {
 		set_character_flag = fair_event_happened
+		set_character_flag = fair_event_74010
 	}	
 
 	mean_time_to_happen = {
@@ -381,11 +387,13 @@ character_event = {
 		had_character_flag = {
 			flag = summer_fair_begin
 			days = 3
-		}		
+		}
+		NOT = { has_character_flag = fair_event_74015 }	
 	}
 	
 	immediate = {
 		set_character_flag = fair_event_happened
+		set_character_flag = fair_event_74015
 	}	
 
 	mean_time_to_happen = {
@@ -497,11 +505,13 @@ character_event = {
 		had_character_flag = {
 			flag = summer_fair_begin
 			days = 3
-		}		
+		}
+		NOT = { has_character_flag = fair_event_74020 }
 	}
 	
 	immediate = {
 		set_character_flag = fair_event_happened
+		set_character_flag = fair_event_74020
 	}	
 
 	mean_time_to_happen = {
@@ -575,9 +585,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_rulers = yes
+	is_married = yes
 
 	trigger = {
-		is_married = yes
 		learning = 10
 		any_vassal = {
 			learning = 10
@@ -599,11 +609,13 @@ character_event = {
 		had_character_flag = {
 			flag = summer_fair_begin
 			days = 3
-		}		
+		}
+		NOT = { has_character_flag = fair_event_74025 }
 	}
 	
 	immediate = {
 		set_character_flag = fair_event_happened
+		set_character_flag = fair_event_74025
 	}	
 
 	mean_time_to_happen = {
@@ -694,11 +706,13 @@ character_event = {
 		had_character_flag = {
 			flag = summer_fair_begin
 			days = 3
-		}		
+		}
+		NOT = { has_character_flag = fair_event_74030 }	
 	}
 	
 	immediate = {
 		set_character_flag = fair_event_happened
+		set_character_flag = fair_event_74030
 	}	
 
 	mean_time_to_happen = {
@@ -794,11 +808,13 @@ character_event = {
 		had_character_flag = {
 			flag = summer_fair_begin
 			days = 3
-		}		
+		}
+		NOT = { has_character_flag = fair_event_74035 }
 	}
 	
 	immediate = {
 		set_character_flag = fair_event_happened
+		set_character_flag = fair_event_74035
 	}	
 
 	mean_time_to_happen = {
@@ -920,11 +936,13 @@ character_event = {
 		had_character_flag = {
 			flag = summer_fair_begin
 			days = 3
-		}		
+		}
+		NOT = { has_character_flag = fair_event_74040 }
 	}
 	
 	immediate = {
 		set_character_flag = fair_event_happened
+		set_character_flag = fair_event_74040
 	}	
 
 	mean_time_to_happen = {
@@ -1008,11 +1026,13 @@ character_event = {
 		had_character_flag = {
 			flag = summer_fair_begin
 			days = 3
-		}		
+		}
+		NOT = { has_character_flag = fair_event_74042 }
 	}
 	
 	immediate = {
 		set_character_flag = fair_event_happened
+		set_character_flag = fair_event_74042
 	}	
 
 	mean_time_to_happen = {
@@ -1092,11 +1112,13 @@ character_event = {
 		had_character_flag = {
 			flag = summer_fair_begin
 			days = 3
-		}		
+		}
+		NOT = { has_character_flag = fair_event_74044 }	
 	}
 	
 	immediate = {
 		set_character_flag = fair_event_happened
+		set_character_flag = fair_event_74044
 	}	
 
 	mean_time_to_happen = {
@@ -1169,11 +1191,13 @@ character_event = {
 		had_character_flag = {
 			flag = summer_fair_begin
 			days = 3
-		}		
+		}
+		NOT = { has_character_flag = fair_event_74045 }	
 	}
 	
 	immediate = {
 		set_character_flag = fair_event_happened
+		set_character_flag = fair_event_74045
 	}	
 
 	mean_time_to_happen = {
@@ -1238,6 +1262,20 @@ character_event = {
 		clr_character_flag = fair_event_happened
 		clr_character_flag = summer_fair_begin
 		set_character_flag = recent_summer_fair
+		clr_character_flag = fair_event_74000
+		clr_character_flag = fair_event_74005
+		clr_character_flag = fair_event_74010
+		clr_character_flag = fair_event_74015
+		clr_character_flag = fair_event_74020
+		clr_character_flag = fair_event_74025
+		clr_character_flag = fair_event_74030
+		clr_character_flag = fair_event_74035
+		clr_character_flag = fair_event_74040
+		clr_character_flag = fair_event_74042
+		clr_character_flag = fair_event_74044
+		clr_character_flag = fair_event_74045
+		clr_character_flag = fair_event_4105
+		clr_character_flag = fair_event_4170
 		prestige = 10
 	}
 }
@@ -1267,9 +1305,10 @@ character_event = {
 	only_playable = yes
 	capable_only = yes
 	prisoner = no
+	war = no
+	has_character_flag = summer_fair_begin
 
 	trigger = {
-		war = no
 		in_command = no
 		any_vassal = {
 			war = no
@@ -1290,11 +1329,13 @@ character_event = {
 		had_character_flag = {
 			flag = summer_fair_begin
 			days = 3
-		}		
+		}
+		NOT = { has_character_flag = fair_event_4105 }
 	}
 	
 	immediate = {
 		set_character_flag = fair_event_happened
+		set_character_flag = fair_event_4105
 	}	
 
 	mean_time_to_happen = {
@@ -1389,9 +1430,10 @@ character_event = {
 	only_playable = yes
 	capable_only = yes
 	prisoner = no
+	war = no
+	has_character_flag = summer_fair_begin
 
 	trigger = {
-		war = no
 		in_command = no
 		any_courtier = {
 			prisoner = no
@@ -1410,11 +1452,13 @@ character_event = {
 		had_character_flag = {
 			flag = summer_fair_begin
 			days = 3
-		}		
+		}
+		NOT = { has_character_flag = fair_event_4170 }
 	}
 	
 	immediate = {
 		set_character_flag = fair_event_happened
+		set_character_flag = fair_event_4170
 	}	
 
 	mean_time_to_happen = {

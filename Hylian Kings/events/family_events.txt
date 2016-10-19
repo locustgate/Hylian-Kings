@@ -20,6 +20,7 @@ character_event = {
 	only_men = yes
 	capable_only = yes
 	prisoner = no
+	lacks_dlc = "Zeus"
 	
 	trigger = {
 		has_ambition = obj_wants_landed_title
@@ -115,7 +116,7 @@ character_event = {
 		name = EVTOPTC37001 # Mention a Church career...
 		tooltip_info = diplomacy
 		trigger = {
-			religion_group = christian
+			religion_group = goddesses_religion#christian
 			diplomacy = 8
 		}
 		FROM = { character_event = { id = 37003 tooltip = EVTTOOLTIP37003 } }
@@ -125,7 +126,7 @@ character_event = {
 		name = EVTOPTD37001 # Diplomatically refuse
 		tooltip_info = diplomacy
 		trigger = {
-			NOT = { religion_group = christian }
+			NOT = { religion_group = goddesses_religion#christian }
 			diplomacy = 8
 		}
 		FROM = { character_event = { id = 37003 tooltip = EVTTOOLTIP37003 } }
@@ -251,10 +252,10 @@ character_event = {
 				factor = 2.5
 				trait = ambitious
 			}
-			modifier = {
-				factor = 5.0
-				religion_group = muslim
-			}
+			#modifier = {
+			#	factor = 5.0
+			#	religion_group = muslim
+			#}
 			modifier = {
 				factor = 0.25
 				trait = slothful
@@ -399,10 +400,10 @@ character_event = {
 				factor = 2.5
 				trait = ambitious
 			}
-			modifier = {
-				factor = 5.0
-				religion_group = muslim
-			}
+			#modifier = {
+			#	factor = 5.0
+			#	religion_group = muslim
+			#}
 			modifier = {
 				factor = 0.25
 				trait = slothful
@@ -858,9 +859,7 @@ character_event = {
 						tier = EMPEROR
 						is_primary_holder_title = no
 					}
-					ROOT = {
-						add_claim = PREV
-					}
+					add_claim = ROOT
 					holder_scope = {
 						reverse_war = {
 							target = ROOT
@@ -882,9 +881,7 @@ character_event = {
 						tier = KING
 						is_primary_holder_title = no
 					}
-					ROOT = {
-						add_claim = PREV
-					}
+					add_claim = ROOT
 					holder_scope = {
 						reverse_war = {
 							target = ROOT
@@ -901,9 +898,7 @@ character_event = {
 					NOT = { war_with = ROOT }
 				}
 				primary_title = {
-					ROOT = {
-						add_claim = PREV
-					}
+					add_claim = ROOT
 					holder_scope = {
 						reverse_war = {
 							target = ROOT
@@ -935,10 +930,10 @@ character_event = {
 	ai = no
 	capable_only = yes
 	prisoner = no
+	religion_group = goddesses_religion#christian
+	war = no
 	
 	trigger = {
-		war = no
-		religion_group = christian
 	}
 	
 	mean_time_to_happen = {
@@ -948,7 +943,7 @@ character_event = {
 	immediate = {
 		random_courtier = {
 			limit = {
-				religion_group = christian
+				religion_group = goddesses_religion#christian
 				is_ruler = no
 				has_ambition = obj_get_married
 				is_marriage_adult = yes
@@ -1008,8 +1003,8 @@ character_event = {
 	option = {
 		name = EVTOPTB37051 # Mention a Church career...
 		trigger = {
-			religion_group = christian
-			FROM = { religion_group = christian }
+			religion_group = goddesses_religion#christian
+			FROM = { religion_group = goddesses_religion#christian }
 		}
 		FROM = { character_event = { id = 37053 tooltip = EVTTOOLTIP37053 } }
 	}
@@ -1063,11 +1058,12 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	prisoner = no
+	lacks_dlc = "Zeus"
+	is_married = no
 	
 	trigger = {
 		is_ruler = no
 		is_betrothed = no
-		is_married = no
 		NOT = {
 			trait = bastard
 		}
@@ -1148,8 +1144,8 @@ character_event = {
 	option = {
 		name = EVTOPTB37055 # You're off to the monastery!
 		trigger = {
-			religion_group = christian
-			FROM = { religion_group = christian }
+			religion_group = goddesses_religion#christian
+			FROM = { religion_group = goddesses_religion#christian }
 			FROM = {
 				is_married = no
 			}
@@ -1211,12 +1207,13 @@ character_event = {
 	only_men = yes
 	capable_only = yes
 	prisoner = no
+	has_character_flag = flag_denied_marriage
+	lacks_dlc = "Zeus"
 	
 	trigger = {
 		is_ruler = no
 		is_betrothed = no
 		has_ambition = obj_get_married
-		has_character_flag = flag_denied_marriage
 		any_courtier = {
 			is_female = yes
 			NOT = { age = 40 }

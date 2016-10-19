@@ -187,7 +187,7 @@ settlement_decisions = {
 			is_theocracy = yes
 			higher_tier_than = BARON
 			OR = {
-				NOT = { religion_group = pagan_group }
+				NOT = { religion_group = demon_religion #pagan_group }
 				is_reformed_religion = yes
 			}
 		}
@@ -622,23 +622,23 @@ settlement_decisions = {
 				AND = {
 					OR = {
 						has_dlc = "The Sword of Islam"
-						NOT = { religion_group = muslim }
+						#NOT = { religion_group = muslim }
 					}
 					OR = {
 						has_dlc = "The Old Gods"
 						NOR = {
-							religion_group = pagan_group
-							religion_group = zoroastrian_group
+							religion_group = demise_religion#religion_group = pagan_group
+							#religion_group = zoroastrian_group
 						}
 					}
-					OR = {
-						has_dlc = "Sons of Abraham"
-						NOT = { religion_group = jewish_group }
-					}
-					OR = {
-						has_dlc = "Rajas of India"
-						NOT = { religion_group = indian_group }
-					}
+					#OR = {
+					#	has_dlc = "Sons of Abraham"
+					#	NOT = { religion_group = jewish_group }
+					#}
+					#OR = {
+					#	has_dlc = "Rajas of India"
+					#	NOT = { religion_group = indian_group }
+					#}
 				}
 			}
 		}
@@ -1538,25 +1538,25 @@ settlement_decisions = {
 			OR = {
 				ai = yes
 				AND = {
-					OR = {
-						has_dlc = "The Sword of Islam"
-						NOT = { religion_group = muslim }
-					}
-					OR = {
-						has_dlc = "The Old Gods"
-						NOR = {
-							religion_group = pagan_group
-							religion_group = zoroastrian_group
-						}
-					}
-					OR = {
-						has_dlc = "Sons of Abraham"
-						NOT = { religion_group = jewish_group }
-					}
-					OR = {
-						has_dlc = "Rajas of India"
-						NOT = { religion_group = indian_group }
-					}
+					#OR = {
+					#	has_dlc = "The Sword of Islam"
+					#	NOT = { religion_group = muslim }
+					#}
+					#OR = {
+					#	has_dlc = "The Old Gods"
+					#	NOR = {
+					#		religion_group = pagan_group
+					#		religion_group = zoroastrian_group
+					#	}
+					#}
+					#OR = {
+					#	has_dlc = "Sons of Abraham"
+					#	NOT = { religion_group = jewish_group }
+					#}
+					#OR = {
+					#	has_dlc = "Rajas of India"
+					#	NOT = { religion_group = indian_group }
+					#}
 				}
 			}
 		}

@@ -24,15 +24,33 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Horse Lords"
+		NOT = {
+			has_game_rule = {
+				name = supernatural_events
+				value = off
+			}
+		}
 		culture_group = altaic
 		NOT = { culture = khitan }
 		OR = {
 			father = {
-				ai = no
+				OR = {
+					ai = no
+					has_game_rule = {
+						name = supernatural_events
+						value = unrestricted
+					}
+				}
 				NOT = { num_of_children = 2 }
 			}
 			mother = {
-				ai = no
+				OR = {
+					ai = no
+					has_game_rule = {
+						name = supernatural_events
+						value = unrestricted
+					}
+				}
 				NOT = { num_of_children = 2 }
 			}
 		}
@@ -65,10 +83,16 @@ narrative_event = {
 
 	is_triggered_only = yes
 	
-	ai = no
 	capable_only = yes	
 	
 	trigger = {
+		OR = {
+			ai = no
+			has_game_rule = {
+				name = supernatural_events
+				value = unrestricted
+			}
+		}
 		FROM = { is_alive = yes }
 		NOT = { trait = sickly }
 	}
@@ -115,12 +139,18 @@ narrative_event = {
 
 	is_triggered_only = yes
 	
-	ai = no
 	capable_only = yes
 	only_playable = yes
 	
 	trigger = {
 		has_dlc = "Horse Lords"
+		OR = {
+			ai = no
+			has_game_rule = {
+				name = supernatural_events
+				value = unrestricted
+			}
+		}
 		is_adult = yes
 		NOT = { num_of_children = 1 }
 		culture_group = altaic
@@ -185,7 +215,13 @@ narrative_event = {
 		NOT = { age = 10 }
 		NOT = {	any_sibling = { is_older_than = ROOT } }
 		OR = {
-			ai = no
+			OR = {
+				ai = no
+				has_game_rule = {
+					name = supernatural_events
+					value = unrestricted
+				}
+			}
 			father = { ai = no }
 			mother = { ai = no }
 		}
@@ -283,7 +319,13 @@ narrative_event = {
 	trigger = {
 		age = 13
 		OR = {
-			ai = no
+			OR = {
+				ai = no
+				has_game_rule = {
+					name = supernatural_events
+					value = unrestricted
+				}
+			}
 			father = { ai = no }
 			mother = { ai = no }
 		}
@@ -303,6 +345,11 @@ narrative_event = {
 			random = {
 				chance = 30
 				add_trait = proud
+				hidden_tooltip = {
+					character_event = {
+						id = 38261 #Notify Proud
+					}
+				}
 			}
 		}
 	}
@@ -321,6 +368,11 @@ narrative_event = {
 			random = {
 				chance = 30
 				add_trait = deceitful
+				hidden_tooltip = {
+					character_event = {
+						id = 38255 #Notify Deceitful
+					}
+				}
 			}
 		}
 		if = {
@@ -328,6 +380,11 @@ narrative_event = {
 			random = {
 				chance = 30
 				add_trait = wroth
+				hidden_tooltip = {
+					character_event = {
+						id = 38254 #Notify Wroth
+					}
+				}
 			}
 		}
 		mother = {
@@ -350,6 +407,11 @@ narrative_event = {
 			random = {
 				chance = 30
 				add_trait = envious
+				hidden_tooltip = {
+					character_event = {
+						id = 38271 #Notify Envious
+					}
+				}
 			}
 		}
 		if = {
@@ -357,6 +419,11 @@ narrative_event = {
 			random = {
 				chance = 30
 				add_trait = paranoid
+				hidden_tooltip = {
+					character_event = {
+						id = 38275 #Notify Paranoid
+					}
+				}
 			}
 		}
 	}
@@ -523,13 +590,19 @@ narrative_event = {
 
 	is_triggered_only = yes
 
-	ai = no
 	capable_only = yes
 	prisoner = no
 	min_age = 18
 	has_character_flag = wolf_blood_first_generation
 	
 	trigger = {
+		OR = {
+			ai = no
+			has_game_rule = {
+				name = supernatural_events
+				value = unrestricted
+			}
+		}
 		in_command = no
 		NOT = { has_character_flag = do_not_disturb }
 		NOT = { has_character_flag = call_of_the_wolves }
@@ -697,6 +770,11 @@ narrative_event = {
 			random = {
 				chance = 30
 				add_trait = temperate
+				hidden_tooltip = {
+					character_event = {
+						id = 38276 #Notify Temperate
+					}
+				}
 			}
 		}
 		hidden_tooltip = {
@@ -866,13 +944,25 @@ narrative_event = {
 
 	is_triggered_only = yes
 
-	ai = no
 	capable_only = yes
 	prisoner = no
 	min_age = 18
 	
 	trigger = {
 		has_dlc = "Horse Lords"
+		OR = {
+			ai = no
+			has_game_rule = {
+				name = supernatural_events
+				value = unrestricted
+			}
+		}
+		NOT = {
+			has_game_rule = {
+				name = supernatural_events
+				value = off
+			}
+		}
 		trait = possessed
 		NOT = { has_character_modifier = lycanthropy }
 		NOT = { has_character_flag = do_not_disturb }
@@ -926,12 +1016,18 @@ character_event = {
 
 	is_triggered_only = yes
 
-	ai = no
 	capable_only = yes
 	prisoner = no
 	min_age = 18
 	
 	trigger = {
+		OR = {
+			ai = no
+			has_game_rule = {
+				name = supernatural_events
+				value = unrestricted
+			}
+		}
 		trait = possessed
 		has_character_modifier = lycanthropy
 		NOT = { has_character_flag = do_not_disturb }
@@ -1091,26 +1187,37 @@ character_event = {
 
 	is_triggered_only = yes
 
-	option = {
-		name = EVTOPTA_HL_1430
-		hidden_tooltip = { character_event = { id = HL.1490 days = 4 } }
-		set_character_flag = werewolf_killed_something
-		location = {
-			random_neighbor_province = {
-				owner = {
-					random_courtier = {
-						limit = {
-							ai = yes
-							at_location = PREV
-						}
-						death = {
-							death_reason = death_murder_unknown
-							killer = ROOT
+	immediate = {
+		hidden_tooltip = {
+			set_character_flag = werewolf_killed_something
+			location = {
+				random_neighbor_province = {
+					owner = {
+						random_courtier = {
+							limit = {
+								ai = yes
+								at_location = PREV
+								is_ruler = no
+							}
+							save_event_target_as = werewolf_prey
 						}
 					}
 				}
 			}
 		}
+	}
+
+	option = {
+		name = EVTOPTA_HL_1430
+
+		event_target:werewolf_prey = {
+			death = {
+				death_reason = death_murder_unknown
+				killer = ROOT
+			}
+		}
+
+		hidden_tooltip = { character_event = { id = HL.1490 days = 4 } }
 	}
 }
 
@@ -1153,6 +1260,11 @@ character_event = {
 			random = {
 				chance = 20
 				add_trait = infirm
+				hidden_tooltip = {
+					character_event = {
+						id = 38284 #Notify Infirm
+					}
+				}
 			}
 		}
 		if = {
@@ -1165,10 +1277,23 @@ character_event = {
 		if = {
 			limit = {
 				has_character_flag = werewolf_swims_river_sleeps_outside
-				NOT = { trait = ill }
+				is_ill = no
 				NOT = { trait = pneumonic }
 			}
-			add_trait = ill
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Reapers"
+					}
+				}
+				add_trait = ill
+			}
+			if = {
+				limit = {
+					has_dlc = "Reapers"
+				}
+				add_symptom_effect = yes
+			}
 		}
 		if = {
 			limit = { has_character_flag = werewolf_killed_something }
@@ -1208,6 +1333,7 @@ character_event = {
 			trait = lunatic
 		}
 		NOT = { has_character_modifier = cannibal }
+		NOT = { trait = cannibal_trait }
 		NOT = { has_character_flag = wolf_resisted_cannibalism }
 	}
 	
@@ -1220,7 +1346,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 4
-			has_character_modifier = cannibal
+			OR = {
+				has_character_modifier = cannibal
+				trait = cannibal_trait
+			}
 		}
 		modifier = {
 			factor = 1.5
@@ -1266,9 +1395,14 @@ character_event = {
 				killer = ROOT
 			}
 		}
-		add_character_modifier = {
-			name = cannibal
-			duration = -1
+		if = {
+			limit = {
+				NOR = {
+					trait = cannibal_trait
+					has_character_modifier = cannibal
+				}
+			}
+			add_trait = cannibal_trait
 		}
 	}
 	option = {
@@ -1916,6 +2050,12 @@ character_event = {
 				is_father_real_father = yes
 			}
 			mother_even_if_dead = { has_character_modifier = wolf_blood }
+		}
+		NOT = {
+			has_game_rule = {
+				name = supernatural_events
+				value = off
+			}
 		}
 	}
 	
