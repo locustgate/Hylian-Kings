@@ -240,7 +240,7 @@ character_event = {
 						any_spouse = { character = FROM }
 						any_child = { character = FROM }
 						any_dynasty_member = { character = FROM}
-						religion_group =  goddesses_religion #christian
+						religion_group = goddesses_religion #christian
 						religion_group = muslim
 						AND = {
 							OR = {
@@ -260,7 +260,7 @@ character_event = {
 			}
 			if = {
 				limit = { # Christian
-					religion_group =  goddesses_religion #christian
+					religion_group = goddesses_religion #christian
 					NOT = {
 						sibling = FROM
 						father = { character = FROM }
@@ -404,7 +404,7 @@ character_event = {
 						any_spouse = { character = FROM }
 						any_child = { character = FROM }
 						any_dynasty_member = { character = FROM}
-						religion_group =  goddesses_religion #christian
+						religion_group = goddesses_religion #christian
 						religion_group = muslim
 						AND = {
 							OR = {
@@ -424,7 +424,7 @@ character_event = {
 			}
 			if = {
 				limit = { # Christian
-					religion_group =  goddesses_religion #christian
+					religion_group = goddesses_religion #christian
 					NOT = {
 						sibling = FROM
 						father = { character = FROM }
@@ -568,7 +568,7 @@ character_event = {
 						any_spouse = { character = FROM }
 						any_child = { character = FROM }
 						any_dynasty_member = { character = FROM}
-						religion_group =  goddesses_religion #christian
+						religion_group = goddesses_religion #christian
 						religion_group = muslim
 						AND = {
 							OR = {
@@ -588,7 +588,7 @@ character_event = {
 			}
 			if = {
 				limit = { # Christian
-					religion_group =  goddesses_religion #christian
+					religion_group = goddesses_religion #christian
 					NOT = {
 						sibling = FROM
 						father = { character = FROM }
@@ -732,7 +732,7 @@ character_event = {
 						any_spouse = { character = FROM }
 						any_child = { character = FROM }
 						any_dynasty_member = { character = FROM}
-						religion_group =  goddesses_religion #christian
+						religion_group = goddesses_religion #christian
 						religion_group = muslim
 						AND = {
 							OR = {
@@ -752,7 +752,7 @@ character_event = {
 			}
 			if = {
 				limit = { # Christian
-					religion_group =  goddesses_religion #christian
+					religion_group = goddesses_religion #christian
 					NOT = {
 						sibling = FROM
 						father = { character = FROM }

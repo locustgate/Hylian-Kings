@@ -3019,108 +3019,108 @@ character_event = {
 			}
 		}
 		
-		# If sympathy for religion, choose which one...
-		if = {
-			limit = { has_character_flag = curious_sympathy_religion }
-			random_list = {
-				10 = {
-					set_character_flag = add_sympathy_christendom
-					modifier = {
-						factor = 0
-						religion_group =  goddesses_religion #christian
-					}
-					modifier = {
-						factor = 0
-						NOR = {
-							educator = { religion_group =  goddesses_religion #christian }
-							location = { religion_group =  goddesses_religion #christian } 
-							any_friend = { religion_group =  goddesses_religion #christian }
-							any_sibling = { religion_group =  goddesses_religion #christian } 
-						}
-					}
-				}
-				10 = {
-					set_character_flag = add_sympathy_islam
-					modifier = {
-						factor = 0
-						religion_group = muslim
-					}
-					modifier = {
-						factor = 0
-						NOR = {
-							educator = { religion_group = muslim }
-							location = { religion_group = muslim } 
-							any_friend = { religion_group = muslim }
-							any_sibling = { religion_group = muslim }
-						}
-					}
-				}
-				10 = {
-					set_character_flag = add_sympathy_pagans
-					modifier = {
-						factor = 0
-						religion_group = pagan_group
-					}
-					modifier = {
-						factor = 0
-						NOR = {
-							educator = { religion_group = pagan_group }
-							location = { religion_group = pagan_group } 
-							any_friend = { religion_group = pagan_group } 
-							any_sibling = { religion_group = pagan_group } 
-						}
-					}
-				}
-				10 = {
-					set_character_flag = add_sympathy_zoroastrianism
-					modifier = {
-						factor = 0
-						religion_group = zoroastrian_group
-					}
-					modifier = {
-						factor = 0
-						NOR = {
-							educator = { religion_group = zoroastrian_group }
-							location = { religion_group = zoroastrian_group }
-							any_friend = { religion_group = zoroastrian_group }
-							any_sibling = { religion_group = zoroastrian_group }
-						}
-					}
-				}
-				10 = {
-					set_character_flag = add_sympathy_judaism
-					modifier = {
-						factor = 0
-						religion_group = minor_deity #jewish_group
-					}
-					modifier = {
-						factor = 0
-						NOR = {
-							educator = { religion_group = minor_deity #jewish_group }
-							location = { religion_group = minor_deity #jewish_group }
-							any_friend = { religion_group = minor_deity #jewish_group }
-							any_sibling = { religion_group = minor_deity #jewish_group }
-						}
-					}
-				}
-				10 = {
-					set_character_flag = add_sympathy_indian
-					modifier = {
-						factor = 0
-						religion_group = indian_group
-					}
-					modifier = {
-						factor = 0
-						NOR = {
-							educator = { religion_group = indian_group }
-							location = { religion_group = indian_group }
-							any_friend = { religion_group = indian_group }
-							any_sibling = { religion_group = indian_group }
-						}
-					}
-				}
-			}
-		}
+		## If sympathy for religion, choose which one...
+		#if = {
+		#	limit = { has_character_flag = curious_sympathy_religion }
+		#	random_list = {
+		#		10 = {
+		#			set_character_flag = add_sympathy_christendom
+		#			modifier = {
+		#				factor = 0
+		#				religion_group = goddesses_religion #christian
+		#			}
+		#			modifier = {
+		#				factor = 0
+		#				NOR = {
+		#					educator = { religion_group = goddesses_religion #christian }
+		#					location = { religion_group = goddesses_religion #christian } 
+		#					any_friend = { religion_group = goddesses_religion #christian }
+		#					any_sibling = { religion_group = goddesses_religion #christian } 
+		#				}
+		#			}
+		#		}
+		#		10 = {
+		#			set_character_flag = add_sympathy_islam
+		#			modifier = {
+		#				factor = 0
+		#				religion_group = muslim
+		#			}
+		#			modifier = {
+		#				factor = 0
+		#				NOR = {
+		#					educator = { religion_group = muslim }
+		#					location = { religion_group = muslim } 
+		#					any_friend = { religion_group = muslim }
+		#					any_sibling = { religion_group = muslim }
+		#				}
+		#			}
+		#		}
+		#		10 = {
+		#			set_character_flag = add_sympathy_pagans
+		#			modifier = {
+		#				factor = 0
+		#				religion_group = demon_religion #pagan_group
+		#			}
+		#			modifier = {
+		#				factor = 0
+		#				NOR = {
+		#					educator = { religion_group = demon_religion #pagan_group }
+		#					location = { religion_group = demon_religion #pagan_group } 
+		#					any_friend = { religion_group = demon_religion #pagan_group } 
+		#					any_sibling = { religion_group = demon_religion #pagan_group } 
+		#				}
+		#			}
+		#		}
+		#		10 = {
+		#			set_character_flag = add_sympathy_zoroastrianism
+		#			modifier = {
+		#				factor = 0
+		#				religion_group = zoroastrian_group
+		#			}
+		#			modifier = {
+		#				factor = 0
+		#				NOR = {
+		#					educator = { religion_group = zoroastrian_group }
+		#					location = { religion_group = zoroastrian_group }
+		#					any_friend = { religion_group = zoroastrian_group }
+		#					any_sibling = { religion_group = zoroastrian_group }
+		#				}
+		#			}
+		#		}
+		#		10 = {
+		#			set_character_flag = add_sympathy_judaism
+		#			modifier = {
+		#				factor = 0
+		#				religion_group = minor_deity #jewish_group
+		#			}
+		#			modifier = {
+		#				factor = 0
+		#				NOR = {
+		#					educator = { religion_group = minor_deity #jewish_group }
+		#					location = { religion_group = minor_deity #jewish_group }
+		#					any_friend = { religion_group = minor_deity #jewish_group }
+		#					any_sibling = { religion_group = minor_deity #jewish_group }
+		#				}
+		#			}
+		#		}
+		#		10 = {
+		#			set_character_flag = add_sympathy_indian
+		#			modifier = {
+		#				factor = 0
+		#				religion_group = indian_group
+		#			}
+		#			modifier = {
+		#				factor = 0
+		#				NOR = {
+		#					educator = { religion_group = indian_group }
+		#					location = { religion_group = indian_group }
+		#					any_friend = { religion_group = indian_group }
+		#					any_sibling = { religion_group = indian_group }
+		#				}
+		#			}
+		#		}
+		#	}
+		#}
 
 		if = {
 			limit = {
@@ -3231,49 +3231,49 @@ character_event = {
 		add_trait = cynical
 		clr_character_flag = curious_to_cynical
 	}
-	option = {
-		name = EVTOPTB_ZE_13101
-		trigger = {
-			has_character_flag = curious_sympathy_religion
-		}
-		if = {
-			limit = { has_character_flag = add_sympathy_christendom }
-			remove_trait = curious
-			add_trait = sympathy_christendom
-			clr_character_flag = add_sympathy_christendom
-		}
-		if = {
-			limit = { has_character_flag = add_sympathy_islam }
-			remove_trait = curious
-			add_trait = sympathy_islam
-			clr_character_flag = add_sympathy_islam
-		}
-		if = {
-			limit = { has_character_flag = add_sympathy_pagans }
-			remove_trait = curious
-			add_trait = sympathy_pagans
-			clr_character_flag = add_sympathy_pagans
-		}
-		if = {
-			limit = { has_character_flag = add_sympathy_zoroastrianism }
-			remove_trait = curious
-			add_trait = sympathy_zoroastrianism
-			clr_character_flag = add_sympathy_zoroastrianism
-		}
-		if = {
-			limit = { has_character_flag = add_sympathy_judaism }
-			remove_trait = curious
-			add_trait = sympathy_judaism
-			clr_character_flag = add_sympathy_judaism
-		}
-		if = {
-			limit = { has_character_flag = add_sympathy_indian }
-			remove_trait = curious
-			add_trait = sympathy_indian
-			clr_character_flag = add_sympathy_indian
-		}
-		clr_character_flag = curious_sympathy_religion
-	}
+	#option = {
+	#	name = EVTOPTB_ZE_13101
+	#	trigger = {
+	#		has_character_flag = curious_sympathy_religion
+	#	}
+	#	if = {
+	#		limit = { has_character_flag = add_sympathy_christendom }
+	#		remove_trait = curious
+	#		add_trait = sympathy_christendom
+	#		clr_character_flag = add_sympathy_christendom
+	#	}
+	#	if = {
+	#		limit = { has_character_flag = add_sympathy_islam }
+	#		remove_trait = curious
+	#		add_trait = sympathy_islam
+	#		clr_character_flag = add_sympathy_islam
+	#	}
+	#	if = {
+	#		limit = { has_character_flag = add_sympathy_pagans }
+	#		remove_trait = curious
+	#		add_trait = sympathy_pagans
+	#		clr_character_flag = add_sympathy_pagans
+	#	}
+	#	if = {
+	#		limit = { has_character_flag = add_sympathy_zoroastrianism }
+	#		remove_trait = curious
+	#		add_trait = sympathy_zoroastrianism
+	#		clr_character_flag = add_sympathy_zoroastrianism
+	#	}
+	#	if = {
+	#		limit = { has_character_flag = add_sympathy_judaism }
+	#		remove_trait = curious
+	#		add_trait = sympathy_judaism
+	#		clr_character_flag = add_sympathy_judaism
+	#	}
+	#	if = {
+	#		limit = { has_character_flag = add_sympathy_indian }
+	#		remove_trait = curious
+	#		add_trait = sympathy_indian
+	#		clr_character_flag = add_sympathy_indian
+	#	}
+	#	clr_character_flag = curious_sympathy_religion
+	#}
 	option = {
 		name = EVTOPTC_ZE_13101
 		trigger = {
@@ -3308,316 +3308,316 @@ character_event = {
 }
 
 
-# patient educator may make child patient instead
-character_event = {
-	id = ZE.13102
-	picture = GFX_evt_courtiers_talking
-
-	desc = {
-		text = EVTDESCA_ZE_13102
-		trigger = {
-			FROM = { has_character_flag = curious_to_cynical }
-		} 
-	}
-	desc = {
-		text = EVTDESCB_ZE_13102
-		trigger = {
-			FROM = { has_character_flag = curious_sympathy_religion }
-		} 
-	}
-	desc = {
-		text = EVTDESCC_ZE_13102
-		trigger = {
-			FROM = { has_character_flag = curious_to_genius }
-		}
-	}
-
-	is_triggered_only = yes
-	
-	only_capable = yes
-	
-	option = {
-		name = EVTOPTA_ZE_13102 # The child will be like me
-		FROM = {
-			custom_tooltip = { text = curious_may_become_patient }
-		}
-		hidden_tooltip = { FROM = { character_event = { id = ZE.13104 } } }
-	}
-	option = {
-		name = {
-			text = EVTOPTB_ZE_13102  # Do not intervene
-			trigger = {
-				FROM = { is_female = no }
-			}
-		}
-		name = {
-			text = EVTOPTC_ZE_13102  # Do not intervene
-			trigger = {
-				FROM = { is_female = yes }
-			}
-		}
-		hidden_tooltip = { FROM = { character_event = { id = ZE.13101 } } } # Go to normal trait change
-		if = {
-			limit = { FROM = { has_character_flag = curious_to_cynical } }
-			tooltip = { FROM = { remove_trait = curious add_trait = cynical } }
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_character_flag = add_sympathy_christendom
-				}
-			}
-			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_christendom } }
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_character_flag = add_sympathy_islam
-				}
-			}
-			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_islam } }
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_character_flag = add_sympathy_pagans
-				}
-			}
-			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_pagans } }
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_character_flag = add_sympathy_zoroastrianism
-				}
-			}
-			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_zoroastrianism } }
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_character_flag = add_sympathy_judaism
-				}
-			}
-			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_judaism } }
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_character_flag = add_sympathy_indian
-				}
-			}
-			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_indian } }
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_character_flag = curious_to_genius
-					trait = imbecile
-				}
-			}
-			tooltip = {
-				FROM = {
-					remove_trait = curious
-					remove_trait = imbecile
-					add_trait = slow
-				}
-			}
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_character_flag = curious_to_genius
-					trait = slow
-				}
-			}
-			tooltip = {
-				FROM = {
-					remove_trait = curious
-					remove_trait = slow
-				}
-			}
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_character_flag = curious_to_genius
-					OR = {
-						trait = quick
-						trait = genius
-					}
-				}
-			}
-			tooltip = {
-				FROM = {
-					remove_trait = curious
-					add_trait = shrewd
-				}
-			}
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_character_flag = curious_to_genius
-					NOT = { trait = quick }
-					NOT = { trait = slow }
-					NOT = { trait = imbecile }
-					NOT = { trait = genius }
-				}
-			}
-			tooltip = {
-				FROM = {
-					remove_trait = curious
-					add_trait = shrewd
-				}
-			}
-		}
-	}
-}
-
-# Notify child of Educator intervention and result
-character_event = {
-	id = ZE.13104
-	picture = GFX_evt_courtiers_talking
-
-	desc = {
-		text = EVTDESCA_ZE_13104
-		trigger = {
-			FROM = { has_character_flag = curious_to_cynical }
-		} 
-	}
-	desc = {
-		text = EVTDESCB_ZE_13104
-		trigger = {
-			FROM = { has_character_flag = curious_sympathy_religion }
-		} 
-	}
-	desc = {
-		text = EVTDESCC_ZE_13104
-		trigger = {
-			FROM = { has_character_flag = curious_to_genius }
-		}
-	}
-
-	is_triggered_only = yes
-	
-	only_capable = yes
-	
-	immediate = {
-		if = {
-			limit = {
-				has_character_flag = curious_to_genius
-				trait = imbecile
-			}
-			set_character_flag = curious_imbecile_to_slow
-			break = yes
-		}
-		if = {
-			limit = {
-				has_character_flag = curious_to_genius
-				trait = slow
-			}
-			set_character_flag = curious_slow_to_normal
-			break = yes
-		}
-		if = {
-			limit = {
-				has_character_flag = curious_to_genius
-				is_dumb_trigger = no
-			}
-			set_character_flag = curious_normal_to_shrewd
-			break = yes
-		}
-	}
-	
-	option = {
-		name = EVTOPTA_ZE_13104
-		remove_trait = curious
-		add_trait = patient
-		clr_character_flag = curious_to_cynical
-		clr_character_flag = curious_sympathy_religion
-		clr_character_flag = curious_to_genius
-		if = {
-			limit = {
-				educator = { ai = no }
-			}
-			educator = { set_character_flag = achievement_follow_me }
-		}
-	}
-	option = {
-		name = EVTOPTB_ZE_13104
-		trigger = {
-			has_character_flag = curious_to_cynical
-		}
-		remove_trait = curious
-		add_trait = cynical
-		clr_character_flag = curious_to_cynical
-	}
-	option = {
-		name = EVTOPTC_ZE_13104
-		trigger = {
-			has_character_flag = curious_sympathy_religion
-		}
-		remove_trait = curious
-		if = {
-			limit = { has_character_flag = add_sympathy_christendom }
-			add_trait = sympathy_christendom
-			clr_character_flag = add_sympathy_christendom
-		}
-		if = {
-			limit = { has_character_flag = add_sympathy_islam }
-			add_trait = sympathy_islam
-			clr_character_flag = add_sympathy_islam
-		}
-		if = {
-			limit = { has_character_flag = add_sympathy_pagans }
-			add_trait = sympathy_pagans
-			clr_character_flag = add_sympathy_pagans
-		}
-		if = {
-			limit = { has_character_flag = add_sympathy_zoroastrianism }
-			add_trait = sympathy_zoroastrianism
-			clr_character_flag = add_sympathy_zoroastrianism
-		}
-		if = {
-			limit = { has_character_flag = add_sympathy_judaism }
-			add_trait = sympathy_judaism
-			clr_character_flag = add_sympathy_judaism
-		}
-		if = {
-			limit = { has_character_flag = add_sympathy_indian }
-			add_trait = sympathy_indian
-			clr_character_flag = add_sympathy_indian
-		}
-		clr_character_flag = curious_sympathy_religion
-	}
-	option = {
-		name = EVTOPTD_ZE_13104
-		trigger = {
-			has_character_flag = curious_to_genius
-		}
-		clr_character_flag = curious_to_genius
-		if = {
-			limit = { has_character_flag = curious_imbecile_to_slow }
-			remove_trait = curious
-			remove_trait = imbecile
-			add_trait = slow
-			clr_character_flag = curious_imbecile_to_slow
-		}
-		if = {
-			limit = { has_character_flag = curious_slow_to_normal }
-			remove_trait = curious
-			remove_trait = slow
-			clr_character_flag = curious_slow_to_normal
-		}
-		if = {
-			limit = { has_character_flag = curious_normal_to_shrewd }
-			remove_trait = curious
-			add_trait = shrewd
-			clr_character_flag = curious_normal_to_shrewd
-		}
-	}
-}
+## patient educator may make child patient instead
+#character_event = {
+#	id = ZE.13102
+#	picture = GFX_evt_courtiers_talking
+#
+#	desc = {
+#		text = EVTDESCA_ZE_13102
+#		trigger = {
+#			FROM = { has_character_flag = curious_to_cynical }
+#		} 
+#	}
+#	desc = {
+#		text = EVTDESCB_ZE_13102
+#		trigger = {
+#			FROM = { has_character_flag = curious_sympathy_religion }
+#		} 
+#	}
+#	desc = {
+#		text = EVTDESCC_ZE_13102
+#		trigger = {
+#			FROM = { has_character_flag = curious_to_genius }
+#		}
+#	}
+#
+#	is_triggered_only = yes
+#	
+#	only_capable = yes
+#	
+#	option = {
+#		name = EVTOPTA_ZE_13102 # The child will be like me
+#		FROM = {
+#			custom_tooltip = { text = curious_may_become_patient }
+#		}
+#		hidden_tooltip = { FROM = { character_event = { id = ZE.13104 } } }
+#	}
+#	option = {
+#		name = {
+#			text = EVTOPTB_ZE_13102  # Do not intervene
+#			trigger = {
+#				FROM = { is_female = no }
+#			}
+#		}
+#		name = {
+#			text = EVTOPTC_ZE_13102  # Do not intervene
+#			trigger = {
+#				FROM = { is_female = yes }
+#			}
+#		}
+#		hidden_tooltip = { FROM = { character_event = { id = ZE.13101 } } } # Go to normal trait change
+#		if = {
+#			limit = { FROM = { has_character_flag = curious_to_cynical } }
+#			tooltip = { FROM = { remove_trait = curious add_trait = cynical } }
+#		}
+#		if = {
+#			limit = {
+#				FROM = {
+#					has_character_flag = add_sympathy_christendom
+#				}
+#			}
+#			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_christendom } }
+#		}
+#		if = {
+#			limit = {
+#				FROM = {
+#					has_character_flag = add_sympathy_islam
+#				}
+#			}
+#			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_islam } }
+#		}
+#		if = {
+#			limit = {
+#				FROM = {
+#					has_character_flag = add_sympathy_pagans
+#				}
+#			}
+#			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_pagans } }
+#		}
+#		if = {
+#			limit = {
+#				FROM = {
+#					has_character_flag = add_sympathy_zoroastrianism
+#				}
+#			}
+#			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_zoroastrianism } }
+#		}
+#		if = {
+#			limit = {
+#				FROM = {
+#					has_character_flag = add_sympathy_judaism
+#				}
+#			}
+#			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_judaism } }
+#		}
+#		if = {
+#			limit = {
+#				FROM = {
+#					has_character_flag = add_sympathy_indian
+#				}
+#			}
+#			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_indian } }
+#		}
+#		if = {
+#			limit = {
+#				FROM = {
+#					has_character_flag = curious_to_genius
+#					trait = imbecile
+#				}
+#			}
+#			tooltip = {
+#				FROM = {
+#					remove_trait = curious
+#					remove_trait = imbecile
+#					add_trait = slow
+#				}
+#			}
+#		}
+#		if = {
+#			limit = {
+#				FROM = {
+#					has_character_flag = curious_to_genius
+#					trait = slow
+#				}
+#			}
+#			tooltip = {
+#				FROM = {
+#					remove_trait = curious
+#					remove_trait = slow
+#				}
+#			}
+#		}
+#		if = {
+#			limit = {
+#				FROM = {
+#					has_character_flag = curious_to_genius
+#					OR = {
+#						trait = quick
+#						trait = genius
+#					}
+#				}
+#			}
+#			tooltip = {
+#				FROM = {
+#					remove_trait = curious
+#					add_trait = shrewd
+#				}
+#			}
+#		}
+#		if = {
+#			limit = {
+#				FROM = {
+#					has_character_flag = curious_to_genius
+#					NOT = { trait = quick }
+#					NOT = { trait = slow }
+#					NOT = { trait = imbecile }
+#					NOT = { trait = genius }
+#				}
+#			}
+#			tooltip = {
+#				FROM = {
+#					remove_trait = curious
+#					add_trait = shrewd
+#				}
+#			}
+#		}
+#	}
+#}
+#
+## Notify child of Educator intervention and result
+#character_event = {
+#	id = ZE.13104
+#	picture = GFX_evt_courtiers_talking
+#
+#	desc = {
+#		text = EVTDESCA_ZE_13104
+#		trigger = {
+#			FROM = { has_character_flag = curious_to_cynical }
+#		} 
+#	}
+#	desc = {
+#		text = EVTDESCB_ZE_13104
+#		trigger = {
+#			FROM = { has_character_flag = curious_sympathy_religion }
+#		} 
+#	}
+#	desc = {
+#		text = EVTDESCC_ZE_13104
+#		trigger = {
+#			FROM = { has_character_flag = curious_to_genius }
+#		}
+#	}
+#
+#	is_triggered_only = yes
+#	
+#	only_capable = yes
+#	
+#	immediate = {
+#		if = {
+#			limit = {
+#				has_character_flag = curious_to_genius
+#				trait = imbecile
+#			}
+#			set_character_flag = curious_imbecile_to_slow
+#			break = yes
+#		}
+#		if = {
+#			limit = {
+#				has_character_flag = curious_to_genius
+#				trait = slow
+#			}
+#			set_character_flag = curious_slow_to_normal
+#			break = yes
+#		}
+#		if = {
+#			limit = {
+#				has_character_flag = curious_to_genius
+#				is_dumb_trigger = no
+#			}
+#			set_character_flag = curious_normal_to_shrewd
+#			break = yes
+#		}
+#	}
+#	
+#	option = {
+#		name = EVTOPTA_ZE_13104
+#		remove_trait = curious
+#		add_trait = patient
+#		clr_character_flag = curious_to_cynical
+#		clr_character_flag = curious_sympathy_religion
+#		clr_character_flag = curious_to_genius
+#		if = {
+#			limit = {
+#				educator = { ai = no }
+#			}
+#			educator = { set_character_flag = achievement_follow_me }
+#		}
+#	}
+#	option = {
+#		name = EVTOPTB_ZE_13104
+#		trigger = {
+#			has_character_flag = curious_to_cynical
+#		}
+#		remove_trait = curious
+#		add_trait = cynical
+#		clr_character_flag = curious_to_cynical
+#	}
+#	option = {
+#		name = EVTOPTC_ZE_13104
+#		trigger = {
+#			has_character_flag = curious_sympathy_religion
+#		}
+#		remove_trait = curious
+#		if = {
+#			limit = { has_character_flag = add_sympathy_christendom }
+#			add_trait = sympathy_christendom
+#			clr_character_flag = add_sympathy_christendom
+#		}
+#		if = {
+#			limit = { has_character_flag = add_sympathy_islam }
+#			add_trait = sympathy_islam
+#			clr_character_flag = add_sympathy_islam
+#		}
+#		if = {
+#			limit = { has_character_flag = add_sympathy_pagans }
+#			add_trait = sympathy_pagans
+#			clr_character_flag = add_sympathy_pagans
+#		}
+#		if = {
+#			limit = { has_character_flag = add_sympathy_zoroastrianism }
+#			add_trait = sympathy_zoroastrianism
+#			clr_character_flag = add_sympathy_zoroastrianism
+#		}
+#		if = {
+#			limit = { has_character_flag = add_sympathy_judaism }
+#			add_trait = sympathy_judaism
+#			clr_character_flag = add_sympathy_judaism
+#		}
+#		if = {
+#			limit = { has_character_flag = add_sympathy_indian }
+#			add_trait = sympathy_indian
+#			clr_character_flag = add_sympathy_indian
+#		}
+#		clr_character_flag = curious_sympathy_religion
+#	}
+#	option = {
+#		name = EVTOPTD_ZE_13104
+#		trigger = {
+#			has_character_flag = curious_to_genius
+#		}
+#		clr_character_flag = curious_to_genius
+#		if = {
+#			limit = { has_character_flag = curious_imbecile_to_slow }
+#			remove_trait = curious
+#			remove_trait = imbecile
+#			add_trait = slow
+#			clr_character_flag = curious_imbecile_to_slow
+#		}
+#		if = {
+#			limit = { has_character_flag = curious_slow_to_normal }
+#			remove_trait = curious
+#			remove_trait = slow
+#			clr_character_flag = curious_slow_to_normal
+#		}
+#		if = {
+#			limit = { has_character_flag = curious_normal_to_shrewd }
+#			remove_trait = curious
+#			add_trait = shrewd
+#			clr_character_flag = curious_normal_to_shrewd
+#		}
+#	}
+#}
 
 
 #############################################

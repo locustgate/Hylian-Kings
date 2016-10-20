@@ -52,7 +52,7 @@ character_event = {
 		if = {
 			limit = {
 				NOT = { trait = kinslayer }
-				NOT = { religion_group = muslim }
+				NOT = { religion_group = gerudo_goddesses #muslim }
 				event_target:target_victim = {
 					dynasty = ROOT
 				}
@@ -316,7 +316,7 @@ character_event = {
 		
 		if = {
 			limit = {
-				religion_group =  goddesses_religion #christian
+				religion_group = goddesses_religion #christian
 				OR = {
 					AND = {
 						is_ruler = yes
@@ -453,8 +453,8 @@ character_event = {
 					if = {
 						limit = {
 							is_close_relative = PREV
-							NOT = { religion = messalian }
-							NOT = { religion = zoroastrian }
+							#NOT = { #religion = messalian }
+							#NOT = { religion = zoroastrian }
 						}
 						add_character_modifier = {
 							name = incestuous_adulteress
@@ -465,7 +465,7 @@ character_event = {
 						limit = {
 							OR = {
 								NOT = { is_close_relative = PREV }
-								religion = messalian
+								#religion = messalian
 								religion = zoroastrian
 							}
 						}
@@ -530,7 +530,7 @@ character_event = {
 						limit = { same_sex = PREV }
 						if = {
 							limit = {
-								religion_group = pagan_group
+								religion_group = demon_religion #pagan_group
 							}
 							add_character_modifier = {
 								name = known_sodomite_pagan
@@ -539,7 +539,7 @@ character_event = {
 						}
 						if = {
 							limit = {
-								NOT = { religion_group = pagan_group }
+								NOT = { religion_group = demon_religion #pagan_group }
 							}
 							add_character_modifier = {
 								name = known_sodomite
@@ -551,8 +551,8 @@ character_event = {
 					if = {
 						limit = {
 							is_close_relative = PREV
-							NOT = { religion = messalian }
-							NOT = { religion = zoroastrian }
+							#NOT = { #religion = messalian }
+							#NOT = { religion = zoroastrian }
 						}
 						add_character_modifier = {
 							name = incestuous_adulterer
@@ -564,13 +564,13 @@ character_event = {
 							is_married = yes
 							OR = {
 								NOT = { is_close_relative = PREV }
-								religion = messalian
+								#religion = messalian
 								religion = zoroastrian
 							}
 						}
 						if = {
 							limit = {
-								NOT = { religion_group = pagan_group }
+								NOT = { religion_group = demon_religion #pagan_group }
 							}
 							add_character_modifier = {
 								name = adulterer
@@ -744,7 +744,7 @@ character_event = {
 			if = {
 				limit = { 
 					dynasty = ROOT 
-					NOT = { religion_group = muslim }
+					NOT = { religion_group = gerudo_goddesses #muslim }
 				}
 				add_trait = kinslayer
 			}
@@ -1612,7 +1612,7 @@ narrative_event = {
 	
 	trigger = {
 		can_call_crusade = yes
-		ROOT = { religion_group =  goddesses_religion #christian }
+		ROOT = { religion_group = goddesses_religion #christian }
 		new_character = {
 			religion_group = muslim
 		}
@@ -1670,10 +1670,10 @@ narrative_event = {
 	
 	trigger = {
 		can_call_crusade = yes
-		ROOT = { religion_group =  goddesses_religion #christian }
+		ROOT = { religion_group = goddesses_religion #christian }
 		new_character = {
-			NOT = { religion_group = muslim }
-			NOT = { religion_group =  goddesses_religion #christian }
+			NOT = { religion_group = gerudo_goddesses #muslim }
+			NOT = { religion_group = goddesses_religion #christian }
 		}
 	}
 	
@@ -1729,9 +1729,9 @@ narrative_event = {
 	
 	trigger = {
 		can_call_crusade = yes
-		ROOT = { religion_group =  goddesses_religion #christian }
+		ROOT = { religion_group = goddesses_religion #christian }
 		new_character = {
-			religion_group =  goddesses_religion #christian
+			religion_group = goddesses_religion #christian
 		}
 	}
 	
@@ -1789,7 +1789,7 @@ narrative_event = {
 		can_call_crusade = yes
 		ROOT = { religion_group = muslim }
 		new_character = {
-			religion_group =  goddesses_religion #christian
+			religion_group = goddesses_religion #christian
 		}
 	}
 	
@@ -1847,8 +1847,8 @@ narrative_event = {
 		can_call_crusade = yes
 		ROOT = { religion_group = muslim }
 		new_character = {
-			NOT = { religion_group = muslim }
-			NOT = { religion_group =  goddesses_religion #christian }
+			NOT = { religion_group = gerudo_goddesses #muslim }
+			NOT = { religion_group = goddesses_religion #christian }
 		}
 	}
 	
@@ -1962,9 +1962,9 @@ narrative_event = {
 	
 	trigger = {
 		can_call_crusade = yes
-		ROOT = { religion_group = pagan_group }
+		ROOT = { religion_group = demon_religion #pagan_group }
 		new_character = {
-			religion_group =  goddesses_religion #christian
+			religion_group = goddesses_religion #christian
 		}
 	}
 	
@@ -2020,7 +2020,7 @@ narrative_event = {
 	
 	trigger = {
 		can_call_crusade = yes
-		ROOT = { religion_group = pagan_group }
+		ROOT = { religion_group = demon_religion #pagan_group }
 		new_character = {
 			religion_group = muslim
 		}
@@ -2078,10 +2078,10 @@ narrative_event = {
 	
 	trigger = {
 		can_call_crusade = yes
-		ROOT = { religion_group = pagan_group }
+		ROOT = { religion_group = demon_religion #pagan_group }
 		new_character = {
-			NOT = { religion_group = muslim }
-			NOT = { religion_group =  goddesses_religion #christian }
+			NOT = { religion_group = gerudo_goddesses #muslim }
+			NOT = { religion_group = goddesses_religion #christian }
 		}
 	}
 	
@@ -2133,8 +2133,8 @@ narrative_event = {
 		text = EVTDESC327
 		trigger = {
 			new_character = {
-				NOT = { religion_group =  goddesses_religion #christian }
-				NOT = { religion_group = muslim }
+				NOT = { religion_group = goddesses_religion #christian }
+				NOT = { religion_group = gerudo_goddesses #muslim }
 			}
 		}
 	}
@@ -2150,7 +2150,7 @@ narrative_event = {
 		text = EVTDESC327_CHRIST
 		trigger = {
 			new_character = {
-				religion_group =  goddesses_religion #christian
+				religion_group = goddesses_religion #christian
 			}
 		}
 	}
@@ -2213,8 +2213,8 @@ narrative_event = {
 		text = EVTDESC328
 		trigger = {
 			new_character = {
-				NOT = { religion_group =  goddesses_religion #christian }
-				NOT = { religion_group = muslim }
+				NOT = { religion_group = goddesses_religion #christian }
+				NOT = { religion_group = gerudo_goddesses #muslim }
 			}
 		}
 	}
@@ -2230,7 +2230,7 @@ narrative_event = {
 		text = EVTDESC328_CHRIST
 		trigger = {
 			new_character = {
-				religion_group =  goddesses_religion #christian
+				religion_group = goddesses_religion #christian
 			}
 		}
 	}
@@ -2925,13 +2925,13 @@ diploresponse_event = {
 	desc = {
 		text = EVTDESC236
 		trigger = {
-			religion_group =  goddesses_religion #christian
+			religion_group = goddesses_religion #christian
 		}
 	}
 	desc = {
 		text = EVTDESC236_NC
 		trigger = {
-			NOT = { religion_group =  goddesses_religion #christian }
+			NOT = { religion_group = goddesses_religion #christian }
 		}
 	}
 
@@ -3520,8 +3520,8 @@ character_event = {
 		}
 		OR = {
 			AND = {
-				NOT = { religion = zoroastrian }
-				NOT = { religion = messalian }
+				#NOT = { religion = zoroastrian }
+				#NOT = { #religion = messalian }
 			}
 			NOT = { new_character = { is_close_relative = FROM } }
 		}
@@ -3736,7 +3736,7 @@ character_event = {
 	desc = EVTDESC502
 	picture = GFX_evt_marriage
 	
-	religion = messalian
+	#religion = messalian
 	
 	is_triggered_only = yes
 	

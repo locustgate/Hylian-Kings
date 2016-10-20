@@ -1702,7 +1702,7 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	culture_group = north_germanic
-	religion_group = pagan_group
+	religion_group = demon_religion #pagan_group
 	has_character_flag = serving_varangian
 	
 	trigger = {

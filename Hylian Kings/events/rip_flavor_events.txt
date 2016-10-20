@@ -2576,9 +2576,9 @@ character_event = {
 				is_landless_type_title = no
 			}
 			OR = {
-				NOT = { religion_group = pagan_group }
+				NOT = { religion_group = demon_religion #pagan_group }
 				AND = {
-					religion_group = pagan_group
+					religion_group = demon_religion #pagan_group
 					is_reformed_religion = yes
 				}
 			}
@@ -2619,9 +2619,9 @@ character_event = {
 					is_landless_type_title = no
 				}
 				OR = {
-					NOT = { religion_group = pagan_group }
+					NOT = { religion_group = demon_religion #pagan_group }
 					AND = {
-						religion_group = pagan_group
+						religion_group = demon_religion #pagan_group
 						is_reformed_religion = yes
 					}
 				}
@@ -2816,7 +2816,7 @@ character_event = {
 			modifier = {
 				factor = 0
 				NOT = {
-					religion_group = pagan_group
+					religion_group = demon_religion #pagan_group
 				}
 			}
 		}
@@ -2830,7 +2830,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				religion_group = pagan_group
+				religion_group = demon_religion #pagan_group
 			}
 			add_trait = sympathy_pagans
 		}
@@ -10612,8 +10612,8 @@ character_event = {
 			}
 		}
 		OR = {
-			religion_group =  goddesses_religion #christian
-			any_realm_province = { any_neighbor_province = { owner = { religion_group =  goddesses_religion #christian } } } 
+			religion_group = goddesses_religion #christian
+			any_realm_province = { any_neighbor_province = { owner = { religion_group = goddesses_religion #christian } } } 
 		}
 		is_nomadic = no
 		NOT = { has_character_flag = chess_with_death }
@@ -10654,7 +10654,7 @@ character_event = {
 		
 
 		if = {
-			limit = { religion_group =  goddesses_religion #christian }
+			limit = { religion_group = goddesses_religion #christian }
 			random_list = {
 				50 = {
 					create_character = {
@@ -10699,7 +10699,7 @@ character_event = {
 			}			
 		}
 		if = {
-			limit = { NOT = { religion_group =  goddesses_religion #christian } }
+			limit = { NOT = { religion_group = goddesses_religion #christian } }
 			random_list = {
 				50 = {
 					create_character = {
@@ -10710,7 +10710,7 @@ character_event = {
 						name = Eugenia
 						culture = italian
 						race = italian
-						religion = catholic
+						religion = golden_goddesses #catholic
 						trait = mastermind_theologian
 						trait = nun
 						trait = chaste
@@ -10734,7 +10734,7 @@ character_event = {
 						name = Augusto
 						culture = italian
 						race = italian
-						religion = catholic
+						religion = golden_goddesses #catholic
 						trait = mastermind_theologian
 						trait = monk
 						trait = chaste
@@ -10893,7 +10893,7 @@ character_event = {
 		custom_tooltip = { text = EVTOPTA_RIP_30223_TOOLTIP }
 
 		if = {
-			limit = { NOT = { religion_group =  goddesses_religion #christian } }
+			limit = { NOT = { religion_group = goddesses_religion #christian } }
 			remove_trait_zealous_effect = yes
 			add_trait = sympathy_christendom
 		}
@@ -10918,18 +10918,18 @@ character_event = {
 	#Go away! 
 	option = {
 		name = {
-			trigger = { religion_group =  goddesses_religion #christian }
+			trigger = { religion_group = goddesses_religion #christian }
 			text = EVTOPTC_RIP_30223_A
 		}
 		name = {
-			trigger = { NOT = { religion_group =  goddesses_religion #christian } }
+			trigger = { NOT = { religion_group = goddesses_religion #christian } }
 			text = EVTOPTC_RIP_30223_B
 		}
 
 		custom_tooltip = { text = EVTOPTC_RIP_30223_TOOLTIP }
 
 		if = {
-			limit = { religion_group =  goddesses_religion #christian }
+			limit = { religion_group = goddesses_religion #christian }
 
 			piety = -50
 
@@ -12111,7 +12111,7 @@ character_event = {
 				random_traits = no
 				name = "Ramirez"
 				dynasty = none
-				religion = catholic
+				religion = golden_goddesses #catholic
 				culture = scottish
 				female = no
 				age = 1500
@@ -12177,7 +12177,7 @@ character_event = {
 				random_traits = no
 				name = "Arthur"
 				dynasty = none
-				religion = catholic
+				religion = golden_goddesses #catholic
 				culture = breton
 				female = no
 				age = 950

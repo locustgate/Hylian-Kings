@@ -1110,7 +1110,7 @@ narrative_event = {
 		}
 		religion_group =  goddesses_religion #christian
 		enemy = {
-			religion_group = pagan_group
+			religion_group = demon_religion #pagan_group
 		}
 	}
 
@@ -1733,7 +1733,7 @@ character_event = {
 			is_female = yes
 			new_character = {
 				OR = {
-					religion_group = pagan_group
+					religion_group = demon_religion #pagan_group
 					religion_group = zoroastrian_group
 				}
 			}

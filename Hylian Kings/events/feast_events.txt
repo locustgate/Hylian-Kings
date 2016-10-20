@@ -1876,7 +1876,7 @@ character_event = {
 									NOT = { trait = chaste }
 								}
 								OR = {
-									religion_group =  goddesses_religion #christian
+									religion_group = goddesses_religion #christian
 									religion_group = minor_deity #jewish_group
 								}
 								has_lover = no
@@ -1957,7 +1957,7 @@ character_event = {
 								NOT = { trait = chaste }
 							}
 							OR = {
-								religion_group =  goddesses_religion #christian
+								religion_group = goddesses_religion #christian
 								religion_group = minor_deity #jewish_group
 							}
 							has_lover = no

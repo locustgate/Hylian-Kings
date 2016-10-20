@@ -143,7 +143,7 @@ character_event = {
 			}
 		}
 		OR = {
-			religion_group =  goddesses_religion #christian
+			religion_group = goddesses_religion #christian
 			religion_group = muslim
 			religion_group = zoroastrian_group
 			religion_group = minor_deity #jewish_group
@@ -849,7 +849,7 @@ character_event = {
 
 		if = {
 			limit = {
-				religion_group =  goddesses_religion #christian
+				religion_group = goddesses_religion #christian
 			}				
 			add_trait = nun
 		}
@@ -1774,7 +1774,7 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		NOT = { religion_group = pagan_group }
+		NOT = { religion_group = demon_religion #pagan_group }
 		NOT = { has_character_flag = demon_child_non_pagan_got_nanny }
 	}
 	
@@ -1852,7 +1852,7 @@ character_event = {
 				
 				if = {
 					limit = {
-						religion_group =  goddesses_religion #christian
+						religion_group = goddesses_religion #christian
 					}
 					add_trait = nun
 				}
@@ -1918,7 +1918,7 @@ character_event = {
 				
 				if = {
 					limit = {
-						religion_group =  goddesses_religion #christian
+						religion_group = goddesses_religion #christian
 					}
 					add_trait = nun
 				}
@@ -1950,7 +1950,7 @@ character_event = {
 	trigger = {
 		is_ruler = no
 		is_consort = no
-		NOT = { religion_group = pagan_group }
+		NOT = { religion_group = demon_religion #pagan_group }
 		NOT = {
 			any_courtier = {
 				has_character_flag = demon_child_non_pagan
@@ -2020,7 +2020,7 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		NOT = { religion_group = pagan_group }
+		NOT = { religion_group = demon_religion #pagan_group }
 		OR = {
 			ai = no
 			liege = {

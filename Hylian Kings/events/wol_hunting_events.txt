@@ -27,7 +27,7 @@ character_event = {
 	trigger = {
 		has_focus = focus_hunting
 		in_command = no
-		NOT = { religion = jain }
+		NOT = { religion = great_deku # jain }
 		NOT = { has_character_flag = do_not_disturb }
 		NOT = { has_character_flag = epic_hunt }
 	}
@@ -1764,7 +1764,7 @@ character_event = {
 		NOT = { has_character_modifier = pet_hunting_dog }
 		NOT = { has_character_flag = offered_puppy }
 		NOT = { has_character_flag = had_hunting_dog }
-		NOT = { religion = jain }
+		NOT = { religion = great_deku # jain }
 	}
 
 	immediate = {
@@ -1984,7 +1984,7 @@ character_event = {
 				trait = cynical
 				trait = possessed
 			}
-			religion_group =  goddesses_religion #christian
+			religion_group = goddesses_religion #christian
 		}
 		set_character_flag = dog_name_lucifer
 		hidden_tooltip = { character_event = { id = WoL.5204 days = 150 } }
@@ -2176,7 +2176,7 @@ character_event = {
 				trait = cynical
 				trait = possessed
 			}
-			religion = jain
+			religion = great_deku # jain
 		}
 		set_character_flag = dog_name_punisher
 		hidden_tooltip = { character_event = { id = WoL.5204 days = 150 } }

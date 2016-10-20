@@ -153,9 +153,9 @@ narrative_event = {
 		}
 		is_adult = yes
 		NOT = { num_of_children = 1 }
-		culture_group = altaic
-		NOT = { culture = khitan }
-		NOT = { religion = jain }
+		culture_group = round_eared #altaic
+		#NOT = { culture = khitan }
+		#NOT = { religion = jain }
 		NOT = {
 			any_close_relative = {
 				OR = {
@@ -1464,8 +1464,8 @@ character_event = {
 
 	trigger = {
 		has_character_modifier = wolf_blood
-		NOT = { trait = patient }
-		NOT = { religion = jain }
+		#NOT = { trait = patient }
+		#NOT = { religion = jain }
 		NOT = { has_character_flag = wolf_hunting_instinct_at_court }
 	}
 	

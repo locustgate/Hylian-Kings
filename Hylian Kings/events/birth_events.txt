@@ -72,10 +72,10 @@ character_event = {
 			factor = 5.0
 			num_of_lovers = 4
 		}
-		modifier = {
-			factor = 4.0
-			religion_group = muslim
-		}
+		#modifier = {
+		#	factor = 4.0
+		#	religion_group = muslim
+		#}
 		modifier = {
 			factor = 0.33
 			trait = homosexual # To balance for fewer potential lovers
@@ -242,18 +242,18 @@ character_event = {
 				has_focus = focus_seduction
 			}
 		}
-		if = {
-			limit = {
-				NOT = { religion_group = zoroastrian_group }
-			}
-			piety = 5
-		}
-		if = {
-			limit = {
-				religion_group = zoroastrian_group
-			}
-			piety = -5
-		}
+		#if = {
+		#	limit = {
+		#		NOT = { religion_group = zoroastrian_group }
+		#	}
+		#	piety = 5
+		#}
+		#if = {
+		#	limit = {
+		#		religion_group = zoroastrian_group
+		#	}
+		#	piety = -5
+		#}
 	}
 	option = {
 		name = EVTOPTC451 # Not my type
@@ -1851,32 +1851,32 @@ character_event = {
 	}
 	
 	option = {
-		name = {
-			text = EVTOPTB21003 # Unholy!
-			trigger = {
-				NOT = { religion = zoroastrian }
-				NOT = { religion = messalian }
-				FROM = {
-					father_of_unborn = {
-						is_close_relative = PREV
-					}
-				}
-			}
-		}
-		name = {
-			text = EVTOPTC21003 # Holy, but they are still traitors!
-			trigger = {
-				OR = {
-					religion = zoroastrian
-					religion = messalian
-				}
-				FROM = {
-					father_of_unborn = {
-						is_close_relative = PREV
-					}
-				}
-			}
-		}
+		#name = {
+		#	text = EVTOPTB21003 # Unholy!
+		#	trigger = {
+		#		NOT = { religion = zoroastrian }
+		#		NOT = { #religion = messalian }
+		#		FROM = {
+		#			father_of_unborn = {
+		#				is_close_relative = PREV
+		#			}
+		#		}
+		#	}
+		#}
+		#name = {
+		#	text = EVTOPTC21003 # Holy, but they are still traitors!
+		#	trigger = {
+		#		OR = {
+		#			religion = zoroastrian
+		#			#religion = messalian
+		#		}
+		#		FROM = {
+		#			father_of_unborn = {
+		#				is_close_relative = PREV
+		#			}
+		#		}
+		#	}
+		#}
 		name = {
 			text = EVTOPTD21003 # Traitors!
 			trigger = {
@@ -2195,15 +2195,15 @@ character_event = {
 			modifier = {
 				factor = 0.2
 				trait = zealous
-				religion_group =  goddesses_religion #christian
-				NOT = {
-					OR = {
-						religion = bogomilist
-						religion = cathar
-						religion = paulician
-						religion = messalian
-					}
-				}
+				religion_group = goddesses_religion #christian
+				#NOT = {
+				#	OR = {
+				#		religion = bogomilist
+				#		religion_group =goddesses_religion #religion_group = goddesses_religion #religion = cathar
+				#		religion = paulician
+				#		#religion = messalian
+				#	}
+				#}
 			}
 			modifier = {
 				factor = 2.0
@@ -2257,15 +2257,15 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				trait = zealous
-				religion_group =  goddesses_religion #christian
-				NOT = {
-					OR = {
-						religion = bogomilist
-						religion = cathar
-						religion = paulician
-						religion = messalian
-					}
-				}
+				religion_group = goddesses_religion #christian
+				#NOT = {
+				#	OR = {
+				#		religion = bogomilist
+				#		religion_group =goddesses_religion #religion_group = goddesses_religion #religion = cathar
+				#		religion = paulician
+				#		#religion = messalian
+				#	}
+				#}
 			}
 			modifier = {
 				factor = 2.0

@@ -155,7 +155,7 @@ character_event = {
 	min_age = 16
 	only_men = yes
 	only_playable = yes
-	religion = catholic
+	religion = golden_goddesses #catholic
 	
 	trigger = {
 		has_dlc = "The Old Gods"
@@ -357,7 +357,7 @@ character_event = {
 	min_age = 16
 	only_men = yes
 	only_playable = yes
-	religion = catholic
+	religion = golden_goddesses #catholic
 	
 	trigger = {
 		has_dlc = "The Old Gods"
@@ -559,7 +559,7 @@ character_event = {
 	min_age = 16
 	only_men = yes
 	only_playable = yes
-	religion = catholic
+	religion = golden_goddesses #catholic
 	
 	trigger = {
 		has_dlc = "The Old Gods"
@@ -761,7 +761,7 @@ character_event = {
 	min_age = 16
 	only_men = yes
 	only_playable = yes
-	religion = catholic
+	religion = golden_goddesses #catholic
 	
 	trigger = {
 		has_dlc = "The Old Gods"
@@ -961,7 +961,7 @@ character_event = {
 	min_age = 16
 	only_men = yes
 	only_playable = yes
-	religion = catholic
+	religion = golden_goddesses #catholic
 	has_global_flag = norse_reformation
 	
 	trigger = {

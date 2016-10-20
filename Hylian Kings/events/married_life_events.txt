@@ -164,7 +164,7 @@ character_event = {
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	religion = catholic
+	religion = golden_goddesses #catholic
 	is_married = yes
 	
 	is_triggered_only = yes
@@ -332,9 +332,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA30004" #Poison!
 		if = {
-			limit = { religion = jain }
+			limit = { religion = great_deku # }
 			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
+			#custom_tooltip = { text = great_deku # jain_ahimsa_tooltip }
 		}
 		spouse = {
 			random_child = {
@@ -562,9 +562,9 @@ character_event = {
 	option = {
 		name = "EVTOPTC30006" #Poison courtier
 		if = {
-			limit = { religion = jain }
+			limit = { religion = great_deku # }
 			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
+			#custom_tooltip = { text = great_deku # jain_ahimsa_tooltip }
 		}
 		random_list = {
 			50 = {
@@ -715,9 +715,9 @@ character_event = {
 	option = {
 		name = "EVTOPTC30006" #Poison courtier
 		if = {
-			limit = { religion = jain }
+			limit = { religion = great_deku # }
 			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
+			#custom_tooltip = { text = great_deku # jain_ahimsa_tooltip }
 		}
 		random_list = {
 			50 = {
@@ -2228,10 +2228,10 @@ character_event = {
 	is_triggered_only = yes	
 	
 	trigger = {
-		NOT = { religion = jain }
+		NOT = { religion = great_deku # jain }
 		spouse = {
 			NOT = { trait = incapable }
-			NOT = { religion = jain }
+			NOT = { religion = great_deku # jain }
 			is_female = yes
 			prisoner = no
 			is_alive = yes
@@ -4004,9 +4004,9 @@ character_event = {
 	option = {
 		name = "EVTOPTB30080" #Execute courtier
 		if = {
-			limit = { religion = jain }
+			limit = { religion = great_deku # }
 			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
+			#custom_tooltip = { text = great_deku # jain_ahimsa_tooltip }
 		}
 		event_target:sire_bastard = {
 			death = {
@@ -4066,9 +4066,9 @@ character_event = {
 	option = {
 		name = "EVTOPTB30081" #Execute
 		if = {
-			limit = { religion = jain }
+			limit = { religion = great_deku # }
 			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
+			#custom_tooltip = { text = great_deku # jain_ahimsa_tooltip }
 		}
 		event_target:sire_bastard = {
 			death = {
@@ -4312,7 +4312,7 @@ character_event = {
 	option = {
 		name = "EVTOPTC30088"
 		trigger = {
-			NOT = { religion = jain }
+			NOT = { religion = great_deku # jain }
 			NOT = {
 				has_character_flag = failed_hunt
 				has_character_flag = perfect_hunt

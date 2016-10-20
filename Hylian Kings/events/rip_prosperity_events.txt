@@ -554,7 +554,7 @@ province_event = { # Province Modifier Tombola
 				modifier = {
 					factor = 0
 					NOR = {
-						owner = { religion_group =  goddesses_religion #christian }
+						owner = { religion_group = goddesses_religion #christian }
 						owner = { religion_group = muslim }
 						owner = { religion_group = zoroastrian_group }
 					}
@@ -583,7 +583,7 @@ province_event = { # Province Modifier Tombola
 				modifier = {
 					factor = 0
 					OR = {
-						owner = { religion_group =  goddesses_religion #christian }
+						owner = { religion_group = goddesses_religion #christian }
 						owner = { religion_group = muslim }
 						owner = { religion_group = zoroastrian_group }
 					}

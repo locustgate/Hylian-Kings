@@ -23,11 +23,11 @@ character_event = {
 
 	trigger = {
 		NOT = {
-			religion_group = muslim
+			religion = gerudo_goddesses #religion_group = muslim
 		}
 		spouse = {
 			NOT = {
-				religion_group = muslim
+				religion = gerudo_goddesses #religion_group = muslim
 			}
 			in_command = no
 			war = no
@@ -831,7 +831,7 @@ character_event = {
 				if = {
 					limit = {
 						NOT = {
-							religion_group = muslim
+							religion = gerudo_goddesses #religion_group = muslim
 						}
 					}
 					add_trait = chaste
@@ -843,7 +843,7 @@ character_event = {
 				}
 				if = {
 					limit = {
-						religion_group = muslim
+						religion = gerudo_goddesses #religion_group = muslim
 					}
 					add_trait = cynical
 					hidden_tooltip = {
@@ -1051,11 +1051,11 @@ character_event = {
 			20 = {
 				modifier = {
 					factor = 1.25
-					NOT = { religion_group =  goddesses_religion #christian }
+					NOT = { religion_group = goddesses_religion #christian }
 				}
 				if = {
 					limit = {
-						religion_group =  goddesses_religion #christian
+						religion_group = goddesses_religion #christian
 					}
 					add_trait = chaste
 					hidden_tooltip = {
@@ -1066,7 +1066,7 @@ character_event = {
 				}
 				if = {
 					limit = {
-						NOT = { religion_group =  goddesses_religion #christian }
+						NOT = { religion_group = goddesses_religion #christian }
 					}
 					piety = 5
 				}
@@ -1082,7 +1082,7 @@ character_event = {
 			5 = {
 				modifier = {
 					factor = 0
-					NOT = { religion_group =  goddesses_religion #christian }
+					NOT = { religion_group = goddesses_religion #christian }
 				}
 				add_trait = celibate
 				hidden_tooltip = {
@@ -2021,7 +2021,7 @@ character_event = {
 		name = "EVTOPTB64060" #Wine will cure my pains
 		trigger = {
 			OR = {
-				NOT = { religion_group = muslim }
+				NOT = { religion = gerudo_goddesses #religion_group = muslim }
 				trait = cynical
 			}
 		}
@@ -2276,7 +2276,7 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					religion_group = muslim
+					religion = gerudo_goddesses #religion_group = muslim
 				}
 			}
 			random = {
@@ -2560,7 +2560,7 @@ character_event = {
 	only_men = yes
 	capable_only = yes
 	only_rulers = yes
-	religion_group =  goddesses_religion #christian
+	religion_group = goddesses_religion #christian
 	lacks_dlc = "Way of Life"
 	is_married = yes
 	
@@ -2569,7 +2569,7 @@ character_event = {
 			is_alive = yes
 			is_abroad = no
 			prisoner = no
-			religion_group =  goddesses_religion #christian
+			religion_group = goddesses_religion #christian
 			NOT = { trait = incapable }
 		}
 		fertility = 0.5
@@ -2919,9 +2919,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA64090" #Ask for God's help with our childless marriage
 		trigger = {
-			NOT = {	religion = buddhist }
+			#NOT = {	religion = buddhist }
 			NOT = {	religion = great_deku#jain }
-			NOT = {	religion_group = muslim }
+			NOT = {	religion = gerudo_goddesses #religion_group = muslim }
 		}
 		random_list = {
 			70 = {
@@ -2962,7 +2962,7 @@ character_event = {
 	option = {
 		name = "EVTOPTC64090" #Ask for Allah's help with our childless marriage
 		trigger = {
-			religion_group = muslim
+			religion = gerudo_goddesses #religion_group = muslim
 		}
 		random_list = {
 			70 = {
@@ -3589,7 +3589,7 @@ character_event = {
 				if = {
 					limit = {
 						NOT = {
-							religion_group = muslim
+							religion = gerudo_goddesses #religion_group = muslim
 						}
 					}
 					add_trait = chaste
@@ -3601,7 +3601,7 @@ character_event = {
 				}
 				if = {
 					limit = {
-						religion_group = muslim
+						religion = gerudo_goddesses #religion_group = muslim
 					}
 					piety = 5
 				}
@@ -4088,7 +4088,7 @@ character_event = {
 		name = "EVTOPTB64140"
 		trigger = {
 			NOT = {
-				religion_group = muslim
+				religion = gerudo_goddesses #religion_group = muslim
 			}
 		}
 		random_list = {
@@ -4106,7 +4106,7 @@ character_event = {
 				if = {
 					limit = {
 						NOT = {
-							religion_group = muslim
+							religion = gerudo_goddesses #religion_group = muslim
 						}
 					}
 					add_trait = chaste
@@ -4118,7 +4118,7 @@ character_event = {
 				}
 				if = {
 					limit = {
-						religion_group = muslim
+						religion = gerudo_goddesses #religion_group = muslim
 					}
 					piety = 5
 				}
@@ -4140,7 +4140,7 @@ character_event = {
 	option = {
 		name = "EVTOPTD64140"
 		trigger = {
-			religion_group = muslim
+			religion = gerudo_goddesses #religion_group = muslim
 		}
 		random_list = {
 			50 = {
@@ -4157,7 +4157,7 @@ character_event = {
 				if = {
 					limit = {
 						NOT = {
-							religion_group = muslim
+							religion = gerudo_goddesses #religion_group = muslim
 						}
 					}
 					add_trait = chaste
@@ -4169,7 +4169,7 @@ character_event = {
 				}
 				if = {
 					limit = {
-						religion_group = muslim
+						religion = gerudo_goddesses #religion_group = muslim
 					}
 					piety = 5
 				}

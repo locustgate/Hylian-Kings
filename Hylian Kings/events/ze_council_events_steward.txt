@@ -30,9 +30,9 @@ character_event = {
 			prisoner = no
 		}
 		OR = {
-			religion_group =  goddesses_religion #christian
-			religion_group = muslim
-			religion_group = zoroastrian_group
+			religion_group = goddesses_religion #christian
+			religion_group = minor_deity #muslim
+			religion_group = guardian_deity #zorastrian_group
 		}
 		prisoner = no
 		is_nomadic = no

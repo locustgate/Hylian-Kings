@@ -36,7 +36,7 @@ character_event = {
 	desc = {
 		trigger = {
 			OR = {
-				NOT = { religion_group = pagan_group } # Scriptures
+				NOT = { religion_group = demon_religion #pagan_group } # Scriptures
 				is_reformed_religion = yes
 			}
 		}
@@ -44,7 +44,7 @@ character_event = {
 	}
 	desc = {
 		trigger = {
-			religion_group = pagan_group # Stories
+			religion_group = demon_religion #pagan_group # Stories
 			is_reformed_religion = no
 		}
 		text = EVTDESC_WoL_7000_unref_pagan
@@ -58,7 +58,7 @@ character_event = {
 		name = EVTOPTA_WoL_7000 # Yes, study scriptures
 		trigger = {
 			OR = {
-				NOT = { religion_group = pagan_group }
+				NOT = { religion_group = demon_religion #pagan_group }
 				is_reformed_religion = yes
 			}
 		}
@@ -68,7 +68,7 @@ character_event = {
 	option = {
 		name = EVTOPTB_WoL_7000 # Yes, listen to stories
 		trigger = {
-			religion_group = pagan_group
+			religion_group = demon_religion #pagan_group
 			is_reformed_religion = no
 		}
 		piety = 20
@@ -97,7 +97,7 @@ character_event = {
 	desc = {
 		trigger = {
 			OR = {
-				NOT = { religion_group = pagan_group } # Scriptures
+				NOT = { religion_group = demon_religion #pagan_group } # Scriptures
 				is_reformed_religion = yes
 			}
 		}
@@ -105,7 +105,7 @@ character_event = {
 	}
 	desc = {
 		trigger = {
-			religion_group = pagan_group # Stories
+			religion_group = demon_religion #pagan_group # Stories
 			is_reformed_religion = no
 		}
 		text = EVTDESC_WoL_7001_unref_pagan
@@ -115,7 +115,7 @@ character_event = {
 		name = EVTOPTA_WoL_7001 # Scriptures
 		trigger = {
 			OR = {
-				NOT = { religion_group = pagan_group }
+				NOT = { religion_group = demon_religion #pagan_group }
 				is_reformed_religion = yes
 			}
 		}
@@ -154,7 +154,7 @@ character_event = {
 	option = {
 		name = EVTOPTB_WoL_7001 # Stories
 		trigger = {
-			religion_group = pagan_group # Stories
+			religion_group = demon_religion #pagan_group # Stories
 			is_reformed_religion = no
 		}
 		piety = 20
@@ -285,9 +285,9 @@ character_event = {
 		has_focus = focus_theology
 		in_command = no
 		NOT = { religion_group =  goddesses_religion #christian }
-		NOT = { religion_group = muslim }
+		#NOT = { religion_group = muslim }
 		NOT = { religion_group = minor_deity #jewish_group }
-		NOT = { religion_group = indian_group }
+		#NOT = { religion_group = indian_group }
 		NOT = { is_inaccessible_trigger = yes }
 		NOT = { has_character_flag = do_not_disturb }
 		NOT = { has_character_flag = wol_theology_visited_holy_site }
@@ -546,30 +546,30 @@ character_event = {
 				trait = cynical
 			}
 		}
-		if = {
-			limit = { FROM = { religion_group =  goddesses_religion #christian } }
-			add_trait = sympathy_christendom
-		}
-		if = {
-			limit = { FROM = { religion_group = muslim } }
-			add_trait = sympathy_islam
-		}
-		if = {
-			limit = { FROM = { religion_group = pagan_group } }
-			add_trait = sympathy_pagans
-		}
-		if = {
-			limit = { FROM = { religion_group = zoroastrian_group } }
-			add_trait = sympathy_zoroastrianism
-		}
-		if = {
-			limit = { FROM = { religion_group = minor_deity #jewish_group } }
-			add_trait = sympathy_judaism
-		}
-		if = {
-			limit = { FROM = { religion_group = indian_group } }
-			add_trait = sympathy_indian
-		}
+		#if = {
+		#	limit = { FROM = { religion_group =  goddesses_religion #christian } }
+		#	add_trait = sympathy_christendom
+		#}
+		#if = {
+		#	limit = { FROM = { religion_group = muslim } }
+		#	add_trait = sympathy_islam
+		#}
+		#if = {
+		#	limit = { FROM = { religion_group = demon_religion #pagan_group } }
+		#	add_trait = sympathy_pagans
+		#}
+		#if = {
+		#	limit = { FROM = { religion_group = zoroastrian_group } }
+		#	add_trait = sympathy_zoroastrianism
+		#}
+		#if = {
+		#	limit = { FROM = { religion_group = minor_deity #jewish_group } }
+		#	add_trait = sympathy_judaism
+		#}
+		#if = {
+		#	limit = { FROM = { religion_group = indian_group } }
+		#	add_trait = sympathy_indian
+		#}
 	}
 	option = {
 		name = EVTOPTB_WoL_7042  # Condemn
@@ -597,7 +597,7 @@ character_event = {
 		text = EVTDESC_WoL_7050
 		trigger = {
 			OR = {
-				NOT = { religion_group = pagan_group }
+				NOT = { religion_group = demon_religion #pagan_group }
 				is_reformed_religion = yes
 			}
 		}
@@ -606,7 +606,7 @@ character_event = {
 	desc = {
 		text = EVTDESC_WoL_7050_PAGAN
 		trigger = {
-			religion_group = pagan_group
+			religion_group = demon_religion #pagan_group
 			is_reformed_religion = no
 		}
 	}
@@ -697,8 +697,8 @@ character_event = {
 		trait = zealous
 		OR = {
 			religion_group =  goddesses_religion #christian
-			religion_group = muslim
-			religion_group = zoroastrian_group
+			#religion_group = muslim
+			#religion_group = zoroastrian_group
 			religion_group = minor_deity #jewish_group
 		}
 		NOT = { has_character_flag = wol_theology_heretic }
@@ -889,24 +889,24 @@ character_event = {
 		text = EVTDESC_WoL_7080
 		trigger = {
 			NOR = {
-				religion_group = pagan_group
-				religion_group = muslim
-				religion_group = indian_group
+				religion_group = demon_religion #pagan_group
+				#religion_group = muslim
+				#religion_group = indian_group
 			}
 		}
 	}
 	desc = {
 		text = EVTDESC_WoL_7080_PAGAN
-		trigger = { religion_group = pagan_group }
+		trigger = { religion_group = demon_religion #pagan_group }
 	}
-	desc = {
-		text = EVTDESC_WoL_7080_MUSLIM
-		trigger = { religion_group = muslim }
-	}
-	desc = {
-		text = EVTDESC_WoL_7080_INDIAN
-		trigger = { religion_group = indian_group }
-	}
+	#desc = {
+	#	text = EVTDESC_WoL_7080_MUSLIM
+	#	trigger = { religion_group = muslim }
+	#}
+	#desc = {
+	#	text = EVTDESC_WoL_7080_INDIAN
+	#	trigger = { religion_group = indian_group }
+	#}
 
 	trigger = {
 		has_focus = focus_theology
@@ -1023,8 +1023,8 @@ character_event = {
 		trigger = {
 			NOR = {
 				trait = lunatic
-				religion_group = pagan_group
-				religion_group = indian_group
+				religion_group = demon_religion #pagan_group
+				#religion_group = indian_group
 			}
 		}
 	}
@@ -1034,7 +1034,7 @@ character_event = {
 			NOT = {
 				trait = lunatic				
 			}
-			religion_group = pagan_group
+			religion_group = demon_religion #pagan_group
 		}
 	}
 	desc = {
@@ -1043,7 +1043,7 @@ character_event = {
 			NOT = {
 				trait = lunatic				
 			}
-			religion_group = indian_group
+			#religion_group = indian_group
 		}
 	}
 	desc = {
@@ -1269,7 +1269,7 @@ character_event = {
 			trait = chaste
 			NOR = {
 				religion_group =  goddesses_religion #christian
-				religion_group = indian_group
+				#religion_group = indian_group
 			}
 		}
 		ai_chance = {

@@ -2712,7 +2712,7 @@ character_event = {
 
 		trigger = {
 			NOT = { 
-				religion = jain
+				religion = great_deku # jain
 			}
 		}
 	}
