@@ -1814,7 +1814,7 @@ character_event = {
 		trigger = {
 			is_female = yes
 			NOT = { religion_group = gerudo_goddesses #muslim }
-			NOT = { religion_group = zoroastrian_group }
+			#NOT = { religion_group = zoroastrian_group }
 			#NOT = { religion_group = indian_group }
 		}
 		ai_chance = {
@@ -1825,23 +1825,23 @@ character_event = {
 #		log = "WoL.99: [Root.GetTitledName] achieves the lifestyle Seductress!"
 	}
 	
-	option = {
-		name = EVTOPTA_WOL_99_PERS
-		trigger = {
-			is_female = yes
-			OR = {
-				religion_group = muslim
-				religion_group = zoroastrian_group
-				religion_group = indian_group
-			}
-		}
-		ai_chance = {
-			factor = 100
-		}
-		remove_character_modifier = wol_seducer_2
-		add_trait = seductress
-#		log = "WoL.99: [Root.GetTitledName] achieves the lifestyle Seductress!"
-	}
+	#option = {
+	#	name = EVTOPTA_WOL_99_PERS
+	#	trigger = {
+	#		is_female = yes
+	#		OR = {
+	#			religion_group = muslim
+	#			religion_group = zoroastrian_group
+	#			religion_group = indian_group
+	#		}
+	#	}
+	#	ai_chance = {
+	#		factor = 100
+	#	}
+	#	remove_character_modifier = wol_seducer_2
+	#	add_trait = seductress
+#	#	log = "WoL.99: [Root.GetTitledName] achieves the lifestyle Seductress!"
+	#}
 	
 	option = {
 		name = EVTOPTB_WOL_99
@@ -10336,8 +10336,8 @@ character_event = {
 				holder_scope = {
 					create_character = {
 						dynasty = none
-						religion = hellenic_pagan
-						culture = irish
+						religion = great_fairy #hellenic_pagan
+						culture = labrynnan #irish
 						female = yes
 						dna="gppniiosfag"
 						age = 20

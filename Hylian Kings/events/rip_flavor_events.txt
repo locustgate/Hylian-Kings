@@ -2828,12 +2828,12 @@ character_event = {
 				years = 10
 			}
 		}
-		if = {
-			limit = {
-				religion_group = demon_religion #pagan_group
-			}
-			add_trait = sympathy_pagans
-		}
+		#if = {
+		#	limit = {
+		#		religion_group = demon_religion #pagan_group
+		#	}
+		#	add_trait = sympathy_pagans
+		#}
 		religion = event_target:missionary_physician_target
 		prestige = -500
 		piety = 250
@@ -7531,7 +7531,7 @@ character_event = {
 				OR = {
 					primary_title = { has_law = agnatic_succession }
 					primary_title = { has_law = succ_patrician_elective }
-					religion_group = muslim
+					#religion_group = muslim
 				}	
 			}
 			set_character_flag = text_girl_cant_inherit
@@ -7943,11 +7943,12 @@ character_event = {
 				value = off
 			}
 		}
-		OR = {
-			religion = manichean
-			religion = west_african_pagan_reformed
-			religion = west_african_pagan
-		}
+		#OR = {
+		#	religion = manichean
+		#	religion = west_african_pagan_reformed
+		#	religion = west_african_pagan
+		#}
+		NOT = { religion_group = demon_religion }
 		OR = {
 			father = {
 				ai = no
@@ -12142,7 +12143,7 @@ character_event = {
 				random_traits = no
 				name = "Uran"
 				dynasty = culture
-				religion = pagan
+				religion = demise_religion #pagan
 				culture = random
 				female = no
 				age = 1800
@@ -12210,7 +12211,7 @@ character_event = {
 				random_traits = no
 				name = "Torhild"
 				dynasty = none
-				religion = norse_pagan
+				religion = oshus_religion #norse_pagan
 				culture = norse
 				female = yes
 				age = 1300
@@ -12244,7 +12245,7 @@ character_event = {
 				random_traits = no
 				name = "Incitatus"
 				dynasty = none
-				religion = hellenic_pagan
+				religion = great_maku #hellenic_pagan
 				culture = horse
 				female = no
 				age = 2200
@@ -12270,7 +12271,7 @@ character_event = {
 				trait = stubborn
 				trait = schemer
 				trait = cynical
-				trait = ares_own
+				#trait = ares_own
 				historical = yes
 			}
 		}

@@ -45,18 +45,18 @@ character_event = {
 				set_character_flag = epidemic_blame_game
 				character_event = { id = RIP.13001 }
 			}
-			10 = { # Blame Jews
-				modifier = {
-					factor = 0
-					OR = {
-						has_character_modifier = expelled_jewish
-						religion_group = minor_deity #jewish_group
-						any_realm_province = { religion_group = minor_deity #jewish_group }
-					}
-				}
-				set_character_flag = epidemic_blame_game
-				character_event = { id = RIP.13400 }
-			}
+			#10 = { # Blame Jews
+			#	modifier = {
+			#		factor = 0
+			#		OR = {
+			#			has_character_modifier = expelled_jewish
+			#			religion_group = minor_deity #jewish_group
+			#			any_realm_province = { religion_group = minor_deity #jewish_group }
+			#		}
+			#	}
+			#	set_character_flag = epidemic_blame_game
+			#	character_event = { id = RIP.13400 }
+			#}
 			10 = { # Witch hunt
 				modifier = {
 					factor = 0
@@ -69,17 +69,17 @@ character_event = {
 				set_character_flag = epidemic_blame_game
 				character_event = { id = RIP.13198 }
 			}
-			10 = { # Bad Hindu
-				modifier = {
-					factor = 0
-					NAND = {
-						religion_group = indian_group
-						job_spymaster = { always = yes }
-					}
-				}
-				set_character_flag = epidemic_blame_game
-				character_event = { id = RIP.13500 }
-			}
+			#10 = { # Bad Hindu
+			#	modifier = {
+			#		factor = 0
+			#		NAND = {
+			#			religion_group = indian_group
+			#			job_spymaster = { always = yes }
+			#		}
+			#	}
+			#	set_character_flag = epidemic_blame_game
+			#	character_event = { id = RIP.13500 }
+			#}
 		}
 	}
 }
@@ -689,105 +689,105 @@ character_event = { #blame game starts
 #	}
 #}
 
-character_event = { #head of religion chimes in. could be player.
-	id = RIP.13401
-	picture = GFX_evt_end_of_days
-	border = GFX_event_normal_frame_religion
-	desc = RIP.13401.d
-	
-	is_triggered_only = yes
-	
-	immediate = {
-		
-	}	
-
-	option = {
-		name = RIP.13401.a
-		#leave off the jews
-		FROM = {
-			letter_event = { id = RIP.13404 }
-		}
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0.5
-				OR = {
-					trait = zealous
-					trait = cynical
-				}
-			}
-			modifier = {
-				factor = 10
-				OR = {
-					religion = jewish
-					trait = sympathy_judaism
-				}
-			}
-			modifier = {
-				factor = 2
-				is_virtous = yes
-			}
-		}			
-	}
-
-	option = {
-		name = RIP.13401.b
-		#yeah, jews are to blame
-		trigger = {
-			NOR = {
-				religion = jewish
-				trait = sympathy_judaism
-			}
-		}
-		FROM = {
-			letter_event = { id = RIP.13405 }
-		}
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 2
-				is_wicked = yes
-			}
-		}
-	}
-}
-
-letter_event = { #don't blame jews
-	id = RIP.13404
-	border = GFX_event_letter_frame_religion
-	desc = RIP.13404.d # 
-	
-	is_triggered_only = yes
-	
-	immediate = {
-		
-	}	
-
-	option = {
-		name = OK
-		set_character_flag = religion_head_says_stop
-	}
-
-}
-
-letter_event = { #blame jews
-	id = RIP.13405
-	border = GFX_event_letter_frame_religion
-	desc = RIP.13405.d # 
-	
-	is_triggered_only = yes
-	
-	immediate = {
-		
-	}	
-
-	option = {
-		name = OK
-		#yeah, jews are to blame
-		set_character_flag = religion_head_says_go
-	}
-
-}
+#character_event = { #head of religion chimes in. could be player.
+#	id = RIP.13401
+#	picture = GFX_evt_end_of_days
+#	border = GFX_event_normal_frame_religion
+#	desc = RIP.13401.d
+#	
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		
+#	}	
+#
+#	option = {
+#		name = RIP.13401.a
+#		#leave off the jews
+#		FROM = {
+#			letter_event = { id = RIP.13404 }
+#		}
+#		ai_chance = {
+#			factor = 50
+#			modifier = {
+#				factor = 0.5
+#				OR = {
+#					trait = zealous
+#					trait = cynical
+#				}
+#			}
+#			modifier = {
+#				factor = 10
+#				OR = {
+#					religion = jewish
+#					trait = sympathy_judaism
+#				}
+#			}
+#			modifier = {
+#				factor = 2
+#				is_virtous = yes
+#			}
+#		}			
+#	}
+#
+#	option = {
+#		name = RIP.13401.b
+#		#yeah, jews are to blame
+#		trigger = {
+#			NOR = {
+#				religion = jewish
+#				trait = sympathy_judaism
+#			}
+#		}
+#		FROM = {
+#			letter_event = { id = RIP.13405 }
+#		}
+#		ai_chance = {
+#			factor = 50
+#			modifier = {
+#				factor = 2
+#				is_wicked = yes
+#			}
+#		}
+#	}
+#}
+#
+#letter_event = { #don't blame jews
+#	id = RIP.13404
+#	border = GFX_event_letter_frame_religion
+#	desc = RIP.13404.d # 
+#	
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		
+#	}	
+#
+#	option = {
+#		name = OK
+#		set_character_flag = religion_head_says_stop
+#	}
+#
+#}
+#
+#letter_event = { #blame jews
+#	id = RIP.13405
+#	border = GFX_event_letter_frame_religion
+#	desc = RIP.13405.d # 
+#	
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		
+#	}	
+#
+#	option = {
+#		name = OK
+#		#yeah, jews are to blame
+#		set_character_flag = religion_head_says_go
+#	}
+#
+#}
 
 character_event = { #you decide what to do
 	id = RIP.13402
@@ -832,56 +832,56 @@ character_event = { #you decide what to do
 		
 	}
 
-	option = {
-		name = RIP.13402.b
-		#yeah, jews are to blame
-		clr_character_flag = religion_head_says_stop
-		clr_character_flag = religion_head_says_go
-		any_realm_province = {
-				limit = {
-					owner = { character = ROOT }
-				}
-				remove_province_modifier = epidemic_blame_1
-		}
-		prestige = -100
-			scaled_wealth = 2
-			banish_religion = jewish
-			if = {
-				limit = { trait = sympathy_judaism }
-				remove_trait = sympathy_judaism
-			}
-			if = {
-				limit = {
-					NOT = { trait = arbitrary }
-					has_character_modifier = borrowed_from_jews
-				}
-				add_trait = arbitrary
-			}
-			if = {
-				limit = { has_character_modifier = borrowed_from_jews }
-				remove_character_modifier = borrowed_from_jews
-			}
-			add_character_modifier = {
-				name = expelled_jewish
-				duration = -1
-				inherit = yes
-			}
-			custom_tooltip = {
-				text = jews_are_expelled
-			}
-			hidden_tooltip = {
-				character_event = { id = SoA.105 }
-				add_character_modifier = {
-					name = expelled_jews_timer
-					duration = 7300
-					hidden = yes
-				}
-			}
-			any_friend = {
-				limit = { religion_group = minor_deity #jewish_group }
-				remove_friend = ROOT
-			}
-	}
+	#option = {
+	#	name = RIP.13402.b
+	#	#yeah, jews are to blame
+	#	clr_character_flag = religion_head_says_stop
+	#	clr_character_flag = religion_head_says_go
+	#	any_realm_province = {
+	#			limit = {
+	#				owner = { character = ROOT }
+	#			}
+	#			remove_province_modifier = epidemic_blame_1
+	#	}
+	#	prestige = -100
+	#		scaled_wealth = 2
+	#		banish_religion = jewish
+	#		if = {
+	#			limit = { trait = sympathy_judaism }
+	#			remove_trait = sympathy_judaism
+	#		}
+	#		if = {
+	#			limit = {
+	#				NOT = { trait = arbitrary }
+	#				has_character_modifier = borrowed_from_jews
+	#			}
+	#			add_trait = arbitrary
+	#		}
+	#		if = {
+	#			limit = { has_character_modifier = borrowed_from_jews }
+	#			remove_character_modifier = borrowed_from_jews
+	#		}
+	#		add_character_modifier = {
+	#			name = expelled_jewish
+	#			duration = -1
+	#			inherit = yes
+	#		}
+	#		custom_tooltip = {
+	#			text = jews_are_expelled
+	#		}
+	#		hidden_tooltip = {
+	#			character_event = { id = SoA.105 }
+	#			add_character_modifier = {
+	#				name = expelled_jews_timer
+	#				duration = 7300
+	#				hidden = yes
+	#			}
+	#		}
+	#		any_friend = {
+	#			limit = { religion_group = minor_deity #jewish_group }
+	#			remove_friend = ROOT
+	#		}
+	#}
 }
 
 character_event = { #if you keep jews, stuff happens
