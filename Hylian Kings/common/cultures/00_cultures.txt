@@ -682,7 +682,7 @@ round_eared = {
 		modifier = default_culture_modifier
 	}
 	hanman = {
-		graphical_cultures = { mongolgfx germangfx }
+		graphical_cultures = { hanmangfx mongolgfx }
 		color = { 0 0.4 0 }
 
 		male_names = {
