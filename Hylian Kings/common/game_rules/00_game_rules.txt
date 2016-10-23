@@ -11,6 +11,49 @@
 #		achievements = no							# by default achievements = yes, allows or disallows achievements
 #	}
 # }
+lorule_invasion = {
+	name = "RULE_LORULE_INVASION"
+	#option = {
+	#	name = random
+	#	text = "RULE_OPTION_RANDOM"
+	#	desc = "RULE_LORULE_INVASION_RANDOM_DESC"
+	#}
+	#option = {
+	#	name = delayed_random
+	#	text = "RULE_OPTION_DELAYED_RANDOM"
+	#	desc = "RULE_LORULE_INVASION_DELAYED_RANDOM_DESC"
+	#}
+	option = {
+		name = off
+		achievements = no
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_LORULE_INVASION_OFF_DESC"
+	}
+}
+twili_invasion = {
+	name = "RULE_TWILI_INVASION"
+	#option = {
+	#	name = historical
+	#	text = "RULE_OPTION_HISTORICAL"
+	#	desc = "RULE_TWILI_INVASION_HISTORICAL_DESC"
+	#}
+	#option = {
+	#	name = random
+	#	text = "RULE_OPTION_RANDOM"
+	#	desc = "RULE_TWILI_INVASION_RANDOM_DESC"
+	#}
+	#option = {
+	#	name = delayed_random
+	#	text = "RULE_OPTION_DELAYED_RANDOM"
+	#	desc = "RULE_TWILI_INVASION_DELAYED_RANDOM_DESC"
+	#}
+	option = {
+		name = off
+		achievements = no
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_TWILI_INVASION_OFF_DESC"
+	}
+}
 
 epidemics = {
 	name = "RULE_EPIDEMICS"

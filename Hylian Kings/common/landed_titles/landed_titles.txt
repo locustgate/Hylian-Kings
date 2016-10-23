@@ -6308,11 +6308,6 @@ e_ho_ho = {
 				color2={ 255 255 255 }
 				b_sala = {}
 			}
-			c_pietara = {
-				color={ 0 100 20 }
-				color2={ 255 255 255 }
-				b_pietara = {}
-			}
 			c_marie = {
 				color={ 0 100 20 }
 				color2={ 255 255 255 }
@@ -6419,6 +6414,11 @@ e_ho_ho = {
 			color2={ 0 0 0}
 			capital = 923
 			
+			c_pietara = {
+				color={ 0 100 20 }
+				color2={ 255 255 255 }
+				b_pietara = {}
+			}
 			c_lojo = {
 				color={ 0 100 20 }
 				color2={ 255 255 255 }
@@ -6433,11 +6433,6 @@ e_ho_ho = {
 				color={ 0 100 20 }
 				color2={ 255 255 255 }
 				b_lapu = {}
-			}
-			c_mantsa = {
-				color={ 0 100 20 }
-				color2={ 255 255 255 }
-				b_mantsa = {}
 			}
 		}
 		
@@ -6467,16 +6462,6 @@ e_ho_ho = {
 				color2={ 255 255 255 }
 				b_zoulu = {}
 			}
-			c_salo = {
-				color={ 0 100 20 }
-				color2={ 255 255 255 }
-				b_salo = {}
-			}
-			c_rii = {
-				color={ 0 100 20 }
-				color2={ 255 255 255 }
-				b_rii = {}
-			}
 		}		
 		d_pori = {
 			color={ 0 0 0 }
@@ -6496,11 +6481,6 @@ e_ho_ho = {
 				color={ 0 100 20 }
 				color2={ 255 255 255 }
 				b_samaki = {}
-			}
-			c_borga = {
-				color={ 0 100 20 }
-				color2={ 255 255 255 }
-				b_borga = {}
 			}
 		}
 		
@@ -6823,6 +6803,68 @@ e_ho_ho = {
 		}		
 	}
 }
+k_howgendoogen_league = {
+	color={ 255 127 80 }
+	color2={ 234 212 77 }
+	capital = 937 # rii
+	culture = ho_ho
+	
+	title="CHAIRMAN"
+	title_female="CHAIRWOMAN"
+	
+	allow = {
+		culture = ho_ho
+		is_republic = yes
+	}
+	d_rii = {
+		color={ 255 127 80 }
+		color2={ 234 212 77 }
+		capital = 937 # rii
+		c_borga = {
+			color={ 0 100 20 }
+			color2={ 255 255 255 }
+			b_borga = {}
+			b_amothno = {}
+			b_bakam = {}
+		}
+		c_salo = {
+			color={ 0 100 20 }
+			color2={ 255 255 255 }
+			b_salo = {}
+			b_polen = {}
+			b_kavla = {}
+			b_haluu = {}
+			b_uunsi = {}
+			b_koro = {}
+		}
+		c_rii = {
+			color={ 0 100 20 }
+			color2={ 255 255 255 }
+			b_rii = {}
+			b_tikuu = {}
+			b_noluu = {}
+			b_uurin = {}
+			b_hakk = {}
+			b_ekso = {}
+			b_sen = {}
+		}	
+	}
+	d_mantsa = {
+		color={ 255 127 80 }
+		color2={ 234 212 77 }
+		capital = 924 # mantsa			
+		c_mantsa = {
+			color={ 0 100 20 }
+			color2={ 255 255 255 }
+			b_mantsa = {}
+			b_ajase = {}
+			b_marot = {}
+			b_oupa = {}
+			b_hinii = {}
+		}
+	}
+}
+
 k_zora_domain = {
 	color={ 255 127 80 }
 	color2={ 234 212 77 }
@@ -11290,7 +11332,27 @@ d_valoo_religion = {
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
-
+#howgendoogen league
+b_howgendoogen = {
+	culture = ho_ho
+	religion = oshus_religion
+}
+b_genden = {
+	culture = ho_ho
+	religion = oshus_religion
+}
+b_hogendon = {
+	culture = ho_ho
+	religion = oshus_religion
+}
+b_doogenwoh = {
+	culture = ho_ho
+	religion = oshus_religion
+}
+b_wenden = {
+	culture = ho_ho
+	religion = oshus_religion
+}
 #business scrub guild
 
 b_bougain = {

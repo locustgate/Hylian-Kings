@@ -648,3 +648,14 @@
 	3367.4.23={ birth=yes }
 	3428.8.13={ death=yes }
 }
+
+43060={
+	name=Deku
+	dynasty=3520
+	dna="eoiigkaodjg"
+	culture=deku_scrub religion=demise_religion
+	martial=5 diplomacy=7 stewardship=4 intrigue=8 learning=4
+	add_trait=indulgent_wastrel add_trait=humble add_trait=arbitrary add_trait=chaste add_trait=envious 
+	3367.9.13={ birth=yes }
+	3428.8.13={ death=yes }
+}
