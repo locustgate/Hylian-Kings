@@ -844,136 +844,136 @@ character_event = {
 }
 
 ### Mercenary captain converts to local religion
-#character_event = {
-#	id = HL.10410
-#
-#	is_triggered_only = yes
-#	hide_window = yes
-#
-#	only_men = yes
-#	capable_only = yes
-#	prisoner = no
-#	ai = yes
-#	only_rulers = yes
-#
-#	trigger = {
-#		primary_title = {
-#			NOT = { has_title_flag = ze_dyn_merc }
-#			mercenary = yes
-#		}
-#		has_character_flag = is_mercenary_leader
-#		NOT = { trait = zealous }
-#	}
-#
-#	weight_multiplier = {
-#		days = 1
-#
-#		modifier = {
-#			factor = 0
-#			primary_title = {
-#				capital_scope = {
-#					owner = {
-#						religion = ROOT
-#					}
-#				}
-#			}
-#		}
-#
-#		modifier = {
-#			factor = 1.5
-#			mercenary_employer = {
-#				is_alive = yes
-#			}
-#		}
-#
-#		modifier = {
-#			factor = 2
-#			mercenary_employer = {
-#				is_friend = ROOT
-#			}
-#		}
-#
-#		modifier = {
-#			factor = 2
-#			primary_title = {
-#				capital_scope = {
-#					owner = {
-#						NOT = { religion = ROOT }
-#						is_friend = ROOT
-#					}
-#				}
-#			}
-#		}
-#
-#		modifier = {
-#			factor = 4
-#			primary_title = {
-#				capital_scope = {
-#					owner = {
-#						OR = {
-#							AND = {
-#								religion_group = christian
-#								ROOT = {
-#									trait = sympathy_christendom
-#								}
-#							}
-#							AND = {
-#								religion_group = muslim
-#								ROOT = {
-#									trait = sympathy_islam
-#								}
-#							}
-#							AND = {
-#								religion_group = pagan_group
-#								ROOT = {
-#									trait = sympathy_pagans
-#								}
-#							}
-#							AND = {
-#								religion_group = zoroastrian_group
-#								ROOT = {
-#									trait = sympathy_zoroastrianism
-#								}
-#							}
-#							AND = {
-#								religion_group = jewish_group
-#								ROOT = {
-#									trait = sympathy_judaism
-#								}
-#							}
-#							AND = {
-#								religion_group = indian_group
-#								ROOT = {
-#									trait = sympathy_indian
-#								}
-#							}
-#						}
-#					}
-#				}
-#			}
-#		}
-#	}
-#
-#	immediate = {
-#		primary_title = {
-#			capital_scope = {
-#				save_event_target_as = merc_location
-#			}
-#		}
-#		primary_title = {
-#			band_creator = {
-#				if = {
-#					limit = {
-#						is_alive = yes
-#					}
-#					character_event = { id = HL.10411 }
-#					break = yes
-#				}
-#			}
-#		}
-#		clear_event_target = merc_location
-#	}
-#}
+character_event = {
+	id = HL.10410
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	ai = yes
+	only_rulers = yes
+
+	trigger = {
+		primary_title = {
+			NOT = { has_title_flag = ze_dyn_merc }
+			mercenary = yes
+		}
+		has_character_flag = is_mercenary_leader
+		NOT = { trait = zealous }
+	}
+
+	weight_multiplier = {
+		days = 1
+
+		modifier = {
+			factor = 0
+			primary_title = {
+				capital_scope = {
+					owner = {
+						religion = ROOT
+					}
+				}
+			}
+		}
+
+		modifier = {
+			factor = 1.5
+			mercenary_employer = {
+				is_alive = yes
+			}
+		}
+
+		modifier = {
+			factor = 2
+			mercenary_employer = {
+				is_friend = ROOT
+			}
+		}
+
+		modifier = {
+			factor = 2
+			primary_title = {
+				capital_scope = {
+					owner = {
+						NOT = { religion = ROOT }
+						is_friend = ROOT
+					}
+				}
+			}
+		}
+
+		modifier = {
+			factor = 4
+			primary_title = {
+				capital_scope = {
+					owner = {
+						OR = {
+							AND = {
+								religion_group = christian
+								ROOT = {
+									trait = sympathy_christendom
+								}
+							}
+							AND = {
+								religion_group = muslim
+								ROOT = {
+									trait = sympathy_islam
+								}
+							}
+							AND = {
+								religion_group = pagan_group
+								ROOT = {
+									trait = sympathy_pagans
+								}
+							}
+							AND = {
+								religion_group = zoroastrian_group
+								ROOT = {
+									trait = sympathy_zoroastrianism
+								}
+							}
+							AND = {
+								religion_group = jewish_group
+								ROOT = {
+									trait = sympathy_judaism
+								}
+							}
+							AND = {
+								religion_group = indian_group
+								ROOT = {
+									trait = sympathy_indian
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	immediate = {
+		primary_title = {
+			capital_scope = {
+				save_event_target_as = merc_location
+			}
+		}
+		primary_title = {
+			band_creator = {
+				if = {
+					limit = {
+						is_alive = yes
+					}
+					character_event = { id = HL.10411 }
+					break = yes
+				}
+			}
+		}
+		clear_event_target = merc_location
+	}
+}
 
 character_event = {
 	id = HL.10411

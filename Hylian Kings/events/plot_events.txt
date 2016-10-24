@@ -256,7 +256,7 @@ character_event = {
 			}
 			is_plot_active = no
 			OR = {
-				##NOT = { religion_group = muslim }
+				NOT = { religion_group = muslim }
 				trait = hedonist
 				trait = drunkard
 			}
@@ -397,7 +397,7 @@ character_event = {
 			}
 			is_plot_active = no
 			OR = {
-				#NOT = { religion_group = muslim }
+				NOT = { religion_group = muslim }
 				trait = hedonist
 				trait = drunkard
 			}
@@ -3016,7 +3016,7 @@ letter_event = {
 				higher_tier_than = BARON
 				FROM = {
 					OR = { # If the old liege can use the subjugation CB, give no claims
-						NOT = { religion_group = demon_religion #pagan_group }
+						NOT = { religion_group = pagan_group }
 						NOT = { culture_group = ROOT }
 					}
 				}
@@ -3303,7 +3303,7 @@ letter_event = {
 				higher_tier_than = BARON
 				FROM = {
 					OR = { # If the old liege can use the subjugation CB, give no claims
-						NOT = { religion_group = demon_religion #pagan_group }
+						NOT = { religion_group = pagan_group }
 						NOT = { culture_group = ROOT }
 					}
 				}
@@ -3740,7 +3740,7 @@ character_event = {
 			NOT = { trait = incapable }
 			NOT = { is_inaccessible_trigger = yes }
 			OR = {
-				#NOT = { religion_group = muslim }
+				NOT = { religion_group = muslim }
 				trait = decadent
 				trait = hedonist
 				trait = drunkard
@@ -18571,41 +18571,41 @@ letter_event = {
 					add_law_w_cooldown = investiture_law_0
 				}
 			}
-			#hidden_tooltip = {
-				#if = {
-				#	limit = {
-				#		religion = golden_goddesses #catholic
-				#	}
-				#	k_papal_state = {
-				#		holder_scope = {
-				#			opinion = {
-				#				who = PREVPREV
-				#				modifier = opinion_deposed_antipope
-				#			}
-				#		}
-				#	}
-				#}
-				#if = {
-				#	limit = {
-				#		religion = fraticelli
-				#	}
-				#	d_fraticelli = {
-				#		holder_scope = {
-				#			opinion = {
-				#				who = PREVPREV
-				#				modifier = opinion_deposed_antipope
-				#			}
-				#		}
-				#	}
-				#}
-			#}
+			hidden_tooltip = {
+				if = {
+					limit = {
+						religion = catholic
+					}
+					k_papal_state = {
+						holder_scope = {
+							opinion = {
+								who = PREVPREV
+								modifier = opinion_deposed_antipope
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						religion = fraticelli
+					}
+					d_fraticelli = {
+						holder_scope = {
+							opinion = {
+								who = PREVPREV
+								modifier = opinion_deposed_antipope
+							}
+						}
+					}
+				}
+			}
 		}
-		#hidden_tooltip = {
-		#	rightful_religious_head_scope = {
-		#		remove_claim = k_papal_state
-		#		remove_claim = d_fraticelli
-		#	}
-		#}
+		hidden_tooltip = {
+			rightful_religious_head_scope = {
+				remove_claim = k_papal_state
+				remove_claim = d_fraticelli
+			}
+		}
 		
 		primary_title = {
 			usurp_title = FROM

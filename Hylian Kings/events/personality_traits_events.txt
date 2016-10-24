@@ -24,7 +24,7 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			#religion_group = muslim
+			religion_group = muslim
 		}
 		NOT = {
 			trait = chaste
@@ -2667,7 +2667,7 @@ character_event = {
 	picture = "GFX_evt_bishop"
 	
 	min_age = 16
-	religion_group = goddesses_religion #christian
+	religion_group = christian
 	
 	is_triggered_only = yes
 	
@@ -2890,7 +2890,7 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			#religion_group = muslim
+			religion_group = muslim
 		}
 		NOT = {
 			trait = chaste
@@ -3485,7 +3485,7 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			#religion_group = muslim
+			religion_group = muslim
 		}
 		NOT = {
 			trait = chaste
@@ -3693,7 +3693,7 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			#religion_group = muslim
+			religion_group = muslim
 		}
 		NOT = {
 			trait = chaste
@@ -4876,7 +4876,7 @@ character_event = {
 	
 	min_age = 16
 	only_capable = yes
-	#religion_group = muslim
+	religion_group = muslim
 	
 	is_triggered_only = yes
 	
@@ -5004,7 +5004,7 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	#religion_group = muslim
+	religion_group = muslim
 	
 	is_triggered_only = yes
 	
@@ -5094,7 +5094,7 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	#religion_group = muslim
+	religion_group = muslim
 	has_character_flag = aspiring_hafiz_flag
 	
 	trigger = {

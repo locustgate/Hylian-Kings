@@ -156,22 +156,22 @@ province_event = {
 		remove_province_modifier = incompetent_rule
 	}
 
-	#option = {
-	#	name = "EVTOPTA68001"
-	#	trigger = {
-	#		owner = {
-	#			religion_group = christian
-	#		}
-	#	}
-	#}
-	#option = {
-	#	name = "EVTOPTB68001"
-	#	trigger = {
-	#		owner = {
-	#			religion_group = muslim
-	#		}
-	#	}
-	#}
+	option = {
+		name = "EVTOPTA68001"
+		trigger = {
+			owner = {
+				religion_group = christian
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB68001"
+		trigger = {
+			owner = {
+				religion_group = muslim
+			}
+		}
+	}
 	option = {
 		name = "EVTOPTA88283"
 		trigger = {

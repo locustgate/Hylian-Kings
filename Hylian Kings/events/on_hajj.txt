@@ -1887,7 +1887,7 @@
 #				OR = {
 #					AND = {
 #						defender = {
-#							religion_group =  goddesses_religion #christian 
+#							religion_group = christian 
 #						}
 #						attacker = {
 #							character = ROOT
@@ -1895,7 +1895,7 @@
 #					}
 #					AND = {
 #						attacker = {
-#							religion_group =  goddesses_religion #christian
+#							religion_group = christian
 #						}
 #						defender = {
 #							character = ROOT
@@ -1933,7 +1933,7 @@
 #		name = "EVTOPTB86900"
 #		trigger = {
 #			any_independent_ruler = {
-#				religion_group =  goddesses_religion #christian
+#				religion_group = christian
 #				any_realm_province = {
 #					religion_group = muslim
 #				}
@@ -2016,7 +2016,7 @@
 #		job_spiritual = { learning = 1 }
 #		
 #		any_independent_ruler = {
-#			religion_group =  goddesses_religion #christian
+#			religion_group = christian
 #			any_realm_province = {
 #				religion_group = muslim
 #			}
@@ -2055,7 +2055,7 @@
 #			}
 #			any_defender = {
 #				is_primary_war_defender = yes
-#				religion_group =  goddesses_religion #christian 
+#				religion_group = christian 
 #			}
 #		}
 #	}

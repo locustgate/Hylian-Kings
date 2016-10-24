@@ -806,11 +806,11 @@ narrative_event = {
 			limit = { has_character_flag = diplomacy_mystic }
 			create_character = {
 				random_traits = no
-				#name = "Idunn"
+				name = "Idunn"
 				dna = chaehghfacw
 				dynasty = none
-				religion = light_spirits
-				culture = ordonion
+				religion = norse_pagan
+				culture = norse
 				female = yes
 				age = 17
 				health = 15
@@ -866,8 +866,8 @@ narrative_event = {
 			create_character = {
 				random_traits = no
 				dynasty = none
-				religion = oshus #west_african_pagan
-				culture = ho_ho #manden
+				religion = west_african_pagan
+				culture = manden
 				female = yes
 				age = 36
 				health = 15
@@ -930,8 +930,8 @@ narrative_event = {
 				name = "Cleopatra"
 				random_traits = no
 				dynasty = none
-				religion = golden_goddesses #hurufi
-				culture = cobble #egyptian_arabic
+				religion = hurufi
+				culture = egyptian_arabic
 				female = yes
 				age = 72
 				health = 15
@@ -991,14 +991,14 @@ narrative_event = {
 			create_character = {
 				random_traits = no
 				dynasty = none
-				religion = gem_goddesses #buddhist
-				culture = gem_lander #sinhala
+				religion = buddhist
+				culture = sinhala
 				female = yes
 				age = 9
 				health = 15
 				trait = mystic
-				#trait = brahmin
-				#trait = theravada_buddhist
+				trait = brahmin
+				trait = theravada_buddhist
 				trait = quick
 				trait = fussy
 				trait = conscientious
@@ -1131,11 +1131,11 @@ narrative_event = {
 			limit = { has_character_flag = diplomacy_mystic }
 			create_character = {
 				random_traits = no
-				#name = "Idunn"
+				name = "Idunn"
 				dna = chaehghfacw
 				dynasty = none
-				religion = light_spirits #norse_pagan
-				culture = ordonion #norse
+				religion = norse_pagan
+				culture = norse
 				female = yes
 				age = 17
 				health = 15
@@ -1190,8 +1190,8 @@ narrative_event = {
 			create_character = {
 				random_traits = no
 				dynasty = none
-				religion = oshus #west_african_pagan
-				culture = ho_ho #manden
+				religion = west_african_pagan
+				culture = manden
 				female = yes
 				age = 36
 				health = 15
@@ -1256,8 +1256,8 @@ narrative_event = {
 				name = "Cleopatra"
 				random_traits = no
 				dynasty = none
-				religion = golden_goddesses #hurufi
-				culture = cobble #egyptian_arabic
+				religion = hurufi
+				culture = egyptian_arabic
 				female = yes
 				age = 72
 				health = 15
@@ -1316,8 +1316,8 @@ narrative_event = {
 			create_character = {
 				random_traits = no
 				dynasty = none
-				religion = gem_goddesses #buddhist
-				culture = gem_lander #sinhala
+				religion = buddhist
+				culture = sinhala
 				female = yes
 				age = 9
 				attributes = {
@@ -1604,38 +1604,38 @@ narrative_event = {
 			limit = { trait = zealous }
 			remove_trait = zealous
 		}
-		#if = {
-		#	limit = {
-		#		FROM = { religion_group = demon_religion #pagan_group }
-		#		NOT = { 
-		#			trait = sympathy_pagans 
-		#			FROM = { religion_group = ROOT }
-		#		} 
-		#	}
-		#	add_trait = sympathy_pagans
-		#}
+		if = {
+			limit = {
+				FROM = { religion_group = pagan_group }
+				NOT = { 
+					trait = sympathy_pagans 
+					FROM = { religion_group = ROOT }
+				} 
+			}
+			add_trait = sympathy_pagans
+		}
 
-		#if = {
-		#	limit = {
-		#		FROM = { religion_group = muslim } 
-		#		NOT = { 
-		#			trait = sympathy_islam 
-		#			FROM = { religion_group = ROOT }
-		#		} 
-		#	}
-		#	add_trait = sympathy_islam
-		#}
+		if = {
+			limit = {
+				FROM = { religion_group = muslim } 
+				NOT = { 
+					trait = sympathy_islam 
+					FROM = { religion_group = ROOT }
+				} 
+			}
+			add_trait = sympathy_islam
+		}
 
-		#if = {
-		#	limit = {
-		#		FROM = { religion_group = indian_group } 
-		#		NOT = { 
-		#			trait = sympathy_indian 
-		#			FROM = { religion_group = ROOT }
-		#		} 
-		#	}
-		#	add_trait = sympathy_indian
-		#}
+		if = {
+			limit = {
+				FROM = { religion_group = indian_group } 
+				NOT = { 
+					trait = sympathy_indian 
+					FROM = { religion_group = ROOT }
+				} 
+			}
+			add_trait = sympathy_indian
+		}
 	}
 	#Leave for different religion
 	option = {

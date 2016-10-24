@@ -143,10 +143,10 @@ character_event = {
 			}
 		}
 		OR = {
-			religion_group = goddesses_religion #christian
-			#religion_group = muslim
-			#religion_group = zoroastrian_group
-			religion_group = minor_deity #jewish_group
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
 		}
 		any_child = {
 			NOT = { age = 3 }
@@ -849,7 +849,7 @@ character_event = {
 
 		if = {
 			limit = {
-				religion_group = goddesses_religion #christian
+				religion_group = christian
 			}				
 			add_trait = nun
 		}
@@ -1599,160 +1599,160 @@ character_event = {
 	immediate = {
 		location = {
 			ROOT = {
-				#create_character = {
-				#	dynasty = none
-				#	religion = zun_pagan
-				#	culture = greek
-				#	female = yes
-				#	name = Circe
-				#	age = 25
-				#	dna=bdlhexmbcai
-				#	attributes = {
-				#		intrigue = 12
-				#		martial = 7
-				#		diplomacy = 10
-				#		stewardship = 4
-				#		learning = 10
-				#	}
-				#	trait = ambitious
-				#	trait = cruel
-				#	trait = envious
-				#	trait = cynical
-				#	trait = deceitful
-				#	trait = fair
-				#	trait = mystic
-				#	trait = brilliant_strategist
-				#	trait = flanker
-				#}
-				#new_character = {
-				#	spawn_unit = {
-				#		province = PREVPREV
-				#		home = PREVPREV
-				#		owner = ROOT
-				#		troops = {
-				#			archers = { 150 150 }
-				#			knights = { 100 100 }
-				#			heavy_infantry = { 250 250 }
-				#		}
-				#		attrition = 0.0
-				#	}
-				#	add_character_modifier = {
-				#		name = known_witch
-				#		duration = -1
-				#	}
-				#	opinion = {
-				#		who = ROOT
-				#		modifier = opinion_the_chosen_one
-				#	}
-				#	set_character_flag = special_marshal
-				#	set_character_flag = special_treasurer
-				#	set_character_flag = special_chancellor
-				#	set_character_flag = special_spiritual
-				#	set_character_flag = special_spymaster
-				#}
-				#create_character = {
-				#	dynasty = none
-				#	religion = zun_pagan
-				#	culture = levantine_arabic
-				#	female = yes
-				#	name = Jezebel
-				#	age = 24
-				#	dna=dhmfgmabaaz
-				#	attributes = {
-				#		intrigue = 9
-				#		martial = 7
-				#		diplomacy = 12
-				#		stewardship = 3
-				#		learning = 8
-				#	}
-				#	trait = ambitious
-				#	trait = cruel
-				#	trait = envious
-				#	trait = lustful
-				#	trait = deceitful
-				#	trait = fair
-				#	trait = hedonist
-				#	trait = grey_eminence
-				#	trait = inspiring_leader
-				#}
-				#new_character = {
-				#	spawn_unit = {
-				#		province = PREVPREV
-				#		home = PREVPREV
-				#		owner = ROOT
-				#		troops = {
-				#			archers = { 150 150 }
-				#			knights = { 100 100 }
-				#			heavy_infantry = { 250 250 }
-				#		}
-				#		attrition = 0.0
-				#	}
-				#	add_character_modifier = {
-				#		name = known_witch
-				#		duration = -1
-				#	}
-				#	opinion = {
-				#		who = ROOT
-				#		modifier = opinion_the_chosen_one
-				#	}
-				#	set_character_flag = special_marshal
-				#	set_character_flag = special_treasurer
-				#	set_character_flag = special_chancellor
-				#	set_character_flag = special_spiritual
-				#	set_character_flag = special_spymaster
-				#}
-				#create_character = {
-				#	dynasty = none
-				#	religion = norse_pagan
-				#	culture = welsh
-				#	female = yes
-				#	name = Morgana
-				#	age = 27
-				#	dna=aefccojcgbd
-				#	attributes = {
-				#		intrigue = 15
-				#		martial = 7
-				#		diplomacy = 10
-				#		stewardship = 8
-				#		learning = 12
-				#	}
-				#	trait = ambitious
-				#	trait = cruel
-				#	trait = lustful
-				#	trait = envious
-				#	trait = genius
-				#	trait = deceitful
-				#	trait = fair
-				#	trait = mystic
-				#	trait = elusive_shadow
-				#	trait = defensive_leader
-				#}
-				#new_character = {
-				#	spawn_unit = {
-				#		province = PREVPREV
-				#		home = PREVPREV
-				#		owner = ROOT
-				#		troops = {
-				#			archers = { 150 150 }
-				#			knights = { 100 100 }
-				#			heavy_infantry = { 250 250 }
-				#		}
-				#		attrition = 0.0
-				#	}
-				#	add_character_modifier = {
-				#		name = known_witch
-				#		duration = -1
-				#	}
-				#	opinion = {
-				#		who = ROOT
-				#		modifier = opinion_the_chosen_one
-				#	}
-				#	set_character_flag = special_marshal
-				#	set_character_flag = special_treasurer
-				#	set_character_flag = special_chancellor
-				#	set_character_flag = special_spiritual
-				#	set_character_flag = special_spymaster
-				#}
+				create_character = {
+					dynasty = none
+					religion = zun_pagan
+					culture = greek
+					female = yes
+					name = Circe
+					age = 25
+					dna=bdlhexmbcai
+					attributes = {
+						intrigue = 12
+						martial = 7
+						diplomacy = 10
+						stewardship = 4
+						learning = 10
+					}
+					trait = ambitious
+					trait = cruel
+					trait = envious
+					trait = cynical
+					trait = deceitful
+					trait = fair
+					trait = mystic
+					trait = brilliant_strategist
+					trait = flanker
+				}
+				new_character = {
+					spawn_unit = {
+						province = PREVPREV
+						home = PREVPREV
+						owner = ROOT
+						troops = {
+							archers = { 150 150 }
+							knights = { 100 100 }
+							heavy_infantry = { 250 250 }
+						}
+						attrition = 0.0
+					}
+					add_character_modifier = {
+						name = known_witch
+						duration = -1
+					}
+					opinion = {
+						who = ROOT
+						modifier = opinion_the_chosen_one
+					}
+					set_character_flag = special_marshal
+					set_character_flag = special_treasurer
+					set_character_flag = special_chancellor
+					set_character_flag = special_spiritual
+					set_character_flag = special_spymaster
+				}
+				create_character = {
+					dynasty = none
+					religion = zun_pagan
+					culture = levantine_arabic
+					female = yes
+					name = Jezebel
+					age = 24
+					dna=dhmfgmabaaz
+					attributes = {
+						intrigue = 9
+						martial = 7
+						diplomacy = 12
+						stewardship = 3
+						learning = 8
+					}
+					trait = ambitious
+					trait = cruel
+					trait = envious
+					trait = lustful
+					trait = deceitful
+					trait = fair
+					trait = hedonist
+					trait = grey_eminence
+					trait = inspiring_leader
+				}
+				new_character = {
+					spawn_unit = {
+						province = PREVPREV
+						home = PREVPREV
+						owner = ROOT
+						troops = {
+							archers = { 150 150 }
+							knights = { 100 100 }
+							heavy_infantry = { 250 250 }
+						}
+						attrition = 0.0
+					}
+					add_character_modifier = {
+						name = known_witch
+						duration = -1
+					}
+					opinion = {
+						who = ROOT
+						modifier = opinion_the_chosen_one
+					}
+					set_character_flag = special_marshal
+					set_character_flag = special_treasurer
+					set_character_flag = special_chancellor
+					set_character_flag = special_spiritual
+					set_character_flag = special_spymaster
+				}
+				create_character = {
+					dynasty = none
+					religion = norse_pagan
+					culture = welsh
+					female = yes
+					name = Morgana
+					age = 27
+					dna=aefccojcgbd
+					attributes = {
+						intrigue = 15
+						martial = 7
+						diplomacy = 10
+						stewardship = 8
+						learning = 12
+					}
+					trait = ambitious
+					trait = cruel
+					trait = lustful
+					trait = envious
+					trait = genius
+					trait = deceitful
+					trait = fair
+					trait = mystic
+					trait = elusive_shadow
+					trait = defensive_leader
+				}
+				new_character = {
+					spawn_unit = {
+						province = PREVPREV
+						home = PREVPREV
+						owner = ROOT
+						troops = {
+							archers = { 150 150 }
+							knights = { 100 100 }
+							heavy_infantry = { 250 250 }
+						}
+						attrition = 0.0
+					}
+					add_character_modifier = {
+						name = known_witch
+						duration = -1
+					}
+					opinion = {
+						who = ROOT
+						modifier = opinion_the_chosen_one
+					}
+					set_character_flag = special_marshal
+					set_character_flag = special_treasurer
+					set_character_flag = special_chancellor
+					set_character_flag = special_spiritual
+					set_character_flag = special_spymaster
+				}
 			}
 		}
 		set_character_flag = demon_child_non_pagan_cultists
@@ -1774,7 +1774,7 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		NOT = { religion_group = demon_religion #pagan_group }
+		NOT = { religion_group = pagan_group }
 		NOT = { has_character_flag = demon_child_non_pagan_got_nanny }
 	}
 	
@@ -1817,7 +1817,7 @@ character_event = {
 		create_character = {
 			dynasty = none
 			religion = ROOT
-			culture = arcadian #frankish
+			culture = frankish
 			female = yes
 			age = 20
 			dna=dkkdfdgibbe
@@ -1852,7 +1852,7 @@ character_event = {
 				
 				if = {
 					limit = {
-						religion_group = goddesses_religion #christian
+						religion_group = christian
 					}
 					add_trait = nun
 				}
@@ -1883,7 +1883,7 @@ character_event = {
 		create_character = {
 			dynasty = none
 			religion = ROOT
-			culture = arcadian #frankish
+			culture = frankish
 			female = yes
 			age = 20
 			dna=dkkdfdgibbe
@@ -1918,7 +1918,7 @@ character_event = {
 				
 				if = {
 					limit = {
-						religion_group = goddesses_religion #christian
+						religion_group = christian
 					}
 					add_trait = nun
 				}
@@ -1950,7 +1950,7 @@ character_event = {
 	trigger = {
 		is_ruler = no
 		is_consort = no
-		NOT = { religion_group = demon_religion #pagan_group }
+		NOT = { religion_group = pagan_group }
 		NOT = {
 			any_courtier = {
 				has_character_flag = demon_child_non_pagan
@@ -2020,7 +2020,7 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		NOT = { religion_group = demon_religion #pagan_group }
+		NOT = { religion_group = pagan_group }
 		OR = {
 			ai = no
 			liege = {

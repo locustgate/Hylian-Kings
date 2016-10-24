@@ -7,11 +7,11 @@
 # By Henrik Eklund
 # 									 
 ############################################
-
-#####################################
-# The Order is created/destroyed... #
-#####################################
-
+#
+######################################
+## The Order is created/destroyed... #
+######################################
+#
 ## Birth of the Assassins
 #narrative_event = {
 #	id = 88000
@@ -316,7 +316,7 @@
 #	picture = "GFX_evt_shadow"
 #	
 #	only_playable = yes
-#	religion = golden_goddesses #catholic
+#	religion = catholic
 #	has_global_flag = assassins_scatter
 #	
 #	trigger = {

@@ -197,1266 +197,1266 @@ character_event = {
 	}
 }
 
-## Converted within Hinduism - choose branch
-#character_event = {
-#	id = RoI.115
-#	desc = EVTDESC_RoI_115
-#	picture = GFX_evt_bishop
-#	border = GFX_event_normal_frame_religion
-#
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = EVTOPTA_RoI_110
-#		trigger = {
-#			NOT = { trait = shaivist_hindu }
-#		}
-#		add_trait = shaivist_hindu
-#		any_courtier = {
-#			limit = { 
-#				is_close_relative = ROOT
-#				NOT = { trait = zealous }
-#				religion = hindu
-#				NOT = { trait = shaivist_hindu }
-#			}
-#			add_trait = shaivist_hindu
-#		}
-#		any_spouse = {
-#			limit = { 
-#				is_consort = no
-#				NOT = { trait = zealous }
-#				religion = hindu
-#				NOT = { trait = shaivist_hindu }
-#			}
-#			add_trait = shaivist_hindu
-#		}
-#		if = {
-#			limit = { ai = no }
-#			chronicle = {
-#				entry = CHRONICLE_CHANGE_HINDU_BRANCH_TO_SHAIVIST
-#				picture = GFX_evt_bishop_hindu
-#			}
-#		}
-#	}
-#
-#	option = {
-#		name = EVTOPTB_RoI_110
-#		trigger = {
-#			NOT = { trait = vaishnavist_hindu }
-#		}
-#		add_trait = vaishnavist_hindu
-#		any_courtier = {
-#			limit = { 
-#				is_close_relative = ROOT
-#				NOT = { trait = zealous }
-#				religion = hindu
-#				NOT = { trait = vaishnavist_hindu }
-#			}
-#			add_trait = vaishnavist_hindu
-#		}
-#		any_spouse = {
-#			limit = { 
-#				is_consort = no
-#				NOT = { trait = zealous }
-#				religion = hindu
-#				NOT = { trait = vaishnavist_hindu }
-#			}
-#			add_trait = vaishnavist_hindu
-#		}
-#		if = {
-#			limit = { ai = no }
-#			chronicle = {
-#				entry = CHRONICLE_CHANGE_HINDU_BRANCH_TO_VAISHNAVIST
-#				picture = GFX_evt_bishop_hindu
-#			}
-#		}
-#	}
-#
-#	option = {
-#		name = EVTOPTC_RoI_110
-#		trigger = {
-#			NOT = { trait = shaktist_hindu }
-#		}
-#		add_trait = shaktist_hindu
-#		any_courtier = {
-#			limit = { 
-#				is_close_relative = ROOT
-#				NOT = { trait = zealous }
-#				religion = hindu
-#				NOT = { trait = shaktist_hindu }
-#			}
-#			add_trait = shaktist_hindu
-#		}
-#		any_spouse = {
-#			limit = { 
-#				is_consort = no
-#				NOT = { trait = zealous }
-#				religion = hindu
-#				NOT = { trait = shaktist_hindu }
-#			}
-#			add_trait = shaktist_hindu
-#		}
-#		if = {
-#			limit = { ai = no }
-#			chronicle = {
-#				entry = CHRONICLE_CHANGE_HINDU_BRANCH_TO_SHAKTIST
-#				picture = GFX_evt_bishop_hindu
-#			}
-#		}
-#	}
-#
-#	option = {
-#		name = EVTOPTD_RoI_110
-#		trigger = {
-#			NOT = { trait = smartist_hindu }
-#		}
-#		add_trait = smartist_hindu
-#		any_courtier = {
-#			limit = { 
-#				is_close_relative = ROOT
-#				NOT = { trait = zealous }
-#				religion = hindu
-#				NOT = { trait = smartist_hindu }
-#			}
-#			add_trait = smartist_hindu
-#		}
-#		any_spouse = {
-#			limit = { 
-#				is_consort = no
-#				NOT = { trait = zealous }
-#				religion = hindu
-#				NOT = { trait = smartist_hindu }
-#			}
-#			add_trait = smartist_hindu
-#		}
-#		if = {
-#			limit = { ai = no }
-#			chronicle = {
-#				entry = CHRONICLE_CHANGE_HINDU_BRANCH_TO_SMARTIST
-#				picture = GFX_evt_bishop_hindu
-#			}
-#		}
-#	}
-#}
-#
-## Converted within Buddhism - choose branch
-#character_event = {
-#	id = RoI.116
-#	desc = EVTDESC_RoI_116
-#	picture = GFX_evt_bishop
-#	border = GFX_event_normal_frame_religion
-#
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = EVTOPTA_RoI_111
-#		trigger = {
-#			NOT = { trait = mahayana_buddhist }
-#		}
-#		add_trait = mahayana_buddhist
-#		any_courtier = {
-#			limit = { 
-#				is_close_relative = ROOT
-#				NOT = { trait = zealous }
-#				religion = buddhist
-#				NOT = { trait = mahayana_buddhist }
-#			}
-#			add_trait = mahayana_buddhist
-#		}
-#		any_spouse = {
-#			limit = { 
-#				is_consort = no
-#				NOT = { trait = zealous }
-#				religion = buddhist
-#				NOT = { trait = mahayana_buddhist }
-#			}
-#			add_trait = mahayana_buddhist
-#		}
-#		if = {
-#			limit = { ai = no }
-#			chronicle = {
-#				entry = CHRONICLE_CHANGE_BUDDHIST_BRANCH_TO_MAHAYANA
-#				picture = GFX_evt_bishop_indian_group
-#			}
-#		}
-#	}
-#
-#	option = {
-#		name = EVTOPTB_RoI_111
-#		trigger = {
-#			NOT = { trait = vajrayana_buddhist }
-#		}
-#		add_trait = vajrayana_buddhist
-#		any_courtier = {
-#			limit = { 
-#				is_close_relative = ROOT
-#				NOT = { trait = zealous }
-#				religion = buddhist
-#				NOT = { trait = vajrayana_buddhist }
-#			}
-#			add_trait = vajrayana_buddhist
-#		}
-#		any_spouse = {
-#			limit = { 
-#				is_consort = no
-#				NOT = { trait = zealous }
-#				religion = buddhist
-#				NOT = { trait = vajrayana_buddhist }
-#			}
-#			add_trait = vajrayana_buddhist
-#		}
-#		if = {
-#			limit = { ai = no }
-#			chronicle = {
-#				entry = CHRONICLE_CHANGE_BUDDHIST_BRANCH_TO_VAJRAYANA
-#				picture = GFX_evt_bishop_indian_group
-#			}
-#		}
-#	}
-#
-#	option = {
-#		name = EVTOPTC_RoI_111
-#		trigger = {
-#			NOT = { trait = theravada_buddhist }
-#		}
-#		add_trait = theravada_buddhist
-#		any_courtier = {
-#			limit = { 
-#				is_close_relative = ROOT
-#				NOT = { trait = zealous }
-#				religion = buddhist
-#				NOT = { trait = theravada_buddhist }
-#			}
-#			add_trait = theravada_buddhist
-#		}
-#		any_spouse = {
-#			limit = { 
-#				is_consort = no
-#				NOT = { trait = zealous }
-#				religion = buddhist
-#				NOT = { trait = theravada_buddhist }
-#			}
-#			add_trait = theravada_buddhist
-#		}
-#		if = {
-#			limit = { ai = no }
-#			chronicle = {
-#				entry = CHRONICLE_CHANGE_BUDDHIST_BRANCH_TO_THERAVADA
-#				picture = GFX_evt_bishop_indian_group
-#			}
-#		}
-#	}
-#}
-#
-## Converted within Jainism - choose branch
-#character_event = {
-#	id = RoI.117
-#	desc = EVTDESC_RoI_117
-#	picture = GFX_evt_bishop
-#	border = GFX_event_normal_frame_religion
-#
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = EVTOPTA_RoI_117
-#		trigger = {
-#			NOT = { trait = digambara_jain }
-#		}
-#		add_trait = digambara_jain
-#		any_courtier = {
-#			limit = { 
-#				is_close_relative = ROOT
-#				NOT = { trait = zealous }
-#				religion = jain
-#				NOT = { trait = digambara_jain }
-#			}
-#			add_trait = digambara_jain
-#		}
-#		any_spouse = {
-#			limit = { 
-#				is_consort = no
-#				NOT = { trait = zealous }
-#				religion = jain
-#				NOT = { trait = digambara_jain }
-#			}
-#			add_trait = digambara_jain
-#		}
-#		if = {
-#			limit = { ai = no }
-#			chronicle = {
-#				entry = CHRONICLE_CHANGE_JAIN_BRANCH_TO_DIGAMBARA
-#				picture = GFX_evt_bishop_indian_group
-#			}
-#		}
-#	}
-#
-#	option = {
-#		name = EVTOPTB_RoI_117
-#		trigger = {
-#			NOT = { trait = svetambara_jain }
-#		}
-#		add_trait = svetambara_jain
-#		any_courtier = {
-#			limit = { 
-#				is_close_relative = ROOT
-#				NOT = { trait = zealous }
-#				religion = jain
-#				NOT = { trait = svetambara_jain }
-#			}
-#			add_trait = svetambara_jain
-#		}
-#		any_spouse = {
-#			limit = { 
-#				is_consort = no
-#				NOT = { trait = zealous }
-#				religion = jain
-#				NOT = { trait = svetambara_jain }
-#			}
-#			add_trait = svetambara_jain
-#		}
-#		if = {
-#			limit = { ai = no }
-#			chronicle = {
-#				entry = CHRONICLE_CHANGE_JAIN_BRANCH_TO_SVETAMBARA
-#				picture = GFX_evt_bishop_indian_group
-#			}
-#		}
-#	}
-#}
+# Converted within Hinduism - choose branch
+character_event = {
+	id = RoI.115
+	desc = EVTDESC_RoI_115
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
 
-## After diplomacy action conversion
-#character_event = {
-#	id = RoI.120
-#
-#	hide_window = yes
-#	
-#	is_triggered_only = yes
-#	
-#	immediate = {
-#		if = {
-#			limit = {
-#				FROMFROMFROM = { trait = shaivist_hindu }
-#			}
-#			add_trait = shaivist_hindu
-#		}
-#		if = {
-#			limit = {
-#				FROMFROMFROM = { trait = vaishnavist_hindu }
-#			}
-#			add_trait = vaishnavist_hindu
-#		}
-#		if = {
-#			limit = {
-#				FROMFROMFROM = { trait = shaktist_hindu }
-#			}
-#			add_trait = shaktist_hindu
-#		}
-#		if = {
-#			limit = {
-#				FROMFROMFROM = { trait = smartist_hindu }
-#			}
-#			add_trait = smartist_hindu
-#		}
-#		if = {
-#			limit = {
-#				FROMFROMFROM = { trait = mahayana_buddhist }
-#			}
-#			add_trait = mahayana_buddhist
-#		}
-#		if = {
-#			limit = {
-#				FROMFROMFROM = { trait = vajrayana_buddhist }
-#			}
-#			add_trait = vajrayana_buddhist
-#		}
-#		if = {
-#			limit = {
-#				FROMFROMFROM = { trait = theravada_buddhist }
-#			}
-#			add_trait = theravada_buddhist
-#		}
-#		if = {
-#			limit = {
-#				FROMFROMFROM = { trait = digambara_jain }
-#			}
-#			add_trait = digambara_jain
-#		}
-#		if = {
-#			limit = {
-#				FROMFROMFROM = { trait = svetambara_jain }
-#			}
-#			add_trait = svetambara_jain
-#		}
-#	}
-#}
-#
-## After conversion, set religious branch randomly
-#character_event = {
-#	id = RoI.30120
-#
-#	hide_window = yes
-#	
-#	is_triggered_only = yes
-#	
-#	immediate = {
-#		if = {
-#			limit = { religion = hindu }
-#			random_list = {
-#				10 = { add_trait = shaivist_hindu }
-#				10 = { add_trait = vaishnavist_hindu }
-#				10 = { add_trait = shaktist_hindu }
-#				10 = { add_trait = smartist_hindu }
-#			}
-#		}
-#		if = {
-#			limit = { religion = buddhist }
-#			random_list = {
-#				10 = { add_trait = mahayana_buddhist }
-#				10 = { add_trait = vajrayana_buddhist }
-#				10 = { add_trait = theravada_buddhist }
-#			}
-#		}
-#		if = {
-#			limit = { religion = jain }
-#			random_list = {
-#				10 = { add_trait = digambara_jain }
-#				10 = { add_trait = svetambara_jain }
-#			}
-#		}
-#	}
-#}
-#
-## After conversion, set religious branch to liege's branch
-#character_event = {
-#	id = RoI.30121
-#
-#	hide_window = yes
-#	
-#	is_triggered_only = yes
-#	
-#	immediate = {
-#		if = {
-#			limit = {
-#				liege = { trait = shaivist_hindu }
-#			}
-#			add_trait = shaivist_hindu
-#		}
-#		if = {
-#			limit = {
-#				liege = { trait = vaishnavist_hindu }
-#			}
-#			add_trait = vaishnavist_hindu
-#		}
-#		if = {
-#			limit = {
-#				liege = { trait = shaktist_hindu }
-#			}
-#			add_trait = shaktist_hindu
-#		}
-#		if = {
-#			limit = {
-#				liege = { trait = smartist_hindu }
-#			}
-#			add_trait = smartist_hindu
-#		}
-#		if = {
-#			limit = {
-#				liege = { trait = mahayana_buddhist }
-#			}
-#			add_trait = mahayana_buddhist
-#		}
-#		if = {
-#			limit = {
-#				liege = { trait = vajrayana_buddhist }
-#			}
-#			add_trait = vajrayana_buddhist
-#		}
-#		if = {
-#			limit = {
-#				liege = { trait = theravada_buddhist }
-#			}
-#			add_trait = theravada_buddhist
-#		}
-#		if = {
-#			limit = {
-#				liege = { trait = digambara_jain }
-#			}
-#			add_trait = digambara_jain
-#		}
-#		if = {
-#			limit = {
-#				liege = { trait = svetambara_jain }
-#			}
-#			add_trait = svetambara_jain
-#		}
-#	}
-#}
-#
-## After conversion, set religious branch to FROM's branch
-#character_event = {
-#	id = RoI.30122
-#
-#	hide_window = yes
-#	
-#	is_triggered_only = yes
-#	
-#	immediate = {
-#		if = {
-#			limit = {
-#				FROM = { trait = shaivist_hindu }
-#			}
-#			add_trait = shaivist_hindu
-#		}
-#		if = {
-#			limit = {
-#				FROM = { trait = vaishnavist_hindu }
-#			}
-#			add_trait = vaishnavist_hindu
-#		}
-#		if = {
-#			limit = {
-#				FROM = { trait = shaktist_hindu }
-#			}
-#			add_trait = shaktist_hindu
-#		}
-#		if = {
-#			limit = {
-#				FROM = { trait = smartist_hindu }
-#			}
-#			add_trait = smartist_hindu
-#		}
-#		if = {
-#			limit = {
-#				FROM = { trait = mahayana_buddhist }
-#			}
-#			add_trait = mahayana_buddhist
-#		}
-#		if = {
-#			limit = {
-#				FROM = { trait = vajrayana_buddhist }
-#			}
-#			add_trait = vajrayana_buddhist
-#		}
-#		if = {
-#			limit = {
-#				FROM = { trait = theravada_buddhist }
-#			}
-#			add_trait = theravada_buddhist
-#		}
-#		if = {
-#			limit = {
-#				FROM = { trait = digambara_jain }
-#			}
-#			add_trait = digambara_jain
-#		}
-#		if = {
-#			limit = {
-#				FROM = { trait = svetambara_jain }
-#			}
-#			add_trait = svetambara_jain
-#		}
-#	}
-#}
-#
-############################################
-## Reincarnation Events
-############################################
-## by Henrik Fåhraeus
-############################################
-#
-## [on_birth] Child might be a reincarnation
-#character_event = {
-#	id = RoI.10000
-#	hide_window = yes
-#	
-#	is_triggered_only = yes
-#	
-#	only_men = yes
-#	religion_group = indian_group
-#	
-#	trigger = {
-#		has_dlc = "Rajas of India"
-#		NOT = {
-#			has_game_rule = {
-#				name = supernatural_events
-#				value = off
-#			}
-#		}
-#		OR = {
-#			father = {
-#				OR = {
-#					ai = no
-#					has_game_rule = {
-#						name = supernatural_events
-#						value = unrestricted
-#					}
-#				}
-#				is_reincarnated = no
-#				father_even_if_dead = {
-#					OR = {
-#						is_alive = no
-#						father_even_if_dead = {
-#							is_alive = no
-#						}
-#					}
-#				}
-#				NOT = {
-#					any_sibling = {
-#						is_reincarnated = yes
-#					}
-#				}
-#			}
-#			mother = {
-#				ai = no
-#				is_reincarnated = no
-#				father_even_if_dead = {
-#					OR = {
-#						is_alive = no
-#						father_even_if_dead = {
-#							is_alive = no
-#						}
-#					}
-#				}
-#				NOT = {
-#					any_sibling = {
-#						is_reincarnated = yes
-#					}
-#				}
-#			}
-#		}
-#		NOT = {
-#			any_sibling = {
-#				is_reincarnated = yes
-#			}
-#		}
-#	}
-#	
-#	option = {
-#		if = {
-#			limit = {
-#				father = { 
-#					OR = {
-#						ai = no
-#						has_game_rule = {
-#							name = supernatural_events
-#							value = unrestricted
-#						}
-#					}
-#				}
-#			}
-#			if = {
-#				limit = {
-#					father = {
-#						father_even_if_dead = {
-#							father_even_if_dead = {
-#								is_alive = no
-#							}
-#						}
-#					}
-#				}
-#				father = {
-#					father_even_if_dead = {
-#						father_even_if_dead = {
-#							ROOT = {
-#								set_reincarnation = PREV
-#							}
-#						}
-#					}
-#				}
-#			}
-#			if = {
-#				limit = {
-#					is_reincarnated = no
-#				}
-#				father = {
-#					father_even_if_dead = {
-#						ROOT = {
-#							set_reincarnation = PREV
-#						}
-#					}
-#				}
-#			}
-#			
-#			father = {
-#				character_event = {
-#					id = RoI.10001
-#					days = 3
-#				}
-#			}
-#		}
-#		if = {
-#			limit = {
-#				mother = { ai = no }
-#				is_reincarnated = no
-#			}
-#			if = {
-#				limit = {
-#					mother = {
-#						father_even_if_dead = {
-#							father_even_if_dead = {
-#								is_alive = no
-#							}
-#						}
-#					}
-#				}
-#				mother = {
-#					father_even_if_dead = {
-#						father_even_if_dead = {
-#							ROOT = {
-#								set_reincarnation = PREV
-#							}
-#						}
-#					}
-#				}
-#			}
-#			if = {
-#				limit = {
-#					is_reincarnated = no
-#				}
-#				mother = {
-#					father_even_if_dead = {
-#						ROOT = {
-#							set_reincarnation = PREV
-#						}
-#					}
-#				}
-#			}
-#			
-#			mother = {
-#				character_event = {
-#					id = RoI.10001
-#					days = 3
-#				}
-#			}
-#		}
-#	}
-#}
-#
-## Reincarnation: Player notices the similarities
-#character_event = {
-#	id = RoI.10001
-#	desc = EVTDESC_RoI_10001
-#	picture = GFX_evt_reincarnation
-#	border = GFX_event_normal_frame_religion
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = EVTOPTA_RoI_10001 # Yes, clearly
-#		
-#		hidden_tooltip = {
-#			FROM = {
-#				add_trait = reincarnation
-#				character_event = {
-#					id = RoI.10002
-#					days = 912
-#				}
-#			}
-#		}
-#	}
-#	
-#	option = {
-#		name = EVTOPTB_RoI_10001 # Nonsense!
-#		
-#		hidden_tooltip = {
-#			FROM = {
-#				set_reincarnation = 0
-#			}
-#		}
-#	}
-#}
-#
-## Reincarnation: Toddler thinks of the past life
-#character_event = {
-#	id = RoI.10002
-#	desc = EVTDESC_RoI_10002
-#	picture = GFX_evt_reincarnation
-#	border = GFX_event_normal_frame_religion
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = EVTOPTA_RoI_10002
-#		hidden_tooltip = {
-#			FROM = {
-#				character_event = {
-#					id = RoI.10003
-#					days = 2
-#				}
-#			}
-#		}
-#	}
-#}
-#
-## Reincarnation: Toddler speaks of the past life
-#character_event = {
-#	id = RoI.10003
-#	desc = EVTDESC_RoI_10003
-#	picture = GFX_evt_reincarnation
-#	border = GFX_event_normal_frame_religion
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = EVTOPTA_RoI_10003
-#		hidden_tooltip = {
-#			FROM = {
-#				set_character_flag = reincarnation_education
-#			}
-#		}
-#	}
-#	option = {
-#		name = EVTOPTB_RoI_10003
-#	}
-#}
-#
-## [on_yearly_childhood_pulse] Reincarnation: Youth picks up a personality trait from the previous life
-#character_event = {
-#	id = RoI.10010
-#	desc = EVTDESC_RoI_10010
-#	picture = GFX_evt_reincarnation
-#	border = GFX_event_normal_frame_religion
-#	
-#	religion_group = indian_group
-#	
-#	is_triggered_only = yes
-#	
-#	trigger = {
-#		has_dlc = "Rajas of India"
-#		has_character_flag = reincarnation_education
-#		NOT = { personality_traits = 5 }
-#		reincarnation_scope = {
-#			ROOT = {
-#				can_copy_personality_trait_from = PREV
-#			}
-#		}
-#	}
-#	
-#	option = {
-#		name = EVTOPTA_RoI_10010
-#		reincarnation_scope = {
-#			ROOT = {
-#				copy_random_personality_trait = PREV
-#			}
-#		}
-#		hidden_tooltip = {
-#			if = {
-#				limit = {
-#					father = {
-#						ai = no
-#					}
-#				}
-#				father = {
-#					character_event = {
-#						id = RoI.10011
-#						days = 2
-#					}
-#				}
-#			}
-#			if = {
-#				limit = {
-#					mother = {
-#						ai = no
-#					}
-#				}
-#				mother = {
-#					character_event = {
-#						id = RoI.10011
-#						days = 2
-#					}
-#				}
-#			}
-#			if = {
-#				limit = {
-#					guardian = {
-#						ai = no
-#					}
-#				}
-#				guardian = {
-#					character_event = {
-#						id = RoI.10011
-#						days = 2
-#					}
-#				}
-#			}
-#		}
-#	}
-#}
-#
-## Reincarnation: Notification of a youth picking up a personality trait from the previous life
-#character_event = {
-#	id = RoI.10011
-#	desc = EVTDESC_RoI_10011
-#	picture = GFX_evt_reincarnation
-#	border = GFX_event_normal_frame_religion
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = EVTOPTA_RoI_10011
-#	}
-#}
-#
-## [on_yearly_pulse] Reincarnation: Reincarnated player remembers his murderer
-#character_event = {
-#	id = RoI.10020
-#	desc = EVTDESC_RoI_10020
-#	picture = GFX_evt_shadow
-#	border = GFX_event_normal_frame_religion
-#	
-#	is_triggered_only = yes
-#	
-#	ai = no
-#	min_age = 14
-#	
-#	trigger = {
-#		is_reincarnated = yes
-#		trait = reincarnation
-#		has_dlc = "Rajas of India"
-#		reincarnation_scope = {
-#			OR = {
-#				death_murder_trigger = yes
-#				death_execution_trigger = yes
-#			}
-#			killer = {
-#				always = yes
-#			}
-#		}
-#		NOT = { has_character_flag = reinc_remembered_killer }
-#	}
-#	
-#	option = {
-#		name = EVTOPTA_RoI_10020
-#		
-#		set_character_flag = reinc_remembered_killer
-#		
-#		if = {
-#			limit = {
-#				reincarnation_scope = {
-#					killer = {
-#						is_alive = yes
-#					}
-#				}
-#			}
-#			reincarnation_scope = {
-#				killer = {
-#					reverse_opinion = {
-#						who = ROOT
-#						years = 100
-#						modifier = opinion_dishonorable
-#					}
-#				}
-#			}
-#		}
-#	}
-#}
-#
-## [on_yearly_pulse] Reincarnation: Reincarnated player remembers spouse
-#character_event = {
-#	id = RoI.10021
-#	desc = EVTDESC_RoI_10021
-#	picture = GFX_evt_lovers
-#	border = GFX_event_normal_frame_religion
-#	
-#	is_triggered_only = yes
-#	
-#	ai = no
-#	min_age = 14
-#	
-#	trigger = {
-#		is_reincarnated = yes
-#		trait = reincarnation
-#		has_dlc = "Rajas of India"
-#		reincarnation_scope = {
-#			spouse_even_if_dead = {
-#				always = yes
-#			} 
-#		}
-#		NOT = { has_character_flag = reinc_remembered_spouse }
-#	}
-#	
-#	option = {
-#		name = EVTOPTA_RoI_10021
-#		
-#		set_character_flag = reinc_remembered_spouse
-#	}
-#}
-#
-## [on_yearly_pulse] Reincarnation: Reincarnated player remembers child
-#character_event = {
-#	id = RoI.10022
-#	desc = EVTDESC_RoI_10022
-#	picture = GFX_evt_child_play
-#	border = GFX_event_normal_frame_religion
-#	
-#	is_triggered_only = yes
-#	
-#	ai = no
-#	min_age = 14
-#	
-#	trigger = {
-#		is_reincarnated = yes
-#		trait = reincarnation
-#		has_dlc = "Rajas of India"
-#		reincarnation_scope = {
-#			num_of_children = 1
-#			any_child = {
-#				always = yes
-#			}
-#		}
-#		NOT = { has_character_flag = reinc_remembered_child }
-#	}
-#
-#	immediate = {
-#		reincarnation_scope = {
-#			random_child = {
-#				save_event_target_as = target_child
-#			}
-#		}
-#	}
-#	
-#	option = {
-#		name = EVTOPTA_RoI_10022
-#		
-#		set_character_flag = reinc_remembered_child
-#	}
-#}
-#
-############################################
-## Ascetics                                #
-############################################
-#
-## Hindu ascetic comes to visit
-#character_event = {
-#	id = RoI.203
-#	desc = EVTDESC_RoI_203
-#	picture = GFX_evt_throne_room
-#	border = GFX_event_normal_frame_religion
-#
-#	is_triggered_only = yes
-#	
-#	ai = no
-#	only_capable = yes
-#	prisoner = no
-#	
-#	trigger = {
-#		has_dlc = "Rajas of India"
-#		OR = {
-#			religion = buddhist
-#			religion = jain
-#		}
-#	}
-#	
-#	option = {
-#		name = EVTOPTA_RoI_203
-#		trigger = { NOT = { trait = zealous } }
-#		hidden_tooltip = { character_event = { id = RoI.204 } }
-#	}
-#	option = {
-#		name = EVTOPTB_RoI_203
-#	}
-#	option = {
-#		name = EVTOPTC_RoI_203
-#		prestige = 20
-#		custom_tooltip = { text = realm_hindus_insulted }
-#		hidden_tooltip = {
-#			any_realm_character  = {
-#				limit = { religion = hindu }
-#				opinion = {
-#					who = ROOT
-#					years = 2
-#					modifier = insulted
-#				}
-#			}
-#		}
-#	}
-#}
-#
-## Tell me more, Hindu ascetic
-#character_event = {
-#	id = RoI.204
-#	desc = EVTDESC_RoI_204
-#	picture = GFX_evt_bishop_hindu
-#	border = GFX_event_normal_frame_religion
-#	
-#	religion = hindu
-#
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = EVTOPTA_RoI_204
-#		add_trait = shaivist_hindu
-#		set_character_flag = india_converted
-#		add_character_modifier = {
-#			name = hindu_ascetic
-#			duration = -1
-#		}
-#	}
-#	option = {
-#		name = EVTOPTB_RoI_204
-#		religion = hindu
-#		add_trait = shaivist_hindu
-#		set_character_flag = india_converted
-#	}
-#	option = {
-#		name = EVTOPTC_RoI_204
-#	}
-#}
-#
-## Buddhist ascetic comes to visit
-#character_event = {
-#	id = RoI.206
-#	desc = EVTDESC_RoI_206
-#	picture = GFX_evt_throne_room
-#	border = GFX_event_normal_frame_religion
-#
-#	is_triggered_only = yes
-#	
-#	ai = no
-#	only_capable = yes
-#	prisoner = no
-#	
-#	trigger = {
-#		has_dlc = "Rajas of India"
-#		OR = {
-#			religion = hindu
-#			religion = jain
-#		}
-#	}
-#	
-#	option = {
-#		name = EVTOPTA_RoI_203
-#		trigger = { NOT = { trait = zealous } }
-#		hidden_tooltip = { character_event = { id = RoI.207 } }
-#	}
-#	option = {
-#		name = EVTOPTB_RoI_203
-#	}
-#	option = {
-#		name = EVTOPTC_RoI_206
-#		prestige = 20
-#		custom_tooltip = { text = realm_buddhists_insulted }
-#		hidden_tooltip = {
-#			any_realm_character  = {
-#				limit = { religion = buddhist }
-#				opinion = {
-#					who = ROOT
-#					years = 2
-#					modifier = insulted
-#				}
-#			}
-#		}
-#	}
-#}
-#
-## Tell me more, Buddhist ascetic
-#character_event = {
-#	id = RoI.207
-#	desc = EVTDESC_RoI_204
-#	picture = GFX_evt_bishop_buddhist
-#	border = GFX_event_normal_frame_religion
-#
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = EVTOPTA_RoI_207
-#		religion = buddhist
-#		add_trait = mahayana_buddhist
-#		set_character_flag = india_converted
-#		add_character_modifier = {
-#			name = buddhist_ascetic
-#			duration = -1
-#		}
-#	}
-#	option = {
-#		name = EVTOPTB_RoI_207
-#		religion = buddhist
-#		add_trait = mahayana_buddhist
-#		set_character_flag = india_converted
-#	}
-#	option = {
-#		name = EVTOPTC_RoI_207
-#	}
-#}
-#
-## Jain ascetic comes to visit
-#character_event = {
-#	id = RoI.209
-#	desc = EVTDESC_RoI_209
-#	picture = GFX_evt_throne_room
-#	border = GFX_event_normal_frame_religion
-#
-#	is_triggered_only = yes
-#	
-#	ai = no
-#	only_capable = yes
-#	prisoner = no
-#	
-#	trigger = {
-#		has_dlc = "Rajas of India"
-#		OR = {
-#			religion = hindu
-#			religion = buddhist
-#		}
-#	}
-#	
-#	option = {
-#		name = EVTOPTA_RoI_203
-#		trigger = { NOT = { trait = zealous } }
-#		hidden_tooltip = { character_event = { id = RoI.210 } }
-#	}
-#	option = {
-#		name = EVTOPTB_RoI_209
-#	}
-#	option = {
-#		name = EVTOPTC_RoI_209
-#		prestige = 20
-#		custom_tooltip = { text = realm_jains_insulted }
-#		hidden_tooltip = {
-#			any_realm_character  = {
-#				limit = { religion = jain }
-#				opinion = {
-#					who = ROOT
-#					years = 2
-#					modifier = insulted
-#				}
-#			}
-#		}
-#	}
-#}
-#
-## Tell me more, Jain ascetic
-#character_event = {
-#	id = RoI.210
-#	desc = EVTDESC_RoI_210
-#	picture = GFX_evt_bishop_jain
-#	border = GFX_event_normal_frame_religion
-#
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = EVTOPTA_RoI_210
-#		religion = jain
-#		add_trait = digambara_jain
-#		set_character_flag = india_converted
-#		add_character_modifier = {
-#			name = jain_naked_ascetic
-#			duration = -1
-#		}
-#	}
-#	option = {
-#		name = EVTOPTB_RoI_210
-#		religion = jain
-#		add_trait = digambara_jain
-#		set_character_flag = india_converted
-#	}
-#	option = {
-#		name = EVTOPTC_RoI_210
-#	}
-#}
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_RoI_110
+		trigger = {
+			NOT = { trait = shaivist_hindu }
+		}
+		add_trait = shaivist_hindu
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = hindu
+				NOT = { trait = shaivist_hindu }
+			}
+			add_trait = shaivist_hindu
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = hindu
+				NOT = { trait = shaivist_hindu }
+			}
+			add_trait = shaivist_hindu
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_HINDU_BRANCH_TO_SHAIVIST
+				picture = GFX_evt_bishop_hindu
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTB_RoI_110
+		trigger = {
+			NOT = { trait = vaishnavist_hindu }
+		}
+		add_trait = vaishnavist_hindu
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = hindu
+				NOT = { trait = vaishnavist_hindu }
+			}
+			add_trait = vaishnavist_hindu
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = hindu
+				NOT = { trait = vaishnavist_hindu }
+			}
+			add_trait = vaishnavist_hindu
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_HINDU_BRANCH_TO_VAISHNAVIST
+				picture = GFX_evt_bishop_hindu
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTC_RoI_110
+		trigger = {
+			NOT = { trait = shaktist_hindu }
+		}
+		add_trait = shaktist_hindu
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = hindu
+				NOT = { trait = shaktist_hindu }
+			}
+			add_trait = shaktist_hindu
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = hindu
+				NOT = { trait = shaktist_hindu }
+			}
+			add_trait = shaktist_hindu
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_HINDU_BRANCH_TO_SHAKTIST
+				picture = GFX_evt_bishop_hindu
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTD_RoI_110
+		trigger = {
+			NOT = { trait = smartist_hindu }
+		}
+		add_trait = smartist_hindu
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = hindu
+				NOT = { trait = smartist_hindu }
+			}
+			add_trait = smartist_hindu
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = hindu
+				NOT = { trait = smartist_hindu }
+			}
+			add_trait = smartist_hindu
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_HINDU_BRANCH_TO_SMARTIST
+				picture = GFX_evt_bishop_hindu
+			}
+		}
+	}
+}
+
+# Converted within Buddhism - choose branch
+character_event = {
+	id = RoI.116
+	desc = EVTDESC_RoI_116
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_RoI_111
+		trigger = {
+			NOT = { trait = mahayana_buddhist }
+		}
+		add_trait = mahayana_buddhist
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = buddhist
+				NOT = { trait = mahayana_buddhist }
+			}
+			add_trait = mahayana_buddhist
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = buddhist
+				NOT = { trait = mahayana_buddhist }
+			}
+			add_trait = mahayana_buddhist
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_BUDDHIST_BRANCH_TO_MAHAYANA
+				picture = GFX_evt_bishop_indian_group
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTB_RoI_111
+		trigger = {
+			NOT = { trait = vajrayana_buddhist }
+		}
+		add_trait = vajrayana_buddhist
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = buddhist
+				NOT = { trait = vajrayana_buddhist }
+			}
+			add_trait = vajrayana_buddhist
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = buddhist
+				NOT = { trait = vajrayana_buddhist }
+			}
+			add_trait = vajrayana_buddhist
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_BUDDHIST_BRANCH_TO_VAJRAYANA
+				picture = GFX_evt_bishop_indian_group
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTC_RoI_111
+		trigger = {
+			NOT = { trait = theravada_buddhist }
+		}
+		add_trait = theravada_buddhist
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = buddhist
+				NOT = { trait = theravada_buddhist }
+			}
+			add_trait = theravada_buddhist
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = buddhist
+				NOT = { trait = theravada_buddhist }
+			}
+			add_trait = theravada_buddhist
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_BUDDHIST_BRANCH_TO_THERAVADA
+				picture = GFX_evt_bishop_indian_group
+			}
+		}
+	}
+}
+
+# Converted within Jainism - choose branch
+character_event = {
+	id = RoI.117
+	desc = EVTDESC_RoI_117
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_RoI_117
+		trigger = {
+			NOT = { trait = digambara_jain }
+		}
+		add_trait = digambara_jain
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = jain
+				NOT = { trait = digambara_jain }
+			}
+			add_trait = digambara_jain
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = jain
+				NOT = { trait = digambara_jain }
+			}
+			add_trait = digambara_jain
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_JAIN_BRANCH_TO_DIGAMBARA
+				picture = GFX_evt_bishop_indian_group
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTB_RoI_117
+		trigger = {
+			NOT = { trait = svetambara_jain }
+		}
+		add_trait = svetambara_jain
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = jain
+				NOT = { trait = svetambara_jain }
+			}
+			add_trait = svetambara_jain
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = jain
+				NOT = { trait = svetambara_jain }
+			}
+			add_trait = svetambara_jain
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_JAIN_BRANCH_TO_SVETAMBARA
+				picture = GFX_evt_bishop_indian_group
+			}
+		}
+	}
+}
+
+# After diplomacy action conversion
+character_event = {
+	id = RoI.120
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				FROMFROMFROM = { trait = shaivist_hindu }
+			}
+			add_trait = shaivist_hindu
+		}
+		if = {
+			limit = {
+				FROMFROMFROM = { trait = vaishnavist_hindu }
+			}
+			add_trait = vaishnavist_hindu
+		}
+		if = {
+			limit = {
+				FROMFROMFROM = { trait = shaktist_hindu }
+			}
+			add_trait = shaktist_hindu
+		}
+		if = {
+			limit = {
+				FROMFROMFROM = { trait = smartist_hindu }
+			}
+			add_trait = smartist_hindu
+		}
+		if = {
+			limit = {
+				FROMFROMFROM = { trait = mahayana_buddhist }
+			}
+			add_trait = mahayana_buddhist
+		}
+		if = {
+			limit = {
+				FROMFROMFROM = { trait = vajrayana_buddhist }
+			}
+			add_trait = vajrayana_buddhist
+		}
+		if = {
+			limit = {
+				FROMFROMFROM = { trait = theravada_buddhist }
+			}
+			add_trait = theravada_buddhist
+		}
+		if = {
+			limit = {
+				FROMFROMFROM = { trait = digambara_jain }
+			}
+			add_trait = digambara_jain
+		}
+		if = {
+			limit = {
+				FROMFROMFROM = { trait = svetambara_jain }
+			}
+			add_trait = svetambara_jain
+		}
+	}
+}
+
+# After conversion, set religious branch randomly
+character_event = {
+	id = RoI.30120
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = { religion = hindu }
+			random_list = {
+				10 = { add_trait = shaivist_hindu }
+				10 = { add_trait = vaishnavist_hindu }
+				10 = { add_trait = shaktist_hindu }
+				10 = { add_trait = smartist_hindu }
+			}
+		}
+		if = {
+			limit = { religion = buddhist }
+			random_list = {
+				10 = { add_trait = mahayana_buddhist }
+				10 = { add_trait = vajrayana_buddhist }
+				10 = { add_trait = theravada_buddhist }
+			}
+		}
+		if = {
+			limit = { religion = jain }
+			random_list = {
+				10 = { add_trait = digambara_jain }
+				10 = { add_trait = svetambara_jain }
+			}
+		}
+	}
+}
+
+# After conversion, set religious branch to liege's branch
+character_event = {
+	id = RoI.30121
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				liege = { trait = shaivist_hindu }
+			}
+			add_trait = shaivist_hindu
+		}
+		if = {
+			limit = {
+				liege = { trait = vaishnavist_hindu }
+			}
+			add_trait = vaishnavist_hindu
+		}
+		if = {
+			limit = {
+				liege = { trait = shaktist_hindu }
+			}
+			add_trait = shaktist_hindu
+		}
+		if = {
+			limit = {
+				liege = { trait = smartist_hindu }
+			}
+			add_trait = smartist_hindu
+		}
+		if = {
+			limit = {
+				liege = { trait = mahayana_buddhist }
+			}
+			add_trait = mahayana_buddhist
+		}
+		if = {
+			limit = {
+				liege = { trait = vajrayana_buddhist }
+			}
+			add_trait = vajrayana_buddhist
+		}
+		if = {
+			limit = {
+				liege = { trait = theravada_buddhist }
+			}
+			add_trait = theravada_buddhist
+		}
+		if = {
+			limit = {
+				liege = { trait = digambara_jain }
+			}
+			add_trait = digambara_jain
+		}
+		if = {
+			limit = {
+				liege = { trait = svetambara_jain }
+			}
+			add_trait = svetambara_jain
+		}
+	}
+}
+
+# After conversion, set religious branch to FROM's branch
+character_event = {
+	id = RoI.30122
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				FROM = { trait = shaivist_hindu }
+			}
+			add_trait = shaivist_hindu
+		}
+		if = {
+			limit = {
+				FROM = { trait = vaishnavist_hindu }
+			}
+			add_trait = vaishnavist_hindu
+		}
+		if = {
+			limit = {
+				FROM = { trait = shaktist_hindu }
+			}
+			add_trait = shaktist_hindu
+		}
+		if = {
+			limit = {
+				FROM = { trait = smartist_hindu }
+			}
+			add_trait = smartist_hindu
+		}
+		if = {
+			limit = {
+				FROM = { trait = mahayana_buddhist }
+			}
+			add_trait = mahayana_buddhist
+		}
+		if = {
+			limit = {
+				FROM = { trait = vajrayana_buddhist }
+			}
+			add_trait = vajrayana_buddhist
+		}
+		if = {
+			limit = {
+				FROM = { trait = theravada_buddhist }
+			}
+			add_trait = theravada_buddhist
+		}
+		if = {
+			limit = {
+				FROM = { trait = digambara_jain }
+			}
+			add_trait = digambara_jain
+		}
+		if = {
+			limit = {
+				FROM = { trait = svetambara_jain }
+			}
+			add_trait = svetambara_jain
+		}
+	}
+}
 
 ###########################################
-# The cursed diamond   #gemland                   #
+# Reincarnation Events
+###########################################
+# by Henrik Fåhraeus
+###########################################
+
+# [on_birth] Child might be a reincarnation
+character_event = {
+	id = RoI.10000
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	only_men = yes
+	religion_group = indian_group
+	
+	trigger = {
+		has_dlc = "Rajas of India"
+		NOT = {
+			has_game_rule = {
+				name = supernatural_events
+				value = off
+			}
+		}
+		OR = {
+			father = {
+				OR = {
+					ai = no
+					has_game_rule = {
+						name = supernatural_events
+						value = unrestricted
+					}
+				}
+				is_reincarnated = no
+				father_even_if_dead = {
+					OR = {
+						is_alive = no
+						father_even_if_dead = {
+							is_alive = no
+						}
+					}
+				}
+				NOT = {
+					any_sibling = {
+						is_reincarnated = yes
+					}
+				}
+			}
+			mother = {
+				ai = no
+				is_reincarnated = no
+				father_even_if_dead = {
+					OR = {
+						is_alive = no
+						father_even_if_dead = {
+							is_alive = no
+						}
+					}
+				}
+				NOT = {
+					any_sibling = {
+						is_reincarnated = yes
+					}
+				}
+			}
+		}
+		NOT = {
+			any_sibling = {
+				is_reincarnated = yes
+			}
+		}
+	}
+	
+	option = {
+		if = {
+			limit = {
+				father = { 
+					OR = {
+						ai = no
+						has_game_rule = {
+							name = supernatural_events
+							value = unrestricted
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					father = {
+						father_even_if_dead = {
+							father_even_if_dead = {
+								is_alive = no
+							}
+						}
+					}
+				}
+				father = {
+					father_even_if_dead = {
+						father_even_if_dead = {
+							ROOT = {
+								set_reincarnation = PREV
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					is_reincarnated = no
+				}
+				father = {
+					father_even_if_dead = {
+						ROOT = {
+							set_reincarnation = PREV
+						}
+					}
+				}
+			}
+			
+			father = {
+				character_event = {
+					id = RoI.10001
+					days = 3
+				}
+			}
+		}
+		if = {
+			limit = {
+				mother = { ai = no }
+				is_reincarnated = no
+			}
+			if = {
+				limit = {
+					mother = {
+						father_even_if_dead = {
+							father_even_if_dead = {
+								is_alive = no
+							}
+						}
+					}
+				}
+				mother = {
+					father_even_if_dead = {
+						father_even_if_dead = {
+							ROOT = {
+								set_reincarnation = PREV
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					is_reincarnated = no
+				}
+				mother = {
+					father_even_if_dead = {
+						ROOT = {
+							set_reincarnation = PREV
+						}
+					}
+				}
+			}
+			
+			mother = {
+				character_event = {
+					id = RoI.10001
+					days = 3
+				}
+			}
+		}
+	}
+}
+
+# Reincarnation: Player notices the similarities
+character_event = {
+	id = RoI.10001
+	desc = EVTDESC_RoI_10001
+	picture = GFX_evt_reincarnation
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_RoI_10001 # Yes, clearly
+		
+		hidden_tooltip = {
+			FROM = {
+				add_trait = reincarnation
+				character_event = {
+					id = RoI.10002
+					days = 912
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_RoI_10001 # Nonsense!
+		
+		hidden_tooltip = {
+			FROM = {
+				set_reincarnation = 0
+			}
+		}
+	}
+}
+
+# Reincarnation: Toddler thinks of the past life
+character_event = {
+	id = RoI.10002
+	desc = EVTDESC_RoI_10002
+	picture = GFX_evt_reincarnation
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_RoI_10002
+		hidden_tooltip = {
+			FROM = {
+				character_event = {
+					id = RoI.10003
+					days = 2
+				}
+			}
+		}
+	}
+}
+
+# Reincarnation: Toddler speaks of the past life
+character_event = {
+	id = RoI.10003
+	desc = EVTDESC_RoI_10003
+	picture = GFX_evt_reincarnation
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_RoI_10003
+		hidden_tooltip = {
+			FROM = {
+				set_character_flag = reincarnation_education
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_RoI_10003
+	}
+}
+
+# [on_yearly_childhood_pulse] Reincarnation: Youth picks up a personality trait from the previous life
+character_event = {
+	id = RoI.10010
+	desc = EVTDESC_RoI_10010
+	picture = GFX_evt_reincarnation
+	border = GFX_event_normal_frame_religion
+	
+	religion_group = indian_group
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Rajas of India"
+		has_character_flag = reincarnation_education
+		NOT = { personality_traits = 5 }
+		reincarnation_scope = {
+			ROOT = {
+				can_copy_personality_trait_from = PREV
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_RoI_10010
+		reincarnation_scope = {
+			ROOT = {
+				copy_random_personality_trait = PREV
+			}
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					father = {
+						ai = no
+					}
+				}
+				father = {
+					character_event = {
+						id = RoI.10011
+						days = 2
+					}
+				}
+			}
+			if = {
+				limit = {
+					mother = {
+						ai = no
+					}
+				}
+				mother = {
+					character_event = {
+						id = RoI.10011
+						days = 2
+					}
+				}
+			}
+			if = {
+				limit = {
+					guardian = {
+						ai = no
+					}
+				}
+				guardian = {
+					character_event = {
+						id = RoI.10011
+						days = 2
+					}
+				}
+			}
+		}
+	}
+}
+
+# Reincarnation: Notification of a youth picking up a personality trait from the previous life
+character_event = {
+	id = RoI.10011
+	desc = EVTDESC_RoI_10011
+	picture = GFX_evt_reincarnation
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_RoI_10011
+	}
+}
+
+# [on_yearly_pulse] Reincarnation: Reincarnated player remembers his murderer
+character_event = {
+	id = RoI.10020
+	desc = EVTDESC_RoI_10020
+	picture = GFX_evt_shadow
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	ai = no
+	min_age = 14
+	
+	trigger = {
+		is_reincarnated = yes
+		trait = reincarnation
+		has_dlc = "Rajas of India"
+		reincarnation_scope = {
+			OR = {
+				death_murder_trigger = yes
+				death_execution_trigger = yes
+			}
+			killer = {
+				always = yes
+			}
+		}
+		NOT = { has_character_flag = reinc_remembered_killer }
+	}
+	
+	option = {
+		name = EVTOPTA_RoI_10020
+		
+		set_character_flag = reinc_remembered_killer
+		
+		if = {
+			limit = {
+				reincarnation_scope = {
+					killer = {
+						is_alive = yes
+					}
+				}
+			}
+			reincarnation_scope = {
+				killer = {
+					reverse_opinion = {
+						who = ROOT
+						years = 100
+						modifier = opinion_dishonorable
+					}
+				}
+			}
+		}
+	}
+}
+
+# [on_yearly_pulse] Reincarnation: Reincarnated player remembers spouse
+character_event = {
+	id = RoI.10021
+	desc = EVTDESC_RoI_10021
+	picture = GFX_evt_lovers
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	ai = no
+	min_age = 14
+	
+	trigger = {
+		is_reincarnated = yes
+		trait = reincarnation
+		has_dlc = "Rajas of India"
+		reincarnation_scope = {
+			spouse_even_if_dead = {
+				always = yes
+			} 
+		}
+		NOT = { has_character_flag = reinc_remembered_spouse }
+	}
+	
+	option = {
+		name = EVTOPTA_RoI_10021
+		
+		set_character_flag = reinc_remembered_spouse
+	}
+}
+
+# [on_yearly_pulse] Reincarnation: Reincarnated player remembers child
+character_event = {
+	id = RoI.10022
+	desc = EVTDESC_RoI_10022
+	picture = GFX_evt_child_play
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	ai = no
+	min_age = 14
+	
+	trigger = {
+		is_reincarnated = yes
+		trait = reincarnation
+		has_dlc = "Rajas of India"
+		reincarnation_scope = {
+			num_of_children = 1
+			any_child = {
+				always = yes
+			}
+		}
+		NOT = { has_character_flag = reinc_remembered_child }
+	}
+
+	immediate = {
+		reincarnation_scope = {
+			random_child = {
+				save_event_target_as = target_child
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_RoI_10022
+		
+		set_character_flag = reinc_remembered_child
+	}
+}
+
+###########################################
+# Ascetics                                #
+###########################################
+
+# Hindu ascetic comes to visit
+character_event = {
+	id = RoI.203
+	desc = EVTDESC_RoI_203
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	ai = no
+	only_capable = yes
+	prisoner = no
+	
+	trigger = {
+		has_dlc = "Rajas of India"
+		OR = {
+			religion = buddhist
+			religion = jain
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_RoI_203
+		trigger = { NOT = { trait = zealous } }
+		hidden_tooltip = { character_event = { id = RoI.204 } }
+	}
+	option = {
+		name = EVTOPTB_RoI_203
+	}
+	option = {
+		name = EVTOPTC_RoI_203
+		prestige = 20
+		custom_tooltip = { text = realm_hindus_insulted }
+		hidden_tooltip = {
+			any_realm_character  = {
+				limit = { religion = hindu }
+				opinion = {
+					who = ROOT
+					years = 2
+					modifier = insulted
+				}
+			}
+		}
+	}
+}
+
+# Tell me more, Hindu ascetic
+character_event = {
+	id = RoI.204
+	desc = EVTDESC_RoI_204
+	picture = GFX_evt_bishop_hindu
+	border = GFX_event_normal_frame_religion
+	
+	religion = hindu
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_RoI_204
+		add_trait = shaivist_hindu
+		set_character_flag = india_converted
+		add_character_modifier = {
+			name = hindu_ascetic
+			duration = -1
+		}
+	}
+	option = {
+		name = EVTOPTB_RoI_204
+		religion = hindu
+		add_trait = shaivist_hindu
+		set_character_flag = india_converted
+	}
+	option = {
+		name = EVTOPTC_RoI_204
+	}
+}
+
+# Buddhist ascetic comes to visit
+character_event = {
+	id = RoI.206
+	desc = EVTDESC_RoI_206
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	ai = no
+	only_capable = yes
+	prisoner = no
+	
+	trigger = {
+		has_dlc = "Rajas of India"
+		OR = {
+			religion = hindu
+			religion = jain
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_RoI_203
+		trigger = { NOT = { trait = zealous } }
+		hidden_tooltip = { character_event = { id = RoI.207 } }
+	}
+	option = {
+		name = EVTOPTB_RoI_203
+	}
+	option = {
+		name = EVTOPTC_RoI_206
+		prestige = 20
+		custom_tooltip = { text = realm_buddhists_insulted }
+		hidden_tooltip = {
+			any_realm_character  = {
+				limit = { religion = buddhist }
+				opinion = {
+					who = ROOT
+					years = 2
+					modifier = insulted
+				}
+			}
+		}
+	}
+}
+
+# Tell me more, Buddhist ascetic
+character_event = {
+	id = RoI.207
+	desc = EVTDESC_RoI_204
+	picture = GFX_evt_bishop_buddhist
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_RoI_207
+		religion = buddhist
+		add_trait = mahayana_buddhist
+		set_character_flag = india_converted
+		add_character_modifier = {
+			name = buddhist_ascetic
+			duration = -1
+		}
+	}
+	option = {
+		name = EVTOPTB_RoI_207
+		religion = buddhist
+		add_trait = mahayana_buddhist
+		set_character_flag = india_converted
+	}
+	option = {
+		name = EVTOPTC_RoI_207
+	}
+}
+
+# Jain ascetic comes to visit
+character_event = {
+	id = RoI.209
+	desc = EVTDESC_RoI_209
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	ai = no
+	only_capable = yes
+	prisoner = no
+	
+	trigger = {
+		has_dlc = "Rajas of India"
+		OR = {
+			religion = hindu
+			religion = buddhist
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_RoI_203
+		trigger = { NOT = { trait = zealous } }
+		hidden_tooltip = { character_event = { id = RoI.210 } }
+	}
+	option = {
+		name = EVTOPTB_RoI_209
+	}
+	option = {
+		name = EVTOPTC_RoI_209
+		prestige = 20
+		custom_tooltip = { text = realm_jains_insulted }
+		hidden_tooltip = {
+			any_realm_character  = {
+				limit = { religion = jain }
+				opinion = {
+					who = ROOT
+					years = 2
+					modifier = insulted
+				}
+			}
+		}
+	}
+}
+
+# Tell me more, Jain ascetic
+character_event = {
+	id = RoI.210
+	desc = EVTDESC_RoI_210
+	picture = GFX_evt_bishop_jain
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_RoI_210
+		religion = jain
+		add_trait = digambara_jain
+		set_character_flag = india_converted
+		add_character_modifier = {
+			name = jain_naked_ascetic
+			duration = -1
+		}
+	}
+	option = {
+		name = EVTOPTB_RoI_210
+		religion = jain
+		add_trait = digambara_jain
+		set_character_flag = india_converted
+	}
+	option = {
+		name = EVTOPTC_RoI_210
+	}
+}
+
+###########################################
+# The cursed diamond                      #
 ###########################################
 
 # Diamond is found
@@ -2783,7 +2783,7 @@ character_event = {
 	ai = no
 	only_capable = yes
 	prisoner = no
-	culture=pebble #religion_group = indian_group
+	religion_group = indian_group
 	
 	trigger = {
 		has_dlc = "Rajas of India"
@@ -2830,7 +2830,7 @@ character_event = {
 	ai = no
 	only_capable = yes
 	prisoner = no
-	culture=pebble #religion_group = indian_group
+	religion_group = indian_group
 	
 	trigger = {
 		has_dlc = "Rajas of India"
@@ -2848,7 +2848,7 @@ character_event = {
 				independent = yes
 				any_independent_ruler = {
 					ai = yes
-					culture=pebble #religion_group = indian_group
+					religion_group = indian_group
 					capital_scope = {
 						region = world_india
 					}
@@ -2875,7 +2875,7 @@ character_event = {
 			random_independent_ruler = {
 				limit = {
 					ai = yes
-					culture=pebble #religion_group = indian_group
+					religion_group = indian_group
 					capital_scope = {
 						region = world_india
 					}
@@ -3070,13 +3070,13 @@ character_event = {
 		name = EVTOPTC_RoI_168
 		wealth = 30
 		if = {
-			limit = { culture=pebble #religion_group = indian_group }
+			limit = { religion_group = indian_group }
 			piety = -100
 		}
 		custom_tooltip = { text = sacrilege_tooltip }
 		hidden_tooltip = {
 			any_realm_character  = {
-				limit = { culture=pebble #religion_group = indian_group }
+				limit = { religion_group = indian_group }
 				opinion = {
 					who = ROOT
 					years = 3
@@ -3084,7 +3084,7 @@ character_event = {
 				}
 			}
 			any_playable_ruler  = {
-				limit = { culture=pebble #religion_group = indian_group }
+				limit = { religion_group = indian_group }
 				opinion = {
 					who = ROOT
 					years = 3
@@ -3188,7 +3188,7 @@ character_event = {
 		custom_tooltip = { text = sacrilege_tooltip }
 		hidden_tooltip = {
 			any_realm_character  = {
-				limit = { culture=pebble #religion_group = indian_group }
+				limit = { religion_group = indian_group }
 				opinion = {
 					who = ROOT
 					years = 3
@@ -3196,7 +3196,7 @@ character_event = {
 				}
 			}
 			any_playable_ruler  = {
-				limit = { culture=pebble #religion_group = indian_group }
+				limit = { religion_group = indian_group }
 				opinion = {
 					who = ROOT
 					years = 3
@@ -3243,7 +3243,7 @@ character_event = {
 		custom_tooltip = { text = sacrilege_tooltip }
 		hidden_tooltip = {
 			any_realm_character  = {
-				limit = { culture=pebble #religion_group = indian_group }
+				limit = { religion_group = indian_group }
 				opinion = {
 					who = ROOT
 					years = 3
@@ -3251,7 +3251,7 @@ character_event = {
 				}
 			}
 			any_playable_ruler  = {
-				limit = { culture=pebble #religion_group = indian_group }
+				limit = { religion_group = indian_group }
 				opinion = {
 					who = ROOT
 					years = 3
@@ -3298,7 +3298,7 @@ character_event = {
 		custom_tooltip = { text = sacrilege_tooltip }
 		hidden_tooltip = {
 			any_realm_character  = {
-				limit = { culture=pebble #religion_group = indian_group }
+				limit = { religion_group = indian_group }
 				opinion = {
 					who = ROOT
 					years = 3
@@ -3306,7 +3306,7 @@ character_event = {
 				}
 			}
 			any_playable_ruler  = {
-				limit = { culture=pebble #religion_group = indian_group }
+				limit = { religion_group = indian_group }
 				opinion = {
 					who = ROOT
 					years = 3
@@ -3339,7 +3339,7 @@ character_event = {
 		custom_tooltip = { text = sacrilege_tooltip }
 		hidden_tooltip = {
 			any_realm_character  = {
-				limit = { culture=pebble #religion_group = indian_group }
+				limit = { religion_group = indian_group }
 				opinion = {
 					who = ROOT
 					years = 3
@@ -3347,7 +3347,7 @@ character_event = {
 				}
 			}
 			any_playable_ruler  = {
-				limit = { culture=pebble #religion_group = indian_group }
+				limit = { religion_group = indian_group }
 				opinion = {
 					who = ROOT
 					years = 3
@@ -3404,7 +3404,7 @@ character_event = {
 		trigger = {
 			NOT = {
 				trait = zealous
-				culture=pebble #religion_group = indian_group
+				religion_group = indian_group
 			}
 		}
 	}
@@ -3842,7 +3842,7 @@ character_event = {
 		has_dlc = "Rajas of India"
 		trait = sympathy_indian
 		any_realm_character = {
-			culture=pebble #religion_group = indian_group
+			religion_group = indian_group
 			NOT = { is_friend = ROOT }
 		}
 	}
@@ -3851,7 +3851,7 @@ character_event = {
 		name = EVTOPTA_RoI_400
 		random_realm_character = {
 			limit = {
-				culture=pebble #religion_group = indian_group
+				religion_group = indian_group
 			}
 			add_friend = ROOT
 		}
@@ -3880,7 +3880,7 @@ character_event = {
 			region = world_india
 		}
 		OR = {
-			culture=pebble #religion_group = indian_group
+			religion_group = indian_group
 			trait = sympathy_indian
 		}
 		NOT = { has_character_flag = do_not_disturb }
@@ -4183,9 +4183,9 @@ character_event = {
 	trigger = {
 		has_dlc = "Rajas of India"
 		in_command = no
-		NOT = { culture=pebble #religion_group = indian_group }
+		NOT = { religion_group = indian_group }
 		any_demesne_province  = {
-			NOT = { culture=pebble #religion_group = indian_group }
+			NOT = { religion_group = indian_group }
 		}
 		OR = {
 			any_realm_province  = {
@@ -4203,7 +4203,7 @@ character_event = {
 		name = EVTOPTA_RoI_412
 		random_demesne_province  = {
 			limit = {
-				NOT = { culture=pebble #religion_group = indian_group }
+				NOT = { religion_group = indian_group }
 			}
 		}
 	}
@@ -4259,7 +4259,7 @@ character_event = {
 
 	hide_window = yes
 	
-	culture=pebble #religion_group = indian_group
+	religion_group = indian_group
 	
 	is_triggered_only = yes
 	
@@ -4326,7 +4326,7 @@ character_event = {
 
 	hide_window = yes
 	
-	culture=pebble #religion_group = indian_group
+	religion_group = indian_group
 	
 	is_triggered_only = yes
 	
@@ -4386,7 +4386,7 @@ character_event = {
 
 	hide_window = yes
 	
-	culture=pebble #religion_group = indian_group
+	religion_group = indian_group
 	
 	is_triggered_only = yes
 	
@@ -4453,7 +4453,7 @@ character_event = {
 
 	hide_window = yes
 	
-	culture=pebble #religion_group = indian_group
+	religion_group = indian_group
 	
 	is_triggered_only = yes
 	
@@ -4513,7 +4513,7 @@ character_event = {
 
 	hide_window = yes
 	
-	culture=pebble #religion_group = indian_group
+	religion_group = indian_group
 	
 	is_triggered_only = yes
 	
@@ -4584,7 +4584,7 @@ character_event = {
 #	
 #	trigger = {
 #		has_dlc = "Rajas of India"
-#		culture=pebble #religion_group = indian_group
+#		religion_group = indian_group
 #		religion_authority = 0.5
 #		any_demesne_province = {
 #			religion = ROOT
@@ -4643,7 +4643,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	only_playable = yes
-	culture=pebble #religion_group = indian_group
+	religion_group = indian_group
 	
 	trigger = {
 		has_dlc = "Rajas of India"
@@ -4654,7 +4654,7 @@ character_event = {
 		}
 		any_independent_ruler = {
 			any_realm_province = {
-				culture=pebble #religion_group = indian_group
+				religion_group = indian_group
 				NOT = { religion = ROOT }
 				religion_authority = 0.7
 			}
@@ -4692,14 +4692,14 @@ province_event = {
 		if = {
 			limit = {
 				any_neighbor_province = {
-					culture=pebble #religion_group = indian_group
+					religion_group = indian_group
 					NOT = { religion = ROOT }
 					religion_authority = 0.7
 				}
 			}
 			random_neighbor_province = {
 				limit = {
-					culture=pebble #religion_group = indian_group
+					religion_group = indian_group
 					NOT = { religion = ROOT }
 					religion_authority = 0.7
 				}
@@ -4715,7 +4715,7 @@ province_event = {
 				religion = hindu
 				NOT = {
 					any_neighbor_province = {
-						culture=pebble #religion_group = indian_group
+						religion_group = indian_group
 						NOT = { religion = ROOT }
 						religion_authority = 0.7
 					}
@@ -4733,7 +4733,7 @@ province_event = {
 				religion = buddhist
 				NOT = {
 					any_neighbor_province = {
-						culture=pebble #religion_group = indian_group
+						religion_group = indian_group
 						NOT = { religion = ROOT }
 						religion_authority = 0.7
 					}
@@ -4751,7 +4751,7 @@ province_event = {
 				religion = jain
 				NOT = {
 					any_neighbor_province = {
-						culture=pebble #religion_group = indian_group
+						religion_group = indian_group
 						NOT = { religion = ROOT }
 						religion_authority = 0.7
 					}
@@ -4789,7 +4789,7 @@ province_event = {
 	trigger = {
 		has_province_modifier = temple_corruption
 		owner = {
-			NOT = { culture=pebble #religion_group = indian_group }
+			NOT = { religion_group = indian_group }
 		}
 	}
 	
@@ -4811,7 +4811,7 @@ province_event = {
 	trigger = {
 		has_province_modifier = local_death_cult
 		owner = {
-			NOT = { culture=pebble #religion_group = indian_group }
+			NOT = { religion_group = indian_group }
 		}
 	}
 	

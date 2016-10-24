@@ -1108,9 +1108,9 @@ narrative_event = {
 		siege = {
 			is_attacker = no
 		}
-		religion_group =  goddesses_religion #christian
+		religion_group = christian
 		enemy = {
-			religion_group = demon_religion #pagan_group
+			religion_group = pagan_group
 		}
 	}
 
@@ -1213,7 +1213,7 @@ narrative_event = {
 		siege = {
 			is_attacker = no
 		}
-		religion_group =  goddesses_religion #christian
+		religion_group = christian
 		enemy = {
 			religion_group = muslim
 		}
@@ -1417,7 +1417,7 @@ character_event = {
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_religion
 
-	religion_group =  goddesses_religion #christian 
+	religion_group = christian 
 	
 	is_triggered_only = yes
 	
@@ -1432,7 +1432,7 @@ character_event = {
 		can_be_maimed_trigger = yes
 		NOT = {	trait = wounded	}
 		enemy = {
-			NOT = { religion_group =  goddesses_religion #christian }
+			NOT = { religion_group = christian }
 		}		
 	}
 
@@ -1733,7 +1733,7 @@ character_event = {
 			is_female = yes
 			new_character = {
 				OR = {
-					religion_group = demon_religion #pagan_group
+					religion_group = pagan_group
 					religion_group = zoroastrian_group
 				}
 			}

@@ -471,279 +471,279 @@ letter_event = {
 }
 
 # Special event for Bagsecg of Jylland to invade Mercia with "the Great Summer Army"
-#character_event = {
-#	id = 62900
-#	desc = EVTDESC62900
-#	
-#	picture = GFX_evt_viking_battle_oldgods
-#	border = GFX_event_normal_frame_war
-#	
-#	min_age = 16
-#	only_playable = yes
-#	only_men = yes
-#	only_capable = yes
-#	prisoner = no
-#	religion = norse_pagan
-#	culture = norse
-#	war = no
-#	
-#	trigger = {
-#		character = 163113 # Bagsecg
-#		NOT = { has_character_flag = bagsecgs_invasion }
-#		d_hereford = { # Mercia
-#			holder_scope = {
-#				culture = saxon
-#			}
-#		}
-#	}
-#
-#	mean_time_to_happen = {
-#		days = 30
-#	}
-#	
-#	immediate = {
-#		set_character_flag = bagsecgs_invasion
-#	}
-#
-#	option = {
-#		name = EVTOPTA62900 # Invade Mercia
-#		
-#		ai_chance = {
-#			factor = 70
-#		}
-#		
-#		custom_tooltip = {
-#			text = EVTOPTA62900_TT
-#			# Prepare the invasion (these opinions control the mechanic)
-#			hidden_tooltip = {
-#				d_hereford = { # Mercia
-#					holder_scope = {
-#						reverse_opinion = {
-#							who = ROOT
-#							modifier = preparing_to_invade
-#						}
-#						opinion = {
-#							who = ROOT
-#							modifier = preparing_to_invade_me
-#						}
-#						letter_event = { id = 62901 }
-#					}
-#				}
-#				add_character_modifier = { 
-#					name = launched_prepared_invasion
-#					hidden = yes
-#					days = -1 
-#				}
-#			}
-#		}
-#		
-#		capital_scope = {
-#			ROOT = {
-#				spawn_unit = {
-#					province = PREV
-#					owner = ROOT
-#					match_character = ROOT
-#					match_mult = 0.75
-#					earmark = prepared_invasion
-#					attrition = 1.0
-#				}
-#				spawn_unit = {
-#					province = PREV
-#					owner = ROOT
-#					match_character = ROOT
-#					match_mult = 0.75
-#					earmark = prepared_invasion
-#					attrition = 1.0
-#				}
-#				spawn_unit = {
-#					province = PREV
-#					owner = ROOT
-#					match_character = ROOT
-#					match_mult = 0.75
-#					earmark = prepared_invasion
-#					attrition = 1.0
-#				}
-#				spawn_fleet = {
-#					province = PREV
-#					owner = ROOT
-#					earmark = prepared_invasion
-#					troops =
-#					{
-#						galleys = { 20 20 }
-#					}
-#				}
-#			}
-#		}
-#	}
-#	
-#	option = {
-#		name = EVTOPTB62900 # Invade Wessex
-#		
-#		trigger = {
-#			d_somerset = { # Wessex
-#				holder_scope = {
-#					culture = saxon
-#				}
-#			}
-#		}
-#		
-#		ai_chance = {
-#			factor = 10
-#		}
-#		
-#		custom_tooltip = {
-#			text = EVTOPTB62900_TT
-#			# Prepare the invasion
-#			hidden_tooltip = {
-#				d_somerset = { # Wessex
-#					holder_scope = {
-#						reverse_opinion = {
-#							who = ROOT
-#							modifier = preparing_to_invade
-#						}
-#						opinion = {
-#							who = ROOT
-#							modifier = preparing_to_invade_me
-#						}
-#						letter_event = { id = 62901 }
-#					}
-#				}
-#				add_character_modifier = { 
-#					name = launched_prepared_invasion
-#					hidden = yes
-#					days = -1 
-#				}
-#			}
-#		}
-#		
-#		capital_scope = {
-#			ROOT = {
-#				spawn_unit = {
-#					province = PREV
-#					owner = ROOT
-#					match_character = ROOT
-#					match_mult = 0.5
-#					earmark = prepared_invasion
-#					attrition = 1.0
-#				}
-#				spawn_unit = {
-#					province = PREV
-#					owner = ROOT
-#					match_character = ROOT
-#					match_mult = 0.5
-#					earmark = prepared_invasion
-#					attrition = 1.0
-#				}
-#				spawn_unit = {
-#					province = PREV
-#					owner = ROOT
-#					match_character = ROOT
-#					match_mult = 0.5
-#					earmark = prepared_invasion
-#					attrition = 1.0
-#				}
-#				spawn_fleet = {
-#					province = PREV
-#					owner = ROOT
-#					earmark = prepared_invasion
-#					troops =
-#					{
-#						galleys = { 10 10 }
-#					}
-#				}
-#			}
-#		}
-#	}
-#	
-#	option = {
-#		name = EVTOPTC62900 # Invade Scotland
-#		
-#		trigger = {
-#			k_scotland = {
-#				holder_scope = {
-#					culture = scottish
-#				}
-#			}
-#		}
-#		
-#		ai_chance = {
-#			factor = 10
-#		}
-#		
-#		custom_tooltip = {
-#			text = EVTOPTC62900_TT
-#			# Prepare the invasion
-#			hidden_tooltip = {
-#				k_scotland = {
-#					holder_scope = {
-#						reverse_opinion = {
-#							who = ROOT
-#							modifier = preparing_to_invade
-#						}
-#						opinion = {
-#							who = ROOT
-#							modifier = preparing_to_invade_me
-#						}
-#						letter_event = { id = 62901 }
-#					}
-#				}
-#				add_character_modifier = { 
-#					name = launched_prepared_invasion
-#					hidden = yes
-#					days = -1 
-#				}
-#			}
-#		}
-#		
-#		capital_scope = {
-#			ROOT = {
-#				spawn_unit = {
-#					province = PREV
-#					owner = ROOT
-#					match_character = ROOT
-#					match_mult = 0.5
-#					earmark = prepared_invasion
-#					attrition = 1.0
-#				}
-#				spawn_unit = {
-#					province = PREV
-#					owner = ROOT
-#					match_character = ROOT
-#					match_mult = 0.5
-#					earmark = prepared_invasion
-#					attrition = 1.0
-#				}
-#				spawn_unit = {
-#					province = PREV
-#					owner = ROOT
-#					match_character = ROOT
-#					match_mult = 0.5
-#					earmark = prepared_invasion
-#					attrition = 1.0
-#				}
-#				spawn_fleet = {
-#					province = PREV
-#					owner = ROOT
-#					earmark = prepared_invasion
-#					troops =
-#					{
-#						galleys = { 10 10 }
-#					}
-#				}
-#			}
-#		}
-#	}
-#	
-#	option = {
-#		name = EVTOPTD62900
-#		
-#		ai_chance = {
-#			factor = 10
-#		}
-#		
-#		prestige = -100
-#	}
-#}
+character_event = {
+	id = 62900
+	desc = EVTDESC62900
+	
+	picture = GFX_evt_viking_battle_oldgods
+	border = GFX_event_normal_frame_war
+	
+	min_age = 16
+	only_playable = yes
+	only_men = yes
+	only_capable = yes
+	prisoner = no
+	religion = norse_pagan
+	culture = norse
+	war = no
+	
+	trigger = {
+		character = 163113 # Bagsecg
+		NOT = { has_character_flag = bagsecgs_invasion }
+		d_hereford = { # Mercia
+			holder_scope = {
+				culture = saxon
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		set_character_flag = bagsecgs_invasion
+	}
+
+	option = {
+		name = EVTOPTA62900 # Invade Mercia
+		
+		ai_chance = {
+			factor = 70
+		}
+		
+		custom_tooltip = {
+			text = EVTOPTA62900_TT
+			# Prepare the invasion (these opinions control the mechanic)
+			hidden_tooltip = {
+				d_hereford = { # Mercia
+					holder_scope = {
+						reverse_opinion = {
+							who = ROOT
+							modifier = preparing_to_invade
+						}
+						opinion = {
+							who = ROOT
+							modifier = preparing_to_invade_me
+						}
+						letter_event = { id = 62901 }
+					}
+				}
+				add_character_modifier = { 
+					name = launched_prepared_invasion
+					hidden = yes
+					days = -1 
+				}
+			}
+		}
+		
+		capital_scope = {
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					match_character = ROOT
+					match_mult = 0.75
+					earmark = prepared_invasion
+					attrition = 1.0
+				}
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					match_character = ROOT
+					match_mult = 0.75
+					earmark = prepared_invasion
+					attrition = 1.0
+				}
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					match_character = ROOT
+					match_mult = 0.75
+					earmark = prepared_invasion
+					attrition = 1.0
+				}
+				spawn_fleet = {
+					province = PREV
+					owner = ROOT
+					earmark = prepared_invasion
+					troops =
+					{
+						galleys = { 20 20 }
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB62900 # Invade Wessex
+		
+		trigger = {
+			d_somerset = { # Wessex
+				holder_scope = {
+					culture = saxon
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 10
+		}
+		
+		custom_tooltip = {
+			text = EVTOPTB62900_TT
+			# Prepare the invasion
+			hidden_tooltip = {
+				d_somerset = { # Wessex
+					holder_scope = {
+						reverse_opinion = {
+							who = ROOT
+							modifier = preparing_to_invade
+						}
+						opinion = {
+							who = ROOT
+							modifier = preparing_to_invade_me
+						}
+						letter_event = { id = 62901 }
+					}
+				}
+				add_character_modifier = { 
+					name = launched_prepared_invasion
+					hidden = yes
+					days = -1 
+				}
+			}
+		}
+		
+		capital_scope = {
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					match_character = ROOT
+					match_mult = 0.5
+					earmark = prepared_invasion
+					attrition = 1.0
+				}
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					match_character = ROOT
+					match_mult = 0.5
+					earmark = prepared_invasion
+					attrition = 1.0
+				}
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					match_character = ROOT
+					match_mult = 0.5
+					earmark = prepared_invasion
+					attrition = 1.0
+				}
+				spawn_fleet = {
+					province = PREV
+					owner = ROOT
+					earmark = prepared_invasion
+					troops =
+					{
+						galleys = { 10 10 }
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTC62900 # Invade Scotland
+		
+		trigger = {
+			k_scotland = {
+				holder_scope = {
+					culture = scottish
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 10
+		}
+		
+		custom_tooltip = {
+			text = EVTOPTC62900_TT
+			# Prepare the invasion
+			hidden_tooltip = {
+				k_scotland = {
+					holder_scope = {
+						reverse_opinion = {
+							who = ROOT
+							modifier = preparing_to_invade
+						}
+						opinion = {
+							who = ROOT
+							modifier = preparing_to_invade_me
+						}
+						letter_event = { id = 62901 }
+					}
+				}
+				add_character_modifier = { 
+					name = launched_prepared_invasion
+					hidden = yes
+					days = -1 
+				}
+			}
+		}
+		
+		capital_scope = {
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					match_character = ROOT
+					match_mult = 0.5
+					earmark = prepared_invasion
+					attrition = 1.0
+				}
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					match_character = ROOT
+					match_mult = 0.5
+					earmark = prepared_invasion
+					attrition = 1.0
+				}
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					match_character = ROOT
+					match_mult = 0.5
+					earmark = prepared_invasion
+					attrition = 1.0
+				}
+				spawn_fleet = {
+					province = PREV
+					owner = ROOT
+					earmark = prepared_invasion
+					troops =
+					{
+						galleys = { 10 10 }
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTD62900
+		
+		ai_chance = {
+			factor = 10
+		}
+		
+		prestige = -100
+	}
+}
 
 letter_event = {
 	id = 62901

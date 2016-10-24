@@ -4,8 +4,8 @@
 # - Jewish Events
 #
 ###################################
-#
-#namespace = SoA
+
+namespace = SoA
 #
 ## Third Temple Construction Begun
 #character_event = {
@@ -153,7 +153,7 @@
 #	border = GFX_event_normal_frame_religion
 #
 #	only_playable = yes
-#	religion_group = minor_deity #jewish_group
+#	religion_group = jewish_group
 #	only_independent = yes
 #	
 #	trigger = {
@@ -237,10 +237,10 @@
 #	trigger = {
 #		has_dlc = "Sons of Abraham"
 #		OR = {
-#			religion_group = goddesses_religion #christian
+#			religion_group = christian
 #			religion_group = muslim
 #			religion_group = zoroastrian_group
-#			religion_group = minor_deity #jewish_group
+#			religion_group = jewish_group
 #			culture = khazar
 #		}
 #		NOT = { 
@@ -324,10 +324,10 @@
 #	trigger = {
 #		has_dlc = "Sons of Abraham"
 #		OR = {
-#			religion_group = goddesses_religion #christian
+#			religion_group = christian
 #			religion_group = muslim
 #			religion_group = zoroastrian_group
-#			religion_group = minor_deity #jewish_group
+#			religion_group = jewish_group
 #			culture = khazar
 #		}	
 #		NOT = { 
@@ -411,10 +411,10 @@
 #	trigger = {
 #		has_dlc = "Sons of Abraham"
 #		OR = {
-#			religion_group = goddesses_religion #christian
+#			religion_group = christian
 #			religion_group = muslim
 #			religion_group = zoroastrian_group
-#			religion_group = minor_deity #jewish_group
+#			religion_group = jewish_group
 #			culture = khazar
 #		}
 #		NOT = { 
@@ -501,10 +501,10 @@
 #			region = world_europe_west_iberia
 #		}
 #		OR = {
-#			religion_group = goddesses_religion #christian
+#			religion_group = christian
 #			religion_group = muslim
 #			religion_group = zoroastrian_group
-#			religion_group = minor_deity #jewish_group
+#			religion_group = jewish_group
 #		}	
 #		NOT = { 
 #			has_character_modifier = expelled_jewish
@@ -587,10 +587,10 @@
 #			region = world_europe_west_iberia
 #		}
 #		OR = {
-#			religion_group = goddesses_religion #christian
+#			religion_group = christian
 #			religion_group = muslim
 #			religion_group = zoroastrian_group
-#			religion_group = minor_deity #jewish_group
+#			religion_group = jewish_group
 #		}	
 #		NOT = { 
 #			has_character_modifier = expelled_jewish
@@ -673,10 +673,10 @@
 #			region = world_europe_west_iberia
 #		}
 #		OR = {
-#			religion_group = goddesses_religion #christian
+#			religion_group = christian
 #			religion_group = muslim
 #			religion_group = zoroastrian_group
-#			religion_group = minor_deity #jewish_group
+#			religion_group = jewish_group
 #		}	
 #		NOT = { 
 #			has_character_modifier = expelled_jewish
@@ -992,14 +992,14 @@
 #	option = {
 #		name = EVTOPTA_SoA_550
 #		trigger = {
-#			religion_group = minor_deity #jewish_group
+#			religion_group = jewish_group
 #		}
 #	}
 #	option = {
 #		name = EVTOPTB_TOG_6004
 #		trigger = {
 #			NOT = {
-#				religion_group = minor_deity #jewish_group
+#				religion_group = jewish_group
 #				religion_group = muslim
 #			}
 #		}
@@ -1022,12 +1022,12 @@
 #	min_age = 16
 #	only_capable = yes
 #	prisoner = no
-#	religion_group = minor_deity #jewish_group
+#	religion_group = jewish_group
 #	
 #	trigger = {
 #		has_job_title = job_chancellor
 #		employer = {
-#			NOT = { religion_group = minor_deity #jewish_group }
+#			NOT = { religion_group = jewish_group }
 #		}
 #	}
 #	
@@ -1072,12 +1072,12 @@
 #	min_age = 16
 #	only_capable = yes
 #	prisoner = no
-#	religion_group = minor_deity #jewish_group
+#	religion_group = jewish_group
 #	
 #	trigger = {
 #		has_job_title = job_treasurer
 #		employer = {
-#			NOT = { religion_group = minor_deity #jewish_group }
+#			NOT = { religion_group = jewish_group }
 #		}
 #	}
 #	
@@ -1122,12 +1122,12 @@
 #	min_age = 16
 #	only_capable = yes
 #	prisoner = no
-#	religion_group = minor_deity #jewish_group
+#	religion_group = jewish_group
 #	
 #	trigger = {
 #		has_job_title = job_spymaster
 #		employer = {
-#			NOT = { religion_group = minor_deity #jewish_group }
+#			NOT = { religion_group = jewish_group }
 #		}
 #	}
 #	
@@ -1163,23 +1163,23 @@
 #		military_techpoints = 50
 #	}
 #}
-
-###########################################
-# Flag management                         #
-###########################################
-
-# Safety catch - clears character flags and modifiers
-character_event = {
-	id = SoA.599
-
-	hide_window = yes
-	
-	is_triggered_only = yes
-	
-	immediate = {
-		clr_character_flag = do_not_disturb
-		clr_character_flag = holding_passover
-		clr_character_flag = attending_passover
-	}
-}
+#
+############################################
+## Flag management                         #
+############################################
+#
+## Safety catch - clears character flags and modifiers
+#character_event = {
+#	id = SoA.599
+#
+#	hide_window = yes
+#	
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		clr_character_flag = do_not_disturb
+#		clr_character_flag = holding_passover
+#		clr_character_flag = attending_passover
+#	}
+#}
 

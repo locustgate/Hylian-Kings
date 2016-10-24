@@ -552,7 +552,7 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
-	religion_group = goddesses_religion #christian
+	religion_group = christian
 	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
@@ -1753,11 +1753,11 @@ character_event = {
 	
 	trigger = {
 		NOT = {
-			religion = gerudo_goddess #religion_group = muslim
+			religion_group = muslim
 		}
-		#NOT = {
-		#	religion_group = indian_group
-		#}
+		NOT = {
+			religion_group = indian_group
+		}
 		NOT = { personality_traits = 5 }
 		NOT = { trait = zealous }
 		NOT = { trait = cynical }
@@ -1868,109 +1868,109 @@ character_event = {
 	}
 }
 
-#### Zealous - Muslim ###
-#character_event = {
-#	id = 1632
-#	desc = "EVTDESC1632"
-#	picture = "GFX_evt_child_reading"
-#	
-#	min_age = 6
-#	max_age = 16
-#	religion = gerudo_goddess #religion_group = muslim
-#	lacks_dlc = "Conclave"
-#
-#	is_triggered_only = yes
-#	
-#	trigger = {
-#		NOT = { personality_traits = 5 }
-#		NOT = { trait = zealous }
-#		NOT = { trait = cynical }
-#		has_guardian = yes
-#	}
-#	
-#	weight_multiplier = {
-#		days = 1
-#		modifier = {
-#			trait = clubfooted
-#			factor = 1.1
-#		}
-#		modifier = {
-#			trait = harelip
-#			factor = 1.1
-#		}
-#		modifier = {
-#			trait = hunchback
-#			factor = 1.1
-#		}
-#		modifier = {
-#			trait = lisp
-#			factor = 0.9
-#		}
-#		modifier = {
-#			trait = stutter
-#			factor = 0.9
-#		}
-#		modifier = {
-#			trait = fair
-#			factor = 1.05
-#		}
-#		modifier = {
-#			trait = ugly
-#			factor = 1.05
-#		}
-#		modifier = {
-#			trait = dwarf
-#			factor = 1.05
-#		}		
-#		modifier = {
-#			trait = genius
-#			factor = 10
-#		}
-#		modifier = {
-#			OR = {
-#				trait = quick
-#				trait = shrewd
-#			}
-#			factor = 2
-#		}	
-#		modifier = {
-#			OR = {
-#				trait = slow
-#				trait = dull
-#			}
-#			factor = 0.5
-#		}
-#		modifier = {
-#			trait = imbecile
-#			factor = 0.05
-#		}
-#		modifier = {
-#			trait = inbred
-#			factor = 0.1
-#		}
-#		modifier = {
-#			is_strong_trigger = yes
-#			factor = 1.05
-#		}
-#		modifier = {
-#			is_weak_trigger = yes
-#			factor = 2.0
-#		}
-#	}
-#	
-#	option = {
-#		name = "EVTOPTA1630"
-#		add_trait = zealous
-#		hidden_tooltip = {
-#			guardian = {
-#				character_event = {
-#					id = 2132
-#					days = 3
-#				}
-#			}
-#		}
-#	}
-#}
+### Zealous - Muslim ###
+character_event = {
+	id = 1632
+	desc = "EVTDESC1632"
+	picture = "GFX_evt_child_reading"
+	
+	min_age = 6
+	max_age = 16
+	religion_group = muslim
+	lacks_dlc = "Conclave"
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { personality_traits = 5 }
+		NOT = { trait = zealous }
+		NOT = { trait = cynical }
+		has_guardian = yes
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			trait = clubfooted
+			factor = 1.1
+		}
+		modifier = {
+			trait = harelip
+			factor = 1.1
+		}
+		modifier = {
+			trait = hunchback
+			factor = 1.1
+		}
+		modifier = {
+			trait = lisp
+			factor = 0.9
+		}
+		modifier = {
+			trait = stutter
+			factor = 0.9
+		}
+		modifier = {
+			trait = fair
+			factor = 1.05
+		}
+		modifier = {
+			trait = ugly
+			factor = 1.05
+		}
+		modifier = {
+			trait = dwarf
+			factor = 1.05
+		}		
+		modifier = {
+			trait = genius
+			factor = 10
+		}
+		modifier = {
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+			factor = 2
+		}	
+		modifier = {
+			OR = {
+				trait = slow
+				trait = dull
+			}
+			factor = 0.5
+		}
+		modifier = {
+			trait = imbecile
+			factor = 0.05
+		}
+		modifier = {
+			trait = inbred
+			factor = 0.1
+		}
+		modifier = {
+			is_strong_trigger = yes
+			factor = 1.05
+		}
+		modifier = {
+			is_weak_trigger = yes
+			factor = 2.0
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1630"
+		add_trait = zealous
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = 2132
+					days = 3
+				}
+			}
+		}
+	}
+}
 
 #######################################################################
 
@@ -3025,7 +3025,7 @@ character_event = {
 	
 	trigger = {
 		NOT = {
-			religion = gerudo_goddess #religion_group = muslim
+			religion_group = muslim
 		}
 		NOT = { personality_traits = 5 }
 		NOT = { trait = zealous }
@@ -3137,129 +3137,129 @@ character_event = {
 	}
 }
 
-#### Cynical Child - Muslim ###
-#character_event = {
-#	id = 1732
-#	desc = "EVTDESC1732"
-#	picture = "GFX_evt_child_play"
-#	
-#	min_age = 6
-#	max_age = 16
-#	religion = gerudo_goddess #religion_group = muslim
-#	lacks_dlc = "Conclave"
-#
-#	is_triggered_only = yes
-#	
-#	trigger = {
-#		NOT = { personality_traits = 5 }
-#		NOT = { trait = zealous }
-#		NOT = { trait = cynical }
-#		has_guardian = yes
-#	}
-#	
-#	weight_multiplier = {
-#		days = 1
-#		modifier = {
-#			trait = clubfooted
-#			factor = 1.1
-#		}
-#		modifier = {
-#			trait = harelip
-#			factor = 1.1
-#		}
-#		modifier = {
-#			trait = hunchback
-#			factor = 1.1
-#		}
-#		modifier = {
-#			trait = lisp
-#			factor = 0.9
-#		}
-#		modifier = {
-#			trait = stutter
-#			factor = 0.9
-#		}
-#		modifier = {
-#			trait = fair
-#			factor = 1.05
-#		}
-#		modifier = {
-#			trait = ugly
-#			factor = 1.05
-#		}
-#		modifier = {
-#			trait = dwarf
-#			factor = 1.05
-#		}		
-#		modifier = {
-#			trait = genius
-#			factor = 10
-#		}
-#		modifier = {
-#			OR = {
-#				trait = quick
-#				trait = shrewd
-#			}
-#			factor = 2
-#		}	
-#		modifier = {
-#			OR = {
-#				trait = slow
-#				trait = dull
-#			}
-#			factor = 0.5
-#		}
-#		modifier = {
-#			trait = imbecile
-#			factor = 0.05
-#		}
-#		modifier = {
-#			trait = inbred
-#			factor = 0.1
-#		}
-#		modifier = {
-#			is_strong_trigger = yes
-#			factor = 1.05
-#		}
-#		modifier = {
-#			is_weak_trigger = yes
-#			factor = 2.0
-#		}
-#	}
-#	
-#	option = {
-#		name = "EVTOPTA1730"
-#		add_trait = cynical
-#		hidden_tooltip = {
-#			guardian = {
-#				character_event = {
-#					id = 2230
-#					days = 3
-#				}
-#			}
-#		}
-#	}
-#}
-#
-## Discouraged
-#character_event = {
-#	id = 1733
-#	desc = "EVTDESC1733"
-#	picture = "GFX_evt_guardian"
-#	
-#	is_triggered_only = yes
-#	
-#	immediate = {
-#		hidden_tooltip = {
-#			add_trait = cynical
-#		}
-#	}
-#	
-#	option = {
-#		name = "EVTOPTA1731"
-#		remove_trait = cynical
-#	}
-#}
+### Cynical Child - Muslim ###
+character_event = {
+	id = 1732
+	desc = "EVTDESC1732"
+	picture = "GFX_evt_child_play"
+	
+	min_age = 6
+	max_age = 16
+	religion_group = muslim
+	lacks_dlc = "Conclave"
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { personality_traits = 5 }
+		NOT = { trait = zealous }
+		NOT = { trait = cynical }
+		has_guardian = yes
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			trait = clubfooted
+			factor = 1.1
+		}
+		modifier = {
+			trait = harelip
+			factor = 1.1
+		}
+		modifier = {
+			trait = hunchback
+			factor = 1.1
+		}
+		modifier = {
+			trait = lisp
+			factor = 0.9
+		}
+		modifier = {
+			trait = stutter
+			factor = 0.9
+		}
+		modifier = {
+			trait = fair
+			factor = 1.05
+		}
+		modifier = {
+			trait = ugly
+			factor = 1.05
+		}
+		modifier = {
+			trait = dwarf
+			factor = 1.05
+		}		
+		modifier = {
+			trait = genius
+			factor = 10
+		}
+		modifier = {
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+			factor = 2
+		}	
+		modifier = {
+			OR = {
+				trait = slow
+				trait = dull
+			}
+			factor = 0.5
+		}
+		modifier = {
+			trait = imbecile
+			factor = 0.05
+		}
+		modifier = {
+			trait = inbred
+			factor = 0.1
+		}
+		modifier = {
+			is_strong_trigger = yes
+			factor = 1.05
+		}
+		modifier = {
+			is_weak_trigger = yes
+			factor = 2.0
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1730"
+		add_trait = cynical
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = 2230
+					days = 3
+				}
+			}
+		}
+	}
+}
+
+# Discouraged
+character_event = {
+	id = 1733
+	desc = "EVTDESC1733"
+	picture = "GFX_evt_guardian"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_tooltip = {
+			add_trait = cynical
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1731"
+		remove_trait = cynical
+	}
+}
 
 #######################################################################
 
@@ -3359,9 +3359,9 @@ character_event = {
 		name = "EVTOPTA1965"
 		add_trait = cruel
 		if = {
-			limit = { religion = great_deku }
+			limit = { religion = jain }
 			piety = -20
-			#custom_tooltip = { text = jain_ahimsa_tooltip }
+			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
 		hidden_tooltip = {
 			guardian = {
@@ -3488,7 +3488,7 @@ character_event = {
 		num_traits = 4
 		trait = homosexual
 		NOT = {
-			religion = gerudo_goddess #religion_group = muslim
+			religion_group = muslim
 		}
 	}
 
@@ -3512,44 +3512,44 @@ character_event = {
 }
 
 ### Remove Homosexual - Muslim ###
-#character_event = {
-#	id = 1986
-#	desc = "EVTDESC1986"
-#	picture = GFX_evt_brothel
-#	
-#	min_age = 13
-#	max_age = 17
-#	only_capable = yes
-#	is_married = no
-#	
-#	trigger = {
-#		has_guardian = yes
-#		num_traits = 4
-#		trait = homosexual
-#		OR = {
-#			religion = gerudo_goddess #religion_group = muslim
-#			religion_group = indian_group
-#		}
-#	}
-#
-#	mean_time_to_happen = {
-#		months = 480
-#		
-#		modifier = {
-#			factor = 0.1
-#			trait = zealous
-#		}
-#	}
-#	
-#	option = {
-#		name = "EVTOPTA1986"
-#		piety = -50
-#	}
-#	option = {
-#		name = "EVTOPTB1986"
-#		remove_trait = homosexual
-#	}
-#}
+character_event = {
+	id = 1986
+	desc = "EVTDESC1986"
+	picture = GFX_evt_brothel
+	
+	min_age = 13
+	max_age = 17
+	only_capable = yes
+	is_married = no
+	
+	trigger = {
+		has_guardian = yes
+		num_traits = 4
+		trait = homosexual
+		OR = {
+			religion_group = muslim
+			religion_group = indian_group
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 480
+		
+		modifier = {
+			factor = 0.1
+			trait = zealous
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1986"
+		piety = -50
+	}
+	option = {
+		name = "EVTOPTB1986"
+		remove_trait = homosexual
+	}
+}
 
 ### Female Homosexual ###
 character_event = {
@@ -3616,7 +3616,7 @@ character_event = {
 		num_traits = 4
 		trait = homosexual
 		NOT = {
-			religion = gerudo_goddess #religion_group = muslim
+			religion_group = muslim
 		}
 	}
 
@@ -4455,7 +4455,7 @@ character_event = {
 		has_guardian = yes
 		NOT = { personality_traits = 5 }
 		NOT = {
-			religion = gerudo_goddess #religion_group = muslim
+			religion_group = muslim
 		}
 	}
 	
@@ -4551,7 +4551,7 @@ character_event = {
 	
 	min_age = 6
 	max_age = 11
-	religion_group = goddesses_religion #christian
+	religion_group = christian
 	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
@@ -4682,107 +4682,107 @@ character_event = {
 	}
 }
 
-## Daddy, does God exist?
-#character_event = {
-#	id = 1910
-#	desc = "EVTDESC1910"
-#	picture = "GFX_evt_child_play"
-#	
-#	min_age = 6
-#	max_age = 11
-#	lacks_dlc = "Conclave"
-#
-#	is_triggered_only = yes
-#	
-#	trigger = {
-#		has_guardian = yes
-#		#religion_group = goddesses_religion #christian
-#		NOT = { trait = zealous }
-#		NOT = { trait = cynical }
-#		NOT = { personality_traits = 5 }
-#	}
-#	
-#	weight_multiplier = {
-#		days = 1
-#		modifier = {
-#			trait = clubfooted
-#			factor = 1.1
-#		}
-#		modifier = {
-#			trait = harelip
-#			factor = 1.1
-#		}
-#		modifier = {
-#			trait = hunchback
-#			factor = 1.1
-#		}
-#		modifier = {
-#			trait = lisp
-#			factor = 0.9
-#		}
-#		modifier = {
-#			trait = stutter
-#			factor = 0.9
-#		}
-#		modifier = {
-#			trait = fair
-#			factor = 1.05
-#		}
-#		modifier = {
-#			trait = ugly
-#			factor = 1.05
-#		}
-#		modifier = {
-#			trait = dwarf
-#			factor = 1.05
-#		}		
-#		modifier = {
-#			trait = genius
-#			factor = 10
-#		}
-#		modifier = {
-#			OR = {
-#				trait = quick
-#				trait = shrewd
-#			}
-#			factor = 2
-#		}	
-#		modifier = {
-#			OR = {
-#				trait = slow
-#				trait = dull
-#			}
-#			factor = 0.5
-#		}
-#		modifier = {
-#			trait = imbecile
-#			factor = 0.05
-#		}
-#		modifier = {
-#			trait = inbred
-#			factor = 0.1
-#		}
-#		modifier = {
-#			is_strong_trigger = yes
-#			factor = 1.05
-#		}
-#		modifier = {
-#			is_weak_trigger = yes
-#			factor = 2.0
-#		}
-#	}
-#	
-#	option = {
-#		name = "EVTOPTA1910"
-#		guardian = {
-#			character_event = {
-#				id = 38210
-#				days = 3
-#				tooltip = "EVTTOOLTIP38210"
-#			}
-#		}
-#	}
-#}
+# Daddy, does God exist?
+character_event = {
+	id = 1910
+	desc = "EVTDESC1910"
+	picture = "GFX_evt_child_play"
+	
+	min_age = 6
+	max_age = 11
+	lacks_dlc = "Conclave"
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_guardian = yes
+		#religion_group = christian
+		NOT = { trait = zealous }
+		NOT = { trait = cynical }
+		NOT = { personality_traits = 5 }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			trait = clubfooted
+			factor = 1.1
+		}
+		modifier = {
+			trait = harelip
+			factor = 1.1
+		}
+		modifier = {
+			trait = hunchback
+			factor = 1.1
+		}
+		modifier = {
+			trait = lisp
+			factor = 0.9
+		}
+		modifier = {
+			trait = stutter
+			factor = 0.9
+		}
+		modifier = {
+			trait = fair
+			factor = 1.05
+		}
+		modifier = {
+			trait = ugly
+			factor = 1.05
+		}
+		modifier = {
+			trait = dwarf
+			factor = 1.05
+		}		
+		modifier = {
+			trait = genius
+			factor = 10
+		}
+		modifier = {
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+			factor = 2
+		}	
+		modifier = {
+			OR = {
+				trait = slow
+				trait = dull
+			}
+			factor = 0.5
+		}
+		modifier = {
+			trait = imbecile
+			factor = 0.05
+		}
+		modifier = {
+			trait = inbred
+			factor = 0.1
+		}
+		modifier = {
+			is_strong_trigger = yes
+			factor = 1.05
+		}
+		modifier = {
+			is_weak_trigger = yes
+			factor = 2.0
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1910"
+		guardian = {
+			character_event = {
+				id = 38210
+				days = 3
+				tooltip = "EVTTOOLTIP38210"
+			}
+		}
+	}
+}
 
 # Why do people die?
 character_event = {
@@ -5026,115 +5026,115 @@ character_event = {
 	}
 }
 
-## If we're Catholic and our enemies are Catholic, why are we fighting?
-#character_event = {
-#	id = 1914
-#	desc = "EVTDESC1914"
-#	picture = "GFX_evt_child_play"
-#	
-#	min_age = 11
-#	max_age = 16
-#	religion = golden_goddesses #catholic
-#	lacks_dlc = "Conclave"
-#
-#	is_triggered_only = yes
-#	
-#	trigger = {
-#		has_guardian = yes
-#		NOT = { trait = cynical }
-#		guardian = {
-#			religion = golden_goddesses #catholic
-#			OR = {
-#				any_current_enemy = { religion = golden_goddesses #catholic }
-#				any_liege = { any_current_enemy = { religion = golden_goddesses #catholic } } 
-#			}
-#		}
-#		NOT = { personality_traits = 5 }
-#		
-#	}
-#	
-#	weight_multiplier = {
-#		days = 1
-#		modifier = {
-#			trait = clubfooted
-#			factor = 1.1
-#		}
-#		modifier = {
-#			trait = harelip
-#			factor = 1.1
-#		}
-#		modifier = {
-#			trait = hunchback
-#			factor = 1.1
-#		}
-#		modifier = {
-#			trait = lisp
-#			factor = 0.9
-#		}
-#		modifier = {
-#			trait = stutter
-#			factor = 0.9
-#		}
-#		modifier = {
-#			trait = fair
-#			factor = 1.05
-#		}
-#		modifier = {
-#			trait = ugly
-#			factor = 1.05
-#		}
-#		modifier = {
-#			trait = dwarf
-#			factor = 1.05
-#		}		
-#		modifier = {
-#			trait = genius
-#			factor = 10
-#		}
-#		modifier = {
-#			OR = {
-#				trait = quick
-#				trait = shrewd
-#			}
-#			factor = 2
-#		}	
-#		modifier = {
-#			OR = {
-#				trait = slow
-#				trait = dull
-#			}
-#			factor = 0.5
-#		}
-#		modifier = {
-#			trait = imbecile
-#			factor = 0.05
-#		}
-#		modifier = {
-#			trait = inbred
-#			factor = 0.1
-#		}
-#		modifier = {
-#			is_strong_trigger = yes
-#			factor = 1.05
-#		}
-#		modifier = {
-#			is_weak_trigger = yes
-#			factor = 2.0
-#		}
-#	}
-#	
-#	option = {
-#		name = "EVTOPTA1914"
-#		hidden_tooltip = {
-#			guardian = {
-#				character_event = {
-#					id = 38214
-#					days = 3
-#				}
-#			}
-#		}
-#	}
-#}
+# If we're Catholic and our enemies are Catholic, why are we fighting?
+character_event = {
+	id = 1914
+	desc = "EVTDESC1914"
+	picture = "GFX_evt_child_play"
+	
+	min_age = 11
+	max_age = 16
+	religion = catholic
+	lacks_dlc = "Conclave"
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_guardian = yes
+		NOT = { trait = cynical }
+		guardian = {
+			religion = catholic
+			OR = {
+				any_current_enemy = { religion = catholic }
+				any_liege = { any_current_enemy = { religion = catholic } } 
+			}
+		}
+		NOT = { personality_traits = 5 }
+		
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			trait = clubfooted
+			factor = 1.1
+		}
+		modifier = {
+			trait = harelip
+			factor = 1.1
+		}
+		modifier = {
+			trait = hunchback
+			factor = 1.1
+		}
+		modifier = {
+			trait = lisp
+			factor = 0.9
+		}
+		modifier = {
+			trait = stutter
+			factor = 0.9
+		}
+		modifier = {
+			trait = fair
+			factor = 1.05
+		}
+		modifier = {
+			trait = ugly
+			factor = 1.05
+		}
+		modifier = {
+			trait = dwarf
+			factor = 1.05
+		}		
+		modifier = {
+			trait = genius
+			factor = 10
+		}
+		modifier = {
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+			factor = 2
+		}	
+		modifier = {
+			OR = {
+				trait = slow
+				trait = dull
+			}
+			factor = 0.5
+		}
+		modifier = {
+			trait = imbecile
+			factor = 0.05
+		}
+		modifier = {
+			trait = inbred
+			factor = 0.1
+		}
+		modifier = {
+			is_strong_trigger = yes
+			factor = 1.05
+		}
+		modifier = {
+			is_weak_trigger = yes
+			factor = 2.0
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1914"
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = 38214
+					days = 3
+				}
+			}
+		}
+	}
+}
 
 ### Why is the church so rich when the peasants are starving and poor? ###
 character_event = {
@@ -5144,7 +5144,7 @@ character_event = {
 	
 	min_age = 11
 	max_age = 16
-	religion_group = goddesses_religion #christian
+	religion_group = christian
 	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
@@ -5557,7 +5557,7 @@ character_event = {
 	
 	trigger = {
 		has_guardian = yes
-		#NOT = { religion_group = indian_group }
+		NOT = { religion_group = indian_group }
 		NOT = { trait = lustful }
 		NOT = { trait = chaste }
 		NOT = { trait = temperate }
@@ -5648,230 +5648,230 @@ character_event = {
 	}
 }
 
-##How can I best serve God?
-#character_event = {
-#	id = 1920
-#	desc = "EVTDESC1920"
-#	picture = "GFX_evt_child_play"
-#	
-#	min_age = 11
-#	max_age = 16
-#	lacks_dlc = "Conclave"
-#
-#	is_triggered_only = yes
-#	
-#	trigger = {
-#		has_guardian = yes
-#		OR = {
-#			religion_group = goddesses_religion #christian
-#			religion = gerudo_goddess #religion_group = muslim
-#			religion_group = minor_deity #jewish_group
-#		}
-#		NOT = { trait = cynical }
-#		NOT = { trait = craven }
-#		NOT = { trait = brave }
-#		NOT = { trait = just }
-#		NOT = { trait = arbitrary }
-#	}
-#	
-#	weight_multiplier = {
-#		days = 1
-#		modifier = {
-#			trait = clubfooted
-#			factor = 1.5
-#		}
-#		modifier = {
-#			trait = harelip
-#			factor = 1.5
-#		}
-#		modifier = {
-#			trait = hunchback
-#			factor = 2.0
-#		}
-#		modifier = {
-#			trait = lisp
-#			factor = 1.5
-#		}
-#		modifier = {
-#			trait = stutter
-#			factor = 1.5
-#		}
-#		modifier = {
-#			trait = fair
-#			factor = 1.5
-#		}
-#		modifier = {
-#			trait = ugly
-#			factor = 1.5
-#		}
-#		modifier = {
-#			trait = dwarf
-#			factor = 1.05
-#		}		
-#		modifier = {
-#			trait = genius
-#			factor = 0.75
-#		}
-#		modifier = {
-#			OR = {
-#				trait = quick
-#				trait = shrewd
-#			}
-#			factor = 1.2
-#		}	
-#		modifier = {
-#			OR = {
-#				trait = slow
-#				trait = dull
-#			}
-#			factor = 0.5
-#		}
-#		modifier = {
-#			trait = imbecile
-#			factor = 0.05
-#		}
-#		modifier = {
-#			trait = inbred
-#			factor = 0.25
-#		}
-#		modifier = {
-#			is_strong_trigger = yes
-#			factor = 1.05
-#		}
-#		modifier = {
-#			is_weak_trigger = yes
-#			factor = 1.25
-#		}
-#	}
-#	
-#	option = {
-#		name = "EVTOPTA1920"
-#		hidden_tooltip = {
-#			guardian = {
-#				character_event = {
-#					id = 38220
-#					days = 3
-#				}
-#			}
-#		}
-#	}
-#}
+#How can I best serve God?
+character_event = {
+	id = 1920
+	desc = "EVTDESC1920"
+	picture = "GFX_evt_child_play"
+	
+	min_age = 11
+	max_age = 16
+	lacks_dlc = "Conclave"
 
-## Female Child is playing with swords instead of sewing
-#character_event = {
-#	id = 1921
-#	desc = "EVTDESC1921"
-#	picture = "GFX_evt_child_play"
-#	
-#	min_age = 6
-#	max_age = 16
-#	only_women = yes
-#	lacks_dlc = "Conclave"
-#
-#	is_triggered_only = yes
-#	
-#	trigger = {
-#		has_guardian = yes
-#		NOT = {
-#			trait = brave
-#		}
-#		NOT = {
-#			trait = humble
-#		}
-#		NOT = {
-#			trait = just
-#		}
-#		NOT = {
-#			trait = wounded
-#		}
-#	}
-#	
-#	weight_multiplier = {
-#		days = 1
-#		modifier = {
-#			religion_group =goddesses_religion #religion_group = goddesses_religion #religion = cathar
-#			factor = 3
-#		}
-#		modifier = {
-#			trait = clubfooted
-#			factor = 0.8
-#		}
-#		modifier = {
-#			trait = harelip
-#			factor = 0.9
-#		}
-#		modifier = {
-#			trait = hunchback
-#			factor = 0.7
-#		}
-#		modifier = {
-#			trait = lisp
-#			factor = 0.95
-#		}
-#		modifier = {
-#			trait = stutter
-#			factor = 0.95
-#		}
-#		modifier = {
-#			trait = fair
-#			factor = 0.8
-#		}
-#		modifier = {
-#			trait = ugly
-#			factor = 1.25
-#		}
-#		modifier = {
-#			trait = dwarf
-#			factor = 0.9
-#		}		
-#		modifier = {
-#			trait = genius
-#			factor = 1.05
-#		}
-#		modifier = {
-#			OR = {
-#				trait = quick
-#				trait = shrewd
-#			}
-#			factor = 1.05
-#		}	
-#		modifier = {
-#			OR = {
-#				trait = slow
-#				trait = dull
-#			}
-#			factor = 0.95
-#		}
-#		
-#		modifier = {
-#			trait = imbecile
-#			factor = 0.5
-#		}
-#		modifier = {
-#			trait = inbred
-#			factor = 0.05
-#		}
-#		modifier = {
-#			is_strong_trigger = yes
-#			factor = 5.0
-#		}
-#		modifier = {
-#			is_weak_trigger = yes
-#			factor = 0.05
-#		}	
-#	}
-#	
-#	option = {
-#		name = "EVTOPTA1921"
-#		guardian = {
-#			character_event = {
-#				id = 38221
-#				days = 3
-#				tooltip = "EVTOOLTIP38221"
-#			}
-#		}
-#	}
-#}
+	is_triggered_only = yes
+	
+	trigger = {
+		has_guardian = yes
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = jewish_group
+		}
+		NOT = { trait = cynical }
+		NOT = { trait = craven }
+		NOT = { trait = brave }
+		NOT = { trait = just }
+		NOT = { trait = arbitrary }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			trait = clubfooted
+			factor = 1.5
+		}
+		modifier = {
+			trait = harelip
+			factor = 1.5
+		}
+		modifier = {
+			trait = hunchback
+			factor = 2.0
+		}
+		modifier = {
+			trait = lisp
+			factor = 1.5
+		}
+		modifier = {
+			trait = stutter
+			factor = 1.5
+		}
+		modifier = {
+			trait = fair
+			factor = 1.5
+		}
+		modifier = {
+			trait = ugly
+			factor = 1.5
+		}
+		modifier = {
+			trait = dwarf
+			factor = 1.05
+		}		
+		modifier = {
+			trait = genius
+			factor = 0.75
+		}
+		modifier = {
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+			factor = 1.2
+		}	
+		modifier = {
+			OR = {
+				trait = slow
+				trait = dull
+			}
+			factor = 0.5
+		}
+		modifier = {
+			trait = imbecile
+			factor = 0.05
+		}
+		modifier = {
+			trait = inbred
+			factor = 0.25
+		}
+		modifier = {
+			is_strong_trigger = yes
+			factor = 1.05
+		}
+		modifier = {
+			is_weak_trigger = yes
+			factor = 1.25
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1920"
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = 38220
+					days = 3
+				}
+			}
+		}
+	}
+}
+
+# Female Child is playing with swords instead of sewing
+character_event = {
+	id = 1921
+	desc = "EVTDESC1921"
+	picture = "GFX_evt_child_play"
+	
+	min_age = 6
+	max_age = 16
+	only_women = yes
+	lacks_dlc = "Conclave"
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_guardian = yes
+		NOT = {
+			trait = brave
+		}
+		NOT = {
+			trait = humble
+		}
+		NOT = {
+			trait = just
+		}
+		NOT = {
+			trait = wounded
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			religion = cathar
+			factor = 3
+		}
+		modifier = {
+			trait = clubfooted
+			factor = 0.8
+		}
+		modifier = {
+			trait = harelip
+			factor = 0.9
+		}
+		modifier = {
+			trait = hunchback
+			factor = 0.7
+		}
+		modifier = {
+			trait = lisp
+			factor = 0.95
+		}
+		modifier = {
+			trait = stutter
+			factor = 0.95
+		}
+		modifier = {
+			trait = fair
+			factor = 0.8
+		}
+		modifier = {
+			trait = ugly
+			factor = 1.25
+		}
+		modifier = {
+			trait = dwarf
+			factor = 0.9
+		}		
+		modifier = {
+			trait = genius
+			factor = 1.05
+		}
+		modifier = {
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+			factor = 1.05
+		}	
+		modifier = {
+			OR = {
+				trait = slow
+				trait = dull
+			}
+			factor = 0.95
+		}
+		
+		modifier = {
+			trait = imbecile
+			factor = 0.5
+		}
+		modifier = {
+			trait = inbred
+			factor = 0.05
+		}
+		modifier = {
+			is_strong_trigger = yes
+			factor = 5.0
+		}
+		modifier = {
+			is_weak_trigger = yes
+			factor = 0.05
+		}	
+	}
+	
+	option = {
+		name = "EVTOPTA1921"
+		guardian = {
+			character_event = {
+				id = 38221
+				days = 3
+				tooltip = "EVTOOLTIP38221"
+			}
+		}
+	}
+}
 
 # Child is ridiculed for cowardness
 character_event = {

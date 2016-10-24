@@ -5,8 +5,8 @@
 # Event ID 88500 - 88749 reserved
 #
 #######################################
-
-# The Fast Begins
+#
+## The Fast Begins
 #character_event = {
 #	id = 88500
 #	title = RAMADANTITLE
@@ -778,32 +778,32 @@
 #		set_character_flag = ramadan_cynical
 #	}
 #}
-#
-## Ramadan Ends
-#character_event = {
-#	id = 88522
-#	title = RAMADANTITLE
-#	desc = EVTDESC88522
-#	picture = GFX_evt_bishop
-#	border =  GFX_event_normal_frame_religion
-#	
-#	is_triggered_only = yes
-#	
-#	trigger = { has_character_flag = ramadan }
-#	
-#	option = {
-#		name = EVTOPTA88522
-#		clr_character_flag = ramadan
-#		clr_character_flag = ramadan_ill
-#		clr_character_flag = ramadan_cynical
-#		clr_character_flag = ramadan_greedy
-#		clr_character_flag = ramadan_gluttonous
-#		clr_character_flag = ramadan_drunkard
-#		clr_character_flag = ramadan_lustful_hedonist
-#		clr_character_flag = ramadan_prayers
-#		clr_character_flag = ramadan_charity
-#		clr_character_flag = ramadan_prisoners
-#	}
-#}
+
+# Ramadan Ends
+character_event = {
+	id = 88522
+	title = RAMADANTITLE
+	desc = EVTDESC88522
+	picture = GFX_evt_bishop
+	border =  GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	trigger = { has_character_flag = ramadan }
+	
+	option = {
+		name = EVTOPTA88522
+		clr_character_flag = ramadan
+		clr_character_flag = ramadan_ill
+		clr_character_flag = ramadan_cynical
+		clr_character_flag = ramadan_greedy
+		clr_character_flag = ramadan_gluttonous
+		clr_character_flag = ramadan_drunkard
+		clr_character_flag = ramadan_lustful_hedonist
+		clr_character_flag = ramadan_prayers
+		clr_character_flag = ramadan_charity
+		clr_character_flag = ramadan_prisoners
+	}
+}
 	
 	

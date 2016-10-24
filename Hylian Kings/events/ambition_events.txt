@@ -219,11 +219,11 @@ character_event = {
 				character_event = { id = 94006 tooltip = EVTTOOLTIP94006 }
 			}
 		}
-		#if = {
-		#	limit = { religion = jain }
-		#	piety = -20
-		#	custom_tooltip = { text = jain_ahimsa_tooltip }
-		#}
+		if = {
+			limit = { religion = jain }
+			piety = -20
+			custom_tooltip = { text = jain_ahimsa_tooltip }
+		}
 	}
 	option = {
 		name = EVTOPTB94005
@@ -748,7 +748,7 @@ character_event = {
 		name = EVTOPTB94051
 		trigger = {
 			NOT = { uses_decadence = yes }
-			#NOT = { religion_group = indian_group }
+			NOT = { religion_group = indian_group }
 		}
 		character_event = { id = 94052 days = 30 random = 10 tooltip = EVTTOOLTIP94052 }
 	}
@@ -851,8 +851,8 @@ character_event = {
 		name = EVTOPTA94053
 		trigger = {
 			OR = {
-				religion_group = goddesses_religion #christian
-				religion_group = minor_deity #muslim
+				religion_group = christian
+				religion_group = muslim
 			}
 		}
 		character_event = { id = 94054 days = 30 random = 10 tooltip = EVTTOOLTIP94054 }
@@ -866,9 +866,9 @@ character_event = {
 	option = {
 		name = EVTOPTC94053
 		trigger = {
-			#NOT = {
-			#	religion_group = indian_group
-			#}
+			NOT = {
+				religion_group = indian_group
+			}
 		}
 		character_event = { id = 94056 days = 30 random = 10 tooltip = EVTTOOLTIP94056 }
 		wealth = -15
@@ -1386,16 +1386,16 @@ character_event = {
 	option = { # Otis
 		name = EVTOPTA94082
 		trigger = {
-			NOT = { religion_group = minor_deity #muslim }
-			#NOT = { religion_group = indian_group }
+			NOT = { religion_group = muslim }
+			NOT = { religion_group = indian_group }
 		}
 		character_event = { id = 94083 days = 5 tooltip = EVTTOOLTIP94083 }
 	}
 	option = { # Meldrick
 		name = EVTOPTB94082
 		trigger = {
-			NOT = { religion_group = minor_deity #muslim }
-			#NOT = { religion_group = indian_group }
+			NOT = { religion_group = muslim }
+			NOT = { religion_group = indian_group }
 		}
 		character_event = { id = 94084 days = 5 tooltip = EVTTOOLTIP94084 }
 	}
@@ -1407,8 +1407,8 @@ character_event = {
 		name = EVTOPTD94082
 		trigger = {
 			OR = {
-				religion_group = minor_deity #muslim
-				#religion_group = indian_group
+				religion_group = muslim
+				religion_group = indian_group
 			}
 		}
 		character_event = { id = 94092 days = 5 tooltip = EVTTOOLTIP94092 }
@@ -1417,8 +1417,8 @@ character_event = {
 		name = EVTOPTE94082
 		trigger = {
 			OR = {
-				religion_group = minor_deity #muslim
-				#religion_group = indian_group
+				religion_group = muslim
+				religion_group = indian_group
 			}
 		}
 		character_event = { id = 94093 days = 5 tooltip = EVTTOOLTIP94093 }
@@ -1442,7 +1442,7 @@ character_event = {
 	}
 }
 
-# al-Otis Flies (minor_deity #muslim version)
+# al-Otis Flies (Muslim version)
 character_event = {
 	id = 94092
 	desc = EVTDESC94092
@@ -1476,7 +1476,7 @@ character_event = {
 	}
 }
 
-# Ba'ah al-Drik Flies (minor_deity #muslim version)
+# Ba'ah al-Drik Flies (Muslim version)
 character_event = {
 	id = 94093
 	desc = EVTDESC94093
@@ -1532,7 +1532,7 @@ character_event = {
 	}
 }
 
-# al-Otis Aftermath (minor_deity #muslim version)
+# al-Otis Aftermath (Muslim version)
 character_event = {
 	id = 94094
 	desc = EVTDESC94094
@@ -1574,7 +1574,7 @@ character_event = {
 	}
 }
 
-# Ba'ah al-Drik Aftermath (minor_deity #muslim version)
+# Ba'ah al-Drik Aftermath (Muslim version)
 character_event = {
 	id = 94095
 	desc = EVTDESC94095
@@ -1608,12 +1608,12 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA94088
-		trigger = { NOT = { religion_group = minor_deity #muslim } }
+		trigger = { NOT = { religion_group = muslim } }
 		change_learning = 1
 	}
 	option = {
 		name = EVTOPTA94091
-		trigger = { religion_group = minor_deity #muslim }
+		trigger = { religion_group = muslim }
 		change_learning = 1
 	}
 }
@@ -1635,7 +1635,7 @@ character_event = {
 	}
 }
 
-# al-Otis Second Attempt (minor_deity #muslim version)
+# al-Otis Second Attempt (Muslim version)
 character_event = {
 	id = 94096
 	desc = EVTDESC94096
@@ -1699,12 +1699,12 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA94088
-		trigger = { NOT = { religion_group = minor_deity #muslim } }
+		trigger = { NOT = { religion_group = muslim } }
 		change_learning = 2
 	}
 	option = {
 		name = EVTOPTA94091
-		trigger = { religion_group = minor_deity #muslim }
+		trigger = { religion_group = muslim }
 		change_learning = 2
 	}
 }
@@ -1731,8 +1731,8 @@ character_event = {
 			}
 			has_ambition = obj_improve_learning
 		}
-		NOT = { religion_group = minor_deity #muslim }
-		#NOT = { #religion_group = indian_group }
+		NOT = { religion_group = muslim }
+		NOT = { religion_group = indian_group }
 		NOT = { has_character_flag = flying_machine }
 		NOT = { has_character_flag = ancient_tome }
 		NOT = { has_character_flag = hermit_visit }
@@ -1796,8 +1796,8 @@ character_event = {
 			has_ambition = obj_improve_learning
 		}
 		OR = {
-			religion_group = minor_deity #muslim
-			#religion_group = indian_group
+			religion_group = muslim
+			religion_group = indian_group
 		}
 		NOT = { has_character_flag = flying_machine }
 		NOT = { has_character_flag = ancient_tome }
@@ -1978,7 +1978,7 @@ character_event = {
 			}
 			has_ambition = obj_improve_learning
 		}
-		#NOT = { #religion_group = indian_group }
+		NOT = { religion_group = indian_group }
 		NOT = { has_character_flag = flying_machine }
 		NOT = { has_character_flag = ancient_tome }
 		NOT = { has_character_flag = hermit_visit }
@@ -2014,7 +2014,7 @@ character_event = {
 			}
 			has_ambition = obj_improve_learning
 		}
-		#NOT = { #religion_group = indian_group }
+		NOT = { religion_group = indian_group }
 		NOT = { has_character_flag = flying_machine }
 		NOT = { has_character_flag = ancient_tome }
 		NOT = { has_character_flag = hermit_visit }
@@ -2239,11 +2239,11 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA94116
-		#if = {
-		#	limit = { religion = jain }
-		#	piety = -20
-		#	custom_tooltip = { text = jain_ahimsa_tooltip }
-		#}
+		if = {
+			limit = { religion = jain }
+			piety = -20
+			custom_tooltip = { text = jain_ahimsa_tooltip }
+		}
 		character_event = { id = 94117 tooltip = EVTTOOLTIP94112 }
 	}
 	option = {
@@ -2658,7 +2658,7 @@ character_event = {
 			}
 			has_ambition = obj_improve_diplomacy
 		}
-		#NOT = { #religion_group = indian_group }
+		NOT = { religion_group = indian_group }
 		NOT = { has_character_flag = the_feud }
 		NOT = { has_character_flag = the_mirror }
 		NOT = { has_character_flag = the_suicide }
@@ -2736,22 +2736,22 @@ character_event = {
 	
 	option = { # Magda
 		name = EVTOPTA94141
-		trigger = { NOT = { religion_group = minor_deity #muslim } }
+		trigger = { NOT = { religion_group = muslim } }
 		character_event = { id = 94142 tooltip = EVTTOOLTIP94142 }
 	}
 	option = { # Meldrick
 		name = EVTOPTB94141
-		trigger = { NOT = { religion_group = minor_deity #muslim } }
+		trigger = { NOT = { religion_group = muslim } }
 		character_event = { id = 94149 tooltip = EVTTOOLTIP94149 }
 	}
 	option = { # Wafaa
 		name = EVTOPTC94141
-		trigger = { religion_group = minor_deity #muslim }
+		trigger = { religion_group = muslim }
 		character_event = { id = 94142 tooltip = EVTTOOLTIP94142 }
 	}
 	option = {	# Bah al-Drik
 		name = EVTOPTD94141
-		trigger = { religion_group = minor_deity #muslim }
+		trigger = { religion_group = muslim }
 		character_event = { id = 94149 tooltip = EVTTOOLTIP94149 }
 	}
 }
@@ -2786,12 +2786,12 @@ character_event = {
 	
 	option = { # Magda
 		name = EVTOPTA94143
-		trigger = { NOT = { religion_group = minor_deity #muslim } }
+		trigger = { NOT = { religion_group = muslim } }
 		character_event = { id = 94144 tooltip = EVTTOOLTIP94144 }
 	}
 	option = { # Wafaa
 		name = EVTOPTB94143
-		trigger = { religion_group = minor_deity #muslim }
+		trigger = { religion_group = muslim }
 		character_event = { id = 94144 tooltip = EVTTOOLTIP94144 }
 	}
 }
@@ -2873,7 +2873,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA94146
-		trigger = { NOT = { religion_group = minor_deity #muslim } }
+		trigger = { NOT = { religion_group = muslim } }
 		custom_tooltip = {
 			text = hurry_dungeons
 			hidden_tooltip = {
@@ -2890,7 +2890,7 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB94146
-		trigger = { religion_group = minor_deity #muslim }
+		trigger = { religion_group = muslim }
 		hidden_tooltip = {
 			random_list = {
 				50 = {
@@ -2968,12 +2968,12 @@ character_event = {
 	
 	option = { # Meldrick
 		name = EVTOPTA94150
-		trigger = { NOT = { religion_group = minor_deity #muslim } }
+		trigger = { NOT = { religion_group = muslim } }
 		character_event = { id = 94151 tooltip = EVTTOOLTIP94151 }
 	}
 	option = { # Arab Meldrick
 		name = EVTOPTB94150
-		trigger = { religion_group = minor_deity #muslim }
+		trigger = { religion_group = muslim }
 		character_event = { id = 94151 tooltip = EVTTOOLTIP94151 }
 	}
 }
@@ -3072,7 +3072,7 @@ character_event = {
 				}
 			}
 		}
-		trigger = { NOT = { religion_group = minor_deity #muslim } }
+		trigger = { NOT = { religion_group = muslim } }
 	}
 	option = {
 		name = EVTOPTA94153
@@ -3089,7 +3089,7 @@ character_event = {
 				}
 			}
 		}
-		trigger = { religion_group = minor_deity #muslim }
+		trigger = { religion_group = muslim }
 	}
 }
 
@@ -3407,7 +3407,7 @@ character_event = {
 	only_rulers = yes
 	prisoner = no
 	min_age = 16
-	religion_group = minor_deity #muslim
+	religion_group = muslim
 	
 	trigger = {
 		has_ambition = obj_lower_decadence
@@ -3464,7 +3464,7 @@ character_event = {
 	only_rulers = yes
 	prisoner = no
 	min_age = 16
-	religion_group = minor_deity #muslim
+	religion_group = muslim
 	
 	trigger = {
 		has_ambition = obj_lower_decadence
@@ -3620,7 +3620,7 @@ character_event = {
 	only_rulers = yes
 	prisoner = no
 	min_age = 16
-	religion_group = minor_deity #muslim
+	religion_group = muslim
 	
 	trigger = {
 		has_ambition = obj_lower_decadence
@@ -3726,7 +3726,7 @@ character_event = {
 	only_rulers = yes
 	prisoner = no
 	min_age = 16
-	religion_group = minor_deity #muslim
+	religion_group = muslim
 	
 	trigger = {
 		has_ambition = obj_lower_decadence
@@ -3756,7 +3756,7 @@ character_event = {
 	only_rulers = yes
 	prisoner = no
 	min_age = 16
-	religion_group = minor_deity #muslim
+	religion_group = muslim
 	
 	trigger = {
 		has_ambition = obj_lower_decadence
@@ -3787,7 +3787,7 @@ character_event = {
 	only_rulers = yes
 	prisoner = no
 	min_age = 16
-	religion_group = minor_deity #muslim
+	religion_group = muslim
 	
 	trigger = {
 		has_ambition = obj_lower_decadence

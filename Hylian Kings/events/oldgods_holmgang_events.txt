@@ -19,13 +19,13 @@ character_event = {
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	religion_group = demon_religion#pagan_group
+	religion_group = pagan_group
 	
 	trigger = {
 		has_dlc = "The Old Gods"
 		OR = {
-			religion = demise_religion #norse_pagan
-			#religion = norse_pagan_reformed
+			religion = norse_pagan
+			religion = norse_pagan_reformed
 		}
 		NOT = { 
 			has_character_flag = holmgang_target
@@ -54,8 +54,8 @@ character_event = {
 				has_character_flag = holmgang_challenger
 			}
 			OR = {
-				religion = demise_religion # norse_pagan
-				religion = #norse_pagan_reformed
+				religion = norse_pagan
+				religion = norse_pagan_reformed
 			}
 			NOT = { is_inaccessible_trigger = yes }
 		}
@@ -146,8 +146,8 @@ character_event = {
 	trigger = {
 		has_dlc = "The Old Gods"
 		OR = {
-			religion = demise_religion # norse_pagan
-			religion = #norse_pagan_reformed
+			religion = norse_pagan
+			religion = norse_pagan_reformed
 		}
 		NOT = { 
 			has_character_flag = holmgang_target
@@ -180,8 +180,8 @@ character_event = {
 					has_character_flag = holmgang_challenger
 				}
 				OR = {
-					religion = demise_religion # norse_pagan
-					religion = #norse_pagan_reformed
+					religion = norse_pagan
+					religion = norse_pagan_reformed
 				}
 				NOT = { is_inaccessible_trigger = yes }
 			}
@@ -270,8 +270,8 @@ character_event = {
 						has_character_flag = holmgang_challenger
 					}
 					OR = {
-						religion = demise_religion # norse_pagan
-						religion = #norse_pagan_reformed
+						religion = norse_pagan
+						religion = norse_pagan_reformed
 					}
 					NOT = { is_inaccessible_trigger = yes }
 				}
@@ -302,8 +302,8 @@ character_event = {
 	trigger = {
 		has_dlc = "The Old Gods"
 		OR = {
-			religion = demise_religion # norse_pagan
-			religion = #norse_pagan_reformed
+			religion = norse_pagan
+			religion = norse_pagan_reformed
 		}
 		NOT = { 
 			has_character_flag = holmgang_target
@@ -332,8 +332,8 @@ character_event = {
 				has_character_flag = holmgang_challenger
 			}
 			OR = {
-				religion = demise_religion # norse_pagan
-				religion = #norse_pagan_reformed
+				religion = norse_pagan
+				religion = norse_pagan_reformed
 			}
 			NOT = { is_inaccessible_trigger = yes }
 		}
@@ -417,8 +417,8 @@ character_event = {
 					has_character_flag = holmgang_challenger
 				}
 				OR = {
-					religion = demise_religion # norse_pagan
-					religion = #norse_pagan_reformed
+					religion = norse_pagan
+					religion = norse_pagan_reformed
 				}
 				NOT = { is_inaccessible_trigger = yes }
 			}

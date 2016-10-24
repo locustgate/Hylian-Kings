@@ -511,143 +511,143 @@ character_event = {
 	}
 }
 
-## The New Flagship (Player)
-#narrative_event = {
-#	id = REP.151
-#	title = EVTNAME_REP_151
-#	desc = EVTDESC_REP_151
-#	picture = GFX_evt_busy_trading_dock_republic
-#	
-#	is_triggered_only = yes
-#	
-#	immediate = {
-#		set_dynasty_flag = flagship_feud
-#	}
-#	
-#	option = {
-#		name = EVTOPTA_REP_151
-#		hidden_tooltip = {
-#			random_list = {
-#				70 = {
-#					if = {
-#						limit = {
-#							liege = { has_landed_title = k_venice }
-#							liege = { religion = golden_goddesses #catholic }
-#							religion = golden_goddesses #catholic
-#						}
-#						narrative_event = { id = REP.152 days = 46 }
-#					}
-#					if = {
-#						limit = {
-#							OR = {
-#								liege = { NOT = { has_landed_title = k_venice }}
-#								liege = { NOT = { religion = golden_goddesses #catholic }}
-#								NOT = { religion = golden_goddesses #catholic }
-#							}
-#						}
-#						narrative_event = { id = REP.153 days = 46 }
-#					}
-#				}
-#				30 = {
-#					narrative_event = { id = REP.155 days = 46 }
-#				}
-#			}
-#		}
-#		custom_tooltip = { text = flagship_plan_approved_tooltip }
-#	}
-#	option = {
-#		name = EVTOPTB_REP_151
-#		hidden_tooltip = {
-#			narrative_event = { id = REP.154 days = 46 }
-#		}
-#		custom_tooltip = { text = flagship_plan_refused_tooltip }
-#	}
-#}
-#
-## Marriage of the Sea (Venice Only)
-#narrative_event = {
-#	id = REP.152
-#	title = EVTNAME_REP_152
-#	desc = EVTDESC_REP_152
-#	picture = GFX_evt_merchant_ship_at_sea_republic
-#	
-#	hide_from = yes
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = EVTOPTA_REP_152
-#		prestige = 50
-#		FROMFROM = { prestige = -100 }
-#		religion_head = {
-#			opinion = {
-#				modifier = opinion_furious
-#				who = FROMFROM
-#				years = 5
-#			}
-#		}
-#		set_dynasty_flag = feud_phase_two
-#	}
-#}
-#
-## The Ship is Launched
-#narrative_event = {
-#	id = REP.153
-#	title = EVTNAME_REP_153
-#	desc = EVTDESC_REP_153
-#	picture = GFX_evt_merchant_ship_at_sea_republic
-#	
-#	hide_from = yes
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = EVTOPTA_REP_152
-#		prestige = 50
-#		FROMFROM = { prestige = -100 }
-#		set_dynasty_flag = feud_phase_two
-#	}
-#}
-#
-## The Lion of the Sea
-#narrative_event = {
-#	id = REP.154
-#	title = EVTNAME_REP_154
-#	desc = EVTDESC_REP_154
-#	picture = GFX_evt_merchant_ship_at_sea_republic
-#	
-#	hide_from = yes
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = EVTOPTA_REP_154
-#		prestige = -50
-#		FROMFROM = { prestige = 100 }
-#		set_dynasty_flag = feud_phase_two
-#	}
-#}
-#
-## You Are Cordially Invited...
-#narrative_event = {
-#	id = REP.155
-#	title = EVTNAME_REP_155
-#	desc = EVTDESC_REP_155
-#	picture = GFX_evt_family_feud_republic
-#	
-#	hide_from = yes
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = EVTOPTA_REP_155
-#		prestige = -50
-#		FROMFROM = { prestige = 100 }
-#		set_dynasty_flag = feud_phase_two
-#	}
-#}
-#
-#### Romeo & Juliet
+# The New Flagship (Player)
+narrative_event = {
+	id = REP.151
+	title = EVTNAME_REP_151
+	desc = EVTDESC_REP_151
+	picture = GFX_evt_busy_trading_dock_republic
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_dynasty_flag = flagship_feud
+	}
+	
+	option = {
+		name = EVTOPTA_REP_151
+		hidden_tooltip = {
+			random_list = {
+				70 = {
+					if = {
+						limit = {
+							liege = { has_landed_title = k_venice }
+							liege = { religion = catholic }
+							religion = catholic
+						}
+						narrative_event = { id = REP.152 days = 46 }
+					}
+					if = {
+						limit = {
+							OR = {
+								liege = { NOT = { has_landed_title = k_venice }}
+								liege = { NOT = { religion = catholic }}
+								NOT = { religion = catholic }
+							}
+						}
+						narrative_event = { id = REP.153 days = 46 }
+					}
+				}
+				30 = {
+					narrative_event = { id = REP.155 days = 46 }
+				}
+			}
+		}
+		custom_tooltip = { text = flagship_plan_approved_tooltip }
+	}
+	option = {
+		name = EVTOPTB_REP_151
+		hidden_tooltip = {
+			narrative_event = { id = REP.154 days = 46 }
+		}
+		custom_tooltip = { text = flagship_plan_refused_tooltip }
+	}
+}
+
+# Marriage of the Sea (Venice Only)
+narrative_event = {
+	id = REP.152
+	title = EVTNAME_REP_152
+	desc = EVTDESC_REP_152
+	picture = GFX_evt_merchant_ship_at_sea_republic
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_REP_152
+		prestige = 50
+		FROMFROM = { prestige = -100 }
+		religion_head = {
+			opinion = {
+				modifier = opinion_furious
+				who = FROMFROM
+				years = 5
+			}
+		}
+		set_dynasty_flag = feud_phase_two
+	}
+}
+
+# The Ship is Launched
+narrative_event = {
+	id = REP.153
+	title = EVTNAME_REP_153
+	desc = EVTDESC_REP_153
+	picture = GFX_evt_merchant_ship_at_sea_republic
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_REP_152
+		prestige = 50
+		FROMFROM = { prestige = -100 }
+		set_dynasty_flag = feud_phase_two
+	}
+}
+
+# The Lion of the Sea
+narrative_event = {
+	id = REP.154
+	title = EVTNAME_REP_154
+	desc = EVTDESC_REP_154
+	picture = GFX_evt_merchant_ship_at_sea_republic
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_REP_154
+		prestige = -50
+		FROMFROM = { prestige = 100 }
+		set_dynasty_flag = feud_phase_two
+	}
+}
+
+# You Are Cordially Invited...
+narrative_event = {
+	id = REP.155
+	title = EVTNAME_REP_155
+	desc = EVTDESC_REP_155
+	picture = GFX_evt_family_feud_republic
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_REP_155
+		prestige = -50
+		FROMFROM = { prestige = 100 }
+		set_dynasty_flag = feud_phase_two
+	}
+}
+
+### Romeo & Juliet
 
 # A Nightly Visit... (Daughter) (AI)
 character_event = {

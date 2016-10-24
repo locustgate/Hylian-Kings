@@ -77,20 +77,20 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB76000"
-		#if = {
-		#	limit = {
-		#		religion = gerudo_goddesses #religion_group = muslim
-		#	}
-		#	piety = 5
-		#}
-		#if = {
-		#	limit = {
-		#		NOT = {
-		#			religion = gerudo_goddesses #religion_group = muslim
-		#		}
-		#	}
-		#	add_trait = chaste
-		#}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			piety = 5
+		}
+		if = {
+			limit = {
+				NOT = {
+					religion_group = muslim
+				}
+			}
+			add_trait = chaste
+		}
 	}
 }
 
@@ -206,15 +206,15 @@ character_event = {
 				who = ROOT
 				years = 20
 			}
-			#if = {
-			#	limit = {
-			#		NOT = {
-			#			religion = gerudo_goddesses #religion_group = muslim
-			#		}
-			#		NOT = { trait = chaste }
-			#	}
-			#	add_trait = chaste
-			#}
+			if = {
+				limit = {
+					NOT = {
+						religion_group = muslim
+					}
+					NOT = { trait = chaste }
+				}
+				add_trait = chaste
+			}
 			health = -1
 		}
 
@@ -1121,7 +1121,7 @@ character_event = {
 		name = "EVTOPTA76041"
 		trigger = {
 			NOT = {
-				religion = gerudo_goddesses #religion_group = muslim
+				religion_group = muslim
 			}
 		}
 		FROM = {
@@ -1224,7 +1224,7 @@ character_event = {
 	option = {
 		name = "EVTOPTD76041"
 		trigger = {
-			religion = gerudo_goddesses #religion_group = muslim
+			religion_group = muslim
 		}
 		FROM = {
 			random_list = {
