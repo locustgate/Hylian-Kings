@@ -78,16 +78,16 @@ hylian_group = {
 		color = { 0.8 0.52 0.25 }
 		
 		male_names = {
-			Xant Damien Mixorant Uxin Xorent Eksusha Exun Domin Diraxuni Uxi Idinon Irun Moxere Uxint Ununt Vada Eruri Xint Xan Irinon Erunt Enixi Eren Doxin Eman Erixe Manari Erin Donin Eran Menant Xodne Mant Exend Exant Manin Erani Erari Ishin Ende Imode Xaxin Enant Munin Mudne Eriri Erint Eron Erixi Dimi Unide Vinien Mexi Miri Darin Enent Xidni Dexon Eniemi Inan Enint Eriniri Mirixi Ixant Exexi Uxaxi Xarant Udixi Don Mirollaxi Eninieksi Uxixi Xaxiri Eni Xaron Eraxi Visin Iraxi Vin Dirin Viron Enon Maxan Dint Xarun Emant Imant Iksi Esint 
-Idint Xasa Xadin Mamun Varan Esase Xaxon Usant Edin Xiran Modne
-	 	}
+			Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlfov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Stockwell Sturgeon Zill Wheaton Bremor Brent Doyle Mack Mutoh David Rauru Ichiro Jiro Sabbooro Shiro Guru-Guru Guru Grog Ingo Sakon Jovani Kamaro Baito Brac Dayle Darling Kafei Dotour Barten Shikashi Coro Barnes Shar Auru Falbi Fyer Borville Charlo Chudley Pulo Soal Kaepora Gaebora Harkinian Nohen Gulley Osfala Rosso Sahasrahla Akazoo Kazakk Daphnes Arthon Atrinas Aginah Bagu Mario Luigi Chrom
+		}
+
 		female_names = {
-			Midna Midi Una Veran Morshin Mirin Mini Iri Ellise Enari Mixi Vada Doxa Maxi Vexi Xara Mari Miri Mexi Mint Xidni Xori Modna Moxi Mimixi Mimoda Urosidna Era Daxi Meri Xari Vixi Mori Muri Dixi Exeda Eraxi Midni Muna Dodi Xoxi Xaxi Iraxa Unori Xiran Xdna Edna Enana Madni Dona Enixa Eraxi Enaxi Xalla Muni Moran Xadan Xami Xiexi Viksi Usi Unuxi Dishe Dori Minan Ira Ximon Malliri Xini Mixa Xarisheni Mun ullin Doni Dolli Xasira Iri Muren Xasha Miexi Xaran Eroxa Madne Mulla Xoni Xixi Enara Xare Merin Mixan Esera Mini Xadi Viran Minida Xanin Mirant Xada Edixi Emint 
-		}	
+			Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Leila Mama Marcy Pina Pita Maggie Paige Sheila Tina Verona Honey Marilla Judo Cremia Epona Romani Pamela Ashei Iza Hena Agitha Kili Hanna Misha Fanadi Telma Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Aryll Rose Sue-Belle Sue Belle Gillian Joanna Potova Linda Milia Minenco Missey Pompie Peach Daisy Rosalina Lissa Lucinia Emmeryn Hylia Linkette Yelda Linkle
+		}
 		
-		from_dynasty_prefix = "lu "
-		male_patronym = "hlm"
-		female_patronym = "wzfrsgvi"
+		from_dynasty_prefix = "ve "
+		male_patronym = "oglu"
+		prefix = no
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
@@ -656,7 +656,7 @@ round_eared = {
 		mother_name_chance = 0
 	}
 	morian = {
-		graphical_cultures = { germangfx }
+		graphical_cultures = { frankishgfx }
 		color = { 0.4 0 0 }
 
 		male_names = {
@@ -668,6 +668,37 @@ round_eared = {
 		from_dynasty_prefix = "le "
 		male_patronym = "ap "
 		female_patronym = "ferch "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	grindle = {
+		graphical_cultures = { frankishgfx  }
+		color = { 0.4 0 0 }
+		male_names = {
+			Aeron Afan Afon Aled Alun Alwyn Anarawd Andras Aneirin Aneurin Angwyn Arawn Art Arta Arthfael Arthus Arvel Ba Bari Bedwyr Berwyn Bleddyn Bledig Bowen Braith Brenin Brin Broderick Brynmor Bryn Cade Cadeyrn Cadfael Cadoc Cadomedd Cadwalader Cadwgawn Caeryn Cai Caron Dai Darren Deiniol Delwyn Derfel Dinsdale Dyfan Dyfed Eifion Eirian Elisud Elyan Emris Emryk Enfys Ercwiff Eurig Ewein Floyd Folant Garit Geraint Gerwyn Gethen Glaw Glyn Glyndwr Gofannon Griff Grigor Gruffin Gruffud Hadyn Halwyn Heddwyn Hywel Iago Idris Idwal Illtud Iolo Iolyn Islwyn Kai Kenway Llew Lloyd Lyn Mabyn Maldwyn Mawrth Maxen Medwyn Llywellyn Kenway Illtud Ifan Heulog Hopcyn Harri 
+		}
+		female_names = {
+			Aberfa Adain Adara Addfwyn Adyna Aelwyd Aeron Aeronwen Alaw Alis Anwyn Arglwyddes Aylwen Banon Bari Begw Berwyn Betrys Bleddyn Blodwen Briallen Brynn Cafell Cadwynn Cate Ceri Ceridwen Cranogwen Creirwy Cymreiges Dafina Dea Del Dera Derryth Deryn Deverell Dicra Difyr Dilwen Drysi Du Dwyn Dwynwen Dylis Efa Eira Emlyn Enfys Eres Gaenor Garwen Glain Glenda Doewyn Grug Gwen Gwenith Gwladys Gwyn Haf Hafgan Heledd Heuldys Heulyn Idelle Ifanna Iola Isolde Jenna Jenni Jennifer Jennylynn Kaitlin Katelyn Leri Lili Lilybet Linette Llian Llio Lowri Luned Lynn Mab Mai Baelona Mair Maledisant Mali Malit Manon Meg Megless Myfi Nerys Nona Olwen Olwin Rhan 
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "ap "
+		female_patronym = "ferch "
+		prefix = yes
+
+		modifier = default_culture_modifier
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 80

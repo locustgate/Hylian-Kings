@@ -1,6 +1,40 @@
 #In same order as event folder
 #
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#conversion
+conversion0_desc;With the new Hyrulean rulers the Sarians of [Root.GetName] have stoped speaking Saria and started speaking Hylian. With each passing generation the number of children with rounded ears decrease and those with hylian ears increases.;;;;;;;;;x
+conversion0A;They are West Hyruleans now.;;;;;;;;;x
+conversion1_desc;With the new Hyrulean rules the Kasutons of [Root.GetName] have stopped speaking Kasuto and started speaking Hylian. With each passing generation the number of children with rounded ears decrease and those with hylian ears increases.;;;;;;;;x
+conversion1A;They are East Hyruleans now;;;;;;;;;x
+conversion2_desc;As the Hyrulean population becomes more entranched they begin adopting an accent similar to their northern neighbors.;;;;;;;;;x
+conversion2A;They are Little Hyruleans now.;;;;;;;;;x
+conversion3_desc;There was a recent panic as instead of zora tadpoles, children are born with the look of humans with bird like beaks. Some of the populace claim it is a blessing from Valoo and others claim it is a curse by the water spirits.;;;;;;;;;x
+conversion3A;We will call these new creatures after the Zora word for bird, Rito.;;;;;;;;;x
+conversion3B;These creatures are surely Valoo's chosen people.;;;;;;;;;x
+conversion4_desc;There was a recent panic as the tadpoles developed in the shallow rivers of [Root.GetName] developed in to large scaled creatures. These children have proven to be more violent than other Zora. So far the residents have started calling them Zola after an ancient evil water spirit.;;;;;;;;;x
+conversion4A;These children will surely replace the old Zora.;;;;;;;;;x
+conversion5_desc;There was a recent confusion as the zora tadpoles that developed in the salty waters and air started to develope into red skinned and brightly colored zora. Other than their coloring they seem to be the same as other zoras.;;;;;;;;;x
+conversion5A;They are Sea Zoras now;;;;;;;;;x
+conversion6_desc;The citizens of Port Town and the isles are not of HoHo ancestry anymore, but now of almost everyland that we trade with. As any walk through town we are not greeted with hundreds of languages but one made of hundreds.;;;;;;;;;x
+conversion6A;Yes this will help with trade.;;;;;;;;;x
+conversion7_desc;Around the islands more people use this Port language and it helps us converse with citizens from a hundred lands. We continue to use our influence to promote this means of communication for most who we do business.;;;;;;;;;x
+conversion7A;We are wise;;;;;;;;;x
+conversion8_desc;Although every civilized being in Hyrule know Hylian is the true language of communication, this new Port language does have functionality. I have therefore prevailed upon a member of my court to adopt this for everyday use.;;;;;;;;;x
+conversion8A;A most useful development;;;;;;;;;x
+conversion9_desc;I was considering important business when I had an amazing insight. To strengthen my holdings I must bring my vassals round to my way of thinking. This involves communication. If I can get them to communicate like me then I will have a much smoother running business.;;;;;;;;;x
+conversion9A;Sometimes I event surprise myself.;;;;;;;;;x
+conversion10_desc;My liege has persuaded me to embrace this notion of Portness that is sweeping the realm.;;;;;;;;;x
+conversion10A;This will surely be profitable.;;;;;;;;;x
+conversion11_desc;As the Morians in the Grindle lands settle and adapt to their new terrain most of defenders find that the horse is far more useful than their traditional long bows. Many of the commoners prefer to teach their sons and daughters to ride the horse than aim the bow and some even ridicule those that still use the long bow that for centuries have kept us safe from the monstrous hordes.;;;;;;;;x
+conversion11A;They are not true Morians!;;;;;;;x 
+conversion11B;The old ways are of no use.;;;;;;x
+conversion11C;They are Grindles now;;;;;;;;x
+conversion12_desc;The locals of [Root.GetName] have been in a panic after children recently have been born not as tadpoles but as human like children with beaks. The locals are blamming the mountain air and mineral rich water.;;;;;;;;;x
+conversion12A;The locals have taken to calling them Rito after the zora word for bird.;;;;;;;;x
+conversion13;The locals of [Root.GetName] have stopped considering themselves Hyruleans and prefer calling themselves New Hyruleans. While they still speak Hylian their alphebet has changed and they have adopted strange fashion and accents.;;;;;;;x
+conversion13A;They are New Hyruleans now.;;;;;;x
+conversion14;The locals of [Root.GetName] have stopped considering themselves Cobble and prefer calling themselves Papuchians. They dress in strange clothes and have started speaking a dialect that sounds like the local Lokomo language and Hylian combined.;;;;;;;;x
+conversion14A;They have abandoned the perfect culture for.;;;;;;;;x
 #courtier
 HKC.0;Imp In The Garden;;;;;;;;;x
 EVTNAMEHKC.0;Twili In The Garden;;;;;;;;;x
@@ -30,7 +64,7 @@ HKC7A;Make his passing as painless as possible.;;;;;;;;;x
 HKC7BR;Use my red potion.;;;;;;;;;x
 HKC7BB;Use my blue potion.;;;;;;;;;x
 HKC7BF;Use my bottled fairy.;;;;;;;;;x
-HKC7C;This is none of our buisness.;;;;;;;;;x
+HKC7C;This is none of our business.;;;;;;;;;x
 DESC_HKC.8;With the healers care the man recovered enough to talk, he revealed that his party is from a land not on the maps that had been conquered by it's neighbor they were escorting the surviving princess before being attacked by the Bokoblins. He asked after the princess's health and upon learning of her fate was in no condition to talk.;;;;;;;;;x
 HKC8A;See that he recovers before sending him on his way.;;;;;;;;;x
 HKC8B;Offer him a place in my court when he recovers.;;;;;;;;;x
