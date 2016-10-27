@@ -609,6 +609,11 @@ e_hyrule_central = {
 				b_odia = {}
 				b_talia = {}
 			}
+		}
+		d_ordon_forest = {
+			color={ 0 104 46 }
+			color2={ 249 228 83 }
+			capital = 586 # Middlesex
 			c_north_ordon_forest = {
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
@@ -666,6 +671,11 @@ e_hyrule_central = {
 				b_tania = {}
 				b_tilo = {}
 			}
+		}
+		d_forest_wedge = {
+			color={ 0 104 46 }
+			color2={ 249 228 83 }
+			capital = 592 # Middlesex
 			c_ordon_wedge = {
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
@@ -682,6 +692,11 @@ e_hyrule_central = {
 				b_loggertown = {}
 				b_wooden_shrine = {}
 			}
+		}
+		d_ordon_field = {
+			color={ 0 104 46 }
+			color2={ 249 228 83 }
+			capital = 594 # Middlesex
 			c_south_ordon_field = {
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
@@ -708,6 +723,11 @@ e_hyrule_central = {
 				b_finam = {}
 				b_idal = {}
 			}
+		}
+		d_north_ordon = {
+			color={ 0 104 46 }
+			color2={ 249 228 83 }
+			capital = 598 # Middlesex
 			c_north_ordon_field = {
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
@@ -726,10 +746,10 @@ e_hyrule_central = {
 				b_lake_shrine = {}
 			}
 		}
-		d_ordonia = {
+		d_fords_ordon = {
 			color={ 181 85 63 }
 			color2={ 203 176 85 }
-			capital = 603 # Ordonia
+			capital = 599 # Ordonia
 			c_fords_of_ordonia = {
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
@@ -746,6 +766,20 @@ e_hyrule_central = {
 				b_river_palace = {}
 				b_river_town = {}
 			}
+			c_south_ordonia_plateau = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_fono = {}
+				b_cali = {}
+				b_ania = {}
+				b_alia = {}
+			}
+		}
+		d_ordonia = {
+			color={ 181 85 63 }
+			color2={ 203 176 85 }
+			capital = 603 # Ordonia
 			c_ordonia_gap = {
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
@@ -762,15 +796,11 @@ e_hyrule_central = {
 				b_ordonia_town = {}
 				b_ordonia_temple = {}
 			}
-			c_south_ordonia_plateau = {
-				color={ 0 104 46 }
-				color2={ 249 228 83 }
-			
-				b_fono = {}
-				b_cali = {}
-				b_ania = {}
-				b_alia = {}
-			}
+		}
+		d_ordonia_plateau = {
+			color={ 181 85 63 }
+			color2={ 203 176 85 }
+			capital = 606 # Ordonia
 			c_east_ordonia_plateau = {
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
@@ -5475,7 +5505,7 @@ e_calatia = {
 		}
 		
 		k_calatia = {
-			color={ 78 116 197 }
+			color={ 150 75 75 }
 			color2={ 160 176 87 }
 			allow = {
 				hidden_tooltip = {
@@ -5964,8 +5994,8 @@ e_calatia = {
 		}
 }
 e_ho_ho = {
-	color={ 204 0 0 }
-	color2={ 255 255 255 }
+	color={ 83 54 48 }
+	color2={ 209 210 212 }
 	capital = 871
 	
 	allow = {
@@ -5981,8 +6011,8 @@ e_ho_ho = {
 		}
 	}
 	k_ho = {
-		color={ 0 110 47 }
-		color2={ 255 255 255 }
+		color={ 203 153 0 }
+		color2={ 232 232 232 }
 		capital = 871
 		allow = {
 			hidden_tooltip = {
@@ -5997,79 +6027,79 @@ e_ho_ho = {
 			}
 		}
 		d_aland = {
-			color={ 0 0 0 }
-			color2={ 0 0 0}
+			color={ 51 102 255 }
+			color2={ 184 138 0 }
 			capital = 871
 			
 			c_tunta = {
-				color={ 0 100 20 }
-				color2={ 255 255 255 }
+				color={ 102 51 255 }
+				color2={ 51 255 204 }
 				b_tunta = {}
 				b_pare = {}
 			}
 			c_aland = {
-				color={ 0 100 20 }
-				color2={ 255 255 255 }
+				color={ 51 102 255 }
+				color2={ 184 138 0 }
 				b_aland = {}
 				b_pilas = {}
 				b_luoli = {}
 			}
 			c_keski = {
-				color={ 0 100 20 }
-				color2={ 255 255 255 }
+				color={ 204 51 255 }
+				color2={ 245 184 0 }
 				b_keski = {}
 				b_kala = {}
 			}			
 		}
 		
 		d_needle_woods = {
-			color={ 0 0 0 }
-			color2={ 0 0 0}
+			color={ 103 105 233 }
+			color2={ 235 23 196 }
 			capital = 861
 			
 			c_kate = {
-				color={ 0 100 20 }
-				color2={ 255 255 255 }
+				color={ 12 226 213 }
+				color2={ 235 22 97 }
 				b_kate = {}
 			}
 			c_paij = {
-				color={ 0 100 20 }
-				color2={ 255 255 255 }
+				color={ 137 3 1 }
+				color2={ 127 253 156 }
 				b_paij = {}
 			}
 			c_tava = {
-				color={ 0 100 20 }
-				color2={ 255 255 255 }
+				color={ 17 21 110 }
+				color2={ 131 224 254 }
 				b_tava = {}
 			}
 		}
 		
 		d_kanta = {
-			color={ 0 0 0 }
-			color2={ 0 0 0}
+			color={ 179 21 7 }
+			color2={ 160 178 139 }
 			capital = 867
 			
 			c_kanta = {
-				color={ 0 100 20 }
-				color2={ 255 255 255 }
+				color={ 147 66 229 }
+				color2={ 116 9 254 }
 				b_kanta = {}
 				b_kavolia = {}
 			}
 			c_tavlia = {
-				color={ 0 100 20 }
+				color={ 19 57 144 }
 				color2={ 255 255 255 }
 				b_tavlia = {}
 				b_kamsa = {}
 			}
 			c_sastia = {
-				color={ 0 100 20 }
+				color={ 144 29 224 }
 				color2={ 255 255 255 }
 				b_sastia = {}
 			}
 		}
 		
 		d_wolf_woods = {
-			color={ 0 0 0 }
+			color={ 171 31 103 }
 			color2={ 0 0 0}
 			capital = 868
 			
@@ -6207,8 +6237,8 @@ e_ho_ho = {
 		
 	}
 	k_ho_ho = {
-		color={ 0 110 47 }
-		color2={ 255 255 255 }
+		color={ 168 95 78 }
+		color2={ 205 206 208 }
 		capital = 897
 		allow = {
 			hidden_tooltip = {
@@ -6486,8 +6516,8 @@ e_ho_ho = {
 		
 	}
 	k_way = {
-		color={ 0 110 47 }
-		color2={ 255 255 255 }
+		color={ 250 188 0 }
+		color2={ 0 156 255 }
 		capital = 550
 		allow = {
 			hidden_tooltip = {
@@ -6503,8 +6533,8 @@ e_ho_ho = {
 		}
 		
 		d_way = {
-			color={ 0 0 0 }
-			color2={ 0 0 0}
+			color={ 0 156 255 }
+			color2={ 250 188 0 }
 			capital = 550
 			
 			c_hoheh = {
@@ -6588,7 +6618,7 @@ e_ho_ho = {
 		}
 	}
 	k_way_way = {
-		color={ 0 110 47 }
+		color={ 0 156 255 }
 		color2={ 255 255 255 }
 		capital = 904
 		allow = {
@@ -6804,8 +6834,8 @@ e_ho_ho = {
 	}
 }
 k_howgendoogen_league = {
-	color={ 255 127 80 }
-	color2={ 234 212 77 }
+	color={ 0 86 148 }
+	color2={ 237 192 }
 	capital = 937 # rii
 	culture = ho_ho
 	
@@ -6817,8 +6847,8 @@ k_howgendoogen_league = {
 		is_republic = yes
 	}
 	d_rii = {
-		color={ 255 127 80 }
-		color2={ 234 212 77 }
+		color={ 250 188 0 }
+		color2={ 0 86 148 }
 		capital = 937 # rii
 		c_borga = {
 			color={ 0 100 20 }
@@ -6838,8 +6868,8 @@ k_howgendoogen_league = {
 			b_koro = {}
 		}
 		c_rii = {
-			color={ 0 100 20 }
-			color2={ 255 255 255 }
+			color={ 250 188 0 }
+			color2={ 0 86 148 }
 			b_rii = {}
 			b_tikuu = {}
 			b_noluu = {}
@@ -6850,12 +6880,12 @@ k_howgendoogen_league = {
 		}	
 	}
 	d_mantsa = {
-		color={ 255 127 80 }
-		color2={ 234 212 77 }
+		color={ 237 192 0 }
+		color2={ 5 117 1 }
 		capital = 924 # mantsa			
 		c_mantsa = {
-			color={ 0 100 20 }
-			color2={ 255 255 255 }
+			color={ 5 117 1 }
+			color2={ 237 192 0 }
 			b_mantsa = {}
 			b_ajase = {}
 			b_marot = {}
@@ -6866,8 +6896,8 @@ k_howgendoogen_league = {
 }
 
 k_zora_domain = {
-	color={ 255 127 80 }
-	color2={ 234 212 77 }
+	color={ 51 90 169 }
+	color2={ 158 131 42 }
 	capital = 474 # Zora Domain
 	
 	allow = {
@@ -7011,8 +7041,8 @@ k_north_domain = {
 	}
 }
 k_zora_valley = {
-	color={ 255 127 80 }
-	color2={ 234 212 77 }
+	color={ 0 194 137 }
+	color2={ 158 131 42 }
 	capital = 436 # Zora Domain
 	
 	#lake_zora = Waterfall Domain
@@ -7048,8 +7078,8 @@ k_zora_valley = {
 	}
 }
 k_west_death_mountains = {
-	color={ 91 100 100 }
-	color2={ 255 42 0 }
+	color={ 168 5 0 }
+	color2={ 91 100 100 }
 	capital = 540 # Great Death Mountain
 	allow = {
 		culture_group = goron_group
@@ -7112,8 +7142,8 @@ k_west_death_mountains = {
 		}
 	}
 	d_death_mountain = {
-		color={ 71 6 4 }
-		color2={ 168 5 0 }
+		color={ 170 21 61 }
+		color2={ 188 171 91 }
 		capital = 466 # Goron City
 		c_dodongo_cavern = {
 			color={ 227 207 87 }
@@ -8907,8 +8937,8 @@ k_auros = {
 	}
 }
 k_bastion = {
-	color={ 40 40 40 }
-	color2={ 139 0 0 }
+	color={ 198 175 123 }
+	color2={ 40 40 40 }
 	capital = 768
 	allow = {
 		hidden_tooltip = {
@@ -9726,6 +9756,140 @@ d_fab_witch = {
 	independent = yes
 	
 	mercenary_type = non_martial_school_composition #small
+}
+d_howgendoogen_navy = { 
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	short_name = yes
+
+	capital = 937 # rii
+	
+	# Hire Trigger
+
+	allow = {
+		NOT = { religion_group = demon_religion }
+	}
+	
+	# Parent Religion 
+	religion = oshus_religion
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = naval_merc_composition
+}
+d_howgendoogen_coast_guard = { 
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	short_name = yes
+
+	capital = 937 # rii
+	
+	# Hire Trigger
+
+	allow = {
+		NOT = { religion_group = demon_religion }
+	}
+	
+	# Parent Religion 
+	religion = oshus_religion
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = coast_guard_composition
+}
+d_port_navy = { 
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	short_name = yes
+
+	capital = 176 # rii
+	
+	# Hire Trigger
+
+	allow = {
+		NOT = { religion_group = demon_religion }
+		has_global_flag = port_towners_founded
+	}
+	
+	# Parent Religion 
+	religion = great_fairies
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = naval_merc_composition
+}
+d_port_coast_guard = { 
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	short_name = yes
+
+	capital = 176 # rii
+	
+	# Hire Trigger
+
+	allow = {
+		NOT = { religion_group = demon_religion }
+		has_global_flag = port_towners_founded
+	}
+	
+	# Parent Religion 
+	religion = great_fairies
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = coast_guard_composition
 }
 #'neutral' mercs
 #d_third_daughters = {

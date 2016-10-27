@@ -13,6 +13,7 @@
 	trait=kind
 	1.1.1={
 		birth=yes
+		give_nickname = nick_goddess
 	}
 	300.1.1={
 		death = {
@@ -40,6 +41,7 @@
 	282.1.1={
 		birth=yes
 	}
+	299.1.1={ give_nickname = nick_the_hero}
 	300.1.1={
 		death = {
 			death_reason = death_battle
@@ -147,6 +149,7 @@
 	}
 	3000.1.1={
 		add_spouse = 8
+		give_nickname = nick_hylia
 	}
 	3058.1.1={
 		death=yes
@@ -171,8 +174,9 @@
 	}
 	3000.1.1={
 		add_spouse = 7
+		give_nickname = nick_sky_child
 	}
-	3003.1.1={
+	3004.1.1={
 		death = {
 			death_reason = death_battle
 		}

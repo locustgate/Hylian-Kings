@@ -1,3 +1,16 @@
+#CB
+CB_NAME_MCONQUEST;Conquest;;;;;;;;;;x
+WAR_NAME_MCONQUEST;Conquest;;;;;;;;;;x
+monster_conquest_desc;The races created by Demise often have a easy time finding a reason to fight. What more reason does one need to fight than land.;;;;;;;;;x
+CB_NAME_MMCONQUEST;Conquest;;;;;;;;;;x
+WAR_NAME_MMCONQUEST;Conquest;;;;;;;;;;x
+mmonster_conquest_desc;The races created by Demise often have a easy time finding a reason to fight. What more reason does one need to fight than land.;;;;;;;;;x
+CB_NAME_MPURGE;Monster Purge;;;;;;;;;x
+WAR_NAME_MPURGE;Purge;;;;;;;;x
+monster_purge_desc;The human tribes have always had a low respect of the races of monsters. Takeing land from the monsters is usually enough justification for a war.;;;;;;;;;;;x
+CB_NAME_HCONQUEST;Hylian Conquest;;;;;;;;;;x
+WAR_NAME_HCONQUEST;Hylian Conquest;;;;;;;;;x
+hylian_conquest_desc;Often ambitious or mad Hylians have justified wars by the fact that the Hylians are the goddesses chosen people.;;;;;;;;;;x
 #game rules
 RULE_LORULE_INVASION;�BHylian Kings:�! Lorulean Invasion;Stabilité nomade (§BSeigneurs de cavalerie§!);§BFürsten der Steppe:§! Nomadenstabilität;;§BSeñores a caballo:§! Estabilidad nómada;;;;;;;;;x
 RULE_TWILI_INVASION;�BHylian Kings:�! Twilian Invasion;Stabilité nomade (§BSeigneurs de cavalerie§!);§BFürsten der Steppe:§! Nomadenstabilität;;§BSeñores a caballo:§! Estabilidad nómada;;;;;;;;;x
@@ -62,14 +75,39 @@ title_biggoron;Biggoron.;;;;;;;;;x
 title_biggoron_desc;The title Biggoron is given to an individual who is the largest in his tribe, usually towering above all other gorons.;;;;;;;;;x
 title_midgoron;Midgoron.;;;;;;;;;x
 title_midgoron_desc;The title Midgoron is given to an individual who is the second largest in his tribe, usually only shorter than the biggoron.;;;;;;;;;x
-title_duplicar;Duplicar;;;;;;;;;;;;;;;;
+title_duplicar;Duplicar;;;;;;;;;;;;;;;;x
 title_duplicar_desc;A title traditionally given to those that have performed their duties well beyond expectations, usually acts of bravery in the face of certain death. Usually given to one no matter their rank.;;;;;;;;;x
-title_immun;Immun;;;;;;;;;;;;;;;;
+title_immun;Immun;;;;;;;;;;;;;;;;x
 title_immun_desc;The title Immun is usually given to those who perform extra duties, whether it is a duty that is usually beneath or above their rank.;;;;;;;;;x
-title_imagifer;Imagifer;;;;;;;;;;;;;;;;
+title_imagifer;Imagifer;;;;;;;;;;;;;;;;x
 title_imagifer_desc;The Imagifer is the title given to the one who carries the Dox's Legion's Standard or an image of the Dox in the case of the more vein Dox.;;;;;;;;;x
-title_mighty;Mighty;;;;;;;;;;;;;;;;
+title_mighty;Mighty;;;;;;;;;;;;;;;;x
 title_mighty_desc;The title of mighty is given to the strongest or most skilled with the sword. There are cases when it is given to someone shown to be extremly skilled in tactics.;;;;;;;;;x
+#nicknames
+nick_the_hero;The Hero;;;;;;;;;;;;;;;;x
+nick_sky_child;Sky Child;;;;;;;;;;;;;;;;x
+nick_hero_man;Hero of Man;;;;;;;;;;;;;;;;x
+nick_hero_light;Hero of Light;;;;;;;;;;;;;;;;x
+nick_goddess;Goddess;;;;;;;;;;x
+nick_hylia;Hylia;;;;;;;;;;;;;;;;x
+nick_demon_king;Demon King;;;;;;;;;x
+nick_immortal_demon;The Immortal Demon;;;;;;;;;x
+nick_sorceress_shadows;Sorceress of Shadows;;;;;;;;;x
+nick_sorceress_sisters;Sorceress Sisters;;;;;;;;;x
+nick_general_darkness;General of Darkness;;;;;;;;;x
+nick_king_darkness;King of Darkness;;;;;;;;;x
+nick_usurper_king;Usurper King;;;;;;;;;x
+nick_the_cucoo;The Cucoo;;;;;;;;;;;;;;;;x
+nick_the_moblin;The Moblin;;;;;;;;;;;;;;;;x
+mad_scrub_nick;Mad Scrub;;;;;;;;;;;;;;;;x
+nick_fairy_boy;Fairy Boy;;;;;;;;;;;;;;;;x
+nick_fairy_girl;Fairy Girl;;;;;;;;;;;;;;;;x
+nick_master_triforce;Master of the Triforce;;;;;;;;;x
+nick_mistress_triforce;Mistress of the Triforce;;;;;;;;;x
+old_man_nick;Old Man;;;;;;;;;x
+old_woman_nick;Old Woman;;;;;;;;;x
+nick_big_brother;Big Brother;;;;;;;;;x
+nick_big_sister;Big Sister;;;;;;;;;x
 #titles
 GUILD_MASTER;Guild Master;;;;;;;;;x
 GUILD_MISTRESS;Guild Mistress;;;;;;;;;x

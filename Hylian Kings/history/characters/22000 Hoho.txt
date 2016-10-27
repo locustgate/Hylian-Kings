@@ -297,7 +297,7 @@
 	martial=4 diplomacy=7 stewardship=4 intrigue=6 learning=4
 	add_trait=scholarly_theologian add_trait=cynical add_trait=kind add_trait=ambitious add_trait=patient 
 	add_trait=slothful 
-	 birth=yes }
+	3369.1.4={ birth=yes }
 	3432.2.22={ death=yes }
 }
 22026={
@@ -310,4 +310,473 @@
 	add_trait=ambitious add_trait=drunkard 
 	3369.1.4={ birth=yes }
 	3437.11.7={ death=yes }
+}
+22027={
+	name=Astrad
+	dynasty=5420
+	dna="cmhcckkdkhj"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=4 stewardship=4 intrigue=7 learning=5
+	add_trait=detached_priest add_trait=cynical add_trait=greedy add_trait=chaste 
+	3361.3.2={ birth=yes }
+	3419.1.2={ death=yes }
+}
+22028={
+	name=Matti
+	dynasty=5425
+	dna="acgnkoldpdi"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=5 stewardship=4 intrigue=6 learning=6
+	add_trait=grey_eminence add_trait=chaste add_trait=envious add_trait=humble 
+	3366.6.26={ birth=yes }
+	3415.4.23={ death=yes }
+}
+#hame
+22030={
+	name=Hakon
+	dynasty=5430
+	dna="dmljeghkleo"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=6 stewardship=7 intrigue=4 learning=4
+	add_trait=thrifty_clerk add_trait=proud add_trait=lustful add_trait=greedy add_trait=deceitful 
+	3330.1.21={ birth=yes }
+	3386.1.8={ death=yes }
+}
+22031={
+	name=Tommo
+	dynasty=5430
+	dna="dmdjelokljo"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=4 stewardship=5 intrigue=7 learning=4
+	add_trait=indulgent_wastrel add_trait=gregarious add_trait=brave add_trait=proud add_trait=slothful 
+	add_trait=zealous 
+	father=22030	#Hakon
+	3351.2.11={ birth=yes }
+	3372.1.1={add_spouse=22032}
+	3417.12.26={ death=yes }
+}
+22032={
+	name=Margareta
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3351.2.11={ birth=yes }
+	3372.1.1={add_spouse=22031}
+	3417.12.26={ death=yes }
+}
+22033={
+	name=Turo
+	dynasty=5430
+	dna="mpebgaofleo"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=5 stewardship=6 intrigue=8 learning=7
+	add_trait=detached_priest add_trait=just add_trait=gregarious 
+	father=22031	#Tommo
+	mother=22032
+	3374.2.27={ birth=yes }
+	3435.1.24={ death=yes }
+}
+22034={
+	name=Anna
+	female=yes
+	dynasty=5430
+	dna="dlkbeiakljo"
+	culture=ho_ho religion=oshus_religion
+	father=22031	#Tommo
+	mother=22032
+	3376.1.20={ birth=yes }
+	3441.7.8={ death=yes }
+}
+22035={
+	name=Haldora
+	female=yes
+	dynasty=5430
+	dna="mmfjeldgkjp"
+	culture=ho_ho religion=oshus_religion
+	father=22031	#Tommo
+	mother=22032
+	3381.6.22={ birth=yes }
+	3450.3.24={ death=yes }
+}
+#aland
+22036={
+	name=Halfdan
+	dynasty=5435
+	dna="gcbfmnjebml"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=8 stewardship=7 intrigue=5 learning=6
+	add_trait=mastermind_theologian add_trait=charitable add_trait=humble add_trait=shy add_trait=cruel 
+	add_trait=craven add_trait=paranoid 
+	3341.5.27={ birth=yes }
+	3362.1.1={add_spouse=22041}
+	3382.1.10={ death={death_reason=death_battle}} 
+}
+22037={
+	name=Astrid
+	female=yes
+	dynasty=5435
+	dna="lcbenngeeak"
+	culture=ho_ho religion=oshus_religion
+	father=22036	#Halfdan
+	mother=22041
+	3365.1.8={ birth=yes }
+	3408.5.20={ death=yes }
+}
+22038={
+	name=Hermelinda
+	female=yes
+	dynasty=5435
+	dna="gomfkniobml"
+	culture=ho_ho religion=oshus_religion
+	father=22036	#Halfdan
+	mother=22041
+	3369.4.13={ birth=yes }
+	3426.1.27={ death=yes }
+}
+22039={
+	name=Tjudmund
+	dynasty=5435
+	dna="dchbdpjhbmh"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=6 stewardship=6 intrigue=7 learning=4
+	add_trait=grey_eminence add_trait=shy add_trait=lustful add_trait=cruel add_trait=craven 
+	add_trait=deceitful add_trait=arbitrary 
+	father=22036	#Halfdan
+	mother=22041
+	3373.3.4={ birth=yes }
+	3427.2.28={ death=yes }
+}
+22040={
+	name=Euvje
+	female=yes
+	dynasty=5435
+	dna="pcifmnfebdf"
+	culture=ho_ho religion=oshus_religion
+	father=22036	#Halfdan
+	mother=22041
+	3376.7.11={ birth=yes }
+	3415.12.27={ death=yes }
+}
+22041={
+	name=Ragnfrid
+	female=yes
+	dna="hcnhmdjebfl"
+	culture=ho_ho religion=oshus_religion
+	3341.5.27={ birth=yes }
+	3362.1.1={add_spouse=22041}
+	3392.1.10={ death=yes }
+}
+#helsinki+oulu
+22042={
+	name=Sivard
+	dynasty=5440
+	dna="gbpecbejfmo"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=5 stewardship=4 intrigue=4 learning=5
+	add_trait=midas_touched add_trait=brave add_trait=honest add_trait=kind add_trait=cruel 
+	add_trait=shy 
+	3351.7.5={ birth=yes }
+	3377.1.1={add_spouse=22046}
+	3402.1.7={ death=yes }
+}
+22043={
+	name=Buohtta
+	female=yes
+	dynasty=5440
+	dna="bcbedneicap"
+	culture=ho_ho religion=oshus_religion
+	father=22042	#Sivard
+	mother=22046
+	3379.3.26={ birth=yes }
+	3442.3.5={ death=yes }
+}
+22044={
+	name=Torben
+	dynasty=5440
+	dna="gbpeclbbffo"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=8 stewardship=6 intrigue=8 learning=7
+	add_trait=skilled_tactician add_trait=mystic add_trait=content add_trait=craven add_trait=trusting 
+	add_trait=slothful 
+	father=22042	#Sivard
+	mother=22046
+	3383.12.22={ birth=yes }
+	3458.8.14={ death=yes }
+}
+22045={
+	name=Bothild
+	female=yes
+	dynasty=5440
+	dna="gbmiagejfld"
+	culture=ho_ho religion=oshus_religion
+	father=22042	#Sivard
+	mother=22046
+	3385.6.10={ birth=yes }
+	3439.8.23={ death=yes }
+}
+22046={
+	name=Gunhild
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3351.7.5={ birth=yes }
+	3377.1.1={add_spouse=22042}
+	3402.1.7={ death=yes }
+}
+#vaker
+22047={
+	name=Gudbrand
+	dynasty=5445
+	dna="dlanibmhdha"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=4 stewardship=8 intrigue=8 learning=8
+	add_trait=detached_priest add_trait=temperate add_trait=charitable add_trait=craven add_trait=cruel 
+	add_trait=ill 
+	3356.5.2={ birth=yes }
+	3380.1.1={add_spouse=22050}
+	3415.5.15={ death=yes }
+}
+22048={
+	name=Rieti
+	dynasty=5445
+	dna="dnnnidmedcp"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=4 stewardship=5 intrigue=5 learning=4
+	add_trait=charismatic_negotiator add_trait=just add_trait=humble 
+	father=22047	#Gudbrand
+	mother=22050
+	3383.11.13={ birth=yes }
+	3447.1.15={ death=yes }
+}
+22049={
+	name=Torfinn
+	dynasty=5445
+	dna="elapibmhdca"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=7 stewardship=8 intrigue=7 learning=8
+	add_trait=scholarly_theologian add_trait=humble add_trait=slothful 
+	father=22047	#Gudbrand
+	mother=22050
+	3385.1.24={ birth=yes }
+	3464.2.3={ death=yes }
+}
+22050={
+	name=Freja
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3356.5.2={ birth=yes }
+	3380.1.1={add_spouse=22047}
+	3415.5.15={ death=yes }
+}
+#seibothnia
+22051={
+	name=Bengt
+	dynasty=5450
+	dna="eccjmblnjmh"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=8 stewardship=5 intrigue=6 learning=8
+	add_trait=martial_cleric add_trait=duelist add_trait=greedy add_trait=gregarious add_trait=cruel 
+	add_trait=content add_trait=envious add_trait=honest 
+	3354.10.13={ birth=yes }
+	3376.1.1={add_spouse=22054}
+	3386.9.3={ death=yes }
+}
+22052={
+	name=Bengt
+	dynasty=5450
+	dna="occjmblbbbd"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=4 stewardship=8 intrigue=8 learning=4
+	add_trait=tough_soldier add_trait=poet add_trait=slothful add_trait=trusting add_trait=envious 
+	add_trait=lustful add_trait=depressed 
+	father=22051	#Bengt
+	mother=22054
+	3378.7.12={ birth=yes }
+	3427.9.22={ death=yes }
+}
+22053={
+	name=Ragnfrid
+	female=yes
+	dynasty=5450
+	dna="ejdpfchjjmn"
+	culture=ho_ho religion=oshus_religion
+	father=22051	#Bengt
+	mother=22054
+	3381.12.11={ birth=yes }
+	3438.10.18={ death=yes }
+}
+22054={
+	name=Alfridh
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3354.10.13={ birth=yes }
+	3376.1.1={add_spouse=22051}
+	3407.9.3={ death=yes }
+}
+#hyvitunta
+22055={
+	name=Tjudmund
+	dynasty=5455
+	dna="kbficolbmid"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=4 stewardship=8 intrigue=7 learning=4
+	add_trait=martial_cleric add_trait=just add_trait=wroth add_trait=cruel add_trait=shy 
+	add_trait=drunkard 
+	3354.11.11={ birth=yes }
+	3378.1.1={add_spouse=22058}
+	3402.6.10={ death=yes }
+}
+22056={
+	name=Tord
+	dynasty=5455
+	dna="jmfihogomin"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=8 stewardship=4 intrigue=4 learning=5
+	add_trait=detached_priest add_trait=poet add_trait=humble add_trait=cruel add_trait=zealous 
+	add_trait=wroth 
+	father=22055	#Tjudmund
+	mother=22058
+	3380.2.21={ birth=yes }
+	3448.5.7={ death=yes }
+}
+22057={
+	name=Halfdan
+	dynasty=5455
+	dna="ejfacggbjmd"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=5 stewardship=6 intrigue=4 learning=8
+	add_trait=elusive_shadow add_trait=diligent add_trait=charitable 
+	father=22055	#Tjudmund
+	mother=22058
+	3384.11.23={ birth=yes }
+	3451.5.15={ death=yes }
+}
+22058={
+	name=Afhild
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3354.11.11={ birth=yes }
+	3378.1.1={add_spouse=22055}
+	3402.6.10={ death=yes }
+}
+#num
+22059={
+	name=Valentin
+	dynasty=5460
+	dna="kgkmfphjbcd"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=7 stewardship=6 intrigue=4 learning=4
+	add_trait=skilled_tactician add_trait=cynical add_trait=temperate add_trait=ambitious add_trait=cruel 
+	3355.11.27={ birth=yes }
+	3374.1.1={add_spouse=22064}
+	3429.2.22={ death=yes }
+}
+22060={
+	name=Arnfast
+	dynasty=5460
+	dna="kafkepoibcg"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=6 stewardship=8 intrigue=8 learning=8
+	add_trait=grey_eminence add_trait=brave add_trait=just add_trait=deceitful add_trait=kind 
+	add_trait=content 
+	father=22059	#Valentin
+	mother=22064
+	3376.7.11={ birth=yes }
+	3434.10.13={ death=yes }
+}
+22061={
+	name=Aatso
+	dynasty=5460
+	dna="kgemgmhcbck"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=6 stewardship=8 intrigue=5 learning=5
+	add_trait=charismatic_negotiator add_trait=chaste add_trait=craven add_trait=gluttonous add_trait=wroth 
+	add_trait=shy 
+	father=22059	#Valentin
+	mother=22064
+	3379.8.1={ birth=yes }
+	3435.3.27={ death=yes }
+}
+22062={
+	name=Kare
+	dynasty=5460
+	dna="bocifpekbpd"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=5 stewardship=7 intrigue=6 learning=5
+	add_trait=grey_eminence add_trait=craven add_trait=diligent 
+	father=22059	#Valentin
+	mother=22064
+	3382.5.24={ birth=yes }
+	3452.3.10={ death=yes }
+}
+22063={
+	name=Anna
+	female=yes
+	dynasty=5460
+	dna="kgfmlpijcen"
+	culture=ho_ho religion=oshus_religion
+	father=22059	#Valentin
+	mother=22064
+	3383.1.25={ birth=yes }
+	3449.11.7={ death=yes }
+}
+22064={
+	name=Valentin
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3355.11.27={ birth=yes }
+	3374.1.1={add_spouse=22059}
+	3429.2.22={ death=yes }
+}
+#pori
+22065={
+	name=Arnfast
+	dynasty=5465
+	dna="mmnnkeflnld"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=5 stewardship=7 intrigue=8 learning=4
+	add_trait=intricate_webweaver add_trait=zealous add_trait=gregarious add_trait=cruel add_trait=humble 
+	3367.3.21={ birth=yes }
+	3422.9.8={ death=yes }
+}
+22066={
+	name=Ubbe
+	dynasty=5470
+	dna="bffappekknc"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=8 stewardship=7 intrigue=5 learning=8
+	add_trait=flamboyant_schemer add_trait=temperate add_trait=zealous 
+	3356.5.18={ birth=yes }
+	3380.1.1={add_spouse=22069}
+	3386.12.11={ death={death_reason=death_battle} }
+}
+22067={
+	name=Inge
+	dynasty=5470
+	dna="efibpphghna"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=8 stewardship=6 intrigue=6 learning=6
+	add_trait=grey_eminence add_trait=temperate add_trait=trusting add_trait=kind 
+	father=22066	#Ubbe
+	mother=22069
+	3382.6.17={ birth=yes }
+	3438.1.18={ death=yes }
+}
+22068={
+	name=Guttorm
+	dynasty=5470
+	dna="aldeppenkna"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=4 stewardship=4 intrigue=5 learning=6
+	add_trait=charismatic_negotiator add_trait=envious add_trait=lustful add_trait=just add_trait=cynical 
+	father=22066	#Ubbe
+	mother=22069
+	3386.3.7={ birth=yes }
+	3437.10.29={ death=yes }
+}
+22069={
+	name=Margareta
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3356.5.18={ birth=yes }
+	3380.1.1={add_spouse=22066}
+	3401.12.11={ death=yes }
 }
