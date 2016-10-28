@@ -12,15 +12,15 @@
 ###########################################################################
 
 world_central_hyrule = {
-	duchies = { d_faron d_eldin d_lanayru d_peak d_royal_woods d_royal_graveyard d_west_hyrule_field d_east_hyrule_field d_hylia d_lon_lon_hill d_ordon_woods d_ordon d_ordonia d_great_death_mountains d_death_mountain d_north_domain d_south_domain d_west_faron d_east_faron d_faron_fields d_royal_town d_north_lanayru d_hylia_lanayru d_north_eldin d_central_eldin d_south_eldin d_snowpeaks d_yeti_peaks d_great_death_mountains d_death_mountain }
+	duchies = {  }
 }
 
 world_sea_sand = {
-	duchies = { d_maw_valley d_bastion d_bastion_cliffs d_death_valley d_jackal_desert }
+	duchies = {  }
 }
 
 world_sea_trees = {
-	duchies = { d_forest_road d_stal_woods d_haunted_woods d_korok_woods d_kokiri_woods d_kokiri_lost_woods d_wolfos_woods d_baba_forest d_skull_woods d_minish d_picori_forest d_girrin_woods d_baga_forest d_deku_marsh d_creeping_woods d_cucco_woods d_bokoblin_woods d_fresh_woods d_tricksters_woods d_deku_forest d_lost_woods d_dekuvia d_scrubavia d_deku_gate d_sweltering_woods d_whisp_woods d_blin_woods d_blin_forest d_gohma_forest d_spring_forest d_crackling_woods d_spring_forest d_fairy_woods d_horon_woods d_west_samasa d_east_samasa}
+	duchies = { }
 
 }
 
@@ -28,40 +28,40 @@ world_northwest_hyrule = {
 	duchies = {}
 }
 world_northeast_hyrule = {
-	duchies = { d_maze_island d_kasuto d_nabooru d_saria d_midoro d_moruge d_east_death_mountains d_oberon_hills d_koridai d_mitkogo d_fokoqa d_ontioch d_drapezous d_pyzantion d_enatolia d_cophene d_gommagene d_bontus}
+	duchies = { }
 }
 
 world_hanman = {
-	duchies = { d_changyi d_haizhu d_changmo d_lumapa d_puyeo d_xinang d_tuong d_hanman d_jakali d_viang d_hotho d_quruman d_kimheon d_jinghan d_sukang d_daya d_seludong d_kamba d_yami d_puto d_deku_isles d_treasure_isles d_hometown_isles}
+	duchies = { }
 }
 world_mudora = {
-	duchies = {d_desert_mystery d_misery_marshes d_northern_swamp d_hylia_swamps d_ghomamarsh d_saltmarshes d_hylia_valley d_hylia_bay d_central_mudora d_western_mudora d_eastern_mudora d_zora_valley d_south_death_moutain}
+	duchies = {}
 }
 
 world_southeast_hyrule = {
-	duchies = {d_hanoria d_moria d_anadora d_dale d_grindle d_swanshores d_galeas d_camlain d_galfridia d_faria d_falsia d_proodyl d_westvale d_faria_shores d_yoll d_rolling_ridge d_nuun d_lynna d_maku_forest d_talus d_symmetry d_crescent_island d_tokay_island d_moonlight_isles d_storm_isles d_gale_isles }
+	duchies = { }
 }
 
 world_southwest_hyrule = {
-	duchies = {d_natzu d_cucco d_tarm d_holodrum_mountain d_fungus d_horon_fields d_south_horon d_spool d_jungle_of_happiness}
+	duchies = {}
 }
 
 world_north = {
-	duchies = { d_calatia d_tysia d_zymryna d_lhodia d_phracia d_aphesos d_micomedia d_valley_of_seers d_talesium d_myrddin d_morgania d_canabon d_pryniach d_drydrui }
+	duchies = {  }
 }
 
 world_wind = {
-	duchies = { d_minish_plains d_minish_savannah d_keatonia d_castor_wilds d_minish_fields }
+	duchies = {  }
 }
 world_east_hyrule = {
-	duchies = { d_megaria d_argolia d_tyria d_curtania d_acacesia d_valoia d_arcadia d_lyonia d_ardennia d_silvania d_skotness d_canvula d_tolemac d_hobel d_subasha d_dodomai d_aru_ainu}
+	duchies = { }
 }
 
 world_cobble = {
 	duchies = {}
 }
 world_hyrule = {
-	regions = { world_north_hyrule world_wind world_southeast_hyrule world_southwest_hyrule world_hanman world_north_hyrule world_central_hyrule world_sea_trees world_sea_sand world_northwest_hyrule world_northeast_hyrule world_south_hyrule world_east_hyrule world_cobble }
+	regions = {  }
 }
 
 world_rupeeland = {
@@ -70,4 +70,20 @@ world_rupeeland = {
 
 world_spirit = {
 	duchies = {}
+}
+#custom regions
+custom_zola = {
+	duchies = { d_aru_ainu d_dodomai d_skotness d_vendoss d_subasha d_canvula d_tolemac d_oberon_hills d_cophene d_enatolia d_gommagene d_saria d_moruge d_midoro d_kasuto d_nabooru d_maze_island d_zantion d_semno d_drapezous d_ontioch d_bontus d_rycaonia d_aphesos d_micomedia d_calatia d_tysia d_lhodia d_zmyrna d_phracia d_koridai d_mitkogo d_fokoqa d_cenabon d_drywdrui d_morgania d_myrddin d_pryniach d_talesium d_gohmamarsh d_hylia_swamps d_misery_marshes d_northern_swamp d_saltmarshes d_desert_of_myster d_eastern_mudora d_grand_grand d_hylia_valley d_mudora d_western_mudora d_blin_forest d_blin_woods d_crackling_woods d_fairy_woods d_ghoma_woods d_spring_forest d_whisp_woods d_deku_forest d_deku_marsh d_dekuvia d_scrubavia d_flower_woods d_fresh_woods d_lost_woods d_sweltering_woods d_tricksters_woods}
+}
+custom_sea_zora = {
+	duchies = { d_gale_iles d_storm_isles d_lynna d_nuun d_symmetry d_maku_forest d_yoll d_crescent_island d_moonlight_isles d_tokay_island d_proodyl d_westvale d_faria d_flasia d_camlain d_galeas d_galfridia d_dale d_grindle d_swanshore d_hanoria d_anadora d_tal_tal d_ukuku d_simang d_daya d_seludong d_kama d_viang d_sukang d_jinghan d_kimheon d_daya d_putao d_yami d_hometown_isles d_treasure_isles d_deku_isles d_hanman d_jakali d_tuong d_xinang d_changyi d_deokgol d_puyeo d_sanbu d_daemashi d_kinsha d_yezima d_arcadia d_odyssia d_lyonia d_east_samasa d_west_samasa d_south_horon d_spool d_jungle_happiness }
+}
+custom_rito = {
+	duchies = { d_death_mountain d_great_death_mountain d_yeti_peaks d_snowpeak d_way d_east_death_mountain d_avalanche_slopes d_lesser_yetari d_greater_yetari d_moria d_south_death_mountains d_talus d_rolling_ridge d_tarm d_holodrum_mountain d_cucco d_north_subrosia }
+}
+custom_port_isle = {
+	duchies = { d_hometown_isles d_treasure_isle d_deku_isles	}
+}
+custom_grindle = {
+	duchies = { d_swanshores d_dale d_grindle d_camlain d_galeas d_galfridia }
 }

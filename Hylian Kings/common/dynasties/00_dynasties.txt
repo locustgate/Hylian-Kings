@@ -2116,6 +2116,17 @@
 	culture = ordonion
 	used_for_random = no
 	can_appear = no	
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 	
 
 }
@@ -2123,7 +2134,17 @@
 402 = {
 	name="Ro"
 	culture = ordonion 
-	
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 
 }
 
@@ -3213,8 +3234,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 5
-			texture_internal = 0
+			texture = 2
+			texture_internal = 16
 			emblem = 0
 			color = 0
 			color = 0
@@ -18880,7 +18901,19 @@
 
 3700 = {#The Deku tree and his adopted kokiri
 	name="Deku"
-}3701 = {
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+3701 = {
 	name="Maku"
 	culture = kokiri
 }
@@ -30360,6 +30393,17 @@
 6001 = {
 	name="Tsar"
 	culture = wind_tribe
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }	
 
 6002 = {
@@ -43337,6 +43381,17 @@
 	used_for_random = no
 	can_appear = no	
 	culture = twili
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 8602 = {
@@ -64294,6 +64349,17 @@
 }
 12801 = {#ruler
 	name="Lorule"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 210
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 12802 = {

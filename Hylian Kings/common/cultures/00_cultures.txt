@@ -51,7 +51,7 @@ hylian_group = {
 
 		}
 		
-		dukes_called_kings = no
+		dukes_called_kings = yes
 		
 		from_dynasty_prefix = "of "
 				
@@ -727,7 +727,7 @@ round_eared = {
 		founder_named_dynasties = yes
 	}
 	gem_lander = {
-		graphical_cultures = { southindiangfx indiangfx germangfx }
+		graphical_cultures = { southindiangfx indiangfx muslimgfx }
 		color = { 0.45 0.0 0.0 }
 
 		male_names = {
@@ -1675,6 +1675,59 @@ undead = {
 	}
 }
 
+mammalian_monsters = {
+	lynol = {
+		graphical_cultures = { lynolgfx }
+		parent = demon
+	
+		color = { 0.8 1 1 }
+		horde = yes 
+		
+		male_names = {
+		Barezwa Benge Agima Jibam Isiwe Irovu Kebazwa Ibibit Akaki Bhimime Inge Inde Burit Ikozwa Bezt Kenda Kinge Bisiwe Akeka Biku Igala Irilu Agevu Aliwa Jiwam Bara Andil Ibivu Asugala Kaki Basila Okaki Bielo Bhivu Ilavu Bukekaki Jewabi Bhagasa Akamime Bhat Bazi Bawit Alaki Biesa Asazala Akiki Jebal Bhalaga Okoma Bhasaba Akake Bhiki Bewit Jigal Bhasa Owala Besim Kala Asasu Olit Bhaku Abirevu Kinga Babda Jinge Izesim Bimime Jibasa Kesele Jelam Obisu Arit Bosongi Kibasa Andala Jisa Babaga Ozibivu Isalaki Kivit Kendaki Abasala Jira Kiekala Bhile Abaso Bosesa Asila Bhivo Bhizisawave Obesela Bhabile Bhurit Jazzwa Imasikit Irala Obiwavu Andalivu Ilala Akim 
+		}
+		female_names = {
+		Bondi Atama Nilu Budaku Mibe Akikung Ulada Butaube Nitoo Bagike Badih Akada Mima Ogu Akakoo Ukirir Mitadanga Ola Bada Bitah Yilibe Beh Mify Chudi Hilir Otada Chida Bukab Bib Ateh Bibri Ukada Anafy Bannar Chika Mider Yoda Adada  Chidumu Utakutab Chilab Urane Anaka Annab Bakoo Chih Milike Aganni Ukiba Utinna Chinalah Chima Momar Ukinnoo Handarah Chib Yabri Ann China Ukaka Amaka Okoo Olata Mikoo Ukale Yitada Alah Ondi Odima Bhilaka Yanakoo Abida Umab Chakandir Yinde Alabra Babri Onlinikab Olimida Yadikoo Utina Banna Okala Alila Bidaki Ukama Bindikoo Ukang Bidab Yade Chobra Boda Choba Chidab Bulita Ukafy Ukeng Alokena Mang Bala
+		}
+		allow_looting = yes
+		founder_named_dynasties = yes
+		modifier = default_culture_modifier		
+	}
+	yook = {
+		graphical_cultures = { yookgfx }
+		parent = demon
+	
+		color = { 0.8 1 1 }
+		horde = yes 
+		
+		male_names = {
+		Yoka Yaetl Yaed Yaex Yae Yaeba Yitl Yaet Yatl Yik Yors Yibaex Yibaek Yitl Yaeka Yob Yitl Yaekid Youtl Yobaex Yakit Yid Yib Yaetla Yaekaex Yaebaek Yaek Yod Yotla Yabit Yikid Yaek Yix Yaebax Yatla Yaers Yabaex Yabaek Yokot Yoka Yox Yibaet Yikat Yitlaex Yokid Yax Yitloba Yaebik Yars Yokox Yobaed Yaebaed Yikaed Yikaebaet Yaebat Yotl Yobit Yobid Yaebit Yakok Yirs Yaekaed Yakot Yaekax Yaekox Yikix Yaekaka Yit Yaekad Yaebid Yibid Yibix Yaekok Yaekik Yobod Yibid Yikax Yot Yakix Yaebad Yokaed Yikad Yaekaet Yikik Yibot Yikaex Yakak Yobot Yobax
+		}
+		female_names = {
+		Yokae Yitlae Yib'kae Yitl Yitae Yaeae Yaerkae Yaek Yotlae Yibae Yikae Yaetlae Yob Yobob Yitae Yaetlaeb Yaet Yaekae Yirkae Yirtl Yirkae Y'k Yaebae Yaekaeae Yaetae Y'b Yitlae Yib Yotae Yaek Y'tlae Yikaeae Yirk Yorkae Yaerkae Y'kaeae Yobae Yobaekae Yokaeae Y'tl Yaetl Yit Yotl Yitaeae Yibaet Yot Y'rkae Yaerk Yaeb Yik Y'k Y'tae Y'bae Y'taeae Y't Yotaeae Yobaeae Yotaek York Yaeae Yaetlaeae Y'k'kae Yaekitae Yotaekae Yikaekae Yaetaeae Yitlaeae Yokitae Yit'b Y'kaekae Yitib Yokorkae Yit'bae Yobitl Yaekit Y'kaet Yokaebae Yit'k Yokibae Yaetaekae Yot'kae Yitit Yotok Yokob Yit'kae Yitobae Y'kikae Yobitae Yaekaekae Yok'kae Yitlitae Yikob Y'kibae Yitok Yikot Yitaet Yitibae Yikikae Yaetikae Yokokae
+		}
+		allow_looting = yes
+		founder_named_dynasties = yes
+		modifier = default_culture_modifier		
+	}	
+	keaton = {
+		graphical_cultures = { keatongfx } # mc keaton
+		parent = demon
+
+		color = { 0.88 1 1 }
+		horde = yes 
+		
+		male_names = {
+		Akio Akira Aoi Arata Ayumu Daichi Daiki Daisuke Goro Gorou Hachiro Haru Haruki Haruto Hayate Hayato Hibiki Hideaki Hideyoshi Hikaru Hiroshi Hiroto Hotaka Ichiro Ichirou Isamu Itsuki Jiro Jirou Juro Jurou Kaede Kaito Kaoru Katashi Katsu Kazuo Kenji Kenshin Kenta Kichiro Kiyorshi Kohaku Kuro Kyo Makoto Masaru Michi Minato Naoki Naomi Noboru Nobu Nori Osamu Ren Riku Rikuto Rokurou Ryota Ryou Ryouichi Ryouta Ryuu Saburo Shichiro Shin Shinobu Shiori Shiro Sho Shouta Shun Sora Sota Souma Susumu Taichi Taiki Takahiro Takashi Takeshi Takuma Taro Tsubasa Yamato Yasu Yori Yoshi Yoshiro Youta Yuki Yuudai Yuuma Yuuta 
+		}
+		female_names = {
+		Kuzunoha Inari Mae Ai Aiko Aimi Aina Airi Akane Akemi Aki Akiko Akira Ami Aoi Asuka Atsuko Aya Ayaka Ayako Ayame Ayane Ayano Chika Chikako Chinatsu Chiyo Chiyoko Cho Chou Chouko Emi Etsuko Hana Hanae Hanako Haru Haruka Haruna Hikari Hikaru Hina Hinata Hiroko Hitomi Honoka Hoshi Hoshiko Hotaru Izumi Junko Kaede Kanon Kaori Kaoru Kasumi Kazue Kazuko Keiko Kiku Kimiko Kiyoko Kohaku Koharu Kokoro Kotone Kumiko Kyo Mai Makoto Mami Manami Mao Mariko Masami Masuyo Mayu Megumi Mei Michi Michiko Midori Mika Miki Miku Minako Mio Misaki Mitsuko Miu Miyako Miyu Mizuki Moe Momoka Moriko Nana Nanami Naomi Natsuko
+		}
+		allow_looting = yes
+		founder_named_dynasties = yes
+		modifier = default_culture_modifier
+	}
+}
 other_world = {
 
 	garo = {
@@ -1837,58 +1890,5 @@ dead_cultures = {
 			Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Leila Mama Marcy Pina Pita Paige Sheila Tina Verona Honey Marilla Judo Cremia Epona Romani Pamela Ashei Iza Hena Agitha Kili Hanna Misha Fanadi Telma Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Aryll Rose Sue-Belle Sue Belle Gillian Joanna Potova Linda Maggie Milia Minenco Missey Pompie Peach Daisy Rosalina Lissa Lucinia Emmeryn Hylia Linkette Yelda Linkle
 		}
 	modifier = default_culture_modifier
-	}
-}
-mammalian_monsters = {
-	lynol = {
-		graphical_cultures = { lynolgfx }
-		parent = demon
-	
-		color = { 0.8 1 1 }
-		horde = yes 
-		
-		male_names = {
-		Barezwa Benge Agima Jibam Isiwe Irovu Kebazwa Ibibit Akaki Bhimime Inge Inde Burit Ikozwa Bezt Kenda Kinge Bisiwe Akeka Biku Igala Irilu Agevu Aliwa Jiwam Bara Andil Ibivu Asugala Kaki Basila Okaki Bielo Bhivu Ilavu Bukekaki Jewabi Bhagasa Akamime Bhat Bazi Bawit Alaki Biesa Asazala Akiki Jebal Bhalaga Okoma Bhasaba Akake Bhiki Bewit Jigal Bhasa Owala Besim Kala Asasu Olit Bhaku Abirevu Kinga Babda Jinge Izesim Bimime Jibasa Kesele Jelam Obisu Arit Bosongi Kibasa Andala Jisa Babaga Ozibivu Isalaki Kivit Kendaki Abasala Jira Kiekala Bhile Abaso Bosesa Asila Bhivo Bhizisawave Obesela Bhabile Bhurit Jazzwa Imasikit Irala Obiwavu Andalivu Ilala Akim 
-		}
-		female_names = {
-		Bondi Atama Nilu Budaku Mibe Akikung Ulada Butaube Nitoo Bagike Badih Akada Mima Ogu Akakoo Ukirir Mitadanga Ola Bada Bitah Yilibe Beh Mify Chudi Hilir Otada Chida Bukab Bib Ateh Bibri Ukada Anafy Bannar Chika Mider Yoda Adada  Chidumu Utakutab Chilab Urane Anaka Annab Bakoo Chih Milike Aganni Ukiba Utinna Chinalah Chima Momar Ukinnoo Handarah Chib Yabri Ann China Ukaka Amaka Okoo Olata Mikoo Ukale Yitada Alah Ondi Odima Bhilaka Yanakoo Abida Umab Chakandir Yinde Alabra Babri Onlinikab Olimida Yadikoo Utina Banna Okala Alila Bidaki Ukama Bindikoo Ukang Bidab Yade Chobra Boda Choba Chidab Bulita Ukafy Ukeng Alokena Mang Bala
-		}
-		allow_looting = yes
-		founder_named_dynasties = yes
-		modifier = default_culture_modifier		
-	}
-	yook = {
-		graphical_cultures = { yookgfx }
-		parent = demon
-	
-		color = { 0.8 1 1 }
-		horde = yes 
-		
-		male_names = {
-		Yoka Yaetl Yaed Yaex Yae Yaeba Yitl Yaet Yatl Yik Yors Yibaex Yibaek Yitl Yaeka Yob Yitl Yaekid Youtl Yobaex Yakit Yid Yib Yaetla Yaekaex Yaebaek Yaek Yod Yotla Yabit Yikid Yaek Yix Yaebax Yatla Yaers Yabaex Yabaek Yokot Yoka Yox Yibaet Yikat Yitlaex Yokid Yax Yitloba Yaebik Yars Yokox Yobaed Yaebaed Yikaed Yikaebaet Yaebat Yotl Yobit Yobid Yaebit Yakok Yirs Yaekaed Yakot Yaekax Yaekox Yikix Yaekaka Yit Yaekad Yaebid Yibid Yibix Yaekok Yaekik Yobod Yibid Yikax Yot Yakix Yaebad Yokaed Yikad Yaekaet Yikik Yibot Yikaex Yakak Yobot Yobax
-		}
-		female_names = {
-		Yokae Yitlae Yib'kae Yitl Yitae Yaeae Yaerkae Yaek Yotlae Yibae Yikae Yaetlae Yob Yobob Yitae Yaetlaeb Yaet Yaekae Yirkae Yirtl Yirkae Y'k Yaebae Yaekaeae Yaetae Y'b Yitlae Yib Yotae Yaek Y'tlae Yikaeae Yirk Yorkae Yaerkae Y'kaeae Yobae Yobaekae Yokaeae Y'tl Yaetl Yit Yotl Yitaeae Yibaet Yot Y'rkae Yaerk Yaeb Yik Y'k Y'tae Y'bae Y'taeae Y't Yotaeae Yobaeae Yotaek York Yaeae Yaetlaeae Y'k'kae Yaekitae Yotaekae Yikaekae Yaetaeae Yitlaeae Yokitae Yit'b Y'kaekae Yitib Yokorkae Yit'bae Yobitl Yaekit Y'kaet Yokaebae Yit'k Yokibae Yaetaekae Yot'kae Yitit Yotok Yokob Yit'kae Yitobae Y'kikae Yobitae Yaekaekae Yok'kae Yitlitae Yikob Y'kibae Yitok Yikot Yitaet Yitibae Yikikae Yaetikae Yokokae
-		}
-		allow_looting = yes
-		founder_named_dynasties = yes
-		modifier = default_culture_modifier		
-	}	
-	keaton = {
-		graphical_cultures = { keatongfx } # mc keaton
-		parent = demon
-
-		color = { 0.88 1 1 }
-		horde = yes 
-		
-		male_names = {
-		Akio Akira Aoi Arata Ayumu Daichi Daiki Daisuke Goro Gorou Hachiro Haru Haruki Haruto Hayate Hayato Hibiki Hideaki Hideyoshi Hikaru Hiroshi Hiroto Hotaka Ichiro Ichirou Isamu Itsuki Jiro Jirou Juro Jurou Kaede Kaito Kaoru Katashi Katsu Kazuo Kenji Kenshin Kenta Kichiro Kiyorshi Kohaku Kuro Kyo Makoto Masaru Michi Minato Naoki Naomi Noboru Nobu Nori Osamu Ren Riku Rikuto Rokurou Ryota Ryou Ryouichi Ryouta Ryuu Saburo Shichiro Shin Shinobu Shiori Shiro Sho Shouta Shun Sora Sota Souma Susumu Taichi Taiki Takahiro Takashi Takeshi Takuma Taro Tsubasa Yamato Yasu Yori Yoshi Yoshiro Youta Yuki Yuudai Yuuma Yuuta 
-		}
-		female_names = {
-		Kuzunoha Inari Mae Ai Aiko Aimi Aina Airi Akane Akemi Aki Akiko Akira Ami Aoi Asuka Atsuko Aya Ayaka Ayako Ayame Ayane Ayano Chika Chikako Chinatsu Chiyo Chiyoko Cho Chou Chouko Emi Etsuko Hana Hanae Hanako Haru Haruka Haruna Hikari Hikaru Hina Hinata Hiroko Hitomi Honoka Hoshi Hoshiko Hotaru Izumi Junko Kaede Kanon Kaori Kaoru Kasumi Kazue Kazuko Keiko Kiku Kimiko Kiyoko Kohaku Koharu Kokoro Kotone Kumiko Kyo Mai Makoto Mami Manami Mao Mariko Masami Masuyo Mayu Megumi Mei Michi Michiko Midori Mika Miki Miku Minako Mio Misaki Mitsuko Miu Miyako Miyu Mizuki Moe Momoka Moriko Nana Nanami Naomi Natsuko
-		}
-		allow_looting = yes
-		founder_named_dynasties = yes
-		modifier = default_culture_modifier
 	}
 }
