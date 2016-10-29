@@ -780,3 +780,313 @@
 	3380.1.1={add_spouse=22066}
 	3401.12.11={ death=yes }
 }
+22070={#c1
+	name=Toste
+	dynasty=5475
+	dna="cgfbchbeeaj"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=7 stewardship=6 intrigue=8 learning=6
+	add_trait=detached_priest add_trait=poet add_trait=slothful add_trait=cruel add_trait=charitable 
+	add_trait=shy add_trait=humble 
+	3360.12.5={ birth=yes }
+	3380.1.1={add_spouse=22072}
+	3441.6.18={ death=yes }
+}
+22071={
+	name=Rieti
+	dynasty=5475
+	dna="cgfblnjaejo"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=5 stewardship=4 intrigue=5 learning=5
+	add_trait=misguided_warrior add_trait=cynical add_trait=charitable 
+	father=22070	#Toste
+	mother=22072
+	3383.8.16={ birth=yes }
+	3448.7.5={ death=yes }
+}
+22072 = {
+	name=Alfridh
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3360.12.5={ birth=yes }
+	3380.1.1={add_spouse=22070}
+	3441.6.18={ death=yes }
+}
+22073={#c
+	name=Guttorm
+	dynasty=5480
+	dna="fdfkhmffdjj"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=6 stewardship=5 intrigue=4 learning=5
+	add_trait=midas_touched add_trait=brave add_trait=content add_trait=humble add_trait=lustful 
+	add_trait=wroth add_trait=cruel 
+	3364.4.26={ birth=yes }
+	3424.9.2={ death=yes }
+}
+22074={#c
+	name=Riku
+	dynasty=5485
+	dna="eidakbhanng"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=4 stewardship=7 intrigue=7 learning=7
+	add_trait=misguided_warrior add_trait=envious add_trait=gregarious add_trait=patient 
+	3365.2.22={ birth=yes }
+	3428.4.11={ death=yes }
+}
+22075={#c
+	name=Asko
+	dynasty=5490
+	dna="gajbmpmeaod"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=8 stewardship=8 intrigue=4 learning=4
+	add_trait=detached_priest add_trait=patient add_trait=diligent add_trait=brave add_trait=envious 
+	add_trait=gregarious 
+	3364.6.27={ birth=yes }
+	3419.12.15={ death=yes }
+}
+22076={#c
+	name=Brage
+	dynasty=5495
+	dna="ihkopggpddm"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=8 stewardship=8 intrigue=6 learning=5
+	add_trait=misguided_warrior add_trait=cynical add_trait=brave add_trait=shy add_trait=diligent 
+	add_trait=honest 
+	3364.7.24={ birth=yes }
+	3426.1.9={ death=yes }
+}
+22077={#c
+	name=Toste
+	dynasty=5500
+	dna="ifbeadacifn"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=5 stewardship=7 intrigue=4 learning=4
+	add_trait=tough_soldier add_trait=mystic add_trait=patient add_trait=shy add_trait=honest 
+	add_trait=cynical add_trait=arbitrary add_trait=wounded 
+	3364.1.4={ birth=yes }
+	3429.6.1={ death=yes }
+}
+22078={#c
+	name=Azur
+	dynasty=5505
+	dna="aojgkeoanik"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=7 stewardship=4 intrigue=6 learning=8
+	add_trait=intricate_webweaver add_trait=chaste add_trait=wroth 
+	3364.6.2={ birth=yes }
+	3412.8.20={ death=yes }
+}
+22079={#c
+	name=Ahvo
+	dynasty=5510
+	dna="fnfkhlldjjo"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=7 stewardship=4 intrigue=8 learning=4
+	add_trait=elusive_shadow add_trait=craven add_trait=envious add_trait=temperate add_trait=patient 
+	add_trait=just add_trait=harelip 
+	3364.10.7={ birth=yes }
+	3382.1.1={add_spouse=22081}
+	3422.3.25={ death=yes }
+}
+22080={
+	name=Bjorn
+	dynasty=5510
+	dna="jnmkhlloblo"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=5 stewardship=4 intrigue=6 learning=8
+	add_trait=elusive_shadow add_trait=gluttonous add_trait=envious add_trait=just add_trait=patient 
+	father=22079	#Ahvo
+	3385.6.9={ birth=yes }
+	3455.3.2={ death=yes }
+}
+22081={
+	name=Ahvo
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3364.10.7={ birth=yes }
+	3382.1.1={add_spouse=22079}
+	3422.3.25={ death=yes }
+}
+22082={#c
+	name=Ulf
+	dynasty=5515
+	dna="opljmajagpd"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=4 stewardship=7 intrigue=7 learning=4
+	add_trait=martial_cleric add_trait=kind add_trait=gluttonous add_trait=wroth add_trait=content 
+	3364.2.24={ birth=yes }
+	3423.9.10={ death=yes }
+}
+22083={
+	name=Ida
+	female=yes
+	dynasty=5515
+	dna="akljfoblgpa"
+	culture=ho_ho religion=oshus_religion
+	father=22082	#Ulf
+	3385.11.11={ birth=yes }
+	3447.6.22={ death=yes }
+}
+22084={
+	name=Elisabet
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3364.2.24={ birth=yes }
+	3385.11.11={ death={death_reason=death_childbirth} }
+}
+22085={#c
+	name=Kolbein
+	dynasty=5520
+	dna="cbaakbfkhan"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=6 stewardship=6 intrigue=5 learning=4
+	add_trait=mastermind_theologian add_trait=chaste add_trait=gregarious add_trait=cruel 
+	3364.3.13={ birth=yes }
+	3443.5.18={ death=yes }
+}
+22086={#c
+	name=Samund
+	dynasty=5525
+	dna="ookhkjhnlhc"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=8 stewardship=7 intrigue=4 learning=7
+	add_trait=grey_eminence add_trait=arbitrary add_trait=gregarious add_trait=envious add_trait=temperate 
+	3365.6.1={ birth=yes }
+	3447.1.7={ death=yes }
+}
+22087={#c
+	name=Arnfast
+	dynasty=5530
+	dna="kappakccegd"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=6 stewardship=6 intrigue=8 learning=5
+	add_trait=charismatic_negotiator add_trait=kind add_trait=ambitious add_trait=zealous add_trait=patient 
+	add_trait=greedy 
+	3365.3.26={ birth=yes }
+	3418.10.1={ death=yes }
+}
+22088={#c
+	name=Anund
+	dynasty=5535
+	dna="poehanpcfbj"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=8 stewardship=4 intrigue=6 learning=4
+	add_trait=scholarly_theologian add_trait=gluttonous add_trait=humble add_trait=trusting add_trait=wounded 
+	3364.11.26={ birth=yes }
+	3419.10.7={ death=yes }
+}
+22089={#c
+	name=Tolir
+	dynasty=5535
+	dna="lllldgogeoc"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=7 stewardship=8 intrigue=5 learning=4
+	add_trait=midas_touched add_trait=hunter add_trait=cruel add_trait=zealous add_trait=wounded 
+	3364.12.7={ birth=yes }
+	3431.7.18={ death=yes }
+}
+22090={#c
+	name=Brage
+	dynasty=5540
+	dna="lpdaohbdfkd"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=7 stewardship=4 intrigue=7 learning=7
+	add_trait=martial_cleric add_trait=cruel add_trait=zealous add_trait=proud 
+	3364.4.27={ birth=yes }
+	3414.1.15={ death=yes }
+}
+22091={#c
+	name=Ahvo
+	dynasty=5545
+	dna="diiaicdoohk"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=6 stewardship=4 intrigue=7 learning=4
+	add_trait=scholarly_theologian add_trait=mystic add_trait=greedy add_trait=gregarious 
+	3365.5.26={ birth=yes }
+	3422.8.3={ death=yes }
+}
+22092={#c
+	name=Kauro
+	dynasty=5550
+	dna="kjakkppkgna"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=8 stewardship=8 intrigue=7 learning=6
+	add_trait=midas_touched add_trait=humble add_trait=zealous add_trait=paranoid add_trait=wroth 
+	add_trait=honest 
+	3364.8.8={ birth=yes }
+	3416.5.14={ death=yes }
+}
+22093={#c
+	name=Birger
+	dynasty=5555
+	dna="ijjkldkfjdg"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=7 stewardship=8 intrigue=7 learning=8
+	add_trait=flamboyant_schemer add_trait=hedonist add_trait=trusting add_trait=charitable add_trait=patient 
+	add_trait=lustful add_trait=ill 
+	3364.8.26={ birth=yes }
+	3438.3.19={ death=yes }
+}
+22094={#c
+	name=Halfdan
+	dynasty=5560
+	dna="ehkphnfjhfd"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=5 stewardship=5 intrigue=5 learning=4
+	add_trait=charismatic_negotiator add_trait=cruel add_trait=honest 
+	3365.2.26={ birth=yes }
+	3413.12.28={ death=yes }
+}
+22095={
+	name=Ahvo
+	dynasty=5565
+	dna="bdeklngimki"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=8 stewardship=6 intrigue=5 learning=8
+	add_trait=elusive_shadow add_trait=arbitrary add_trait=paranoid add_trait=charitable add_trait=diligent 
+	3364.2.3={ birth=yes }
+	3382.1.1={add_spouse=22097}
+	3428.4.23={ death=yes }
+}
+22096={
+	name=Astrad
+	dynasty=5565
+	dna="blijgnfhhko"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=7 stewardship=7 intrigue=7 learning=6
+	add_trait=flamboyant_schemer add_trait=poet add_trait=trusting add_trait=zealous add_trait=cruel 
+	add_trait=slothful 
+	father=22095	#Ahvo
+	mother=22097
+	3384.8.4={ birth=yes }
+	3444.5.21={ death=yes }
+}
+22097={
+	name=Alfhild
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3364.2.3={ birth=yes }
+	3382.1.1={add_spouse=22095}
+	3428.4.23={ death=yes }
+}
+22098={#c
+	name=Asbjorn
+	dynasty=5570
+	dna="oamamkjflhi"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=5 stewardship=5 intrigue=4 learning=5
+	add_trait=midas_touched add_trait=cruel add_trait=charitable add_trait=lustful add_trait=craven 
+	add_trait=paranoid add_trait=gregarious 
+	3365.1.21={ birth=yes }
+	3416.11.24={ death=yes }
+}
+22099={#c
+	name=Botulf
+	dynasty=5575
+	dna="ickepegegfo"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=6 stewardship=6 intrigue=8 learning=5
+	add_trait=indulgent_wastrel add_trait=slothful add_trait=just add_trait=patient add_trait=craven 
+	3364.7.4={ birth=yes }
+	3419.7.15={ death=yes }
+}

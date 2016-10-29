@@ -48,7 +48,6 @@ hylian_group = {
 		}
 		female_names = {
 		Aleta Alfhild Alfridh Anna Asta Astrid Beata Birgitta Bothild Cecilia Edla Elin Elisabet Freja Gunhild Gyla Gurli Gytha Hafrid Margareta Marta Ragnfrid Ragnhild Rikissa Saga Sara Sigrid Sofia Svanhild Thordis Ulvhilde Ylva Asa Anna Astrid Brigida Cecilia Eldrid Freya Gjertrud Gudrid Gudrun Gunnhild Gyda Gyrid Haldora Homlaug Ingebjorg Ingjerd Ingrid Jorunn Grethe Gudrun Gunhild Gyda Helena Ida Ingeborg Ingegerd Ingrid Johanne Jutta Karin Karoline Katarina Katrine Kirsten Klara Lise Luitgard Lykke Gemma Geretrudis Gerperga Giseltrude Giso Glismoda Gudeliva Gundeperga Guntrud Helchen Hermelinda Sohvi Auni Liekko_Helen Kivutar Lemmikki Salme Talvikki Tuulitar Aidna Algen Allet Euvje Biella Bierga Buohtta Duoja Geala Giera
-
 		}
 		
 		dukes_called_kings = yes
@@ -1656,7 +1655,7 @@ undead = {
 	skull_kid = {
 		graphical_cultures = { skullkidgfx }  
 		parent = demon		
-
+		
 		color = { 0.48 1 0.48 }	
 		
 		male_names = {
@@ -1874,7 +1873,7 @@ dead_cultures = {
 
 	hylian = {
 
-	graphical_culture = { hyliangfx }
+	graphical_cultures = { hyliangfx }
 
 	#parent = NONE the first humans 
 
