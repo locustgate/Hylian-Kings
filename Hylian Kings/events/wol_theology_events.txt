@@ -490,12 +490,12 @@ character_event = {
 		has_focus = focus_theology
 		is_priest = no
 		NOT = { trait = zealous }
-		NOT = { trait = sympathy_christendom }
-		NOT = { trait = sympathy_islam }
-		NOT = { trait = sympathy_pagans }
-		NOT = { trait = sympathy_zoroastrianism }
-		NOT = { trait = sympathy_judaism }
-		NOT = { trait = sympathy_indian }
+		NOT = { trait = sympathy_goddesses_religion }
+		#NOT = { trait = sympathy_islam }
+		NOT = { trait = sympathy_minor_deity }
+		NOT = { trait = sympathy_guardian_deity }
+		NOT = { trait = sympathy_doctrine }
+		NOT = { trait = sympathy_alien_religion }
 		NOT = { has_character_flag = wol_theology_view_other_religions }
 		any_realm_character = {
 			NOT = { religion_group = ROOT }
@@ -547,28 +547,28 @@ character_event = {
 			}
 		}
 		if = {
-			limit = { FROM = { religion_group = christian } }
-			add_trait = sympathy_christendom
+			limit = { FROM = { religion_group = goddesses_religion} }
+			add_trait = sympathy_goddesses_religion
+		}
+		#if = {
+		#	limit = { FROM = { religion_group = muslim } }
+		#	add_trait = sympathy_islam
+		#}
+		if = {
+			limit = { FROM = { religion_group = minor_deity } }
+			add_trait = sympathy_minor_deity
 		}
 		if = {
-			limit = { FROM = { religion_group = muslim } }
-			add_trait = sympathy_islam
+			limit = { FROM = { religion_group = guardian_deity } }
+			add_trait = sympathy_guardian_deity
 		}
 		if = {
-			limit = { FROM = { religion_group = pagan_group } }
-			add_trait = sympathy_pagans
+			limit = { FROM = { religion_group = doctrine } }
+			add_trait = sympathy_doctrine
 		}
 		if = {
-			limit = { FROM = { religion_group = zoroastrian_group } }
-			add_trait = sympathy_zoroastrianism
-		}
-		if = {
-			limit = { FROM = { religion_group = jewish_group } }
-			add_trait = sympathy_judaism
-		}
-		if = {
-			limit = { FROM = { religion_group = indian_group } }
-			add_trait = sympathy_indian
+			limit = { FROM = { religion_group = alien_religion } }
+			add_trait = sympathy_alien_religion
 		}
 	}
 	option = {

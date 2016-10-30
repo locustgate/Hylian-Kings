@@ -1608,11 +1608,11 @@ narrative_event = {
 			limit = {
 				FROM = { religion_group = pagan_group }
 				NOT = { 
-					trait = sympathy_pagans 
+					trait = sympathy_minor_deity 
 					FROM = { religion_group = ROOT }
 				} 
 			}
-			add_trait = sympathy_pagans
+			add_trait = sympathy_minor_deity
 		}
 
 		if = {
@@ -1630,11 +1630,11 @@ narrative_event = {
 			limit = {
 				FROM = { religion_group = indian_group } 
 				NOT = { 
-					trait = sympathy_indian 
+					trait = sympathy_alien_religion 
 					FROM = { religion_group = ROOT }
 				} 
 			}
-			add_trait = sympathy_indian
+			add_trait = sympathy_alien_religion
 		}
 	}
 	#Leave for different religion

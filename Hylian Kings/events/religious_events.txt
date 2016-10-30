@@ -3578,7 +3578,7 @@ character_event = {
 			modifier = {
 				factor = 0
 				FROM = { religion_group = christian }
-				trait = sympathy_christendom
+				trait = sympathy_goddesses_religion
 			}
 			modifier = {
 				factor = 0
@@ -3588,17 +3588,17 @@ character_event = {
 			modifier = {
 				factor = 0
 				FROM = { religion_group = jewish_group }
-				trait = sympathy_judaism
+				trait = sympathy_doctrine
 			}
 			modifier = {
 				factor = 0
 				FROM = { religion_group = zoroastrian_group }
-				trait = sympathy_zoroastrianism
+				trait = sympathy_guardian_deity
 			}
 			modifier = {
 				factor = 0
 				FROM = { religion_group = indian_group }
-				trait = sympathy_indian
+				trait = sympathy_alien_religion
 			}
 		}
 		
@@ -3884,7 +3884,7 @@ character_event = {
 			modifier = {
 				factor = 3
 				FROM = { religion_group = christian }
-				trait = sympathy_christendom
+				trait = sympathy_goddesses_religion
 			}
 			modifier = {
 				factor = 3
@@ -3894,17 +3894,17 @@ character_event = {
 			modifier = {
 				factor = 3
 				FROM = { religion_group = jewish_group }
-				trait = sympathy_judaism
+				trait = sympathy_doctrine
 			}
 			modifier = {
 				factor = 3
 				FROM = { religion_group = zoroastrian_group }
-				trait = sympathy_zoroastrianism
+				trait = sympathy_guardian_deity
 			}
 			modifier = {
 				factor = 3
 				FROM = { religion_group = indian_group }
-				trait = sympathy_indian
+				trait = sympathy_alien_religion
 			}
 			
 			# Personal
@@ -4184,7 +4184,7 @@ character_event = {
 			}
 			random = {
 				chance = 60
-				add_trait = sympathy_pagans
+				add_trait = sympathy_minor_deity
 			}
 		}
 		if = {
@@ -4197,7 +4197,7 @@ character_event = {
 			}
 			random = {
 				chance = 50
-				add_trait = sympathy_pagans
+				add_trait = sympathy_minor_deity
 			}
 		}		
 		
@@ -4429,7 +4429,7 @@ character_event = {
 			}
 			random = {
 				chance = 60
-				add_trait = sympathy_pagans
+				add_trait = sympathy_minor_deity
 			}
 		}
 		if = {
@@ -4442,7 +4442,7 @@ character_event = {
 			}
 			random = {
 				chance = 50
-				add_trait = sympathy_pagans
+				add_trait = sympathy_minor_deity
 			}
 		}
 		religion = FROM
@@ -5801,7 +5801,7 @@ character_event = {
 			limit = {
 				religion_group = christian
 			}
-			add_trait = sympathy_christendom
+			add_trait = sympathy_goddesses_religion
 		}
 		if = {
 			limit = {
@@ -5813,25 +5813,25 @@ character_event = {
 			limit = {
 				religion_group = pagan_group
 			}
-			add_trait = sympathy_pagans
+			add_trait = sympathy_minor_deity
 		}
 		if = {
 			limit = {
 				religion_group = zoroastrian_group
 			}
-			add_trait = sympathy_zoroastrianism
+			add_trait = sympathy_guardian_deity
 		}
 		if = {
 			limit = {
 				religion_group = jewish_group
 			}
-			add_trait = sympathy_judaism
+			add_trait = sympathy_doctrine
 		}
 		if = {
 			limit = {
 				religion_group = indian_group
 			}
-			add_trait = sympathy_indian
+			add_trait = sympathy_alien_religion
 		}
 		
 		religion = FROMFROM

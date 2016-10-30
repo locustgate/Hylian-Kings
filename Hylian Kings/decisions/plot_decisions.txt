@@ -1,12 +1,9 @@
 plot_decisions = {
 
 	plot_gain_title_decision = {
-		only_playable = yes
 		is_high_prio = yes
 		
 		potential = {
-			always = no # Disabled
-			is_playable = yes
 			age = 16
 			has_plot = plot_gain_title
 			NOT = { has_character_flag = plot_gain_title_decision_taken }
@@ -49,7 +46,6 @@ plot_decisions = {
 	}
 
 	plot_gain_vassal_title_decision = {
-		only_playable = yes
 		is_high_prio = yes
 		
 		potential = {
@@ -102,7 +98,6 @@ plot_decisions = {
 	}
 	
 	plot_weaken_fellow_vassal_decision = {
-		only_rulers = yes
 		is_high_prio = yes
 		
 		potential = {
@@ -148,7 +143,6 @@ plot_decisions = {
 	}
 	
 	plot_weaken_fellow_vassal_decision_liege = {
-		only_rulers = yes
 		is_high_prio = yes
 		
 		potential = {
@@ -207,7 +201,6 @@ plot_decisions = {
 	}
 	
 	plot_gain_liege_title_decision_100 = {
-		only_playable = yes
 		is_high_prio = yes
 		
 		potential = {
@@ -266,7 +259,6 @@ plot_decisions = {
 	}
 	
 	plot_gain_liege_title_decision_75 = {
-		only_playable = yes
 		is_high_prio = yes
 		
 		potential = {
@@ -326,7 +318,6 @@ plot_decisions = {
 	}
 	
 	plot_gain_fellow_vassal_title_decision_100 = {
-		only_playable = yes
 		is_high_prio = yes
 		
 		potential = {
@@ -378,7 +369,6 @@ plot_decisions = {
 	}
 	
 	plot_gain_fellow_vassal_title_decision_75 = {
-		only_playable = yes
 		is_high_prio = yes
 		
 		potential = {
@@ -431,7 +421,6 @@ plot_decisions = {
 	}
 	
 	plot_seize_trade_post_decision = {
-		only_playable = yes
 		is_high_prio = yes
 		
 		potential = {

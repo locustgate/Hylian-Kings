@@ -3840,7 +3840,7 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Rajas of India"
-		trait = sympathy_indian
+		trait = sympathy_alien_religion
 		any_realm_character = {
 			religion_group = indian_group
 			NOT = { is_friend = ROOT }
@@ -3881,7 +3881,7 @@ character_event = {
 		}
 		OR = {
 			religion_group = indian_group
-			trait = sympathy_indian
+			trait = sympathy_alien_religion
 		}
 		NOT = { has_character_flag = do_not_disturb }
 		NOT = { is_inaccessible_trigger = yes }

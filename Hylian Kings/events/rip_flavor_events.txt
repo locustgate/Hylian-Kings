@@ -2832,7 +2832,7 @@ character_event = {
 			limit = {
 				religion_group = pagan_group
 			}
-			add_trait = sympathy_pagans
+			add_trait = sympathy_minor_deity
 		}
 		religion = event_target:missionary_physician_target
 		prestige = -500
@@ -10895,7 +10895,7 @@ character_event = {
 		if = {
 			limit = { NOT = { religion_group = christian } }
 			remove_trait_zealous_effect = yes
-			add_trait = sympathy_christendom
+			add_trait = sympathy_goddesses_religion
 		}
 
 		set_character_flag = invited_death

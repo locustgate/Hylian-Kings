@@ -558,7 +558,7 @@ character_event = {
 		if = {
 			limit = { 
 				has_character_flag = pope_eater	
-				NOT = { trait = sympathy_christendom }
+				NOT = { trait = sympathy_goddesses_religion }
 			}
 			if = {
 				limit = {
@@ -566,12 +566,12 @@ character_event = {
 				}
 				remove_trait = zealous
 			}
-			add_trait = sympathy_christendom
+			add_trait = sympathy_goddesses_religion
 		}
 		if = {
 			limit = { 
 				has_character_flag = caliph_eater	
-				NOT = { trait = sympathy_islam }
+				#NOT = { trait = sympathy_islam }
 			}
 			if = {
 				limit = {
@@ -584,7 +584,7 @@ character_event = {
 		if = {
 			limit = { 
 				has_character_flag = fylkir_feast	
-				NOT = { trait = sympathy_pagans }
+				NOT = { trait = sympathy_minor_deity }
 			}
 			if = {
 				limit = {
@@ -592,12 +592,12 @@ character_event = {
 				}
 				remove_trait = zealous
 			}
-			add_trait = sympathy_pagans
+			add_trait = sympathy_minor_deity
 		}
 		if = {
 			limit = { 
 				has_character_flag = fire_eater	
-				NOT = { trait = sympathy_zoroastrianism }
+				NOT = { trait = sympathy_guardian_deity }
 			}
 			if = {
 				limit = {
@@ -605,12 +605,12 @@ character_event = {
 				}
 				remove_trait = zealous
 			}
-			add_trait = sympathy_zoroastrianism
+			add_trait = sympathy_guardian_deity
 		}
 		if = {
 			limit = { 
 				has_character_flag = non_kosher	
-				NOT = { trait = sympathy_judaism }
+				NOT = { trait = sympathy_doctrine }
 			}
 			if = {
 				limit = {
@@ -618,12 +618,12 @@ character_event = {
 				}
 				remove_trait = zealous
 			}
-			add_trait = sympathy_judaism
+			add_trait = sympathy_doctrine
 		}
 		if = {
 			limit = { 
 				has_character_flag = dont_even_exist	
-				NOT = { trait = sympathy_indian }
+				NOT = { trait = sympathy_alien_religion }
 			}
 			if = {
 				limit = {
@@ -631,7 +631,7 @@ character_event = {
 				}
 				remove_trait = zealous
 			}
-			add_trait = sympathy_indian
+			add_trait = sympathy_alien_religion
 		}
 		clr_character_flag = pope_eater
 		clr_character_flag = caliph_eater

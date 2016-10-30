@@ -245,12 +245,12 @@ character_event = {
 			location = { NOT = { religion_group = ROOT } }
 			OR = {
 				trait = cynical
-				trait = sympathy_christendom
+				trait = sympathy_goddesses_religion
 				trait = sympathy_islam
-				trait = sympathy_pagans
-				trait = sympathy_zoroastrianism
-				trait = sympathy_judaism
-				trait = sympathy_indian
+				trait = sympathy_minor_deity
+				trait = sympathy_guardian_deity
+				trait = sympathy_doctrine
+				trait = sympathy_alien_religion
 			}
 		}
 	}
@@ -275,12 +275,12 @@ character_event = {
 				save_event_target_as = ze_5020_province
 				trigger_switch = {
 					on_trigger = religion_group
-					christian 			= { PREV = { add_trait = sympathy_christendom } }
+					christian 			= { PREV = { add_trait = sympathy_goddesses_religion } }
 					muslim 				= { PREV = { add_trait = sympathy_islam } }
-					pagan_group 		= { PREV = { add_trait = sympathy_pagans } }
-					zoroastrian_group 	= { PREV = { add_trait = sympathy_zoroastrianism } }
-					jewish_group 		= { PREV = { add_trait = sympathy_judaism } }
-					indian_group 		= { PREV = { add_trait = sympathy_indian } }
+					pagan_group 		= { PREV = { add_trait = sympathy_minor_deity } }
+					zoroastrian_group 	= { PREV = { add_trait = sympathy_guardian_deity } }
+					jewish_group 		= { PREV = { add_trait = sympathy_doctrine } }
+					indian_group 		= { PREV = { add_trait = sympathy_alien_religion } }
 				}
 			}
 		}

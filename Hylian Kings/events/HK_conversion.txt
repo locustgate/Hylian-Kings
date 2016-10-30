@@ -343,6 +343,7 @@ character_event = {
 					NOT = { holding_type = nomad }
 				}
 			}
+			set_global_flag = port_towners_founded
 			culture = port_towner
 		}
 	}

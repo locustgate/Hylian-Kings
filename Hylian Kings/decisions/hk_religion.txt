@@ -3,11 +3,13 @@ decisions = {
 	choose_golden_patron_deity = {
 		only_playable = yes
 		potential = {
-			has_dlc = "Rajas of India"
 			is_playable = yes
 			age = 16
 			not = { trait = incapable }
-			religion = hindu
+			OR = {
+				religion = golden_goddesses
+				religion = western_goddesses
+			}
 			NOT = {
 				trait = patron_din
 				trait = patron_nayru

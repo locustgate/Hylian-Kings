@@ -720,7 +720,7 @@ character_event = { #head of religion chimes in. could be player.
 				factor = 10
 				OR = {
 					religion = jewish
-					trait = sympathy_judaism
+					trait = sympathy_doctrine
 				}
 			}
 			modifier = {
@@ -736,7 +736,7 @@ character_event = { #head of religion chimes in. could be player.
 		trigger = {
 			NOR = {
 				religion = jewish
-				trait = sympathy_judaism
+				trait = sympathy_doctrine
 			}
 		}
 		FROM = {
@@ -847,8 +847,8 @@ character_event = { #you decide what to do
 			scaled_wealth = 2
 			banish_religion = jewish
 			if = {
-				limit = { trait = sympathy_judaism }
-				remove_trait = sympathy_judaism
+				limit = { trait = sympathy_doctrine }
+				remove_trait = sympathy_doctrine
 			}
 			if = {
 				limit = {
