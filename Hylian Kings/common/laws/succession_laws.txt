@@ -18,7 +18,7 @@ succession_laws = {
 						}
 					}
 				}
-				NOT = { religion_group = muslim }
+				NOT = { religion_group = darknut_doctrine }
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -80,7 +80,8 @@ succession_laws = {
 						}
 					}
 				}
-				NOT = { religion_group = muslim }
+				NOT = { religion_group = demon_religion }
+				NOT = { religion = darknut_doctrine }
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -127,6 +128,8 @@ succession_laws = {
 	
 		potential = {
 			holder_scope = {
+				NOT = { culture = darknut }
+				NOT = { culture = darknut_doctrine}
 				OR = {
 					independent = yes
 					NOT = {
@@ -142,15 +145,15 @@ succession_laws = {
 					}
 				}
 				
-				NOT = { religion_group = muslim }
-				NOT = { religion_group = indian_group }
+				#NOT = { religion_group = muslim }
+				#NOT = { religion_group = indian_group }
 				
-				OR = {
-					NOT = { religion_group = pagan_group }
-					is_reformed_religion = yes
-					religion = hellenic_pagan
-					is_patrician = yes
-				}
+				#OR = {
+				#	NOT = { religion_group = pagan_group }
+				#	is_reformed_religion = yes
+				#	religion = hellenic_pagan
+				#	is_patrician = yes
+				#}
 				
 				OR = {
 					is_republic = no
@@ -238,7 +241,7 @@ succession_laws = {
 		dynasty_opinion = -5
 		potential = {
 			holder_scope = {
-				NOT = { religion_group = muslim }
+				#NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
 			}
@@ -341,8 +344,9 @@ succession_laws = {
 				}
 				OR = {
 					NOR = { 
-						religion_group = muslim
-						religion_group = indian_group
+						religion_group = demon_religion
+						#religion_group = muslim
+						#religion_group = indian_group
 					}
 					has_law = succession_voting_power_1
 				}
@@ -398,10 +402,11 @@ succession_laws = {
 						}
 					}
 				}
-				NOT = { religion_group = muslim }
+				#NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
-				culture_group = celtic
+				#culture_group = celtic
+				culture = darknut
 				OR = {
 					independent = yes
 					NOT = {
@@ -463,21 +468,31 @@ succession_laws = {
 						}
 					}
 				}
-				OR = {
-					culture = mongol
-					AND = {
-						NOT = { religion = norse_pagan }
-						NOT = { religion = tengri_pagan }
-						NOT = { religion = baltic_pagan }
-						NOT = { religion = finnish_pagan }
-						NOT = { religion = aztec }
-						NOT = { religion = pagan }
-						NOT = { religion = slavic_pagan }
-						NOT = { religion = west_african_pagan }
-					}
+				#OR = {
+				#	culture = mongol
+				#	AND = {
+				#		NOT = { religion = norse_pagan }
+				#		NOT = { religion = tengri_pagan }
+				#		NOT = { religion = baltic_pagan }
+				#		NOT = { religion = finnish_pagan }
+				#		NOT = { religion = aztec }
+				#		NOT = { religion = pagan }
+				#		NOT = { religion = slavic_pagan }
+				#		NOT = { religion = west_african_pagan }
+				#	}
+				#}
+				NOR = {
+					culture = darknut
+					culture = demon
+					culture = demon_tree
+					culture_group = blin
+					culture_group = lfos
+					culture_group = mammalian_monster
+					religion = darknut_doctrine
+					religion_group = demon_religion
 				}
 				
-				NOT = { religion_group = muslim }
+				#NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -566,10 +581,18 @@ succession_laws = {
 #		dynasty_opinion = 10
 		potential = {
 			holder_scope = {
-				religion_group = muslim
+				#religion_group = muslim
 				is_republic = no
 				is_merchant_republic = no
 				is_nomadic = no
+				OR = {
+					culture = darknut
+					culture_group = blin
+					culture_group = lfos
+					culture_group = mammalian_monster
+					religion_group = demon_religion
+					religion = darknut_doctrine
+				}
 			}
 			OR = {
 				holder_scope = { # Viceroyalties can always have turkish succession if muslim
@@ -800,10 +823,10 @@ gender_laws = {
 				}
 				OR = {
 					AND = {
-						NOT = { religion_group = muslim }
-						NOT = { religion = aztec }
-						NOT = { religion = aztec_reformed }
-						has_horde_culture = no
+						#NOT = { religion_group = muslim }
+						#NOT = { religion = aztec }
+						#NOT = { religion = aztec_reformed }
+						#has_horde_culture = no
 						is_tribal = no
 						is_nomadic = no
 						is_merchant_republic = no
@@ -891,7 +914,7 @@ gender_laws = {
 				factor = 100
 				holder_scope = {
 					NOT = {
-						religion_group = christian
+						religion_group = goddesses_religion
 					}
 					primary_title = {
 						NOT = { has_law = status_of_women_3 }
@@ -903,7 +926,7 @@ gender_laws = {
 	}
 	
 	true_cognatic_succession = {
-		male_dynasty_opinion = -5
+		#male_dynasty_opinion = -5
 		
 		potential = {
 			OR = {
@@ -968,7 +991,9 @@ gender_laws = {
 			OR = {
 				holder_scope = {
 					OR = {
-						culture_group = hylian
+						culture_group = hylian_group
+						culture = sarian
+						culture = labrynnan
 						religion = great_fairies
 						religion = great_deku
 						religion_group = goddesses_religion
@@ -1058,7 +1083,7 @@ gender_laws = {
 		}
 		allow = {
 			OR = {
-				religion = gerudo_goddess
+				#religion = gerudo_goddess
 				religion = great_fairies
 			}
 		}
@@ -1088,7 +1113,7 @@ gender_laws = {
 					OR = {
 						AND = {
 							OR = {
-								religion = gerudo_goddesses
+								#religion = gerudo_goddess
 								religion = great_fairies
 							}
 							has_horde_culture = no

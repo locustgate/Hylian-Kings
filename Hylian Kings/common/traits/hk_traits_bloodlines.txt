@@ -54,7 +54,7 @@ bloodline_firstdox = {
 	diplomacy = 2
 	martial = 1
 
-	general_oppinion = 10
+	general_opinion = 10
 	
 	monthly_character_prestige  = 0.1
 }
@@ -68,7 +68,6 @@ bloodline_batreaux = {
 	ai_honor = 10
 }
 ##badblood
-#the 6 murderers of the first dox
 bloodline_betrayers = {
 	opposites = {
 		bloodline_firstdox
@@ -76,7 +75,7 @@ bloodline_betrayers = {
 	intrigue = 1
 	martial = 2
 	
-	general_oppinion = -10
+	general_opinion = -10
 	
 	monthly_character_prestige  = -0.1
 }

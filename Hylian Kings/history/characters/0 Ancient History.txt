@@ -19,8 +19,7 @@
 		death = {
 			death_reason = death_battle
 			killer = 3
-		}
-		
+		}		
 	}
 }
 2 = {
@@ -1233,18 +1232,138 @@
 	3136.11.18={ birth=yes }
 	3203.12.11={ death=yes }
 }
-
-
-
-
-
-
-
-
-
-
-
-
+73={
+	name=Caesar
+	dynasty=4401
+	historical=yes
+	disallow_random_traits=yes
+	religion=darknut_doctrine
+	culture=darknut
+	trait=brilliant_strategist
+	trait=race_darknut
+	trait=bloodline_firstdox
+	trait=patient
+	trait=ambitious
+	trait=just
+	trait=cruel
+	trait=impaler
+	trait=chaste
+	trait=zealous
+	trait=strong
+	3107.6.7={birth=yes}
+	3141.12.12={
+		death = {
+			death_reason = death_battle
+			killer = 74
+		}		
+	}
+}
+74={
+	name=Xiahou
+	dynasty=14801
+	historical=yes
+	disallow_random_traits=yes
+	religion=darknut_doctrine
+	culture=darknut
+	trait=brilliant_stratagist
+	trait=race_darknut
+	trait=bloodline_betrayers
+	trait=wroth
+	trait=ambitious
+	trait=duelist
+	trait=quick
+	trait=lustful
+	trait=cynical
+	3101.4.13={birth=yes}
+	3141.12.12={death={death_reason=death_battle}}
+}
+75={
+	name=Sun
+	dynasty=4401
+	dna="nahmjhlhphp"
+	culture=darknut religion=darknut_doctrine
+	martial=7 diplomacy=4 stewardship=6 intrigue=6 learning=8
+	add_trait=charismatic_negotiator
+	trait=bloodline_firstdox add_trait=scholar add_trait=humble add_trait=wroth add_trait=gregarious 
+	add_trait=greedy add_trait=temperate add_trait=lunatic 
+	father=73
+	3128.7.10={ birth=yes }
+	3199.4.9={ death=yes }
+}
+76={
+	name=Cicero
+	dynasty=4401
+	dna="nampjbmlpfb"
+	culture=darknut religion=darknut_doctrine
+	martial=6 diplomacy=6 stewardship=4 intrigue=4 learning=8
+	add_trait=scholarly_theologian
+	trait=bloodline_firstdox add_trait=gluttonous add_trait=brave add_trait=gregarious add_trait=arbitrary 
+	add_trait=harelip 
+	father=75	#Sun
+	3151.2.4={ birth=yes }
+	3210.8.20={ death=yes }
+}
+77={
+	name=Creuz
+	dynasty=4401
+	dna="jjmajbalpfc"
+	culture=darknut religion=darknut_doctrine
+	martial=6 diplomacy=4 stewardship=8 intrigue=8 learning=8
+	add_trait=detached_priest
+	trait=bloodline_firstdox add_trait=envious add_trait=proud add_trait=deceitful add_trait=gluttonous 
+	add_trait=chaste 
+	father=76	#Cicero
+	3180.10.4={ birth=yes }
+	3224.10.11={ death=yes }
+}
+78={
+	name=Basil
+	dynasty=4401
+	dna="ojoahoalefi"
+	culture=darknut religion=darknut_doctrine
+	martial=4 diplomacy=8 stewardship=4 intrigue=4 learning=6
+	add_trait=misguided_warrior
+	trait=bloodline_firstdox add_trait=lustful add_trait=humble add_trait=cruel 
+	father=77	#Creuz
+	3206.7.7={ birth=yes }
+	3269.3.27={ death=yes }
+}
+79={
+	name=Basil
+	dynasty=4401
+	dna="kboeionlene"
+	culture=darknut religion=darknut_doctrine
+	martial=4 diplomacy=4 stewardship=5 intrigue=8 learning=5
+	add_trait=detached_priest
+	trait=bloodline_firstdox add_trait=zealous add_trait=cruel add_trait=trusting add_trait=craven 
+	father=78	#Basil
+	3234.7.5={ birth=yes }
+	3288.3.25={ death=yes }
+}
+80={
+	name=Lollius
+	dynasty=4401
+	dna="kbjeiomlgne"
+	culture=darknut religion=darknut_doctrine
+	martial=7 diplomacy=8 stewardship=6 intrigue=4 learning=5
+	add_trait=grey_eminence
+	trait=bloodline_firstdox add_trait=envious add_trait=lustful add_trait=craven 
+	father=79	#Basil
+	3262.12.7={ birth=yes }
+	3323.10.17={ death=yes }
+}
+81={
+	name=Caesar
+	dynasty=4401
+	dna="heppimafmne"
+	culture=darknut religion=darknut_doctrine
+	martial=7 diplomacy=6 stewardship=4 intrigue=4 learning=7
+	add_trait=martial_cleric
+	trait=bloodline_firstdox add_trait=envious add_trait=zealous add_trait=brave 
+	father=80	#Lollius
+	3287.6.21={ birth=yes }
+	3353.5.26={ death=yes }
+}
 
 
 

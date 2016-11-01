@@ -1249,14 +1249,15 @@ doctrine = {
 		peace_prestige_loss = yes
 		allow_viking_invasion = yes
 		can_excommunicate = yes
-		
+		max_wives = 3		
+		max_consorts = 4
 		high_god_name = THE_CODE
 		god_names = {
 		THE_CODE 
 		}
 		
-		religious_clothing_head = 7
-		religious_clothing_priest = 7
+		religious_clothing_head = 6
+		religious_clothing_priest = 6
 		aggression = 2.0
 	} 
 	pirate_doctrine = {

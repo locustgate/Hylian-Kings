@@ -1202,7 +1202,7 @@ e_hyrule_central = {
 		d_lon_lon_hill = {
 			color={ 19 63 158 }
 			color2={ 255 255 255 }
-			capital = 179 # Look below
+			capital = 453 # Look below
 			c_lon_lon_hill = {
 				color={ 19 63 158 }
 				color2={ 255 255 255 }				
@@ -1211,6 +1211,14 @@ e_hyrule_central = {
 				b_farmers_town = {}
 				b_farmers_temple = {}
 			}
+		}
+	}
+	d_castle_town = {	
+		color={ 2 0 174 }
+		color2={ 206 15 15 }
+		capital = 481 # Hyrule Castle
+		allow = {
+			culture = hyrulean
 		}
 	}
 }
@@ -1348,7 +1356,7 @@ e_mudora = { #empire
 		d_eastern_mudora = {
 			color={ 0 170 0 }
 			color2={ 255 255 255 }
-			capital = 423 # Middlesex
+			capital = 433 # Middlesex
 			c_mudora_hills = {
 				color={ 0 170 0 }
 				color2={ 255 255 255 }
@@ -1866,6 +1874,7 @@ e_saria = { #empire
 		color2={ 255 255 23 }
 		capital = 196 # Middlesex
 		dignity = 10 # Counted as having this many more counties than it does
+		capital = 196
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -2162,11 +2171,12 @@ e_moria = {#empire
 		d_camlain = {
 			color={ 119 136 153 }
 			color2={ 47 79 79 }
+			capital = 49
 			
 			c_ambadon = {
 				color={ 119 136 153 }
 				color2={ 47 79 79 }
-				capital = 49
+				
 				b_ambadon = {}
 				b_tanon = {}
 				b_lilan = {}
@@ -5490,7 +5500,7 @@ e_labrynna = {
 e_calatia = {
 		color={ 78 116 197 }
 		color2={ 160 176 87 }
-		capital = 950
+		capital = 794
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -5518,11 +5528,11 @@ e_calatia = {
 					}
 				}
 			}
-			capital = 950
+			capital = 794
 			d_calatia = {
 				color={ 150 75 75 }
 				color2={ 255 255 255 }			
-				capital = 950
+				capital = 794
 				c_calatia = {
 					color={ 150 75 75 }
 					color2={ 255 255 255 }	
@@ -9075,7 +9085,7 @@ k_bastion = {
 k_myrddin = {
 	color={ 135 206 255 }
 	color2={ 154 50 205 }
-	capital = 216
+	capital = 791
 	allow = {
 		hidden_tooltip = {
 			OR = {

@@ -78,3 +78,124 @@ patron_farore = {
 #priest
 #judge = {
 #}
+##sympathy
+sympathy_goddesses_religion = {
+	opposites =  {
+		zealous
+	}
+	
+	potential = {
+		NOR = { religion_group = alien_religion 
+			religion_group = demon_religion
+		}
+	}
+
+	tolerates_goddesses_religion = yes		# Tolerates and is tolerated by Christians
+	
+	same_opinion_if_same_religion = 5
+
+	customizer = no
+	random = no
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+sympathy_guardian_deity = {
+	opposites =  {
+		zealous
+	}
+	
+	potential = {
+		NOR = { religion_group = alien_religion 
+			religion_group = demon_religion
+		}
+	}
+
+	tolerates_guardian_deity = yes		# Tolerates and is tolerated by Christians
+	
+	same_opinion_if_same_religion = 5
+
+	customizer = no
+	random = no
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+sympathy_minor_deity = {
+	opposites =  {
+		zealous
+	}
+	
+	potential = {
+		NOR = { religion_group = alien_religion 
+			religion_group = demon_religion
+		}
+	}
+
+	tolerates_minor_deity = yes		# Tolerates and is tolerated by Christians
+	
+	same_opinion_if_same_religion = 5
+
+	customizer = no
+	random = no
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+sympathy_doctrine = {
+	opposites =  {
+		zealous
+	}
+	
+	potential = {
+		NOR = { religion_group = alien_religion 
+			religion_group = demon_religion
+		}
+	}
+
+	tolerates_doctrine = yes		# Tolerates and is tolerated by Christians
+	
+	same_opinion_if_same_religion = 5
+
+	customizer = no
+	random = no
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+sympathy_alien_religion = {
+	opposites =  {
+		zealous
+	}
+	
+	potential = {
+		NOR = { religion_group = alien_religion 
+			religion_group = demon_religion
+		}
+	}
+
+	tolerates_alien_religion = yes		# Tolerates and is tolerated by Christians
+	
+	same_opinion_if_same_religion = 5
+
+	customizer = no
+	random = no
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}

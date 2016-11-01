@@ -250,8 +250,8 @@ title_mighty = { #given to the strongest, sometimes the most skilled in command
 				trait = robust
 			}
 			martial = 15
-			duelist
-			strategist
+			trait = duelist
+			trait = strategist
 			
 		}
 		is_adult = yes
