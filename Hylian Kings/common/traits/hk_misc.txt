@@ -138,11 +138,12 @@ knight_moria = {
 	customizer = no
 }
 sage_light = {
+	cached = yes
 	learning = 4
 	diplomacy = 2
 	
 	immortal = yes
-	general_opinion_opinion = 20
+	general_opinion = 20
 	combat_rating = 2
 }
 #learned traits

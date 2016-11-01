@@ -2,7 +2,7 @@ namespace = triforce
 
 character_event = {
 	id = triforce.0
-	desc = "DESC_TF.0"
+	desc = "DESC_TF0"
 	picture = "GFX_evt_comet"
 	
 	min_age = 9
@@ -16,7 +16,7 @@ character_event = {
 		NOT = { trait = triforce_wisdom }
 		NOR = { trait = weak 
 				trait = feeble }
-		NOT = { religion_group = demon_group }
+		NOT = { religion_group = demon_religion }
 		NOR= {
 			triforce_power = {
 				is_alive = yes
@@ -103,7 +103,7 @@ character_event = {
 }
 character_event = {
 	id = triforce.1
-	desc = "DESC_TF.1"
+	desc = "DESC_TF1"
 	picture = "GFX_evt_comet"
 	
 	min_age = 9
@@ -121,7 +121,7 @@ character_event = {
 				trait = weak 
 				trait = proud	
 				trait = arbitrary }
-		NOT = { religion_group = demon_group }
+		NOT = { religion_group = demon_religion }
 		NOR= {
 			triforce_courage = {
 				is_alive = yes
@@ -240,7 +240,7 @@ character_event = {
 }
 character_event = {
 	id = triforce.2
-	desc = "DESC_TF.2"
+	desc = "DESC_TF2"
 	picture = "GFX_evt_comet"
 	
 	min_age = 9
@@ -254,7 +254,7 @@ character_event = {
 		NOT = { trait = triforce_wisdom }
 		NOR = { trait = slow 
 				trait = imbecile }
-		NOT = { religion_group = demon_group }
+		NOT = { religion_group = demon_religion }
 		NOR= {
 			triforce_wisdom = {
 				is_alive = yes
@@ -386,7 +386,7 @@ character_event = {
 
 character_event = {
 	id = triforce.3
-	desc = "DESC_TF.3"
+	desc = "DESC_TF3"
 	picture = "GFX_evt_comet"
 	
 	trigger = {
@@ -453,7 +453,7 @@ character_event = {
 
 character_event = {
 	id = triforce.10
-	desc = "DESC_TF.10"
+	desc = "DESC_TF10"
 	picture = "GFX_evt_comet"
 	
 	is_triggered_only = yes
@@ -477,7 +477,7 @@ character_event = {
 
 character_event = {
 	id = triforce.11
-	desc = "DESC_TF.11"
+	desc = "DESC_TF11"
 	picture = "GFX_evt_comet"
 	
 	is_triggered_only = yes
@@ -494,7 +494,7 @@ character_event = {
 }
 character_event = {
 	id = triforce.20
-	desc = "DESC_TF.20"
+	desc = "DESC_TF20"
 	picture = "GFX_evt_comet"
 	
 	is_triggered_only = yes
@@ -536,7 +536,7 @@ character_event = {
 }
 character_event = {
 	id = triforce.21
-	desc = "DESC_TF.21"
+	desc = "DESC_TF21"
 	picture = "GFX_evt_comet"
 	
 	is_triggered_only = yes
@@ -553,7 +553,7 @@ character_event = {
 }
 character_event = {
 	id = triforce.22
-	desc = "DESC_TF.22"
+	desc = "DESC_TF22"
 	picture = "GFX_evt_comet"
 	
 	is_triggered_only = yes
@@ -572,7 +572,7 @@ character_event = {
 }
 character_event = {
 	id = triforce.23
-	desc = "DESC_TF.23"
+	desc = "DESC_TF23"
 	picture = "GFX_evt_comet"
 	
 	is_triggered_only = yes
@@ -594,7 +594,7 @@ character_event = {
 }
 character_event = {
 	id = triforce.24
-	desc = "DESC_TF.24"
+	desc = "DESC_TF24"
 	picture = "GFX_evt_comet"
 	
 	is_triggered_only = yes

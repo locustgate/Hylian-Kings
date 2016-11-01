@@ -139,8 +139,8 @@ targetted_decisions = {
 					if = {
 						limit = {
 							is_close_relative = ROOT
-							NOT = { religion = messalian }
-							NOT = { religion = zoroastrian }
+							#NOT = { religion = messalian }
+							#NOT = { religion = zoroastrian }
 						}
 						character_event = { id = WoL.102 days = 1 } # Warning - Incest scandal risk
 						break = yes
@@ -156,7 +156,7 @@ targetted_decisions = {
 					
 					if = {
 						limit = {
-							religion_group = christian
+							religion_group = goddesses_religion
 							OR = {
 								is_priest = yes
 								trait = monk
@@ -628,11 +628,11 @@ targetted_decisions = {
 				factor = 0
 				is_rival = FROM
 			}
-			modifier = {
-				factor = 0
-				trait = decadent
-				religion_group = muslim
-			}
+			#modifier = {
+			#	factor = 0
+			#	trait = decadent
+			#	religion_group = muslim
+			#}
 		}
 	}
 
@@ -678,7 +678,7 @@ targetted_decisions = {
 				war = no
 				NOT = { has_character_modifier = party_timer }
 				OR = {
-					NOT = { religion_group = muslim }
+					#NOT = { religion_group = muslim }
 					trait = decadent
 					trait = hedonist
 					trait = drunkard
@@ -750,12 +750,12 @@ targetted_decisions = {
 			}
 			OR = {
 				is_female = no
-				religion_group = pagan_group
+				religion_group = goddesses_religion
 				is_nomadic = yes
-				religion = cathar
-				religion = buddhist
-				religion = bogomilist
-				religion = messalian
+				#religion = cathar
+				#religion = buddhist
+				#religion = bogomilist
+				#religion = messalian
 			}
 		}
 		
@@ -781,13 +781,13 @@ targetted_decisions = {
 							religion = ROOT
 						}
 					}
-					AND = {
-						religion_group = muslim
-						trait = zealous
-						ROOT = {
-							trait = decadent
-						}
-					}
+					#AND = {
+					#	religion_group = muslim
+					#	trait = zealous
+					#	ROOT = {
+					#		trait = decadent
+					#	}
+					#}
 				}
 				NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_fled_duel } }
 			}
@@ -822,17 +822,17 @@ targetted_decisions = {
 						FROM = { 
 							OR = {
 								is_nomadic = yes
-								religion_group = pagan_group
-								religion = cathar
-								religion = buddhist
-								religion = bogomilist
-								religion = messalian
+								religion_group = goddesses_religion
+								#religion = cathar
+								#religion = buddhist
+								#religion = bogomilist
+								#religion = messalian
 							}
 						}
 					} ### Not priest or challenger religion is pagan
 					OR = {
 						is_priest = no
-						FROM = { religion_group = pagan_group }
+						FROM = { religion_group = demon_religion }
 					}
 				}
 			}
@@ -924,9 +924,15 @@ targetted_decisions = {
 			}
 			FROM = {
 				if = {
-					limit = { religion = jain }
+					limit = { 
+						OR = {
+							religion = great_deku
+							religion = great_fairy
+							religion = light_force
+						}
+					}
 					piety = -20
-					custom_tooltip = { text = jain_ahimsa_tooltip }
+					#custom_tooltip = { text = jain_ahimsa_tooltip }
 				}
 				add_character_modifier = {
 					modifier = recent_duel_timer

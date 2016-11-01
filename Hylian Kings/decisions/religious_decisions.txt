@@ -95,7 +95,13 @@ decisions = {
 			is_ruler = yes
 			prisoner = no
 			is_adult = yes
-			religion = light_force
+			OR = {
+				religion = light_force
+				AND = {
+					has_title = k_hyrule_minish
+					religion = golden_goddesses
+				}
+			}
 			has_world_flag = era_force
 			NOT = {
 				has_character_modifier = holding_religious_feastival

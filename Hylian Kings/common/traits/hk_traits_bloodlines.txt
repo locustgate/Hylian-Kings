@@ -1,31 +1,100 @@
 #starting
 bloodline_goddess = {
+	agnatic = yes
+	cached = yes
 	opposites = {
+		bloodline_ambi
+		bloodline_betrayers
+		bloodline_debon
+		bloodline_dragonslayer
+		bloodline_firstborn
+		bloodline_firstdox
+		bloodline_ganondorf
 		bloodline_hero
+		bloodline_light
+		bloodline_lonlon
+		bloodline_sage		
 	}
 	diplomacy = 2
 	learning = 1
 	monthly_character_prestige  = 0.1
 }
 bloodline_hero = {
+	agnatic = yes
+	cached = yes
 	opposites = {
-	bloodline_goddess 
+		bloodline_ambi
+		bloodline_betrayers
+		bloodline_debon
+		bloodline_dragonslayer
+		bloodline_firstborn
+		bloodline_firstdox
+		bloodline_ganondorf
+		bloodline_goddess
+		bloodline_light
+		bloodline_lonlon
+		bloodline_sage		
 	}
 	martial = 2
 	
 	combat_rating = 1
 }
 bloodline_lonlon = {
+	agnatic = yes
+	cached = yes
+	opposites = {
+		bloodline_ambi
+		bloodline_betrayers
+		bloodline_debon
+		bloodline_dragonslayer
+		bloodline_firstborn
+		bloodline_firstdox
+		bloodline_ganondorf
+		bloodline_hero
+		bloodline_light
+		bloodline_goddess
+		bloodline_sage		
+	}
 	stewardship = 3
 	monthly_character_prestige  = -0.025
 }
 bloodline_debon = {
+	agnatic = yes
+	cached = yes
+	opposites = {
+		bloodline_ambi
+		bloodline_betrayers
+		bloodline_goddess
+		bloodline_dragonslayer
+		bloodline_firstborn
+		bloodline_firstdox
+		bloodline_ganondorf
+		bloodline_hero
+		bloodline_light
+		bloodline_lonlon
+		bloodline_sage		
+	}
 	learning = 1
 	diplomacy = 1
 	monthly_character_prestige  = 0.1
 }
-#not direct descendents or ra, ‘adopted/educated’
+#sages
 bloodline_light = { #rarau
+	agnatic = yes
+	cached = yes
+	opposites = {
+		bloodline_ambi
+		bloodline_betrayers
+		bloodline_debon
+		bloodline_dragonslayer
+		bloodline_firstborn
+		bloodline_firstdox
+		bloodline_ganondorf
+		bloodline_hero
+		bloodline_goddess
+		bloodline_lonlon
+		bloodline_sage		
+	}
 	learning = 2
 	health = 0.5
 	
@@ -33,8 +102,47 @@ bloodline_light = { #rarau
 	
 	ai_honor = 10
 }
-bloodline_sage = { #expand at later date
+bloodline_light = { #rarau
+	agnatic = yes
+	cached = yes
+	opposites = {
+		bloodline_ambi
+		bloodline_betrayers
+		bloodline_debon
+		bloodline_dragonslayer
+		bloodline_firstborn
+		bloodline_firstdox
+		bloodline_ganondorf
+		bloodline_hero
+		bloodline_goddess
+		bloodline_lonlon
+		bloodline_sage		
+	}
 	learning = 2
+	health = 0.5
+	
+	monthly_character_piety = 0.1
+	
+	ai_honor = 10
+}
+bloodline_shadow = {
+	agnatic = yes
+	cached = yes
+	opposites = {
+		bloodline_ambi
+		bloodline_betrayers
+		bloodline_debon
+		bloodline_dragonslayer
+		bloodline_firstborn
+		bloodline_firstdox
+		bloodline_ganondorf
+		bloodline_hero
+		bloodline_goddess
+		bloodline_lonlon
+		bloodline_sage		
+	}
+	intrigue = 2
+	health = 0.5
 	
 	monthly_character_piety = 0.1
 	
@@ -42,14 +150,41 @@ bloodline_sage = { #expand at later date
 }
 #demise’s creations, his first of each ‘breed’
 bloodline_firstborn = {
+	agnatic = yes
+	cached = yes
+	opposites = {
+		bloodline_ambi
+		bloodline_betrayers
+		bloodline_debon
+		bloodline_dragonslayer
+		bloodline_goddess
+		bloodline_firstdox
+		bloodline_ganondorf
+		bloodline_hero
+		bloodline_light
+		bloodline_lonlon
+		bloodline_sage		
+	}
 	Martial = 2
 	monthly_character_prestige  = 0.1
 	ai_honor = -10
 }
 #Firstdox Caesar
 bloodline_firstdox = {
+	agnatic = yes
+	cached = yes
 	opposites = {
+		bloodline_ambi
 		bloodline_betrayers
+		bloodline_debon
+		bloodline_dragonslayer
+		bloodline_firstborn
+		bloodline_goddess
+		bloodline_ganondorf
+		bloodline_hero
+		bloodline_light
+		bloodline_lonlon
+		bloodline_sage		
 	}
 	diplomacy = 2
 	martial = 1
@@ -60,6 +195,22 @@ bloodline_firstdox = {
 }
 #Batraux blood of a former demon and advisor and ally to the Jakamara bloodline_
 bloodline_batreaux = {
+	agnatic = yes
+	cached = yes
+	opposites = {
+		bloodline_goddess
+		bloodline_ambi
+		bloodline_betrayers
+		bloodline_debon
+		bloodline_dragonslayer
+		bloodline_firstborn
+		bloodline_firstdox
+		bloodline_ganondorf
+		bloodline_hero
+		bloodline_light
+		bloodline_lonlon
+		bloodline_sage	
+	}
 	health = 0.5
 	learning = 2
 	diplomacy = 1
@@ -69,8 +220,20 @@ bloodline_batreaux = {
 }
 ##badblood
 bloodline_betrayers = {
+	agnatic = yes
+	cached = yes
 	opposites = {
+		bloodline_ambi
+		bloodline_goddess
+		bloodline_debon
+		bloodline_dragonslayer
+		bloodline_firstborn
 		bloodline_firstdox
+		bloodline_ganondorf
+		bloodline_hero
+		bloodline_light
+		bloodline_lonlon
+		bloodline_sage		
 	}
 	intrigue = 1
 	martial = 2
@@ -84,18 +247,63 @@ bloodline_betrayers = {
 ##bookmark only
 #OOT
 bloodline_ganondorf = {
+	agnatic = yes
+	cached = yes
+	opposites = {
+		bloodline_ambi
+		bloodline_betrayers
+		bloodline_debon
+		bloodline_dragonslayer
+		bloodline_firstborn
+		bloodline_firstdox
+		bloodline_goddess
+		bloodline_hero
+		bloodline_light
+		bloodline_lonlon
+		bloodline_sage		
+	}
 	martial = 2
 	intrigue = 1
 	ai_honor = -10
 }
 #daruni's ancestor slew v
 bloodline_dragonslayer = {
+	agnatic = yes
+	cached = yes
+	opposites = {
+		bloodline_ambi
+		bloodline_betrayers
+		bloodline_debon
+		bloodline_goddess
+		bloodline_firstborn
+		bloodline_firstdox
+		bloodline_ganondorf
+		bloodline_hero
+		bloodline_light
+		bloodline_lonlon
+		bloodline_sage		
+	}
 	martial = 2
 	
 	monthly_character_prestige = 1
 }
 #ambi founder of labrynna
 bloodline_ambi = {
+	agnatic = yes
+	cached = yes
+	opposites = {
+		bloodline_goddess
+		bloodline_betrayers
+		bloodline_debon
+		bloodline_dragonslayer
+		bloodline_firstborn
+		bloodline_firstdox
+		bloodline_ganondorf
+		bloodline_hero
+		bloodline_light
+		bloodline_lonlon
+		bloodline_sage		
+	}
 	diplomacy = 2
 	learning = 1
 	

@@ -17,7 +17,7 @@ character_event = {
 	}
 	option = {
 		name = "OPITEMGENERAL" #I want to go to the general store
-		FROM = { character_event = { id = item.9 }	}
+		FROM = { character_event = { id = item.5 }	}
 	}
 #	option = {
 #		name = "OPITEMCLOTHING" #I want to go to the general store

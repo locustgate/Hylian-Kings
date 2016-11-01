@@ -832,7 +832,7 @@ character_event = {
 				trigger_switch = {
 					on_trigger = religion_group
 					christian 			= { FROM = { add_trait = sympathy_goddesses_religion } }
-					muslim 				= { FROM = { add_trait = sympathy_islam } }
+					#muslim 				= { FROM = { add_trait = sympathy_islam } }
 					pagan_group 		= { FROM = { add_trait = sympathy_minor_deity } }
 					zoroastrian_group 	= { FROM = { add_trait = sympathy_guardian_deity } }
 					jewish_group 		= { FROM = { add_trait = sympathy_doctrine } }
@@ -912,37 +912,37 @@ character_event = {
 					owner = {
 						OR = {
 							AND = {
-								religion_group = christian
+								religion_group = goddesses_religion
 								ROOT = {
 									trait = sympathy_goddesses_religion
 								}
 							}
+							#AND = {
+							#	religion_group = muslim
+							#	ROOT = {
+							#		trait = sympathy_islam
+							#	}
+							#}
 							AND = {
-								religion_group = muslim
-								ROOT = {
-									trait = sympathy_islam
-								}
-							}
-							AND = {
-								religion_group = pagan_group
+								religion_group = minor_deity
 								ROOT = {
 									trait = sympathy_minor_deity
 								}
 							}
 							AND = {
-								religion_group = zoroastrian_group
+								religion_group = guardian_deity
 								ROOT = {
 									trait = sympathy_guardian_deity
 								}
 							}
 							AND = {
-								religion_group = jewish_group
+								religion_group = doctrine
 								ROOT = {
 									trait = sympathy_doctrine
 								}
 							}
 							AND = {
-								religion_group = indian_group
+								religion_group = alien_religion
 								ROOT = {
 									trait = sympathy_alien_religion
 								}
@@ -1007,7 +1007,7 @@ character_event = {
 						}
 						ROOT = {
 							if = { limit = { trait = sympathy_goddesses_religion } remove_trait = sympathy_goddesses_religion }
-							if = { limit = { trait = sympathy_islam } remove_trait = sympathy_islam }
+							#if = { limit = { trait = sympathy_islam } remove_trait = sympathy_islam }
 							if = { limit = { trait = sympathy_minor_deity } remove_trait = sympathy_minor_deity }
 							if = { limit = { trait = sympathy_guardian_deity } remove_trait = sympathy_guardian_deity }
 							if = { limit = { trait = sympathy_doctrine } remove_trait = sympathy_doctrine }
@@ -1020,7 +1020,7 @@ character_event = {
 									trigger_switch = {
 										on_trigger = religion_group
 										christian 			= { ROOT = { add_trait = sympathy_goddesses_religion } }
-										muslim 				= { ROOT = { add_trait = sympathy_islam } }
+										#muslim 				= { ROOT = { add_trait = sympathy_islam } }
 										pagan_group 		= { ROOT = { add_trait = sympathy_minor_deity } }
 										zoroastrian_group 	= { ROOT = { add_trait = sympathy_guardian_deity } }
 										jewish_group 		= { ROOT = { add_trait = sympathy_doctrine } }

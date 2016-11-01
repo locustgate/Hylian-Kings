@@ -555,90 +555,90 @@ character_event = {
 			}
 		}
 		### Controls religion
-		if = {
-			limit = { 
-				has_character_flag = pope_eater	
-				NOT = { trait = sympathy_goddesses_religion }
-			}
-			if = {
-				limit = {
-					trait = zealous
-				}
-				remove_trait = zealous
-			}
-			add_trait = sympathy_goddesses_religion
-		}
-		if = {
-			limit = { 
-				has_character_flag = caliph_eater	
-				#NOT = { trait = sympathy_islam }
-			}
-			if = {
-				limit = {
-					trait = zealous
-				}
-				remove_trait = zealous
-			}
-			add_trait = sympathy_islam
-		}
-		if = {
-			limit = { 
-				has_character_flag = fylkir_feast	
-				NOT = { trait = sympathy_minor_deity }
-			}
-			if = {
-				limit = {
-					trait = zealous
-				}
-				remove_trait = zealous
-			}
-			add_trait = sympathy_minor_deity
-		}
-		if = {
-			limit = { 
-				has_character_flag = fire_eater	
-				NOT = { trait = sympathy_guardian_deity }
-			}
-			if = {
-				limit = {
-					trait = zealous
-				}
-				remove_trait = zealous
-			}
-			add_trait = sympathy_guardian_deity
-		}
-		if = {
-			limit = { 
-				has_character_flag = non_kosher	
-				NOT = { trait = sympathy_doctrine }
-			}
-			if = {
-				limit = {
-					trait = zealous
-				}
-				remove_trait = zealous
-			}
-			add_trait = sympathy_doctrine
-		}
-		if = {
-			limit = { 
-				has_character_flag = dont_even_exist	
-				NOT = { trait = sympathy_alien_religion }
-			}
-			if = {
-				limit = {
-					trait = zealous
-				}
-				remove_trait = zealous
-			}
-			add_trait = sympathy_alien_religion
-		}
-		clr_character_flag = pope_eater
-		clr_character_flag = caliph_eater
-		clr_character_flag = fylkir_feast
-		clr_character_flag = fire_eater
-		clr_character_flag = non_kosher
-		clr_character_flag = dont_even_exist
+		#if = {
+		#	limit = { 
+		#		has_character_flag = pope_eater	
+		#		NOT = { trait = sympathy_goddesses_religion }
+		#	}
+		#	if = {
+		#		limit = {
+		#			trait = zealous
+		#		}
+		#		remove_trait = zealous
+		#	}
+		#	add_trait = sympathy_goddesses_religion
+		#}
+		#if = {
+		#	limit = { 
+		#		has_character_flag = caliph_eater	
+		#		#NOT = { trait = sympathy_islam }
+		#	}
+		#	if = {
+		#		limit = {
+		#			trait = zealous
+		#		}
+		#		remove_trait = zealous
+		#	}
+		#	add_trait = sympathy_islam
+		#}
+		#if = {
+		#	limit = { 
+		#		has_character_flag = fylkir_feast	
+		#		NOT = { trait = sympathy_minor_deity }
+		#	}
+		#	if = {
+		#		limit = {
+		#			trait = zealous
+		#		}
+		#		remove_trait = zealous
+		#	}
+		#	add_trait = sympathy_minor_deity
+		#}
+		#if = {
+		#	limit = { 
+		#		has_character_flag = fire_eater	
+		#		NOT = { trait = sympathy_guardian_deity }
+		#	}
+		#	if = {
+		#		limit = {
+		#			trait = zealous
+		#		}
+		#		remove_trait = zealous
+		#	}
+		#	add_trait = sympathy_guardian_deity
+		#}
+		#if = {
+		#	limit = { 
+		#		has_character_flag = non_kosher	
+		#		NOT = { trait = sympathy_doctrine }
+		#	}
+		#	if = {
+		#		limit = {
+		#			trait = zealous
+		#		}
+		#		remove_trait = zealous
+		#	}
+		#	add_trait = sympathy_doctrine
+		#}
+		#if = {
+		#	limit = { 
+		#		has_character_flag = dont_even_exist	
+		#		NOT = { trait = sympathy_alien_religion }
+		#	}
+		#	if = {
+		#		limit = {
+		#			trait = zealous
+		#		}
+		#		remove_trait = zealous
+		#	}
+		#	add_trait = sympathy_alien_religion
+		#}
+		#clr_character_flag = pope_eater
+		#clr_character_flag = caliph_eater
+		#clr_character_flag = fylkir_feast
+		#clr_character_flag = fire_eater
+		#clr_character_flag = non_kosher
+		#clr_character_flag = dont_even_exist
 	}
 }
 

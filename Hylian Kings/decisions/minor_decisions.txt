@@ -10,9 +10,9 @@ decisions = {
 			}
 			prisoner = no
 			OR = {
-				religion_group = christian
-				religion_group = zoroastrian_group
-				religion_group = jewish_group
+				religion_group = goddesses_religion
+				religion_group = minor_deity
+				religion_group = doctrine
 			}
 			NOT = {
 				has_character_modifier = holding_large_feast
@@ -100,7 +100,7 @@ decisions = {
 	summer_fair = {
 		potential = {
 			is_ruler = yes
-			religion_group = christian
+			religion_group = goddesses_religion
 			prisoner = no
 			NOT = {
 				has_character_modifier = holding_summer_fair
@@ -194,16 +194,16 @@ decisions = {
 			is_female = no
 			prisoner = no
 			OR = {
-				religion_group = christian
-				religion_group = pagan_group
+				religion_group = goddesses_religion
+				religion_group = minor_deity
 			}
-			NOT = {
-				OR = {
-					has_landed_title = e_mongol_empire
-					has_landed_title = e_golden_horde
-					has_landed_title = e_il-khanate
-				}
-			}
+			#NOT = {
+			#	OR = {
+			#		has_landed_title = e_mongol_empire
+			#		has_landed_title = e_golden_horde
+			#		has_landed_title = e_il-khanate
+			#	}
+			#}
 			NOT = {	has_character_modifier = holding_grand_hunt }
 			OR = {
 				NOT = { has_dlc = "Way of Life" }
@@ -278,74 +278,74 @@ decisions = {
 		}
 	}
 	
-	hold_tiger_hunt = {
-		potential = {
-			has_dlc = "Rajas of India"
-			is_ruler = yes
-			age = 16
-			prisoner = no
-			num_of_vassals = 1
-			capital_scope = {
-				region = world_india
-			}
-			NOT = { has_character_flag = holding_tiger_hunt }
-			NOT = { has_character_modifier = hunt_timer }
-		}
-		allow = {
-			war = no
-			any_demesne_title = {
-				is_occupied = no
-			}
-			NOT = { month = 10 }
-			wealth = 25
-			NOT = {	trait = incapable }
-			NOT = { trait = in_hiding }
-			prisoner = no
-			NOT = { religion = jain }
-			custom_tooltip = {
-				text = is_not_busy_trigger_tooltip
-				hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
-			}
-		}
-		effect = {
-			wealth = -25
-			set_character_flag = holding_tiger_hunt
-			set_character_flag = recent_minor_decision
-			set_character_flag = do_not_disturb
-			hidden_tooltip = { character_event = { id = RoI.2000 } }
-		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 0
-				NOT = { wealth = 50 }
-			}
-			modifier = {
-				factor = 0
-				NOT = { wealth = 200 }
-				NOT = { has_focus = focus_hunting }
-			}
-			modifier = {
-				factor = 0
-				NOT = { martial = 10 }
-				NOT = { has_focus = focus_hunting }
-			}
-			modifier = {
-				factor = 0
-				has_character_flag = recent_minor_decision
-				NOT = {
-					had_character_flag = {
-						flag = recent_minor_decision
-						days = 730
-					}
-				}
-			}				
-		}
-	}
+	#hold_tiger_hunt = {
+	#	potential = {
+	#		has_dlc = "Rajas of India"
+	#		is_ruler = yes
+	#		age = 16
+	#		prisoner = no
+	#		num_of_vassals = 1
+	#		capital_scope = {
+	#			region = world_india
+	#		}
+	#		NOT = { has_character_flag = holding_tiger_hunt }
+	#		NOT = { has_character_modifier = hunt_timer }
+	#	}
+	#	allow = {
+	#		war = no
+	#		any_demesne_title = {
+	#			is_occupied = no
+	#		}
+	#		NOT = { month = 10 }
+	#		wealth = 25
+	#		NOT = {	trait = incapable }
+	#		NOT = { trait = in_hiding }
+	#		prisoner = no
+	#		NOT = { religion = jain }
+	#		custom_tooltip = {
+	#			text = is_not_busy_trigger_tooltip
+	#			hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
+	#		}
+	#	}
+	#	effect = {
+	#		wealth = -25
+	#		set_character_flag = holding_tiger_hunt
+	#		set_character_flag = recent_minor_decision
+	#		set_character_flag = do_not_disturb
+	#		hidden_tooltip = { character_event = { id = RoI.2000 } }
+	#	}
+	#	revoke_allowed = {
+	#		always = no
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#		
+	#		modifier = {
+	#			factor = 0
+	#			NOT = { wealth = 50 }
+	#		}
+	#		modifier = {
+	#			factor = 0
+	#			NOT = { wealth = 200 }
+	#			NOT = { has_focus = focus_hunting }
+	#		}
+	#		modifier = {
+	#			factor = 0
+	#			NOT = { martial = 10 }
+	#			NOT = { has_focus = focus_hunting }
+	#		}
+	#		modifier = {
+	#			factor = 0
+	#			has_character_flag = recent_minor_decision
+	#			NOT = {
+	#				had_character_flag = {
+	#					flag = recent_minor_decision
+	#					days = 730
+	#				}
+	#			}
+	#		}				
+	#	}
+	#}
 			
 	# Build an observatory (learning focus)
 	build_observatory = {

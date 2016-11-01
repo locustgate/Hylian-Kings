@@ -2997,7 +2997,7 @@ character_event = {
 						}
 						trait = cynical
 						trait = sympathy_goddesses_religion
-						trait = sympathy_islam
+						#trait = sympathy_islam
 						trait = sympathy_minor_deity
 						trait = sympathy_guardian_deity
 						trait = sympathy_doctrine
@@ -3027,47 +3027,47 @@ character_event = {
 					set_character_flag = add_sympathy_goddesses_religion
 					modifier = {
 						factor = 0
-						religion_group = christian
+						religion_group = goddesses_religion
 					}
 					modifier = {
 						factor = 0
 						NOR = {
-							educator = { religion_group = christian }
-							location = { religion_group = christian } 
-							any_friend = { religion_group = christian }
-							any_sibling = { religion_group = christian } 
+							educator = { religion_group = goddesses_religion }
+							location = { religion_group = goddesses_religion } 
+							any_friend = { religion_group = goddesses_religion }
+							any_sibling = { religion_group = goddesses_religion } 
 						}
 					}
 				}
-				10 = {
-					set_character_flag = add_sympathy_islam
-					modifier = {
-						factor = 0
-						religion_group = muslim
-					}
-					modifier = {
-						factor = 0
-						NOR = {
-							educator = { religion_group = muslim }
-							location = { religion_group = muslim } 
-							any_friend = { religion_group = muslim }
-							any_sibling = { religion_group = muslim }
-						}
-					}
-				}
+				#10 = {
+				#	set_character_flag = add_sympathy_islam
+				#	modifier = {
+				#		factor = 0
+				#		religion_group = muslim
+				#	}
+				#	modifier = {
+				#		factor = 0
+				#		NOR = {
+				#			educator = { religion_group = muslim }
+				#			location = { religion_group = muslim } 
+				#			any_friend = { religion_group = muslim }
+				#			any_sibling = { religion_group = muslim }
+				#		}
+				#	}
+				#}
 				10 = {
 					set_character_flag = add_sympathy_minor_deity
 					modifier = {
 						factor = 0
-						religion_group = pagan_group
+						religion_group = minor_deity
 					}
 					modifier = {
 						factor = 0
 						NOR = {
-							educator = { religion_group = pagan_group }
-							location = { religion_group = pagan_group } 
-							any_friend = { religion_group = pagan_group } 
-							any_sibling = { religion_group = pagan_group } 
+							educator = { religion_group = minor_deity }
+							location = { religion_group = minor_deity } 
+							any_friend = { religion_group = minor_deity } 
+							any_sibling = { religion_group = minor_deity } 
 						}
 					}
 				}
@@ -3075,15 +3075,15 @@ character_event = {
 					set_character_flag = add_sympathy_guardian_deity
 					modifier = {
 						factor = 0
-						religion_group = zoroastrian_group
+						religion_group = guardian_dety
 					}
 					modifier = {
 						factor = 0
 						NOR = {
-							educator = { religion_group = zoroastrian_group }
-							location = { religion_group = zoroastrian_group }
-							any_friend = { religion_group = zoroastrian_group }
-							any_sibling = { religion_group = zoroastrian_group }
+							educator = { religion_group = guardian_dety }
+							location = { religion_group = guardian_dety }
+							any_friend = { religion_group = guardian_dety }
+							any_sibling = { religion_group = guardian_dety }
 						}
 					}
 				}
@@ -3091,15 +3091,15 @@ character_event = {
 					set_character_flag = add_sympathy_doctrine
 					modifier = {
 						factor = 0
-						religion_group = jewish_group
+						religion_group = doctrine
 					}
 					modifier = {
 						factor = 0
 						NOR = {
-							educator = { religion_group = jewish_group }
-							location = { religion_group = jewish_group }
-							any_friend = { religion_group = jewish_group }
-							any_sibling = { religion_group = jewish_group }
+							educator = { religion_group = doctrine }
+							location = { religion_group = doctrine }
+							any_friend = { religion_group = doctrine }
+							any_sibling = { religion_group = doctrine }
 						}
 					}
 				}
@@ -3107,15 +3107,15 @@ character_event = {
 					set_character_flag = add_sympathy_alien_religion
 					modifier = {
 						factor = 0
-						religion_group = indian_group
+						religion_group = alien_religion
 					}
 					modifier = {
 						factor = 0
 						NOR = {
-							educator = { religion_group = indian_group }
-							location = { religion_group = indian_group }
-							any_friend = { religion_group = indian_group }
-							any_sibling = { religion_group = indian_group }
+							educator = { religion_group = alien_religion }
+							location = { religion_group = alien_religion }
+							any_friend = { religion_group = alien_religion }
+							any_sibling = { religion_group = alien_religion }
 						}
 					}
 				}
@@ -3138,7 +3138,7 @@ character_event = {
 						}
 						trait = cynical
 						trait = sympathy_goddesses_religion
-						trait = sympathy_islam
+						#trait = sympathy_islam
 						trait = sympathy_minor_deity
 						trait = sympathy_guardian_deity
 						trait = sympathy_doctrine
@@ -3242,12 +3242,12 @@ character_event = {
 			add_trait = sympathy_goddesses_religion
 			clr_character_flag = add_sympathy_goddesses_religion
 		}
-		if = {
-			limit = { has_character_flag = add_sympathy_islam }
-			remove_trait = curious
-			add_trait = sympathy_islam
-			clr_character_flag = add_sympathy_islam
-		}
+		#if = {
+		#	limit = { has_character_flag = add_sympathy_islam }
+		#	remove_trait = curious
+		#	add_trait = sympathy_islam
+		#	clr_character_flag = add_sympathy_islam
+		#}
 		if = {
 			limit = { has_character_flag = add_sympathy_minor_deity }
 			remove_trait = curious
@@ -3369,14 +3369,14 @@ character_event = {
 			}
 			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_goddesses_religion } }
 		}
-		if = {
-			limit = {
-				FROM = {
-					has_character_flag = add_sympathy_islam
-				}
-			}
-			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_islam } }
-		}
+		#if = {
+		#	limit = {
+		#		FROM = {
+		#			has_character_flag = add_sympathy_islam
+		#		}
+		#	}
+		#	tooltip = { FROM = { remove_trait = curious add_trait = sympathy_islam } }
+		#}
 		if = {
 			limit = {
 				FROM = {
@@ -3564,11 +3564,11 @@ character_event = {
 			add_trait = sympathy_goddesses_religion
 			clr_character_flag = add_sympathy_goddesses_religion
 		}
-		if = {
-			limit = { has_character_flag = add_sympathy_islam }
-			add_trait = sympathy_islam
-			clr_character_flag = add_sympathy_islam
-		}
+		#if = {
+		#	limit = { has_character_flag = add_sympathy_islam }
+		#	add_trait = sympathy_islam
+		#	clr_character_flag = add_sympathy_islam
+		#}
 		if = {
 			limit = { has_character_flag = add_sympathy_minor_deity }
 			add_trait = sympathy_minor_deity
@@ -3649,7 +3649,7 @@ character_event = {
 						trait = cynical
 						trait = zealous
 						trait = sympathy_goddesses_religion
-						trait = sympathy_islam
+						#trait = sympathy_islam
 						trait = sympathy_minor_deity
 						trait = sympathy_guardian_deity
 						trait = sympathy_doctrine
@@ -3682,7 +3682,7 @@ character_event = {
 						trait = cynical
 						trait = zealous
 						trait = sympathy_goddesses_religion
-						trait = sympathy_islam
+						#trait = sympathy_islam
 						trait = sympathy_minor_deity
 						trait = sympathy_guardian_deity
 						trait = sympathy_doctrine

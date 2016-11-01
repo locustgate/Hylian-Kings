@@ -176,10 +176,10 @@ settlement_decisions = {
 		from_potential = {
 			is_theocracy = yes
 			higher_tier_than = BARON
-			OR = {
-				NOT = { religion_group = pagan_group }
-				is_reformed_religion = yes
-			}
+			#OR = {
+			#	NOT = { religion_group = pagan_group }
+			#	is_reformed_religion = yes
+			#}
 		}
 		
 		potential = {
@@ -559,24 +559,24 @@ settlement_decisions = {
 				ai = yes
 				AND = {
 					OR = {
-						has_dlc = "The Sword of Islam"
-						NOT = { religion_group = muslim }
+						#has_dlc = "The Sword of Islam"
+						NOT = { religion_group = demon_religion #muslim }
 					}
-					OR = {
-						has_dlc = "The Old Gods"
-						NOR = {
-							religion_group = pagan_group
-							religion_group = zoroastrian_group
-						}
-					}
-					OR = {
-						has_dlc = "Sons of Abraham"
-						NOT = { religion_group = jewish_group }
-					}
-					OR = {
-						has_dlc = "Rajas of India"
-						NOT = { religion_group = indian_group }
-					}
+					#OR = {
+					#	has_dlc = "The Old Gods"
+					#	NOR = {
+					#		religion_group = pagan_group
+					#		religion_group = zoroastrian_group
+					#	}
+					#}
+					#OR = {
+					#	has_dlc = "Sons of Abraham"
+					#	NOT = { religion_group = jewish_group }
+					#}
+					#OR = {
+					#	has_dlc = "Rajas of India"
+					#	NOT = { religion_group = indian_group }
+					#}
 				}
 			}
 		}
@@ -754,37 +754,37 @@ settlement_decisions = {
 				ai = yes
 				AND = {
 					OR = {
-						has_dlc = "The Sword of Islam"
-						NOT = { religion_group = muslim }
+						#has_dlc = "The Sword of Islam"
+						NOT = { religion_group = demon_religion#muslim }
 					}
-					OR = {
-						has_dlc = "The Old Gods"
-						NOR = {
-							religion_group = pagan_group
-							religion_group = zoroastrian_group
-						}
-					}
-					OR = {
-						has_dlc = "Sons of Abraham"
-						NOT = { religion_group = jewish_group }
-					}
-					OR = {
-						has_dlc = "Rajas of India"
-						NOT = { religion_group = indian_group }
-					}
+					#OR = {
+					#	has_dlc = "The Old Gods"
+					#	NOR = {
+					#		religion_group = pagan_group
+					#		religion_group = zoroastrian_group
+					#	}
+					#}
+					#OR = {
+					#	has_dlc = "Sons of Abraham"
+					#	NOT = { religion_group = jewish_group }
+					#}
+					#OR = {
+					#	has_dlc = "Rajas of India"
+					#	NOT = { religion_group = indian_group }
+					#}
 				}
 			}
 		}
 		potential = {
 			OR = {
 				holding_type = castle
-				AND =
-				{
-					holding_type = temple
-					holder_scope = {
-						religion_group = muslim
-					}
-				}
+				#AND =
+				#{
+				#	holding_type = temple
+				#	holder_scope = {
+				#		religion_group = muslim
+				#	}
+				#}
 			}
 			holder_scope = {
 				OR = {
@@ -1333,38 +1333,38 @@ settlement_decisions = {
 					}
 				}
 			
-				if = {
-					limit = {
-						NOT = { religion_group = muslim }
-					}
-					
-					if = {
-						limit = {
-							ai = no
-						}
-						chronicle = {
-							entry = CHRONICLE_NOMAD_ADOPTED_FEUDALISM
-							picture = GFX_evt_castle_construction
-						}
-					}
-					set_government_type = feudal_government
-				}
-				if = {
-					limit = {
-						religion_group = muslim
-					}
-					
-					if = {
-						limit = {
-							ai = no
-						}
-						chronicle = {
-							entry = CHRONICLE_NOMAD_ADOPTED_IQTA
-							picture = GFX_evt_castle_construction
-						}
-					}
-					set_government_type = muslim_government
-				}
+				#if = {
+				#	limit = {
+				#		NOT = { religion_group = demon_religion }
+				#	}
+				#	
+				#	if = {
+				#		limit = {
+				#			ai = no
+				#		}
+				#		chronicle = {
+				#			entry = CHRONICLE_NOMAD_ADOPTED_FEUDALISM
+				#			picture = GFX_evt_castle_construction
+				#		}
+				#	}
+				#	set_government_type = feudal_government
+				#}
+				#if = {
+				#	limit = {
+				#		religion_group = muslim
+				#	}
+				#	
+				#	if = {
+				#		limit = {
+				#			ai = no
+				#		}
+				#		chronicle = {
+				#			entry = CHRONICLE_NOMAD_ADOPTED_IQTA
+				#			picture = GFX_evt_castle_construction
+				#		}
+				#	}
+				#	set_government_type = muslim_government
+				#}
 				
 				if = {
 					limit = {
@@ -1473,27 +1473,27 @@ settlement_decisions = {
 			
 			OR = {
 				ai = yes
-				AND = {
-					OR = {
-						has_dlc = "The Sword of Islam"
-						NOT = { religion_group = muslim }
-					}
-					OR = {
-						has_dlc = "The Old Gods"
-						NOR = {
-							religion_group = pagan_group
-							religion_group = zoroastrian_group
-						}
-					}
-					OR = {
-						has_dlc = "Sons of Abraham"
-						NOT = { religion_group = jewish_group }
-					}
-					OR = {
-						has_dlc = "Rajas of India"
-						NOT = { religion_group = indian_group }
-					}
-				}
+				#AND = {
+				#	OR = {
+				#		has_dlc = "The Sword of Islam"
+				#		NOT = { religion_group = muslim }
+				#	}
+				#	OR = {
+				#		has_dlc = "The Old Gods"
+				#		NOR = {
+				#			religion_group = pagan_group
+				#			religion_group = zoroastrian_group
+				#		}
+				#	}
+				#	OR = {
+				#		has_dlc = "Sons of Abraham"
+				#		NOT = { religion_group = jewish_group }
+				#	}
+				#	OR = {
+				#		has_dlc = "Rajas of India"
+				#		NOT = { religion_group = indian_group }
+				#	}
+				#}
 			}
 		}
 		
@@ -2275,6 +2275,5 @@ settlement_decisions = {
 				}
 			}
 		}
-	}
-	
+	}	
 }

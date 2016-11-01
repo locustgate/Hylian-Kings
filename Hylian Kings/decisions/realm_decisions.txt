@@ -553,12 +553,12 @@ decisions = {
 			war = no
 			custom_tooltip = {
 				text = TT_NOT_UNREFORMED_PAGAN
-				hidden_tooltip = {
-					OR = {
-						NOT = { religion_group = pagan_group }
-						is_reformed_religion = yes
-					}
-				}
+				#hidden_tooltip = {
+				#	OR = {
+				#		NOT = { religion_group = pagan_group }
+				#		is_reformed_religion = yes
+				#	}
+				#}
 			}
 			primary_title = { has_law = tribal_organization_4 }
 			capital_holding = {
@@ -627,39 +627,39 @@ decisions = {
 			
 			set_character_flag = achievement_not_a_tribe
 			
-			if = {
-				limit = {
-					NOT = { religion_group = muslim }
-				}
-				
-				if = {
-					limit = {
-						ai = no
-					}
-					chronicle = {
-						entry = CHRONICLE_ADOPTED_FEUDALISM
-						picture = GFX_evt_castle_construction
-					}
-				}
-				set_government_type = feudal_government
-			}
+			#if = {
+			#	limit = {
+			#		NOT = { religion_group = muslim }
+			#	}
+			#	
+			#	if = {
+			#		limit = {
+			#			ai = no
+			#		}
+			#		chronicle = {
+			#			entry = CHRONICLE_ADOPTED_FEUDALISM
+			#			picture = GFX_evt_castle_construction
+			#		}
+			#	}
+			#	set_government_type = feudal_government
+			#}
 			
-			if = {
-				limit = {
-					religion_group = muslim
-				}
-				
-				if = {
-					limit = {
-						ai = no
-					}
-					chronicle = {
-						entry = CHRONICLE_ADOPTED_IQTA
-						picture = GFX_evt_castle_construction
-					}
-				}
-				set_government_type = muslim_government
-			}
+			#if = {
+			#	limit = {
+			#		religion_group = muslim
+			#	}
+			#	
+			#	if = {
+			#		limit = {
+			#			ai = no
+			#		}
+			#		chronicle = {
+			#			entry = CHRONICLE_ADOPTED_IQTA
+			#			picture = GFX_evt_castle_construction
+			#		}
+			#	}
+			#	set_government_type = muslim_government
+			#}
 			
 			if = {
 				limit = {
@@ -686,12 +686,12 @@ decisions = {
 			war = no
 			custom_tooltip = {
 				text = TT_NOT_UNREFORMED_PAGAN
-				hidden_tooltip = {
-					OR = {
-						NOT = { religion_group = pagan_group }
-						is_reformed_religion = yes
-					}
-				}
+				#hidden_tooltip = {
+				#	OR = {
+				#		NOT = { religion_group = pagan_group }
+				#		is_reformed_religion = yes
+				#	}
+				#}
 			}
 			liege = {
 				OR = {
@@ -701,12 +701,12 @@ decisions = {
 						is_theocracy = yes
 						custom_tooltip = {
 							text = TT_NOT_UNREFORMED_PAGAN
-							hidden_tooltip = {
-								OR = {
-									NOT = { religion_group = pagan_group }
-									is_reformed_religion = yes
-								}
-							}
+							#hidden_tooltip = {
+							#	OR = {
+							#		NOT = { religion_group = pagan_group }
+							#		is_reformed_religion = yes
+							#	}
+							#}
 						}
 					}
 				}
@@ -772,39 +772,39 @@ decisions = {
 			
 			set_character_flag = achievement_not_a_tribe
 			
-			if = {
-				limit = {
-					NOT = { religion_group = muslim }
-				}
-				
-				if = {
-					limit = {
-						ai = no
-					}
-					chronicle = {
-						entry = CHRONICLE_ADOPTED_FEUDALISM
-						picture = GFX_evt_castle_construction
-					}
-				}
-				set_government_type = feudal_government
-			}
+			#if = {
+			#	limit = {
+			#		NOT = { religion_group = muslim }
+			#	}
+			#	
+			#	if = {
+			#		limit = {
+			#			ai = no
+			#		}
+			#		chronicle = {
+			#			entry = CHRONICLE_ADOPTED_FEUDALISM
+			#			picture = GFX_evt_castle_construction
+			#		}
+			#	}
+			#	set_government_type = feudal_government
+			#}
 			
-			if = {
-				limit = {
-					religion_group = muslim
-				}
-				
-				if = {
-					limit = {
-						ai = no
-					}
-					chronicle = {
-						entry = CHRONICLE_ADOPTED_IQTA
-						picture = GFX_evt_castle_construction
-					}
-				}
-				set_government_type = muslim_government
-			}
+			#if = {
+			#	limit = {
+			#		religion_group = muslim
+			#	}
+			#	
+			#	if = {
+			#		limit = {
+			#			ai = no
+			#		}
+			#		chronicle = {
+			#			entry = CHRONICLE_ADOPTED_IQTA
+			#			picture = GFX_evt_castle_construction
+			#		}
+			#	}
+			#	set_government_type = muslim_government
+			#}
 		}
 		
 		ai_will_do = {
@@ -814,10 +814,10 @@ decisions = {
 				liege = {
 					OR = {
 						NOT = { religion_group = ROOT }
-						AND = {
-							religion_group = pagan_group
-							NOT = { religion = ROOT }
-						}
+						#AND = {
+						#	religion_group = pagan_group
+						#	NOT = { religion = ROOT }
+						#}
 					}
 				}
 			}
@@ -832,7 +832,7 @@ decisions = {
 				factor = 0.01
 				liege = {
 					religion_group = ROOT
-					NOT = { religion_group = pagan_group }
+					NOT = { religion_group = demon_religion }
 					NOT = { religion = ROOT }
 				}
 			}
@@ -859,12 +859,12 @@ decisions = {
 			higher_tier_than = COUNT
 			custom_tooltip = {
 				text = TT_NOT_UNREFORMED_PAGAN
-				hidden_tooltip = {
-					OR = {
-						NOT = { religion_group = pagan_group }
-						is_reformed_religion = yes
-					}
-				}
+				#hidden_tooltip = {
+				#	OR = {
+				#		NOT = { religion_group = pagan_group }
+				#		is_reformed_religion = yes
+				#	}
+				#}
 			}
 			primary_title = { has_law = tribal_organization_4 }
 			capital_scope = {

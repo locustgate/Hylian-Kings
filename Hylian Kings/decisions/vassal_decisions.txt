@@ -26,6 +26,7 @@ targetted_decisions = {
 			OR = {
 				culture = gerudo
 				culture = darknut
+				culture = wizzrobe
 				religion_group = demon_group
 			}
 		}
@@ -164,6 +165,8 @@ targetted_decisions = {
 			is_ruler = yes	
 			OR = {
 				culture = darknut
+				culture = gerudo
+				culture = sheikah
 				religion_group = demon_group
 			}
 		}
