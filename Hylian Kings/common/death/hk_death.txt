@@ -1,0 +1,18 @@
+#SACRIFICE
+#Update the death_sacrificed_trigger with new death reasons
+death_abandoned = {
+	violent = yes
+	long_desc = "DEATH_ABANDONED"
+	can_nokiller = yes
+	sound_list = {
+		female = {
+			"generic_sacrifice_female_01"
+			"generic_sacrifice_female_02"
+		}
+		male = {
+			"generic_sacrifice_male_01"
+			"generic_sacrifice_male_02"
+
+		}
+	}
+}

@@ -76,3 +76,245 @@ decisions = {
 		}
 	}
 }
+#darknut
+targetted_decisions = {
+	trial_wild = {
+		#only_playable = yes
+		filter = court
+		ai_target_filter = court
+	
+		from_potential = {
+			#is_playable = yes
+			OR = {
+				religion = darknut_doctrine
+			}
+			has_children = yes
+		}
+	
+		potential = {
+			NOT = { is_inaccessible_trigger = yes }
+			is_ruler = no
+			liege = { character = FROM }
+			NOT = { any_spouse = { character = FROM } }
+			OR = {
+				father = { character = FROM }
+				mother = { character = FROM }
+			}
+			OR = {
+				father = { ai = no }
+				mother = { ai = no }
+				is_female = no
+				is_primary_heir = yes
+				AND = {
+					is_female = yes
+					FROM = { has_law = true_cognatic_succession }
+				}
+			}
+			NOR = {
+				trait = nun
+				trait = monk
+				trait = onager
+			}
+			prisoner = no
+			min_age = 0
+			max_age = 6
+			OR = {
+				trait=weak
+				trait=clubfoot
+				trait=sickly
+				trait=hunchback
+				trait=dwarf
+				trait=imbecile
+			}
+			NOT = { has_character_modifier = trial_wild }
+		}
+		effect = {
+			FROM = { character_event = { id = HKR.10 days = 1 } }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				reverse_opinion = { who = FROM value = 40 }
+			}
+			modifier = {
+				factor = 0
+				FROM = { trait = kind }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = cruel }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = zealous }
+			}
+			modifier = {
+				factor = 0.4 # Less likely to do it
+			}
+			modifier = {
+				factor = 2
+				is_pretender = yes
+				FROM = {
+					OR = {
+						is_pretender = yes
+						is_primary_heir = yes
+					}
+				}
+			}
+		}
+	}
+	
+	declare_onager = {
+		#only_playable = yes
+		filter = court
+		ai_target_filter = court
+	
+		from_potential = {
+			#is_playable = yes
+			OR = {
+				religion = darknut_doctrine
+			}
+			has_children = yes
+		}
+	
+		potential = {
+			NOT = { is_inaccessible_trigger = yes }
+			is_ruler = no
+			liege = { character = FROM }
+			NOT = { any_spouse = { character = FROM } }
+			OR = {
+				father = { character = FROM }
+				mother = { character = FROM }
+			}
+			OR = {
+				father = { ai = no }
+				mother = { ai = no }
+				is_primary_heir = yes
+			}
+			NOR = {
+				trait = nun
+				trait = monk
+				trait = onager
+			}
+			prisoner = no
+			min_age = 0
+			max_age = 20
+			OR = {
+				trait=weak
+				trait=clubfoot
+				trait=sickly
+				trait=hunchback
+				trait=dwarf
+				trait=imbecile
+			}
+			NOT = { has_character_modifier = trial_wild }
+		}
+		effect = {
+			add_trait = onager
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				reverse_opinion = { who = FROM value = 40 }
+			}
+			modifier = {
+				factor = 0
+				FROM = { trait = cruel }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = cruel }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = zealous }
+			}
+			modifier = {
+				factor = 0.4 # Less likely to do it
+			}
+			modifier = {
+				factor = 2
+				is_pretender = yes
+				FROM = {
+					OR = {
+						is_pretender = yes
+						is_primary_heir = yes
+					}
+				}
+			}
+		}
+	}
+}
+decisions = {
+	last_battle = {
+		is_high_prio = yes
+		
+		filter = self
+		ai_target_filter = self
+		
+		potential = {
+			is_ruler = yes
+			OR = {
+				age = 60
+				trait = syphilitic
+				trait = leper
+				trait = rabies
+				trait = cancer
+				trait = one_legged
+				trait = one_handed
+			}
+		}
+		allow = {
+			in_command = no
+			prisoner = no
+			OR = {
+				age = 60
+				trait = syphilitic
+				trait = leper
+				trait = rabies
+				trait = cancer
+				trait = one_legged
+				trait = one_handed
+			}
+		}
+		effect = {
+			FROM = { character_event = { id = HKR.13 days = 1 } }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1 
+			
+			modifier = {
+				factor = 0.1
+			}
+			modifier = {
+				factor = 0.1
+				trait = craven
+			}
+			modifier = {
+				factor = 2
+				age = 65
+			}
+			modifier = {
+				factor = 2
+				trait = depressed
+			}
+			modifier = {
+				factor = 5
+				trait = zealous
+			}
+		}
+	}
+}

@@ -71,7 +71,7 @@ culture = {
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties_unique.tga"
 			size = { x = 10 y = 5 }
-			noOfFrames = 16 #unique
+			noOfFrames = 18 #unique
 			color = 0
 			emblem = no
 			random = no
@@ -893,21 +893,16 @@ culture = {
 	}
 
 	color = {
-		{ 255 231 93 }	#0  	Or (Gold)
-		{ 245 245 245 } #1   	Argent (White )
-		{ 48 92 164 } 	#2   	Azure ( Blue)
-		{ 201 43 43 } 	#3   	Gules (Red)
-		{ 131 192 114 } #4   	Vert (Light Green)
-		{ 20 20 20 }	#5   	Sable (Black)
-		{ 129 24 164 }	#6   	Purple
-		{ 113 0 0 }		#7   	Sanguine (Blood Red)
-		{ 205 87 10 }	#8   	Tenné (Tawny aka orange)
-		{ 133 194 226 }	#9		Bleu-Celeste (Sky Blue)
-		{ 128 0 40 }	#10  	Murrey (Mulberry) Burgundy
-		{ 17 53 13 }	#11  	Dark green
-		{ 51 33 20 }	#12  	Brown
-		{ 50 173 192 }	#13  	Turqouise
-		{ 1 182 108 }	#14  	Teal
+		{ 43 43 43 }	#0 
+		{ 170 185 164 }	 #1   	
+		{ 152 145 158 }	 #2   	
+		{ 255 255 255 }	 #3   	
+		{ 214 0 75 }		 #4   	
+		{ 24 66 33 }		 #5   	
+		{ 242 200 113 }		 #6   	
+		{ 68 71 88 }		 #7   	
+		{ 133 59 59 }		 #8   	
+		{ 198 175 123 }	 #9			
 	}
 	
 	rebel_colors = { 3 5 7 }

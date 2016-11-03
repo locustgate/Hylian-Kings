@@ -100,6 +100,8 @@ HKCx3A;I will not leave the child behind!;;;;;;;;;x
 HKCx3B;I'm sorry.;;;;;;;;;x
 DESC_HKC.x4;As I sink under the surface I see the child plucked from the water. My vision starts to fade as the water invades my lungs as the panic sets in. My last thoughts is at least the child will live.;;;;;;;;;x
 HKCx4A;It is a good death.;;;;;;;;;x
+#culture
+HKC
 #fairy
 DESC_FAIRY.0;I am awoken in the morning to a suddent yell of "Hey! Wake Up!" and find a fairy floating above me.;Je réveillé le matin pour un cri suddent de " Hey ! Wake Up! " et de trouver une fée flottant au-dessus de moi.;Ich bin am Morgen zu einem suddent Schrei aufgewacht "Hey! Wach auf! " und finden Sie eine Fee über mir schweben.;;Me despertaron en la mañana a un grito suddent de " Hey ! Wake Up ! " y encontrar un hada flotando por encima de mí .;;;;;;;;;x
 OPFAIRY.0A;Does this mean I finally have a fairy friend!?;Est- ce que cela signifie que j'ai enfin un ami de fées !?;Heißt das, ich habe endlich eine Fee Freund !?;;¿Esto significa que por fin tengo un amigo de hadas !?;;;;;;;;x
@@ -303,20 +305,40 @@ EVTDESC_knights.122;[From.GetFirstName] returned home with a giant wallet filled
 EVTOPTA_knights.122;[From.GetFirstName] you've made me proud.;;;;;;;;;x
 EVTDESC_knights.123;Upon learning of my father's death I left for home. My wallet filled with rupees and letter from the king of Moria thanking me for my service and expressing his condolences for my lost.;;;;;;;;;x
 EVTOPTA_knights.123;I'm home.;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
-;;;;;;;;;x
+#prisoner
+EVTDESCHKPRISONER0;My Prisoner has a piece of the triforce. The power that I can obtain
+#religion
+HKR10_DESC;As I leave my child's cries follow me. The Arbiter explains that if the child is strong they will survive and overcome their weakness. If not then their very existance will bring suffering.;;;;;;;;;x
+HKR10A;Codes let them overcome their weakness.;;;;;;;;;x
+HKR10B;No, it is better to overcome the weakness they are born with.;;;;;;;;;x
+HKR11_DESC;As the adults left I was left alone. By the night the cold is unberable.;;;;;;;;;x
+HKR11A;I'll just close my eyes for a second.;;;;;;;;;x
+HKR12_DESC;The Arbiters returned the next morning with the body of my child. They say he died during the night. They offer to give him a full warriors funeral, as is custom, and add them to the list of the fallen.;;;;;;;;;x
+HKR12A;Codes I hope they didn't suffer.;;;;;;;;;x
+HKR13_DESC;As I near the gate for my fortress my legion stands at attention. I am ready for my Last Battle I will die as a on my feet with a sword in my hand and armor on my chest. The only question is where will I die.;;;;;;;;;x
+HK13A;The Mountains, the yeti, the wolfos, or the Aerolfos will kill me.;;;;;;;;;x
+HKR13B;The Deserts, to face our enemy of old.;;;;;;;;;x
+HKR13C;The Forests, to teach the bokoblin fear.;;;;;;;;;x
+HKR13D;The Plains, to carve a  path through the cavalry.;;;;;;;;;x
+HKR14_DESC;I've been searching the mountain for days. After days I've found 3 battlefields. A cave which I have witnessed wolfos wandering in and out and strewn with bones, a peak higher up which I have seen aerolfos patrolling, and what looks like a set of snow covered roofs.;;;;;;;;x
+HKR14A;Wolfos will surely give me a warriors death.;;;;;;;;x
+HKR14B;The Yeti are the superior foe. If they can't kill me nothing will.;;;;;;;;x
+HKR14C;The Aerolfos may be weak but they are cunning.;;;;;;;;x
+HKR15_DESC;The Wolfos were upon me before I event got half way to the cave. I defeated the first wave, then second, then third, it was only when the Alphas of the pack set upon me. Before I knew it my chest plate fell from me. The alpha male was on my throat before I could draw my back up sword.;;;;;;;;x
+GD;A good death.;;;;;;;;x
+HKR16_DESC;As I approach the Yeti village I hear a choras of roars and what sounds like an avalanche and see a cloud of snow. As the snow clears a see an array of large yeti. The leader step forward and pounds his club in the snow before charging.;;;;;;;;;x
+FLE;For the Legion and the Exemplar!;;;;;;;;x
+HKR17_DESC;I meet the lead warrior head on. My shield absorbs his first hit and my first strike disables him. My next strike brings his bodyguard to his knees. By before I can strike again a hit rings off of my helmet. As I try to get back on my feet one of the warriors brings his club down on me.;;;;;;;;x
+HKR18_DESC;I meet the lead warrior head on. My shield absorbs his first hit but shatters my wooden limb. He brings his club down again knocking me to the ground. As the warrior raises his club again for a finishing blow I bring my sword down on his side rendering a mortal blow before his club connects with my helmet one last time.;;;;;;;;x
+HKR19_DESC;Before I make it half way up the pinalce the Aerolfos descend on me like a swarm of ravens. One darts trying to spear or cut me before retreating only for me to grab them and dash them against the ground, cut them, or bash them with my shield. This continues till I am out of breath before a red Aerolfos descends on me instead of bringing it's sword down on me it inhales and lets out a breath of fire. The heat is intense then seems to vanish only to be replaced by a cold I've never felt before.;;;;;;;;;x
+HKR20_DESC;After weeks I of scouting I find what looks like like a zuna trading caravan. A cluster of what look like dinolfos huts, and an encampment of Gerudo.;;;;;;;;;x
+HKR20A;Killing the Gerudo will help the legion.;;;;;;;;;x
+HKR20B;The dinolfos will surely put up a threat.;;;;;;;;;x
+HKR20C;Zuna traders will either give me death or supplies.;;;;;;;;;x
+HKR21_DESC;As I aproach the Gerudo bandits I see sand being kicked up by what could only be horses. Before I see the riders arrows begin raining down upon me. Most bounce off of my armor but a couple find their mark in my sholders. As the horses get within site the bandits dismount not wishing to injure their prized mounts. With an oath I charge.;;;;;;;x
+HKR22_DESC;I sit among the remains of the bandits my armor discarded around the sand. My wounds stay unbound as more of the bandits arrive no longer worrying about their horses. I stand with my short sword in hand.;;;;;;;;;x
+HKR23_DESC;;;;;;;;;x
+HKR24_DESC;;;;;;;;x
 #triforce
 OPTF0A;Grats you broke the game;Grats vous avez cassé le jeu;Grats brach man das Spiel;;Grats que se rompió el juego;;;;;;;;;x
 DESC_TF.3;I awaken this morning to find that the mark of the triforce on my hand had disappeared with no explanation.;Je me réveille ce matin pour constater que la marque de la triforce sur ma main avait disparu sans explication .;Ich erwache heute Morgen zu finden , dass die Marke des triforce auf meiner Hand ohne Erklärung verschwunden war.;;Me despierto esta mañana para encontrar que la marca de la Trifuerza en mi mano había desaparecido sin explicación .;;;;;;;;;x

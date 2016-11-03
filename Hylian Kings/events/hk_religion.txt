@@ -29,3 +29,294 @@ narrative_event = {
 		}
 	}
 }
+
+#darknut
+character_event = {
+	id = HKR.10
+	
+	desc = HKR10_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = HKR10A
+		FROM = {
+			character_event = { id = HKR.11 }
+		}
+	}
+	option = {
+		name = HKR10B
+		prestige=100
+		piety=-100
+	}
+}
+character_event = {
+	id = HKR.11
+	desc = HKR11_DESC
+	picture = "GFX_evt_ill"	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "BEG"
+		host = {
+			ROOT = {
+				death = { 
+					killer = PREV
+					death_reason = death_abandoned
+				}
+			}
+		}
+		FROM = { character_event = { id = HKR.12 } }		
+	}
+}
+character_event = {
+	id = HKR.12
+	desc = HKR12_DESC
+	picture = "GFX_evt_ill"	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "HKR12A"
+		piety=100
+	}
+}
+
+character_event = {
+	id = HKR.13
+	
+	desc = HKR13_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {#mountain
+		name = HKR13A
+		FROM = {
+			character_event = { id = HKR.14 }
+		}
+		add_trait =  on_pilgrimage 
+	}
+	option = {#desert
+		name = HKR13B
+		FROM = {
+			character_event = { id = HKR.20 }
+		}
+	}
+	#option = {#plains
+	#	name = HKR13D
+	#	FROM = {
+	#		character_event = { id = HKR.11 }
+	#	}
+	#}
+}
+character_event = {
+	id = HKR.14
+	
+	desc = HKR14_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {#Wolfos
+		name = HKR14A
+		FROM = {
+			character_event = { id = HKR.15 }
+		}
+	}
+	option = {#yeti
+		name = HKR14B
+		FROM = {
+			character_event = { id = HKR.16 }
+		}
+	}
+	option = {#aerolfos
+		name = HKR14C
+		FROM = {
+			character_event = { id = HKR.19 }
+		}
+	}
+}
+character_event = {
+	id = HKR.15
+	
+	desc = HKR15_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GD		
+		host = {
+			ROOT = {
+				death = { 
+					death_reason = death_battle
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = HKR.16
+	
+	desc = HKR16_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = FLE
+		if = {
+			limit = { NOT = {trait = one_handed}}
+			FROM = {
+				character_event = { id = HKR.17 }
+			}
+		}
+		
+		if = {
+			limit = { trait = one_handed}
+			FROM = {
+				character_event = { id = HKR.18 }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = HKR.17
+	
+	desc = HKR17_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GD		
+		host = {
+			ROOT = {
+				death = { 
+					death_reason = death_battle
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = HKR.18
+	
+	desc = HKR18_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GD		
+		host = {
+			ROOT = {
+				death = { 
+					death_reason = death_battle
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = HKR.19
+	
+	desc = HKR19_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GD		
+		host = {
+			ROOT = {
+				death = { 
+					death_reason = death_battle
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = HKR.20
+	
+	desc = HKR20_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {#gerudo
+		name = HKR20A
+		FROM = {
+			character_event = { id = HKR.21 }
+		}
+	}
+	option = {#dinolfos
+		name = HKR20B
+		FROM = {
+			character_event = { id = HKR.23 }
+		}
+	}
+}
+
+character_event = {
+	id = HKR.21
+	
+	desc = HKR21_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = FLE
+		FROM = {
+				character_event = { id = HKR.22 }
+		}
+	}
+}
+
+character_event = {
+	id = HKR.22
+	
+	desc = HKR22_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GD		
+		host = {
+			ROOT = {
+				death = { 
+					death_reason = death_battle
+				}
+			}
+		}
+	}
+}
+character_event = {#dinolfos
+	id = HKR.23
+	
+	desc = HKR23_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GD		
+		host = {
+			ROOT = {
+				death = { 
+					death_reason = death_battle
+				}
+			}
+		}
+	}
+}

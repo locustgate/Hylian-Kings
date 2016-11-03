@@ -11,6 +11,9 @@ monster_purge_desc;The human tribes have always had a low respect of the races o
 CB_NAME_HCONQUEST;Hylian Conquest;;;;;;;;;;x
 WAR_NAME_HCONQUEST;Hylian Conquest;;;;;;;;;x
 hylian_conquest_desc;Often ambitious or mad Hylians have justified wars by the fact that the Hylians are the goddesses chosen people.;;;;;;;;;;x
+#death
+death_abandoned;Abandoned;;;;;;;;;x
+DEATH_ABANDONED;was abandoned in the wild at a very young age by $KILLER$;;;;;;;;;x
 #game rules
 RULE_LORULE_INVASION;�BHylian Kings:�! Lorulean Invasion;Stabilité nomade (§BSeigneurs de cavalerie§!);§BFürsten der Steppe:§! Nomadenstabilität;;§BSeñores a caballo:§! Estabilidad nómada;;;;;;;;;x
 RULE_TWILI_INVASION;�BHylian Kings:�! Twilian Invasion;Stabilité nomade (§BSeigneurs de cavalerie§!);§BFürsten der Steppe:§! Nomadenstabilität;;§BSeñores a caballo:§! Estabilidad nómada;;;;;;;;;x
