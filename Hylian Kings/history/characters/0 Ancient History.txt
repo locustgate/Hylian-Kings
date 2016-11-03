@@ -1267,11 +1267,13 @@
 	culture=darknut
 	trait=brilliant_stratagist
 	trait=race_darknut
+	trait=bastard
 	trait=bloodline_betrayers
 	trait=wroth
 	trait=ambitious
 	trait=duelist
-	trait=quick
+	trait=shrewd
+	trait=frail
 	trait=lustful
 	trait=cynical
 	3101.4.13={birth=yes}
@@ -1364,7 +1366,112 @@
 	3287.6.21={ birth=yes }
 	3353.5.26={ death=yes }
 }
-
+82={
+	name=Octavius
+	dynasty=14801
+	dna="jpfmkhghbaa"
+	culture=darknut religion=darknut_doctrine
+	martial=6 diplomacy=5 stewardship=7 intrigue=7 learning=7
+	add_trait=tough_soldier add_trait=cynical add_trait=craven add_trait=slothful add_trait=greedy 
+	add_trait=cruel 
+	father=74
+	3128.8.5={ birth=yes }
+	3191.6.22={ death=yes }
+}
+83={
+	name=Attila
+	dynasty=14801
+	dna="opfanhihfkd"
+	culture=darknut religion=darknut_doctrine
+	martial=4 diplomacy=4 stewardship=8 intrigue=8 learning=8
+	add_trait=misguided_warrior add_trait=cruel add_trait=honest add_trait=charitable add_trait=shy 
+	father=82	#Octavius
+	3150.10.1={ birth=yes }
+	3222.12.26={ death=yes }
+}
+84={
+	name=Tubertus
+	dynasty=14801
+	dna="kcjanhihfkn"
+	culture=darknut religion=darknut_doctrine
+	martial=8 diplomacy=5 stewardship=4 intrigue=5 learning=7
+	add_trait=flamboyant_schemer add_trait=scholar add_trait=kind add_trait=slothful add_trait=shy 
+	add_trait=humble 
+	father=83	#Attila
+	3170.9.1={ birth=yes }
+	3223.1.12={ death=yes }
+}
+85={
+	name=Ignus
+	dynasty=14801
+	dna="kccaohakfkj"
+	culture=darknut religion=darknut_doctrine
+	martial=5 diplomacy=7 stewardship=4 intrigue=7 learning=7
+	add_trait=misguided_warrior add_trait=wroth add_trait=craven add_trait=kind add_trait=slothful 
+	add_trait=gregarious add_trait=content add_trait=lunatic 
+	father=84	#Tubertus
+	3197.11.16={ birth=yes }
+	3260.4.28={ death=yes }
+}
+86={
+	name=Lartius
+	dynasty=14801
+	dna="kengonkkokn"
+	culture=darknut religion=darknut_doctrine
+	martial=6 diplomacy=7 stewardship=7 intrigue=6 learning=6
+	add_trait=skilled_tactician add_trait=ambitious add_trait=greedy add_trait=temperate 
+	father=85	#Ignus
+	3219.7.8={ birth=yes }
+	3285.2.3={ death=yes }
+}
+87={
+	name=Decius
+	dynasty=14801
+	dna="jkffmnekoog"
+	culture=darknut religion=darknut_doctrine
+	martial=5 diplomacy=6 stewardship=7 intrigue=7 learning=5
+	add_trait=naive_appeaser add_trait=craven add_trait=honest add_trait=paranoid add_trait=kind 
+	add_trait=gluttonous 
+	father=86	#Lartius
+	3242.11.9={ birth=yes }
+	3290.4.5={ death=yes }
+}
+88={
+	name=Perpenna
+	dynasty=14801
+	dna="jkjdmjekpoo"
+	culture=darknut religion=darknut_doctrine
+	martial=6 diplomacy=4 stewardship=8 intrigue=6 learning=4
+	add_trait=flamboyant_schemer add_trait=content add_trait=just add_trait=greedy add_trait=slothful 
+	add_trait=lustful 
+	father=87	#Decius
+	3264.6.9={ birth=yes }
+	3312.1.26={ death=yes }
+}
+89={
+	name=Laenas
+	dynasty=14801
+	dna="gkgemfemkho"
+	culture=darknut religion=darknut_doctrine
+	martial=6 diplomacy=4 stewardship=8 intrigue=6 learning=7
+	add_trait=detached_priest add_trait=impaler add_trait=gluttonous add_trait=proud add_trait=lustful 
+	add_trait=patient add_trait=slothful add_trait=ambitious 
+	father=88	#Perpenna
+	3286.1.9={ birth=yes }
+	3335.12.31={ death=yes }
+}
+90={
+	name=Creuz
+	dynasty=14801
+	dna="glmombgjhmb"
+	culture=darknut religion=darknut_doctrine
+	martial=4 diplomacy=7 stewardship=4 intrigue=5 learning=5
+	add_trait=flamboyant_schemer add_trait=duelist add_trait=ambitious add_trait=kind add_trait=diligent 
+	add_trait=cynical add_trait=cruel add_trait=trusting add_trait=depressed 
+	father=89	#Laenas
+	3314.3.18={ birth=yes }
+	3375.7.29={ death=yes }
+}
 
 
 

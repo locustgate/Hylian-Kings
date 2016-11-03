@@ -3310,22 +3310,22 @@ e_sea_tree = {
 			color2={ 85 107 47 }
 			capital = 757
 			c_sprite_woods = {
-				color={ 34 139 34}
-				color2={ 85 107 47 }
+				color={ 71 141 76 }
+				color2={ 248 30 30 }
 					b_dakivo = {}
 				b_sovo = {}
 
 			}
 			c_fairy_forest = {
-				color={ 34 139 34}
-				color2={ 85 107 47 }
+				color={ 34 60 158 }
+				color2={ 173 230 178 }
 				b_fudok = {}
 				b_seraro = {}
 	
 			}
 			c_fountain_woods = {
-				color={ 34 139 34}
-				color2={ 85 107 47 }				
+				color={ 173 230 178 }
+				color2={ 174 163 80 }				
 				holy_site = great_fairies
 					b_kasovu = {}
 				b_fodi = {}
@@ -4408,21 +4408,21 @@ e_hanman = {
 			}
 		}
 		d_deokgol = {
-			color={ 222 41 16 }
-			color2={ 255 222 0 }
+			color={ 188 0 7 }
+			color2={ 250 188 0 }
 			capital = 91
 		
 			c_deokmin = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 188 0 7 }
+				color2={ 0 102 178 }
 				
 				b_ahung = {}
 				b_qakomum = {}
 				b_jang = {}
 			}
 			c_torugol = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 250 188 0 }
+				color2={ 0 102 178 }
 				
 				b_ozang = {}
 				b_sorar = {}
@@ -5589,8 +5589,8 @@ e_calatia = {
 				}
 			}
 			d_phracia = {
-				color={ 150 75 75 }
-				color2={ 255 255 255 }			
+				color={ 255 206 0 }
+				color2={ 38 38 38}			
 				capital = 809
 				c_phracia = {
 					color={ 150 75 75 }
@@ -5624,8 +5624,8 @@ e_calatia = {
 				}
 			}
 			d_tysia = {
-				color={ 150 75 75 }
-				color2={ 255 255 255 }			
+				color={ 226 226 226 }
+				color2={ 250 187 0 }			
 				capital = 801
 				c_ghios = {
 					color={ 150 75 75 }
@@ -5732,8 +5732,8 @@ e_calatia = {
 				}
 			}
 			d_rycaonia	 = {
-				color={ 150 75 75 }
-				color2={ 255 255 255 }			
+				color={ 186 0 7 }
+				color2={ 0 84 145 }			
 				capital = 825
 				c_rycaonia = {
 					color={ 150 75 75 }
@@ -6037,8 +6037,8 @@ e_ho_ho = {
 			}
 		}
 		d_aland = {
-			color={ 51 102 255 }
-			color2={ 184 138 0 }
+			color={ 0 88 160 }
+			color2={ 248 208 0 }
 			capital = 871
 			
 			c_tunta = {
@@ -6048,8 +6048,8 @@ e_ho_ho = {
 				b_pare = {}
 			}
 			c_aland = {
-				color={ 51 102 255 }
-				color2={ 184 138 0 }
+				color={ 249 187 0 }
+				color2={ 35 35 35 }
 				b_aland = {}
 				b_pilas = {}
 				b_luoli = {}
@@ -7905,8 +7905,8 @@ k_falsia = {
 		}
 	}
 	d_proodyl = {
-		color={ 255 240 245 }
-		color2={ 18 136 7 }
+		color={ 133 59 59 }
+		color2={ 43 43 43 }
 		capital = 15
 		
 		c_clockwork = {
@@ -7929,8 +7929,8 @@ k_falsia = {
 			b_senal = {}
 		}
 		c_proodyl = {
-			color={ 41 255 30 }
-			color2={ 18 136 7 }
+			color={ 133 59 59 }
+			color2={ 43 43 43 }
 			holy_site = darknut_doctrine
 
 			b_proodyl_fortress = {}
@@ -8463,8 +8463,8 @@ k_arcadia = {
 			}
 		}
 	d_arcadia = {
-		color={ 255 255 0 }
-		color2={ 255 255 255 }		
+		color={ 250 188 0 }
+		color2={ 188 0 7 }		
 		capital = 247		
 		c_curtania = {
 			color={ 255 255 0 }
@@ -8489,19 +8489,19 @@ k_arcadia = {
 			b_syania = {}
 		}
 		c_joyeusia = {
-			color={ 255 255 0 }
-			color2={ 255 255 255 }	
+			color={ 249 188 0 }
+			color2={ 20 86 148 }	
 			b_joyeusia = {}
 		}
 		c_durendalia = {
-			color={ 255 255 0 }
-			color2={ 255 255 255 }	
+			color={ 0 113 188 }
+			color2={ 30 30 30 }	
 			b_durendalia = {}
 		}
 					}
 	d_lyonia = {
-		color={ 255 255 0 }
-		color2={ 255 255 255 }		
+		color={ 9 22 182 }
+		color2={ 231 172 0 }		
 		capital = 249
 		c_pausania = {
 			color={ 255 255 0 }
@@ -8512,8 +8512,8 @@ k_arcadia = {
 			b_martia = {}
 		}
 		c_lyonia = {
-			color={ 255 255 0 }
-			color2={ 255 255 255 }	
+			color={ 9 22 182 }
+			color2={ 231 172 0 }	
 			b_lyonia = {}
 			b_penia = {}
 			b_martia_2 = {}
@@ -8527,19 +8527,19 @@ k_arcadia = {
 			b_varia = {}
 		}
 		c_lykaia = {
-			color={ 255 255 0 }
+			color={ 29 89 152 }
 			color2={ 255 255 255 }	
 			b_lykaia = {}
 		}
 		c_wosuia = {
-			color={ 255 255 0 }
-			color2={ 255 255 255 }	
+			color={ 250 187 0 }
+			color2={ 0 0 0 }	
 			b_wosuia = {}
 		}
 	}
 	d_ardennia = {
-		color={ 255 255 0 }
-		color2={ 255 255 255 }		
+		color={ 188 0 7 }
+		color2={ 221 170 0 }		
 		capital = 253
 		c_ardennia = {
 			color={ 255 255 0 }
@@ -8569,8 +8569,8 @@ k_arcadia = {
 		}
 	}
 	d_silvania = {
-		color={ 255 255 0 }
-		color2={ 255 255 255 }		
+		color={ 189 1 8 }
+		color2={250 188 0 }		
 		capital = 257
 		c_silvania = {
 			color={ 255 255 0 }
@@ -8602,8 +8602,8 @@ k_arcadia = {
 		}
 	}
 	d_odyssia = {
-		color={ 255 255 0 }
-		color2={ 255 255 255 }		
+		color={ 250 188 0 }
+		color2={ 188 0 7 }		
 		capital = 266
 		c_odyssia = {
 			color={ 255 255 0 }
@@ -8622,8 +8622,8 @@ k_arcadia = {
 		}
 	}
 	d_tyria = {
-		color={ 255 255 0 }
-		color2={ 255 255 255 }		
+		color={ 181 36 36 }
+		color2={ 57 163 0 }		
 		capital = 269
 		c_tyria = {
 			color={ 255 255 0 }
@@ -8642,8 +8642,8 @@ k_arcadia = {
 		}
 	}
 	d_megaria = {
-		color={ 255 255 0 }
-		color2={ 255 255 255 }		
+		color={ 218 66 66 }
+		color2={ 128 69 180 }		
 		capital = 272
 		c_megaria = {
 			color={ 255 255 0 }
@@ -8685,7 +8685,7 @@ k_arcadia = {
 		}
 	}
 	d_argolia = {
-		color={ 255 255 0 }
+		color={ 220 40 30 }
 		color2={ 255 255 255 }		
 		capital = 276
 		c_agamemnia = {
@@ -8720,12 +8720,12 @@ k_arcadia = {
 		}
 	}
 	d_acacesia = {
-		color={ 255 255 0 }
+		color={ 0 86 148 }
 		color2={ 255 255 255 }		
 		capital = 265		
 		c_polia = {
-			color={ 255 255 0 }
-			color2={ 255 255 255 }	
+			color={ 255 206 0 }
+			color2={ 146 118 0 }	
 			b_polia = {}
 			b_sigia = {}
 			b_xoria = {}
@@ -8758,7 +8758,7 @@ k_arcadia = {
 		}
 	}
 	d_valoia = {
-		color={ 255 255 0 }
+		color={ 33 33 33 }
 		color2={ 255 255 255 }		
 		capital = 283
 		c_valoia = {
@@ -8997,8 +8997,8 @@ k_bastion = {
 			b_judges_bluff = {}
 		}
 		c_river_fork = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 38 38 38 }
+			color2={ 186 0 7 }
 			b_snake_river = {}
 			b_hyrda_split = {}
 			b_cockatrace_plains = {}
@@ -9011,8 +9011,8 @@ k_bastion = {
 		color2={ 255 222 0 }
 		capital = 775
 		c_wosu_wastes = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 24 188 0 7 }
+			color2={ 0 0 0 }
 			b_blastworm = {}
 			b_flamola = {}
 			b_madderpillar = {}
@@ -9030,8 +9030,8 @@ k_bastion = {
 		color2={ 255 222 0 }
 		capital = 773
 		c_desert_of_death = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 250 188 0 }
+			color2={ 30 30 30 }
 			b_winder_sands = {}
 			b_drowning_sands = {}
 		}
@@ -9280,6 +9280,32 @@ k_myrddin = {
 			b_genion = {}
 		}
 	}	
+}
+#racial courts
+d_wind = {
+	color={ 40 192 248 }
+	color2={ 232 56 64 }
+
+	capital = 616
+		
+	culture = wind_tribe
+	
+	# Always exists
+	landless = yes
+}
+d_sheikah = {
+	color={ 255 255 255 }
+	color2={ 112 2 2 }
+	
+	capital = 463
+	
+	# Parent Religion 
+	religion = sheikahism
+	
+	culture = sheikah
+	
+	# Always exists
+	landless = yes
 }
 #vassal
 d_knights_hyrule = {
