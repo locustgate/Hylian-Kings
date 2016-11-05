@@ -95,20 +95,20 @@ character_event = {
 	option = {#mountain
 		name = HKR13A
 		FROM = {
-			character_event = { id = HKR.14 }
+			character_event = { id = HKR.14  days = 14 }
 		}
 		add_trait =  on_pilgrimage 
 	}
 	option = {#desert
 		name = HKR13B
 		FROM = {
-			character_event = { id = HKR.20 }
+			character_event = { id = HKR.20  days = 14 }
 		}
 	}
 	#option = {#plains
 	#	name = HKR13D
 	#	FROM = {
-	#		character_event = { id = HKR.11 }
+	#		character_event = { id = HKR.11  days = 14 }
 	#	}
 	#}
 }

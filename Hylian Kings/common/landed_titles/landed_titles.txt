@@ -1839,7 +1839,7 @@ e_saria = { #empire
 			}
 		}
 		d_nabooru = {
-			color={ 255 135 251 }
+			color={ 23 161 0 }
 			color2={ 106 110 255 }
 			capital = 187 # Middlesex
 			c_kasuto_palace = {
@@ -1877,7 +1877,7 @@ e_saria = { #empire
 			}
 		}
 		d_maze_island = {
-			color={ 78 78 95 }
+			color={ 32 219 0 }
 			color2={ 255 255 255 }
 			capital = 185 # Middlesex
 			c_north_maze_island = {
@@ -1931,7 +1931,7 @@ e_saria = { #empire
 		#little_hyrulean = West Hyrule
 		
 		d_moruge = {
-			color={ 108 91 54 }
+			color={ 0 0 255 }
 			color2={ 6 122 0 }
 			capital = 198 # Middlesex
 			c_moruge = {
@@ -1942,14 +1942,6 @@ e_saria = { #empire
 				b_moruge = {}
 				b_mukia = {}
 				b_pina = {}
-			}
-			c_tantari = {
-				color={ 0 104 46 }
-				color2={ 249 228 83 }
-			
-				b_tantari = {}
-				b_sanin = {}
-				b_nodo = {}
 			}
 			c_mido = {
 				color={ 0 104 46 }
@@ -1968,12 +1960,32 @@ e_saria = { #empire
 				b_island_palace = {}
 				b_adikabo = {}
 				b_muryen = {}
+			}				
+			c_graveyard_vale = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }			
+				holy_site = golden_goddesses
+				holy_site = goddess_lorule #ALL alien religions have the same holy sites
+				holy_site = sol_religion
+				holy_site = goddess_of_time
+				holy_site = demise_religion
+				b_saria_graveguard = {}
+				b_graveyard_saria = {
+					pentarchy = golden_goddesses}
 			}
 		}
 		d_saria = {
 			color={ 0 0 204 }
 			color2={ 255 255 23 }
-			capital = 196 # Middlesex
+			capital = 196 # Middlesex			
+			c_tantari = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_tantari = {}
+				b_sanin = {}
+				b_nodo = {}
+			}
 			c_navi = {
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
@@ -2003,19 +2015,7 @@ e_saria = { #empire
 				b_moldo = {}
 				b_kalu = {}
 				b_moldin = {}
-			}		
-			c_graveyard_vale = {
-				color={ 0 104 46 }
-				color2={ 249 228 83 }			
-				holy_site = golden_goddesses
-				holy_site = goddess_lorule #ALL alien religions have the same holy sites
-				holy_site = sol_religion
-				holy_site = goddess_of_time
-				holy_site = demise_religion
-				b_saria_graveguard = {}
-				b_graveyard_saria = {
-					pentarchy = golden_goddesses}
-			}
+			}	
 		}
 		d_midoro = {
 			color={ 0 78 255 }
@@ -2064,7 +2064,7 @@ e_saria = { #empire
 		}
 	}
 	k_oberon = {
-		color={ 0 0 0 }
+		color={ 139 69 19 }
 		color2={ 112 17 17 }
 		capital = 212 # Middlesex
 		allow = {
@@ -2090,7 +2090,7 @@ e_saria = { #empire
 		#west_hyrulean = Little Hyrule
 		
 		d_east_death_mountains= {
-			color={ 81 81 81}
+			color={ 189 94 27 }
 			color2={ 133 91 0 }
 			capital = 209 # Middlesex
 			c_oberon_death_mountains = {
@@ -2204,7 +2204,7 @@ e_moria = {#empire
 			}
 		}
 		d_camlain = {
-			color={ 119 136 153 }
+			color={ 76 112 149 }
 			color2={ 47 79 79 }
 			capital = 49
 			
@@ -2237,7 +2237,7 @@ e_moria = {#empire
 			}
 		}
 		d_galeas = {
-			color={ 119 136 153 }
+			color={ 17 82 147 }
 			color2={ 47 79 79 }
 			capital = 55
 			c_glennith = {
@@ -2316,7 +2316,7 @@ e_moria = {#empire
 			}
 		}
 		d_swanshores = {
-			color={ 80 101 60 }
+			color={ 107 54 71 }
 			color2={ 255 0 0 }
 			capital=42
 			c_swanpoint ={
@@ -2345,7 +2345,7 @@ e_moria = {#empire
 			}
 		}
 		d_dale = {
-			color={ 80 101 60 }
+			color={ 136 45 75 }
 			color2={ 255 0 0 }
 			capital = 35
 			c_daleport ={
@@ -2387,7 +2387,7 @@ e_moria = {#empire
 			}
 		}		
 		d_grindle = {
-			color={ 80 101 60 }
+			color={ 139 71 93 }
 			color2={ 255 0 0 }
 			capital = 37
 			c_grindle ={
@@ -2479,7 +2479,7 @@ e_moria = {#empire
 			}
 		}
 		d_anadora = {
-			color={ 80 101 60 }
+			color={ 95 107 83 }
 			color2={ 255 0 0 }
 			capital=33
 			c_anadora = {
@@ -2511,7 +2511,7 @@ e_moria = {#empire
 			}
 		}
 		d_hanoria = {
-			color={ 80 101 60 }
+			color={ 140 154 126 }
 			color2={ 255 0 0 }
 			capital=69
 			c_suangma = {
@@ -2573,7 +2573,7 @@ e_sea_tree = {
 		}
 	}
 	k_kokiri = {
-		color={ 34 139 34}
+		color={ 255 0 0 }
 		color2={ 85 107 47 }
 		capital = 659
 		allow = {
@@ -2631,7 +2631,7 @@ e_sea_tree = {
 			}
 		}
 		d_kokiri_lost_woods = {
-			color={ 255 0 0 }
+			color={ 207 2 2 }
 			color2={ 139 69 19 }
 			capital=654
 			c_forest_temple = {
@@ -2670,7 +2670,7 @@ e_sea_tree = {
 			}
 		}
 		d_stal_woods = {
-			color={ 255 0 0 }
+			color={ 251 87 87 }
 			color2={ 139 69 19 }
 			capital=677
 			c_stalkades = {
@@ -2702,7 +2702,7 @@ e_sea_tree = {
 			}
 		}
 		d_haunted_woods = {
-			color={ 255 0 0 }
+			color={ 202 35 35 }
 			color2={ 139 69 19 }
 			capital=679
 			c_haunted_woods = {
@@ -2732,7 +2732,7 @@ e_sea_tree = {
 			}
 		}
 		d_skull_woods = {
-			color={ 255 0 0 }
+			color={  200 78 78 }
 			color2={ 139 69 19 }
 			capital=686
 			c_east_skull_woods = {
@@ -2768,7 +2768,7 @@ e_sea_tree = {
 			}
 		}
 		d_wolfos_woods = {
-			color={ 255 0 0 }
+			color={ 156 46 46 }
 			color2={ 139 69 19 }
 				capital=688
 			c_howling_woods = {
@@ -2789,7 +2789,7 @@ e_sea_tree = {
 			}
 		}
 		d_korok_woods = {
-			color={ 255 0 0 }
+			color={ 122 1 1 }
 			color2={ 139 69 19 }
 			capital=682
 			c_great_baga_tree_grove = {
@@ -2825,7 +2825,7 @@ e_sea_tree = {
 			}
 		}
 		d_baba_forest = {
-			color={ 255 0 0 }
+			color={ 117 54 54 }
 			color2={ 139 69 19 }
 			capital=692
 			c_baba_forest = {
@@ -2854,7 +2854,7 @@ e_sea_tree = {
 			}
 		}
 		d_forest_road = {
-			color={ 255 0 0 }
+			color={ 172 68 68 }
 			color2={ 139 69 19 }
 			capital=673
 			c_forest_road = {
@@ -2885,7 +2885,7 @@ e_sea_tree = {
 			}
 		}
 		d_lost_woods = {
-			color={ 34 139 34}
+			color={ 0 208 0 }
 			color2={ 85 107 47 }
 			capital = 671
 			c_thief_woods = {
@@ -2932,7 +2932,7 @@ e_sea_tree = {
 			}
 		}
 		d_deku_marsh = {
-			color={ 34 139 34}
+			color={ 0 157 0 }
 			color2={ 85 107 47 }
 			capital = 699
 			c_deku_road = {
@@ -2955,7 +2955,7 @@ e_sea_tree = {
 			
 		}
 		d_dekuvia = {
-			color={ 34 139 34}
+			color={ 1 54 1 }
 			color2={ 85 107 47 }
 			capital = 696			
 			c_deku_river = {
@@ -3003,7 +3003,7 @@ e_sea_tree = {
 			}
 		}
 		d_scrubavia = {
-			color={ 34 139 34}
+			color={ 36 132 36 }
 			color2={ 85 107 47 }
 			capital = 716
 			c_woodfalls = {
@@ -3041,7 +3041,7 @@ e_sea_tree = {
 			}
 		}
 		d_deku_forest = {
-			color={ 34 139 34}
+			color={ 0 179 0 }
 			color2={ 85 107 47 }
 			capital = 710
 			c_deku_forest = {
@@ -3098,7 +3098,7 @@ e_sea_tree = {
 			}
 		}
 		d_sweltering_woods = {
-			color={ 34 139 34}
+			color={ 61 131 61 }
 			color2={ 85 107 47 }
 			capital = 713
 			c_fire_woods = {
@@ -3117,7 +3117,7 @@ e_sea_tree = {
 			}
 		}
 		d_tricksters_woods = {
-			color={ 34 139 34}
+			color={ 76 184 76 }
 			color2={ 85 107 47 }
 			capital = 721
 			c_robberwood = {
@@ -3159,7 +3159,7 @@ e_sea_tree = {
 			}
 		}
 		d_fresh_woods = {
-			color={ 34 139 34}
+			color={ 42 160 42 }
 			color2={ 85 107 47 }
 			capital = 600
 			c_woodsman_hills = {
@@ -3192,7 +3192,7 @@ e_sea_tree = {
 			}
 		}
 		d_flower_woods = {
-			color={ 34 139 34}
+			color={ 119 147 119 }
 			color2={ 85 107 47 }
 			capital = 741
 			c_deku_flower_woods = {
@@ -3211,7 +3211,7 @@ e_sea_tree = {
 			}
 		}
 		d_business_scrub_guild = {
-			color={ 34 139 34}
+			color={ 61 173 61 }
 			color2={ 85 107 47 }
 			capital = 716
 			dignity = 200 # Never want the Hanseatic League to change primary title
@@ -3273,7 +3273,7 @@ e_sea_tree = {
 			}
 		}		
 		d_whisp_woods = {
-			color={ 34 139 34}
+			color={ 255 6 131 }
 			color2={ 85 107 47 }
 			capital = 759
 			c_web_woods = {
@@ -3294,7 +3294,7 @@ e_sea_tree = {
 			}
 		}
 		d_blin_woods = {
-			color={ 34 139 34}
+			color={ 179 0 90 }
 			color2={ 85 107 47 }
 			capital = 747
 			c_bulblin_woods = {
@@ -3320,7 +3320,7 @@ e_sea_tree = {
 			}
 		}
 		d_crackling_woods = {
-			color={ 34 139 34}
+			color={ 181 35 108}
 			color2={ 85 107 47 }
 			capital = 753
 			c_dry_woods = {
@@ -3341,7 +3341,7 @@ e_sea_tree = {
 			}
 		}
 		d_spring_forest = {
-			color={ 34 139 34}
+			color={ 180 93 137 }
 			color2={ 85 107 47 }
 			capital = 757
 			c_sprite_woods = {
@@ -3377,7 +3377,7 @@ e_sea_tree = {
 			}
 		}
 		d_blin_forest = {
-			color={ 34 139 34}
+			color={ 129 0 65 }
 			color2={ 85 107 47 }
 			capital = 748
 			c_north_blin_forest = {
@@ -3416,7 +3416,7 @@ e_sea_tree = {
 			}
 		}		
 		d_ghoma_woods = {
-			color={ 34 139 34}
+			color={ 226 52 139 }
 			color2={ 85 107 47 }
 			capital = 739
 			c_gohma_hollows = {
@@ -3442,7 +3442,7 @@ e_sea_tree = {
 		}
 	}
 	k_minish = {
-		color={ 82 184 220}
+		color={ 0 77 164 }
 		color2={ 0 100 0 }
 		capital = 666	
 		allow = {
@@ -3453,7 +3453,7 @@ e_sea_tree = {
 			}
 		}	
 		d_minish = {
-			color={ 82 184 220}
+			color={ 0 77 164 }
 			color2={ 0 100 0 }
 			capital = 666
 			c_hylia_swamp = {
@@ -3515,7 +3515,7 @@ e_sea_tree = {
 		
 		}
 		d_girrin_woods = {
-			color={ 34 139 34}
+			color={ 0 102 217 }
 			color2={ 85 107 47 }
 			capital = 730
 			c_sanctuary_woods = {
@@ -3534,7 +3534,7 @@ e_sea_tree = {
 			}
 		}
 		d_baga_forest = {
-			color={ 34 139 34}
+			color={ 85 148 220 }
 			color2={ 85 107 47 }
 			capital = 727
 			c_north_baga_forest = {
@@ -3583,7 +3583,7 @@ e_sea_tree = {
 			}
 		}
 		d_cucco_woods = {
-			color={ 34 139 34}
+			color={ 40 84 134 }
 			color2={ 85 107 47 }
 			capital = 737
 			c_cucco_woods = {
@@ -3603,7 +3603,7 @@ e_sea_tree = {
 			}
 		}
 		d_creeping_woods = {
-			color={ 34 139 34}
+			color={ 71 99 130 }
 			color2={ 85 107 47 }
 			capital = 736
 			c_creeping_woods = {
@@ -3624,7 +3624,7 @@ e_sea_tree = {
 			}
 		} 
 		d_picori_forest = {
-			color={ 34 139 34}
+			color={ 88 126 168 }
 			color2={ 85 107 47 }
 			capital = 733
 			c_picori_groves = {
@@ -3674,7 +3674,7 @@ e_hanman = {
 		}
 		
 		d_hotho = {
-			color={ 244 164 96 }
+			color={ 244 135 42 }
 			color2={ 255 222 0 }
 			capital = 156
 
@@ -3778,7 +3778,7 @@ e_hanman = {
 		}
 		
 		d_kimheon = {
-			color={ 244 164 96 }
+			color={ 206 17 38 }
 			color2={ 255 222 0 }
 			capital = 99
 			
@@ -3824,7 +3824,7 @@ e_hanman = {
 			}
 		}
 		d_jinghan = {
-			color={ 244 164 96 }
+			color={ 255 22 48 }
 			color2={ 255 222 0 }
 			capital = 104
 			
@@ -3865,7 +3865,7 @@ e_hanman = {
 			}
 		}
 		d_yami = {
-			color={ 244 164 96 }
+			color={ 136 0 15}
 			color2={ 255 222 0 }
 			capital = 130
 			
@@ -3915,7 +3915,7 @@ e_hanman = {
 			}
 		}
 		d_putao = {
-			color={ 244 164 96 }
+			color={ 176 78 89 }
 			color2={ 255 222 0 }
 			capital = 136
 			
@@ -3975,7 +3975,7 @@ e_hanman = {
 		}
 		
 		d_sukang = {
-			color={ 244 164 96 }
+			color={ 255 255 255 }
 			color2={ 255 222 0 }
 			capital = 108
 			
@@ -4009,7 +4009,7 @@ e_hanman = {
 			}
 		}
 		d_viang = {
-			color={ 244 164 96 }
+			color={ 221 221 221 }
 			color2={ 255 222 0 }
 			capital = 112
 			
@@ -4056,7 +4056,7 @@ e_hanman = {
 			}	
 		}
 		d_daya = {
-			color={ 255 255 255 }
+			color={ 188 188 188 }
 			color2={ 188 0 45 }
 			capital = 117
 			
@@ -4088,7 +4088,7 @@ e_hanman = {
 			}
 		}
 		d_simang = {
-			color={ 255 255 255 }
+			color={ 240 240 240 }
 			color2={ 188 0 45 }
 			capital = 120
 			
@@ -4116,7 +4116,7 @@ e_hanman = {
 			}
 		}
 		d_kamba = {
-			color={ 255 255 255 }
+			color={ 240 240 240 }
 			color2={ 188 0 45 }
 			capital = 123
 			
@@ -4143,7 +4143,7 @@ e_hanman = {
 			}
 		}
 		d_seludong = {
-			color={ 255 255 255 }
+			color={ 177 161 161 }
 			color2={ 188 0 45 }
 			capital = 127
 			
@@ -4241,7 +4241,7 @@ e_hanman = {
 			}
 		}
 		d_tuong = {
-			color={ 222 41 16 }
+			color={ 166 33 14 }
 			color2={ 255 222 0 }
 			capital = 74
 		
@@ -4281,7 +4281,7 @@ e_hanman = {
 			}		
 		}
 		d_jakali = {
-			color={ 222 41 16 }
+			color={ 158 71 59 }
 			color2={ 255 222 0 }
 			capital = 77
 		
@@ -4319,7 +4319,7 @@ e_hanman = {
 			}
 		}
 		d_xinang = {
-			color={ 222 41 16 }
+			color={ 205 25 0 }
 			color2={ 255 222 0 }
 			capital = 81
 		
@@ -4360,7 +4360,7 @@ e_hanman = {
 			}
 		}	
 		d_changyi = {
-			color={ 222 41 16 }
+			color={ 203 90 74 }
 			color2={ 255 222 0 }
 			capital = 85
 		
@@ -4410,7 +4410,7 @@ e_hanman = {
 			}
 		}
 		d_lumapa = {
-			color={ 222 41 16 }
+			color={ 105 13 0 }
 			color2={ 255 222 0 }
 			capital = 88
 		
@@ -4443,7 +4443,7 @@ e_hanman = {
 			}
 		}
 		d_deokgol = {
-			color={ 188 0 7 }
+			color={ 166 25 5 }
 			color2={ 250 188 0 }
 			capital = 91
 		
@@ -4465,7 +4465,7 @@ e_hanman = {
 			}
 		}
 		d_puyeo = {
-			color={ 222 41 16 }
+			color={ 173 97 87 }
 			color2={ 255 222 0 }
 			capital = 92
 		
@@ -4488,7 +4488,7 @@ e_hanman = {
 			}
 		}
 		d_changmo = {
-			color={ 222 41 16 }
+			color={ 225 94 76 }
 			color2={ 255 222 0 }
 			capital = 94
 		
@@ -4511,7 +4511,7 @@ e_hanman = {
 		}
 	}
 	k_shanghua = { #jade islands
-		color={ 255 153 51 }
+		color={ 0 168 107 }
 		color2={ 18 136 7 }
 		capital = 144
 		allow = {
@@ -4527,7 +4527,7 @@ e_hanman = {
 		}
 		
 		d_kinisha = {
-			color={ 255 153 51 }
+			color={ 0 216 138 }
 			color2={ 18 136 7 }
 			capital = 144
 			
@@ -4559,7 +4559,7 @@ e_hanman = {
 			}
 		}
 		d_sanbu = {
-			color={ 255 153 51 }
+			color={ 75 178 140 }
 			color2={ 18 136 7 }
 			capital = 151
 			c_kakarima = {
@@ -4584,7 +4584,7 @@ e_hanman = {
 			}
 		}
 		d_daemashi = {
-			color={ 255 153 51 }
+			color={ 67 228 170 }
 			color2={ 18 136 7 }
 			capital = 155
 			
@@ -4610,7 +4610,7 @@ e_hanman = {
 			}
 		}
 		d_yezima = {
-			color={ 255 153 51 }
+			color={ 19 104 73 }
 			color2={ 18 136 7 }
 			capital = 147
 			
@@ -4667,14 +4667,14 @@ e_holodrum = {
 		}
 	}
 	k_subrosia  = {
-		color={ 0 250 154 }
+		color={ 204 188 5 }
 		color2={ 85 107 47 }
 		capital = 359
 		allow = {
 			culture = subrosian
 		}
 		d_north_subrosia = {
-			color={ 0 250 154 }
+			color={ 204 188 5 }
 			color2={ 85 107 47 }
 			capital = 359
 			c_gates_of_subrosia = {			
@@ -4697,7 +4697,7 @@ e_holodrum = {
 			}
 		}
 		d_south_subrosia = {
-			color={ 0 250 154 }
+			color={ 172 162 54 }
 			color2={ 85 107 47 }
 			capital = 346
 			c_pupil_islands = {			
@@ -4711,7 +4711,7 @@ e_holodrum = {
 		}
 	}
 	k_horon  = {
-		color={ 0 250 154 }
+		color={ 249 64 8 }
 		color2={ 85 107 47 }
 		capital = 342
 		allow = {
@@ -4727,7 +4727,7 @@ e_holodrum = {
 			}
 		}
 		d_south_horon = {
-			color={ 0 100 0 }
+			color={ 249 64 8 }
 			color2={ 240 255 255 }
 			capital = 342
 			c_east_horon = {			
@@ -4759,7 +4759,7 @@ e_holodrum = {
 			}
 		}
 		d_horon_fields = {
-			color={ 0 100 0 }
+			color={ 253 117 76 }
 			color2={ 240 255 255 }
 			capital = 343
 			c_horon_field = {			
@@ -4785,7 +4785,7 @@ e_holodrum = {
 			}		
 		}
 		d_horon_woods = {
-			color={ 0 100 0 }
+			color={ 214 59 12 }
 			color2={ 240 255 255 }
 			capital = 345
 			c_gasha_woods = {			
@@ -4824,7 +4824,7 @@ e_holodrum = {
 			}
 		}
 		d_fungus = {
-			color={ 0 100 0 }
+			color={ 216 104 70 }
 			color2={ 240 255 255 }
 			capital = 364
 			c_fungus_woods = {			
@@ -4853,7 +4853,7 @@ e_holodrum = {
 			}
 		}
 		d_spool = {
-			color={ 0 100 0 }
+			color={ 169 63 30 }
 			color2={ 240 255 255 }
 			capital = 370
 			c_spool_fields = {			
@@ -4887,7 +4887,7 @@ e_holodrum = {
 			}
 		}	
 		d_jungle_happiness = {
-			color={ 50 205 50 }
+			color={ 197 46 1 }
 			color2={ 255 255 255 }
 			capital = 376
 			c_ape_forest = {			
@@ -4938,7 +4938,7 @@ e_holodrum = {
 			}
 		}
 		d_cucco = {
-			color={ 252 230 201 }
+			color={ 138 25 6 }
 			color2={ 210 180 140 }
 			capital = 357
 			c_mount_cucco = {			
@@ -4959,7 +4959,7 @@ e_holodrum = {
 			}
 		}
 		d_holodrum_mountain = {
-			color={ 252 230 201 }
+			color={ 2138 51 36 }
 			color2={ 210 180 140 }
 			capital = 362
 			c_goron_mountain = {			
@@ -4987,7 +4987,7 @@ e_holodrum = {
 			}			
 		}
 		d_natzu = {
-			color={ 252 230 201 }
+			color={ 182 66 46 }
 			color2={ 210 180 140 }
 			capital = 352
 			c_natzu = {			
@@ -5013,7 +5013,7 @@ e_holodrum = {
 			}
 		}
 		d_tarm = {
-			color={ 138 54 15 }
+			color={ 181 31 5 }
 			color2={ 255 245 238 }
 			capital = 371
 			c_tarm_field = {			
@@ -5059,7 +5059,7 @@ e_holodrum = {
 			}
 		}
 		d_east_samasa = {
-			color={ 205 133 0 }
+			color={ 250 250 210 }
 			color2={ 255 228 196 }
 			capital = 334
 			c_east_samasa = {			
@@ -5088,7 +5088,7 @@ e_holodrum = {
 			}
 		}
 		d_west_samasa = {
-			color={ 193 255 193 }
+			color={ 255 255 135 }
 			color2={ 255 245 238 }
 			capital = 340
 			c_pokey_plateau = {			

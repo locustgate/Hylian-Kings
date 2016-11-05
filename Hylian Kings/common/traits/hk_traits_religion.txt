@@ -78,6 +78,13 @@ patron_farore = {
 #priest
 #judge = {
 #}
+onager = {
+	cannot_inherit = yes 
+	can_hold_titles = no
+	cannot_marry = yes 
+		
+	customizer = no
+}
 ##sympathy
 sympathy_goddesses_religion = {
 	opposites =  {

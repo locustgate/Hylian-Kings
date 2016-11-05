@@ -1,0 +1,468 @@
+namespace = thieving
+#0-2
+#3- rich
+# Tokay Mark
+character_event = {
+	id = thieving.0
+	desc = "thieving0_DESC"
+	picture = "GFX_evt_church"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "thieving0A" #Steal from the Rich
+		set_character_flag = tokay_rich
+	}
+	option = {
+		name = "thieving0B" #Steal from the poor
+		set_character_flag = tokay_poor
+	}
+	option = {
+		name = "thieving0C" #Steal from highway
+		set_character_flag = tokay_roads
+	}
+}
+
+# Start of Stealing
+character_event = {
+	id = thieving.1
+	desc = "thieving1_DESC"
+	picture = "GFX_evt_church"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "thieving1A"
+		trigger = {
+			OR = {
+				war = no
+				NOT = { demesne_size = 1 }
+			}	
+			OR = {
+				liege = { war = no }
+				demesne_size = 1
+			}	
+		}
+		add_trait = on_thieving
+		hidden_tooltip = {
+			set_character_flag = crime_spree_begins
+			character_event = { id = thieving.2 days = 120 }
+		}
+		any_opinion_modifier_target = {
+			limit = {
+				trait = on_thieving
+			}
+			set_character_flag = crime_spree_begins
+			add_trait = on_thieving
+			tooltip = { }
+		}	
+	}
+	option = {
+		name = "thieving1B"
+		trigger = {
+			OR = {
+				AND = {
+					war = yes
+					demesne_size = 1 
+				}	
+				AND = {
+					liege = { war = yes }
+					NOT = { demesne_size = 1 }
+				}	
+			}
+		}
+		prestige = -20
+		hidden_tooltip = {
+			remove_trait = on_thieving
+		}
+		clr_character_flag = do_not_disturb
+	}
+}
+character_event = { #end
+	id = thieving.2
+	desc = "thieving2_DESC"
+	picture = "GFX_evt_church"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "thieving2A"
+		if = {
+			limit = { trait = on_thieving }
+			remove_trait = on_thieving
+		}	
+		clr_character_flag = do_not_disturb
+		clr_character_flag = crime_spree_begins
+		clr_character_flag = tokay_poor
+		clr_character_flag = tokay_rich
+		clr_character_flag = tokay_roads
+	}
+	
+}
+character_event = {#the castle
+	id = thieving.3
+	desc = "thieving3_desc"
+	picture = "GFX_evt_church"
+
+	min_age = 14
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		trait = on_thieving
+		has_character_flag = crime_spree_begins
+		has_character_flag = tokay_rich
+		NOT = { has_character_flag = crime_keep_tokay } 
+		NOT = { has_character_flag = tokay_poor }
+		NOT = { has_character_flag = tokay_roads}
+	}
+	
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+	immediate = { set_character_flag = crime_keep_tokay }
+
+	option = {
+		name = "thieving3A"
+		hidden_tooltip = { 
+			random_list = {
+				50 = { #in					
+					FROM = { character_event = { id = thieving.4 days = 1 } }
+				}
+				25 = { #guard opens it
+					FROM = {character_event = { id = thieving.5 days = 1 }}				
+				}
+				25 = { #but he didn't see me
+					FROM = { character_event = { id = thieving.6 days = 1 } }			
+				}
+			}
+		}
+	}
+	option = {
+		name = "thieving3B"
+		hidden_tooltip = { 
+			random_list = {
+				50 = { #in
+					FROM = {character_event = { id = thieving.9 days = 1 }}
+				}
+				25 = { #can't breath
+					FROM = {	character_event = { id = thieving.10 days = 1 }}
+				}
+				25 = { #guard notices me
+					FROM = {	character_event = { id = thieving.11 days = 1 }}
+				}			
+			}
+		}
+	}
+	option = {
+		name = "thieving3D"
+	}	
+}
+character_event = {
+	id = thieving.4
+	desc = "thieving4_DESC"
+	picture = "GFX_evt_church"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "IN"
+		hidden_tooltip = {FROM = {character_event = {id = thieving.13}} }
+	}
+}
+character_event = {
+	id = thieving.5
+	desc = "thieving5_DESC"
+	picture = "GFX_evt_church"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "thieving5A"
+		hidden_tooltip = { 
+			random_list = {
+				50 = { #in					
+					FROM = { character_event = { id = thieving.6 }}
+				}
+				50 = { #they stab me
+					FROM = {character_event = { id = thieving.7 }}		
+				}
+			}
+		}		
+	}
+	option = {
+		name = "thieving5B"
+		hidden_tooltip = { 
+			random_list = {
+				25 = { #in					
+					FROM = {character_event = { id = thieving.2 }}
+				}
+				75 = { #they stab me
+					FROM = {character_event = { id = thieving.8 }}			
+				}
+			}
+		}		
+	}	
+}
+character_event = {
+	id = thieving.6
+	
+	desc = thieving6_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = IN
+		hidden_tooltip = {
+			FROM = {character_event = { id = thieving.13 }}
+		}
+	}
+}
+character_event = {
+	id = thieving.7
+	
+	desc = thieving7_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = TE		
+		host = {
+			ROOT = {
+				death = { 
+					death_reason = death_murder
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = thieving.8
+	
+	desc = thieving8_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = TE		
+		host = {
+			ROOT = {
+				death = { 
+					death_reason = death_murder_arrow
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = thieving.9
+	
+	desc = thieving9_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = IN
+		hidden_tooltip = {
+			FROM = {character_event = { id = thieving.13 }}
+		}
+	}
+}
+character_event = {
+	id = thieving.10
+	
+	desc = thieving8_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = TE		
+		host = {
+			ROOT = {
+				death = { 
+					death_reason = death_accident_drowning
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = thieving.11
+	desc = "thieving11_DESC"
+	picture = "GFX_evt_church"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "thieving11A"
+		hidden_tooltip = { 
+			random_list = {
+				50 = { #stay
+					FROM = {character_event = { id = thieving.12 }}
+				}
+				50 = { #he stab me
+					FROM = {character_event = { id = thieving.13 }}			
+				}
+			}
+		}		
+	}
+	option = {
+		name = "thieving11B"
+		hidden_tooltip = { #swim
+			random_list = {
+				25 = { #out				
+					FROM = {character_event = { id = thieving.3 }}
+				}
+				75 = {		
+					host = {
+						ROOT = {
+							death = { 
+								death_reason = death_accident_drowning
+							}
+						}
+					}			
+				}
+			}
+		}		
+	}	
+}
+character_event = {
+	id = thieving.12
+	desc = "thieving12_DESC"
+	picture = "GFX_evt_church"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "TE"
+		hidden_tooltip = { 	
+			host = {
+				ROOT = {
+					death = { 
+						death_reason = death_accident_drowning
+					}
+				}
+			}
+		}		
+	}
+}
+character_event = {
+	id = thieving.13
+	desc = "thieving13_DESC"
+	picture = "GFX_evt_church"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "thieving13A"
+		hidden_tooltip = {
+			random_list = {
+				#95 = { #in					
+				#	FROM = { character_event = { id = thieving.4 days = 1 } }
+				#}
+				5 = { #rumor
+					FROM = {character_event = { id = thieving.14 days = 1 }}				
+				}
+			}
+			set_character_flag = crime_servents_tokay
+		}
+	}
+	#option = {
+	#	name = "thieving13B" 
+	#}
+	#option = {
+	#	name = "thieving13C" 
+	#}
+}
+character_event = {
+	id = thieving.14
+	desc = "thieving14_DESC"
+	picture = "GFX_evt_church"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "thieving14A"
+		hidden_tooltip = {
+			random_list = {
+				50 = { #i					
+					FROM = { character_event = { id = thieving.16 } }
+				}
+				50 = { #cheating wife
+					FROM = {character_event = { id = thieving.15 }}				
+				}
+			}
+		}
+	}
+	option = {
+		name = "thieving14B" 
+		hidden_tooltip = {				
+			FROM = { character_event = { id = thieving.13}
+			}				
+		}
+	}
+}
+
+character_event = {
+	id = thieving.15
+	desc = "thieving15_DESC"
+	picture = "GFX_evt_church"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "thieving15A"
+		hidden_tooltip = {				
+			FROM = { character_event = { id = thieving.13 } }
+	
+		}
+	}
+}
+
+character_event = {
+	id = thieving.16
+	desc = "thieving16_DESC"
+	picture = "GFX_evt_church"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "thieving16A"
+		hidden_tooltip = {
+			random_list = {
+				50 = { #i					
+					FROM = { character_event = { id = thieving.Xgoldrupee } }
+				}
+				50 = { 
+					FROM = {character_event = { id = thieving.Xsilverrupee }}				
+				}
+				50 = {#cheating wif
+					FROM = { character_event = { id = thieving.17 } }
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = thieving.17
+	desc = "thieving17_DESC"
+	picture = "GFX_evt_church"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "thieving17A"
+		hidden_tooltip = {
+			FROM = { character_event = { id = thieving.13 } }
+		}
+	}
+}

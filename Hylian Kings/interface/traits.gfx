@@ -2162,5 +2162,19 @@ spriteTypes = {
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	spriteType = {
+		name = "GFX_trait_on_adventure"
+		texturefile = "gfx/traits/pilgrim.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_on_thieving"
+		texturefile = "gfx/traits/pilgrim.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
 	}
 }

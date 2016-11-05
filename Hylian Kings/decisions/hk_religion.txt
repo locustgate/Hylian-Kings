@@ -273,6 +273,7 @@ decisions = {
 				trait = one_legged
 				trait = one_handed
 			}
+			NOT = { has_character_flag = final_battle }
 		}
 		allow = {
 			in_command = no
@@ -289,6 +290,7 @@ decisions = {
 		}
 		effect = {
 			FROM = { character_event = { id = HKR.13 days = 1 } }
+			set_character_flag = final_battle
 		}
 		revoke_allowed = {
 			always = no

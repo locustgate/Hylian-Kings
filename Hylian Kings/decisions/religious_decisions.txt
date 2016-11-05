@@ -26,6 +26,7 @@ decisions = {
 			}
 			NOT = {
 				has_character_flag = guest_religious_feastival_started
+			}
 			NOT = { trait = incapable }
 			num_of_vassals = 1
 		}
@@ -114,6 +115,7 @@ decisions = {
 			}
 			NOT = {
 				has_character_flag = guest_religious_feastival_started
+			}
 			NOT = { trait = incapable }
 			num_of_vassals = 1
 		}
@@ -195,6 +197,7 @@ decisions = {
 			}
 			NOT = {
 				has_character_flag = guest_religious_feastival_started
+			}
 			NOT = { trait = incapable }
 			num_of_vassals = 1
 		}
@@ -276,6 +279,7 @@ decisions = {
 			}
 			NOT = {
 				has_character_flag = guest_religious_feastival_started
+			}
 			NOT = { trait = incapable }
 			num_of_vassals = 1
 		}
@@ -358,6 +362,7 @@ decisions = {
 			}
 			NOT = {
 				has_character_flag = guest_religious_feastival_started
+			}
 			NOT = { trait = incapable }
 			num_of_vassals = 1
 		}
@@ -420,6 +425,5 @@ decisions = {
 				NOT = { age = 30 }
 			}			
 		}
-	}
-	
+	}	
 }

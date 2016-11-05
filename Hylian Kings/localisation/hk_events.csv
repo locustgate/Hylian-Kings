@@ -101,7 +101,6 @@ HKCx3B;I'm sorry.;;;;;;;;;x
 DESC_HKC.x4;As I sink under the surface I see the child plucked from the water. My vision starts to fade as the water invades my lungs as the panic sets in. My last thoughts is at least the child will live.;;;;;;;;;x
 HKCx4A;It is a good death.;;;;;;;;;x
 #culture
-HKC
 #fairy
 DESC_FAIRY.0;I am awoken in the morning to a suddent yell of "Hey! Wake Up!" and find a fairy floating above me.;Je réveillé le matin pour un cri suddent de " Hey ! Wake Up! " et de trouver une fée flottant au-dessus de moi.;Ich bin am Morgen zu einem suddent Schrei aufgewacht "Hey! Wach auf! " und finden Sie eine Fee über mir schweben.;;Me despertaron en la mañana a un grito suddent de " Hey ! Wake Up ! " y encontrar un hada flotando por encima de mí .;;;;;;;;;x
 OPFAIRY.0A;Does this mean I finally have a fairy friend!?;Est- ce que cela signifie que j'ai enfin un ami de fées !?;Heißt das, ich habe endlich eine Fee Freund !?;;¿Esto significa que por fin tengo un amigo de hadas !?;;;;;;;;x
@@ -339,6 +338,76 @@ HKR21_DESC;As I aproach the Gerudo bandits I see sand being kicked up by what co
 HKR22_DESC;I sit among the remains of the bandits my armor discarded around the sand. My wounds stay unbound as more of the bandits arrive no longer worrying about their horses. I stand with my short sword in hand.;;;;;;;;;x
 HKR23_DESC;;;;;;;;;x
 HKR24_DESC;;;;;;;;x
+#thieving
+
+thieving0_DESC;I have my supplies ready, my skin paints for camoflauge, my potions, lockpicks, and food. The only thing I need to do now is decide where am I going. The castles and keeps of the nobles will surely give me good treasure, but it will be more dangerous. I can steal from the village, there is more people and less things to steal, but they aren't as heavily armed. I could always steal from travelers, but I will have no idea what I get.;;;;;;;;;x
+thieving0A;The riches of the keeps are to tempting;;;;;;;;;x
+thieving0B;I'm less likely to lose my tail in the village;;;;;;;;;x
+thieving0C;Travelers may give me the best items;;;;;;;;;x
+thieving1_DESC;I'm at my destination and ready to steal.;;;;;;;;;x
+thieving1A;Lets get a looting;;;;;;;;;x
+thieving1B;However there is a war and I must return;;;;;;;;;x
+thieving2_DESC;My crime spree is at an end and I must put my loot bag aside till the heat dies down.
+thieving3_desc;I've been staking out one keep there's a couple of entrances, a delivery entrance, a fountain entrance.;;;;;;;;;x
+thieving3A;I can disguise myself as a box and get in through the delivery.;;;;;;;;;x
+thieving3B;I'm sure I can swim through the fountain in take;;;;;;;;;x
+thieving3C;Scaling the wall should be easy;;;;;;;;;x
+thieving3D;Maybe another mark;;;;;;;;x
+thieving4_DESC;I waited till next day's delivery and snuck into one of the potion crates, I tossed most of the potions out along the road. When we arrived the guard complained about the weight but he still put me down with the rest of the crates.;;;;;;;;;x
+thieving5_DESC;I waited till next day's delivery and snuck into one of the potion crates, I tossed most of the potions out along the road. When we arrived the guard complained about the weight. He brought me about halfway when he set me down. I heard a comotion and then the lid of my crate open.;;;;;;;;;x
+thieving5A;Don't move a muscle;;;;;;;;;x
+thieving5B;SCAMPER!;;;;;;;;;x
+thieving6_DESC;The guard fishes around with his hand barrely missing me. In the end he grumbles puts the lid back on and takes me in.;;;;;;;;x
+thieving7_DESC;The guard fishes around with his hand barrely missing me. He removes his hand and then a flair of pain and something hot running down my abdomen. As the voices rise around me I come to the realization I had been stabbed.;;;;;;;;;x
+TE;I guess my crime spree is over.;;;;;;;;;x
+thieving8_DESC;I bolted the guards yelled and a couple stumbled, but one with his bow at the ready fired. The arrow hit me right in the chest. The clouds are above me now and the sun beaming down on. Just like sunning on the beach.;;;;;;x
+thieving9_DESC;The tunnel to the garden fount was longer than I thought, but I was able to find the end just as the guard walked by.;;;;;;;;;x
+thieving10_DESC;The tunnel to the garden fountain is longer than I thought. The light at the end seems to keep getting smaller and smaller. My lungs burn for air and panic sets. I need air. NOW. I take in a deep breath but only water enters my lungs. Everything is dark. The light gone.;;;;;;;x
+thieving11_DESC;The tunnel to the garden fountain is longer than I thought. I come up but right at the waters edge I see a guard staring in the water.;;;;;;;x
+thieving11A;Must not move;;;;;;;;;x
+thieving11B;Swim back;;;;;;;;;x
+thieving12_DESC;I can't make it back to the moat. My lungs burn. I need to take a breath.;;;;;;;;;x
+IN;I'm IN;;;;;;;;;x
+thieving13_DESC;I'm in the castle. The only question is where do I go. I could search the servents quarters, the guards quarters, or the noble's quarters.;;;;;;;;;x
+thieving13A;The servents are the safest.;;;;;;;;;x
+thieving13B;The guards can give me great weapons my people can't make.;;;;;;;;;x
+thieving13C;The noble quarters will surely give me great gifts.;;;;;;;;;x
+thieving14_DESC;As I enter the sevents quarters I over hear a servent talking about another that had been acting suspicious. I quickly spot said servent leaving his quarters and heading for the delivery area.;;;;;;;;;x
+thieving14A;I'll follow him this may have good loot;;;;;;;;;x
+thieving14B;No, I won't waste time on a rumor.;;;;;;;;;x
+thieving15_DESC;After following the servent for serveral minutes he sits and waits for what seems like ages in the delivery bay. As I'm getting ready to give up a woman enters wearing a rich dress. After a few minutes it becomes apparent the liege's daughter is sleeping with a servent.;;;;;;;x
+thieving15A;A waste of time.;;;;;;;x
+thieving16_DESC;I follow the servent for a while I watch as he puts something in under a stone in the delivery room.;;;;;;;x
+thieving16A;Lets see what he left;;;;;;;;x
+thieving17_DESC:Inside the dead drop is a letter. It describes a burning passion for a woman. I hear footsteps coming from behind and quickly place the letter back and go back to the shadows. A older woman in a rich dress enters and retreves the letter depositing another letter.;;;;;;x
+thieving17A;Looks like someone is having an affair;;;;;;;x
+thieving18_DESC;As the sun gets ready to rise I leave the castle with a small sack of rupees. My winnings from pickpocketing and stealing the servents meager pay;;;;;;x
+thieving18A;It's not much;;;;;;x
+thieving19;As the sun gets ready to rise I leave the castle with a small sack of rupees. My winnings from stealing from the guards earnings.;;;;;;;x
+thieving20;There is a rumor that one of the guards is seeing someone, but for some reason he doesn't want anyone to know.;;;;;;x
+thieving20A;Is he seeing someone or hidding something?;;;;;;x
+thieving21_DESC;As I follow the guard he acts like he is patrolling the grounds but he quickly diverts and heads for the servents quarters. He enters a room close to the kitchens after a short period of eavs dropping I gather enough he his in a relationship with the head chef's daughter.;;;;;;;x
+thieving21A;This may be valuble if I was a spymaster;;;;;;;;x
+thieving22_DESC;As I follow the guard he acts as if he is on a patrol but quickly leaves the castle. After a few minutes of walking we come to a clearing. In the center is the body of another guard with a note still in his fist. The living guard begins digging a grave but I quickly distract him by making noise in the opposite direction causing him to run.;;;;;;;x
+thieving22A;I quickly descend on the body looking for equipment.;;;;;;x
+thieving23_DESC;As I descend on the body I hear a twig snap and a sharp pain in my stomatch, I look down as someone right behind me starts yelling for the guards. I fall on the body with the sword still in my stomach....the sound of both of our murderer franticly running back to the castle.;;;;;;;x
+thieving24_DESC;As I make my way through the guard quarters one a pass guard stops and then continues on.;;;;;;;x
+thieving24A;Remain in hidding.;;;;;;;x
+thieving24B;Make a break for it;;;;;;;x
+thieving25_DESC;As I emerge from my hidding place the world goes black. The distant sound of heavy foot steps growing ever closer is all I can hear.;;;;;;;;x
+thieving26_DESC;As the sun begins to rise I exit the castle my large bag of rupees ove my shoulder and a smile on my face.;;;;;;;x
+thieving26A;A good haul;;;;;;;x
+thieving27_DESC;As I enter the noble quarters I notice a child in rich clothes running with something clutched in his hands.;;;;;;;x
+thieving27A;He may lead me to a good find;;;;;;;x
+thieving27B;A child with a toy no doubt;;;;;;;;x
+thieving28_DESC;As I follow the child he repeatedly looks behind as if he is worried to be followed. He enters a room containing a girl close to his age equally dressed. They proceed to play together with a set of dolls.;;;;;;x
+thieving28A;A waste of time.;;;;;;;x
+thieving29_DESC;As I follow the child he repeatedly looks behind as if he is worried about being followed. He nears a door and unlocks it. As he exits I pick the keys from him and enter. Revealing a large room filled with armor and valuble rupees.The only question is.....what do I take.;;;;;;;;;x
+thieving29A;The armor;;;;;;x
+thieving29B;The bow;;;;;;;x
+thieving29C;The sword;;;;;;x
+thieving30_DESC;Wanted posters of me are up all over town. Guard patrols are everywhere.;;;;;;x
+thieving30A;I need to lay low till the heat dies down;;;;;;;;x
 #triforce
 OPTF0A;Grats you broke the game;Grats vous avez cassé le jeu;Grats brach man das Spiel;;Grats que se rompió el juego;;;;;;;;;x
 DESC_TF.3;I awaken this morning to find that the mark of the triforce on my hand had disappeared with no explanation.;Je me réveille ce matin pour constater que la marque de la triforce sur ma main avait disparu sans explication .;Ich erwache heute Morgen zu finden , dass die Marke des triforce auf meiner Hand ohne Erklärung verschwunden war.;;Me despierto esta mañana para encontrar que la marca de la Trifuerza en mi mano había desaparecido sin explicación .;;;;;;;;;x

@@ -157,10 +157,16 @@ count_female_gamelon;Lady;Lady;Lady;;Lady;;;;;;;;;x;;;;;;;;;;;;
 ##Human
 emperor_ordonion;High King;;;;;;;;;;;;x
 emperor_female_ordonion;High Queen;;;;;;;;;;;;;x
-king_horon;High King;;;;;;;;;;;;x
-king_female_horon;High Queen;;;;;;;;;;;;;x
-king_title_ruler_consort_horon;High King Consort;;;;;;;;;;;;;x
-king_title_ruler_consort_female_horon;High Queen Consort;;;;;;;;;;;;;x
+king_ordonion;King;;;;;;;;;;;;x
+king_female_ordonion;Queen;;;;;;;;;;;;;x
+king_title_ruler_consort_ordonion;King Consort;;;;;;;;;;;;;x
+king_title_ruler_consort_female_ordonion;Queen Consort;;;;;;;;;;;;;x
+emperor_horon;High King;;;;;;;;;;;;x
+emperor_female_horon;High Queen;;;;;;;;;;;;;x
+king_horon;King;;;;;;;;;;;;x
+king_female_horon;Queen;;;;;;;;;;;;;x
+king_title_ruler_consort_horon;King Consort;;;;;;;;;;;;;x
+king_title_ruler_consort_female_horon;Queen Consort;;;;;;;;;;;;;x
 emperor_gravel;King;;;;;;;;;;;;x
 emperor_female_gravel;Queen;;;;;;;;;;;;;x
 emperor_consort_gravel;King Consort;;;;;;;;;;;;x
@@ -169,6 +175,22 @@ king_gravel;Princess;;;;;;;;;;;;;;;x
 king_female_gravel;Princess;;;;;;;;;;;;;x
 king_consort_gravel;Prince Consort;;;;;;;;;;;;x
 king_female_consort_gravel;Princess Consort;;;;;;;;;;;;;x
+emperor_sarian;Great King;;;;;;;;;;;;x
+emperor_female_sarian;Great Queen;;;;;;;;;;;;;x
+emperor_consort_sarian;King Consort;;;;;;;;;;;;x
+emperor_female_consort_sarian;Queen Consort;;;;;;;;;;;;;x
+king_sarian;King;;;;;;;;;;;;;;;x
+king_female_sarian;Queen;;;;;;;;;;;;;x
+king_consort_sarian;King Consort;;;;;;;;;;;;x
+king_consort_female_sarian;King Consort;;;;;;;;;;;;x
+emperor_kasuton;Great King;;;;;;;;;;;;x
+emperor_female_kasuton;Great Queen;;;;;;;;;;;;;x
+emperor_consort_kasuton;King Consort;;;;;;;;;;;;x
+emperor_female_consort_kasuton;Queen Consort;;;;;;;;;;;;;x
+king_kasuton;King;;;;;;;;;;;;;;;x
+king_female_kasuton;Queen;;;;;;;;;;;;;x
+king_consort_kasuton;King Consort;;;;;;;;;;;;x
+king_consort_female_kasuton;King Consort;;;;;;;;;;;;x
 emperor_gem_lander;Samrat;Samrat;Samrat;;Samrat;;;;;;;;;x;;;;;;;;;;;;
 emperor_female_gem_lander;Samrajni;Samrajni;Samrajni;;Samrajní;;;;;;;;;x;;;;;;;;;;;;
 king_gem_lander;Maharaja;Maharaja;Maharadscha;;Maharaja;;;;;;;;;x;;;;;;;;;;;;
@@ -238,24 +260,18 @@ baron_wizzrobe;Initiate King;;;;;;;;;;;;;x
 baron_female_wizzrobe;Initiate Queen;;;;;;;;;;;;;x
 ##spirit
 ##Goron
-king_great_fairy;Great Patriarch;;;;;;;;;;;;x
-king_female_great_fairy;Great Matriarch;;;;;;;;;;;;;x
-king_title_ruler_consort_great_fairy;Great Patriarch;;;;;;;;;;;;;x
-king_title_ruler_consort_female_great_fairy;Great Matriarch;;;;;;;;;;;;;x
-king_title_ruler_consort_great_fairy;Patriarch;;;;;;;;;;;;;x
-king_title_ruler_consort_female_great_fairy;Matriarch;;;;;;;;;;;;;x
-king_great_fairy;High Chief;;;;;;;;;;;;;;;x
-king_female_great_fairy;High Chief;;;;;;;;;;;;;x
-duke_great_fairy;Chief;;;;;;;;;;;;;x
-duke_female_great_fairy;Chief;;;;;;;;;;;;;x
-duke_title_ruler_consort_great_fairy;Consort;;;;;;;;;;;;;x
-duke_title_ruler_consort_female_great_fairy;Consort;;;;;;;;;;;;;x
-count_great_fairy;Big Brother;;;;;;;;;;;;;x
-count_female_great_fairy;Big Sister;;;;;;;;;;;;;x
-count_title_ruler_consort_great_fairy;Big Brother;;;;;;;;;;;;;x
-cout_title_ruler_consort_female_great_fairy;Big Sister;;;;;;;;;;;;;x
-baron_great_fairy;Elder;;;;;;;;;;;;;x
-baron_female_great_fairy;Elder;;;;;;;;;;;;;x
+emperor_death_mountain_goron;High Patriarch;;;;;;;;;;;;x
+emperor_female_death_mountain_goron;High Matriarch;;;;;;;;;;;;x
+emperor_consort_death_mountain_goron;Patriarch;;;;;;;;;;;;x
+emperor_consort_female_death_mountain_goron;Matriarch;;;;;;;;;;;;x
+emperor_title_queen_mother_female_death_mountain_goron;Matriarch Mother;;;;;;;;;;;;x
+king_death_mountain_goron;Patriarch;;;;;;;;;;;;x
+king_title_queen_mother_female_death_mountain_goron;Matriarch Mother;;;;;;;;;;;;x
+king_female_death_mountain_goron;Matriarch;;;;;;;;;;;;x
+duke_death_mountain_goron;High Chief;;;;;;;;;;;;;x
+duke_female_death_mountain_goron;High Chieftess;;;;;;;;;;;;;x
+count_death_mountain_goron;Elder;;;;;;;;;;;;;x
+count_female_death_mountain_goron;Elder;;;;;;;;;;;;;x
 ##fae
 king_great_fairy;Fairy King;;;;;;;;;;;;x
 king_female_great_fairy;Fairy Queen;;;;;;;;;;;;;x
