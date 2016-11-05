@@ -1,6 +1,8 @@
 namespace = thieving
 #0-2
 #3- rich
+##3-30 Castle
+##31- Manor
 # Tokay Mark
 character_event = {
 	id = thieving.0
@@ -46,7 +48,7 @@ character_event = {
 		add_trait = on_thieving
 		hidden_tooltip = {
 			set_character_flag = crime_spree_begins
-			character_event = { id = thieving.2 days = 120 }
+			character_event = { id = thieving.2 days = 60 }
 		}
 		any_opinion_modifier_target = {
 			limit = {
@@ -96,6 +98,7 @@ character_event = { #end
 				OR = {
 					has_character_flag = tokay_servent_small
 				}
+				has_nickname = no 
 			}
 			random_list = {
 				100 = {}
@@ -112,6 +115,7 @@ character_event = { #end
 					has_character_flag = tokay_guard_small
 					has_character_flag = tokay_noble_small
 				}
+				has_nickname = no 
 			}
 			random_list = {
 				100 = {}
@@ -121,13 +125,15 @@ character_event = { #end
 				10 = {give_nickname = nick_black_claw}
 				10 = {give_nickname = nick_thief }
 			}
+			has_nickname = no 
 		}		
 		if = {
 			limit = {
 				OR = {
 					has_character_flag = tokay_servent_huge
 					has_character_flag = tokay_guard_large
-				}
+				}				
+				has_nickname = no 
 			}
 			random_list = {
 				50 = {}
@@ -143,7 +149,8 @@ character_event = { #end
 				OR = {
 					has_character_flag = tokay_servent_huge
 					has_character_flag = tokay_guard_huge
-				}
+				}				
+				has_nickname = no 
 			}
 			random_list = {
 				50 = {}
@@ -159,7 +166,8 @@ character_event = { #end
 			limit = {
 				OR = {
 					has_character_flag = tokay_noble_huge
-				}
+				}				
+				has_nickname = no 
 			}
 			random_list = {
 				50 = {}
@@ -173,9 +181,22 @@ character_event = { #end
 		}
 		clr_character_flag = do_not_disturb
 		clr_character_flag = crime_spree_begins
-		clr_character_flag = tokay_poor
 		clr_character_flag = tokay_rich
 		clr_character_flag = tokay_roads
+		clr_character_flag = tokay_guard_huge
+		clr_character_flag = tokay_guard_large
+		clr_character_flag = tokay_guard_small
+		clr_character_flag = tokay_lay_low
+		clr_character_flag = tokay_manor_huge
+		clr_character_flag = tokay_manor_key
+		clr_character_flag = tokay_manor_large
+		clr_character_flag = tokay_manor_small
+		clr_character_flag = tokay_noble_huge
+		clr_character_flag = tokay_noble_large
+		clr_character_flag = tokay_noble_small
+		clr_character_flag = tokay_servent_huge
+		clr_character_flag = tokay_servent_large
+		clr_character_flag = tokay_servent_small
 	}
 	
 }
@@ -194,9 +215,19 @@ character_event = {#the castle
 		has_character_flag = crime_spree_begins
 		has_character_flag = tokay_rich
 		NOT = { has_character_flag = crime_keep_tokay } 
+		NOT = { has_character_flag = crime_manor_tokay } 
+		NOT = { has_character_flag = tokay_guard_large } 
+		NOT = { has_character_flag = tokay_guard_small } 
+		NOT = { has_character_flag = tokay_guard_huge } 
+		NOT = { has_character_flag = tokay_noble_large } 
+		NOT = { has_character_flag = tokay_noble_huge } 
+		NOT = { has_character_flag = tokay_noble_small } 
+		NOT = { has_character_flag = tokay_servent_huge } 
+		NOT = { has_character_flag = tokay_servent_large } 
+		NOT = { has_character_flag = tokay_servent_small } 
 		NOT = { has_character_flag = tokay_poor }
 		NOT = { has_character_flag = tokay_roads}
-		NOT = { has_character_flag = tokay_lay_low}
+		NOT = {  has_character_flag = tokay_lay_low}
 	}
 	
 	mean_time_to_happen = {
@@ -547,10 +578,12 @@ character_event = {
 				50 = { #i					
 					FROM = { character_event = { id = thieving.Xgoldrupee } }					
 					set_character_flag = tokay_servent_huge
+					clr_character_flag = crime_keep_tokay
 				}
 				50 = { 
 					FROM = {character_event = { id = thieving.Xsilverrupee }}						
-					set_character_flag = tokay_servent_large			
+					set_character_flag = tokay_servent_large	
+					clr_character_flag = crime_keep_tokay		
 				}
 				50 = {#cheating wif
 					FROM = { character_event = { id = thieving.17 } }
@@ -588,6 +621,7 @@ character_event = {
 		prestige = 50
 		hidden_tooltip = {
 			set_character_flag = tokay_servent_small
+			clr_character_flag = crime_keep_tokay
 		}
 	}
 }
@@ -604,6 +638,7 @@ character_event = {
 		prestige = 100
 		hidden_tooltip = {
 			set_character_flag = tokay_guard_small
+			clr_character_flag = crime_keep_tokay
 		}
 		random_list = {
 			50 = {}
@@ -632,7 +667,7 @@ character_event = {
 					FROM = {character_event = { id = thieving.21 }}				
 				}
 				25 = {#caught
-					FROM = {character_event = { id = thieving.23}
+					FROM = {character_event = { id = thieving.23} }
 				}
 			}
 		}
@@ -640,8 +675,7 @@ character_event = {
 	option = {
 		name = "thieving15B" 
 		hidden_tooltip = {				
-			FROM = { character_event = { id = thieving.13} }
-			}				
+			FROM = { character_event = { id = thieving.13} }				
 		}
 	}
 }
@@ -676,11 +710,13 @@ character_event = {
 				50 = { #i					
 					FROM = { character_event = { id = thieving.Xbomb_bag } }					
 					set_character_flag = tokay_guard_huge
+					clr_character_flag = crime_keep_tokay
 					wealth=100
 				}
 				25 = { 
 					FROM = {character_event = { id = thieving.Xbow_fire }}						
 					set_character_flag = tokay_guard_large	
+					clr_character_flag = crime_keep_tokay
 					wealth=100		
 				}
 				25 = {
@@ -775,6 +811,7 @@ character_event = {
 		prestige = 200
 		hidden_tooltip = {
 			set_character_flag = tokay_noble_small
+			clr_character_flag = crime_keep_tokay
 		}
 		random_list = {
 			50 = {}
@@ -884,5 +921,542 @@ character_event = {
 		hidden_tooltip = {
 			set_character_flag = tokay_lay_low
 		}
+	}
+}
+
+
+character_event = {#the manor
+	id = thieving.31
+	desc = "thieving31_desc"
+	picture = "GFX_evt_church"
+
+	min_age = 14
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		trait = on_thieving
+		has_character_flag = crime_spree_begins
+		has_character_flag = tokay_rich
+		NOT = { has_character_flag = crime_manor_tokay } 
+		NOT = { has_character_flag = tokay_poor }
+		NOT = { has_character_flag = tokay_roads}
+		NOT = { has_character_flag = tokay_lay_low }
+	}
+	
+	mean_time_to_happen = {
+		days = 40
+	}
+	
+	immediate = { set_character_flag = crime_manor_tokay }
+
+	option = {
+		name = "thieving31A"
+		wealth=-20
+		hidden_tooltip = {				
+				FROM = { character_event = { id = thieving.32 days = 2 } }
+		}
+	}
+	option = {
+		name = "thieving31B"
+	}	
+}
+character_event = {#the manor entrance
+	id = thieving.32
+	desc = "thieving32_desc"
+	picture = "GFX_evt_church"
+
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = "thieving32A"
+		hidden_tooltip = {	
+			random_list = {
+				75= {
+					FROM = { character_event = { id = thieving.35 days = 1 } }
+				}
+				25= {
+					FROM = { character_event = { id = thieving.33 days = 1 } }#keese were out				
+				}
+				25= {
+					FROM = { character_event = { id = thieving.34 days = 1 } }#keese were out people in				
+				}
+			}
+		}
+	}
+	option = {
+		name = "thieving32B"
+		hidden_tooltip = {	
+			FROM = { character_event = { id = thieving.35 days = 2 } }
+		}
+	}	
+}
+
+character_event = {#the manor lower entrance
+	id = thieving.33
+	desc = "thieving33_desc"
+	picture = "GFX_evt_church"
+
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = "IN"
+		hidden_tooltip = {	
+			FROM = { character_event = { id = thieving.39 days = 1 days = 1 } }
+		}
+	}	
+}
+character_event = {#the manor lower entrance
+	id = thieving.34
+	desc = "thieving34_desc"
+	picture = "GFX_evt_church"
+
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = "thieving34A"
+		hidden_tooltip = {		
+			random_list = {
+				75= {
+					FROM = { character_event = { id = thieving.39 days = 1 } }
+				}
+				25= {
+					FROM = { character_event = { id = thieving.37 } }#keese comeback				
+				}
+			}
+		}
+	}	
+	option = {
+		name = "thieving34B"
+		hidden_tooltip = {		
+			random_list = {
+				50= {
+					FROM = { character_event = { id = thieving.39 days = 1 } }
+				}
+				25= {
+					FROM = { character_event = { id = thieving.37} }#keese comeback				
+				}
+				25= {
+					FROM = { character_event = { id = thieving.38 } }#keese comeback and eat me				
+				}
+			}
+		}
+	}	
+}
+
+character_event = {#the manor lower entrance
+	id = thieving.35
+	desc = "thieving35_desc"
+	picture = "GFX_evt_church"
+
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = "thieving35A"
+		hidden_tooltip = {
+			if = {
+				limit = { intrigue = 15 }
+				random_list = {
+					75= {
+						FROM = { character_event = { id = thieving.39 days = 1 } }
+					}
+					25= {
+						FROM = { character_event = { id = thieving.37 } } #eaten by keese	
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { intrigue = 15 } }
+				random_list = {
+					50= {
+						FROM = { character_event = { id = thieving.39 days = 1 } }
+					}
+					50= {
+						FROM = { character_event = { id = thieving.37 } } #eaten by keese			
+					}
+				}
+			}
+		}
+	}			
+	option = {
+		name = "thieving35B"
+		hidden_tooltip = {		
+			random_list = {
+				50= {
+					FROM = { character_event = { id = thieving.33 days = 1 } }
+				}
+				50= {
+					FROM = { character_event = { id = thieving.34 days = 1 } }#				
+				}
+			}
+		}
+	}
+		
+	option = {
+		name = "thieving35C"
+		hidden_tooltip = {		
+			random_list = {
+				FROM = { character_event = { id = thieving.36 days = 2} }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = thieving.37
+	
+	desc = thieving37_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = TE		
+		host = {
+			ROOT = {
+				death = { 
+					death_reason = death_accident_keese
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = thieving.38
+	
+	desc = thieving38_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = thieving38A
+		prestige=-100
+		hidden_tooltip={
+			FROM = { character_event = { id = thieving.39 days = 1} }
+		}
+	}
+}
+character_event = {
+	id = thieving.39
+	
+	desc = thieving39_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = thieving39A
+		hidden_tooltip={
+			FROM = { character_event = { id = thieving.43 } }
+		}
+	}
+	option = {
+		name = thieving39B
+		hidden_tooltip={
+			FROM = { character_event = { id = thieving.40 } }
+		}
+	}
+}
+character_event = {
+	id = thieving.40
+	
+	desc = thieving40_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = thieving40A
+		hidden_tooltip={
+			IF = {
+				limit = { OR = { NOT = { intrigue = 20 }
+								NOT = { trait = elusive_shadow}
+						}
+				} 
+				random_list = {
+					50 ={
+						FROM = { character_event = { id = thieving.41 } } #wakes
+					}
+					50 ={
+						FROM = { character_event = { id = thieving.43 } }
+						set_character_flag = tokay_manor_key
+					}
+				}
+			}			
+			IF = {
+				limit = { OR = { intrigue = 20 
+						trait = elusive_shadow
+						}
+				} 
+				random_list = {
+					25 ={
+						FROM = { character_event = { id = thieving.41 } } #wakes
+					}
+					75 ={
+						FROM = { character_event = { id = thieving.43 } }
+						set_character_flag = tokay_manor_key
+						
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = thieving40B
+		hidden_tooltip={
+			IF = {
+				limit = { OR = { NOT = { intrigue = 20 }
+								NOT = { trait = elusive_shadow}
+						}
+				} 
+				random_list = {
+					50 ={
+						FROM = { character_event = { id = thieving.41 } } #wakes
+					}
+					50 ={
+						FROM = { character_event = { id = thieving.40 } }
+					}
+				}
+			}			
+			IF = {
+				limit = { OR = { intrigue = 20 
+						trait = elusive_shadow
+						}
+				} 
+				random_list = {
+					25 ={
+						FROM = { character_event = { id = thieving.41 } } #wakes
+					}
+					75 ={
+						FROM = { character_event = { id = thieving.40 } }
+					}
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = thieving.41
+	
+	desc = thieving41_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = thieving41A
+		hidden_tooltip={
+			IF = {
+				limit = { OR = { NOT = { intrigue = 20 }
+								NOT = { trait = elusive_shadow}
+						}
+				} 
+				random_list = {
+					50 ={
+						FROM = { character_event = { id = thieving.42 } } #killed
+					}
+					50 ={
+						set_character_flag = tokay_lay_low
+						prestige = -50
+					}
+				}
+			}			
+			IF = {
+				limit = { OR = { intrigue = 20 
+						trait = elusive_shadow
+						}
+				} 
+				random_list = {
+					25 ={
+						FROM = { character_event = { id = thieving.42 } } #killed
+					}
+					75 ={
+						set_character_flag = tokay_lay_low
+						prestige = -50
+					}
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = thieving.42
+	
+	desc = thieving42_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = TE		
+		host = {
+			ROOT = {
+				death = { 
+					death_reason = death_murder_arrow
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = thieving.43
+	
+	desc = thieving43_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = thieving43A
+		hidden_tooltip={
+			If = {
+				limit = {
+					OR = { intrigue = 20
+						trait = elusive_shadow
+					}
+				}
+				random_list = {
+					25 = {
+						FROM = { character_event = { id = thieving.47 } } #failed
+					}
+					40 = {#100
+						FROM = { character_event = { id = thieving.44 } }
+						set_character_flag = tokay_manor_small
+					}
+					25 = {#200
+						FROM = { character_event = { id = thieving.45 } }
+						set_character_flag = tokay_manor_large
+					
+					}
+					10 = {#300
+						FROM = { character_event = { id = thieving.46 } }
+						set_character_flag = tokay_manor_huge
+					
+					}
+				
+			}
+		}
+			If = {
+				limit = {
+					NOR = { intrigue = 20
+						trait = elusive_shadow
+					}
+				}
+				random_list = {
+					50 = {
+						FROM = { character_event = { id = thieving.47 } } #failed
+					}
+					50 = {#100
+						FROM = { character_event = { id = thieving.44 } }
+						set_character_flag = tokay_manor_small
+					}
+					40 = {#200
+						FROM = { character_event = { id = thieving.45 } }
+						set_character_flag = tokay_manor_large
+					
+					}
+					10 = {#300
+						FROM = { character_event = { id = thieving.46 } }
+						set_character_flag = tokay_manor_huge
+					
+					}
+				
+			}
+		}
+	}
+	option = {
+		name = thieving43B
+		hidden_tooltip={
+			FROM = { character_event = { id = thieving.40 days = 1 } }
+		}
+	}
+	option = {
+		name = thieving43C
+		hidden_tooltip = {
+		limit = { has_character_flag = tokay_manor_key }
+		clr_character_flag = tokay_manor_key
+			random_list = {
+				50 = {#100
+					FROM = { character_event = { id = thieving.44 } }
+					set_character_flag = tokay_manor_small
+				}
+				40 = {#200
+					FROM = { character_event = { id = thieving.45 } }
+					set_character_flag = tokay_manor_large
+				
+				}
+				10 = {#300
+					FROM = { character_event = { id = thieving.46 } }
+					set_character_flag = tokay_manor_huge
+				
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = thieving.44
+	
+	desc = thieving44_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = thieving44A	
+		wealth = 100
+		prestige = 50
+	}
+}
+character_event = {
+	id = thieving.45
+	
+	desc = thieving44_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = thieving45A	
+		wealth = 200
+		prestige = 100
+	}
+}
+character_event = {
+	id = thieving.46
+	
+	desc = thieving44_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = thieving46A	
+		wealth = 300
+		prestige = 200
+		FROM = {character_event = {id = thieving.30 days = 1 } }
+	}
+}
+
+character_event = {
+	id = thieving.47
+	
+	desc = thieving47_DESC
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = thieving47A	
+		prestige = -50
+		FROM = {character_event = {id = thieving.30 days = 1 } }
 	}
 }

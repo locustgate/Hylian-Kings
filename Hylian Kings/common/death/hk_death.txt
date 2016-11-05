@@ -16,3 +16,16 @@ death_abandoned = {
 		}
 	}
 }
+#accident
+death_accident_keese = {
+	violent = yes
+	long_desc = "DEATH_ACCIDENT_KEESE"
+	sound_list = {
+		female = {
+			"arrow_in_the_back_female"
+		}
+		male = {
+			"arrow_in_the_back_male"
+		}
+	}
+}

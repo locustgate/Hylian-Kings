@@ -1977,15 +1977,7 @@ e_saria = { #empire
 		d_saria = {
 			color={ 0 0 204 }
 			color2={ 255 255 23 }
-			capital = 196 # Middlesex			
-			c_tantari = {
-				color={ 0 104 46 }
-				color2={ 249 228 83 }
-			
-				b_tantari = {}
-				b_sanin = {}
-				b_nodo = {}
-			}
+			capital = 196 # Middlesex
 			c_navi = {
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
@@ -2020,7 +2012,15 @@ e_saria = { #empire
 		d_midoro = {
 			color={ 0 78 255 }
 			color2={ 0 0 0 }
-			capital = 202 # Middlesex
+			capital = 202 # Middlesex			
+			c_tantari = {
+				color={ 0 104 46 }
+				color2={ 249 228 83 }
+			
+				b_tantari = {}
+				b_sanin = {}
+				b_nodo = {}
+			}
 			c_midoro = {
 				color={ 0 104 46 }
 				color2={ 249 228 83 }
@@ -5163,7 +5163,7 @@ e_labrynna = {
 			}
 		}
 		d_yoll = {
-			color={ 138 43 226 }
+			color={ 52 85 185 }
 			color2={ 87 87 87}
 			capital = 312
 			c_yoll = {
@@ -5200,7 +5200,7 @@ e_labrynna = {
 			
 		}
 		d_rolling_ridge = {
-			color={ 138 43 226 }
+			color={ 88 125 234 }
 			color2={ 87 87 87}
 			capital = 316
 			c_rolling_ridge = {
@@ -5232,7 +5232,7 @@ e_labrynna = {
 			}
 		}
 		d_maku_forest = {
-			color={ 138 43 226 }
+			color={ 111 132 192 }
 			color2={ 87 87 87}
 			capital = 317
 			c_maku_grove = {
@@ -5272,7 +5272,7 @@ e_labrynna = {
 			}
 		}
 		d_nuun = {
-			color={ 138 43 226 }
+			color={ 72 85 123 }
 			color2={ 87 87 87}
 			capital = 329
 			c_nuun_highlands = {
@@ -5295,7 +5295,7 @@ e_labrynna = {
 			}
 		}
 		d_talus = {
-			color={ 138 43 226 }
+			color={ 12 40 123 }
 			color2={ 87 87 87}
 			capital = 328
 			c_nuun_mountains = {
@@ -5325,7 +5325,7 @@ e_labrynna = {
 			}
 		}
 		d_symmetry = {
-			color={ 138 43 226 }
+			color={ 28 73 206 }
 			color2={ 87 87 87}
 			capital = 326
 			c_symmetry = {
@@ -5345,7 +5345,7 @@ e_labrynna = {
 			}
 		}
 		d_lynna = {
-			color={ 138 43 226 }
+			color={ 0 40 159 }
 			color2={ 87 87 87}
 			capital = 286
 			c_lynna = {
@@ -5405,7 +5405,7 @@ e_labrynna = {
 			}
 		}
 		d_gale_isles = {
-			color={ 255 127 80 }
+			color={ 139 188 252 }
 			color2={ 255 255 0 }
 			capital = 294
 			c_zora_cove = {
@@ -5433,7 +5433,7 @@ e_labrynna = {
 			}
 		}
 		d_storm_isles = {
-			color={ 255 127 80 }
+			color={ 159 183 214 }
 			color2={ 255 255 0 }
 			capital = 291
 			c_eyeglass_island = {
@@ -5504,7 +5504,7 @@ e_labrynna = {
 			}
 		}
 		d_tokay_island = {
-			color={ 107 142 35 }
+			color={ 139 185 44 }
 			color2={ 255 239 213 }
 			capital = 290
 			c_tokay_island = {
@@ -5516,7 +5516,7 @@ e_labrynna = {
 			}
 		}
 		d_moonlight_isles = {
-			color={ 107 142 35 }
+			color={ 160 181 116 }
 			color2={ 255 239 213 }
 			capital = 293
 			c_moonlight_island = {
@@ -5624,7 +5624,7 @@ e_calatia = {
 				}
 			}
 			d_phracia = {
-				color={ 255 206 0 }
+				color={ 148 42 42 }
 				color2={ 38 38 38}			
 				capital = 809
 				c_phracia = {
@@ -5659,7 +5659,7 @@ e_calatia = {
 				}
 			}
 			d_tysia = {
-				color={ 226 226 226 }
+				color={ 146 11 11 }
 				color2={ 250 187 0 }			
 				capital = 801
 				c_ghios = {
@@ -5685,7 +5685,7 @@ e_calatia = {
 				}
 			}
 			d_zmyrna = {
-				color={ 150 75 75 }
+				color={ 147 104 104 }
 				color2={ 255 255 255 }			
 				capital = 804
 				c_toris = {
@@ -5711,7 +5711,7 @@ e_calatia = {
 		
 			}
 			d_aphesos = {
-				color={ 150 75 75 }
+				color={ 100 50 50 }
 				color2={ 255 255 255 }			
 				capital = 817				
 				c_baphlagoina = {
@@ -5743,7 +5743,7 @@ e_calatia = {
 				
 			}
 			d_micomedia = {
-				color={ 150 75 75 }
+				color={ 1168 83 83 }
 				color2={ 255 255 255 }			
 				capital = 814
 				c_davia = {
@@ -5766,8 +5766,8 @@ e_calatia = {
 					b_mitenos = {}
 				}
 			}
-			d_rycaonia	 = {
-				color={ 186 0 7 }
+			d_rycaonia = {
+				color={ 175 58 58 }
 				color2={ 0 84 145 }			
 				capital = 825
 				c_rycaonia = {
@@ -5789,8 +5789,7 @@ e_calatia = {
 					b_pilaz = {}
 					b_podia_2 = {}
 				}
-			}		
-			
+			}				
 		}
 		k_enatolia = {
 		color={ 78 116 197 }
@@ -5809,8 +5808,8 @@ e_calatia = {
 				}
 			}
 			d_enatolia = {
-				color={ 150 75 75 }
-				color2={ 255 255 255 }			
+				color={ 78 116 197 }
+				color2={ 160 176 87 }			
 				capital = 818
 				c_enatolia = {
 					color={ 150 75 75 }
@@ -5848,7 +5847,7 @@ e_calatia = {
 				}
 			}
 			d_pyzantion = {
-				color={ 150 75 75 }
+				color={ 118 142 194 }
 				color2={ 255 255 255 }			
 				capital = 813
 				c_pyzantion = {
@@ -5867,7 +5866,7 @@ e_calatia = {
 				}
 			}
 			d_semnos = {
-				color={ 150 75 75 }
+				color={ 136 166 231 }
 				color2={ 255 255 255 }			
 				capital = 821
 				c_semnos = {
@@ -5892,7 +5891,7 @@ e_calatia = {
 				}
 			}
 			d_bontus = {
-				color={ 150 75 75 }
+				color={ 93 112 153}
 				color2={ 255 255 255 }			
 				capital = 823
 				c_bontus = {
@@ -5917,7 +5916,7 @@ e_calatia = {
 				}
 			}
 			d_gommagene = {
-				color={ 150 75 75 }
+				color={ 58 116 240 }
 				color2={ 255 255 255 }			
 				capital = 841
 				c_gommagene = {
@@ -5954,7 +5953,7 @@ e_calatia = {
 				}
 			}
 			d_ontioch = {
-				color={ 150 75 75 }
+				color={ 66 104 186 }
 				color2={ 255 255 255 }			
 				capital = 832
 				c_ontioch = {
@@ -5976,7 +5975,7 @@ e_calatia = {
 				}
 			}
 			d_drapezous = {
-				color={ 150 75 75 }
+				color={ 39 68 130 }
 				color2={ 255 255 255 }			
 				capital = 840
 				c_drapezous = {
@@ -5997,7 +5996,7 @@ e_calatia = {
 				}
 			}
 			d_cophene = {
-				color={ 150 75 75 }
+				color={ 3 54 163 }
 				color2={ 255 255 255 }			
 				capital = 842
 				c_cophene= {

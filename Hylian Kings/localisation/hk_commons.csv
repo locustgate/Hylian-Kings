@@ -14,6 +14,8 @@ hylian_conquest_desc;Often ambitious or mad Hylians have justified wars by the f
 #death
 death_abandoned;Abandoned;;;;;;;;;x
 DEATH_ABANDONED;was abandoned in the wild at a very young age by $KILLER$;;;;;;;;;x
+death_accident_keese;Keese;;;;;;;;;x
+death_accident_keese;was killed by a keese.;;;;;;;;;x
 #game rules
 RULE_LORULE_INVASION;�BHylian Kings:�! Lorulean Invasion;Stabilité nomade (§BSeigneurs de cavalerie§!);§BFürsten der Steppe:§! Nomadenstabilität;;§BSeñores a caballo:§! Estabilidad nómada;;;;;;;;;x
 RULE_TWILI_INVASION;�BHylian Kings:�! Twilian Invasion;Stabilité nomade (§BSeigneurs de cavalerie§!);§BFürsten der Steppe:§! Nomadenstabilität;;§BSeñores a caballo:§! Estabilidad nómada;;;;;;;;;x
@@ -111,6 +113,17 @@ old_man_nick;Old Man;;;;;;;;;x
 old_woman_nick;Old Woman;;;;;;;;;x
 nick_big_brother;Big Brother;;;;;;;;;x
 nick_big_sister;Big Sister;;;;;;;;;x
+nick_black_scale;Black Scale;;;;;;;;;x
+nick_black_claw;Black Claw;;;;;;;;;x
+nick_sticky_claw;Sticky Claw;;;;;;;;;x
+nick_quick_claw;Quick Claw;;;;;;;;;x
+nick_thief;The Thief;;;;;;;;;x
+nick_silver_scale;Silver Scale;;;;;;;;;x
+nick_silver_claw;Silver Claw;;;;;;;;;x
+nick_gold_scale;Gold Scale;;;;;;;;;x
+nick_gold_claw;Gold Claw;;;;;;;;;x
+nick_red_scale;Red Scale;;;;;;;;;x
+nick_red_claw;Red Claw;;;;;;;;;x
 #titles
 GUILD_MASTER;Guild Master;;;;;;;;;x
 GUILD_MISTRESS;Guild Mistress;;;;;;;;;x

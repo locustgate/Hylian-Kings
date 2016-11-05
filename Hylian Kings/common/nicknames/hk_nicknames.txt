@@ -1,39 +1,32 @@
 #LINK Nicknames
 ##first link
 nick_the_hero = {}
-##little hyrule (hero of hyrule)
-nick_hero_hyrule ={}
-##hero of time, not possible
-nick_hero_time = {}
-##hero of the essence of time and nature (oracle)
-nick_hero_time_nature ={}
-##hero of light (Last Link in child) 
-nick_hero_light = {}
 ##SKy Child (skyward sword 2nd link
 nick_sky_child = {}
-#ZELDA Nicknames
-##Ocarina OF Destiy
-nick_destiny  = {}
-##Spirit Maiden (first non hylia)
-nick_spirit_maiden = {}
+##Hero of Man
+nick_hero_man = {}
+##hero of light (Last Link before split) 
+nick_hero_light = {}
 
-#giant goron in kingdom
-nick_biggoron = {}
-#tall goron in kingdom
-nick_midgoron = {}
-iron_knuckle_nick = {}
-sir_nick = {}
-nick_the_like_like = {
-	allow = {
-		age = 20
-		trait = brave
-		trait = glutinous
-		trait = scarred
-	}
-	chance = {
-		factor = 1
-	}
-}
+#ZELDA Nicknames
+nick_goddess = {}
+###Spirit Maiden (first non hylia) outdated
+#nick_spirit_maiden = {}
+##Hylia
+nick_hylia = {}
+
+#bad guy nicknames
+nick_demon_king = {} #demise
+nick_immortal_demon = {} #vaati
+nick_sorceress_shadows = {} #veren
+nick_sorceress_sisters = {} #twinrova
+nick_general_darkness = {} #Onox
+nick_king_darkness = {} #ganon
+nick_usurper_king = {} #zant
+
+
+#iron_knuckle_nick = {}
+#sir_nick = {}
 nick_the_cucoo = {
 	allow = {
 		age = 20
@@ -42,19 +35,6 @@ nick_the_cucoo = {
 	}
 	chance = {
 		factor = 2
-	}
-}
-nick_the_armos = {
-	allow = {
-		age = 20
-		trait = brave
-		trait = plate_tunic
-		NOT = {
-			culture = gerudo
-		)
-	}
-	chance = {
-		factor = 1
 	}
 }
 nick_the_moblin = {
@@ -75,25 +55,6 @@ nick_the_moblin = {
 		factor = 1
 	}
 }
-nick_the_anti_fairy = {
-	allow = {
-		trait = fairy_bottled
-		NOT = {
-			religion = great_fairies
-		}
-	}
-	chance = {
-		factor = 1
-	}
-}
-nick_the_chuchu = {
-	allow = {
-		trait = glutinous
-	}
-	chance = {
-		factor = 1
-	}
-}
 mad_scrub_nick = {
 	allow = {
 		trait = race_deku
@@ -105,87 +66,372 @@ mad_scrub_nick = {
 }
 nick_fairy_boy = {
 	allow = {
+		age = 10
 		trait = fairy_companion
-		NOT = {
+		is_female = no
+		NOT = { age = 20}
+	}
+	chance = {
+		factor = 1
+
+	}
+}
+nick_fairy_girl = {
+	allow = {
+		age = 10
+		trait = fairy_companion
+			is_female = yes
+		NOT = { age = 20}
+	}
+	chance = {
+		factor = 1
+
+	}
+}
+nick_master_triforce = {
+	allow = {
+		trait = triforce
+		is_female = no
+	}
+	chance = {
+		factor = 4
+
+	}
+}
+nick_mistress_triforce = {
+	allow = {
+		trait = triforce
+		is_female = yes
+	}
+	chance = {
+		factor = 4
+
+	}
+}
+nick_the_red_lion = {
+	allow = {
+		ruled_years = 15
+		OR = {
+			trait = brave
+			is_strong_trigger = yes
 		}
-		chance = {
-			factor = 1
+		OR = {
+			trait = skilled_tactician
+			trait = brilliant_strategist
+		}
+		is_weak_trigger = no
+		culture_group = hylian_group
+	}
+	chance = {
+		factor = 3
+	}
+}
+nick_old_man = {
+	allow = {
+		ruled_years = 20
+		age = 55
+		NOR = {
+			trait = race_demon
+			trait = race_tree_deity
+			trait = race_tree_demon
+			trait = race_kokiri
+			trait = race_fairy
+			trait = race_goron
+			trait = race_subrosian
+			trait = sage_light
+		}
+		culture = ho_ho
+		is_female = no
+	}
+	chance = {
+		factor = 5
+		modifier = {
+			factor = 2.0
+			age = 65
+		}
+		modifier = {
+			factor = 10.0
+			age = 75
+		}
+		modifier = {
+			factor = 1.5
+			ruled_years = 30
+		}
+		modifier = {
+			factor = 1.5
+			ruled_years = 40
 		}
 	}
 }
-#############################TOKAY NICKNAMES#############################
-nick_one_with_metal_shirt = {
+nick_old_woman = {
 	allow = {
-		age = 16
-		culture = tokay
-		trait = glutinous
+		ruled_years = 20
+		age = 55
+		NOR = {
+			trait = race_demon
+			trait = race_tree_deity
+			trait = race_tree_demon
+			trait = race_kokiri
+			trait = race_fairy
+			trait = race_goron
+			trait = race_subrosian
+			trait = sage_light
+		}
+		culture = ho_ho
+		is_female = yes
 	}
 	chance = {
-		factor = 2
+		factor = 5
+		modifier = {
+			factor = 2.0
+			age = 65
+		}
+		modifier = {
+			factor = 10.0
+			age = 75
+		}
+		modifier = {
+			factor = 1.5
+			ruled_years = 30
+		}
+		modifier = {
+			factor = 1.5
+			ruled_years = 40
+		}
 	}
-nick_one_with_metal_scales = {
+}
+nick_big_brother = {
 	allow = {
-		age = 16
-		culture = tokay
-		trait = glutinous
+		ruled_years = 40
+		age = 150
+		culture_group = goron_group
+		is_female = no
 	}
 	chance = {
-		factor = 2
+		factor = 5
+		modifier = {
+			factor = 2.0
+			age = 160
+		}
+		modifier = {
+			factor = 10.0
+			age = 180
+		}
+		modifier = {
+			factor = 1.5
+			ruled_years = 50
+		}
+		modifier = {
+			factor = 1.5
+			ruled_years = 60
+		}
 	}
-nick_one_with_shield = {
+}
+nick_big_sister = {
 	allow = {
-		age = 16
-		culture = tokay
-		trait = glutinous
+		ruled_years = 40
+		age = 150
+		culture_group = goron_group
+		is_female = no
 	}
 	chance = {
-		factor = 2
+		factor = 5
+		modifier = {
+			factor = 2.0
+			age = 160
+		}
+		modifier = {
+			factor = 10.0
+			age = 180
+		}
+		modifier = {
+			factor = 1.5
+			ruled_years = 50
+		}
+		modifier = {
+			factor = 1.5
+			ruled_years = 60
+		}
 	}
-nick_one_with_spear = {
+}
+#############################LFOS NICKNAMES#############################
+nick_black_scale = {}
+nick_black_claw = {}
+nick_sticky_claw = {}
+nick_quick_claw = {}
+nick_thief = {}
+nick_silver_scale = {
 	allow = {
 		age = 16
-		culture = tokay
-		trait = glutinous
+		trait = greedy
+		stewardship = 10
+		wealth = 1000
+		culture_group = lfos
 	}
 	chance = {
-		factor = 2
+		factor = 1
+		modifier = {
+			factor = 3
+			is_patrician = yes
+		}
+		modifier = {
+			factor = 2
+			wealth = 2000
+		}
+		modifier = {
+			factor = 2
+			wealth = 3000
+		}
 	}
-nick_one_with_horse = {
+}
+nick_silver_claw = {
 	allow = {
 		age = 16
-		culture = tokay
-		trait = glutinous
+		trait = greedy
+		stewardship = 10
+		wealth = 1000
+		culture_group = lfos
 	}
 	chance = {
-		factor = 2
+		factor = 1
+		modifier = {
+			factor = 3
+			is_patrician = yes
+		}
+		modifier = {
+			factor = 2
+			wealth = 2000
+		}
+		modifier = {
+			factor = 2
+			wealth = 3000
+		}
 	}
-nick_one_with_sword = {
+}
+nick_gold_scale = {
 	allow = {
 		age = 16
-		culture = tokay
-		trait = glutinous
+		trait = greedy
+		stewardship = 10
+		wealth = 2000
+		culture_group = lfos
 	}
 	chance = {
-		factor = 2
+		factor = 1
+		modifier = {
+			factor = 3
+			is_patrician = yes
+		}
+		modifier = {
+			factor = 2
+			wealth = 4000
+		}
+		modifier = {
+			factor = 2
+			wealth = 5000
+		}
 	}
-nick_one_with_hammer = {
+}
+nick_gold_claw = {
 	allow = {
 		age = 16
-		culture = tokay
-		trait = glutinous
-		trait = scarred
+		trait = greedy
+		stewardship = 10
+		wealth = 2000
+		culture_group = lfos
 	}
 	chance = {
-		factor = 2
-	}
-nick_one_with_bow = {
-	allow = {
-		age = 16
-		culture = tokay
-		trait = glutinous
-	}
-	chance = {
-		factor = 2
+		factor = 1
+		modifier = {
+			factor = 3
+			is_patrician = yes
+		}
+		modifier = {
+			factor = 2
+			wealth = 4000
+		}
+		modifier = {
+			factor = 2
+			wealth = 5000
+		}
 	}
 }
 
+nick_red_scale = {
+	allow = {
+		age = 20
+		NOT = { trait = kind }
+		NOT = { trait = charitable }
+		OR = {
+			trait = cruel
+			trait = wroth
+			trait = impaler
+		}
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 5.0
+			trait = impaler
+		}
+		modifier = {
+			factor = 2.0
+			trait = cruel
+		}
+		modifier = {
+			factor = 2.0
+			trait = wroth
+		}
+		modifier = {
+			factor = 2.0
+			trait = envious
+		}
+		modifier = {
+			factor = 2.0
+			trait = deceitful
+		}
+		modifier = {
+			factor = 2.0
+			trait = greedy
+		}
+	}
+}
+nick_red_claw = {
+	allow = {
+		age = 20
+		NOT = { trait = kind }
+		NOT = { trait = charitable }
+		OR = {
+			trait = cruel
+			trait = wroth
+			trait = impaler
+		}
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 5.0
+			trait = impaler
+		}
+		modifier = {
+			factor = 2.0
+			trait = cruel
+		}
+		modifier = {
+			factor = 2.0
+			trait = wroth
+		}
+		modifier = {
+			factor = 2.0
+			trait = envious
+		}
+		modifier = {
+			factor = 2.0
+			trait = deceitful
+		}
+		modifier = {
+			factor = 2.0
+			trait = greedy
+		}
+	}
+}

@@ -59,7 +59,7 @@ DESC_HKC.6;The woman explains that she is a princess from a land not on any map 
 HKC6A;She may stay in my kingdom till she can return to her homeland.;;;;;;;;;x
 HKC6B;You neighbor would pay to have you back.;;;;;;;;;x
 HKC6C;You may stay and recover but must leave when you can.;;;;;;;;;x
-DESC_HKC.7;As I was sureveying my demesne me and my party came across the scene of a fierce battle, six men in bizzare armor each surrounded by scores of bokoblin corpses and the remains of another man similarly dressed near a woman. Upon closer inspection by my party's healer she informs me that the man guarding the woman is still breathing but barely, he needs a potion immediatly or he will perish.
+DESC_HKC.7;As I was sureveying my demesne me and my party came across the scene of a fierce battle, six men in bizzare armor each surrounded by scores of bokoblin corpses and the remains of another man similarly dressed near a woman. Upon closer inspection by my party's healer she informs me that the man guarding the woman is still breathing but barely, he needs a potion immediatly or he will perish.;;;;;;x
 HKC7A;Make his passing as painless as possible.;;;;;;;;;x
 HKC7BR;Use my red potion.;;;;;;;;;x
 HKC7BB;Use my blue potion.;;;;;;;;;x
@@ -69,7 +69,7 @@ DESC_HKC.8;With the healers care the man recovered enough to talk, he revealed t
 HKC8A;See that he recovers before sending him on his way.;;;;;;;;;x
 HKC8B;Offer him a place in my court when he recovers.;;;;;;;;;x
 HKC8C;We have done enough for him.;;;;;;;;;x
-DESC_HKC.9;The healer reported that the man had passed before he did he asked if the princess was uninjured, he assumed the woman was who he was asking, the healer said that he told him she was.
+DESC_HKC.9;The healer reported that the man had passed before he did he asked if the princess was uninjured, he assumed the woman was who he was asking, the healer said that he told him she was.;;;;;;x
 HKC9A;I hope he finds peace.;;;;;;;;;x
 DESC_HKC.10;As I was sureveying my demesne me and my party came across the scene of a fierce battle, six men in bizzare armor each surrounded by scores of bokoblin corpses and the remains of another man similarly dressed near a woman. Upon closer inspection by my party's healer she informs me that the man and woman are both living but if he tries to help both they will probably both die as he does not have enough red potion for two and the one he doesn't help will die.;;;;;;;;;x
 HKC10A;Help the man.;;;;;;;;;x
@@ -87,7 +87,7 @@ DESC_HKC.16;Both recover enough to talk after a brief reunion the woman explains
 HKC16A;See that they are well taken care of till they recover fully.;;;;;;;;;x
 HKC16B;They both could stay at my court till it is safe to return to their homeland.;;;;;;;;;x
 HKC16C;They can take care of themselves now.;;;;;;;;;x
-DESC_HKC.17;The healer explains that he is sorry to say that he could not save them but they were able live long enough to talk before they passed.
+DESC_HKC.17;The healer explains that he is sorry to say that he could not save them but they were able live long enough to talk before they passed.;;;;;;;x
 HKC17A;I hope they find peace.;;;;;;;;;x
 DESC_HKC.x1;As I was surveying a river in my demesne a splash and a call for help came from the river. A several feet into the deeper parts of the river is a child struggling to stay afloat and calling for help.;;;;;;;;;x
 HKCx1A;Before I know what is happening I find myself diving into the river and heading to the child.;;;;;;;;;x
@@ -162,7 +162,7 @@ DESC_item.30;As I enter the the forge I see a large goron taking up most of the 
 OPITEMKNIFE;"What's that large sword?";;;;;;;;;x
 DESC_item.31;"That's a knife for a Biggoron, but he doesn't really use them very much.";;;;;;;;;x
 OPITEMMAGICARMOR;"What is that set of armor?";;;;;;;;;x
-DESC_item.32;"That's a set of Wizzrobe made Magic Armor. It'll protect you from almost any form of attack."
+DESC_item.32;"That's a set of Wizzrobe made Magic Armor. It'll protect you from almost any form of attack.";;;;;;;;x
 #knights
 EVTNAME_knights.0;The Knights of Hyrule;;;;;;;;;x
 EVTDESC_knights.0;The armies of Hyrule can barely protect itself from the monsterous hordes and the Gerudo raiders. It is time to form an organization to protect Holy Hyrule much like the aerborne knights of Legend defended the last of the Hylians during the time that gods walked the earth. They will be the Knights of Hyrule and will never falter.;;;;;;;;;x
@@ -305,7 +305,7 @@ EVTOPTA_knights.122;[From.GetFirstName] you've made me proud.;;;;;;;;;x
 EVTDESC_knights.123;Upon learning of my father's death I left for home. My wallet filled with rupees and letter from the king of Moria thanking me for my service and expressing his condolences for my lost.;;;;;;;;;x
 EVTOPTA_knights.123;I'm home.;;;;;;;;;x
 #prisoner
-EVTDESCHKPRISONER0;My Prisoner has a piece of the triforce. The power that I can obtain
+EVTDESCHKPRISONER0;My Prisoner has a piece of the triforce. The power that I can obtain.;;;;;;;;;;;x
 #religion
 HKR10_DESC;As I leave my child's cries follow me. The Arbiter explains that if the child is strong they will survive and overcome their weakness. If not then their very existance will bring suffering.;;;;;;;;;x
 HKR10A;Codes let them overcome their weakness.;;;;;;;;;x
@@ -339,7 +339,6 @@ HKR22_DESC;I sit among the remains of the bandits my armor discarded around the 
 HKR23_DESC;;;;;;;;;x
 HKR24_DESC;;;;;;;;x
 #thieving
-
 thieving0_DESC;I have my supplies ready, my skin paints for camoflauge, my potions, lockpicks, and food. The only thing I need to do now is decide where am I going. The castles and keeps of the nobles will surely give me good treasure, but it will be more dangerous. I can steal from the village, there is more people and less things to steal, but they aren't as heavily armed. I could always steal from travelers, but I will have no idea what I get.;;;;;;;;;x
 thieving0A;The riches of the keeps are to tempting;;;;;;;;;x
 thieving0B;I'm less likely to lose my tail in the village;;;;;;;;;x
@@ -347,7 +346,7 @@ thieving0C;Travelers may give me the best items;;;;;;;;;x
 thieving1_DESC;I'm at my destination and ready to steal.;;;;;;;;;x
 thieving1A;Lets get a looting;;;;;;;;;x
 thieving1B;However there is a war and I must return;;;;;;;;;x
-thieving2_DESC;My crime spree is at an end and I must put my loot bag aside till the heat dies down.
+thieving2_DESC;My crime spree is at an end and I must put my loot bag aside till the heat dies down.;;;;;;;x
 thieving3_desc;I've been staking out one keep there's a couple of entrances, a delivery entrance, a fountain entrance.;;;;;;;;;x
 thieving3A;I can disguise myself as a box and get in through the delivery.;;;;;;;;;x
 thieving3B;I'm sure I can swim through the fountain in take;;;;;;;;;x
@@ -379,7 +378,7 @@ thieving15_DESC;After following the servent for serveral minutes he sits and wai
 thieving15A;A waste of time.;;;;;;;x
 thieving16_DESC;I follow the servent for a while I watch as he puts something in under a stone in the delivery room.;;;;;;;x
 thieving16A;Lets see what he left;;;;;;;;x
-thieving17_DESC:Inside the dead drop is a letter. It describes a burning passion for a woman. I hear footsteps coming from behind and quickly place the letter back and go back to the shadows. A older woman in a rich dress enters and retreves the letter depositing another letter.;;;;;;x
+thieving17_DESC;Inside the dead drop is a letter. It describes a burning passion for a woman. I hear footsteps coming from behind and quickly place the letter back and go back to the shadows. A older woman in a rich dress enters and retreves the letter depositing another letter.;;;;;;x
 thieving17A;Looks like someone is having an affair;;;;;;;x
 thieving18_DESC;As the sun gets ready to rise I leave the castle with a small sack of rupees. My winnings from pickpocketing and stealing the servents meager pay;;;;;;x
 thieving18A;It's not much;;;;;;x
@@ -408,6 +407,44 @@ thieving29B;The bow;;;;;;;x
 thieving29C;The sword;;;;;;x
 thieving30_DESC;Wanted posters of me are up all over town. Guard patrols are everywhere.;;;;;;x
 thieving30A;I need to lay low till the heat dies down;;;;;;;;x
+thieving31_DESC;I ran into one of my fellow thievies. He said that he tried to break into a manor that was said to have a lot of treasures just laying around. He said that he scouted it out and would be willing to give me his map for 20 rupees.;;;;;;;x
+thieving31A;It may be worth it.;;;;;;x
+thieving31B;Safe journey home, but no thanks.;;;;;;x
+thieving32_DESC;The map is very well detailed, but only has the outside. It shows an entrance through a old hidden passage which has been bricked up, but the passage has be taken over bay keese. There's a window in the library, the owner of the house usually in there till midnight and is very lightly guarded.;;;;;;;;x
+thieving32A;The passage should be quickest.;;;;;;;x
+thieving32B;The library may be the safest;;;;;;;x
+thieving33_DESC;The passage was luckily devoid of keese, probably out feeding on someone's cucco. As I neared the bricked up wall the only sound was my footsteps. I removed the bricks slowly being sure not to make any unneeded sound, after I made it in I put the bricks back.;;;;;;x
+thieving34_DESC;The passage was luckily devoid of keese, probably out feeding on someone's cucco. As I neared the bricked up wall I hear a couple of hushed voices.;;;;;;;x
+thieving34A;I can either wait for them to leave;;;;;;x
+thieving34B;or take my chances and go inside.;;;;;;x
+thieving35_DESC;As I entered the cave it quickly became apparent that the keese are still in the cave. There is enough keese on the ceiling that would be sure to ensure my death within seconds.;;;;;;x
+thieving35A;Douse my torch and try to make my way through the tunnel;;;;;;x
+thieving35B;I should wait for the keese to leave then try again;;;;;;x
+thieving35C;I should try the library entrance;;;;;;;;;x
+thieving36_DESC;Scalling the manor's wall was easy. As I neared the window I can hear snoring. A quick glance shows the master of the house asleep at a study desk and countless artifacts.;;;;;;;;x
+thieving36A;I could take my chances and sneak in;;;;;;;;x
+thieving36B;Or give up.;;;;;;;x
+thieving37_DESC;The sound of wings is all I can ear and the glow of hundreds of pairs of eyes are all I can see. Before the keese descend on me.;;;;;;x
+thieving38_DESC;As I carefully removed the stones the sound of wings came from behind, picking up the pace I entered the celler and took cover. Just in time as a swarm of keese descend on the couple, their screams ring through the manor.;;;;;;x
+thieving38A;A black mark;;;;;;x
+thieving39_DESC;After gaining entrance I have scouted the manor. Then in the celler there is a locked door. There is the library with the sleeping owner, it has enough small artifacts that I can make a large profit.;;;;;;;;x #magic rods #masks
+#thieving39A;The armor can either be of use or profit.;;;;;;;x
+thieving39A;There must be something behind that door.;;;;;;;x
+thieving39B;The library's artifacts can be profitable.;;;;;;;x
+thieving40_DESC;The owner of the house continues to snore. After a quick survey I find the four easiest and most valuble artifacts. However the owner has a large key on his belt.;;;;;;x
+thieving40A;Grab the artifacts and leave.;;;;;;x
+thieving40B;The key may open the door.;;;;;;;x
+thieving41_DESC;As the key comes off the owner's belt a servent walks in. She screams and I run.;;;;;;;x
+thieving41A;If I survive I'll need to lay low;;;;;;x
+thieving42_DESC;As I run the sound of hounds and guards grow ever closer. Before I relize what happened my face is on the ground.;;;;;;x
+thieving43_DESC;As I near the door I find lightly guarded, being passed every 5 minutes. The door is locked by a large key, the hole located in the center. I may be able to unlock it or I may find the key.;;;;;;x
+thieving43A;I'll try to pick the lock;;;;;;;;x
+thieving43B;I'll try to find the key;;;;;;;;x
+thieving44_DESC;Inside the room is a single blue chest and some books all not very valuble. ;;;;;;;;x
+thieving44A;Inside the chest is a single silver rupee;;;;;;;;x
+thieving45A;Inside the chest is two silver rupees;;;;;;;;x
+thieving46A;Inside the chest is a single large golden rupee;;;;;;;;x
+thieving47_DESC;After several lock pics it becomes apparent I may not be able to unlock it.;;;;;;;;x
 #triforce
 OPTF0A;Grats you broke the game;Grats vous avez cassé le jeu;Grats brach man das Spiel;;Grats que se rompió el juego;;;;;;;;;x
 DESC_TF.3;I awaken this morning to find that the mark of the triforce on my hand had disappeared with no explanation.;Je me réveille ce matin pour constater que la marque de la triforce sur ma main avait disparu sans explication .;Ich erwache heute Morgen zu finden , dass die Marke des triforce auf meiner Hand ohne Erklärung verschwunden war.;;Me despierto esta mañana para encontrar que la marca de la Trifuerza en mi mano había desaparecido sin explicación .;;;;;;;;;x
