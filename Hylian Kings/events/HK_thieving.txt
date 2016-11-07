@@ -1342,8 +1342,8 @@ character_event = {
 					
 					}
 				
+				}
 			}
-		}
 			If = {
 				limit = {
 					NOR = { intrigue = 20
@@ -1367,8 +1367,8 @@ character_event = {
 						FROM = { character_event = { id = thieving.46 } }
 						set_character_flag = tokay_manor_huge
 					
-					}
-				
+					}			
+				}
 			}
 		}
 	}

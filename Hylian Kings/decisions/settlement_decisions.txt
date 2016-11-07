@@ -755,7 +755,7 @@ settlement_decisions = {
 				AND = {
 					OR = {
 						#has_dlc = "The Sword of Islam"
-						NOT = { religion_group = demon_religion#muslim }
+						NOT = { religion_group = demon_religion #muslim }
 					}
 					#OR = {
 					#	has_dlc = "The Old Gods"

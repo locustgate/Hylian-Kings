@@ -3,7 +3,8 @@ decisions = {
 		is_high_prio = yes
 		potential = {
 			culture = tokay
-			age = 16			
+			age = 16	
+			NOT = { age = 50}
 			NOT = { trait = on_thieving }
 			OR = {
 				demesne_size = 1
@@ -62,7 +63,7 @@ decisions = {
 			hidden_tooltip = {
 				set_character_flag = do_not_disturb
 				character_event = { id = thieving.0  } # 
-				character_event = { id = thieving.1 days = 14 }
+				character_event = { id = thieving.1 days = 6 }
 				if = {
 					limit = { 
 						demesne_size = 1 
@@ -110,6 +111,107 @@ decisions = {
 			modifier = {
 				factor = 5
 				trait = greedy
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					trait = decietful
+					trait = shrewd
+				}	
+			}
+			modifier = {
+				factor = 0
+				NOT = { intrigue=10 }	
+			}
+		}
+	}
+	forge_darknut_armor = {
+		is_high_prio = yes
+		potential = {
+			culture = darknut
+			age = 16	
+			NOT = { age = 60}
+			NOT = { trait = darknut_armor }
+			NOT = { trait = onager }
+			OR = {
+				demesne_size = 1
+				liege = { 
+					culture = darknut
+					war = no
+					NOT = { has_character_flag = dn_armor_forging }
+				}
+			}				
+			OR = {
+				NOT = { has_character_flag = dn_armor_forging }
+			}	
+		}
+		allow = {
+			age = 16
+			war = no
+			prisoner = no	
+			in_command = no
+			is_ill = no
+			has_epidemic = no
+			NOT = {
+				trait = onager	
+			}
+		}
+		effect = {
+			clr_character_flag = dn_armor_forging
+			clr_character_flag = magic_study
+			clr_character_flag = dn_sword_forging
+			set_character_flag = dn_armor_forging
+			prestige = 20
+			wealth = -10	
+			hidden_tooltip = {
+				set_character_flag = do_not_disturb
+				character_event = { id = culture.0  } # 
+				character_event = { id = culture.1  days = 6 }
+				if = {
+					limit = { 
+						demesne_size = 1 
+						NOT = { tier = BARON } 
+					}
+				}	
+				if = {
+					limit = { 
+						OR = {
+							NOT = { demesne_size = 1 } 
+							tier = BARON
+						}	
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.03
+			}		
+			modifier = {
+				factor = 0
+				is_female = yes
+				NOT = { higher_tier_than = BARON }
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_ill = yes
+					is_weak_trigger = yes
+					age = 50
+				}	
+			}
+			modifier = {
+				factor = 0.25
+				is_ruler = no
+			}
+			modifier = {
+				factor = 5
+				culture = darknut
 			}
 			modifier = {
 				factor = 2
