@@ -58,14 +58,15 @@ bloodline_dragonslayer_desc;This character is descended from a dragon slayer who
 bloodline_ambi;Ambi Bloodline;;;;;;;;;x
 bloodline_ambi_desc;This character from Queen Ambi the founder of the kingdom of Labrynna.;;;;;;;;;x
 on_adventure;Adventuring;;;;;;;;;x
-on_adventure_DESC;This character is currently away from court on an adventure.;;;;;;;;;x
+on_adventure_desc;This character is currently away from court on an adventure.;;;;;;;;;x
 on_thieving;Crime Spree;;;;;;;;;x
-on_thieving_DESC;This character is currently away from court stealing from people.;;;;;;;;;x
+on_thieving_desc;This character is currently away from court stealing from people.;;;;;;;;;x
 in_seclusion;In Seclusion;;;;;;;;;x
-in_seclusion_DESC;This character is currently doing something that prevents them from holding court.;;;;;;;;;x
+in_seclusion_desc;This character is currently doing something that prevents them from holding court.;;;;;;;;;x
 #companions
 companion_fairy;Fairy Companion;;;;;;;;;x
 companion_fairy_desc;This character has a fairy following them around, while it is a wealth of knowledge both in and out of combat they can be very very an-HEY LISTEN!;;;;;;;;;x
+#equipment
 zora_armor;Zora Armor;;;;;;;;;x
 zora_armor_desc;Armor built by the zora for humans, it allows humans to breath underwater like a zora and provideds protection against non-fire based attacks.;;;;;;;;;x
 magic_armor;Magic Armor;;;;;;;;;x
@@ -92,6 +93,8 @@ bow_ice;Bow and Ice arrow;;;;;;;;;x
 bow_ice;A bow with ice arrows capable of freezing most enemies and expecially deadly to fire enemies.;;;;;;;;;x
 bow_fire;Bow and Fire arrow;;;;;;;;;x
 bow_fire_desc;A bow with fire arrows capable of burning most enemies and especially deadly to ice and wood based enemies.;;;;;;;;;x
+darknut_mace;Darknut Mace;;;;;;;;;x
+darknut_mace_desc;A mace often used by darknut usually flanged.;;;;;;;x
 #race
 race_hylian;Hylian;;;;;;;;;x
 race_hylian_desc;This character is a hylian the closest of the human races to the goddess each with a drop of blood from Hylia's or Link's bloodline.;;;;;;;;;x
@@ -130,7 +133,7 @@ race_zola_desc;This character is a Zola, a race of Zora from rivers and marshes 
 race_goron;Goron;;;;;;;;;x
 race_goron_desc;This character is a Goron, a race of rock like creatures posing a deadly opponent do to their inhumane strength and rock like skin, however they are generally dificult to anger.;;;;;;;;;x
 race_subrosian;Subrosian;;;;;;;;;x
-race_subrosian_desc;This character is a Subrosian, either a offshoot or ancestor to Gorons found in volcanic underground.
+race_subrosian_desc;This character is a Subrosian, either a offshoot or ancestor to Gorons found in volcanic underground.;;;;;;;x
 race_lizalfos;Lizalfos;;;;;;;;;x
 race_lizalfos_desc;This character is a Lizalfos, a lizard like monster found in mountains.;;;;;;;;;x
 race_dinolfos;Dinolfos;;;;;;;;;x
@@ -154,7 +157,7 @@ race_yook_desc;This character is a Yook, a race of berserker apelike monsters.;;
 race_watarara;Watarara;;;;;;;;;x
 race_watarara_desc;This character is a Watarara, a race of human like birds commonly found traveling across the Hyrule continent.;;;;;;;;;x
 race_rito;Rito;;;;;;;;;x
-race_rito_desc;This character is a Rito, a race of bird like humans who are an offshoot of Zora.
+race_rito_desc;This character is a Rito, a race of bird like humans who are an offshoot of Zora.;;;;;;;x
 race_zuna;Zuna;;;;;;;;;x
 race_zuna_desc;This character is a Zuna, a race of humanoid cactus creatures.;;;;;;;;;x
 race_deku;Deku;;;;;;;;;x

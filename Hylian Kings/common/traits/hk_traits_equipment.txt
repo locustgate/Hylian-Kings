@@ -63,7 +63,13 @@ biggoron_knife = {
 ###darknut
 darknut_sword = {
 	martial = 2
-	combat_rating = 2
+	combat_rating = 1
+	monthly_character_prestige = 0.5
+}
+darknut_mace = {
+	martial = 2
+	combat_rating = 1
+	monthly_character_prestige = 0.5
 }
 ##magic
 

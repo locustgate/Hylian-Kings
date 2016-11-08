@@ -15,6 +15,8 @@
 	add_trait=deceitful
 	add_trait=chaste 
 	add_trait=cruel 
+	trait=darknut_armor
+	trait=darknut_sword
 	3361.8.1={ birth=yes }
 	3382.9.4={ add_spouse=1202 }
 	3402.2.15={ death=yes }
@@ -110,6 +112,8 @@
 	religion=darknut_doctrine
 	trait=brilliant_strategist
 	trait=race_darknut
+	trait=darknut_armor
+	trait=darknut_sword
 	trait=patient
 	trait=robust
 	trait=brave
@@ -130,6 +134,9 @@
 	dna="homclojgoef"
 	culture=darknut religion=darknut_doctrine
 	martial=6 diplomacy=7 stewardship=7 intrigue=6 learning=7
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword
 	add_trait=midas_touched
 	trait=bloodline_firstdox add_trait=temperate add_trait=diligent add_trait=envious add_trait=gregarious 
 	add_trait=trusting 
@@ -143,6 +150,9 @@
 	dna="hhjfeogkoeg"
 	culture=darknut religion=darknut_doctrine
 	martial=4 diplomacy=7 stewardship=5 intrigue=4 learning=6
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword
 	trait=bloodline_firstdox trait=indulgent_wastrel add_trait=just add_trait=kind add_trait=charitable add_trait=cynical 
 	father=17501	#Roland
 	3347.4.27={ birth=yes }
@@ -155,6 +165,9 @@
 	dna="chjfaogkhdg"
 	culture=darknut religion=darknut_doctrine
 	trait=bloodline_firstdox
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword
 	father=17502	#Scipio
 	3366.8.3={ birth=yes }
 	3416.11.12={ death=yes }
@@ -166,7 +179,10 @@
 	culture=darknut religion=darknut_doctrine
 	martial=5 diplomacy=8 stewardship=8 intrigue=6 learning=6
 	add_trait=brilliant_strategist
-	trait=bloodline_firstdox add_trait=ambitious add_trait=cruel add_trait=lustful trait=brave trait=holy_warrior trait=strong
+	trait=bloodline_firstdox
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword add_trait=ambitious add_trait=cruel add_trait=lustful trait=brave trait=holy_warrior trait=strong
 	father=17502	#Scipio
 	3367.11.15={ birth=yes }
 	3387.1.1={add_spouse=17521} 
@@ -190,7 +206,10 @@
 	dna="fcdnbaogohb"
 	culture=darknut religion=darknut_doctrine
 	martial=6 diplomacy=5 stewardship=6 intrigue=7 learning=7
-	add_trait=elusive_shadow add_trait=duelist add_trait=slothful add_trait=greedy add_trait=content 
+	add_trait=elusive_shadow
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword add_trait=duelist add_trait=slothful add_trait=greedy add_trait=content 
 	add_trait=gregarious 
 	3349.7.13={ birth=yes }
 	3372.1.1={add_spouse=17518}
@@ -238,7 +257,10 @@
 	dna="odgpalhbgkc"
 	culture=darknut religion=darknut_doctrine
 	martial=8 diplomacy=6 stewardship=7 intrigue=7 learning=5
-	add_trait=detached_priest add_trait=chaste add_trait=kind add_trait=patient add_trait=humble 
+	add_trait=detached_priest
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword add_trait=chaste add_trait=kind add_trait=patient add_trait=humble 
 	add_trait=gregarious 
 	3350.10.3={ birth=yes }
 	3372.1.1={add_spouse=17519}
@@ -309,7 +331,10 @@
 	dna="oafcghocdlf"
 	culture=darknut religion=darknut_doctrine
 	martial=7 diplomacy=5 stewardship=6 intrigue=4 learning=6
-	add_trait=detached_priest add_trait=wroth add_trait=ambitious add_trait=humble add_trait=deceitful 
+	add_trait=detached_priest
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword add_trait=wroth add_trait=ambitious add_trait=humble add_trait=deceitful 
 	add_trait=trusting add_trait=envious 
 	3357.1.20={ birth=yes }
 	3381.1.1={add_spouse=17520}
@@ -377,7 +402,9 @@
 	religion=darknut_doctrine
 	culture=darknut
 	trait=elusive_shadow
-	trait=race_darknut
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword
 	trait=bloodline_betrayers
 	trait=impaler
 	trait=ambitious
@@ -404,6 +431,8 @@
 	trait=mastermind_theologian
 	trait=race_darknut
 	trait=bloodline_betrayers
+	trait=darknut_armor
+	trait=darknut_sword
 	trait=kind
 	trait=brave
 	trait=shy
@@ -429,6 +458,8 @@
 	trait=midas_touched
 	trait=race_darknut
 	trait=bloodline_betrayers
+	trait=darknut_armor
+	trait=darknut_sword
 	trait=cruel
 	trait=lustful
 	trait=gregarious
@@ -452,6 +483,8 @@
 	trait=grey_eminance
 	trait=race_darknut
 	trait=bloodline_betrayers
+	trait=darknut_armor
+	trait=darknut_sword
 	trait=poet
 	trait=lustful
 	trait=gregarious
@@ -466,7 +499,10 @@
 	dna="dgpijgjdejg"
 	culture=darknut religion=darknut_doctrine
 	martial=8 diplomacy=6 stewardship=4 intrigue=5 learning=7
-	add_trait=mastermind_theologian add_trait=just add_trait=craven add_trait=ambitious add_trait=charitable 
+	add_trait=mastermind_theologian
+	trait=race_darknut 
+	trait=darknut_armor
+	trait=darknut_sword add_trait=just add_trait=craven add_trait=ambitious add_trait=charitable 
 	add_trait=slothful 
 	3358.2.9={ birth=yes }
 	3409.4.26={ death=yes }
@@ -497,7 +533,10 @@
 	dna="dgpijgjdejg"
 	culture=darknut religion=darknut_doctrine
 	martial=8 diplomacy=6 stewardship=4 intrigue=5 learning=7
-	add_trait=mastermind_theologian add_trait=just add_trait=craven add_trait=ambitious add_trait=charitable 
+	add_trait=mastermind_theologian
+	trait=race_darknut 
+	trait=darknut_armor
+	trait=darknut_sword  add_trait=just add_trait=craven add_trait=ambitious add_trait=charitable 
 	add_trait=slothful 
 	3358.2.9={ birth=yes }
 	3409.4.26={ death=yes }
@@ -508,7 +547,10 @@
 	dna="dgpijgjdejg"
 	culture=darknut religion=darknut_doctrine
 	martial=8 diplomacy=6 stewardship=4 intrigue=5 learning=7
-	add_trait=mastermind_theologian add_trait=just add_trait=craven add_trait=ambitious add_trait=charitable 
+	add_trait=mastermind_theologian
+	trait=race_darknut 
+	trait=darknut_armor
+	trait=darknut_sword  add_trait=just add_trait=craven add_trait=ambitious add_trait=charitable 
 	add_trait=slothful 
 	3358.2.9={ birth=yes }
 	3379.1.1={add_spouse=17526}
@@ -520,7 +562,10 @@
 	dna="gpnpmcdjlfj"
 	culture=darknut religion=darknut_doctrine
 	martial=8 diplomacy=8 stewardship=6 intrigue=6 learning=6
-	add_trait=midas_touched add_trait=gluttonous add_trait=trusting 
+	add_trait=midas_touched
+	trait=race_darknut 
+	trait=darknut_armor
+	trait=darknut_sword  add_trait=gluttonous add_trait=trusting 
 	3366.9.7={ birth=yes }
 	3386.9.19={add_spouse=17532}
 	3420.10.21={ death=yes }
