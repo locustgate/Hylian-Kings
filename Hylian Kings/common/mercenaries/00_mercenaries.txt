@@ -38,7 +38,13 @@ ordon_culture_band_composition = {
 	horse_archers = 30
 }
 #vassal mercs
-
+sheikah_bodyguards_composition = {
+	levy_size = 6
+	light_infantry = 250
+	mage_sword = 100
+	mage = 50
+	archers = 50
+}
 knights_hyrule_composition = {
 	levy_size = 6
 	heavy_infantry = 200
@@ -250,9 +256,17 @@ sword_school_composition = {
 	mage = 50
 	mage_sword = 100
 }
-blade_brothers_composition = [
+blade_brothers_composition = {
 	levy_size = 1
 	light_infantry = 300
 	heavy_infantry = 200
 	mage_sword = 50
-]
+}
+coast_guard_composition = {
+	levy_size = 5
+	archers = 150
+	heavy_infantry = 210
+	light_infantry = 225
+	knights = 15
+	galleys = 40
+}

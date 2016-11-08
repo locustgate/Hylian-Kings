@@ -4,18 +4,12 @@
 title = c_rii
 
 # Settlements
-max_settlements = 7
+max_settlements = 1
 
-b_rii = city
-b_tikuu = castle
-b_noluu = temple
-b_uurin = city
-#b_hakk = city
-#b_ekso = castle
-#b_sen = city
+b_rii = tribal
 
 # Misc
-culture = ho_ho
+culture = hoho
 religion = oshus_religion
-terrain = arctic
+terrain = artic
 #History

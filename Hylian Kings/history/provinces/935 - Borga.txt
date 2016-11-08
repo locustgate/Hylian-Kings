@@ -4,13 +4,12 @@
 title = c_borga
 
 # Settlements
-max_settlements = 3
+max_settlements = 1
 
-b_borga = city
-#b_amothno = castle
-#b_bakam = temple
+b_borga = tribal
+
 # Misc
-culture = ho_ho
+culture = hoho
 religion = oshus_religion
-terrain = arctic
+terrain = artic
 #History

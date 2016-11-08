@@ -72,8 +72,6 @@
 }
 14 = {
 	name="Calatia"	
-	 
-
 }
 15 = {
 	name="Kahkariko"
@@ -22408,6 +22406,19 @@
 4401 = {
 	name="Julius"
 	culture = darknut
+	used_for_random = no
+	can_appear = no	
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 4402 = {
@@ -74427,9 +74438,67 @@
 14801 = {
 	name="Proodyl"
 	culture=darknut
+	used_for_random = no
+	can_appear = no	
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 14802 = {
 	name="Kanalet"
 	culture=koholinter
+}
+14803 = {
+	name="Tingle"
+}
+14804 = {
+	name="Tarm"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+14805 = {
+	name="Yoll"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+14806 = {
+	name="Zam"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }

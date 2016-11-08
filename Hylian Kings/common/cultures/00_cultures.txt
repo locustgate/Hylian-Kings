@@ -839,11 +839,11 @@ lost_tribe = {
 		
 		
 		male_names = {
-		Senturon Creuz Thadeus Ignus Alaric Roland Horatius Rupert Krieger Vercingetorix Miyamoto Caesar Leonidas Genghis Alexander Spartacus Xiahou Hannibal Pyrrhus Richard Arminius Miltiades Vlad Tzu William Basil Attila Fei Eric Achaicus Aelianus Aemilianus Barbula Bassus Bauto Caprarius Claudius Cornelius Cicero Decidius Saxa Decius Delius Siccius Dentatus Elva Fabius Flavius Flaccus Fulvius Fuscus Gabinius Gallus Gannys Glabrio Hosidius Herminius Junius Laelius Lartius Lollius Lucretius Macer Macrinus Macimus Metellus Rufus Nero Norbanus Octavius Odaenathus Opimius Orobius Ovida Paetus Papirius Cursor Pedius Perpenna Vento Pompeianus Laenas Tubertus Quietus Flamininus Regulus Rufio Rufus Rutilius Sabinus Scribonius Sergius Severus Trebonius Valens Vipsanius Zadbas Sulpicius Syagrius Corvo
+		Senturon Creuz Thadeus Ignus Alaric Roland Horatius Rupert Krieger Vercingetorix Miyamoto Caesar Leonidas Genghis Alexander Spartacus Xiahou Hannibal Pyrrhus Richard Arminius Miltiades Vlad Tzu William Basil Attila Fei Eric Achaicus Aelianus Aemilianus Barbula Bassus Bauto Caprarius Claudius Cornelius Cicero Decidius Saxa Decius Delius Siccius Dentatus Elva Fabius Flavius Flaccus Fulvius Fuscus Gabinius Gallus Gannys Glabrio Hosidius Herminius Junius Laelius Lartius Lollius Lucretius Macer Macrinus Macimus Metellus Rufus Nero Norbanus Octavius Odaenathus Opimius Orobius Ovida Paetus Papirius Cursor Pedius Perpenna Vento Pompeianus Laenas Tubertus Quietus Flamininus Julius Scipio Sun Alaric Roland Xiahou Marcus Ioannis Vasily Pyrrhus Simo Hanible Arminus Alcibiades Corvo
 		}
 		female_names = {
 		Lydia Aela Bellona Bradamante Camilla Caterina Fantaghiro Olga Polinitzi Artemis Diana Atalanta Athena Minerva Enyo Hippolyta Penthesilea Jeanne Joan Nora Samjl Shote Kenau Teuta Joanna Jeanne Margaret Catherine Sarka Vlasta Kilda Morrigan Badb Macha Muirisc Liath Aife Scathach Medb Andraste Boudica Ethelfleda Gwenllian Virginia Clodia Scribonia Livia Julia Agrippina Claudilla Orestilla Paulina Caesonia Valeria Aelia Plautia Sabina Pythagoras Statilia Sporus Aemilla Lepida Galeria Domitilla Caenis Arrecina Plotina Sabina Faustina Lucilla Crispina Clara Marciana Domna Celsa Severa Faustina Zoticus Hierocles Orbiana Memmia Lissa Sully Sumia Maribelle Panne Cordelia Nowi Olivia Cherche Flavia Lucina Noire Cynthia Kjelle Phila Aversa Emmeryn Lepus Anguilla
-				}
+		}
 		
 		dukes_called_kings = no
 		
@@ -858,7 +858,7 @@ lost_tribe = {
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 60
 		mother_name_chance = 10
-
+		disinherit_from_blinding = yes 
 		modifier = default_culture_modifier
 		allow_looting = yes 
 

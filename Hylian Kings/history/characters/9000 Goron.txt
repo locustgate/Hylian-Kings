@@ -1,4 +1,3 @@
-
 1063 = { 
 	name=Engon
 	disallow_random_traits = yes
@@ -122,4 +121,123 @@
 	3305.4.24={
 		birth=yes
 	}
+}
+9000={#K
+	name=Lozom
+	dynasty=7350
+	dna="fjaabmkkmgl"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=6 diplomacy=8 stewardship=4 intrigue=4 learning=4
+	add_trait=charismatic_negotiator add_trait=trusting add_trait=chaste add_trait=diligent add_trait=ambitious 
+	add_trait=depressed 
+	3200.8.26={ birth=yes }
+	3280.1.1={add_spouse=9005}
+	3531.9.14={ death=yes }
+}
+9001={
+	name=Cutin
+	dynasty=7350
+	dna="ceaaemjdpgf"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=6 diplomacy=4 stewardship=7 intrigue=7 learning=4
+	add_trait=flamboyant_schemer add_trait=wroth add_trait=cruel add_trait=just add_trait=paranoid 
+	father=9000	#Lozom
+	mother=9005
+	3285.7.5={ birth=yes }
+	3572.3.10={ death=yes }
+}
+9002={
+	name=Garko
+	female=yes
+	dynasty=7350
+	dna="flkaflohmgl"
+	culture=death_mountain_goron religion=fire_spirit
+	father=9000	#Lozom
+	mother=9005
+	3315.1.6={ birth=yes }
+	3578.4.7={ death=yes }
+}
+9003={
+	name=Guzom
+	female=yes
+	dynasty=7350
+	dna="fpahmhlkhgl"
+	culture=death_mountain_goron religion=fire_spirit
+	father=9000	#Lozom
+	mother=9005
+	3343.7.5={ birth=yes }
+	3706.7.22={ death=yes }
+}
+9004={
+	name=Goban
+	female=yes
+	dynasty=7350
+	dna="fokjbmkbigf"
+	culture=death_mountain_goron religion=fire_spirit
+	father=9000	#Lozom
+	mother=9005
+	3370.7.27={ birth=yes }
+	3714.9.28={ death=yes }
+}
+9005={
+	name=Corkon
+	female=yes
+	culture=death_mountain_goron religion=fire_spirit
+	3200.8.26={ birth=yes }
+	3280.1.1={add_spouse=9000}
+	3531.9.14={ death=yes }
+}
+9006={#d
+	name=Liggs
+	dynasty=7355
+	dna="bolooagfejc"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=8 diplomacy=6 stewardship=4 intrigue=7 learning=4
+	add_trait=intricate_webweaver add_trait=paranoid add_trait=ambitious add_trait=brave 
+	3279.7.9={ birth=yes }
+	3360.1.1={add_spouse=9009}
+	3587.8.23={ death=yes }
+}
+9007={
+	name=Lonom
+	dynasty=7355
+	dna="bfdklbgfecj"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=8 diplomacy=4 stewardship=5 intrigue=7 learning=4
+	add_trait=midas_touched add_trait=chaste add_trait=ambitious add_trait=just add_trait=brave 
+	add_trait=greedy add_trait=cynical add_trait=ill 
+	father=9006	#Liggs
+	mother=9009
+	3361.12.9={ birth=yes }
+	3613.2.7={ death=yes }
+}
+9008={
+	name=Lalom
+	dynasty=7355
+	dna="fohooagfebn"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=8 diplomacy=7 stewardship=4 intrigue=8 learning=8
+	add_trait=midas_touched add_trait=ambitious add_trait=trusting add_trait=cruel add_trait=honest 
+	father=9006	#Liggs
+	mother=9009
+	3385.4.16={ birth=yes }
+	3641.9.19={ death=yes }
+}
+9009={
+	name=Komoro
+	female=yes
+	culture=death_mountain_goron religion=fire_spirit
+	3279.7.9={ birth=yes }
+	3360.1.1={add_spouse=9006}
+	3587.8.23={ death=yes }
+}
+9010={#d
+	name=Doht
+	dynasty=7360
+	dna="imkgikkdlkb"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=6 diplomacy=6 stewardship=8 intrigue=4 learning=7
+	add_trait=detached_priest add_trait=greedy add_trait=arbitrary add_trait=wroth 
+	3300.7.1={ birth=yes }
+	3601.11.11={ death=yes }
 }
