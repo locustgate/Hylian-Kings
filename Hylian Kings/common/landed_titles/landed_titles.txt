@@ -7487,6 +7487,11 @@ k_hyrule_minish = { #Minish
 			b_athamonc = {}
 			b_jaror = {}
 		}
+	}
+	d_veil_mountains = {
+		color={ 167 208 222 }
+		color2={ 30 30 30 }
+		capital = 626 # Middlesex
 		c_veil_falls = {
 			color={ 139 26 26 }
 			color2={ 139 119 101 }			
