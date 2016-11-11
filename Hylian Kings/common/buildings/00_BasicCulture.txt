@@ -91,7 +91,7 @@ castle = {
 		extra_tech_building_start = 0.8
 	}	
 	ca_cobble_knight_list_1 = {
-		desc = ca_cobble_knight_list_1_desc
+		desc = ca_knight_list_1_desc
 		potential = {
 				culture = cobble
 		}
@@ -106,7 +106,7 @@ castle = {
 		extra_tech_building_start = 0.8
 	}
 	ca_cobble_knight_list_2 = {
-		desc = ca_cobble_knight_list_1_desc
+		desc = ca_knight_list_1_desc
 		potential = {
 				culture = cobble
 		}
@@ -121,7 +121,7 @@ castle = {
 		extra_tech_building_start = 0.8
 	}
 	ca_cobble_knight_list_3 = {
-		desc = ca_cobble_knight_list_1_desc
+		desc = ca_knight_list_1_desc
 		potential = {
 				culture = cobble
 		}
@@ -136,7 +136,7 @@ castle = {
 		extra_tech_building_start = 0.8
 	}
 	ca_cobble_knight_list_4 = {
-		desc = ca_cobble_knight_list_1_desc
+		desc = ca_knight_list_1_desc
 		potential = {
 				culture = cobble
 		}
@@ -318,7 +318,7 @@ castle = {
 		extra_tech_building_start = 0.8
 	}
 	ca_elephant_pen_2 = {
-		desc = ca_elephant_pen_2_desc
+		desc = ca_elephant_pen_1_desc
 		potential = {
 					culture = gem_lander
 					culture = pebble
@@ -335,7 +335,7 @@ castle = {
 		extra_tech_building_start = 0.8
 	}
 	ca_elephant_pen_3 = {
-		desc = ca_elephant_pen_3_desc
+		desc = ca_elephant_pen_1_desc
 		potential = {
 					culture = gem_lander
 					culture = pebble
@@ -352,7 +352,7 @@ castle = {
 		extra_tech_building_start = 0.8
 	}
 	ca_elephant_pen_4 = {
-		desc = ca_elephant_pen_4_desc
+		desc = ca_elephant_pen_1_desc
 		potential = {
 					culture = gem_lander
 					culture = pebble
