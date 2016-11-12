@@ -765,7 +765,7 @@ castle = {
 		gold_cost = 100
 		build_time = 365
 		galleys = 6
-		light_infantry = 20
+		heavy_infantry = 20
 		ai_creation_factor = 100
 		
 		extra_tech_building_start = 0.3
@@ -782,7 +782,7 @@ castle = {
 		gold_cost = 100
 		build_time = 730
 		galleys = 7
-		light_infantry = 30
+		heavy_infantry = 30
 		ai_creation_factor = 99
 		
 		extra_tech_building_start = 0.3
@@ -799,7 +799,7 @@ castle = {
 		gold_cost = 100
 		build_time = 1095
 		galleys = 8
-		light_infantry = 40
+		heavy_infantry = 40
 		ai_creation_factor = 98
 		
 		extra_tech_building_start = 0.3
@@ -816,7 +816,7 @@ castle = {
 		gold_cost = 100
 		build_time = 1460
 		galleys = 9
-		light_infantry = 50
+		heavy_infantry = 50
 		ai_creation_factor = 97
 		
 		extra_tech_building_start = 0.3
@@ -1152,7 +1152,7 @@ castle = {
 ##lost
 #Sheikah Assassin Dojo 
 	ca_assassin_dojo_1 = {
-		desc = ca_assassin_dojo_1_desc
+		desc = ca_assassin_dojo_desc
 		potential = {
 			culture = sheikah
 		}
@@ -1168,7 +1168,7 @@ castle = {
 		extra_tech_building_start = 1.0
 	}
 	ca_assassin_dojo_2 = {
-		desc = ca_assassin_dojo_2_desc
+		desc = ca_assassin_dojo_desc
 		potential = {
 			culture = sheikah
 		}
@@ -1187,7 +1187,7 @@ castle = {
 		extra_tech_building_start = 2.0
 	}
 	ca_assassin_dojo_3 = {
-		desc = ca_assassin_dojo_3_desc
+		desc = ca_assassin_dojo_desc
 		potential = {
 			culture = sheikah
 		}
@@ -1205,7 +1205,7 @@ castle = {
 		extra_tech_building_start = 0.5
 	}
 	ca_assassin_dojo_4 = {
-		desc = ca_assassin_dojo_3_desc
+		desc = ca_assassin_dojo_desc
 		potential = {
 			culture = sheikah
 		}
