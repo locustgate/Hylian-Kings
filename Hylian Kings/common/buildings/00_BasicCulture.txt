@@ -1768,7 +1768,7 @@ castle = {
 	ca_nh_elite_guard_1 = {
 		desc = ca_nh_elite_guard_1_desc
 		potential = {
-			culture = ho_ho
+			culture = new_hyrulean
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_2 }
@@ -1785,7 +1785,7 @@ castle = {
 	ca_nh_elite_guard_2 = {
 		desc = ca_nh_elite_guard_1_desc
 		potential = {
-			culture = ho_ho
+			culture = new_hyrulean
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		upgrades_from = ca_nh_elite_guard_1
@@ -1802,7 +1802,7 @@ castle = {
 	ca_nh_elite_guard_3 = {
 		desc = ca_nh_elite_guard_1_desc
 		potential = {
-			culture = ho_ho
+			culture = new_hyrulean
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		upgrades_from = ca_nh_elite_guard_2
@@ -1819,7 +1819,7 @@ castle = {
 	ca_nh_elite_guard_4 = {
 		desc = ca_nh_elite_guard_1_desc
 		potential = {
-			culture = ho_ho
+			culture = new_hyrulean
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ca_nh_elite_guard_3
@@ -1845,7 +1845,6 @@ castle = {
 		build_time = 730
 		archers_offensive = 0.15
 		archers = 60
-		galleys = 1
 		ai_creation_factor = 101
 		
 		extra_tech_building_start = 0.8
@@ -1861,7 +1860,6 @@ castle = {
 		build_time = 1095
 		archers_offensive = 0.15
 		archers = 80
-		galleys = 1
 		ai_creation_factor = 100
 		
 		extra_tech_building_start = 0.8
@@ -1877,7 +1875,6 @@ castle = {
 		build_time = 2190
 		archers_offensive = 0.15
 		archers = 100
-		galleys = 1
 		ai_creation_factor = 99
 		
 		extra_tech_building_start = 0.8
@@ -1893,7 +1890,6 @@ castle = {
 		build_time = 2190
 		archers_offensive = 0.15
 		archers = 120
-		galleys = 2
 		ai_creation_factor = 98
 		
 		extra_tech_building_start = 0.8
@@ -2354,7 +2350,7 @@ castle = {
 		
 		extra_tech_building_start = 0.8
 	}
-		ca_shadow_den_1 = {
+	ca_shadow_den_1 = {
 		desc = ca_shadow_den_1_desc
 		potential = {
 				culture = twili	
@@ -2859,23 +2855,6 @@ city = {
 		
 		extra_tech_building_start = 0.8
 	}
-#Horon clock maker
-	ct_horon_economy_4 = {
-		desc = ct_horon_economy_4_desc
-		potential = {
-			culture = horon
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
-		upgrades_from = ct_economy_3
-		gold_cost = 500
-		build_time = 2190
-		tax_income = 3
-
-		ai_creation_factor = 98
-		
-		extra_tech_building_start = 0.8
-	}
-
 #Ordon pumpkin farm, ranch
 	ct_ordon_agriculture_1 = {
 		desc = ct_ordon_agriculture_desc
@@ -2948,93 +2927,8 @@ city = {
 		
 		extra_tech_building_start = 0.8
 	} 
-	#kakarikon bomb store 
-	ct_kakarikon_economy_4 = {
-		desc = ct_kakarikon_economy_4_desc
-		potential = {
-			culture = kakarikon
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
-		prerequisites = { ct_economy_3 }
-		gold_cost = 500
-		build_time = 2190
-		tax_income = 2
-		archers_offensive = 0.02
 
-		ai_creation_factor = 98
-		
-		extra_tech_building_start = 0.8
-	}
 
-	#yama banana farm
-	ct_yamatami_agriculture_1 = {
-		desc = ct_yamatami_agriculture_desc
-		potential = {
-				culture = yamatami
-				OR = {
-				terrain = farmlands
-				terrain = hills
-				terrain = plains
-				terrain = steppe
-				terrain = jungle 
-				}
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ct_wall_2 }
-		replaces = ct_agriculture_1
-		gold_cost = 200
-		build_time = 730
-		tax_income = 3
-		ai_creation_factor = 101
-		
-		extra_tech_building_start = 0.8
-	}
-	ct_yamatami_agriculture_2 = {
-		desc = ct_yamatami_agriculture_desc
-		potential = {
-				culture = yamatami
-				OR = {
-				terrain = farmlands
-				terrain = hills
-				terrain = plains
-				terrain = steppe
-				terrain = jungle
-				terrain = woods
-				}		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ct_wall_2 }
-		upgrades_from = ct_yamatami_agriculture_1
-		replaces = ct_agriculture_2
-		gold_cost = 200
-		build_time = 730
-		tax_income = 3.5
-		ai_creation_factor = 101
-		
-		extra_tech_building_start = 0.8
-	}
-	ct_yamatami_agriculture_3 = {
-		desc = ct_yamatami_agriculture_desc
-		potential = {
-				culture = yamatami
-				OR = {
-				terrain = farmlands
-				terrain = hills
-				terrain = plains
-				terrain = steppe
-				terrain = jungle
-				terrain = woods
-				}		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ct_wall_2 }
-		upgrades_from = ct_yamatami_agriculture_2
-		replaces = ct_agriculture_3
-		gold_cost = 200
-		build_time = 730
-		tax_income = 3.5
-		ai_creation_factor = 101
-		
-		extra_tech_building_start = 0.8
-	}
 	#hytopian garment district and silk far
 	ct_hytopian_economy_4 = {
 		desc = ct_hytopian_economy_4_desc
@@ -3206,7 +3100,7 @@ city = {
 		extra_tech_building_start = 0.8
 	}
 	ct_windtribe_agriculture_2 = {
-		desc = ct_windtribe_agriculture_2_desc
+		desc = ct_windtribe_agriculture_1_desc
 		potential = {
 				OR = {
 				culture = wind_tribe
@@ -3225,7 +3119,7 @@ city = {
 		extra_tech_building_start = 0.8
 	}
 	ct_windtribe_agriculture_3 = {
-		desc = ct_windtribe_agriculture_3_desc
+		desc = ct_windtribe_agriculture_1_desc
 		potential = {
 				OR = {
 				culture = wind_tribe
@@ -3343,9 +3237,8 @@ city = {
 		desc = ct_aquatic_agriculture_1_desc
 		potential = {
 			culture_group = aquatic
-			location = { 
-				
-					port = yes
+			location = { 				
+				port = yes
 				 OR = { 
 					borders_major_river = yes
 					borders_lake = yes
@@ -3438,55 +3331,6 @@ city = {
 		supply_limit = 0.02
 		ai_creation_fact_factor = 108
 		add_number_to_name = no
-
-		extra_tech_building_start = 0.2
-	}
-	#rito
-	ct_post_1 = {
-		desc = ct_post_1_desc
-		potential = {				
-				culture = rito
-				culture = watarara
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		gold_cost = 100
-		build_time = 365
-		tax_income = 2
-		ai_creation_factor = 100
-		
-		extra_tech_building_start = 0.5
-	}
-	ct_post_2 = {
-		desc = ct_post_2_desc
-		potential = {				
-				culture = rito
-				culture = watarara 
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ct_wall_1 }
-		upgrades_from = ct_post_1
-		gold_cost = 120
-		build_time = 547
-		tax_income = 2
-
-		ai_creation_factor = 99
-
-		extra_tech_building_start = 1.0
-	}
-	ct_post_3 = {
-		desc = ct_post_3_desc
-		potential = {				
-				culture = rito
-				culture = watarara 
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
-		prerequisites = { ct_wall_2 }
-		upgrades_from = ct_post_2
-		gold_cost = 200
-		build_time = 730
-		tax_income = 3
-
-		ai_creation_factor = 98
 
 		extra_tech_building_start = 0.2
 	}
@@ -3611,7 +3455,7 @@ city = {
 
 #skyloft pumpkin
 	ct_skyloftagriculture_1 = {
-		desc = ct_skyloftagriculture_1_desc
+		desc = ct_skyloftagriculture_desc
 		potential = {
 			culture_group = skylofter
 		}
@@ -3625,7 +3469,7 @@ city = {
 		extra_tech_building_start = 0.4
 	}
 	ct_skyloftagriculture_2 = {
-		desc = ct_skyloftagriculture_2_desc
+		desc = ct_skyloftagriculture_desc
 		potential = {
 			culture_group = skylofter
 
@@ -3642,7 +3486,7 @@ city = {
 		extra_tech_building_start = 0.8
 	}
 	ct_skyloftagriculture_3 = {
-		desc = ct_skyloftagriculture_3_desc
+		desc = ct_skyloftagriculture_desc
 		potential = {
 				culture_group = skylofter
 		}
