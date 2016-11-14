@@ -529,16 +529,16 @@ e_hyrule_central = {
 				color={ 208 0 0 }
 				color2={ 204 203 203 }
 				
-				#eldin = Eldin
+				eldin="Eldin"
 				
 				b_new_kakariko_gate = {
-					#eldin = Eldin Gate
+					eldin="Eldin Gate"
 				}
 				b_new_kakariko_shrine = {
-					#eldin = Eldin Shrine
+					eldin="Eldin Shrine"
 				}
 				b_new_kakariko = {
-					#eldin = Eldin
+					eldin="Eldin"
 				}
 			}
 			c_eldin_spring = {
@@ -554,6 +554,8 @@ e_hyrule_central = {
 			c_kakariko_graveyard = {
 				color={ 238 0 0 }
 				color2={ 204 203 203 }
+				eldin="Eldin Graveyard"
+				
 				
 				b_grave_guard = {}
 				b_watery_grave = {}
@@ -563,7 +565,7 @@ e_hyrule_central = {
 				color={ 176 23 31 }
 				color2={ 204 203 203 }
 				
-				#eldin = Eldin Pass
+				eldin="Eldin Pass"
 				
 				b_mugo = {}
 				b_salu = {}
@@ -1752,13 +1754,12 @@ e_saria = { #empire
 	capital = 32 # Middlesex
 	dignity = 196 # Counted as having this many more counties than it does
 
-	#eldin = Eldin
-	#sarian = Saria
-	#kasuton = Kasuto
-	#hyrulean = Hyrule Major
-	#little_hyrulean = Hyrule
-	#west_hyrulean = Hyrule
-	#east_hyrulean = Hyrule
+	sarian="Saria"
+	kasuton="Kasuto"
+	hyrulean="Hyrule Major"
+	little_hyrulean="Hyrule"
+	west_hyrulean="Hyrule"
+	east_hyrulean="Hyrule"
 	
 	# Creation/usurpation trigger
 	allow = {
@@ -1782,10 +1783,10 @@ e_saria = { #empire
 		capital = 188 # Middlesex
 		dignity = 5 # Counted as having this many more counties than it does
 	
-		#late_hyrulean = Hyrule
-	#	east_hyrulean = East Hyrule
-	#	west_hyrulean = East Hyrule
-	#	little_hyrulean = East Hyrule
+		#late_hyrulean="Hyrule"
+		east_hyrulean="East Hyrule"
+		west_hyrulean="East Hyrule"
+		little_hyrulean="East Hyrule"
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -1926,9 +1927,9 @@ e_saria = { #empire
 			}
 		}
 	
-		#west_hyrulean = West Hyrule
-		#east_hyrulean = West Hyrule
-		#little_hyrulean = West Hyrule
+		west_hyrulean="West Hyrule"
+		east_hyrulean="West Hyrule"
+		little_hyrulean="West Hyrule"
 		
 		d_moruge = {
 			color={ 0 0 255 }
@@ -2085,9 +2086,9 @@ e_saria = { #empire
 				}
 			}
 		}
-		#little_hyrulean = Little Hyrule
-		#east_hyrulean = Little Hyrule
-		#west_hyrulean = Little Hyrule
+		little_hyrulean="Little Hyrule"
+		east_hyrulean="Little Hyrule"
+		west_hyrulean="Little Hyrule"
 		
 		d_east_death_mountains= {
 			color={ 189 94 27 }
@@ -2173,6 +2174,8 @@ e_moria = {#empire
 	color={ 80 101 60 }
 	color2={ 255 0 0 }
 	capital = 31 
+	gridnle="Grindle"
+	
 	allow = {
 		hidden_tooltip = {
 			OR = {
@@ -6563,6 +6566,9 @@ e_ho_ho = {
 		color={ 250 188 0 }
 		color2={ 0 156 255 }
 		capital = 550
+		
+		yeti="Yeti La"
+		
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -6665,6 +6671,7 @@ e_ho_ho = {
 		color={ 0 156 255 }
 		color2={ 255 255 255 }
 		capital = 904
+		yeti=Yetari
 		allow = {
 			hidden_tooltip = {
 				OR = {

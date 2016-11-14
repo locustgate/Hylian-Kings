@@ -1,6 +1,3 @@
-
-
-
 goddesses_religion = {
 	has_coa_on_barony_only = yes
 	playable = yes
@@ -589,6 +586,36 @@ minor_deity = {
 		feminist=yes
 		pacifist = yes
 
+	}	
+	earth_spirits_reformed = {
+		graphical_culture = norsegfx
+		
+		secondary_event_pictures = slavic_pagan
+
+		icon = 23
+		heresy_icon = 24
+		
+		ai_convert_other_group = 2 # always try to convert
+		
+		color = { 1 0.55 0}	
+		priest_title = PRIEST
+		scripture_name = EARTH_LYRIC
+		
+		high_god_name = GOD_EARTH
+		
+		god_names = {
+			GOD_EARTH
+		}
+		priests_can_inherit = no
+		priests_can_marry = yes 
+		
+		priests_can_marry = yes
+		priests_can_inherit = no
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 6
+		
+		allow_in_ruler_designer = no
 	}
 	earth_spirits = {
 		graphical_culture = norsegfx
@@ -611,7 +638,7 @@ minor_deity = {
 		
 		religious_clothing_head = 6
 		religious_clothing_priest = 6
-		
+		reformed = eart_spirits_reformed
 		intermarry = fire_spirit
 	}
 	fire_spirit = {
