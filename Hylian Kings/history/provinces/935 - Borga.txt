@@ -4,9 +4,12 @@
 title = c_borga
 
 # Settlements
-max_settlements = 1
+max_settlements = 3
 
-b_borga = tribal
+
+b_borga = city
+#b_amothno = temple
+#b_bakam = castle
 
 # Misc
 culture = hoho

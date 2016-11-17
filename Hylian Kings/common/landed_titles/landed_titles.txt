@@ -8817,7 +8817,7 @@ k_arcadia = {
 		}
 	d_arcadia = {
 		color={ 218 218 218 }
-		color2={ 188 0 7 }		
+		color2={ 188 0 7 }			
 		capital = 247		
 		c_curtania = {
 			color={ 255 255 0 }
@@ -8842,13 +8842,13 @@ k_arcadia = {
 			b_syania = {}
 		}
 		c_joyeusia = {
-			color={ 249 188 0 }
-			color2={ 20 86 148 }	
+			color={ 255 255 0 }
+			color2={ 255 255 255 }	
 			b_joyeusia = {}
 		}
 		c_durendalia = {
-			color={ 0 113 188 }
-			color2={ 30 30 30 }	
+			color={ 255 255 0 }
+			color2={ 255 255 255 }	
 			b_durendalia = {}
 		}
 					}
@@ -8865,8 +8865,8 @@ k_arcadia = {
 			b_martia = {}
 		}
 		c_lyonia = {
-			color={ 9 22 182 }
-			color2={ 231 172 0 }	
+			color={ 255 255 0 }
+			color2={ 255 255 255 }	
 			b_lyonia = {}
 			b_penia = {}
 			b_martia_2 = {}
@@ -8880,19 +8880,19 @@ k_arcadia = {
 			b_varia = {}
 		}
 		c_lykaia = {
-			color={ 29 89 152 }
+			color={ 255 255 0 }
 			color2={ 255 255 255 }	
 			b_lykaia = {}
 		}
 		c_wosuia = {
-			color={ 250 187 0 }
-			color2={ 0 0 0 }	
+			color={ 255 255 0 }
+			color2={ 255 255 255 }	
 			b_wosuia = {}
 		}
 	}
 	d_ardennia = {
 		color={ 180 180 180 }
-		color2={ 221 170 0 }		
+		color2={ 221 170 0 }			
 		capital = 253
 		c_ardennia = {
 			color={ 255 255 0 }
@@ -9074,11 +9074,11 @@ k_arcadia = {
 	}
 	d_acacesia = {
 		color={ 122 122 122 }
-		color2={ 255 255 255 }		
+		color2={ 255 255 255 }	
 		capital = 265		
 		c_polia = {
-			color={ 255 206 0 }
-			color2={ 146 118 0 }	
+			color={ 255 255 0 }
+			color2={ 255 255 255 }	
 			b_polia = {}
 			b_sigia = {}
 			b_xoria = {}

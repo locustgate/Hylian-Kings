@@ -4,9 +4,16 @@
 title = c_rii
 
 # Settlements
-max_settlements = 1
+max_settlements = 6
 
-b_rii = tribal
+
+b_rii = city
+b_tikuu = castle
+b_noluu = temple
+b_uurin = city
+#b_hakk = city
+#b_ekso = castle
+#b_sen = castle
 
 # Misc
 culture = hoho
