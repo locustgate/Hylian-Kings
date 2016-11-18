@@ -1586,6 +1586,11 @@ e_mudora = { #empire
 				b_sanctuary_graveyard = {}
 				b_sanctuary_city = {}
 			}
+		}
+		d_western_mudora = {
+			color={ 0 89 0 }
+			color2={ 255 255 255 }
+			capital = 427 # Middlesex
 			c_temple_of_darkness = {
 				color={ 0 170 0 }
 				color2={ 255 255 255 }
@@ -1593,11 +1598,6 @@ e_mudora = { #empire
 				b_temple_of_darkness = {}
 				b_dordo = {}
 			}
-		}
-		d_western_mudora = {
-			color={ 0 89 0 }
-			color2={ 255 255 255 }
-			capital = 427 # Middlesex
 			c_little_kakariko = {
 				color={ 0 170 0 }
 				color2={ 255 255 255 }
