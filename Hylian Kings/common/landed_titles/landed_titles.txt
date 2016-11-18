@@ -80,7 +80,7 @@ e_hyrule_central = {
 			bokoblin="S Bokomon"			
 			c_faron_bridge ={
 				color={ 144 238 144 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				
 				b_faron_bridge_gate = {}
 				b_nulu = {}
@@ -115,13 +115,13 @@ e_hyrule_central = {
 			bokoblin="W Bokomon"
 			c_faron_canyon ={
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 					
 					b_chasm_gate = {}
 			}
 			c_great_faron_tree ={
 				color={85 107 47 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				holy_site = great_deku
 				holy_site = baga_tree			
 				
@@ -131,7 +131,7 @@ e_hyrule_central = {
 			}
 			c_faron_swamp ={
 				color={ 124 252 0 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				lizalfos="Taxkha Swamp"
 				dinolfos="Taxkha Swamp"
 				aerolfos="Taxkha Swamp"
@@ -144,7 +144,7 @@ e_hyrule_central = {
 			}
 			c_faron_spring ={
 				color={ 0 238 0 }
-				color={ 255 255 255 }					
+				color2={ 255 255 255 }					
 				holy_site = light_spirits
 				
 				b_faron_spring = {}
@@ -154,7 +154,7 @@ e_hyrule_central = {
 			}	
 			c_faron_woods ={
 				color={ 107 142 35 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				lizalfos="Taxkha Woods"
 				dinolfos="Taxkha Woods"
 				aerolfos="Taxkha Woods"
@@ -168,7 +168,7 @@ e_hyrule_central = {
 			}	
 			c_faron_basin ={
 				color={ 105 139 34 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				lizalfos="Taxkha Basin"
 				dinolfos="Taxkha Basin"
 				aerolfos="Taxkha Basin"
@@ -244,7 +244,7 @@ e_hyrule_central = {
 			bokoblin="Bokomon Fields"	
 			c_east_faron_field ={
 				color={ 192 255 62 }
-				color={ 224 238 224 }
+				color2={ 224 238 224 }
 				lizalfos="E Taxkha Fields"
 				dinolfos="E Taxkha Fields"
 				aerolfos="E Taxkha Fields"
@@ -536,9 +536,9 @@ e_hyrule_central = {
 				b_kosin = {}
 				
 			}
-			c_south_hylia_bridge ={
+			c_south_hylia_bridge = {
 				color={ 0 134 139 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				
 				b_south_hylia_gate = {}
 				b_noryu = {}
@@ -548,7 +548,7 @@ e_hyrule_central = {
 			}
 			c_lanayru_spring = {
 				color={ 51 161 201 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				holy_site = light_spirits
 				
 				b_lanayru_spring = {}
@@ -1216,8 +1216,10 @@ e_hyrule_central = {
 		dignity = 50 # Counted as having this many more counties than it does
 
 		allow = {
+			OR = {
 			culture = hyrulean
 			culture = demon
+			}
 		}
 		skylofter = Grooseland
 		hyrulean = Hyrule
@@ -2839,6 +2841,10 @@ e_sea_tree = {
 	color={ 34 139 34}
 	color2={ 85 107 47 }
 	capital = 660 
+	#korok="Korok Woods"
+	deku_tree="Deku Woods"
+	deku_scrub="Deku Woods"
+	great_fairy="Fairy Woods"
 	allow = {
 		OR = {
 			religion = great_deku
@@ -2947,21 +2953,41 @@ e_sea_tree = {
 			color={ 251 87 87 }
 			color2={ 139 69 19 }
 			capital=677
+			kokiri="Old Woods"
+			#korok="Old Woods"
+			great_fairy="Old Woods"
+			deku_scrub="Old Woods"
+			deku_tree="Old Woods"
 			c_stalkades = {
 				color={ 255 0 0 }
 				color2={ 139 69 19 }
+				kokiri="Kokades"
+				#korok="Kokades"
+				deku_tree="Kokades"
+				deku_scrub="Kokades"
+				great_fairy="Kokades"
 				b_keria = {}
 				b_sudi = {}
 			}
 			c_baga_woods = {
 				color={ 255 0 0 }
 				color2={ 139 69 19 }
+				kokiri="Beetle Woods"
+				#korok="Beetle Woods"
+				deku_tree="Beetle Woods"
+				deku_scrub="Beetle Woods"
+				great_fairy="Beetle Woods"
 				b_kasi = {}
 				b_dodia = {}		
 			}
 			c_stalkid_woods = {
 				color={ 255 0 0 }
 				color2={ 139 69 19 }
+				kokiri="Kid Woods"
+				#korok="Kid Woods"
+				deku_tree="Kid Woods"
+				deku_scrub="Kid Woods"
+				great_fairy="Kid Woods"
 				b_dorikia = {}
 				b_dek = {}
 				b_dokia = {}
@@ -2970,6 +2996,11 @@ e_sea_tree = {
 			c_stal_woods = {
 				color={ 255 0 0 }
 				color2={ 139 69 19 }
+				kokiri="Twig Woods"
+				#korok="Twig Woods"
+				deku_tree="Twig Woods"
+				deku_scrub="Twig Woods"
+				great_fairy="Twig Woods"
 				b_sesi = {}
 				b_dosi = {}
 
@@ -2979,9 +3010,19 @@ e_sea_tree = {
 			color={ 202 35 35 }
 			color2={ 139 69 19 }
 			capital=679
+			kokiri="Whispering Woods"
+			#korok="Whispering Woods"
+			great_fairy="Whispering Woods"
+			deku_scrub="Whispering Woods"
+			deku_tree="Whispering Woods"
 			c_haunted_woods = {
 				color={ 255 0 0 }
 				color2={ 139 69 19 }
+				kokiri="Whispering Woods"
+				#korok="Whispering Woods"
+				deku_tree="Whispering Woods"
+				deku_scrub="Whispering Woods"
+				great_fairy="Whispering Woods"
 				b_sidia = {}
 				b_desudi = {}
 				b_haunted_woods = {}
@@ -2997,6 +3038,11 @@ e_sea_tree = {
 			}
 			c_stalgroves = {
 				color={ 255 0 0 }
+				kokiri="Kokirigroves"
+				#korok="Kokirigroves"
+				deku_tree="Kokirigroves"
+				deku_scrub="Kokirigroves"
+				great_fairy="Kokirigroves"
 				color2={ 139 69 19 }
 				b_kadia = {}
 				b_dulia = {}
@@ -3009,9 +3055,19 @@ e_sea_tree = {
 			color={  200 78 78 }
 			color2={ 139 69 19 }
 			capital=686
+			kokiri="Gray Woods"
+			#korok="Gray Woods"
+			great_fairy="Gray Woods"
+			deku_scrub="Gray Woods"
+			deku_tree="Gray Woods"
 			c_east_skull_woods = {
 				color={ 255 0 0 }
 				color2={ 139 69 19 }
+				kokiri="E Gray Woods"
+				#korok="E Gray Woods"
+				deku_tree="E Gray Woods"
+				deku_scrub="E Gray Woods"
+				great_fairy="E Gray Woods"
 				b_moredak = {}
 				b_scrokidi = {}
 				b_kokakodi = {}
@@ -3019,6 +3075,11 @@ e_sea_tree = {
 			c_south_skull_woods = {
 				color={ 255 0 0 }
 				color2={ 139 69 19 }
+				kokiri="S Gray Woods"
+				#korok="S Gray Woods"
+				deku_tree="S Gray Woods"
+				deku_scrub="S Gray Woods"
+				great_fairy="S Gray Woods"
 				b_doko = {}
 				b_kakevo = {}
 				b_dedadori = {}
@@ -3027,6 +3088,11 @@ e_sea_tree = {
 			c_west_skull_woods = {
 				color={ 255 0 0 }
 				color2={ 139 69 19 }
+				kokiri="W Gray Woods"
+				#korok="W Gray Woods"
+				deku_tree="W Gray Woods"
+				deku_scrub="W Gray Woods"
+				great_fairy="W Gray Woods"
 				b_kovo = {}
 				b_soresi = {}
 				b_kovo_2 = {}
@@ -3035,6 +3101,11 @@ e_sea_tree = {
 			c_north_skull_woods = {
 				color={ 255 0 0 }
 				color2={ 139 69 19 }
+				kokiri="N Gray Woods"
+				#korok="N Gray Woods"
+				deku_tree="N Gray Woods"
+				deku_scrub="N Gray Woods"
+				great_fairy="N Gray Woods"
 				b_mavo = {}
 				b_dedia = {}
 				b_fokia = {}
@@ -3069,6 +3140,11 @@ e_sea_tree = {
 			c_great_baga_tree_grove = {
 				color={ 255 0 0 }
 				color2={ 139 69 19 }
+				kokiri="Ancient Grove"
+				#korok="Ancient Grove"
+				deku_tree="Ancient Grove"
+				deku_scrub="Ancient Grove"
+				great_fairy="Ancient Grove"
 				holy_site = baga_tree	
 				b_great_baga_grove = {}
 				b_great_baga_guard = {}
@@ -3079,6 +3155,11 @@ e_sea_tree = {
 			c_haunted_narrows = {
 				color={ 255 0 0 }
 				color2={ 139 69 19 }
+				kokiri="Korok Narrows"
+				#korok="Korok Narrows"
+				deku_tree="Korok Narrows"
+				deku_scrub="Korok Narrows"
+				great_fairy="Korok Narrows"
 				b_favokevi = {}
 				b_saseluk = {}
 			}
@@ -3140,6 +3221,11 @@ e_sea_tree = {
 			c_skull_road = {
 				color={ 255 0 0 }
 				color2={ 139 69 19 }
+				kokiri="Gray Road"
+				#korok="Gray Road"
+				deku_tree="Gray Road"
+				deku_scrub="Gray Road"
+				great_fairy="Gray Road"
 				b_dovabu = {}
 				b_kuvo = {}
 				b_fodek = {}
@@ -3571,9 +3657,19 @@ e_sea_tree = {
 			color={ 179 0 90 }
 			color2={ 85 107 47 }
 			capital = 747
+			kokiri="Insect Woods"
+			#korok="Insect Woods"
+			deku_tree="Insect Woods"
+			deku_scrub="Insect Woods"
+			great_fairy="Insect Woods"
 			c_bulblin_woods = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="Bee Woods"
+				#korok="Bee Woods"
+				deku_tree="Bee Woods"
+				deku_scrub="Bee Woods"
+				great_fairy="Bee Woods"
 					b_meki = {}
 				b_fuvero = {}
 				b_sakia = {}
@@ -3581,6 +3677,11 @@ e_sea_tree = {
 			c_bokoblin_woods = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="Ant Woods"
+				#korok="Ant Woods"
+				deku_tree="Ant Woods"
+				deku_scrub="Ant Woods"
+				great_fairy="Ant Woods"
 					b_dasu = {}
 				b_kadavi = {}
 				b_devi = {}
@@ -3588,6 +3689,11 @@ e_sea_tree = {
 			c_moblin_woods = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="Wasp Woods"
+				#korok="Wasp Woods"
+				deku_tree="Wasp Woods"
+				deku_scrub="Wasp Woods"
+				great_fairy="Wasp Woods"
 					b_dadia = {}
 				b_diravo = {}
 				b_dovio = {}
@@ -3654,9 +3760,19 @@ e_sea_tree = {
 			color={ 129 0 65 }
 			color2={ 85 107 47 }
 			capital = 748
+			kokiri="Moth Forest"
+			#korok="Moth Forest"
+			deku_tree="Moth Forest"
+			deku_scrub="Moth Forest"
+			great_fairy="Moth Forest"
 			c_north_blin_forest = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="N Moth Forest"
+				#korok="N Moth Forest"
+				deku_tree="N Moth Forest"
+				deku_scrub="N Moth Forest"
+				great_fairy="N Moth Forest"
 					b_miloro = {}
 				b_fodokia = {}
 				b_kedia = {}
@@ -3664,6 +3780,11 @@ e_sea_tree = {
 			c_west_blin_forest = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="W Moth Forest"
+				#korok="W Moth Forest"
+				deku_tree="W Moth Forest"
+				deku_scrub="W Moth Forest"
+				great_fairy="W Moth Forest"
 				b_dakosu = {}
 				b_moredu = {}
 				b_divia = {}
@@ -3673,6 +3794,11 @@ e_sea_tree = {
 			c_south_blin_forest = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="S Moth Forest"
+				#korok="S Moth Forest"
+				deku_tree="S Moth Forest"
+				deku_scrub="S Moth Forest"
+				great_fairy="S Moth Forest"
 				b_sakia_2 = {}
 				b_meki_2 = {}
 				b_deasu = {}
@@ -3682,6 +3808,11 @@ e_sea_tree = {
 			c_east_blin_forest = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="E Moth Forest"
+				#korok="E Moth Forest"
+				deku_tree="E Moth Forest"
+				deku_scrub="E Moth Forest"
+				great_fairy="E Moth Forest"
 					b_devo = {}
 				b_feloku = {}
 				b_dadia_2 = {}
@@ -3693,21 +3824,41 @@ e_sea_tree = {
 			color={ 226 52 139 }
 			color2={ 85 107 47 }
 			capital = 739
+			kokiri="Ook Woods"
+			#korok="Ook Woods"
+			deku_tree="Ook Woods"
+			deku_scrub="Ook Woods"
+			great_fairy="Ook Woods"
 			c_gohma_hollows = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="Ook Hollows"
+				#korok="Ook Hollows"
+				deku_tree="Ook Hollows"
+				deku_scrub="Ook Hollows"
+				great_fairy="Ook Hollows"
 					b_kibia = {}
 				b_modi = {}
 			}
 			c_gohma_woods = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="Ook Woods"
+				#korok="Ook Woods"
+				deku_tree="Ook Woods"
+				deku_scrub="Ook Woods"
+				great_fairy="Ook Woods"
 					b_dudoko = {}
 				b_mokia = {}
 			}
 			c_gohma_forest = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="Ook Forest"
+				#korok="Ook Forest"
+				deku_tree="Ook Forest"
+				deku_scrub="Ook Forest"
+				great_fairy="Ook Forest"
 					b_kali = {}
 				b_dadek = {}
 				b_fuvia = {}
@@ -3811,9 +3962,19 @@ e_sea_tree = {
 			color={ 85 148 220 }
 			color2={ 85 107 47 }
 			capital = 727
+			kokiri="Puffstool Forest"
+			#korok="Puffstool Forest"
+			deku_tree="Puffstool Forest"
+			deku_scrub="Puffstool Forest"
+			great_fairy="Puffstool Forest"
 			c_north_baga_forest = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="N Puffstool Forest"
+				#korok="N Puffstool Forest"
+				deku_tree="N Puffstool Forest"
+				deku_scrub="N Puffstool Forest"
+				great_fairy="N Puffstool Forest"
 					b_movia = {}
 				b_keli = {}
 				b_suvikia = {}
@@ -3823,6 +3984,11 @@ e_sea_tree = {
 			c_east_baga_forest = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="E Puffstool Forest"
+				#korok="E Puffstool Forest"
+				deku_tree="E Puffstool Forest"
+				deku_scrub="E Puffstool Forest"
+				great_fairy="E Puffstool Forest"
 					b_kusi = {}
 				b_korodia = {}
 				b_kevia = {}
@@ -3832,6 +3998,11 @@ e_sea_tree = {
 			c_great_baga_forest = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="Puffstool Forest"
+				#korok="Puffstool Forest"
+				deku_tree="Puffstool Forest"
+				deku_scrub="Puffstool Forest"
+				great_fairy="Puffstool Forest"
 				holy_site = baga_tree	
 					b_dovia = {}
 				b_sebuko = {}
@@ -3842,6 +4013,11 @@ e_sea_tree = {
 			c_south_baga_forest = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="S Puffstool Forest"
+				#korok="S Puffstool Forest"
+				deku_tree="S Puffstool Forest"
+				deku_scrub="S Puffstool Forest"
+				great_fairy="S Puffstool Forest"
 					b_devia = {}
 				b_fovia = {}
 				b_fodia = {}
@@ -3850,6 +4026,11 @@ e_sea_tree = {
 			c_west_baga_forest = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="E Puffstool Forest"
+				#korok="E Puffstool Forest"
+				deku_tree="E Puffstool Forest"
+				deku_scrub="E Puffstool Forest"
+				great_fairy="E Puffstool Forest"
 					b_sodi = {}
 				b_mesi = {}
 				b_sedivo = {}
@@ -3880,9 +4061,19 @@ e_sea_tree = {
 			color={ 71 99 130 }
 			color2={ 85 107 47 }
 			capital = 736
+			kokiri="Vine Woods"
+			#korok="Vine Woods"
+			deku_tree="Vine Woods"
+			deku_scrub="Vine Woods"
+			great_fairy="Vine Woods"
 			c_creeping_woods = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="Vine Woods"
+				#korok="Vine Woods"
+				deku_tree="Vine Woods"
+				deku_scrub="Vine Woods"
+				great_fairy="Vine Woods"
 				b_kara = {}
 				b_sasia = {}
 				b_mekivo = {}
@@ -3890,6 +4081,11 @@ e_sea_tree = {
 			c_boko_woods = {
 				color={ 34 139 34}
 				color2={ 85 107 47 }
+				kokiri="Small Woods"
+				#korok="Small Woods"
+				deku_tree="Small Woods"
+				deku_scrub="Small Woods"
+				great_fairy="Small Woods"
 					b_sari = {}
 				b_favok = {}
 				b_favevu = {}
@@ -5238,7 +5434,7 @@ e_holodrum = {
 			}
 		}
 		d_holodrum_mountain = {
-			color={ 2138 51 36 }
+			color={ 138 51 36 }
 			color2={ 210 180 140 }
 			capital = 362
 			c_goron_mountain = {			
@@ -6022,7 +6218,7 @@ e_calatia = {
 				
 			}
 			d_micomedia = {
-				color={ 1168 83 83 }
+				color={ 168 83 83 }
 				color2={ 255 255 255 }			
 				capital = 814
 				c_davia = {
@@ -6980,7 +7176,7 @@ e_ho_ho = {
 			}
 			c_hyvinsa = {
 				color={ 0 100 20 }
-				color={ 255 255 255 }
+				color2={ 255 255 255 }
 				b_hyvinsa = {}
 				b_poluu = {}
 			}
@@ -7162,7 +7358,7 @@ e_ho_ho = {
 }
 k_howgendoogen_league = {
 	color={ 0 86 148 }
-	color2={ 237 192 }
+	color2={ 237 192 0 }
 	capital = 937 # rii
 	culture = ho_ho
 	
@@ -7375,8 +7571,10 @@ k_zora_valley = {
 	#lake_zora = Waterfall Domain
 	
 	allow = {
+		OR = {
 		culture = lake_zora
 		culture = river_zora
+		}
 	}
 	d_zora_valley = {
 		color={ 0 194 137 }
@@ -7409,8 +7607,10 @@ k_west_death_mountains = {
 	color2={ 91 100 100 }
 	capital = 540 # Great Death Mountain
 	allow = {
+		OR = {
 		culture_group = goron_group
 		culture_group = lfos
+		}
 	}
 	d_great_death_mountains = {
 		color={ 168 5 0 }
@@ -7660,7 +7860,6 @@ k_hyrule_minish = { #Minish
 				
 				b_norin = {}
 				b_koryu = {}
-				b_norin = {}
 				b_mutosh = {}				
 			}
 			c_western_wood = {
@@ -8063,6 +8262,8 @@ k_koridai = {
 		color2={ 150 83 24 }
 		capital = 8
 		c_menen  = {
+			color={ 223 126 40 }
+			color2={ 218 193 170 }
 		
 			b_glepo = {}
 			b_gioro = {}
@@ -8496,6 +8697,8 @@ k_port_isle = {
 		c_lon_lon_island = {		
 			color={ 0 199 140 }
 			color2={ 255 64 64 }
+			hyrulean="Lon Lon Island"
+			port_towners="Lon Lon Island"
 			
 			b_meadow_farm = {}
 		}
@@ -8922,8 +9125,8 @@ k_arcadia = {
 		}
 	}
 	d_silvania = {
-		color={ 151 151 }
-		color2={250 188 0 }		
+		color={ 151 151 0 }
+		color2={ 250 188 0 }		
 		capital = 257
 		c_silvania = {
 			color={ 255 255 0 }
@@ -9365,7 +9568,7 @@ k_bastion = {
 		color2={ 255 222 0 }
 		capital = 775
 		c_wosu_wastes = {
-			color={ 24 188 0 7 }
+			color={ 24 188 7 }
 			color2={ 0 0 0 }
 			b_blastworm = {}
 			b_flamola = {}
@@ -10128,7 +10331,7 @@ d_fab_witch = {
 	}
 	
 	# Parent Religion 
-	religion = wizzrobe
+	religion = wizzrobe_doctrine
 	
 	culture = wizzrobe_doctrine
 	
@@ -10723,7 +10926,7 @@ d_hermione_school = {
 	}
 	
 	# Parent Religion 
-	religion = wizzrobe
+	religion = wizzrobe_doctrine
 	
 	culture = wizzrobe_doctrine
 	
@@ -10755,7 +10958,7 @@ d_zatanna_school = {
 	}
 	
 	# Parent Religion 
-	religion = wizzrobe
+	religion = wizzrobe_doctrine
 	
 	culture = wizzrobe_doctrine
 	
@@ -10787,7 +10990,7 @@ d_excalibur_school = {
 	}
 	
 	# Parent Religion 
-	religion = wizzrobe
+	religion = wizzrobe_doctrine
 	
 	culture = wizzrobe_doctrine
 	
@@ -10819,7 +11022,7 @@ d_kldenents_school = {
 	}
 	
 	# Parent Religion 
-	religion = wizzrobe
+	religion = wizzrobe_doctrine
 	
 	culture = wizzrobe_doctrine
 	
@@ -10972,7 +11175,7 @@ d_mountain_terror_company = {
 
 	mercenary_type = mountain_terror_company_composition
 }
-##bandits (culture specific small bands)
+##bandits {culture specific small bands}
 d_moblin_bandits_1 = {
 	color={ 150 60 60 }
 	color2={ 255 255 255 }
