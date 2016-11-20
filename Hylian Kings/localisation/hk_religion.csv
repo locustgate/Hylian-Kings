@@ -15,7 +15,9 @@ SPIRIT_ELDIN;Eldin;Eldin;Eldin;;Eldin;;;;;;;;x
 SPIRIT_FARON;Faron;Faron;Faron;;Faron;;;;;;;;x
 SPIRIT_LANARYRU;Lanaryu;Lanaryu;Lanaryu;;Lanaryu;;;;;;;;;x
 light_force;Light Force;Force Light;Light Force;;Fuerza de la Luz;;;;;;;;;x
-light_force_DESC;The Light Force is a form of life force found in every single non-monster. Followers seek to keep their own life force pure by abstaining from violence.;La Force Light est une forme de force de vie trouvé dans tous les non - monstre unique . Abonnements cherchent à garder leur propre force de vie pure par l'abstention de la violence.;Die Light Force ist eine Form der Lebenskraft in jedem einzelnen nicht- Monster gefunden. Anhänger versuchen, ihre eigenen Lebenskraft rein durch den Verzicht auf Gewalt zu halten.;;La Fuerza de la Luz es una forma de energía vital que se encuentra en cada uno de no- monstruo. Seguidores tratan de mantener su propia fuerza de vida pura absteniéndose de la violencia.;;;;;;;;;;x
+light_force_DESC;The Light Force is a form of life force found in every single non-monster. Followers seek to keep their own life force pure by abstaining from violence. Clergy of your religion respect high Light Force and upon death it is added to your score.;La Force Light est une forme de force de vie trouvé dans tous les non - monstre unique . Abonnements cherchent à garder leur propre force de vie pure par l'abstention de la violence.;Die Light Force ist eine Form der Lebenskraft in jedem einzelnen nicht- Monster gefunden. Anhänger versuchen, ihre eigenen Lebenskraft rein durch den Verzicht auf Gewalt zu halten.;;La Fuerza de la Luz es una forma de energía vital que se encuentra en cada uno de no- monstruo. Seguidores tratan de mantener su propia fuerza de vida pura absteniéndose de la violencia.;;;;;;;;;;x
+STAT_PIETY_DESC_LIGHT_FORCE;The Light Force is a form of life force found in every single non-monster. Followers seek to keep their own life force pure by abstaining from violence. Clergy of your religion respect high Light Force and upon death it is added to your score.;La Force Light est une forme de force de vie trouvé dans tous les non - monstre unique . Abonnements cherchent à garder leur propre force de vie pure par l'abstention de la violence.;Die Light Force ist eine Form der Lebenskraft in jedem einzelnen nicht- Monster gefunden. Anhänger versuchen, ihre eigenen Lebenskraft rein durch den Verzicht auf Gewalt zu halten.;;La Fuerza de la Luz es una forma de energía vital que se encuentra en cada uno de no- monstruo. Seguidores tratan de mantener su propia fuerza de vida pura absteniéndose de la violencia.;;;;;;;;;;x
+MONTHLY_PIETY_LIGHT_FORCE;Light Force;;;;;;;;;;;;;;;x
 LIGHT_LEGEND;Bounding War;Guerre de Délimitation;Bounding War;;Guerra Delimitador;;;;;;;;;;x
 purity;Purity;Purete;Reinheit;;Pureza;;;;;;;;x
 GOD_LIGHT_FORCE;Light Force;Force Light;Light Force;;Fuerza de la Luz;;;;;;;;;x
@@ -65,7 +67,7 @@ water_spirit_DESC;The water spirit religion is wide and varried the worshippers 
 GOD_WATER_SPIRITS;Water Spirits;;;;;;;;;;x
 jabu_jabu;Jabu Jabu;Jabu Jabu;Jabu Jabu;;Jabu Jabu;;;;;;;;;;x
 jabu_jabu_DESC;Jabu Jabu is the guardian deity of the Zora, taking the form of a giant whale like creature. It is believed that Jabu Jabu brings fortune to his followers and protects them while they are near the water.;Jabu Jabu est la divinité gardienne de la Zora , prenant la forme d'une baleine géante comme la créature . On croit que Jabu Jabu apporte la fortune à ses disciples et les protège alors qu'ils sont près de l'eau .;Jabu Jabu ist die Hütergottheit der Zora , die die Form eines riesigen Wals ähnliche Kreatur . Es wird angenommen, dass Jabu Jabu bringt Glück, seine Anhänger und schützt sie, während sie in der Nähe des Wassers sind .;;Jabu Jabu es la deidad guardiana de los Zora , tomando la forma de una ballena gigante como criatura . Se cree que Jabu Jabu trae fortuna a sus seguidores y les protege mientras están cerca del agua.;;;;;;;;;x
-SERANADE_WATER;Serenade of Water;Serenade de l'Eau;Serenade of Water;;Serenata del Agua;;;;;x
+SERENADE_WATER;Serenade of Water;Serenade de l'Eau;Serenade of Water;;Serenata del Agua;;;;;x
 GOD_LORD_JABU;Lord Jabu;Seigneur Jabu;Herr Jabu;;Herr Jabu;;;;;;;;;x
 GOD_JABU_JABU;Jabu Jabu;Jabu Jabu;Jabu Jabu;;Jabu Jabu;;;;;;;;;x
 jabun_religion;Jabun;Jabun;Jabun;;Jabun;;;;;;;;;x
@@ -86,8 +88,9 @@ great_maku_DESC;The Great Maku trees are the guardian deities of Labrynna and Ho
 MAKU_SONG;Maku's Duet;Duet de Maku;Maku von Duet;;Dúo de Maku;;;;;;;;;;x
 GREAT_MAKU_TREE;Great Maku Tree;Grand Arbre Maku;Maku-Baum;;Gran Arbol;Maku;;;;;;;;;x
 GREAT_MAKU_SAPLING;Great Maku Sappling;Grande Maku Arbriss;Maku Sapling;;Gran Maku Pimpollo;;;;;;;;;x
-GREAT_MAKU_SEED;Great Maku Seed;Grande semences Maku;Maku-See;;Gran Semillas Maku;;;;;;;;;x
+GOD_GREAT_MAKU_SEED;Great Maku Seed;Grande semences Maku;Maku-See;;Gran Semillas Maku;;;;;;;;;x
 earth_spirits;Earth Spirits;;;;;;;;;x#translate
+earth_spirits_DESC;The Earth Spirits are a loose collection of beliefs that worship various entities that are connected to the earth.;;;;;;;;;;;;x
 GOD_EARTH_SPIRIT;Earth Spirits;;;;;;;;;;x#translate
 EARTH_LYRIC;Earth Spirits' Lyric;;;;;;;;;x#translate
 mother_mountain;Mountain Mother;montagne Mère;Berg Mutter;;Sierra Madre;;;;;;;;;x
@@ -220,18 +223,18 @@ helmasaur_king_DESC;The Helmasaur King is an ancient monster that lives in the m
 mask_cult;Cult of the Mask;;;;;;;;;;;;x#translate
 mask_cult_DESC;The Cult of the Mask is a recent cult that believes only those that hide their face can survive in the devestated Lorule;;;;;;;;;;;;x#translate
 sol_religion;Sol;Sol;Sol;;Sol;;;;;;;;;x
-Sol_religion_DESC;Sols are sun like spirits that inhabit the Twilight Realm. They provide the only source of light and are capable of curing most curses.;Sols sont le soleil comme des esprits qui habitent le Royaume du Crépuscule . Ils constituent la seule source de lumière et sont capables de guérir la plupart des malédictions et repeling tous, mais les monstres les plus vils .;Sole sind Sonne , wie Spirituosen , die den Zwielichtreich bewohnen. Sie stellen die einzige Lichtquelle und sind in der Lage zu heilen die meisten Flüche und Repeling alle, aber die meisten abscheulichen Monstern .;;Sols son sol como espíritus que habitan en el Reino Crepuscular . Ellos proporcionan la única fuente de luz y son capaces de curar la mayoría de las maldiciones y repeling todos, pero los monstruos más viles .;;;;;;;;;;x
+sol_religion_DESC;Sols are sun like spirits that inhabit the Twilight Realm. They provide the only source of light and are capable of curing most curses.;Sols sont le soleil comme des esprits qui habitent le Royaume du Crépuscule . Ils constituent la seule source de lumière et sont capables de guérir la plupart des malédictions et repeling tous, mais les monstres les plus vils .;Sole sind Sonne , wie Spirituosen , die den Zwielichtreich bewohnen. Sie stellen die einzige Lichtquelle und sind in der Lage zu heilen die meisten Flüche und Repeling alle, aber die meisten abscheulichen Monstern .;;Sols son sol como espíritus que habitan en el Reino Crepuscular . Ellos proporcionan la única fuente de luz y son capaces de curar la mayoría de las maldiciones y repeling todos, pero los monstruos más viles .;;;;;;;;;;x
 SOLS_LAMINAT;Sol's Laminate;Flottant de Sol;Sol Laminat;;Laminado de Sol;;;;;;;;;x
 GOD_SOL;Sol;Sol;Sol;;Sol;;;;;;;;;x
 GOD_DIVINE_BEAST;Divine Beast;Divine Bête;Göttliche Beast;;Divina Bestia;;;;;;;;;x
 divine_beast;Divine Beast;Divine Bête;Göttliche Beast;;Divina Bestia;;;;;;;;;x
 divine_beast_DESC;A heresy of the Sol religion, the divine beast followers that when the Sols fail to protect the Twili a giant twili-wolf shall appear to defend both the Twilight and Light Realm.;Une hérésie de la religion Sol , les adeptes de la bête divines que lorsque les Sols ne parviennent pas à protéger le Twili un Twili - loup géante doit comparaître pour défendre à la fois le Crépuscule et Royaume de Lumière .;Eine Häresie des Sol Religion , die göttlichen Tier Anhänger , dass, wenn die Sole scheitern, die Twili schützen ein Riese Twili -wolf erscheinen wird , um sowohl die Dämmerung und Licht Reich zu verteidigen.;;Una herejía de la religión Sol , los seguidores de la bestia divinas que cuando los soles no protegen a la Twili un twili - lobo gigante aparecerá para defender tanto el Crepúsculo y Realm Luz.;;;;;;;;;x
-BEASTS_HOWL;Beast's Howl;Hurlement de la Bête;Beast Howl;;Aullido de Bestia;;;;;;;;;x
+BEAST_HOWL;Beast's Howl;Hurlement de la Bête;Beast Howl;;Aullido de Bestia;;;;;;;;;x
 termina;Termina;Termina;Termina;;Termina;;;;;;;;;x
 goddess_of_time;Goddess of Time;Déesse du Temps;Goddess of Time;;Diosa del Tiempo;;;;;;;;;;x
 goddess_of_time_DESC;The Goddess of Time is a Terminan goddess, the most worshiped one.;;;;;;;;;x
 SONG_OF_TIME;Song of Time;Chanson du Temps;Hymne der Zeit;;Canción del Tiempo;;;;;;;;;x
-DOG_GODDESS_OF_TIME;Goddess of Time;Déesse du Temps;Goddess of Time;;Diosa del Tiempo;;;;;;;;;x
+GOD_GODDESS_OF_TIME;Goddess of Time;Déesse du Temps;Goddess of Time;;Diosa del Tiempo;;;;;;;;;x
 majora_religion;Majora;Majora;Majora;;Majora;;;;;;;;;x
 majora_religion_DESC;Majora was once a powerful demon but after challenging the Goddess of Time it was sealed within a mask.;Majora était une fois un puissant démon mais après contestant la Déesse du Temps , il a été scellé dans un masque .;Majora war einst ein mächtiger Dämon , aber nach Anfechtung der Göttin der Zeit innerhalb einer Maske wurde verschlossen.;;Majora fue una vez un poderoso demonio , pero después de desafiar la Diosa de la Hora en que fue sellado dentro de una máscara.;;;;;;;;;x
 SONG_HEALING;Song of Healing;Song of Healing;Song of Healing;;Canción de Curación;;;;;;;;;x
@@ -241,6 +244,71 @@ fierce_deity;Fierce Deity;Divinité Fierce;Fierce Deity;;Deidad Fierce;;;;;;;;;x
 fierce_deity_DESC;The Fierce Deity was a god like being that fought Majora, however he did not care what damage he caused and for the good of Termina the Goddess of Time sealed him within a mask, the act draining her of her divinity.;La divinité féroce était un dieu comme être qui a combattu Majora , cependant , il se fichait de ce préjudice qu'il a causé et pour le bien de Termina la Déesse du Temps lui scellé dans un masque , l'acte lui vidange de sa divinité.;Der Fierce Deity war ein Gott wie Wesen, Majora gekämpft , aber war es ihm egal , welchen Schaden er verursacht und für das Wohl der Termina die Göttin der Zeit versiegelt ihn innerhalb einer Maske , die Handlung Entleeren sie an ihre Göttlichkeit.;;La Fiera Deidad era un dios como ser que luchó Majora , sin embargo él no le importaba lo que causó daños y para el bien de Termina la Diosa de Time lo sellado dentro de una máscara , el acto de drenaje de su de su divinidad.;;;;;;;;;x
 RAGE;Rage;Rage;Wut;;Rabia;;;;;;;;;x
 DEITY_WRATH;The Deity's Wrath;Colère de la Divinité;Der Gottheit Wrath;;Ira del Deidad;;;;;;;;;x
+GOD_DARK_ONE;The Dark One;;;;;;;;;x
+GOD_SHADOW_BEAST;Shadow Beasts;;;;;;;;;;;x
+GOD_THE_MASKS;The Masks;;;;;;;;;x
+THE_MASK_EDICT;The Mask Edict;;;;;;;;;;;;x
+GOD_MONSTERS;Monsters;;;;;;;;;;;x
+GOD_HELMASAUR_KING;The Helmasaur King;;;;;;;;x#translate
+GOD_LOLIA;Lolia;;;;;;;;;;x
+GOD_RISE;Rise;;;;;;;;;x#translate
+GOD_Narore;Narore;;;;;;;;;;;x
+GOD_FARYU;Faryu;;;;;;;;;;;x
+GOD_JIN;Jin;;;;;;;;;;;x
+SEA_SHANTI;Shanty;;;;;;;;;;x
+LIGHT_FORCE;Light Force;;;;;;;;;x
+STAT_PIETY_LIGHT_FORCE;Light Force;;;;;;;;;x
+STAT_PIETY_MENU_LIGHT_FORCE;Light Force;;;;;;;;;x
+THE_FALLEN;The Fallen;;;;;;;x
+THE_DISHONORED;The Dishonored;;;;;;;;;x
+GOD_NOMAGIC;The Magic Less;;;;;;;;;x
+GOD_MALLADUS;Malladus;;;;;;;;;x
+MALLADUS_TRIUMPH;Triumph of Malladus;;;;;;;;;;;;;x
+BAGA_TREE;Baga Tree;;;;;;;;;;;x#translate
+ATTENDENT;Attendent;;;;;;;;;;;;x
+GOD_WIND_FISH_EGG;Wind Fish Egg;;;;;;;;;;;;;x
+LIGHT_WAR;Light War;;;;;;;;;;;;;x
+GOD_DARK_INTERLOPERS;The Dark Interlopers;;;;;;;;;;;;;x
+GOD_INTERLOPERS;The Interlopers;;;;;;;;;;;;;x
+GOD_SERVANT_SPIRITS;Servent Spirits;;;;;;;;;;;;;x
+STAT_PIETY_LIFE_FORCE;Life Force;;;;;;;;;;;;;x
+LIFE_FORCE;Life Force;;;;;;;;;;;;;x
+GOD_EAST_WIND;East Wind;;;;;;;;;;;;;x
+earth_spirits_reformed;Earth God;;;;;;;;;;;;;x
+earth_spirits_reformed_DESC;The reformed earth spirits religion. Worshipers believe there is only one god that controls all of nature, the earth god.;;;;;;;;;;;;;x
+GOD_WIND;Wind Goddesses;;;;;;;;;;;;;x
+WIND_ARIA;Wind Goddess's Aria;;;;;;;;;;;;;x
+GOD_EARTH;Earth God;;;;;;;;;;;;;x
+DRAGON_VOLVAGIA;Volvagia;;;;;;;;;;;;;x
+GOD_KING;The King;;;;;;;;;;;;;x
+GOD_GODDESS;Goddess;;;;;;;;;;;;;x
+GOD_NARORE;Narore;;;;;;;;;;;;;x
+STAT_PIETY_DESC_LIFE_FORCE;Life force is believed to be the animating force in all creatures when drained it is believed one will turn to stone. Upon death the Life Force is added to your score.;;;;;;;;;;;;;x
+MONTHLY_PIETY_LIFE_FORCE;Life Force;;;;;;;;;;;;;;;x
+LIFE_FORCE_DESC;Life force is believed to be the animating force in all creatures when drained it is believed one will turn to stone. Upon death the Life Force is added to your score.;;;;;;;;;;;;;x
+GOD_SHADOWS;The Shadows;;;;;;;;;;;;;;;x
+GOD_NIGHTMARES;The Nightmares;;;;;;;;;;;;;;;x
+wind_spirits_reformed;Wind Goddess;;;;;;;;;;;;;;;x
+wind_spirits_reformed_DESC;A reformed version of the wind spirit religion. Worshippers believe that the winds are controlled by a singular goddess.;;;;;;;;;;;;x
+GOD_GREAT_MAKU_SAPLING;Maku Sapling;;;;;;;;;;;;;;;x
+GOD_GREAT_MAKU_TREE;Maku Trees;;;;;;;;;;;;;;;x
+CARETAKER;Caretaker;;;;;;;;;;;;;;;x
+GOD_GOHMA;Gohma;;;;;;;;;;;;;;;x
+JABUN_SHANTY;Jabun's Shanty;;;;;;;;;;;;;;x
+GOD_SPIRITS;Spirits;;;;;;;;;;;;;;x
+HYLIA_NOCTURNE;Hylia's Nocturne;;;;;;;;;;;;;;x
+MONK;Monk;;;;;;;;;;x#translate
+THE_SINGS;The Signs;;;;;;;;;;;x
+KEEPER;Keeper;;;;;;;;;;x#translate
+THE_CELESTIAL_SIGNS;The Celestial Signs;;;;;;;;;;;;x
+SIGN_WATER;Sign of Water;;;;;;;;;;;;x
+SIGN_AIR;Sign of Air;;;;;;;;;;;;x
+SIGN_DESTINY;Sign of Destiny;;;;;;;;;;;;x
+SIGN_ILLUSION;Sign of Illusion;;;;;;;;;;;;x
+SIGN_EARTH;Sign of Earth;;;;;;;;;;;;x
+SIGN_FIRE;Sign of Fire;;;;;;;;;;;;;x
+SIGN_STRENGTH;Sign of Strength;;;;;;;;;;;;x
+
 #titles
 temple_king;High Priest;;;;;;;;;;;;;x
 temple_duke;Great-Priest;;;;;;;;;;;;;x
