@@ -3,6 +3,7 @@ goddesses_religion = {
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	graphical_culture = norsegfx
+	color = { 1 0.84 0}
 
 	ai_convert_same_group = 1 # Zelots only
 	ai_convert_other_group = 1 # Zelots only
@@ -370,6 +371,7 @@ guardian_deity = {
 	graphical_culture = westerngfx
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	color = { 0 0 1 }
 
 	ai_convert_same_group = 0 # never
 	ai_convert_other_group = 1 # never
@@ -586,6 +588,7 @@ minor_deity = {
 	has_coa_on_barony_only = yes
 	playable = yes
 	ai_peaceful = no # Will make Hordes lose their super aggressiveness
+	color = { 1 0.75 0.8 }
 
 	ai_convert_same_group = 1 # never
 	ai_convert_other_group = 1 # never 
@@ -1048,6 +1051,7 @@ demon_religion = {
 
 	ai_convert_same_group = 1 # only if zelous
 	ai_convert_other_group  = 2 # always try to convert
+	color = { 1 1 1 }
 	
 
 	male_names = {
