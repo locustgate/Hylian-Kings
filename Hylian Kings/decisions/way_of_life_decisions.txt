@@ -78,6 +78,8 @@ targetted_decisions = {
 					NOT = { trait = imbecile }
 					NOT = { trait = chaste }
 					NOT = { trait = shy }
+					NOT = { trait = race_tree_deity }
+					NOT = { trait = race_tree_demon }
 				}
 			}
 		}
@@ -86,6 +88,8 @@ targetted_decisions = {
 			is_marriage_adult = yes
 			NOT = { character = FROM }
 			NOT = { trait = incapable }
+			NOT = { trait = race_tree_deity }
+			NOT = { trait = race_tree_demon }
 			prisoner = no
 			NOT = { is_lover = FROM }
 			NOT = { is_former_lover = FROM }
@@ -123,7 +127,9 @@ targetted_decisions = {
 			}
 			NOT = { trait = celibate }
 			NOT = { FROM = { trait = celibate } }
-			religion_group = FROM
+			NOT = { FROM = { trait = race_tree_deity } }
+			NOT = { FROM = { trait = race_tree_demon } }
+			#religion_group = FROM
 			is_within_diplo_range = FROM
 		}
 		

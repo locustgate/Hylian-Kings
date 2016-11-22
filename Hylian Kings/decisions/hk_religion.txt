@@ -273,6 +273,7 @@ decisions = {
 				trait = one_legged
 				trait = one_handed
 			}
+			religion = darknut_doctrine
 			NOT = { has_character_flag = final_battle }
 		}
 		allow = {

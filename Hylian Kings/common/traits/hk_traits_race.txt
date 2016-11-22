@@ -121,6 +121,7 @@ race_tree_deity = {
 	combat_rating = -100 #ITS A TREE	
 	fertility = -500
 	cached = yes
+	cannot_marry = yes
 	
 
 	immortal = yes
@@ -139,6 +140,7 @@ race_tree_demon = {
 	combat_rating = -100 #ITS A TREE
 	fertility = -500
 	cached = yes
+	cannot_marry = yes
 
 	immortal = yes
 
@@ -151,7 +153,7 @@ race_fairy = {
 	learning = 2
 	combat_rating = 4
 	general_opinion = 5
-	sex_appeal_opinion = 20
+	sex_appeal_opinion = 20 #sexy sexy fairies
 	opposite_opinion = -40
 	cached = yes
 

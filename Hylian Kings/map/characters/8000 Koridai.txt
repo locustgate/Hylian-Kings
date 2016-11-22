@@ -1,0 +1,260 @@
+
+1016 = {
+	name=Onolu
+	historical = yes
+	dynasty=9801
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	trait=lustful
+	#trait=warrior_1
+	trait=gluttonous
+	trait=content
+	trait=misguided_warrior
+	3337.6.6={
+		birth=yes
+	}
+	3374.3.16 = {
+	add_spouse = 1017 
+	}
+	3386.1.1 = {
+		death={ 
+		death_reason = death_murder
+		killer = 1018
+		}
+	}
+}
+1017 = {
+	name=Hamsha
+	historical = yes
+	dynasty=9807
+	female=yes
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	trait=grey_eminence
+	#trait=mage_1
+	trait=ugly
+	trait=kind
+	3357.8.13 = {
+		birth=yes
+	}
+	3374.3.16 = {
+	add_spouse = 1016 
+	}
+}
+1018 = {
+	name=Dram
+	historical = yes
+	dynasty=9801
+	father=1016
+	religion=demise_religion
+	culture=koridain
+	trait=race_hylian
+	trait=zealous
+	trait=flamboyant_schemer
+	trait=legit_bastard 
+	trait=ambitious
+	trait=lunatic
+	trait=kinslayer
+	3368.10.10={
+		birth=yes
+	}
+	3388.1.1={
+		death={ death_reason = death_suicide }
+	}
+}
+1019 = {
+	name=Aponak
+	historical = yes
+	dynasty=9801
+	father=1016
+	mother=1017
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	3374.12.28={
+		birth=yes
+	}
+}
+1020 = {
+	name=Horgum
+	historical = yes
+	dynasty=9812
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	trait=lustful
+	#trait=warrior_2
+	trait=dwarf
+	trait=ambitious
+	trait=scholarly_theologian 
+	3341.12.12={
+		birth=yes
+	}
+	3361.8.19 = {
+	add_spouse = 1021 
+	}
+	3385.1.1 = {
+		death={ 
+		death_reason = death_battle
+		killer = 1030
+		}
+	}
+}
+1021 = {
+	name=Gwaponona
+	historical = yes
+	female=yes
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	trait=quick
+	trait=shrewd
+	trait=fortune_builder 
+	trait=honest
+	3345.8.19={
+		birth=yes
+	}
+	3361.8.19 = {
+	add_spouse = 1020 
+	}
+	3385.1.1 = {
+		death = { death_reason = death_execution 
+					killer = 1030
+		}
+	}
+}
+1022 = {
+	name=Arala
+	historical = yes
+	dynasty=9812
+	female=yes
+	father=1020
+	mother=1021
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	trait=fair
+	trait=frail
+	trait=underhanded_rogue
+	trait=honest
+	3362.4.16 = {
+		birth=yes
+	}
+	3378.4.17 = { 
+		add_spouse = 1028
+	}
+	3385.1.1 = {
+		add_trait = scarred
+	}
+	3385.1.1 = { 
+		add_spouse = 1030
+	}
+}
+1023 = {
+	name=Onak
+	historical = yes
+	dynasty=9812
+	father=1020
+	mother=1021
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	3365.7.24 = {
+		birth=yes
+	}
+	3386.1.1={ death={ death_reason = death_execution killer = 1030 } }
+}
+1024 = {
+	name=Maluk
+	historical = yes
+	dynasty=9812
+	father=1020
+	mother=1021
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	3369.9.15 = {
+		birth=yes
+	}
+	3386.10.16={ death={ death_reason = death_execution killer = 1030 } }
+}
+1025 = {
+	name=Hoolanam
+	historical = yes
+	dynasty=9812
+	father=1020
+	mother=1021
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	3374.9.15 = {
+		birth=yes
+	}
+	3386.12.25 ={ death={ death_reason = death_execution killer = 1030 } }
+}
+1026 = {
+	name=Hilo
+	historical = yes
+	female=yes
+	dynasty=9812
+	father=1020
+	mother=1021
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	3378.3.15 = {
+		birth=yes
+	}
+	3386.12.26 ={ death={ death_reason = death_execution killer = 1030 } }
+}
+1027 = {
+	name=Aponak
+	historical = yes
+	dynasty=9812
+	father=1020
+	mother=1021
+	host=1017
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	3379.9.15 = {
+		birth=yes
+	}
+}
+1028 = {
+	name=Otum
+	historical = yes
+	dynasty=9824
+	father=1020
+	mother=1021
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	3379.9.15 = {
+		birth=yes
+	}
+	3378.4.17 = { 
+		add_spouse = 1022
+	}
+	3385.1.1 = { 
+		death = { death_reason = death_execution killer=1030 }
+	}
+}
+1029 = {
+	name=Horgum
+	historical = yes
+	dynasty=9824
+	father=1028
+	mother=1022
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	3381.7.4 = {
+		birth=yes
+	}
+	3385.4.2 = { 
+		death = { death_reason = death_execution killer = 1030 }
+	}
+}

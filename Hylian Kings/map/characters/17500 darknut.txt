@@ -1,0 +1,645 @@
+1197={
+	name=Sulpicius
+	dynasty=4408
+	dna="pemmegiobpd"
+	culture=darknut 
+	religion=darknut_doctrine
+	martial=5 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=5
+	learning=7
+	add_trait=skilled_tactician 
+	add_trait=shy 
+	add_trait=just 
+	add_trait=deceitful
+	add_trait=chaste 
+	add_trait=cruel 
+	trait=darknut_armor
+	trait=darknut_sword
+	3361.8.1={ birth=yes }
+	3382.9.4={ add_spouse=1202 }
+	3402.2.15={ death=yes }
+}
+1198={
+	name=Laenas
+	dynasty=4408
+	dna="pemiemcobpk"
+	culture=darknut 
+	religion=darknut_doctrine
+	martial=6 
+	diplomacy=5 
+	stewardship=7
+	intrigue=6 
+	learning=6
+	add_trait=intricate_webweaver 
+	add_trait=cynical 
+	add_trait=kind 
+	add_trait=greedy 
+	add_trait=temperate 
+	add_trait=just 
+	father=1197	#Sulpicius
+	mother=1202
+	3383.9.4={ birth=yes }
+	3432.5.6={ death=yes }
+}
+1199={
+	name=Caterina
+	female=yes
+	dynasty=4408
+	dna="pcmeegaopdm"
+	culture=darknut 
+	religion=darknut_doctrine
+	father=1197	#Sulpicius
+	mother=1202
+	3384.11.22={ birth=yes }
+	3432.4.2={ death=yes }
+}
+1200={
+	name=Nora
+	female=yes
+	dynasty=4408
+	dna="pgjmegioepd"
+	culture=darknut 
+	religion=darknut_doctrine
+	father=1197	#Sulpicius
+	mother=1202
+	3386.8.13={ birth=yes }
+	3434.6.3={ death=yes }
+}
+1201={
+	name=Vento
+	dynasty=4408
+	dna="debpeeiobkd"
+	culture=darknut 
+	religion=darknut_doctrine
+	martial=7 
+	diplomacy=5 
+	stewardship=7
+	intrigue=4 
+	learning=6
+	add_trait=misguided_warrior 
+	add_trait=slothful 
+	add_trait=humble 
+	add_trait=honest 
+	add_trait=charitable 
+	father=1197	#Sulpicius
+	mother=1202
+	3389.2.21={ birth=yes }
+	3431.10.29={ death=yes }
+}
+
+1202={
+	name=Olga
+	female=yes
+	dna="pgjmegioepd"
+	culture=darknut 
+	religion=darknut_doctrine
+	3367.8.3={ birth=yes }
+	3383.9.4={ add_spouse=1197 }
+	3434.6.3={ death=yes }
+}
+17500={
+	name=Shield
+	dna="ak00c0j0000"
+	properties="cl0dag0b000000"	
+	martial=5 
+	diplomacy=5 
+	stewardship=5
+	intrigue=5 
+	learning=5
+	culture=darknut
+	religion=darknut_doctrine
+	trait=brilliant_strategist
+	trait=race_darknut
+	trait=darknut_armor
+	trait=darknut_sword
+	trait=patient
+	trait=robust
+	trait=brave
+	trait=just
+	3353.1.1={birth=yes}
+	3371.1.1={add_trait=scarred}
+	3373.1.1={add_trait=impaler}
+	3374.1.1={remove_trait=impaler
+		add_trait=theologian
+	}
+	3375.1.1={add_trait=heavy_infantry_leader}
+	3376.1.1={add_trait=inspiring_leader}
+	3377.1.1={add_trait=desert_terrain_leader}
+}
+17501={
+	name=Roland
+	dynasty=4401
+	dna="homclojgoef"
+	culture=darknut religion=darknut_doctrine
+	martial=6 diplomacy=7 stewardship=7 intrigue=6 learning=7
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword
+	add_trait=midas_touched
+	trait=bloodline_firstdox add_trait=temperate add_trait=diligent add_trait=envious add_trait=gregarious 
+	add_trait=trusting 
+	father=81
+	3320.2.17={ birth=yes }
+	3364.10.8={ death={death_reason=death_battle} }
+}
+17502={
+	name=Scipio
+	dynasty=4401
+	dna="hhjfeogkoeg"
+	culture=darknut religion=darknut_doctrine
+	martial=4 diplomacy=7 stewardship=5 intrigue=4 learning=6
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword
+	trait=bloodline_firstdox trait=indulgent_wastrel add_trait=just add_trait=kind add_trait=charitable add_trait=cynical 
+	father=17501	#Roland
+	3347.4.27={ birth=yes }
+	3386.9.12={ death={death_reason=death_battle}}
+}
+17503={
+	name=Ethelfleda
+	female=yes
+	dynasty=4401
+	dna="chjfaogkhdg"
+	culture=darknut religion=darknut_doctrine
+	trait=bloodline_firstdox
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword
+	father=17502	#Scipio
+	3366.8.3={ birth=yes }
+	3416.11.12={ death=yes }
+}
+17504={
+	name=Hannibal
+	dynasty=4401
+	dna="homnehgkoeh"
+	culture=darknut religion=darknut_doctrine
+	martial=5 diplomacy=8 stewardship=8 intrigue=6 learning=6
+	add_trait=brilliant_strategist
+	trait=bloodline_firstdox
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword add_trait=ambitious add_trait=cruel add_trait=lustful trait=brave trait=holy_warrior trait=strong
+	father=17502	#Scipio
+	3367.11.15={ birth=yes }
+	3387.1.1={add_spouse=17521} 
+	3424.3.5={ death=yes }
+}
+17505={
+	name=Valeria
+	female=yes
+	dynasty=4401
+	dna="hhjekekbjeg"
+	culture=darknut religion=darknut_doctrine
+	trait=bloodline_firstdox
+	father=17502	#Scipio
+	3373.3.10={ birth=yes }
+	3433.11.15={ death=yes }
+}
+#d
+17506={
+	name=Corvo
+	dynasty=4405
+	dna="fcdnbaogohb"
+	culture=darknut religion=darknut_doctrine
+	martial=6 diplomacy=5 stewardship=6 intrigue=7 learning=7
+	add_trait=elusive_shadow
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword add_trait=duelist add_trait=slothful add_trait=greedy add_trait=content 
+	add_trait=gregarious 
+	3349.7.13={ birth=yes }
+	3372.1.1={add_spouse=17518}
+	3405.7.3={ death=yes }
+}
+17507={
+	name=Creuz
+	dynasty=4405
+	dna="feonekogdhb"
+	culture=darknut religion=darknut_doctrine
+	martial=7 diplomacy=5 stewardship=5 intrigue=8 learning=4
+	add_trait=scholarly_theologian add_trait=mystic add_trait=paranoid add_trait=lustful add_trait=arbitrary 
+	add_trait=brave add_trait=ambitious 
+	father=17506	#Corvo
+	mother=17518
+	3376.6.16={ birth=yes }
+	3435.7.24={ death=yes }
+}
+17508={
+	name=Aemilla
+	female=yes
+	dynasty=4405
+	dna="fcnnbmokhdb"
+	culture=darknut religion=darknut_doctrine
+	father=17506	#Corvo
+	mother=17518
+	3379.7.26={ birth=yes }
+	3433.9.25={ death=yes }
+}
+17509={
+	name=Plotina
+	female=yes
+	dynasty=4405
+	dna="dcjnbiocohb"
+	culture=darknut religion=darknut_doctrine
+	father=17506	#Corvo
+	mother=17518
+	3381.12.12={ birth=yes }
+	3452.8.17={ death=yes }
+}
+#d
+17510={
+	name=Alaric
+	dynasty=4410
+	dna="odgpalhbgkc"
+	culture=darknut religion=darknut_doctrine
+	martial=8 diplomacy=6 stewardship=7 intrigue=7 learning=5
+	add_trait=detached_priest
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword add_trait=chaste add_trait=kind add_trait=patient add_trait=humble 
+	add_trait=gregarious 
+	3350.10.3={ birth=yes }
+	3372.1.1={add_spouse=17519}
+	3422.7.21={ death=yes }
+}
+17511={
+	name=Fuscus
+	dynasty=4410
+	dna="cmgpaliigkc"
+	culture=darknut religion=darknut_doctrine
+	martial=5 diplomacy=8 stewardship=8 intrigue=8 learning=4
+	add_trait=naive_appeaser add_trait=content add_trait=slothful add_trait=cynical add_trait=temperate 
+	father=17510	#Alaric
+	mother=17519
+	3374.9.4={ birth=yes }
+	3459.8.5={ death=yes }
+}
+17512={
+	name=Hippolyta
+	female=yes
+	dynasty=4410
+	dna="cdgpacobpkc"
+	culture=darknut religion=darknut_doctrine
+	father=17510	#Alaric
+	mother=17519
+	3379.10.7={ birth=yes }
+	3435.6.30={ death=yes }
+}
+17513={
+	name=Pythagoras
+	female=yes
+	dynasty=4410
+	dna="odgljdhahil"
+	culture=darknut religion=darknut_doctrine
+	father=17510	#Alaric
+	mother=17519
+	3382.1.7={ birth=yes }
+	3427.6.4={ death=yes }
+}
+17514={
+	name=Cherche
+	female=yes
+	dynasty=4410
+	dna="jphpalaegkp"
+	culture=darknut religion=darknut_doctrine
+	father=17510	#Alaric
+	mother=17519
+	3384.4.26={ birth=yes }
+	3441.11.16={ death=yes }
+}
+17515={
+	name=Horatius
+	dynasty=4410
+	dna="odgfflhbikc"
+	culture=darknut religion=darknut_doctrine
+	martial=4 diplomacy=4 stewardship=8 intrigue=5 learning=6
+	add_trait=elusive_shadow add_trait=honest add_trait=kind add_trait=cruel add_trait=patient 
+	add_trait=trusting add_trait=cynical 
+	father=17510	#Alaric
+	mother=17519
+	3386.3.1={ birth=yes }
+	3455.10.26={ death=yes }
+}
+#d
+17516={
+	name=Miltiades
+	dynasty=4415
+	dna="oafcghocdlf"
+	culture=darknut religion=darknut_doctrine
+	martial=7 diplomacy=5 stewardship=6 intrigue=4 learning=6
+	add_trait=detached_priest
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword add_trait=wroth add_trait=ambitious add_trait=humble add_trait=deceitful 
+	add_trait=trusting add_trait=envious 
+	3357.1.20={ birth=yes }
+	3381.1.1={add_spouse=17520}
+	3410.9.5={ death=yes }
+}
+17517={
+	name=Fuscus
+	dynasty=4415
+	dna="oefclmonadf"
+	culture=darknut religion=darknut_doctrine
+	martial=7 diplomacy=5 stewardship=5 intrigue=7 learning=8
+	add_trait=thrifty_clerk add_trait=celibate add_trait=craven add_trait=charitable add_trait=lustful 
+	add_trait=ambitious add_trait=drunkard add_trait=lunatic 
+	father=17516	#Miltiades
+	mother=17520
+	3384.1.3={ birth=yes }
+	3432.11.11={ death=yes }
+}
+#wives
+17518={
+	name=Bellona
+	female=yes
+	culture=darknut religion=darknut_doctrine
+	3349.7.13={ birth=yes }
+	3372.1.1={add_spouse=17506}
+	3405.7.3={ death=yes }
+}
+17519={
+	name=Aela
+	female=yes
+	culture=darknut religion=darknut_doctrine
+	3350.10.3={ birth=yes }
+	3372.1.1={add_spouse=17510}
+	3422.7.21={ death=yes }
+}
+17520={
+	name=Bellona
+	female=yes
+	culture=darknut religion=darknut_doctrine
+	3357.1.20={ birth=yes }
+	3381.1.1={add_spouse=17516}
+	3410.9.5={ death=yes }
+}
+17521={
+	name=Mimi
+	female=yes
+	culture=hytopian religion=golden_goddesses
+	martial=5 diplomacy=10 stewardship=8 intrigue=6 learning=4
+	add_trait=grey_eminance trait=race_human add_trait=fair trait=wroth trait=charitable trait=diligent
+	3367.11.15={ birth=yes }
+	3387.1.1={add_spouse=17504} 
+	3424.3.5={ death=yes }
+}
+#cont
+17522={
+	name=Vlad
+	dynasty=14801
+	historical=yes
+	disallow_random_traits=yes
+	martial=5 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=8
+	learning=7
+	religion=darknut_doctrine
+	culture=darknut
+	trait=elusive_shadow
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword
+	trait=bloodline_betrayers
+	trait=impaler
+	trait=ambitious
+	trait=duelist
+	trait=strong
+	trait=lustful
+	trait=zealous
+	father=90
+	3361.4.13={birth=yes}
+	3441.12.12={death=yes}
+}
+17523={
+	name=Hannibal
+	dynasty=14804
+	historical=yes
+	disallow_random_traits=yes
+	martial=5 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=8
+	learning=7
+	religion=darknut_doctrine
+	culture=darknut
+	trait=mastermind_theologian
+	trait=race_darknut
+	trait=bloodline_betrayers
+	trait=darknut_armor
+	trait=darknut_sword
+	trait=kind
+	trait=brave
+	trait=shy
+	trait=duelist
+	trait=robust
+	trait=zealous
+	father=90
+	3367.3.26={birth=yes}
+	3441.11.24={death=yes}	
+}
+17524={
+	name=Fei
+	dynasty=14805
+	historical=yes
+	disallow_random_traits=yes
+	martial=5 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=8
+	learning=7
+	religion=darknut_doctrine
+	culture=darknut
+	trait=midas_touched
+	trait=race_darknut
+	trait=bloodline_betrayers
+	trait=darknut_armor
+	trait=darknut_sword
+	trait=cruel
+	trait=lustful
+	trait=gregarious
+	trait=greedy
+	trait=cynical
+	3365.7.16={birth=yes}
+	3441.1.24={death=yes}	
+}
+17525={
+	name=Spartacus
+	dynasty=14806
+	historical=yes
+	disallow_random_traits=yes
+	martial=5 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=8
+	learning=7
+	religion=darknut_doctrine
+	culture=darknut
+	trait=grey_eminance
+	trait=race_darknut
+	trait=bloodline_betrayers
+	trait=darknut_armor
+	trait=darknut_sword
+	trait=poet
+	trait=lustful
+	trait=gregarious
+	trait=kind
+	trait=cynical
+	3365.7.16={birth=yes}
+	3441.1.24={death=yes}	
+}
+17526={
+	name=Gannys
+	dynasty=4420
+	dna="dgpijgjdejg"
+	culture=darknut religion=darknut_doctrine
+	martial=8 diplomacy=6 stewardship=4 intrigue=5 learning=7
+	add_trait=mastermind_theologian
+	trait=race_darknut 
+	trait=darknut_armor
+	trait=darknut_sword add_trait=just add_trait=craven add_trait=ambitious add_trait=charitable 
+	add_trait=slothful 
+	3358.2.9={ birth=yes }
+	3409.4.26={ death=yes }
+}
+17527={
+	name=Valeria
+	female=yes
+	dynasty=4420
+	dna="dbpijeidejg"
+	culture=darknut religion=darknut_doctrine
+	father=17526	#Gannys
+	3380.1.15={ birth=yes }
+	3442.2.28={ death=yes }
+}
+17528={
+	name=Sarka
+	female=yes
+	dynasty=4420
+	dna="bggimjjamec"
+	culture=darknut religion=darknut_doctrine
+	father=17526	#Gannys
+	3384.5.11={ birth=yes }
+	3452.6.3={ death=yes }
+}
+17529={
+	name=Gannys
+	dynasty=4420
+	dna="dgpijgjdejg"
+	culture=darknut religion=darknut_doctrine
+	martial=8 diplomacy=6 stewardship=4 intrigue=5 learning=7
+	add_trait=mastermind_theologian
+	trait=race_darknut 
+	trait=darknut_armor
+	trait=darknut_sword  add_trait=just add_trait=craven add_trait=ambitious add_trait=charitable 
+	add_trait=slothful 
+	3358.2.9={ birth=yes }
+	3409.4.26={ death=yes }
+}
+17530={
+	name=Gannys
+	dynasty=4420
+	dna="dgpijgjdejg"
+	culture=darknut religion=darknut_doctrine
+	martial=8 diplomacy=6 stewardship=4 intrigue=5 learning=7
+	add_trait=mastermind_theologian
+	trait=race_darknut 
+	trait=darknut_armor
+	trait=darknut_sword  add_trait=just add_trait=craven add_trait=ambitious add_trait=charitable 
+	add_trait=slothful 
+	3358.2.9={ birth=yes }
+	3379.1.1={add_spouse=17526}
+	3409.4.26={ death=yes }
+}
+17531={
+	name=Metellus
+	dynasty=4425
+	dna="gpnpmcdjlfj"
+	culture=darknut religion=darknut_doctrine
+	martial=8 diplomacy=8 stewardship=6 intrigue=6 learning=6
+	add_trait=midas_touched
+	trait=race_darknut 
+	trait=darknut_armor
+	trait=darknut_sword  add_trait=gluttonous add_trait=trusting 
+	3366.9.7={ birth=yes }
+	3386.9.19={add_spouse=17532}
+	3420.10.21={ death=yes }
+}
+17532={
+	name=Vanali
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=4 diplomacy=8 stewardship=6 intrigue=8 learning=6
+	add_trait=elusive_shadow add_trait=shy add_trait=trusting trait=erudite trait=quick add_trait=stressed 
+	3370.9.7={ birth=yes }
+	3386.9.19={add_spouse=17531}
+	3430.10.7={ death=yes }
+
+}
+17533={
+	name=Achaicus
+	dynasty=4430
+	dna="ikjmacmjdnk"
+	culture=darknut religion=darknut_doctrine
+	martial=4 diplomacy=8 stewardship=6 intrigue=5 learning=4
+	add_trait=scholarly_theologian add_trait=cynical add_trait=trusting add_trait=temperate 
+	3363.12.24={ birth=yes }
+	3382.1.1={add_spouse=17535}
+	3414.11.15={ death=yes }
+}
+17534={
+	name=Thadeus
+	dynasty=4430
+	dna="gkjkaibmdnk"
+	culture=darknut religion=darknut_doctrine
+	martial=4 diplomacy=8 stewardship=7 intrigue=6 learning=5
+	add_trait=thrifty_clerk add_trait=greedy add_trait=proud add_trait=trusting add_trait=just 
+	add_trait=zealous add_trait=drunkard 
+	father=17533	#Achaicus
+	mother=17535
+	3384.8.14={ birth=yes }
+	3434.9.23={ death=yes }
+}
+17535={
+	name=Achaicus
+	female=yes
+	culture=darknut religion=darknut_doctrine
+	3363.12.24={ birth=yes }
+	3382.1.1={add_spouse=17533}
+	3414.11.15={ death=yes }
+}
+17536={
+	name=Alcibiades
+	dynasty=4435
+	dna="plhacohdiaf"
+	culture=darknut religion=darknut_doctrine
+	martial=6 diplomacy=8 stewardship=8 intrigue=6 learning=4
+	add_trait=skilled_tactician add_trait=arbitrary add_trait=content add_trait=chaste add_trait=stressed 
+	add_trait=harelip 
+	3364.9.15={ birth=yes }
+	3453.9.12={ death=yes }
+}
+17537={
+	name=Julius
+	dynasty=4440
+	dna="ogejodojgpg"
+	culture=darknut religion=darknut_doctrine
+	martial=7 diplomacy=5 stewardship=7 intrigue=4 learning=7
+	add_trait=detached_priest add_trait=slothful add_trait=kind add_trait=cynical 
+	3364.12.24={ birth=yes }
+	3436.1.4={ death=yes }
+}
+17538={
+	name=Orobius
+	dynasty=4445
+	dna="npldelgfjmm"
+	culture=darknut religion=darknut_doctrine
+	martial=5 diplomacy=5 stewardship=8 intrigue=5 learning=5
+	add_trait=skilled_tactician add_trait=lustful add_trait=content add_trait=honest 
+	3363.1.13={ birth=yes }
+	3416.8.18={ death=yes }
+}

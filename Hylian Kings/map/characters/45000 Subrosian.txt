@@ -1,0 +1,231 @@
+45000={
+	name=Menoetius
+	dynasty=11401
+	dna="bbccjmnikli"
+	culture=subrosian religion=fire_spirit
+	martial=6 diplomacy=7 stewardship=7 intrigue=4 learning=4
+	add_trait=indulgent_wastrel add_trait=cynical add_trait=greedy add_trait=craven add_trait=wounded 
+	trait=race_subrosian
+	2999.6.25={ birth=yes }
+	3115.1.1={add_spouse=45016}
+	3337.5.7={ death=yes }
+}
+45001={
+	name=Halstein
+	dynasty=11401
+	dna="bbcckkjjkli"
+	culture=subrosian religion=fire_spirit
+	martial=4 diplomacy=8 stewardship=7 intrigue=8 learning=6
+	add_trait=tough_soldier add_trait=charitable add_trait=content add_trait=wroth add_trait=temperate 
+	add_trait=shy add_trait=cynical add_trait=stressed 
+	trait=race_subrosian
+	father=45000	#Menoetius
+	mother=45016
+	3121.3.27={ birth=yes }
+	3240.1.1={add_spouse=45015}
+	3405.7.9={ death=yes }
+}
+45002={
+	name=Eate
+	dynasty=11401
+	dna="eghcmmniglk"
+	culture=subrosian religion=fire_spirit
+	martial=6 diplomacy=5 stewardship=4 intrigue=4 learning=8
+	add_trait=detached_priest add_trait=paranoid add_trait=diligent add_trait=arbitrary add_trait=cynical 
+	add_trait=depressed 
+	trait=race_subrosian
+	father=45000	#Menoetius
+	mother=45016
+	3135.1.8={ birth=yes }
+	3225.1.1={add_spouse=45017}
+	3504.9.2={ death=yes }
+}
+45004={
+	name=Verbti
+	dynasty=11401
+	dna="klhcopajklm"
+	culture=subrosian religion=fire_spirit
+	martial=8 diplomacy=5 stewardship=7 intrigue=6 learning=5
+	add_trait=detached_priest add_trait=impaler add_trait=kind add_trait=craven add_trait=lustful 
+	add_trait=cynical 
+	trait=race_subrosian
+	father=45001	#Halstein
+	mother=45014
+	3248.1.16={ birth=yes }
+	3270.1.1={add_spouse=45014}
+	3513.2.22={ death=yes }
+}
+45005={
+	name=Endzela
+	female=yes
+	dynasty=11401
+	dna="biickibjkfa"
+	culture=subrosian religion=fire_spirit
+	trait=race_subrosian
+	father=45001	#Halstein
+	mother=45014
+	3274.2.19={ birth=yes }
+	3380.1.1={add_spouse=45018}
+	3520.1.1={ death=yes }
+}
+45006={
+	name=Lorelei
+	female=yes
+	dynasty=11401
+	dna="bbeliacaifm"
+	culture=subrosian religion=fire_spirit
+	trait=race_subrosian
+	father=45001	#Halstein
+	mother=45014
+	3295.8.18={ birth=yes }
+	3629.3.14={ death=yes }
+}
+45007={
+	name=Zhurong
+	dynasty=11401
+	dna="ebckplplhlp"
+	culture=subrosian religion=fire_spirit
+	martial=7 diplomacy=4 stewardship=4 intrigue=6 learning=6
+	add_trait=midas_touched add_trait=hunter add_trait=gluttonous add_trait=paranoid add_trait=shy 
+	add_trait=just add_trait=slothful 
+	trait=race_subrosian
+	father=45001	#Halstein
+	mother=45014
+	3317.3.27={ birth=yes }
+	3547.2.27={ death=yes }
+}
+45008={
+	name=Sela
+	female=yes
+	dynasty=11401
+	dna="jbafkpejjoi"
+	culture=subrosian religion=fire_spirit
+	trait=race_subrosian
+	father=45001	#Halstein
+	mother=45014
+	3332.8.21={ birth=yes }
+	3651.7.16={ death=yes }
+}
+45009={
+	name=Hyperion
+	dynasty=11401
+	dna="kahcopmhhch"
+	culture=subrosian religion=fire_spirit
+	martial=5 diplomacy=5 stewardship=5 intrigue=4 learning=4
+	add_trait=naive_appeaser add_trait=honest add_trait=gluttonous add_trait=slothful add_trait=wounded 
+	add_trait=stutter 
+	trait=race_subrosian
+	father=45004	#Verbti
+	mother=45015
+	3355.7.10={ birth=yes }
+	3620.9.21={ death=yes }
+}
+45010={
+	name=Arubani
+	female=yes
+	dynasty=11401
+	dna="kldldeaghlj"
+	culture=subrosian religion=fire_spirit
+	trait=race_subrosian
+	father=45004	#Verbti
+	mother=45015
+	3375.5.21={ birth=yes }
+	3655.2.14={ death=yes }
+}
+45011={
+	name=Lono
+	dynasty=11401
+	dna="klhhokajplf"
+	culture=subrosian religion=fire_spirit
+	martial=4 diplomacy=5 stewardship=7 intrigue=6 learning=7
+	add_trait=flamboyant_schemer add_trait=mystic add_trait=trusting add_trait=charitable add_trait=humble 
+	add_trait=deceitful 
+	trait=race_subrosian
+	father=45004	#Verbti
+	mother=45015
+	3396.10.24={ birth=yes }
+	3765.9.17={ death=yes }
+}
+45012={
+	name=Pan
+	dynasty=11401
+	dna="eogcdpajilm"
+	culture=subrosian religion=fire_spirit
+	martial=6 diplomacy=5 stewardship=4 intrigue=7 learning=4
+	add_trait=grey_eminence add_trait=kind add_trait=just add_trait=chaste add_trait=greedy 
+	add_trait=brave 
+	trait=race_subrosian
+	father=45004	#Verbti
+	mother=45015
+	3421.1.8={ birth=yes }
+	3690.1.4={ death=yes }
+}
+45013={
+	name=Rochelle
+	female=yes
+	dynasty=11401
+	dna="kjgmagihcbn"
+	culture=subrosian religion=fire_spirit
+	father=45004	#Verbti
+	mother=45015
+	3435.8.21={ birth=yes }
+	3781.7.18={ death=yes }
+}
+45014={
+	name=Mikoto
+	female=yes
+	culture=subrosian religion=fire_spirit
+	trait=race_subrosian
+	3121.3.27={ birth=yes }
+	3240.1.1={add_spouse=45015}
+	3405.7.9={ death=yes }
+}
+45015={
+	name=Saraswati
+	female=yes
+	culture=subrosian religion=fire_spirit
+	trait=race_subrosian
+	3248.1.16={ birth=yes }
+	3270.1.1={add_spouse=45004}
+	3513.2.22={ death=yes }
+}
+45016={
+	name=Nuwa
+	female=yes
+	culture=subrosian religion=fire_spirit
+	trait=race_subrosian
+	2999.6.25={ birth=yes }
+	3115.1.1={add_spouse=45000}
+	3337.5.7={ death=yes }
+}
+45017={
+	name=Erzulie
+	female=yes
+	culture=subrosian religion=fire_spirit
+	trait=race_subrosian
+	3135.1.8={ birth=yes }
+	3225.1.1={add_spouse=45002}
+	3504.9.2={ death=yes }
+}
+45018={
+	name=Halvard
+	dynasty=11405
+	dna="ncbilammlgc"
+	culture=subrosian religion=fire_spirit
+	martial=7 diplomacy=4 stewardship=8 intrigue=4 learning=5
+	add_trait=misguided_warrior add_trait=humble add_trait=zealous add_trait=craven add_trait=slothful 
+	3299.12.16={ birth=yes }
+	3380.1.1={add_spouse=45005}
+	3618.6.21={ death=yes }
+}
+45019={
+	name=Cuhtli
+	dynasty=11410
+	dna="aioehfecnaf"
+	culture=subrosian religion=fire_spirit
+	martial=7 diplomacy=4 stewardship=7 intrigue=7 learning=5
+	add_trait=flamboyant_schemer add_trait=celibate add_trait=content add_trait=kind add_trait=paranoid 
+	add_trait=just add_trait=zealous 
+	3299.11.6={ birth=yes }
+	3564.4.27={ death=yes }
+}

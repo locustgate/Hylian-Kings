@@ -1,0 +1,648 @@
+47000={
+	name=Yeng
+	dynasty=11001
+	dna="aglhglccdim"
+	culture=yeti religion=wind_spirits
+	martial=4 diplomacy=5 stewardship=7 intrigue=8 learning=7
+	add_trait=tough_soldier add_trait=content add_trait=gluttonous add_trait=wroth add_trait=proud 
+	3299.9.22={ birth=yes }
+	3363.9.21={ death=yes }
+}
+47001={
+	name=Yadat
+	dynasty=11001
+	dna="aglhgllfmhm"
+	culture=yeti religion=wind_spirits
+	martial=4 diplomacy=7 stewardship=7 intrigue=8 learning=7
+	add_trait=charismatic_negotiator add_trait=hedonist add_trait=greedy add_trait=zealous add_trait=humble 
+	add_trait=cruel add_trait=brave 
+	father=47000	#Yeng
+	3326.5.18={ birth=yes }
+	3386.3.5={ death=yes }
+}
+47002={
+	name=Yudi
+	dynasty=11001
+	dna="lgohnllfkho"
+	culture=yeti religion=wind_spirits
+	martial=7 diplomacy=5 stewardship=8 intrigue=7 learning=6
+	add_trait=flamboyant_schemer add_trait=celibate add_trait=brave add_trait=greedy add_trait=proud 
+	add_trait=ambitious add_trait=slothful 
+	father=47001	#Yadat
+	mother=47011
+	3347.11.6={ birth=yes }
+	3368.1.1={add_spouse=4705}
+	3399.4.17={ death=yes }
+}
+47003={
+	name=Yashi
+	dynasty=11001
+	dna="lbofdllfjko"
+	culture=yeti religion=wind_spirits
+	martial=5 diplomacy=4 stewardship=8 intrigue=6 learning=8
+	add_trait=martial_cleric add_trait=duelist add_trait=shy add_trait=paranoid add_trait=envious 
+	father=47002	#Yudi
+	mother=47005
+	3370.6.15={ birth=yes }
+	3435.11.3={ death=yes }
+}
+47004={
+	name=Yedusa
+	female=yes
+	dynasty=11001
+	dna="lgplnllckba"
+	culture=yeti religion=wind_spirits
+	father=47002	#Yudi
+	mother=47005
+	3373.2.24={ birth=yes }
+	3437.6.30={ death=yes }
+}
+47005={
+	name=Yesha
+	female=yes
+	culture=yeti religion=wind_spirits
+	3347.11.6={ birth=yes }
+	3368.1.1={add_spouse=47002}
+	3399.4.17={ death=yes }
+}
+47006={
+	name=Yaj
+	dynasty=11005
+	dna="aigefleicae"
+	culture=yeti religion=wind_spirits
+	martial=4 diplomacy=6 stewardship=4 intrigue=4 learning=6
+	add_trait=naive_appeaser add_trait=temperate add_trait=cruel add_trait=patient 
+	3366.10.14={ birth=yes }
+	3422.4.30={ death=yes }
+}
+47007={
+	name=Yem
+	dynasty=11010
+	dna="lpablekeejf"
+	culture=yeti religion=wind_spirits
+	martial=5 diplomacy=7 stewardship=8 intrigue=4 learning=6
+	add_trait=grey_eminence add_trait=envious add_trait=diligent add_trait=cruel add_trait=wroth 
+	add_trait=zealous add_trait=arbitrary add_trait=depressed 
+	3356.5.22={ birth=yes }
+	3378.1.1={add_spouse=47011}
+	3427.4.10={ death=yes }
+}
+47008={
+	name=Yatom
+	dynasty=11010
+	dna="lpaboekdebf"
+	culture=yeti religion=wind_spirits
+	martial=6 diplomacy=4 stewardship=8 intrigue=6 learning=6
+	add_trait=misguided_warrior add_trait=scholar add_trait=cynical add_trait=cruel add_trait=trusting 
+	add_trait=just 
+	father=47007	#Yem
+	mother=47011
+	3380.9.24={ birth=yes }
+	3443.9.20={ death=yes }
+}
+47009={
+	name=Yanti
+	female=yes
+	dynasty=11010
+	dna="pphbnekekoh"
+	culture=yeti religion=wind_spirits
+	father=47007	#Yem
+	mother=47011
+	3385.1.7={ birth=yes }
+	3452.6.30={ death=yes }
+}
+47010={
+	name=Yang
+	dynasty=11010
+	dna="apabeikmejj"
+	culture=yeti religion=wind_spirits
+	martial=4 diplomacy=8 stewardship=5 intrigue=5 learning=4
+	add_trait=indulgent_wastrel add_trait=celibate add_trait=content add_trait=zealous add_trait=arbitrary 
+	add_trait=paranoid add_trait=charitable 
+	father=47007	#Yem
+	mother=47011
+	3387.3.1={ birth=yes }
+	3444.4.22={ death=yes }
+}
+47011={
+	name=Yesha
+	female=yes
+	culture=yeti religion=wind_spirits
+	3356.5.22={ birth=yes }
+	3378.1.1={add_spouse=47007}
+	3427.4.10={ death=yes }
+}
+47012={
+	name=Yudum
+	dynasty=11015
+	dna="blfjgdjkggl"
+	culture=yeti religion=wind_spirits
+	martial=8 diplomacy=7 stewardship=4 intrigue=4 learning=7
+	add_trait=grey_eminence add_trait=gregarious add_trait=arbitrary add_trait=craven add_trait=deceitful 
+	add_trait=lustful add_trait=stressed 
+	3362.3.3={ birth=yes }
+	3380.1.1={add_spouse=47018}
+	3420.2.19={ death=yes }
+}
+47013={
+	name=Yatoto
+	dynasty=11015
+	dna="blfjkpjkjll"
+	culture=yeti religion=wind_spirits
+	martial=5 diplomacy=5 stewardship=7 intrigue=8 learning=7
+	add_trait=charismatic_negotiator add_trait=gregarious add_trait=gluttonous add_trait=craven 
+	father=47012	#Yudum
+	mother=47018
+	3383.1.23={ birth=yes }
+	3434.10.23={ death=yes }
+}
+47014={
+	name=Yushedo
+	dynasty=11015
+	dna="bckjdfjkgol"
+	culture=yeti religion=wind_spirits
+	martial=4 diplomacy=8 stewardship=6 intrigue=8 learning=7
+	add_trait=detached_priest add_trait=lustful add_trait=craven add_trait=gregarious add_trait=gluttonous 
+	father=47012	#Yudum
+	mother=47018
+	3386.5.1={ birth=yes }
+	3443.2.26={ death=yes }
+}
+47015={
+	name=Yeshi
+	female=yes
+	dynasty=11015
+	dna="blfjgdlkifl"
+	culture=yeti religion=wind_spirits
+	father=47012	#Yudum
+	mother=47018
+	3390.12.24={ birth=yes }
+	3460.3.25={ death=yes }
+}
+47016={
+	name=Yat
+	dynasty=11015
+	dna="bafkcdgkggp"
+	culture=yeti religion=wind_spirits
+	martial=4 diplomacy=7 stewardship=8 intrigue=6 learning=5
+	add_trait=indulgent_wastrel add_trait=zealous add_trait=ambitious add_trait=deceitful add_trait=genius 
+	father=47012	#Yudum
+	mother=47018
+	3392.3.10={ birth=yes }
+	3446.8.6={ death=yes }
+}
+47017={
+	name=Yededi
+	female=yes
+	dynasty=11015
+	dna="oacajdjkgol"
+	culture=yeti religion=wind_spirits
+	father=47012	#Yudum
+	mother=47018
+	3395.10.27={ birth=yes }
+	3448.4.7={ death=yes }
+}
+47018={
+	name=Yati
+	female=yes
+	culture=yeti religion=wind_spirits
+	3362.3.3={ birth=yes }
+	3380.1.1={add_spouse=47012}
+	3420.2.19={ death=yes }
+}
+47019={
+	name=Yudej
+	dynasty=11020
+	dna="ndeknfnnhcb"
+	culture=yeti religion=wind_spirits
+	martial=7 diplomacy=5 stewardship=8 intrigue=8 learning=5
+	add_trait=misguided_warrior add_trait=hedonist add_trait=proud add_trait=arbitrary add_trait=diligent 
+	add_trait=deceitful add_trait=gregarious add_trait=charitable 
+	3368.5.1={ birth=yes }
+	3454.5.13={ death=yes }
+}
+47020={
+	name=Yeduj
+	dynasty=11025
+	dna="cjakcdajgpb"
+	culture=yeti religion=wind_spirits
+	martial=8 diplomacy=4 stewardship=7 intrigue=7 learning=6
+	add_trait=midas_touched add_trait=content add_trait=craven add_trait=paranoid add_trait=honest 
+	add_trait=cruel 
+	3369.10.6={ birth=yes }
+	3438.1.1={ death=yes }
+}
+47021={
+	name=Yatum
+	dynasty=11030
+	dna="ckckfmpjpdb"
+	culture=yeti religion=wind_spirits
+	martial=8 diplomacy=8 stewardship=5 intrigue=8 learning=7
+	add_trait=charismatic_negotiator add_trait=chaste add_trait=content add_trait=temperate add_trait=humble 
+	add_trait=cruel 
+	3360.7.9={ birth=yes }
+	3384.1.1={add_spouse=47023}
+	3423.8.26={ death=yes }
+}
+47022={
+	name=Yedok
+	dynasty=11030
+	dna="dkjklachaca"
+	culture=yeti religion=wind_spirits
+	martial=4 diplomacy=6 stewardship=6 intrigue=6 learning=4
+	add_trait=charismatic_negotiator add_trait=trusting add_trait=deceitful add_trait=wounded 
+	father=47021	#Yatum
+	mother=47023
+	3386.2.19={ birth=yes }
+	3432.3.29={ death=yes }
+}
+47023={
+	name=Yashadi
+	female=yes
+	culture=yeti religion=wind_spirits
+
+	3360.7.9={ birth=yes }
+	3384.1.1={add_spouse=47021}
+	3423.8.26={ death=yes }
+}
+47024={
+	name=Yetam
+	dynasty=11035
+	dna="fjgmjimgkbk"
+	culture=yeti religion=wind_spirits
+	martial=8 diplomacy=5 stewardship=4 intrigue=8 learning=8
+	add_trait=skilled_tactician add_trait=just add_trait=trusting 
+	3368.12.22={ birth=yes }
+	3435.11.5={ death=yes }
+}
+47025={
+	name=Yeng
+	dynasty=11040
+	dna="bbcljbjfffi"
+	culture=yeti religion=wind_spirits
+	martial=6 diplomacy=5 stewardship=8 intrigue=6 learning=7
+	add_trait=grey_eminence add_trait=trusting add_trait=just add_trait=gregarious add_trait=possessed 
+	3367.11.2={ birth=yes }
+	3410.1.22={ death=yes }
+}
+47026={
+	name=Yatoto
+	dynasty=11045
+	dna="lpachlpmmdm"
+	culture=yeti religion=wind_spirits
+	martial=4 diplomacy=5 stewardship=7 intrigue=6 learning=6
+	add_trait=flamboyant_schemer add_trait=gardener add_trait=kind add_trait=cynical 
+	3350.2.5={ birth=yes }
+	3370.1.1={add_spouse=47033}
+	3396.11.17={ death=yes }
+}
+47027={
+	name=Yedej
+	dynasty=11045
+	dna="npacclecpdl"
+	culture=yeti religion=wind_spirits
+	martial=5 diplomacy=5 stewardship=8 intrigue=6 learning=6
+	add_trait=grey_eminence add_trait=trusting add_trait=just add_trait=stressed 
+	father=47026	#Yatoto
+	mother=47033
+	3371.6.12={ birth=yes }
+	3424.1.18={ death=yes }
+}
+47028={
+	name=Yersh
+	dynasty=11045
+	dna="joonhlppndm"
+	culture=yeti religion=wind_spirits
+	martial=8 diplomacy=6 stewardship=8 intrigue=4 learning=8
+	add_trait=grey_eminence add_trait=greedy add_trait=shy add_trait=paranoid add_trait=temperate 
+	add_trait=ugly 
+	father=47026	#Yatoto
+	mother=47033
+	3374.4.19={ birth=yes }
+	3441.3.30={ death=yes }
+}
+47029={
+	name=Yetaa
+	female=yes
+	dynasty=11045
+	dna="gonohlkmddk"
+	culture=yeti religion=wind_spirits
+	father=47026	#Yatoto
+	mother=47033
+	3380.3.7={ birth=yes }
+	3459.9.17={ death=yes }
+}
+47030={
+	name=Yusa
+	female=yes
+	dynasty=11045
+	dna="njeepnegodl"
+	culture=yeti religion=wind_spirits
+	father=47027	#Yedej
+	3398.12.11={ birth=yes }
+	3473.7.13={ death=yes }
+}
+47031={
+	name=Yutak
+	dynasty=11045
+	dna="npmceieceel"
+	culture=yeti religion=wind_spirits
+	martial=5 diplomacy=8 stewardship=6 intrigue=8 learning=4
+	add_trait=charismatic_negotiator add_trait=trusting add_trait=lustful 
+	father=47027	#Yedej
+	3399.5.12={ birth=yes }
+	3443.7.24={ death=yes }
+}
+47032={
+	name=Yituda
+	female=yes
+	dynasty=11045
+	dna="npaojekcekl"
+	culture=yeti religion=wind_spirits
+	father=47027	#Yedej
+	3403.6.9={ birth=yes }
+	3455.2.17={ death=yes }
+}
+47033={
+	name=Yashadi
+	female=yes
+	culture=yeti religion=wind_spirits
+	3350.2.5={ birth=yes }
+	3370.1.1={add_spouse=47026}
+	3396.11.17={ death=yes }
+}
+47034={
+	name=Yem
+	dynasty=11050
+	dna="lplpanjeiah"
+	culture=yeti religion=wind_spirits
+	martial=6 diplomacy=5 stewardship=4 intrigue=8 learning=5
+	add_trait=grey_eminence add_trait=hedonist add_trait=trusting add_trait=envious add_trait=cruel 
+	add_trait=ambitious add_trait=diligent 
+	3367.8.2={ birth=yes }
+	3414.11.20={ death=yes }
+}
+47035={
+	name=Yatum
+	dynasty=11055
+	dna="ibnmhbgnfkj"
+	culture=yeti religion=wind_spirits
+	martial=6 diplomacy=4 stewardship=8 intrigue=4 learning=7
+	add_trait=thrifty_clerk add_trait=trusting add_trait=temperate add_trait=kind add_trait=slothful 
+	3368.4.23={ birth=yes }
+	3415.9.11={ death=yes }
+}
+47036={
+	name=Yek
+	dynasty=11060
+	dna="nhmkmhhmonb"
+	culture=yeti religion=wind_spirits
+	martial=5 diplomacy=7 stewardship=7 intrigue=6 learning=7
+	add_trait=misguided_warrior add_trait=honest add_trait=chaste add_trait=depressed 
+	3367.2.27={ birth=yes }
+	3436.1.30={ death=yes }
+}
+47036={
+	name=Yutam
+	dynasty=11065
+	dna="ofmlhlibonh"
+	culture=yeti religion=wind_spirits
+	martial=6 diplomacy=7 stewardship=5 intrigue=5 learning=4
+	add_trait=elusive_shadow add_trait=celibate add_trait=content add_trait=deceitful add_trait=trusting 
+	add_trait=lustful 
+	3339.11.23={ birth=yes }
+	3367.1.1={add_spouse=47040}
+	3413.10.1={ death=yes }
+}
+47037={
+	name=Yushi
+	dynasty=11065
+	dna="oihnhoiaode"
+	culture=yeti religion=wind_spirits
+	martial=8 diplomacy=5 stewardship=4 intrigue=7 learning=4
+	add_trait=misguided_warrior add_trait=slothful add_trait=chaste add_trait=arbitrary add_trait=shy 
+	add_trait=ambitious 
+	father=47036	#Yutam
+	mother=47040
+	3369.7.15={ birth=yes }
+	3441.3.11={ death=yes }
+}
+47038={
+	name=Yatet
+	dynasty=11065
+	dna="hfmbfligmni"
+	culture=yeti religion=wind_spirits
+	martial=4 diplomacy=8 stewardship=8 intrigue=4 learning=5
+	add_trait=charismatic_negotiator add_trait=content add_trait=humble add_trait=just add_trait=cruel 
+	father=47036	#Yutam
+	mother=47040
+	3372.12.2={ birth=yes }
+	3422.11.26={ death=yes }
+}
+47039={
+	name=Yutom
+	dynasty=11065
+	dna="ofpkhlibopm"
+	culture=yeti religion=wind_spirits
+	martial=8 diplomacy=5 stewardship=4 intrigue=7 learning=4
+	add_trait=charismatic_negotiator add_trait=trusting add_trait=chaste add_trait=content add_trait=depressed 
+	father=47036	#Yutam
+	mother=47040
+	3373.1.12={ birth=yes }
+	3441.2.28={ death=yes }
+}
+
+47040={
+	name=Yeta
+	female=yes
+	culture=yeti religion=wind_spirits
+	3339.11.23={ birth=yes }
+	3367.1.1={add_spouse=47036}
+	3413.10.1={ death=yes }
+}
+47041={
+	name=Yado
+	dynasty=11070
+	dna="olnlldfdcjf"
+	culture=yeti religion=wind_spirits
+	martial=4 diplomacy=5 stewardship=7 intrigue=8 learning=7
+	add_trait=detached_priest add_trait=paranoid add_trait=patient add_trait=just add_trait=greedy 
+	add_trait=honest 
+	3353.1.16={ birth=yes }
+	3380.1.1={add_spouse=47045}
+	3411.2.26={ death=yes }
+}
+47042={
+	name=Yushi
+	female=yes
+	dynasty=11070
+	dna="ekmlldfokjm"
+	culture=yeti religion=wind_spirits
+	father=47041	#Yado
+	mother=47045
+	3382.6.22={ birth=yes }
+	3451.4.18={ death=yes }
+}
+47043={
+	name=Yak
+	dynasty=11070
+	dna="dbbolhfdcff"
+	culture=yeti religion=wind_spirits
+	martial=6 diplomacy=4 stewardship=6 intrigue=8 learning=7
+	add_trait=flamboyant_schemer add_trait=diligent add_trait=chaste add_trait=patient add_trait=brave 
+	add_trait=cynical add_trait=depressed 
+	father=47041	#Yado
+	mother=47045
+	3386.7.20={ birth=yes }
+	3449.2.4={ death=yes }
+}
+47044={
+	name=Yanti
+	female=yes
+	dynasty=11070
+	dna="ddolggfmgjm"
+	culture=yeti religion=wind_spirits
+	father=47041	#Yado
+	mother=47045
+	3390.5.11={ birth=yes }
+	3478.9.15={ death=yes }
+}
+47045={
+	name=Yuta
+	female=yes
+	culture=yeti religion=wind_spirits
+	3353.1.16={ birth=yes }
+	3380.1.1={add_spouse=47041}
+	3411.2.26={ death=yes }
+}
+47046={
+	name=Yedi
+	dynasty=11075
+	dna="ichbbkmjndn"
+	culture=yeti religion=wind_spirits
+	martial=8 diplomacy=8 stewardship=5 intrigue=6 learning=8
+	add_trait=flamboyant_schemer add_trait=cynical add_trait=brave add_trait=arbitrary 
+	3367.11.18={ birth=yes }
+	3423.7.30={ death=yes }
+}
+47047={
+	name=Yeto
+	dynasty=11080
+	dna="khpaikfbgce"
+	culture=yeti religion=wind_spirits
+	martial=7 diplomacy=8 stewardship=8 intrigue=4 learning=6
+	add_trait=skilled_tactician add_trait=gregarious add_trait=diligent add_trait=cynical add_trait=cruel 
+	add_trait=kind 
+	3367.3.23={ birth=yes }
+	3431.6.14={ death=yes }
+}
+47048={
+	name=Yutoj
+	dynasty=11085
+	dna="bagbhcejmlo"
+	culture=yeti religion=wind_spirits
+	martial=6 diplomacy=6 stewardship=5 intrigue=8 learning=7
+	add_trait=indulgent_wastrel add_trait=mystic add_trait=paranoid add_trait=zealous add_trait=chaste 
+	3360.10.27={ birth=yes }
+	3380.1.1={add_spouse=47054}
+	3418.2.19={ death=yes }
+}
+47049={
+	name=Yuti
+	dynasty=11085
+	dna="galdhgeenol"
+	culture=yeti religion=wind_spirits
+	martial=7 diplomacy=4 stewardship=6 intrigue=8 learning=4
+	add_trait=martial_cleric add_trait=gregarious add_trait=cynical add_trait=cruel add_trait=ill 
+	father=47048	#Yutoj
+	mother=47054
+	3385.11.8={ birth=yes }
+	3459.4.22={ death=yes }
+}
+47050={
+	name=Yedak
+	dynasty=11085
+	dna="pagbhmejmfi"
+	culture=yeti religion=wind_spirits
+	martial=7 diplomacy=6 stewardship=7 intrigue=5 learning=6
+	add_trait=martial_cleric add_trait=arbitrary add_trait=gluttonous add_trait=envious add_trait=lustful 
+	add_trait=ugly 
+	father=47048	#Yutoj
+	mother=47054
+	3387.7.15={ birth=yes }
+	3440.12.28={ death=yes }
+}
+47051={
+	name=Yutata
+	female=yes
+	dynasty=11085
+	dna="bagohcejmho"
+	culture=yeti religion=wind_spirits
+	father=47048	#Yutoj
+	mother=47054
+	3389.2.6={ birth=yes }
+	3459.5.21={ death=yes }
+}
+47052={
+	name=Yesa
+	female=yes
+	dynasty=11085
+	dna="balbhcejimo"
+	culture=yeti religion=wind_spirits
+	father=47048	#Yutoj
+	mother=47054
+	3392.1.14={ birth=yes }
+	3453.6.24={ death=yes }
+}
+47053={
+	name=Yushaa
+	female=yes
+	dynasty=11085
+	dna="bacbncejaho"
+	culture=yeti religion=wind_spirits
+	father=47048	#Yutoj
+	mother=47054
+	3394.4.26={ birth=yes }
+	3449.2.12={ death=yes }
+}
+47054={
+	name=Yasha
+	female=yes
+	culture=yeti religion=wind_spirits
+	3360.10.27={ birth=yes }
+	3380.1.1={add_spouse=47048}
+	3418.2.19={ death=yes }
+}
+47054={
+	name=Yatut
+	dynasty=11090
+	dna="jopomgidfec"
+	culture=yeti religion=wind_spirits
+	martial=6 diplomacy=7 stewardship=8 intrigue=7 learning=8
+	add_trait=detached_priest add_trait=celibate add_trait=ambitious add_trait=temperate add_trait=arbitrary 
+	add_trait=charitable add_trait=shy 
+	3350.4.17={ birth=yes }
+	3370.1.1={add_spouse=47056}
+	3423.7.18={ death=yes }
+}
+47055={
+	name=Yudat
+	dynasty=11090
+	dna="jfjomnielee"
+	culture=yeti religion=wind_spirits
+	martial=7 diplomacy=7 stewardship=4 intrigue=7 learning=5
+	add_trait=flamboyant_schemer add_trait=gluttonous add_trait=diligent add_trait=zealous add_trait=deceitful 
+	add_trait=drunkard 
+	father=47054	#Yatut
+	mother=47056
+	3374.6.6={ birth=yes }
+	3447.4.13={ death=yes }
+}
+47056={
+	name=Yusudi
+	female=yes
+	culture=yeti religion=wind_spirits
+	3350.4.17={ birth=yes }
+	3370.1.1={add_spouse=47054}
+	3423.7.18={ death=yes }
+}

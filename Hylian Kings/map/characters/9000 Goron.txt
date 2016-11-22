@@ -1,0 +1,406 @@
+1063 = { 
+	name=Engon
+	disallow_random_traits = yes
+	historical = yes
+	dynasty=801
+	diplomacy=10
+	martial=14
+	intrigue=4
+	stewardship=6
+	learning=9
+	religion=fire_spirit
+	culture=death_mountain_goron
+	trait=brilliant_strategist
+	trait=race_goron
+	trait=honest
+	trait=strong
+	trait=gregarious
+	trait=erudite
+	trait=brave
+	3267.3.18={
+		birth=yes
+	}
+	3361.10.3 = {
+		add_spouse = 1064
+	}
+	3401.2.3={
+		death={ death_reason=death_battle }
+	}
+}
+1064 = { 
+	name=Cabim
+	disallow_random_traits = yes
+	historical = yes
+	female=yes
+	dynasty=823
+	diplomacy=10
+	martial=6
+	intrigue=4
+	stewardship=12
+	learning=5
+	religion=fire_spirit
+	culture=death_mountain_goron
+	trait=underhanded_rogue
+	trait=race_goron
+	trait=trusting
+	trait=shy
+	trait=gluttonous
+	trait=kind
+	3281.10.1={
+		birth=yes
+	}
+	3361.10.3 = {
+		add_spouse = 1063
+	}
+	3448.4.2={
+		death=yes
+	}
+}
+
+1085 = { 
+	name=Gori
+	disallow_random_traits = yes
+	historical = yes
+	dynasty=7400
+	diplomacy=7
+	martial=8
+	intrigue=4
+	stewardship=10
+	learning=7
+	religion=earth_spirit
+	culture=crenel_goron
+	trait=midas_touched
+	trait=race_goron
+	trait=decietful
+	trait=strong
+	trait=gregarious
+	trait=greedy
+	trait=diligant
+	3287.8.14={
+		birth=yes
+	}
+	3374.1.2 = {
+		add_spouse = 1086
+	}
+}
+1086 = { 
+	name=Dozin
+	historical = yes
+	female=yes
+	dynasty=7347
+	religion=earth_spirit
+	culture=crenel_goron
+	trait=race_goron
+	3287.8.14={
+		birth=yes
+	}
+	3374.1.2 = {
+		add_spouse = 1085
+	}
+}
+1087 = { 
+	name=Amoto
+	historical = yes
+	mother=1086
+	father=1085
+	dynasty=7400
+	religion=earth_spirit
+	culture=crenel_goron
+	trait=race_goron
+	3380.2.24={
+		birth=yes
+	}
+}
+1088 = { 
+	name=Ezon
+	historical = yes
+	dynasty=7348
+	religion=earth_spirit
+	culture=crenel_goron
+	trait=race_goron
+	3305.4.24={
+		birth=yes
+	}
+}
+9000={#K
+	name=Lozom
+	dynasty=7350
+	dna="fjaabmkkmgl"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=6 diplomacy=8 stewardship=4 intrigue=4 learning=4
+	add_trait=charismatic_negotiator add_trait=trusting add_trait=chaste add_trait=diligent add_trait=ambitious 
+	add_trait=depressed 
+	3200.8.26={ birth=yes }
+	3280.1.1={add_spouse=9005}
+	3531.9.14={ death=yes }
+}
+9001={
+	name=Cutin
+	dynasty=7350
+	dna="ceaaemjdpgf"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=6 diplomacy=4 stewardship=7 intrigue=7 learning=4
+	add_trait=flamboyant_schemer add_trait=wroth add_trait=cruel add_trait=just add_trait=paranoid 
+	father=9000	#Lozom
+	mother=9005
+	3285.7.5={ birth=yes }
+	3572.3.10={ death=yes }
+}
+9002={
+	name=Garko
+	female=yes
+	dynasty=7350
+	dna="flkaflohmgl"
+	culture=death_mountain_goron religion=fire_spirit
+	father=9000	#Lozom
+	mother=9005
+	3315.1.6={ birth=yes }
+	3578.4.7={ death=yes }
+}
+9003={
+	name=Guzom
+	female=yes
+	dynasty=7350
+	dna="fpahmhlkhgl"
+	culture=death_mountain_goron religion=fire_spirit
+	father=9000	#Lozom
+	mother=9005
+	3343.7.5={ birth=yes }
+	3706.7.22={ death=yes }
+}
+9004={
+	name=Goban
+	female=yes
+	dynasty=7350
+	dna="fokjbmkbigf"
+	culture=death_mountain_goron religion=fire_spirit
+	father=9000	#Lozom
+	mother=9005
+	3370.7.27={ birth=yes }
+	3714.9.28={ death=yes }
+}
+9005={
+	name=Corkon
+	female=yes
+	culture=death_mountain_goron religion=fire_spirit
+	3200.8.26={ birth=yes }
+	3280.1.1={add_spouse=9000}
+	3531.9.14={ death=yes }
+}
+9006={#d
+	name=Liggs
+	dynasty=7355
+	dna="bolooagfejc"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=8 diplomacy=6 stewardship=4 intrigue=7 learning=4
+	add_trait=intricate_webweaver add_trait=paranoid add_trait=ambitious add_trait=brave 
+	3279.7.9={ birth=yes }
+	3360.1.1={add_spouse=9009}
+	3587.8.23={ death=yes }
+}
+9007={
+	name=Lonom
+	dynasty=7355
+	dna="bfdklbgfecj"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=8 diplomacy=4 stewardship=5 intrigue=7 learning=4
+	add_trait=midas_touched add_trait=chaste add_trait=ambitious add_trait=just add_trait=brave 
+	add_trait=greedy add_trait=cynical add_trait=ill 
+	father=9006	#Liggs
+	mother=9009
+	3361.12.9={ birth=yes }
+	3613.2.7={ death=yes }
+}
+9008={
+	name=Lalom
+	dynasty=7355
+	dna="fohooagfebn"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=8 diplomacy=7 stewardship=4 intrigue=8 learning=8
+	add_trait=midas_touched add_trait=ambitious add_trait=trusting add_trait=cruel add_trait=honest 
+	father=9006	#Liggs
+	mother=9009
+	3385.4.16={ birth=yes }
+	3641.9.19={ death=yes }
+}
+9009={
+	name=Komoro
+	female=yes
+	culture=death_mountain_goron religion=fire_spirit
+	3279.7.9={ birth=yes }
+	3360.1.1={add_spouse=9006}
+	3587.8.23={ death=yes }
+}
+9010={#d
+	name=Doht
+	dynasty=7360
+	dna="imkgikkdlkb"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=6 diplomacy=6 stewardship=8 intrigue=4 learning=7
+	add_trait=detached_priest add_trait=greedy add_trait=arbitrary add_trait=wroth 
+	3300.7.1={ birth=yes }
+	3601.11.11={ death=yes }
+}
+9011={
+	name=Konoros
+	dynasty=2605
+	dna="haanchgnekb"
+	culture=rolling_goron religion=earth_spirits
+	martial=7 diplomacy=7 stewardship=6 intrigue=6 learning=7
+	trait=race_goron
+	add_trait=martial_cleric add_trait=arbitrary add_trait=charitable 
+	3100.8.14={ birth=yes }
+	3180.1.1={add_spouse=9018}
+	3397.6.19={ death=yes }
+}
+9012={
+	name=Goras
+	female=yes
+	dynasty=2605
+	dna="haanbcgnkkb"
+	culture=rolling_goron religion=earth_spirits
+	trait=race_goron
+	father=9011	#Konoros
+	mother=9018
+	3184.4.8={ birth=yes }
+	3515.5.13={ death=yes }
+}
+9013={
+	name=Korom
+	female=yes
+	dynasty=2605
+	dna="dngdcdgnekd"
+	culture=rolling_goron religion=earth_spirits
+	trait=race_goron
+	father=9011	#Konoros
+	mother=9018
+	3215.10.26={ birth=yes }
+	3587.12.24={ death=yes }
+}
+9014={
+	name=Kingi
+	dynasty=2605
+	dna="hamndhgfekb"
+	culture=rolling_goron religion=earth_spirits
+	martial=4 diplomacy=4 stewardship=5 intrigue=8 learning=8
+	add_trait=thrifty_clerk add_trait=cynical add_trait=craven add_trait=content add_trait=chaste 
+	add_trait=diligent 
+	trait=race_goron
+	father=9011	#Konoros
+	mother=9018
+	3234.5.17={ birth=yes }
+	3310.1.1={add_spouse=9019}
+	3602.9.11={ death=yes }
+}
+9015={
+	name=Dungi
+	dynasty=2605
+	dna="geandhgaekf"
+	culture=rolling_goron religion=earth_spirits
+	martial=8 diplomacy=5 stewardship=7 intrigue=7 learning=6
+	add_trait=intricate_webweaver add_trait=zealous add_trait=cruel add_trait=humble add_trait=wroth 
+	add_trait=greedy add_trait=chaste 
+	trait=race_goron
+	father=9014	#Kingi
+	mother=9019
+	3317.1.17={ birth=yes }
+	3473.12.12={ death=yes }
+}
+9016={
+	name=Kongoroloro
+	female=yes
+	dynasty=2605
+	dna="bfendhffcop"
+	culture=rolling_goron religion=earth_spirits
+	trait=race_goron
+	father=9014	#Kingi
+	mother=9019
+	3345.7.5={ birth=yes }
+	3716.5.6={ death=yes }
+}
+9017={
+	name=Gotogon
+	female=yes
+	dynasty=2605
+	dna="hajknogkcpb"
+	culture=rolling_goron religion=earth_spirits
+	trait=race_goron
+	father=9014	#Kingi
+	mother=9019
+	3369.7.10={ birth=yes }
+	3770.9.19={ death=yes }
+}
+9018={
+	name=Gonanun
+	female=yes
+	culture=rolling_goron religion=earth_spirits
+	trait=race_goron
+	3100.8.14={ birth=yes }
+	3180.1.1={add_spouse=9011}
+	3397.6.19={ death=yes }
+}
+9019={
+	name=Kingi
+	female=yes
+	culture=rolling_goron religion=earth_spirits
+	trait=race_goron
+	3234.5.17={ birth=yes }
+	3310.1.1={add_spouse=9014}
+	3602.9.11={ death=yes }
+}
+9020={
+	name=Erarbom
+	dynasty=2610
+	dna="hkhadjidbfp"
+	culture=rolling_goron religion=earth_spirits
+	martial=7 diplomacy=7 stewardship=8 intrigue=4 learning=7
+	trait=race_goron
+	add_trait=elusive_shadow add_trait=slothful add_trait=charitable add_trait=chaste 
+	3280.1.10={ birth=yes }
+	3340.1.1={add_spouse=9023}
+	3546.7.16={ death=yes }
+}
+9021={
+	name=Kano
+	female=yes
+	dynasty=2610
+	dna="fhiadjidpfp"
+	culture=rolling_goron religion=earth_spirits
+	trait=race_goron
+	father=9020	#Erarbom
+	mother=9023
+	3350.2.25={ birth=yes }
+	3599.4.10={ death=yes }
+}
+9022={
+	name=Kulongi
+	female=yes
+	dynasty=2610
+	dna="hkcepjedbop"
+	culture=rolling_goron religion=earth_spirits
+	father=9020	#Erarbom
+	trait=race_goron
+	mother=9023
+	3374.9.19={ birth=yes }
+	3629.7.16={ death=yes }
+}
+9023={
+	name=Gozon
+	female=yes
+	culture=rolling_goron religion=earth_spirits
+	trait=race_goron
+	3280.1.10={ birth=yes }
+	3340.1.1={add_spouse=9020}
+	3546.7.16={ death=yes }
+}
+9024={
+	name=Gortram
+	dynasty=1900
+	dna="jbhpikhmfmn"
+	culture=cucco_goron religion=earth_spirits
+	martial=8 diplomacy=4 stewardship=7 intrigue=6 learning=4
+	trait=race_goron
+	add_trait=midas_touched add_trait=duelist add_trait=deceitful add_trait=envious add_trait=temperate 
+	3280.4.24={ birth=yes }
+	3631.12.17={ death=yes }
+}
