@@ -392,7 +392,7 @@
 	3368.4.23={ birth=yes }
 	3415.9.11={ death=yes }
 }
-47036={
+47058={
 	name=Yek
 	dynasty=11060
 	dna="nhmkmhhmonb"
@@ -544,7 +544,7 @@
 	martial=6 diplomacy=6 stewardship=5 intrigue=8 learning=7
 	add_trait=indulgent_wastrel add_trait=mystic add_trait=paranoid add_trait=zealous add_trait=chaste 
 	3360.10.27={ birth=yes }
-	3380.1.1={add_spouse=47054}
+	3380.1.1={add_spouse=47057}
 	3418.2.19={ death=yes }
 }
 47049={
@@ -555,7 +555,7 @@
 	martial=7 diplomacy=4 stewardship=6 intrigue=8 learning=4
 	add_trait=martial_cleric add_trait=gregarious add_trait=cynical add_trait=cruel add_trait=ill 
 	father=47048	#Yutoj
-	mother=47054
+	mother=47057
 	3385.11.8={ birth=yes }
 	3459.4.22={ death=yes }
 }
@@ -568,7 +568,7 @@
 	add_trait=martial_cleric add_trait=arbitrary add_trait=gluttonous add_trait=envious add_trait=lustful 
 	add_trait=ugly 
 	father=47048	#Yutoj
-	mother=47054
+	mother=47057
 	3387.7.15={ birth=yes }
 	3440.12.28={ death=yes }
 }
@@ -579,7 +579,7 @@
 	dna="bagohcejmho"
 	culture=yeti religion=wind_spirits
 	father=47048	#Yutoj
-	mother=47054
+	mother=47057
 	3389.2.6={ birth=yes }
 	3459.5.21={ death=yes }
 }
@@ -590,7 +590,7 @@
 	dna="balbhcejimo"
 	culture=yeti religion=wind_spirits
 	father=47048	#Yutoj
-	mother=47054
+	mother=47057
 	3392.1.14={ birth=yes }
 	3453.6.24={ death=yes }
 }
@@ -601,17 +601,9 @@
 	dna="bacbncejaho"
 	culture=yeti religion=wind_spirits
 	father=47048	#Yutoj
-	mother=47054
+	mother=47057
 	3394.4.26={ birth=yes }
 	3449.2.12={ death=yes }
-}
-47054={
-	name=Yasha
-	female=yes
-	culture=yeti religion=wind_spirits
-	3360.10.27={ birth=yes }
-	3380.1.1={add_spouse=47048}
-	3418.2.19={ death=yes }
 }
 47054={
 	name=Yatut
@@ -645,4 +637,12 @@
 	3350.4.17={ birth=yes }
 	3370.1.1={add_spouse=47054}
 	3423.7.18={ death=yes }
+}
+47057={
+	name=Yasha
+	female=yes
+	culture=yeti religion=wind_spirits
+	3360.10.27={ birth=yes }
+	3380.1.1={add_spouse=47048}
+	3418.2.19={ death=yes }
 }

@@ -118,16 +118,6 @@
 	martial=8 diplomacy=8 stewardship=6 intrigue=5 learning=4
 	add_trait=intricate_webweaver add_trait=humble add_trait=diligent add_trait=greedy add_trait=shy 
 	3366.9.8={ birth=yes }
-	3386.1.1={add_spouse=29011}
-	3453.12.23={ death=yes }
-}
-29011={
-	name=Ambi
-	female=yes
-	culture=labrynnan religion=great_maku
-	martial=8 diplomacy=8 stewardship=6 intrigue=5 learning=4
-	3366.9.8={ birth=yes }
-	3386.1.1={add_spouse=29010}
 	3453.12.23={ death=yes }
 }
 29011={

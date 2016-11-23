@@ -1316,7 +1316,7 @@ fae = {
 
 		graphical_cultures = { dekugfx }
 
-		used_for_random = no
+		used_for_random = no 
 		
 		color = { 0 0.39 0 }
 		
@@ -1465,6 +1465,26 @@ plant_group = {
 		dynasty_title_names = yes
 
 		modifier = default_culture_modifier
+	}
+	skull_kid = {
+		graphical_cultures = { skullkidgfx }
+		parent = demon		
+		
+		color = { 0.48 1 0.48 }	
+		
+		male_names = {
+		Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Sheik Agahnim Dethl Bongo Sai Itzal Kafziel Dask Fao Kidura Nokto Shal Kadam Nuzem Ihnik Sagas Illafzo Besho Kos Daz Yvak Colin Fado Hanch Jaggle Malo Rusl Talo Cido Silo Padilo Argi Celo Ilo Cirgo Cidan Padin Ganondorf Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Linc Brant Bremeur Doylan Kayo Zauz Mutoh Eox Ichero Jero Saboro Shero Brak Guru-Guru Guru Sokra Stockwell Elwood Grover Garrick Hollis Kiefer Linden Linford Ralph Bipin Pippin Adlar Cheval Dekadin Plen Rafton Adrien Aldous Alain Albrecht Basile 
+		}
+		female_names = {
+		Zelda Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Impa Iza Impaz Katiu Kailla Izmae Kyran Anydra Pasha Yvie Keiran Silvaris Beth Ilia Pergie Sera Uli Celei Cara Alela Ulera Padei Fodei Megglie Purei Koume Uma Telma Kotake Aveil Nabooru Runeka Rova Numi Dizi Ari Neesha Apheri Astrid Angu Melon Brevie Candi Chay Dotty Ema Jasyn Junen Keely Lilian Marcie Paigin Pena Sheyla Tena Dena Veronan Pitia Juliettai Grany Huney Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Holly Maple Syrup Cedar Ebony Hazel Hollis Juniper Lotus Laurel Ambi Veran Blossom Adele Aimee Alea Avra Babette Babs Beatrix Chara Cecilia Caelie Celeste Debora Dawn Dorthe Despina Evdokia Elli Eglantine Fifi 
+		}
+		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "of "
+		allow_looting = yes
+		
+		modifier = default_culture_modifier#undead_culture_modifier
 	}
 }
 blin = {
@@ -1651,27 +1671,6 @@ undead = {
 		modifier = default_culture_modifier#undead_culture_modifier
 
 	} 
-
-	skull_kid = {
-		graphical_cultures = { skullkidgfx }
-		parent = demon		
-		
-		color = { 0.48 1 0.48 }	
-		
-		male_names = {
-		Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Sheik Agahnim Dethl Bongo Sai Itzal Kafziel Dask Fao Kidura Nokto Shal Kadam Nuzem Ihnik Sagas Illafzo Besho Kos Daz Yvak Colin Fado Hanch Jaggle Malo Rusl Talo Cido Silo Padilo Argi Celo Ilo Cirgo Cidan Padin Ganondorf Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Linc Brant Bremeur Doylan Kayo Zauz Mutoh Eox Ichero Jero Saboro Shero Brak Guru-Guru Guru Sokra Stockwell Elwood Grover Garrick Hollis Kiefer Linden Linford Ralph Bipin Pippin Adlar Cheval Dekadin Plen Rafton Adrien Aldous Alain Albrecht Basile 
-		}
-		female_names = {
-		Zelda Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Impa Iza Impaz Katiu Kailla Izmae Kyran Anydra Pasha Yvie Keiran Silvaris Beth Ilia Pergie Sera Uli Celei Cara Alela Ulera Padei Fodei Megglie Purei Koume Uma Telma Kotake Aveil Nabooru Runeka Rova Numi Dizi Ari Neesha Apheri Astrid Angu Melon Brevie Candi Chay Dotty Ema Jasyn Junen Keely Lilian Marcie Paigin Pena Sheyla Tena Dena Veronan Pitia Juliettai Grany Huney Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Holly Maple Syrup Cedar Ebony Hazel Hollis Juniper Lotus Laurel Ambi Veran Blossom Adele Aimee Alea Avra Babette Babs Beatrix Chara Cecilia Caelie Celeste Debora Dawn Dorthe Despina Evdokia Elli Eglantine Fifi 
-		}
-		
-		dukes_called_kings = no
-		
-		from_dynasty_prefix = "of "
-		allow_looting = yes
-		
-		modifier = default_culture_modifier#undead_culture_modifier
-	}
 }
 
 mammalian_monsters = {

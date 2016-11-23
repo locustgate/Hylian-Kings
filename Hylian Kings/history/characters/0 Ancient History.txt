@@ -2,7 +2,7 @@
 1 = {
 	name=Hylia
 	disallow_random_traits = yes 
-	historical=yes
+	
 	dna="dkaaekhfgcb"
 	properties="cm0dgd000000"
 	female=yes
@@ -24,14 +24,12 @@
 }
 2 = {
 	name=Link
-	disallow_random_traits = yes 
-	historical=yes
+	disallow_random_traits = yes 	
 	dna="cafijdibgbb"
 	properties="ce0dhd000000"
 	religion=hylia_religion
 	culture=hylian
 	trait=hylia
-	trait=brave
 	trait=warrior_3
 	trait=cynical
 	trait=proud
@@ -51,8 +49,7 @@
 }
 3 = {
 	name=Demise
-	disallow_random_traits = yes 
-	historical=yes
+	disallow_random_traits = yes 	
 	dynasty=14604
 	religion=demise_religion
 	culture=demon
@@ -76,7 +73,7 @@
 4 = {
 	name=Malladus
 	disallow_random_traits = yes 
-	historical=yes
+	
 	dynasty=14604
 	father=3
 	religion=malladus_religion
@@ -88,11 +85,12 @@
 	180.1.1={
 		birth=yes
 	}
+	8000.1.1={death=yes}
 }
 5 = {
 	name=Rupee
 	disallow_random_traits = yes 
-	historical=yes
+	
 	dynasty=14604
 	father=3
 	religion=uncle_rupee_religion
@@ -104,11 +102,12 @@
 	200.1.1={
 		birth=yes
 	}
+	8000.1.1={death=yes}
 }
 6 = {
 	name=Gaepora
 	disallow_random_traits = yes 
-	historical=yes
+	
 	dynasty=1
 	religion=hylia_religion
 	culture=skylofter
@@ -128,7 +127,7 @@
 7 = {
 	name=Zelda
 	disallow_random_traits = yes 
-	historical=yes
+	
 	dna="dkaaekhfgcb"
 	properties="cm0dgd000000"
 	female = yes
@@ -157,7 +156,7 @@
 8 = {
 	name=Link
 	disallow_random_traits = yes 
-	historical=yes
+	
 	dynasty=14601
 	dna="cafijdibgbb"
 	properties="ce0dhd000000"
@@ -184,7 +183,7 @@
 9 = {
 	name=Fi
 	disallow_random_traits = yes 
-	historical=yes
+	
 	female = yes
 	dynasty=14601
 	religion=hylia_religion
@@ -206,7 +205,7 @@
 10 = {
 	name=Groose
 	disallow_random_traits = yes 
-	historical=yes
+	
 	dynasty=1
 	religion=hylia_religion
 	culture=skylofter
@@ -227,7 +226,7 @@
 	name=Goselle
 	disallow_random_traits = yes 
 	female=no
-	historical=yes
+	
 	father=10
 	dynasty=1
 	religion=hylia_religion
@@ -246,7 +245,7 @@
 	name=Kiki
 	disallow_random_traits = yes 
 	female=yes
-	historical=yes
+	
 	father=11
 	dynasty=1
 	religion=hylia_religion
@@ -265,7 +264,7 @@
 	name=Pum
 	disallow_random_traits = yes 
 	female=no
-	historical=yes
+	
 	mother=12
 	dynasty=1
 	religion=golden_goddesses
@@ -283,7 +282,7 @@
 14 = {
 	name=Zelda
 	disallow_random_traits = yes 
-	historical=yes
+	
 	dna="dkaaekhfgcb"
 	properties="cm0dgd000000"
 	female = yes
@@ -310,7 +309,7 @@
 	name=Bindle
 	disallow_random_traits = yes 
 	female=no
-	historical=yes
+	
 	mother=14
 	dynasty=1
 	religion=golden_goddesses
@@ -330,7 +329,7 @@
 	name=Borlov
 	disallow_random_traits = yes 
 	female=no
-	historical=yes
+	
 	father=15
 	dynasty=1
 	religion=golden_goddesses
@@ -350,7 +349,7 @@
 	name=Mama
 	disallow_random_traits = yes 
 	female=yes
-	historical=yes
+	
 	father=16
 	dynasty=1
 	religion=golden_goddesses
@@ -370,7 +369,7 @@
 	name=Maggie
 	disallow_random_traits = yes 
 	female=yes
-	historical=yes
+	
 	mother=17
 	dynasty=1
 	religion=golden_goddesses
@@ -390,7 +389,7 @@
 	name=Gepper
 	disallow_random_traits = yes 
 	female=no
-	historical=yes
+	
 	mother=18
 	dynasty=1
 	religion=golden_goddesses
@@ -411,7 +410,7 @@
 	disallow_random_traits = yes 
 	female=yes
 	father=19
-	historical=yes
+	
 	dynasty=1
 	religion=golden_goddesses
 	culture=hyrulean
@@ -430,7 +429,7 @@
 	name=Klaus
 	disallow_random_traits = yes 
 	female=no
-	historical=yes
+	
 	mother=20
 	dynasty=1
 	religion=golden_goddesses
@@ -449,7 +448,7 @@
 22 = { 
 	name=Rauru
 	disallow_random_traits = yes 
-	historical = yes
+	
 	dynasty=1
 	mother=20
 	diplomacy=7
@@ -473,11 +472,12 @@
 	3278.4.12={
 		birth=yes
 	}
+	4000.1.1={death=yes}
 }
 #3295 zelda 13
 23 = {
 	name=Zelda
-	historical=yes
+	
 	dna="dkaaekhfgcb"
 	properties="cm0dgd000000"
 	female = yes
@@ -502,7 +502,7 @@
 24 = {
 	name=Daltus
 	female=no
-	historical=yes
+	
 	mother=23
 	dynasty=1
 	religion=golden_goddesses
@@ -519,7 +519,7 @@
 25 = {
 	name=Jim
 	female=no
-	historical=yes
+	
 	father=24
 	dynasty=1
 	religion=golden_goddesses
@@ -535,7 +535,7 @@
 26 = { 
 	name=Mutoh
 	disallow_random_traits = yes 
-	historical = yes
+	
 	dynasty=1
 	father=22
 	religion=golden_goddesses
@@ -554,7 +554,7 @@
 27 = { 
 	name=Ingo
 	disallow_random_traits = yes 
-	historical = yes
+	
 	dynasty=1
 	father=26
 	religion=golden_goddesses
@@ -574,12 +574,12 @@
 28 = {
 	name=Rusta
 	disallow_random_traits = yes 
-	historical=yes
+	
 	female = no
 	dynasty=14601
 	religion=hylia_religion
 	culture=skylofter
-	father=9
+	mother=9
 	trait=race_hylian
 	trait=bloodline_hero
 	3024.1.1={
@@ -593,7 +593,7 @@
 29 = {
 	name=Pum
 	disallow_random_traits = yes 
-	historical=yes
+	
 	female = no
 	dynasty=14601
 	religion=golden_goddesses
@@ -612,7 +612,7 @@
 30 = {
 	name=Spur
 	disallow_random_traits = yes 
-	historical=yes
+	
 	female = no
 	dynasty=14601
 	religion=hylia_religion
@@ -631,7 +631,7 @@
 31 = {
 	name=Ibes
 	disallow_random_traits = yes 
-	historical=yes
+	
 	female = yes
 	dynasty=14601
 	religion=hylia_religion
@@ -646,35 +646,16 @@
 		death=yes
 	}
 }
-#3113
-32 = {
-	name=Smith
+#3140
+33 = {
+	name=Carlfov
 	disallow_random_traits = yes 
-	historical=yes
+	
 	female = no
 	dynasty=14601
 	religion=hylia_religion
 	culture=hyrulean
 	mother=31
-	trait=race_hylian
-	trait=bloodline_hero
-	3113.1.1={
-		birth=yes
-	}
-	3160.1.1={
-		death=yes
-	}
-}
-#3140
-33 = {
-	name=Carlfov
-	disallow_random_traits = yes 
-	historical=yes
-	female = no
-	dynasty=14601
-	religion=hylia_religion
-	culture=hyrulean
-	father=32
 	trait=race_hylian
 	trait=bloodline_hero
 	3140.1.1={
@@ -688,7 +669,7 @@
 34 = {
 	name=Bindle
 	disallow_random_traits = yes 
-	historical=yes
+	
 	female = no
 	dynasty=14601
 	religion=hylia_religion
@@ -707,7 +688,7 @@
 35 = {
 	name=David
 	disallow_random_traits = yes 
-	historical=yes
+	
 	female = no
 	dynasty=14601
 	religion=hylia_religion
@@ -725,8 +706,7 @@
 #3226
 36 = {
 	name=Oraiya
-	disallow_random_traits = yes 
-	historical=yes
+	disallow_random_traits = yes 	
 	female = yes
 	dynasty=14601
 	religion=hylia_religion
@@ -737,7 +717,7 @@
 	3226.1.1={
 		birth=yes
 	}
-	6293.1.1={
+	3293.1.1={
 		death=yes
 	}
 }
@@ -745,12 +725,12 @@
 37 = {
 	name=Aryll
 	disallow_random_traits = yes 
-	historical=yes
+	
 	female = yes
 	dynasty=14601
 	religion=hylia_religion
 	culture=hyrulean
-	father=36
+	mother=36
 	trait=race_hylian
 	trait=bloodline_hero
 	3247.1.1={
@@ -764,7 +744,7 @@
 38 = {
 	name=Brac
 	disallow_random_traits = yes 
-	historical=yes
+	
 	female = no
 	dynasty=14601
 	religion=hylia_religion
@@ -783,7 +763,7 @@
 39 = {
 	name=Charlo
 	disallow_random_traits = yes 
-	historical=yes
+	
 	female = no
 	dynasty=14601
 	religion=hylia_religion
@@ -802,7 +782,7 @@
 40  = {
 	name=Pulo
 	disallow_random_traits = yes 
-	historical=yes
+	
 	female = no
 	dynasty=14601
 	religion=hylia_religion
@@ -821,7 +801,7 @@
 41 = {
 	name=Linkle
 	disallow_random_traits = yes 
-	historical=yes
+	
 	female = yes
 	dynasty=14601
 	religion=hylia_religion
@@ -833,7 +813,7 @@
 		birth=yes
 	}
 	3358.2.10={
-		death={ death_reason=child_birth }
+		death={ death_reason=death_childbirth }
 	}
 }
 42={
@@ -984,8 +964,7 @@
 	
 }
 52={
-	name=Jakamar
-	historical=yes
+	name=Jakamar	
 	dynasty=14606
 	culture=skylofter
 	religion=hylia_religion
@@ -1000,7 +979,7 @@
 	culture=skylofter
 	religion=hylia_religion
 	2962.1.1={birth=yes}
-	2991.1.1={add_spouse=53}
+	2991.1.1={add_spouse=52}
 	3029.1.1={death=yes}
 }
 54={
@@ -1143,7 +1122,7 @@
 66={
 	name=Batreaux
 	disallow_random_traits=yes
-	historical=yes
+	
 	dynasty=14607
 	religion=hylia_religion
 	culture=demon
@@ -1151,7 +1130,7 @@
 	trait=race_hylian
 	trait=kind
 	trait=cynical
-	trait=cowardly
+	trait=craven
 	trait=charitable
 	trait=robust
 	trait=envious
@@ -1235,7 +1214,7 @@
 73={
 	name=Caesar
 	dynasty=4401
-	historical=yes
+	
 	disallow_random_traits=yes
 	religion=darknut_doctrine
 	culture=darknut
@@ -1261,7 +1240,7 @@
 74={
 	name=Xiahou
 	dynasty=14801
-	historical=yes
+	
 	disallow_random_traits=yes
 	religion=darknut_doctrine
 	culture=darknut
@@ -1273,7 +1252,7 @@
 	trait=ambitious
 	trait=duelist
 	trait=shrewd
-	trait=frail
+	trait=feeble
 	trait=lustful
 	trait=cynical
 	3101.4.13={birth=yes}

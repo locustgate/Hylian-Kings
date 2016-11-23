@@ -2,7 +2,7 @@
 1129 = {
 	name=Hanch
 	disallow_random_traits=yes
-	historical = yes
+	
 	dynasty=401
 	diplomacy=10
 	martial=8
@@ -32,7 +32,7 @@
 }
 1130 = {
 	name=Alela
-	historical = yes
+	
 	female=yes
 	dynasty=411
 	religion=light_spirits
@@ -48,7 +48,7 @@
 1131 = {
 	name=Bal
 	disallow_random_traits=yes
-	historical = yes
+	
 	mother=1130
 	father=1129
 	dynasty=401
@@ -74,7 +74,7 @@
 1132 = {
 	name=Cido
 	disallow_random_traits=yes
-	historical = yes
+	
 	mother=1130
 	father=1129
 	dynasty=401
@@ -99,7 +99,7 @@
 1133 = {
 	female=yes
 	name=Irgei
-	historical = yes
+	
 	mother=1130
 	father=1129
 	dynasty=401
@@ -113,7 +113,7 @@
 1134 = {
 	female=yes
 	name=Curgi
-	historical = yes
+	
 	mother=1130
 	father=1129
 	dynasty=401
@@ -126,7 +126,7 @@
 }
 1135 = {
 	name=Palo
-	historical = yes
+	
 	mother=1130
 	father=1129
 	dynasty=401
@@ -139,7 +139,7 @@
 }
 1136 = {
 	name=Ulo
-	historical = yes
+	
 	mother=1130
 	father=1129
 	dynasty=401
@@ -153,7 +153,7 @@
 1137 = {
 	name=Irgal
 	female=yes
-	historical = yes
+	
 	mother=1130
 	father=1129
 	dynasty=401
@@ -167,7 +167,7 @@
 1138 = {
 	name=Curgi
 	female=yes
-	historical = yes
+	
 	mother=1130
 	father=1129
 	dynasty=401
@@ -186,7 +186,7 @@
 	intrigue=4
 	stewardship=6
 	learning=5
-	historical = yes
+	
 	dynasty=402
 	religion=light_spirits
 	culture=ordonion
@@ -206,7 +206,7 @@
 1140 = {
 	name=Irgen
 	female=yes
-	historical = yes
+	
 	dynasty=434
 	religion=light_spirits
 	culture=ordonion
@@ -222,7 +222,7 @@
 	name=Fel
 	disallow_random_traits=yes
 
-	historical = yes
+	
 	mother=1140
 	father=1139
 	dynasty=402
@@ -250,7 +250,7 @@
 1142 = {
 	name=Ceda
 	female=yes
-	historical = yes
+	
 	mother=1140
 	father=1139
 	dynasty=402
@@ -263,7 +263,7 @@
 }
 1143 = {
 	name=Ulen
-	historical = yes
+	
 	mother=1140
 	father=1139
 	dynasty=402
@@ -277,7 +277,7 @@
 1144 = {
 	name=Peshe
 	female=yes
-	historical = yes
+	
 	mother=1140
 	father=1139
 	dynasty=402
@@ -297,7 +297,7 @@
 	intrigue=8
 	stewardship=6
 	learning=5
-	historical = yes
+	
 	dynasty=405
 	religion=light_spirits
 	culture=ordonion
@@ -318,7 +318,7 @@
 	intrigue=5
 	stewardship=5
 	learning=5
-	historical = yes
+	
 	dynasty=406
 	religion=light_spirits
 	culture=ordonion
@@ -334,7 +334,7 @@
 	intrigue=5
 	stewardship=5
 	learning=5
-	historical = yes
+	
 	dynasty=407
 	religion=light_spirits
 	culture=ordonion
@@ -350,7 +350,7 @@
 	intrigue=5
 	stewardship=5
 	learning=5
-	historical = yes
+	
 	dynasty=412
 	religion=light_spirits
 	culture=ordonion
@@ -366,7 +366,7 @@
 	intrigue=5
 	stewardship=5
 	learning=5
-	historical = yes
+	
 	dynasty=416
 	religion=light_spirits
 	culture=ordonion
@@ -383,7 +383,7 @@
 	intrigue=5
 	stewardship=9
 	learning=6
-	historical = yes
+	
 	dynasty=420
 	religion=light_spirits
 	culture=ordonion
@@ -403,7 +403,7 @@
 1152 = {
 	female=yes
 	name=Tada
-	historical = yes
+	
 	dynasty=421
 	religion=light_spirits
 	culture=ordonion
@@ -419,7 +419,7 @@
 	name=Irari
 
 	female=yes
-	historical = yes
+	
 	dynasty=420
 	mother=1152
 	father=1151
@@ -433,7 +433,7 @@
 1154 = {
 	female=yes
 	name=Cishe
-	historical = yes
+	
 	dynasty=420
 	mother=1152
 	father=1151
@@ -446,7 +446,7 @@
 }
 1155 = {
 	name=Teri
-	historical = yes
+	
 	dynasty=420
 	mother=1152
 	father=1151
@@ -459,7 +459,7 @@
 }
 1156 = {
 	name=Mench
-	historical = yes
+	
 	dynasty=420
 	mother=1152
 	father=1151
@@ -473,7 +473,7 @@
 1157 = {
 	name=Carul
 	female=yes
-	historical = yes
+	
 	dynasty=420
 	mother=1152
 	father=1151
@@ -486,7 +486,7 @@
 }
 1158 = { #south+river
 	name=Haran
-	historical = yes
+	
 	dynasty=423
 	diplomacy=8
 	martial=5
@@ -509,7 +509,7 @@
 1159 = { #fords
 	name=Cale
 	disallow_random_traits=yes
-	historical = yes
+	
 	dynasty=424
 	diplomacy=8
 	martial=10
@@ -530,7 +530,7 @@
 1160 = { #wooddell
 	name=Cale
 	disallow_random_traits=yes
-	historical = yes
+	
 	dynasty=425
 	diplomacy=8
 	martial=10
@@ -550,7 +550,7 @@
 }
 1161 = { 
 	name=Urath
-	historical = yes
+	
 	dynasty=426
 	diplomacy=5
 	martial=5
@@ -566,7 +566,7 @@
 }
 1162 = {
 	name=Cale
-	historical = yes
+	
 	dynasty=427
 	diplomacy=5
 	martial=5
@@ -582,7 +582,7 @@
 }
 1163 = { 
 	name=Alan
-	historical = yes
+	
 	dynasty=428
 	diplomacy=5
 	martial=5

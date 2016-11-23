@@ -1,7 +1,7 @@
 1063 = { 
 	name=Engon
 	disallow_random_traits = yes
-	historical = yes
+	
 	dynasty=801
 	diplomacy=10
 	martial=14
@@ -30,7 +30,7 @@
 1064 = { 
 	name=Cabim
 	disallow_random_traits = yes
-	historical = yes
+	
 	female=yes
 	dynasty=823
 	diplomacy=10
@@ -60,7 +60,7 @@
 1085 = { 
 	name=Gori
 	disallow_random_traits = yes
-	historical = yes
+	
 	dynasty=7400
 	diplomacy=7
 	martial=8
@@ -85,7 +85,7 @@
 }
 1086 = { 
 	name=Dozin
-	historical = yes
+	
 	female=yes
 	dynasty=7347
 	religion=earth_spirit
@@ -100,7 +100,7 @@
 }
 1087 = { 
 	name=Amoto
-	historical = yes
+	
 	mother=1086
 	father=1085
 	dynasty=7400
@@ -113,7 +113,7 @@
 }
 1088 = { 
 	name=Ezon
-	historical = yes
+	
 	dynasty=7348
 	religion=earth_spirit
 	culture=crenel_goron

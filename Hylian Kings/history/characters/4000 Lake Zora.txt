@@ -1,7 +1,7 @@
 
 1048  = { #water island
 	name=Zuju
-	historical = yes 
+	 
 	dna="ddggc0head0"
 	properties="na0laebebbbb"
 	dynasty=none
@@ -20,7 +20,7 @@
 1052 = { 
 	name=Zora
 	disallow_random_traits = yes 
-	historical = yes
+	
 	dynasty=601
 	#mother/father=y
 	diplomacy=13
@@ -59,7 +59,7 @@
 1053 = { 
 	name=Nautia
 	disallow_random_traits = yes 
-	historical = yes
+	
 	female=yes
 	dynasty=none
 	diplomacy=8
@@ -87,7 +87,7 @@
 1054 = { 
 	name=Udi
 	disallow_random_traits = yes 
-	historical = yes
+	
 	female=yes
 	dynasty=667
 	#mother/father=y
@@ -116,7 +116,7 @@
 }
 1055 = {
 	name=Lati
-	historical = yes
+	
 	disallow_random_traits = yes
 	dynasty=632
 	female = yes
@@ -138,9 +138,9 @@
 1056 = {
 	female = yes
 	name=Elo
-	historical = yes
+	
 	disallow_random_traits = yes
-	dynasty=632
+	dynasty=633
 	father=1052
 	mother=1053
 	religion=water_spirit
@@ -159,9 +159,9 @@
 }
 1057 = {
 	name=Zenal
-	historical = yes
+	
 	disallow_random_traits = yes
-	dynasty=632
+	dynasty=634
 	father=1052
 	mother=1053
 	religion=water_spirit
@@ -181,7 +181,7 @@
 1058 = { 
 	name=Tono
 	disallow_random_traits = yes 
-	historical = yes
+	
 	dynasty=601
 	mother=1054
 	father=1052
@@ -212,7 +212,7 @@
 1059 = { 
 	name=Enajo
 	disallow_random_traits = yes 
-	historical = yes
+	
 	female=yes
 	dynasty=601
 	mother=1054
@@ -242,7 +242,7 @@
 1060 = { 
 	name=Pona
 	disallow_random_traits = yes 
-	historical = yes
+	
 	dynasty=601
 	mother=1054
 	father=1052
@@ -272,7 +272,7 @@
 }
 1061 = { 
 	name=Laka 
-	historical = yes
+	
 	female=yes
 	dynasty=483
 	diplomacy=4
@@ -299,9 +299,9 @@
 }
 1062 = { 
 	name=Laha 
-	historical = yes
+	
 	female=yes
-	dynasty=483
+	dynasty=484
 	diplomacy=8
 	martial=6
 	intrigue=5

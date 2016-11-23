@@ -264,7 +264,7 @@
 	3370.1.1={add_spouse=41017}
 	3417.5.18={ death=yes }
 }
-41023={
+41024={
 	name=Akakiku
 	dynasty=5035
 	dna="ojpfkcmecba"
@@ -276,18 +276,6 @@
 	3364.1.1={add_spouse=41030}
 	3402.7.16={ death=yes }
 }
-41024={
-	name=Hakak
-	dynasty=5035
-	dna="oapilcmbcfn"
-	culture=aeralfos religion=demise_religion
-	martial=4 diplomacy=4 stewardship=6 intrigue=7 learning=5
-	add_trait=charismatic_negotiator add_trait=trusting add_trait=cruel add_trait=gregarious add_trait=humble 
-	father=41023	#Akakiku
-	mother=41030
-	3366.6.27={ birth=yes }
-	3418.12.6={ death=yes }
-}
 41025={
 	name=Naxuno
 	dynasty=5035
@@ -296,7 +284,7 @@
 	martial=6 diplomacy=7 stewardship=5 intrigue=4 learning=6
 	add_trait=thrifty_clerk add_trait=zealous add_trait=craven add_trait=patient add_trait=charitable 
 	add_trait=chaste add_trait=stutter 
-	father=41023	#Akakiku
+	father=41024	#Akakiku
 	mother=41030
 	3370.7.14={ birth=yes }
 	3440.5.27={ death=yes }
@@ -308,7 +296,7 @@
 	culture=aeralfos religion=demise_religion
 	martial=5 diplomacy=5 stewardship=7 intrigue=4 learning=8
 	add_trait=tough_soldier add_trait=greedy add_trait=cynical add_trait=paranoid add_trait=just 
-	father=41023	#Akakiku
+	father=41024	#Akakiku
 	mother=41030
 	3372.3.21={ birth=yes }
 	3427.10.16={ death=yes }
@@ -319,7 +307,7 @@
 	dynasty=5035
 	dna="ccpfkcdeofn"
 	culture=aeralfos religion=demise_religion
-	father=41023	#Akakiku
+	father=41024	#Akakiku
 	mother=41030
 	3377.7.8={ birth=yes }
 	3446.7.15={ death=yes }
@@ -330,7 +318,7 @@
 	dynasty=5035
 	dna="ajdpbcmbmpk"
 	culture=aeralfos religion=demise_religion
-	father=41023	#Akakiku
+	father=41024	#Akakiku
 	mother=41030
 	3379.12.13={ birth=yes }
 	3437.6.6={ death=yes }
@@ -341,7 +329,7 @@
 	dynasty=5035
 	dna="jjofkjgfcbk"
 	culture=aeralfos religion=demise_religion
-	father=41023	#Akakiku
+	father=41024	#Akakiku
 	mother=41030
 	3382.6.12={ birth=yes }
 	3450.11.28={ death=yes }
@@ -351,7 +339,7 @@
 	female=yes
 	culture=aeralfos religion=demise_religion
 	3340.1.19={ birth=yes }
-	3364.1.1={add_spouse=41023}
+	3364.1.1={add_spouse=41024}
 	3402.7.16={ death=yes }
 }
 41031={

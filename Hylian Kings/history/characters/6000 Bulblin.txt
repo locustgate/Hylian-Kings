@@ -2,7 +2,7 @@
 1093 = {#k bulblin faron canyon to grove
 	name=Burl
 	disallow_random_traits=yes
-	historical = yes
+	
 	dynasty=4001
 	diplomacy=8
 	martial=14
@@ -31,7 +31,7 @@
 }
 1094 = {
 	name=Bira
-	historical = yes
+	
 	female=yes
 	dynasty=4011
 	religion=demise_religion
@@ -44,7 +44,7 @@
 }
 1095 = {
 	name=Bos
-	historical = yes
+	
 	mother=1094
 	father=1093
 	dynasty=4001
@@ -57,7 +57,7 @@
 }
 1096 = {
 	name=Ralus
-	historical = yes
+	
 	mother=1094
 	father=1093
 	dynasty=4001
@@ -70,7 +70,7 @@
 }
 1097 = {
 	name=Velba
-	historical = yes
+	
 	female=yes
 	mother=1094
 	father=1093
@@ -84,7 +84,7 @@
 }
 1098 = {
 	name=Vubos
-	historical = yes
+	
 	mother=1094
 	father=1093
 	dynasty=4001
@@ -97,7 +97,7 @@
 }
 1123 = {#south west and gorge
 	name=Rib
-	historical = yes
+	
 	dynasty=4048
 	diplomacy=6
 	martial=8
@@ -118,7 +118,7 @@
 1124 = {#d central
 	name=Bodir
 	disallow_random_traits=yes
-	historical = yes
+	
 	dynasty=4087
 	diplomacy=8
 	martial=11
@@ -144,7 +144,7 @@
 }
 1125 = {
 	name=Bala
-	historical = yes
+	
 	dynasty=4091
 	religion=demise_religion
 	culture=bulblin
@@ -159,7 +159,7 @@
 }
 1126 = {#c south bridge
 	name=Rilir
-	historical = yes
+	
 	dynasty=4186
 	diplomacy=6
 	martial=8
@@ -175,7 +175,7 @@
 }
 1127 = {
 	name=Birir
-	historical = yes
+	
 	dynasty=4189
 	diplomacy=8
 	martial=6
@@ -191,7 +191,7 @@
 }
 1128 = {
 	name=Belar
-	historical = yes
+	
 	dynasty=4117
 	diplomacy=10
 	martial=6
@@ -327,17 +327,6 @@
 	mother=6010
 	3393.2.9={ birth=yes }
 	3459.11.12={ death=yes }
-}
-6010={
-	name=Balein
-	female=yes
-	dynasty=4025
-	dna="neidjhhaolh"
-	culture=bulblin religion=demise_religion
-	trait=race_bulblin
-	father=6006	#Ronon
-	3397.11.24={ birth=yes }
-	3469.11.11={ death=yes }
 }
 6010={
 	name=Balein

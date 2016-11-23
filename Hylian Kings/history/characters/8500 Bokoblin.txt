@@ -1,7 +1,7 @@
 
 1099 = {#faron woods to bridges
 	name=Roles
-	historical = yes
+	
 	dynasty=4021
 	diplomacy=8
 	martial=10
@@ -19,7 +19,7 @@
 
 1101 = {#faron forest
 	name=Belin
-	historical = yes
+	
 	dynasty=4031
 	diplomacy=8
 	martial=8
@@ -103,7 +103,7 @@
 }
 8506={
 	name=Dederal
-	dynasty=3955
+	dynasty=3954
 	dna="lknapofopie"
 	culture=bokoblin religion=demise_religion
 	martial=4 diplomacy=8 stewardship=8 intrigue=4 learning=5
@@ -114,7 +114,7 @@
 }
 8507={
 	name=Werlin
-	dynasty=3955
+	dynasty=3953
 	dna="nddkgkdcplp"
 	culture=bokoblin religion=demise_religion
 	martial=5 diplomacy=4 stewardship=7 intrigue=5 learning=7

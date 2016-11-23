@@ -5,7 +5,7 @@
 	dna="amgke0fdaa0"
 	properties="rj0ablbebbbb"
 	disallow_random_traits=yes
-	historical = yes
+	
 	diplomacy=10
 	martial=5
 	intrigue=5
@@ -32,7 +32,7 @@
 	female=yes
 	name=Chell
 	dynasty=6017
-	historical = yes
+	
 	diplomacy=10
 	martial=5
 	intrigue=10
@@ -58,7 +58,7 @@
 }
 1007 = {
 	name=Strato
-	historical = yes
+	
 	diplomacy=8
 	martial=10
 	intrigue=5
@@ -87,7 +87,7 @@
 1008 = { #d castor c wind city tower palace fortress
 	name=Mazin
 	disallow_random_traits=yes
-	historical = yes
+	
 	diplomacy=15
 	martial=8
 	intrigue=5
@@ -114,7 +114,7 @@
 1009 = {
 	name=Aurora	
 	disallow_random_traits=yes
-	historical = yes
+	
 	 dna="aabac0gdaa0"
 	properties="re0a0abebbbb"
 	diplomacy=8
@@ -153,7 +153,7 @@
 
 1073 = { #north south central castor wilds
 	name=Cirro
-	historical = yes
+	
 	dynasty=6024
 	religion=light_force
 	culture=wind_tribe
@@ -225,7 +225,7 @@
 
 1091 = {#k minish d_royal c_ crypt, north road, minish hyrule
 	name=Indra
-	historical = yes
+	
 	dynasty=6201
 	religion=light_force
 	culture=wind_tribe
@@ -237,7 +237,7 @@
 }
 1092 = {#k minish d_royal c_ crypt, north road, minish hyrule
 	name=Mazin
-	historical = yes
+	
 	dynasty=6251
 	religion=light_force
 	culture=wind_tribe

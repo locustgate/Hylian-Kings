@@ -5,7 +5,9 @@
 	religion=great_deku
 	martial=10 diplomacy=6 stewardship=8 intrigue=6 learning=8
 	trait=race_tree_deity trait=brilliant_strategist trait=wroth trait=just trait=humble trait=gregarious
-	3000.1.1={birth=yes}
+	3000.1.1={birth=yes
+		culture=kokiri
+	}
 	3378.1.1={death=yes}	
 }
 48501={
@@ -16,7 +18,8 @@
 	martial=8 diplomacy=6 stewardship=8 intrigue=6 learning=10
 	trait=race_tree_deity trait=mastermind_theologian trait=kind trait=just trait=zealous trait=shy
 	father=48500
-	3090.1.1={birth=yes}
+	3090.1.1={birth=yes
+		culture=kokiri}
 	3778.1.1={death=yes}	
 }
 48502={
@@ -27,7 +30,8 @@
 	martial=6 diplomacy=10 stewardship=10 intrigue=6 learning=8
 	trait=race_tree_deity trait=grey_eminance trait=kind trait=arbitrary trait=greedy trait=gregarious
 	father=48500
-	3200.1.1={birth=yes}
+	3200.1.1={birth=yes
+		culture=kokiri}
 	3778.1.1={death=yes}	
 }
 48503={
@@ -38,7 +42,8 @@
 	martial=8 diplomacy=6 stewardship=8 intrigue=6 learning=10
 	trait=race_tree_deity trait=grey_eminance trait=ambitious trait=just trait=trusting trait=erudite
 	father=48501
-	3190.1.1={birth=yes}
+	3190.1.1={birth=yes
+		culture=kokiri}
 	4078.1.1={death=yes}	
 }
 48504={
@@ -49,6 +54,7 @@
 	martial=8 diplomacy=6 stewardship=8 intrigue=6 learning=10
 	trait=race_tree_deity trait=grey_eminance trait=ambitious trait=just trait=trusting trait=erudite
 	father=48502
-	3280.1.1={birth=yes}
+	3280.1.1={birth=yes
+		culture=kokiri}
 	4078.1.1={death=yes}	
 }

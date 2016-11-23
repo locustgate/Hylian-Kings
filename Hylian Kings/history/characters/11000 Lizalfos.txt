@@ -1,7 +1,7 @@
 1065 = { 
 	name=Lasho
 	disallow_random_traits = yes
-	historical = yes
+	
 	dynasty=4601
 	diplomacy=5
 	martial=20
@@ -32,7 +32,7 @@
 1066 = { 
 	name=Wetazu
 	disallow_random_traits = yes
-	historical = yes
+	
 	dynasty=4661
 	diplomacy=14
 	martial=5
@@ -58,7 +58,7 @@
 }
 1067 = { 
 	name=Vapukupat
-	historical = yes
+	
 	mother=1066
 	father=1065
 	dynasty=4601
@@ -84,7 +84,7 @@
 }
 1068 = { 
 	name=Lilos
-	historical = yes
+	
 	mother=1066
 	father=1065
 	female=yes
@@ -108,7 +108,7 @@
 }
 1069 = { 
 	name=Dirdakazo
-	historical = yes
+	
 	mother=1066
 	father=1065
 	dynasty=4601
@@ -135,7 +135,7 @@
 }
 1070 = { 
 	name=Konat
-	historical = yes
+	
 	female=yes
 	dynasty=4678
 	religion=demise_religion
@@ -155,7 +155,7 @@
 }
 1071 = { 
 	name=Konia
-	historical = yes
+	
 	female=yes
 	dynasty=4689
 	religion=demise_religion
@@ -173,7 +173,7 @@
 1104 = {#
 	name=Vike
 	disallow_random_traits=yes
-	historical = yes
+	
 	dynasty=4603
 	diplomacy=10
 	martial=8
@@ -198,7 +198,7 @@
 }
 1105 = {#
 	name=Lira
-	historical = yes
+	
 	female=yes
 	dynasty=4604
 	religion=demise_religion
@@ -213,7 +213,7 @@
 }
 1106 = {#
 	name=Olat
-	historical = yes
+	
 	dynasty=4603
 	mother=1105
 	father=1104
@@ -228,7 +228,7 @@
 }
 1107 = {#
 	name=Cashu
-	historical = yes
+	
 	dynasty=4679
 	religion=demise_religion
 	culture=lizalfos
@@ -239,7 +239,7 @@
 }
 1108 = {#
 	name=Urangak
-	historical = yes
+	
 	dynasty=4605
 	religion=demise_religion
 	culture=lizalfos
@@ -250,7 +250,7 @@
 }
 1109 = {
 	name=Wezu
-	historical = yes
+	
 	diplomacy=6
 	martial=9
 	intrigue=4
@@ -268,7 +268,7 @@
 }
 1110 = {
 	name=Narambe
-	historical = yes
+	
 	diplomacy=6
 	martial=4
 	intrigue=4
@@ -288,7 +288,7 @@
 }
 1111 = {
 	name=Kizear
-	historical = yes
+	
 	diplomacy=6
 	martial=9
 	intrigue=4
@@ -306,7 +306,7 @@
 }
 1112 = {
 	name=Kutozear
-	historical = yes
+	
 	diplomacy=5
 	martial=6
 	intrigue=8
@@ -326,7 +326,7 @@
 }
 1113 = {
 	name=Kutozear
-	historical = yes
+	
 	diplomacy=8
 	martial=6
 	intrigue=4

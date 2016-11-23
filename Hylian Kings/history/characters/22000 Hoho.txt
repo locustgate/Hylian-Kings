@@ -64,7 +64,7 @@
 	add_trait=grey_eminence add_trait=mystic add_trait=cynical add_trait=envious add_trait=cruel 
 	add_trait=paranoid 
 	3354.10.13={ birth=yes }
-	3377.1.1={add_spouse=22008}
+	3377.1.1={add_spouse=22100}
 	3420.10.26={ death=yes }
 }
 22006={
@@ -75,7 +75,7 @@
 	martial=4 diplomacy=7 stewardship=5 intrigue=8 learning=5
 	add_trait=detached_priest add_trait=patient add_trait=cruel add_trait=wounded 
 	father=22005	#Borkvard
-	mother=22008
+	mother=22100
 	3378.2.17={ birth=yes }
 	3424.3.10={ death=yes }
 }
@@ -86,16 +86,8 @@
 	dna="ekndgljfabj"
 	culture=ho_ho religion=oshus_religion
 	father=22005	#Borkvard
-	mother=22008
+	mother=22100
 	3382.10.25={ birth=yes }
-	3434.7.16={ death=yes }
-}
-22008 = {
-	name=Alfhild
-	female=yes
-	culture=ho_ho religion=oshus_religion
-	3359.1.1={ birth=yes }
-	3377.1.1={add_spouse=22005}
 	3434.7.16={ death=yes }
 }
 22008={
@@ -291,7 +283,7 @@
 }
 22025={
 	name=Torsten
-	dynasty=5410
+	dynasty=5481
 	dna="llhfihgcbpa"
 	culture=ho_ho religion=oshus_religion
 	martial=4 diplomacy=7 stewardship=4 intrigue=6 learning=4
@@ -313,7 +305,7 @@
 }
 22027={
 	name=Astrad
-	dynasty=5420
+	dynasty=5421
 	dna="cmhcckkdkhj"
 	culture=ho_ho religion=oshus_religion
 	martial=4 diplomacy=4 stewardship=4 intrigue=7 learning=5
@@ -967,7 +959,7 @@
 }
 22088={#c
 	name=Anund
-	dynasty=5535
+	dynasty=5534
 	dna="poehanpcfbj"
 	culture=ho_ho religion=oshus_religion
 	martial=6 diplomacy=8 stewardship=4 intrigue=6 learning=4
@@ -1089,4 +1081,12 @@
 	add_trait=indulgent_wastrel add_trait=slothful add_trait=just add_trait=patient add_trait=craven 
 	3364.7.4={ birth=yes }
 	3419.7.15={ death=yes }
+}
+22100 = {
+	name=Alfhild
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3359.1.1={ birth=yes }
+	3377.1.1={add_spouse=22005}
+	3434.7.16={ death=yes }
 }
