@@ -14,11 +14,12 @@ province_event = {
 		owner = {
 			top_liege = {
 				culture = PREV
-			}
-			NOR = {
-				culture = great_fairy
-				culture = demon
-				culture = deku_tree
+				NOR = {
+					culture = great_fairy
+					culture = demon
+					culture = deku_tree
+					culture = demon_tree
+				}
 			}
 			NOT = { culture = ROOT }
 			religion = ROOT

@@ -1312,25 +1312,6 @@ mammalian_group = {
 	}
 }
 fae = {
-	deku_tree = {
-
-		graphical_cultures = { dekugfx }
-
-		used_for_random = no 
-		
-		color = { 0 0.39 0 }
-		
-		male_names = {
-		Deku
-		}
-		female_names = {
-		Deku
-		}
-		
-		dukes_called_kings = no
-		
-		modifier = default_culture_modifier
-	}
 	great_fairy = {
 		graphical_cultures = { greatfairygfx }
 
@@ -1350,26 +1331,6 @@ fae = {
 		
 		from_dynasty_prefix = "of "
 
-		modifier = default_culture_modifier
-	}
-	baga_tree = {
-
-		graphical_cultures = { bagagfx }
-
-		horde = yes 
-		used_for_random = no
-		
-		color = { 0 0.39 0 }
-		
-		male_names = {
-		Baga
-		}
-		female_names = {
-		Baga
-		}
-		
-		dukes_called_kings = no
-		
 		modifier = default_culture_modifier
 	}
 	demon = {
@@ -1888,5 +1849,46 @@ dead_cultures = {
 			Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Leila Mama Marcy Pina Pita Paige Sheila Tina Verona Honey Marilla Judo Cremia Epona Romani Pamela Ashei Iza Hena Agitha Kili Hanna Misha Fanadi Telma Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Aryll Rose Sue-Belle Sue Belle Gillian Joanna Potova Linda Maggie Milia Minenco Missey Pompie Peach Daisy Rosalina Lissa Lucinia Emmeryn Hylia Linkette Yelda Linkle
 		}
 	modifier = default_culture_modifier
+	}
+}
+graphical_only = {
+	deku_tree = {
+
+		graphical_cultures = { dekugfx }
+
+		used_for_random = no 
+		
+		color = { 0 0.39 0 }
+		
+		male_names = {
+		Deku
+		}
+		female_names = {
+		Deku
+		}
+		
+		dukes_called_kings = no
+		
+		modifier = default_culture_modifier
+	}
+	baga_tree = {
+
+		graphical_cultures = { bagagfx }
+
+		horde = yes 
+		used_for_random = no
+		
+		color = { 0 0.39 0 }
+		
+		male_names = {
+		Baga
+		}
+		female_names = {
+		Baga
+		}
+		
+		dukes_called_kings = no
+		
+		modifier = default_culture_modifier
 	}
 }

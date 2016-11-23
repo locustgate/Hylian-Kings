@@ -346,7 +346,7 @@ character_event = {
 		host = {
 			ROOT = {
 				death = { 
-					death_reason = death_murder
+					death_reason = death_natural
 				}
 			}
 		}
