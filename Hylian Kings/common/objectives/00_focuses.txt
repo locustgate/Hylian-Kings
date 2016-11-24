@@ -169,11 +169,10 @@ focus_seduction = {
 		NOT = { trait = eunuch }
 		custom_tooltip = {
 			text = is_not_ascetic
-			hidden_tooltip = {
-				NOT = { has_character_modifier = hindu_ascetic }
-				NOT = { has_character_modifier = buddhist_ascetic }
-				NOT = { has_character_modifier = jain_naked_ascetic }
-			}
+		}		
+		NOR = {
+			trait=race_tree_deity
+			trait=race_tree_demon
 		}
 	}
 	
@@ -309,6 +308,10 @@ focus_intrigue = {
 		is_adult = yes
 		NOT = { trait = incapable }
 		prisoner = no
+		NOR = {
+			trait=race_tree_deity
+			trait=race_tree_demon
+		}
 	}
 	
 	# AI Pick chance
@@ -402,8 +405,14 @@ focus_hunting = {
 	allow = {
 		is_adult = yes
 		NOT = { trait = incapable }
-		NOT = { religion = jain }
+		NOR = { religion = great_deku 
+			religion = great_fairies
+		}
 		prisoner = no
+		NOR = {
+			trait=race_tree_deity
+			trait=race_tree_demon
+		}
 	}
 	
 	# AI Pick chance
@@ -562,18 +571,17 @@ focus_carousing = {
 		NOT = { trait = incapable }
 		prisoner = no
 		OR = {
-			NOT = { religion_group = muslim }
+			NOT = { religion = darknut_doctrine }
 			trait = decadent
 			trait = hedonist
 			trait = drunkard
 		}
 		custom_tooltip = {
 			text = is_not_ascetic
-			hidden_tooltip = {
-				NOT = { has_character_modifier = hindu_ascetic }
-				NOT = { has_character_modifier = buddhist_ascetic }
-				NOT = { has_character_modifier = jain_naked_ascetic }
-			}
+		}
+		NOR = {
+			trait=race_tree_deity
+			trait=race_tree_demon
 		}
 	}
 	

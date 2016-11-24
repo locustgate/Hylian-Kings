@@ -125,6 +125,19 @@ malladus = {
 
 	customizer = no 
 }
+uncle_rupee = {
+	martial = 10
+	health = 2
+	immortal = yes
+
+	same_opinion_if_same_religion = 60
+	cached = yes
+	
+	ai_honor = -30
+	ai_greed = 30
+
+	customizer = no 
+}
 vaati = {
 	learning = 10
 	martial = 10
