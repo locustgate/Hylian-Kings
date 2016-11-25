@@ -730,3 +730,45 @@ character_event = {
 	}
 	option = { name = OK }
 }
+character_event = {
+	id = race.8
+	desc = EVTDESCRACE8
+	picture = GFX_evt_lovers
+	
+	trigger = {
+		OR = { 
+			trait=race_tree_deity
+			trait=race_tree_demon
+		}
+		age=600
+	}
+	
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = { name = OK 
+		hidden_tooltip = {
+		FROM = { character_event = { id = race.9 days = 60 } }
+		}
+	}
+}
+character_event = {
+	id = race.9
+	desc = EVTDESCRACE9
+	picture = GFX_evt_lovers
+	
+	triggered_only=yes
+	
+	
+	immediate = {	
+		host = {
+			ROOT = {
+				death = { 
+					death_reason = death_natural
+				}
+			}
+		}
+	}
+	option = { name = OK }
+}

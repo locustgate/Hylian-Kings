@@ -15,14 +15,14 @@ character_event = {
 		name = "thieving0A" #Steal FROM the Rich
 		set_character_flag = tokay_rich
 	}
-	option = {
-		name = "thieving0B" #Steal FROM the poor
-		set_character_flag = tokay_poor
-	}
-	option = {
-		name = "thieving0C" #Steal FROM highway
-		set_character_flag = tokay_roads
-	}
+	#option = {
+	#	name = "thieving0B" #Steal FROM the poor
+	#	set_character_flag = tokay_poor
+	#}
+	#option = {
+	#	name = "thieving0C" #Steal FROM highway
+	#	set_character_flag = tokay_roads
+	#}
 }
 
 # Start of Stealing
