@@ -59,3 +59,38 @@
 		culture=kokiri}
 	4078.1.1={death=yes}	
 }
+48505={
+	name=Baga
+	dynasty=3601
+	culture=baga_tree
+	religion=baga_tree
+	martial=6 diplomacy=10 stewardship=10 intrigue=6 learning=8
+	trait=race_tree_deity trait=grey_eminance trait=kind trait=arbitrary trait=greedy trait=gregarious
+	3100.1.1={birth=yes
+		culture=skull_kid}
+	3678.1.1={death=yes}	
+}
+48506={
+	name=Baga
+	dynasty=3601
+	culture=baga_tree
+	religion=baga_tree
+	martial=8 diplomacy=6 stewardship=8 intrigue=6 learning=10
+	trait=race_tree_deity trait=grey_eminance trait=ambitious trait=just trait=trusting trait=erudite
+	father=48505
+	3180.1.1={birth=yes
+		culture=skull_kid}
+	4078.1.1={death=yes}	
+}
+48507={
+	name=Baga
+	dynasty=3601
+	culture=baga_tree
+	religion=baga_tree
+	martial=8 diplomacy=6 stewardship=8 intrigue=6 learning=10
+	trait=race_tree_deity trait=grey_eminance trait=ambitious trait=just trait=trusting trait=erudite
+	father=48505
+	3190.1.1={birth=yes
+		culture=skull_kid}
+	4078.1.1={death=yes}	
+}

@@ -3,7 +3,7 @@
 	name=Jinem
 	dynasty=3601
 	dna="peipnolnmco"
-	culture=kokiri religion=baga_tree
+	culture=skull_kid religion=baga_tree
 	martial=4 diplomacy=5 stewardship=6 intrigue=5 learning=6
 	add_trait=scholarly_theologian add_trait=cruel add_trait=temperate add_trait=kind add_trait=content 
 	trait=race_kokiri 
@@ -16,7 +16,7 @@
 	name=Sanger
 	dynasty=3715
 	dna="ecljednoopg"
-	culture=kokiri religion=baga_tree
+	culture=skull_kid religion=baga_tree
 	martial=6 diplomacy=6 stewardship=6 intrigue=8 learning=6
 	add_trait=misguided_warrior add_trait=cruel add_trait=just add_trait=kind add_trait=trusting 
 	trait=race_kokiri
@@ -28,7 +28,7 @@
 	name=Phantes
 	dynasty=3720
 	dna="hodhadeagmn"
-	culture=kokiri religion=baga_tree
+	culture=skull_kid religion=baga_tree
 	martial=4 diplomacy=4 stewardship=8 intrigue=5 learning=6
 	add_trait=misguided_warrior add_trait=patient add_trait=paranoid add_trait=chaste add_trait=gregarious 
 	trait=race_kokiri
@@ -40,7 +40,7 @@
 	name=Seme
 	dynasty=3720
 	dna="hkkhafedmlk"
-	culture=kokiri religion=baga_tree
+	culture=skull_kid religion=baga_tree
 	martial=7 diplomacy=8 stewardship=7 intrigue=7 learning=7
 	add_trait=grey_eminence add_trait=wroth add_trait=slothful add_trait=chaste add_trait=zealous 
 	trait=race_kokiri
@@ -54,7 +54,7 @@
 	name=Serenade
 	female=yes
 	trait=race_kokiri
-	culture=kokiri religion=baga_tree
+	culture=skull_kid religion=baga_tree
 	3300.2.7={ birth=yes }
 	3375.1.1={add_spouse=13516}
 	3647.2.27={ death=yes }
@@ -64,10 +64,11 @@
 	name=Rase
 	dynasty=3601
 	dna="adffjmchlhe"
-	culture=kokiri religion=baga_tree
+	culture=skull_kid religion=baga_tree
 	martial=5 diplomacy=7 stewardship=8 intrigue=5 learning=7
 	trait=race_kokiri
 	add_trait=midas_touched add_trait=brave add_trait=lustful add_trait=content 
+	father=48505
 	3199.12.20={ birth=yes }
 	3534.6.2={ death=yes }
 }
@@ -75,7 +76,7 @@
 	name=Rame
 	dynasty=3601
 	dna="jdgfbailldm"
-	culture=kokiri religion=baga_tree
+	culture=skull_kid religion=baga_tree
 	martial=5 diplomacy=4 stewardship=6 intrigue=7 learning=7
 	trait=race_kokiri
 	add_trait=naive_appeaser add_trait=chaste add_trait=paranoid add_trait=greedy add_trait=deceitful 
@@ -88,7 +89,7 @@
 	name=Bardo
 	dynasty=3601
 	dna="bdagohcclce"
-	culture=kokiri religion=baga_tree
+	culture=skull_kid religion=baga_tree
 	martial=6 diplomacy=6 stewardship=5 intrigue=5 learning=7
 	add_trait=martial_cleric add_trait=mystic add_trait=temperate add_trait=trusting add_trait=envious 
 	add_trait=cruel add_trait=ambitious 
@@ -102,7 +103,7 @@
 	name=Titrium
 	dynasty=3601
 	dna="eoofbkcklih"
-	culture=kokiri religion=baga_tree
+	culture=skull_kid religion=baga_tree
 	martial=4 diplomacy=4 stewardship=7 intrigue=6 learning=5
 	add_trait=midas_touched add_trait=diligent add_trait=humble add_trait=kind add_trait=brave 
 	trait=race_kokiri
@@ -116,7 +117,7 @@
 	name=Fife
 	dynasty=3601
 	dna="cdgfjkcnohe"
-	culture=kokiri religion=baga_tree
+	culture=skull_kid religion=baga_tree
 	martial=6 diplomacy=6 stewardship=5 intrigue=6 learning=4
 	add_trait=martial_cleric add_trait=trusting add_trait=arbitrary add_trait=honest
 	trait=race_kokiri add_trait=diligent 
