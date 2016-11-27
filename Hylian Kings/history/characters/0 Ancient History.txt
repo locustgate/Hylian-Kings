@@ -832,6 +832,7 @@
 	add_trait=brave 
 	add_trait=greedy 
 	add_trait=temperate 
+	father=135
 	3250.10.17={ birth=yes }
 	3293.7.10={ death=yes }
 }
@@ -1623,18 +1624,561 @@
 	}
 	2000.1.1={death={death_reason=death_battle}	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
+#Labrynna
+105 = {
+	name=Karane
+	disallow_random_traits = yes 	
+	dynasty=2001
+	female = yes
+	religion=hylia_religion
+	culture=skylofter
+	trait=race_hylian
+	trait=short
+	trait=shy
+	trait=honest
+	trait=brave
+	trait=trusting
+	trait=stuborn
+	trait=lustful
+	2981.1.1={
+		birth=yes
+	}
+	3000.1.1={
+		add_matrilineal_spouse = 107
+	}
+	3058.1.1={
+		death=yes
+	}
+}
+106 = {
+	name=Mallara
+	disallow_random_traits = yes 	
+	dynasty=5801
+	female = yes
+	religion=hylia_religion
+	culture=skylofter
+	trait=race_hylian
+	trait=charitable
+	trait=slothful
+	trait=content
+	2965.1.1={
+		birth=yes
+	}
+	3021.1.1={
+		death=yes
+	}
+}
+107 = {
+	name=Pipit
+	disallow_random_traits = yes 	
+	dynasty=5801
+	religion=hylia_religion
+	culture=skylofter
+	trait=race_hylian
+	trait=temperate
+	trait=kind
+	trait=greedy
+	mother=106
+	2981.1.1={
+		birth=yes
+	}
+	3000.1.1={
+		add_matrilineal_spouse = 105
+	}
+	3004.1.1={
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+114={
+	name=Theophil
+	dynasty=2001
+	dna="balnpfaeooo"
+	culture=labrynnan religion=golden_goddesses
+	martial=5 diplomacy=6 stewardship=5 intrigue=6 learning=5
+	add_trait=midas_touched add_trait=kind add_trait=chaste add_trait=diligent add_trait=ambitious 
+	father=107
+	mother=105
+	3001.4.6={ birth=yes }
+	3058.12.8={ death=yes }
+}
+115={
+	name=Frank
+	dynasty=2001
+	dna="bclnpckbeoo"
+	culture=labrynnan religion=golden_goddesses
+	martial=6 diplomacy=4 stewardship=4 intrigue=7 learning=4
+	add_trait=skilled_tactician add_trait=slothful add_trait=trusting add_trait=chaste add_trait=humble 
+	add_trait=possessed 
+	father=114	#Theophil
+	3024.1.14={ birth=yes }
+	3081.6.14={ death=yes }
+}
+116={
+	name=Adrien
+	dynasty=2001
+	dna="lmlhpcameio"
+	culture=labrynnan religion=golden_goddesses
+	martial=8 diplomacy=4 stewardship=4 intrigue=5 learning=7
+	add_trait=detached_priest add_trait=cruel add_trait=slothful 
+	father=115	#Frank
+	3051.7.2={ birth=yes }
+	3114.9.23={ death=yes }
+}
+117={
+	name=Volker
+	dynasty=2001
+	dna="bmofmcamfmm"
+	culture=labrynnan religion=golden_goddesses
+	martial=7 diplomacy=5 stewardship=7 intrigue=7 learning=5
+	add_trait=midas_touched add_trait=craven add_trait=cruel add_trait=diligent add_trait=zealous 
+	father=116	#Adrien
+	3076.7.21={ birth=yes }
+	3150.6.2={ death=yes }
+}
+118={
+	name=Napier
+	dynasty=2001
+	dna="bjolacjmlbm"
+	culture=labrynnan religion=golden_goddesses
+	martial=5 diplomacy=7 stewardship=4 intrigue=5 learning=4
+	add_trait=grey_eminence add_trait=wroth add_trait=cruel add_trait=just add_trait=kind 
+	add_trait=greedy 
+	father=117	#Volker
+	3106.3.4={ birth=yes }
+	3171.5.4={ death=yes }
+}
+119={
+	name=Oanez
+	dynasty=2001
+	dna="bbdliejmpfk"
+	culture=labrynnan religion=golden_goddesses
+	martial=4 diplomacy=5 stewardship=8 intrigue=6 learning=6
+	add_trait=martial_cleric add_trait=brave add_trait=content add_trait=gluttonous add_trait=cruel 
+	add_trait=paranoid 
+	father=118	#Napier
+	3127.3.22={ birth=yes }
+	3194.1.29={ death=yes }
+}
+120={
+	name=Aldous
+	dynasty=2001
+	dna="becliejmpmk"
+	culture=labrynnan religion=golden_goddesses
+	martial=5 diplomacy=4 stewardship=7 intrigue=7 learning=8
+	add_trait=naive_appeaser add_trait=hunter add_trait=gluttonous add_trait=kind 
+	father=119	#Oanez
+	3150.4.9={ birth=yes }
+	3223.9.14={ death=yes }
+}
+122={
+	name=Serafeim
+	dynasty=2001
+	dna="feaiiijmjad"
+	culture=labrynnan religion=golden_goddesses
+	martial=5 diplomacy=6 stewardship=5 intrigue=8 learning=8
+	add_trait=misguided_warrior add_trait=just add_trait=temperate add_trait=gregarious add_trait=brave 
+	add_trait=envious add_trait=drunkard 
+	father=120	#Aldous
+	3177.6.3={ birth=yes }
+	3229.9.27={ death=yes }
+}
+123={
+	name=Haris
+	dynasty=2001
+	dna="oelgiijibbm"
+	culture=labrynnan religion=golden_goddesses
+	martial=7 diplomacy=5 stewardship=8 intrigue=8 learning=6
+	add_trait=midas_touched add_trait=zealous add_trait=deceitful add_trait=cruel add_trait=greedy 
+	add_trait=proud add_trait=brave 
+	father=122	#Serafeim
+	3207.1.8={ birth=yes }
+	3275.5.25={ death=yes }
+}
+124={
+	name=Carsten
+	dynasty=2001
+	dna="dpogdijibbm"
+	culture=labrynnan religion=golden_goddesses
+	martial=7 diplomacy=4 stewardship=6 intrigue=8 learning=5
+	add_trait=tough_soldier add_trait=wroth add_trait=cynical add_trait=envious add_trait=slothful 
+	add_trait=ill 
+	father=123	#Haris
+	3237.10.11={ birth=yes }
+	3311.10.7={ death=yes }
+}
+125={
+	name=Gefrey
+	dynasty=2001
+	dna="ipogpidjnbg"
+	culture=labrynnan religion=golden_goddesses
+	martial=8 diplomacy=4 stewardship=5 intrigue=5 learning=6
+	add_trait=flamboyant_schemer add_trait=paranoid add_trait=envious add_trait=wroth add_trait=content 
+	add_trait=lunatic 
+	father=124	#Carsten
+	3263.2.22={ birth=yes }
+	3335.2.11={ death=yes }
+}
+126={
+	name=Oanez
+	dynasty=2001
+	dna="nglfpihpnkm"
+	culture=labrynnan religion=golden_goddesses
+	martial=6 diplomacy=4 stewardship=8 intrigue=4 learning=5
+	add_trait=intricate_webweaver add_trait=humble add_trait=shy add_trait=cynical add_trait=ambitious 
+	add_trait=patient add_trait=temperate 
+	father=125	#Gefrey
+	3282.10.25={ birth=yes }
+	3369.11.6={ death=yes }
+}
+#calatia
+108 = {
+	name=Kewe
+	disallow_random_traits = yes 	
+	dynasty=7001
+	female = yes
+	religion=hylia_religion
+	culture=skylofter
+	trait=race_hylian
+	2958.1.1={
+		birth=yes
+	}
+	2974.1.1={
+		add_matrilineal_spouse = 109
+	}
+	2980.1.1={
+		death={death_reason=death_childbirth}
+	}
+}
+109 = {
+	name=Sparrot
+	disallow_random_traits = yes 	
+	religion=hylia_religion
+	culture=skylofter
+	trait=race_hylian
+	2958.1.1={
+		birth=yes
+	}
+	2974.1.1={
+		add_matrilineal_spouse = 108
+	}
+	2980.1.1={
+		death={death_reason=death_childbirth}
+	}
+}
+110 = {
+	name=Orielle
+	disallow_random_traits = yes 	
+	dynasty=7001
+	female = yes
+	religion=hylia_religion
+	culture=skylofter
+	trait=race_hylian
+	trait=lustful
+	mother=108
+	father=109
+	2980.1.1={
+		birth=yes
+	}
+	3058.1.1={
+		death=yes
+	}
+}
+127={
+	name=Gordan
+	dynasty=7001
+	dna="cpmglkaomne"
+	culture=calatia religion=golden_goddesses
+	martial=8 diplomacy=6 stewardship=8 intrigue=7 learning=7
+	add_trait=indulgent_wastrel add_trait=kind add_trait=slothful add_trait=proud add_trait=possessed 
+	mother=110
+	3001.5.26={ birth=yes }
+	3076.4.22={ death=yes }
+}
+128={
+	name=Danijel
+	dynasty=7001
+	dna="cdphlkaamme"
+	culture=calatia religion=golden_goddesses
+	martial=5 diplomacy=5 stewardship=7 intrigue=7 learning=7
+	add_trait=flamboyant_schemer add_trait=envious add_trait=deceitful 
+	father=127	#Gordan
+	3025.5.22={ birth=yes }
+	3072.4.24={ death=yes }
+}
+129={
+	name=Eduard
+	dynasty=7001
+	dna="cdacdkgjmff"
+	culture=calatia religion=golden_goddesses
+	martial=5 diplomacy=4 stewardship=5 intrigue=7 learning=4
+	add_trait=detached_priest add_trait=mystic add_trait=charitable add_trait=kind add_trait=deceitful 
+	father=128	#Danijel
+	3046.1.10={ birth=yes }
+	3109.11.2={ death=yes }
+}
+130={
+	name=Arn
+	dynasty=7001
+	dna="ijllkjgedpf"
+	culture=calatia religion=golden_goddesses
+	martial=7 diplomacy=5 stewardship=8 intrigue=7 learning=7
+	add_trait=charismatic_negotiator add_trait=humble add_trait=envious add_trait=zealous add_trait=cruel 
+	father=129	#Eduard
+	3074.11.15={ birth=yes }
+	3125.1.12={ death=yes }
+}
+131={
+	name=Lovro
+	dynasty=7001
+	dna="ihpaemncdmh"
+	culture=calatia religion=golden_goddesses
+	martial=6 diplomacy=8 stewardship=7 intrigue=4 learning=5
+	add_trait=misguided_warrior add_trait=diligent add_trait=temperate add_trait=kind add_trait=cruel 
+	add_trait=ambitious add_trait=craven 
+	father=130	#Klaudio
+	3125.3.6={ birth=yes }
+	3193.6.20={ death=yes }
+}
+132={
+	name=Lucijan
+	dynasty=7001
+	dna="mnkkepgcdfh"
+	culture=calatia religion=golden_goddesses
+	martial=6 diplomacy=4 stewardship=6 intrigue=7 learning=7
+	add_trait=charismatic_negotiator add_trait=just add_trait=shy add_trait=cynical add_trait=humble 
+	add_trait=wroth add_trait=cruel 
+	father=131	#Lovro
+	3150.8.7={ birth=yes }
+	3212.3.25={ death=yes }
+}
+133={
+	name=Nebojsea
+	dynasty=7001
+	dna="obkkecdcehl"
+	culture=calatia religion=golden_goddesses
+	martial=5 diplomacy=8 stewardship=5 intrigue=8 learning=6
+	add_trait=detached_priest add_trait=honest add_trait=cruel add_trait=zealous add_trait=craven 
+	father=132	#Lucijan
+	3172.12.5={ birth=yes }
+	3217.6.14={ death=yes }
+}
+134={
+	name=Simo
+	dynasty=7001
+	dna="abkiecocehl"
+	culture=calatia religion=golden_goddesses
+	martial=4 diplomacy=4 stewardship=6 intrigue=4 learning=8
+	add_trait=detached_priest add_trait=charitable add_trait=craven add_trait=arbitrary add_trait=chaste 
+	add_trait=cruel 
+	father=133	#Nebojsea
+	3207.8.1={ birth=yes }
+	3270.1.20={ death=yes }
+}
+135={
+	name=Kreso
+	dynasty=7001
+	dna="fbkheioceno"
+	culture=calatia religion=golden_goddesses
+	martial=8 diplomacy=8 stewardship=6 intrigue=8 learning=7
+	add_trait=detached_priest add_trait=slothful add_trait=cruel 
+	father=134	#Simo
+	3228.8.25={ birth=yes }
+	3284.6.5={ death=yes }
+}
+#hoho
+111 = {
+	name=Parrow
+	disallow_random_traits = yes 	
+	dynasty=7001
+	religion=hylia_religion
+	culture=skylofter
+	trait=race_hylian
+	trait=robust
+	trait=tall
+	mother=108
+	father=109
+	2974.1.1={
+		birth=yes
+	}
+	3000.1.1={
+		add_matrilineal_spouse = 113
+	}
+	3042.1.1={
+		death=yes
+	}
+}
+112 = {
+	name=Peater
+	disallow_random_traits = yes 		
+	dynasty=5435
+	religion=hylia_religion
+	culture=skylofter
+	trait=race_hylian
+	2958.1.1={
+		birth=yes
+	}
+	3001.1.1={
+		death={death_reason=death_battle}
+	}
+}
+113 = {
+	name=Peatrice
+	disallow_random_traits = yes 		
+	dynasty=5435
+	female=yes
+	religion=hylia_religion
+	culture=skylofter
+	trait=race_hylian
+	trait=slothful
+	father=112
+	2979.1.1={
+		birth=yes
+	}
+	3000.1.1={
+		add_matrilineal_spouse = 111
+	}
+	3043.1.1={
+		death={death_reason=death_battle}
+	}
+}
+136={
+	name=Solvi
+	dynasty=5435
+	dna="mbleegiildf"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=6 stewardship=6 intrigue=7 learning=5
+	add_trait=martial_cleric add_trait=deceitful add_trait=wroth 
+	mother=113
+	father=111
+	3004.12.16={ birth=yes }
+	3055.6.6={ death=yes }
+}
+137={
+	name=Helge
+	dynasty=5435
+	dna="mbeeadcplnf"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=5 stewardship=8 intrigue=4 learning=7
+	add_trait=scholarly_theologian add_trait=lustful add_trait=patient add_trait=deceitful add_trait=drunkard 
+	father=136	#Solvi
+	3029.2.25={ birth=yes }
+	3094.7.14={ death=yes }
+}
+138={
+	name=Rieti
+	dynasty=5435
+	dna="jgleaccpbnc"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=7 stewardship=8 intrigue=4 learning=6
+	add_trait=flamboyant_schemer add_trait=humble add_trait=envious 
+	father=137	#Helge
+	3056.10.19={ birth=yes }
+	3116.4.28={ death=yes }
+}
+139={
+	name=Kare
+	dynasty=5435
+	dna="jndeaahbhnc"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=6 stewardship=6 intrigue=4 learning=6
+	add_trait=detached_priest add_trait=diligent add_trait=paranoid add_trait=deceitful add_trait=craven 
+	add_trait=humble 
+	father=138	#Rieti
+	3080.4.1={ birth=yes }
+	3130.11.21={ death=yes }
+}
+140={
+	name=Torsten
+	dynasty=5435
+	dna="dededmhehkc"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=4 stewardship=8 intrigue=8 learning=5
+	add_trait=grey_eminence add_trait=duelist add_trait=gregarious add_trait=cruel add_trait=stressed 
+	father=139	#Kare
+	3102.6.5={ birth=yes }
+	3151.3.8={ death=yes }
+}
+141={
+	name=Bo
+	dynasty=5435
+	dna="kedekfhekoc"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=5 stewardship=8 intrigue=5 learning=7
+	add_trait=martial_cleric add_trait=patient add_trait=cruel add_trait=ill 
+	father=140	#Torsten
+	3137.11.1={ birth=yes }
+	3210.7.3={ death=yes }
+}
+142={
+	name=Valentin
+	dynasty=5435
+	dna="lmdlpfhekoj"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=6 stewardship=8 intrigue=6 learning=5
+	add_trait=intricate_webweaver add_trait=paranoid add_trait=kind 
+	father=141	#Bo
+	3163.10.10={ birth=yes }
+	3220.9.27={ death=yes }
+}
+143={
+	name=Guttorm
+	dynasty=5435
+	dna="lfdcpfdlkob"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=5 stewardship=5 intrigue=4 learning=7
+	add_trait=indulgent_wastrel add_trait=greedy add_trait=cruel add_trait=gluttonous add_trait=just 
+	add_trait=wounded 
+	father=142	#Valentin
+	3189.7.27={ birth=yes }
+	3253.9.18={ death=yes }
+}
+144={
+	name=Hoiger
+	dynasty=5435
+	dna="lbnclkdlkob"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=8 stewardship=5 intrigue=7 learning=6
+	add_trait=detached_priest add_trait=cruel add_trait=humble add_trait=envious 
+	father=143	#Guttorm
+	3218.2.1={ birth=yes }
+	3286.12.22={ death=yes }
+}
+145={
+	name=Kolbein
+	dynasty=5435
+	dna="lbkclkplhob"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=8 stewardship=4 intrigue=4 learning=6
+	add_trait=charismatic_negotiator add_trait=cruel add_trait=patient add_trait=lunatic 
+	father=144	#Hoiger
+	3248.2.1={ birth=yes }
+	3317.11.18={ death=yes }
+}
+146={
+	name=Torbrand
+	dynasty=5435
+	dna="dieclbknhoi"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=6 stewardship=5 intrigue=5 learning=7
+	add_trait=midas_touched add_trait=patient add_trait=cynical add_trait=proud add_trait=diligent 
+	add_trait=gregarious 
+	father=145	#Kolbein
+	3279.3.13={ birth=yes }
+	3348.12.10={ death=yes }
+}
+147={
+	name=Valdemar
+	dynasty=5435
+	dna="diknfbgnpom"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=4 stewardship=5 intrigue=4 learning=8
+	add_trait=midas_touched add_trait=impaler add_trait=humble add_trait=wroth add_trait=greedy 
+	father=146	#Torbrand
+	3308.12.15={ birth=yes }
+	3392.10.3={ death=yes }
+}
 
 
 

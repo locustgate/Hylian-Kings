@@ -556,6 +556,108 @@ guardian_deity = {
 		religious_clothing_priest = 1
 		
 	} 
+	seasons_religion = {
+		graphical_culture = norsegfx
+		parent=great_maku
+
+		icon = 24
+		heresy_icon = 25
+		
+		color = { 0.6 0.8 0.2 }
+
+
+		priests_can_inherit = no
+		priests_can_marry = yes 
+ 		female_temple_holders = yes
+		
+
+		scripture_name = MAKU_SONG
+		priest_title = SHAMAN
+		
+		high_god_name = GOD_SEASON_SPIRITS
+		
+		god_names = {
+			GOD_SEASONS_SPIRITS GOD_WINTER GOD_SPRING GOD_AUTUMN GOD_SUMMER ROD_OF_SEASONS
+		}
+		evil_god_names = {
+				GOD_DEMON_KING
+		}
+		intermarry = goddesses_religion
+		intermarry = great_deku
+		intermarry = great_fairies		
+		
+		religious_clothing_head = 1
+		religious_clothing_priest = 1
+		
+	} 
+	oracles_religion = {
+		graphical_culture = westerngfx
+		parent=great_maku
+
+		icon = 24
+		heresy_icon = 25
+		
+		color = { 0.6 0.8 0.2 }
+
+
+		priests_can_inherit = no
+		priests_can_marry = yes 
+ 		female_temple_holders = yes
+		
+
+		scripture_name = MAKU_SONG
+		priest_title = MYSTIC
+		
+		high_god_name = GOD_ORACLES
+		
+		god_names = {
+			GOD_ORACLES GOD_DIN GOD_NAYRU GOD_FARORE
+		}
+		evil_god_names = {
+				GOD_DEMON_KING
+		}
+		intermarry = goddesses_religion
+		intermarry = great_deku
+		intermarry = great_fairies		
+		
+		religious_clothing_head = 1
+		religious_clothing_priest = 1
+		
+	} 
+	tuni_nut = {
+		graphical_culture = westerngfx
+		parent=great_maku
+
+		icon = 24
+		heresy_icon = 25
+		
+		color = { 0.6 0.8 0.2 }
+
+
+		priests_can_inherit = no
+		priests_can_marry = yes 
+ 		female_temple_holders = yes
+		
+
+		scripture_name = MAKU_SONG
+		priest_title = SHAMAN
+		
+		high_god_name = GOD_TUNI_NUT
+		
+		god_names = {
+			GOD_TUNI_NUT
+		}
+		evil_god_names = {
+				GOD_DEMON_KING
+		}
+		intermarry = goddesses_religion
+		intermarry = great_deku
+		intermarry = great_fairies		
+		
+		religious_clothing_head = 1
+		religious_clothing_priest = 1
+		
+	} 
 	mother_mountain = {
 		graphical_culture = norsegfx
 
