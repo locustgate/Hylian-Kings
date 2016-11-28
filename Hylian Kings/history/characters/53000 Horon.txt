@@ -1,0 +1,126 @@
+53000={#d
+	name=Ivan
+	dynasty=1610
+	dna="ljkidkbhbdh"
+	culture=horon religion=great_maku
+	martial=6 diplomacy=5 stewardship=6 intrigue=7 learning=5
+	add_trait=skilled_tactician add_trait=kind add_trait=content add_trait=craven 
+	3329.4.14={ birth=yes }
+	3353.1.1={add_spouse=53006}
+	3397.9.2={ death=yes }
+}
+53001={
+	name=Ace
+	dynasty=1610
+	dna="kpknhkhaboo"
+	culture=horon religion=great_maku
+	martial=4 diplomacy=7 stewardship=8 intrigue=6 learning=8
+	add_trait=flamboyant_schemer add_trait=chaste add_trait=temperate add_trait=trusting add_trait=honest 
+	add_trait=zealous 
+	father=53000	#Ivan
+	3354.9.11={ birth=yes }
+	3375.1.1={add_spouse=53011}
+	3406.2.9={ death=yes }
+}
+53002={
+	name=Paige
+	female=yes
+	dynasty=1610
+	dna="djomkhbhahh"
+	culture=horon religion=great_maku
+	father=53000	#Ivan
+	mother=53006
+	3356.3.5={ birth=yes }
+	3442.6.3={ death=yes }
+}
+53003={
+	name=Frey
+	dynasty=1610
+	dna="kpknckeaeoc"
+	culture=horon religion=great_maku
+	martial=4 diplomacy=7 stewardship=7 intrigue=8 learning=8
+	add_trait=flamboyant_schemer add_trait=brave add_trait=temperate add_trait=proud add_trait=charitable 
+	father=53001	#Ace
+	mother=53011
+	3377.6.6={ birth=yes }
+	3437.9.22={ death=yes }
+}
+53004={
+	name=Terri
+	female=yes
+	dynasty=1610
+	dna="kphnhoiacno"
+	culture=horon religion=great_maku
+	father=53001	#Ace
+	mother=53011
+	3380.9.25={ birth=yes }
+	3435.12.24={ death=yes }
+}
+53005={
+	name=Hollis
+	female=yes
+	dynasty=1610
+	dna="kpkdhehaboo"
+	culture=horon religion=great_maku
+	father=53001	#Ace
+	mother=53011
+	3385.3.25={ birth=yes }
+	3454.10.17={ death=yes }
+}
+53006={#d
+	name=Ivan
+	female=yes
+	culture=horon religion=great_maku
+	3329.4.14={ birth=yes }
+	3353.1.1={add_spouse=53000}
+	3397.9.2={ death=yes }
+}
+53007={#c
+	name=Kegan
+	dynasty=1615
+	dna="jefocjgbnnm"
+	culture=horon religion=great_maku
+	martial=8 diplomacy=4 stewardship=7 intrigue=8 learning=5
+	add_trait=indulgent_wastrel add_trait=greedy add_trait=just add_trait=ambitious add_trait=gregarious 
+	3367.6.6={ birth=yes }
+	3413.10.8={ death=yes }
+}
+53008={#c
+	name=Yngvi
+	dynasty=1620
+	dna="fdkjnkedjka"
+	culture=horon religion=great_maku
+	martial=7 diplomacy=8 stewardship=6 intrigue=4 learning=8
+	add_trait=detached_priest add_trait=craven add_trait=cynical 
+	3366.4.1={ birth=yes }
+	3434.8.4={ death=yes }
+}
+53009={#c
+	name=Wil
+	dynasty=1625
+	dna="lnjbafpeknk"
+	culture=horon religion=great_maku
+	martial=8 diplomacy=6 stewardship=4 intrigue=6 learning=8
+	add_trait=tough_soldier add_trait=cynical add_trait=trusting add_trait=humble add_trait=honest 
+	add_trait=brave 
+	3366.11.19={ birth=yes }
+	3430.12.16={ death=yes }
+}
+53010={#c
+	name=Sindri
+	dynasty=1630
+	dna="kgjhcllgiem"
+	culture=horon religion=great_maku
+	martial=6 diplomacy=8 stewardship=5 intrigue=6 learning=8
+	add_trait=martial_cleric add_trait=hedonist add_trait=paranoid add_trait=envious 
+	3366.7.1={ birth=yes }
+	3413.12.6={ death=yes }
+}
+53011={
+	name=Holley
+	female=yes
+	culture=horon religion=great_maku
+	3354.9.11={ birth=yes }
+	3375.1.1={add_spouse=53001}
+	3406.2.9={ death=yes }
+}

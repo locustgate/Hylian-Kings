@@ -4,16 +4,19 @@
 	 
 	dna="ddggc0head0"
 	properties="na0laebebbbb"
-	dynasty=none
+	
 	religion=water_spirit
 	culture=lake_zora
 	trait=race_zora
 	trait=scholarly_theologian
 	trait=lustful
 	trait=erudite
-	trait=celibite
+	trait=celibate
 	3351.2.28={
 		birth=yes
+	}
+	3417.1.1={
+		death=yes
 	}
 }
 
@@ -49,19 +52,14 @@
 	3345.11.10 = {
 		add_spouse=1054
 	}
-	3370.7.19 = {
-		remove_lover = 1053
-	}
 	3388.7.19={
 		death=yes
 	}
 }
 1053 = { 
 	name=Nautia
-	disallow_random_traits = yes 
-	
-	female=yes
-	dynasty=none
+	disallow_random_traits = yes 	
+	female=yes	
 	diplomacy=8
 	martial=4
 	intrigue=11
@@ -80,9 +78,7 @@
 	3343.12.1 = {
 		add_lover = 1052
 	}
-	3370.7.19 = {
-		remove_lover = 1052
-	}
+	3389.1.1={death=yes}
 }
 1054 = { 
 	name=Udi
@@ -128,17 +124,19 @@
 	trait=race_zora
 	trait=bloodline_debon
 	trait=bastard
-	trait=decietful
+	trait=deceitful
 	trait=fair
-	trait=frail
+	trait=feeble
 	3348.7.19 = {
 		birth=yes
+	}
+	3383.1.1={
+		death=yes
 	}
 }
 1056 = {
 	female = yes
-	name=Elo
-	
+	name=Elo	
 	disallow_random_traits = yes
 	dynasty=633
 	father=1052
@@ -155,6 +153,9 @@
 	trait=robust
 	3353.2.24 = {
 		birth=yes
+	}
+	3410.1.1={
+		death=yes
 	}
 }
 1057 = {
@@ -173,9 +174,11 @@
 	trait=robust
 	trait=gluttonous
 	trait=cynical
-	trait=robust
 	3358.2.24 = {
 		birth=yes
+	}
+	3420.1.1={
+		death=yes
 	}
 }
 1058 = { 
@@ -286,7 +289,7 @@
 	trait=race_zora
 	trait=kind
 	trait=lustful
-	trait=decietful
+	trait=deceitful
 	3362.2.14={
 		birth=yes
 	}
@@ -313,7 +316,7 @@
 	trait=race_zora
 	trait=kind
 	trait=lustful
-	trait=decietful
+	trait=deceitful
 	3366.8.7={
 		birth=yes
 	}
@@ -338,7 +341,6 @@
 }
 4001={
 	name=Ceto
-	female=yes
 	dynasty=601
 	dna="hkefoeajlcm"
 	culture=lake_zora religion=water_spirit
@@ -373,6 +375,7 @@
 4004={
 	name=Zora
 	culture=lake_zora religion=water_spirit
+	female=yes
 	3356.12.23={ birth=yes }
 	3374.1.1={ add_spouse = 4001}
 	3441.12.12={ death=yes }
@@ -478,7 +481,7 @@
 	3431.10.20={ death=yes }
 }
 4014={
-	Name=Lala
+	name=Lala
 	female=yes
 	culture=lake_zora
 	religion=water_spirit
@@ -502,7 +505,7 @@
 	dna="bcnhonncmej"
 	culture=lake_zora religion=water_spirit
 	martial=8 diplomacy=5 stewardship=4 intrigue=5 learning=8
-	add_trait=elusive_shadow add_trait=celibite add_trait=trusting add_trait=lustful add_trait=gluttonous 
+	add_trait=elusive_shadow add_trait=celibate add_trait=trusting add_trait=lustful add_trait=gluttonous 
 	add_trait=shy add_trait=cruel 
 	3362.5.24={ birth=yes }
 	3433.2.16={ death=yes }
@@ -554,7 +557,7 @@
 	3438.5.14={ death=yes }
 }
 4021={
-	Name=Mira
+	name=Mira
 	female=yes
 	culture=lake_zora
 	religion=water_spirit
@@ -600,7 +603,7 @@
 }
 
 4025={
-	Name=Mira
+	name=Mira
 	female=yes
 	culture=lake_zora
 	religion=water_spirit
@@ -627,7 +630,7 @@ name=Paphal
 	martial=8 diplomacy=6 stewardship=6 intrigue=5 learning=7
 	add_trait=naive_appeaser add_trait=ambitious add_trait=arbitrary add_trait=greedy add_trait=humble 
 	3342.2.16={ birth=yes }
-	3371.1.={add_spouse=4032}
+	3371.1.1={add_spouse=4032}
 	3403.9.20={ death=yes }
 }
 4028={
@@ -685,7 +688,7 @@ name=Paphal
 	female=yes
 	culture=lake_zora religion=water_spirit
 	3354.1.1={ birth=yes }
-	3371.1.={add_spouse=4027}
+	3371.1.1={add_spouse=4027}
 	3429.6.10={ death=yes }
 }
 

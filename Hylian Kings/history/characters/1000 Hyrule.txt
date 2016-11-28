@@ -22,19 +22,15 @@
 	trait=gregarious
 	trait=patron_din
 	prestige=500
-	money=100
 	3367.10.18={
 		birth=yes
-	}
-	3381.1.1 = {
-		add_friend = 1010
 	}
 	3385.4.30 = {
 		add_spouse=1009
 	}
 	3425.1.1={
 		death={
-			death_reason=death_depression
+			death_reason=death_suicide_fall
 		}
 	}
 }
@@ -50,11 +46,14 @@
 	religion=golden_goddesses
 	culture=hyrulean
 	trait=race_hylian
-	trait=attractive
-	trait=goddess_soul
+	trait=fair
+	trait=hylia_soul
 	trait=bloodline_goddess
 	3386.4.18={
 		birth=yes
+	}
+	3455.9.29={
+		death=yes
 	}
 }
 #1002 zelda's brother
@@ -71,6 +70,9 @@
 	3391.5.2={
 		birth=yes
 	}
+	3469.9.29={
+		death=yes
+	}
 }
 1004 = {
 	name=Potho
@@ -84,6 +86,9 @@
 	trait=bloodline_goddess
 	3399.7.26={
 		birth=yes
+	}
+	3460.9.29={
+		death=yes
 	}
 }
 
@@ -113,9 +118,6 @@
 	trait=patron_din
 	3358.2.10={
 		birth=yes
-	}
-	3381.1.1 = {
-		add_friend = 1000
 	}
    3385.10.16 = {
 		add_spouse=1011
@@ -164,6 +166,9 @@
 	trait=race_hylian
 	3386.9.28={
 		birth=yes
+	}
+	3433.9.29={
+		death=yes
 	}
 }
 1013 = {
@@ -220,9 +225,10 @@
 	culture=hyrulean
 	trait=race_hylian
 	trait=fair
-	3384.9.26={
+	3386.9.26={
 		birth=yes
 	}
+	3451.1.1={death=yes}
 }
 
 1035 = { #gerudo gate
@@ -244,6 +250,7 @@
 	3369.3.24={
 		birth=yes
 	}
+	3422.1.1={death=yes}
 }
 1036 = { #west fields former rebel leader against gerudos
 	name=Beedle
@@ -274,6 +281,7 @@
 	3384.4.7={
 		add_spouse = 1037
 	}
+	3414.1.1={death=yes}
 }
 1037 = { 
 	name=Ashei
@@ -294,6 +302,7 @@
 	3384.4.7={
 		add_spouse = 1036
 	}
+	3414.1.1={death=yes}
 }
 1038 = { 
 	name=Baris
@@ -307,6 +316,7 @@
 	3386.2.7={
 		birth=yes
 	}
+	3434.1.1={death=yes}
 }
 1039 = { #south+southwest 
 	name=Hagen
@@ -326,8 +336,9 @@
 		birth=yes
 	}
 	3361.4.22={
-		add_spouse = 1037
+		add_spouse = 1040
 	}
+	3407.1.1={death=yes}
 }
 1040 = { 
 	name=Verona
@@ -340,7 +351,7 @@
 	culture=hyrulean
 	trait=elusive_shadow
 	trait=race_hylian
-	trait=frail
+	trait=feeble
 	trait=drunkard
 	trait=fair
 	trait=shrewd
@@ -350,6 +361,7 @@
 	3361.4.22={
 		add_spouse = 1039
 	}
+	3406.1.1={death=yes}
 }
 1041 = {
 	name=Jim
@@ -392,19 +404,20 @@
 	trait=chaste
 	trait=humble
 	trait=nun
-	trait=celibite
+	trait=celibate
 	3362.12.22={
 		birth=yes
 	}
 	3378.12.26={
 		add_spouse = 1041
 	}
+	3414.1.1={death=yes}
 }
 1043 = {
 	name=Klaus
 	 
-	mother=1041
-	father=1042
+	mother=1042
+	father=1041
 	dna="aebaf0ieac0"
 	properties="mi0fckbebbbb"
 	dynasty=84
@@ -417,6 +430,7 @@
 	3380.5.13={
 		birth=yes
 	}
+	3431.1.1={death=yes}
 }
 1044 = {
 	name=Sue
@@ -441,6 +455,7 @@
 	3381.12.26={
 		add_spouse = 1046
 	}
+	3410.1.1={death=yes}
 }
 1045 = {
 	name=Klaus
@@ -462,6 +477,7 @@
 	3369.9.28={
 		birth=yes
 	}
+	3416.1.1={death=yes}
 }
 1046  = { #bridge and lakeside
 	name=Gorman
@@ -483,13 +499,12 @@
 	3381.12.26={
 		add_spouse = 1044
 	}
+	3411.1.1={death=yes}
 }
 1047  = { #sun island
-	name=Rem
-	 
+	name=Rem	 
 	dna="dgkad0fcdc0"
 	properties="aj0hbebebbbb"
-	dynasty=none
 	religion=golden_goddesses
 	culture=hyrulean
 	trait=race_hylian
@@ -500,13 +515,12 @@
 	3365.3.4={
 		birth=yes
 	}
+	3416.1.1={death=yes}
 }
 1049  = { #castle city
-	name=Gulley
-	
+	name=Gulley	
 	dna="abgmh0mfbc0"
 	properties="ng0hfhbebbbb"
-	dynasty=none
 	religion=golden_goddesses
 	culture=hyrulean
 	trait=race_hylian
@@ -517,6 +531,7 @@
 	3362.1.18={
 		birth=yes
 	}
+	3409.1.1={death=yes}
 }
 1050  = { #castle city gate and gastle road
 	name=Dotour
@@ -536,6 +551,7 @@
 	3367.5.11={
 		birth=yes
 	}
+	3414.1.1={death=yes}
 }
 1051  = { #sacred grove
 	name=Shikashi
@@ -556,12 +572,12 @@
 	3369.9.8={
 		birth=yes
 	}
+	3420.1.4={death=yes}
 }
 1072 = { 
 	name=Tetralyna
 	female=yes
-	disallow_random_traits = yes 
-	
+	disallow_random_traits = yes 	
 	dynasty=1
 	father=27
 	diplomacy=13
@@ -582,6 +598,7 @@
 	3366.7.18={
 		birth=yes
 	}	
+	3423.9.14={death=yes}
 }
 1260={
 	name=Swiftblade

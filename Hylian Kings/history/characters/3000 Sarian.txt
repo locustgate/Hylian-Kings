@@ -26,6 +26,9 @@
 	3377.1.1={
 		add_spouse=1165
 	}
+	3420.1.1={
+		death=yes
+	}
 }
 1165 = { 
 	name=Rus
@@ -86,14 +89,17 @@
 	religion=golden_goddesses
 	culture=sarian
 	trait=race_human
-	trait=decietful
+	trait=deceitful
 	trait=erudite
-	trait=frail
-	trait=coward
+	trait=feeble
+	trait=craven
 	trait=ambitious
 	trait=cynical
 	3369.7.16={
 		birth=yes
+	}
+	3424.1.1={
+		death=yes
 	}
 }
 1168 = { 
@@ -113,10 +119,13 @@
 	trait=greedy
 	trait=weak
 	trait=shrewd
-	trait=conent
+	trait=content
 	trait=chaste
 	3370.2.24={
 		birth=yes
+	}
+	3429.1.1={
+		death=yes
 	}
 }
 1169 = { 
@@ -134,13 +143,16 @@
 	religion=golden_goddesses
 	culture=sarian
 	trait=race_human
-	trait=coward
+	trait=craven
 	trait=robust
 	trait=gregarious
-	trait=conent
+	trait=content
 	trait=lustful
 	3371.1.14={
 		birth=yes
+	}
+	3431.1.1={
+		death=yes
 	}
 }
 1170={
