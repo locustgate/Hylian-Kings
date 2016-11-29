@@ -42,6 +42,7 @@
 	3374.3.16 = {
 	add_spouse = 1016 
 	}
+	3414.1.1={death=yes}
 }
 1018 = {
 	name=Dram
@@ -76,6 +77,7 @@
 	3374.12.28={
 		birth=yes
 	}
+	3437.1.1={death=yes}
 }
 1020 = {
 	name=Horgum
@@ -136,14 +138,11 @@
 	culture=koridain
 	trait=race_hylian
 	trait=fair
-	trait=frail
+	trait=feeble
 	trait=underhanded_rogue
 	trait=honest
 	3362.4.16 = {
 		birth=yes
-	}
-	3378.4.17 = { 
-		add_spouse = 1028
 	}
 	3385.1.1 = {
 		add_trait = scarred
@@ -151,6 +150,7 @@
 	3385.1.1 = { 
 		add_spouse = 1030
 	}
+	3417.1.1={death=yes}
 }
 1023 = {
 	name=Onak
@@ -215,46 +215,11 @@
 	dynasty=9812
 	father=1020
 	mother=1021
-	host=1017
 	religion=golden_goddesses
 	culture=koridain
 	trait=race_hylian
 	3379.9.15 = {
 		birth=yes
 	}
-}
-1028 = {
-	name=Otum
-	
-	dynasty=9824
-	father=1020
-	mother=1021
-	religion=golden_goddesses
-	culture=koridain
-	trait=race_hylian
-	3379.9.15 = {
-		birth=yes
-	}
-	3378.4.17 = { 
-		add_spouse = 1022
-	}
-	3385.1.1 = { 
-		death = { death_reason = death_execution killer=1030 }
-	}
-}
-1029 = {
-	name=Horgum
-	
-	dynasty=9824
-	father=1028
-	mother=1022
-	religion=golden_goddesses
-	culture=koridain
-	trait=race_hylian
-	3381.7.4 = {
-		birth=yes
-	}
-	3385.4.2 = { 
-		death = { death_reason = death_execution killer = 1030 }
-	}
+	3440.1.1={death=yes}
 }

@@ -41,6 +41,7 @@
 		birth=yes
 	}
 	3377.1.1={ add_spouse = 1093 }
+	3421.1.1={ death=yes }
 }
 1095 = {
 	name=Bos
@@ -54,6 +55,7 @@
 	3380.4.2={
 		birth=yes
 	}
+	3421.1.1={ death=yes }
 }
 1096 = {
 	name=Ralus
@@ -67,6 +69,7 @@
 	3382.5.1={
 		birth=yes
 	}
+	3431.1.1={ death=yes }
 }
 1097 = {
 	name=Velba
@@ -81,6 +84,7 @@
 	3385.6.3={
 		birth=yes
 	}
+	3436.1.1={ death=yes }
 }
 1098 = {
 	name=Vubos
@@ -94,6 +98,7 @@
 	3386.10.1={
 		birth=yes
 	}
+	3438.1.1={ death=yes }
 }
 1123 = {#south west and gorge
 	name=Rib
@@ -114,6 +119,7 @@
 	3361.8.14={
 		birth=yes
 	}
+	3416.1.1={ death=yes }
 }
 1124 = {#d central
 	name=Bodir
@@ -129,10 +135,10 @@
 	culture=bulblin
 	trait=charismatic_negotiator
 	trait=race_bulblin
-	trait=decietful
+	trait=deceitful
 	trait=erudite
 	trait=strong
-	trait=patiant
+	trait=patient
 	trait=lustful
 	trait=cavalry_leader
 	3356.9.4={
@@ -141,10 +147,11 @@
 	3382.4.2={
 		add_spouse=1125
 	}
+	3409.1.1={ death=yes }
 }
 1125 = {
 	name=Bala
-	
+	female=yes
 	dynasty=4091
 	religion=demise_religion
 	culture=bulblin
@@ -156,6 +163,7 @@
 	3382.4.2={
 		add_spouse=1124
 	}
+	3426.1.1={ death=yes }
 }
 1126 = {#c south bridge
 	name=Rilir
@@ -172,6 +180,7 @@
 	3366.4.24={
 		birth=yes
 	}
+	3415.1.1={ death=yes }
 }
 1127 = {
 	name=Birir
@@ -188,6 +197,7 @@
 	3366.4.24={
 		birth=yes
 	}
+	3426.1.1={ death=yes }
 }
 1128 = {
 	name=Belar
@@ -204,6 +214,7 @@
 	3368.9.19={
 		birth=yes
 	}
+	3421.1.1={ death=yes }
 }
 6000={
 	name=Malan
@@ -285,7 +296,7 @@
 	trait=race_bulblin
 	add_trait=patient  
 	3363.11.23={ birth=yes }
-	3383.1.1={add_spouse=6006}
+	3383.1.1={add_spouse=6010}
 	3422.12.19={ death=yes }
 }
 6007={

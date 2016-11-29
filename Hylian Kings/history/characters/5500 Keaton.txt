@@ -1,8 +1,7 @@
-
 1078 = {  #keatonia freehold
 	name=Kaito
 	disallow_random_traits=yes
-	historical=yes
+	
 	diplomacy=7
 	martial=5
 	intrigue=14
@@ -13,22 +12,23 @@
 	culture=keaton
 	trait=elusive_shadow
 	trait=race_keaton
-	trait=diligant
+	trait=diligent
 	trait=cruel
 	trait=zealous
 	trait=ambitious
-	trait=decietful
+	trait=deceitful
 	3361.5.27={
 		birth=yes
 	}
 	3377.5.29 ={
 		add_spouse = 1079
 	}
+	3422.1.1={death=yes}
 }
 1079 = { 
 	name=Hana
 	female=yes
-	historical=yes
+	
 	dynasty=10421
 	religion=demise_religion
 	culture=keaton
@@ -39,10 +39,11 @@
 	3377.5.29 ={
 		add_spouse = 1078
 	}
+	3424.1.1={death=yes}
 }
 1080 = { 
 	name=Hiroto
-	historical=yes
+	
 	mother=1079
 	father=1078
 	dynasty=10401
@@ -52,10 +53,11 @@
 	3378.8.12={
 		birth=yes
 	}
+	3432.1.1={death=yes}
 }
 1081 = { 
 	name=Ichirou
-	historical=yes
+	
 	mother=1079
 	father=1078
 	dynasty=10401
@@ -65,10 +67,11 @@
 	3380.9.17={
 		birth=yes
 	}
+	3439.1.1={death=yes}
 }
 1082 = { 
 	name=Hikari
-	historical=yes
+	
 	female=yes
 	mother=1079
 	father=1078
@@ -79,10 +82,11 @@
 	3382.12.13={
 		birth=yes
 	}
+	3441.1.1={death=yes}
 }
 1083 = { 
 	name=Hiroto
-	historical=yes
+	
 	mother=1079
 	father=1078
 	dynasty=10401
@@ -92,10 +96,11 @@
 	3384.5.17={
 		birth=yes
 	}
+	3442.1.1={death=yes}
 }
 1084 = { 
 	name=Kaoru
-	historical=yes
+	
 	female=yes
 	mother=1079
 	father=1078
@@ -106,11 +111,12 @@
 	3386.12.1={
 		birth=yes
 	}
+	3443.1.1={death=yes}
 }
 1090 = {  #trillby
 	name=Katsu
 	disallow_random_traits=yes
-	historical=yes
+	
 	diplomacy=6
 	martial=14
 	intrigue=5
@@ -124,14 +130,15 @@
 	trait=brave
 	trait=cruel
 	trait=wroth
-	trait=patiant
-	trait=decietful
+	trait=patient
+	trait=deceitful
 	3361.5.27={
 		birth=yes
 	}
 	3377.5.29 ={
 		add_spouse = 1079
 	}
+	3421.1.1={death=yes}
 }
 1100 = {#keaton stok
 	name=Roles
@@ -144,4 +151,169 @@
 	3365.9.12={
 		birth=yes
 	}
+	3412.1.1={death=yes}
+}
+5500={
+	name=Takuma
+	dynasty=10415
+	dna="fmiomjkbekb"
+	culture=keaton religion=demise_religion
+	martial=7 diplomacy=6 stewardship=4 intrigue=8 learning=6
+	add_trait=flamboyant_schemer add_trait=cynical add_trait=gregarious add_trait=diligent add_trait=cruel 
+	add_trait=charitable 
+	3369.3.12={ birth=yes }
+	3434.4.9={ death=yes }
+}
+5501={
+	name=Hotaka
+	dynasty=10420
+	dna="gifipemdfhb"
+	culture=keaton religion=demise_religion
+	martial=5 diplomacy=4 stewardship=4 intrigue=7 learning=6
+	add_trait=grey_eminence add_trait=charitable add_trait=kind add_trait=cruel add_trait=craven 
+	3368.6.12={ birth=yes }
+	3420.2.17={ death=yes }
+}
+5502={
+	name=Osamu
+	dynasty=10425
+	dna="nmdnlljbmeb"
+	culture=keaton religion=baga_tree
+	martial=6 diplomacy=8 stewardship=6 intrigue=7 learning=6
+	add_trait=grey_eminence add_trait=cruel add_trait=chaste add_trait=shy add_trait=craven 
+	3329.10.18={ birth=yes }
+	3350.1.1={add_spouse=5503}
+	3380.4.9={ death=yes }
+}
+5503={
+	name=Inari
+	female=yes
+	culture=keaton religion=baga_tree
+	3331.10.18={ birth=yes }
+	3350.1.1={add_spouse=5502}
+	3380.4.9={ death=yes }
+}
+5504={
+	name=Chikako
+	female=yes
+	dynasty=10425
+	dna="nmdoplhbceb"
+	culture=keaton religion=baga_tree
+	father=5502	#Osamu
+	mother=5503
+	3354.2.11={ birth=yes }
+	3404.7.11={ death=yes }
+}
+5505={
+	name=Daisuke
+	dynasty=10425
+	dna="bmjnmhjbjgi"
+	culture=keaton religion=baga_tree
+	martial=8 diplomacy=7 stewardship=5 intrigue=7 learning=7
+	add_trait=intricate_webweaver add_trait=charitable add_trait=kind add_trait=honest add_trait=stressed 
+	father=5502	#Osamu
+	mother=5503
+	3356.5.19={ birth=yes }
+	3375.1.1={add_spouse=5512}
+	3420.4.6={ death=yes }
+}
+5506={
+	name=Jirou
+	dynasty=10425
+	dna="pmdbmkkgmeb"
+	culture=keaton religion=baga_tree
+	martial=8 diplomacy=6 stewardship=7 intrigue=6 learning=4
+	add_trait=detached_priest add_trait=humble add_trait=cynical add_trait=shy add_trait=envious 
+	add_trait=ill 
+	father=5505	#Yoshi
+	3377.11.27={ birth=yes }
+	3451.10.15={ death=yes }
+}
+5507={
+	name=Nori
+	dynasty=10425
+	dna="omdonlhbkeb"
+	culture=keaton religion=baga_tree
+	martial=6 diplomacy=6 stewardship=5 intrigue=4 learning=8
+	add_trait=midas_touched add_trait=gardener add_trait=gregarious add_trait=cruel add_trait=brave 
+	add_trait=kind 
+	father=5505	#Yoshi
+	3380.1.11={ birth=yes }
+	3430.11.22={ death=yes }
+}
+5508={
+	name=Aoi
+	female=yes
+	dynasty=10425
+	dna="hmikemkbmem"
+	culture=keaton religion=baga_tree
+	father=5505	#Yoshi
+	mother=5512
+	3381.8.27={ birth=yes }
+	3446.7.17={ death=yes }
+}
+5509={
+	name=Nori
+	dynasty=10425
+	dna="hmddfdjbmbp"
+	culture=keaton religion=baga_tree
+	martial=7 diplomacy=6 stewardship=7 intrigue=6 learning=8
+	add_trait=grey_eminence add_trait=ambitious add_trait=brave add_trait=deceitful add_trait=patient 
+	add_trait=gregarious add_trait=temperate add_trait=lunatic 
+	father=5505	#Yoshi
+	mother=5512
+	3385.6.27={ birth=yes }
+	3439.11.1={ death=yes }
+}
+5510={
+	name=Kanon
+	female=yes
+	dynasty=10425
+	dna="dpionhkbjeo"
+	culture=keaton religion=baga_tree
+	father=5505	#Yoshi
+	mother=5512
+	3388.10.1={ birth=yes }
+	3458.10.21={ death=yes }
+}
+5511={
+	name=Ryuu
+	dynasty=10430
+	dna="ncofeeflkpj"
+	culture=keaton religion=demise_religion
+	martial=8 diplomacy=7 stewardship=7 intrigue=8 learning=6
+	add_trait=martial_cleric add_trait=mystic add_trait=paranoid add_trait=wroth add_trait=greedy 
+	add_trait=arbitrary add_trait=kind 
+	3365.6.12={ birth=yes }
+	
+	3435.3.16={ death=yes }
+}
+5512={
+	name=Aiko
+	female=yes
+	culture=keaton religion=baga_tree
+	3356.5.19={ birth=yes }
+	3375.1.1={add_spouse=5505}
+	3420.4.6={ death=yes }
+}
+5513={
+	name=Aoi
+	dynasty=10435
+	dna="mpjofaggfjj"
+	culture=keaton religion=baga_tree
+	martial=8 diplomacy=8 stewardship=5 intrigue=5 learning=6
+	add_trait=midas_touched add_trait=envious add_trait=zealous add_trait=temperate add_trait=greedy 
+	add_trait=trusting 
+	3365.1.13={ birth=yes }
+	3438.11.17={ death=yes }
+}
+5514={
+	name=Ren
+	dynasty=10440
+	dna="ikeaahdelhp"
+	culture=keaton religion=baga_tree
+	martial=6 diplomacy=7 stewardship=7 intrigue=4 learning=8
+	add_trait=indulgent_wastrel add_trait=celibate add_trait=arbitrary add_trait=proud add_trait=envious 
+	3366.1.21={ birth=yes }
+	3428.4.15={ death=yes }
 }

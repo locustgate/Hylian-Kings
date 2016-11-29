@@ -67,28 +67,29 @@
 	intrigue=4
 	stewardship=10
 	learning=7
-	religion=earth_spirit
+	religion=earth_spirits
 	culture=crenel_goron
 	trait=midas_touched
 	trait=race_goron
-	trait=decietful
+	trait=deceitful
 	trait=strong
 	trait=gregarious
 	trait=greedy
-	trait=diligant
+	trait=diligent
 	3287.8.14={
 		birth=yes
 	}
 	3374.1.2 = {
 		add_spouse = 1086
 	}
+	3541.5.25={ death=yes }
 }
 1086 = { 
 	name=Dozin
 	
 	female=yes
 	dynasty=7347
-	religion=earth_spirit
+	religion=earth_spirits
 	culture=crenel_goron
 	trait=race_goron
 	3287.8.14={
@@ -97,6 +98,7 @@
 	3374.1.2 = {
 		add_spouse = 1085
 	}
+	3501.5.25={ death=yes }
 }
 1087 = { 
 	name=Amoto
@@ -104,23 +106,25 @@
 	mother=1086
 	father=1085
 	dynasty=7400
-	religion=earth_spirit
+	religion=earth_spirits
 	culture=crenel_goron
 	trait=race_goron
 	3380.2.24={
 		birth=yes
 	}
+	3690.5.25={ death=yes }
 }
 1088 = { 
 	name=Ezon
 	
 	dynasty=7348
-	religion=earth_spirit
+	religion=earth_spirits
 	culture=crenel_goron
 	trait=race_goron
 	3305.4.24={
 		birth=yes
 	}
+	3604.5.25={ death=yes }
 }
 9000={#K
 	name=Lozom

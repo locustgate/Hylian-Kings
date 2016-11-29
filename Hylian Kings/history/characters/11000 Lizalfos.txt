@@ -15,9 +15,9 @@
 	trait=wroth
 	trait=lustful
 	trait=tall
-	trait=decietful
+	trait=deceitful
 	trait=brave
-	3335.6.14={
+	3333.6.14={
 		birth=yes
 	}
 	3350.11.3 = {
@@ -32,7 +32,7 @@
 1066 = { 
 	name=Wetazu
 	disallow_random_traits = yes
-	
+	female=yes
 	dynasty=4661
 	diplomacy=14
 	martial=5
@@ -47,14 +47,15 @@
 	trait=lustful
 	trait=greedy
 	trait=proud
-	trait=decietful
-	trait=coward
-	3336.11.1={
+	trait=deceitful
+	trait=craven
+	3333.11.1={
 		birth=yes
 	}
 	3352.11.3 = {
 		add_spouse = 1065
 	}
+	3388.1.1={death=yes}
 }
 1067 = { 
 	name=Vapukupat
@@ -81,6 +82,7 @@
 	3372.11.3 = {
 		add_spouse = 1070
 	}
+	3411.1.1={death=yes}
 }
 1068 = { 
 	name=Lilos
@@ -101,10 +103,11 @@
 	trait=content
 	trait=craven
 	trait=shy
-	trait=patiant
+	trait=patient
 	3355.4.28={
 		birth=yes
 	}
+	3401.1.1={death=yes}
 }
 1069 = { 
 	name=Dirdakazo
@@ -122,8 +125,7 @@
 	trait=charismatic_negotiator
 	trait=race_lizalfos
 	trait=content
-	trait=slouthful
-	trait=content
+	trait=slothful
 	trait=brave
 	trait=tall
 	3358.7.8={
@@ -132,6 +134,7 @@
 	3380.1.3 = {
 		add_spouse = 1071
 	}
+	3407.1.1={death=yes}
 }
 1070 = { 
 	name=Konat
@@ -152,6 +155,7 @@
 	3372.11.3 = {
 		add_spouse = 1067
 	}
+	3428.1.1={death=yes}
 }
 1071 = { 
 	name=Konia
@@ -168,6 +172,7 @@
 	3380.1.3 = {
 		add_spouse = 1069
 	}
+	3413.1.1={death=yes}
 }
 
 1104 = {#
@@ -187,7 +192,7 @@
 	trait=bloodline_firstborn
 	trait=kind
 	trait=ambitious
-	trait=decietful
+	trait=deceitful
 	trait=quick
 	3358.7.2={
 		birth=yes
@@ -195,6 +200,7 @@
 	3383.6.7 = {
 		add_spouse = 1105
 	}
+	3408.1.1={death=yes}
 }
 1105 = {#
 	name=Lira
@@ -210,6 +216,7 @@
 	3383.6.7 = {
 		add_spouse = 1104
 	}
+	3426.1.1={death=yes}
 }
 1106 = {#
 	name=Olat
@@ -225,6 +232,7 @@
 	3385.4.3={
 		birth=yes
 	}
+	3443.1.1={death=yes}
 }
 1107 = {#
 	name=Cashu
@@ -236,6 +244,7 @@
 	3364.4.3={
 		birth=yes
 	}
+	3412.1.1={death=yes}
 }
 1108 = {#
 	name=Urangak
@@ -247,6 +256,7 @@
 	3363.8.21={
 		birth=yes
 	}
+	3413.1.1={death=yes}
 }
 1109 = {
 	name=Wezu
@@ -265,6 +275,7 @@
 	3365.1.21={
 		birth=yes
 	}
+	3420.1.1={death=yes}
 }
 1110 = {
 	name=Narambe
@@ -281,10 +292,11 @@
 	trait=martial_cleric
 	trait=erudite
 	trait=drunkard
-	trait=patiant
+	trait=patient
 	3365.1.21={
 		birth=yes
 	}
+	3416.1.1={death=yes}
 }
 1111 = {
 	name=Kizear
@@ -303,6 +315,7 @@
 	3365.1.1={
 		birth=yes
 	}
+	3419.1.1={death=yes}
 }
 1112 = {
 	name=Kutozear
@@ -316,13 +329,14 @@
 	religion=demise_religion
 	culture=lizalfos
 	trait=race_lizalfos
-	trait=decietful
-	trait=diligant
+	trait=deceitful
+	trait=diligent
 	trait=content
 	trait=flamboyant_schemer
 	3365.4.21={
 		birth=yes
 	}
+	3411.1.1={death=yes}
 }
 1113 = {
 	name=Kutozear
@@ -343,6 +357,7 @@
 	3363.8.11={
 		birth=yes
 	}
+	3414.1.1={death=yes}
 }
 11000={
 	name=Orde
@@ -352,7 +367,7 @@
 	martial=6 diplomacy=8 stewardship=6 intrigue=4 learning=8
 	add_trait=naive_appeaser add_trait=poet add_trait=honest add_trait=shy add_trait=humble 
 	add_trait=ambitious 
-	trait=lizalfos
+	trait=race_lizalfos
 	3341.12.18={ birth=yes }
 	3366.2.7={ add_spouse=11004 }
 	3387.10.4={ death=yes }
@@ -364,7 +379,7 @@
 	culture=lizalfos religion=demise_religion
 	martial=7 diplomacy=8 stewardship=7 intrigue=4 learning=4
 	add_trait=elusive_shadow add_trait=arbitrary add_trait=shy add_trait=lustful add_trait=humble 
-	trait=lizalfos
+	trait=race_lizalfos
 	father=11000	#Orde
 	mother=11004
 	3367.2.7={ birth=yes }
@@ -378,7 +393,7 @@
 	martial=5 diplomacy=7 stewardship=8 intrigue=6 learning=8
 	add_trait=intricate_webweaver add_trait=honest add_trait=brave add_trait=paranoid add_trait=diligent 
 	add_trait=cruel 
-	trait=lizalfos
+	trait=race_lizalfos
 	father=11000	#Orde
 	mother=11004
 	3372.1.27={ birth=yes }
@@ -391,7 +406,7 @@
 	culture=lizalfos religion=demise_religion
 	martial=7 diplomacy=5 stewardship=4 intrigue=4 learning=7
 	add_trait=detached_priest add_trait=content add_trait=kind 
-	trait=lizalfos
+	trait=race_lizalfos
 	father=11000	#Orde
 	mother=11004
 	3377.3.15={ birth=yes }
@@ -414,7 +429,7 @@
 	martial=6 diplomacy=6 stewardship=6 intrigue=7 learning=6
 	add_trait=grey_eminence add_trait=hedonist add_trait=cruel add_trait=zealous add_trait=trusting 
 	add_trait=lunatic add_trait=fair 
-	trait=lizalfos
+	trait=race_lizalfos
 	3361.9.25={ birth=yes }
 	3427.9.20={ death=yes }
 }
@@ -437,7 +452,7 @@
 	culture=lizalfos religion=demise_religion
 	martial=6 diplomacy=8 stewardship=4 intrigue=6 learning=6
 	add_trait=grey_eminence add_trait=charitable add_trait=brave add_trait=deceitful 
-	trait=lizalfos
+	trait=race_lizalfos
 	3363.4.4={ birth=yes }
 	3382.1.1={add_spouse=11010}
 	3422.10.23={ death=yes }
@@ -448,7 +463,7 @@
 	dynasty=4620
 	dna="ppjmhhljodh"
 	culture=lizalfos religion=demise_religion
-	trait=lizalfos
+	trait=race_lizalfos
 	father=11007	#Wishutas
 	mother=11010
 	3385.12.25={ birth=yes }
@@ -461,7 +476,7 @@
 	culture=lizalfos religion=demise_religion
 	martial=5 diplomacy=6 stewardship=6 intrigue=8 learning=8
 	add_trait=detached_priest add_trait=mystic add_trait=ambitious add_trait=trusting add_trait=lustful 
-	trait=lizalfos
+	trait=race_lizalfos
 	father=11007	#Wishutas
 	mother=11010
 	3391.3.26={ birth=yes }
@@ -471,9 +486,9 @@
 	name=Kipor
 	female=yes
 	culture=lizalfos religion=demise_religion
-	trait=lizalfos
+	trait=race_lizalfos
 	3363.4.4={ birth=yes }
-	3382.1.1={add_spouse=11010}
+	3382.1.1={add_spouse=11007}
 	3422.10.23={ death=yes }
 }
 11012={
@@ -484,7 +499,7 @@
 	martial=6 diplomacy=8 stewardship=6 intrigue=7 learning=8
 	add_trait=intricate_webweaver add_trait=celibate add_trait=arbitrary add_trait=wroth add_trait=gluttonous 
 	add_trait=brave add_trait=envious add_trait=lustful add_trait=depressed 
-	trait=lizalfos
+	trait=race_lizalfos
 	3364.1.27={ birth=yes }
 	3423.2.24={ death=yes }
 }

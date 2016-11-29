@@ -15,6 +15,7 @@
 	3366.4.14={
 		birth=yes
 	}
+	3412.5.25={ death=yes }
 }
 
 1101 = {#faron forest
@@ -33,6 +34,7 @@
 	3367.1.1={
 		birth=yes
 	}
+	3414.5.25={ death=yes }
 }
 8500={
 	name=Herul
@@ -130,7 +132,7 @@
 	martial=8 diplomacy=6 stewardship=6 intrigue=7 learning=7
 	add_trait=thrifty_clerk add_trait=celibate add_trait=cruel add_trait=envious add_trait=charitable 
 	add_trait=zealous add_trait=content add_trait=gregarious 
-	3366.5.2={ birth=yes }
+	3364.5.2={ birth=yes }
 	3381.1.1={ add_spouse=8512}
 	3412.12.30={ death=yes }
 }
@@ -176,8 +178,8 @@
 	female=yes
 	culture=bokoblin religion=demise_religion
 
-	3365.1.1={ birth=yes }
-	3381.1.1={ add_spouse=8512}
+	3363.1.1={ birth=yes }
+	3381.1.1={ add_spouse=8508}
 	3443.8.22={ death=yes }
 }
 8513={
@@ -228,7 +230,7 @@
 	martial=5 diplomacy=6 stewardship=8 intrigue=8 learning=6
 	add_trait=detached_priest add_trait=zealous add_trait=content add_trait=depressed 
 	3360.10.26={ birth=yes }
-	3383.1.1={ add_spouse=8520}
+	3383.1.1={ add_spouse=8521}
 	3408.6.26={ death=yes }
 }
 8518={
@@ -238,6 +240,7 @@
 	dna="pilabjnlaog"
 	culture=bokoblin religion=demise_religion
 	father=8517	#Beras
+	mother=8521
 	3383.12.20={ birth=yes }
 	3437.10.12={ death=yes }
 }
@@ -249,6 +252,7 @@
 	martial=4 diplomacy=6 stewardship=4 intrigue=4 learning=7
 	add_trait=intricate_webweaver add_trait=humble add_trait=ambitious add_trait=honest 
 	father=8517	#Beras
+	mother=8521
 	3384.10.9={ birth=yes }
 	3433.11.30={ death=yes }
 }
@@ -260,6 +264,7 @@
 	martial=6 diplomacy=4 stewardship=4 intrigue=6 learning=4
 	add_trait=elusive_shadow add_trait=hedonist add_trait=gregarious add_trait=slothful add_trait=paranoid 
 	father=8517	#Beras
+	mother=8521
 	3386.2.6={ birth=yes }
 	3429.8.20={ death=yes }
 }
@@ -421,7 +426,7 @@
 	martial=7 diplomacy=5 stewardship=8 intrigue=6 learning=8
 	add_trait=indulgent_wastrel add_trait=honest add_trait=lustful add_trait=slothful add_trait=envious 
 	add_trait=cynical add_trait=content 
-	3367.6.1={ birth=yes }
+	3365.6.1={ birth=yes }
 	3382.1.17={ add_spouse=8538}
 	3421.3.31={ death=yes }
 }
@@ -453,7 +458,7 @@
 	name=Hildes
 	female=yes
 	culture=bokoblin religion=demise_religion
-	3366.1.1={ birth=yes }
+	3365.1.1={ birth=yes }
 	3382.1.17={ add_spouse=8535}
 	3422.4.22={ death=yes }
 }

@@ -1,8 +1,7 @@
 
 1114 = {
 	name=Snipes
-	disallow_random_traits=yes
-	
+	disallow_random_traits=yes	
 	diplomacy=8
 	martial=8
 	intrigue=4
@@ -14,7 +13,7 @@
 	trait=race_human
 	trait=martial_cleric
 	trait=cruel
-	trait=diligant
+	trait=diligent
 	trait=zealous
 	3336.7.18={
 		birth=yes
@@ -22,10 +21,10 @@
 	3357.10.8={
 		add_spouse=1115
 	}
+	3394.1.1={ death=yes }
 }
 1115 = {
-	name=Berenice
-	
+	name=Berenice	
 	female=yes
 	dynasty=8011
 	religion=light_force
@@ -37,6 +36,7 @@
 	3357.10.8={
 		add_spouse=1114
 	}
+	3401.1.1={ death=yes }
 }
 1116 = {
 	name=Aura
@@ -51,14 +51,11 @@
 	3360.7.18={
 		birth=yes
 	}
-	3376.7.19={
-		add_spouse=1117
-	}
+	3379.7.19={add_spouse=1118}
+	3421.1.1={ death=yes }
 }
 1117 = {#north bridge
 	name=Emilio
-
-	
 	diplomacy=5
 	martial=5
 	intrigue=5
@@ -68,25 +65,25 @@
 	religion=light_force
 	culture=eldin
 	trait=race_human
-	3351.7.18={
+	3345.7.18={
 		birth=yes
 	}
-	3376.7.19={
-		add_spouse=1116
+	3362.7.19={
+		add_spouse=7500
 	}
+	3409.1.1={ death=yes }
 }
 1118 = {#hidden
 	name=Emilio
-	disallow_random_traits=yes
-	
+	disallow_random_traits=yes	
 	diplomacy=8
 	martial=6
 	intrigue=4
 	stewardship=4
 	learning=6
-	mother=1116
-	father=1115
-	dynasty=8001
+	mother=7500
+	father=1117
+	dynasty=8012
 	religion=light_force
 	culture=eldin
 	trait=race_human
@@ -98,6 +95,8 @@
 	3363.4.24={
 		birth=yes
 	}
+	3379.7.19={add_spouse=1116}
+	3427.1.1={ death=yes }
 }
 1119 = {#
 	name=Isdel
@@ -108,9 +107,9 @@
 	intrigue=7
 	stewardship=6
 	learning=5
-	mother=1116
-	father=1115
-	dynasty=8001
+	mother=7500
+	father=1117
+	dynasty=8012
 	religion=light_force
 	culture=eldin
 	trait=brilliant_strategist
@@ -122,11 +121,11 @@
 	3367.9.24={
 		birth=yes
 	}
+	3419.1.1={ death=yes }
 }
 1120 = {#
 	name=Virgilio
-	disallow_random_traits=yes
-	
+	disallow_random_traits=yes	
 	diplomacy=8
 	martial=6
 	intrigue=4
@@ -149,10 +148,10 @@
 	3379.1.1={
 		add_spouse=1121
 	}
+	3407.1.1={ death=yes }
 }
 1121 = {#
-	name=Rosa
-	
+	name=Rosa	
 	female=yes
 	dynasty=8124
 	religion=light_force
@@ -162,8 +161,9 @@
 		birth=yes
 	}
 	3379.1.1={
-		add_spouse=1121
+		add_spouse=1120
 	}
+	3413.1.1={ death=yes }
 }
 1122 = {#
 	name=Pitina
@@ -178,4 +178,19 @@
 	3382.4.9={
 		birth=yes
 	}
+	3446.1.1={ death=yes }
+}
+7500={#north bridge
+	name=Emilio
+	female=yes
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3345.7.18={
+		birth=yes
+	}
+	3362.7.19={
+		add_spouse=1117
+	}
+	3409.1.1={ death=yes }
 }
