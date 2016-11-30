@@ -127,29 +127,6 @@
 	3373.11.1={ birth=yes }
 	3456.2.4={ death=yes }
 }
-22011={
-	name=Gunhild
-	female=yes
-	dna="omaammpaeha"
-	dynasty=5401
-	culture=ho_ho religion=oshus_religion
-	father=22008	#Asko
-	mother=22013
-	3380.11.8={ birth=yes }
-	3454.1.6={ death=yes }
-}
-22012={
-	name=Gorm
-	dna="ceakfmohlhd"
-	dynasty=5401
-	culture=ho_ho religion=oshus_religion
-	martial=4 diplomacy=6 stewardship=4 intrigue=8 learning=4
-	add_trait=midas_touched add_trait=charitable add_trait=craven add_trait=envious add_trait=cruel 
-	father=22008	#Asko
-	mother=22013
-	3385.3.2={ birth=yes }
-	3461.11.6={ death=yes }
-}
 22013={
 	name=Alfridh
 	female=yes
@@ -258,7 +235,7 @@
 	add_trait=scholarly_theologian add_trait=hunter add_trait=brave add_trait=patient add_trait=just 
 	add_trait=shy add_trait=greedy 
 	father=22021	#Ture
-	mother=22022
+	mother=22023
 	3386.12.27={ birth=yes }
 	3473.10.22={ death=yes }
 }
@@ -267,7 +244,7 @@
 	female=yes
 	culture=ho_ho religion=oshus_religion
 	3358.9.5={ birth=yes }
-	3384.1.1={add_spouse=22023}
+	3384.1.1={add_spouse=22021}
 	3436.2.3={ death=yes }
 }
 22024={
@@ -455,7 +432,7 @@
 	dna="hcnhmdjebfl"
 	culture=ho_ho religion=oshus_religion
 	3341.5.27={ birth=yes }
-	3362.1.1={add_spouse=22041}
+	3362.1.1={add_spouse=22036}
 	3392.1.10={ death=yes }
 }
 #helsinki+oulu

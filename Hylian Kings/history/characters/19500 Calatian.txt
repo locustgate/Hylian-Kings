@@ -18,7 +18,7 @@
 	add_trait=gregarious 
 	father=46	#Alen
 	3343.8.18={ birth=yes }	
-	3363.1.1={ add_spouse=1211}
+	3363.1.1={ add_spouse=1220}
 	3417.5.27={ death=yes }
 }
 1212={
@@ -144,8 +144,8 @@
 	3442.6.7={ death=yes }
 }
 1220 = {
-	female=yes
 	name=Seline
+	female=yes
 	3347.1.1={ birth=yes }
 	3363.1.1={ add_spouse=1211}
 	3407.1.1={ death=yes }
@@ -242,7 +242,7 @@
 	martial=8 diplomacy=5 stewardship=6 intrigue=7 learning=7
 	add_trait=flamboyant_schemer add_trait=shy add_trait=cruel add_trait=lustful add_trait=honest 
 	add_trait=greedy add_trait=wroth 
-	3353.2.14={ birth=yes }
+	3348.2.14={ birth=yes }
 	3365.1.1={ add_spouse=1232 }
 	3421.4.13={ death=yes }
 }
@@ -272,12 +272,10 @@
 1232={
 	name=Agneza
 	female=yes
-	dna="lmccdiplbae"
 	culture=calatian religion=golden_goddesses
-	father=1229	#Nenad
-	3366.1.7={ birth=yes }
+	3348.2.14={ birth=yes }
 	3365.1.1={ add_spouse=1229 }
-	3417.1.20={ death=yes }
+	3421.4.13={ death=yes }
 }
 1233={
 	name=Grgur
@@ -287,9 +285,9 @@
 	martial=4 diplomacy=7 stewardship=6 intrigue=8 learning=4
 	add_trait=midas_touched add_trait=proud add_trait=diligent add_trait=cynical add_trait=temperate 
 	add_trait=trusting add_trait=shy add_trait=drunkard 
-	3368.9.13={ birth=yes }
-	3379.6.14={add_spouse=1238}
-	3432.12.30={ death=yes }
+	3348.2.14={ birth=yes }
+	3365.1.1={ add_spouse=1238}
+	3421.4.13={ death=yes }
 }
 1234={
 	name=Marijo
@@ -342,9 +340,9 @@
 	female=yes
 	dna="oongcljekoc"
 	culture=calatian religion=golden_goddesses
-	3362.5.23={ birth=yes }
-	3379.6.14={add_spouse=1233}
-	3467.1.23={ death=yes }
+	3348.2.14={ birth=yes }
+	3365.1.1={ add_spouse=1233}
+	3421.4.13={ death=yes }
 }
 1239={
 	name=Nikola
@@ -396,8 +394,8 @@
 	martial=4 diplomacy=5 stewardship=4 intrigue=4 learning=5
 	add_trait=midas_touched add_trait=arbitrary add_trait=temperate add_trait=envious add_trait=slothful 
 	add_trait=greedy add_trait=strong 
-	3340.8.8={ birth=yes }
-	3366.2.2={add_spouse=1247}
+	3337.8.8={ birth=yes }
+	3363.2.2={add_spouse=1247}
 	3390.12.11={ death=yes }
 }
 1244={
@@ -409,7 +407,7 @@
 	add_trait=martial_cleric add_trait=ambitious add_trait=arbitrary add_trait=kind add_trait=chaste 
 	add_trait=zealous 
 	father=1243	#Patrik
-	mother=1243
+	mother=1247
 	3364.7.1={ birth=yes }
 	3413.2.14={ death=yes }
 }
@@ -420,7 +418,7 @@
 	dna="ilpnkfdolip"
 	culture=calatian religion=golden_goddesses
 	father=1243	#Patrik
-	mother=1243
+	mother=1247
 	3367.10.10={ birth=yes }
 	3413.11.10={ death=yes }
 }
@@ -431,7 +429,7 @@
 	dna="hfpgfjngjgp"
 	culture=calatian religion=golden_goddesses
 	father=1243	#Patrik
-	mother=1243
+	mother=1247
 	3370.9.8={ birth=yes }
 	3439.2.11={ death=yes }
 }
@@ -439,9 +437,9 @@
 	name=Jaga
 	female=yes
 	culture=calatian religion=golden_goddesses
-	3370.9.8={ birth=yes }
-	3366.2.2={add_spouse=1243}
-	3439.2.11={ death=yes }
+	3337.8.8={ birth=yes }
+	3363.2.2={add_spouse=1243}
+	3401.2.11={ death=yes }
 }
 1248={
 	name=Jakob
@@ -472,7 +470,7 @@
 	martial=4 diplomacy=6 stewardship=4 intrigue=8 learning=8
 	add_trait=elusive_shadow add_trait=craven add_trait=kind add_trait=gluttonous add_trait=cruel 
 	add_trait=gregarious add_trait=chaste 
-	3359.7.8={ birth=yes }
+	3353.7.8={ birth=yes }
 	3371.1.13={ add_spouse=1253 }
 	3431.6.5={ death=yes }
 }
@@ -484,6 +482,7 @@
 	martial=4 diplomacy=4 stewardship=7 intrigue=4 learning=8
 	add_trait=detached_priest add_trait=content add_trait=proud add_trait=chaste add_trait=honest 
 	father=1250	#Blago
+	mother=1253
 	3371.11.13={ birth=yes }
 	3433.1.17={ death=yes }
 }
@@ -494,6 +493,7 @@
 	dna="pmolbaejeob"
 	culture=calatian religion=golden_goddesses
 	father=1250	#Blago
+	mother=1253
 	3377.8.27={ birth=yes }
 	3426.5.17={ death=yes }
 }

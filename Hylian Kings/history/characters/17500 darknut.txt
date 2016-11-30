@@ -17,7 +17,7 @@
 	add_trait=cruel 
 	trait=darknut_armor
 	trait=darknut_sword
-	3361.8.1={ birth=yes }
+	3360.8.1={ birth=yes }
 	3382.9.4={ add_spouse=1202 }
 	3402.2.15={ death=yes }
 }
@@ -95,7 +95,7 @@
 	dna="pgjmegioepd"
 	culture=darknut 
 	religion=darknut_doctrine
-	3367.8.3={ birth=yes }
+	3366.8.3={ birth=yes }
 	3383.9.4={ add_spouse=1197 }
 	3434.6.3={ death=yes }
 }
@@ -126,7 +126,8 @@
 	}
 	3375.1.1={add_trait=heavy_infantry_leader}
 	3376.1.1={add_trait=inspiring_leader}
-	3377.1.1={add_trait=desert_terrain_leader}
+	3377.1.1={add_trait=desert_terrain_leader}	
+	3417.11.22={ death=yes }
 }
 17501={
 	name=Roland
@@ -383,7 +384,7 @@
 	female=yes
 	culture=hytopian religion=golden_goddesses
 	martial=5 diplomacy=10 stewardship=8 intrigue=6 learning=4
-	add_trait=grey_eminance trait=race_human add_trait=fair trait=wroth trait=charitable trait=diligent
+	add_trait=grey_eminence trait=race_human add_trait=fair trait=wroth trait=charitable trait=diligent
 	3367.11.15={ birth=yes }
 	3387.1.1={add_spouse=17504} 
 	3424.3.5={ death=yes }
@@ -392,7 +393,7 @@
 17522={
 	name=Vlad
 	dynasty=14801
-	historical=yes
+	
 	disallow_random_traits=yes
 	martial=5 
 	diplomacy=5 
@@ -419,7 +420,7 @@
 17523={
 	name=Hannibal
 	dynasty=14804
-	historical=yes
+	
 	disallow_random_traits=yes
 	martial=5 
 	diplomacy=5 
@@ -446,7 +447,7 @@
 17524={
 	name=Fei
 	dynasty=14805
-	historical=yes
+	
 	disallow_random_traits=yes
 	martial=5 
 	diplomacy=5 
@@ -471,7 +472,7 @@
 17525={
 	name=Spartacus
 	dynasty=14806
-	historical=yes
+	
 	disallow_random_traits=yes
 	martial=5 
 	diplomacy=5 
@@ -480,7 +481,7 @@
 	learning=7
 	religion=darknut_doctrine
 	culture=darknut
-	trait=grey_eminance
+	trait=grey_eminence
 	trait=race_darknut
 	trait=bloodline_betrayers
 	trait=darknut_armor
@@ -572,6 +573,7 @@
 }
 17532={
 	name=Vanali
+	female=yes
 	culture=hylian_hanman religion=heavenly_goddesses
 	martial=4 diplomacy=8 stewardship=6 intrigue=8 learning=6
 	add_trait=elusive_shadow add_trait=shy add_trait=trusting trait=erudite trait=quick add_trait=stressed 
