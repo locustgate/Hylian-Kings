@@ -6,7 +6,7 @@
 	martial=4 diplomacy=4 stewardship=5 intrigue=6 learning=5
 	add_trait=midas_touched add_trait=gregarious add_trait=kind add_trait=ill 
 	3366.7.10={ birth=yes }
-	3384.1.1={add_spouse=24500}
+	3384.1.1={add_spouse=24502}
 	3409.7.24={ death=yes }
 }
 24501={
@@ -104,6 +104,7 @@
 	add_trait=detached_priest add_trait=chaste add_trait=just add_trait=patient add_trait=cruel 
 	add_trait=content 
 	3357.1.23={ birth=yes }
+	3375.1.1={add_spouse=24513}
 	3404.5.24={ death=yes }
 }
 24510={
@@ -144,14 +145,11 @@
 }
 24513={
 	name=Bara
-	dynasty=2415
-	dna="eefleccigog"
+	female=yes
 	culture=tokay religion=great_maku
-	martial=8 diplomacy=6 stewardship=5 intrigue=6 learning=8
-	add_trait=detached_priest add_trait=chaste add_trait=just add_trait=patient add_trait=cruel 
-	add_trait=content 
 	3357.1.23={ birth=yes }
-	3481.6.12={ death=yes }
+	3375.1.1={add_spouse=24509}
+	3401.6.12={ death=yes }
 }
 24514={
 	name=Zelir

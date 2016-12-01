@@ -285,7 +285,7 @@
 	add_trait=grey_eminence add_trait=brave add_trait=slothful add_trait=envious add_trait=cruel 
 	add_trait=lunatic 
 	3366.6.14={ birth=yes }
-	3372.1.1={add_spouse=31025}
+	3383.1.1={add_spouse=31025}
 	3436.4.1={ death=yes }
 }
 31025={
@@ -293,7 +293,7 @@
 	female=yes
 	culture=hylian_hanman religion=heavenly_goddesses
 	3366.6.14={ birth=yes }
-	3372.1.1={add_spouse=31024}
+	3383.1.1={add_spouse=31024}
 	3436.4.1={ death=yes }
 }
 31026={
@@ -439,6 +439,7 @@
 }
 31039={
 	name=Sing
+	female=yes
 	culture=hanman religion=heavenly_goddesses
 	3356.12.21={ birth=yes }
 	3374.1.1={add_spouse=31035}
@@ -469,13 +470,9 @@
 	3432.7.2={ death=yes }
 }
 31042={
-	name=Limoi
-	dynasty=12415
-	dna="obacmamkcmi"
+	name=Kanu
+	female=yes
 	culture=hanman religion=heavenly_goddesses
-	martial=6 diplomacy=6 stewardship=8 intrigue=4 learning=5
-	add_trait=elusive_shadow add_trait=shy add_trait=content add_trait=diligent add_trait=deceitful 
-	add_trait=humble 
 	3359.11.6={ birth=yes }
 	3381.1.1={add_spouse=31040}
 	3429.1.20={ death=yes }
@@ -488,7 +485,7 @@
 	martial=4 diplomacy=5 stewardship=4 intrigue=6 learning=6
 	add_trait=thrifty_clerk add_trait=cruel add_trait=patient add_trait=lunatic add_trait=hunchback 
 	3359.1.1={ birth=yes }
-	3384.1.1={add_spouse=31043}
+	3384.1.1={add_spouse=31045}
 	3444.2.10={ death=yes }
 }
 31044={

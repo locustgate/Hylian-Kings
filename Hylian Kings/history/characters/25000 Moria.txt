@@ -134,7 +134,7 @@
 	martial=4 diplomacy=4 stewardship=6 intrigue=4 learning=4
 	add_trait=indulgent_wastrel add_trait=ambitious add_trait=arbitrary add_trait=deceitful 
 	3363.9.1={ birth=yes }
-	3377.9.1={add_spouse=25013}
+	3381.9.1={add_spouse=25013}
 	3414.1.11={ death=yes }
 }
 25013={
@@ -142,6 +142,6 @@
 	female=yes
 	culture=morian religion=great_maku
 	3363.9.1={ birth=yes }
-	3377.9.1={add_spouse=25012}
+	3381.9.1={add_spouse=25012}
 	3414.1.11={ death=yes }
 }

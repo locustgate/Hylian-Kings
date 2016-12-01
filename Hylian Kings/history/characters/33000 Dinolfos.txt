@@ -101,14 +101,15 @@
 	add_trait=tough_soldier add_trait=kind add_trait=lustful add_trait=honest add_trait=trusting 
 	add_trait=humble 
 	3367.11.24={ birth=yes }
-	3377.11.24={add_spouse=33010}
+	3384.11.24={add_spouse=33010}
 	3442.6.19={ death=yes }
 }
 33010={
 	name=Nardu
+	female=yes
 	culture=dinolfos religion=demise_religion
 	3367.11.24={ birth=yes }
-	3377.11.24={add_spouse=33009}
+	3384.11.24={add_spouse=33009}
 	3442.6.19={ death=yes }
 }
 33011={
@@ -393,6 +394,6 @@
 	female=yes
 	culture=dinolfos religion=demise_religion
 	3351.4.9={ birth=yes }
-	3370.1.1={add_spouse33028}
+	3370.1.1={add_spouse=33028}
 	3409.6.29={ death=yes }
 }

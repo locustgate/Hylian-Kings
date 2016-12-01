@@ -22,7 +22,7 @@
 	father=45000	#Menoetius
 	mother=45016
 	3121.3.27={ birth=yes }
-	3240.1.1={add_spouse=45015}
+	3240.1.1={add_spouse=45014}
 	3405.7.9={ death=yes }
 }
 45002={
@@ -52,7 +52,7 @@
 	father=45001	#Halstein
 	mother=45014
 	3248.1.16={ birth=yes }
-	3270.1.1={add_spouse=45014}
+	3270.1.1={add_spouse=45015}
 	3513.2.22={ death=yes }
 }
 45005={
@@ -177,7 +177,7 @@
 	culture=subrosian religion=fire_spirit
 	trait=race_subrosian
 	3121.3.27={ birth=yes }
-	3240.1.1={add_spouse=45015}
+	3240.1.1={add_spouse=45001}
 	3405.7.9={ death=yes }
 }
 45015={

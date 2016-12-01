@@ -372,7 +372,7 @@
 	add_trait=grey_eminence add_trait=craven add_trait=humble add_trait=patient add_trait=cynical 
 	add_trait=genius 
 	3350.8.12={ birth=yes }
-	3370.1.1={add_spouse=43034}
+	3370.1.1={add_spouse=43038}
 	3407.5.17={ death=yes }
 }
 43035={
@@ -383,7 +383,7 @@
 	martial=8 diplomacy=6 stewardship=8 intrigue=5 learning=4
 	add_trait=midas_touched add_trait=charitable add_trait=shy add_trait=zealous 
 	father=43034	#Idoki
-	mother=34034
+	mother=43038
 	3374.5.7={ birth=yes }
 	3430.12.16={ death=yes }
 }
@@ -394,7 +394,7 @@
 	dna="npipadogefa"
 	culture=deku_scrub religion=great_fairies
 	father=43034	#Idoki
-	mother=34034
+	mother=43038
 	3379.1.18={ birth=yes }
 	3436.2.22={ death=yes }
 }
@@ -407,7 +407,7 @@
 	add_trait=scholarly_theologian add_trait=poet add_trait=proud add_trait=honest add_trait=chaste 
 	add_trait=shy add_trait=charitable 
 	father=43034	#Idoki
-	mother=34034
+	mother=43038
 	3382.9.22={ birth=yes }
 	3431.1.20={ death=yes }
 }
@@ -594,7 +594,7 @@
 	add_trait=martial_cleric add_trait=scholar add_trait=ambitious add_trait=greedy add_trait=gregarious 
 	add_trait=deceitful add_trait=hunchback 
 	father=43053	#Twokado
-	mother=43053
+	mother=43055
 	3383.8.4={ birth=yes }
 	3430.5.30={ death=yes }
 }

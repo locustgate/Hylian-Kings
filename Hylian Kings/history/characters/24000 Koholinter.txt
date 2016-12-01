@@ -112,7 +112,7 @@
 	martial=8 diplomacy=8 stewardship=5 intrigue=4 learning=8
 	add_trait=flamboyant_schemer add_trait=proud add_trait=craven add_trait=deceitful add_trait=content 
 	3356.10.15={ birth=yes }
-	3354.10.15={ add_spouse=24014 }
+	3374.10.15={ add_spouse=24014 }
 	3414.6.9={ death=yes }
 }
 24011={
@@ -155,9 +155,10 @@
 }
 24014={
 	name=Martha
+	female=yes
 	culture=koholinter religion=wind_fish_religion
 	3356.10.15={ birth=yes }
-	3354.10.15={ add_spouse=24010 }
+	3374.10.15={ add_spouse=24010 }
 	3414.6.9={ death=yes }
 }
 24015={
@@ -243,13 +244,9 @@
 	3434.5.29={ death=yes }
 }
 24022={
-	name=Howard
-	dynasty=6420
-	dna="nnlcielaiio"
+	name=Mahaut
+	female=yes
 	culture=koholinter religion=wind_fish_religion
-	martial=7 diplomacy=8 stewardship=4 intrigue=6 learning=8
-	add_trait=indulgent_wastrel add_trait=duelist add_trait=cruel add_trait=greedy add_trait=trusting 
-	add_trait=craven add_trait=strong 
 	3341.11.6={ birth=yes }
 	3360.1.1={add_spouse=24015}
 	3388.10.24={ death=yes }

@@ -92,7 +92,7 @@
 	dna="hcelajfdlln"
 	culture=arcadian religion=golden_goddesses
 	martial=8 diplomacy=5 stewardship=4 intrigue=7 learning=5
-	add_trait=grey_eminance
+	add_trait=grey_eminence
 	trait=bloodline_batreaux add_trait=arbitrary add_trait=envious add_trait=kind trait=greedy trait=temperate trait=brave
 	father=37006	#Seraphin
 	3352.8.5={ birth=yes }
@@ -105,8 +105,8 @@
 	dna="blelaifdfle"
 	culture=arcadian religion=golden_goddesses
 	martial=6 diplomacy=7 stewardship=5 intrigue=6 learning=5
-	add_trait=charismatic
-	trait=bloodline_batreaux_negotiator add_trait=kind add_trait=zealous add_trait=proud 
+	add_trait=gregarious
+	trait=bloodline_batreaux trait=charismatic_negotiator add_trait=kind add_trait=zealous add_trait=proud 
 	father=37007	#Ulrich
 	mother=37010
 	3379.1.25={ birth=yes }
@@ -118,7 +118,7 @@
 	dynasty=14607
 	dna="dcemdjfdmln"
 	culture=arcadian religion=golden_goddesses
-		trait=bloodline_batreaux
+	trait=bloodline_batreaux
 	father=37007	#Ulrich
 	mother=37010
 	3381.6.20={ birth=yes }
@@ -272,12 +272,8 @@
 }
 37023={
 	name=Michael
-	dynasty=6820
-	dna="coelbfgnlki"
+	female=yes
 	culture=arcadian religion=golden_goddesses
-	martial=5 diplomacy=4 stewardship=6 intrigue=6 learning=4
-	add_trait=intricate_webweaver add_trait=gregarious add_trait=just add_trait=humble add_trait=cruel 
-	add_trait=diligent add_trait=temperate 
 	3351.1.21={ birth=yes }
 	3375.1.1={add_spouse=37018}
 	3424.2.13={ death=yes }
