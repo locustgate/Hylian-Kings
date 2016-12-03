@@ -221,3 +221,180 @@
 	3370.1.1={add_spouse=5011}
 	3391.2.14={ death=yes }
 }
+5017={
+	name=Selen
+	dynasty=14625
+	dna="nmfggfeffak"
+	culture=girrin religion=wind_spirits
+	martial=4 diplomacy=8 stewardship=4 intrigue=8 learning=4
+	add_trait=grey_eminence add_trait=charitable add_trait=slothful add_trait=trusting add_trait=content 
+	3345.8.27={ birth=yes }
+	3372.1.1={add_spoouse=5025}
+	3393.8.21={ death=yes }
+}
+5018={
+	name=Irogja
+	female=yes
+	dynasty=14625
+	dna="nmhppooilik"
+	culture=girrin religion=wind_spirits
+	father=5017	#Selen
+	mother=5025
+	3374.7.13={ birth=yes }
+	3437.1.10={ death=yes }
+}
+5019={
+	name=Iwabji
+	female=yes
+	dynasty=14625
+	dna="nlfgbghnfak"
+	culture=girrin religion=wind_spirits
+	father=5017	#Selen
+	mother=5025
+	3377.11.6={ birth=yes }
+	3447.10.8={ death=yes }
+}
+5020={
+	name=Jebyo
+	dynasty=14625
+	dna="nmbgcfefmak"
+	culture=girrin religion=wind_spirits
+	martial=8 diplomacy=5 stewardship=4 intrigue=6 learning=4
+	add_trait=charismatic_negotiator add_trait=poet add_trait=cynical add_trait=slothful 
+	father=5017	#Selen
+	mother=5025
+	3380.7.14={ birth=yes }
+	3436.9.5={ death=yes }
+}
+5021={
+	name=Jenjun
+	dynasty=14625
+	dna="nmfgdlenbhg"
+	culture=girrin religion=wind_spirits
+	martial=6 diplomacy=6 stewardship=8 intrigue=8 learning=4
+	add_trait=martial_cleric add_trait=proud add_trait=envious add_trait=chaste 
+	father=5017	#Selen
+	mother=5025
+	3383.6.5={ birth=yes }
+	3427.12.14={ death=yes }
+}
+5022={
+	name=Mogja
+	female=yes
+	dynasty=14625
+	dna="ppigjfebgah"
+	culture=girrin religion=wind_spirits
+	father=5017	#Selen
+	mother=5025
+	3386.12.19={ birth=yes }
+	3433.3.31={ death=yes }
+}
+5023={
+	name=Korja
+	female=yes
+	dynasty=14625
+	dna="edfegneffkk"
+	culture=girrin religion=wind_spirits
+	father=5017	#Selen
+	mother=5025
+	3390.12.27={ birth=yes }
+	3448.3.18={ death=yes }
+}
+5024={
+	name=Toruon
+	dynasty=14625
+	dna="nifmgfnffao"
+	culture=girrin religion=wind_spirits
+	martial=8 diplomacy=6 stewardship=6 intrigue=7 learning=8
+	add_trait=martial_cleric add_trait=patient add_trait=cynical add_trait=lustful add_trait=arbitrary 
+	add_trait=slothful 
+	father=5017	#Selen
+	mother=5025
+	3392.8.12={ birth=yes }
+	3448.12.26={ death=yes }
+}
+5025={
+	name=Korja
+	female=yes
+	culture=girrin religion=wind_spirits
+	3345.8.27={ birth=yes }
+	3372.1.1={add_spoouse=5017}
+	3393.8.21={ death=yes }
+}
+5026={
+	name=Subhu
+	dynasty=14630
+	dna="fopkmnkhnne"
+	culture=girrin religion=wind_spirits
+	martial=5 diplomacy=6 stewardship=4 intrigue=5 learning=6
+	add_trait=martial_cleric add_trait=proud add_trait=patient add_trait=cruel add_trait=diligent 
+	add_trait=just 
+	3365.3.5={ birth=yes }
+	3420.5.28={ death=yes }
+}
+5027={
+	name=Manjinun
+	dynasty=14635
+	dna="bhogkkcodcd"
+	culture=girrin religion=wind_spirits
+	martial=4 diplomacy=8 stewardship=4 intrigue=8 learning=5
+	add_trait=thrifty_clerk add_trait=envious add_trait=craven add_trait=proud add_trait=gluttonous 
+	add_trait=shy add_trait=lustful 
+	3366.5.7={ birth=yes }
+	3384.1.1={add_spouse=5032}
+	3417.7.1={ death=yes }
+}
+5028={
+	name=Kheman
+	dynasty=14635
+	dna="hhofkccdfod"
+	culture=girrin religion=wind_spirits
+	martial=7 diplomacy=7 stewardship=8 intrigue=7 learning=5
+	add_trait=detached_priest add_trait=brave add_trait=trusting add_trait=deceitful add_trait=cruel 
+	add_trait=zealous add_trait=ill 
+	father=5027	#Manjinun
+	mother=5032
+	3386.12.2={ birth=yes }
+	3437.12.3={ death=yes }
+}
+5029={
+	name=Nyami
+	female=yes
+	dynasty=14635
+	dna="bdogpmhenid"
+	culture=girrin religion=wind_spirits
+	father=5027	#Manjinun
+	mother=5032
+	3389.3.19={ birth=yes }
+	3461.8.24={ death=yes }
+}
+5030={
+	name=Awajang
+	female=yes
+	dynasty=14635
+	dna="iphgkkcodjp"
+	culture=girrin religion=wind_spirits
+	father=5027	#Manjinun
+	mother=5032
+	3394.7.8={ birth=yes }
+	3459.9.15={ death=yes }
+}
+5031={
+	name=Awaja
+	female=yes
+	dynasty=14635
+	dna="bdogkccoibj"
+	culture=girrin religion=wind_spirits
+	father=5027	#Manjinun
+	mother=5032
+	3397.5.3={ birth=yes }
+	3447.5.30={ death=yes }
+}
+5032={
+	name=Samarun
+	female=yes
+	culture=girrin religion=wind_spirits
+	3366.5.7={ birth=yes }
+	3384.1.1={add_spouse=5027}
+	3417.7.1={ death=yes }
+}
