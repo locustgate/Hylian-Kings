@@ -13,3 +13,211 @@
 		death=yes
 	}
 }
+5000={
+	name=Suswe
+	dynasty=14610
+	dna="onhncjpknhf"
+	culture=girrin religion=wind_spirits
+	martial=7 diplomacy=6 stewardship=7 intrigue=7 learning=6
+	add_trait=mastermind_theologian add_trait=paranoid add_trait=craven add_trait=kind add_trait=ambitious 
+	add_trait=humble add_trait=stressed 
+	3341.9.17={ birth=yes }
+	3364.1.1={add_spouse=5008}
+	3400.6.21={ death=yes }
+}
+5001={
+	name=Mwuferuon
+	dynasty=14610
+	dna="odhhcapjnpe"
+	culture=girrin religion=wind_spirits
+	martial=6 diplomacy=7 stewardship=4 intrigue=5 learning=6
+	add_trait=misguided_warrior add_trait=wroth add_trait=lustful add_trait=brave add_trait=cruel 
+	add_trait=trusting 
+	father=5000	#Suswe
+	mother=5008
+	3365.2.11={ birth=yes }
+	3417.2.15={ death=yes }
+}
+5002={
+	name=Kinun
+	dynasty=14610
+	dna="oelncbokeif"
+	culture=girrin religion=wind_spirits
+	martial=7 diplomacy=4 stewardship=4 intrigue=7 learning=7
+	add_trait=scholarly_theologian add_trait=cynical add_trait=kind add_trait=just add_trait=cruel 
+	add_trait=lunatic 
+	father=5000	#Suswe
+	mother=5008
+	3369.8.18={ birth=yes }
+	3422.11.26={ death=yes }
+}
+5003={
+	name=Jenjun
+	dynasty=14610
+	dna="bnbnhepkchf"
+	culture=girrin religion=wind_spirits
+	martial=5 diplomacy=5 stewardship=4 intrigue=5 learning=8
+	add_trait=flamboyant_schemer add_trait=temperate add_trait=humble add_trait=craven add_trait=charitable 
+	add_trait=lustful add_trait=lunatic 
+	father=5000	#Suswe
+	mother=5008
+	3372.6.1={ birth=yes }
+	3402.9.29={ death=yes }
+}
+5004={
+	name=Feulu
+	dynasty=14610
+	dna="jnhbmjplnhe"
+	culture=girrin religion=wind_spirits
+	martial=8 diplomacy=7 stewardship=7 intrigue=5 learning=6
+	add_trait=midas_touched add_trait=zealous add_trait=content 
+	father=5000	#Suswe
+	mother=5008
+	3374.9.9={ birth=yes }
+	3430.7.17={ death=yes }
+}
+5005={
+	name=Zefen
+	dynasty=14610
+	dna="okhncpjkbhh"
+	culture=girrin religion=wind_spirits
+	martial=6 diplomacy=8 stewardship=7 intrigue=5 learning=4
+	add_trait=misguided_warrior add_trait=ambitious add_trait=wroth add_trait=brave add_trait=humble 
+	father=5000	#Suswe
+	mother=5008
+	3377.5.9={ birth=yes }
+	3451.4.25={ death=yes }
+}
+5006={
+	name=Janen
+	dynasty=14610
+	dna="obhnmalknlf"
+	culture=girrin religion=wind_spirits
+	martial=6 diplomacy=5 stewardship=8 intrigue=5 learning=7
+	add_trait=elusive_shadow add_trait=humble add_trait=chaste add_trait=cruel add_trait=just 
+	add_trait=deceitful add_trait=ambitious 
+	father=5000	#Suswe
+	mother=5008
+	3381.11.16={ birth=yes }
+	3440.5.22={ death=yes }
+}
+5007={
+	name=Zurn
+	dynasty=14610
+	dna="nbhebnolndn"
+	culture=girrin religion=wind_spirits
+	martial=7 diplomacy=4 stewardship=8 intrigue=4 learning=5
+	add_trait=flamboyant_schemer add_trait=honest add_trait=slothful add_trait=chaste add_trait=greedy 
+	add_trait=kind add_trait=temperate 
+	father=5000	#Suswe
+	mother=5008
+	3383.10.8={ birth=yes }
+	3450.4.10={ death=yes }
+}
+5008={
+	name=Suswe
+	dynasty=14610
+	dna="onhncjpknhf"
+	culture=girrin religion=wind_spirits
+	martial=7 diplomacy=6 stewardship=7 intrigue=7 learning=6
+	add_trait=mastermind_theologian add_trait=paranoid add_trait=craven add_trait=kind add_trait=ambitious 
+	add_trait=humble add_trait=stressed 
+	3341.9.17={ birth=yes }
+	3364.1.1={add_spouse=5000}
+	3400.6.21={ death=yes }
+}
+5009={
+	name=Zefen
+	dynasty=14630
+	dna="mnjbfjgbeon"
+	culture=girrin religion=wind_spirits
+	martial=5 diplomacy=6 stewardship=5 intrigue=4 learning=8
+	add_trait=detached_priest add_trait=patient add_trait=arbitrary add_trait=diligent add_trait=deceitful 
+	add_trait=humble 
+	3367.2.18={ birth=yes }
+	3421.11.12={ death=yes }
+}
+5010={
+	name=Suswo
+	dynasty=14615
+	dna="hfbobnmdici"
+	culture=girrin religion=wind_spirits
+	martial=6 diplomacy=4 stewardship=7 intrigue=6 learning=4
+	add_trait=midas_touched add_trait=mystic add_trait=cynical add_trait=wroth add_trait=proud 
+	add_trait=envious add_trait=deceitful add_trait=arbitrary 
+	3367.10.2={ birth=yes }
+	3426.8.23={ death=yes }
+}
+5011={
+	name=Kinun
+	dynasty=14620
+	dna="depnakihkdj"
+	culture=girrin religion=wind_spirits
+	martial=7 diplomacy=6 stewardship=6 intrigue=8 learning=6
+	add_trait=flamboyant_schemer add_trait=arbitrary add_trait=cruel add_trait=zealous add_trait=diligent 
+	add_trait=paranoid 
+	3344.2.27={ birth=yes }
+	3370.1.1={add_spouse=5016}
+	3391.2.14={ death=yes }
+}
+5012={
+	name=Churan
+	female=yes
+	dynasty=14620
+	dna="nmnnnfioddm"
+	culture=girrin religion=wind_spirits
+	father=5011	#Kinun
+	mother=5016
+	3373.8.8={ birth=yes }
+	3430.9.27={ death=yes }
+}
+5013={
+	name=Kheman
+	dynasty=14620
+	dna="hcpnaoihfdk"
+	culture=girrin religion=wind_spirits
+	martial=6 diplomacy=4 stewardship=4 intrigue=4 learning=6
+	add_trait=intricate_webweaver add_trait=poet add_trait=shy add_trait=diligent add_trait=ambitious 
+	add_trait=deceitful add_trait=drunkard 
+	father=5011	#Kinun
+	mother=5016
+	3375.5.10={ birth=yes }
+	3420.11.25={ death=yes }
+}
+5014={
+	name=Jenun
+	dynasty=14620
+	dna="deoonifhcdn"
+	culture=girrin religion=wind_spirits
+	martial=8 diplomacy=8 stewardship=7 intrigue=5 learning=6
+	add_trait=scholarly_theologian add_trait=cruel add_trait=shy 
+	father=5011	#Kinun
+	mother=5016
+	3380.1.3={ birth=yes }
+	3450.4.12={ death=yes }
+}
+5015={
+	name=Jafen
+	dynasty=14620
+	dna="dhgnaaingdg"
+	culture=girrin religion=wind_spirits
+	martial=6 diplomacy=5 stewardship=6 intrigue=5 learning=8
+	add_trait=charismatic_negotiator add_trait=trusting add_trait=brave add_trait=chaste add_trait=just 
+	add_trait=humble add_trait=temperate 
+	father=5011	#Kinun
+	mother=5016
+	3385.7.13={ birth=yes }
+	3452.8.12={ death=yes }
+}
+5016={
+	name=Kinun
+	dynasty=14620
+	dna="depnakihkdj"
+	culture=girrin religion=wind_spirits
+	martial=7 diplomacy=6 stewardship=6 intrigue=8 learning=6
+	add_trait=flamboyant_schemer add_trait=arbitrary add_trait=cruel add_trait=zealous add_trait=diligent 
+	add_trait=paranoid 
+	3344.2.27={ birth=yes }
+	3370.1.1={add_spouse=5011}
+	3391.2.14={ death=yes }
+}

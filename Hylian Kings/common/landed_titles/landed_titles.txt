@@ -72,6 +72,7 @@ e_hyrule_central = {
 		d_south_faron = {
 			color={ 55 154 97 }
 			color2={ 0 0 0}		
+			capital=516
 			lizalfos="S Taxkha"
 			dinolfos="S Taxkha"
 			aerolfos="S Taxkha"
@@ -720,7 +721,7 @@ e_hyrule_central = {
 		d_south_eldin = {
 			color={ 167 0 0 }
 			color2={ 204 203 203 }
-			capital = 530
+			capital = 535
 			lizalfos="South Lunkha"
 			dinolfos="South Lunkha"
 			aerolfos="South Lunkha"
@@ -774,6 +775,7 @@ e_hyrule_central = {
 		d_eldin = {
 			color={ 89 0 0 }
 			color2={ 255 255 255 }
+			capital=529
 				lizalfos="Lunkha"
 				dinolfos="Lunkha"
 				aerolfos="Lunkha"
@@ -1787,7 +1789,7 @@ e_mudora = { #empire
 		d_flame_mountains = {
 			color={ 66 104 142 }
 			color2={ 222 184 135 }
-			capital = 444 # Middlesex	
+			capital = 438 # Middlesex	
 			c_tower_of_flames = {
 				color={ 0 170 0 }
 				color2={ 255 255 255 }
@@ -1812,7 +1814,7 @@ e_mudora = { #empire
 		d_hera = {
 			color={ 14 75 137 }
 			color2={ 222 184 135 }
-			capital = 444 # Middlesex			
+			capital = 443 # Middlesex			
 			c_hera = {
 				color={ 0 170 0 }
 				color2={ 255 255 255 }
@@ -2025,8 +2027,8 @@ e_mudora = { #empire
 e_saria = { #empire
 	color={ 0 0 204 }
 	color2={ 255 255 255 }
-	capital = 32 # Middlesex
-	dignity = 196 # Counted as having this many more counties than it does
+	capital = 196 # Middlesex
+	dignity = 10 # Counted as having this many more counties than it does
 
 	sarian="Saria"
 	kasuton="Kasuto"
@@ -2184,7 +2186,6 @@ e_saria = { #empire
 		color2={ 255 255 23 }
 		capital = 196 # Middlesex
 		dignity = 10 # Counted as having this many more counties than it does
-		capital = 196
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -2859,7 +2860,7 @@ e_sea_tree = {
 		capital = 659
 		allow = {
 			OR ={
-				culture = tree_deity
+				culture = kokiri
 				culture = tree_demon
 				culture = kokiri
 			}
@@ -3239,7 +3240,7 @@ e_sea_tree = {
 		capital = 716
 		allow = {
 			OR ={
-				culture = tree_deity
+				culture = kokiri
 				culture = tree_demon
 				culture = great_fairy
 				culture = deku_scrub
@@ -3594,7 +3595,7 @@ e_sea_tree = {
 		capital = 757
 		allow = {
 			OR ={
-				culture = tree_deity
+				culture = kokiri
 				culture = tree_demon
 				culture = great_fairy
 				culture = deku_scrub
@@ -3873,7 +3874,7 @@ e_sea_tree = {
 		capital = 666	
 		allow = {
 			OR ={
-				culture = tree_deity
+				culture = kokiri
 				culture = tree_demon
 				culture = great_fairy
 			}
@@ -3896,15 +3897,6 @@ e_sea_tree = {
 				b_ogiru = {}
 				b_edinu = {}
 			}
-			c_lakeside_retreat = {	
-				color={ 0 0 0 }
-				color2={ 0 0 0 }
-				
-				b_minish_retreat = {}
-				b_soro = {}
-				b_manane = {}
-				b_kirde = {}
-			}
 			
 			c_minish_woods = {
 				color={ 0 0 0 }
@@ -3920,6 +3912,20 @@ e_sea_tree = {
 				color2={ 0 0 0 }
 				b_mikok = {}
 				b_fivo = {}
+			}
+		}
+		d_hylia_woods = {
+			color={ 45 77 114 }
+			color2={ 85 107 47 }
+			capital=628
+			c_lakeside_retreat = {	
+				color={ 0 0 0 }
+				color2={ 0 0 0 }
+				
+				b_minish_retreat = {}
+				b_soro = {}
+				b_manane = {}
+				b_kirde = {}
 			}
 			c_east_hylia_woods = {
 				color={ 0 0 0 }
@@ -7648,7 +7654,7 @@ k_west_death_mountains = {
 	d_eldin_mountain = {
 		color={ 96 3 0 }
 		color2={ 91 100 100 }
-		capital = 540 # Great Death Mountain
+		capital = 543 # Great Death Mountain
 		c_hot_springs_mountain = {
 			color={ 139 117 0 }
 			color2={ 139 139 131  }
@@ -7666,7 +7672,7 @@ k_west_death_mountains = {
 	d_bombchu_mountain = {
 		color={ 153 41 38 }
 		color2={ 91 100 100 }
-		capital = 540 # Great Death Mountain
+		capital = 545 # Great Death Mountain
 		c_bombchu_mountain = {
 			color={ 139 117 0 }
 			color2={ 139 139 131  }
@@ -7791,6 +7797,7 @@ k_hyrule_minish = { #Minish
 			}
 		}
 	}
+	wind_tribe="Wind"
 	d_minish_fields= {
 		color={ 27 163 211 }
 		color2={ 176 23 31 }
@@ -7855,48 +7862,34 @@ k_hyrule_minish = { #Minish
 				b_darco = {}
 				b_otalu = {}
 			}
-			c_trilby_highlands = {
-				color={ 0 206 209 }
-				color2={ 47 79 79 }
-				
-				b_norin = {}
-				b_koryu = {}
-				b_mutosh = {}				
-			}
-			c_western_wood = {
-				color={ 0 134 193 }
-				color2={ 47 79 79 }
-				
-				b_falal = {}
-				b_orore = {}
-				b_daro = {}
-				b_nirore = {}
-				b_edari  = {}
-			}
+		}
+	d_trilby = {	
+		color={ 40 106 129 }
+		color2={ 128 0 0 }	
+		capital = 620
+		c_trilby_highlands = {
+			color={ 0 206 209 }
+			color2={ 47 79 79 }
+			
+			b_norin = {}
+			b_koryu = {}
+			b_mutosh = {}				
+		}
+		c_western_wood = {
+			color={ 0 134 193 }
+			color2={ 47 79 79 }
+			
+			b_falal = {}
+			b_orore = {}
+			b_daro = {}
+			b_nirore = {}
+			b_edari  = {}
+		}
 	}
 	d_minish_plains = {
 		color={ 10 115 152 }
 		color2={ 255 255 255 }		
-		capital=640
-		
-		c_west_wind_bridge = {
-			color={ 125 158 192 }
-			color2={ 128 0 0 }
-			
-			b_west_bridge_wind = {}
-			b_milu = {}
-			b_naudu = {}
-			
-		}
-		c_east_wind_bridge = {
-			color={ 0 255 255 }
-			color2={ 255 255 255 }
-			
-			b_west_bridge_gate = {}
-			b_kilu = {}
-			b_mulo = {}
-		}
-			
+		capital=640				
 		c_north_minish_plains = {
 			color={ 255 0 0 }
 			color2={ 113 113 198 }
@@ -7942,6 +7935,96 @@ k_hyrule_minish = { #Minish
 			b_ligokan = {}
 		}
 	}
+	d_wind_bridge = {	
+		color={ 125 158 192 }
+		color2={ 128 0 0 }	
+		capital = 638
+		
+		c_west_wind_bridge = {
+			color={ 125 158 192 }
+			color2={ 128 0 0 }
+			
+			b_west_bridge_wind = {}
+			b_milu = {}
+			b_naudu = {}
+			
+		}
+		c_east_wind_bridge = {
+			color={ 0 255 255 }
+			color2={ 255 255 255 }
+			
+			b_west_bridge_gate = {}
+			b_kilu = {}
+			b_mulo = {}
+		}
+	}
+	d_castor_wilds= { #10#
+		color={ 102 156 175 }
+		color2={ 0 0 0 }
+		capital = 618 # Middlesex
+		c_north_castor_wilds = {
+			color={ 227 168 105 }
+			color2={ 82 184 220 }
+			
+			b_sobo = {}
+			b_fardan = {}
+			b_tinin = {}
+		}
+		c_south_castor_wilds = {
+			color={ 237 145 33 }
+			color2={ 82 184 220 }
+				
+			b_edabe = {}
+			b_oron = {}
+		}
+		c_central_castor_wilds = {
+			color={ 205 133 0 }
+			color2={ 82 184 220 }
+			
+			b_aru = {}
+			b_repu = {}
+		}
+	}
+	d_royal_valley= {#
+		color={ 0 107 145 }
+		color2={ 0 0 0 }
+		capital = 623 # Middlesex
+		c_royal_crypt = {
+			color={ 47 79 79 }
+			color2={ 82 184 220 }
+			
+			b_crypt_entrance = {}
+			b_royal_crypts = {}
+			b_crypt_town = {}
+		}
+			c_north_royal_road = {
+			color={ 105 105 105 }
+			color2={ 82 184 220 }
+			
+			b_lere = {}
+			b_dobal = {}
+			b_morin = {}
+			b_pirin = {}
+		}
+		c_royal_valley = {
+			color={ 132 112 255 }
+			color2={ 82 184 220 }
+			
+			b_kabo = {}
+			b_kinin = {}
+			b_sipia = {}
+			b_marudan = {}
+		}
+		c_minish_hyrule_castle = {
+			color={ 30 144 255 }
+			color2={ 82 184 220 }			
+				holy_site = vaati_religion
+			b_minish_castle = {
+				#wind_tribe = Wind Castle
+			}
+			b_elemental_sanctuary = {}
+		}
+	}	
 	d_minish_mountains = {
 		color={ 0 177 240 }
 		color2={ 30 30 30 }
@@ -7993,53 +8076,10 @@ k_hyrule_minish = { #Minish
 			b_karor = {}
 		}
 	}
-	d_keatonia = {	
-		color={ 103 207 244 }
-		color2={ 176 23 31 }
-		capital = 637 # Middlesex	
-		c_keatonia = {
-			color={ 227 168 105 }
-			color2={ 128 128 0 }
-			
-			b_keatonia = {}
-			b_keatonan = {}
-			b_keato = {}
-		}
-		c_earth_temple = {
-			color={ 205 205 0 }
-			color2={ 139 105 20 }
-			
-			b_koba = {}
-			b_earth_temple = {}
-		}
-		c_jewel_mines = {
-		color={ 139 90 0 }
-			color2={ 252 230 201 }
-				
-			b_mine_entrance = {}
-			b_mining_town = {}
-			b_jewel_sanctuary = {}
-		}
-	}
-	d_castor_wilds= { #10#
-		color={ 102 156 175 }
-		color2={ 0 0 0 }
-		capital = 618 # Middlesex
-		c_north_castor_wilds = {
-			color={ 227 168 105 }
-			color2={ 82 184 220 }
-			
-			b_sobo = {}
-			b_fardan = {}
-			b_tinin = {}
-		}
-		c_south_castor_wilds = {
-			color={ 237 145 33 }
-			color2={ 82 184 220 }
-				
-			b_edabe = {}
-			b_oron = {}
-		}
+	d_mountain_wind = {
+		color={ 118 147 158 }
+		color2={ 30 30 30 }
+		capital = 615
 		c_wind_city = {
 			color={ 238 118 0 }
 			color2={ 82 184 220 }
@@ -8070,58 +8110,19 @@ k_hyrule_minish = { #Minish
 			b_faton = {}
 			b_pin = {}
 		}
-		c_central_castor_wilds = {
-			color={ 205 133 0 }
-			color2={ 82 184 220 }
-			
-			b_aru = {}
-			b_repu = {}
-		}
-	}
-	d_royal_valley= {#
-		color={ 0 107 145 }
-		color2={ 0 0 0 }
-		capital = 623 # Middlesex
-		c_royal_crypt = {
-			color={ 47 79 79 }
-			color2={ 82 184 220 }
-			
-			b_crypt_entrance = {}
-			b_royal_crypts = {}
-			b_crypt_town = {}
-		}
-			c_north_royal_road = {
-			color={ 105 105 105 }
-			color2={ 82 184 220 }
-			
-			b_lere = {}
-			b_dobal = {}
-			b_morin = {}
-			b_pirin = {}
-		}
-		c_royal_valley = {
-			color={ 132 112 255 }
-			color2={ 82 184 220 }
-			
-			b_kabo = {}
-			b_kinin = {}
-			b_sipia = {}
-			b_marudan = {}
-		}
-		c_minish_hyrule_castle = {
-			color={ 30 144 255 }
-			color2={ 82 184 220 }			
-				holy_site = vaati_religion
-			b_minish_castle = {
-				#wind_tribe = Wind Castle
-			}
-			b_elemental_sanctuary = {}
-		}
+	}	
+}
+k_girrin = {
+	color={ 233 181 0 }
+	color2={ 139 136 120 }
+	capital = 652
+	allow = {
+		culture=girrin
 	}
 	d_minish_savannah = {
-		color={ 47 148 183 }
+		color={ 243 205 71 }
 		color2={ 139 136 120 }
-		capital = 644
+		capital = 652
 		c_acacia_point = {
 			color={ 139 139 0 }
 			color2={ 139 136 120 }
@@ -8150,8 +8151,26 @@ k_hyrule_minish = { #Minish
 			b_dokoon = {}
 			b_edosh = {}
 		}
+	}
+	d_acacia_island = {
+		color={ 173 134 0 }
+		color2={ 139 136 120 }
+		capital=647
+		c_acacia_island = {
+			color={ 240 201 66 }
+			color2={ 139 136 120 }			
+			holy_site = water_spirit
+			
+			b_acacia_resort = {}
+			b_narin = {}
+		}
+	}
+	d_east_savannah = {	
+		color={ 188 166 91 }
+		color2={ 139 136 120 }
+		capital=649
 		c_east_acacia_savannah = {
-			color={ 139 117 0 }
+			color={ 196 160 37 }
 			color2={ 139 136 120 }
 			
 			b_ninin = {}
@@ -8168,14 +8187,6 @@ k_hyrule_minish = { #Minish
 			b_korin = {}
 			b_muryi = {}
 		}
-		c_acacia_island = {
-			color={ 205 133 63 }
-			color2={ 139 136 120 }			
-			holy_site = water_spirit
-			
-			b_acacia_resort = {}
-			b_narin = {}
-		}
 		c_port_minish = {
 			color={ 139 87 66}
 			color2={ 0 0 0 }
@@ -8184,6 +8195,42 @@ k_hyrule_minish = { #Minish
 			b_port_minish = {}
 		}
 	}
+}
+k_keatonia = {
+	color={ 207 93 0 }
+	color2={ 176 23 31 }
+	capital = 637 # Middlesex
+	allow={
+		culture=keaton
+	}
+	d_keatonia = {	
+		color={ 207 93 0 }
+		color2={ 176 23 31 }
+		capital = 637 # Middlesex	
+		c_keatonia = {
+			color={ 227 168 105 }
+			color2={ 128 128 0 }
+			
+			b_keatonia = {}
+			b_keatonan = {}
+			b_keato = {}
+		}
+		c_earth_temple = {
+			color={ 205 205 0 }
+			color2={ 139 105 20 }
+			
+			b_koba = {}
+			b_earth_temple = {}
+		}
+		c_jewel_mines = {
+		color={ 139 90 0 }
+			color2={ 252 230 201 }
+				
+			b_mine_entrance = {}
+			b_mining_town = {}
+			b_jewel_sanctuary = {}
+		}
+	}	
 }
 k_koridai = {
 		color={ 112 227 220 }
@@ -9840,7 +9887,7 @@ k_myrddin = {
 	}	
 }
 #racial courts
-d_wind = {
+e_wind = {
 	color={ 40 192 248 }
 	color2={ 232 56 64 }
 
@@ -9990,7 +10037,7 @@ d_knights_moria = {
 	# Parent Religion 
 	religion = golden_goddesses
 	
-	culture = plains_morian
+	culture = grindle
 	
 	mercenary = yes
 
