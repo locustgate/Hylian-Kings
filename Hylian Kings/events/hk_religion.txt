@@ -320,3 +320,88 @@ character_event = {#dinolfos
 		}
 	}
 }
+
+character_event = {
+	id = HKR.26
+	desc = HKR26_DESC
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = HKR26A
+		add_character_modifier = {
+			name = patron_din
+			duration = -1
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_PATRON_DEITY_DIN
+				picture = GFX_evt_bishop
+			}
+		}
+	}
+	option = {
+		name = HKR26B
+		add_character_modifier = {
+			name = patron_nayru
+			duration = -1
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_PATRON_DEITY_NAYRU
+				picture = GFX_evt_bishop
+			}
+		}
+	}
+	option = {
+		name = HKR26C
+		add_character_modifier = {
+			name = patron_farore
+			duration = -1
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_PATRON_DEITY_FARORE
+				picture = GFX_evt_bishop
+			}
+		}
+	}
+	option = {
+		name = HKR26D
+	}
+}
+
+character_event = {
+	id = HKR.25
+	desc = HKR25_DESC
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = HKR25A
+		add_trait = school_din
+		military_techpoints = 50
+	}
+	option = {
+		name = HKR25B		
+		add_trait = school_nayru
+		culture_techpoints = 50
+	}
+	option = {
+		name = HKR25C
+		add_trait = school_farore
+		economy_teachpoints = 50
+		
+		}
+	}
+	option = {
+		name = HKR25D
+	}
+}

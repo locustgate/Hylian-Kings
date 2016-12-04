@@ -8,6 +8,7 @@ patron_din = {
 	opposite_opinion = -5
 	
 	martial = 2
+	monthly_character_prestige = 0.5
 
 	potential = { religion = golden_goddesses }
 	religious_branch = golden_goddesses
@@ -22,6 +23,7 @@ patron_nayru = {
 	}
 
 	opposite_opinion = -5
+	monthly_character_prestige = 0.5
 	
 	learning = 2
 
@@ -46,6 +48,49 @@ patron_farore = {
 	random = no
 	religious = yes
 	ruler_designer_cost = 0
+}
+school_din = {
+	martial = 5
+	
+	opposites = {
+		school_farore
+		schoo_nayru
+	}
+	
+	religious = yes	
+	same_opinion = 15
+	opposite_opinion = -25	
+	customizer = no
+	random = no
+}
+school_nayru = {
+	diplomacy = 5
+	
+	opposites = {
+		school_farore
+		schoo_din
+	}
+	
+	religious = yes	
+	same_opinion = 15
+	opposite_opinion = -25	
+	customizer = no
+	random = no
+}
+school_farore = {
+	martial = 3
+	learning = 2
+	
+	opposites = {
+		school_din
+		schoo_nayru
+	}
+	
+	religious = yes	
+	same_opinion = 15
+	opposite_opinion = -25	
+	customizer = no
+	random = no
 }
 #gerudo
 #iron_knuckle = {

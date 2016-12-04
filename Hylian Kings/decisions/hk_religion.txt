@@ -1,42 +1,89 @@
 decisions = {
-#patron
-	choose_golden_patron_deity = {
-		only_playable = yes
+##################################Goddesses
+##patron
+#	choose_golden_patron_deity = {
+#		only_playable = yes
+#		potential = {
+#			has_dlc = "Rajas of India"
+#			is_playable = yes
+#			age = 16
+#			not = { trait = incapable }
+#			religion = golden_goddesses
+#			NOT = {
+#				has_character_modifier = patron_din
+#				has_character_modifier = patron_nayru
+#				has_character_modifier = patron_farore
+#			}
+#		}
+#		allow = {
+#			prisoner = no
+#		}
+#		effect = {
+#			character_event = { id = HKR.24 }
+#		}
+#		revoke_allowed = {
+#			always = no
+#		}
+#		ai_will_do = {
+#			factor = 0.01
+#			modifier = {
+#				factor = 5
+#				trait = zealous
+#			}
+#			modifier = {
+#				factor = 0.5
+#				trait = cynical
+#			}
+#		}
+#	}
+##school
+	choose_school_heavenly = {
+		only_playable = yes		
 		potential = {
 			is_playable = yes
+			religion = heavently_goddesses
 			age = 16
 			not = { trait = incapable }
-			OR = {
-				religion = golden_goddesses
-				religion = western_goddesses
+			NOT = { 
+				OR = {
+					trait = school_din
+					trait = school_farore
+					trait = school_nayru
+				}
 			}
-			NOT = {
-				trait = patron_din
-				trait = patron_nayru
-				trait = patron_farore
-			}
-		}
-		allow = {
+			is_adult = yes
 			prisoner = no
 		}
-		effect = {
-			character_event = { id = RoI.100 }
+		
+		allow = {
+			piety = 50
 		}
+		
+		effect = {
+			character_event = { id = HKR.25 }
+		}
+		
 		revoke_allowed = {
 			always = no
 		}
+		
 		ai_will_do = {
-			factor = 0.01
+			factor = 1
+			
 			modifier = {
-				factor = 5
+				factor = 0
 				trait = zealous
 			}
 			modifier = {
-				factor = 0.5
+				factor = 1.2
 				trait = cynical
+			}
+			modifier = {
+				factor = 0.005 # Slow it down
 			}
 		}
 	}
+
 #Restore the horde
 	restore_demise = {
 		only_independent = yes
