@@ -321,6 +321,21 @@ EVTDESC_knights.122;[From.GetFirstName] returned home with a giant wallet filled
 EVTOPTA_knights.122;[From.GetFirstName] you've made me proud.;;;;;;;;;x
 EVTDESC_knights.123;Upon learning of my father's death I left for home. My wallet filled with rupees and letter from the king of Moria thanking me for my service and expressing his condolences for my lost.;;;;;;;;;x
 EVTOPTA_knights.123;I'm home.;;;;;;;;;x
+#light_festival light festival
+LF0_DESC;I had invited a rope charmer to the Light Festival, everyone was enjoying the performance till a child got to close and was bitten. The charmer quickly killed the rope but the peasents already demanding the charmer to leave.;;;;;;;;;;;;;;x
+LF0A;And never comeback.
+LF0B;I hope the child won't have a scar.
+LF0C;It's just an accident.
+LF0D;Here is your money don't comeback.
+LF8_DESC;My marshal got an auctioneer selling several fake items.;;;;;;;;;;x
+LF9_DESC;
+LF10_DESC;[Root.Capital.GetName] is decorated with flags in every light color there is, torches and lanterns adorn ever corner to brighten the festival. The shops all close.;;;;;;;;;;;;;;x
+LF10A;The Light Festival has started.
+LF11_DESC;The elders frequently tell stories in an unspoken competition to outdo eachother. From one group of children I hear an old man tells how he single handedly defeated a darknut in a duel.;;;;;;;;;;x
+LF11A;True or not it's a good story.;;;;;;;;;;x
+LF11B;Tell how I outwitted a multi-tailed keaton.;;;;;;;x
+LF11C;Tell how I wrestled a goron.;;;;;;;;;x
+LF12_DESC;It was a mistake to invite the Acro-Bandits they are falling everywhere and jumping in different directions and a number of people's wallets have disappeared.;;;;;;;;;;;;;x
 #prisoner
 EVTDESCHKPRISONER0;My Prisoner has a piece of the triforce. The power that I can obtain.;;;;;;;;;;;x
 #religion

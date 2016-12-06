@@ -13,3 +13,9 @@ patron_farore={
 	martial=1
 	diplomacy=1
 }
+#celebration
+light_fair_timer = { icon = 1 }
+holding_light_fair = {
+	monthly_character_piety = 0.05
+	icon = 7
+}

@@ -1,79 +1,103 @@
 ###########################################
 #
-# Religious Decisions for Sons of Abraham
+# light Decisions for Sons of Abraham
 #
 ###########################################
 # Written by Henrik Fåhraeus
 ###########################################
 
 decisions = {
-	observe_light_festival= {
+	observe_light_festival = {	light_fair = {
+		only_playable = yes
 		potential = {
-			ai = no
-			is_ruler = yes
+			is_playable = yes
+			religion_group = christian
 			prisoner = no
-			is_adult = yes
-			religion = light_force
-			NOT = { has_world_flag = era_force }
 			NOT = {
-				has_character_modifier = holding_religious_feastival
+				has_character_modifier = holding_light_fair
 			}
 			NOT = {
-				has_character_modifier = large_feast_timer
+				has_character_modifier = light_fair_timer
 			}
-			NOT = {
-				has_character_modifier = fabulous_feast
-			}
-			NOT = {
-				has_character_flag = guest_religious_feastival_started
-			}
-			NOT = { trait = incapable }
 			num_of_vassals = 1
+			OR = {
+				NOT = { has_character_flag = recent_light_fair }
+				had_character_flag = {
+					flag = recent_light_fair
+					days = 60
+				}
+			}
 		}
 		allow = {
 			war = no
 			any_demesne_title = {
+				NOT = { higher_tier_than = count }
 				is_occupied = no
 			}
+			wealth = 25
 			prisoner = no
-			NOT = { trait = in_hiding }
-			scaled_wealth = 0.2
-			month = 9
-			prestige = 100
+			NOT = { is_inaccessible_trigger = yes }
+			month = 4
+			NOT = {
+				month = 7
+			}
 			custom_tooltip = {
 				text = is_not_busy_trigger_tooltip
 				hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
 			}
 		}
 		effect = {
-			scaled_wealth = -0.2
+			wealth = -25
 			add_character_modifier = {
-				name = holding_religious_feastival
-				duration = 365
+				name = holding_light_fair
+				duration = -1
 			}
 			set_character_flag = recent_minor_decision
 			set_character_flag = do_not_disturb
-			hidden_tooltip = { character_event = { id = HKRC.x0 } }
+			hidden_tooltip = {
+				character_event = {
+					id = 74047
+					days = 60
+				}
+				character_event = { id = LF.0  }
+			}
+			if = {
+				limit = {
+					has_dlc = "Reapers"
+				}
+				custom_tooltip = {
+					text = capital_prospers_custom_tooltip
+					hidden_tooltip = {
+						capital_scope = {
+							change_variable = { which = prosperity_value value = 8 }
+						}
+					}
+				}
+			}
 		}
 		revoke_allowed = {
 			always = no
 		}
 		ai_will_do = {
-			factor = 0.1
+			factor = 1
+			
 			modifier = {
 				factor = 0
 				NOT = {
-					scaled_wealth = 2
+					wealth = 200
 				}
 			}
+
 			modifier = {
-				factor = 0.5
-				trait = shy
-			}
-			modifier = {
-				factor = 0.5
-				NOT = { diplomacy = 10 }
+				factor = 0
+				trait = slothful
 			}	
+			
+			modifier = {
+				factor = 0
+				NOT = { stewardship = 10 }
+			}
+			
 			modifier = {
 				factor = 0
 				has_character_flag = recent_minor_decision
@@ -83,11 +107,8 @@ decisions = {
 						days = 730
 					}
 				}
-			}	
-			modifier = {
-				factor = 0
-				NOT = { age = 30 }
 			}			
+			
 		}
 	}
 	observe_picori_festival = {
