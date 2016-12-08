@@ -2795,20 +2795,20 @@ character_event = {
 					culture_group = finno_ugric  # The most stubborn pagans
 				}
 			}
-			#modifier = {
-			#	factor = 0.25
-			#	culture_group = east_slavic # Like alcohol
-			#	event_target:missionary_physician_target = {
-			#		religion_group = muslim
-			#	}
-			#}
-			#modifier = {
-			#	factor = 0.25
-			#	culture_group = north_germanic # Vikings do like their alcohol
-			#	event_target:missionary_physician_target = {
-			#		religion_group = muslim
-			#	}
-			#}
+			modifier = {
+				factor = 0.25
+				culture_group = east_slavic # Like alcohol
+				event_target:missionary_physician_target = {
+					religion_group = muslim
+				}
+			}
+			modifier = {
+				factor = 0.25
+				culture_group = north_germanic # Vikings do like their alcohol
+				event_target:missionary_physician_target = {
+					religion_group = muslim
+				}
+			}
 			modifier = {
 				factor = 0.25
 				trait = paranoid
@@ -2816,7 +2816,7 @@ character_event = {
 			modifier = {
 				factor = 0
 				NOT = {
-					religion_group = minor_deity
+					religion_group = pagan_group
 				}
 			}
 		}
@@ -2830,9 +2830,9 @@ character_event = {
 		}
 		if = {
 			limit = {
-				religion_group = minor_deity
+				religion_group = pagan_group
 			}
-			add_trait = sympathy_minor_deity
+			add_trait = sympathy_pagans
 		}
 		religion = event_target:missionary_physician_target
 		prestige = -500
@@ -10893,9 +10893,9 @@ character_event = {
 		custom_tooltip = { text = EVTOPTA_RIP_30223_TOOLTIP }
 
 		if = {
-			limit = { NOT = { religion_group = goddesses_religion } }
+			limit = { NOT = { religion_group = christian } }
 			remove_trait_zealous_effect = yes
-			add_trait = sympathy_goddesses_religion
+			add_trait = sympathy_christendom
 		}
 
 		set_character_flag = invited_death

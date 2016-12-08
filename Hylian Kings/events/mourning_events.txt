@@ -74,7 +74,7 @@ character_event = {
 		add_trait = depressed
 		if = {
 			limit = {
-				religion_group = christian
+				religion_group = goddesses_religion
 			}
 			add_trait = celibate
 		}
@@ -562,17 +562,7 @@ character_event = {
 	option = {
 		name = EVTOPTA4140
 		trigger = {
-			religion_group = christian
-		}
-		add_character_modifier = {
-			name = the_sincere
-			years = 5
-		}
-	}
-	option = {
-		name = EVTOPTD4140
-		trigger = {
-			religion_group = muslim
+			religion_group = goddesses_religion
 		}
 		add_character_modifier = {
 			name = the_sincere
@@ -583,8 +573,7 @@ character_event = {
 		name = EVTOPTE4140
 		trigger = {
 			NOT = {
-				religion_group = muslim
-				religion_group = christian
+				religion_group = goddesses_religion
 			}
 		}
 		add_character_modifier = {

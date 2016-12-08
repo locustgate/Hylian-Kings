@@ -47,10 +47,10 @@ character_event = {
 				any_liege = {
 					government = nomadic_government
 				}
-				culture_group = altaic
+				culture_group = round_eared
 			}
-			religion = norse_pagan
-			religion = norse_pagan_reformed
+			religion = oshus
+			religion = pirate_doctrine
 		}
 		
 		NOT = { # Somewhat clunky way of checking that the character does not stand to inherit any titles

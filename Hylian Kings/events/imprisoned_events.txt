@@ -636,11 +636,15 @@ character_event = {
 	option = {
 		name = EVTOPTB50010 # Oil up the rack!
 		if = {
-			limit = { NOT = { religion = jain } }
+			limit = { NOR = { religion = great_deku
+				religion = light_force
+			} }
 			piety = -10
 		}
 		if = {
-			limit = { religion = jain }
+			limit = { NOR = { religion = great_deku
+				religion = light_force
+			} }
 			piety = -30
 			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}

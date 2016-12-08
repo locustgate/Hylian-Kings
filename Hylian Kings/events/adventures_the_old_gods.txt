@@ -35,8 +35,8 @@ character_event = {
 			is_female = no
 			liege = { has_law = status_of_women_4 }
 			liege = { has_law = true_cognatic_succession }
-			liege = { religion = cathar }
-			liege = { religion = messalian }
+			liege = { religion_group = goddesses_religion }
+			liege = { religion = great_fairy }
 			has_game_rule = {
 				name = gender
 				value = all
@@ -779,8 +779,8 @@ character_event = {
 			is_female = no
 			liege = { has_law = status_of_women_4 }
 			liege = { has_law = true_cognatic_succession }
-			liege = { religion = cathar }
-			liege = { religion = messalian }
+			liege = { religion_group = goddesses_religion }
+			liege = { religion = great_fairy }
 			has_game_rule = {
 				name = gender
 				value = all
@@ -796,18 +796,17 @@ character_event = {
 		NOT = { trait = content }
 		NOT = { trait = craven }
 		
-		OR = { # Only these for now
-			culture_group = north_germanic
-			culture_group = west_germanic
-			culture_group = altaic
-			culture = norman
-			culture = frankish
-			culture = breton
-			culture = catalan
-			AND = {
-				culture = hungarian
-				NOT = { year = 1066 }
-			}
+		OR = {
+			culture_group = lfos
+			culture_group = blin
+			culture_group = mammalian_monsters
+			culture = ho_ho
+			culture = grindle
+			culture = port_isle
+			culture = kasuton
+			culture = wizzrobe
+			culture = darknut
+			culture = geozard
 			has_character_flag = demon_child_non_pagan
 		}
 		
@@ -880,14 +879,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			OR = {
-				AND = {
-					culture = norman
-					NOT = { year = 1250 }
-				}
-				AND = {
-					culture_group = north_germanic
-					NOT = { year = 1066 }
-				}
+				culture_group = blin
 			}
 		}
 		modifier = {
@@ -959,8 +951,8 @@ character_event = {
 						AND = {
 							port = yes
 							ROOT = {
-								NOT = { culture_group = altaic }
-								NOT = { culture = hungarian }
+								NOT = { culture_group = blin }
+								NOT = { culture = lynol }
 							}
 							NOT = {
 								distance = {
@@ -992,8 +984,8 @@ character_event = {
 						AND = {
 							port = yes
 							ROOT = {
-								NOT = { culture_group = altaic }
-								NOT = { culture = hungarian }
+								NOT = { culture_group = blin }
+								NOT = { culture = lynol }
 							}
 							NOT = {
 								distance = {
@@ -1107,8 +1099,8 @@ character_event = {
 					AND = {
 						port = yes
 						ROOT = {
-							NOT = { culture_group = altaic }
-							NOT = { culture = hungarian }
+								NOT = { culture_group = blin }
+								NOT = { culture = lynol }
 						}
 					}
 					any_neighbor_province = {
@@ -1157,8 +1149,8 @@ character_event = {
 								AND = {
 									port = yes
 									ROOT = {
-										NOT = { culture_group = altaic }
-										NOT = { culture = hungarian }
+										NOT = { culture_group = blin }
+										NOT = { culture = lynol }
 									}
 								}
 								any_neighbor_province = {
@@ -1187,8 +1179,8 @@ character_event = {
 								AND = {
 									port = yes
 									ROOT = {
-										NOT = { culture_group = altaic }
-										NOT = { culture = hungarian }
+										NOT = { culture_group = blin }
+										NOT = { culture = lynol }
 									}
 								}
 								any_neighbor_province = {
@@ -1287,8 +1279,8 @@ character_event = {
 		
 		if  = {
 			limit = {
-				NOT = { culture_group = altaic }
-				NOT = { culture = hungarian }
+				NOT = { culture_group = blin }
+				NOT = { culture = lynol }
 			}
 			
 			# Create a fleet, just to be sure

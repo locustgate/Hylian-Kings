@@ -3577,28 +3577,28 @@ character_event = {
 			# Always allow them if you already like that religion
 			modifier = {
 				factor = 0
-				FROM = { religion_group = goddesses_religion }
-				trait = sympathy_goddesses_religion
-			}
-			#modifier = {
-			#	factor = 0
-			#	FROM = { religion_group = muslim }
-			#	trait = sympathy_islam
-			#}
-			modifier = {
-				factor = 0
-				FROM = { religion_group = doctrine }
-				trait = sympathy_doctrine
+				FROM = { religion_group = christian }
+				trait = sympathy_christendom
 			}
 			modifier = {
 				factor = 0
-				FROM = { religion_group = guardian_deity }
-				trait = sympathy_guardian_deity
+				FROM = { religion_group = muslim }
+				trait = sympathy_islam
 			}
 			modifier = {
 				factor = 0
-				FROM = { religion_group = alien_religion }
-				trait = sympathy_alien_religion
+				FROM = { religion_group = jewish_group }
+				trait = sympathy_judaism
+			}
+			modifier = {
+				factor = 0
+				FROM = { religion_group = zoroastrian_group }
+				trait = sympathy_zoroastrianism
+			}
+			modifier = {
+				factor = 0
+				FROM = { religion_group = indian_group }
+				trait = sympathy_indian
 			}
 		}
 		
@@ -3883,28 +3883,28 @@ character_event = {
 			}
 			modifier = {
 				factor = 3
-				FROM = { religion_group = goddesses_religion }
-				trait = sympathy_goddesses_religion
-			}
-			#modifier = {
-			#	factor = 3
-			#	FROM = { religion_group = muslim }
-			#	trait = sympathy_islam
-			#}
-			modifier = {
-				factor = 3
-				FROM = { religion_group = doctrine }
-				trait = sympathy_doctrine
+				FROM = { religion_group = christian }
+				trait = sympathy_christendom
 			}
 			modifier = {
 				factor = 3
-				FROM = { religion_group = guardian_deity }
-				trait = sympathy_guardian_deity
+				FROM = { religion_group = muslim }
+				trait = sympathy_islam
 			}
 			modifier = {
 				factor = 3
-				FROM = { religion_group = alien_religion }
-				trait = sympathy_alien_religion
+				FROM = { religion_group = jewish_group }
+				trait = sympathy_judaism
+			}
+			modifier = {
+				factor = 3
+				FROM = { religion_group = zoroastrian_group }
+				trait = sympathy_zoroastrianism
+			}
+			modifier = {
+				factor = 3
+				FROM = { religion_group = indian_group }
+				trait = sympathy_indian
 			}
 			
 			# Personal
@@ -4184,7 +4184,7 @@ character_event = {
 			}
 			random = {
 				chance = 60
-				add_trait = sympathy_minor_deity
+				add_trait = sympathy_pagans
 			}
 		}
 		if = {
@@ -4197,7 +4197,7 @@ character_event = {
 			}
 			random = {
 				chance = 50
-				add_trait = sympathy_minor_deity
+				add_trait = sympathy_pagans
 			}
 		}		
 		
@@ -4429,7 +4429,7 @@ character_event = {
 			}
 			random = {
 				chance = 60
-				add_trait = sympathy_minor_deity
+				add_trait = sympathy_pagans
 			}
 		}
 		if = {
@@ -4442,7 +4442,7 @@ character_event = {
 			}
 			random = {
 				chance = 50
-				add_trait = sympathy_minor_deity
+				add_trait = sympathy_pagans
 			}
 		}
 		religion = FROM
@@ -5768,18 +5768,18 @@ character_event = {
 		}
 	}
 	
-	#option = { # No sympathy for the old religion
-	#	ai_chance = {
-	#		factor = 100
-	#	}
-	#	religion = FROMFROM
-	#	if = {
-	#		limit = {
-	#			religion_group = indian_group
-	#		}
-	#		character_event = { id = RoI.120 } # Assign Indian religion branch
-	#	}
-	#}
+	option = { # No sympathy for the old religion
+		ai_chance = {
+			factor = 100
+		}
+		religion = FROMFROM
+		if = {
+			limit = {
+				religion_group = indian_group
+			}
+			character_event = { id = RoI.120 } # Assign Indian religion branch
+		}
+	}
 	
 	option = { # Sympathy for the old religion
 		ai_chance = {
@@ -5799,123 +5799,123 @@ character_event = {
 		}
 		if = {
 			limit = {
-				religion_group = golden_goddesses
+				religion_group = christian
 			}
-			add_trait = sympathy_goddesses_religion
-		}
-		#if = {
-		#	limit = {
-		#		religion_group = muslim
-		#	}
-		#	add_trait = sympathy_islam
-		#}
-		if = {
-			limit = {
-				religion_group = minor_deity
-			}
-			add_trait = sympathy_minor_deity
+			add_trait = sympathy_christendom
 		}
 		if = {
 			limit = {
-				religion_group = guardian_deity
+				religion_group = muslim
 			}
-			add_trait = sympathy_guardian_deity
+			add_trait = sympathy_islam
 		}
 		if = {
 			limit = {
-				religion_group = doctrine
+				religion_group = pagan_group
 			}
-			add_trait = sympathy_doctrine
+			add_trait = sympathy_pagans
 		}
 		if = {
 			limit = {
-				religion_group = alien_religion
+				religion_group = zoroastrian_group
 			}
-			add_trait = sympathy_alien_religion
+			add_trait = sympathy_zoroastrianism
+		}
+		if = {
+			limit = {
+				religion_group = jewish_group
+			}
+			add_trait = sympathy_judaism
+		}
+		if = {
+			limit = {
+				religion_group = indian_group
+			}
+			add_trait = sympathy_indian
 		}
 		
 		religion = FROMFROM
-		#if = {
-		#	limit = {
-		#		religion_group = indian_group
-		#	}
-		#	character_event = { id = RoI.120 } # Assign Indian religion branch
-		#}
+		if = {
+			limit = {
+				religion_group = indian_group
+			}
+			character_event = { id = RoI.120 } # Assign Indian religion branch
+		}
 	}
 }
 
 # Catholic antipope immediately loses claim if he or liege is no longer catholic
-#character_event = {
-#	id = 39701
-#
-#	hide_window = yes
-#
-#	only_playable = yes
-#	
-#	trigger = {
-#		k_papal_state = {
-#			any_claimant = {
-#				OR = {
-#					NOT = { religion = catholic }
-#					any_liege = { NOT = { religion = catholic } }
-#				}
-#			}
-#		}
-#	}
-#	
-#	mean_time_to_happen = {
-#		days = 1
-#	}
-#	
-#	immediate = {
-#		k_papal_state = {
-#			any_claimant = {
-#				limit = {
-#					OR ={
-#						NOT = { religion = catholic }
-#						any_liege = { NOT = { religion = catholic } }
-#					}
-#				}
-#				remove_claim = k_papal_state
-#			}
-#		}
-#	}
-#}
-#
-## Fraticelli antipope immediately loses claim if he or liege is no longer Fraticelli
-#character_event = {
-#	id = 39702
-#
-#	hide_window = yes
-#
-#	only_playable = yes
-#	
-#	trigger = {
-#		d_fraticelli = {
-#			any_claimant = {
-#				OR = {
-#					NOT = { religion = fraticelli }
-#					any_liege = { NOT = { religion = fraticelli } }
-#				}
-#			}
-#		}
-#	}
-#	
-#	mean_time_to_happen = {
-#		days = 1
-#	}
-#	
-#	immediate = {
-#		d_fraticelli = {
-#			any_claimant = {
-#				limit = {
-#					OR = {
-#						NOT = { religion = fraticelli }
-#						any_liege = { NOT = { religion = fraticelli } }
-#					}
-#				}
-#				remove_claim = d_fraticelli
-#			}
-#		}
-#	}
-#}
+character_event = {
+	id = 39701
+
+	hide_window = yes
+
+	only_playable = yes
+	
+	trigger = {
+		k_papal_state = {
+			any_claimant = {
+				OR = {
+					NOT = { religion = catholic }
+					any_liege = { NOT = { religion = catholic } }
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		k_papal_state = {
+			any_claimant = {
+				limit = {
+					OR ={
+						NOT = { religion = catholic }
+						any_liege = { NOT = { religion = catholic } }
+					}
+				}
+				remove_claim = k_papal_state
+			}
+		}
+	}
+}
+
+# Fraticelli antipope immediately loses claim if he or liege is no longer Fraticelli
+character_event = {
+	id = 39702
+
+	hide_window = yes
+
+	only_playable = yes
+	
+	trigger = {
+		d_fraticelli = {
+			any_claimant = {
+				OR = {
+					NOT = { religion = fraticelli }
+					any_liege = { NOT = { religion = fraticelli } }
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		d_fraticelli = {
+			any_claimant = {
+				limit = {
+					OR = {
+						NOT = { religion = fraticelli }
+						any_liege = { NOT = { religion = fraticelli } }
+					}
+				}
+				remove_claim = d_fraticelli
+			}
+		}
+	}
+}

@@ -292,6 +292,10 @@ narrative_event = {
 	
 	only_rulers = yes
 	
+	trigger = {
+		has_character_modifier = in_seclusion
+	}
+	
 	immediate = {
 		set_character_flag = seclusion_food_events
 		set_character_flag = seclusion_events_on
@@ -322,6 +326,10 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 
 	is_triggered_only = yes
+	
+	trigger = {
+		has_character_modifier = in_seclusion
+	}
 	
 	immediate = {
 		set_character_flag = seclusion_food_shortage

@@ -85,13 +85,6 @@ character_event = {
 					remove_trait = theologian
 					remove_trait = mystic
 
-					if = {
-						limit = { religion_group = indian_group }
-						remove_trait = brahmin
-						remove_trait = vaishya
-						add_trait = kshatriya
-					}
-
 					#Adds some more traits
 					random_list = {
 						#Attractive
@@ -176,13 +169,6 @@ character_event = {
 					remove_trait = theologian
 					remove_trait = mystic
 
-					if = {
-						limit = { religion_group = indian_group }
-						remove_trait = brahmin
-						remove_trait = vaishya
-						add_trait = kshatriya
-					}
-
 					#Adds some more traits
 					random_list = {
 						#Brawny but Ugly
@@ -265,13 +251,6 @@ character_event = {
 					remove_trait = theologian
 					remove_trait = mystic
 
-					if = {
-						limit = { religion_group = indian_group }
-						remove_trait = brahmin
-						remove_trait = kshatriya
-						add_trait = vaishya
-					}
-
 					#Adds some more traits
 					random_list = {
 						#Administrator
@@ -350,13 +329,6 @@ character_event = {
 					remove_trait = scholar
 					remove_trait = theologian
 					remove_trait = mystic
-
-					if = {
-						limit = { religion_group = indian_group }
-						remove_trait = brahmin
-						remove_trait = kshatriya
-						add_trait = vaishya
-					}
 
 					#Adds some more traits
 					random_list = {
@@ -840,8 +812,8 @@ character_event = {
 		NOR = { 
 			primary_title = { has_law = status_of_women_3 }
 			primary_title = { has_law = status_of_women_4 }
-			religion = cathar
-			religion = messalian
+			religion_group = goddesses_religion
+			religion = great_fairies
 			has_game_rule = {
 				name = gender
 				value = all
@@ -915,10 +887,6 @@ character_event = {
 						NOR = {
 							ROOT = { primary_title = { has_law = status_of_women_2 } }
 							ROOT = { primary_title = { has_law = status_of_women_1 } }
-							AND = {
-								ROOT = { religion_group = pagan_group }
-								religion_group = pagan_group
-							}
 							any_spouse = { character = ROOT }
 							any_child = { character = ROOT }
 						}
@@ -978,10 +946,6 @@ character_event = {
 						NOT = { intrigue = 15 }
 						FROM = { primary_title = { has_law = status_of_women_2 } } 
 						FROM = { primary_title = { has_law = status_of_women_1 } } 
-						AND = {
-							FROM = { religion_group = pagan_group }
-							religion_group = pagan_group
-						}
 					}
 				}
 				FROM = { character_event = { id = 77795 } } 
@@ -1293,8 +1257,8 @@ character_event = {
 		NOR = { 
 			primary_title = { has_law = status_of_women_3 }
 			primary_title = { has_law = status_of_women_4 }
-			religion = cathar
-			religion = messalian
+			religion_group = goddesses_religion
+			religion = great_fairies
 			has_game_rule = {
 				name = gender
 				value = all
@@ -1404,10 +1368,6 @@ character_event = {
 						NOR = {
 							ROOT = { primary_title = { has_law = status_of_women_2 } }
 							ROOT = { primary_title = { has_law = status_of_women_1 } }
-							AND = {
-								ROOT = { religion_group = pagan_group }
-								religion_group = pagan_group
-							}
 							any_spouse = { character = ROOT }
 							any_child = { character = ROOT }
 						}
@@ -1485,10 +1445,6 @@ character_event = {
 			NOR = { 
 				FROM = { primary_title = { has_law = status_of_women_2 } }
 				FROM = { primary_title = { has_law = status_of_women_1 } } 
-				AND = {
-					FROM = { religion_group = pagan_group }
-					religion_group = pagan_group
-				}
 			}			
 		}
 

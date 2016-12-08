@@ -757,8 +757,9 @@ character_event = {
 	id = race.9
 	desc = EVTDESCRACE9
 	picture = GFX_evt_lovers
+	hide_window=yes
 	
-	triggered_only=yes
+	is_triggered_only = yes
 	
 	
 	immediate = {	

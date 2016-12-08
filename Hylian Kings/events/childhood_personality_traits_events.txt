@@ -552,7 +552,7 @@ character_event = {
 	
 	min_age = 6
 	max_age = 16
-	religion_group = christian
+	religion_group = goddesses_religion
 	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
@@ -1752,12 +1752,6 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			religion_group = muslim
-		}
-		NOT = {
-			religion_group = indian_group
-		}
 		NOT = { personality_traits = 5 }
 		NOT = { trait = zealous }
 		NOT = { trait = cynical }
@@ -1865,110 +1859,6 @@ character_event = {
 	option = {
 		name = "EVTOPTA1631"
 		remove_trait = zealous
-	}
-}
-
-### Zealous - Muslim ###
-character_event = {
-	id = 1632
-	desc = "EVTDESC1632"
-	picture = "GFX_evt_child_reading"
-	
-	min_age = 6
-	max_age = 16
-	religion_group = muslim
-	lacks_dlc = "Conclave"
-
-	is_triggered_only = yes
-	
-	trigger = {
-		NOT = { personality_traits = 5 }
-		NOT = { trait = zealous }
-		NOT = { trait = cynical }
-		has_guardian = yes
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			trait = clubfooted
-			factor = 1.1
-		}
-		modifier = {
-			trait = harelip
-			factor = 1.1
-		}
-		modifier = {
-			trait = hunchback
-			factor = 1.1
-		}
-		modifier = {
-			trait = lisp
-			factor = 0.9
-		}
-		modifier = {
-			trait = stutter
-			factor = 0.9
-		}
-		modifier = {
-			trait = fair
-			factor = 1.05
-		}
-		modifier = {
-			trait = ugly
-			factor = 1.05
-		}
-		modifier = {
-			trait = dwarf
-			factor = 1.05
-		}		
-		modifier = {
-			trait = genius
-			factor = 10
-		}
-		modifier = {
-			OR = {
-				trait = quick
-				trait = shrewd
-			}
-			factor = 2
-		}	
-		modifier = {
-			OR = {
-				trait = slow
-				trait = dull
-			}
-			factor = 0.5
-		}
-		modifier = {
-			trait = imbecile
-			factor = 0.05
-		}
-		modifier = {
-			trait = inbred
-			factor = 0.1
-		}
-		modifier = {
-			is_strong_trigger = yes
-			factor = 1.05
-		}
-		modifier = {
-			is_weak_trigger = yes
-			factor = 2.0
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1630"
-		add_trait = zealous
-		hidden_tooltip = {
-			guardian = {
-				character_event = {
-					id = 2132
-					days = 3
-				}
-			}
-		}
 	}
 }
 
@@ -3024,9 +2914,6 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			religion_group = muslim
-		}
 		NOT = { personality_traits = 5 }
 		NOT = { trait = zealous }
 		NOT = { trait = cynical }
@@ -3134,110 +3021,6 @@ character_event = {
 	option = {
 		name = "EVTOPTA1731"
 		remove_trait = cynical
-	}
-}
-
-### Cynical Child - Muslim ###
-character_event = {
-	id = 1732
-	desc = "EVTDESC1732"
-	picture = "GFX_evt_child_play"
-	
-	min_age = 6
-	max_age = 16
-	religion_group = muslim
-	lacks_dlc = "Conclave"
-
-	is_triggered_only = yes
-	
-	trigger = {
-		NOT = { personality_traits = 5 }
-		NOT = { trait = zealous }
-		NOT = { trait = cynical }
-		has_guardian = yes
-	}
-	
-	weight_multiplier = {
-		days = 1
-		modifier = {
-			trait = clubfooted
-			factor = 1.1
-		}
-		modifier = {
-			trait = harelip
-			factor = 1.1
-		}
-		modifier = {
-			trait = hunchback
-			factor = 1.1
-		}
-		modifier = {
-			trait = lisp
-			factor = 0.9
-		}
-		modifier = {
-			trait = stutter
-			factor = 0.9
-		}
-		modifier = {
-			trait = fair
-			factor = 1.05
-		}
-		modifier = {
-			trait = ugly
-			factor = 1.05
-		}
-		modifier = {
-			trait = dwarf
-			factor = 1.05
-		}		
-		modifier = {
-			trait = genius
-			factor = 10
-		}
-		modifier = {
-			OR = {
-				trait = quick
-				trait = shrewd
-			}
-			factor = 2
-		}	
-		modifier = {
-			OR = {
-				trait = slow
-				trait = dull
-			}
-			factor = 0.5
-		}
-		modifier = {
-			trait = imbecile
-			factor = 0.05
-		}
-		modifier = {
-			trait = inbred
-			factor = 0.1
-		}
-		modifier = {
-			is_strong_trigger = yes
-			factor = 1.05
-		}
-		modifier = {
-			is_weak_trigger = yes
-			factor = 2.0
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1730"
-		add_trait = cynical
-		hidden_tooltip = {
-			guardian = {
-				character_event = {
-					id = 2230
-					days = 3
-				}
-			}
-		}
 	}
 }
 
@@ -3359,9 +3142,11 @@ character_event = {
 		name = "EVTOPTA1965"
 		add_trait = cruel
 		if = {
-			limit = { religion = jain }
+			limit = { OR = {
+				religion = great_deku
+				religion = light_force
+			} }
 			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
 		hidden_tooltip = {
 			guardian = {
@@ -3487,9 +3272,6 @@ character_event = {
 		has_guardian = yes
 		num_traits = 4
 		trait = homosexual
-		NOT = {
-			religion_group = muslim
-		}
 	}
 
 	mean_time_to_happen = {
@@ -3511,45 +3293,6 @@ character_event = {
 	}
 }
 
-### Remove Homosexual - Muslim ###
-character_event = {
-	id = 1986
-	desc = "EVTDESC1986"
-	picture = GFX_evt_brothel
-	
-	min_age = 13
-	max_age = 17
-	only_capable = yes
-	is_married = no
-	
-	trigger = {
-		has_guardian = yes
-		num_traits = 4
-		trait = homosexual
-		OR = {
-			religion_group = muslim
-			religion_group = indian_group
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 480
-		
-		modifier = {
-			factor = 0.1
-			trait = zealous
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1986"
-		piety = -50
-	}
-	option = {
-		name = "EVTOPTB1986"
-		remove_trait = homosexual
-	}
-}
 
 ### Female Homosexual ###
 character_event = {
@@ -3615,9 +3358,6 @@ character_event = {
 		has_guardian = yes
 		num_traits = 4
 		trait = homosexual
-		NOT = {
-			religion_group = muslim
-		}
 	}
 
 	mean_time_to_happen = {
@@ -4454,9 +4194,6 @@ character_event = {
 	trigger = {
 		has_guardian = yes
 		NOT = { personality_traits = 5 }
-		NOT = {
-			religion_group = muslim
-		}
 	}
 	
 	weight_multiplier = {
@@ -4536,43 +4273,6 @@ character_event = {
 			guardian = {
 				character_event = {
 					id = 38207
-					days = 3
-				}
-			}
-		}
-	}
-}
-
-# Where do heathens come from?
-character_event = {
-	id = 1908
-	desc = "EVTDESC1908"
-	picture = "GFX_evt_child_play"
-	
-	min_age = 6
-	max_age = 11
-	religion_group = christian
-	lacks_dlc = "Conclave"
-
-	is_triggered_only = yes
-	
-	trigger = {
-		has_guardian = yes
-		NOT = { trait = zealous }
-		NOT = { trait = cynical }
-		NOT = { personality_traits = 5 }
-	}
-	
-	weight_multiplier = {
-		days = 1
-	}
-	
-	option = {
-		name = "EVTOPTA1908"
-		hidden_tooltip = {
-			guardian = {
-				character_event = {
-					id = 38208
 					days = 3
 				}
 			}
@@ -4696,7 +4396,6 @@ character_event = {
 	
 	trigger = {
 		has_guardian = yes
-		#religion_group = christian
 		NOT = { trait = zealous }
 		NOT = { trait = cynical }
 		NOT = { personality_traits = 5 }
@@ -5034,7 +4733,7 @@ character_event = {
 	
 	min_age = 11
 	max_age = 16
-	religion = catholic
+	religion = golden_goddesses
 	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
@@ -5043,10 +4742,10 @@ character_event = {
 		has_guardian = yes
 		NOT = { trait = cynical }
 		guardian = {
-			religion = catholic
+			religion = golden_goddesses
 			OR = {
-				any_current_enemy = { religion = catholic }
-				any_liege = { any_current_enemy = { religion = catholic } } 
+				any_current_enemy = { religion = golden_goddesses }
+				any_liege = { any_current_enemy = { religion = golden_goddesses } } 
 			}
 		}
 		NOT = { personality_traits = 5 }
@@ -5144,7 +4843,7 @@ character_event = {
 	
 	min_age = 11
 	max_age = 16
-	religion_group = christian
+	religion = western_goddesses
 	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
@@ -5557,7 +5256,6 @@ character_event = {
 	
 	trigger = {
 		has_guardian = yes
-		NOT = { religion_group = indian_group }
 		NOT = { trait = lustful }
 		NOT = { trait = chaste }
 		NOT = { trait = temperate }
@@ -5663,9 +5361,8 @@ character_event = {
 	trigger = {
 		has_guardian = yes
 		OR = {
-			religion_group = christian
-			religion_group = muslim
-			religion_group = jewish_group
+			religion_group = goddesses_religion
+			religion_group = minor_deity
 		}
 		NOT = { trait = cynical }
 		NOT = { trait = craven }
@@ -5789,7 +5486,7 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			religion = cathar
+			religion_group = goddesses_religion
 			factor = 3
 		}
 		modifier = {

@@ -2297,7 +2297,10 @@ character_event = {
 	option = {
 		name = EVTOPTL96500 # War elephants
 		trigger = {
-			religion_group = indian_group
+			OR = {
+				culture = pebble
+				culture = gem_lander
+			}
 			NOT = { trait = war_elephant_leader }
 		}
 		add_trait = war_elephant_leader

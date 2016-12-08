@@ -806,14 +806,14 @@ character_event = {
 					}
 					if = {
 						limit = {
-							ROOT = { NOT = { culture_group = altaic } }
+							ROOT = { NOT = { culture_group = round_eared } }
 						}
 						religion = FROMFROM
 						culture = FROMFROM
 					}
 					if = {
 						limit = {
-							ROOT = { culture_group = altaic }
+							ROOT = { culture_group = round_eared }
 						}
 						religion = ROOT
 						culture = ROOT

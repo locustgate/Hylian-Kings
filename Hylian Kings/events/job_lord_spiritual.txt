@@ -151,33 +151,24 @@ character_event = {
 			religion_authority = 0.9
 		}
 		
-		# Hindus and Buddhists have a hard time converting other Indian religions
 		modifier = {
 			factor = 3.0
 			OR = {
-				religion = hindu
-				religion = buddhist
+				religion = great_deku
+				religion = light_force
 			}
 			location = {
-				religion_group = indian_group
-			}
-		}
-		# Jains have a hard time converting ALL non-pagans
-		modifier = {
-			factor = 3.0
-			religion = jain
-			location = {
-				NOT = { religion_group = pagan_group }
+				NOT = { religion_group = alien_religion }
 			}
 		}
 		
 		modifier = {
 			factor = 3.0
-			religion_group = pagan_group
+			religion_group = alien_religion
 			is_reformed_religion = no
 			location = {
 				OR = {
-					NOT = { religion_group = pagan_group }
+					NOT = { religion_group = alien_religion }
 					is_reformed_religion = yes
 				}
 			}
@@ -1878,19 +1869,19 @@ character_event = {
 	
 	trigger = {
 		has_job_action = action_advance_cul_tech
-		NOT = { religion_group = indian_group }
+		NOT = { religion_group = docrtine }
 		is_heretic = no
 		OR = {
-			religion_group = christian
-			religion_group = muslim
-			religion_group = jewish_group
+			religion_group = golden_goddesses
+			religion_group = minor_deity
+			religion_group = guardian_deity
 		}
 		liege = {
 			is_heretic = no
 			OR = {
-				religion_group = christian
-				religion_group = muslim
-				religion_group = jewish_group
+				religion_group = golden_goddesses
+				religion_group = minor_deity
+				religion_group = guardian_deity
 			}
 		}
 		NOT = {
