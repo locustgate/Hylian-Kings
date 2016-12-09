@@ -2542,4 +2542,26 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	
+	spriteType = {
+		name = "GFX_trait_school_din"
+		texturefile = "gfx/traits/patron_din.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_school_farore"
+		texturefile = "gfx/traits/patron_farore.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_school_naryu"
+		texturefile = "gfx/traits/patron_naryu.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
 }

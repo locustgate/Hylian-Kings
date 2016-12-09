@@ -26,8 +26,8 @@ character_event = {
 	trigger = {
 		year = 1000
 		OR = {
-			religion = catholic
-			religion = fraticelli
+			religion = darknut_doctrine
+			
 		}
 		controls_religion = yes
 		religion_authority = 0.35
@@ -374,8 +374,8 @@ character_event = {
 	trigger = {
 		year = 1000
 		OR = {
-			religion = catholic
-			religion = fraticelli
+			religion = darknut_doctrine
+			
 		}
 		controls_religion = yes
 		wealth = 20
@@ -543,8 +543,8 @@ character_event = {
 	trigger = {
 		year = 1000
 		OR = {
-			religion = catholic
-			religion = fraticelli
+			religion = darknut_doctrine
+			
 		}
 		controls_religion = yes
 		any_independent_ruler = {
