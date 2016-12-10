@@ -76,10 +76,13 @@ character_event = {
 			}
 			modifier = {
 				factor = 0.3
-				religion = jain
+				OR = {
+					religion = light_force
+					religion = great_deku
+				}
 			}
 			modifier = {
-				religion_group = christian
+				religion_group = goddesses_religion
 				is_priest = yes
 				factor = 0
 			}
@@ -100,7 +103,10 @@ character_event = {
 			}
 		}
 		if = {
-			limit = { religion = jain }
+			limit = {  OR = {
+					religion = light_force
+					religion = great_deku
+			} }
 			piety = -20
 			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
@@ -4036,15 +4042,6 @@ character_event = {
 	option = { # Holy Warrior
 		name = { 
 			text = EVTOPTD_WOL_11304
-			trigger = {
-				NOT = { religion_group = muslim }
-			}
-		}
-		name = {
-			text = EVTOPTD_WOL_11304_MUSLIM
-			trigger = {
-				religion_group = muslim
-			}
 		}
 		ai_chance = {
 			factor = 1000

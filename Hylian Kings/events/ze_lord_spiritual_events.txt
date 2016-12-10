@@ -29,7 +29,7 @@ character_event = {
 			independent = yes
 			higher_tier_than = DUKE
 		}
-		NOT = { religion_group = pagan_group }
+		NOT = { religion_group = demon_religion }
 		job_spiritual = {
 			ai = yes
 			trait = zealous
@@ -48,11 +48,7 @@ character_event = {
 				religion = ROOT
 				has_opinion_modifier = { who = ROOT modifier = opinion_sent_preacher }
 			}
-			religion_group = pagan_group
-			OR = {
-				NOT = { religion = aztec }
-				year = 1350
-			}
+			religion_group = demon_religion
 			is_reformed_religion = no
 			controls_religion = no
 			ROOT = {
@@ -91,11 +87,7 @@ character_event = {
 					religion = ROOT
 					has_opinion_modifier = { who = ROOT modifier = opinion_sent_preacher }
 				}
-				religion_group = pagan_group
-				OR = {
-					NOT = { religion = aztec }
-					year = 1350
-				}
+				religion_group = demon_religion				
 				is_reformed_religion = no
 				controls_religion = no
 				ROOT = {
@@ -275,12 +267,11 @@ character_event = {
 				save_event_target_as = ze_5020_province
 				trigger_switch = {
 					on_trigger = religion_group
-					christian 			= { PREV = { add_trait = sympathy_christendom } }
-					muslim 				= { PREV = { add_trait = sympathy_islam } }
-					pagan_group 		= { PREV = { add_trait = sympathy_pagans } }
-					zoroastrian_group 	= { PREV = { add_trait = sympathy_zoroastrianism } }
-					jewish_group 		= { PREV = { add_trait = sympathy_judaism } }
-					indian_group 		= { PREV = { add_trait = sympathy_indian } }
+					goddesses_religion 			= { FROM = { add_trait = sympathy_goddesses } }
+					minor_deity 				= { FROM = { add_trait = sympathy_minor_deity } }
+					guardian_deity		= { FROM = { add_trait = sympathy_guardian_deity } }
+					alien_religion 	= { FROM = { add_trait = sympathy_alien } }
+					doctrine_religion		= { FROM = { add_trait = sympathy_doctrine } }
 				}
 			}
 		}
@@ -561,10 +552,10 @@ letter_event = {
 	
 	trigger = {
 		has_dlc = "Zeus"
-		NOT = { religion_group = pagan_group }
+		NOT = { religion_group = demon_religion }
 		job_spiritual = {
 			has_job_action = action_inquisition
-			location = { owner = { religion_group = pagan_group } }
+			location = { owner = { religion_group = demon_religion } }
 			OR = {
 				trait = craven
 				trait = cynical

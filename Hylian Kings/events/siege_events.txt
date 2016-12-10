@@ -1093,88 +1093,6 @@ character_event = { # Other side gets event
 	}
 }
 
-narrative_event = {
-	id = 62011
-	desc = EVTDESC62011
-	title = EVTNAME62011
-	picture = GFX_evt_siege
-	border = GFX_event_narrative_frame_war
-
-	is_triggered_only = yes
-	
-	notification = yes
-
-	trigger = {
-		siege = {
-			is_attacker = no
-		}
-		religion_group = christian
-		enemy = {
-			religion_group = pagan_group
-		}
-	}
-
-	weight_multiplier = {
-		months = 1
-		modifier = {
-			factor = 0.75
-			trait = zealous
-		}
-		modifier = {
-			factor = 0.75
-			piety = 500
-		}
-		modifier = {
-			factor = 1.25
-			trait = cynical
-		}
-		modifier = {
-			factor = 1.25
-			NOT = { piety = 0 }
-		}
-	}
-	
-	immediate = {
-		siege = {
-			morale = 1
-		}
-		siege = {
-			enemy = {
-				morale = -0.9			
-				troops = -0.9
-				leader = {
-					any_liege = {
-						limit = {
-							war_with = ROOT
-						}
-						narrative_event = { id = 62041 }
-					}
-					if = {
-						limit = {
-							war_with = ROOT
-						}
-						narrative_event = { id = 62041 }
-					}
-				}
-			}
-		}
-	}
-
-	option = {
-		name = EVTOPTA62011
-		tooltip = {
-			siege = {
-				morale = 1
-			}
-			siege = {
-				enemy = {
-					morale = -0.9			
-					troops = -0.9
-				}
-			}
-		}
-	}
-}
 
 narrative_event = { # Other side gets event
 	id = 62041
@@ -1195,89 +1113,6 @@ narrative_event = { # Other side gets event
 	option = {
 		name = EVTOPTA62041
 		custom_tooltip =  { text = siege_miracle }
-	}
-}
-
-narrative_event = {
-	id = 62012
-	desc = EVTDESC62012
-	title = EVTNAME62011
-	picture = GFX_evt_siege
-	border = GFX_event_narrative_frame_war
-
-	is_triggered_only = yes
-	
-	notification = yes
-
-	trigger = {
-		siege = {
-			is_attacker = no
-		}
-		religion_group = christian
-		enemy = {
-			religion_group = muslim
-		}
-	}
-
-	weight_multiplier = {
-		months = 1
-		modifier = {
-			factor = 0.75
-			trait = zealous
-		}
-		modifier = {
-			factor = 0.75
-			piety = 500
-		}
-		modifier = {
-			factor = 1.25
-			trait = cynical
-		}
-		modifier = {
-			factor = 1.25
-			NOT = { piety = 0 }
-		}
-	}
-	
-	immediate = {
-		siege = {
-			morale = 1
-		}
-		siege = {
-			enemy = {
-				morale = -0.9			
-				troops = -0.9
-				leader = {
-					any_liege = {
-						limit = {
-							war_with = ROOT
-						}
-						narrative_event = { id = 62042 }
-					}
-					if = {
-						limit = {
-							war_with = ROOT
-						}
-						narrative_event = { id = 62042 }
-					}
-				}
-			}
-		}
-	}
-
-	option = {
-		name = EVTOPTA62012
-		tooltip = {
-			siege = {
-				morale = 1
-			}
-			siege = {
-				enemy = {
-					morale = -0.9			
-					troops = -0.9
-				}
-			}
-		}
 	}
 }
 
@@ -1303,89 +1138,6 @@ narrative_event = { # Other side gets event
 	}
 }
 
-#Miracle
-narrative_event = {
-	id = 62013
-	desc = EVTDESC62013
-	title = EVTNAME62011
-	picture = GFX_evt_siege
-	border = GFX_event_narrative_frame_war
-
-	is_triggered_only = yes
-	
-	notification = yes
-
-	trigger = {
-		siege = {
-			is_attacker = no
-		}
-		religion_group = muslim
-		enemy = {
-			NOT = { religion_group = muslim }
-		}
-	}
-
-	weight_multiplier = {
-		months = 1
-		modifier = {
-			factor = 0.75
-			trait = zealous
-		}
-		modifier = {
-			factor = 0.75
-			piety = 500
-		}
-		modifier = {
-			factor = 1.25
-			trait = cynical
-		}
-		modifier = {
-			factor = 1.25
-			NOT = { piety = 0 }
-		}
-	}
-	
-	immediate = {
-		siege = {
-			morale = 1
-		}
-		siege = {
-			enemy = {
-				morale = -0.9			
-				troops = -0.9
-				leader = {
-					any_liege = {
-						limit = {
-							war_with = ROOT
-						}
-						narrative_event = { id = 62043 }
-					}
-					if = {
-						limit = {
-							war_with = ROOT
-						}
-						narrative_event = { id = 62043 }
-					}
-				}
-			}
-		}
-	}
-
-	option = {
-		name = EVTOPTA62013
-		tooltip = {
-			siege = {
-				morale = 1
-			}
-			siege = {
-				enemy = {
-					morale = -0.9			
-					troops = -0.9
-				}
-			}
-		}
-	}
-}
 
 narrative_event = { # Other side gets event
 	id = 62043
@@ -1409,89 +1161,6 @@ narrative_event = { # Other side gets event
 	}
 }
 
-#Assault
-character_event = {
-	id = 62014
-	desc = EVTDESC62014
-	title = EVTNAME62014
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-
-	religion_group = christian 
-	
-	is_triggered_only = yes
-	
-	notification = yes
-
-	trigger = {
-		siege = {
-			is_attacker = yes
-		}
-		NOT = {	trait = craven }
-		NOT = {	trait = cynical	}
-		can_be_maimed_trigger = yes
-		NOT = {	trait = wounded	}
-		enemy = {
-			NOT = { religion_group = christian }
-		}		
-	}
-
-	weight_multiplier = {
-		months = 1
-		modifier = {
-			factor = 2.0
-			trait = zealous
-		}
-		modifier = {
-			factor = 2.0
-			trait = brave
-		}
-	}
-	
-	immediate = {
-		siege = {
-			enemy = {
-				morale = -0.1
-				leader = {
-					any_liege = {
-						limit = {
-							war_with = ROOT
-						}
-						character_event = { id = 62044 }
-					}
-					if = {
-						limit = {
-							war_with = ROOT
-						}
-						character_event = { id = 62044 }
-					}
-				}
-			}
-		}
-		random_list = {
-			80 = {add_trait = crusader }
-			10 = { add_maimed_trait_effect = yes }
-			10 = { add_trait = wounded hidden_tooltip = { character_event = { id = 38280 } } }
-		}
-	}
-
-	option = {
-		name = EVTOPTA62014
-		
-		tooltip = {
-			siege = {
-				enemy = {
-					morale = -0.1			
-				}
-			}
-			random_list = {
-				80 = {add_trait = crusader }
-				10 = { add_maimed_trait_effect = yes }
-				10 = { add_trait = wounded hidden_tooltip = { character_event = { id = 38280 } } }
-			}
-		}
-	}
-}
 
 character_event = { # Other side gets event
 	id = 62044
@@ -1733,8 +1402,8 @@ character_event = {
 			is_female = yes
 			new_character = {
 				OR = {
-					religion_group = pagan_group
-					religion_group = zoroastrian_group
+					religion_group = minor_deity
+					religion_group = doctrine 
 				}
 			}
 		}

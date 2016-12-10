@@ -334,9 +334,6 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {	religion_group = muslim	}
-		NOT = {	religion = buddhist	}
-		NOT = {	religion = jain	}
 		trait = stressed
 		learning = 2
 		NOT = {
@@ -574,7 +571,10 @@ character_event = {
 	option = {
 		name = EVTOPTA65020 #Try to beat some sense in the child
 		if = {
-			limit = { religion = jain }
+			limit = { OR = {
+					religion = light_force
+					religion = great_deku
+			} }
 			piety = -20
 			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
@@ -608,7 +608,10 @@ character_event = {
 	option = {
 		name = EVTOPTB65020 #Put the child out with the wolves
 		if = {
-			limit = { religion = jain }
+			limit = {  OR = {
+					religion = light_force
+					religion = great_deku
+			} }
 			piety = -20
 			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
@@ -678,7 +681,10 @@ character_event = {
 	option = {
 		name = EVTOPTA65021 #Reduce food rations
 		if = {
-			limit = { religion = jain }
+			limit = {  OR = {
+					religion = light_force
+					religion = great_deku
+			} }
 			piety = -20
 			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
@@ -712,7 +718,10 @@ character_event = {
 	option = {
 		name = EVTOPTB65021 #Release some rats in cell
 		if = {
-			limit = { religion = jain }
+			limit = {  OR = {
+					religion = light_force
+					religion = great_deku
+			} }
 			piety = -20
 			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
@@ -767,7 +776,10 @@ character_event = {
 	option = {
 		name = EVTOPTA65022 #Aim low
 		if = {
-			limit = { religion = jain }
+			limit = {  OR = {
+					religion = light_force
+					religion = great_deku
+			} }
 			piety = -20
 			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
@@ -791,7 +803,10 @@ character_event = {
 	option = {
 		name = EVTOPTB65022 #Aim high
 		if = {
-			limit = { religion = jain }
+			limit = {  OR = {
+					religion = light_force
+					religion = great_deku
+			} }
 			piety = -20
 			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
@@ -910,7 +925,7 @@ character_event = {
 	
 	min_age = 16
 	prisoner = no
-	religion_group = christian
+	religion_group = goddesses_religion
 	
 	is_triggered_only = yes
 	
@@ -961,7 +976,7 @@ character_event = {
 	
 	min_age = 16
 	prisoner = no
-	religion_group = christian
+	religion_group = goddesses_religion
 	
 	is_triggered_only = yes
 	
@@ -1019,7 +1034,7 @@ character_event = {
 	
 	min_age = 16
 	prisoner = no
-	religion_group = christian
+	religion_group = goddesses_religion
 	
 	is_triggered_only = yes
 	
@@ -1081,7 +1096,7 @@ character_event = {
 	
 	min_age = 16
 	prisoner = no
-	religion_group = christian
+	religion_group = goddesses_religion
 	
 	is_triggered_only = yes
 	
@@ -1110,7 +1125,7 @@ character_event = {
 	
 	min_age = 16
 	prisoner = no
-	religion_group = christian
+	religion_group = goddesses_religion
 	
 	is_triggered_only = yes
 	
@@ -1154,7 +1169,7 @@ character_event = {
 	
 	min_age = 16
 	prisoner = no
-	religion_group = christian
+	religion_group = goddesses_religion
 	
 	is_triggered_only = yes
 	
@@ -1227,7 +1242,7 @@ character_event = {
 	
 	min_age = 16
 	prisoner = no
-	religion_group = christian
+	religion_group = goddesses_religion
 	
 	is_triggered_only = yes
 	
@@ -1286,19 +1301,6 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB65036 #Thank the Lord in private
-		trigger = {
-			NOT = {
-				religion_group = muslim
-			}
-		}
-		piety = 1
-		add_trait = humble
-	}
-	option = {
-		name = EVTOPTC65036 #Thank Allah in private
-		trigger = {
-			religion_group = muslim
-		}
 		piety = 1
 		add_trait = humble
 	}
@@ -1312,7 +1314,7 @@ character_event = {
 	
 	min_age = 16
 	prisoner = no
-	religion_group = christian
+	religion_group = goddesses_religion
 	
 	is_triggered_only = yes
 	
@@ -1414,7 +1416,7 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	religion_group = christian
+	religion_group = goddesses_religion
 	war = no
 	
 	is_triggered_only = yes
@@ -1476,7 +1478,7 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	religion_group = christian
+	religion_group = goddesses_religion
 	
 	is_triggered_only = yes
 
@@ -1521,7 +1523,7 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	religion_group = christian
+	religion_group = goddesses_religion
 	
 	is_triggered_only = yes
 
@@ -1551,7 +1553,7 @@ character_event = {
 	capable_only = yes
 	only_rulers = yes
 	prisoner = no
-	religion_group = christian
+	religion_group = goddesses_religion
 	
 	is_triggered_only = yes
 
@@ -1632,7 +1634,7 @@ character_event = {
 	
 	capable_only = yes
 	prisoner = no
-	religion_group = christian
+	religion_group = goddesses_religion
 	is_married = yes
 	
 	is_triggered_only = yes
@@ -1842,8 +1844,7 @@ character_event = {
 	option = {
 		name = EVTOPTC65049	#God cures me!
 		trigger = {
-			NOT = { religion = buddhist }
-			NOT = { religion = jain }
+			NOT = { religion_group = doctrine_religion }
 		}
 		piety = 5
 		change_learning = 1
@@ -1891,18 +1892,7 @@ character_event = {
 	option = {
 		name = EVTOPTB65050	#ask priests for advice.
 		trigger = {
-			NOT = {	religion_group = muslim	}
-			NOT = {	religion = buddhist }
-			NOT = {	religion = jain }
-		}
-		piety = 5
-		health = -0.5
-		prestige = -10
-	}
-	option = {
-		name = EVTOPTC65050	#ask Imam for advice.
-		trigger = {
-			religion_group = muslim
+			NOT = {	religion = pirate_doctrine }
 		}
 		piety = 5
 		health = -0.5
@@ -1990,7 +1980,7 @@ character_event = {
 	min_age = 50
 	capable_only = yes
 	prisoner = no
-	religion_group = christian
+	religion_group = goddesses_religion
 	
 	is_triggered_only = yes
 
@@ -2055,290 +2045,6 @@ character_event = {
 	}
 }
 
-#Why am I sick? Is God punishing me?
-character_event = {
-	id = 65055
-	desc = EVTDESC65055
-	picture = GFX_evt_illness
-	
-	min_age = 6
-	max_age = 16
-	capable_only = yes
-	prisoner = no
-	religion_group = christian
-	
-	is_triggered_only = yes
-
-	trigger = {
-		is_ill = yes
-		has_guardian = yes
-		guardian = {
-			religion_group = christian
-		}
-	}
-	
-	weight_multiplier = {
-		factor = 1
-	}
-	
-	option = {
-		name = EVTOPTA65055
-		guardian = {
-			character_event = {
-				id = 65056
-				tooltip = EVTTOOLTIP65056
-			}
-		}
-	}
-}
-
-#Guardian answers
-character_event = {
-	id = 65056
-	desc = EVTDESC65056
-	picture = GFX_evt_illness
-	
-	is_triggered_only = yes
-
-	option = {
-		name = EVTOPTA65056 #Yes, you are a sinner that deserves it
-		ai_chance = {
-			factor = 10
-			
-			modifier = {
-				factor = 0.01
-				FROM = {
-					father = {
-						character = ROOT
-					}
-				}
-			}
-			modifier = {
-				factor = 0.01
-				FROM = {
-					father = {
-						OR = {
-							reverse_opinion = { who = ROOT value = 20 }
-							opinion = { who = ROOT value = 20 }
-						}
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				FROM = {
-					NOT = {
-						trait = lustful
-					}
-					NOT = {
-						trait = gluttonous
-					}
-					NOT = {
-						trait = greedy
-					}
-					NOT = {
-						trait = slothful
-					}
-					NOT = {
-						trait = envious
-					}
-					NOT = {
-						trait = wroth
-					}
-					NOT = {
-						trait = proud
-					}
-				}
-			}
-			FROM = {
-				add_trait = cynical
-				hidden_tooltip = {
-					character_event = {
-						id = 38258
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				FROM = {
-					OR = {
-						trait = lustful
-						trait = gluttonous
-						trait = greedy
-						trait = slothful
-						trait = envious
-						trait = wroth
-						trait = proud
-					}
-				}
-			}
-			FROM = {
-				add_trait = stressed
-				hidden_tooltip = {
-					character_event = {
-						id = 38282 #Notify stressed
-					}
-				}
-			}
-		}
-	}
-	option = {
-		name = EVTOPTB65056 #Don't worry, I'll take care of you
-		ai_chance = {
-			factor = 10
-			
-			modifier = {
-				factor = 10
-				trait = just
-			}
-			modifier = {
-				factor = 10
-				trait = kind
-			}
-			modifier = {
-				factor = 10
-				trait = charitable
-			}
-			modifier = {
-				factor = 10
-				NOT = { trait = cruel }
-			}
-			modifier = {
-				factor = 10
-				FROM = {
-					father = {
-						OR = {
-							reverse_opinion = { who = ROOT value = 20 }
-							opinion = { who = ROOT value = 20 }
-						}
-					}
-				}
-			}
-		}
-		FROM = {
-			random_list = {
-				45 = {
-					add_trait = kind
-					hidden_tooltip = {
-						character_event = {
-							id = 38268 #Notify kind
-						}
-					}
-					ROOT = {
-						hidden_tooltip = {
-							character_event = {
-								id = 38168 #Notify guardian: child = kind
-							}
-						}
-					}
-				}
-				45 = {
-					add_trait = charitable
-					hidden_tooltip = {
-						character_event = {
-							id = 38273 #Notify charitable
-						}
-					}
-					ROOT = {
-						hidden_tooltip = {
-							character_event = {
-								id = 38173 #Notify guardian: child = charitable
-							}
-						}
-					}
-				}
-				10 = {
-					remove_trait = ill
-					hidden_tooltip = {
-						character_event = {
-							id = 38283 #Notify remove ill
-						}
-					}
-					ROOT = {
-						hidden_tooltip = {
-							character_event = {
-								id = 38183 #Notify guardian: child = ill
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-	option = {
-		name = EVTOPTC65056 #Why do you bother me?
-		ai_chance = {
-			factor = 10
-			
-			modifier = {
-				factor = 100
-				trait = arbitrary
-			}
-			modifier = {
-				factor = 100
-				trait = cruel
-			}
-		}
-		FROM = {
-			random_list = {
-				70 = {
-					add_trait = arbitrary
-					hidden_tooltip = {
-						character_event = {
-							id = 38266 #Notify arbitrary
-						}
-					}
-					ROOT = {
-						hidden_tooltip = {
-							character_event = {
-								id = 38166 #Notify guardian: child = arbitrary
-							}
-						}
-					}
-				}
-				30 = {
-					add_trait = cynical
-					hidden_tooltip = {
-						character_event = {
-							id = 38258 #Notify cynical
-						}
-					}
-					ROOT = {
-						hidden_tooltip = {
-							character_event = {
-								id = 38158 #Notify guardian: child = cynical
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-	option = {
-		name = EVTOPTD65056 #God will cure you!
-		FROM = {
-			random = {
-				chance = 10
-				
-				remove_trait = ill
-				hidden_tooltip = {
-					character_event = {
-						id = 38283 #Notify remove ill
-					}
-				}
-				ROOT = {
-					hidden_tooltip = {
-						character_event = {
-							id = 38183 #Notify guardian: child = remove ill
-						}
-					}
-				}
-			}
-		}
-	}
-}
 
 #Pneumonic
 character_event = {
@@ -4749,11 +4455,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA65155 #No more food.
-		trigger = {
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = jewish_group }
-			NOT = { has_ambition = obj_buddhist_temperance_food }
-		}
 		random_list = {
 			55 = {
 			}
@@ -4784,35 +4485,6 @@ character_event = {
 		hidden_tooltip = {
 			character_event = {
 				id = 65151 #Notify Remove Gluttonous
-			}
-		}
-	}
-	option = {
-		name = EVTOPTC65155 #No more food - Muslim or Jew
-		trigger = {
-			OR = {
-				religion_group = muslim
-				religion_group = jewish_group
-			}
-		}
-		random_list = {
-			55 = {
-			}
-			25 = {
-				add_trait = depressed
-				hidden_tooltip = {
-					character_event = {
-						id = 38288 #Notify Depressed
-					}
-				}
-			}
-			20 = {
-				remove_trait = gluttonous
-				hidden_tooltip = {
-					character_event = {
-						id = 65151 #Notify Remove Gluttonous
-					}
-				}
 			}
 		}
 	}
@@ -4854,97 +4526,6 @@ character_event = {
 		ROOT = {
 			scaled_wealth = -0.10
 		}
-	}
-}
-
-#Falling asleep in the mosque
-character_event = {
-	id = 65165
-	desc = EVTDESC65165	
-	picture = GFX_evt_drunk
-	
-	capable_only = yes
-	only_rulers = yes
-	prisoner = no
-	religion_group = muslim
-	
-	is_triggered_only = yes
-
-	trigger = {
-		trait = drunkard
-		in_command = no
-	}
-	
-	weight_multiplier = {
-		factor = 1
-	}
-	
-	option = {
-		name = EVTOPTA65165	#Keep Sleeping.
-		piety = -10
-		add_character_modifier = {
-			name = slept_in_church
-			duration = -1
-		}
-	}
-	option = {
-		name = EVTOPTB65165	#Apologise to the imam
-		prestige = -10
-	}
-}
-
-### Stressed Muslim: Learning ###
-character_event = {
-	id = 65166
-	desc = EVTDESC65166
-	picture = GFX_evt_jerusalem_captured_muslims
-	
-	only_men = yes
-	capable_only = yes
-	only_rulers = yes
-	prisoner = no
-	religion_group = muslim
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		trait = stressed
-		learning = 2
-		NOT = {
-			learning = 10
-		}
-		job_spiritual = {
-			learning = 10
-		}
-	}
-	
-	weight_multiplier = {
-		factor = 1
-	}
-	
-	option = {
-		name = EVTOPTA65009
-		random = {
-			chance = 25
-			
-			change_learning = -1
-			remove_trait = stressed
-		}
-		job_spiritual = {
-			opinion = {
-				modifier = trusting_pos
-				who = ROOT
-				years = 5
-			}
-			character_event = {
-				id = 65167
-				tooltip = EVTTOOLTIP65010
-			}
-		}
-	}
-	option = {
-		name = EVTOPTB65009
-		piety = -5
 	}
 }
 

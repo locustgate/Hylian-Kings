@@ -776,7 +776,7 @@ character_event = {
 	}
 }
 
-#Jumping Jews of Jerusalem
+#Jumping Jews of Jerusalem #renamed Hopping Horonions of Holodrum
 character_event = {
 	id = 74035
 	desc = "EVTDESC74035"
@@ -786,7 +786,7 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_rulers = yes
-	religion = catholic
+	religion_group = goddesses_religion
 
 	trigger = {
 		any_vassal = {

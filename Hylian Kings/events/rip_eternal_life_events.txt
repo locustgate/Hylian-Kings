@@ -1594,9 +1594,9 @@ narrative_event = {
 		}
 		if = {
 			limit = {
-				FROM = { religion_group = pagan_group }
+				FROM = { religion_group = minor_deity }
 				NOT = { 
-					trait = sympathy_pagans 
+					trait = sympathy_minor_deity 
 					FROM = { religion_group = ROOT }
 				} 
 			}
@@ -1605,9 +1605,9 @@ narrative_event = {
 
 		if = {
 			limit = {
-				FROM = { religion_group = muslim } 
+				FROM = { religion_group = alien_religion } 
 				NOT = { 
-					trait = sympathy_islam 
+					trait = sympathy_alien_religion
 					FROM = { religion_group = ROOT }
 				} 
 			}
@@ -1616,9 +1616,9 @@ narrative_event = {
 
 		if = {
 			limit = {
-				FROM = { religion_group = indian_group } 
+				FROM = { religion_group = guardian_geity } 
 				NOT = { 
-					trait = sympathy_indian 
+					trait = sympathy_guardian_geity
 					FROM = { religion_group = ROOT }
 				} 
 			}

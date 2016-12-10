@@ -36,7 +36,6 @@ character_event = {
 	desc = {
 		trigger = {
 			OR = {
-				NOT = { religion_group = pagan_group } # Scriptures
 				is_reformed_religion = yes
 			}
 		}
@@ -44,7 +43,6 @@ character_event = {
 	}
 	desc = {
 		trigger = {
-			religion_group = pagan_group # Stories
 			is_reformed_religion = no
 		}
 		text = EVTDESC_WoL_7000_unref_pagan
@@ -58,7 +56,6 @@ character_event = {
 		name = EVTOPTA_WoL_7000 # Yes, study scriptures
 		trigger = {
 			OR = {
-				NOT = { religion_group = pagan_group }
 				is_reformed_religion = yes
 			}
 		}
@@ -68,7 +65,6 @@ character_event = {
 	option = {
 		name = EVTOPTB_WoL_7000 # Yes, listen to stories
 		trigger = {
-			religion_group = pagan_group
 			is_reformed_religion = no
 		}
 		piety = 20
@@ -97,7 +93,6 @@ character_event = {
 	desc = {
 		trigger = {
 			OR = {
-				NOT = { religion_group = pagan_group } # Scriptures
 				is_reformed_religion = yes
 			}
 		}
@@ -105,7 +100,6 @@ character_event = {
 	}
 	desc = {
 		trigger = {
-			religion_group = pagan_group # Stories
 			is_reformed_religion = no
 		}
 		text = EVTDESC_WoL_7001_unref_pagan
@@ -115,7 +109,6 @@ character_event = {
 		name = EVTOPTA_WoL_7001 # Scriptures
 		trigger = {
 			OR = {
-				NOT = { religion_group = pagan_group }
 				is_reformed_religion = yes
 			}
 		}
@@ -154,7 +147,6 @@ character_event = {
 	option = {
 		name = EVTOPTB_WoL_7001 # Stories
 		trigger = {
-			religion_group = pagan_group # Stories
 			is_reformed_religion = no
 		}
 		piety = 20
@@ -284,10 +276,6 @@ character_event = {
 	trigger = {
 		has_focus = focus_theology
 		in_command = no
-		NOT = { religion_group = christian }
-		NOT = { religion_group = muslim }
-		NOT = { religion_group = jewish_group }
-		NOT = { religion_group = indian_group }
 		NOT = { is_inaccessible_trigger = yes }
 		NOT = { has_character_flag = do_not_disturb }
 		NOT = { has_character_flag = wol_theology_visited_holy_site }
@@ -547,28 +535,20 @@ character_event = {
 			}
 		}
 		if = {
-			limit = { FROM = { religion_group = christian } }
-			add_trait = sympathy_christendom
+			limit = { FROM = { religion_group = goddesses_religion } }
+			add_trait = sympathy_goddesses
 		}
 		if = {
-			limit = { FROM = { religion_group = muslim } }
-			add_trait = sympathy_islam
+			limit = { FROM = { religion_group = guardian_deity } }
+			add_trait = sympathy_guardian_deity
 		}
 		if = {
-			limit = { FROM = { religion_group = pagan_group } }
-			add_trait = sympathy_pagans
+			limit = { FROM = { religion_group = minor_deity } }
+			add_trait = sympathy_minor_deity
 		}
 		if = {
-			limit = { FROM = { religion_group = zoroastrian_group } }
-			add_trait = sympathy_zoroastrianism
-		}
-		if = {
-			limit = { FROM = { religion_group = jewish_group } }
-			add_trait = sympathy_judaism
-		}
-		if = {
-			limit = { FROM = { religion_group = indian_group } }
-			add_trait = sympathy_indian
+			limit = { FROM = { religion_group = alien_religion } }
+			add_trait = sympathy_alien
 		}
 	}
 	option = {
@@ -597,7 +577,9 @@ character_event = {
 		text = EVTDESC_WoL_7050
 		trigger = {
 			OR = {
-				NOT = { religion_group = pagan_group }
+				NOR = { religion_group = minor_deity
+						religion_group = alien_religion
+				}
 				is_reformed_religion = yes
 			}
 		}
@@ -606,7 +588,9 @@ character_event = {
 	desc = {
 		text = EVTDESC_WoL_7050_PAGAN
 		trigger = {
-			religion_group = pagan_group
+			OR = { religion_group = minor_deity
+						religion_group = alien_religion
+			}
 			is_reformed_religion = no
 		}
 	}
@@ -696,10 +680,9 @@ character_event = {
 		is_heretic = no
 		trait = zealous
 		OR = {
-			religion_group = christian
-			religion_group = muslim
-			religion_group = zoroastrian_group
-			religion_group = jewish_group
+			religion_group = goddesses_religion
+			religion_group = guardian_deity
+			religion_group = alien_religion
 		}
 		NOT = { has_character_flag = wol_theology_heretic }
 	}
@@ -808,21 +791,21 @@ character_event = {
 				10 = {
 					modifier = {
 						factor = 0
-						NOT = { religion_group = christian }
+						NOT = { religion_group = goddesses_religion }
 					}
 					give_nickname = nick_the_apostle
 				}
 				10 = {
 					modifier = {
 						factor = 0
-						NOT = { religion_group = christian }
+						NOT = { religion_group = goddesses_religion }
 					}
 					give_nickname = nick_the_confessor
 				}
 				10 = {
 					modifier = {
 						factor = 0
-						NOT = { religion_group = christian }
+						NOT = { religion_group = goddesses_religion }
 					}
 					give_nickname = nick_the_blessed
 				}
@@ -889,23 +872,18 @@ character_event = {
 		text = EVTDESC_WoL_7080
 		trigger = {
 			NOR = {
-				religion_group = pagan_group
-				religion_group = muslim
-				religion_group = indian_group
+				religion_group = minor_deity
+				religion_group = guardian_deity
 			}
 		}
 	}
 	desc = {
 		text = EVTDESC_WoL_7080_PAGAN
-		trigger = { religion_group = pagan_group }
+		trigger = { religion_group = minor_deity }
 	}
 	desc = {
-		text = EVTDESC_WoL_7080_MUSLIM
-		trigger = { religion_group = muslim }
-	}
-	desc = {
-		text = EVTDESC_WoL_7080_INDIAN
-		trigger = { religion_group = indian_group }
+		text = EVTDESC_WoL_7080_guardian_deity
+		trigger = { religion_group = guardian_deity }
 	}
 
 	trigger = {
@@ -1023,8 +1001,7 @@ character_event = {
 		trigger = {
 			NOR = {
 				trait = lunatic
-				religion_group = pagan_group
-				religion_group = indian_group
+				religion_group = minor_deity
 			}
 		}
 	}
@@ -1034,16 +1011,7 @@ character_event = {
 			NOT = {
 				trait = lunatic				
 			}
-			religion_group = pagan_group
-		}
-	}
-	desc = {
-		text = EVTDESC_WoL_7091_INDIAN
-		trigger = {
-			NOT = {
-				trait = lunatic				
-			}
-			religion_group = indian_group
+			religion_group = minor_deity
 		}
 	}
 	desc = {
@@ -1160,7 +1128,7 @@ character_event = {
 		}
 		trigger = {
 			trait = lustful
-			religion_group = christian
+			religion_group = goddesses_religion
 		}
 		remove_trait = lustful
 		piety = 100
@@ -1268,8 +1236,7 @@ character_event = {
 		trigger = {
 			trait = chaste
 			NOR = {
-				religion_group = christian
-				religion_group = indian_group
+				religion_group = goddesses_religion
 			}
 		}
 		ai_chance = {

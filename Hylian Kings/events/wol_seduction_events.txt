@@ -252,16 +252,7 @@ character_event = {
 	}
 	
 	desc = {
-		text = EVTDESC_WOL_40
-		trigger = {
-			religion_group = christian
-		}
-	}
-	desc = {
 		text = EVTDESC_WOL_40_NC
-		trigger = {
-			NOT = { religion_group = christian }
-		}
 	}
 	
 	option = {
@@ -507,8 +498,7 @@ character_event = {
 			limit = {
 				FROM = {
 					is_close_relative = event_target:target_lover_1
-					NOT = { religion = messalian }
-					NOT = { religion = zoroastrian }
+					NOT = { religion = sol_religion }
 				}
 			}
 			set_character_flag = scandal_temp_incest
@@ -537,7 +527,7 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					religion_group = christian
+					religion_group = goddesses_religion
 					OR = {
 						is_priest = yes
 						trait = monk
@@ -1050,7 +1040,7 @@ character_event = {
 		
 		if = {
 			limit = {
-				religion_group = christian
+				religion_group = goddesses_religion
 				OR = {
 					AND = {
 						is_ruler = yes
@@ -1072,8 +1062,7 @@ character_event = {
 		if = {
 			limit = {
 				is_close_relative = FROMFROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				NOT = { religion = sol_religion }
 			}
 			if = {
 				limit = {
@@ -1108,7 +1097,7 @@ character_event = {
 			limit = {
 				is_female = no
 				is_married = yes
-				NOT = { religion_group = pagan_group }
+				NOT = { religion_group = demon_religion }
 			}
 			tooltip = {
 				add_character_modifier = {
@@ -1224,7 +1213,7 @@ character_event = {
 		
 		if = {
 			limit = {
-				religion_group = christian
+				religion_group = goddesses_religion
 				OR = {
 					is_priest = yes
 					trait = monk
@@ -1813,27 +1802,7 @@ character_event = {
 		name = EVTOPTA_WOL_99
 		trigger = {
 			is_female = yes
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
-			NOT = { religion_group = indian_group }
-		}
-		ai_chance = {
-			factor = 100
-		}
-		remove_character_modifier = wol_seducer_2
-		add_trait = seductress
-#		log = "WoL.99: [Root.GetTitledName] achieves the lifestyle Seductress!"
-	}
-	
-	option = {
-		name = EVTOPTA_WOL_99_PERS
-		trigger = {
-			is_female = yes
-			OR = {
-				religion_group = muslim
-				religion_group = zoroastrian_group
-				religion_group = indian_group
-			}
+			NOT = { religion_group = demon_religion }
 		}
 		ai_chance = {
 			factor = 100
@@ -5843,8 +5812,7 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				NOT = { religion = sol_religion }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -6365,8 +6333,7 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				NOT = { religion = sol_religion }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -6490,8 +6457,7 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				NOT = { religion = sol_religion }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -6593,8 +6559,8 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				
+				NOT = { religion = sol_religion }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -6702,8 +6668,8 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				
+				NOT = { religion = sol_religion }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -7552,8 +7518,8 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				
+				NOT = { religion = sol_religion }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -7678,8 +7644,8 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				
+				NOT = { religion = sol_religion }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -7782,8 +7748,8 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				
+				NOT = { religion = sol_religion }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -7892,8 +7858,8 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				
+				NOT = { religion = sol_religion }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -9667,7 +9633,7 @@ character_event = {
 	min_age = 16
 	max_age = 65
 	only_playable = yes
-	religion_group = christian
+	religion_group = goddesses_religion
 	only_capable = yes
 	prisoner = no
 	
@@ -10318,122 +10284,6 @@ character_event = {
 					character_event = { id = WoL.562 days = 240 random = 20 } # A baby is found in the garden!
 				}
 			}
-		}
-	}
-}
-
-character_event = {
-	id = WoL.562
-	desc = EVTDESC_WOL_562
-	picture = GFX_evt_birth
-	border = GFX_event_normal_frame_intrigue
-	
-	is_triggered_only = yes
-	
-	immediate = {
-		hidden_tooltip = { # Hidden so the Pope does not appear as a portrait for affected characters
-			k_papal_state = {
-				holder_scope = {
-					create_character = {
-						dynasty = none
-						religion = hellenic_pagan
-						culture = irish
-						female = yes
-						dna="gppniiosfag"
-						age = 20
-					}
-					new_character = {
-						ROOT = {
-							random_list = {
-								50 = {
-									create_character = {
-										dynasty = none
-										religion = ROOT
-										culture = ROOT
-										race = PREV
-										mother = PREV
-										father = ROOT
-										female = no
-										age = 0
-										trait = bastard
-										trait = fair
-									}
-									new_character = {
-										save_event_target_as = target_baby
-									}
-								}
-								50 = {
-									create_character = {
-										dynasty = none
-										religion = ROOT
-										culture = ROOT
-										race = PREV
-										mother = PREV
-										father = ROOT
-										female = yes
-										age = 0
-										trait = bastard
-										trait = fair
-									}
-									new_character = {
-										save_event_target_as = target_baby
-									}
-								}
-							}
-						}
-						death = { death_reason = death_natural }
-					}
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = EVTOPTA_WOL_562
-		ai_chance = {
-			factor = 100
-		}
-		event_target:target_baby = {
-			set_father = ROOT
-		}
-		
-		if = {
-			limit = { is_married = yes }
-			spouse = {
-				opinion = {
-					who = ROOT
-					modifier = opinion_unfaithful_private
-					years = 10
-				}
-				hidden_tooltip = {
-					event_target:target_baby = {
-						reverse_opinion = {
-							who = PREV
-							modifier = opinion_whorespawn
-							years = 100
-						}
-					}
-				}
-			}
-		}
-		
-		if = {
-			limit = { trait = zealous }
-			random = {
-				chance = 50
-				remove_trait = zealous
-				hidden_tooltip = {
-					character_event = { id = 38310 days = 1 } # Notify zealous lost
-				}
-			}
-		}
-#		log = "WoL.562: [Root.GetTitledName] has rose bush baby [target_baby.GetFirstName] (lunatic)"
-	}
-	
-	option = {
-		name = EVTOPTB_WOL_562
-		ai_chance = {
-			factor = 1
 		}
 	}
 }

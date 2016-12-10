@@ -62,14 +62,6 @@ province_event = {
 			religion_authority = 0.9
 		}
 		modifier = {
-			factor = 3.0
-			OR = {
-				province_id = 333 # Rome
-				province_id = 497 # Thrace
-				province_id = 719 # Mecca
-			}
-		}
-		modifier = {
 			factor = 0.5
 			NOT = { religion_authority = 0.2 }
 		}
@@ -243,7 +235,7 @@ character_event = {
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		
-		NOT = { religion_group = pagan_group }
+		NOT = { religion_group = demon_religion }
 
 		is_heretic = no # Heretics, already people of strong conviction, never change religion spontaneously
 
@@ -261,7 +253,7 @@ character_event = {
 			
 		
 		location = {
-			NOT = { religion_group = pagan_group }
+			NOT = { religion_group = demon_religion }
 			religion_group = ROOT
 			NOT = { religion = ROOT }
 			OR = {
@@ -343,13 +335,6 @@ character_event = {
 		
 		location = {
 			reverse_religion = ROOT
-		}
-		hidden_tooltip = {
-			if = {
-				limit = { religion_group = indian_group }
-				set_character_flag = india_converted
-				character_event = { id = RoI.30120 } # Set religious branch randomly
-			}
 		}
 	}
 	option = {
@@ -450,13 +435,6 @@ letter_event = {
 		}
 		
 		religion = FROM
-		hidden_tooltip = {
-			if = {
-				limit = { religion_group = indian_group }
-				set_character_flag = india_converted
-				character_event = { id = RoI.30121 } # Set religious branch to liege's branch
-			}
-		}
 
 		
 		
@@ -729,13 +707,6 @@ character_event = {
 		}
 		
 		religion = FROM
-		hidden_tooltip = { 
-			if = {
-				limit = { religion_group = indian_group }
-				set_character_flag = india_converted
-				character_event = { id = RoI.30122 }
-			}
-		}
 	}
 	
 	option = { # Refuse

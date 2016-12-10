@@ -998,18 +998,8 @@ character_event = {
 						OR = {
 							trait = cynical
 							AND = {
-								trait = mutazilite
-								liege = { trait = ashari }
-							}
-							AND = {
-								trait = ashari
-								liege = { trait = mutazilite }
-							}
-							AND = {
 								liege = { religion_group = PREV }
 								NOT = { liege = { religion = PREV } }
-								NOT = { religion_group = pagan_group }
-								NOT = { religion_group = indian_group }
 							}
 						}
 					}
@@ -1024,7 +1014,7 @@ character_event = {
 							NOT = { liege = { religion_group = PREV } }
 							AND = {
 								NOT = { liege = { religion = PREV } }
-								religion_group = pagan_group
+								religion_group = demon_religion
 							}
 						}
 					}
