@@ -6519,7 +6519,7 @@ character_event = {
 				culture = gravel
 				culture_group = mammalian_monsters
 				culture_group = blin
-				culture_group = aquatic
+				culture_group = aquatic_group
 				culture_group = lfos
 			}
 		}
@@ -7169,7 +7169,10 @@ character_event = {
 			}
 		}
 		if = {
-			limit = { religion = jain }
+			limit = { OR = {
+				religion = light_force
+				religion = great_deku
+			} }
 			piety = -20
 			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}

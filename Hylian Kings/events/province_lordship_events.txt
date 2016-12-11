@@ -148,7 +148,7 @@ province_event = {
 	picture = GFX_evt_peasants
 	
 	trigger = {
-		religion_group = doctrine_religion
+		religion_group = doctrine
 		NOT = {
 			has_province_modifier = prima_noctae
 		}

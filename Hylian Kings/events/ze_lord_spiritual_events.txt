@@ -267,11 +267,11 @@ character_event = {
 				save_event_target_as = ze_5020_province
 				trigger_switch = {
 					on_trigger = religion_group
-					goddesses_religion 			= { FROM = { add_trait = sympathy_goddesses } }
+					goddesses_religion 			= { FROM = { add_trait = sympathy_goddesses_religion } }
 					minor_deity 				= { FROM = { add_trait = sympathy_minor_deity } }
 					guardian_deity		= { FROM = { add_trait = sympathy_guardian_deity } }
-					alien_religion 	= { FROM = { add_trait = sympathy_alien } }
-					doctrine_religion		= { FROM = { add_trait = sympathy_doctrine } }
+					alien_religion 	= { FROM = { add_trait = sympathy_alien_religion } }
+					doctrine		= { FROM = { add_trait = sympathy_doctrine } }
 				}
 			}
 		}

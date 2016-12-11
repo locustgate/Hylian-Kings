@@ -364,7 +364,8 @@ character_event = {
 			region = custom_port_isle
 			OR = {
 				culture = ho_ho
-				culture = norman
+				culture = arcadia
+				culture = hanman
 			}
 			any_province_holding = {
 				NOT = { holding_type = nomad }
@@ -420,7 +421,7 @@ character_event = {
 		independent = no
 		top_liege = {
 			primary_title = {
-				title = k_port_island
+				title = k_port_isle
 			}
 		}
 		any_courtier = {
@@ -473,7 +474,7 @@ character_event = {
 		independent = no
 		top_liege = {
 			primary_title = {
-				title = k_port_island
+				title = k_port_isle
 			}
 		}
 		any_vassal = {

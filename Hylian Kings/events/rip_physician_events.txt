@@ -85,7 +85,7 @@ character_event = {
 						modifier = {
 							factor = 0
 							NOR = {
-								religion_group = golden_goddesses
+								religion_group = goddesses_religion
 							}
 						}
 						create_character = {
@@ -1545,7 +1545,7 @@ character_event = {
 					}
 					50 = { # African Mystic
 						create_character = {
-							culture = yamatami
+							culture = yamatamianan
 							religion = yamatami_gods
 							dynasty = none
 							age = 33

@@ -499,58 +499,6 @@ character_event = {
 	}
 }
 
-# Aztec first contact
-character_event = {
-	id = CM.10018
-	
-	hide_window = yes
-
-	is_triggered_only = yes
-	
-	immediate = {
-		any_player = {
-			limit = {
-				capital_scope = {
-					NOT = { region = world_india }
-					NOT = { region = world_africa_east }
-				}
-			}
-			character_event = { id = CM.10019 }
-		}
-	}
-}
-
-character_event = {
-	id = CM.10019
-	
-	hide_window = yes
-
-	is_triggered_only = yes
-	
-	immediate = {
-		chronicle = {
-			entry = CHRONICLE_AZTECS_FIRST_CONTACT
-			portrait = [From.GetID]
-		}
-	}
-}
-
-# Aztec Invasion
-character_event = {
-	id = CM.10020
-	
-	hide_window = yes
-
-	is_triggered_only = yes
-	
-	immediate = {
-		chronicle = {
-			entry = CHRONICLE_AZTEC_INVASION
-			portrait = [From.GetID]
-		}
-	}
-}
-
 # Creates new higher level title
 	# On create title - ROOT is the creating character, FROM is the title
 character_event = {
@@ -1108,65 +1056,6 @@ character_event = {
 	}
 }
 
-# Enemy forces captured major settlement
-character_event = {
-	id = CM.10035
-	
-	hide_window = yes
-
-	is_triggered_only = yes
-	
-	ai = yes
-	
-	trigger = {
-		OR = {
-			FROM = { title = b_roma }
-			FROM = { title = b_constantinople }
-			FROM = { title = b_bagdad }
-			FROM = { title = b_indraprastha }
-			FROM = { title = b_jerusalem }
-			FROM = { title = b_mecca }
-			FROM = { title = b_alexandria }
-			FROM = { title = b_cordoba }
-			AND = {
-				year = 900
-				FROM = { title = b_venezia }
-			}
-			AND = {
-				year = 1164
-				FROM = { title = b_koln }
-			}
-			AND = {
-				year = 1200
-				FROM = { title = b_paris }
-			}
-		}
-	}
-
-	immediate = {
-		if = {
-			limit = {
-				FROM = {
-					owner = {
-						top_liege = {
-							ai = no
-						}
-					}
-				}
-			}
-			FROM = {
-				owner = {
-					top_liege = {
-						chronicle = {
-							entry = CHRONICLE_ENEMY_FORCES_CAPTURED_MAJOR_SETTLEMENT
-							portrait = [Root.GetID] # The owner of the enemy forces
-						}
-					}
-				}
-			}
-		}
-	}
-}
 
 # Marriage of primary heir  - ROOT is employer. FROM is employers "employee". new_character is the other spouse.
 character_event = {

@@ -3542,8 +3542,8 @@ character_event = {
 			AND = {
 				NOT = { trait = war_elephant_leader }
 				OR = {
-					culture_group = indo_aryan_group
-					culture_group = dravidian_group
+				culture = pebble
+				culture = gem_lande
 					any_demesne_province = {
 						terrain = jungle
 					}
@@ -3642,8 +3642,8 @@ character_event = {
 		trigger = {
 			NOT = { trait = war_elephant_leader }
 			OR = {
-				culture_group = indo_aryan_group
-				culture_group = dravidian_group
+				culture = pebble
+				culture = gem_lander
 				any_demesne_province = {
 					terrain = jungle
 				}
@@ -3687,11 +3687,14 @@ character_event = {
 			AND = {
 				NOT = { trait = winter_soldier }
 				OR = {
-					culture_group = north_germanic
-					culture_group = baltic
-					culture_group = east_slavic
-					culture_group = west_slavic
-					culture_group = finno_ugric
+				culture = sarian
+				culture = ho_ho
+				culture_group = spirit_continent
+				culture = yook
+				culture = yeti
+				culture = frozen_islander
+				culture = kasuto
+				culture = koridain
 				}
 			}
 		}
@@ -3762,11 +3765,14 @@ character_event = {
 			modifier = {
 				factor = 2
 				OR = {
-					culture_group = north_germanic
-					culture_group = baltic
-					culture_group = east_slavic
-					culture_group = west_slavic
-					culture_group = finno_ugric
+				culture = sarian
+				culture = ho_ho
+				culture_group = spirit_continent
+				culture = yook
+				culture = yeti
+				culture = frozen_islander
+				culture = kasuto
+				culture = koridain
 					is_tribal = yes
 				}
 			}
@@ -3807,11 +3813,14 @@ character_event = {
 		trigger = {
 			NOT = { trait = winter_soldier }
 			OR = {
-				culture_group = north_germanic
-				culture_group = baltic
-				culture_group = east_slavic
-				culture_group = west_slavic
-				culture_group = finno_ugric
+				culture = sarian
+				culture = ho_ho
+				culture_group = spirit_continent
+				culture = yook
+				culture = yeti
+				culture = frozen_islander
+				culture = kasuto
+				culture = koridain
 			}
 		}
 		add_trait = winter_soldier

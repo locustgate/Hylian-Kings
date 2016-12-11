@@ -2576,9 +2576,9 @@ character_event = {
 				is_landless_type_title = no
 			}
 			OR = {
-				NOT = { religion_group = pagan_group }
+				NOT = { religion_group = minor_deity }
 				AND = {
-					religion_group = pagan_group
+					religion_group = minor_deity
 					is_reformed_religion = yes
 				}
 			}
@@ -2786,13 +2786,6 @@ character_event = {
 				factor = 0.75
 				NOT = {
 					year = 900
-				}
-			}
-			modifier = {
-				factor = 0.25
-				OR = {
-					culture_group = baltic
-					culture_group = finno_ugric  # The most stubborn pagans
 				}
 			}
 			modifier = {
@@ -10598,5 +10591,3 @@ character_event = {
 #		name = OK
 #	}
 #}
-
-}

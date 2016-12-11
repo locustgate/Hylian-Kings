@@ -1844,7 +1844,7 @@ character_event = {
 	option = {
 		name = EVTOPTC65049	#God cures me!
 		trigger = {
-			NOT = { religion_group = doctrine_religion }
+			NOT = { religion_group = doctrine }
 		}
 		piety = 5
 		change_learning = 1

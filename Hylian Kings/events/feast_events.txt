@@ -1876,7 +1876,7 @@ character_event = {
 								}
 								OR = {
 									religion_group = goddesses_religion
-									religion_group = minor_deities
+									religion_group = minor_deity
 								}
 								has_lover = no
 								NOT = { trait = shy }
@@ -1957,7 +1957,7 @@ character_event = {
 							}
 							OR = {
 								religion_group = goddesses_religion
-								religion_group = minor_deities
+								religion_group = minor_deity
 							}
 							has_lover = no
 							NOT = { trait = shy }

@@ -404,7 +404,7 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	religion = catholic
+	religion = goddesses_religion
 	war = no
 	
 	is_triggered_only = yes 
@@ -413,7 +413,7 @@ character_event = {
 		in_command = no
 		trait = chaste
 		NOR = {
-			has_landed_title = k_papal_state
+			has_landed_title = k_judicars
 			trait = excommunicated
 		}
 	}
@@ -506,7 +506,7 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	prisoner = no
-	religion = catholic
+	religion = goddesses_religion
 	ai = no
 	war = no
 
@@ -5178,7 +5178,7 @@ character_event = {
 	
 	trigger = {
 		trait = proud
-		NOT = { religion_group = pagan_group }
+		NOT = { religion_group = demon_religion }
 		in_command = no
 		job_spiritual = {
 			NOT = {
@@ -5426,7 +5426,7 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	only_playable = yes
-	religion = catholic
+	religion = goddesses_religion
 
 	prisoner = no
 	is_triggered_only = yes 

@@ -22,8 +22,8 @@ character_event = {
 			is_titular = no
 			is_landless_type_title = no
 			NOR = {
-				title = k_papal_state
-				title = k_orthodox
+				title = k_golden_goddesses
+				title = k_judicars
 			}
 			NOT = {
 				ROOT = {
@@ -169,12 +169,6 @@ character_event = {
 			modifier = {
 				factor = 3
 				is_nomadic = yes
-			}
-			modifier = {
-				factor = 10
-				liege = {
-					has_landed_title = e_mongol_empire
-				}
 			}
 			modifier = {
 				factor = 4

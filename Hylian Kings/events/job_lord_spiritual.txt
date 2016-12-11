@@ -360,7 +360,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 3.0
-			religion_group = pagan_group
+			religion_group = demon_religion
 			is_reformed_religion = no
 		}
 	}
@@ -602,9 +602,6 @@ character_event = {
 		name = "EVTOPTA20021"
 		trigger = {
 			NOT = {
-				religion_group = muslim
-			}
-			NOT = {
 				trait = wroth
 			}
 		}
@@ -620,20 +617,6 @@ character_event = {
 		}
 		add_trait = wounded
 		add_trait = zealous
-		liege = { letter_event = { id = 20022 tooltip = "EVTTOOLTIP20022" } }
-	}
-	option = {
-		name = "EVTOPTC20021"
-		trigger = {
-			religion_group = muslim
-			NOT = {
-				AND = {
-					trait = wroth
-					NOT = { trait = humble }
-				}
-			}
-		}
-		add_trait = wounded
 		liege = { letter_event = { id = 20022 tooltip = "EVTTOOLTIP20022" } }
 	}
 }
@@ -682,8 +665,8 @@ character_event = {
 	
 	trigger = {
 		has_job_action = action_inquisition
-		NOT = { religion_group = pagan_group }
-		NOT = { religion_group = indian_group }
+		NOT = { religion_group = demon_religion }
+		NOT = { religion_group = doctrine }
 		trait = zealous
 		location = {
 			any_province_lord = {
@@ -796,20 +779,6 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA20030"
-		trigger = {
-			NOT = {
-				religion_group = muslim
-			}
-		}
-		FROM = {
-			liege = { letter_event = { id = 20032 tooltip = "EVTTOOLTIP20032" } }
-		}
-	}
-	option = {
-		name = "EVTOPTB20030"
-		trigger = {
-			religion_group = muslim
-		}
 		FROM = {
 			liege = { letter_event = { id = 20032 tooltip = "EVTTOOLTIP20032" } }
 		}
@@ -893,18 +862,6 @@ letter_event = {
 	
 	option = {
 		name = "EVTOPTA20033"
-		trigger = {
-			NOT = {
-				religion_group = muslim
-			}
-		}
-		piety = 5
-	}
-	option = {
-		name = "EVTOPTB20033"
-		trigger = {
-			religion_group = muslim
-		}
 		piety = 5
 	}
 }
@@ -1133,7 +1090,7 @@ character_event = {
 				NOT = { character = ROOT }
 				NOT = { is_liege_of = ROOT }
 				NOT = { religion = ROOT }
-				religion_group = pagan_group
+				religion_group = demon_religion
 				NOT = { same_realm = ROOT }
 				controls_religion = no
 			}
@@ -1176,7 +1133,7 @@ character_event = {
 				NOT = { character = ROOT }
 				NOT = { is_liege_of = ROOT }
 				NOT = { religion = ROOT }
-				religion_group = pagan_group
+				religion_group = demon_religion
 				is_reformed_religion = no
 				NOT = { same_realm = ROOT }
 				controls_religion = no
@@ -1302,7 +1259,7 @@ character_event = {
 				NOT = { character = ROOT }
 				NOT = { is_liege_of = ROOT }
 				NOT = { religion = ROOT }
-				religion_group = pagan_group
+				religion_group = demon_religion
 				is_reformed_religion = no
 				NOT = { same_realm = ROOT }
 			}
@@ -1374,7 +1331,7 @@ character_event = {
 							at_location = ROOT
 							NOT = { trait = incapable }
 							ai = yes
-							religion_group = pagan_group
+							religion_group = demon_religion
 						}
 						character_event = { id = 39610 days = 1 }
 					}
@@ -1403,7 +1360,7 @@ character_event = {
 				NOT = { character = ROOT }
 				NOT = { is_liege_of = ROOT }
 				NOT = { religion = ROOT }
-				religion_group = pagan_group
+				religion_group = demon_religion
 				NOT = { same_realm = ROOT }
 			}
 		}
@@ -1630,7 +1587,6 @@ character_event = {
 	
 	trigger = {
 		has_job_action = action_improve_rel_relations
-		NOT = { religion_group = indian_group }
 		religion_head = {
 			NOT = { character = liege }
 		}
@@ -1872,14 +1828,14 @@ character_event = {
 		NOT = { religion_group = docrtine }
 		is_heretic = no
 		OR = {
-			religion_group = golden_goddesses
+			religion_group = goddesses_religion
 			religion_group = minor_deity
 			religion_group = guardian_deity
 		}
 		liege = {
 			is_heretic = no
 			OR = {
-				religion_group = golden_goddesses
+				religion_group = goddesses_religion
 				religion_group = minor_deity
 				religion_group = guardian_deity
 			}
@@ -2598,7 +2554,7 @@ character_event = {
 		
 		NOT = {
 			any_war = {
-				OR = {
+				OR = { #need cb work
 					using_cb = crusade
 					using_cb = religious
 					using_cb = religious_revolt

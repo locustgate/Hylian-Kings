@@ -1027,11 +1027,11 @@ character_event = {
 			20 = {
 				modifier = {
 					factor = 1.25
-					NOT = { religion_group = golden_goddesses }
+					NOT = { religion_group = goddesses_religion }
 				}
 				if = {
 					limit = {
-						religion_group = golden_goddesses
+						religion_group = goddesses_religion
 					}
 					add_trait = chaste
 					hidden_tooltip = {
@@ -1042,7 +1042,7 @@ character_event = {
 				}
 				if = {
 					limit = {
-						NOT = { religion_group = golden_goddesses }
+						NOT = { religion_group = goddesses_religion }
 					}
 					piety = 5
 				}
@@ -1058,7 +1058,7 @@ character_event = {
 			5 = {
 				modifier = {
 					factor = 0
-					NOT = { religion_group = golden_goddesses }
+					NOT = { religion_group = goddesses_religion }
 				}
 				add_trait = celibate
 				hidden_tooltip = {
@@ -2535,7 +2535,7 @@ character_event = {
 	only_men = yes
 	capable_only = yes
 	only_rulers = yes
-	religion_group = golden_goddesses
+	religion_group = goddesses_religion
 	lacks_dlc = "Way of Life"
 	is_married = yes
 	
@@ -2544,7 +2544,7 @@ character_event = {
 			is_alive = yes
 			is_abroad = no
 			prisoner = no
-			religion_group = golden_goddesses
+			religion_group = goddesses_religion
 			NOT = { trait = incapable }
 		}
 		fertility = 0.5

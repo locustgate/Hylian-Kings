@@ -36,7 +36,7 @@ character_event = {
 			liege = { has_law = status_of_women_4 }
 			liege = { has_law = true_cognatic_succession }
 			liege = { religion_group = goddesses_religion }
-			liege = { religion = great_fairy }
+			liege = { religion = great_fairies }
 			has_game_rule = {
 				name = gender
 				value = all
@@ -780,7 +780,7 @@ character_event = {
 			liege = { has_law = status_of_women_4 }
 			liege = { has_law = true_cognatic_succession }
 			liege = { religion_group = goddesses_religion }
-			liege = { religion = great_fairy }
+			liege = { religion = great_fairies }
 			has_game_rule = {
 				name = gender
 				value = all
@@ -802,7 +802,7 @@ character_event = {
 			culture_group = mammalian_monsters
 			culture = ho_ho
 			culture = grindle
-			culture = port_isle
+			culture = port_towner
 			culture = kasuton
 			culture = wizzrobe
 			culture = darknut
@@ -878,9 +878,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {
-				culture_group = blin
-			}
+			culture_group = blin
 		}
 		modifier = {
 			factor = 0.2
@@ -967,14 +965,6 @@ character_event = {
 							}
 						}
 					}
-					NOT = {
-						region = world_europe_north
-					}
-					NOT = {
-						duchy = {
-							title = d_bjarmia
-						}
-					}
 				}
 			}
 			
@@ -998,14 +988,6 @@ character_event = {
 							owner = {
 								same_realm = ROOT
 							}
-						}
-					}
-					NOT = {
-						region = world_europe_north
-					}
-					NOT = {
-						duchy = {
-							title = d_bjarmia
 						}
 					}
 				}
@@ -1109,14 +1091,6 @@ character_event = {
 						}
 					}
 				}
-				NOT = {
-					region = world_europe_north
-				}
-				NOT = {
-					duchy = {
-						title = d_bjarmia
-					}
-				}
 			}
 			reverse_has_opinion_modifier = {
 				who = ROOT
@@ -1159,14 +1133,6 @@ character_event = {
 									}
 								}
 							}
-							NOT = {
-								region = world_europe_north
-							}
-							NOT = {
-								duchy = {
-									title = d_bjarmia
-								}
-							}
 						}
 						reverse_has_opinion_modifier = {
 							who = ROOT
@@ -1187,14 +1153,6 @@ character_event = {
 									owner = {
 										same_realm = ROOT
 									}
-								}
-							}
-							NOT = {
-								region = world_europe_north
-							}
-							NOT = {
-								duchy = {
-									title = d_bjarmia
 								}
 							}
 						}

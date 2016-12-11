@@ -660,8 +660,8 @@ character_event = {
 						culture_group = lfos
 						culture_group = blin
 						culture_group = mammalian_monsters
-						culture_group = aquatic
-						culture_group = alien_group
+						culture_group = aquatic_group
+						culture_group = other_world
 					}
 				}
 			}
@@ -685,8 +685,8 @@ character_event = {
 						culture_group = lfos
 						culture_group = blin
 						culture_group = mammalian_monsters
-						culture_group = aquatic
-						culture_group = alien_group
+						culture_group = aquatic_group
+						culture_group = other_world
 			} }
 		}
 		wealth = -30

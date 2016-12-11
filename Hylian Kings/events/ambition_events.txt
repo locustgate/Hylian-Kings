@@ -530,16 +530,16 @@ character_event = {
 
 	desc = {
 		text = EVTDESC94018
-		trigger = {
-			capital_scope = { NOT = { region = world_india } }
-		} 
+		#trigger = {
+		#	capital_scope = { NOT = { region = world_gem } }
+		#} 
 	}
-	desc = {
-		text = EVTDESC94018_india
-		trigger = {
-			capital_scope = { region = world_india }
-		}
-	}
+	#desc = {
+	#	text = EVTDESC94018_india
+	#	trigger = {
+	#		capital_scope = { region = world_gem }
+	#	}
+	#}
 	
 	capable_only = yes
 	only_rulers = yes
@@ -575,7 +575,7 @@ character_event = {
 	option = {
 		name = EVTOPTA94018
 		trigger = {
-			capital_scope = { NOT = { region = world_india } }
+			capital_scope = { NOT = { region = world_gem } }
 			OR = {
 				has_ambition = obj_improve_martial
 				NOT = { martial = 8 }
@@ -586,7 +586,7 @@ character_event = {
 	option = {
 		name = EVTOPTB_94018
 		trigger = {
-			capital_scope = { region = world_india }
+			capital_scope = { region = world_gem }
 			OR = {
 				has_ambition = obj_improve_martial
 				NOT = { martial = 8 }
@@ -616,20 +616,20 @@ character_event = {
 
 	desc = {
 		text = EVTDESC_94019
-		trigger = {
-			capital_scope = {
-				NOT = { region = world_india }
-			}
-		} 
+		#trigger = {
+		#	capital_scope = {
+		#		NOT = { region = world_gem }
+		#	}
+		#} 
 	}
-	desc = {
+	#desc = {
 		text = EVTDESC_94019_india
-		trigger = {
-			capital_scope = {
-				region = world_india
-			}
-		}
-	}
+		#trigger = {
+		#	capital_scope = {
+		#		region = world_gem
+		#	}
+		#}
+	#}
 	
 	is_triggered_only = yes
 	
@@ -1405,23 +1405,6 @@ character_event = {
 	}
 }
 
-# al-Otis Flies (Muslim version)
-character_event = {
-	id = 94092
-	desc = EVTDESC94092
-	picture = GFX_evt_bloody_man
-	border = GFX_event_normal_frame_religion
-	
-	hide_from = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA94092
-		character_event = { id = 94094 days = 5 tooltip = EVTTOOLTIP94086 }
-	}
-}
-
 # Meldrick Flies
 character_event = {
 	id = 94084
@@ -1436,23 +1419,6 @@ character_event = {
 	option = {
 		name = EVTOPTA94084
 		character_event = { id = 94087 days = 5 tooltip = EVTTOOLTIP94086 }
-	}
-}
-
-# Ba'ah al-Drik Flies (Muslim version)
-character_event = {
-	id = 94093
-	desc = EVTDESC94093
-	picture = GFX_evt_bloody_man
-	border = GFX_event_normal_frame_religion
-	
-	hide_from = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA94093
-		character_event = { id = 94095 days = 5 tooltip = EVTTOOLTIP94086 }
 	}
 }
 

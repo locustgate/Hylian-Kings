@@ -831,10 +831,10 @@ character_event = {
 			owner = {
 				trigger_switch = {
 					on_trigger = religion_group
-					goddesses_religion 			= { FROM = { add_trait = sympathy_goddesses } }
+					goddesses_religion 			= { FROM = { add_trait = sympathy_goddesses_religion } }
 					minor_deity 				= { FROM = { add_trait = sympathy_minor_deity } }
 					guardian_deity		= { FROM = { add_trait = sympathy_guardian_deity } }
-					alien_religion 	= { FROM = { add_trait = sympathy_alien } }
+					alien_religion 	= { FROM = { add_trait = sympathy_alien_religion } }
 					doctrine_religion		= { FROM = { add_trait = sympathy_doctrine } }
 				}
 			}
@@ -913,7 +913,7 @@ character_event = {
 							AND = {
 								religion_group = goddesses_religion
 								ROOT = {
-									trait = sympathy_goddesses
+									trait = sympathy_goddesses_religion
 								}
 							}
 							AND = {
@@ -937,7 +937,7 @@ character_event = {
 							AND = {
 								religion_group = alien_religion
 								ROOT = {
-									trait = sympathy_alien
+									trait = sympathy_alien_religion
 								}
 							}
 						}
@@ -999,24 +999,23 @@ character_event = {
 							}
 						}
 						ROOT = {
-							if = { limit = { trait = sympathy_goddesses } remove_trait = sympathy_goddesses }
+							if = { limit = { trait = sympathy_goddesses_religion } remove_trait = sympathy_goddesses_religion }
 							if = { limit = { trait = sympathy_minor_deity } remove_trait = sympathy_minor_deity }
 							if = { limit = { trait = sympathy_guardian_deity } remove_trait = sympathy_guardian_deity }
 							if = { limit = { trait = sympathy_doctrine } remove_trait = sympathy_doctrine }
-							if = { limit = { trait = sympathy_alien } remove_trait = sympathy_alien }
+							if = { limit = { trait = sympathy_alien_religion } remove_trait = sympathy_alien_religion }
 						}
 						random_list = {
 							25 = {}
 							75 = {
 								PREV = {
 									trigger_switch = {
-										on_trigger = religion_group
-										christian 			= { ROOT = { add_trait = sympathy_goddesses } }
-										muslim 				= { ROOT = { add_trait = sympathy_minor_deity } }
-										pagan_group 		= { ROOT = { add_trait = sympathy_guardian_deity } }
-										zoroastrian_group 	= { ROOT = { add_trait = sympathy_doctrine } }
-										jewish_group 		= { ROOT = { add_trait = sympathy_alien } }
-									}
+										on_trigger = religion_group										
+										goddesses_religion 			= { FROM = { add_trait = sympathy_goddesses_religion } }
+										minor_deity 				= { FROM = { add_trait = sympathy_minor_deity } }
+										guardian_deity		= { FROM = { add_trait = sympathy_guardian_deity } }
+										alien_religion 	= { FROM = { add_trait = sympathy_alien_religion } }
+										doctrine_religion		= { FROM = { add_trait = sympathy_doctrine } }}
 								}
 							}
 						}

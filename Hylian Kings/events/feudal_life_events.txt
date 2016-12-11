@@ -97,7 +97,7 @@ character_event = {
 	min_age = 20
 	capable_only = yes
 	prisoner = no
-	religion_group = golden_goddesses
+	religion_group = goddesses_religion
 	war = no
 	
 	trigger = {
@@ -2622,7 +2622,7 @@ character_event = {
 	only_playable = yes
 	capable_only = yes
 	prisoner = no
-	religion_group = golden_goddesses
+	religion_group = goddesses_religion
 	war = no
 	friends = yes
 	rivals = yes
@@ -2742,7 +2742,7 @@ character_event = {
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	religion_group = golden_goddesses
+	religion_group = goddesses_religion
 	war = no
 	
 	trigger = {
@@ -3267,7 +3267,7 @@ character_event = {
 	only_men = yes
 	capable_only = yes
 	prisoner = no
-	religion_group = golden_goddesses
+	religion_group = goddesses_religion
 	war = no
 	
 	trigger = {
@@ -3386,7 +3386,7 @@ character_event = {
 	only_playable = yes
 	capable_only = yes
 	prisoner = no
-	religion_group = golden_goddesses
+	religion_group = goddesses_religion
 	war = no
 	
 	trigger = {

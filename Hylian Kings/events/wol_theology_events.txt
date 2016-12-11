@@ -536,7 +536,7 @@ character_event = {
 		}
 		if = {
 			limit = { FROM = { religion_group = goddesses_religion } }
-			add_trait = sympathy_goddesses
+			add_trait = sympathy_goddesses_religion
 		}
 		if = {
 			limit = { FROM = { religion_group = guardian_deity } }
@@ -548,7 +548,7 @@ character_event = {
 		}
 		if = {
 			limit = { FROM = { religion_group = alien_religion } }
-			add_trait = sympathy_alien
+			add_trait = sympathy_alien_religion
 		}
 	}
 	option = {

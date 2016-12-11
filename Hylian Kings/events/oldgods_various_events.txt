@@ -1321,7 +1321,7 @@ character_event = {
 	trigger = {
 		any_spouse = {
 			OR = {
-				religion = yamatami
+				religion = jungle_spirits
 				
 				AND = {
 					culture = yamatami

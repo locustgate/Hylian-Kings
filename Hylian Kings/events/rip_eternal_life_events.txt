@@ -1616,9 +1616,9 @@ narrative_event = {
 
 		if = {
 			limit = {
-				FROM = { religion_group = guardian_geity } 
+				FROM = { religion_group = guardian_deity } 
 				NOT = { 
-					trait = sympathy_guardian_geity
+					trait = sympathy_guardian_deity
 					FROM = { religion_group = ROOT }
 				} 
 			}

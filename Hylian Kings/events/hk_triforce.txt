@@ -115,7 +115,7 @@ character_event = {
 		NOT = { trait = triforce_courage }
 		NOT = { trait = triforce_power }
 		NOT = { trait = triforce_wisdom }
-		NOR = { trait = coward 
+		NOR = { trait = craven 
 				trait = greedy 
 				trait = envious 
 				trait = weak 
@@ -585,11 +585,11 @@ character_event = {
 				remove_trait = triforce_wisdom
 				remove_trait = weak
 				remove_trait = feeble
-				remove_trait = brawny
+				remove_trait = robust
 				remove_trait = strong
 			}
 			add_trait = strong
-			add_trait = brawny
+			add_trait = robust
 	}
 }
 character_event = {
