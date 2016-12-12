@@ -38,8 +38,6 @@ execution_method = {
 				# Only available to the following:
 				trait = cruel
 				trait = wroth
- 				religion = aztec
-	 			religion = aztec_reformed
 			}
 		}
 	}
@@ -58,8 +56,7 @@ execution_method = {
 		FROM = {
 			OR = {
 				# Only available to the following:
- 				religion = aztec
-	 			religion = aztec_reformed
+ 				religion = light_spirit
 			}
 		}
 	}
@@ -138,7 +135,7 @@ execution_method = {
 			}
 		}
 		modifier = {
-		factor 0.5
+		factor = 0.5
 			FROM = {
 				OR = {
 					trait = kind
@@ -153,15 +150,11 @@ execution_method = {
 			OR = {
 				trait = cruel
 				trait = wroth
-	 			culture_group = west_germanic
+	 			culture_group = hylian
 			}
 			NOR = {
 				is_nomadic = yes
 				is_tribal = yes
-			}
-			NOR = {
-				religion = aztec
-	 			religion = aztec_reformed
 			}
 		}
 	}
@@ -188,8 +181,8 @@ execution_method = {
 		FROM = {
 			capital_scope = {
 				NOR = {
-					region = world_india
-					region = world_africa
+					region = world_cobble
+					region = world_rupeeland
 				}
 			}
 		}
@@ -216,7 +209,7 @@ execution_method = {
 	trigger = {
 		FROM = {
 			capital_scope = {
-				region = world_africa
+				region = world_cobble
 			}
 		}
 	}
@@ -250,8 +243,7 @@ execution_method = {
 			OR = {
 				trait = cruel
 				trait = wroth
- 				religion = aztec
-	 			religion = aztec_reformed
+ 				religion_group = demon_religion
 			}
 			NOT = { is_nomadic = yes }
 		}
@@ -359,10 +351,6 @@ execution_method = {
 	trigger = {
 		FROM = {
 			NOT = { is_nomadic = yes }
-			NOR = {
-				religion = aztec
-	 			religion = aztec_reformed
-			}
 		}
 	}
 }
@@ -436,10 +424,6 @@ execution_method = {
 					trait = hedonist
 					trait = drunkard
 				}
-				NOR = {
-					religion = aztec
-					religion = aztec_reformed
-				}
 			}
 			is_lowborn = no
 		}
@@ -505,7 +489,7 @@ execution_method = {
 	trigger = {
 		FROM = {
 			capital_scope = {
-				region = world_india
+				region = world_rupeeland
 			}
 		}
 	}
@@ -533,10 +517,8 @@ execution_method = {
 		FROM = {
 			capital_scope = {
 				OR = {
-					region = world_india
-					region = world_persia
-					region = world_africa_east
-					region = world_middle_east_arabia
+					region = world_gemland
+					region = world_rupeeland
 				}
 			}
 		}
@@ -556,7 +538,8 @@ execution_method = {
 					trait = wroth
 				}
 				capital_scope = {
-					region = world_india
+					region = world_rupeeland
+					region = world_hanman
 				}
 			}
 		}
@@ -579,106 +562,37 @@ execution_method = {
 				trait = wroth
 			}
 		}
-		modifier = {
-			factor = 4
-			trait = homosexual
-		}
 	}
 	trigger = {
 		FROM = {
 			OR = {
-				religion = aztec
-				religion = aztec_reformed
-				religion_group = christian
-				religion_group = muslim
+				religion_group = demon_religion
+				religion_group = minor_deity
 			}
 		}
 	}
 }
 
-execution_method = {
-	death = death_execution_crucifixion
-	weight_multiplier = {
-		factor = 200
-	}
-	trigger = {
-		FROM = {
-			AND = {
-				OR = {
-					culture = persian
-					religion_group = muslim
-				}
-				NOT = { religion_group = christian }
-			}
-		}
-	}
-}
-
-execution_method = {
-	death = death_execution_blood_eagle
-	weight_multiplier = {
-		factor = 200
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = cruel
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = wroth
-			}
-		}
-		modifier = {
-			factor = 5
-			is_rival = FROM
-		}
-	}
-	trigger = {
-		FROM = {
-			OR = {
-				religion = norse_pagan
-				religion = norse_pagan_reformed
-			}
-		}
-	}
-}
-
-execution_method = {
-	death = death_execution_scaphism
-	weight_multiplier = {
-		factor = 250
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = cruel
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = wroth
-			}
-		}
-	}
-	trigger = {
-		FROM = {
-			culture = persian
-		}
-	}
-}
 
 execution_method = {
 	death = death_execution_drowning_pit
 	weight_multiplier = {
 		factor = 250
 	}
+	modifier = {
+			factor = 0
+			OR = {
+				trait=race_zola
+				trait=race_zora
+				trait=race_geozard
+			}
+	}
 	trigger = {
 		FROM = {
 			OR = {
-				culture_group = celtic
-				culture = norse
+				religion = bellum_religion
+				religion = oshus_religion
+				religion = pirate_doctrine
 			}
 			NOR = {
 				is_nomadic = yes
@@ -688,17 +602,6 @@ execution_method = {
 	}
 }
 
-execution_method = {
-	death = death_execution_garrotting
-	weight_multiplier = {
-		factor = 300
-	}
-	trigger = {
-		FROM = {
-			culture_group = iberian
-		}
-	}
-}
 
 execution_method = {
 	death = death_execution_horses
@@ -768,7 +671,10 @@ execution_method = {
 	trigger = {
 		FROM = {
 			capital_scope = {
-				region = world_europe
+				OR = {
+					region = world_hyrule
+					region = world_spirit
+				}
 			}
 		}
 	}

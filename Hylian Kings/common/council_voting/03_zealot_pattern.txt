@@ -100,6 +100,9 @@ zealot_pattern_for = {
 	war_voting_power_1 = { always = yes }
 	succession_voting_power_0 = { always = no }
 	succession_voting_power_1 = { always = yes }
+	vassal_wars_law_0 = { always = yes }
+	vassal_wars_law_1 = { always = no }
+	vassal_wars_law_2 = { always = no }
 	
 	# ROOT - Voter, FROM - Actor, FROMFROM - Recipient, FROMFROMFROM - Revoked title.
 	revoke_title_interaction = { 
@@ -523,6 +526,10 @@ zealot_pattern_against = {
 	war_voting_power_1 = { always = no }
 	succession_voting_power_0 = { always = yes }
 	succession_voting_power_1 = { always = no }
+	
+	vassal_wars_law_0 = { always = no }
+	vassal_wars_law_1 = { always = yes }
+	vassal_wars_law_2 = { always = yes }
 	
 	centralization_0 = { always = no }
 	centralization_1 = { always = no }

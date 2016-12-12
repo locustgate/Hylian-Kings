@@ -130,101 +130,6 @@ title_midgoron = {
 	message = yes
 }
 #darknut
-title_duplicar = { #individual deemed to perform his duty beyond standard service
-	dignity = 0.15
-	realm_in_name = yes
-	grant_limit = 1
-	opinion_effect = 20
-	is_voter = yes
-	
-	monthly_salary = 0.25
-	monthly_prestige = 0.1
-	
-	is_unique = yes
-	
-	allowed_to_hold = {
-		always = yes
-	}
-	
-	allowed_to_grant = {
-		is_feudal = yes
-		OR = {
-			culture = darknut
-			religion = darknut_doctrine
-		}
-	}
-	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
-
-	message = yes
-}
-
-title_immun = { #Deemed to have performed additional services than their scope.
-	dignity = 0.15
-	realm_in_name = yes
-	grant_limit = 4
-	opinion_effect = 10
-	
-	monthly_salary = 0.1
-	monthly_prestige = 0.1
-	
-	is_unique = yes
-	
-	allowed_to_hold = {
-		always = yes
-	}
-	
-	allowed_to_grant = {
-		is_feudal = yes
-		OR = {
-			culture = darknut
-			religion = darknut_doctrine
-		}
-	}
-	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
-
-	message = yes
-}
-
-title_imagifer = { #carries either the flag of the legion or image of the highest ranked individual
-	dignity = 0.15
-	realm_in_name = yes
-	grant_limit = 1
-	opinion_effect = 10
-	
-	monthly_salary = 0.1
-	monthly_prestige = 0.25
-	
-	is_unique = yes
-	
-	allowed_to_hold = {
-		always = yes
-	}
-	
-	allowed_to_grant = {
-		is_feudal = yes
-		tier = emperor
-		OR = {
-			culture = darknut
-			religion = darknut_doctrine
-		}
-	}
-	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
-
-	message = yes
-}
-
 title_mighty = { #given to the strongest, sometimes the most skilled in command
 	dignity = 0.075
 	grant_limit = 4
@@ -245,10 +150,8 @@ title_mighty = { #given to the strongest, sometimes the most skilled in command
 			}
 		}
 		OR = {
-			OR = {
-				trait = strong
-				trait = robust
-			}
+			trait = strong
+			trait = robust
 			martial = 15
 			trait = duelist
 			trait = strategist
@@ -266,6 +169,11 @@ title_mighty = { #given to the strongest, sometimes the most skilled in command
 						name = gender
 						value = all
 					}
+					religion_group = goddesses_religion
+					religion = gerudo_goddess
+					religion = ganon_religion
+					religion = great_fairy
+					religion = great_deku					
 				}
 			}
 		}

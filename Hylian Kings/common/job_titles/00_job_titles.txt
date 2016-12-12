@@ -194,7 +194,6 @@ job_spiritual = {
 	dismiss_trigger = {
 		FROM = {
 			OR = {
-				NOT = { religion_group = muslim }
 				NOT = { religion = ROOT }
 			}
 			NOT = { 

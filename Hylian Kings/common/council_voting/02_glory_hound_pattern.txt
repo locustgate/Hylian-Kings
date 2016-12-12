@@ -49,7 +49,7 @@ glory_hound_pattern_for = {
 										is_liege_or_above = ROOT_FROM
 										ROOT_FROM = { # Attacker
 											primary_title = {
-												higher_tier_than = ROOTFROMFROMFROMFROM # Thirdparty_title
+												higher_tier_than = ROOT_FROMFROMFROMFROM # Thirdparty_title
 											}
 										}
 									}
@@ -89,6 +89,9 @@ glory_hound_pattern_for = {
 	war_voting_power_1 = { always = yes }
 	succession_voting_power_0 = { always = no }
 	succession_voting_power_1 = { always = yes }
+	vassal_wars_law_0 = { always = yes }
+	vassal_wars_law_1 = { always = no }
+	vassal_wars_law_2 = { always = no }
 	
 	centralization_0 = {
 		always = yes
@@ -404,6 +407,9 @@ glory_hound_pattern_against = {
 	war_voting_power_1 = { always = no }
 	succession_voting_power_0 = { always = yes }
 	succession_voting_power_1 = { always = no }
+	vassal_wars_law_0 = { always = no }
+	vassal_wars_law_1 = { always = yes }
+	vassal_wars_law_2 = { always = yes }
 	
 	centralization_0 = { always = no }
 	centralization_1 = { always = no }
@@ -796,6 +802,7 @@ glory_hound_pattern_against = {
 			custom_tooltip = {
 				text = pattern_glory_hound_weakening_powerful_vassal_tooltip
 				hidden_tooltip = {
+					same_liege = FROMFROM
 					liege = {
 						OR = {
 							AND = {

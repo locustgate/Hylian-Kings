@@ -47,4 +47,52 @@ decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
+	create_baga = {
+		is_high_prio = yes
+		
+		filter = self
+		ai_target_filter = self
+		potential = {
+			is_ruler = yes
+			trait = race_tree_demon
+			NOT = { num_of_children = 3  }
+		}
+		allow = {
+			age = 80
+			NOT = { any_child = { trait = race_tree_demon} }
+		}
+		effect = {
+			prestige = 250
+			create_character = {
+				random_traits = yes
+				dynasty = ROOT
+				religion = ROOT
+				culture = baga_tree
+				age = 1
+				female = no
+				trait = race_tree_demon
+			}
+			if = {
+				limit = {
+					ROOT = { is_female = yes }
+				}
+				new_character = {
+					set_mother = ROOT
+				}
+			}
+			if = {
+				limit = {
+					ROOT = { is_female = no }
+				}
+				new_character = {
+					set_father = ROOT
+				}
+			}
+			recalc_succession = yes
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = { factor = 1 }
+	}
 }

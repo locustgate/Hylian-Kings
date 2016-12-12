@@ -63,8 +63,7 @@ succession_laws = {
 		revoke_allowed = {
 			always = no
 		}			
-	}
-	
+	}	
 	succ_elective_gavelkind = {
 		child_opinion = 15
 		dynasty_opinion = 5
@@ -118,9 +117,7 @@ succession_laws = {
 		revoke_allowed = {
 			always = no
 		}			
-	}
-	
-	succ_seniority = {
+	}	succ_seniority = {
 		vassal_opinion = -5
 		oldest_child_opinion = -15
 		child_opinion = -10
@@ -128,6 +125,20 @@ succession_laws = {
 	
 		potential = {
 			holder_scope = {
+				OR = {
+					independent = yes
+					NOT = {
+						any_liege = {
+							holy_order = yes
+						}
+					}
+				}
+				OR = {
+					is_merchant_republic = no
+					primary_title = {
+						NOT = { title = PREVPREV }
+					}
+				}
 				NOT = { culture = darknut }
 				NOT = { culture = darknut_doctrine}
 				OR = {
@@ -144,17 +155,6 @@ succession_laws = {
 						NOT = { title = PREVPREV }
 					}
 				}
-				
-				#NOT = { religion_group = muslim }
-				#NOT = { religion_group = indian_group }
-				
-				#OR = {
-				#	NOT = { religion_group = pagan_group }
-				#	is_reformed_religion = yes
-				#	religion = hellenic_pagan
-				#	is_patrician = yes
-				#}
-				
 				OR = {
 					is_republic = no
 					is_patrician = yes
@@ -262,9 +262,8 @@ succession_laws = {
 							}
 						}
 						OR = {
-							NOT = { religion_group = pagan_group }
+							NOT = { religion = pirate_doctrine }
 							is_reformed_religion = yes
-							religion = hellenic_pagan
 						}
 					}
 					OR = {
@@ -347,7 +346,6 @@ succession_laws = {
 						religion_group = demon_religion
 						#religion_group = muslim
 						#religion_group = indian_group
-					}
 					has_law = succession_voting_power_1
 				}
 				is_merchant_republic = no
@@ -495,6 +493,8 @@ succession_laws = {
 				#NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
+				is_merchant_republic = no
+				is_patrician = no
 				OR = {
 					independent = yes
 					NOT = {
@@ -634,7 +634,6 @@ succession_laws = {
 	succ_papal_succession = {
 		potential = {
 			OR = {
-			title = k_papal_state
 			title = k_judicars
 			}
 		}
@@ -669,7 +668,7 @@ succession_laws = {
 	
 	succ_open_elective = {
 		potential = {
-			NOT = { title = k_papal_state }
+			NOT = { title = k_judicars }
 			temporary = no
 			OR = {
 				is_primary_type_title = yes
@@ -680,7 +679,7 @@ succession_laws = {
 						is_republic = yes
 						AND = {
 							is_theocracy = yes
-							NOT = { holder_scope = { religion_group = muslim } }
+							NOR = { holder_scope = { religion_group = demon_religion } }
 						}
 					}
 				}
@@ -689,7 +688,7 @@ succession_laws = {
 						is_republic = yes
 						AND = {
 							is_theocracy = yes
-							NOT = { religion_group = muslim }
+							NOT = { religion_group = demon_religion }
 						}
 					}
 				}
@@ -698,8 +697,7 @@ succession_laws = {
 				is_landless_type_title = yes
 				holder_scope = { is_theocracy = no }
 				holder_scope = { 
-					NOT = { religion = catholic }
-					NOT = { religion = fraticelli }
+					NOT = { religion = darknut_doctrine }
 				}
 			}
 			holder_scope = { 
@@ -741,8 +739,7 @@ succession_laws = {
 			
 			holder_scope = {
 				OR = {
-					religion = catholic
-					religion = fraticelli
+					religion = darknut_doctrine
 				}
 				is_merchant_republic = no
 				OR = {
@@ -791,7 +788,10 @@ succession_laws = {
 	succ_nomad_succession = {
 		potential = {
 			holder_scope = {
+				OR = {
 				is_nomadic = yes
+				religion = darknut_doctrine
+				}
 			}
 		}
 		effect = {
@@ -913,9 +913,6 @@ gender_laws = {
 			modifier = {
 				factor = 100
 				holder_scope = {
-					NOT = {
-						religion_group = goddesses_religion
-					}
 					primary_title = {
 						NOT = { has_law = status_of_women_3 }
 						NOT = { has_law = status_of_women_4 }
@@ -926,7 +923,7 @@ gender_laws = {
 	}
 	
 	true_cognatic_succession = {
-		#male_dynasty_opinion = -5
+		male_dynasty_opinion = -5
 		
 		potential = {
 			OR = {

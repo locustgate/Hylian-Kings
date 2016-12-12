@@ -16,16 +16,21 @@
 targetted_decisions = {
 
 	adopt_faith = {
+		only_playable = yes
 		ai_target_filter = realm
 		filter = realm
+		
 		from_potential = {
+			is_playable = yes
 			has_dlc = "Horse Lords"
+			is_adult = yes
+			prisoner = no
+			NOT = { trait = incapable }
 			is_nomadic = yes
-			is_ruler = yes
 		}
 		potential = {
 			is_nomadic = yes
-			is_ruler = yes
+			is_playable = yes
 			NOT = { religion = FROM }
 			same_realm = FROM
 		}
@@ -159,25 +164,25 @@ targetted_decisions = {
 				factor = 0
 				FROM = {
 					OR = {
-						NOT = { religion_group = demon_religion }
-						#is_reformed_religion = yes
+						NOT = { religion_group = minor_deity }
+						is_reformed_religion = yes
 					}
 				}
 				ROOT = {
-					religion_group = demon_religion
-					#is_reformed_religion = no
+					religion_group = minor_deity
+					is_reformed_religion = no
 				}
 			}
 			
 			modifier = {
 				factor = 1.5
 				FROM = {
-					religion_group = demon_religion
-					#is_reformed_religion = no
+					religion_group = minor_deity
+					is_reformed_religion = no
 				}
 				ROOT = {
 					OR = {
-						NOT = { religion_group = demon_religion }
+						NOT = { religion_group = minor_deity }
 						is_reformed_religion = yes
 					}
 				}
@@ -260,16 +265,17 @@ targetted_decisions = {
 	}
 
 	declare_feud = {
+		only_playable = yes
 		ai_target_filter = realm
 		filter = realm
 		from_potential = {
 			has_dlc = "Horse Lords"
 			is_nomadic = yes
-			is_ruler = yes
+			is_playable = yes
 		}
 		potential = {
 			is_nomadic = yes
-			is_ruler = yes
+			is_playable = yes
 			same_realm = FROM
 			NOR = { 
 				has_feud_with = FROM 

@@ -3,71 +3,136 @@
 #	duchies = { }, takes duchy title names declared in landed_titles.txt
 #	counties = { }, takes county title names declared in landed_titles.txt
 #	provinces = { }, takes province id numbers declared in /history/provinces
-#	regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region. 
-#		E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
+#	regions = { }, a regions can also include other regions, however the subregions needs to be declared before the parent regions. 
+#		E.g. If the regions world_europe contains the regions world_europe_west then world_europe_west needs to be declared as a regions before (i.e. higher up in this file) world_europe.
 
 ###########################################################################
 # World Regions
 #	These groups are mutually exclusive on the same tier
 ###########################################################################
+###################################Hyrule Continent
+###########Eastern Hyrule Continent
+###Central Hyrule 
 
+world_ordon = {
+	duchies = { d_north_ordon d_ordon_field d_forest_wedge d_ordon d_ordon_forest d_ordon_woods d_ordonia d_ordonia_plateau d_fords_ordon }
+}
+
+world_provinces = {
+	duchies = { d_south_faron d_west_faron d_east_faron d_faron_fields d_royal_town d_north_lanayru d_hylia_lanayru d_north_eldin d_central_eldin d_eldin d_south_eldin }
+}
+
+world_sacred_lands = {
+	duchies = { d_royal_woods d_royal_graveyard d_west_hyrule_field d_east_hyrule_field d_hylia d_lon_lon_hill}
+}
+
+world_great_death_mountain = {
+	duchies = { d_great_death_mountains d_eldin_mountain d_bombchu_mountain }
+}
+
+world_death_mountain = {
+	duchies = { d_dodongo_pass d_death_mountain d_death_mountain_pass }
+}
+
+world_snow_peak = {
+	duchies = {d_snowpeaks d_yeti_peaks}
+}
 world_central_hyrule = {
-	duchies = {  }
+	regions = {world_ordon world_provinces world_sacred_lands world_great_death_mountains world_death_mountain world_snow_peak}
 }
-
-world_sea_sand = {
-	duchies = {  }
-}
-
+####Sea of Trees
 world_sea_trees = {
-	duchies = { }
+	duchies = { d_kokiri_woods d_kokiri_lost_woods d_stal_woods d_haunted_woods d_skull_woods d_wolfos_woods d_korok_woods d_baba_forest d_forest_road d_lost_woods d_deku_marsh d_dekubia d_scrubavia d_deku_forest d_sweltering_woods d_tricksters_woods d_fresh_woods d_flower_woods d_fairy_woods d_whisp_woods d_blin_woods d_crackling_woods d_spring_forest d_blin_forest d_ghoma_woods d_minish d_hylia_woods d_girrin_woods d_baga_forest d_cucco_woods d_creeping_woods d_picori_forest	}
 
+}
+#######North West Hyrule
+world_wizzrobe_steppes = {
+	duchies = { d_valley_of_seers d_drywdrui d_pryniach d_cenabon d_ogmionos d_talesium d_morgania d_myrddin }
 }
 
 world_northwest_hyrule = {
-	duchies = {}
+	regions = { world_wizzrobe_steppes world_hytopia }
+}
+####North East
+world_greater_hyrule = {
+	duchies = { d_moruge d_saria d_midoro d_east_death_mountains d_oberon_hills }
+}
+world_kasuto_island = {
+	duchies = { d_kasuto d_nabooru d_maze_island}
 }
 world_northeast_hyrule = {
-	duchies = { }
+	Regions = { world_greater_hyrule world_kasuto }
+}
+####North
+world_ho = {
+	duchies = { d_aland d_needle_woods d_kanta d_wolf_woods d_hame d_helsinki d_oulu d_vaker d_seibothnia d_hyvitunta d_sala d_jyvaska d_kemi d_kouv d_lojo d_num d_pori}
+}
+world_yetilands = {
+	duchies = { d_way  d_icicle_shores d_yeti_woods d_heina d_savage_peaks d_avalanche_slopes d_greater_yetari d_lesser_yetari d_smothered_woods d_icicle_woods d_kneedeep_field }
+}
+world_howgendoogen_islands = {
+	duchies = { d_rii d_mantsa }
+}
+world_north = {
+	regions = {world_ho world_yetilands world_howgendoogen_islands}
+}
+####Calatia Valley
+world_hylian_valley = {
+	duchies = { d_calatia d_lhodia d_phracia d_tysia d_zmyrna d_aphesos d_micomedia d_rycaonia d_enatolia d_pyzantion d_Semnos d_bontus d_gommagene d_ontioch d_drapezous d_cophene  }
 }
 
+####East Hyrule
 world_hanman = {
-	duchies = { }
+	duchies = { d_hanman d_tuong d_jakali d_xinang d_changyi d_sukang d_changmo d_lumapa d_deokgol d_seludong d_daya d_kamba d_simang d_skunag d_viang d_hotho d_quruman d_jinghan d_kimheon d_putao d_yami d_sanbu d_daemashi d_kinisha d_yezima }
 }
 world_mudora = {
-	duchies = {}
+	duchies = { d_zora_valley d_mudora d_western_mudora d_eastern_mudora d_grand_Hylia d_hylia_valley d_desert_of_mystery d_flame_mountains d_hera d_south_death_mountains d_gohmamarsh d_hylia_swamps d_misery_marshes d_northern_swamp d_saltmarshes}
 }
-
+world_toledia = {
+	duchies = { d_skotness d_canvula d_subasha d_ubato d_vendoss d_tolemac d_arcadia d_lyonia d_ardennia d_silvania d_odyssia d_tyria d_megaria d_argolia d_acacesia d_valoia }
+}
+world_east_hyrule = {
+	regions = { world_hanman world_mudora world_toledia }
+}
+####South East
 world_southeast_hyrule = {
 	duchies = { }
 }
-
+####
 world_southwest_hyrule = {
 	duchies = {}
 }
-
-world_north = {
-	duchies = {  }
-}
-
+####Jungle of Happiness
+###Windlands
 world_wind = {
-	duchies = {  }
-}
-world_east_hyrule = {
-	duchies = { }
+	regions = { world_girrin_savanna world_minish_lands }
 }
 
-world_cobble = {
+world_hyrule = {
+	regions = { world_hylian_valley world_central_hyrule world_sea_trees world_hanman world_northeast_hyrule world_northwest_hyrule world_east_hyrule world_north world_southwest_hyrule world_south_east_hyrule }
+}
+#####################Central Hyrule Continent
+world_darknut_desert = {
+	duchies = { d_maw_valley  d_bastion d_jackal_desert d_deaths_valley d_bastion_cliffs }
+}
+world_sea_sand = {
+	regions = { world_darknut_desert }
+}
+#####################West Hyrule Continent
+world_cobble_subcontinent = {
 	duchies = {}
 }
-world_hyrule = {
-	regions = {  }
-}
 
+
+world_hyrule_continent = {
+	regions = { world_hyrule world_sea_sand	world_cobble_subcontinent } #east, central, west
+}
+###########rupeeland
 world_rupeeland = {
 	duchies = {}
 }
 
+##########Spirit Continent
 world_spirit = {
 	duchies = {}
 }
