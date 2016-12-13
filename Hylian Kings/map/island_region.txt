@@ -13,3 +13,14 @@
 region_koridai = {
 	provinces = { 1 2 3 4 5 6 7 8 9 10 11 12 13 14 }
 }
+region_koholint = {
+	duchies = { d_tal_tal d_ukuku}
+}
+
+region_western_isles = {
+	duchies = { d_frozen_isle d_gooey_isle d_steamy_isle }
+}
+
+region_gamelon = {
+	duchies = { d_dodomai d_aru_ainu }
+}

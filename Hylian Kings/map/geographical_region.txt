@@ -78,7 +78,7 @@ world_north = {
 }
 ####Calatia Valley
 world_hylian_valley = {
-	duchies = { d_calatia d_lhodia d_phracia d_tysia d_zmyrna d_aphesos d_micomedia d_rycaonia d_enatolia d_pyzantion d_Semnos d_bontus d_gommagene d_ontioch d_drapezous d_cophene  }
+	duchies = { d_calatia d_lhodia d_phracia d_tysia d_zmyrna d_aphesos d_micomedia d_rycaonia d_enatolia d_pyzantion d_semnos d_bontus d_gommagene d_ontioch d_drapezous d_cophene  }
 }
 
 ####East Hyrule
@@ -91,25 +91,69 @@ world_mudora = {
 world_toledia = {
 	duchies = { d_skotness d_canvula d_subasha d_ubato d_vendoss d_tolemac d_arcadia d_lyonia d_ardennia d_silvania d_odyssia d_tyria d_megaria d_argolia d_acacesia d_valoia }
 }
+
+world_deku_islands = {
+	duchies = { d_hometown_isles d_deku_isles d_treasure_isles }
+}
+
 world_east_hyrule = {
-	regions = { world_hanman world_mudora world_toledia }
+	regions = { world_hanman world_mudora world_toledia world_deku_islands}
 }
 ####South East
+world_southeast = {
+	duchies = { d_yoll d_rolling_ridge d_maku_forest d_nuun d_talus d_symmetry d_lynna d_falsia d_faria d_faria_shores d_proodyl d_westvale}
+}
+world_moria = {
+	duchies = { d_moria d_anadora d_hanoria }
+}
+world_grindle = {
+	duchies = { d_camlain d_galeas d_galfridia d_swanshores d_dale d_grindle }
+}
+world_storm_isles = {
+	duchies = { d_gale_isles d_storm_isles d_crescent_island d_tokay_island d_moonlight_isles }
+}
 world_southeast_hyrule = {
-	duchies = { }
+	regions = { world_grindle world_southeast world_moria world_storm_isles}
 }
 ####
-world_southwest_hyrule = {
-	duchies = {}
+world_holodrum = {
+	duchies = { d_tarm d_natzu d_holodrum_mountain d_cucco d_spool d_fungus d_horon_woods d_horon_fields d_south_horon }
+}
+
+world_samasa = {
+	duchies = { d_east_samasa d_west_samasa }
+}
+
+world_south_hyrule = {
+	regions = { world_samasa world_holodrum }
 }
 ####Jungle of Happiness
+world_tarm_jungle = {
+	duchies = { d_jungle_happiness }
+}
+
+world_jungle_happiness = {
+	regions = { world_tarm_jungle }
+}
 ###Windlands
+world_girrin_savanna = {
+	duchies = { d_minish_savannah d_acacia_island d_east_savannah }
+}
+
+world_minish_lands = {
+	duchies = { d_minish_fields d_trilby d_minish_plains d_wind_bridge d_castor_wilds d_royal_valley d_minish_mountains d_veil_mountains d_mountain_wind }
+}
+
+world_keatonia = {
+	duchies = { d_keatonia }
+}
+
 world_wind = {
-	regions = { world_girrin_savanna world_minish_lands }
+	regions = { world_keatonia world_girrin_savanna world_minish_lands }
 }
 
 world_hyrule = {
-	regions = { world_hylian_valley world_central_hyrule world_sea_trees world_hanman world_northeast_hyrule world_northwest_hyrule world_east_hyrule world_north world_southwest_hyrule world_south_east_hyrule }
+	regions = { world_wind world_southeast_hyrule world_jungle_happiness world_hylian_valley world_central_hyrule world_sea_trees world_hanman world_northeast_hyrule world_northwest_hyrule world_east_hyrule world_north world_south_hyrule world_south_east_hyrule }
 }
 #####################Central Hyrule Continent
 world_darknut_desert = {
@@ -122,10 +166,25 @@ world_sea_sand = {
 world_cobble_subcontinent = {
 	duchies = {}
 }
+####islands of hyrule
 
+world_koridai = {
+	provinces = { 1 2 3 4 5 6 7 8 9 10 11 12 13 14 }
+}
+world_koholint = {
+	duchies = { d_tal_tal d_ukuku}
+}
+
+world_western_isles = {
+	duchies = { d_frozen_isle d_gooey_isle d_steamy_isle }
+}
+
+world_gamelon = {
+	duchies = { d_dodomai d_aru_ainu }
+}
 
 world_hyrule_continent = {
-	regions = { world_hyrule world_sea_sand	world_cobble_subcontinent } #east, central, west
+	regions = { world_gamelon world_koholint world_koridai world_western_isles world_hyrule world_sea_sand	world_cobble_subcontinent } #east, central, west
 }
 ###########rupeeland
 world_rupeeland = {
@@ -145,10 +204,4 @@ custom_sea_zora = {
 }
 custom_rito = {
 	duchies = { d_death_mountain d_great_death_mountain d_yeti_peaks d_snowpeak d_way d_east_death_mountain d_avalanche_slopes d_lesser_yetari d_greater_yetari d_moria d_south_death_mountains d_talus d_rolling_ridge d_tarm d_holodrum_mountain d_cucco d_north_subrosia }
-}
-custom_port_isle = {
-	duchies = { d_hometown_isles d_treasure_isle d_deku_isles	}
-}
-custom_grindle = {
-	duchies = { d_swanshores d_dale d_grindle d_camlain d_galeas d_galfridia }
 }

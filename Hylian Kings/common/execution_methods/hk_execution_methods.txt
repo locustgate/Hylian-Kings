@@ -1,0 +1,10 @@
+
+execution_method = {
+	death = death_execution_bulbos
+	weight_multiplier = {
+		factor = 50
+	}
+	trigger = {
+		culture = bulblin
+	}
+}
