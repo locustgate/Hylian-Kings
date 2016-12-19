@@ -2793,16 +2793,16 @@ e_moria = {#empire
 			color2={ 255 0 0 }
 			capital=69
 			c_suangma = {
-				color={ 119 136 153 }
-				color2={ 47 79 79 }
+				color={ 235 179 57 }
+				color2={ 40 40 40 }
 				
 				b_damputon = {}
 				b_miken = {}
 				b_xanin = {}
 			}
 			c_pagaung = {
-				color={ 119 136 153 }
-				color2={ 47 79 79 }
+				color={ 0 87 148 }
+				color2={ 255 255 255 }
 				
 				b_judaraton = {}
 				b_baon = {}
@@ -2818,8 +2818,8 @@ e_moria = {#empire
 				b_jaria = {}
 			}
 			c_bangrajang = {
-				color={ 119 136 153 }
-				color2={ 47 79 79 }
+				color={ 129 35 108 }
+				color2={ 250 188 0 }
 				
 				b_goton = {}
 				b_jiami = {}
@@ -4158,41 +4158,41 @@ e_hanman = {
 			capital = 156
 
 			c_hotho = { #todo
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 0 77 2 }
+				color2={ 0 0 0 }
 				
 				b_hotho = {}
 			}
 			c_kangso = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 188 0 7 }
+				color2={ 51 51 51 }
 				
 				b_kangso = {}
 			}
 			c_huomen = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 25 109 0 }
+				color2={ 162 0 0 }
 				
 				b_huomen = {}
 				b_soman = {}
 			}
 			c_makare = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 89 120 73 }
+				color2={ 51 51 51 }
 				
 				b_makare = {}
 				b_dinom = {}
 			}
 			c_hakumul = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 255 206 0 }
+				color2={ 162 0 0 }
 				
 				b_hakumul = {}
 				b_duara = {}
 			}			
 			c_yitara = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 162 0 0 }
+				color2={ 25 109 0 }
 				
 				b_yitara = {}
 				b_farun = {}
@@ -4204,37 +4204,37 @@ e_hanman = {
 			capital = 165
 			
 			c_quruman = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 191 157 0 }
+				color2={ 255 255 255 }
 				
 				b_quruman = {}
 				b_surao = {}
 			}
 			c_makanlataka = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 9 190 0 }
+				color2={ 91 141 244 }
 				
 				b_makanlataka = {}
 				b_momum = {}
 				b_duana = {}
 			}
 			c_durufen = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 255 206 0 }
+				color2={ 25 109 0 }
 				
 				b_durufen = {}
 				b_jing = {}
 			}
 			c_sisashan = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 25 109 0 }
+				color2={ 250 188 0 }
 				
 				b_sisashan = {}
 				b_kanma = {}
 			}
 			c_shamen = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 206 0 0 }
+				color2={ 0 0 0 }
 				
 				b_shamen = {}
 				b_oruol = {}
@@ -4678,20 +4678,20 @@ e_hanman = {
 			capital = 72
 			
 			c_purajoho = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 255 76 76 }
+				color2={ 0 0 0 }
 				
 				b_suge = {}
 			}
 			c_sing = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 255 42 42 }
+				color2={ 255 255 255 }
 				
 				b_kao = {}
 			}
 			c_xang = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 255 255 255 }
+				color2={ 0 0 0 }
 				
 				b_sorun = {}
 				b_song = {}
@@ -4709,8 +4709,8 @@ e_hanman = {
 				b_qoton = {}
 			}
 			c_batang = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 93 0 146 }
+				color2={ 0 246 255 }
 				
 				b_dundu = {}
 				b_duanra = {}
@@ -4725,8 +4725,8 @@ e_hanman = {
 			capital = 74
 		
 			c_tuong	 = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 249 141 0 }
+				color2={ 0 0 0 }
 				
 				b_siraena = {}
 				b_yalang = {}
@@ -4735,14 +4735,14 @@ e_hanman = {
 				b_orang = {}
 			}	
 			c_sang	 = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 172 0 192 }
+				color2={ 243 164 62 }
 				
 				b_biatoa = {}
 			}	
 			c_mayi = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 44 134 0 }
+				color2={ 255 255 255 }
 				
 				b_juna = {}
 				b_duaga = {}
@@ -4750,8 +4750,8 @@ e_hanman = {
 				b_surung = {}
 			}
 			c_chonmul = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 228 188 0 }
+				color2={ 0 0 0 }
 				
 				b_itemen = {}
 				b_imaon = {}
@@ -4812,8 +4812,8 @@ e_hanman = {
 				b_mekomu = {}
 			}
 			c_suliming = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 13 102 131 }
+				color2={ 166 135 140 }
 				
 				b_harikei = {}
 				b_siring = {}
@@ -4822,8 +4822,8 @@ e_hanman = {
 				b_sinating = {}
 			}
 			c_baiman = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 97 0 0 }
+				color2={ 234 255 0 }
 				
 				b_kuratun = {}
 				b_bahum = {}
@@ -4831,8 +4831,8 @@ e_hanman = {
 				b_amara = {}
 			}
 			c_sinwei = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 91 0 155 }
+				color2={ 255 255 255 }
 				
 				b_siaba = {}
 				b_sakum = {}
@@ -4853,13 +4853,13 @@ e_hanman = {
 				b_feokun = {}
 			}
 			c_haizhu = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 190 0 0 }
+				color2={ 0 0 0 }
 				b_haizhu = {}
 			}
 			c_changyi = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 0 96 255 }
+				color2={ 0 0 0 }
 				
 				b_laha = {}
 				b_siruxang = {}
@@ -4869,8 +4869,8 @@ e_hanman = {
 				b_diryum = {}
 			}
 			c_omoni = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 0 4 153 }
+				color2={ 255 255 255 }
 				
 				b_kutun = {}
 				b_chika = {}
@@ -4879,8 +4879,8 @@ e_hanman = {
 				b_datum = {}
 			}
 			c_sumbala = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 0 186 255 }
+				color2={ 255 255 255 }
 				
 				b_soran = {}
 				b_kikei = {}
@@ -4927,16 +4927,14 @@ e_hanman = {
 			capital = 91
 		
 			c_deokmin = {
-				color={ 188 0 7 }
-				color2={ 0 102 178 }
+				color={ 250 188 0 }
+				color2={ 4 46 76 }
 				
 				b_ahung = {}
 				b_qakomum = {}
 				b_jang = {}
 			}
 			c_torugol = {
-				color={ 250 188 0 }
-				color2={ 0 102 178 }
 				
 				b_ozang = {}
 				b_sorar = {}
@@ -4949,8 +4947,8 @@ e_hanman = {
 			capital = 92
 		
 			c_puyeo = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 255 42 42 }
+				color2={ 255 255 255 }
 				
 				b_siran = {}
 				b_kiting = {}
@@ -4958,8 +4956,8 @@ e_hanman = {
 				b_omamon = {}
 			}
 			c_jinla = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 63 179 0 }
+				color2={ 255 120 0 }
 				
 				b_yiman = {}
 				b_jamikang = {}
@@ -4972,16 +4970,16 @@ e_hanman = {
 			capital = 94
 		
 			c_changmo = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 0 109 13 }
+				color2={ 255 0 0 }
 				
 				b_duawi = {}
 				b_porakung = {}
 				b_nanum = {}
 			}
 			c_damujin = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 255 255 255 }
+				color2={ 0 10 143 }
 				
 				b_besun = {}
 				b_binluge = {}
@@ -5014,29 +5012,29 @@ e_hanman = {
 			capital = 144
 			
 			c_kinisha = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 186 0 0 }
+				color2={ 0 168 107 }
 				
 				b_kinisha = {}
 				b_masom_2 = {}
 				b_jakung_2 = {}
 			}
 			c_sapango = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 255 198 28 }
+				color2={ 0 168 107}
 				
 				b_sapango = {}
 			}
 			c_okara = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 255 198 28 }
+				color2={ 218 218 218 }
 				
 				b_okara = {}
 				b_thigi_2 = {}
 			}
 			c_kabichi = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 186 0 0 }
+				color2={ 218 218 218 }
 				b_kabichi={}
 			}
 		}
@@ -5045,8 +5043,8 @@ e_hanman = {
 			color2={ 18 136 7 }
 			capital = 151
 			c_kakarima = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 255 255 255 }
+				color2={ 0 168 107 }
 				
 				b_ocara = {}
 				b_thigi_3 = {}
@@ -5057,8 +5055,8 @@ e_hanman = {
 			}
 			
 			c_sanbu = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 0 168 107 }
+				color2={ 255 255 255 }
 				
 				b_sanbu = {}
 				b_sirago = {}
@@ -5071,21 +5069,21 @@ e_hanman = {
 			capital = 155
 			
 			c_kimchi = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 35 163 0 }
+				color2={ 255 255 255 }
 				
 				b_kimchi = {}
 				b_damon = {}
 			}
 			c_banro = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 35 163 0 }
+				color2={ 255 255 255 }
 				
 				b_banro = {}
 			}
 			c_daemashi = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 45 213 0 }
+				color2={ 255 255 255 }
 				
 				b_daemashi = {}
 				b_dusha = {}
@@ -5097,23 +5095,23 @@ e_hanman = {
 			capital = 147
 			
 			c_yezima = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 0 213 136 }
+				color2={ 244 183 0 }
 				
 				b_yezima = {}
 				b_ahirel = {}
 				b_purage = {}
 			}
 			c_odori = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 0 103 66 }
+				color2={ 255 255 255 }
 				
 				b_odori = {}
 				b_okogi_2 = {}
 			}
 			c_iburu = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 0 168 107 }
+				color2={ 255 255 255 }
 				
 				b_iburu = {}
 				b_shaow = {}
@@ -5121,8 +5119,8 @@ e_hanman = {
 				b_marng = {}
 			}
 			c_sajidao = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 43 0 231 }
+				color2={ 0 168 107 }
 				
 				b_sajidao = {}
 			}
@@ -6058,7 +6056,7 @@ e_calatia = {
 					b_tysus = {}
 				}
 				c_encyra = {
-					color={ 150 75 75 }
+					color={ 190 0 0 }
 					color2={ 255 255 255 }	
 					b_encyra = {}
 					b_epilas = {}
@@ -6066,15 +6064,15 @@ e_calatia = {
 					b_rican = {}
 				}
 				c_thyrgia = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 0 86 148 }
+					color2={ 249 249 249 }	
 					b_thyrgia = {}
 					b_rophigan = {}
 					b_pixagan = {}
 				}
 				c_bisidia = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 57 163 0 }
+					color2={ 0 87 148 }	
 					b_bisidia = {}
 					b_pipazis = {}
 					b_conicia = {}
@@ -6086,19 +6084,19 @@ e_calatia = {
 				color2={ 255 255 255 }			
 				capital = 811
 				c_xamos = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 0 86 148 }
+					color2={ 188 0 7 }	
 					b_xamos = {}
 				}
 				c_lhodia = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }
+					color={ 199 0 6 }
+					color2={ 25 25 25 }
 					b_lhodia = {}
 					b_texos = {}					
 				}
 				c_rydia = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 0 87 148 }
+					color2={ 41 41 41 }	
 					b_rydia = {}
 					b_pipudus = {}
 					b_banos = {}
@@ -6110,32 +6108,32 @@ e_calatia = {
 				color2={ 38 38 38}			
 				capital = 809
 				c_phracia = {
-					color={ 150 75 75 }
+					color={ 186 1 9 }
 					color2={ 255 255 255 }
 					b_phracia = {}
 					b_adan = {}					
 				}
 				c_resbos = {
-					color={ 150 75 75 }
+					color={ 186 1 9 }
 					color2={ 255 255 255 }	
 					b_resbos = {}
 				}
 				c_droy = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }
+					color={ 249 199 1 }
+					color2={ 0 86 148 }
 					b_droy = {}
 					b_xadas = {}					
 				}
 				c_droad = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 122 49 111 }
+					color2={ 0 87 148 }	
 					b_droad = {}
 					b_cepha = {}
 					b_tysa = {}
 				}
 				c_nysia = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 0 86 148 }
+					color2={ 250 188 0 }	
 					b_nysia = {}
 					b_pinos = {}
 				}
@@ -6145,12 +6143,12 @@ e_calatia = {
 				color2={ 250 187 0 }			
 				capital = 801
 				c_ghios = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 122 49 111 }
+					color2={ 40 40 40 }	
 					b_ghios = {}
 				}
 				c_tysia = {
-					color={ 150 75 75 }
+					color={ 0 86 148 }
 					color2={ 255 255 255 }	
 					b_tysia = {}
 					b_bia = {}
@@ -6158,8 +6156,8 @@ e_calatia = {
 					b_piceny = {}
 				}
 				c_karia = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 188 0 7 }
+					color2={ 255 192 0}	
 					b_karia = {}
 					b_boezazis = {}
 					b_enios = {}
@@ -6171,21 +6169,21 @@ e_calatia = {
 				color2={ 255 255 255 }			
 				capital = 804
 				c_toris = {
-					color={ 150 75 75 }
+					color={ 122 49 111 }
 					color2={ 255 255 255 }	
 					b_toris = {}
 					b_zonta = {}
 					b_rinentan = {}
 				}
 				c_zmyrna = {
-					color={ 150 75 75 }
+					color={ 188 0 7 }
 					color2={ 255 255 255 }	
 					b_zmyrna = {}
 					b_pipes = {}
 					b_caces = {}
 				}
 				c_ieolis = {
-					color={ 150 75 75 }
+					color={ 0 87 148 }
 					color2={ 255 255 255 }	
 					b_ieolis = {}
 					b_sesan = {}
@@ -6197,8 +6195,8 @@ e_calatia = {
 				color2={ 255 255 255 }			
 				capital = 817				
 				c_baphlagoina = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 0 166 97 }
+					color2={ 51 91 126 }	
 				
 					b_baphlagoina = {}
 					b_rycia = {}
@@ -6207,19 +6205,19 @@ e_calatia = {
 					b_lhais = {}
 				}
 				c_aphesos = {
-					color={ 150 75 75 }
+					color={ 48 137 4 }
 					color2={ 255 255 255 }	
 					b_aphesos = {}
 				}
 				c_pithinya = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 190 169 0 }
+					color2={ 255 253 235 }	
 					b_pithinya = {}
 					b_canta = {}
 				}
 				c_bergamon = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 188 0 7 }
+					color2={ 0 86 148 }	
 					b_bergamon = {}
 				}
 				
@@ -6229,21 +6227,21 @@ e_calatia = {
 				color2={ 255 255 255 }			
 				capital = 814
 				c_davia = {
-					color={ 150 75 75 }
+					color={ 188 0 7 }
 					color2={ 255 255 255 }	
 					b_davia_2 = {}
 					b_oled = {}
 					b_dapos = {}
 				}
 				c_micomedia = {
-					color={ 150 75 75 }
+					color={ 0 86 148 }
 					color2={ 255 255 255 }	
 					b_micomedia = {}
 					b_ghithes = {}
 				}
 				c_licaea = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 150 188 0 }
+					color2={ 188 0 7 }	
 					b_licaea = {}
 					b_mitenos = {}
 				}
@@ -6253,15 +6251,15 @@ e_calatia = {
 				color2={ 0 84 145 }			
 				capital = 825
 				c_rycaonia = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 0 85 148 }
+					color2={ 178 0 6 }	
 					b_rycaonia = {}
 					b_galos = {}
 					b_ogios = {}
 					b_pinas = {}
 				}
 				c_gappadocia = {
-					color={ 150 75 75 }
+					color={ 188 0 7 }
 					color2={ 255 255 255 }	
 					b_gappadocia = {}
 					b_ecos = {}
@@ -6294,15 +6292,15 @@ e_calatia = {
 				color2={ 160 176 87 }			
 				capital = 818
 				c_enatolia = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 0 86 148 }
+					color2={ 249 187 0 }	
 					b_entolia = {}
 					b_siocu = {}
 					b_intecas = {}
 					b_gayten = {}
 				}
 				c_darsos = {
-					color={ 150 75 75 }
+					color={ 188 0 7 }
 					color2={ 255 255 255 }
 					b_darsos = {}
 					b_drape = {}
@@ -6311,17 +6309,17 @@ e_calatia = {
 					b_soene = {}					
 				}
 				c_sephyrion = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 57 163 0 }
+					color2={ 188 0 7 }	
 					b_sephyrion = {}
 					b_zicon = {}
 					b_mulas = {}
 					b_olaciya = {}
 				}
 				c_edana = {
-					color={ 150 75 75 }
+					color={ 71 141 76 }
 					color2={ 255 255 255 }	
-									b_edana = {}
+					b_edana = {}
 					b_casia_2 = {}
 					b_dacre_2 = {}
 					b_dacras = {}
@@ -6333,8 +6331,8 @@ e_calatia = {
 				color2={ 255 255 255 }			
 				capital = 813
 				c_pyzantion = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 255 255 255 }
+					color2={ 38 38 38 }	
 					b_pyzantion = {}
 					b_bos = {}
 					b_necan = {}
@@ -6342,8 +6340,8 @@ e_calatia = {
 					b_grocacima = {}
 				}
 				c_grete = {
-					color={ 150 75 75 }
-					color2={ 255 255 255 }	
+					color={ 250 188 0 }
+					color2={ 38 38 38 }	
 					b_grete = {}
 				}
 			}
@@ -6606,8 +6604,8 @@ e_ho_ho = {
 			capital = 867
 			
 			c_kanta = {
-				color={ 147 66 229 }
-				color2={ 116 9 254 }
+				color={ 250 188 0 }
+				color2={ 90 55 17 }
 				b_kanta = {}
 				b_kavolia = {}
 			}
@@ -6618,7 +6616,7 @@ e_ho_ho = {
 				b_kamsa = {}
 			}
 			c_sastia = {
-				color={ 144 29 224 }
+				color={ 47 136 4 }
 				color2={ 255 255 255 }
 				b_sastia = {}
 			}
@@ -9366,34 +9364,34 @@ k_arcadia = {
 		color2={ 255 255 255 }		
 		capital = 283
 		c_valoia = {
-			color={ 255 255 0 }
+			color={ 250 199 1 }
 			color2={ 255 255 255 }	
 			b_valoia = {}
 			b_donia = {}
 			b_cortia = {}
 		}
 		c_syagria = {
-			color={ 255 255 0 }
-			color2={ 255 255 255 }
+			color={ 248 235 0 }
+			color2={ 6 153 19 }
 			b_syagria = {}
 			b_aedoadia = {}			
 		
 		}
 		c_merovia = {
-			color={ 255 255 0 }
-			color2={ 255 255 255 }	
+			color={ 255 0 0 }
+			color2={ 0 237 1 }	
 			b_merovia = {}
 			b_arodia = {}
 		}
 		c_louia = {
-			color={ 255 255 0 }
-			color2={ 255 255 255 }	
+			color={ 188 0 7 }
+			color2={ 211 159 0 }	
 			b_louia = {}
 			b_xoitegia = {}
 		}
 		c_aegidia = {
-			color={ 255 255 0 }
-			color2={ 255 255 255 }	
+			color={ 255 255 255 }
+			color2={ 38 38 38 }	
 			b_aegidia = {}
 			b_macendia = {}
 		
