@@ -4262,7 +4262,7 @@ e_hanman = {
 			capital = 99
 			
 			c_kimheon = {
-				color={ 244 164 96 }
+				color={ 30 0 255 }
 				color2={ 255 222 0 }
 				
 				b_kimheon = {}
@@ -4271,16 +4271,16 @@ e_hanman = {
 				b_ping = {}
 			}
 			c_seoran = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 255 59 59 }
+				color2={ 74 82 186 }
 				
 				b_seoran = {}
 				b_pafon = {}
 				b_moreruton = {}
 			}
 			c_famusa = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 255 0 0 }
+				color2={ 0 0 0 }
 				
 				b_famusa = {}
 				b_tairi = {}
@@ -4288,15 +4288,15 @@ e_hanman = {
 				b_sal = {}
 			}
 			c_arang = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 0 105 17 }
+				color2={ 255 255 255 }
 				
 				b_arang = {}
 				b_saru = {}
 			}
 			c_morusego = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 0 46 150 }
+				color2={ 213 0 0 }
 				
 				b_morusego = {}
 				b_maleng = {}
@@ -4308,8 +4308,8 @@ e_hanman = {
 			capital = 104
 			
 			c_jinghan = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 0 63 135 }
+				color2={ 255 0 0 }
 				
 				b_jinghan = {}
 				b_siji = {}
@@ -4317,16 +4317,16 @@ e_hanman = {
 				b_sapaon = {}
 			}
 			c_minumchi = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 0 180 255 }
+				color2={ 205 165 80 }
 				
 				b_minumchi = {}
 				b_jaduol = {}
 				b_dalang = {}
 			}
 			c_huodan = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 0 208 98}
+				color2={ 255 198 28 }
 				
 				b_huodan = {}
 				b_han = {}
@@ -4334,8 +4334,8 @@ e_hanman = {
 				b_hajamil = {}
 			}
 			c_kanru = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 227 101 0 }
+				color2={ 0 180 255 }
 				
 				b_kanru = {}
 				b_garal = {}
@@ -4349,8 +4349,8 @@ e_hanman = {
 			capital = 130
 			
 			c_yami = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 227 101 0 }
+				color2={ 135 0 0 }
 				
 				b_yami = {}
 			}
@@ -4370,8 +4370,8 @@ e_hanman = {
 				b_shitun = {}
 			}
 			c_bunam = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 206 17 38 }
+				color2={ 0 63 135 }
 				
 				b_bunam = {}
 				b_marage = {}
@@ -4697,8 +4697,8 @@ e_hanman = {
 				b_song = {}
 			}
 			c_hanman = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 255 223 0 }
+				color2={ 182 0 0 }
 				
 				b_golden_palace = {}
 				b_faron = {}
@@ -4765,8 +4765,8 @@ e_hanman = {
 			capital = 77
 		
 			c_jakali = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 137 0 0 }
+				color2={ 10 0 203 }
 				
 				b_puming = {}
 				b_duami = {}
@@ -4774,15 +4774,15 @@ e_hanman = {
 				b_pawun = {}
 			}
 			c_gaomar = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 137 0 0 }
+				color2={ 255 255 255 }
 				
 				b_ruppun = {}
 				b_dimaring = {}
 				b_siri = {}
 			}
 			c_shenma = {
-				color={ 244 164 96 }
+				color={ 137 0 0 }
 				color2={ 255 222 0 }
 				
 				b_pakung = {}
@@ -4790,8 +4790,8 @@ e_hanman = {
 				b_sirei = {}
 			}		
 			c_gorlang = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 10 0 203 }
+				color2={ 251 234 15 }
 				
 				b_sirom = {}
 				b_jachi = {}
@@ -4894,8 +4894,8 @@ e_hanman = {
 			capital = 88
 		
 			c_lumapa = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 242 154 0 }
+				color2={ 255 255 255 }
 				
 				b_halul = {}
 				b_furik = {}
@@ -4904,16 +4904,16 @@ e_hanman = {
 				b_sororemi = {}
 			}
 			c_horyul = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 4 151 0 }
+				color2={ 255 255 255 }
 				
 				b_tatun = {}
 				b_kichi = {}
 				b_suhun = {}
 			}
 			c_haebal = {
-				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color={ 163 158 255 }
+				color2={ 182 0 0 }
 				
 				b_lachi = {}
 				b_merom = {}
