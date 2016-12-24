@@ -11,8 +11,11 @@ character_event = {
 	
 	trigger = {
 		educator = {
+			NOR = { trait = race_tree_deity
+					trait = race_tree_demon
+			}
 			OR = {
-				misguided_warrior
+				trait = misguided_warrior
 				trait = tough_soldier
 				trait = skilled_tactician
 				trait = brilliant_strategist
@@ -22,6 +25,9 @@ character_event = {
 				trait = warrior_3
 				trait = warrior_4
 			}
+		}
+		NOR = { trait = race_tree_deity
+				trait = race_tree_demon
 		}
 		NOT = { trait = warrior_4 }
 		is_ill = no
@@ -116,6 +122,35 @@ character_event = {
 				}	
 			}	
 		}
+		modifier = { #Swords over magic
+			factor = 0.5
+			educator = {
+				OR = {
+					religion = darknut_doctrine
+					culture = death_mountain_goron
+					culture = darknut
+					religion = pirate_doctrine
+				}	
+			}	
+		}
+		modifier = { #magic over swords
+			factor = 2
+			educator = {
+				OR = {
+					religion = wizzrobe_doctrine
+					culture = wizzrobe
+				}	
+			}	
+		}
+		modifier = { #too violent
+			factor = 4
+			educator = {
+				OR = {
+					religion = great_deku
+					religion = light_force
+				}	
+			}	
+		}
 	}
 	option = {
 		name = HKM0A
@@ -151,15 +186,170 @@ character_event = {
 character_event = {
 	id = "HKM.1"
 	desc = "HKM1_DESC"
-	picture = ""
+	picture = "GFX_evt_construction_site"
 	
 	is_triggered_only = yes
 	
 	option = { name = "HK1A"}
 }
 character_event = {
-	id = HKM.X1
-	desc = "HKMX1_DESC"
+	id = HKM.2
+	desc = "HKM2_DESC"
+	picture = "GFX_evt_construction_site"
+	
+	min_age = 6
+	max_age = 16
+	capable_only = yes
+	
+	trigger = {
+		has_focus = focus_war
+		NOT = { trait = infirm }
+		NOT = { has_character_flag = do_not_disturb }
+		in_command = no
+		NOR = { trait = race_tree_deity
+				trait = race_tree_demon
+		}
+		NOT = { trait = warrior_4 }
+		is_ill = no
+		NOT = { has_severe_disability_trigger = yes }
+		NOR = {
+			has_character_modifier = the_obliette
+			has_character_modifier = the_dungeon
+			has_character_modifier = house_arrast
+		}
+	}
+	mean_time_to_happen = {
+		months = 60
+		
+		modifier = {
+			factor = 3
+			trait = warrior_1
+		}
+		modifier = {
+			factor = 4
+			trait = warrior_2
+		}
+		modifier = {
+			factor = 5
+			trait = warrior_3
+		}
+		modifier = {
+			factor = 6
+			trait = warrior_4
+		}
+		modifier = { # shy or lazy mentors don't care
+			factor = 1.5
+			OR = {
+				trait = shy
+				trait = slothful
+			}
+		}
+		modifier = { 
+			factor = 0.80
+			OR = {
+				trait = gregarious
+				trait = diligant
+				trait = duelist
+			}
+		}
+		modifier = {
+			factor = 0.8
+			OR = {
+				trait = genius
+				is_smart_trigger = yes
+			}
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				trait = imbecile
+				is_dumb_trigger = yes
+			}
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				trait = clubfooted
+				trait = hunchback
+				trait = dwarf
+				trait = inbred
+				trait = blinded
+				is_crippled = yes
+				is_maimed_trigger = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			is_female = yes
+			OR = {
+				religion = mountain_mother
+				religion = fire_spirit
+				religion_group = demon_religion
+			}		
+		}
+		modifier = { #Swords over magic
+			factor = 0.5
+			educator = {
+				OR = {
+					religion = darknut_doctrine
+					culture = death_mountain_goron
+					culture = darknut
+					religion = pirate_doctrine
+				}	
+			}	
+		}
+		modifier = { #magic over swords
+			factor = 2
+			educator = {
+				OR = {
+					religion = wizzrobe_doctrine
+					culture = wizzrobe
+				}	
+			}	
+		}
+		modifier = { #too violent
+			factor = 4
+			educator = {
+				OR = {
+					religion = great_deku
+					religion = light_force
+				}	
+			}	
+		}
+	}
+	option = {
+		name = HKM2A
+		if = {
+			limit = { trait = warrior_3}
+			hidden_tooltip = { remove_trait = warrior_3 }
+			add_trait = warrior_4
+		}
+		if = {
+			limit = { trait = warrior_2}
+			hidden_tooltip = { remove_trait = warrior_2 }
+			add_trait = warrior_3
+		}
+		if = {
+			limit = { trait = warrior_1}
+			hidden_tooltip = { remove_trait = warrior_1 }
+			add_trait = warrior_2
+		}
+		if = {
+			limit = { 
+				OR = {
+						trait = warrior_1
+						trait = warrior_2
+						trait = warrior_3
+						trait = warrior_4
+				}
+			}
+			add_trait = warrior_1
+		}
+	}
+}
+character_event = {
+	id = HKM.3
+	desc = "HKM3_DESC"
 	picture = "GFX_evt_construction_site" 
 	
 	min_age = 6
@@ -252,6 +442,35 @@ character_event = {
 				}
 			}
 		}
+		modifier = { #Swords over magic
+			factor = 2
+			educator = {
+				OR = {
+					religion = darknut_doctrine
+					culture = death_mountain_goron
+					culture = darknut
+					religion = pirate_doctrine
+				}	
+			}	
+		}
+		modifier = { #magic over swords
+			factor = 0.5
+			educator = {
+				OR = {
+					religion = wizzrobe_doctrine
+					culture = wizzrobe
+				}	
+			}	
+		}
+		modifier = { #It's not as violent as swords but it's still violent
+			factor = 1.5
+			educator = {
+				OR = {
+					religion = great_deku
+					religion = light_force
+				}	
+			}	
+		}
 		modifier = { 
 			factor = 0.80
 			trait = erudite
@@ -280,8 +499,8 @@ character_event = {
 		}
 	}
 	option = {
-		name = HKMX1A
-		hidden_tooltip = {educator = { character_event = {id = HKM.X2} } }
+		name = HKM3A
+		hidden_tooltip = {educator = { character_event = {id = HKM.4} } }
 		if = {
 			limit = { trait = mage_3}
 			hidden_tooltip = { remove_trait = mage_3 }
@@ -311,11 +530,196 @@ character_event = {
 	}
 }
 character_event = {
-	id = "HKM.X2"
-	desc = "HKMX2_DESC"
+	id = "HKM.4"
+	desc = "HKM4_DESC"
 	picture = "GFX_evt_construction_site"
 	
 	is_triggered_only = yes
 	
 	option = { name = "HK1A"}
+}
+
+character_event = {
+	id = HKM.5
+	desc = "HKM5_DESC"
+	picture = "GFX_evt_construction_site" 
+	
+	min_age = 6
+	max_age = 16
+	capable_only = yes
+	
+	trigger = {
+		has_focus = focus_scholarship
+		NOT = { trait = infirm }
+		NOT = { has_character_flag = do_not_disturb }
+		in_command = no
+		
+		OR = {
+			trait = race_human
+			trait = race_hylian
+			trait = race_sheikah
+			trait = race_wind
+			trait = race_gerudo
+			trait = race_wizzrobe
+		}	
+		OR = {			
+				trait = race_wizzrobe
+				trait = mage_1 
+				trait = mage_2
+				trait = mage_3
+				trait = mage_4
+		}
+		NOT = { trait = mage_4 }
+		is_ill = no
+		NOT = { has_severe_disability_trigger = yes }
+		NOR = {
+			has_character_modifier = the_obliette
+			has_character_modifier = the_dungeon
+			has_character_modifier = house_arrast
+		}
+	}
+	mean_time_to_happen = {
+		months = 60
+		modifier = { #wind all are mage the only difference is they need training to inhance it beyond enhancer magic 
+			factor = 0.5
+			trait = race_wind
+		}
+		modifier = { #wizzrobe blood is filled with magic but for some magic doesn't click
+			factor = 0.8
+			trait = race_wizzrobe
+		}
+		modifier = { #humans usually have hard time learning magic for some reason (most are old men or a single family)
+			factor = 2
+			trait = race_human
+		}
+		
+		modifier = {
+			factor = 3
+			trait = mage_1
+		}
+		modifier = {
+			factor = 4
+			trait = mage_2
+		}
+		modifier = {
+			factor = 5
+			trait = mage_3
+		}
+		modifier = {
+			factor = 6
+			trait = mage_4
+		}
+		modifier = { # extremely tallented mage has difficulty explaining the basic
+			factor = 1.5
+			educator = {
+				OR = {
+				trait = mage_3
+				trait = mage_4
+				}
+			}
+		}
+		modifier = { # shy or lazy mentors don't care
+			factor = 1.5
+			educator = {
+				OR = {
+				trait = shy
+				trait = slothful
+				}
+			}
+		}
+		modifier = { #loves explaining the basics
+			factor = 0.80
+			educator = {
+				OR = {
+				trait = gregarious
+				trait = diligant
+				trait = erudite
+				}
+			}
+		}
+		modifier = { #Swords over magic
+			factor = 2
+			educator = {
+				OR = {
+					religion = darknut_doctrine
+					culture = death_mountain_goron
+					culture = darknut
+					religion = pirate_doctrine
+				}	
+			}	
+		}
+		modifier = { #magic over swords
+			factor = 0.5
+			educator = {
+				OR = {
+					religion = wizzrobe_doctrine
+					culture = wizzrobe
+				}	
+			}	
+		}
+		modifier = { #It's not as violent as swords but it's still violent
+			factor = 1.5
+			educator = {
+				OR = {
+					religion = great_deku
+					religion = light_force
+				}	
+			}	
+		}
+		modifier = { 
+			factor = 0.80
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			OR = {
+				trait = genius
+				is_smart_trigger = yes
+			}
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				trait = inbred
+				trait = blinded
+				trait = imbecile
+				is_dumb_trigger = yes
+			}
+		}
+		modifier = { #can still learn but has difficulty studing. 
+			factor = 1.5
+			OR = {
+				trait = blinded
+			}
+		}
+	}
+	option = {
+		name = HKM5A
+		if = {
+			limit = { trait = mage_3}
+			hidden_tooltip = { remove_trait = mage_3 }
+			add_trait = mage_4
+		}
+		if = {
+			limit = { trait = mage_2}
+			hidden_tooltip = { remove_trait = mage_2 }
+			add_trait = mage_3
+		}
+		if = {
+			limit = { trait = mage_1}
+			hidden_tooltip = { remove_trait = mage_1 }
+			add_trait = mage_2
+		}
+		if = {
+			limit = { 
+				OR = {
+						trait = mage_1
+						trait = mage_2
+						trait = mage_3
+						trait = mage_4
+				}
+			}
+			add_trait = mage_1
+		}
+	}
 }
