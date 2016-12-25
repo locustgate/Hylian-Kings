@@ -1,89 +1,4 @@
 castle = {
-#lookoutblinds,pitfals,cheval frise ,moat,catapault
-	ca_blin_wall_q_1 = {
-		potential = {				
-				culture_group = blin
-		}
-		desc = ca_blin_wall_q_1_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
-		gold_cost = 50
-		build_time = 182
-		fort_level = 0.5
-		ai_creation_factor = 80
-		
-		extra_tech_building_start = 1.0
-	}
-	ca_blin_wall_q_2 = {
-		desc = ca_blin_wall_q_2_desc
-		potential = {				
-				culture_group = blin
-		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
-		upgrades_from = ca_blin_wall_q_1
-		prerequisites = { ca_wall_1 }
-		gold_cost = 50
-		build_time = 182
-		fort_level = 0.5
-		ai_creation_factor = 79
-
-		extra_tech_building_start = 0.6
-	}
-	ca_blin_wall_q_3 = {
-		potential = {				
-				culture_group = blin
-		}
-		desc = ca_blin_wall_q_3_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
-		upgrades_from = ca_blin_wall_q_2
-		gold_cost = 50
-		build_time = 182
-		fort_level = 0.5
-		ai_creation_factor = 78
-		
-		extra_tech_building_start = 0.2
-	}
-	ca_blin_wall_q_4 = {
-		potential = {				
-				culture_group = blin
-		}
-		desc = ca_blin_wall_q_4_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
-		upgrades_from = ca_blin_wall_q_3
-		gold_cost = 100
-		build_time = 365
-		fort_level = 1.0
-		ai_creation_factor = 77
-		
-		extra_tech_building_start = 0.2
-	}
-	ca_blin_wall_q_5 = {
-		potential = {				
-				culture_group = blin
-		}
-		desc = ca_blin_wall_q_5_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
-		upgrades_from = ca_blin_wall_q_4
-		gold_cost = 100
-		build_time = 365
-		fort_level = 1.0
-		ai_creation_factor = 76
-
-		extra_tech_building_start = 0.2
-	}
-	ca_blin_wall_q_6 = {
-		potential = {				
-				culture_group = blin
-		}
-		desc = ca_blin_wall_q_6_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
-		upgrades_from = ca_blin_wall_q_5
-		gold_cost = 100
-		build_time = 365
-		fort_level = 1.0
-		ai_creation_factor = 76
-
-		extra_tech_building_start = 0.2
-	}
 	ca_moblin_barracks_1 = {
 		desc = ca_moblin_barracks_1_desc
 		potential = {	
@@ -235,67 +150,6 @@ castle = {
 
 		extra_tech_building_start = 0.5
 	}
-#club moblin encampment
-	ca_club_moblin_1 = {
-		desc = ca_club_moblin_desc
-		potential = {
-			culture = moblin 
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		gold_cost = 100
-		build_time = 365
-		club_moblin = 20
-		ai_creation_factor = 89
-		
-		extra_tech_building_start = 0.4
-	}
-	ca_club_moblin_2 = {
-		desc = ca_club_moblin_desc
-		potential = {
-			culture = moblin 
-
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ca_wall_1 }
-		upgrades_from = ca_club_moblin_1
-		gold_cost = 120
-		build_time = 547
-		club_moblin = 30
-		ai_creation_factor = 88
-
-		extra_tech_building_start = 0.8
-	}
-	ca_club_moblin_3 = {
-		desc = ca_club_moblin_desc
-		potential = {
-			culture = moblin 
-
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
-		prerequisites = { ca_wall_2 }
-		upgrades_from = ca_club_moblin_2
-		gold_cost = 200
-		build_time = 730
-		club_moblin = 40
-		ai_creation_factor = 87
-
-		extra_tech_building_start = 0.2
-	}
-	ca_club_moblin_4 = {
-		desc = ca_club_moblin_desc
-		potential = {
-			culture = moblin 
-
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
-		upgrades_from = ca_club_moblin_3
-		gold_cost = 300
-		build_time = 1095
-		club_moblin = 50
-		ai_creation_factor = 86
-
-		extra_tech_building_start = 0.2
-	}
 #bokoblin
 
 	ca_bokoblin_clubbers_hovel_1 = {
@@ -316,7 +170,7 @@ castle = {
 		potential  = {				
 				culture = bokoblin
 		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_1 }
 		upgrades_from = ca_bokoblin_clubbers_hovel_1
 		gold_cost = 120
@@ -331,7 +185,7 @@ castle = {
 		potential  = {				
 				culture = bokoblin
 		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		upgrades_from = ca_bokoblin_clubbers_hovel_2
 		gold_cost = 200
 		build_time = 1095
@@ -345,7 +199,7 @@ castle = {
 		potential  = {				
 				culture = bokoblin
 		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		upgrades_from = ca_bokoblin_clubbers_hovel_3
 		gold_cost = 300
 		build_time = 1095
@@ -372,7 +226,7 @@ castle = {
 		potential  = {				
 				culture = bokoblin
 		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_1 }
 		upgrades_from = ca_bokoblin_archer_hovel_1
 		gold_cost = 120
@@ -387,7 +241,7 @@ castle = {
 		potential  = {				
 				culture = bokoblin
 		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		upgrades_from = ca_bokoblin_archer_hovel_2
 		gold_cost = 200
 		build_time = 1095
@@ -401,7 +255,7 @@ castle = {
 		potential  = {				
 				culture = bokoblin
 		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		upgrades_from = ca_bokoblin_archer_hovel_3
 		gold_cost = 300
 		build_time = 1095
@@ -658,7 +512,7 @@ castle = {
 		potential = {
 			culture = bulblin	
 		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
 		upgrades_from = ca_bullbos_pen_2
 		gold_cost = 400
 		build_time = 2190
@@ -674,7 +528,7 @@ castle = {
 		potential = {
 			culture = bulblin	
 		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
 		upgrades_from = ca_bullbos_pen_3
 		gold_cost = 500
 		build_time = 2190
@@ -701,7 +555,7 @@ castle = {
 		extra_tech_building_start = 0.5
 	}
 	ca_blin_hovel_2 = {
-		desc = ca_blin_hovel_2_desc
+		desc = ca_blin_hovel_1_desc
 		potential = {
 			culture_group = blin
 		}
@@ -717,11 +571,11 @@ castle = {
 		extra_tech_building_start = 1.0
 	}
 	ca_blin_hovel_3 = {
-		desc = ca_blin_hovel_3_desc
+		desc = ca_blin_hovel_1_desc
 		potential = {
 			culture_group = blin
 		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		prerequisites = { ca_wall_2 }
 		upgrades_from = ca_blin_hovel_2
 		gold_cost = 200
@@ -733,7 +587,7 @@ castle = {
 		extra_tech_building_start = 0.2
 	}
 	ca_blin_hovel_4 = {
-		desc = ca_blin_hovel_4_desc
+		desc = ca_blin_hovel_1_desc
 		potential = {
 			culture_group = blin
 		}
@@ -748,7 +602,7 @@ castle = {
 		extra_tech_building_start = 0.2
 	}
 	ca_blin_hovel_5 = {
-		desc = ca_blin_hovel_4_desc
+		desc = ca_blin_hovel_1_desc
 		potential = {
 			culture_group = blin
 		}
@@ -763,7 +617,7 @@ castle = {
 		extra_tech_building_start = 0.2
 	}
 	ca_blin_hovel_6 = {
-		desc = ca_blin_hovel_5_desc
+		desc = ca_blin_hovel_1_desc
 		potential = {
 			culture_group = blin
 		}
@@ -779,77 +633,6 @@ castle = {
 	}
 }
 city = {
-#lookoutblinds,pitfals,cheval frise ,moat,catapault
-	ct_wall_q_1 = {
-		potential = {				
-				culture_group = blin
-		}
-		desc = ct_wall_q_1_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
-		gold_cost = 50
-		build_time = 182
-		fort_level = 0.4
-		ai_creation_factor = 80
-		
-		extra_tech_building_start = 1.0
-	}
-	ct_wall_q_2 = {
-		desc = ct_wall_q_2_desc
-		potential = {				
-				culture_group = blin
-		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
-		upgrades_from = ct_wall_q_1
-		prerequisites = { ct_wall_1 }
-		gold_cost = 50
-		build_time = 182
-		fort_level = 0.4
-		ai_creation_factor = 79
-
-		extra_tech_building_start = 0.6
-	}
-	ct_wall_q_3 = {
-		potential = {				
-				culture_group = blin
-		}
-		desc = ct_wall_q_3_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
-		upgrades_from = ct_wall_q_2
-		gold_cost = 50
-		build_time = 182
-		fort_level = 0.4
-		ai_creation_factor = 78
-		
-		extra_tech_building_start = 0.2
-	}
-	ct_wall_q_4 = {
-		potential = {				
-				culture_group = blin
-		}
-		desc = ct_wall_q_4_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
-		upgrades_from = ct_wall_q_3
-		gold_cost = 100
-		build_time = 365
-		fort_level = 1.0
-		ai_creation_factor = 77
-		
-		extra_tech_building_start = 0.2
-	}
-	ct_wall_q_5 = {
-		potential = {				
-				culture_group = blin
-		}
-		desc = ct_wall_q_5_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
-		upgrades_from = ct_wall_q_4
-		gold_cost = 100
-		build_time = 365
-		fort_level = 1.0
-		ai_creation_factor = 76
-
-		extra_tech_building_start = 0.2
-	}
 	ct_moblin_highwaymen_1 = {
 		desc = ct_moblin_highwaymen_1_desc
 		potential = {
@@ -944,77 +727,6 @@ city = {
 		archers = 110
 		tax_income = 2
 		ai_creation_factor = 90
-
-		extra_tech_building_start = 0.2
-	}
-	ct_moblin_guard_1 = {
-		desc = ct_moblin_guard_1_desc
-		potential = {
-				culture = moblin
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 0 }
-		gold_cost = 100
-		build_time = 365
-		pikemen = 45
-		ai_creation_fact_moblinor = 96
-		
-		extra_tech_building_start = 1.0
-	}
-	ct_moblin_guard_2 = {
-		desc = ct_moblin_guard_1_desc
-		potential = {
-				culture = moblin
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 2 }
-		prerequisites = { ct_moblin_wall_1 }
-		upgrades_from = ct_moblin_guard_1
-		gold_cost = 120
-		build_time = 547
-		pikemen = 55
-		ai_creation_fact_moblinor = 95
-
-		extra_tech_building_start = 0.2
-	}
-	ct_moblin_guard_3 = {
-		desc = ct_moblin_guard_1_desc
-		potential = {
-				culture = moblin
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 4 }
-		prerequisites = { ct_moblin_wall_2 }
-		upgrades_from = ct_moblin_guard_2
-		gold_cost = 200
-		build_time = 730
-		pikemen = 65
-		ai_creation_fact_moblinor = 94
-		
-		extra_tech_building_start = 0.2
-	}
-	ct_moblin_guard_4 = {
-		desc = ct_moblin_guard_1_desc
-		potential = {
-				culture = moblin
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 6 }
-		upgrades_from = ct_moblin_guard_3
-		gold_cost = 300
-		build_time = 1095
-		pikemen = 75
-		ai_creation_fact_moblinor = 93
-		
-		extra_tech_building_start = 0.2
-	}
-	ct_moblin_guard_5 = {
-		desc = ct_moblin_guard_1_desc
-		potential = {
-				culture = moblin
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 8 }
-		upgrades_from = ct_moblin_guard_4
-		gold_cost = 400
-		build_time = 2190
-		pikemen = 85
-		ai_creation_fact_moblinor = 92
 
 		extra_tech_building_start = 0.2
 	}
@@ -1113,82 +825,6 @@ city = {
 		archers = 110
 		tax_income = 2
 		ai_creation_factor = 90
-
-		extra_tech_building_start = 0.2
-	}
-	ct_bokoblin_gangs_1 = {
-		desc = ct_bokoblin_gangs_1_desc
-		potential = {
-				culture = bokoblin	
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 0 }
-		gold_cost = 100
-		build_time = 365
-		pikemen = 45
-		light_infantry = 20
-		ai_creation_factor = 96
-		
-		extra_tech_building_start = 1.0
-	}
-	ct_bokoblin_gangs_2 = {
-		desc = ct_bokoblin_gangs_1_desc
-		potential = {
-				culture = bokoblin	
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 2 }
-		prerequisites = { ct_wall_1 }
-		upgrades_from = ct_bokoblin_gangs_1
-		gold_cost = 120
-		build_time = 547
-		pikemen = 55
-		light_infantry = 20
-		ai_creation_factor = 95
-
-		extra_tech_building_start = 0.2
-	}
-	ct_bokoblin_gangs_3 = {
-		desc = ct_bokoblin_gangs_1_desc
-		potential = {
-				culture = bokoblin	
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 4 }
-		prerequisites = { ct_wall_2 }
-		upgrades_from = ct_bokoblin_gangs_2
-		gold_cost = 200
-		build_time = 730
-		pikemen = 45
-		light_infantry = 40
-		ai_creation_factor = 94
-		
-		extra_tech_building_start = 0.2
-	}
-	ct_bokoblin_gangs_4 = {
-		desc = ct_bokoblin_gangs_1_desc
-		potential = {
-				culture = bokoblin	
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 6 }
-		upgrades_from = ct_bokoblin_gangs_3
-		gold_cost = 300
-		build_time = 1095
-		pikemen = 45
-		light_infantry = 50
-		ai_creation_factor = 93
-		
-		extra_tech_building_start = 0.2
-	}
-	ct_bokoblin_gangs_5 = {
-		desc = ct_bokoblin_gangs_1_desc
-		potential = {
-				culture = bokoblin	
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 8 }
-		upgrades_from = ct_bokoblin_gangs_4
-		gold_cost = 400
-		build_time = 2190
-		pikemen = 85
-		light_infantry = 20
-		ai_creation_factor = 92
 
 		extra_tech_building_start = 0.2
 	}
@@ -1294,179 +930,14 @@ city = {
 
 		extra_tech_building_start = 0.2
 	}
-	ct_bulblin_bully_1 = {
-		desc = ct_bulblin_bully_1_desc
-		potential = {
-			culture = bulblin
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 0 }
-		gold_cost = 100
-		build_time = 365
-		pikemen = 45
-		ai_creation_factor = 96
-		
-		extra_tech_building_start = 1.0
-	}
-	ct_bulblin_bully_2 = {
-		desc = ct_bulblin_bully_1_desc
-		potential = {
-			culture = bulblin
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 2 }
-		prerequisites = { ct_wall_1 }
-		upgrades_from = ct_bulblin_bully_1
-		gold_cost = 120
-		build_time = 547
-		pikemen = 55
-		ai_creation_factor = 95
-
-		extra_tech_building_start = 0.2
-	}
-	ct_bulblin_bully_3 = {
-		desc = ct_bulblin_bully_1_desc
-		potential = {
-			culture = bulblin
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 4 }
-		prerequisites = { ct_wall_2 }
-		upgrades_from = ct_bulblin_bully_2
-		gold_cost = 200
-		build_time = 730
-		pikemen = 65
-		ai_creation_factor = 94
-		
-		extra_tech_building_start = 0.2
-	}
-	ct_bulblin_bully_4 = {
-		desc = ct_bulblin_bully_1_desc
-		potential = {
-			culture = bulblin
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 6 }
-		upgrades_from = ct_bulblin_bully_3
-		gold_cost = 300
-		build_time = 1095
-		pikemen = 65
-		bullbos = 10
-		ai_creation_factor = 93
-		
-		extra_tech_building_start = 0.2
-	}
-	ct_bulblin_bully_5 = {
-		desc = ct_bulblin_bully_1_desc
-		potential = {
-			culture = bulblin
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 8 }
-		upgrades_from = ct_bulblin_bully_4
-		gold_cost = 400
-		build_time = 2190
-		pikemen = 65
-		bullbos = 20
-		ai_creation_factor = 92
-
-		extra_tech_building_start = 0.2
-	}
 }
 temple = {
-#blin slave quarters
-	tp_blin_barracks_1 = {
-		desc = tp_blin_barracks_1_desc
-		potential = {
-				culture = blin
-		}
-		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
-		gold_cost = 100
-		build_time = 365
-		light_infantry = 60
-		archers = 30
-		ai_creation_factor = 94
-
-		extra_tech_building_start = 0.5
-	}
-	tp_blin_barracks_2 = {
-		desc = tp_blin_barracks_1_desc
-		potential = {
-				culture = blin
-		}
-		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
-		prerequisites = { tp_blinwall_1 }
-		upgrades_from = tp_blin_barracks_1
-		gold_cost = 120
-		build_time = 547
-		light_infantry = 65
-		archers = 45
-		ai_creation_factor = 93
-
-		extra_tech_building_start = 1.0
-	}
-	tp_blin_barracks_3 = {
-		desc = tp_blin_barracks_1_desc
-		potential = {
-				culture = blin
-		}
-		trigger = { TECH_TEMPLE_CONSTRUCTION = 1 }
-		prerequisites = { tp_blinwall_2 }
-		upgrades_from = tp_blin_barracks_2
-		gold_cost = 200
-		build_time = 730
-		light_infantry = 70
-		archers = 60
-		ai_creation_factor = 92
-
-		extra_tech_building_start = 0.5
-	}
-	tp_blin_barracks_4 = {
-		desc = tp_blin_barracks_1_desc
-		potential = {
-				culture = blin
-		}
-		trigger = { TECH_TEMPLE_CONSTRUCTION = 3 }
-		upgrades_from = tp_blin_barracks_3
-		gold_cost = 300
-		build_time = 1095
-		light_infantry = 75
-		archers = 75
-		ai_creation_factor = 91
-
-		extra_tech_building_start = 0.2
-	}
-	tp_blin_barracks_5 = {
-		desc = tp_blin_barracks_1_desc
-		potential = {
-				culture = blin
-		}
-		trigger = { TECH_TEMPLE_CONSTRUCTION = 5 }
-		upgrades_from = tp_blin_barracks_4
-		gold_cost = 400
-		build_time = 2190
-		light_infantry = 85
-		archers = 85
-		ai_creation_factor = 90
-
-		extra_tech_building_start = 0.2
-	}
-	tp_blin_barracks_6 = {
-		desc = tp_blin_barracks_1_desc
-		potential = {
-				culture = blin
-		}
-		trigger = { TECH_TEMPLE_CONSTRUCTION = 7 }
-		upgrades_from = tp_blin_barracks_5
-		gold_cost = 500
-		build_time = 2190
-		light_infantry = 95
-		archers = 95
-		ai_creation_factor = 89
-
-		extra_tech_building_start = 0.2
-	}
 	tp_hovel_1 = {
 		desc = tp_hovel_1_desc
 		potential = {
-					culture_group = blin 
+			culture_group = blin 
 		}
-		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
 		gold_cost = 50
 		build_time = 365
 		
@@ -1483,7 +954,7 @@ temple = {
 		potential = {
 					culture_group = blin 
 		}
-		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
 		upgrades_from = tp_hovel_1
 		gold_cost = 100
 		build_time = 365
@@ -1503,7 +974,7 @@ temple = {
 		potential = {
 					culture_group = blin 
 		}
-		trigger = { TECH_CITY_CONSTRUCTION = 1 }
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 1 }
 		upgrades_from = tp_hovel_2
 		gold_cost = 100
 		build_time = 365
@@ -1521,7 +992,7 @@ temple = {
 		potential = {
 					culture_group = blin 
 		}
-		trigger = { TECH_CITY_CONSTRUCTION = 1 }
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 3 }
 		upgrades_from = tp_hovel_3
 		gold_cost = 100
 		build_time = 365
@@ -1535,7 +1006,9 @@ temple = {
 		
 		extra_tech_building_start = 2.5
 	}
-	tp_moblin_camp_1 = {
+}
+tribal = {
+	tb_moblin_camp_1 = {
 		desc = tp_moblin_camp_desc
 		potential = {
 				culture = moblin 
@@ -1549,32 +1022,32 @@ temple = {
 		
 		extra_tech_building_start = 1
 	}
-	
-	tp_moblin_camp_2 = {
-		desc = tp_moblin_camp_desc
+	tb_moblin_camp_2 = {
+		desc = tb_moblin_camp_desc
 		potential = {
 				culture = moblin 
 		}
 		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_moblin_camp_1
+		upgrades_from = tb_moblin_camp_1
 		prestige_cost = 400
 		build_time = 547
 		light_infantry = 40
 		pikemen = 10
 		ai_creation_factor = 94
 		
-		convert_to_castle = ca_moblin_barracks_1					convert_to_city = ct_moblin_guard_1
-
+		convert_to_castle = ca_moblin_barracks_1	
+		convert_to_city = ct_guard_1
+		
 		extra_tech_building_start = 1.5
 	}
 	
-	tp_moblin_camp_3 = {
-		desc = tp_moblin_camp_desc
+	tb_moblin_camp_3 = {
+		desc = tb_moblin_camp_desc
 		potential = {
 				culture = moblin 
 		}
 		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_moblin_camp_2
+		upgrades_from = tb_moblin_camp_2
 		prestige_cost = 500
 		build_time = 730
 		light_infantry = 40
@@ -1584,26 +1057,27 @@ temple = {
 		extra_tech_building_start = 2
 	}
 	
-	tp_moblin_camp_4 = {
-		desc = tp_moblin_camp_desc
+	tb_moblin_camp_4 = {
+		desc = tb_moblin_camp_desc
 		potential = {
 				culture = moblin 
 		}
 		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_moblin_camp_3
+		upgrades_from = tb_moblin_camp_3
 		prestige_cost = 600
 		build_time = 1095
 		light_infantry = 40
 		pikemen = 10
 		ai_creation_factor = 92
 		
-		convert_to_castle = ca_moblin_barracks_2					convert_to_city = ct_moblin_guard_2
+		convert_to_castle = ca_moblin_barracks_2	
+		convert_to_city = ct_guard_2
 
 		extra_tech_building_start = 2.5
 	}
 
-	tp_bokoblin_camp_1 = {
-		desc = tp_bokoblin_camp_desc
+	tb_bokoblin_camp_1 = {
+		desc = tb_bokoblin_camp_desc
 		potential = {
 				culture = bokoblin 
 		}
@@ -1616,30 +1090,31 @@ temple = {
 		extra_tech_building_start = 1
 	}
 	
-	tp_bokoblin_camp_2 = {
-		desc = tp_bokoblin_camp_desc
+	tb_bokoblin_camp_2 = {
+		desc = tb_bokoblin_camp_desc
 		potential = {
 				culture = bokoblin 
 		}
 		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_bokoblin_camp_1
+		upgrades_from = tb_bokoblin_camp_1
 		prestige_cost = 400
 		build_time = 547
 		light_infantry = 60
 		ai_creation_factor = 94
 		
-		convert_to_castle = ca_clubber_hovel_1						convert_to_city = ct_bokoblin_gangs_1
+		convert_to_castle = ca_clubber_hovel_1				
+		convert_to_city = ct_bokoblin_gangs_1
 
 		extra_tech_building_start = 1.5
 	}
 	
-	tp_bokoblin_camp_3 = {
-		desc = tp_bokoblin_camp_desc
+	tb_bokoblin_camp_3 = {
+		desc = tb_bokoblin_camp_desc
 		potential = {
 				culture = bokoblin 
 		}
 		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_bokoblin_camp_2
+		upgrades_from = tb_bokoblin_camp_2
 		prestige_cost = 500
 		build_time = 730
 		light_infantry = 60
@@ -1648,24 +1123,25 @@ temple = {
 		extra_tech_building_start = 2
 	}
 	
-	tp_bokoblin_camp_4 = {
-		desc = tp_bokoblin_camp_desc
+	tb_bokoblin_camp_4 = {
+		desc = tb_bokoblin_camp_desc
 		potential = {
 				culture = bokoblin 
 		}
 		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_bokoblin_camp_3
+		upgrades_from = tb_bokoblin_camp_3
 		prestige_cost = 600
 		build_time = 1095
 		light_infantry = 60
 		ai_creation_factor = 92
 		
-		convert_to_castle = ca_clubber_hovel_2						convert_to_city = ct_bokoblin_gangs_2
+		convert_to_castle = ca_clubber_hovel_2				
+		convert_to_city = ct_bokoblin_gangs_2
 
 		extra_tech_building_start = 2.5
 	}
-	tp_bulblin_camp_1 = {
-		desc = tp_bulblin_camp_desc
+	tb_bulblin_camp_1 = {
+		desc = tb_bulblin_camp_desc
 		potential = {
 				culture = bulblin 
 		}
@@ -1678,30 +1154,31 @@ temple = {
 		extra_tech_building_start = 1
 	}
 	
-	tp_bulblin_camp_2 = {
-		desc = tp_bulblin_camp_desc
+	tb_bulblin_camp_2 = {
+		desc = tb_bulblin_camp_desc
 		potential = {
 				culture = bulblin 
 		}
 		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_bulblin_camp_1
+		upgrades_from = tb_bulblin_camp_1
 		prestige_cost = 400
 		build_time = 547
 		light_infantry = 40
 		ai_creation_factor = 94
 		
-		convert_to_castle = ca_bulblin_quarters_2					convert_to_city = ct_bulblin_bull_2
+		convert_to_castle = ca_bulblin_quarters_2				
+		convert_to_city = ct_bulblin_bull_2
 
 		extra_tech_building_start = 1.5
 	}
 	
-	tp_bulblin_camp_3 = {
-		desc = tp_bulblin_camp_desc
+	tb_bulblin_camp_3 = {
+		desc = tb_bulblin_camp_desc
 		potential = {
 				culture = bulblin 
 		}
 		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_bulblin_camp_2
+		upgrades_from = tb_bulblin_camp_2
 		prestige_cost = 500
 		build_time = 730
 		light_infantry = 40
@@ -1711,212 +1188,21 @@ temple = {
 		extra_tech_building_start = 2
 	}
 	
-	tp_bulblin_camp_4 = {
-		desc = tp_bulblin_camp_desc
+	tb_bulblin_camp_4 = {
+		desc = tb_bulblin_camp_desc
 		potential = {
 				culture = bulblin 
 		}
 		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_bulblin_camp_3
+		upgrades_from = tb_bulblin_camp_3
 		prestige_cost = 600
 		build_time = 1095
 		light_infantry = 40
 		bullbos = 5
 		ai_creation_factor = 92
 		
-		convert_to_castle = ca_bulblin_quarters_2					convert_to_city = ct_bulblin_bull_2
-
-		extra_tech_building_start = 2.5
-	}
-	tp_moblin_range_1 = {
-		desc = tp_moblin_range_desc
-		potential = {
-				culture = moblin
-		}
-		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		prestige_cost = 300
-		build_time = 365
-		archers = 15
-		ai_creation_factor = 95
-		
-		extra_tech_building_start = 1
-	}
-	
-	tp_moblin_range_2 = {
-		desc = tp_moblin_range_desc
-		potential = {
-				culture = moblin
-		}
-		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_moblin_range_1
-		prestige_cost = 400
-		build_time = 547
-		archers = 15
-		ai_creation_factor = 94
-		
-		convert_to_castle = ca_moblin_raider_1
-		convert_to_city = ct_moblin_highwaymen_1
-
-		extra_tech_building_start = 1.5
-	}
-	
-	tp_moblin_range_3 = {
-		desc = tp_moblin_range_desc
-		potential = {
-				culture = moblin
-		}
-		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_moblin_range_2
-		prestige_cost = 500
-		build_time = 730
-		archers = 15
-		ai_creation_factor = 93
-		
-		extra_tech_building_start = 2
-	}
-	
-	tp_moblin_range_4 = {
-		desc = tp_moblin_range_desc
-		potential = {
-				culture = moblin
-		}
-		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_moblin_range_3
-		prestige_cost = 600
-		build_time = 1095
-		archers = 15
-		ai_creation_factor = 92
-		
-		convert_to_castle = ca_moblin_raider_2
-		convert_to_city = ct_moblin_highwaymen_2
-
-		extra_tech_building_start = 2.5
-	}
-	tp_bokoblin_range_1 = {
-		desc = tp_bokoblin_range_desc
-		potential = {
-				culture = bokoblin
-		}
-		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		prestige_cost = 300
-		build_time = 365
-		archers = 15
-		ai_creation_factor = 95
-		
-		extra_tech_building_start = 1
-	}
-	
-	tp_bokoblin_range_2 = {
-		desc = tp_bokoblin_range_desc
-		potential = {
-				culture = bokoblin
-		}
-		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_bokoblin_range_1
-		prestige_cost = 400
-		build_time = 547
-		archers = 15
-		ai_creation_factor = 94
-		
-		convert_to_castle = ca_bokoblin_archer_hovel_1
-		convert_to_city = ct_bokoblin_thieves_1
-
-		extra_tech_building_start = 1.5
-	}
-	
-	tp_bokoblin_range_3 = {
-		desc = tp_bokoblin_range_desc
-		potential = {
-				culture = bokoblin
-		}
-		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_bokoblin_range_2
-		prestige_cost = 500
-		build_time = 730
-		archers = 15
-		ai_creation_factor = 93
-		
-		extra_tech_building_start = 2
-	}
-	
-	tp_bokoblin_range_4 = {
-		desc = tp_bokoblin_range_desc
-		potential = {
-				culture = bokoblin
-		}
-		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_bokoblin_range_3
-		prestige_cost = 600
-		build_time = 1095
-		archers = 15
-		ai_creation_factor = 92
-		
-		convert_to_castle = ca_bokoblin_archer_hovel_2
-		convert_to_city = ct_bokoblin_thieves_2
-
-		extra_tech_building_start = 2.5
-	}
-	tp_bulblin_range_1 = {
-		desc = tp_bulblin_range_desc
-		potential = {
-				culture = bulblin
-		}
-		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		prestige_cost = 300
-		build_time = 365
-		archers = 15
-		ai_creation_factor = 95
-		
-		extra_tech_building_start = 1
-	}
-	
-	tp_bulblin_range_2 = {
-		desc = tp_bulblin_range_desc
-		potential = {
-				culture = bulblin
-		}
-		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_bulblin_range_1
-		prestige_cost = 400
-		build_time = 547
-		archers = 15
-		ai_creation_factor = 94
-		
-		convert_to_castle = ca_bulblin_guard_quarters_1
-		convert_to_city = ct_bulblin_bandits_1
-
-		extra_tech_building_start = 1.5
-	}
-	
-	tp_bulblin_range_3 = {
-		desc = tp_bulblin_range_desc
-		potential = {
-				culture = bulblin
-		}
-		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_bulblin_range_2
-		prestige_cost = 500
-		build_time = 730
-		archers = 15
-		ai_creation_factor = 93
-		
-		extra_tech_building_start = 2
-	}
-	
-	tp_bulblin_range_4 = {
-		desc = tp_bulblin_range_desc
-		potential = {
-				culture = bulblin
-		}
-		trigger = { TECH_LIGHT_INFANTRY = 0 }
-		upgrades_from = tp_bulblin_range_3
-		prestige_cost = 600
-		build_time = 1095
-		archers = 15
-		ai_creation_factor = 92
-		
-		convert_to_castle = ca_bulblin_guard_quarters_2
-		convert_to_city = ct_bulblin_bandits_2
+		convert_to_castle = ca_bulblin_quarters_2					
+		convert_to_city = ct_bulblin_bull_2
 
 		extra_tech_building_start = 2.5
 	}
@@ -1925,16 +1211,8 @@ nomad = {
 	no_bullbos_breeder_1 = {
 		desc = no_bullbos_breeder_desc
 		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-					
+				OR = {
+					culture = bulblin
 				}
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 0 } }
@@ -1951,16 +1229,8 @@ nomad = {
 	no_bullbos_breeder_2 = {
 		desc = no_bullbos_breeder_desc
 		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-					
+				OR = {
+					culture = bulblin
 				}
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 0 } }
@@ -1978,16 +1248,8 @@ nomad = {
 	no_bullbos_breeder_3 = {
 		desc = no_bullbos_breeder_desc
 		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-					
+				OR = {
+					culture = bulblin
 				}
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 1 } }
@@ -2004,16 +1266,8 @@ nomad = {
 	no_bullbos_breeder_4 = {
 		desc = no_bullbos_breeder_desc
 		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-					
+				OR = {
+					culture = bulblin
 				}
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 1 } }
@@ -2030,16 +1284,8 @@ nomad = {
 	no_bullbos_breeder_5 = {
 		desc = no_bullbos_breeder_desc
 		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-					
+				OR = {
+					culture = bulblin
 				}
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 2 } }
@@ -2056,16 +1302,8 @@ nomad = {
 	no_bullbos_breeder_6 = {
 		desc = no_bullbos_breeder_desc
 		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-					
+				OR = {
+					culture = bulblin
 				}
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 2 } }
@@ -2082,16 +1320,8 @@ nomad = {
 	no_bullbos_breeder_7 = {
 		desc = no_bullbos_breeder_desc
 		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
-					
+				OR = {
+					culture = bulblin
 				}
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 3 } }
@@ -2108,15 +1338,8 @@ nomad = {
 	no_bullbos_breeder_8 = {
 		desc = no_bullbos_breeder_desc
 		potential = {
-				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
-					culture_group = goron
-					culture_group = deku
-					culture = lake_zora
-					culture = sea_zora
-					culture = rive_zora
+				OR = {
+					culture = bulblin
 				}
 		}
 		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 3 } }
