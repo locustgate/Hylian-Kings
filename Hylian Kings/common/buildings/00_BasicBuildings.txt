@@ -843,12 +843,6 @@ city = {
 		potential = {
 			NOR = {				
 				culture_group = goron_group
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-				culture_group = blin 
-				culture_group = undead
-				culture = undead_ikanan
 				}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
@@ -865,12 +859,6 @@ city = {
 		potential = {
 			NOR = {				
 				culture_group = goron_group
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-				culture_group = blin 
-				culture_group = undead
-				culture = undead_ikanan
 				}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
@@ -888,12 +876,6 @@ city = {
 		potential = {
 			NOR = {				
 				culture_group = goron_group
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-				culture_group = blin 
-				culture_group = undead
-				culture = undead_ikanan
 				}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
@@ -910,12 +892,6 @@ city = {
 		potential = {
 			NOR = {				
 				culture_group = goron_group
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-				culture_group = blin 
-				culture_group = undead
-				culture = undead_ikanan
 				}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
@@ -932,13 +908,7 @@ city = {
 		potential = {
 			NOR = {				
 				culture_group = goron_group
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-				culture_group = blin 
-				culture_group = undead
-				culture = undead_ikanan
-				}
+			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
 		upgrades_from = ct_wall_q_4
@@ -955,8 +925,6 @@ city = {
 		potential = {
 			NOR = {				
 				culture_group = goron_group 
-				culture = kokiri
-				culture = deku_scrub
 			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
@@ -974,8 +942,6 @@ city = {
 		potential = {
 			NOR = {				
 				culture_group = goron_group 
-				culture = kokiri
-				culture = deku_scrub
 			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
@@ -994,8 +960,6 @@ city = {
 		potential = {
 			NOR = {				
 				culture_group = goron_group 
-				culture = kokiri
-				culture = deku_scrub
 			}
 		}
 
@@ -1015,8 +979,6 @@ city = {
 		potential = {
 			NOR = {				
 				culture_group = goron_group 
-				culture = kokiri
-				culture = deku_scrub
 			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
@@ -1035,8 +997,6 @@ city = {
 		potential = {
 			NOR = {				
 				culture_group = goron_group
-				culture = kokiri
-				culture = deku_scrub
 			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
@@ -1054,12 +1014,6 @@ city = {
 	# Merchant Republic Arsenal
 	ct_rep_arsenal_1 = {
 		potential = {
-			NOR = {
-				culture_group = goron_group
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-			}
 			FROM = { 
 				AND = {
 					capital_holding = {
@@ -1083,12 +1037,6 @@ city = {
 	}
 	ct_rep_arsenal_2 = {
 		potential = {
-			NOR = {
-				culture_group = goron_group
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-			}
 			FROM = { 
 				AND = {
 					capital_holding = {
@@ -1113,12 +1061,6 @@ city = {
 	}
 	ct_rep_arsenal_3 = {
 		potential = {
-			NOR = {
-				culture_group = goron_group
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-			}
 			FROM = { 
 				AND = {
 					capital_holding = {
@@ -1147,10 +1089,7 @@ city = {
 		desc = ct_training_grounds_1_desc
 		potential = {
 			NOR = {
-				culture_group = goron_group
 				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
 			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
@@ -1166,10 +1105,7 @@ city = {
 		desc = ct_training_grounds_1_desc
 		potential = {
 			NOR = {
-				culture_group = goron_group
 				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
 			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
@@ -1187,10 +1123,7 @@ city = {
 		desc = ct_training_grounds_1_desc
 		potential = {
 			NOR = {
-				culture_group = goron_group
 				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
 			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
@@ -1207,10 +1140,7 @@ city = {
 		desc = ct_training_grounds_1_desc	
 		potential = {
 			NOR = {
-				culture_group = goron_group
 				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
 			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
@@ -1227,10 +1157,7 @@ city = {
 		desc = ct_training_grounds_1_desc
 		potential = {
 			NOR = {
-				culture_group = goron_group
 				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
 			}
 		}
 
@@ -1248,10 +1175,7 @@ city = {
 		desc = ct_training_grounds_1_desc
 		potential = {
 			NOR = {
-				culture_group = goron_group
 				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
 			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
@@ -1817,80 +1741,6 @@ city = {
 
 		extra_tech_building_start = 0.2
 	}
-#camp,lumberyard,sawmill
-	ct_forestry_1 = {
-		desc = ct_forestry_1_desc
-		potential = {
-			NOR = {
-				culture_group = goron_group
-				culture_group = lfos
-				culture_group = blin 
-				culture = kokiri
-				culture = deku_scrub
-				culture = undead_ikanan
-				culture_group = undead
-				}
-				terrain = forest
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 0 }
-		gold_cost = 100
-		build_time = 365
-		tax_income = 3
-		ai_creation_factor = 110
-		add_number_to_name = no
-		
-		extra_tech_building_start = 0.4
-	}
-	ct_forestry_2 = {
-		desc = ct_forestry_2_desc
-		potential = {
-			NOR = {
-				culture_group = goron_group
-				culture_group = lfos
-				culture_group = blin 
-				culture = kokiri
-				culture = deku_scrub
-				culture = undead_ikanan
-				culture_group = undead
-				}
-				terrain = forest
-		}
-		prerequisites = { ct_wall_1 }
-		trigger = { TECH_CITY_CONSTRUCTION = 0 }
-		upgrades_from = ct_forestry_1
-		gold_cost = 120
-		build_time = 547
-		tax_income = 3
-		ai_creation_factor = 109
-		add_number_to_name = no
-
-		extra_tech_building_start = 0.8
-	}
-	ct_forestry_3 = {
-		desc = ct_forestry_3_desc
-		potential = {
-			NOR = {
-				culture_group = goron_group
-				culture_group = lfos
-				culture_group = blin 
-				culture = kokiri
-				culture = deku_scrub
-				culture = undead_ikanan
-				culture_group = undead
-				}
-				terrain = forest
-		}
-		trigger = { TECH_CITY_CONSTRUCTION = 1 }
-		prerequisites = { ct_wall_2 }
-		upgrades_from = ct_forestry_2
-		gold_cost = 200
-		build_time = 730
-		tax_income = 3
-		ai_creation_factor = 108
-		add_number_to_name = no
-
-		extra_tech_building_start = 0.2
-	}
 }
 # Temple
 temple = {
@@ -1899,12 +1749,6 @@ temple = {
 		potential = {
 			NOR = {				
 				culture_group = goron_group
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-				culture_group = blin 
-				culture_group = undead
-				culture = undead_ikanan
 			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
@@ -1921,12 +1765,6 @@ temple = {
 		potential = {
 			NOR = {				
 				culture_group = goron_group
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-				culture_group = blin 
-				culture_group = undead
-				culture = undead_ikanan
 			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
@@ -1944,12 +1782,6 @@ temple = {
 		potential = {
 			NOR = {				
 				culture_group = goron_group
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-				culture_group = blin 
-				culture_group = undead
-				culture = undead_ikanan
 			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
@@ -1966,12 +1798,6 @@ temple = {
 		potential = {
 			NOR = {				
 				culture_group = goron_group
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-				culture_group = blin 
-				culture_group = undead
-				culture = undead_ikanan
 			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
@@ -1988,12 +1814,6 @@ temple = {
 		potential = {
 			NOR = {				
 				culture_group = goron_group
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-				culture_group = blin
-				culture_group = undead
-				culture = undead_ikanan
 			}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
@@ -2010,8 +1830,7 @@ temple = {
 		desc = ca_wall_1_desc
 		potential = {
 				NOR = {
-				culture = kokiri
-				culture = deku_scrub	
+				culture_group = goron_group
 				}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
@@ -2028,8 +1847,8 @@ temple = {
 		desc = ca_wall_2_desc
 		potential = {
 				NOR = {
-				culture = deku_scrub
-				culture = kokiri }
+				culture_group = goron_group
+				}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
 		upgrades_from = tp_wall_1
@@ -2046,8 +1865,8 @@ temple = {
 		desc = tp_wall_3_desc
 		potential = {
 				NOR = {
-				culture = deku_scrub
-				culture = kokiri }
+				culture_group = goron_group
+				}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
 		upgrades_from = tp_wall_2
@@ -2064,8 +1883,8 @@ temple = {
 		desc = tp_wall_4_desc
 		potential = {
 				NOR = {
-				culture = deku_scrub
-				culture = kokiri }
+				culture_group = goron_group
+				}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
 		upgrades_from = tp_wall_3
@@ -2082,8 +1901,8 @@ temple = {
 		desc = tp_wall_5_desc
 		potential = {
 				NOR = {
-				culture = deku_scrub
-				culture = kokiri }
+				culture_group = goron_group
+				}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
 		upgrades_from = tp_wall_4
@@ -2099,13 +1918,6 @@ temple = {
 
 	tp_monastery_1 = {
 		desc = tp_monastery_1_desc
-		potential = {
-			NOR = {
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-			}
-		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
 		gold_cost = 150
 		build_time = 547
@@ -2119,13 +1931,6 @@ temple = {
 	}
 	tp_monastery_2 = {
 		desc = tp_monastery_1_desc
-		potential = {
-			NOR = {
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-			}
-		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
 		prerequisites = { tp_wall_1 }
 		upgrades_from = tp_monastery_1
@@ -2141,13 +1946,6 @@ temple = {
 	} 
 	tp_monastery_3 = {
 		desc = tp_monastery_1_desc
-		potential = {
-			NOR = {
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-			}
-		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 2 }
 		upgrades_from = tp_monastery_2
 		gold_cost = 300
@@ -2162,13 +1960,6 @@ temple = {
 	} 
 	tp_monastery_4 = {
 		desc = tp_monastery_2_desc
-		potential = {
-			NOR = {
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-			}
-		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 4 }
 		upgrades_from = tp_monastery_3
 		gold_cost = 400
@@ -2183,13 +1974,6 @@ temple = {
 	} 
 	tp_monastery_5 = {
 		desc = tp_monastery_2_desc
-		potential = {
-			NOR = {
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-			}
-		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 6 }
 		upgrades_from = tp_monastery_4
 		gold_cost = 500
@@ -2204,13 +1988,6 @@ temple = {
 	}
 	tp_monastery_6 = {
 		desc = tp_monastery_2_desc
-		potential = {
-			NOR = {
-				culture_group = lfos
-				culture = kokiri
-				culture = deku_scrub
-			}
-		}
 		trigger = { TECH_TEMPLE_CONSTRUCTION = 8 }
 		upgrades_from = tp_monastery_5
 		gold_cost = 500
@@ -2491,7 +2268,7 @@ temple = {
 		potential = {
 			NOR = {
 				culture_group = goron_group
-				culture_group = lfos
+				culture_group = blin
 				culture_group = undead
 				culture = undead_ikanan
 			}
@@ -2509,7 +2286,7 @@ temple = {
 		potential = {
 			NOR = {
 				culture_group = goron_group
-				culture_group = lfos
+				culture_group = blin
 				culture_group = undead
 				culture = undead_ikanan
 			}
@@ -2529,7 +2306,7 @@ temple = {
 		potential = {
 			NOR = {
 				culture_group = goron_group
-				culture_group = lfos
+				culture_group = blin
 				culture_group = undead
 				culture = undead_ikanan
 			}
@@ -2549,7 +2326,7 @@ temple = {
 		potential = {
 			NOR = {
 				culture_group = goron_group
-				culture_group = lfos
+				culture_group = blin
 				culture_group = undead
 				culture = undead_ikanan
 			}
@@ -2568,7 +2345,7 @@ temple = {
 		potential = {
 			NOR = {
 				culture_group = goron_group
-				culture_group = lfos
+				culture_group = blin
 				culture_group = undead
 				culture = undead_ikanan
 			}
@@ -2587,7 +2364,7 @@ temple = {
 		potential = {
 			NOR = {
 				culture_group = goron_group
-				culture_group = lfos
+				culture_group = blin
 				culture_group = undead
 				culture = undead_ikanan
 			}
@@ -3140,14 +2917,7 @@ tribal = {
 		desc = tb_hillfort_1_desc
 		potential = {
 				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
 					culture_group = goron_group
-					culture = kokiri
-					culture = lake_zora
-					culture = sea_zora
-					culture = river_zora 
 				}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -3167,14 +2937,7 @@ tribal = {
 		desc = tb_hillfort_2_desc
 		potential = {
 				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
 					culture_group = goron_group
-					culture = kokiri
-					culture = lake_zora
-					culture = sea_zora
-					culture = river_zora 
 				}
 		}
 
@@ -3198,14 +2961,7 @@ tribal = {
 		desc = tb_hillfort_3_desc
 		potential = {
 				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
 					culture_group = goron_group
-					culture = kokiri
-					culture = lake_zora
-					culture = sea_zora
-					culture = river_zora 
 				}
 		}
 
@@ -3227,14 +2983,7 @@ tribal = {
 		desc = tb_hillfort_4_desc
 		potential = {
 				NOR = {
-					culture = darknut
-					culture_group = lfos
-					culture_group = blin
 					culture_group = goron_group
-					culture = kokiri
-					culture = lake_zora
-					culture = sea_zora
-					culture = river_zora 
 				}
 		}
 
@@ -3259,7 +3008,6 @@ tribal = {
 		potential = {
 				NOR = {
 					culture = darknut
-					culture = kokiri
 					culture_group = blin 
 				}
 		}
@@ -3280,7 +3028,6 @@ tribal = {
 		potential = {
 				NOR = {
 					culture = darknut
-					culture = kokiri
 					culture_group = blin 
 				}
 		}
@@ -3304,7 +3051,6 @@ tribal = {
 		potential = {
 				NOR = {
 					culture = darknut
-					culture = kokiri
 					culture_group = blin 
 				}
 		}
@@ -3326,7 +3072,6 @@ tribal = {
 		potential = {
 				NOR = {
 					culture = darknut
-					culture = kokiri
 					culture_group = blin 
 				}
 		}
@@ -3418,7 +3163,6 @@ tribal = {
 				NOR = {
 					culture = darknut
 					culture_group = lfos
-					culture = kokiri 
 				}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
@@ -3437,7 +3181,6 @@ tribal = {
 				NOR = {
 					culture = darknut
 					culture_group = lfos
-					culture = kokiri 
 				}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
@@ -3460,7 +3203,6 @@ tribal = {
 				NOR = {
 					culture = darknut
 					culture_group = lfos
-					culture = kokiri 
 				}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
@@ -3480,7 +3222,6 @@ tribal = {
 				NOR = {
 					culture = darknut
 					culture_group = lfos
-					culture = kokiri 
 				}
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
@@ -3505,7 +3246,6 @@ tribal = {
 					culture_group = lfos
 					culture_group = blin
 					culture_group = goron_group
-					culture = kokiri
  
 				}
 		}
@@ -3526,7 +3266,6 @@ tribal = {
 					culture_group = lfos
 					culture_group = blin
 					culture_group = goron_group
-					culture = kokiri 
 				}
 		}
 		trigger = { TECH_LIGHT_INFANTRY = 0 }
@@ -3550,7 +3289,6 @@ tribal = {
 					culture_group = lfos
 					culture_group = blin
 					culture_group = goron_group
-					culture = kokiri 
 				}
 		}
 		trigger = { TECH_LIGHT_INFANTRY = 0 }
@@ -3571,7 +3309,6 @@ tribal = {
 					culture_group = lfos
 					culture_group = blin
 					culture_group = goron_group
-					culture = kokiri 
 				}
 		}
 		trigger = { TECH_LIGHT_INFANTRY = 0 }
@@ -3592,9 +3329,7 @@ tribal = {
 		potential = {
 				NOR = {
 					culture = darknut
-					culture_group = lfos
 					culture_group = goron_group
-					culture = kokiri 
 					culture_group = blin
 				}
 		}
@@ -3612,7 +3347,6 @@ tribal = {
 		potential = {
 				NOR = {
 					culture = darknut
-					culture_group = lfos
 					culture_group = goron_group
 					culture_group = blin
 				}
@@ -3635,7 +3369,6 @@ tribal = {
 		potential = {
 				NOR = {
 					culture = darknut
-					culture_group = lfos
 					culture_group = goron_group
 					culture_group = blin
 				}
@@ -3655,7 +3388,6 @@ tribal = {
 		potential = {
 				NOR = {
 					culture = darknut
-					culture_group = lfos
 					culture_group = goron_group
 					culture_group = blin
 				}
@@ -3675,11 +3407,6 @@ tribal = {
 
 	tb_arsenal_1 = {
 		desc = tb_arsenal_desc
-		potential = {
-				NOR = {
-					culture = kokiri 
-				}
-		}
 		trigger = { TECH_RECRUITMENT = 0 }
 		prestige_cost = 300
 		build_time = 547
@@ -3692,11 +3419,6 @@ tribal = {
 	
 	tb_arsenal_2 = {
 		desc = tb_arsenal_desc
-		potential = {
-				NOR = {
-					culture = kokiri 
-				}
-		}
 		trigger = { TECH_RECRUITMENT = 0 }
 		upgrades_from = tb_arsenal_1
 		prestige_cost = 400
@@ -3713,11 +3435,6 @@ tribal = {
 	
 	tb_arsenal_3 = {
 		desc = tb_arsenal_desc
-		potential = {
-				NOR = {
-					culture = kokiri 
-				}
-		}
 		trigger = { TECH_RECRUITMENT = 0 }
 		upgrades_from = tb_arsenal_2
 		prestige_cost = 500
@@ -3731,11 +3448,6 @@ tribal = {
 	
 	tb_arsenal_4 = {
 		desc = tb_arsenal_desc
-		potential = {
-				NOR = {
-					culture = kokiri 
-				}
-		}
 		trigger = { TECH_RECRUITMENT = 0 }
 		upgrades_from = tb_arsenal_3
 		prestige_cost = 600
