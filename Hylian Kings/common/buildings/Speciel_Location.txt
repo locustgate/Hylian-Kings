@@ -1,9 +1,73 @@
-#city = {
-#	# Kings Crypts
-#	ca_kings_crypts = { 
-#		desc = ca_kings_crypts
-#		potential = { 
-#			# Kakariko Village
-#		}
-#	}
-#}
+castle = {
+	# Kings Crypts
+	ca_kings_crypts = {
+		desc = ca_kings_crypts_desc
+		potential = { 
+			FROMFROM = {
+				title = b_royal_graveyard
+			}
+		}
+		liege_piety = 0.1
+	}
+	ca_royal_crypts = {
+		desc = ca_royal_crypts_desc
+		potential = { 
+			FROMFROM = {
+				title = b_royal_graveyard
+			}
+		}
+		liege_piety = 0.1
+	}
+	ca_sacred_grounds = {
+		desc = ca_sacred_grounds_desc
+		potential = { 
+			FROMFROM = {
+				title = b_royal_crypts
+			}
+		}
+		liege_piety = 0.5
+	}
+	ca_mazaal = {
+		desc = ca_mazaal
+		potential = {
+			FROMFROM = {
+				title = b_fortress_of_winds
+			}
+		}
+		fort_level = 1
+		liege_prestige = 0.1
+	}
+	
+}
+temple = {
+	ca_elemental_sanctuary = {
+		desc = ca_elemental_sanctuary
+		potential = {
+			FROMFROM = {
+				title = b_fortress_of_winds
+			}
+		}
+		fort_level = 1
+		liege_piety = 0.1
+	}
+	tp_fairy_fountain = {
+		desc = ca_elemental_sanctuary
+		potential = {
+			FROMFROM = {
+				OR = {
+				title = b_fairy_spring_of_courage
+				title = b_swamps_fairy_fountain
+				title = b_spring_power
+				title = b_spring_wisdom
+				title = b_miff_spring
+				title = b_oberon_spring
+				title = b_spryte_spring
+				}
+			}
+		}
+		liege_piety = 0.1	
+		disease_defence = 0.04		
+		church_opinion = 10
+		fort_level = 1
+	}
+}
