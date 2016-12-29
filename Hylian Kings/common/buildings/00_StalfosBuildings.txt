@@ -1035,7 +1035,7 @@ city = {
 		extra_tech_building_start = 0.2
 	}
 	ct_stalchildren_barracks_1 = {
-		desc = ct_stalchildren_barracks_1_desc
+		desc = ca_stalchildren_barracks_1_desc
 		potential = {
 			culture = undead_ikanan
 	}
@@ -1051,7 +1051,7 @@ city = {
 		extra_tech_building_start = 0.5
 	}
 	ct_stalchildren_barracks_2 = {
-		desc = ct_stalchildren_barracks_2_desc
+		desc = ca_stalchildren_barracks_1_desc
 		potential = {
 			culture = undead_ikanan
 	}
@@ -1069,7 +1069,7 @@ city = {
 		extra_tech_building_start = 1.0
 	}
 	ct_stalchildren_barracks_3 = {
-		desc = ct_stalchildren_barracks_1_desc
+		desc = ca_stalchildren_barracks_1_desc
 		potential = {
 			culture = undead_ikanan
 	}
@@ -1087,7 +1087,7 @@ city = {
 		extra_tech_building_start = 1.0
 	}
 	ct_stalchildren_barracks_4 = {
-		desc = ct_stalchildren_barracks_2_desc
+		desc = ca_stalchildren_barracks_1_desc
 		potential = {
 			culture = undead_ikanan
 	}
@@ -1104,7 +1104,7 @@ city = {
 		extra_tech_building_start = 0.2
 	}
 	ct_stalchildren_barracks_5 = {
-		desc = ct_stalchildren_barracks_1_desc
+		desc = ca_stalchildren_barracks_1_desc
 		potential = {
 			culture = undead_ikanan
 	}
@@ -1121,10 +1121,10 @@ city = {
 		extra_tech_building_start = 0.2
 	}
 	ct_stalchildren_barracks_6 = {
-		desc = ct_stalchildren_barracks_2_desc
+		desc = ca_stalchildren_barracks_1_desc
 		potential = {
 			culture = undead_ikanan
-	}
+		}
 		replaces = ct_barracks_6
 		trigger = { TECH_CITY_CONSTRUCTION = 7 }
 		upgrades_from = ct_stalchildren_barracks_5
@@ -1138,7 +1138,7 @@ city = {
 		extra_tech_building_start = 0.2
 	}
 	ct_stalsoldier_barracks_1 = {
-		desc = ct_stalsoldier_barracks_1_desc
+		desc = ca_stalsoldier_barracks_1_desc
 		potential = {
 			culture = undead_ikanan
 	}
@@ -1322,92 +1322,6 @@ city = {
 	}
 }
 temple = {
-	tp_undead_wall_q_1 = {	
-		desc = tp_undead_wall_q_1_desc
-		potential = {
-			culture_group = undead
-				culture = undead_ikanan
-
-	}
-		replaces = tp_wall_q_1
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
-		prerequisites = { tp_undead_wall_1 }
-		gold_cost = 50
-		build_time = 182
-		fort_level = 0.5
-		ai_creation_factor = 82
-		
-		extra_tech_building_start = 0.4
-	}
-	tp_undead_wall_q_2 = {
-		desc = tp_undead_wall_q_2_desc
-		potential = {
-			culture_group = undead
-				culture = undead_ikanan
-
-	}
-		replaces = tp_wall_q_2
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
-		prerequisites = { tp_undead_wall_2 }
-		upgrades_from = tp_undead_wall_q_1
-		gold_cost = 50
-		build_time = 182
-		fort_level = 0.5
-		ai_creation_factor = 81
-
-		extra_tech_building_start = 0.8
-	}	
-	tp_undead_wall_q_3 = {
-		desc = ca_wall_q_3_desc
-		potential = {
-			culture_group = undead
-				culture = undead_ikanan
-
-	}
-		replaces = tp_wall_q_3
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
-		upgrades_from = tp_undead_wall_q_2
-		gold_cost = 50
-		build_time = 182
-		fort_level = 0.5
-		ai_creation_factor = 80
-
-		extra_tech_building_start = 0.2
-	}
-	tp_undead_wall_q_4 = {
-		desc = ca_wall_q_4_desc
-		potential = {
-			culture_group = undead
-				culture = undead_ikanan
-
-	}
-		replaces = tp_wall_q_4
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
-		upgrades_from = tp_undead_wall_q_3
-		gold_cost = 100
-		build_time = 365
-		fort_level = 1
-		ai_creation_factor = 79
-
-		extra_tech_building_start = 0.2
-	}
-	tp_undead_wall_q_5 = {
-		desc = ca_wall_q_5_desc
-		potential = {
-			culture_group = undead
-				culture = undead_ikanan
-
-	}
-		replaces = tp_wall_q_5
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
-		upgrades_from = tp_undead_wall_q_4
-		gold_cost = 100
-		build_time = 365
-		fort_level = 1
-		ai_creation_factor = 78
-
-		extra_tech_building_start = 0.2
-	}
 	tp_stal_barracks_1 = {
 		desc = tp_stal_barracks_1_desc
 		potential = {
@@ -1837,59 +1751,6 @@ temple = {
 		heavy_infantry = 95
 		ai_creation_factor = 90
 
-		extra_tech_building_start = 0.2
-	}
-	tp_mass_grave_1 = {
-		desc = tp_mass_grave_1_desc
-		potential = {				
-		culture = undead_ikanan		}	
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		replaces = tp_town_1
-		prerequisites = { ca_wall_2 }
-		gold_cost = 200
-		build_time = 730
-		land_morale = 0.1
-		levy_reinforce_rate = 0.2
-		magic_user = 5
-		retinuesize = 20
-		ai_creation_factor = 89
-
-		extra_tech_building_start = 1.2
-	}
-	tp_mass_grave_2 = {
-		desc = tp_mass_grave_1_desc
-		potential = {				
-		culture = undead_ikanan
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
-		upgrades_from = tp_mass_grave_1
-		gold_cost = 250
-		replaces = tp_town_2
-		build_time = 1095
-		land_morale = 0.15
-		levy_reinforce_rate = 0.3	
-		magic_user = 10
-		retinuesize = 20
-		ai_creation_factor = 88
-		
-		extra_tech_building_start = 0.5
-	}
-	tp_mass_grave_3 = {
-		desc = tp_mass_grave_1_desc
-		potential = {				
-		culture = undead_ikanan
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
-		upgrades_from = tp_mass_grave_2
-		gold_cost = 300
-		replaces = tp_town_3
-		build_time = 2190
-		land_morale = 0.2
-		levy_reinforce_rate = 0.4
-		magic_user = 15
-		retinuesize = 20
-		ai_creation_factor = 88
-		
 		extra_tech_building_start = 0.2
 	}
 }
