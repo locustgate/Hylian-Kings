@@ -689,6 +689,11 @@ ca_goron_wall_q_2;Bombflower Traps;;;;;;;;;;;;x
 ca_goron_wall_q_3;Boulder Funnel;;;;;;;;;;;;x
 ca_goron_wall_q_4;Groosinator;;;;;;;;;;;;x
 ca_goron_wall_q_5;Lava Moat;;;;;;;;;;;;x
+ct_goron_wall_q_1;Ditch;;;;;;;;;;;;x
+ct_goron_wall_q_2;Bombflower Traps;;;;;;;;;;;;x
+ct_goron_wall_q_3;Boulder Funnel;;;;;;;;;;;;x
+ct_goron_wall_q_4;Groosinator;;;;;;;;;;;;x
+ct_goron_wall_q_5;Lava Moat;;;;;;;;;;;;x
 ca_goron_wall_q_1_desc;A deep ditch has been carved into the ground.;;;;;;;;;;;;;;;;x
 ca_goron_wall_q_2_desc;A number of bombflowers have been planted around the battle field.;;;;;;;;;;x
 ca_goron_wall_q_3_desc;Set into eatch Tower or section of walls are large funnels that run off of them. During sieges the defenders push large spherical boulders down, sending them crashing into the enemy encampments.;;;;;;;;;;;;;;;x
@@ -763,8 +768,70 @@ ca_subrosian_miners_2;Subrosian Miner Guild;;;;;;;;;;x
 ca_subrosian_miners_3;Subrosian Miner Guild;;;;;;;;;;x
 ca_subrosian_miners_4;Subrosian Miner Guild;;;;;;;;;;x
 ca_subrosian_miners_1_desc;Subrosians usually spend their entire lives underground, creating tunnels and new caverns when needed. When called to battle most subrosians are willing to go to war with their trusty picks.;;;;;;;;;;;;;;x
-
-
+ct_goron_wall_1;Palisade;;;;;;;;;;;;x
+ct_goron_wall_2;Low Stone Wall;;;;;;;;;;;;x
+ct_goron_wall_3;Stone Wall;;;;;;;;;;;;x
+ct_goron_wall_4;High Stone Walls;;;;;;;;;;;;x
+ct_goron_wall_5;Deep Tunnels;;;;;;;;;;;;x
+ct_goron_guard_barracks_1;Guard Barracks;;;;;;;;;;;;;x
+ct_goron_guard_barracks_2;Guard Barracks;;;;;;;;;;;;;x
+ct_goron_guard_barracks_3;Guard Barracks;;;;;;;;;;;;;x
+ct_goron_guard_barracks_4;Guard Barracks;;;;;;;;;;;;;x
+ct_goron_guard_barracks_5;Guard Barracks;;;;;;;;;;;;;x
+ct_goron_guard_barracks_6;Guard Barracks;;;;;;;;;;;;;x
+ct_goron_guard_barracks_1_desc;The city guard keep order in the city and defend it during wars.;;;;;;;;;;;;;;;;;x
+ct_goron_agriculture_1;Quary;;;;;;;;;;;;;;;x
+ct_goron_agriculture_2;Mine Network;;;;;;;;;;;;;;;x
+ct_goron_agriculture_3;Bombflower Farms;;;;;;;;;;;;;x
+ct_goron_agriculture_1_desc;Little more than an open air quary where the goron harvest rocks to eat.;;;;;;;;;;;;x
+ct_goron_agriculture_2_desc;A series of mines work spread through the mountains.;;;;;;;;;;;;;;x
+ct_goron_agriculture_3_desc;The city has cultivated large amounts of bombflowers.;;;;;;;;;;;;;;;x
+ct_dm_wrestling_1;Wrestling Ring;;;;;;;;;x
+ct_dm_wrestling_2;Wrestling Ring;;;;;;;;;x
+ct_dm_wrestling_3;Wrestling Ring;;;;;;;;;x
+ct_dm_wrestling_1_desc;The gorons of Death Mountain take pride in strength.The most favored game is Goron Wrestling. Two contestetants enter a ring and must push the other out of the ring.;;;;;;;;;;;;x
+ct_crenal_guild_1;Crenal Merchent Guild;;;;;;;;;;;;;x
+ct_crenal_guild_2;Crenal Merchent Guild;;;;;;;;;;;;;x
+ct_crenal_guild_3;Crenal Merchent Guild;;;;;;;;;;;;;x
+ct_crenal_guild_1_desc;The gorons of the Grenal Mountains have always stood on the brink of major trade routes. Because of this trade has become a very valuble part of their culture.;;;;;;;;;;;;;x
+ct_rolling_danceclub_1;Dance Club;;;;;;;;;;;;;;x
+ct_rolling_danceclub_2;Dance Club;;;;;;;;;;;;;;x
+ct_rolling_danceclub_3;Dance Club;;;;;;;;;;;;;;x
+ct_rolling_danceclub_1_desc;The gorons of the Rolling Ridge value agility.;;;;;;;;;;;;;;x
+ct_cocco_jewler_1;Jewler;;;;;;;;;;;;x
+ct_cocco_jewler_2;Jewler;;;;;;;;;;;;x
+ct_cocco_jewler_3;Jewler;;;;;;;;;;;;x
+ct_cocco_jewler_1_desc;The Cucco Goron are well known for their crafting of exquisite and intricate pieces of jewlery rivaling even that of the Gemlanders.;;;;;;;;;;;;x
+ct_wg_iron_1;Goro Ironsmith;;;;;;;;;;x
+ct_wg_iron_2;Goro Ironsmith;;;;;;;;;;x
+ct_wg_iron_3;Goro Ironsmith;;;;;;;;;;x
+ct_wg_iron_1_desc;The goron of Goro mountain have preserved the art of crafting remarkably sharp and durable Steel, which was last seen before the Hylia War.;;;;;;;;;;;;;;;;;;;x
+ct_subrosian_economy_4;Lava Forges;;;;;;;;;;;;;;;x
+ct_subrosian_economy_4_desc;Because of the Subrosian use of lava in forging they are able make stronger metal weapons, rivaling even the Goro Metal.;;;;;;;;;;;;;;x
+tp_goron_wall_1;Palisade;;;;;;;;;;;;x
+tp_goron_wall_2;Low Stone Wall;;;;;;;;;;;;x
+tp_goron_wall_3;Stone Wall;;;;;;;;;;;;x
+tp_goron_wall_4;High Stone Walls;;;;;;;;;;;;x
+tp_goron_wall_5;Deep Tunnels;;;;;;;;;;;;x
+tp_goron_wall_q_1_desc;A deep ditch has been carved into the ground.;;;;;;;;;;;;;;;;x
+tp_goron_wall_q_2_desc;A number of bombflowers have been planted around the battle field.;;;;;;;;;;x
+tp_goron_wall_q_3_desc;Set into eatch Tower or section of walls are large funnels that run off of them. During sieges the defenders push large spherical boulders down, sending them crashing into the enemy encampments.;;;;;;;;;;;;;;;x
+tp_goron_wall_q_4_desc;Said to have been invented by a Hylian Martial Genius the Groosinator is a lever opperated catapult capable of hurling large explosives. Usually operated on a track to increase it's manuveribility.;;;;;;;;;;;;;;;;x
+tp_goron_wall_q_5_desc;The once empty ditch has been filled with lava.;;;;;;;;;;;x
+tp_warrior_priest_barracks_1;Warrior Priest Barracks;;;;;;;;;;;;x
+tp_warrior_priest_barracks_2;Warrior Priest Barracks;;;;;;;;;;;;x
+tp_warrior_priest_barracks_3;Warrior Priest Barracks;;;;;;;;;;;;x
+tp_warrior_priest_barracks_4;Warrior Priest Barracks;;;;;;;;;;;;x
+tp_warrior_priest_barracks_5;Warrior Priest Barracks;;;;;;;;;;;;x
+tp_warrior_priest_barracks_6;Warrior Priest Barracks;;;;;;;;;;;;x
+tp_warrior_priest_barracks_1_desc;It is here that priests that feel the call to arms train.;;;;;;;;;;;;;;;x
+tp_magma_priest_barracks_1;Magma Priest Barracks;;;;;;;;;;;;x
+tp_magma_priest_barracks_2;Magma Priest Barracks;;;;;;;;;;;;x
+tp_magma_priest_barracks_3;Magma Priest Barracks;;;;;;;;;;;;x
+tp_magma_priest_barracks_4;Magma Priest Barracks;;;;;;;;;;;;x
+tp_magma_priest_barracks_5;Magma Priest Barracks;;;;;;;;;;;;x
+tp_magma_priest_barracks_6;Magma Priest Barracks;;;;;;;;;;;;x
+tp_magma_priest_barracks_1_desc;Little more than a pool of lava. Among gorons those exhibit an unusual amount of religious fervor seemingly sprot volcanic hot spots, eventually these spots harden their skin, but also gives them back problems later in life.;;;;;;;;;;;;;;;;;;x
 
 
 #CB
