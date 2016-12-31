@@ -367,8 +367,15 @@ castle = {
 	#Stable, gives light cavalry and some heavy cavalry
 	ca_hotrod_barracks_1 = {
 		desc = ca_hotrod_barracks_1_desc
-		potential = {				
-			culture_group = goron_group
+		potential = {	
+			OR = {
+			culture = goro_goron
+			culture = death_mountain_goron
+			culture = cocco_goron
+			culture = crenel_goron
+			culture = fire_goron
+			culture = rolling_goron
+			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
@@ -380,8 +387,15 @@ castle = {
 	}
 	ca_hotrod_barracks_2 = {
 		desc = ca_hotrod_barracks_1_desc
-		potential = {				
-			culture_group = goron_group
+		potential = {	
+			OR = {
+			culture = goro_goron
+			culture = death_mountain_goron
+			culture = cocco_goron
+			culture = crenel_goron
+			culture = fire_goron
+			culture = rolling_goron
+			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_1 }
@@ -395,8 +409,15 @@ castle = {
 	}
 	ca_hotrod_barracks_3 = {
 		desc = ca_hotrod_barracks_1_desc
-		potential = {				
-			culture_group = goron_group
+		potential = {	
+			OR = {
+			culture = goro_goron
+			culture = death_mountain_goron
+			culture = cocco_goron
+			culture = crenel_goron
+			culture = fire_goron
+			culture = rolling_goron
+			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		prerequisites = { ca_wall_2 }
@@ -410,8 +431,15 @@ castle = {
 	}
 	ca_hotrod_barracks_4 = {
 		desc = ca_hotrod_barracks_1_desc
-		potential = {				
-			culture_group = goron_group
+		potential = {	
+			OR = {
+			culture = goro_goron
+			culture = death_mountain_goron
+			culture = cocco_goron
+			culture = crenel_goron
+			culture = fire_goron
+			culture = rolling_goron
+			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ca_hotrod_barracks_3
@@ -424,8 +452,15 @@ castle = {
 	}
 	ca_hotrod_barracks_5 = {
 		desc = ca_hotrod_barracks_1_desc
-		potential = {				
-			culture_group = goron_group
+		potential = {	
+			OR = {
+			culture = goro_goron
+			culture = death_mountain_goron
+			culture = cocco_goron
+			culture = crenel_goron
+			culture = fire_goron
+			culture = rolling_goron
+			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
 		upgrades_from = ca_hotrod_barracks_4
@@ -439,8 +474,15 @@ castle = {
 	}
 	ca_hotrod_barracks_6 = {
 		desc = ca_hotrod_barracks_1_desc
-			potential = {				
-			culture_group = goron_group
+		potential = {	
+			OR = {
+			culture = goro_goron
+			culture = death_mountain_goron
+			culture = cocco_goron
+			culture = crenel_goron
+			culture = fire_goron
+			culture = rolling_goron
+			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
 		upgrades_from = ca_hotrod_barracks_5
@@ -555,74 +597,6 @@ castle = {
 		ai_creation_factor = 96
 
 		extra_tech_building_start = 0.2
-	}
-	ca_goron_drydocks_1 = {
-		desc = goron_drydocks_desc
-		potential = {				
-			culture_group = goron_group
-		}
-		port = yes
-		trigger = { TECH_NAVAL = 1 }
-		gold_cost = 100
-		build_time = 365
-		galleys = 6
-		ai_creation_factor = 100
-		
-		extra_tech_building_start = 0.3
-	}
-	
-	ca_goron_drydocks_2 = {
-		desc = goron_drydocks_desc
-			potential = {				
-				NOT = {culture_group = goron_group}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-		}
-		port = yes
-		trigger = { TECH_NAVAL = 2 }
-		upgrades_from = ca_goron_drydocks_1
-		gold_cost = 100
-		build_time = 730
-		galleys = 7
-		ai_creation_factor = 99
-		
-		extra_tech_building_start = 0.3
-	}
-	
-	ca_goron_drydocks_3 = {
-		desc = goron_drydocks_desc
-		potential = {				
-				NOT = {culture_group = goron_group}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-		}
-		port = yes
-		trigger = { TECH_NAVAL = 3 }
-		upgrades_from = ca_goron_drydocks_2
-		gold_cost = 100
-		build_time = 1095
-		galleys = 8
-		ai_creation_factor = 98
-		
-		extra_tech_building_start = 0.3
-	}
-	
-	ca_goron_drydocks_4 = {
-		desc = goron_drydocks_desc
-		potential = {				
-				NOT = {culture_group = goron_group}
-				NOT = {culture_group = lfos}
-				NOT = {culture_group = deku}
-		}
-		port = yes
-		trigger = { TECH_NAVAL = 4 }
-		upgrades_from = ca_goron_drydocks_3
-		gold_cost = 100
-		build_time = 1460
-		galleys = 9
-		ai_creation_factor = 97
-		
-		extra_tech_building_start = 0.3
 	}
 	ca_dm_forge_1 = {
 		desc = ca_dm_forge_1_desc
@@ -970,7 +944,7 @@ castle = {
 	ca_subrosian_miners_1 = {
 		desc = ca_subrosian_miners_1_desc
 		potential = {
-			culture = death_mountain_goron
+			culture = subrosian
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_2 }
@@ -985,7 +959,7 @@ castle = {
 	ca_subrosian_miners_2 = {
 		desc = ca_subrosian_miners_1_desc
 		potential = {
-			culture = death_mountain_goron
+			culture = subrosian
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		upgrades_from = ca_subrosian_miners_1
@@ -1000,7 +974,7 @@ castle = {
 	ca_subrosian_miners_3 = {
 		desc = ca_subrosian_miners_1_desc
 		potential = {
-			culture = death_mountain_goron
+			culture = subrosian
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		upgrades_from = ca_subrosian_miners_2
@@ -1015,7 +989,7 @@ castle = {
 	ca_subrosian_miners_4 = {
 		desc = ca_subrosian_miners_1_desc
 		potential = {
-			culture = death_mountain_goron
+			culture = subrosian
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ca_subrosian_miners_3
