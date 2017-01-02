@@ -1,284 +1,284 @@
 
  # Castle
 castle = {
-#phantoms
-	ca_phantom_armory_1 = {
-		desc = ca_phantom_armory_1_desc
-		potential = {	
-			OR = {			
-				religion = bellum_religion
-				religion = malladus_religion
-				religion = spirits_good
-			}
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		gold_cost = 100
-		build_time = 365
-		phantoms = 10
-		ai_creation_factor = 100
-		
-		extra_tech_building_start = 1.0
-	}
-	ca_phantom_armory_2 = {
-		desc = ca_phantom_armory_2_desc
-		potential = {	
-			OR = {			
-				religion = bellum_religion
-				religion = 	malladus_religion
-				religion = spirits_good
-			}
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
-		prerequisites = { ca_wall_1 }
-		upgrades_from = ca_phantom_armory_1
-		gold_cost = 120
-		build_time = 547
-		phantoms = 20
-		ai_creation_factor = 99
-
-		extra_tech_building_start = 2.0
-	}
-	ca_phantom_armory_3 = {
-		desc = ca_phantom_armory_3_desc
-		potential = {	
-			OR = {			
-				religion = bellum_religion
-				religion = 	malladus_religion
-				religion = spirits_good
-			}
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
-		upgrades_from = ca_phantom_armory_2
-		gold_cost = 200
-		build_time = 1095
-		phantoms = 30
-		ai_creation_factor = 98
-
-		extra_tech_building_start = 0.5
-	}
-	ca_phantom_armory_4 = {
-		desc = ca_phantom_armory_3_desc
-		potential = {	
-			OR = {			
-				religion = bellum_religion
-				religion = malladus_religion
-				religion = spirits_good
-			}
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
-		upgrades_from = ca_phantom_armory_3
-		gold_cost = 300
-		build_time = 1095
-		phantoms = 60
-		ai_creation_factor = 98
-
-		extra_tech_building_start = 0.5
-	}
-}
-temple = {
-#spirit station
-	tp_spirit_station_1 = {
-		desc = tp_spirit_station_1_desc
-		potential = {
-				religion = spirits_good
-		}
-		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
-		gold_cost = 100
-		build_time = 365
-		tax_income = 2
-		global_movement_speed  = 0.05
-		ai_creation_factor = 98
-
-		extra_tech_building_start = 0.3
-	}
-	tp_spirit_station_2 = {
-		desc = tp_spirit_station_2_desc
-		potential = {
-				religion = spirits_good
-		}
-		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
-		prerequisites = { tp_wall_1 }
-		upgrades_from = tp_spirit_station_1
-		gold_cost = 120
-		build_time = 547
-		tax_income = 2
-		global_movement_speed  = 0.05
-		ai_creation_factor = 96
-
-		extra_tech_building_start = 0.6
-	}
-	tp_spirit_station_3 = {
-		desc = tp_spirit_station_3_desc
-		potential = {
-				religion = spirits_good
-		}
-		trigger = { TECH_TEMPLE_CONSTRUCTION = 1 }
-		prerequisites = { tp_wall_2 }
-		upgrades_from = tp_spirit_station_2
-		gold_cost = 200
-		build_time = 730
-		tax_income = 2
-		global_movement_speed  = 0.05
-		ai_creation_factor = 95
-
-		extra_tech_building_start = 0.2
-	}
-#dark station
-	tp_dark_station_1 = {
-		desc = tp_dark_station_1_desc
-		potential = {
-				religion = malladus_religion
-		}
-		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
-		gold_cost = 100
-		build_time = 365
-		tax_income = 2
-		global_movement_speed  = 0.05
-		ai_creation_factor = 98
-
-		extra_tech_building_start = 0.3
-	}
-	tp_dark_station_2 = {
-		desc = tp_dark_station_2_desc
-		potential = {
-				religion = malladus_religion
-		}
-		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
-		prerequisites = { tp_wall_1 }
-		upgrades_from = tp_dark_station_1
-		gold_cost = 120
-		build_time = 547
-		tax_income = 2
-		global_movement_speed  = 0.05
-		ai_creation_factor = 96
-
-		extra_tech_building_start = 0.6
-	}
-	tp_dark_station_3 = {
-		desc = tp_dark_station_3_desc
-		potential = {
-				religion = malladus_religion
-		}
-		trigger = { TECH_TEMPLE_CONSTRUCTION = 1 }
-		prerequisites = { tp_wall_2 }
-		upgrades_from = tp_dark_station_2
-		gold_cost = 200
-		build_time = 730
-		tax_income = 2
-		global_movement_speed  = 0.05
-		ai_creation_factor = 95
-
-		extra_tech_building_start = 0.2
-	}
-}
- family_palace = {
-	# Spirit_train
-	fp_spirit_train_1 = {
-		desc = fp_spirit_train_1_desc
-		potential = {
-			religion = spirits_good
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		gold_cost = 150
-		build_time = 730
-		ai_creation_factor = 100
-		
-		tax_income = 4
-		global_movement_speed = 0.05	
-	}
-	
-	# weapon car
-	fp_spirit_train_2 = {
-		desc = fp_spirit_train_2_desc
-		potential = {
-			religion = spirits_good
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		gold_cost = 250
-		build_time = 1095
-		upgrades_from = fp_spirit_train_1
-		prerequisites = { fp_mansion_2 }
-		ai_creation_factor = 99
-		
-		siege_defence = 0.05
-		siege_speed = 0.05
-		global_movement_speed = 0.05	
-		
-		extra_tech_building_start = 2.5
-	}
-	
-	# cargo car
-	fp_spirit_train_3 = {
-		desc = fp_spirit_train_3_desc
-		potential = {
-			religion = spirits_good
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		gold_cost = 350
-		build_time = 1460
-		upgrades_from = fp_spirit_train_2
-		prerequisites = { fp_mansion_3 }
-		ai_creation_factor = 98
-		
-		tax_income = 6
-		global_movement_speed = 0.05	
-		
-		extra_tech_building_start = 4.0
-	}
-#dark train
-	# Dark_train
-	fp_dark_train_1 = {
-		desc = fp_dark_train_1_desc
-		potential = {
-			religion = spirits_good
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		gold_cost = 150
-		build_time = 730
-		ai_creation_factor = 100
-		
-		tax_income = 4
-		global_movement_speed = 0.05	
-	}
-	
-	# weapon car
-	fp_dark_train_2 = {
-		desc = fp_dark_train_2_desc
-		potential = {
-			religion = spirits_good
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		gold_cost = 250
-		build_time = 1095
-		upgrades_from = fp_dark_train_1
-		prerequisites = { fp_mansion_2 }
-		ai_creation_factor = 99
-		
-		siege_defence = 0.05
-		siege_speed = 0.05
-		global_movement_speed = 0.05	
-		
-		extra_tech_building_start = 2.5
-	}
-	
-	# cargo car
-	fp_dark_train_3 = {
-		desc = fp_dark_train_3_desc
-		potential = {
-			religion = spirits_good
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		gold_cost = 350
-		build_time = 1460
-		upgrades_from = fp_dark_train_2
-		prerequisites = { fp_mansion_3 }
-		ai_creation_factor = 98
-		
-		tax_income = 6
-		global_movement_speed = 0.05	
-		
-		extra_tech_building_start = 4.0
-	}
-}
-nomad = {
-}
+##phantoms
+#	ca_phantom_armory_1 = {
+#		desc = ca_phantom_armory_1_desc
+#		potential = {	
+#			OR = {			
+#				religion = bellum_religion
+#				religion = malladus_religion
+#				religion = spirits_good
+#			}
+#		}
+#		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+#		gold_cost = 100
+#		build_time = 365
+#		phantoms = 10
+#		ai_creation_factor = 100
+#		
+#		extra_tech_building_start = 1.0
+#	}
+#	ca_phantom_armory_2 = {
+#		desc = ca_phantom_armory_2_desc
+#		potential = {	
+#			OR = {			
+#				religion = bellum_religion
+#				religion = 	malladus_religion
+#				religion = spirits_good
+#			}
+#		}
+#		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+#		prerequisites = { ca_wall_1 }
+#		upgrades_from = ca_phantom_armory_1
+#		gold_cost = 120
+#		build_time = 547
+#		phantoms = 20
+#		ai_creation_factor = 99
+#
+#		extra_tech_building_start = 2.0
+#	}
+#	ca_phantom_armory_3 = {
+#		desc = ca_phantom_armory_3_desc
+#		potential = {	
+#			OR = {			
+#				religion = bellum_religion
+#				religion = 	malladus_religion
+#				religion = spirits_good
+#			}
+#		}
+#		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+#		upgrades_from = ca_phantom_armory_2
+#		gold_cost = 200
+#		build_time = 1095
+#		phantoms = 30
+#		ai_creation_factor = 98
+#
+#		extra_tech_building_start = 0.5
+#	}
+#	ca_phantom_armory_4 = {
+#		desc = ca_phantom_armory_3_desc
+#		potential = {	
+#			OR = {			
+#				religion = bellum_religion
+#				religion = malladus_religion
+#				religion = spirits_good
+#			}
+#		}
+#		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+#		upgrades_from = ca_phantom_armory_3
+#		gold_cost = 300
+#		build_time = 1095
+#		phantoms = 60
+#		ai_creation_factor = 98
+#
+#		extra_tech_building_start = 0.5
+#	}
+#}
+#temple = {
+##spirit station
+#	tp_spirit_station_1 = {
+#		desc = tp_spirit_station_1_desc
+#		potential = {
+#				religion = spirits_good
+#		}
+#		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+#		gold_cost = 100
+#		build_time = 365
+#		tax_income = 2
+#		global_movement_speed  = 0.05
+#		ai_creation_factor = 98
+#
+#		extra_tech_building_start = 0.3
+#	}
+#	tp_spirit_station_2 = {
+#		desc = tp_spirit_station_2_desc
+#		potential = {
+#				religion = spirits_good
+#		}
+#		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+#		prerequisites = { tp_wall_1 }
+#		upgrades_from = tp_spirit_station_1
+#		gold_cost = 120
+#		build_time = 547
+#		tax_income = 2
+#		global_movement_speed  = 0.05
+#		ai_creation_factor = 96
+#
+#		extra_tech_building_start = 0.6
+#	}
+#	tp_spirit_station_3 = {
+#		desc = tp_spirit_station_3_desc
+#		potential = {
+#				religion = spirits_good
+#		}
+#		trigger = { TECH_TEMPLE_CONSTRUCTION = 1 }
+#		prerequisites = { tp_wall_2 }
+#		upgrades_from = tp_spirit_station_2
+#		gold_cost = 200
+#		build_time = 730
+#		tax_income = 2
+#		global_movement_speed  = 0.05
+#		ai_creation_factor = 95
+#
+#		extra_tech_building_start = 0.2
+#	}
+##dark station
+#	tp_dark_station_1 = {
+#		desc = tp_dark_station_1_desc
+#		potential = {
+#				religion = malladus_religion
+#		}
+#		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+#		gold_cost = 100
+#		build_time = 365
+#		tax_income = 2
+#		global_movement_speed  = 0.05
+#		ai_creation_factor = 98
+#
+#		extra_tech_building_start = 0.3
+#	}
+#	tp_dark_station_2 = {
+#		desc = tp_dark_station_2_desc
+#		potential = {
+#				religion = malladus_religion
+#		}
+#		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+#		prerequisites = { tp_wall_1 }
+#		upgrades_from = tp_dark_station_1
+#		gold_cost = 120
+#		build_time = 547
+#		tax_income = 2
+#		global_movement_speed  = 0.05
+#		ai_creation_factor = 96
+#
+#		extra_tech_building_start = 0.6
+#	}
+#	tp_dark_station_3 = {
+#		desc = tp_dark_station_3_desc
+#		potential = {
+#				religion = malladus_religion
+#		}
+#		trigger = { TECH_TEMPLE_CONSTRUCTION = 1 }
+#		prerequisites = { tp_wall_2 }
+#		upgrades_from = tp_dark_station_2
+#		gold_cost = 200
+#		build_time = 730
+#		tax_income = 2
+#		global_movement_speed  = 0.05
+#		ai_creation_factor = 95
+#
+#		extra_tech_building_start = 0.2
+#	}
+#}
+# family_palace = {
+#	# Spirit_train
+#	fp_spirit_train_1 = {
+#		desc = fp_spirit_train_1_desc
+#		potential = {
+#			religion = spirits_good
+#		}
+#		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+#		gold_cost = 150
+#		build_time = 730
+#		ai_creation_factor = 100
+#		
+#		tax_income = 4
+#		global_movement_speed = 0.05	
+#	}
+#	
+#	# weapon car
+#	fp_spirit_train_2 = {
+#		desc = fp_spirit_train_2_desc
+#		potential = {
+#			religion = spirits_good
+#		}
+#		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+#		gold_cost = 250
+#		build_time = 1095
+#		upgrades_from = fp_spirit_train_1
+#		prerequisites = { fp_mansion_2 }
+#		ai_creation_factor = 99
+#		
+#		siege_defence = 0.05
+#		siege_speed = 0.05
+#		global_movement_speed = 0.05	
+#		
+#		extra_tech_building_start = 2.5
+#	}
+#	
+#	# cargo car
+#	fp_spirit_train_3 = {
+#		desc = fp_spirit_train_3_desc
+#		potential = {
+#			religion = spirits_good
+#		}
+#		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+#		gold_cost = 350
+#		build_time = 1460
+#		upgrades_from = fp_spirit_train_2
+#		prerequisites = { fp_mansion_3 }
+#		ai_creation_factor = 98
+#		
+#		tax_income = 6
+#		global_movement_speed = 0.05	
+#		
+#		extra_tech_building_start = 4.0
+#	}
+##dark train
+#	# Dark_train
+#	fp_dark_train_1 = {
+#		desc = fp_dark_train_1_desc
+#		potential = {
+#			religion = spirits_good
+#		}
+#		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+#		gold_cost = 150
+#		build_time = 730
+#		ai_creation_factor = 100
+#		
+#		tax_income = 4
+#		global_movement_speed = 0.05	
+#	}
+#	
+#	# weapon car
+#	fp_dark_train_2 = {
+#		desc = fp_dark_train_2_desc
+#		potential = {
+#			religion = spirits_good
+#		}
+#		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+#		gold_cost = 250
+#		build_time = 1095
+#		upgrades_from = fp_dark_train_1
+#		prerequisites = { fp_mansion_2 }
+#		ai_creation_factor = 99
+#		
+#		siege_defence = 0.05
+#		siege_speed = 0.05
+#		global_movement_speed = 0.05	
+#		
+#		extra_tech_building_start = 2.5
+#	}
+#	
+#	# cargo car
+#	fp_dark_train_3 = {
+#		desc = fp_dark_train_3_desc
+#		potential = {
+#			religion = spirits_good
+#		}
+#		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+#		gold_cost = 350
+#		build_time = 1460
+#		upgrades_from = fp_dark_train_2
+#		prerequisites = { fp_mansion_3 }
+#		ai_creation_factor = 98
+#		
+#		tax_income = 6
+#		global_movement_speed = 0.05	
+#		
+#		extra_tech_building_start = 4.0
+#	}
+#}
+#nomad = {
+#}

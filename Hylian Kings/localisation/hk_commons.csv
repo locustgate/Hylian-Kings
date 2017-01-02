@@ -832,8 +832,83 @@ tp_magma_priest_barracks_4;Magma Priest Barracks;;;;;;;;;;;;x
 tp_magma_priest_barracks_5;Magma Priest Barracks;;;;;;;;;;;;x
 tp_magma_priest_barracks_6;Magma Priest Barracks;;;;;;;;;;;;x
 tp_magma_priest_barracks_1_desc;Little more than a pool of lava. Among gorons those exhibit an unusual amount of religious fervor seemingly sprot volcanic hot spots, eventually these spots harden their skin, but also gives them back problems later in life.;;;;;;;;;;;;;;;;;;x
+tb_goron_fortifications_1;Dugout;;;;;;;;;;;;;;x
+tb_goron_fortifications_2;Shallow Tunnels;;;;;;;;;;;;;;;;;;;;;x
+tb_goron_fortifications_3;Reinforced Tunnels;;;;;;;;;;;;;;;x
+tb_goron_fortifications_4;Deep Tunnels;;;;;;;;;;x
+tb_goron_fortifications_1_desc;The settlment is mostly above ground surrounded by reinforced earthen and stone dome.;;;;;;;;;;;;x
+tb_goron_fortifications_2_desc;The settlment has mostly moved underground.;;;;;;;;;;x
+tb_goron_fortifications_3_desc;The upper tunnels are lined with traps and fortifications.;;;;;;;;;;;;;;;;;;x
+tb_goron_fortifications_4_desc;The settlment now is deep underground.;;;;;;;;;;;x
+tb_goron_troop_1;War Cave;;;;;;;;;;;;;;x
+tb_goron_troop_2;War Cave;;;;;;;;;;;;;;x
+tb_goron_troop_3;War Cave;;;;;;;;;;;;;;x
+tb_goron_troop_4;War Cave;;;;;;;;;;;;;;x
+tb_goron_troop_desc;The central cave in which the gorons train and prepare for war.;;;;;;;;;;;;;;;x
+tb_rock_range_1;Rock Range;;;;;;;;;;;;;x
+tb_rock_range_2;Rock Range;;;;;;;;;;;;;x
+tb_rock_range_3;Rock Range;;;;;;;;;;;;;x
+tb_rock_range_4;Rock Range;;;;;;;;;;;;;x
+tb_rock_range_desc;A large open field or cave in which the gorons test who has the stronger throwing arm.;;;;;;;;;;;;;;;x
+tb_goron_track_1;Racking Track;;;;;;;;;;;;;x
+tb_goron_track_2;Racking Track;;;;;;;;;;;;;x
+tb_goron_track_3;Racking Track;;;;;;;;;;;;;x
+tb_goron_track_4;Racking Track;;;;;;;;;;;;;x
+tb_goron_track_desc;A roughly smoothed area track in which goron practice racing.;;;;;;;;;;;;x
+ca_mad_grove_1;Mad Scrub Barracks;;;;;;;;;;;;x
+ca_mad_grove_2;Mad Scrub Barracks;;;;;;;;;;;;x
+ca_mad_grove_3;Mad Scrub Barracks;;;;;;;;;;;;x
+ca_mad_grove_4;Mad Scrub Barracks;;;;;;;;;;;;x
+ca_mad_grove_1_desc;Mad scrubs are the basic soldiers of the deku, typically they focuse on ranged attacks.;;;;;;;;;;;;;;;;
+ca_old_grove_1;Autumn Barracks;;;;;;;;;;;;x
+ca_old_grove_2;Autumn Barracks;;;;;;;;;;;;x
+ca_old_grove_3;Autumn Barracks;;;;;;;;;;;;x
+ca_old_grove_4;Autumn Barracks;;;;;;;;;;;;x
+ca_old_grove_5;Autumn Barracks;;;;;;;;;;;;x
+ca_old_grove_6;Autumn Barracks;;;;;;;;;;;;x
+ca_old_grove_1_desc;The olden Mad scrubs leaves turn orange, red, and yellow and their bark hardens.;;;;;;;;;;;;;x
+ca_ponds_1;Lily Ponds;;;;;;;;;;;;x
+ca_ponds_2;Lily Ponds;;;;;;;;;;;;x
+ca_ponds_3;Lily Ponds;;;;;;;;;;;;x
+ca_ponds_4;Lily Ponds;;;;;;;;;;;;x
+ca_ponds_5;Lily Ponds;;;;;;;;;;;;x
+ca_ponds_6;Lily Ponds;;;;;;;;;;;;x
+ca_ponds_1_desc;The lily deku are an unusual breed. They are lighter than most deku and are capable of gliding.;;;;;;;;;;;;;x
+ct_mad_grove_1;Mad Scrub Grove;;;;;;;;;;;;;x
+ct_mad_grove_2;Mad Scrub Grove;;;;;;;;;;;;;x
+ct_mad_grove_3;Mad Scrub Grove;;;;;;;;;;;;;x
+ct_mad_grove_4;Mad Scrub Grove;;;;;;;;;;;;;x
+ct_mad_grove_5;Mad Scrub Grove;;;;;;;;;;;;;x
+ct_mad_grove_6;Mad Scrub Grove;;;;;;;;;;;;;x
+ct_mad_grove_1_desc;The "Mad" Scrubs are born warrior most are born with the ability to shoot, seeds or what they eat. They are however extremly territorial against non-scrubs so most live in a large cleared out area dotted with deku flowers for them to make their dens under.;;;;;;;;;;;;;;;;x
+ct_totem_grove_1;Totem Grove;;;;;;;;;;;;;x
+ct_totem_grove_2;Totem Grove;;;;;;;;;;;;;x
+ct_totem_grove_3;Totem Grove;;;;;;;;;;;;;x
+ct_totem_grove_4;Totem Grove;;;;;;;;;;;;;x
+ct_totem_grove_5;Totem Grove;;;;;;;;;;;;;x
+ct_totem_grove_6;Totem Grove;;;;;;;;;;;;;x
+ct_totem_grove_1_desc;The Totem scrubs are an unusual breed of Deku scrub, which have a segmented body. Most Totem Scrubs live in tunnel networks underneath the totem grove.;;;;;;;;;;;;;;;;;;x
+tp_mad_grove_1;Mad Barracks::::::::::::::::x
+tp_mad_grove_2;Mad Barracks::::::::::::::::x
+tp_mad_grove_3;Mad Barracks::::::::::::::::x
+tp_mad_grove_4;Mad Barracks::::::::::::::::x
+tp_mad_grove_5;Mad Barracks::::::::::::::::x
+tp_mad_grove_6;Mad Barracks::::::::::::::::x
+tp_mad_grove_1_desc;Mad scrubs are the main warrior breed of deku.;;;;;;;;;;;;;;;;x
+tp_old_grove_1;Autumn Grove;;;;;;;;;;;;;;x
+tp_old_grove_2;Autumn Grove;;;;;;;;;;;;;;x
+tp_old_grove_3;Autumn Grove;;;;;;;;;;;;;;x
+tp_old_grove_4;Autumn Grove;;;;;;;;;;;;;;x
+tp_old_grove_5;Autumn Grove;;;;;;;;;;;;;;x
+tp_old_grove_6;Autumn Grove;;;;;;;;;;;;;;x
+tp_old_grove_1_desc;When the Mad Scrubs grow old their leaves turn the color of fall leaves and their bark harden.;;;;;;;;;;;;;;x
+tb_war_grove_1;Mad Grove;;;;;;;;;;;;;;x
+tb_war_grove_2;Mad Grove;;;;;;;;;;;;;;x
+tb_war_grove_3;Mad Grove;;;;;;;;;;;;;;x
+tb_war_grove_4;Mad Grove;;;;;;;;;;;;;;x
+tb_war_grove_1_desc;A flower strewn clearing in which deku flowers grow.;;;;;;;;;;;;x
 
-
+ 
 #CB
 CB_NAME_MCONQUEST;Conquest;;;;;;;;;;x
 WAR_NAME_MCONQUEST;Conquest;;;;;;;;;;x
