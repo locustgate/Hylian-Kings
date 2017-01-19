@@ -1482,7 +1482,21 @@ spriteTypes = {
 		norefcount = yes
 		can_be_lowres = yes
 	}
-		spriteType = {
+	spriteType = {
+		name = "PORTRAIT_gerudogfx_child_male"
+		texturefile = "gfx\\characters\\default_son_gerudo.tga"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	spriteType = {
+		name = "PORTRAIT_gerudogfx_child_female"
+		texturefile = "gfx\\characters\\default_daughter_gerudo.tga"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	spriteType = {
 		name = "PORTRAIT_hyliangfx_child_male"
 		texturefile = "gfx\\characters\\default_son_hylian.tga"
 		noOfFrames = 1
@@ -1497,7 +1511,7 @@ spriteTypes = {
 		norefcount = yes
 		can_be_lowres = yes
 	}
-			spriteType = {
+	spriteType = {
 		name = "PORTRAIT_greatfairygfx_child_male"
 		texturefile = "gfx\\characters\\default_son_hylian.tga"
 		noOfFrames = 1
@@ -1646,6 +1660,105 @@ spriteTypes = {
 		norefcount = yes
 		can_be_lowres = yes
 	}
+
+################Hanman Highborn################
+
+	spriteType = {
+		name = "GFX_hanman_hb_male_ear"
+		texturefile = "gfx\\characters\\hanman_hb_male\\hanman_hb_male_ear_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_hanman_hb_male_ear_midage"
+		texturefile = "gfx\\characters\\hanman_hb_male\\hanman_hb_male_ear_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_hanman_hb_male_ear_oldage"
+		texturefile = "gfx\\characters\\hanman_hb_male\\hanman_hb_male_ear_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+		spriteType = {
+		name = "GFX_hanman_hb_female_ear"
+		texturefile = "gfx\\characters\\hanman_hb_female\\hanman_hb_female_ear_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_hanman_hb_female_ear_midage"
+		texturefile = "gfx\\characters\\hanman_hb_female\\hanman_hb_female_ear_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_hanman_hb_female_ear_oldage"
+		texturefile = "gfx\\characters\\hanman_hb_female\\hanman_hb_female_ear_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+################Gerudo################
+
+	spriteType = {
+		name = "GFX_gerudo_male_ear"
+		texturefile = "gfx\\characters\\gerudo_male\\gerudo_male_ear_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_gerudo_male_ear_midage"
+		texturefile = "gfx\\characters\\gerudo_male\\gerudo_male_ear_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_gerudo_male_ear_oldage"
+		texturefile = "gfx\\characters\\gerudo_male\\gerudo_male_ear_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+		spriteType = {
+		name = "GFX_gerudo_female_ear"
+		texturefile = "gfx\\characters\\gerudo_female\\gerudo_female_ear_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_gerudo_female_ear_midage"
+		texturefile = "gfx\\characters\\gerudo_female\\gerudo_female_ear_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_gerudo_female_ear_oldage"
+		texturefile = "gfx\\characters\\gerudo_female\\gerudo_female_ear_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
 
 ################Sheikah################
 ##########MALE##########
