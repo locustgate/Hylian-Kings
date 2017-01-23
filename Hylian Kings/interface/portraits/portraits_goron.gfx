@@ -10,29 +10,29 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
-			"GFX_western_male_headgear_behind:p5:c1"
-			"GFX_western_male_hair_behind:p1:h:y"
-			"GFX_western_male_beard_behind:p4:h:y"
-			"GFX_western_male_base:p2"
-			"GFX_western_male_neck:d0"
-			"GFX_western_male_cheeks:d4"
-			"GFX_western_male_chin:d1"
-			"GFX_western_male_mouth:d2:o75x49"
-			"GFX_western_male_nose:d3:o80x65" 
-			"GFX_western_male_eyes:d6:o47x74"
-			"GFX_western_male_eyes2:d6:e:o74x92:e"
-			"GFX_character_scars:p7:y"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
-			"GFX_character_blinded_eyes:p10"
-			"GFX_western_male_clothes:p3:c2"
-			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_western_male_ear:d7:o27x54"	#todo	
-			"GFX_western_male_beard:p4:h:y"
-		   	"GFX_western_male_hair:p1:h:y"
-			"GFX_western_male_clothes_infront:p3:c4"
-			"GFX_western_male_headgear:p5:c5"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_goron_male_base:p2"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
@@ -51,36 +51,35 @@ spriteTypes = {
 		headgear_that_hides_hair = { 10 }
 	}
 	
-	# Sheikah Male middle age
+	# Death Mountain Goron Male middle age
 	portraitType = {
 		name = "PORTRAIT_dmgorongfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
-			"GFX_western_male_headgear_behind:p5:c1"
-			"GFX_western_male_hair_behind_midage:p1:h:y"
-			"GFX_western_male_beard_behind_midage:p4:h:y"
-			"GFX_western_male_base_midage:p2"
-			"GFX_western_male_neck_midage:d0"
-			"GFX_western_male_cheeks_midage:d4"
-			"GFX_western_male_chin_midage:d1"
-			"GFX_western_male_mouth_midage:d2:o80x51"
-			"GFX_western_male_nose_midage:d3:o81x65" 
-			"GFX_western_male_eyes_midage:d6:o47x74"
-			"GFX_western_male_eyes2:d6:e:o74x92:e:c2"
-			
-			"GFX_character_scars:p7:y"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
-			"GFX_character_blinded_eyes:p10"
-			"GFX_western_male_clothes:p3:c2"
-			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_western_male_ear_midage:d7:o27x54" #todo	
-			"GFX_western_male_beard_midage:p4:h:y"
-			"GFX_western_male_hair_midage:p1:h:y"
-			"GFX_western_male_clothes_infront:p3:c4"
-			"GFX_western_male_headgear:p5:c5"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_goron_male_base:p2"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
@@ -99,36 +98,35 @@ spriteTypes = {
 		headgear_that_hides_hair = { 10 }
 	}
 	
-	# Sheikah Male old age
+	# Death Mountain Goron Male old age
 	portraitType = {
 		name = "PORTRAIT_dmgorongfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
-			"GFX_western_male_headgear_behind:p5:c1"
-			"GFX_western_male_hair_behind_oldage:p1:h:y"
-			"GFX_western_male_beard_behind_oldage:p4:h:y"
-			"GFX_western_male_base_oldage:p2"
-			"GFX_western_male_neck_oldage:d0"
-			"GFX_western_male_cheeks_oldage:d4"
-			"GFX_western_male_chin_oldage:d1"
-			"GFX_western_male_mouth_oldage:d2:o75x52"
-			"GFX_western_male_nose_oldage:d3:o80x66" 
-			"GFX_western_male_eyes_oldage:d6:o46x73"
-			"GFX_western_male_eyes2:d6:e:o74x92:e"
-			
-			"GFX_character_scars:p7:y"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
-			"GFX_character_blinded_eyes:p10"			
-			"GFX_western_male_clothes:p3:c2"
-			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_western_male_ear_oldage:d7:o25x51"#todo	
-			"GFX_western_male_beard_oldage:p4:h:y"
-			"GFX_western_male_hair_oldage:p1:h:y"
-			"GFX_western_male_clothes_infront:p3:c4"
-			"GFX_western_male_headgear:p5:c5"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_goron_male_base:p2"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
@@ -147,7 +145,7 @@ spriteTypes = {
 		headgear_that_hides_hair = { 10 }
 	}
 	
-	# Sheikah Female
+	# Death Mountain Goron Female
 	portraitType = {
 		name = "PORTRAIT_dmgorongfx_female"
 		effectFile = "gfx/FX/portrait.lua"
@@ -191,7 +189,7 @@ spriteTypes = {
 		}
 	}
 
-	# Sheikah Female midage
+	# Death Mountain Goron Female midage
 	portraitType = {
 		name = "PORTRAIT_dmgorongfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
@@ -235,7 +233,7 @@ spriteTypes = {
 		}
 	}
 
-	# Sheikah Female oldage
+	# Death Mountain Goron Female oldage
 	portraitType = {
 		name = "PORTRAIT_dmgorongfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
@@ -284,29 +282,29 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
-			"GFX_western_male_headgear_behind:p5:c1"
-			"GFX_western_male_hair_behind:p1:h:y"
-			"GFX_western_male_beard_behind:p4:h:y"
-			"GFX_western_male_base:p2"
-			"GFX_western_male_neck:d0"
-			"GFX_western_male_cheeks:d4"
-			"GFX_western_male_chin:d1"
-			"GFX_western_male_mouth:d2:o75x49"
-			"GFX_western_male_nose:d3:o80x65" 
-			"GFX_western_male_eyes:d6:o47x74"
-			"GFX_western_male_eyes2:d6:e:o74x92:e"
-			"GFX_character_scars:p7:y"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
-			"GFX_character_blinded_eyes:p10"
-			"GFX_western_male_clothes:p3:c2"
-			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_western_male_ear:d7:o27x54"	#todo	
-			"GFX_western_male_beard:p4:h:y"
-		   	"GFX_western_male_hair:p1:h:y"
-			"GFX_western_male_clothes_infront:p3:c4"
-			"GFX_western_male_headgear:p5:c5"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_goron_male_base:p2"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
@@ -324,39 +322,37 @@ spriteTypes = {
 		headgear_that_hides_hair = { 10 }
 	}
 	
-	# Sheikah Male middle age
+	# Southern Goron Male middle age
 	portraitType = {
 		name = "PORTRAIT_southerngorongfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
-			"GFX_western_male_headgear_behind:p5:c1"
-			"GFX_western_male_hair_behind_midage:p1:h:y"
-			"GFX_western_male_beard_behind_midage:p4:h:y"
-			"GFX_western_male_base_midage:p2"
-			"GFX_western_male_neck_midage:d0"
-			"GFX_western_male_cheeks_midage:d4"
-			"GFX_western_male_chin_midage:d1"
-			"GFX_western_male_mouth_midage:d2:o80x51"
-			"GFX_western_male_nose_midage:d3:o81x65" 
-			"GFX_western_male_eyes_midage:d6:o47x74"
-			"GFX_western_male_eyes2:d6:e:o74x92:e:c2"
-			
-			"GFX_character_scars:p7:y"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
-			"GFX_character_blinded_eyes:p10"
-			"GFX_western_male_clothes:p3:c2"
-			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_western_male_ear_midage:d7:o27x54" #todo	
-			"GFX_western_male_beard_midage:p4:h:y"
-			"GFX_western_male_hair_midage:p1:h:y"
-			"GFX_western_male_clothes_infront:p3:c4"
-			"GFX_western_male_headgear:p5:c5"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_goron_male_base:p2"
 			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
-		}
+			"GFX_player_overlay:p11"		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight, Golden
@@ -372,36 +368,35 @@ spriteTypes = {
 		headgear_that_hides_hair = { 10 }
 	}
 	
-	# Sheikah Male old age
+	# Southern Goron Male old age
 	portraitType = {
 		name = "PORTRAIT_southerngorongfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
-			"GFX_western_male_headgear_behind:p5:c1"
-			"GFX_western_male_hair_behind_oldage:p1:h:y"
-			"GFX_western_male_beard_behind_oldage:p4:h:y"
-			"GFX_western_male_base_oldage:p2"
-			"GFX_western_male_neck_oldage:d0"
-			"GFX_western_male_cheeks_oldage:d4"
-			"GFX_western_male_chin_oldage:d1"
-			"GFX_western_male_mouth_oldage:d2:o75x52"
-			"GFX_western_male_nose_oldage:d3:o80x66" 
-			"GFX_western_male_eyes_oldage:d6:o46x73"
-			"GFX_western_male_eyes2:d6:e:o74x92:e"
-			
-			"GFX_character_scars:p7:y"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
-			"GFX_character_blinded_eyes:p10"			
-			"GFX_western_male_clothes:p3:c2"
-			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_western_male_ear_oldage:d7:o25x51"#todo	
-			"GFX_western_male_beard_oldage:p4:h:y"
-			"GFX_western_male_hair_oldage:p1:h:y"
-			"GFX_western_male_clothes_infront:p3:c4"
-			"GFX_western_male_headgear:p5:c5"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_goron_male_base:p2"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
@@ -420,7 +415,7 @@ spriteTypes = {
 		headgear_that_hides_hair = { 10 }
 	}
 	
-	# Sheikah Female
+	# Southern Goron Female
 	portraitType = {
 		name = "PORTRAIT_southerngorongfx_female"
 		effectFile = "gfx/FX/portrait.lua"
@@ -464,7 +459,7 @@ spriteTypes = {
 		}
 	}
 
-	# Sheikah Female midage
+	# Southern Goron Female midage
 	portraitType = {
 		name = "PORTRAIT_southerngorongfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
@@ -508,7 +503,7 @@ spriteTypes = {
 		}
 	}
 
-	# Sheikah Female oldage
+	# Southern Goron Female oldage
 	portraitType = {
 		name = "PORTRAIT_southerngorongfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
@@ -557,29 +552,29 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
-			"GFX_western_male_headgear_behind:p5:c1"
-			"GFX_western_male_hair_behind:p1:h:y"
-			"GFX_western_male_beard_behind:p4:h:y"
-			"GFX_western_male_base:p2"
-			"GFX_western_male_neck:d0"
-			"GFX_western_male_cheeks:d4"
-			"GFX_western_male_chin:d1"
-			"GFX_western_male_mouth:d2:o75x49"
-			"GFX_western_male_nose:d3:o80x65" 
-			"GFX_western_male_eyes:d6:o47x74"
-			"GFX_western_male_eyes2:d6:e:o74x92:e"
-			"GFX_character_scars:p7:y"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
-			"GFX_character_blinded_eyes:p10"
-			"GFX_western_male_clothes:p3:c2"
-			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_western_male_ear:d7:o27x54"	#todo	
-			"GFX_western_male_beard:p4:h:y"
-		   	"GFX_western_male_hair:p1:h:y"
-			"GFX_western_male_clothes_infront:p3:c4"
-			"GFX_western_male_headgear:p5:c5"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_goron_male_base:p2"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
@@ -599,36 +594,35 @@ spriteTypes = {
 		headgear_that_hides_hair = { 10 }
 	}
 	
-	# Sheikah Male middle age
+	# Western Goron Male middle age
 	portraitType = {
 		name = "PORTRAIT_westerngorongfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
-			"GFX_western_male_headgear_behind:p5:c1"
-			"GFX_western_male_hair_behind_midage:p1:h:y"
-			"GFX_western_male_beard_behind_midage:p4:h:y"
-			"GFX_western_male_base_midage:p2"
-			"GFX_western_male_neck_midage:d0"
-			"GFX_western_male_cheeks_midage:d4"
-			"GFX_western_male_chin_midage:d1"
-			"GFX_western_male_mouth_midage:d2:o80x51"
-			"GFX_western_male_nose_midage:d3:o81x65" 
-			"GFX_western_male_eyes_midage:d6:o47x74"
-			"GFX_western_male_eyes2:d6:e:o74x92:e:c2"
-			
-			"GFX_character_scars:p7:y"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
-			"GFX_character_blinded_eyes:p10"
-			"GFX_western_male_clothes:p3:c2"
-			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_western_male_ear_midage:d7:o27x54" #todo	
-			"GFX_western_male_beard_midage:p4:h:y"
-			"GFX_western_male_hair_midage:p1:h:y"
-			"GFX_western_male_clothes_infront:p3:c4"
-			"GFX_western_male_headgear:p5:c5"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_goron_male_base:p2"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
@@ -647,36 +641,35 @@ spriteTypes = {
 		headgear_that_hides_hair = { 10 }
 	}
 	
-	# Sheikah Male old age
+	# Western Goron Male old age
 	portraitType = {
 		name = "PORTRAIT_westerngorongfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
-			"GFX_western_male_headgear_behind:p5:c1"
-			"GFX_western_male_hair_behind_oldage:p1:h:y"
-			"GFX_western_male_beard_behind_oldage:p4:h:y"
-			"GFX_western_male_base_oldage:p2"
-			"GFX_western_male_neck_oldage:d0"
-			"GFX_western_male_cheeks_oldage:d4"
-			"GFX_western_male_chin_oldage:d1"
-			"GFX_western_male_mouth_oldage:d2:o75x52"
-			"GFX_western_male_nose_oldage:d3:o80x66" 
-			"GFX_western_male_eyes_oldage:d6:o46x73"
-			"GFX_western_male_eyes2:d6:e:o74x92:e"
-			
-			"GFX_character_scars:p7:y"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
-			"GFX_character_blinded_eyes:p10"			
-			"GFX_western_male_clothes:p3:c2"
-			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_western_male_ear_oldage:d7:o25x51"#todo	
-			"GFX_western_male_beard_oldage:p4:h:y"
-			"GFX_western_male_hair_oldage:p1:h:y"
-			"GFX_western_male_clothes_infront:p3:c4"
-			"GFX_western_male_headgear:p5:c5"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"			
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_empty:p3:c4"
+			"GFX_goron_male_base:p2"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
@@ -695,7 +688,7 @@ spriteTypes = {
 		headgear_that_hides_hair = { 10 }
 	}
 	
-	# Sheikah Female
+	# Western Goron Female
 	portraitType = {
 		name = "PORTRAIT_westerngorongfx_female"
 		effectFile = "gfx/FX/portrait.lua"
@@ -739,7 +732,7 @@ spriteTypes = {
 		}
 	}
 
-	# Sheikah Female midage
+	# Western Goron Female midage
 	portraitType = {
 		name = "PORTRAIT_westerngorongfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
@@ -783,7 +776,7 @@ spriteTypes = {
 		}
 	}
 
-	# Sheikah Female oldage
+	# Western Goron Female oldage
 	portraitType = {
 		name = "PORTRAIT_westerngorongfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
@@ -826,6 +819,11 @@ spriteTypes = {
 			{ 65 51 127 }
 		}
 	}
+
+
+
+
+
 #Subrosian
 	portraitType = {
 		name = "PORTRAIT_subrosiangfx_male"

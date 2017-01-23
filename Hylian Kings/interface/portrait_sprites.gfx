@@ -4100,4 +4100,28 @@ spriteTypes = {
 		norefcount = yes
 		can_be_lowres = yes
 	}
+#########Gorons
+	spriteType = {
+		name = "GFX_goron_male_base"
+		texturefile = "gfx\\characters\\goron_male\\goron_male_base_1.dds"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_male_base_midage"
+		texturefile = "gfx\\characters\\goron_male\\goron_male_base_2.dds"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_male_base_oldage"
+		texturefile = "gfx\\characters\\goron_male\\goron_male_base_3.dds"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
 }
