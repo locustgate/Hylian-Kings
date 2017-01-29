@@ -80,7 +80,7 @@ e_hyrule_central = {
 			bulblin="S Bokomon"
 			bokoblin="S Bokomon"			
 			c_faron_bridge ={
-				color={ 144 238 144 }
+				color={ 30 30 30 }
 				color2={ 255 255 255 }
 				
 				b_faron_bridge_gate = {}
@@ -89,7 +89,7 @@ e_hyrule_central = {
 				b_foryu = {}
 			}
 			c_south_faron_forest ={
-				color={84 139 84 }
+				color={ 57 163 0 }
 				color2={ 255 255 255 }
 			
 				b_korore = {}
@@ -115,13 +115,13 @@ e_hyrule_central = {
 			bulblin="W Bokomon"
 			bokoblin="W Bokomon"
 			c_faron_canyon ={
-				color={ 0 100 20 }
+				color={ 0 166 97 }
 				color2={ 255 255 255 }
 					
 					b_chasm_gate = {}
 			}
 			c_great_faron_tree ={
-				color={85 107 47 }
+				color={ 102 65 18 }
 				color2={ 255 255 255 }
 				holy_site = great_deku
 				holy_site = baga_tree			
@@ -131,7 +131,7 @@ e_hyrule_central = {
 				b_tree_village = {}
 			}
 			c_faron_swamp ={
-				color={ 124 252 0 }
+				color={ 0 86 148 }
 				color2={ 255 255 255 }
 				lizalfos="Taxkha Swamp"
 				dinolfos="Taxkha Swamp"
@@ -154,7 +154,7 @@ e_hyrule_central = {
 				b_marono = {}
 			}	
 			c_faron_woods ={
-				color={ 107 142 35 }
+				color={ 250 188 0 }
 				color2={ 255 255 255 }
 				lizalfos="Taxkha Woods"
 				dinolfos="Taxkha Woods"
@@ -168,7 +168,7 @@ e_hyrule_central = {
 				b_ordodu = {}
 			}	
 			c_faron_basin ={
-				color={ 105 139 34 }
+				color={ 177 84 215 }
 				color2={ 255 255 255 }
 				lizalfos="Taxkha Basin"
 				dinolfos="Taxkha Basin"
@@ -195,7 +195,7 @@ e_hyrule_central = {
 			bulblin="E Bokomon"
 			bokoblin="E Bokomon"	
 			c_faron_grove ={
-				color={ 202 255 112 }
+				color={ 0 86 148 }
 				color2={ 255 255 255 }
 				
 				b_modu = {}
@@ -204,7 +204,7 @@ e_hyrule_central = {
 				b_fakin = {}
 			}	
 			c_central_faron_forest ={
-				color={ 67 205 128 }
+				color={ 0 86 148 }
 				color2={ 255 255 255 }
 				lizalfos="Taxkha Forest"
 				dinolfos="Taxkha Forest"
@@ -218,7 +218,7 @@ e_hyrule_central = {
 				b_edeku = {}
 			}
 			c_north_faron_forest ={
-				color={ 61 145 64 }
+				color={ 250 188 0 }
 				color2={ 255 255 255 }
 				lizalfos="N Taxkha Forest"
 				dinolfos="N Taxkha Forest"
@@ -235,7 +235,7 @@ e_hyrule_central = {
 			
 		d_faron_fields = {
 			color={0 234 100 }
-			color2={ 224 238 224 }
+			color2={ 255 255 255 }
 			capital = 528
 			lizalfos="Taxkha Fields"
 			dinolfos="Taxkha Fields"
@@ -244,8 +244,8 @@ e_hyrule_central = {
 			bulblin="Bokomon Fields"
 			bokoblin="Bokomon Fields"	
 			c_east_faron_field ={
-				color={ 192 255 62 }
-				color2={ 224 238 224 }
+				color={ 57 163 0 }
+				color2={ 255 255 255 }
 				lizalfos="E Taxkha Fields"
 				dinolfos="E Taxkha Fields"
 				aerolfos="E Taxkha Fields"
@@ -259,8 +259,8 @@ e_hyrule_central = {
 				b_radu = {}
 			}
 			c_south_faron_field ={
-				color={ 173 255 47 }
-				color2={ 224 238 224 }
+				color={ 39 39 39 }
+				color2={ 255 255 255 }
 				lizalfos="S Taxkha Fields"
 				dinolfos="S Taxkha Fields"
 				aerolfos="S Taxkha Fields"
@@ -273,8 +273,8 @@ e_hyrule_central = {
 				b_dobon = {}
 			}
 			c_west_faron_field ={
-				color={ 124 252 0 }
-				color2={ 224 238 224 }
+				color={ 144 98 151 }
+				color2={ 255 255 255 }
 				lizalfos="W Taxkha Fields"
 				dinolfos="W Taxkha Fields"
 				aerolfos="W Taxkha Fields"
@@ -288,8 +288,8 @@ e_hyrule_central = {
 				b_oryade = {}
 			}
 			c_north_faron_field ={
-				color={ 154 255 154 }
-				color2={ 224 238 224 }
+				color={ 48 137 4 }
+				color2={ 255 255 255 }
 				lizalfos="N Taxkha Fields"
 				dinolfos="N Taxkha Fields"
 				aerolfos="N Taxkha Fields"
@@ -338,7 +338,7 @@ e_hyrule_central = {
 			bulblin="Bulbol"
 			bokoblin="Bulbol"
 			c_chasm_road = {			
-				color={ 198 226 255 }
+				color={ 57 163 0 }
 				color2={ 255 255 255 }
 				
 				b_chasm_tower = {}
@@ -346,7 +346,7 @@ e_hyrule_central = {
 				b_chasm_temple = {}
 			}
 			c_lanayru_castle = {	
-				color={ 0 108 255 }
+				color={ 0 86 148 }
 				color2={ 255 255 255 }
 				lizalfos="Lizitlan Pyramid"
 				dinolfos="Lizitlan Pyramid"
@@ -363,7 +363,7 @@ e_hyrule_central = {
 				b_castle_gate = {}
 			}
 			c_south_castle = {			
-				color={ 0 0 255 }
+				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				lizalfos="South Pyramid"
 				dinolfos="South Pyramid"
@@ -375,7 +375,7 @@ e_hyrule_central = {
 				b_south_gate = {}
 			}
 			c_west_castle = {			
-				color={ 61 89 171 }
+				color={ 59 158 6 }
 				color2={ 255 255 255 }
 				lizalfos="West Pyramid"
 				dinolfos="West Pyramid"
@@ -387,7 +387,7 @@ e_hyrule_central = {
 				b_west_gate = {}
 			}
 			c_central_castle = {			
-				color={ 25 25 112 }
+				color={ 0 86 148 }
 				color2={ 255 255 255 }
 				lizalfos="Central Pyramid"
 				dinolfos="Central Pyramid"
@@ -400,7 +400,7 @@ e_hyrule_central = {
 				b_central_guard_post = {}
 			}
 			c_east_castle = {			
-				color={ 72 118 255 }
+				color={ 89 131 185 }
 				color2={ 255 255 255 }
 				lizalfos="East Pyramid"
 				dinolfos="East Pyramid"
@@ -423,7 +423,7 @@ e_hyrule_central = {
 			bulblin="North Bulbol"
 			bokoblin="North Bulbol"
 			c_north_lanayru_field = {			
-				color={ 188 210 238 }
+				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				lizalfos="N Lizitlan Field"
 				dinolfos="N Lizitlan Field"
@@ -438,7 +438,7 @@ e_hyrule_central = {
 				b_anodu = {}
 			}		
 			c_amphitheater_field = {			
-				color={ 202 225 255 }
+				color={ 30 30 30 }
 				color2={ 255 255 255 }				
 				holy_site = golden_goddesses #temp	
 				holy_site = goddess_lorule #ALL alien religions have the same holy sites
@@ -451,7 +451,7 @@ e_hyrule_central = {
 					}
 			}		
 			c_east_lanayru_field = {			
-				color={ 16 78 139 }
+				color={ 57 163 0 }
 				color2={ 255 255 255 }
 				lizalfos="E Lizitlan Field"
 				dinolfos="E Lizitlan Field"
@@ -467,7 +467,7 @@ e_hyrule_central = {
 				b_ninore = {}
 			}	
 			c_lanayru_hills = {			
-				color={ 30 144 255 }
+				color={ 122 49 111 }
 				color2={ 255 255 255 }
 				lizalfos="Lizitlan Hills"
 				dinolfos="Lizitlan Hills"
@@ -492,7 +492,7 @@ e_hyrule_central = {
 				bulblin="Hylia Bulbol"
 				bokoblin="Hylia Bulbol"
 			c_west_lanayru_field = {			
-				color={ 135 206 255 }
+				color={ 242 227 81 }
 				color2={ 255 255 255 }
 				lizalfos="W Lizitlan Field"
 				dinolfos="W Lizitlan Field"
@@ -508,7 +508,7 @@ e_hyrule_central = {
 				b_edontu = {}
 			}
 			c_south_lanayru_field = {			
-				color={ 74 112 139 }
+				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				lizalfos="S Lizitlan Field"
 				dinolfos="S Lizitlan Field"
@@ -549,7 +549,7 @@ e_hyrule_central = {
 				b_marogo = {}
 			}
 			c_lanayru_spring = {
-				color={ 51 161 201 }
+				color={ 249 199 1 }
 				color2={ 255 255 255 }
 				holy_site = light_spirits
 				
@@ -562,7 +562,7 @@ e_hyrule_central = {
 	}
 	k_eldin = {
 		color={ 208 0 0 }
-		color2={ 255 255 255  }
+		color2={ 255 255 255 }
 		capital = 529 # New Kakariko
 		lizalfos="Lunkha"
 		dinolfos="Lunkha"
@@ -586,7 +586,7 @@ e_hyrule_central = {
 		}			
 		d_north_eldin = {
 			color={ 208 0 0 }
-			color2={ 255 255 255  }
+			color2={ 255 255 255 }
 			capital =547
 			lizalfos="North Lunkha"
 			dinolfos="North Lunkha"
@@ -596,7 +596,7 @@ e_hyrule_central = {
 			bokoblin="North Bulomon"
 			c_north_eldin_plateau = {
 				color={ 192 65 14 }
-				color2={ 255 255 255  }
+				color2={ 255 255 255 }
 				lizalfos="N Lunkha Plateau"
 				dinolfos="N Lunkha Plateau"
 				aerolfos="N Lunkha Plateau"
@@ -611,7 +611,7 @@ e_hyrule_central = {
 			}
 			c_north_eldin_bridge = {
 				color={ 188 0 7 }
-				color2={ 255 255 255  }
+				color2={ 255 255 255 }
 				lizalfos="N Lunkha Bridge"
 				dinolfos="N Lunkha Bridge"
 				aerolfos="N Lunkha Bridge"
@@ -626,7 +626,7 @@ e_hyrule_central = {
 			}
 			c_hidden_village = {
 				color={ 188 0 7 }
-				color2={ 255 255 255  }
+				color2={ 255 255 255 }
 				
 				b_hidden_watchtower = {}
 				b_hidden_village = {}
@@ -634,7 +634,7 @@ e_hyrule_central = {
 			}
 			c_eldin_foothills = {
 				color={ 0 86 148 }
-				color2={ 255 255 255  }
+				color2={ 255 255 255 }
 				lizalfos="Lunkha Foothills"
 				dinolfos="Lunkha Foothills"
 				aerolfos="Lunkha Foothills"
@@ -650,7 +650,7 @@ e_hyrule_central = {
 		}
 		d_central_eldin = {
 			color={ 248 0 0 }
-			color2={ 255 255 255  }
+			color2={ 255 255 255 }
 			capital = 536
 			lizalfos="Central Lunkha"
 			dinolfos="Central Lunkha"
@@ -660,7 +660,7 @@ e_hyrule_central = {
 			bokoblin="Central Bulomon"
 			c_northeast_eldin_field = {
 				color={ 188 0 7 }
-				color2={ 255 255 255  }
+				color2={ 255 255 255 }
 				lizalfos="NE Lunkha Field"
 				dinolfos="NE Lunkha Field"
 				aerolfos="NE Lunkha Field"
@@ -674,7 +674,7 @@ e_hyrule_central = {
 			}
 			c_central_eldin_field = {
 				color={ 38 38 38 }
-				color2={ 255 255 255  }
+				color2={ 255 255 255 }
 				lizalfos="Lunkha Field"
 				dinolfos="Lunkha Field"
 				aerolfos="Lunkha Field"
@@ -690,7 +690,7 @@ e_hyrule_central = {
 			}
 			c_northwest_eldin_field = {
 				color={ 167 56 56 }
-				color2={ 255 255 255  }
+				color2={ 255 255 255 }
 				lizalfos="NW Lunkha Field"
 				dinolfos="NW Lunkha Field"
 				aerolfos="NW Lunkha Field"
@@ -704,7 +704,7 @@ e_hyrule_central = {
 			}
 			c_south_eldin_bridge = {
 				color={ 255 206 0 }
-				color2={ 255 255 255  }
+				color2={ 255 255 255 }
 				lizalfos="S Lunkha Bridge"
 				dinolfos="S Lunkha Bridge"
 				aerolfos="S Lunkha Bridge"
@@ -720,7 +720,7 @@ e_hyrule_central = {
 		}
 		d_south_eldin = {
 			color={ 167 0 0 }
-			color2={ 255 255 255  }
+			color2={ 255 255 255 }
 			capital = 535
 			lizalfos="South Lunkha"
 			dinolfos="South Lunkha"
@@ -731,7 +731,7 @@ e_hyrule_central = {
 			
 			c_kakariko_gorge = {
 				color={ 188 0 7 }
-				color2={ 255 255 255  }
+				color2={ 255 255 255 }
 				lizalfos="Lunkha Gorge"
 				dinolfos="Lunkha Gorge"
 				aerolfos="Lunkha Gorge"
@@ -745,7 +745,7 @@ e_hyrule_central = {
 			}
 			c_southwest_eldin_field = {
 				color={ 153 7 6 }
-				color2={ 255 255 255  }
+				color2={ 255 255 255 }
 				lizalfos="SW Lunkha Field"
 				dinolfos="SW Lunkha Field"
 				aerolfos="SW Lunkha Field"
@@ -759,7 +759,7 @@ e_hyrule_central = {
 			}
 			c_southeast_eldin_field = {
 				color={ 84 107 86 }
-				color2={ 255 255 255  }
+				color2={ 255 255 255 }
 				lizalfos="SE Lunkha Field"
 				dinolfos="SE Lunkha Field"
 				aerolfos="SE Lunkha Field"
@@ -784,7 +784,7 @@ e_hyrule_central = {
 				bokoblin="Bulomon"
 			c_new_kakariko = {
 				color={ 13 0 188 }
-				color2={ 255 255 255  }
+				color2={ 255 255 255 }
 				lizalfos="Lunkha"
 				dinolfos="Lunkha"
 				aerolfos="Lunkha"
@@ -806,7 +806,7 @@ e_hyrule_central = {
 			}
 			c_eldin_spring = {
 				color={ 0 86 148 }
-				color2={ 255 255 255  }				
+				color2={ 255 255 255 }				
 				holy_site = light_spirits
 				
 				b_eldin_spring = {}
@@ -816,7 +816,7 @@ e_hyrule_central = {
 			}
 			c_kakariko_graveyard = {
 				color={ 38 38 38 }
-				color2={ 255 255 255  }
+				color2={ 255 255 255 }
 				lizalfos="Lunkha Graveyard"
 				dinolfos="Lunkha Graveyard"
 				aerolfos="Lunkha Graveyard"
@@ -832,7 +832,7 @@ e_hyrule_central = {
 			}
 			c_kakariko_pass = {
 				color={ 142 55 67 }
-				color2={ 255 255 255  }
+				color2={ 255 255 255 }
 				lizalfos="Lunkha Pass"
 				dinolfos="Lunkha Pass"
 				aerolfos="Lunkha Pass"
@@ -933,7 +933,7 @@ e_hyrule_central = {
 			color2={ 255 255 255 }
 			capital = 589 # ordon
 			c_ordon = {
-				color={ 0 104 46 }
+				color={ 195 169 118 }
 				color2={ 255 255 255 }
 				
 				b_ordon = {}
@@ -1150,36 +1150,36 @@ e_hyrule_central = {
 			capital = 579 # Snow Top Manor		
 			c_snowpeak_ascent = {
 				color={ 139 117 0 }
-				color2={ 139 139 131  }
+				color2={ 255 255 255 }
 				b_moldia = {}
 				b_edoryia = {}
 			}
 			c_snowpeak_top = {
 				color={ 139 117 0 }
-				color2={ 139 139 131  }
+				color2={ 255 255 255 }
 				b_madotun = {}
 				b_nanoko = {}
 			}
 			c_snowpeak_watchtower = {
 				color={ 139 117 0 }
-				color2={ 139 139 131  }
+				color2={ 255 255 255 }
 				b_luraryu = {}
 			}
 			c_snowpeak_slopes = {
 				color={ 139 117 0 }
-				color2={ 139 139 131  }
+				color2={ 255 255 255 }
 				b_nusilu = {}
 				b_onodelu = {}
 			}
 			c_ice_cliffs = {
-				color={ 139 117 0 }
-				color2={ 139 139 131  }
+				color={ 0 86 148 }
+				color2={ 255 255 255 }
 				b_misakadu = {}
 				b_edotia = {}
 			}
 			c_snowpeak_manor = {
 				color={ 139 117 0 }
-				color2={ 139 139 131  }
+				color2={ 255 255 255 }
 				b_snowpeak_manor = {}
 			}
 		}
@@ -1188,24 +1188,24 @@ e_hyrule_central = {
 			color2={ 255 255 255 }
 			capital = 581
 			c_mountain_village = {
-				color={ 139 117 0 }
-				color2={ 139 139 131  }
+				color={ 194 16 24 }
+				color2={ 255 255 255 }
 				b_fira = {}
 				b_marudia = {}
 			}
 			c_yeti_peaks = {
-				color={ 139 117 0 }
-				color2={ 139 139 131  }
+				color={ 188 0 7 }
+				color2={ 255 255 255 }
 				b_edinaral = {}
 			}
 			c_yeti_mountain = {
-				color={ 139 117 0 }
-				color2={ 139 139 131  }
+				color={ 0 86 148 }
+				color2={ 255 255 255 }
 				b_edipash = {}
 			}
 			c_frozen_lake = {
-				color={ 139 117 0 }
-				color2={ 139 139 131  }
+				color={ 92 151 207 }
+				color2={ 255 255 255 }
 				b_lonirdin = {}
 				b_odone = {}
 				b_rania = {}
@@ -1368,7 +1368,7 @@ e_hyrule_central = {
 			}
 			c_mountain_gate = {
 				color={ 139 117 0 }
-				color2={ 139 139 131  }
+				color2={ 255 255 255 }
 				
 				b_mountain_gate = {}
 				b_ermom = {
@@ -1564,7 +1564,7 @@ e_mudora = { #empire
 			color2={ 255 255 255 }
 			capital = 431 # Middlesex
 			c_mudora = {
-				color={ 0 170 0 }
+				color={ 13 178 0 }
 				color2={ 255 255 255 }
 				b_mudora = {}
 				b_muduora_city = {}
@@ -1572,7 +1572,7 @@ e_mudora = { #empire
 				b_laure_2 = {}
 			}
 			c_soldier_fields = {
-				color={ 0 170 0 }
+				color={ 15 45 146 }
 				color2={ 255 255 255 }
 				b_akirare = {}
 				b_oguldon_2 = {}
@@ -1597,14 +1597,14 @@ e_mudora = { #empire
 			color2={ 255 255 255 }
 			capital = 427 # Middlesex
 			c_temple_of_darkness = {
-				color={ 0 170 0 }
+				color={ 122 49 111 }
 				color2={ 255 255 255 }
 				holy_site = sheikahism			
 				b_temple_of_darkness = {}
 				b_dordo = {}
 			}
 			c_little_kakariko = {
-				color={ 0 170 0 }
+				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				b_little_kakariko = {}
 				b_eldia = {}
@@ -1612,7 +1612,7 @@ e_mudora = { #empire
 				b_mildia = {}
 			}
 			c_blacksmith_fields = {
-				color={ 0 170 0 }
+				color={ 46 136 55 }
 				color2={ 255 255 255 }
 				b_blacksmiths_hill = {}
 				b_pobirugine = {}
@@ -1620,21 +1620,21 @@ e_mudora = { #empire
 				b_onigu = {}
 			}
 			c_northern_fields = {
-				color={ 0 170 0 }
+				color={ 0 86 148 }
 				color2={ 255 255 255 }
 				b_magu = {}
 				b_fortune_tellers_bluff = {}
 				b_turoria = {}
 			}
 			c_haunted_grove	 = {
-				color={ 0 170 0 }
+				color={ 57 163 0 }
 				color2={ 255 255 255 }
 				b_haunted_grove = {}
 				b_loren = {}
 				b_daupu = {}
 			}
 			c_cucco_ranch	 = {
-				color={ 0 170 0 }
+				color={ 141 106 0 }
 				color2={ 255 255 255 }
 				b_cucco_gate = {}
 				b_cucco_ranch = {}
@@ -1645,7 +1645,7 @@ e_mudora = { #empire
 			color2={ 255 255 255 }
 			capital = 433 # Middlesex
 			c_mudora_hills = {
-				color={ 0 170 0 }
+				color={ 188 0 0 }
 				color2={ 255 255 255 }
 				b_madaraun = {}
 				b_crorun = {}
@@ -1653,38 +1653,38 @@ e_mudora = { #empire
 				b_mioonone = {}
 			}
 			c_eastern_palace = {
-				color={ 0 170 0 }
+				color={ 0 123 60 }
 				color2={ 255 255 255 }
 				b_elora = {}
 				b_latanada = {}
 			}
 			c_eastern_tower = {
-				color={ 0 170 0 }
+				color={ 0 87 148 }
 				color2={ 255 255 255 }
 				b_eastern_tower = {}
 				b_oryirade = {}
 				b_oryabun = {}
 			}
 			c_goriya_keep = {
-				color={ 0 170 0 }
+				color={ 0 86 148 }
 				color2={ 255 255 255 }
 				b_goriya_keep = {}
 				b_kanudil = {}
 				b_karano = {}
 			}
 			c_lynel_labyrinth = {
-				color={ 0 170 0 }
+				color={ 249 187 0 }
 				color2={ 255 255 255 }
 				b_lynel_gate = {}
 				b_lynel_labyrinth = {}
 			}
 			c_eastern_pass	 = {
-				color={ 0 170 0 }
+				color={ 57 163 0 }
 				color2={ 255 255 255 }
 				b_mudora_gate = {}
 			}	
 			c_eastern_plains = {
-				color={ 0 170 0 }
+				color={ 41 41 41 }
 				color2={ 255 255 255 }
 				b_doniratun = {}
 				b_doliran = {}
@@ -1696,34 +1696,34 @@ e_mudora = { #empire
 			color2={ 255 240 245 }
 			capital = 415 # Middlesex
 			c_hylia_bay = {
-				color={ 0 170 0 }
+				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				holy_site = great_fairies#temp
 				b_lin = {}
 			}
 			c_gale_isle = {
-				color={ 0 170 0 }
+				color={ 235 179 57 }
 				color2={ 255 255 255 }
 				b_house_of_gales = {}
 			}
 			c_ice_cave = {
-				color={ 0 170 0 }
+				color={ 67 196 214 }
 				color2={ 255 255 255 }
 				b_frozen_gate = {}
 				b_ice_cave = {}
 			}
 			c_zora_mouth = {
-				color={ 0 170 0 }
+				color={ 0 85 148 }
 				color2={ 255 255 255 }
 				b_duru = {}
 			}
 			c_isle_of_happiness = {
-				color={ 0 170 0 }
+				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				b_pond_of_hapiness = {}
 			}
 			c_pinnacle_pier = {
-				color={ 0 170 0 }
+				color={ 218 206 198 }
 				color2={ 255 255 255 }
 				b_pinnacle_pier = {}
 			}
@@ -1733,29 +1733,29 @@ e_mudora = { #empire
 			color2={ 255 255 255 }
 			capital = 410 # Middlesex
 			c_river_temple = {
-				color={ 0 170 0 }
+				color={ 3 88 149 }
 				color2={ 255 255 255 }
 				b_river_temple = {}
 			}
 			c_village_of_the_blue_maiden = {
-				color={ 0 170 0 }
+				color={ 0 87 148 }
 				color2={ 255 255 255 }
 				b_blue = {}
 				b_blue_village = {}
 			}
 			c_guild_road = {
-				color={ 0 170 0 }
+				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				b_guild_booth = {}
 			}
 			c_portville = {
-				color={ 0 170 0 }
+				color={ 132 0 132 }
 				color2={ 255 255 255 }
 				b_port_lightkeep = {}
 				b_portville = {}
 			}
 			c_cave_of_no_return = {
-				color={ 0 170 0 }
+				color={ 200 200 200 }
 				color2={ 255 255 255 }
 				b_cave_of_no_return = {}
 			}
@@ -1771,7 +1771,7 @@ e_mudora = { #empire
 			color2={ 222 184 135 }
 			capital = 444 # Middlesex			
 			c_southern_death_mountain = {
-				color={ 0 170 0 }
+				color={ 0 86 148 }
 				color2={ 255 255 255 }		
 				holy_site = fire_spirit
 				b_lower_cavenrs = {}
@@ -1779,7 +1779,7 @@ e_mudora = { #empire
 				b_upper_cavern = {}
 			}
 			c_miner_pass = {
-				color={ 0 170 0 }
+				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				b_miners_home = {}
 				b_miners_forge = {}
@@ -1791,20 +1791,20 @@ e_mudora = { #empire
 			color2={ 222 184 135 }
 			capital = 438 # Middlesex	
 			c_tower_of_flames = {
-				color={ 0 170 0 }
+				color={ 226 9 9 }
 				color2={ 255 255 255 }
 				b_tower_of_flames = {}
 				b_everburning_peak = {}
 			}
 			c_mountain_paths = {
-				color={ 0 170 0 }
+				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				b_ladu = {}
 				b_raporu = {}
 				b_rodosan = {}
 			}
 			c_mountain_plateau = {
-				color={ 0 170 0 }
+				color={ 129 35 108 }
 				color2={ 255 255 255 }
 				b_tatan = {}
 				b_oryural = {}
@@ -1816,13 +1816,13 @@ e_mudora = { #empire
 			color2={ 222 184 135 }
 			capital = 443 # Middlesex			
 			c_hera = {
-				color={ 0 170 0 }
+				color={ 216 32 24 }
 				color2={ 255 255 255 }
 				b_hera_tower = {}
 				b_moldorm_pinnacle = {}
 			}		
 			c_hera_ore_mines = {
-				color={ 0 170 0 }
+				color={ 105 0 0 }
 				color2={ 255 255 255 }
 				b_ore_mines = {}
 				b_miners_camp = {}
@@ -1838,27 +1838,27 @@ e_mudora = { #empire
 			color2={ 128 0 0 }
 			capital = 421 # Middlesex
 			c_cave_roads = {
-				color={ 0 170 0 }
+				color={ 203 153 0 }
 				color2={ 255 255 255 }
 				b_swamp_cave = {}
 				b_desert_cave = {}
 				b_central_cavern = {}
 			}
 			c_desert_of_mystery = {
-				color={ 0 170 0 }
+				color={ 37 37 37 }
 				color2={ 255 255 255 }
 				b_bombos = {}
 				b_kuridu = {}
 			}
 			c_desert_palace = {
-				color={ 0 170 0 }
+				color={ 250 188 0 }
 				color2={ 255 255 255 }
 				b_desert_palace = {}
 				b_pudaru = {}
 				b_toorare = {}
 			}
 			c_oasis_pass = {
-				color={ 0 170 0 }
+				color={ 0 175 203 }
 				color2={ 255 255 255 }
 				b_mantu = {}
 				b_laure = {}
@@ -1890,26 +1890,26 @@ e_mudora = { #empire
 			color2={ 255 215 0 }
 			capital = 392 # Middlesex			
 			c_swamp_palace = {
-				color={ 0 170 0 }
+				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				b_swamp_palace = {}
 				b_swamp_village = {}
 			}
 			c_hyrule_swamp = {
-				color={ 0 170 0 }
+				color={ 0 86 148 }
 				color2={ 255 255 255 }
 				b_sinking_castle = {}
 				b_swamps_fairy_fountain = {}
 				b_oseryu = {}		
 		}
 			c_swamp_canyon = {
-				color={ 0 170 0 }
+				color={ 250 188 0 }
 				color2={ 255 255 255 }
 				b_swamp_pass = {}
 				b_piro = {}		
 		}
 			c_great_swamp = {
-				color={ 0 170 0 }
+				color={ 0 90 86 }
 				color2={ 255 255 255 }
 				holy_site = wizzrobe_doctrine
 				b_drowned_keep = {}
@@ -1925,14 +1925,14 @@ e_mudora = { #empire
 			color2={ 255 215 0 }
 			capital = 397 # Middlesex
 			c_misery_mire = {
-				color={ 0 170 0 }
+				color={ 90 0 0 }
 				color2={ 255 255 255 }
 				b_okiryu = {}
 				b_dobun = {}
 				b_kadare = {}
 			}
 			c_sandy_marshes = {
-				color={ 0 170 0 }
+				color={ 139 134 0 }
 				color2={ 255 255 255 }
 				b_doborun = {}
 				b_pepopen = {}
@@ -1944,20 +1944,20 @@ e_mudora = { #empire
 			color2={ 255 215 0 }
 			capital = 404 # Middlesex
 			c_turongo_wetlands = {
-				color={ 0 170 0 }
+				color={ 181 123 1 }
 				color2={ 255 255 255 }
 				b_rori = {}
 				b_makiri = {}
 
 			}
 			c_saltmarsh = {
-				color={ 0 170 0 }
+				color={ 0 139 118 }
 				color2={ 255 255 255 }
 				b_dutari = {}
 				b_sorinori = {}
 			}
 			c_turongo = {
-				color={ 0 170 0 }
+				color={ 215 218 40 }
 				color2={ 255 255 255 }
 				b_turongo = {}
 				b_arari = {}
@@ -1968,20 +1968,20 @@ e_mudora = { #empire
 			color2={ 255 215 0 }
 			capital = 400 # Middlesex
 			c_gohma_mire = {
-				color={ 0 170 0 }
+				color={ 156 231 152 }
 				color2={ 255 255 255 }
 				b_crararo = {}
 				b_anuren = {}
 				b_marakan = {}		
 		}
 			c_gohmanest = {
-				color={ 0 170 0 }
+				color={ 71 141 76 }
 				color2={ 255 255 255 }
 				b_gohma_den = {}
 				b_queen_ghomas_lair = {}		
 		}
 			c_sinking_swamp = {
-				color={ 0 170 0 }
+				color={ 0 86 148 }
 				color2={ 255 255 255 }
 				b_sunken_pyramid_2 = {}
 				b_manalu = {}
@@ -1993,14 +1993,14 @@ e_mudora = { #empire
 			color2={ 255 215 0 }
 			capital = 398 # Middlesex
 			c_reed_hills = {
-				color={ 0 170 0 }
+				color={ 122 49 111 }
 				color2={ 255 255 255 }
 				b_runtal = {}
 				b_hylulo = {}
 				b_reed_hills = {}
 			}
 			c_toppo_bogs = {
-				color={ 0 170 0 }
+				color={ 228 23 23 }
 				color2={ 255 255 255 }
 				b_orena = {}
 				b_eruru = {}
@@ -2008,14 +2008,14 @@ e_mudora = { #empire
 				b_carito = {}
 			}			
 			c_hylia_bog	 = {
-				color={ 0 170 0 }
+				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				b_toodu = {}
 				b_kisin = {}
 				b_dobish = {}
 			}
 			c_morango = {
-				color={ 0 170 0 }
+				color={ 200 200 200 }
 				color2={ 255 255 255 }
 				b_modari = {}
 				b_onari = {}
@@ -2083,7 +2083,7 @@ e_saria = { #empire
 			color2={ 88 80 62 }
 			capital = 188 # Middlesex
 			c_kasuto = {
-				color={ 0 104 46 }
+				color={ 201 54 54 }
 				color2={ 255 255 255 }
 				
 				b_maupo  = {}
@@ -2092,7 +2092,7 @@ e_saria = { #empire
 				b_maso = {}
 			}
 			c_hidden_valley = {
-				color={ 0 104 46 }
+				color={ 30 30 30 }
 				color2={ 255 255 255 }
 				
 				b_kasuto_pass = {}
@@ -2100,7 +2100,7 @@ e_saria = { #empire
 				b_new_kasuto = {}
 			}
 			c_three_eye_rock = {
-				color={ 0 104 46 }
+				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				
 				b_maup = {}
@@ -2116,7 +2116,7 @@ e_saria = { #empire
 			}
 		}
 		d_nabooru = {
-			color={ 23 161 0 }
+			color={ 214 0 0 }
 			color2={ 106 110 255 }
 			capital = 187 # Middlesex
 			c_kasuto_palace = {
@@ -2129,7 +2129,7 @@ e_saria = { #empire
 				b_enasalu = {}
 			}
 			c_nabooru = {
-				color={ 0 104 46 }
+				color={ 122 49 111 }
 				color2={ 255 255 255 }
 				
 				b_ruro = {}
@@ -2138,7 +2138,7 @@ e_saria = { #empire
 				b_otarana = {}
 			}
 			c_darunia = {
-				color={ 0 104 46 }
+				color={ 235 179 57 }
 				color2={ 255 255 255 }
 				
 				b_oduro = {}
@@ -2158,14 +2158,14 @@ e_saria = { #empire
 			color2={ 255 255 255 }
 			capital = 185 # Middlesex
 			c_north_maze_island = {
-				color={ 0 104 46 }
+				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				
 				b_magone = {}
 				b_dobaru = {}
 			}
 			c_maze_palace = {
-				color={ 0 104 46 }
+				color={ 0 87 148 }
 				color2={ 255 255 255 }
 				holy_site = darknut_doctrine
 				holy_site = earth_spirit
@@ -2173,7 +2173,7 @@ e_saria = { #empire
 				b_aridu = {}
 			}
 			c_south_maze_island = {
-				color={ 0 104 46 }
+				color={ 235 179 57 }
 				color2={ 255 255 255 }
 				
 				b_migin = {}
@@ -2207,7 +2207,7 @@ e_saria = { #empire
 		little_hyrulean="W Hyrule"
 		
 		d_moruge = {
-			color={ 0 0 255 }
+			color={ 188 0 7 }
 			color2={ 6 122 0 }
 			capital = 198 # Middlesex
 			c_moruge = {
@@ -2220,7 +2220,7 @@ e_saria = { #empire
 				b_pina = {}
 			}
 			c_mido = {
-				color={ 0 104 46 }
+				color={ 132 0 132 }
 				color2={ 255 255 255 }
 				
 				b_mido_palace = {}
@@ -2238,7 +2238,7 @@ e_saria = { #empire
 				b_muryen = {}
 			}				
 			c_graveyard_vale = {
-				color={ 0 104 46 }
+				color={ 0 86 148 }
 				color2={ 255 255 255 }			
 				holy_site = golden_goddesses
 				holy_site = goddess_lorule #ALL alien religions have the same holy sites
@@ -2255,7 +2255,7 @@ e_saria = { #empire
 			color2={ 255 255 23 }
 			capital = 196 # Middlesex
 			c_navi = {
-				color={ 0 104 46 }
+				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				
 				b_navi_palace = {}
@@ -2265,7 +2265,7 @@ e_saria = { #empire
 				b_murdi = {}
 			}
 			c_saria = {
-				color={ 0 104 46 }
+				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				
 				b_saria_palace = {}
@@ -2276,7 +2276,7 @@ e_saria = { #empire
 				b_murye = {}
 			}
 			c_impa	 = {
-				color={ 0 104 46 }
+				color={ 0 86 148 }
 				color2={ 255 255 255 }
 			
 				b_impa = {}
@@ -2290,7 +2290,7 @@ e_saria = { #empire
 			ccolor2={ 255 255 255 }
 			capital = 202 # Middlesex			
 			c_tantari = {
-				color={ 0 104 46 }
+				color={ 250 188 0 }
 				color2={ 255 255 255 }
 			
 				b_tantari = {}
@@ -2298,7 +2298,7 @@ e_saria = { #empire
 				b_nodo = {}
 			}
 			c_midoro = {
-				color={ 0 104 46 }
+				color={ 250 188 0 }
 				color2={ 255 255 255 }
 			
 				b_mir = {}
@@ -2308,7 +2308,7 @@ e_saria = { #empire
 				b_mururin = {}
 			}
 			c_ruto = {
-				color={ 0 104 46 }
+				color={ 0 88 160 }
 				color2={ 255 255 255 }
 			
 				b_doba = {}
@@ -2316,7 +2316,7 @@ e_saria = { #empire
 				b_fabo = {}
 			}
 			c_rauru = {
-				color={ 0 104 46 }
+				color={ 172 126 64 }
 				color2={ 255 255 255 }
 				
 				b_rauru_palace = {}
@@ -2325,7 +2325,7 @@ e_saria = { #empire
 				b_muryidido = {}
 			}
 			c_parapa = {
-				color={ 0 104 46 }
+				color={ 189 0 0 }
 				color2={ 255 255 255 }
 				
 				b_parapa = {}
@@ -2333,7 +2333,7 @@ e_saria = { #empire
 				b_oririn = {}
 			}
 			c_north_palace = {
-				color={ 0 104 46 }
+				color={ 189 1 8 }
 				color2={ 255 255 255 }		
 				b_north_palace = {}
 			}
@@ -2370,14 +2370,14 @@ e_saria = { #empire
 			color2={ 133 91 0 }
 			capital = 209 # Middlesex
 			c_oberon_death_mountains = {
-				color={ 0 104 46 }
+				color={ 255 0 0 }
 				color2={ 255 255 255 }		
 			holy_site = fire_spirit
 				
 				b_oberon_gate = {}
 			}
 			c_oberon_spectacle_rock = {
-				color={ 0 104 46 }
+				color={ 249 3 0 }
 				color2={ 255 255 255 }
 				
 				b_modun = {}
@@ -2385,7 +2385,7 @@ e_saria = { #empire
 				b_naon = {}
 			}
 			c_oberon_cemetary = {
-				color={ 0 104 46 }
+				color={ 250 188 0 }
 				color2={ 255 255 255 }
 			
 				b_ardu = {}
@@ -2398,7 +2398,7 @@ e_saria = { #empire
 			color2={ 139 0 0 }
 			capital = 214 # Middlesex
 			c_spryte = {
-				color={ 0 104 46 }
+				color={ 0 86 148 }
 				color2={ 255 255 255 }
 			
 				b_spryte = {}
@@ -2407,7 +2407,7 @@ e_saria = { #empire
 				b_kircan = {}
 			}
 			c_oberon = {
-				color={ 0 104 46 }
+				color={ 0 10 136 }
 				color2={ 255 255 255 }
 				holy_site = great_fairies
 				
@@ -2416,7 +2416,7 @@ e_saria = { #empire
 				b_muso = {}
 			}
 			c_moblinia = {
-				color={ 0 104 46 }
+				color={ 162 31 14 }
 				color2={ 255 255 255 }
 				
 				b_moblinia = {}
@@ -2424,7 +2424,7 @@ e_saria = { #empire
 				b_orone = {}
 			}
 			c_miff = {
-				color={ 0 104 46 }
+				color={ 122 49 111 }
 				color2={ 255 255 255 }
 				
 				b_miff = {}
@@ -2433,7 +2433,7 @@ e_saria = { #empire
 				b_murorane = {}
 			}
 			c_north_lost_forest = {
-				color={ 0 104 46 }
+				color={ 48 137 4 }
 				color2={ 255 255 255 }
 				
 				b_rordu = {}
@@ -7623,7 +7623,7 @@ k_west_death_mountains = {
 		capital = 540 # Great Death Mountain
 		c_great_death_mountain = {
 			color={ 139 117 0 }
-			color2={ 139 139 131  }
+			color2={ 255 255 255 }
 			b_ircumil = {}
 			b_finius = {}
 			b_falium = {}
@@ -7631,7 +7631,7 @@ k_west_death_mountains = {
 		}
 		c_goron_mines = {
 			color={ 139 117 0 }
-			color2={ 139 139 131  }		
+			color2={ 255 255 255 }		
 			holy_site = fire_spirit
 			b_dinemi = {}
 			b_sippamiun = {}
@@ -7642,7 +7642,7 @@ k_west_death_mountains = {
 		}
 		c_goron_road = {
 			color={ 139 117 0 }
-			color2={ 139 139 131  }
+			color2={ 255 255 255 }
 			b_culil = {}
 			b_zuppil = {}
 			b_dockim = {}
@@ -7655,14 +7655,14 @@ k_west_death_mountains = {
 		capital = 543 # Great Death Mountain
 		c_hot_springs_mountain = {
 			color={ 139 117 0 }
-			color2={ 139 139 131  }
+			color2={ 255 255 255 }
 			b_garcos = {}
 			b_ziniur = {}
 			b_ginzan = {}
 		}
 		c_eldin_caves = {
 			color={ 139 117 0 }
-			color2={ 139 139 131  }
+			color2={ 255 255 255 }
 			b_eldin_caves = {}
 			b_spring_cave = {}
 		}
@@ -7673,12 +7673,12 @@ k_west_death_mountains = {
 		capital = 545 # Great Death Mountain
 		c_bombchu_mountain = {
 			color={ 139 117 0 }
-			color2={ 139 139 131  }
+			color2={ 255 255 255 }
 			b_arror = {}
 		}
 		c_goron_canyon = {
 			color={ 139 117 0 }
-			color2={ 139 139 131  }
+			color2={ 255 255 255 }
 			b_tinia = {}
 			b_malas = {}
 		}
@@ -8873,40 +8873,40 @@ k_tolemac = {
 			color2={ 255 255 255 }		
 			capital = 228
 			c_skotness = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 0 86 148 }
+				color2={ 255 255 255 }
 				b_skotness = {}
 				b_great_wimbich = {}
 			}
 			c_sea_island = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 242 227 81 }
+				color2={ 255 255 255 }
 				b_water_sign = {}
 			}
 			c_findo = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 188 0 7 }
+				color2={ 255 255 255 }
 				b_findo = {}
 				b_narbmwc = {}
 			
 			}
 			c_seacoast_plain = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 0 86 148 }
+				color2={ 255 255 255 }
 				b_coastguard = {}
 				b_south_port = {}
 				b_flooded_cavern = {}
 			}
 			c_ogbam = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 235 179 57 }
+				color2={ 255 255 255 }
 				b_ogbam = {}
 				b_earth = {}
 				b_forest_trader = {}
 			}
 			c_larrocthest = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 200 200 200 }
+				color2={ 255 255 255 }
 				
 				b_larrocthest = {}
 				b_lllewohkcirc = {}			
@@ -8914,19 +8914,19 @@ k_tolemac = {
 		}
 		d_canvula = {	
 			color={ 219 88 88 }
-			color2={ 250 240 230 }
+			color2={ 255 255 255 }
 			capital = 236
 			c_canvula = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 188 0 7 }
+				color2={ 255 255 255 }
 				
 				b_canvula = {}
 				b_fire = {}
 			
 			}
 			c_torian = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 74 55 134 }
+				color2={ 255 255 255 }
 				
 				b_torian = {}
 				b_illusion = {}
@@ -8934,19 +8934,19 @@ k_tolemac = {
 			
 			}
 			c_armarob = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 250 186 0 }
+				color2={ 255 255 255 }
 				b_amarob = {}
 				b_htraglat = {}
 			}
 			c_glonna = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 216 107 33 }
+				color2={ 255 255 255 }
 				b_glonna = {}
 				b_yah = {}
 			}
 			c_andor = {
-				color={ 0 0 0 }
+				color={ 188 0 7 }
 				ccolor2={ 255 255 255 }
 				b_andor = {}
 				b_mobilins_head = {}
@@ -8957,21 +8957,21 @@ k_tolemac = {
 			color2={ 205 197 191 }			
 			capital = 231
 			c_north_subasha = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 0 86 148 }
+				color2={ 255 255 255 }
 				b_north_subasha = {}
 				b_air = {}
 			}
 			c_south_subasha = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 122 49 111 }
+				color2={ 255 255 255 }
 				b_east_crossroads = {}
 				b_south_subasha = {}
 			
 			}
 			c_ensilon = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 122 49 111 }
+				color2={ 255 255 255 }
 				b_ensilon = {}
 				b_yrubsalg = {}
 			}
@@ -8981,14 +8981,14 @@ k_tolemac = {
 			color2={ 255 255 255 }		
 			capital = 234
 			c_triplet_coast = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 0 86 148 }
+				color2={ 255 255 255 }
 				b_lusydnall = {}
 				b_dnegdirb = {}
 			}
 			c_ubato = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 48 137 4 }
+				color2={ 255 255 255 }
 				b_ubato = {}
 				b_destiny = {}
 				b_stone_town = {}
@@ -8999,14 +8999,14 @@ k_tolemac = {
 			color2={ 255 255 255 }		
 			capital = 229
 			c_vendoss = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 188 0 7 }
+				color2={ 255 255 255 }
 				b_vendoss = {}
 				b_swamp = {}
 			}
 			c_hobel = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 250 188 0 }
+				color2={ 255 255 255 }
 				b_hobel = {}
 				b_strength = {}
 			}
@@ -9017,32 +9017,32 @@ k_tolemac = {
 			color2={ 255 255 255 }		
 			capital = 242
 			c_tolemac	 = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 188 0 7 }
+				color2={ 255 255 255 }
 				b_tolemac = {}
 				b_nocerb = {}
 			}
 			c_legatnit = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 193 153 77 }
+				color2={ 255 255 255 }
 				b_legatnit = {}
 				b_nylme = {}
 			}
 			c_nolava = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 215 84 84 }
+				color2={ 255 255 255 }
 				b_nolava = {}
 				b_retepmal = {}
 			}
 			c_talotsa = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 154 105 232 }
+				color2={ 255 255 255 }
 				b_talotsa = {}
 				b_sraelc = {}
 			}
 			c_noelreac = {
-				color={ 205 102 0 }
-				color2={ 250 240 230 }
+				color={ 122 49 111 }
+				color2={ 255 255 255 }
 				b_noelreac = {}
 				b_illenall = {}
 			}
