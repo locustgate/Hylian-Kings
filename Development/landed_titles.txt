@@ -1,0 +1,2182 @@
+e_rebels = {
+	rebel = yes
+	landless = yes
+	primary = yes
+
+	culture = gerudo
+	tribe = yes
+
+	color={ 0 0 0 }
+	color2={ 0 0 0 }
+}
+
+e_pirates = {
+	pirate = yes
+	landless = yes
+	primary = yes
+
+	culture = gerudo
+	tribe = yes
+
+	color={ 0 0 0 }
+	color2={ 0 0 0 }
+}
+#hyrule
+e_hyrule_central = {
+	color={ 204 0 0 }
+	color2={ 255 255 255 }
+	capital = 484 # Middlesex
+	dignity = 20 # Counted as having this many more counties than it does
+
+	eldin = Eldin
+	ordonion = Ordon
+	kakarikon = Kakariko
+	skylofter = Grooseland
+	
+	# Creation/usurpation trigger
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture_group = hylian_group
+				culture = ordonion
+				culture = kakarikon
+				culture = eldin
+			}
+		}
+	}
+
+	k_hyrule = {
+		color={ 204 0 0 }
+		color2={ 255 255 255 }
+		capital = 559 # Middlesex
+		dignity = 10 # Counted as having this many more counties than it does
+			
+		#late_hyrulean = Hyrule
+		hyrulean = North Hyrule
+		kakarikon = Kakariko
+		eldin = Eldin
+		ordonion = North Ordon
+		
+		d_faron = {
+		color={ 0 110 47 }
+		color2={ 255 255 255 }
+		capital = 515 # Middlesex
+			c_faron_canyon
+			c_great_faron_tree
+			c_faron_swamp
+			c_faron_spring
+			c_faron_bridge
+			c_faron_grove
+			c_faron_woods
+			c_faron_basin
+			c_hylia_bridges
+			c_keaton_stockades
+			c_south_faron_forest
+			c_central_faron_forest
+			c_north_faron_forest
+			c_east_faron_field
+			c_south_faron_field
+			c_west_faron_field
+			c_north_faron_field
+		}
+		d_eldin = {
+			color={ 208 0 0 }
+			color2={ 204 203 203 }
+			capital = 529 # New Kakariko
+			c_new_kakariko
+			c_eldin_spring
+			c_kakariko_graveyard
+			c_kakariko_pass
+			c_southeast_eldin_field
+			c_kakariko_gorge
+			c_southwest_eldin_field
+			c_central_eldin_field
+			c_northwest_eldin_field
+			c_south_eldin_bridge
+			c_northeast_eldin_field
+			north_eldin_bridge
+			c_hidden_village
+			c_eldin_foothills
+			c_north_eldin_plateaux
+		}
+		d_lanayru = {
+			color={ 0 108 255 }
+			color2={ 255 255 255 }
+			capital = 559 # North Hyrule Castle
+			c_south_gate
+			c_south_castle
+			c_west_castle_town
+			c_central_castle
+			c_east_castle
+			c_east_gate
+			c_west_gate
+			c_amphitheater_field
+			c_castle_gate
+			c_north_hyrule_castle
+			c_chasm_road
+			c_lanayru_hills
+			c_east_lanayru_field
+			c_north_lanayru_field
+			c_west_lanayru_field
+			c_south_lanayru_field
+			c_north_hylia_bridge
+		}
+		d_peak = {
+			color={ 190 218 255 }
+			color2={ 255 255 255 }
+			capital = 579 # Snow Top Manor
+			c_frozen_lake
+			c_snowpeak_ascent
+			c_snowpeak_top
+			c_snowpeak_watchtower
+			c_snowpeak_slopes
+			c_ice_manor
+			c_mountain_village
+			c_yeti_peaks
+			c_yeti_mountain
+		}
+	}
+	k_sacred_grove = {
+		color={ 145 196 251 }
+		color2={ 255 255 255 }
+		capital = 484 # Hyrule Castle
+		dignity = 50 # Counted as having this many more counties than it does
+
+		allow = {
+			culture = hyrulean
+		}
+		skylofter = Grooseland
+		hyrulean = Hyrule
+	
+		d_royal_woods = {
+			color={ 238 116 238 }
+			color2={ 255 223 0 }
+			capital = 484 # Hyrule Castle
+			c_mount_hylia = {
+				color={ 148 0 211 }
+				color2={ 255 255 255 }
+				
+				b_hylia_retreat = {}
+				b_mountain_town = {}
+				b_hylia_point = {}
+			}
+			c_castle_town_gate = {
+				color={ 145 196 251 }
+				color2={ 255 255 255 }
+				
+				b_great_gate = {}
+				b_gate_guard_house = {}
+				b_guards_temple = {}
+				b_southern_castle_town = {}
+				b_southern_back_alley = {}
+				b_guard_district = {}
+				b_knights_castle = {}
+			}
+			c_west_castle_town = {
+				color = { 0 238 0 }
+				color2 = { 250 250 210}	
+				
+				b_west_castle_town = {}
+				b_west_guard_house = {}
+				b_farore = {}
+				b_market_gate = {}
+				b_merchant_district = {}
+				b_manor_district
+				b_west_back_alley = {}
+			}
+			c_east_castle_town = {
+				color = { 255 0 0 }
+				color2 = { 250 250 210}				
+			
+				b_castle_town_slums = {}
+				b_thieves_alley = {}
+				b_east_guard_house = {}
+				b_din = {}
+				b_slum_gate = {}
+				b_temple_slums = {}
+				b_east_back_alley = {}
+			}
+			c_central_castle_town = {
+				color = { 0 0 255 }
+				color2 = { 0 0 0 }	
+				
+				b_market_town = {}
+				b_castle_town_north_gate = {}
+				b_naryu = {}
+				b_central_guard_house = {}
+				b_central_castle_town = {}
+				b_central_back_alley = {}
+				b_knights_house = {}
+				
+			}			
+			c_temple_of_time = {
+				color = { 255 215 0 }
+				color2 = { 250 250 210}			
+				holy_site = golden_goddesses
+				holy_site = light_force
+				holy_site = hylia_religion
+				holy_site = sheikahism
+				holy_site = great_maku
+				holy_site = gerudo_goddess
+				holy_site = demise_religion
+				holy_site = vaati_religion
+				holy_site = ganon_religion
+				holy_site = wizzrobe_doctrine
+				holy_site = darknut_doctrine
+				holy_site = goddesses_lorule
+				holy_site = sol_religion
+				holy_site = goddess_of_time
+				
+				b_temple_of_time = { pentarchy = yes }
+				b_temple_guard = {}
+				b_temple_gate = {}
+				b_monastary_of_hylia = {}
+				b_temple_of_time_graveyard = {}
+				b_temple_district = {}
+				b_beggers_alley = {}
+			}
+			c_castle_road = {	
+				color={ 238 116 238 }
+				color2={ 112 128 144 }
+				
+				holy_site = great_fairies
+				
+				b_castle_gate = {}
+				b_fairy_spring_of_courage = {}
+				b_reststop = {}
+			
+			}
+			c_hyrule_castle = {				
+				color={ 238 116 238 }
+				color2={ 255 223 0 }
+				
+				b_hyrule_castle = {} 
+				b_royal_temple = {}
+			}
+			c_sacred_grove = {
+				color={ 84 255 159 }
+				color2={ 34 139 34 }
+				
+				b_bordergate = {}
+				b_forest_retreat = {}
+				b_grove_town = {}
+				b_sacred_grove = {}
+			
+			}
+		}
+		d_royal_graveyard = { #later old kakariko
+			color={ 185 0 0 }
+			color2={ 255 255 255 }
+			capital = 462 # Hyrule Castle
+			c_kakariko = {
+				color={ 220 20 60 }
+				color2={ 255 255 255 }
+				b_kakariko_gate = {}
+				b_kakariko = {}
+				b_kakariko_temple = {}
+				b_hidden_castle = {}
+			}
+			c_shadow_temple = {	
+				color={ 0 0 0 }
+				color2={ 255 255 255 }		
+				b_royal_graveyard = {}
+				b_shadow_temple = {}
+				b_shadow_city = {}
+			}
+		}
+		d_west_hyrule_field = {
+			color={ 1 171 74 }
+			color2={ 65 69 156 }
+			capital = 457 # Hyrule Castle
+			c_south_hyrule_field = {			
+				color={ 185 0 0 }
+				color2={ 255 255 255 }
+				
+				b_oryaro = {}
+				b_maron = {}
+				b_hyre = {}
+				b_dobaro = {}
+			}
+			c_southwest_hyrule_field= {			
+				color={ 185 0 0 }
+				color2={ 255 255 255 }
+				
+				b_hylia_gate = {}
+				b_dadu = {}
+				b_crarunun = {}
+			}
+			c_gerudo_gate = {
+				color={ 185 0 0 }
+				color2={ 255 255 255 }
+				b_gerudo_gate = {}
+				b_danin = {}
+			}
+			c_west_hyrule_fields= {			
+				color={ 185 0 0 }
+				color2={ 255 255 255 }
+				b_ediri = {}
+				b_munugia = {}
+				b_kuti = {}
+				b_monin = {}
+			}
+		}
+		d_east_hyrule_field = {		
+			color={ 2 0 174 }
+			color2={ 206 15 15 }
+			capital = 459 # Hyrule Castle
+			c_east_hyrule_field = {			
+				color={ 2 0 174 }
+				color2={ 206 15 15 }
+				
+				b_madas = {}
+				b_madas_town = {}
+				b_hero_shrine = {}
+				b_foro = {}
+				b_opo = {}
+			
+			}
+			c_north_hyrule_field = {
+				color={ 220 20 60 }
+				color2={ 238 232 170 }
+				
+				b_nalo = {}
+				b_minin = {}
+				b_faru = {}
+				b_dogin = {}
+				b_kurin = {}
+			}
+			c_south_east_hyrule_field = {
+				color={ 34 139 34 }
+				color2={ 0 0 238 }
+				
+				b_madas_retreat = {}
+				b_dikon = {}
+				b_osanan = {}
+				b_torin = {}
+			}
+			c_central_hyrule_field = {
+				color={ 28 134 238 }
+				color2={ 255 255 255 }
+				b_muro = {}
+				b_hyrin = {}
+				b_madin = {}
+				b_odekodu = {}
+			}
+		}
+		d_hylia = {
+			color={ 111 138 191 }
+			color2={ 255 223 0 }
+			capital = 452 # Water Temple
+			c_hylia_lakeside = {
+				color={ 125 38 205 }
+				color2={ 255 255 255 }
+				
+
+				b_lakeside_retreat = {}
+				b_lekeside = {}
+				b_scientist_point = {}
+				b_fishermens_pond = {}
+			
+			}
+			c_bridge_island = {
+				color={ 202 225 255 }
+				color2={ 255 223 0 }
+				
+				b_bridge_island	 = {}			
+			}
+			c_sun_island = {
+				color={ 255 255 0 }
+				color2={ 72 118 255 }
+				
+				b_sun_temple = {}
+			}
+			c_water_temple = {
+				color={ 111 138 191 }
+				color2={ 255 223 0 }
+				
+				b_water_temple = {}
+				b_water = {}
+			}
+		
+		}
+		d_lon_lon_hill = {
+			color={ 19 63 158 }
+			color2={ 255 255 255 }
+			capital = 453 # Look below
+			c_lon_lon_hill = {
+				color={ 19 63 158 }
+				color2={ 255 255 255 }				
+				b_lon_lon_gate = {}
+				b_lon_lon_ranch = {}
+				b_farmers_town = {}
+				b_farmers_temple = {}
+			}
+		}
+	}
+	k_ordon = {
+		color={ 249 228 83 }
+		color2={ 255 255 255 }
+		capital = 589 # ordon
+		
+		d_ordon_woods = {
+			color={ 0 104 46 }
+			color2={ 249 228 83 }
+			capital = 583 # Middlesex
+			c_ordon_spring
+			c_ordon_woods
+			C_eaces_of_ordon
+			c_north_ordon_forest
+			c_ordon_groves
+			c_south_ordon_forest
+		}
+		d_ordon = {
+			color={ 249 228 83 }
+			color2={ 255 255 255 }
+			capital = 589 # ordon
+			c_ordon_village
+			c_ordon_ranch
+			c_ordon_plains
+			c_ordon_wedge
+			c_loggervale
+			c_south_ordon_field
+			c_east_ordon_field
+			c_west_ordon-field
+			c_north_ordon_field
+			c_laketown
+		}
+		d_ordonia = {
+			color={ 181 85 63 }
+			color2={ 203 176 85 }
+			capital = 603 # Ordonia
+			c_fords_of_ordonia
+			c_wooddel
+			c_rivertown
+			c_ordonia_gap
+			c_ordonia
+			c_south_ordonia_plateau
+			c_east_ordonia_plateau
+			c_great_ordonia_plateauc
+			c_north_ordonia_plateau
+			c_west_ordonia_plateau
+		}
+	}
+	k_west_death_mountains = {
+		color={ 91 100 100 }
+		color2={ 255 42 0 }
+		capital = 540 # Great Death Mountain
+		d_great_death_mountains = {
+			color={ 91 100 100 }
+			color2={ 255 42 0 }
+			capital = 540 # Great Death Mountain
+			c_great_death_mountain
+			c_goron_mines
+			c_goron_road
+			c_hot_springs_mountain
+			c_goron_canyon
+			c_bombchu_mountain
+		}
+		d_death_mountain = {
+			color={ 71 6 4 }
+			color2={ 168 5 0 }
+			capital = 466 # Goron City
+			c_mountain_gate
+			c_dodongo_cavern
+			c_goron_city
+			c_death_mountain_trail
+			c_death_mountain_pass
+			c_chasm_pass
+			c_fire_temple
+			c_anceint_tunnels
+		}
+	}
+	k_zora_domain = {
+		color={ 255 127 80 }
+		color2={ 234 212 77 }
+		capital = 474 # Zora Domain
+
+		d_north_domain = {
+			color={ 0 214 253 }
+			color2={ 234 212 77 }
+			capital = 568 #North Zora Domain
+				c_zora_spring
+				c_north_zora_domain
+				c_zora_falls
+				c_frozen_caves
+				c_upper_zoras_river
+				c_zora_rapids
+		}
+		d_south_domain = {
+			color={ 188 0 57 }
+			color2={ 234 212 77 }
+			capital = 474 # Zora Domain
+			c_zora_fountain
+			c_ice_caverns
+			c_zora_domain
+			c_sleepless_waterfalls
+			c_frog_marsh
+			c_zora_river
+		}
+	}
+}
+k_gerudo = {
+		darknut = Legio Prima
+		
+		d_platau = {
+		color={ 91 100 100 }
+		color2={ 172 67 46 }
+		capital = 491 # Desert Colossus
+			
+		
+		gerudo = Gerudo Platau
+		darknut = Prima Century
+		
+			c_gerudo_mesa
+			c_gerudo_sands
+			c_daylfy_desert
+			c_watchtower_waste
+			c_leever_waste
+			c_lake_cliffs
+			c_gerudo_desert
+			c_gerudo_mountain
+			c_desert_stockades
+			c_arbiters_grounds
+			c_mirror_valley
+			c_gerudo_river
+		}
+		d_gerudo_valley = {
+			color={ 127 162 178 }
+			color2={ 205 133 113 }
+			capital = 487 # Gerudo Fortress
+			c_gerudo_valley
+			c_gerudo_fortress
+			c_desert_of_winds
+			c_hidden_fortress
+		}
+		d_haunted_wastes = {
+			color={ 177 93 65 }
+			color2={ 46 121 139 }
+			capital = 491 # Desert Colossus
+			c_desert_colossus
+			c_spirit_temple
+			c_haunted_wasteland
+			c_spirit_desert
+			c_desert_valley
+			c_mirror_sands
+			c_gerudo_dunes
+			c_cliff_gates
+			c_spirit_gates
+			c_fogotten_city
+		}
+}
+e_saria = {#Saria
+	color={ 0 0 204 }
+	color2={ 255 255 255 }
+	capital = 32 # Middlesex
+	dignity = 196 # Counted as having this many more counties than it does
+
+	eldin = Eldin
+	#sarian = Saria
+	kasuton = Kasuto
+	hyrulean = Hyrule Major
+	little_hyrulean = Hyrule
+	west_hyrulean = Hyrule
+	east_hyrulean = Hyrule
+	
+	# Creation/usurpation trigger
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture = eldin
+				culture = sarian
+				culture = kasuton
+				culture = hyrulean
+				culture = little_hyrulean
+				culture = west_hyrulean
+				culture = east_hyrulean
+			}
+		}
+	}
+	k_kasuto = {
+		color={ 11 76 0 }
+		color2={ 88 80 62 }
+		capital = 188 # Middlesex
+		dignity = 5 # Counted as having this many more counties than it does
+	
+		#late_hyrulean = Hyrule
+		east_hyrulean = East Hyrule
+		west_hyrulean = East Hyrule
+		little_hyrulean = East Hyrule
+		
+		d_kasuto = {
+			color={ 11 76 0 }
+			color2={ 88 80 62 }
+			capital = 188 # Middlesex
+			c_kasuto
+			c_hidden_valley
+			c_three_eye_rock
+			c_hyron_island
+		}
+		d_nabooru = {
+			color={ 255 135 251 }
+			color2={ 106 110 255 }
+			capital = 187 # Middlesex
+			c_kasuto_palace
+			c_nabooru
+			c_darunia
+			c_bridge_forest
+		}
+		d_maze_island = {
+			color={ 78 78 95 }
+			color2={ 255 255 255 }
+			capital = 185 # Middlesex
+			c_north_maze_island
+			c_maze_palace
+			c_south_maze_island
+		}
+	}
+	k_saria = {
+		color={ 0 0 204 }
+		color2={ 255 255 23 }
+		capital = 196 # Middlesex
+		dignity = 10 # Counted as having this many more counties than it does
+
+	
+		west_hyrulean = West Hyrule
+		east_hyrulean = West Hyrule
+		little_hyrulean = West Hyrule
+		
+		d_moruge = {
+			color={ 108 91 54 }
+			color2={ 6 122 0 }
+			capital = 198 # Middlesex
+			c_morgue
+			c_tantari
+			c_mido
+		}
+		d_saria = {
+			color={ 0 0 204 }
+			color2={ 255 255 23 }
+			capital = 196 # Middlesex
+			c_navi
+			c_saria
+			c_impa			
+		}
+		d_midoro = {
+			color={ 0 78 255 }
+			color2={ 0 0 0 }
+			capital = 202 # Middlesex
+			c_graveyard_vale
+			c_midoro
+			c_ruto
+			c_rauru
+			c_parapa
+		}
+		d_palace_island = {
+			c_palace_island
+		}
+	}
+	k_eldin = {
+		color={ 0 0 0 }
+		color2={ 112 17 17 }
+		capital = 212 # Middlesex
+		
+		little_hyrulean = Little Hyrule
+		east_hyrulean = Little Hyrule
+		west_hyrulean = Little Hyrule
+		
+		d_east_death_mountains= {
+			color={ 81 81 81}
+			color2={ 133 91 0 }
+			capital = 209 # Middlesex
+			c_eldin_death_mountains
+			c_eldin_spectacle_rock
+			c_eldin_cemetary
+		}
+		d_lost_hills = {
+			color={ 139 69 19 }
+			color2={ 139 0 0 }
+			capital = 214 # Middlesex
+			c_spryte
+			c_oberon
+		}
+		d_lost_plains= {
+			color={ 0 100 0 }
+			color2={ 224 255 255 }
+			capital = 212 # Middlesex
+			c_moblinia
+			c_miff
+			c_eldin_lost_forest
+		}
+	}
+}
+k_mudora = {#Faron plains
+		color={ 0 170 0 }
+		color2={ 255 255 255 }
+		capital = 426 # Middlesex
+		dignity = 5 # Counted as having this many more counties than it does
+	
+		#late_hyrulean = Hyrule Minor
+		hyrulean = Grand Hyrule	
+
+		d_mudora = {
+			color={ 0 170 0 }
+			color2={ 255 255 255 }
+			capital = 423 # Middlesex
+			c_soldier_fields
+			c_haunter_grove
+			c_cucco_ranch
+			c_little_kakariko
+			c_blacksmith_fields
+			c_northern_fields
+			c_miner_pass
+			c_sanctuary
+			c_eastern_plains
+			c_eastern_hills
+			c_eastern_palace
+			c_temple_of_darkness
+		}
+		d_zora_valley = {
+			color={ 25 25 112 }
+			color2={ 255 215 0 }
+			capital = 436 # Middlesex
+			c_zora_valley
+			c_waterfall_domain
+			c_zora_caverns
+		}
+		d_grand_hylia= {
+			color={ 65 105 225 }
+			color2={ 255 240 245 }
+			capital = 415 # Middlesex
+			c_portville
+			c_hylia_bog
+			c_river_temple
+			c_village_of_the_blue_maiden
+			c_hylia_bay
+			c_gale_isle
+			c_ice_cave
+			c_guild_road
+			c_zora_mouth
+			c_isle_of_happiness
+			c_pinnacle_pier
+		}
+		d_great_swamp = {
+			color={ 127 255 0 }
+			color2={ 176 224 230 }
+			capital = 392 # Middlesex
+			c_swamp_palace
+			c_hyrule_swamp
+			c_swamp_canyon
+			c_great_wamp
+			c_misery_mire
+			c_toppo_bogs
+			c_gohma_mire
+			c_gohmanest
+			c_sinking_swamp
+			c_turongo_wetlands
+			c_saltmarsh
+			c_morango
+			c_reed_hills
+			
+		}
+		d_desert_of_mystery = {
+			color={ 222 184 135 }
+			color2={ 128 0 0 }
+			capital = 421 # Middlesex
+			c_cave_roads
+			c_desert_of_mystery
+			c_desert_palace
+			c_oasis_pass
+		}
+		d_south_death_moutains = {
+			color={ 112 128 144 }
+			color2={ 222 184 135 }
+			capital = 441 # Middlesex
+			c_tower_of_flames
+			c_mountain_paths
+			c_hera_ore_mines
+			c_mountain_plateau
+			c_hera
+			c_southern_death_mountain
+			c_eastern_tower
+			c_goriya_keep
+			c_lynel
+			c_eastern_pass
+			
+		}
+}
+k_hyrule_minish = { #Minish
+		color={ 82 184 220}
+		color2={ 253 138 119 }
+		capital = 623 # Middlesex
+		dignity = 5 # Counted as having this many more counties than it does
+
+		hyrulean = Minish Hyrule
+		wind_tribe = Wind
+		
+		d_minish_fields= {
+			color={ 135 206 235 }
+			color2={ 176 23 31 }
+			capital = 631 # Middlesex
+			c_lon_lon_field
+			c_minish_town
+			c_eastern_hills
+			c_smith_field
+			c_south_minish_field
+			c_west_wind_bridge
+			c_east_wind_bridge
+			c_north_minish_plains
+			c_central_minish_plains
+			c_east_minish_plains
+			c_south_minish_plains
+			c_west_minish_plains
+		}
+		d_minish_mountains = {
+			color={ 178 34 34 }
+			color2={ 30 30 30 }
+			capital = 610 # Middlesex
+			c_mount_crenal
+			c_crenal_base
+			c_veil_falls
+			c_veil_mountain
+		}
+		d_keatonia = {	
+			color={ 227 168 105 }
+			color2={ 176 23 31 }
+			capital = 637 # Middlesex	
+			c_keatonia
+			c_earth_temple
+			c_jewel_mines
+		}
+		d_castor_wilds= { #10
+			color={ 253 138 119 }
+			color2={ 0 0 0 }
+			capital = 623 # Middlesex
+			c_north_castor_wilds
+			c_south_castor_wilds
+			c_wind_city
+			c_fortress_of_winds
+			c_tower_of_winds
+			c_palace_of_winds
+			c_central_castor_wilds
+		}
+		d_royal_valey= {
+			color={ 82 184 220}
+			color2={ 0 0 0 }
+			capital = 623 # Middlesex
+			c_royal_crypt
+			c_north_royal_road
+			c_minish_hyrule_field
+			c_western_wood
+			c_trilby_highlands
+			c_royal_valley
+			c_minish_hyrule_castle
+		}
+		d_minish_savannah = {
+			color={ 189 183 107 }
+			color2={ 139 136 120 }
+			capital = 644 # Middlesex
+			c_acacia_point
+			c_west_acacia_savannah
+			c_south_acacia_savannah
+			c_east_acacia_savannah
+			c_north_acacia_savannah
+			c_acacia_island
+			c_port_minish
+		}
+}
+#hylians empires
+
+e_cobble = {
+	color={ 118 238 0 }
+	color2={ 238 232 170 }
+	capital = x1 # Middlesex
+	dignity = 10 # Counted as having this many more counties than it does
+	
+	# Creation/usurpation trigger
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture = cobble
+				culture = gravel
+				culture = pebble
+			}
+		}
+	}
+	k_cobble =  {
+		color={ 118 238 0 }
+		color2={ 238 232 170 }
+		capital = x1 # Middlesex
+		d_pyramid_lands = {
+		}
+		d_east_banan = {
+		}
+		d_monument_lands = {
+		}
+	}
+	k_gravel = {
+		color={ 110 123 139 }
+		color2={ 238 232 170 }
+		capital = 32 # Middlesex
+		d_gust_desert = {
+		}
+		d_zauz = {
+		}
+		d_west_banan = {
+			c_dee_ess
+		}
+	}
+	k_pebble = {
+		color={ 106 90 205 }
+		color2={ 238 232 170 }
+		capital = 32 # Middlesex
+		d_mercay= {
+		}
+		d_spirit_lands = {
+		}
+		d_ivory_coast = {
+		}
+	}
+	k_goron_mountains = {
+		color={ 139 26 26 }
+		color2={ 192 192 192 }
+		capital = 32 # Middlesex
+		d_goron_peak = {
+		}
+		d_frost_peaks = {
+		}
+	}
+
+k_mason =  = { #part of cobble 4 swords
+	color={ 244 164 96 }
+	color2={ 41 36 33 }
+	capital = 32 # Middlesex
+	d_ichiro = {
+	}
+	d_jiro = {
+	}
+	d_sabooro = {
+	}
+	d_shiro = {
+	}
+}
+k_auros = { #part of cobble oot
+	color={ 205 0 0 }
+	color2={ 139 69 19 }
+	capital = 388 # Middlesex 
+	d_auros = {
+		color={ 205 55 0 }
+		color2={ 225 225 255 }
+		capital = 388 # Middlesex
+		c_auros
+		c_fairy_garden
+	}
+	d_desma = {
+		color={ 85 107 47 }
+		color2={ 255 255 240 }
+		capital = 391 # Middlesex
+		c_yamatami
+		c_desma
+	}
+}
+#human empires
+e_holodrum = {
+	color={ 204 0 0 }
+	color2={ 255 255 255 }
+	capital = 349 # Middlesex
+	dignity = 10 # Counted as having this many more counties than it does
+
+	# Creation/usurpation trigger
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture = coco_goron
+				culture = horon
+				culture = deku_scrub
+				culture = subrosia
+			}
+		}
+	}
+	k_horon  = {
+		color={ 0 250 154 }
+		color2={ 85 107 47 }
+		capital = 342 # Middlesex
+		d_horon_plains = {
+			color={ 0 100 0 }
+			color2={ 240 255 255 }
+			capital = 343 # Middlesex
+			c_spool_fields
+			c_spool_swamp
+			c_holodrum_plain
+			c_fungus_woods
+			c_river_island
+			c_gnarled_root_island
+			c_north_horon
+			c_unicorn_field
+			c_horon_field
+		}
+		d_horon = {
+			color={ 0 250 154 }
+			color2={ 85 107 47 }
+			capital = 342 # Middlesex
+			c_holly_woods
+			c_snake_woods
+			c_gasha_woods
+			c_pupil_islands
+			c_maku_woods
+			c_moldrom_island
+			c_horon_field
+			c_horon
+			c_east_horon
+			c_geozard_bay
+			c_pirate_island
+		}
+		d_jungle_happiness = {
+			color={ 50 205 50 }
+			color2={ 255 255 255 }
+			capital = 376 # Middlesex
+			c_tarm_rainforest
+			c_ape_forest
+			c_jungle_city
+			c_jungle_of_happiness
+		}
+	}
+	k_holodrum = {
+		color={ 138 51 36 }
+		color2={ 205 173 0 }
+		capital = 342 # Middlesex
+		d_cucco = {
+			color={ 252 230 201 }
+			color2={ 210 180 140 }
+			capital = 342 # Middlesex
+			c_mount_cucco  = {
+			}
+			c_northern_peak
+			c_temple_mountain
+			c_holodrum_mountain
+			c_ore_mines
+			c_gates_of_subrosia
+		}
+		d_tarm = {
+			color={ 138 54 15 }
+			color2={ 255 245 238 }
+			capital = 371 # Middlesex
+			c_tarm_field
+			c_tarm
+		}
+		d_holodrum  = {
+			color={ 138 51 36 }
+			color2={ 205 173 0 }
+			capital = 342 # Middlesex
+			c_natzu
+			c_holodrum
+			
+		}
+	}
+	k_samasa  = {
+		color={ 250 250 210 }
+		color2={ 244 164 96 }
+		capital = 334 # Middlesex
+		d_east_samasa = {
+			color={ 205 133 0 }
+			color2={ 255 228 196 }
+			capital = 334 # Middlesex
+			c_east_samasa
+			c_samasa_gate
+			c_samasa_pyramids
+			c_pokey_plateau
+			c_samasa
+		}
+		d_west_samasa = {
+		color={ 193 255 193 }
+		color2={ 255 245 238 }
+		capital = 340 # Middlesex
+			c_samasa_oasis
+			c_shipwreck_beach
+			c_west_samasa
+			c_samasa Shores
+		}
+	}
+}
+e_labrynna = {
+	color={ 30 144 255 }
+	color2={ 250 250 210 }
+	capital = 331 # Middlesex
+	dignity = 10 # Counted as having this many more counties than it does
+	
+	# Creation/usurpation trigger
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture = sea_zora
+				culture = labrynna
+				culture = rolling_goron
+				culture = deku_scrub
+				culture = tokay
+			}
+		}
+	}
+	k_labrynna = {
+		color={ 39 64 139 }
+		color2={ 238 232 170 }
+		capital = 331 # Middlesex
+		d_lynna = {
+			color={ 138 43 226 }
+			color2={ 87 87 87}
+			capital = 286 # Middlesex
+			c_west_lynna
+			c_lyanna
+			c_black_tower
+			c_tower_shore
+			c_south_shore
+			c_south_lynna
+			c_sea_of_no_return
+			c_spirit_coast
+			c_yoll
+			c_poevale
+		}
+		d_labrynna = {
+			color={ 255 236 139 }
+			color2={ 138 51 36 }
+			capital = 342 # Middlesex
+			c_labrynna_palace
+			c_talus_peaks
+			c_talus_ridge
+			c_symmetry
+			c_labrynna_palace
+			c_nuun_highlands
+			c_maku_grove
+			c_forest_of_time
+			c_witchwoods
+		}
+		d_rolling_ridge = {
+			color={ 138 26 26}
+			color2={ 142 142 56 }
+			capital = 316 # Middlesex
+			c_cart_mines
+			c_mermaids_cave
+			c_crown_caverns
+			c_rolling_ridge
+			c_moblin_keep
+			c_nuun_mountains
+			c_restoration_peak
+			c_skull_mountains
+		}
+	}
+	k_storm_islands  = { #becomes zora islands
+		color={ 202 225 255 }
+		color2={ 255 127 80 }
+		capital = 299 # Middlesex
+		d_zora_islands = {
+			color={ 255 127 80 }
+			color2={ 255 255 0 }
+			capital = 298 # Middlesex
+			c_fairy_island
+			c_treasure_islands
+			c_eyeglass_island
+		}
+		d_zora_bay  = {
+			color={ 202 225 255 }
+			color2={ 255 250 205 }
+			capital = 299 # Middlesex
+			c_zora_cove
+			c_sand_island
+			c_palm_island
+			c_gale_island
+			c_zora_isles
+		}
+	}
+	k_tokay  = {
+		color={ 107 142 35 }
+		color2={ 192 255 62 }
+		capital = 288 # Middlesex
+		d_crescent_island = {
+			color={ 107 142 35 }
+			color2={ 255 239 213 }
+			capital = 288 # Middlesex
+			c_north_crescnet_island
+			c_south_crescent_island
+			c_central_crescent_island
+		}
+		d_minor_islands = {
+			color={ 192 255 62 }
+			color2={ 240 255 240 }
+			capital = 290 # Middlesex
+			c_moonlight_island
+			c_grotto_island
+			c_tokay_island
+		}
+	}
+}
+e_hytopia = {
+		color={ 179 160 205 }
+		color2={ 139 105 105 }
+		capital = 32 # Middlesex
+	k_drablands = {
+		color={ 139 105 105 }
+		color2={ 142 142 56 }
+		capital = 32 # Middlesex
+		d_south_drablands = {
+			color={ 139 69 19 }
+			color2={ 0 139 69 }
+			capital = 32 # Middlesex
+		}
+		d_drab_mountains = {
+			color={ 139 105 105 }
+			color2={ 113 113 198 }
+			capital = 32 # Middlesex
+		}
+		d_witch_highlands = {
+			color={ 139 35 35 }
+			color2={ 85 107 47 }
+			capital = 32 # Middlesex
+		}
+		d_witch_isles = {
+			color={ 255 127 36 }
+			color2={ 245 245 220 }
+			capital = 32 # Middlesex
+		}
+	}
+	k_fablands = {
+		color={ 179 160 205 }
+		color2={ 244 154 76 }
+		capital = 32 # Middlesex
+		hytopian = hytopia
+		d_west_fablands = {
+			color={ 179 160 205 }
+			color2={ 255 236 193 }
+			capital = 32 # Middlesex
+		}
+		d_east_fablands = {
+			color={ 244 154 76 }
+			color2={ 238 232 170 }
+			capital = 32 # Middlesex
+		}
+	}
+}
+#spirit continent
+e_spirit = {
+	color={ 72 96 104 }
+	color2={ 255 255 255 }
+	capital = 32 # Middlesex
+	dignity = 10 # Counted as having this many more counties than it does
+
+	hyrulean = New Hyrule
+	little_hyrulean = New Hyrule
+	west_hyrulean = New Hyrule
+	east_hyrulean = New Hyrule
+	cobble = New Cobble
+	pebble = New Cobble
+	gravel = New Cobble
+	ho_ho = Waywayway
+	labrynna = New Labrynna
+	horon = New Holodrum
+	
+	# Creation/usurpation trigger
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture = lokomo
+				culture = demon
+				culture = ho_ho
+				culture = labrynnan
+				culture = horon
+				culture = cobble
+				culture = pebble
+				culture = gravel
+				culture = hyrulean
+				culture = little_hyrulean
+				culture = west_hyrulean
+				culture = east_hyrulean
+			}
+		}
+	}
+	k_forest = {
+		color={ 34 139 34}
+		color2={ 255 255 255 }
+		capital = 32 # Middlesex
+		d_spirit_forest = {
+			color={ 48 128 20 }
+			color2={ 156 102 31 }
+			capital = 32 # Middlesex
+		}
+		d_adoba = {
+			color={ 113 198 113 }
+			color2={ 139 35 35 }
+			capital = 32 # Middlesex
+		}
+		d_spirit_plains = {
+			color={ 34 139 34 }
+			color2={ 139 35 35 }
+			capital = 32 # Middlesex
+		}
+		d_rabbit_land = {
+			color={ 142 142 56 }
+			color2={ 197 193 170 }
+			capital = 32 # Middlesex
+		}		
+	}
+	k_snow = {
+		color={ 255 250 250 }
+		color2={ 205 201 201 }
+		capital = 32 # Middlesex
+		d_wellspring = {
+			color={ 125 158 192 }
+			color2={ 211 211 211 }
+			capital = 32 # Middlesex
+		}
+		d_snow_plains = {
+			color={ 255 250 250 }
+			color2={ 105 105 105 }
+			capital = 32 # Middlesex
+		}
+	}
+	k_ocean = {
+		color={ 0 0 128 }
+		color2={ 198 226 255 }
+		capital = 32 # Middlesex
+		d_east_islands = {
+			color={ 51 161 201 }
+			color2={ 255 255 255 }
+			capital = 32 # Middlesex
+		}
+		d_west_islands = {
+			color={ 72 96 104 }
+			color2={ 255 255 255 }
+			capital = 32 # Middlesex
+		}
+		
+	}
+	k_fire = {
+		color={ 176 23 31 }
+		color2={ 139 90 0 }
+		capital = 32 # Middlesex
+		d_mountain_fire = {
+			color={ 72 96 104 }
+			color2={ 255 255 255 }
+			capital = 32 # Middlesex
+		}
+	}
+	k_sand = {
+		color={ 255 239 213 }
+		color2={ 139 69 19 }
+		capital = 32 # Middlesex
+		d_sand_temple = {
+			color={ 72 96 104 }
+			color2={ 255 255 255 }
+			capital = 32 # Middlesex
+		}
+		d_sand_sancuary = {
+			color={ 238 229 222 }
+			color2={ 250 250 210 }
+			capital = 32 # Middlesex
+		}
+	}
+}
+#gemlands
+e_rupee = {
+	color={ 176 23 31 }
+	color2={ 65 105 225 }
+	capital = 32 # Middlesex
+	dignity = 10 # Counted as having this many more counties than it does
+
+	gemlander = Gem
+	
+	# Creation/usurpation trigger
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture = gemlander
+				culture = demon
+				religion = uncle_rupee
+
+			}
+		}
+	}
+	k_emerald = {
+		color={ 0 201 87 }
+		color2={ 255 236 139 }
+		capital = 32 # Middlesex
+		d_peridot = { #jungle
+			color={ 189 252 201 }
+			color2={ 255 236 139 }
+			capital = 32 # Middlesex
+		}
+		d_turqoise = { #grasslands
+			color={ 0 245 255 }
+			color2={ 0 201 87 }
+			capital = 32 # Middlesex
+		}
+	}
+	k_ruby = {
+		color={ 255 0 0 }
+		color2={ 255 255 255 }
+		capital = 32 # Middlesex
+		d_garnet = { #desert
+			color={ 128 0 0 }
+			color2={ 255 255 255 }
+			capital = 32 # Middlesex
+		}
+		d_spinel = { #steppe
+			color={ 255 64 64 }
+			color2={ 255 255 255 }
+			capital = 32 # Middlesex
+		}
+	}
+	k_sapphire = {
+		d_zircon = { #upper desert
+			color={ 0 255 255 }
+			color2={ 255 236 139 }
+			capital = 32 # Middlesex
+		}
+		d_topaz = { #lower desert
+			color={ 191 239 255}
+			color2={ 238 201 0 }
+			capital = 32 # Middlesex
+		}
+	}
+}
+#nonhuman empires
+e_sea_tree = {
+	color={ 34 139 34}
+	color2={ 85 107 47 }
+	capital = 660 # Middlesex
+	k_kokiri = {
+		color={ 34 139 34}
+		color2={ 85 107 47 }
+		capital = 659 # Middlesex
+		d_kokiri_woods = {
+			color={ 255 0 0 }
+			color2={ 139 69 19 }
+			capital = 659 # Middlesex
+			c_forest_temple
+			c_sacred_forest_meadow
+			c_forest_stage
+			c_forest_gate
+			c_kokiri_lost_woods
+			c_kokiri
+			c_great_deku_tree_grove
+			c_forest_shrine
+			c_west_kokiri_forest
+			c_south_kokiri_forest
+			c_east_kokiri_forest
+		}
+	}
+	k_lost = {
+		color={ 0 100 0 }
+		color2={ 0 0 0 }
+		capital = 671 # Middlesex
+		d_lost_woods = {
+			color={ 34 139 34}
+			color2={ 85 107 47 }
+			capital = 671 # Middlesex
+			c_lost_woods
+			c_sword_woods
+		}
+	}
+	k_fairy = {
+		color={ 255 105 180 }
+		color2={ 245 255 250  }
+		capital = 303 # Middlesex
+		d_fairy_woods = {
+			color={ 255 225 255 }
+			color2={ 148 0 211 }
+			capital = 303 # Middlesex
+			c_mystery_woods
+			c_fairy_woods
+			c_deku_grove
+			c_wing_woods
+		}
+	}
+	k_minish = {
+		color={ 82 184 220}
+		color2={ 0 100 0 }
+		capital = 666 # Middlesex
+		d_minish = {
+			color={ 82 184 220}
+			color2={ 0 100 0 }
+			capital = 666 # Middlesex
+			c_hylia_swamp
+			c_minish_woods
+			c_minish_groves
+			c_east_hylia_woods
+			c_west_hylia_woods
+			c_thief_woods
+		
+		}
+	}
+}
+e_zuna = {
+	color={ 192 255 62 }
+	color2={ 255 255 224 }
+	capital = 666 # Middlesex
+	k_upper_zuna = {
+	color={ 192 255 62 }
+	color2={ 139 117 0 }
+	capital = 666 # Middlesex
+		d_iskandariyyah = {
+			color={ 255 185 15 }
+			color2={ 0 0 0 }			
+			capital = 802 # Alexandria
+			hytopian = dunes
+		}
+		d_kairo = {
+			color={ 100 219 134 }
+			color2={ 255 255 255 }			
+			capital = 802 # Alexandria
+		}
+		d_dumyat = {
+			color={ 3 255 74 }
+			color2={ 255 255 255 }			
+			capital = 798 # Damietta
+		}
+	}
+	k_lower_zuna = {
+	color={ 255 255 224 }
+	color2={ 255 165 0 }
+	capital = 666 # Middlesex
+		d_Sina = {
+			color={ 20 232 115 }
+			color2={ 255 255 255 }
+			capital = 796 # Cairo
+		}
+		d_aswan = {
+			color={ 41 188 120 }
+			color2={ 255 255 255 }			
+			capital = 794 # Aswan
+		}
+		d_zuna = { #despair
+			color={ 88 99 2 }
+			color2={ 255 255 255 }			
+			capital = 788 # Farama
+			zuna = Zuna
+		}
+	}
+}
+#hylian kingdoms
+
+k_calatia = {
+		color={ 78 116 197 }
+		color2={ 160 176 87 }
+		
+		capital = 43 #Gowrie
+}
+k_hoho = {
+		color={ 170 170 210 }
+		color2={ 220 220 220 }
+		
+		capital = 32 # Middlesex
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture_group = hylian_group
+				culture = yeti
+				culture = yook
+			}
+		}
+	}
+	d_ho = {
+		color={ 194 171 117 }
+		capital = 387 # Kola
+	}
+	d_ho_ho = {
+		color={ 150 75 75 }
+		color2={ 255 255 255 }			
+		capital = 378 # Kalevan
+	}
+	d_way = {
+		color={ 110 50 50 }
+		color2={ 255 255 255 }			
+		capital = 375 # Liivimaa
+	}
+	d_way_way = {
+		color={ 155 135 45 }
+		color2={ 255 255 255 }			
+		capital = 388 # Karjala
+	}
+}
+k_koridai = {
+		color={ 112 227 220 }
+		color2={ 220 75 44 }
+		
+		capital = 2 #Upper crater
+		allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture_group = hylian_group
+				religion_group = demon_group
+			}
+		}
+	}
+	d_koridai = {
+			color={ 161 83 0 }
+			color2={ 220 75 44 }
+			capital = 2
+		c_lower_crater = {
+			color={ 161 83 0 }
+			color2={ 220 75 44 }
+			
+			b_centrum = {}
+			b_glutko = {}
+			b_goronu = {}
+			b_toyku = {}
+		}
+		c_upper_crater = {
+			color={ 154 96 34 }
+			color2={ 220 75 44 }
+			b_firestone = {}
+			b_harlequin = {}
+			b_lupay = {}
+			b_militron = {}
+			b_nortinka = {}
+			b_serigon = {}
+		}
+		c_left_ear = {
+			color={ 250 162 68 }
+			color2={ 255 255 255 }
+			b_linekpa = {}
+			b_senu = {}
+			b_horay  = {}	
+		}
+		c_bite_mark = {	
+			color={ 248 143 29 }
+			color2={ 0 0 0 }
+			b_nerlen = {}
+			b_mitra = {}	
+		}
+		c_right_ear = {
+			color={ 160 94 23 }
+			color2={ 160 94 23 }
+			b_hunitra = {}
+			b_huqisto = {}
+		}
+		c_bend = {
+			color={ 154 108 58 }
+			color2={ 216 255 0 }
+			b_loren = {}
+			b_huitra = {}
+			b_surlu = {}	
+		}
+	}
+	d_chain = {
+		color={ 253 176 107 }
+		color2={ 150 83 24 }
+		capital = 11
+		c_menen  = {
+		
+			b_glepo = {}
+			b_gioro = {}
+			b_malonu = {}
+			b_cotra = {}
+		}	
+		c_lunen  = {
+			color={ 223 126 40 }
+			color2={ 218 193 170 }
+			b_lerere = {}
+			b_getra = {}
+			b_malonu = {}
+			b_cotra = {}
+		
+		}	
+		c_cotko  = {
+			color={ 102 255 0 }
+			color2={ 222 105 1 }
+		
+			b_ciqenu = {}
+			b_ceropo = {}
+		}	
+		c_suroro  = {
+			color={ 255 228 204 }
+			color2={ 247 204 255 }
+		
+			b_tuire = {}
+			b_huqin = {}
+		
+		}	
+		c_fokoqa  = {
+			color={ 253 176 107 }
+			color2={ 150 83 24 }
+		
+			b_gisten = {}
+			b_selere = {}
+		}	
+		c_coken  = {
+			color={ 252 148 56 }
+			color2={ 252 93 56 }
+		
+			b_tekum = {}
+			b_nukore = {}
+			b_tuqo = {}
+			b_hirotra = {}
+		}	
+		c_fetku  = {
+			color={ 255 121 0 }
+			color2={ 73 47 3}
+		
+			b_cigoru = {}
+			b_girla = {}
+			b_fatra = {}
+		}	
+	}
+}
+k_gamelon = {
+		color={ 214 18 0 }
+		color2={ 218 8 79 }		
+		capital = 167 #Gowrie
+		d_dodomai = {
+			color={ 0 178 238 }
+			color2={ 47 79 79 }		
+			capital = 167 #Gowrie
+			c_dodomai
+			c_ahitaru
+			c_shutoy
+			c_tykogi
+			c_sakado
+		}
+		d_aru_ainu = {
+			color={ 139 34 82 }
+			color2={ 250 250 210 }		
+			capital = 171 #Gowrie
+			c_aru_ainu
+			c_nokani
+			c_kobitan
+			c_reesong
+		}
+}
+#kingdoms
+k_arcadia = {
+		color={ 229 220 244 }
+		color2={ 78 116 197 }		
+		capital = 247 #Gowrie
+		d_arcadia = {
+			color={ 255 255 0 }
+			color2={ 255 255 255 }		
+			capital = 247 #Gowrie
+			c_arcadia
+			c_wosuia
+			c_xenonia
+			c_ardennia
+			c_rolandia
+			c_lyonia
+			c_pausania
+			c_hippodria
+			c_clovia
+			c_joyeusia
+			c_durendalia
+			c_facadia
+			c_acesia
+			c_capetia
+		}
+		d_curtania = {
+			color={ 240 230 140 }
+			color2={ 250 250 210 }		
+			capital = 262 #Gowrie
+			c_curtania
+			c_polia
+			c_stoicia
+			c_odyssia
+			c_doricia
+			c_tyria
+			c_peloponnia
+			c_tegia
+			c_megaria
+			c_batteria
+			c_aroania
+		}
+		d_louia = {
+			color={ 238 232 170 }
+			color2={ 0 0 0 }		
+			capital = 284 #Gowrie
+			c_agamemnia
+			c_argolia
+			c_ladonia
+			c_daigonia
+			c_syagria
+			c_aegidia
+			c_louia
+		}
+		d_silvania = {
+			color={ 255 255 255 }
+			color2={ 255 231 186 }		
+			capital = 257 #Gowrie
+			c_valoia
+			c_merovia
+			c_marcania
+			c_achenia
+			c_silvania
+			c_parnonia
+		}
+}
+k_tolemac = {
+		color={ 202 26 26 }
+		color2={ 255 255 255 }		
+		capital = 242 #Gowrie
+		d_skotness = {
+			color={ 0 139 69 }
+			color2={ 255 255 255 }		
+			capital = 228 #Gowrie
+			c_skotness
+			c_sea_island
+			c_findo
+			c_seacoast_plain
+			c_ogbam
+			c_larrocthest
+		}
+		d_canvula = {	
+			color={ 205 102 0 }
+			color2={ 250 240 230 }
+			capital = 236 #Gowrie
+			c_canvula
+			c_ubato
+			c_toria
+			c_armarob
+			c_glonna
+		}
+		d_sabasha = {
+			color={ 255 97 3 }
+			color2={ 205 197 191 }			
+			capital = 231 #Gowrie
+			c_north_subasha
+			c_subasha
+			c_ensilon
+			c_vendoss
+			c_hobel
+		}
+		d_tolemac = {
+			color={ 202 26 26 }
+			color2={ 255 255 255 }		
+			capital = 228 #Gowrie
+			c_triplet_coast
+			c_tolemac	
+			c_legatnit
+			c_nolava
+			c_talotsa
+			c_noelreac
+		}
+}
+k_western_isles = {
+	color={ 195 190 255 }
+	color2={ 128 128 0 }
+	capital = 387
+	d_frozen_isle = {
+		color={ 195 190 255 }
+		color2={ 220 220 220 }
+		capital = 387
+		c_icy_plain
+		c_icy_peak
+		c_snowfield
+	}
+	d_gooey isle = {
+		color={ 113 113 198 }
+		color2={ 224 102 255 }
+		capital = 381
+		c_gooey_swamp
+		c_insect_cavern
+		c_basecamp
+		c_codile_cove
+	}
+	d_steamy_isle = {
+		color={ 128 128 105 }
+		color2={ 255 248 220 }
+		capital = 378
+		c_steamy_marsh
+		c_kamonano
+		c_hiveville
+	}
+}
+k_moria = {
+	color={ 80 101 60 }
+	color2={ 255 0 0 }
+	capital = 31 
+	d_galfridia = {
+		color={ 119 136 153 }
+		color2={ 47 79 79 }
+		capital = 56 
+		c_ambadon
+		c_camlain
+		c_gilbadon
+		c_glennith
+		c_ardemoria
+		c_gauness
+		c_gargrail
+		c_galeas
+		c_galfridia	
+	}
+	d_grindle = {
+		color={ 139 71 93 }
+		color2={ 255 255 255 }
+		capital = 37
+		c_borodour
+		c_caliborn
+		c_swanpoint
+		c_lothodin
+		c_grindle_fields
+		c_grindle
+		c_anaurion
+		c_daleport
+		c_seawall
+		c_taprian
+		c_agravoron
+	}
+	d_moria = {
+		color={ 80 101 60 }
+		color2={ 255 0 0 }
+		capital = 31 
+		c_moria
+		c_bawang
+		c_maelgryn
+		c_mungar
+		c_suangma
+		c_maomong
+		c_malithoron
+		c_ereway
+		c_pagaung
+		c_bangrajang
+		c_lansang
+		c_mountain_gate
+		c_anadora
+	}
+	
+}
+k_port_isle = {
+	color={ 34 139 34 }
+	color2={ 0 0 255 }
+	capital = 176
+	d_port_isle = {
+		color={ 0 0 255 }
+		color2={ 34 139 34 }
+		capital = 176
+		c_port_town
+		c_hometown_prarie
+		c_deku_island
+		c_lon_lon_island
+		c_sunshine_seashore
+		c_cape_treasure
+		c_tingle_island
+		c_step_island
+	}
+
+}
+k_koholint = {
+	color={ 252 230 201 }
+	color2={ 232 32 152 }
+	capital = 216
+	d_tal_tal= {
+		color={ 232 32 152 }
+		color2={ 252 230 201 }
+		capital = 218
+		c_tal_tal_heights
+		c_tal_tal_mountains
+		c_goponga
+	}
+	d_ukuku = {
+		color={ 0 199 140 }
+		color2={ 255 64 64 }
+		capital = 216
+		c_kanalet
+		c_ukuku
+		c_toronbo
+		c_mabe
+	}
+}
+k_bastion = { #darknut
+	color={ 40 40 40 }
+	color2={ 139 0 0 }
+	capital = 216
+}
+k_myrddin = { #wizzrobe
+	color={ 135 206 255 }
+	color2={ 154 50 205 }
+	capital = 216
+}
+k_hanman = {
+	color={ 222 41 16 }
+	color2={ 255 222 0 }
+	capital = 72
+	d_singysia = {
+		color={ 237 41 57 }
+		color2={ 255 255 255 }
+		capital = 99
+		c_kimheon
+		c_seoran
+		c_famusa
+		c_arang
+		c_morusego
+		c_jinghan
+		c_minumchi
+		c_huodan
+		c_kanru
+	}
+	d_lost_desert = {
+		color={ 244 164 96 }
+		color2={ 255 222 0 }
+		capital = 160
+		c_quruman
+		c_hotho
+		c_kangso
+		c_huomen
+		c_makare
+		c_yitara
+		c_hakumul
+		c_makanlataka
+		c_durufen
+		c_sisashan
+		c_shamen
+	}
+	d_laong = {
+		color={ 206 17 38 }
+		color2={ 0 40 104 }
+		capital = 108
+		c_sukang
+		c_shisan
+		c_dangwu
+		c_lihan
+		c_viang
+		c_muang
+		c_khaohom
+		c_duyi
+		c_kukiel
+	}
+	d_nihpan = {
+		color={ 188 0 45 }
+		color2={ 255 255 255 }
+		capital = 130
+		c_yami
+		c_seroa
+		c_ataya
+		c_bunam
+		c_porapa
+		c_anyaho
+		c_putao
+		c_rakai
+		c_kaxa
+		c_siayasia
+		c_thao
+		c_kanakan
+	}
+	d_jappon = {
+		color={ 255 255 255 }
+		color2={ 188 0 45 }
+		capital = 117
+		c_daya
+		c_kaliman
+		c_aryuk
+		c_simang
+		c_mangyan
+		c_orang
+		c_kamba
+		c_tangra
+		c_paiwei
+		c_nurung
+		c_seludong
+		c_tundok
+		c_lusung
+	}
+	d_hanman = {
+		color={ 222 41 16 }
+		color2={ 255 222 0 }
+		capital = 72
+		c_sang
+		c_purajoho
+		c_sing
+		c_xang
+		c_hanman
+		c_batang
+		c_tuong
+		c_mayi
+		c_chonmul
+		c_jakali
+		c_gaomar
+		c_gorlang
+		c_shenma
+		c_xinang
+		c_suliming
+		
+	}
+	d_grand_hanman = {
+		color={ 255 222 0 }
+		color2={ 222 41 16 }
+		capital = 84
+		c_shire
+		c_changyi
+		c_omoni
+		c_sumbala
+		c_lumapa
+		c_horyul
+		c_haebal
+		c_deokmin
+		c_puyeo
+		c_jinla
+		c_changmo
+		c_damujin
+		c_baiman
+		c_sinwei
+		c_torugol
+	}
+	d_shanghua_islands = { #jade Islands
+		color={ 255 153 51 }
+		color2={ 18 136 7 }
+		capital = 153
+		c_kinisha
+		c_sapango
+		c_sajidao
+		c_yezima
+		c_odori
+		c_iburu
+		c_kakarima
+		c_sanbu
+		c_kabichi
+		c_kimchi
+		c_banro
+		c_daemashi
+	}
+
+}
+k_falsia = {
+	color={ 41 255 30 }
+	color2={ 250 250 210 }
+	capital = 60
+	d_falsia = {
+		color={ 41 255 30 }
+		color2={ 18 136 7 }
+		capital = 60
+		c_falsia
+		c_lachry
+		c_fetsia
+		c_farial
+	}
+	d_faria = {
+		color={ 34 139 34 }
+		color2={ 18 136 7 }
+		capital = 27
+		c_flower_gardens
+		c_faria
+		c_maku_sanctuary
+		c_hourglass_sands
+		c_west_faria
+		c_sundial_shores
+		c_beach_caves
+	}
+	d_proodyl = {
+		color={ 255 240 245 }
+		color2={ 18 136 7 }
+		capital = 15
+		c_clockwork
+		c_magma_mines
+		c_misty_marshes
+		c_vampire_crypt
+		c_westvale
+		c_zora_point
+		c_temple_of_light
+		c_proodyl
+		c_falsia_falls
+	}
+}
