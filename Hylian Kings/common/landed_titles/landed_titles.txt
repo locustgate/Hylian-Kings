@@ -32,6 +32,7 @@ e_hyrule_central = {
 	ordonion="Ordon"
 	kakarikon="Kakariko"
 	skylofter="Grooseland"
+	dynasty_title_names = no
 	
 	# Creation/usurpation trigger
 	allow = {
@@ -55,6 +56,7 @@ e_hyrule_central = {
 		moblin="Bokomon"
 		bulblin="Bokomon"
 		bokoblin="Bokomon"
+		dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 			OR = {
@@ -313,6 +315,7 @@ e_hyrule_central = {
 		moblin="Bullin"
 		bulblin="Bullin"
 		bokoblin="Bullin"
+		dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 			OR = {
@@ -570,6 +573,7 @@ e_hyrule_central = {
 		moblin="Bulomon"
 		bulblin="Bulomon"
 		bokoblin="Bulomon"
+	dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 			OR = {
@@ -853,6 +857,7 @@ e_hyrule_central = {
 		color={ 249 228 83 }
 		color2={ 255 255 255 }
 		capital = 589 # ordon
+		dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 			OR = {
@@ -1130,6 +1135,7 @@ e_hyrule_central = {
 		color={ 190 218 255 }
 		color2={ 255 255 255 }
 		capital = 579 # Snow Top Manor
+	dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 			OR = {
@@ -1149,24 +1155,24 @@ e_hyrule_central = {
 			color2={ 255 255 255 }
 			capital = 579 # Snow Top Manor		
 			c_snowpeak_ascent = {
-				color={ 139 117 0 }
+				color={ 0 36 118 }
 				color2={ 255 255 255 }
 				b_moldia = {}
 				b_edoryia = {}
 			}
 			c_snowpeak_top = {
-				color={ 139 117 0 }
+				color={ 0 228 255 }
 				color2={ 255 255 255 }
 				b_madotun = {}
 				b_nanoko = {}
 			}
 			c_snowpeak_watchtower = {
-				color={ 139 117 0 }
+				color={ 250 188 0 }
 				color2={ 255 255 255 }
 				b_luraryu = {}
 			}
 			c_snowpeak_slopes = {
-				color={ 139 117 0 }
+				color={ 255 255 255 }
 				color2={ 255 255 255 }
 				b_nusilu = {}
 				b_onodelu = {}
@@ -1178,7 +1184,7 @@ e_hyrule_central = {
 				b_edotia = {}
 			}
 			c_snowpeak_manor = {
-				color={ 139 117 0 }
+				color={ 164 145 66 }
 				color2={ 255 255 255 }
 				b_snowpeak_manor = {}
 			}
@@ -1217,6 +1223,7 @@ e_hyrule_central = {
 		color2={ 255 255 255 }
 		capital = 484 # Hyrule Castle
 		dignity = 50 # Counted as having this many more counties than it does
+	dynasty_title_names = no
 
 		allow = {
 			OR = {
@@ -1521,7 +1528,7 @@ e_mudora = { #empire
 	color2={ 255 255 255 }
 	capital = 423 # Middlesex
 	dignity = 5 # Counted as having this many more counties than it does
-	
+	dynasty_title_names = no	
 	allow = {
 		hidden_tooltip = {
 			OR = {
@@ -1532,8 +1539,6 @@ e_mudora = { #empire
 				culture = darknut
 				culture = hanman
 				culture = hylian_hanman
-				culture = bulblin
-				culture = moblin
 			}
 		}
 	}
@@ -1543,6 +1548,7 @@ e_mudora = { #empire
 		color={ 0 170 0 }
 		color2={ 255 255 255 }
 		capital = 423 # Middlesex
+		dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -1766,6 +1772,7 @@ e_mudora = { #empire
 		color={ 112 128 144 }
 		color2={ 222 184 135 }
 		capital = 444 # Middlesex
+	dynasty_title_names = no
 		d_south_death_mountains = {
 			color={ 112 128 144 }
 			color2={ 222 184 135 }
@@ -1833,6 +1840,7 @@ e_mudora = { #empire
 		color={ 222 184 135 }
 		color2={ 128 0 0 }
 		capital = 421 # Middlesex
+	dynasty_title_names = no
 		d_desert_of_mystery = {
 			color={ 222 184 135 }
 			color2={ 128 0 0 }
@@ -1870,6 +1878,7 @@ e_mudora = { #empire
 		color={ 127 255 0 }
 		color2={ 176 224 230 }
 		capital = 392 # Middlesex
+	dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -2036,6 +2045,7 @@ e_saria = { #empire
 	little_hyrulean="Hyrule"
 	west_hyrulean="Hyrule"
 	east_hyrulean="Hyrule"
+	dynasty_title_names = no
 	
 	# Creation/usurpation trigger
 	allow = {
@@ -2063,6 +2073,7 @@ e_saria = { #empire
 		east_hyrulean="E Hyrule"
 		west_hyrulean="E Hyrule"
 		little_hyrulean="E Hyrule"
+	dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -2186,6 +2197,7 @@ e_saria = { #empire
 		color2={ 255 255 23 }
 		capital = 196 # Middlesex
 		dignity = 10 # Counted as having this many more counties than it does
+	dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -2364,6 +2376,7 @@ e_saria = { #empire
 		little_hyrulean="Little Hyrule"
 		east_hyrulean="Little Hyrule"
 		west_hyrulean="Little Hyrule"
+	dynasty_title_names = no
 		
 		d_east_death_mountains= {
 			color={ 189 94 27 }
@@ -2450,6 +2463,7 @@ e_moria = {#empire
 	color2={ 255 0 0 }
 	capital = 31 
 	gridnle="Grindle"
+	dynasty_title_names = no
 	
 	allow = {
 		hidden_tooltip = {
@@ -2459,7 +2473,6 @@ e_moria = {#empire
 				culture = grindle
 				culture = hanman
 				culture = hylian_hanman
-				culture = moblin
 				culture = deku_scrub
 			}
 		}
@@ -2468,6 +2481,7 @@ e_moria = {#empire
 		color={ 119 136 153 }
 		color2={ 47 79 79 }
 		capital = 56 
+	dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -2580,6 +2594,7 @@ e_moria = {#empire
 		color={ 139 71 93 }
 		color2={ 255 255 255 }
 		capital = 37
+	dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -2706,6 +2721,7 @@ e_moria = {#empire
 		color={ 80 101 60 }
 		color2={ 255 0 0 }
 		capital = 31 
+	dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -2858,11 +2874,12 @@ e_sea_tree = {
 		color={ 255 0 0 }
 		color2={ 255 255 255 }
 		capital = 659
+		dynasty_title_names = no
 		allow = {
 			OR ={
 				culture = kokiri
-				culture = tree_demon
-				culture = kokiri
+				culture = skull_kid
+				#culture = kokiri
 			}
 		}
 		d_kokiri_woods = {
@@ -3238,10 +3255,11 @@ e_sea_tree = {
 		color={ 0 100 0 }
 		ccolor2={ 255 255 255 }
 		capital = 716
+	dynasty_title_names = no
 		allow = {
 			OR ={
 				culture = kokiri
-				culture = tree_demon
+				culture = skull_kid
 				culture = great_fairy
 				culture = deku_scrub
 			}
@@ -3593,10 +3611,11 @@ e_sea_tree = {
 		color={ 255 105 180 }
 		color2={ 245 255 250  }
 		capital = 757
+	dynasty_title_names = no
 		allow = {
 			OR ={
 				culture = kokiri
-				culture = tree_demon
+				culture = skull_kid
 				culture = great_fairy
 				culture = deku_scrub
 			}
@@ -3871,11 +3890,12 @@ e_sea_tree = {
 	k_minish = {
 		color={ 0 77 164 }
 		color2={ 0 100 0 }
-		capital = 666	
+		capital = 666
+	dynasty_title_names = no	
 		allow = {
 			OR ={
 				culture = kokiri
-				culture = tree_demon
+				culture = skull_kid
 				culture = great_fairy
 			}
 		}	
@@ -4126,8 +4146,9 @@ e_sea_tree = {
 }
 e_hanman = {
 	color={ 222 41 16 }
-	color2={ 255 222 0 }
+	color2={ 255 255 255 }
 	capital = 72
+	dynasty_title_names = no
 	allow = {
 		OR ={
 			ai = no
@@ -4137,10 +4158,11 @@ e_hanman = {
 	}
 	k_lost_desert = {
 		color={ 244 164 96 }
-		color2={ 255 222 0 }
+		color2={ 255 255 255 }
 		hanman="Pinjing"
 		hylian_hanman="Pinjing"
 		capital = 156
+	dynasty_title_names = no
 		allow = {
 			OR ={
 				ai = no
@@ -4154,7 +4176,7 @@ e_hanman = {
 		
 		d_hotho = {
 			color={ 244 135 42 }
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			capital = 156
 
 			c_hotho = { #todo
@@ -4200,7 +4222,7 @@ e_hanman = {
 		}
 		d_quruman = {
 			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			capital = 165
 			
 			c_quruman = {
@@ -4245,6 +4267,7 @@ e_hanman = {
 		color={ 206 17 38 }
 		color2={ 0 40 104 }
 		capital = 99	
+	dynasty_title_names = no
 		allow = {
 			OR ={
 				ai = no
@@ -4258,12 +4281,12 @@ e_hanman = {
 		
 		d_kimheon = {
 			color={ 206 17 38 }
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			capital = 99
 			
 			c_kimheon = {
 				color={ 30 0 255 }
-				color2={ 255 222 0 }
+				color2={ 255 255 255 }
 				
 				b_kimheon = {}
 				b_duano = {}
@@ -4304,7 +4327,7 @@ e_hanman = {
 		}
 		d_jinghan = {
 			color={ 255 22 48 }
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			capital = 104
 			
 			c_jinghan = {
@@ -4345,7 +4368,7 @@ e_hanman = {
 		}
 		d_yami = {
 			color={ 136 0 15}
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			capital = 130
 			
 			c_yami = {
@@ -4380,7 +4403,7 @@ e_hanman = {
 			}
 			c_porapa = {
 				color={ 166 63 153 }
-				color2={ 255 222 0 }
+				color2={ 255 255 255 }
 				
 				b_porapa = {}
 				b_shaowi = {}
@@ -4395,7 +4418,7 @@ e_hanman = {
 		}
 		d_putao = {
 			color={ 176 78 89 }
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			capital = 136
 			
 			c_putao = {
@@ -4442,6 +4465,7 @@ e_hanman = {
 		color={ 255 255 255 }
 		color2={ 188 0 45 }
 		capital = 108
+	dynasty_title_names = no
 		allow = {
 			OR ={
 				ai = no
@@ -4455,7 +4479,7 @@ e_hanman = {
 		
 		d_sukang = {
 			color={ 255 255 255 }
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			capital = 108
 			
 			c_sukang = {
@@ -4489,7 +4513,7 @@ e_hanman = {
 		}
 		d_viang = {
 			color={ 221 221 221 }
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			capital = 112
 			
 			c_viang = {
@@ -4573,7 +4597,7 @@ e_hanman = {
 			
 			c_simang = {
 				color={ 172 16 16 }
-				color2={ 255 222 0 }
+				color2={ 255 255 255 }
 				
 				b_simang = {}
 				b_dudari = {}
@@ -4607,7 +4631,7 @@ e_hanman = {
 			}
 			c_tangra = {
 				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color2={ 255 255 255 }
 				
 				b_tangra = {}
 				b_duaka = {}
@@ -4660,8 +4684,9 @@ e_hanman = {
 	}
 	k_hanman = {
 		color={ 222 41 16 }
-		color2={ 255 222 0 }
+		color2={ 255 255 255 }
 		capital = 72
+	dynasty_title_names = no
 		allow = {
 			OR ={
 				ai = no
@@ -4674,7 +4699,7 @@ e_hanman = {
 		}
 		d_hanman = {
 			color={ 222 41 16 }
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			capital = 72
 			
 			c_purajoho = {
@@ -4721,7 +4746,7 @@ e_hanman = {
 		}
 		d_tuong = {
 			color={ 166 33 14 }
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			capital = 74
 		
 			c_tuong	 = {
@@ -4761,7 +4786,7 @@ e_hanman = {
 		}
 		d_jakali = {
 			color={ 158 71 59 }
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			capital = 77
 		
 			c_jakali = {
@@ -4783,7 +4808,7 @@ e_hanman = {
 			}
 			c_shenma = {
 				color={ 137 0 0 }
-				color2={ 255 222 0 }
+				color2={ 255 255 255 }
 				
 				b_pakung = {}
 				b_sorin = {}
@@ -4799,12 +4824,12 @@ e_hanman = {
 		}
 		d_xinang = {
 			color={ 205 25 0 }
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			capital = 81
 		
 			c_xinang = {
 				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color2={ 255 255 255 }
 				
 				b_chine = {}
 				b_khasaleng = {}
@@ -4840,12 +4865,12 @@ e_hanman = {
 		}	
 		d_changyi = {
 			color={ 203 90 74 }
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			capital = 85
 		
 			c_shire = {
 				color={ 244 164 96 }
-				color2={ 255 222 0 }
+				color2={ 255 255 255 }
 				
 				b_suju = {}
 				b_otuming = {}
@@ -4890,7 +4915,7 @@ e_hanman = {
 		}
 		d_lumapa = {
 			color={ 105 13 0 }
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			capital = 88
 		
 			c_lumapa = {
@@ -4943,7 +4968,7 @@ e_hanman = {
 		}
 		d_puyeo = {
 			color={ 173 97 87 }
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			capital = 92
 		
 			c_puyeo = {
@@ -4966,7 +4991,7 @@ e_hanman = {
 		}
 		d_changmo = {
 			color={ 225 94 76 }
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			capital = 94
 		
 			c_changmo = {
@@ -4991,6 +5016,7 @@ e_hanman = {
 		color={ 0 168 107 }
 		color2={ 18 136 7 }
 		capital = 144
+	dynasty_title_names = no
 		
 		hylian_hanman="Shanghua"
 		hanman="Shanghua"
@@ -5132,6 +5158,7 @@ e_holodrum = {
 	color2={ 255 255 255 }
 	capital = 349
 	dignity = 10 
+	dynasty_title_names = no
 
 	allow = {
 		hidden_tooltip = {
@@ -5150,6 +5177,7 @@ e_holodrum = {
 		color={ 204 188 5 }
 		color2={ 255 255 255 }
 		capital = 359
+		dynasty_title_names = no
 		allow = {
 			culture = subrosian
 		}
@@ -5159,7 +5187,7 @@ e_holodrum = {
 			capital = 359
 			c_gates_of_subrosia = {			
 				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color2={ 255 255 255 }
 				holy_site = fire_spirit
 				b_great_subrosia_gates = {}
 				b_subrosia_village = {}
@@ -5169,7 +5197,7 @@ e_holodrum = {
 			}
 			c_ore_mines = {			
 				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color2={ 255 255 255 }
 				b_subrosian_volcanoes = {}
 				b_subrosia_mines = {}
 				b_subrosia_smithy = {}
@@ -5181,8 +5209,8 @@ e_holodrum = {
 			color2={ 255 255 255 }
 			capital = 346
 			c_pupil_islands = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 43 230 0 }
+				color2={ 255 255 255 }
 				b_southern_subrosian_gate = {}
 				b_subrosia_shore = {}
 				b_lava_lake = {}
@@ -5194,6 +5222,7 @@ e_holodrum = {
 		color={ 249 64 8 }
 		color2={ 255 255 255 }
 		capital = 342
+		dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -5211,28 +5240,28 @@ e_holodrum = {
 			color2={ 240 255 255 }
 			capital = 342
 			c_east_horon = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 250 0 0 }
+				color2={ 255 255 255 }
 				b_suburb_guard_post = {}
 				b_windmill_cave = {}
 				b_horon_suburbs = {}
 			}
 			c_horon = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 150 0 0 }
+				color2={ 255 255 255 }
 				b_ruul_keep = {}
 				b_horon_fountain = {}
 				b_horon_village = {}
 				b_horon_gate = {}
 			}
 			c_moldorm_island = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 0 13 180 }
+				color2={ 255 255 255 }
 				b_moldorm_island = {}
 			}
 			c_western_coast = {	
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 250 188 0 }
+				color2={ 255 255 255 }
 							b_horon_lightkeep = {}
 				b_holodrum_cemetary = {}
 				b_western_horon_suburb = {}
@@ -5243,21 +5272,21 @@ e_holodrum = {
 			color2={ 240 255 255 }
 			capital = 343
 			c_horon_field = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 132 0 148 }
+				color2={ 255 255 255 }
 				b_colo = {}
 				b_tokal = {}
 			}
 			c_unicorn_field = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 41 92 144 }
+				color2={ 255 255 255 }
 				b_unicorns_cave = {}
 				b_cotzo = {}
 				b_horan = {}
 			}
 			c_north_horon	 = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 0 176 248 }
+				color2={ 255 255 255 }
 				b_blaino = {}
 				b_quicksand_cave = {}
 				b_camu = {}
@@ -5269,32 +5298,32 @@ e_holodrum = {
 			color2={ 240 255 255 }
 			capital = 345
 			c_gasha_woods = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 5 124 2 }
+				color2={ 255 255 255 }
 				b_pasu = {}
 				b_tama = {}
 			}
 			c_snake_woods = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 38 38 38 }
+				color2={ 255 255 255 }
 				b_cotzu = {}
 				b_sakuku = {}
 			}
 			c_holly_woods = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 124 88 2 }
+				color2={ 255 255 255 }
 				b_mokako = {}
 				b_sasakon = {}
 			}
 			c_maku_woods = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }				
+				color={ 204 0 0 }
+				color2={ 255 255 255 }				
 				holy_site = great_maku	
 				b_maku_grove_of_horon = {}
 				b_maku_gate = {}
 			}
 			c_holodrum_forest = {
-				color={ 34 139 34}
+				color={ 43 204 0 }
 				color2={ 255 255 255 }
 				b_miloro_2 = {}
 				b_kedia_2 = {}
@@ -5308,27 +5337,27 @@ e_holodrum = {
 			color2={ 240 255 255 }
 			capital = 364
 			c_fungus_woods = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 194 16 24 }
+				color2={ 255 255 255 }
 				b_makaram = {}
 				b_pomorm = {}
 				b_tomom = {}
 			}
 			c_river_island = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }				
+				color={ 162 31 14 }
+				color2={ 255 255 255 }				
 				b_river_island = {}
 			}
 			c_holodrum_plain = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 87 130 104 }
+				color2={ 255 255 255 }
 				b_rickys_enclave = {}
 				b_hurm = {}
 				b_horomu = {}
 			}
 			c_gnarled_root_island = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 224 211 0 }
+				color2={ 255 255 255 }
 				b_gnarled_root = {}
 			}
 		}
@@ -5337,31 +5366,31 @@ e_holodrum = {
 			color2={ 240 255 255 }
 			capital = 370
 			c_spool_fields = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 0 86 149 }
+				color2={ 255 255 255 }
 				b_tamu = {}
 				b_sukon = {}
 				b_moomun = {}
 				b_mokara = {}
 			}
 			c_spool_swamp = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 136 46 38 }
+				color2={ 255 255 255 }
 				b_floodgate_keep = {}
 				b_poison_moths_lair = {}
 				b_spalu = {}
 			}
 			c_holodrum_docks = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 3 115 37 }
+				color2={ 255 255 255 }
 				b_heros_cave = {}
 				b_pirates_dock = {}
 				b_ghini_house = {}
 				
 			}
 			c_geozard_bay = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 0 128 255 }
+				color2={ 255 255 255 }
 				b_hokon = {}
 				b_pamu = {}
 			}
@@ -5371,15 +5400,15 @@ e_holodrum = {
 			color2={ 255 255 255 }
 			capital = 376
 			c_ape_forest = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 0 86 148 }
+				color2={ 255 255 255 }
 				b_mamom = {}
 				b_tamu_2 = {}
 				b_cadra_2 = {}
 			}
 			c_jungle_city = {			
 				color={ 193 255 193 }
-				color2={ 255 245 238 }				
+				color2={ 255 255 255 }				
 				holy_site = great_maku	
 				b_vine_keep = {}
 				b_jungle_city = {}
@@ -5388,14 +5417,14 @@ e_holodrum = {
 			}
 			c_jungle_of_happiness = {			
 				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color2={ 255 255 255 }
 				b_pamu_2 = {}
 				b_mamul = {}
 				b_cotza = {}
 			}
 			c_pirate_island = {			
 				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color2={ 255 255 255 }
 				b_pirate_keep = {}
 			}
 		}
@@ -5404,6 +5433,7 @@ e_holodrum = {
 		color={ 138 51 36 }
 		color2={ 205 173 0 }
 		capital = 362
+		dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -5422,8 +5452,8 @@ e_holodrum = {
 			color2={ 210 180 140 }
 			capital = 357
 			c_mount_cucco = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 61 132 126 }
+				color2={ 255 255 255 }
 				holy_site = wizzrobe_doctrine
 				b_dancing_dragon = {}
 				b_mushroom_cave = {
@@ -5431,8 +5461,8 @@ e_holodrum = {
 				}
 			}
 			c_cucco_vale = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 132 61 128 }
+				color2={ 255 255 255 }
 				b_molkul = {}
 				b_cakul = {}
 				b_madra = {}
@@ -5443,15 +5473,15 @@ e_holodrum = {
 			color2={ 210 180 140 }
 			capital = 362
 			c_goron_mountain = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 0 112 220 }
+				color2={ 255 255 255 }
 				holy_site = earth_spirit
 				b_holodrum_pinacle = {}
 				b_goron_cave = {}
 			}
 			c_temple_mountain = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 0 112 220 }
+				color2={ 255 255 255 }
 				holy_site = darknut_doctrine
 
 				b_winter_tower = {}
@@ -5461,8 +5491,8 @@ e_holodrum = {
 				b_season_temple_base = {}
 			}
 			c_northern_peak = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 41 41 41 }
+				color2={ 255 255 255 }
 				b_peak_castle = {}
 			}			
 		}
@@ -5471,21 +5501,21 @@ e_holodrum = {
 			color2={ 210 180 140 }
 			capital = 352
 			c_natzu = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 48 137 4 }
+				color2={ 255 255 255 }
 				b_natzu_prairie = {}
 				b_natzu_river = {}
 				b_natzu_wasteland = {}
 			}
 			c_moblin_tower = {			
 				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color2={ 255 255 255 }
 				b_moblin_tower = {}
 				b_porm = {}
 			}
 			c_holodrum = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 204 144 0 }
+				color2={ 255 255 255 }
 				b_holodrum = {}
 				b_holodrum_village = {}
 				b_holodrum_temple = {}
@@ -5494,11 +5524,11 @@ e_holodrum = {
 		}
 		d_tarm = {
 			color={ 181 31 5 }
-			color2={ 255 245 238 }
+			color2={ 255 255 255 }
 			capital = 371
 			c_tarm_field = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 77 198 42 }
+				color2={ 255 255 255 }
 				
 				b_cadra = {}
 				b_naldu = {}
@@ -5506,14 +5536,14 @@ e_holodrum = {
 				b_tomolu = {}
 			}
 			c_tarm = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 187 0 7 }
+				color2={ 255 255 255 }
 				b_ancient_tower = {}
 				b_tarm_fountain = {}
 			}
 			c_tarm_rainforest = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 250 188 0 }
+				color2={ 255 255 255 }
 				b_hor = {}
 				b_padra = {}
 				b_hoson = {}
@@ -5524,6 +5554,7 @@ e_holodrum = {
 		color={ 250 250 210 }
 		color2={ 244 164 96 }
 		capital = 334
+		dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -5543,25 +5574,25 @@ e_holodrum = {
 			color2={ 255 228 196 }
 			capital = 334
 			c_east_samasa = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 156 99 49 }
+				color2={ 255 255 255 }
 				b_totzu = {}
 				b_nokon = {}
 			}
 			c_samasa_gate = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 188 0 7 }
+				color2={ 255 255 255 }
 				b_samasa_gate = {}
 			}
 			c_samasa_pyramids = {			
 				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color2={ 255 255 255 }
 				b_lesser_pyramid_of_samasa = {}
 				b_great_pyramid_of_samasa = {}
 			}
 			c_samasa = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 0 13 180 }
+				color2={ 255 255 255 }
 				b_hulu = {}
 				b_spulda = {}
 				b_matzu = {}
@@ -5569,34 +5600,34 @@ e_holodrum = {
 		}
 		d_west_samasa = {
 			color={ 255 255 135 }
-			color2={ 255 245 238 }
+			color2={ 255 255 255 }
 			capital = 340
 			c_pokey_plateau = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 188 0 7 }
+				color2={ 255 255 255 }
 				b_takon = {}
 				b_solan = {}
 			}
 			c_samasa_oasis = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 188 0 7 }
+				color2={ 255 255 255 }
 				b_salun = {}
 			}
 			c_shipwreck_beach = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 0 89 148 }
+				color2={ 255 255 255 }
 				b_patzu = {}
 				b_molda = {}
 			}
 			c_west_samasa = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 0 167 8 }
+				color2={ 255 255 255 }
 				b_tomuru = {}
 				b_culutzan = {}
 			}
 			c_samasa_shores = {			
-				color={ 193 255 193 }
-				color2={ 255 245 238 }
+				color={ 251 163 29 }
+				color2={ 255 255 255 }
 				b_toman = {}
 				b_tomu = {}
 				b_tola = {}
@@ -5609,7 +5640,7 @@ e_labrynna = {
 	color2={ 250 250 210 }
 	capital = 331
 	dignity = 10
-	
+	dynasty_title_names = no	
 	allow = {
 		hidden_tooltip = {
 			OR = {
@@ -5628,6 +5659,7 @@ e_labrynna = {
 		color={ 39 64 139 }
 		color2={ 238 232 170 }
 		capital = 331	
+		dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -5870,6 +5902,7 @@ e_labrynna = {
 		color={ 202 225 255 }
 		color2={ 255 127 80 }
 		capital = 294
+		dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -5951,6 +5984,7 @@ e_labrynna = {
 		color={ 107 142 35 }
 		color2={ 192 255 62 }
 		capital = 289
+		dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -6016,15 +6050,14 @@ e_calatia = {
 		color={ 78 116 197 }
 		color2={ 160 176 87 }
 		capital = 794
+		dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
 					ai = no
 					culture = calatian
 					culture_group = lost_tribe
-					culture = moblin
 					culture = lake_zora
-					culture = lizalfos
 				}
 			}
 		}
@@ -6032,6 +6065,7 @@ e_calatia = {
 		k_calatia = {
 			color={ 150 75 75 }
 			color2={ 160 176 87 }
+			dynasty_title_names = no
 			allow = {
 				hidden_tooltip = {
 					OR = {
@@ -6273,7 +6307,8 @@ e_calatia = {
 		}
 		k_enatolia = {
 		color={ 78 116 197 }
-		color2={ 160 176 87 }		
+		color2={ 160 176 87 }	
+			dynasty_title_names = no	
 			capital = 818
 			allow = {
 				hidden_tooltip = {
@@ -6521,6 +6556,7 @@ e_ho_ho = {
 	color={ 83 54 48 }
 	color2={ 209 210 212 }
 	capital = 871
+	dynasty_title_names = no
 	
 	allow = {
 		hidden_tooltip = {
@@ -6538,6 +6574,7 @@ e_ho_ho = {
 		color={ 203 153 0 }
 		color2={ 232 232 232 }
 		capital = 871
+		dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -6764,6 +6801,7 @@ e_ho_ho = {
 		color={ 168 95 78 }
 		color2={ 205 206 208 }
 		capital = 897
+		dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -7043,6 +7081,7 @@ e_ho_ho = {
 		color={ 250 188 0 }
 		color2={ 0 156 255 }
 		capital = 550
+		dynasty_title_names = no
 		
 		yeti="Yeti La"
 		
@@ -7149,6 +7188,7 @@ e_ho_ho = {
 		color2={ 255 255 255 }
 		capital = 904
 		yeti=Yetari
+		dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -7366,6 +7406,7 @@ k_howgendoogen_league = {
 	color2={ 237 192 0 }
 	capital = 937 # rii
 	culture = ho_ho
+	dynasty_title_names = no
 	
 	title="CHAIRMAN"
 	title_female="CHAIRWOMAN"
@@ -7427,6 +7468,7 @@ k_zora_domain = {
 	color={ 51 90 169 }
 	color2={ 158 131 42 }
 	capital = 474 # Zora Domain
+	dynasty_title_names = no
 	
 	allow = {
 		culture = lake_zora
@@ -7506,6 +7548,7 @@ k_north_domain = {
 	color={ 255 127 80 }
 	color2={ 234 212 77 }
 	capital = 567 # Zora Domain
+	dynasty_title_names = no
 	
 	allow = {
 		culture = lake_zora
@@ -7572,6 +7615,7 @@ k_zora_valley = {
 	color={ 0 194 137 }
 	color2={ 158 131 42 }
 	capital = 436 # Zora Domain
+	dynasty_title_names = no
 	
 	#lake_zora = Waterfall Domain
 	
@@ -7611,6 +7655,7 @@ k_west_death_mountains = {
 	color={ 168 5 0 }
 	color2={ 91 100 100 }
 	capital = 540 # Great Death Mountain
+	dynasty_title_names = no
 	allow = {
 		OR = {
 		culture_group = goron_group
@@ -7687,6 +7732,7 @@ k_west_death_mountains = {
 k_death_mountain = {
 	color={ 168 5 0 }
 	color2={ 91 100 100 }
+	dynasty_title_names = no
 	capital = 466
 	d_dodongo_pass = {
 		color={ 219 7 0 }
@@ -7782,6 +7828,7 @@ k_death_mountain = {
 k_hyrule_minish = { #Minish
 	color={ 82 184 220 }
 	color2={ 253 138 119 }
+	dynasty_title_names = no
 	capital = 623
 	dignity = 5 # Counted as having this many more counties than it does
 	allow = {
@@ -8114,6 +8161,7 @@ k_girrin = {
 	color={ 233 181 0 }
 	color2={ 139 136 120 }
 	capital = 652
+	dynasty_title_names = no
 	allow = {
 		culture=girrin
 	}
@@ -8198,6 +8246,7 @@ k_keatonia = {
 	color={ 207 93 0 }
 	color2={ 176 23 31 }
 	capital = 637 # Middlesex
+	dynasty_title_names = no
 	allow={
 		culture=keaton
 	}
@@ -8233,6 +8282,7 @@ k_keatonia = {
 k_koridai = {
 		color={ 112 227 220 }
 		color2={ 220 75 44 }
+	dynasty_title_names = no
 		
 		capital = 2 #Upper crater
 		allow = {
@@ -8375,6 +8425,7 @@ k_falsia = {
 	color={ 41 255 30 }
 	color2={ 250 250 210 }
 	capital = 60
+	dynasty_title_names = no
 	allow = {
 		hidden_tooltip = {
 			OR = {
@@ -8595,6 +8646,7 @@ k_gamelon = {
 	color={ 214 0 196 }
 	color2={ 218 8 79 }		
 	capital = 167
+	dynasty_title_names = no
 	
 	allow = {
 		hidden_tooltip = {
@@ -8686,6 +8738,7 @@ k_port_isle = {
 	deku_scrub="Deku Isles"
 	kokiri="Deku Isles"
 	great_fairy="Fairy Isles"
+	dynasty_title_names = no
 	
 	
 	allow = {
@@ -8772,6 +8825,7 @@ k_koholint = {
 	color={ 252 230 201 }
 	color2={ 232 32 152 }
 	capital = 216
+	dynasty_title_names = no
 	allow = {
 		hidden_tooltip = {
 			OR = {
@@ -8858,6 +8912,7 @@ k_tolemac = {
 		color={ 202 26 26 }
 		color2={ 255 255 255 }		
 		capital = 242 
+	dynasty_title_names = no
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -9052,6 +9107,7 @@ k_arcadia = {
 	color={ 218 218 218 }
 	color2={ 78 116 197 }		
 	capital = 247
+	dynasty_title_names = no
 	allow = {
 			hidden_tooltip = {
 				OR = {
@@ -9403,6 +9459,7 @@ k_western_isles = {
 	color={ 195 190 255 }
 	color2={ 128 128 0 }
 	capital = 387
+	dynasty_title_names = no
 	allow = {
 			is_republic = yes
 			hidden_tooltip = {
@@ -9492,6 +9549,7 @@ k_auros = {
 	color={ 205 0 0 }
 	color2={ 255 255 255 }
 	capital = 388 
+	dynasty_title_names = no
 	allow = {
 		hidden_tooltip = {
 			OR = {
@@ -9553,6 +9611,7 @@ k_bastion = {
 	color2={ 40 40 40 }
 	capital = 768
 	darknut="Primu"
+	dynasty_title_names = no
 	allow = {
 		hidden_tooltip = {
 			OR = {
@@ -9565,18 +9624,18 @@ k_bastion = {
 	}
 	d_maw_valley = {
 		color={ 235 208 147 }
-		color2={ 255 222 0 }
+		color2={ 255 255 255 }
 		capital = 766
 		c_maw_valley = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 96 0 0 }
+			color2={ 255 255 255 }
 			b_maw_gate = {}
 			b_mawed_pit = {}
 			b_maw_sands = {}
 		}
 		c_bastion_gates = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 0 77 97 }
+			color2={ 255 255 255 }
 			b_last_bulwark = {}
 			b_legionnaires_rest = {}
 			b_bastion_gate = {}
@@ -9585,11 +9644,11 @@ k_bastion = {
 	}
 	d_bastion = {
 		color={ 198 175 123 }
-		color2={ 255 222 0 }
+		color2={ 255 255 255 }
 		capital = 768
 		c_darknut_bastion = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 56 48 48 }
+			color2={ 255 255 255 }
 			holy_site = darknut_doctrine
 
 			b_last_bastion = {}
@@ -9611,18 +9670,18 @@ k_bastion = {
 	}
 	d_jackal_desert = {
 		color={ 151 134 95 }
-		color2={ 255 222 0 }
+		color2={ 255 255 255 }
 		capital = 775
 		c_wosu_wastes = {
-			color={ 24 188 7 }
+			color={ 188 0 7 }
 			ccolor2={ 255 255 255 }
 			b_blastworm = {}
 			b_flamola = {}
 			b_madderpillar = {}
 		}
 		c_jackal_desert = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 97 65 0 }
+			color2={ 255 255 255 }
 			b_jackal = {}
 			b_sandworm = {}
 			b_skytail = {}
@@ -9630,7 +9689,7 @@ k_bastion = {
 	}
 	d_deaths_valley = {
 		color={ 213 180 107}
-		color2={ 255 222 0 }
+		color2={ 255 255 255 }
 		capital = 773
 		c_desert_of_death = {
 			color={ 250 188 0 }
@@ -9639,8 +9698,8 @@ k_bastion = {
 			b_drowning_sands = {}
 		}
 		c_darknut_valley = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 179 137 81 }
+			color2={ 255 255 255 }
 			b_swamola = {}
 			b_stailpasaran = {}
 			b_tile_worm = {}
@@ -9648,8 +9707,8 @@ k_bastion = {
 			b_beetle = {}
 		}
 		c_legion_gates = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 255 255 0 }
+			color2={ 255 255 255 }
 			b_legion_gate = {}
 			b_legionnaires_court = {}
 			b_shield_gate = {}
@@ -9658,26 +9717,26 @@ k_bastion = {
 	}
 	d_bastion_cliffs = {
 		color={ 209 190 147 }
-		color2={ 255 222 0 }
+		color2={ 255 255 255 }
 		capital = 771
 		c_darknut_cliffs = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 0 80 98 }
+			color2={ 255 255 255 }
 			b_shield_cliff = {}
 			b_sword_pinnacle = {}
 			b_last_redoubt = {}
 			b_soldiers_rest = {}
 		}
 		c_cliff_bastions = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 2 98 0 }
+			color2={ 255 255 255 }
 			b_magtail_cliff = {}
 			b_frozen_judgement = {}
 			b_mortis_cliff = {}
 		}
 		c_bastion_caverns = {
 			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color2={ 255 255 255 }
 			b_moldorn = {}
 			b_moldworm = {}
 			b_pincer = {}
@@ -9689,6 +9748,7 @@ k_myrddin = {
 	color={ 135 206 255 }
 	color2={ 154 50 205 }
 	capital = 791
+	dynasty_title_names = no
 	allow = {
 		hidden_tooltip = {
 			OR = {
@@ -9701,11 +9761,11 @@ k_myrddin = {
 	}
 	d_valley_of_seers = {
 		color={ 226 243 255 }
-		color2={ 255 222 0 }
+		color2={ 255 255 255 }
 		capital = 765
 		c_soul_temple = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 255 255 255 }
+			color2={ 255 255 255 }
 			holy_site = wizzrobe_doctrine
 			b_temple_of_souls = {
 				pentarchy = wizzrobe_doctrine
@@ -9713,15 +9773,15 @@ k_myrddin = {
 			b_gotanon = {}
 		}
 		c_lanayru_gorge = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 43 46 177 }
+			color2={ 255 255 255 }
 			b_aetot = {}
 			b_todd = {}
 			b_cagesen = {}
 		}
 		c_valley_of_seers = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 43 177 176 }
+			color2={ 255 255 255 }
 			b_geydd = {}
 			b_coluneteydd = {}
 			b_cotia = {}
@@ -9730,11 +9790,11 @@ k_myrddin = {
 	}
 	d_drywdrui = {
 		color={ 97 150 186 }
-		color2={ 255 222 0 }
+		color2={ 255 255 255 }
 		capital = 781
 		c_moridunon = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 0 190 45 }
+			color2={ 255 255 255 }
 			b_moridunon = {}
 			b_otonedd = {}
 			b_gogmenules = {}
@@ -9742,15 +9802,15 @@ k_myrddin = {
 			b_goddes = {}
 		}
 		c_cymclut = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 47 189 87 }
+			color2={ 255 255 255 }
 			b_cymclut = {}
 			b_meddoneydd = {}
 			b_tarat = {}
 		}
 		c_drywdrui = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 189 127 47 }
+			color2={ 255 255 255 }
 			b_drydrui = {}
 			b_mionin = {}
 			b_gidot = {}
@@ -9758,19 +9818,19 @@ k_myrddin = {
 	}
 	d_pryniach = {
 		color={ 115 180 224 }
-		color2={ 255 222 0 }
+		color2={ 255 255 255 }
 		capital = 784
 		c_aeron = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 177 43 43 }
+			color2={ 255 255 255 }
 			b_aeron = {}
 			b_gesen = {}
 			b_magmia = {}
 			b_oninui = {}
 		}
 		c_pryniach = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 0 51 154 }
+			color2={ 255 255 255 }
 			b_pryniach = {}
 			b_modom = {}
 			b_modot = {}
@@ -9778,19 +9838,19 @@ k_myrddin = {
 	}
 	d_cenabon = {
 		color={ 69 106 132 }
-		color2={ 255 222 0 }
+		color2={ 255 255 255 }
 		capital = 782
 		c_cenabon = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 255 0 0 }
+			color2={ 255 255 255 }
 			b_cenabon = {}
 			b_onon = {}
 			b_minat = {}
 			b_cinos = {}
 		}
 		c_ogmionos = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 255 138 0 }
+			color2={ 255 255 255 }
 			b_ogmionos = {}
 			b_prynotot = {}
 			b_mienat = {}
@@ -9799,34 +9859,34 @@ k_myrddin = {
 	}
 	d_talesium = {
 		color={ 59 175 255 }
-		color2={ 255 222 0 }
+		color2={ 255 255 255 }
 		capital = 793
 		c_cambion = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 246 255 0 }
+			color2={ 255 255 255 }
 				b_cambion = {}
 			b_catan = {}
 			b_onaran = {}
 			b_menen = {}
 		}
 		c_taliesium = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 112 179 127 }
+			color2={ 255 255 255 }
 			b_taliesium = {}
 			b_manon = {}
 			b_aetuon = {}
 			b_gwrtharn = {}
 		}
 		c_guotoddin = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 127 0 0 }
+			color2={ 255 255 255 }
 			b_guotoddin = {}
 			b_tagmia = {}
 			b_prynobedd = {}
 		}
 		c_gogledd = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 186 147 131 }
+			color2={ 255 255 255 }
 			b_gogledd = {}
 			b_aedgion = {}
 			b_gumbas = {}
@@ -9835,11 +9895,11 @@ k_myrddin = {
 	}
 	d_morgania = {
 		color={ 21 55 79 }
-		color2={ 255 222 0 }
+		color2={ 255 255 255 }
 		capital = 789
 		c_gwrtheyrn = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 87 114 79 }
+			color2={ 255 255 255 }
 			b_gwrtheyrn = {}
 			b_godgon = {}
 			b_modotia = {}
@@ -9847,16 +9907,16 @@ k_myrddin = {
 			b_gubiorui = {}
 		}
 		c_morgania = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 179 81 81 }
+			color2={ 255 255 255 }
 			b_morgania = {}
 			b_caletia = {}
 			b_coroneiniin = {}
 			b_golan = {}
 		}
 		c_rhegeit = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 0 231 196 }
+			color2={ 255 255 255 }
 			b_rhegeit = {}
 			b_monion = {}
 			b_oddan = {}
@@ -9865,19 +9925,19 @@ k_myrddin = {
 	}
 	d_myrddin = {
 		color={ 44 116 165 }
-		color2={ 255 222 0 }
+		color2={ 255 255 255 }
 		capital = 791
 		c_myrddin = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 177 43 43 }
+			color2={ 255 255 255 }
 			b_myrddin = {}
 			b_tiatia = {}
 			b_mutarn = {}
 			b_muban = {}
 		}
 		c_guidgen = {
-			color={ 244 164 96 }
-			color2={ 255 222 0 }
+			color={ 177 43 43 }
+			color2={ 255 255 255 }
 			b_guidgen = {}
 			b_modin = {}
 			b_genion = {}
@@ -9888,6 +9948,7 @@ k_myrddin = {
 e_wind = {
 	color={ 40 192 248 }
 	color2={ 232 56 64 }
+	dynasty_title_names = no
 	
 	capital = 623
 		
@@ -9914,6 +9975,7 @@ d_sheikah = {
 d_knights_hyrule = {
 	color={ 0 0 204 }
 	color2={ 255 255 255 }
+	dynasty_title_names = no
 	
 	graphical_culture = holygfx
 
