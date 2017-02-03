@@ -43,6 +43,7 @@ e_hyrule_central = {
 				culture = ordonion
 				culture = kakarikon
 				culture = eldin
+				culture_group = lfos
 			}
 		}
 	}		
@@ -1539,6 +1540,7 @@ e_mudora = { #empire
 				culture = darknut
 				culture = hanman
 				culture = hylian_hanman
+				culture = lizalfos
 			}
 		}
 	}
@@ -1772,7 +1774,15 @@ e_mudora = { #empire
 		color={ 112 128 144 }
 		color2={ 222 184 135 }
 		capital = 444 # Middlesex
-	dynasty_title_names = no
+		dynasty_title_names = no
+		allow = {
+			hidden_tooltip = {
+				culture = darknut
+				culture = lizalfos
+				culture_group = hylian_group
+				ai = no
+			}
+		}
 		d_south_death_mountains = {
 			color={ 112 128 144 }
 			color2={ 222 184 135 }
@@ -2860,14 +2870,15 @@ e_sea_tree = {
 	color2={ 255 255 255 }
 	capital = 660 
 	#korok="Korok Woods"
-	deku_tree="Deku Woods"
+	kokiri="Deku Woods"
 	deku_scrub="Deku Woods"
 	great_fairy="Fairy Woods"
+	skull_kid="Lost Woods"
 	allow = {
 		OR = {
 			religion = great_deku
 			religion = great_fairies
-			religion = baga_tree
+			religion = skull_kid
 		}
 	}
 	k_kokiri = {
@@ -2879,7 +2890,6 @@ e_sea_tree = {
 			OR ={
 				culture = kokiri
 				culture = skull_kid
-				#culture = kokiri
 			}
 		}
 		d_kokiri_woods = {
@@ -3255,7 +3265,11 @@ e_sea_tree = {
 		color={ 0 100 0 }
 		ccolor2={ 255 255 255 }
 		capital = 716
-	dynasty_title_names = no
+		dynasty_title_names = no
+		skull_kid="Lost Woods"
+		bokoblin="Lost Woods"
+		bulblin="Lost Woods"
+		moblin="Lost WOods"
 		allow = {
 			OR ={
 				culture = kokiri
@@ -3897,6 +3911,7 @@ e_sea_tree = {
 				culture = kokiri
 				culture = skull_kid
 				culture = great_fairy
+				culture = girrin
 			}
 		}	
 		d_minish = {
@@ -4150,10 +4165,13 @@ e_hanman = {
 	capital = 72
 	dynasty_title_names = no
 	allow = {
+		hidden_tooltip = {
 		OR ={
 			ai = no
 			culture = hylian_hanman
 			culture = hanman
+			culture_group = lfos
+		}
 		}
 	}
 	k_lost_desert = {
@@ -5679,8 +5697,8 @@ e_labrynna = {
 			color2={ 87 87 87}
 			capital = 312
 			c_yoll = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 255 215 48 }
+				color2={ 255 255 255 }
 				b_yoll = {}
 				b_yoll_graveyard = {}
 				b_talaka = {}
@@ -5688,21 +5706,21 @@ e_labrynna = {
 				b_lynnala = {}
 			}
 			c_spirit_coast = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 198 11 30 }
+				color2={ 255 255 255 }
 				b_lynnus = {}
 				b_taka = {}
 			}
 			c_poevale = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 10 163 115 }
+				color2={ 255 255 255 }
 				b_mamuus = {}
 				b_poe_village = {}
 				b_satry = {}
 			}
 			c_witchwoods = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 255 231 11 }
+				color2={ 255 255 255 }
 				holy_site = wizzrobe_doctrine #temp
 				b_tusu = {}
 				b_nulan = {
@@ -5716,30 +5734,30 @@ e_labrynna = {
 			color2={ 87 87 87}
 			capital = 316
 			c_rolling_ridge = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }				
+				color={ 191 10 48 }
+				color2={ 255 255 255 }				
 				holy_site = earth_spirit
 				b_rolling_keep = {}
 				b_dancers_hall = {}
 			}
 			c_mermaids_cave = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 0 64 152 }
+				color2={ 255 255 255 }
 				b_mermaids_cave = {}
 			}
 			c_crown_caverns = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 188 0 7 }
+				color2={ 255 255 255 }
 				b_crown_dungeon = {}
 			}
 			c_cart_mines = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 102 204 255 }
+				color2={ 255 255 255 }
 				b_target_cart_mine = {}
 			}
 			c_moblin_keep = {
 				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color2={ 255 255 255 }
 				b_moblin_keep = {}
 			}
 		}
@@ -5748,35 +5766,35 @@ e_labrynna = {
 			color2={ 87 87 87}
 			capital = 317
 			c_maku_grove = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 30 144 255 }
+				color2={ 255 255 255 }
 				
 				holy_site = great_maku	
 				b_maku_grove_of_labrynna = {}
 				b_maku_road = {}
 			}
 			c_south_shore = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 220 27 0 }
+				color2={ 255 255 255 }
 				b_makas = {}
 				b_lasas = {}
 			}
 			c_south_lynna = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 204 17 47 }
+				color2={ 255 255 255 }
 				b_zala = {}
 				b_sakaku = {}
 			}
 			c_sea_of_no_return = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 137 197 227 }
+				color2={ 255 255 255 }
 				b_maze_of_no_return = {}
 				b_ancient_tomb = {}
 				b_coast_of_no_return = {}
 			}
 			c_forest_of_time = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 120 68 33 }
+				color2={ 255 255 255 }
 				b_sala_2 = {}
 				b_seasas = {}
 				b_muuka = {}
@@ -5788,21 +5806,21 @@ e_labrynna = {
 			color2={ 87 87 87}
 			capital = 329
 			c_nuun_highlands = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 255 102 0 }
+				color2={ 255 255 255 }
 				b_nuun_bridge = {}
 				b_carpenter_town = {}
 				b_saka = {}
 			}
 			c_nuun = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 0 132 255 }
+				color2={ 255 255 255 }
 				b_nuun_rapids = {}
 				b_nuun_woods = {}
 			}
 			c_labrynna_palace = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 0 156 0 }
+				color2={ 255 255 255 }
 				b_labrynna_palace = {}
 			}
 		}
@@ -5811,27 +5829,27 @@ e_labrynna = {
 			color2={ 87 87 87}
 			capital = 328
 			c_nuun_mountains = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 218 18 26 }
+				color2={ 255 255 255 }
 				b_naka = {}
 			}
 			c_restoration_peak = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 0 40 104 }
+				color2={ 255 255 255 }
 				b_restoration_wall = {}
 				b_restoration_well = {}
 			}
 			c_talus_peaks = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 0 124 195 }
+				color2={ 255 255 255 }
 				b_talus_peak = {}
 				b_patch = {}
 				b_talus_lake = {}
 				b_talus_base = {}
 			}
 			c_skull_mountains = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 225 26 31 }
+				color2={ 255 255 255 }
 				b_skull_dungeon = {}
 				b_eyesoar_chamber = {}
 			}
@@ -5841,16 +5859,16 @@ e_labrynna = {
 			color2={ 87 87 87}
 			capital = 326
 			c_symmetry = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 0 127 255 }
+				color2={ 255 255 255 }
 				b_symmetry_tower = {}
 				b_tuni_nut = {}
 				b_symmetry = {}
 				b_skull_gate = {}
 			}
 			c_talus_ridge = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 117 170 219 }
+				color2={ 255 255 255 }
 				b_mesu = {}
 				b_suus = {}
 				b_tasamu = {}
@@ -5861,8 +5879,8 @@ e_labrynna = {
 			color2={ 87 87 87}
 			capital = 286
 			c_lynna = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }				
+				color={ 0 155 212 }
+				color2={ 255 255 255 }				
 				holy_site = golden_goddesses#temp
 				holy_site = goddess_lorule #ALL alien religions have the same holy sites
 				holy_site = sol_religion
@@ -5874,23 +5892,23 @@ e_labrynna = {
 				b_lynna_mayors_house = {}
 			}
 			c_black_tower = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 0 0 0 }
+				color2={ 255 255 255 }
 				b_labrynna_castle = {}
 				b_sakalan = {}
 				b_namalas = {}
 				b_queen_ambis_tower = {}
 			}
 			c_tower_shore = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 195 1 13 }
+				color2={ 255 255 255 }
 				b_sakalan_2 = {}
 				b_naku = {}
 				b_lakan = {}
 			}
 			c_west_lynna = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 204 17 47 }
+				color2={ 255 255 255 }
 				b_west_lynna_gate = {}
 				b_west_lynna_suburbs = {}
 				b_tuuka = {}
@@ -5922,25 +5940,25 @@ e_labrynna = {
 			color2={ 255 255 0 }
 			capital = 294
 			c_zora_cove = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 0 0 99 }
+				color2={ 255 255 255 }
 				b_mamas = {}
 				b_tumen = {}
 				b_mula = {}
 			}
 			c_gale_island = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 0 38 115 }
+				color2={ 255 255 255 }
 				b_gale = {}
 			}
 			c_sand_island = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 0 51 102 }
+				color2={ 255 255 255 }
 				b_sandstone = {}
 			}
 			c_palm_island = {
 				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color2={ 255 255 255 }
 				b_palm = {}
 				b_palm_oil_fields = {}
 			}
@@ -5950,13 +5968,13 @@ e_labrynna = {
 			color2={ 255 255 0 }
 			capital = 291
 			c_eyeglass_island = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 255 224 30 }
+				color2={ 255 255 255 }
 				b_eyeglass_island = {}
 			}
 			c_zora_isles = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 0 0 221 }
+				color2={ 255 255 255 }
 				#lake_zora = Zora Isles
 				
 				holy_site = water_spirit
@@ -5964,18 +5982,18 @@ e_labrynna = {
 				b_zora_village = {}
 			}
 			c_treasure_islands = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 38 139 204 }
+				color2={ 255 255 255 }
 				b_treasure_island = {}
 			}
 			c_fairy_island = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 90 177 36 }
+				color2={ 255 255 255 }
 				b_fairy_island = {}
 			}
 			c_storm_island = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 255 245 0 }
+				color2={ 255 255 255 }
 							b_whirlpool_overlook = {}
 			}
 		}
@@ -5996,34 +6014,34 @@ e_labrynna = {
 		}
 		d_crescent_island = {
 			color={ 107 142 35 }
-			color2={ 255 239 213 }
+			color2={ 255 255 255 }
 			capital = 289
 			c_north_crescent_island = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 0 204 255 }
+				color2={ 255 255 255 }
 				b_dokay = {}
 				b_tokay_museaum = {}
 			}
 			c_south_crescent_island = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 0 56 166 }
+				color2={ 255 255 255 }
 				b_mokay = {}
 				b_aokay = {}
 			}
 			c_central_crescent_island = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 231 0 19 }
+				color2={ 255 255 255 }
 				b_lokay = {}
 				b_rokay = {}
 			}
 		}
 		d_tokay_island = {
 			color={ 139 185 44 }
-			color2={ 255 239 213 }
+			color2={ 255 255 255 }
 			capital = 290
 			c_tokay_island = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 0 0 255 }
+				color2={ 255 255 255 }
 				b_zokay = {}
 				b_nokay = {}
 				
@@ -6031,16 +6049,16 @@ e_labrynna = {
 		}
 		d_moonlight_isles = {
 			color={ 160 181 116 }
-			color2={ 255 239 213 }
+			color2={ 255 255 255 }
 			capital = 293
 			c_moonlight_island = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }
+				color={ 74 173 214 }
+				color2={ 255 255 255 }
 				b_moonpool = {}
 			}
 			c_grotto_island = {
-				color={ 107 142 35 }
-				color2={ 255 239 213 }				
+				color={ 8 41 140 }
+				color2={ 255 255 255 }				
 				b_tokay_groto = {}
 			}
 		}
@@ -6058,6 +6076,7 @@ e_calatia = {
 					culture = calatian
 					culture_group = lost_tribe
 					culture = lake_zora
+					culture = lizalfos
 				}
 			}
 		}
@@ -7617,7 +7636,8 @@ k_zora_valley = {
 	capital = 436 # Zora Domain
 	dynasty_title_names = no
 	
-	#lake_zora = Waterfall Domain
+	lake_zora="Waterfall Domain"
+	river_zora="Waterfall Domain"
 	
 	allow = {
 		OR = {
@@ -7734,6 +7754,10 @@ k_death_mountain = {
 	color2={ 91 100 100 }
 	dynasty_title_names = no
 	capital = 466
+	allow = {
+		culture_group = goron_group
+		culture_group = lfos
+	}
 	d_dodongo_pass = {
 		color={ 219 7 0 }
 		color2={ 188 171 91 }
