@@ -7420,6 +7420,263 @@ e_ho_ho = {
 		}		
 	}
 }
+e_hytopia = {	
+	color={ 179 160 205 }
+	color2={ 139 105 105 }
+	capital = 1465
+	dynasty_title_names = no
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture = hytopia
+				culture_group = lost_tribe
+				culture = deku_scrub
+			}
+		}
+	}
+	k_drabs = {
+		color={ 139 105 105 }
+		color2={ 142 142 56 }
+		capital = 1452
+		dynasty_title_names = no
+		short_name = yes
+		d_sky_isle = {
+			color={ 255 205 80 }
+			color2={ 34 85 0 }
+			capital = 1452
+			c_sky_isles = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_dragon_citadel = {}
+				b_sky_temple = {}
+				b_sky_gardens = {}
+				b_deception_castle = {}
+			}
+		}
+		d_trial_island = {
+			color={ 255 205 80 }
+			color2={ 34 85 0 }
+			capital = 1453
+			c_trial_island = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_forest_zone = {}
+				b_flooded_zone = {}
+				b_scorching_zone = {}
+				b_frozen_zone = {}
+				b_fortified_zone = {}
+				b_desert_zone = {}
+				b_shadow_zone = {}					
+			}
+		}
+		d_hinox_mountains = {
+			color={ 255 205 80 }
+			color2={ 34 85 0 }
+			capital = 1454
+			c_hinox_mountains = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_den_of_flames = {}
+				b_fire_temple_hytopia = {}
+				b_hinox_mine = {}
+				b_blazing_trail = {}
+			}
+		}
+		d_silver_highland = {
+			color={ 255 205 80 }
+			color2={ 34 85 0 }
+			capital = 1456
+			c_garden_highlands = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_tonob = {}
+				b_tiria = {}
+				b_hyta = {}
+				b_farub = {}
+			}
+			c_silver_mountains = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_snowball_ravine = {}
+				b_ice_temple = {}
+				b_frozen_plateau = {}
+				b_silver_shrine = {}
+			}
+		}
+		d_witchlands = {
+			color={ 255 205 80 }
+			color2={ 34 85 0 }
+			capital = 1457
+			c_grimlands = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_lone_labyrinth = {}
+				b_grim_temple = {}
+			}
+			c_drabland_fortress = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_sealed_gates = {}
+				b_training_ground = {}
+				b_bomb_sotrage = {}
+				b_ladys_tower = {}
+			}
+			c_palace_noir = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_palace_noir = {}
+				b_illusory_plains = {}
+			}
+		}
+		d_deku_lands = {
+			color={ 255 205 80 }
+			color2={ 34 85 0 }
+			capital = 1460
+			c_margoma_forest = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_base = {}
+				b_forest_temple_hytopia = {}
+				b_deku_forest = {}
+				b_buzz_blob_cave = {}
+			}
+			c_riverlands = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_secret_fortress = {}
+				b_water_temple_hytopia = {}
+				b_abyss_of_agony = {}
+				b_cove_of_transition = {}
+			}
+		}
+	}
+	k_fabs = {
+		color={ 179 160 205 }
+		color2={ 244 154 76 }
+		capital = 1465
+		dynasty_title_names = no
+		short_name = yes
+		d_west_fabs = {
+			color={ 255 205 80 }
+			color2={ 34 85 0 }
+			capital = 1464
+			c_fab_arm = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_tiria_2 = {}
+				b_hyta_2 = {}
+				b_farub_2 = {}
+			}
+			c_fabland_plains = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_toria = {}
+				b_forga = {}
+				b_hasha = {}
+			}
+			c_fabwood_eaves = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_forab = {}
+				b_mama = {}
+				b_tamia = {}
+			}
+		}
+		d_hytopia = {
+			color={ 255 205 80 }
+			color2={ 34 85 0 }
+			capital = 1465
+			c_hytopia = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_hytopia_castle = {}
+				b_hytopia_city = {}
+				b_torux = {}
+				b_fomopa = {}
+			}
+			c_west_hytopia_field = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_furia = {}
+				b_hora = {}
+				b_mamia = {}
+			}
+			c_fabland_gate = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_fabland_gate = {}
+				b_the_last_fab_place = {}
+				b_funab = {}
+			}
+		}
+		d_fab_gates = {
+			color={ 255 205 80 }
+			color2={ 34 85 0 }
+			capital = 1467
+			c_west_hytopia_gate = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_gilded_gate = {}
+				b_gilded_town = {}
+				b_fania = {}
+				b_nirana = {}
+			}
+			c_east_hytopia_gate = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_silk_gate = {}
+				b_silk_town = {}
+				b_hana = {}
+				b_torib = {}
+			}
+			c_fabland_hills = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_maria_2 = {}
+				b_tasha = {}
+				b_hona = {}
+			}
+		}
+		d_fasharia = {
+			color={ 255 205 80 }
+			color2={ 34 85 0 }
+			capital = 1474
+			c_east_hytopia_field = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_munab = {}
+				b_hania = {}
+				b_topimia = {}
+			}
+			c_fasharia_vale = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_famia = {}
+				b_fosha = {}
+				b_tamomia = {}
+			}
+		}
+		d_fabland_march = {
+			color={ 255 205 80 }
+			color2={ 34 85 0 }
+			capital = 1476
+			c_fabland_road = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_marga = {}
+				b_haqob = {}
+			}
+			c_hytopia_march = {
+				color={ 255 205 80 }
+				color2={ 34 85 0 }
+				b_hirga = {}
+				b_momia = {}
+				b_nurab = {}
+			}
+		}		 
+	}
+}
 k_howgendoogen_league = {
 	color={ 0 86 148 }
 	color2={ 237 192 0 }
