@@ -1,0 +1,124 @@
+55000={
+	name=Alcide
+	dynasty=9601
+	dna="pigpkldkbjd"
+	culture=hytopian religion=golden_goddesses
+	martial=8 diplomacy=8 stewardship=5 intrigue=8 learning=6
+	add_trait=intricate_webweaver add_trait=gregarious add_trait=cynical add_trait=clubfooted 
+	3350.9.17={ birth=yes }
+	3375.1.1={add_spouse=55009}
+	3413.7.14={ death=yes }
+}
+55001={
+	name=Adamao
+	dynasty=9601
+	dna="ppapnijebob"
+	culture=hytopian religion=golden_goddesses
+	martial=7 diplomacy=6 stewardship=8 intrigue=8 learning=5
+	add_trait=grey_eminence add_trait=mystic add_trait=honest add_trait=brave add_trait=charitable 
+	add_trait=trusting add_trait=content 
+	father=55000	#Alcide
+	mother=55009
+	3377.2.7={ birth=yes }
+	3340.1.1={add_spouse=55010}
+	3448.10.2={ death=yes }
+}
+55002={
+	name=Adriana
+	female=yes
+	dynasty=9601
+	dna="icifdnimnjd"
+	culture=hytopian religion=golden_goddesses
+	father=55000	#Alcide
+	mother=55009
+	3380.4.26={ birth=yes }
+	3424.11.1={ death=yes }
+}
+55003={
+	name=Edmondo
+	dynasty=9601
+	dna="pfgphldlbdh"
+	culture=hytopian religion=golden_goddesses
+	martial=6 diplomacy=5 stewardship=8 intrigue=5 learning=7
+	add_trait=grey_eminence add_trait=kind add_trait=content add_trait=wroth add_trait=proud 
+	add_trait=arbitrary 
+	father=55000	#Alcide
+	mother=55009
+	3384.12.11={ birth=yes }
+	3447.10.16={ death=yes }
+}
+55004={
+	name=Franca
+	female=yes
+	dynasty=9601
+	dna="oagpkllknjd"
+	culture=hytopian religion=golden_goddesses
+	father=55000	#Alcide
+	mother=55009
+	3388.11.16={ birth=yes }
+	3439.3.25={ death=yes }
+}
+55005={
+	name=Maria
+	female=yes
+	dynasty=9601
+	dna="didbjldpacc"
+	culture=hytopian religion=golden_goddesses
+	father=55000	#Alcide
+	mother=55009
+	3391.6.19={ birth=yes }
+	3436.5.27={ death=yes }
+}
+55006={
+	name=Biagio
+	dynasty=9601
+	dna="fkaaeijejai"
+	culture=hytopian religion=golden_goddesses
+	martial=4 diplomacy=7 stewardship=7 intrigue=8 learning=4
+	add_trait=flamboyant_schemer add_trait=scholar add_trait=cynical add_trait=kind add_trait=brave 
+	add_trait=lustful add_trait=temperate add_trait=content 
+	father=55001	#Adamao
+	mother=55010
+	3403.12.24={ birth=yes }
+	3449.7.14={ death=yes }
+}
+55007={
+	name=Savino
+	dynasty=9601
+	dna="pnbgnijenob"
+	culture=hytopian religion=golden_goddesses
+	martial=5 diplomacy=8 stewardship=8 intrigue=7 learning=6
+	add_trait=indulgent_wastrel add_trait=greedy add_trait=trusting add_trait=cynical add_trait=cruel 
+	add_trait=diligent 
+	father=55001	#Adamao
+	mother=55010
+	3407.5.24={ birth=yes }
+	3475.8.10={ death=yes }
+}
+55008={
+	name=Nunzia
+	female=yes
+	dynasty=9601
+	dna="apaikcjhobb"
+	culture=hytopian religion=golden_goddesses
+	father=55001	#Adamao
+	mother=55010
+	3409.2.10={ birth=yes }
+	3467.7.14={ death=yes }
+}
+55009={
+	name=Cursilinda
+	female=yes
+	culture=hytopian religion=golden_goddesses
+	3350.9.17={ birth=yes }
+	3375.1.1={add_spouse=55000}
+	3413.7.14={ death=yes }
+}
+55010={
+	name=Styla
+	female=yes
+	culture=hytopian religion=golden_goddesses
+	3377.2.7={ birth=yes }
+	3340.1.1={add_spouse=55001}
+	3448.10.2={ death=yes }
+}
