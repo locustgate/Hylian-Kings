@@ -1906,7 +1906,7 @@ e_mudora = { #empire
 		}
 		d_northern_swamp = {
 			color={ 92 184 0 }
-			color2={ 255 215 0 }
+			color2={ 255 255 255 }
 			capital = 392 # Middlesex			
 			c_swamp_palace = {
 				color={ 188 0 7 }
@@ -1941,7 +1941,7 @@ e_mudora = { #empire
 		}
 		d_misery_marshes = {
 			color={ 150 211 89 }
-			color2={ 255 215 0 }
+			color2={ 255 255 255 }
 			capital = 397 # Middlesex
 			c_misery_mire = {
 				color={ 90 0 0 }
@@ -1960,7 +1960,7 @@ e_mudora = { #empire
 		}
 		d_saltmarshes = {
 			color={ 177 213 142 }
-			color2={ 255 215 0 }
+			color2={ 255 255 255 }
 			capital = 404 # Middlesex
 			c_turongo_wetlands = {
 				color={ 181 123 1 }
@@ -1984,7 +1984,7 @@ e_mudora = { #empire
 		}
 		d_gohmamarsh = {
 			color={ 208 253 163 }
-			color2={ 255 215 0 }
+			color2={ 255 255 255 }
 			capital = 400 # Middlesex
 			c_gohma_mire = {
 				color={ 156 231 152 }
@@ -2009,7 +2009,7 @@ e_mudora = { #empire
 		}
 		d_hylia_swamps = {
 			color={ 117 213 22 }
-			color2={ 255 215 0 }
+			color2={ 255 255 255 }
 			capital = 398 # Middlesex
 			c_reed_hills = {
 				color={ 122 49 111 }
@@ -7750,13 +7750,13 @@ k_zora_domain = {
 		culture = lake_zora
 	}
 	
-	d_south_domain = {
+	d_south_domain = { #zora caves
 		color={ 51 90 169 }
-		color2={ 234 212 77 }
+		color2={ 255 255 255 }
 		capital = 474 # Zora Domain
 		c_zora_fountain = {
-			color={ 39 64 139 }
-			color2={ 202 225 255 }
+			color={ 237 41 57 }
+			color2={ 255 255 255 }
 				
 		
 			b_fountain_gate = {}
@@ -7764,7 +7764,7 @@ k_zora_domain = {
 			b_zora_fountain = {}
 		}
 		c_ancient_tunnels = {
-			color={ 135 38 87 }
+			color={ 0 86 182 }
 			color2={ 255 255 255 }
 			holy_site = hylia_religion	
 			holy_site = sheikahism	
@@ -7778,7 +7778,7 @@ k_zora_domain = {
 			b_vazas = {}
 		}
 		c_ice_caverns = {
-			color={ 176 226 255 }
+			color={ 30 181 58 }
 			color2={ 255 255 255 }	
 			
 			b_ice_castle = {}
@@ -7786,15 +7786,20 @@ k_zora_domain = {
 			b_runoff_cave = {}
 		}
 		c_zora_domain = {
-			color={ 65 105 225 }
-			color2={ 255 215 0 }
+			color={ 255 255 0 }
+			color2={ 255 255 255 }
 			b_upper_zora_caves = {}
 			b_lower_zora_cavern = {}
 			b_royal_water_fall = {}
 			b_cavern_entrance = {}
 		}
+	}
+	d_zora_river = {	
+		color={ 17 74 189 }
+		color2={ 255 255 255 }
+		capital = 475
 		c_sleepless_waterfalls = {
-			color={ 151 255 255 }
+			color={ 1 186 254 }
 			color2={ 255 255 255 }		
 			b_zora_gate = {}
 				b_zora_village = {}
@@ -7822,7 +7827,7 @@ k_zora_domain = {
 }
 k_north_domain = {
 	color={ 255 127 80 }
-	color2={ 234 212 77 }
+	color2={ 255 255 255 }
 	capital = 567 # Zora Domain
 	dynasty_title_names = no
 	
@@ -7831,11 +7836,11 @@ k_north_domain = {
 	}
 	d_north_domain = {
 		color={ 255 127 80 }
-		color2={ 234 212 77 }
+		color2={ 255 255 255 }
 		capital = 567 #N Zora Domain
 		c_zora_spring = {
-			color={ 0 214 253 }
-			color2={ 234 212 77 }
+			color={ 158 0 170 }
+			color2={ 255 255 255 }
 			holy_site = water_spirit
 				
 			b_hylonin = {}
@@ -7843,8 +7848,8 @@ k_north_domain = {
 			b_forin = {}
 		}
 		c_north_zora_domain = {
-				color={ 0 214 253 }
-				color2={ 234 212 77 }
+				color={ 156 170 0 }
+				color2={ 255 255 255 }
 			
 				b_otaure = {}
 				b_turudu = {}
@@ -7852,25 +7857,30 @@ k_north_domain = {
 				b_maryu = {}
 			}
 			c_zora_falls = {
-				color={ 0 214 253 }
-				color2={ 234 212 77 }
+				color={ 0 226 197 }
+				color2={ 255 255 255 }
 			
 				b_cribo = {}
 				b_manilu = {}
 				b_onane = {}
 			}
 			c_frozen_caves = {
-				color={ 0 214 253 }
-				color2={ 234 212 77 }
+				color={ 1 59 166 }
+				color2={ 255 255 255 }
 				
 				b_odire = {}
 				b_edonon = {}
 				b_erolu = {}
 				b_kirin = {}
 			}
+		}
+		d_zora_rapids = {		
+			color={ 255 79 14}
+			color2={ 255 255 255 }
+			capital = 569
 			c_upper_zoras_river = {
-				color={ 0 214 253 }
-				color2={ 234 212 77 }
+				color={ 25 105 25 }
+				color2={ 255 255 255 }
 				
 				b_moolu = {}
 				b_madane = {}
@@ -7878,8 +7888,8 @@ k_north_domain = {
 				b_osan = {}
 			}
 			c_zora_rapids = {
-				color={ 0 214 253 }
-				color2={ 234 212 77 }
+				color={ 255 102 0 }
+				color2={ 255 255 255 }
 					
 				b_hyrire = {}
 				b_hyrure = {}
@@ -7904,17 +7914,17 @@ k_zora_valley = {
 	}
 	d_zora_valley = {
 		color={ 0 194 137 }
-		color2={ 255 215 0 }
+		color2={ 255 255 255 }
 		capital = 436 # Middlesex
 		c_zora_valley = {
-			color={ 0 170 0 }
+			color={ 194 0 0 }
 			color2={ 255 255 255 }
 			b_crorcin = {}
 			b_crorubu = {}
 			b_radiria = {}
 		}
 		c_waterfall_domain = {
-			color={ 0 170 0 }
+			color={ 0 194 50 }
 			color2={ 255 255 255 }			
 			holy_site = water_spirit
 			b_waterfall_gate = {}
@@ -7922,7 +7932,7 @@ k_zora_valley = {
 			b_waterfall_village = {}
 		}
 		c_zora_caverns = {
-			color={ 0 170 0 }
+			color={ 254 0 2 }
 			color2={ 255 255 255 }
 			b_zora_throneroom = {}
 		}
