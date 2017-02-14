@@ -8823,7 +8823,7 @@ k_falsia = {
 		color2={ 18 136 7 }
 		capital = 26
 		c_sundial_shores = {
-			color={ 41 255 30 }
+			color={ 188 0 7 }
 			color2={ 18 136 7 }
 			
 			b_sundial_pyramid = {}
@@ -9054,7 +9054,7 @@ k_port_isle = {
 			b_port_town = {}
 		}
 		c_hometown_prarie = {		
-			color={ 0 199 140 }
+			color={ 218 62 46 }
 			color2={ 255 64 64 }
 			
 			b_rupee_tower = {}
@@ -9062,12 +9062,12 @@ k_port_isle = {
 			b_fish_rock = {}
 		}
 		c_tingle_island = {		
-			color={ 0 199 140 }
+			color={ 250 188 0 }
 			color2={ 255 64 64 }
 			b_tingle_keep = {}
 		}
 		c_step_island = {		
-			color={ 0 199 140 }
+			color={ 255 210 162 }
 			color2={ 255 64 64 }
 			b_rupee_keep = {}
 		}
@@ -9077,7 +9077,7 @@ k_port_isle = {
 		color2={ 255 64 64 }
 		capital = 178
 		c_deku_island = {		
-			color={ 0 199 140 }
+			color={ 0 150 0 }
 			color2={ 255 64 64 }
 			holy_site = great_deku
 			
@@ -9085,7 +9085,7 @@ k_port_isle = {
 			b_deku_temple = {}
 		}
 		c_lon_lon_island = {		
-			color={ 0 199 140 }
+			color={ 19 158 39 }
 			color2={ 255 64 64 }
 			hyrulean="Lon Lon Island"
 			port_towners="Lon Lon Island"
@@ -9099,13 +9099,13 @@ k_port_isle = {
 		color2={ 255 64 64 }
 		capital = 181
 		c_sunshine_seashore = {		
-			color={ 0 199 140 }
+			color={ 74 173 214 }
 			color2={ 255 64 64 }
 			
 			b_bridge_point = {}
 		}
 		c_cape_treasure = {		
-			color={ 0 199 140 }
+			color={ 48 137 4 }
 			color2={ 255 64 64 }
 			
 			b_pirate_hideout = {}
@@ -9766,18 +9766,18 @@ k_western_isles = {
 		color2={ 220 220 220 }
 		capital = 387
 		c_icy_plain = {
-			color={ 128 128 105 }
+			color={ 63 43 189 }
 			color2={ 255 248 220 }
 			b_icy_bird_rock = {}
 			b_haunted_woods = {}
 		}
 		c_icy_peak = {
-			color={ 128 128 105 }
+			color={ 0 173 188 }
 			color2={ 255 248 220 }
 			b_bear_crag = {}
 		}
 		c_snowfield = {
-			color={ 128 128 105 }
+			color={ 209 103 59 }
 			color2={ 255 248 220 }
 			b_chuchu_ponds = {}
 			b_bunny_field = {}
@@ -9788,7 +9788,7 @@ k_western_isles = {
 		color2={ 224 102 255 }
 		capital = 381
 		c_gooey_swamp = {
-			color={ 128 128 105 }
+			color={ 48 137 4 }
 			color2={ 255 248 220 }
 			b_newt_bogs = {}
 			b_toadstool_field = {}
@@ -9800,12 +9800,12 @@ k_western_isles = {
 			b_death_bug_cave = {}
 		}
 		c_basecamp = {
-			color={ 128 128 105 }
+			color={ 71 141 76 }
 			color2={ 255 248 220 }
 			b_basecamp = {}
 		}
 		c_codile_cove = {
-			color={ 128 128 105 }
+			color={ 188 0 7 }
 			color2={ 255 248 220 }
 			b_codile_bog = {}
 			b_codile_bluff = {}
@@ -9817,13 +9817,13 @@ k_western_isles = {
 		color2={ 255 248 220 }
 		capital = 378
 		c_steamy_marsh = {
-			color={ 128 128 105 }
+			color={ 216 192 138 }
 			color2={ 255 248 220 }
 			b_burning_oil_pit = {}
 			
 		}
 		c_kamonano = {
-			color={ 128 128 105 }
+			color={ 0 87 148 }
 			color2={ 255 248 220 }
 			b_steamy_oil_field = {}
 		}
@@ -9858,7 +9858,7 @@ k_auros = {
 		color2={ 225 225 255 }
 		capital = 388
 		c_auros = {
-			color={ 85 107 47 }
+			color={ 188 0 7 }
 			color2={ 255 255 240 }
 			b_auros = {}
 			b_rupee_shrine = {}
@@ -9867,7 +9867,7 @@ k_auros = {
 		
 		}
 		c_fairy_garden = {
-			color={ 85 107 47 }
+			color={ 188 0 182 }
 			color2={ 255 255 240 }
 			b_fairy_garden = {}
 			b_aqua_shrine = {}
