@@ -37,7 +37,7 @@ hylian_group = {
 		modifier = default_culture_modifier
 	}
 	ho_ho = {
-		graphical_cultures = { hohogfx hyliangfx }
+		graphical_cultures = { ho_hogfx hyliangfx }
 
 		parent = skylofter
 
@@ -1217,6 +1217,7 @@ aquatic_group = {
 		}
 		modifier = default_culture_modifier
 		allow_looting = yes
+		dynasty_title_names = yes
 		seafarer = yes
 	}
 }
@@ -1295,8 +1296,10 @@ mammalian_group = {
 			Yeta Yusha Yudita Yushi Yusa Yanta Yati Yesha Yuda Yuta Yasha Yedi Yededi Yashadi Yasi Yata Yunta Yunshi Yada Yataa Yasa Yidi Yudi Yesa Yisha Yutaa Yunti Yenta Yitaa Yeda Yedata Yetaa Yishi Yashi Yusi Yeshi Yusaa Yudasi Yesi Yinta Yanti Yadi Yuti Yiti Yisa Yida Yisaa Yisi Yesaa Yedaa Yesati Yenti Yaa Yashaa Yitita Yatusa Yesata Yutata Yasaa Yushaa Yetusa Yusidi Yitata Yusudi Yetenta Yusida Yedushi Yatusi Yitasi Yetada Yusiti Yetuda Yasata Yesita Yususi Yeseti Yetedi Yusita Yuseda Yituta Yedusa Yatata Yetita Yushusa Yutedi Yituda Yuseti Yutesi Yusasi Yusuda Yututa Yasuta Yeteta
 		}		
 		dukes_called_kings = no
+		
 		founder_named_dynasties = yes 
-				
+		allow_looting = yes
+		dynasty_title_names = yes
 		modifier = default_culture_modifier
 	}
 	girrin = {
@@ -1353,6 +1356,7 @@ fae = {
 		
 		founder_named_dynasties = yes 
 		allow_looting = yes
+		dynasty_title_names = yes
 
 		modifier = default_culture_modifier
 	}
@@ -1417,6 +1421,7 @@ plant_group = {
 		dukes_called_kings = no
 		
 		from_dynasty_prefix = "mn "
+		dynasty_title_names = yes
 		founder_named_dynasties = yes 
 
 		male_patronym = "ibn "
@@ -1465,6 +1470,7 @@ blin = {
 		}
 		
 		allow_looting = yes 
+		dynasty_title_names = yes
 		founder_named_dynasties = yes 
 		
 		modifier = default_culture_modifier
@@ -1486,6 +1492,7 @@ blin = {
 		}
 		
 		allow_looting = yes 
+		dynasty_title_names = yes
 		founder_named_dynasties = yes 
 		
 		modifier = default_culture_modifier
@@ -1508,6 +1515,7 @@ blin = {
 		}
 		
 		allow_looting = yes 
+		dynasty_title_names = yes
 		founder_named_dynasties = yes 
 		
 		modifier = default_culture_modifier
@@ -1533,6 +1541,7 @@ lfos = {
 		} 
 		
 		allow_looting = yes 
+		dynasty_title_names = yes
 		founder_named_dynasties = yes 
 		
 		modifier = default_culture_modifier
@@ -1564,6 +1573,7 @@ lfos = {
 		mother_name_chance = 0
 
 		allow_looting = yes 
+		dynasty_title_names = yes
 		founder_named_dynasties = yes 
 		
 		modifier = default_culture_modifier
@@ -1586,6 +1596,7 @@ lfos = {
 		}
 		
 		allow_looting = yes 
+		dynasty_title_names = yes
 		founder_named_dynasties = yes 
 		
 		modifier = default_culture_modifier
@@ -1631,7 +1642,30 @@ undead = {
 		
 		modifier = default_culture_modifier#undead_culture_modifier
 
-	} 
+	} 	
+	undead_ikanan = {
+
+		graphical_cultures = { cursedgfx }
+
+		parent = ikanan
+		used_for_random = no 
+
+		color = { 0.94 0.5 0.5 }
+		
+		male_names = {
+		Keeta Igos Kiza Zol Shaka Kaun Amoka Keel Kun Gatos Kekos Kolamah Gotakos Zoss Kotah Geel Kozus Kaulatal Gauh Goran Koros Zess Kalal Ietah Zil Irah Igoss Gomas Atila Gazol Atata Nalon Karus Iruss Namuss Noza Neema Kegoss Narol Naloka Naliza Aruss Gauraka Gauzeza Azera Amola Gola Golos Kelan Kah Gauzol Nauruh Noma Azuss Kauka Zama Zira Noman Kumama Kamegra Gila Ikaka Aleel Notala Shogala SHuss Kiruss Zotaura Gaugas Kazaus Gauma Iezan Izuss Kagol Komuh Komeh Nalaka Gotah Aruh Koza Aras Shura Zamis Kauma Akala Zoka Zaura Karah Komola Narah Iemah Shola Kautah Itula Nomoh Gauzel Aizah Zaman Gaun Zakoka
+		}
+		female_names = {
+		Gomess Kamura Aikara Naroh Iegra Ala Gauza Igras Kara Zara Aira Gauka Iemara Kagal Ketah Zas Kima Shara Imoma Atara Kaula Kagalal Kaga Ateel Kokuss Amekoza Ila Ira Nalol Zakuh Irola Ikuss Noka Nales Koma Gora Kass Ireel Shaka Nalareh Aigah Gata Gauzoga Kauman Kola Nura Zomuh Akema Ireeka Ireteel Aitas Ieran Kota Karess Gauzal Imara Nalas Gaura Keela Igra Arara Zeer Gauzan Naza Keka Qauss Galaura Katah Garikara Gaurah Atora Iekola Ikoma Kitah Aka Aikora Shama Gura Kagema Nirura Zautera Karera Nagoss Gama Atama Nama Zoma Akah Kakah Naruss Guss Aizan Gaula Kala Gauta Nola Irara Gaga Kuss
+		}
+		
+		from_dynasty_prefix = "du "
+		male_patronym = "dun"
+		female_patronym = "dutor"
+		prefix = no
+				
+		modifier = default_culture_modifier#undead_culture_modifier
+	}
 }
 
 mammalian_monsters = {
@@ -1713,29 +1747,6 @@ other_world = {
 
 		allow_looting = yes
 		modifier = default_culture_modifier
-	}
-	undead_ikanan = {
-
-		graphical_cultures = { cursedgfx }
-
-		parent = ikanan
-		used_for_random = no 
-
-		color = { 0.94 0.5 0.5 }
-		
-		male_names = {
-		Keeta Igos Kiza Zol Shaka Kaun Amoka Keel Kun Gatos Kekos Kolamah Gotakos Zoss Kotah Geel Kozus Kaulatal Gauh Goran Koros Zess Kalal Ietah Zil Irah Igoss Gomas Atila Gazol Atata Nalon Karus Iruss Namuss Noza Neema Kegoss Narol Naloka Naliza Aruss Gauraka Gauzeza Azera Amola Gola Golos Kelan Kah Gauzol Nauruh Noma Azuss Kauka Zama Zira Noman Kumama Kamegra Gila Ikaka Aleel Notala Shogala SHuss Kiruss Zotaura Gaugas Kazaus Gauma Iezan Izuss Kagol Komuh Komeh Nalaka Gotah Aruh Koza Aras Shura Zamis Kauma Akala Zoka Zaura Karah Komola Narah Iemah Shola Kautah Itula Nomoh Gauzel Aizah Zaman Gaun Zakoka
-		}
-		female_names = {
-		Gomess Kamura Aikara Naroh Iegra Ala Gauza Igras Kara Zara Aira Gauka Iemara Kagal Ketah Zas Kima Shara Imoma Atara Kaula Kagalal Kaga Ateel Kokuss Amekoza Ila Ira Nalol Zakuh Irola Ikuss Noka Nales Koma Gora Kass Ireel Shaka Nalareh Aigah Gata Gauzoga Kauman Kola Nura Zomuh Akema Ireeka Ireteel Aitas Ieran Kota Karess Gauzal Imara Nalas Gaura Keela Igra Arara Zeer Gauzan Naza Keka Qauss Galaura Katah Garikara Gaurah Atora Iekola Ikoma Kitah Aka Aikora Shama Gura Kagema Nirura Zautera Karera Nagoss Gama Atama Nama Zoma Akah Kakah Naruss Guss Aizan Gaula Kala Gauta Nola Irara Gaga Kuss
-		}
-		
-		from_dynasty_prefix = "du "
-		male_patronym = "dun"
-		female_patronym = "dutor"
-		prefix = no
-				
-		modifier = default_culture_modifier#undead_culture_modifier
 	}
 	#Readopted Goddesses/Goddess of Time
 	ikanan = {
