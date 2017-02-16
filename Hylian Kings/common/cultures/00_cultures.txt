@@ -287,6 +287,45 @@ hylian_group = {
 		Kanu Ioka Iolinu Hida Hikunada Hilla Kinida Pulina Vanali Meadana Dinay Ionili Pueka Veali Paka Kieku Kulavili Vikao Manay Pieda Viva Hivia Hiki Aivay Hikay Keala Iolili Kanao Kueva Hilli Hivil Ionay Vinia Sanay Palla Heala Hillu Pinanay Deakuelao Kivay Hieni Pinia Savay Hika Hanay Ionana Diku Vidinu Halao Kikabay Pivay Pani Killaku Kanunay Kulay Hinay Kika Killika Kueng Pavay Kaku Hani Maka Salao Mei Kaka Haka Hinina Kalal Ioal Dilaka Hanilla Kanealika Ionani Ioku Wrynika Milia Meali Dalila Sileaki Pakieni Hunu Ioli Pinineal Sinay Kadika Hilava Sakali Saku Sanu Panay Keaka Hanal Hilay Ionika Hilani Makali Pali Pika Aina 
 		}
 		modifier = default_culture_modifier
+	}	
+	skylofter = {
+		graphical_cultures = { skyliangfx hyliangfx } 
+
+		parent = hylian
+
+		used_for_random = no
+
+		color = { 0.8 0.36 0.36 }
+
+		male_names = {
+			Madas Beedle Bertie Cawlin Croo Dovos Fledge Dodoh Eagus Groose Gaepora Gondo Goselle Horwell Jakamar Keet Owlan Parrow Peater Pum Peatric Rupin Rusta Sparrot Stritch Timamo Rha Ostich Turk Malo Caper Spur Trag Shellduck Gadwell Wigein Malerd Scoter Scop Skoter Smew Auc Fullmer Greb Jaberu Ribis Herin Bitern Cormerant Shrag Anhenga Karacara Felcon Merlen Egle Sparow Hawk Busterd Kage Krake Kroot Frinfoot Kempken Curloow Sheethbill Pluver Strilt Ebisbill Avoset Wribill Grodwit Drowitcher Whymbrel Tatler Dunllin Ruf Not Grull Turn Rauk Rauclet Prigeon Crockatoo Mucaw Hroatzi Turraco Cukroo Kool Swift Trogun Quetzel Kooka Trody Motmoot Hopoe Tinker Flicker Manacin Schifronis Wren Shrike Gallito Tapaculo Canastero Hornero Rayadito Viro Gelepaio Lerk Rok
+		}
+		female_names = {
+			Zelda Greba Henya Karane Kina Kukiel Luv Mallara Orielle Peatrice Piper Wyrna Tinamo Rhe Kewe Eme Cassower Kiki Chacha Laca Gean Qail Kaperkailly Kaily Partrydg Pea Neen Teel Pokard Pitril Preon Flamengo Ibes Igret Peli Garnnet Kisrtrel Ospry Kitee Bisra Koraan Meset Serema Rael Sora Takah Sungrebe Brolga Jakana Pratincol Nody Skoa Pufin DoveAuc Auclet Kakapoo Kia Korella Gralah Loriceet Yory Rosela Parotlit Poto Pauragoo Swiftlit Topazz Coqotte Inka Huming Puffeg Burra Arakari Barbaet Picult Jakamar Nunlit Asity Pitta Pritta Continga Elania Phoebe Monjita Kiska Pita Cachalote Cinclodes Xenops Lyr Tui Pardalote Kakako Batis Tchaga Vana Iora Sittela Jey Mag Pia Astrapea Cistycola Petronea Quelia Pitilia Linet Liwy Oropendola Zubora Gabora
+		}
+						
+		modifier = default_culture_modifier
+		allow_in_ruler_designer = no #set to yes to be playable
+	}
+	hylian = {
+
+	graphical_cultures = { hyliangfx }
+
+	#parent = NONE the first humans 
+
+	color = { 0.63 0.13 0.94 }
+		
+	used_for_random = no
+
+		male_names = {
+			Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlfov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Stockwell Sturgeon Zill Wheaton Bremor Brent Doyle Mack Mutoh David Rauru Ichiro Jiro Sabbooro Shiro Guru-Guru Guru Grog Ingo Sakon Jovani Kamaro Baito Brac Dayle Darling Kafei Dotour Barten Shikashi Coro Barnes Shar Auru Falbi Fyer Borville Charlo Chudley Pulo Soal Kaepora Gaebora Harkinian Nohen Gulley Osfala Rosso Sahasrahla Akazoo Kazakk Daphnes Arthon Atrinas Aginah Bagu Mario Luigi Chrom
+		}
+
+		female_names = {
+			Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Leila Mama Marcy Pina Pita Paige Sheila Tina Verona Honey Marilla Judo Cremia Epona Romani Pamela Ashei Iza Hena Agitha Kili Hanna Misha Fanadi Telma Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Aryll Rose Sue-Belle Sue Belle Gillian Joanna Potova Linda Maggie Milia Minenco Missey Pompie Peach Daisy Rosalina Lissa Lucinia Emmeryn Hylia Linkette Yelda Linkle
+		}
+	modifier = default_culture_modifier	
+	allow_in_ruler_designer = no #set to yes to be playable
 	}
 }
 round_eared = {
@@ -1200,26 +1239,6 @@ aquatic_group = {
 		allow_looting = yes
 		seafarer = yes
 	}
-
-	geozard = {
-		graphical_cultures = { geozardgfx }
-	
-		parent = demon
-
-		color = { 0.86 0.63 .87 }
-
-		male_names = {
-			Akbas Aollah Arafazl Ayuorz Daiash Gorashir Hactoo Haruhir Hayad Hiar Hotram Ichraz Isaooz Itsouz Jirana Jurruz Kaeyal Kaiara Kaoush Katvud Kazhim Kensan Kicail Koudar Kuroon Kyookh Makoon Masoun Micoun Minroz Naolam Nobhan Norzar Osaadi Renmid Riksan Roklil Ryoshed Ryueed Sabved Shibiz Shoaja Shuian Sorush Sothdi Sououd Susmud Taiood Takoud Tarud Tsuhdi Yamehr Yaseed Yorima Yosvid Yukeza Yuutam Hanmid Ali Han Haosun Shori Nukijurad Sosal Sholafaz Tusha Hitron Yatsijan Jabha Juklal Alour Akish Jounil Sarud Siha Tubhad Torum Yohal Ifod Sekban Deekoch Raarered Okur Yisa Nusan Yaon Shol Rayad Mojun Jijon Jisad Sutal Joural Mosur Tsebha Roran Jnud Yan Yisal Motoctan
-		}
-
-		female_names = {
-		Areko Atemi Avana Azaane Azremi Bahiko Banami Danuka Daraya Delaka Ehsame Elane Elhano Faika Fatako Feruka Firtsu Ghoiyo Goloko Hamcho Jalemi Katuko Khana Khoako Khuaru Laluka Leiuna Leyaru Mahina Marata Masoko Minomi Mitoka Mojshi Moriko Naharu Narumi Nasnko Nedede Nilori Niuumi Nouzue Omiuko Paniko Pariku Rogoko Rosaku Saharu Sakoro Sanone Sariko Shakyo Shayou Shimai Shoto Simami Sohami Somao Soriko Yasuyo Zahmei Zarchi Zeiori Zeyika Zhamio Zibiyu Ziniko Fikati Shari ZOra Dakamo Abuho Abimaki Zeki Abasana Fikedo Narate Zimata Zira Zeriki Sharo Deri Galeli Sakete Nani Atoke Aremo Zirikio Mami Nozei Miko Muse Zako Amamo Faka Mete Zemi Akamai Hazri
-		}
-		modifier = default_culture_modifier
-		allow_looting = yes
-		dynasty_title_names = yes
-		seafarer = yes
-	}
 }
 avian_group = {
 	rito = {
@@ -1336,30 +1355,6 @@ fae = {
 
 		modifier = default_culture_modifier
 	}
-	demon = {
-		graphical_cultures = { demongfx }
-
-		horde = yes 
-		used_for_random = no 
-
-		color = { 0.5 0.54 0.54 }
-		
-		
-		male_names = { 
-		Demise Spite Malice Hate Greed Gluttony Vengence Blind Onox Vaati Cole Malladus Bellum Ghirahim Batreaux Sybris Nazar Aldus Ganon Vire Tannin Jarlath Anhim Fleerin Skeldritch Meaus Atre Rus Seezux Oldin BorlinNazade Binas Tuldrodize Sinin Vizos Galis Oram Baros Ruror Anahom Flin Flix Rarlon Nohea Veton Flize Skitir Gonhan Tonhor Venhin Vinunon Falton Raris Gidor Sines Olles Maror Ozide Allum Tuhes Arallun Skarlannax Seezos Skanotim Maanhe Baram Mudas Busane Fline Skanune Gihun Skanarax Seeldadus Skanini Ollatiton Onanhin Flone Tenun Botas Voldron Skanin Zerilim Allinor Siralar Narulle Jullas Vinnor Flinanam Aror Flizos Skane Anhin Skanas Seezas Naror Zolor Varon Sadox Gihin Tanhinhix
-		}
-		female_names = {
-		Envy Lust Saniya Anthea Vire Blind Zalya Rosalyne Valyirlin Azin Ratira Suldor Zonas Sohea Totre Vezea Cinthin Cunas Nahea Vaan Skaha Ahihe Zalarin Zaldror Vidon Flis Arohea Asorea Nildas Adillun Belaatre Tanim Fliza Skalla Skalam Misor Sirom Bera Gohoea Gunthanea Cirea Rohea Bihea Variton Marea Berea Aseasus Baanea Ararea Alyas Meeze Otozea Annizas Flinis Vitas Skax Nasire Visinea Fliri Baasi Janae Skana Baasen 
-		}
-		
-		dukes_called_kings = no
-		
-		founder_named_dynasties = yes 
-		allow_looting = yes
-		dynasty_title_names = yes
-
-		modifier = default_culture_modifier
-	}
 }
 plant_group = {
 	deku_scrub = {
@@ -1404,6 +1399,7 @@ plant_group = {
 
 		modifier = default_culture_modifier
 	}
+	#korok = {}
 	zuna = {
 		graphical_cultures = { zunagfx } 
 
@@ -1452,6 +1448,33 @@ plant_group = {
 		
 		modifier = default_culture_modifier#undead_culture_modifier
 	}
+}
+infernal = {
+	demon = {
+		graphical_cultures = { demongfx }
+
+		horde = yes 
+		used_for_random = no 
+
+		color = { 0.5 0.54 0.54 }
+		
+		
+		male_names = { 
+		Demise Spite Malice Hate Greed Gluttony Vengence Blind Onox Vaati Cole Malladus Bellum Ghirahim Batreaux Sybris Nazar Aldus Ganon Vire Tannin Jarlath Anhim Fleerin Skeldritch Meaus Atre Rus Seezux Oldin BorlinNazade Binas Tuldrodize Sinin Vizos Galis Oram Baros Ruror Anahom Flin Flix Rarlon Nohea Veton Flize Skitir Gonhan Tonhor Venhin Vinunon Falton Raris Gidor Sines Olles Maror Ozide Allum Tuhes Arallun Skarlannax Seezos Skanotim Maanhe Baram Mudas Busane Fline Skanune Gihun Skanarax Seeldadus Skanini Ollatiton Onanhin Flone Tenun Botas Voldron Skanin Zerilim Allinor Siralar Narulle Jullas Vinnor Flinanam Aror Flizos Skane Anhin Skanas Seezas Naror Zolor Varon Sadox Gihin Tanhinhix
+		}
+		female_names = {
+		Envy Lust Saniya Anthea Vire Blind Zalya Rosalyne Valyirlin Azin Ratira Suldor Zonas Sohea Totre Vezea Cinthin Cunas Nahea Vaan Skaha Ahihe Zalarin Zaldror Vidon Flis Arohea Asorea Nildas Adillun Belaatre Tanim Fliza Skalla Skalam Misor Sirom Bera Gohoea Gunthanea Cirea Rohea Bihea Variton Marea Berea Aseasus Baanea Ararea Alyas Meeze Otozea Annizas Flinis Vitas Skax Nasire Visinea Fliri Baasi Janae Skana Baasen 
+		}
+		
+		dukes_called_kings = no
+		
+		founder_named_dynasties = yes 
+		allow_looting = yes
+		dynasty_title_names = yes
+
+		modifier = default_culture_modifier
+	}
+	#fallen_fairy
 }
 blin = {
 	bokoblin = {
@@ -1721,8 +1744,28 @@ mammalian_monsters = {
 		modifier = default_culture_modifier
 	}
 }
-other_world = {
+aquatic_monster = {
+	geozard = {
+		graphical_cultures = { geozardgfx }
+	
+		parent = demon
 
+		color = { 0.86 0.63 .87 }
+
+		male_names = {
+			Akbas Aollah Arafazl Ayuorz Daiash Gorashir Hactoo Haruhir Hayad Hiar Hotram Ichraz Isaooz Itsouz Jirana Jurruz Kaeyal Kaiara Kaoush Katvud Kazhim Kensan Kicail Koudar Kuroon Kyookh Makoon Masoun Micoun Minroz Naolam Nobhan Norzar Osaadi Renmid Riksan Roklil Ryoshed Ryueed Sabved Shibiz Shoaja Shuian Sorush Sothdi Sououd Susmud Taiood Takoud Tarud Tsuhdi Yamehr Yaseed Yorima Yosvid Yukeza Yuutam Hanmid Ali Han Haosun Shori Nukijurad Sosal Sholafaz Tusha Hitron Yatsijan Jabha Juklal Alour Akish Jounil Sarud Siha Tubhad Torum Yohal Ifod Sekban Deekoch Raarered Okur Yisa Nusan Yaon Shol Rayad Mojun Jijon Jisad Sutal Joural Mosur Tsebha Roran Jnud Yan Yisal Motoctan
+		}
+
+		female_names = {
+		Areko Atemi Avana Azaane Azremi Bahiko Banami Danuka Daraya Delaka Ehsame Elane Elhano Faika Fatako Feruka Firtsu Ghoiyo Goloko Hamcho Jalemi Katuko Khana Khoako Khuaru Laluka Leiuna Leyaru Mahina Marata Masoko Minomi Mitoka Mojshi Moriko Naharu Narumi Nasnko Nedede Nilori Niuumi Nouzue Omiuko Paniko Pariku Rogoko Rosaku Saharu Sakoro Sanone Sariko Shakyo Shayou Shimai Shoto Simami Sohami Somao Soriko Yasuyo Zahmei Zarchi Zeiori Zeyika Zhamio Zibiyu Ziniko Fikati Shari ZOra Dakamo Abuho Abimaki Zeki Abasana Fikedo Narate Zimata Zira Zeriki Sharo Deri Galeli Sakete Nani Atoke Aremo Zirikio Mami Nozei Miko Muse Zako Amamo Faka Mete Zemi Akamai Hazri
+		}
+		modifier = default_culture_modifier
+		allow_looting = yes
+		dynasty_title_names = yes
+		seafarer = yes
+	}
+}
+other_world = {
 	garo = {
 		graphical_cultures = { garogfx }
 
@@ -1820,46 +1863,6 @@ other_world = {
 		mother_name_chance = 10
 
 		modifier = default_culture_modifier
-	}
-}
-dead_cultures = {
-	skylofter = {
-		graphical_cultures = { skyliangfx hyliangfx } 
-
-		parent = hylian
-
-		used_for_random = no
-
-		color = { 0.8 0.36 0.36 }
-
-		male_names = {
-			Madas Beedle Bertie Cawlin Croo Dovos Fledge Dodoh Eagus Groose Gaepora Gondo Goselle Horwell Jakamar Keet Owlan Parrow Peater Pum Peatric Rupin Rusta Sparrot Stritch Timamo Rha Ostich Turk Malo Caper Spur Trag Shellduck Gadwell Wigein Malerd Scoter Scop Skoter Smew Auc Fullmer Greb Jaberu Ribis Herin Bitern Cormerant Shrag Anhenga Karacara Felcon Merlen Egle Sparow Hawk Busterd Kage Krake Kroot Frinfoot Kempken Curloow Sheethbill Pluver Strilt Ebisbill Avoset Wribill Grodwit Drowitcher Whymbrel Tatler Dunllin Ruf Not Grull Turn Rauk Rauclet Prigeon Crockatoo Mucaw Hroatzi Turraco Cukroo Kool Swift Trogun Quetzel Kooka Trody Motmoot Hopoe Tinker Flicker Manacin Schifronis Wren Shrike Gallito Tapaculo Canastero Hornero Rayadito Viro Gelepaio Lerk Rok
-		}
-		female_names = {
-			Zelda Greba Henya Karane Kina Kukiel Luv Mallara Orielle Peatrice Piper Wyrna Tinamo Rhe Kewe Eme Cassower Kiki Chacha Laca Gean Qail Kaperkailly Kaily Partrydg Pea Neen Teel Pokard Pitril Preon Flamengo Ibes Igret Peli Garnnet Kisrtrel Ospry Kitee Bisra Koraan Meset Serema Rael Sora Takah Sungrebe Brolga Jakana Pratincol Nody Skoa Pufin DoveAuc Auclet Kakapoo Kia Korella Gralah Loriceet Yory Rosela Parotlit Poto Pauragoo Swiftlit Topazz Coqotte Inka Huming Puffeg Burra Arakari Barbaet Picult Jakamar Nunlit Asity Pitta Pritta Continga Elania Phoebe Monjita Kiska Pita Cachalote Cinclodes Xenops Lyr Tui Pardalote Kakako Batis Tchaga Vana Iora Sittela Jey Mag Pia Astrapea Cistycola Petronea Quelia Pitilia Linet Liwy Oropendola Zubora Gabora
-		}
-						
-		modifier = default_culture_modifier
-	}
-
-	hylian = {
-
-	graphical_cultures = { hyliangfx }
-
-	#parent = NONE the first humans 
-
-	color = { 0.63 0.13 0.94 }
-		
-	used_for_random = no
-
-		male_names = {
-			Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlfov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Stockwell Sturgeon Zill Wheaton Bremor Brent Doyle Mack Mutoh David Rauru Ichiro Jiro Sabbooro Shiro Guru-Guru Guru Grog Ingo Sakon Jovani Kamaro Baito Brac Dayle Darling Kafei Dotour Barten Shikashi Coro Barnes Shar Auru Falbi Fyer Borville Charlo Chudley Pulo Soal Kaepora Gaebora Harkinian Nohen Gulley Osfala Rosso Sahasrahla Akazoo Kazakk Daphnes Arthon Atrinas Aginah Bagu Mario Luigi Chrom
-		}
-
-		female_names = {
-			Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Leila Mama Marcy Pina Pita Paige Sheila Tina Verona Honey Marilla Judo Cremia Epona Romani Pamela Ashei Iza Hena Agitha Kili Hanna Misha Fanadi Telma Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Aryll Rose Sue-Belle Sue Belle Gillian Joanna Potova Linda Maggie Milia Minenco Missey Pompie Peach Daisy Rosalina Lissa Lucinia Emmeryn Hylia Linkette Yelda Linkle
-		}
-	modifier = default_culture_modifier
 	}
 }
 graphical_only = {

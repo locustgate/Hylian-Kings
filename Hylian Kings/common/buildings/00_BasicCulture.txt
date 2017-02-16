@@ -3236,7 +3236,10 @@ city = {
 	ct_aquatic_agriculture_1 = {
 		desc = ct_aquatic_agriculture_1_desc
 		potential = {
-			culture_group = aquatic
+			OR = {
+				culture_group = aquatic
+				culture_group = aquatic_monster
+			}
 			location = { 				
 				port = yes
 				 OR = { 
@@ -3258,7 +3261,10 @@ city = {
 	ct_aquatic_agriculture_2 = {
 		desc = ct_aquatic_agriculture_2_desc
 		potential = {
-			culture_group = aquatic
+			OR = {
+				culture_group = aquatic
+				culture_group = aquatic_monster
+			}
 			location = { 
 				OR = { 
 					port = yes
@@ -3282,7 +3288,10 @@ city = {
 	ct_aquatic_agriculture_3 = {
 		desc = ct_aquatic_agriculture_3_desc
 		potential = {
-			culture_group = aquatic
+			OR = {
+				culture_group = aquatic
+				culture_group = aquatic_monster
+			}
 			location = { 
 				OR = { 
 					port = yes
