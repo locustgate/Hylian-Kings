@@ -107,6 +107,9 @@ feudal_governments = {
 				NOT = { religion = darknut_doctrine }
 				NOT = { religion = wizzrobe_doctrine }
 				NOT = { religion_group = demon_religion }
+				NOT = { religion = great_deku }
+				NOT = { religion = great_baga }
+				NOT = { religion = great_fairies }
 			}
 		}
 		color = { 255 255 240 }

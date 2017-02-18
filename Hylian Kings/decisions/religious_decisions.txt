@@ -7,11 +7,11 @@
 ###########################################
 
 decisions = {
-	observe_light_festival = {	light_fair = {
+	observe_light_festival = {	
 		only_playable = yes
 		potential = {
 			is_playable = yes
-			religion_group = christian
+			religion = light_force
 			prisoner = no
 			NOT = {
 				has_character_modifier = holding_light_fair
@@ -200,251 +200,251 @@ decisions = {
 			}			
 		}
 	}
-	observe_lunar_festival = { #festival from dusk to dawn, symbolising the death and rebirth of hylia
-		potential = {
-			ai = no
-			is_ruler = yes
-			prisoner = no
-			is_adult = yes
-			religion = sheikahism
-			NOT = {
-				has_character_modifier = holding_religious_feastival
-			}
-			NOT = {
-				has_character_modifier = large_feast_timer
-			}
-			NOT = {
-				has_character_modifier = fabulous_feast
-			}
-			NOT = {
-				has_character_flag = guest_religious_feastival_started
-			}
-			NOT = { trait = incapable }
-			num_of_vassals = 1
-		}
-		allow = {
-			war = no
-			any_demesne_title = {
-				is_occupied = no
-			}
-			prisoner = no
-			NOT = { trait = in_hiding }
-			scaled_wealth = 0.2
-			month = 9
-			prestige = 100
-			custom_tooltip = {
-				text = is_not_busy_trigger_tooltip
-				hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
-			}
-		}
-		effect = {
-			scaled_wealth = -0.2
-			add_character_modifier = {
-				name = holding_religious_feastival
-				duration = 365
-			}
-			set_character_flag = recent_minor_decision
-			set_character_flag = do_not_disturb
-			hidden_tooltip = { character_event = { id = HKRC.x2 } }
-		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0.1
-			modifier = {
-				factor = 0
-				NOT = {
-					scaled_wealth = 2
-				}
-			}
-			modifier = {
-				factor = 0.5
-				trait = shy
-			}
-			modifier = {
-				factor = 0.5
-				NOT = { diplomacy = 10 }
-			}	
-			modifier = {
-				factor = 0
-				has_character_flag = recent_minor_decision
-				NOT = {
-					had_character_flag = {
-						flag = recent_minor_decision
-						days = 730
-					}
-				}
-			}	
-			modifier = {
-				factor = 0
-				NOT = { age = 30 }
-			}			
-		}
-	}
-	observe_midnight_festival = { #festival from 3 to midnight, symbolising the sacrafice of hylia
-		potential = {
-			ai = no
-			is_ruler = yes
-			prisoner = no
-			is_adult = yes
-			religion = sheikahism
-			NOT = {
-				has_character_modifier = holding_religious_feastival
-			}
-			NOT = {
-				has_character_modifier = large_feast_timer
-			}
-			NOT = {
-				has_character_modifier = fabulous_feast
-			}
-			NOT = {
-				has_character_flag = guest_religious_feastival_started
-			}
-			NOT = { trait = incapable }
-			num_of_vassals = 1
-		}
-		allow = {
-			war = no
-			any_demesne_title = {
-				is_occupied = no
-			}
-			prisoner = no
-			NOT = { trait = in_hiding }
-			scaled_wealth = 0.2
-			month = 9
-			prestige = 100
-			custom_tooltip = {
-				text = is_not_busy_trigger_tooltip
-				hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
-			}
-		}
-		effect = {
-			scaled_wealth = -0.2
-			add_character_modifier = {
-				name = holding_religious_feastival
-				duration = 365
-			}
-			set_character_flag = recent_minor_decision
-			set_character_flag = do_not_disturb
-			hidden_tooltip = { character_event = { id = HKRC.x3 } }
-		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0.1
-			modifier = {
-				factor = 0
-				NOT = {
-					scaled_wealth = 2
-				}
-			}
-			modifier = {
-				factor = 0.5
-				trait = shy
-			}
-			modifier = {
-				factor = 0.5
-				NOT = { diplomacy = 10 }
-			}	
-			modifier = {
-				factor = 0
-				has_character_flag = recent_minor_decision
-				NOT = {
-					had_character_flag = {
-						flag = recent_minor_decision
-						days = 730
-					}
-				}
-			}	
-			modifier = {
-				factor = 0
-				NOT = { age = 30 }
-			}			
-		}
-	}
-	#alien festival
-	observe_carnival_time = { #annual celebration from Terminia symbolising the harmony between nature and time
-		potential = {
-			ai = no
-			is_ruler = yes
-			prisoner = no
-			is_adult = yes
-			religion = goddess_time
-			NOT = {
-				has_character_modifier = holding_religious_feastival
-			}
-			NOT = {
-				has_character_modifier = large_feast_timer
-			}
-			NOT = {
-				has_character_modifier = fabulous_feast
-			}
-			NOT = {
-				has_character_flag = guest_religious_feastival_started
-			}
-			NOT = { trait = incapable }
-			num_of_vassals = 1
-		}
-		allow = {
-			war = no
-			any_demesne_title = {
-				is_occupied = no
-			}
-			prisoner = no
-			NOT = { trait = in_hiding }
-			scaled_wealth = 0.2
-			month = 9
-			prestige = 100
-			custom_tooltip = {
-				text = is_not_busy_trigger_tooltip
-				hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
-			}
-		}
-		effect = {
-			scaled_wealth = -0.2
-			add_character_modifier = {
-				name = holding_religious_feastival
-				duration = 365
-			}
-			set_character_flag = recent_minor_decision
-			set_character_flag = do_not_disturb
-			hidden_tooltip = { character_event = { id = HKRC.x3 } }
-		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0.1
-			modifier = {
-				factor = 0
-				NOT = {
-					scaled_wealth = 2
-				}
-			}
-			modifier = {
-				factor = 0.5
-				trait = shy
-			}
-			modifier = {
-				factor = 0.5
-				NOT = { diplomacy = 10 }
-			}	
-			modifier = {
-				factor = 0
-				has_character_flag = recent_minor_decision
-				NOT = {
-					had_character_flag = {
-						flag = recent_minor_decision
-						days = 730
-					}
-				}
-			}	
-			modifier = {
-				factor = 0
-				NOT = { age = 30 }
-			}			
-		}
-	}	
+	#observe_lunar_festival = { #festival from dusk to dawn, symbolising the death and rebirth of hylia
+	#	potential = {
+	#		ai = no
+	#		is_ruler = yes
+	#		prisoner = no
+	#		is_adult = yes
+	#		religion = sheikahism
+	#		NOT = {
+	#			has_character_modifier = holding_religious_feastival
+	#		}
+	#		NOT = {
+	#			has_character_modifier = large_feast_timer
+	#		}
+	#		NOT = {
+	#			has_character_modifier = fabulous_feast
+	#		}
+	#		NOT = {
+	#			has_character_flag = guest_religious_feastival_started
+	#		}
+	#		NOT = { trait = incapable }
+	#		num_of_vassals = 1
+	#	}
+	#	allow = {
+	#		war = no
+	#		any_demesne_title = {
+	#			is_occupied = no
+	#		}
+	#		prisoner = no
+	#		NOT = { trait = in_hiding }
+	#		scaled_wealth = 0.2
+	#		month = 9
+	#		prestige = 100
+	#		custom_tooltip = {
+	#			text = is_not_busy_trigger_tooltip
+	#			hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
+	#		}
+	#	}
+	#	effect = {
+	#		scaled_wealth = -0.2
+	#		add_character_modifier = {
+	#			name = holding_religious_feastival
+	#			duration = 365
+	#		}
+	#		set_character_flag = recent_minor_decision
+	#		set_character_flag = do_not_disturb
+	#		hidden_tooltip = { character_event = { id = HKRC.x2 } }
+	#	}
+	#	revoke_allowed = {
+	#		always = no
+	#	}
+	#	ai_will_do = {
+	#		factor = 0.1
+	#		modifier = {
+	#			factor = 0
+	#			NOT = {
+	#				scaled_wealth = 2
+	#			}
+	#		}
+	#		modifier = {
+	#			factor = 0.5
+	#			trait = shy
+	#		}
+	#		modifier = {
+	#			factor = 0.5
+	#			NOT = { diplomacy = 10 }
+	#		}	
+	#		modifier = {
+	#			factor = 0
+	#			has_character_flag = recent_minor_decision
+	#			NOT = {
+	#				had_character_flag = {
+	#					flag = recent_minor_decision
+	#					days = 730
+	#				}
+	#			}
+	#		}	
+	#		modifier = {
+	#			factor = 0
+	#			NOT = { age = 30 }
+	#		}			
+	#	}
+	#}
+	#observe_midnight_festival = { #festival from 3 to midnight, symbolising the sacrafice of hylia
+	#	potential = {
+	#		ai = no
+	#		is_ruler = yes
+	#		prisoner = no
+	#		is_adult = yes
+	#		religion = sheikahism
+	#		NOT = {
+	#			has_character_modifier = holding_religious_feastival
+	#		}
+	#		NOT = {
+	#			has_character_modifier = large_feast_timer
+	#		}
+	#		NOT = {
+	#			has_character_modifier = fabulous_feast
+	#		}
+	#		NOT = {
+	#			has_character_flag = guest_religious_feastival_started
+	#		}
+	#		NOT = { trait = incapable }
+	#		num_of_vassals = 1
+	#	}
+	#	allow = {
+	#		war = no
+	#		any_demesne_title = {
+	#			is_occupied = no
+	#		}
+	#		prisoner = no
+	#		NOT = { trait = in_hiding }
+	#		scaled_wealth = 0.2
+	#		month = 9
+	#		prestige = 100
+	#		custom_tooltip = {
+	#			text = is_not_busy_trigger_tooltip
+	#			hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
+	#		}
+	#	}
+	#	effect = {
+	#		scaled_wealth = -0.2
+	#		add_character_modifier = {
+	#			name = holding_religious_feastival
+	#			duration = 365
+	#		}
+	#		set_character_flag = recent_minor_decision
+	#		set_character_flag = do_not_disturb
+	#		hidden_tooltip = { character_event = { id = HKRC.x3 } }
+	#	}
+	#	revoke_allowed = {
+	#		always = no
+	#	}
+	#	ai_will_do = {
+	#		factor = 0.1
+	#		modifier = {
+	#			factor = 0
+	#			NOT = {
+	#				scaled_wealth = 2
+	#			}
+	#		}
+	#		modifier = {
+	#			factor = 0.5
+	#			trait = shy
+	#		}
+	#		modifier = {
+	#			factor = 0.5
+	#			NOT = { diplomacy = 10 }
+	#		}	
+	#		modifier = {
+	#			factor = 0
+	#			has_character_flag = recent_minor_decision
+	#			NOT = {
+	#				had_character_flag = {
+	#					flag = recent_minor_decision
+	#					days = 730
+	#				}
+	#			}
+	#		}	
+	#		modifier = {
+	#			factor = 0
+	#			NOT = { age = 30 }
+	#		}			
+	#	}
+	#}
+	##alien festival
+	#observe_carnival_time = { #annual celebration from Terminia symbolising the harmony between nature and time
+	#	potential = {
+	#		ai = no
+	#		is_ruler = yes
+	#		prisoner = no
+	#		is_adult = yes
+	#		religion = goddess_time
+	#		NOT = {
+	#			has_character_modifier = holding_religious_feastival
+	#		}
+	#		NOT = {
+	#			has_character_modifier = large_feast_timer
+	#		}
+	#		NOT = {
+	#			has_character_modifier = fabulous_feast
+	#		}
+	#		NOT = {
+	#			has_character_flag = guest_religious_feastival_started
+	#		}
+	#		NOT = { trait = incapable }
+	#		num_of_vassals = 1
+	#	}
+	#	allow = {
+	#		war = no
+	#		any_demesne_title = {
+	#			is_occupied = no
+	#		}
+	#		prisoner = no
+	#		NOT = { trait = in_hiding }
+	#		scaled_wealth = 0.2
+	#		month = 9
+	#		prestige = 100
+	#		custom_tooltip = {
+	#			text = is_not_busy_trigger_tooltip
+	#			hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
+	#		}
+	#	}
+	#	effect = {
+	#		scaled_wealth = -0.2
+	#		add_character_modifier = {
+	#			name = holding_religious_feastival
+	#			duration = 365
+	#		}
+	#		set_character_flag = recent_minor_decision
+	#		set_character_flag = do_not_disturb
+	#		hidden_tooltip = { character_event = { id = HKRC.x3 } }
+	#	}
+	#	revoke_allowed = {
+	#		always = no
+	#	}
+	#	ai_will_do = {
+	#		factor = 0.1
+	#		modifier = {
+	#			factor = 0
+	#			NOT = {
+	#				scaled_wealth = 2
+	#			}
+	#		}
+	#		modifier = {
+	#			factor = 0.5
+	#			trait = shy
+	#		}
+	#		modifier = {
+	#			factor = 0.5
+	#			NOT = { diplomacy = 10 }
+	#		}	
+	#		modifier = {
+	#			factor = 0
+	#			has_character_flag = recent_minor_decision
+	#			NOT = {
+	#				had_character_flag = {
+	#					flag = recent_minor_decision
+	#					days = 730
+	#				}
+	#			}
+	#		}	
+	#		modifier = {
+	#			factor = 0
+	#			NOT = { age = 30 }
+	#		}			
+	#	}
+	#}	
 }

@@ -1906,3 +1906,33 @@ graphical_only = {
 		modifier = default_culture_modifier
 	}
 }
+mercenary_monsters = {
+	mazura = {
+		graphical_cultures = { mazuragfx }
+		color = {0 0 0}
+		horde = yes 
+		male_names = { Keshi Kon Jami Arion Cheval Gauvin Haizum Ipotane Tikbalang Uchchaihshravas Longma Sleipnir Horse-Face Wihwin Neck Balius Xanthus Bayard Brag Chollima Eachuisge Enbarr Glashyn Gringolet Gullfaxi Gytrash Helhest Hengroen Lampos Liath Dub Llamrei }
+		female_names = { Shadowmare Kelpie Ceffyl  }
+		used_for_random = no
+		allow_in_ruler_designer = no #set to yes to be playable
+	}
+	fokka = {
+		graphical_cultures = { fokkagfx }
+		color = {0 0 0}
+		horde = yes 
+		male_names = { Aarta Adelberta Alberta Alderta Arenda Berta Boudewijn Braama Ceesa Cobusa Dennisa Diede Dirka Elia Emerensa Ernsta Faasa Fakka Festera Filipa Gerarda Gerda Gijisa Gillisa Guusa Hankke Heiko Henka Ignaasa Jaaka Jaapa Jana Joepa Klaasa Koen Koosa Lau Levi Lexa Luuk Maasa Maria Meesmies Minke Niek Niels Petrus Piera Pima Pucka Reina Rensa Roela Ruuda Sema Sjefa Staasa Sjorsa Stijna Thijsa Tiesa Tijna Timo Vaasta Wila Yvo Zef }
+		female_names = { Aafje Agnesu Aleidu Amaliu Anke Anne Ansu Betje Brigittu Carlu Carolienu Cato Chantalu Cokkie Diantha Edithu Elianu Ellenu Esme Estheru Fleuru Geertje Gemma Gerlinde Greetu Griet Hedy Heike Hilde Irisu Isabelle Jacinthu Janneke Jenny Jetu Julie Karin Katrijn Laru Liese Lisu Luus Maaike Meike Nes Nicolet Petra Pucku Renee Rini Roosu Sabien Silke Stienu Thera Til Truusu }
+		used_for_random = no
+		allow_in_ruler_designer = no #set to yes to be playable
+	}
+	wosu = {
+		graphical_cultures = { wosugfx }
+		color = {0 0 0}
+		horde = yes 
+		male_names = {Abele Achille Adalberto Adamo Adelardo Ademaro Adriano Agapito Albano Alberto Baldo Baldovino Bartolo Bartolomeo Basilio Benigno Benito Beppe Berto Biagio Carlo Carmine Cecilio Celeste Celio Cesare Cipriano Cirillo Ciro Cleto Dante Daniele Diodato Dionisio Donato Duilio Durante Edgardo Efisio Egidio Elia Felice Federigo Filiberto Filippo Firmino Flavio Frediano Fulvio Gaetano Gallo Gastone Gherardo Giacobbe Giampaolo Giampiero Gianni Gianpaolo Giovanni Iacopo Ilario  Ivano Jacopo Ladislao Lapo Lauo Leone Livio Luca Luigi Marco Martino Narciso Nico Nino Orazio Ovidio Palmiro Paride Peppi Pier Pino Quirino Raffael Remo Rino Rodolfo Romano Rosario Sabino Salvatore Sandro Saverio Scevola Silvio Taddeo Teo Teofilo Tino Tommaso}
+		female_names = {Ada Adele Adriana Agata Alba Alda Alex Alice Alina Amalia Bianca Bice Bruna Brunella Calogera Camilla Carlotta Cassandra Cecilia Chiarina Clara Clelia Cloe Corenelia Corona Dafne Daria Delia Diana Donata Dorotea Edda Elena Elvira Emilia Emma Ernesta Ersilia Eva Fabia Febe Filippa Fina Flavia Flora Gaia Geltrude Giada Gianna Gilda Gina Giustina Gloria Ida Ilaria Imelda Irma Isotta Lara Lena Lia Liboria Liviana Lucrezia Luigia Mafalda Maria Marianna Mimi Nicolina Ofelia Olga Oriana Patrizia Perla Piera Rina Rita Roberta Rosa Rubina Savina Scilla Serena Silvestra Sofia Susanna Tania Teresa Tina Valeria Vanna Velia Violetta Vita Viviana Zoe Zita Zaira}
+		used_for_random = no
+		allow_in_ruler_designer = no #set to yes to be playable
+	}
+
+}
