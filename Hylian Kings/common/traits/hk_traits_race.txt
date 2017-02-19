@@ -320,6 +320,24 @@ race_lynol = {
 	ai_ambition = -5
 	ai_rationality = 5
 }
+race_mazura = {
+	martial = 2
+	learning = -2
+	combat_rating = 2
+	cached = yes
+	cannot_marry = yes
+	can_hold_titles = no
+	
+}
+race_wosu = {
+	martial = 1
+	intrigue = 1
+	learning = -2
+	cached = yes
+	cannot_marry = yes
+	can_hold_titles = no
+	
+}
 #avian
 race_watarara = {
 	diplomacy = 2
@@ -331,6 +349,17 @@ race_rito = {#repro human
 	stewardship = 2
 	cached = yes
 }
+race_fokka = {
+	martial = 2
+	learning = -2
+	combat_rating = 1
+	cached = yes
+	cannot_marry = yes
+	can_hold_titles = no
+	
+	ai_ambition = 5
+	ai_rationality = -5
+}
 #plant
 race_zuna = {
 	diplomacy = 2
@@ -340,6 +369,15 @@ race_zuna = {
 race_deku = {
 	martial = 2
 	learning = -2
+	combat_rating = -1
+	cached = yes
+	
+	ai_ambition = 5
+	ai_rationality = -5
+}
+race_korok = {
+	martial = -2
+	learning = 2
 	combat_rating = -1
 	cached = yes
 	

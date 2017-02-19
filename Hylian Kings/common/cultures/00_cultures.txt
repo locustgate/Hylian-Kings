@@ -1399,6 +1399,27 @@ plant_group = {
 
 		modifier = default_culture_modifier
 	}
+	korok = {
+		graphical_cultures = { korokgfx } 
+ 
+		parent = deku_tree
+
+		color = { 0.3 0.42 0.2 }
+		
+		male_names = {
+			Camphin  Olivio Irch Hollo Elma Aldo Drona Walna Cedrin Linda Makar Oakin Rown Palmar Asho Cedo Acerolin Zigbo Guanandar Balsin Beechin Mahar Mangro Guavo Kentin Rima Tunga 
+		}
+		female_names = { 
+			Cora  Euodin Casso Palma Bircha Catalpa Aspa Junipo Larcha Maplin Sprucar Firar Yewin Poplin Bindingo Essingango Kevazinga Anisa Coya Avocada Hespa Lila Papedo Silka Willa Zelkovin
+		}
+		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes 
+
+		modifier = default_culture_modifier
+	}
 	#korok = {}
 	zuna = {
 		graphical_cultures = { zunagfx } 
