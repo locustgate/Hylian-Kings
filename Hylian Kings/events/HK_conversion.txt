@@ -279,7 +279,7 @@ character_event = {
 	trigger = {
 		year = 4000
 		any_demesne_province = {
-			region = world_deku_islands
+			region = custom_port_isle
 			culture = ho_ho
 			any_province_holding = {
 				NOT = { holding_type = nomad }
@@ -337,7 +337,7 @@ character_event = {
 		culture = port_towner
 		random_demesne_province = {
 			limit = {
-				region = world_deku_islands
+				region = custom_port_isle
 				culture = ho_ho
 				any_province_holding = {
 					NOT = { holding_type = nomad }
@@ -361,7 +361,7 @@ character_event = {
 	trigger = {
 		year = 4000
 		any_demesne_province = {
-			region = world_deku_islands
+			region = custom_port_isle
 			OR = {
 				culture = ho_ho
 				culture = arcadia
@@ -394,7 +394,7 @@ character_event = {
 		name = "conversion7A"
 		random_demesne_province = {
 			limit = {
-				region = world_deku_islands
+				region = custom_port_isle
 				OR = {	
 					culture = ho_ho
 				}
@@ -535,7 +535,7 @@ province_event = {
 		owner = {
 			culture = morian
 		}
-		owner = {
+		owner = { 
 			top_liege = { 
 				culture = morian
 				OR = {
@@ -544,7 +544,6 @@ province_event = {
 				}
 			} 
 		}
-		region = world_grindle
 	}
 	
 	mean_time_to_happen = {

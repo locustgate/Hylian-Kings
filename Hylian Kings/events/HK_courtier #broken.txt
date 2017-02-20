@@ -52,7 +52,7 @@ namespace = HKC
 #	is_triggered_only = yes
 #
 #	option = {
-#		name = "HKC1A" #imprison
+#		name = "HKC1A"#imprison
 #		prestige = 20
 #		random_list = {
 #			50 = {
@@ -159,7 +159,7 @@ namespace = HKC
 #	is_triggered_only = yes
 #
 #	option = {
-#		name = "HKC0A" #GUARDS
+#		name = "HKC0A"#GUARDS
 #		prestige = -20
 #		hidden_tooltip = {
 #			random_list = {
@@ -216,7 +216,7 @@ namespace = HKC
 #	is_triggered_only = yes
 #
 #	option = {
-#		name = "HKC1A" #imprison
+#		name = "HKC1A"#imprison
 #		random_list = {
 #			50 = {
 #				create_character = {
@@ -356,7 +356,7 @@ namespace = HKC
 #	ai = no
 #
 #	option = {
-#		name = "HKC7A" #make him comfortable
+#		name = "HKC7A"#make him comfortable
 #		limit = {
 #			NOR = {
 #			trait = potion_blue
@@ -372,7 +372,7 @@ namespace = HKC
 #		}
 #	}
 #	option = {
-#		name = "HKC7A" #make him comfortable
+#		name = "HKC7A"#make him comfortable
 #		limit = {
 #			OR = {
 #				trait = potion_blue
@@ -548,7 +548,7 @@ namespace = HKC
 #	ai = no
 #
 #	option = {
-#		name = "HKC10A" #Help the man
+#		name = "HKC10A"#Help the man
 #		hidden_tooltip = {
 #			random_list = {
 #				75 = { character_event = { id = HKC.11 }}
@@ -557,7 +557,7 @@ namespace = HKC
 #		}
 #	}
 #	option = {
-#		name = "HKC10B" #help the woman
+#		name = "HKC10B"#help the woman
 #		hidden_tooltip = {
 #			random_list = {
 #				75 = { character_event = { id = HKC.13 }}
@@ -740,7 +740,7 @@ namespace = HKC
 #	}
 #	
 #	option = {
-#		name = "HKC7BR" 
+#		name = "HKC7BR" #
 #		limit = {	trait = potion_red }
 #		immediate = { remove_trait = potion_blue }
 #		random = {
@@ -763,7 +763,7 @@ namespace = HKC
 #		}
 #	}
 #	option = {
-#		name = "HKC7BB"
+#		name = "HKC7BB" #
 #		limit = {	trait = potion_blue }
 #		immediate = { remove_trait = potion_blue }
 #		hidden_tooltip = {
@@ -776,7 +776,7 @@ namespace = HKC
 #		}
 #	}
 #	option = {
-#		name = "HKC7BF" 
+#		name = "HKC7BF" #
 #		limit = {	trait = fairy_bottled }
 #		immediate = { remove_trait = fairy_bottled }
 #		hidden_tooltip = {
