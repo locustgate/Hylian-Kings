@@ -467,104 +467,104 @@ character_event = {
 	remove_trait = child_stage
 	}
 }
-character_event = {
-	id = race.3
-	desc = EVTDESCRACE0
-	picture = GFX_evt_lovers
-	hide_window = yes
-	
-	trigger = {
-		is_female = yes
-		OR = {
-			AND = {
-				OR = { 
-					trait = race_goron
-					trait = race_subrosian
-				}
-				any_spouse = {
-					NOR = {
-						trait = race_goron
-						trait = race_subrosian
-					}
-				}
-			}
-			AND = {
-				OR = {
-					trait = race_zora
-					trait = race_zola
-					trait = race_geozard
-				}
-				any_spouse = {
-					NOR = {
-						trait = race_zora
-						trait = race_zola
-						trait = race_geozard
-					}
-				}
-			}
-			AND = {
-				OR = {
-					trait = race_zuna
-					trait = race_deku
-				}
-				any_spouse = {
-					NOR = {
-						trait = race_zuna
-						trait = race_deku
-					}
-				}
-			}
-			AND = {
-				OR = {
-					trait = race_hylian
-					trait = race_human
-					trait = race_sheikah
-					trait = race_gerudo
-					trait = race_darknut
-					trait = race_wizzrobe
-					trait = race_wind
-					trait = race_lolian
-					trait = race_twili
-					trait = race_garo
-					trait = race_kokiri
-					trait = race_demon
-					trait = race_fairy
-					trait = race_lizalfos
-					trait = race_dinolfos
-					trait = race_aerolfos
-					trait = race_tokay
-					trait = race_moblin
-					trait = race_bulblin
-					trait = race_bokoblin
-					trait = race_keaton
-					trait = race_geozard
-					trait = race_yook
-					trait = race_yeti
-					trait = race_watarara
-					trait = race_rito
-					trait = race_zuna
-				}
-				any_spouse = {
-					OR = {
-						trait = race_zuna
-						trait = race_deku
-						trait = race_zola
-						trait = race_zora
-						trait = race_geozard
-					}
-				}
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-					days = 1
-	}
-	
-	immediate = {
-	add_trait = semicompatible_marriage
-	}
-}
+#character_event = {
+#	id = race.3
+#	desc = EVTDESCRACE0
+#	picture = GFX_evt_lovers
+#	hide_window = yes
+#	
+#	trigger = {
+#		is_female = yes
+#		OR = {
+#			AND = {
+#				OR = { 
+#					trait = race_goron
+#					trait = race_subrosian
+#				}
+#				any_spouse = {
+#					NOR = {
+#						trait = race_goron
+#						trait = race_subrosian
+#					}
+#				}
+#			}
+#			AND = {
+#				OR = {
+#					trait = race_zora
+#					trait = race_zola
+#					trait = race_geozard
+#				}
+#				any_spouse = {
+#					NOR = {
+#						trait = race_zora
+#						trait = race_zola
+#						trait = race_geozard
+#					}
+#				}
+#			}
+#			AND = {
+#				OR = {
+#					trait = race_zuna
+#					trait = race_deku
+#				}
+#				any_spouse = {
+#					NOR = {
+#						trait = race_zuna
+#						trait = race_deku
+#					}
+#				}
+#			}
+#			AND = {
+#				OR = {
+#					trait = race_hylian
+#					trait = race_human
+#					trait = race_sheikah
+#					trait = race_gerudo
+#					trait = race_darknut
+#					trait = race_wizzrobe
+#					trait = race_wind
+#					trait = race_lolian
+#					trait = race_twili
+#					trait = race_garo
+#					trait = race_kokiri
+#					trait = race_demon
+#					trait = race_fairy
+#					trait = race_lizalfos
+#					trait = race_dinolfos
+#					trait = race_aerolfos
+#					trait = race_tokay
+#					trait = race_moblin
+#					trait = race_bulblin
+#					trait = race_bokoblin
+#					trait = race_keaton
+#					trait = race_geozard
+#					trait = race_yook
+#					trait = race_yeti
+#					trait = race_watarara
+#					trait = race_rito
+#					trait = race_zuna
+#				}
+#				any_spouse = {
+#					OR = {
+#						trait = race_zuna
+#						trait = race_deku
+#						trait = race_zola
+#						trait = race_zora
+#						trait = race_geozard
+#					}
+#				}
+#			}
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#					days = 1
+#	}
+#	
+#	immediate = {
+#	add_trait = semicompatible_marriage
+#	}
+#}
 character_event = {
 	id = race.4
 	desc = EVTDESCRACE4
