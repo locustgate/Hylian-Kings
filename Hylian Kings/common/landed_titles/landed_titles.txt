@@ -12062,6 +12062,330 @@ d_keaton_highwaymen_2 = {
 	mercenary_type = bandits_composition
 }
 
+d_mazura_1 = { #sandstone
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 769 # Wosu Wastes
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = demon_religion
+			religion = darknut_doctrine
+		}
+	}
+	
+	# Parent Religion 
+	religion = demise_religion
+	
+	culture = mazura
+	
+	mercenary = yes
+
+	title = "BOSS"
+	foa = "BOSS_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+
+
+	mercenary_type = mazura_composition
+}
+d_mazura_2 = { #parapa
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 201 # Parapa
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = demon_religion
+			religion = darknut_doctrine
+		}
+	}
+	
+	# Parent Religion 
+	religion = demise_religion
+	
+	culture = mazura
+	
+	mercenary = yes
+
+	title = "BOSS"
+	foa = "BOSS_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+
+
+	mercenary_type = mazura_composition
+}
+d_mazura_3 = { #hyron
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 191 # Hyron 
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = demon_religion
+			religion = darknut_doctrine
+		}
+	}
+	
+	# Parent Religion 
+	religion = demise_religion
+	
+	culture = mazura
+	
+	mercenary = yes
+
+	title = "BOSS"
+	foa = "BOSS_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+
+
+	mercenary_type = mazura_composition
+}
+d_fokka_1 = { #kasuto
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 188 # Kasuto
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = demon_religion
+			religion = darknut_doctrine
+		}
+	}
+	
+	# Parent Religion 
+	religion = demise_religion
+	
+	culture = fokka
+	
+	mercenary = yes
+
+	title = "BOSS"
+	foa = "BOSS_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+
+
+	mercenary_type = fokka_composition
+}
+d_fokka_2 = { #parapa
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 201 # Parapa
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = demon_religion
+			religion = darknut_doctrine
+		}
+	}
+	
+	# Parent Religion 
+	religion = demise_religion
+	
+	culture = fokka
+	
+	mercenary = yes
+
+	title = "BOSS"
+	foa = "BOSS_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+
+
+	mercenary_type = fokka_composition
+}
+d_wosu_1 = { #sandstone
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 201 #parapa
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = demon_religion
+			religion = darknut_doctrine
+		}
+	}
+	
+	# Parent Religion 
+	religion = demise_religion
+	
+	culture = wosu
+	
+	mercenary = yes
+
+	title = "BOSS"
+	foa = "BOSS_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+
+
+	mercenary_type = bandit_composition
+}
+d_wosu_2 = { #parapa
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 196 #saria
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = demon_religion
+			religion = darknut_doctrine
+		}
+	}
+	
+	# Parent Religion 
+	religion = demise_religion
+	
+	culture = wosu
+	
+	mercenary = yes
+
+	title = "BOSS"
+	foa = "BOSS_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+
+
+	mercenary_type = bandit_composition
+}
+d_wosu_3 = { #saria
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 187 # Kasuto Palace
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = demon_religion
+			religion = darknut_doctrine
+		}
+	}
+	
+	# Parent Religion 
+	religion = demise_religion
+	
+	culture = wosu
+	
+	mercenary = yes
+
+	title = "BOSS"
+	foa = "BOSS_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+
+
+	mercenary_type = bandit_composition
+}
+d_wosu_4 = { #maze
+	color={ 150 60 60 }
+	color2={ 255 255 255 }
+
+	capital = 185 # Maze Palace
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = demon_religion
+			religion = darknut_doctrine
+		}
+	}
+	
+	# Parent Religion 
+	religion = demise_religion
+	
+	culture = wosu
+	
+	mercenary = yes
+
+	title = "BOSS"
+	foa = "BOSS_FOA"
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+
+
+	mercenary_type = bandit_composition
+}
 #naval mercs
 
 d_labrynnan_pirates_1 = {
