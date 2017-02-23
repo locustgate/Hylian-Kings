@@ -1504,6 +1504,30 @@ doctrine = {
 		}
 		#intermarry = gerudo_goddess
 	}
+	merchant_doctrine = { #rupee way
+		graphical_culture = westerngfx
+
+		icon = 49
+		heresy_icon = 50
+		
+		color = { 0.25 0.41 0.88 }
+		
+		peace_piety_gain = 1
+		seafarer = yes
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		has_heir_designation = yes
+		
+		high_god_name = GOD_RUPEE
+		scripture_name = THE_GUIDE
+		god_names = {
+			GOD_RUPEE
+		}
+		evil_god_names = {
+			GOD_RUPOOR
+		}
+		religious_clothing_head = 9
+		religious_clothing_priest = 9
+	}
 }
 
 alien_religion = {
