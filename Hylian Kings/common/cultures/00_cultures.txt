@@ -171,53 +171,7 @@ hylian_group = {
 		modifier = default_culture_modifier
 	}
 
-	cobble = {
-		graphical_cultures = { cobblegfx }
- 
-		parent = skylofter
-		
-		color = { 0.3 1 0.8 }
-		
-		male_names = {
-			Link Brant Bremeur Doylan Kayo Zauz Mutoh Eox Ichero Jero Saboro Shero Brak Mac Ancle Nuckle Antony Bares Bery Bendle Borluv Karlov Krenel Dampei Daved Enie Meene Eric Geper Gormann Harrisin Hurb Jem Jol Claus Loly Marshel Hagin Poth Gustof Daltes Persy Rim Satchn Siman Stamper Stockwill Sturgin Talen Tingl Vasal Sacon Shicashi Vscern Cafei Kamaron Dotor Bartein Tortis Zuboran Gaboran Chudly Malvor Charlon Falbin Fier Jovane Purlon Soel Aurun Gulli Sahasrahlan Russo Osfalan Gonzon Makon Nikon Senzar Zukor Freedl Fuzon Hoigir McNy Lineback Nyav Salvator Alef Naro Durin Orka Ab Mesan Antwuan Candi Bandem Garrikson Gosack Gumi Niave Nieve
-		}
-		female_names = {
-			Zelda Astrid Angu Melon Brevie Candi Chay Dotty Ema Jasyn Junen Keely Lilian Marcie Paigin Pena Sheyla Tena Dena Veronan Pitia Juliettai Grany Huney Mamu Yan Cremea Aromia Pamila Judo Marill Romane Agitha Fanade Kelly Hana Mesha Tetra Potova Joann Seres Iren Iris Sweetie Joane Jolen Cia Epona Lana Viaka Savia Sibel Siberia Recka Kifan Halne Farun Arill Mary Shera Nayru Rhapen Sokran Ketha Hedel Ari Cytla Kina Tyraia Aicara Zidaga Nariug Freuwa Draca Rose Su-Bell Gilian Linda Maggy Myla Minenco Missie Pompy Vera Mercy Molida Rai Joynes
-		}
-		
-		dukes_called_kings = no
-		male_patronym = "sin"
-		female_patronym = "sdotter"
-		prefix = yes
 
-		
-		from_dynasty_prefix = "of "
-				
-		modifier = default_culture_modifier
-	}
-	pebble = {
-		graphical_cultures = { turkishgfx cobblegfx hyliangfx }
- 
-		parent = cobble
-		
-		color = { 0.8 0 0.8 }
-		
-		male_names = {#italian and swedish
-		Kayo Zauz Beedle Fuzo Freedle Salvatore Acke Anton Arne Bengt Bo Casper Caj Claes Danne Dag Ebbe Edvin Elov Einar Felix Filip Frej Folke Gerhard Goran Gosta Gunne Gustav Hakan Hans Harald Ingmar Ingvar Jerk Jens Joakim Joran Kennet Kettil Nils Oskar Ove Philip Roffe Sigurd Stig Tor Trygve Tyko Amato Amedeo Anacleto Augusto Baldo Bettino Biagino Bruno Callisto Casimiro Claudio Cleto Damiano Danilo Dulio Elmo Elpidio Enzo Enrico Ezio Felice Filippo Frediano Fulvio Giacinto Gianni Giraldo Ilario Ivo Lapo Leone Leopoldo Lucilio Ludovico Mariano Mattia Natale Nazario Oddo Nino Palmiro Peppi Ponzio Primo Remo Rico Rufino Sandro Sesto Silvio
-		}
-		female_names = {
-		Astrid Ada Agata Alba Alina Angela Armida Bice Bibiana Bianca Berta Carmen Carola Celeste Celia Cloe Daria Delia Donata Edda Elsa Elvira Emilia Eugenia Febe Filippa Francesca Fulvia Gia Gioa Ginevra Giosetta Gloria Graziana Irma Isa Laura Lia Lidia Loreta Luigia Maria Marina Marinella Monica Nadia Nella Ofelia Olivia Aina Alva Anita Asa Ase Aslog Bengta Berit Bodil Britta Casja Carin Cilla Dagmar Dorotea Dagny Ea Eira Elin Embla Eva Gina Gerd Gry Dunilla Hanna Heidi Helga Hulda Ida Ingegerd Irene Iris Jenni Janna Karin Karita Kia Lina Linn Liv Majananna Moa Petra Rita Sanna Siv Sylvia Thea
-		}
-		dukes_called_kings = no
-		male_patronym = "sin"
-		female_patronym = "sdotter"
-		prefix = yes
-
-		
-		from_dynasty_prefix = "of "
-				
-		modifier = default_culture_modifier
-	}
 	koridain = {
 		graphical_cultures = { koridaingfx hyliangfx }  
 		
@@ -274,20 +228,6 @@ hylian_group = {
 
 		modifier = default_culture_modifier
 	}
-	hylian_hanman = { 
-		graphical_cultures = { hhanmangfx mongolgfx hyliangfx } #hhanmangfx
-		color = { 0 0.4 0 }
-		
-		parent = skylofter
-
-		male_names = {
-		Rahn Khaga Lak Popoo Novay Hatitoi Xagar Novaso Xinsa Lomoi Bamira Jaluk Sukar Khago Xax Crin Xinmo Soron Phun Sour Noviga Mamir Bohn Pando Noo Lugar Saego Xipoo Pim Mamak Sar Phinmo Jalat Bamoy Poth Sansa Jalit Par Jimoi Khavosour Lagix Lapir Rok Lagik Xasar Jalak Bivoi Sanmo Sapik Nour Lagara Lago Juma Lagax Sukakik Khayt Jalim Pimik Phuman Jalir Lagin Kipoo Baek Ninmo Kisir Khahn Xanmo Khasar Pumoi Kang Lisar Hyaek Baman Lagama Paelar Lapay Lagila Jalout Samisir Soorar Nitaek Pour Xagax Sumoi Bagoi Lato Mint Samuroi Honmo Phara Xalar Lamoi Satar Har Namar Mapoo Runmo Linmo Sorat Jalix
-		}
-		female_names = {
-		Kanu Ioka Iolinu Hida Hikunada Hilla Kinida Pulina Vanali Meadana Dinay Ionili Pueka Veali Paka Kieku Kulavili Vikao Manay Pieda Viva Hivia Hiki Aivay Hikay Keala Iolili Kanao Kueva Hilli Hivil Ionay Vinia Sanay Palla Heala Hillu Pinanay Deakuelao Kivay Hieni Pinia Savay Hika Hanay Ionana Diku Vidinu Halao Kikabay Pivay Pani Killaku Kanunay Kulay Hinay Kika Killika Kueng Pavay Kaku Hani Maka Salao Mei Kaka Haka Hinina Kalal Ioal Dilaka Hanilla Kanealika Ionani Ioku Wrynika Milia Meali Dalila Sileaki Pakieni Hunu Ioli Pinineal Sinay Kadika Hilava Sakali Saku Sanu Panay Keaka Hanal Hilay Ionika Hilani Makali Pali Pika Aina 
-		}
-		modifier = default_culture_modifier
-	}	
 	skylofter = {
 		graphical_cultures = { skyliangfx hyliangfx } 
 
@@ -600,42 +540,6 @@ round_eared = {
 
 
 	}
-	gravel = {
-		graphical_cultures = { africangfx germangfx }
- 
-		parent = cobble
-		
-		color = { 0.9 0.2 0.2 }
-		
-		male_names = {
-		Eddo Romanos Nyeve Nyave Abundius Actius Acutianus Alexianus Aridius Burrus Byzantinus Caecilianus Cantianillus Cantius Chrisp Chlorus Corvinus Decentius Deogratius Dometius Domninus Dulcinus Elgonius Evellius Expeditus Fabricianus Florius Geminius Hilarianus Hermon Gentulius Hypatius Jacomus Jovianus Justianus Laelianus Lucilianus Maesius Maesus Mauricius Neso Nicolinus Nonius Oppriscianus Privatus Sius Pontianus Quitus Reverius Salvianus Abram Addison Al Alden Alban Alexis Alva Andy Ansel Benedict Biff Brad Bret Burt Carl Carlyle Celeste Chad Chas Daniel Darcy Del Derick Devyn Dezi Dre Driskoll Dusty Eddy Eliott Elvis Erle Ethelred Ewart Felix Fitzroy Frankie Fulke Gabriel Gareth Garey George Gerry Glen Gosse Greg Hal Hardy Harvie Howard
-		}
-		female_names = {
-		Joanne Jolene Adeodata Alexiana Amadea Auxilia Amantia Caritas Carminia Chionia Domna Donatia Donatilla Dulcina Emerentia Emerita Exuperia Fabriciana Filumena Floria Gentiana Hadria Lucidia Lysia Macrina Maesa LiliosaMaurina Nonia Opellia Orbiana Pacifica Plautilla Poma Prima Pudentia Sabbatia Sanctia Seraphia Servanda Sixta Tertia Venantia Veridia Verina Zephyrina Virgilia Vincentia Abigail Ada Adela Adele Agatha Alanna Alexa Angel Aston Bea Bekki Berenice Bernetta Bethany Biddy Blythe Bobbi Brianna Brook Caitlyn Cam Candis Caprice Carly Cary Ceder Cecily Charla Cher Cori Danni Darby Deena Deirdre Dell Detta Eileen Ella Ellie Emely Faye Florrie Freida Georgia Gladys Gretta Hadley Harriet Hattie Ilean
-		}
-		founder_named_dynasties = yes
-		dukes_called_kings = no
-
-		modifier = default_culture_modifier
-	}
-	yamatamian = {
-		graphical_cultures = { westafricangfx germangfx } 
-		
-		parent = gravel
-		
-		color = { 0.9 0.59 0.48 }
-		
-		male_names = {
-			Anaconda Adder Rufous Desma Boomslang Cantil Canebrake Cascabel Cascavel Cobra Congo Crown Wood Hognose Fiece Fishing Flying Moluccan Flame Gopher Habu Hime Elaps Keelback King Krait Lyre Moccasin Montpellie Python Rnkhals Sonoran Taipan Tic Urutu Zebra Viper Carpet Cyclades Gaboon Kaznakov Levant McMahon Mole Pallas Russell Snorkel Wutu Aye Lemur Mouse Aardvark Hippo Bear Elephant Auroch Buck Hartebeest Lion Warthog Dodo Grebe Heron Quail Chiff Coot Owl Starling Parakeet Rail Ibis Gallinule Kestral Solitaire Crake Cuckoo Hoopoe Moorhen Robustus Skink Tortoise Seps Gecko Hemi Chromis Oligo Oreo Redi Saro Steno Rhynch Zygas Kini Pelu Psam Cyclo Mesites Ostrich Guineafowl 
-	 	}
-		female_names = {
-			Mamba Fox Addra Niki Asp Boa Boiga Cat Coran Collett Garter Glossy Okina Sakishima Tokara Harlequin Ikeheka Lora Ora Mamushi Mussurana Woma Stiletto Polonga Zecora Fea Yarara Fossa Doe Lioness Serval Oribi Gazelle Quagga Lechwe Coua Petrel Dove Lates Tilapias Dichistii Dae Anaban Tidae Paracha Croilia Arridae Ancha Amphili Clari Claro Mala Perui Mochoki Gala Aploch Poecil Tana Kia Vipera Proa Grayia Typhlops Dura Pris Lacerta Chirindia Dia Zyga Syna Cycla Mouse Cane Lovebird Stork Marabous Sandgrous Corac Coraci Phasia Barbet Picult Honey Herrier Melierax Trogon Raven Cola Finch Quelea Nesomydae Dolphin Leopard Hyena Cheetah Cheetara Impala Dibatag Bonobo
-		}				
-		founder_named_dynasties = yes
-				
-		modifier = default_culture_modifier
-
-	}
 	hytopian = {
 		graphical_cultures = { frankishgfx germangfx }
 		
@@ -747,21 +651,6 @@ round_eared = {
 
 		modifier = default_culture_modifier
 	}
-	hanman = {
-		graphical_cultures = { hanmangfx mongolgfx }
-		color = { 0 0.4 0 }
-
-		male_names = {
-		Houva Hyato Kasa Khaek Kham Lae Loundara Loy Mansay Noi Nugoon Payloth Phant Pinmay Saeng Saiyasit Sihn Simok Xay XokSasak Khasa Kim Landa Maera Sotara Somoi Xayra Xaem Khulo Hotahn Lahn Lamoi Khaso Phay Pomut Salo Pamanmoy Xout Laelo Pilik Sigara Lomo Khay Kasay Pit Namoi Pay Saga Lon Namo Lolim Haelo Saela Sath Aelo Lisay Xamoi Limoi Saelak Khahn Hisak Navay Khama Mamoi Sahn Novol Xilo Harae Saek Ninmahn Xahn Linsa Simahn Nalang Xavon Pak Himim Pomaso Manma Nahn Lalo Say Lay Novak Pomik Pomim Numoi Sang Nay Satak Loundo Hisik Nalo Nouth Xatoy Phahn Maelo Xansay Xamay
-		}
-		female_names = {
-		Sing Dao Manilay Puelli Vanida Ailani Iokina Havika Halia Keala Keanu Kealli Paku Ioda Kakia Kalia Hani Healli Maka Vilinao Hanao Deani Daku Iola Kavadi Malli Hina Kueni Pilu Sinao Peaka Danay Aika Hilay Dani Sanu Dikia Kila Mueka Vani Sinaka Kilu Deaka Kinao Hika Ionao Kani Havao Peani Makay Mavao Meadi Ainao Halla Danilu Veaka Vava Kavao Aili Keaka Mini Sanao Muedi Vanadi Sili Davao Heaka Hana Kika Mana Huedi Paka Haninu Aila Keadi Hilia Hinana Dinini Halani Makalay Sika Keana Kini Hikani Padi Heana Dini Vinaka Sillani Hineani Dilay Hala Heani Veana Malao Kadina Vueni Hadiva Kanala Hallana
-		}
-		
-		from_dynasty_prefix = "of "
-		founder_named_dynasties = yes
-		modifier = default_culture_modifier
-	}
 	gem_lander = {
 		graphical_cultures = { southindiangfx indiangfx muslimgfx }
 		color = { 0.45 0.0 0.0 }
@@ -812,6 +701,123 @@ round_eared = {
 		mother_name_chance = 0
 		
 		disinherit_from_blinding = yes
+		modifier = default_culture_modifier
+	}
+}
+western_human = {
+	graphical_cultures = { muslimgfx }
+	cobble = {
+		graphical_cultures = { cobblegfx }
+ 
+		parent = skylofter
+		
+		color = { 0.3 1 0.8 }
+		
+		male_names = {
+			Link Brant Bremeur Doylan Kayo Zauz Mutoh Eox Ichero Jero Saboro Shero Brak Mac Ancle Nuckle Antony Bares Bery Bendle Borluv Karlov Krenel Dampei Daved Enie Meene Eric Geper Gormann Harrisin Hurb Jem Jol Claus Loly Marshel Hagin Poth Gustof Daltes Persy Rim Satchn Siman Stamper Stockwill Sturgin Talen Tingl Vasal Sacon Shicashi Vscern Cafei Kamaron Dotor Bartein Tortis Zuboran Gaboran Chudly Malvor Charlon Falbin Fier Jovane Purlon Soel Aurun Gulli Sahasrahlan Russo Osfalan Gonzon Makon Nikon Senzar Zukor Freedl Fuzon Hoigir McNy Lineback Nyav Salvator Alef Naro Durin Orka Ab Mesan Antwuan Candi Bandem Garrikson Gosack Gumi Niave Nieve
+		}
+		female_names = {
+			Zelda Astrid Angu Melon Brevie Candi Chay Dotty Ema Jasyn Junen Keely Lilian Marcie Paigin Pena Sheyla Tena Dena Veronan Pitia Juliettai Grany Huney Mamu Yan Cremea Aromia Pamila Judo Marill Romane Agitha Fanade Kelly Hana Mesha Tetra Potova Joann Seres Iren Iris Sweetie Joane Jolen Cia Epona Lana Viaka Savia Sibel Siberia Recka Kifan Halne Farun Arill Mary Shera Nayru Rhapen Sokran Ketha Hedel Ari Cytla Kina Tyraia Aicara Zidaga Nariug Freuwa Draca Rose Su-Bell Gilian Linda Maggy Myla Minenco Missie Pompy Vera Mercy Molida Rai Joynes
+		}
+		
+		dukes_called_kings = no
+		male_patronym = "sin"
+		female_patronym = "sdotter"
+		prefix = yes
+
+		
+		from_dynasty_prefix = "of "
+				
+		modifier = default_culture_modifier
+	}
+	pebble = {
+		graphical_cultures = { turkishgfx cobblegfx hyliangfx }
+ 
+		parent = cobble
+		
+		color = { 0.8 0 0.8 }
+		
+		male_names = {#italian and swedish
+		Kayo Zauz Beedle Fuzo Freedle Salvatore Acke Anton Arne Bengt Bo Casper Caj Claes Danne Dag Ebbe Edvin Elov Einar Felix Filip Frej Folke Gerhard Goran Gosta Gunne Gustav Hakan Hans Harald Ingmar Ingvar Jerk Jens Joakim Joran Kennet Kettil Nils Oskar Ove Philip Roffe Sigurd Stig Tor Trygve Tyko Amato Amedeo Anacleto Augusto Baldo Bettino Biagino Bruno Callisto Casimiro Claudio Cleto Damiano Danilo Dulio Elmo Elpidio Enzo Enrico Ezio Felice Filippo Frediano Fulvio Giacinto Gianni Giraldo Ilario Ivo Lapo Leone Leopoldo Lucilio Ludovico Mariano Mattia Natale Nazario Oddo Nino Palmiro Peppi Ponzio Primo Remo Rico Rufino Sandro Sesto Silvio
+		}
+		female_names = {
+		Astrid Ada Agata Alba Alina Angela Armida Bice Bibiana Bianca Berta Carmen Carola Celeste Celia Cloe Daria Delia Donata Edda Elsa Elvira Emilia Eugenia Febe Filippa Francesca Fulvia Gia Gioa Ginevra Giosetta Gloria Graziana Irma Isa Laura Lia Lidia Loreta Luigia Maria Marina Marinella Monica Nadia Nella Ofelia Olivia Aina Alva Anita Asa Ase Aslog Bengta Berit Bodil Britta Casja Carin Cilla Dagmar Dorotea Dagny Ea Eira Elin Embla Eva Gina Gerd Gry Dunilla Hanna Heidi Helga Hulda Ida Ingegerd Irene Iris Jenni Janna Karin Karita Kia Lina Linn Liv Majananna Moa Petra Rita Sanna Siv Sylvia Thea
+		}
+		dukes_called_kings = no
+		male_patronym = "sin"
+		female_patronym = "sdotter"
+		prefix = yes
+
+		
+		from_dynasty_prefix = "of "
+				
+		modifier = default_culture_modifier
+	}
+	gravel = {
+		graphical_cultures = { africangfx germangfx }
+ 
+		parent = cobble
+		
+		color = { 0.9 0.2 0.2 }
+		
+		male_names = {
+		Eddo Romanos Nyeve Nyave Abundius Actius Acutianus Alexianus Aridius Burrus Byzantinus Caecilianus Cantianillus Cantius Chrisp Chlorus Corvinus Decentius Deogratius Dometius Domninus Dulcinus Elgonius Evellius Expeditus Fabricianus Florius Geminius Hilarianus Hermon Gentulius Hypatius Jacomus Jovianus Justianus Laelianus Lucilianus Maesius Maesus Mauricius Neso Nicolinus Nonius Oppriscianus Privatus Sius Pontianus Quitus Reverius Salvianus Abram Addison Al Alden Alban Alexis Alva Andy Ansel Benedict Biff Brad Bret Burt Carl Carlyle Celeste Chad Chas Daniel Darcy Del Derick Devyn Dezi Dre Driskoll Dusty Eddy Eliott Elvis Erle Ethelred Ewart Felix Fitzroy Frankie Fulke Gabriel Gareth Garey George Gerry Glen Gosse Greg Hal Hardy Harvie Howard
+		}
+		female_names = {
+		Joanne Jolene Adeodata Alexiana Amadea Auxilia Amantia Caritas Carminia Chionia Domna Donatia Donatilla Dulcina Emerentia Emerita Exuperia Fabriciana Filumena Floria Gentiana Hadria Lucidia Lysia Macrina Maesa LiliosaMaurina Nonia Opellia Orbiana Pacifica Plautilla Poma Prima Pudentia Sabbatia Sanctia Seraphia Servanda Sixta Tertia Venantia Veridia Verina Zephyrina Virgilia Vincentia Abigail Ada Adela Adele Agatha Alanna Alexa Angel Aston Bea Bekki Berenice Bernetta Bethany Biddy Blythe Bobbi Brianna Brook Caitlyn Cam Candis Caprice Carly Cary Ceder Cecily Charla Cher Cori Danni Darby Deena Deirdre Dell Detta Eileen Ella Ellie Emely Faye Florrie Freida Georgia Gladys Gretta Hadley Harriet Hattie Ilean
+		}
+		founder_named_dynasties = yes
+		dukes_called_kings = no
+
+		modifier = default_culture_modifier
+	}
+	yamatamian = {
+		graphical_cultures = { westafricangfx germangfx } 
+		
+		parent = gravel
+		
+		color = { 0.9 0.59 0.48 }
+		
+		male_names = {
+			Anaconda Adder Rufous Desma Boomslang Cantil Canebrake Cascabel Cascavel Cobra Congo Crown Wood Hognose Fiece Fishing Flying Moluccan Flame Gopher Habu Hime Elaps Keelback King Krait Lyre Moccasin Montpellie Python Rnkhals Sonoran Taipan Tic Urutu Zebra Viper Carpet Cyclades Gaboon Kaznakov Levant McMahon Mole Pallas Russell Snorkel Wutu Aye Lemur Mouse Aardvark Hippo Bear Elephant Auroch Buck Hartebeest Lion Warthog Dodo Grebe Heron Quail Chiff Coot Owl Starling Parakeet Rail Ibis Gallinule Kestral Solitaire Crake Cuckoo Hoopoe Moorhen Robustus Skink Tortoise Seps Gecko Hemi Chromis Oligo Oreo Redi Saro Steno Rhynch Zygas Kini Pelu Psam Cyclo Mesites Ostrich Guineafowl 
+	 	}
+		female_names = {
+			Mamba Fox Addra Niki Asp Boa Boiga Cat Coran Collett Garter Glossy Okina Sakishima Tokara Harlequin Ikeheka Lora Ora Mamushi Mussurana Woma Stiletto Polonga Zecora Fea Yarara Fossa Doe Lioness Serval Oribi Gazelle Quagga Lechwe Coua Petrel Dove Lates Tilapias Dichistii Dae Anaban Tidae Paracha Croilia Arridae Ancha Amphili Clari Claro Mala Perui Mochoki Gala Aploch Poecil Tana Kia Vipera Proa Grayia Typhlops Dura Pris Lacerta Chirindia Dia Zyga Syna Cycla Mouse Cane Lovebird Stork Marabous Sandgrous Corac Coraci Phasia Barbet Picult Honey Herrier Melierax Trogon Raven Cola Finch Quelea Nesomydae Dolphin Leopard Hyena Cheetah Cheetara Impala Dibatag Bonobo
+		}				
+		founder_named_dynasties = yes
+				
+		modifier = default_culture_modifier
+
+	}
+}
+eastern_human = {
+	hylian_hanman = { 
+		graphical_cultures = { hhanmangfx mongolgfx hyliangfx } #hhanmangfx
+		color = { 0 0.4 0 }
+		
+		parent = skylofter
+
+		male_names = {
+		Rahn Khaga Lak Popoo Novay Hatitoi Xagar Novaso Xinsa Lomoi Bamira Jaluk Sukar Khago Xax Crin Xinmo Soron Phun Sour Noviga Mamir Bohn Pando Noo Lugar Saego Xipoo Pim Mamak Sar Phinmo Jalat Bamoy Poth Sansa Jalit Par Jimoi Khavosour Lagix Lapir Rok Lagik Xasar Jalak Bivoi Sanmo Sapik Nour Lagara Lago Juma Lagax Sukakik Khayt Jalim Pimik Phuman Jalir Lagin Kipoo Baek Ninmo Kisir Khahn Xanmo Khasar Pumoi Kang Lisar Hyaek Baman Lagama Paelar Lapay Lagila Jalout Samisir Soorar Nitaek Pour Xagax Sumoi Bagoi Lato Mint Samuroi Honmo Phara Xalar Lamoi Satar Har Namar Mapoo Runmo Linmo Sorat Jalix
+		}
+		female_names = {
+		Kanu Ioka Iolinu Hida Hikunada Hilla Kinida Pulina Vanali Meadana Dinay Ionili Pueka Veali Paka Kieku Kulavili Vikao Manay Pieda Viva Hivia Hiki Aivay Hikay Keala Iolili Kanao Kueva Hilli Hivil Ionay Vinia Sanay Palla Heala Hillu Pinanay Deakuelao Kivay Hieni Pinia Savay Hika Hanay Ionana Diku Vidinu Halao Kikabay Pivay Pani Killaku Kanunay Kulay Hinay Kika Killika Kueng Pavay Kaku Hani Maka Salao Mei Kaka Haka Hinina Kalal Ioal Dilaka Hanilla Kanealika Ionani Ioku Wrynika Milia Meali Dalila Sileaki Pakieni Hunu Ioli Pinineal Sinay Kadika Hilava Sakali Saku Sanu Panay Keaka Hanal Hilay Ionika Hilani Makali Pali Pika Aina 
+		}
+		modifier = default_culture_modifier
+	}	
+	hanman = {
+		graphical_cultures = { hanmangfx mongolgfx }
+		color = { 0 0.4 0 }
+
+		male_names = {
+		Houva Hyato Kasa Khaek Kham Lae Loundara Loy Mansay Noi Nugoon Payloth Phant Pinmay Saeng Saiyasit Sihn Simok Xay XokSasak Khasa Kim Landa Maera Sotara Somoi Xayra Xaem Khulo Hotahn Lahn Lamoi Khaso Phay Pomut Salo Pamanmoy Xout Laelo Pilik Sigara Lomo Khay Kasay Pit Namoi Pay Saga Lon Namo Lolim Haelo Saela Sath Aelo Lisay Xamoi Limoi Saelak Khahn Hisak Navay Khama Mamoi Sahn Novol Xilo Harae Saek Ninmahn Xahn Linsa Simahn Nalang Xavon Pak Himim Pomaso Manma Nahn Lalo Say Lay Novak Pomik Pomim Numoi Sang Nay Satak Loundo Hisik Nalo Nouth Xatoy Phahn Maelo Xansay Xamay
+		}
+		female_names = {
+		Sing Dao Manilay Puelli Vanida Ailani Iokina Havika Halia Keala Keanu Kealli Paku Ioda Kakia Kalia Hani Healli Maka Vilinao Hanao Deani Daku Iola Kavadi Malli Hina Kueni Pilu Sinao Peaka Danay Aika Hilay Dani Sanu Dikia Kila Mueka Vani Sinaka Kilu Deaka Kinao Hika Ionao Kani Havao Peani Makay Mavao Meadi Ainao Halla Danilu Veaka Vava Kavao Aili Keaka Mini Sanao Muedi Vanadi Sili Davao Heaka Hana Kika Mana Huedi Paka Haninu Aila Keadi Hilia Hinana Dinini Halani Makalay Sika Keana Kini Hikani Padi Heana Dini Vinaka Sillani Hineani Dilay Hala Heani Veana Malao Kadina Vueni Hadiva Kanala Hallana
+		}
+		
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
 		modifier = default_culture_modifier
 	}
 }
