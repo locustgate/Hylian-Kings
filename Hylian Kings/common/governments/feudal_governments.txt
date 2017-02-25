@@ -13,7 +13,7 @@ feudal_governments = {
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
 		feudalcratic_government 
 		imperialism_government
-		mage_government
+		
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
@@ -25,21 +25,19 @@ feudal_governments = {
 			tribal_government
 			barbaric_government
 			imperialism_government
-			mage_government
+			
 		}
 		potential = {
 			NOR = {
 			religion = pirate_doctrine
 			culture_group = blin 
 			culture_group = lfos
-			cultur_group = goron_group
 			culture = demon
 			religion_group = demon_religion			
 			religion = great_deku
 			religion = great_fairies
 			religion = gerudo_goddess
 			religion = darknut_doctrine
-			religion = wizzrobe_doctrine 
 			}			
 			NAND = {
 				controls_religion = yes
@@ -79,7 +77,7 @@ feudal_governments = {
 		
 		imperialism_government
 		legion_government
-		mage_government
+		
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
@@ -93,7 +91,7 @@ feudal_governments = {
 			
 			
 			imperialism_government
-			mage_government
+			
 		}
 		potential = {
 			OR = {
@@ -138,7 +136,7 @@ feudal_governments = {
 		feudal_government
 		
 		imperialism_government
-		mage_government
+		
 				
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
@@ -150,7 +148,7 @@ feudal_governments = {
 			
 			
 			imperialism_government
-			mage_government
+			
 			
 		}
 		potential = {
@@ -202,7 +200,7 @@ feudal_governments = {
 			TRIBAL
 		}
 		accepts_liege_governments_religion = { # They don't like being below
-		mage_government
+		
 		feudal_government
 		}
 		
@@ -226,7 +224,7 @@ feudal_governments = {
 		vassal_call_to_arms = {
 			tribal_government
 			
-			mage_government
+			
 			
 		}	
 		color = { 176 23 31 }
@@ -239,56 +237,6 @@ feudal_governments = {
 		can_build_city = no
 		allow_looting = yes
 		uses_prestige_for_law_change = yes
-		
-		ignore_in_vassal_limit_calculation = {
-			tribal_government
-			
-			
-		}
-	}
-	#mageocracy
-	mage_government = {
-		preferred_holdings = { CASTLE }
-		allowed_holdings = { 
-			CASTLE 
-			CITY
-			TEMPLE
-			FORT
-			HOSPITAL
-		}
-		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
-			TRIBAL
-		}
-		accepts_liege_governments_religion = { # They don't like being below
-		imperialism_government
-		feudal_government
-		}
-		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
-			tribal_government
-		}
-		vassal_call_to_arms = {
-			tribal_government
-			imperialism_government
-			
-			
-		}
-		potential = {
-			religion = wizzrobe_doctrine 			
-			NAND = {
-				controls_religion = yes
-				NOT = { religion_group = gerudo_goddess }
-				NOT = { religion = darknut_doctrine }
-				NOT = { religion = wizzrobe_doctrine }
-				NOT = { religion_group = demon_religion }
-			}
-		}
-		
-		color = { 39 64 139 }
-		
-		dukes_called_kings = no
-		barons_need_dynasty = yes
-		can_build_tribal = no
-		capital_move_delay = 960
 		
 		ignore_in_vassal_limit_calculation = {
 			tribal_government

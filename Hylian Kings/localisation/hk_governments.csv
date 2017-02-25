@@ -1,6 +1,6 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
-guild_government;Guild Union;;;;;;;;;;;;;;;x
-guild_government_desc;A form of republicanism in which the head of state is also the head of the local workers and are suppose to represent the workers.;;;;;;;;;;;x
+guild_government;Oligarchy;;;;;;;;;;;;;;;x
+guild_government_desc;A form of government in which the head is not granted right to rule due to divine right, but merely because they own the most land and merchants.;;;;;;;;;;;x
 feudalcratic_government;Theocratic Feudalism;;;;;;;;;;;;;x
 feudalcratic_government_desc;A form of feudalism in which the head of state is either a god, high priest, or seen as the physical form of a god.;;;;;;;;;;;;;x
 barbaric_governmnet;Autocracy;;;;;;;;;;;;;x
@@ -9,6 +9,12 @@ imperialism_government;Junta;;;;;;;;;;;;;x
 imperialism_government_desc;A form of government with the head of state being the commander of the most powerful army.;;;;;;;;;;;;;x
 mage_government;Mageocracy;;;;;;;;;;;;;x
 mage_government_desc;A form of government in which only mages or those with magical ancestors are permited to rule and own land.;;;;;;;;;;;;;x
+gov_electorial_aristocratic_monarchy_guild_union;Oligarchical Guild Union;;;;;;;;;;;;;x
+gov_hereditary_aristocratic_monarchy_guild_union;True Oligarchy;;;;;;;;;;;;;x
+gov_electorial_despotic_monarchy_guild_union;Elective Guild Union;;;;;;;;;;;;;x
+gov_hereditary_despotic_monarchy_guild_union;Guild Union;;;;;;;;;;;;;;;x
+gov_electorial_absolute_monarchy_guild_union;Elective Monopoly;;;;;;;;;;;;x
+gob_hereditary_absolute_monarchy_guild_union;True Monopoly;;;;;;;;;;;;x
 gov_electorial_aristocratic_monarchy_feudalcratic;Elective Divine Oligarchical [PrimaryTitle.GetTier];;;;;;;;;;;;;x
 gov_hereditary_aristocratic_monarchy_feudalcratic;Hereditary Divine Oligarchical [PrimaryTitle.GetTier];;;;;;;;;;;;;x
 gov_electorial_despotic_monarchy_feudalcratic;Elective Divine Imperial Oligarchical;;;;;;;;;;;;;x
