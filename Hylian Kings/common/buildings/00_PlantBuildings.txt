@@ -584,10 +584,9 @@ temple = {
 		extra_tech_building_start = 0.2
 	}
 }
-tribal = {	
+tribal = {
 	tb_war_grove_1 = {
 		desc = tb_war_grove_desc
-		potential = {
 		potential = {
 			culture = deku_scrub
 		}
@@ -603,7 +602,6 @@ tribal = {
 	
 	tb_war_grove_2 = {
 		desc = tb_war_grove_desc
-		potential = {
 		potential = {
 			culture = deku_scrub
 		}

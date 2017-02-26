@@ -2,85 +2,85 @@
  # Castle
 castle = {
 ##phantoms
-#	ca_phantom_armory_1 = {
-#		desc = ca_phantom_armory_1_desc
-#		potential = {	
-#			OR = {			
-#				religion = bellum_religion
-#				religion = malladus_religion
-#				religion = spirits_good
-#			}
-#		}
-#		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-#		gold_cost = 100
-#		build_time = 365
-#		phantoms = 10
-#		ai_creation_factor = 100
-#		
-#		extra_tech_building_start = 1.0
-#	}
-#	ca_phantom_armory_2 = {
-#		desc = ca_phantom_armory_2_desc
-#		potential = {	
-#			OR = {			
-#				religion = bellum_religion
-#				religion = 	malladus_religion
-#				religion = spirits_good
-#			}
-#		}
-#		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
-#		prerequisites = { ca_wall_1 }
-#		upgrades_from = ca_phantom_armory_1
-#		gold_cost = 120
-#		build_time = 547
-#		phantoms = 20
-#		ai_creation_factor = 99
-#
-#		extra_tech_building_start = 2.0
-#	}
-#	ca_phantom_armory_3 = {
-#		desc = ca_phantom_armory_3_desc
-#		potential = {	
-#			OR = {			
-#				religion = bellum_religion
-#				religion = 	malladus_religion
-#				religion = spirits_good
-#			}
-#		}
-#		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
-#		upgrades_from = ca_phantom_armory_2
-#		gold_cost = 200
-#		build_time = 1095
-#		phantoms = 30
-#		ai_creation_factor = 98
-#
-#		extra_tech_building_start = 0.5
-#	}
-#	ca_phantom_armory_4 = {
-#		desc = ca_phantom_armory_3_desc
-#		potential = {	
-#			OR = {			
-#				religion = bellum_religion
-#				religion = malladus_religion
-#				religion = spirits_good
-#			}
-#		}
-#		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
-#		upgrades_from = ca_phantom_armory_3
-#		gold_cost = 300
-#		build_time = 1095
-#		phantoms = 60
-#		ai_creation_factor = 98
-#
-#		extra_tech_building_start = 0.5
-#	}
-#}
+	ca_phantom_armory_1 = {
+		desc = ca_phantom_armory_1_desc
+		potential = {	
+			OR = {			
+				religion = bellum_religion
+				#religion = malladus_religion
+				#religion = spirits_good
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		animated_soldier = 10
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_phantom_armory_2 = {
+		desc = ca_phantom_armory_2_desc
+		potential = {	
+			OR = {			
+				religion = bellum_religion
+				##religion = 	malladus_religion
+				#religion = spirits_good
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_phantom_armory_1
+		gold_cost = 120
+		build_time = 547
+		animated_soldier = 20
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.0
+	}
+	ca_phantom_armory_3 = {
+		desc = ca_phantom_armory_3_desc
+		potential = {	
+			OR = {			
+				religion = bellum_religion
+				#religion = 	malladus_religion
+				#religion = spirits_good
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_phantom_armory_2
+		gold_cost = 200
+		build_time = 1095
+		animated_soldier = 30
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	ca_phantom_armory_4 = {
+		desc = ca_phantom_armory_3_desc
+		potential = {	
+			OR = {			
+				religion = bellum_religion
+				#religion = malladus_religion
+				#religion = spirits_good
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_phantom_armory_3
+		gold_cost = 300
+		build_time = 1095
+		animated_soldier = 60
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+}
 #temple = {
 ##spirit station
 #	tp_spirit_station_1 = {
 #		desc = tp_spirit_station_1_desc
 #		potential = {
-#				religion = spirits_good
+#				#religion = spirits_good
 #		}
 #		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
 #		gold_cost = 100
@@ -94,7 +94,7 @@ castle = {
 #	tp_spirit_station_2 = {
 #		desc = tp_spirit_station_2_desc
 #		potential = {
-#				religion = spirits_good
+#				#religion = spirits_good
 #		}
 #		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
 #		prerequisites = { tp_wall_1 }
@@ -110,7 +110,7 @@ castle = {
 #	tp_spirit_station_3 = {
 #		desc = tp_spirit_station_3_desc
 #		potential = {
-#				religion = spirits_good
+#				#religion = spirits_good
 #		}
 #		trigger = { TECH_TEMPLE_CONSTRUCTION = 1 }
 #		prerequisites = { tp_wall_2 }
@@ -176,7 +176,7 @@ castle = {
 #	fp_spirit_train_1 = {
 #		desc = fp_spirit_train_1_desc
 #		potential = {
-#			religion = spirits_good
+#			#religion = spirits_good
 #		}
 #		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 #		gold_cost = 150
@@ -191,7 +191,7 @@ castle = {
 #	fp_spirit_train_2 = {
 #		desc = fp_spirit_train_2_desc
 #		potential = {
-#			religion = spirits_good
+#			#religion = spirits_good
 #		}
 #		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 #		gold_cost = 250
@@ -211,7 +211,7 @@ castle = {
 #	fp_spirit_train_3 = {
 #		desc = fp_spirit_train_3_desc
 #		potential = {
-#			religion = spirits_good
+#			#religion = spirits_good
 #		}
 #		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 #		gold_cost = 350
@@ -230,7 +230,7 @@ castle = {
 #	fp_dark_train_1 = {
 #		desc = fp_dark_train_1_desc
 #		potential = {
-#			religion = spirits_good
+#			#religion = spirits_good
 #		}
 #		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 #		gold_cost = 150
@@ -245,7 +245,7 @@ castle = {
 #	fp_dark_train_2 = {
 #		desc = fp_dark_train_2_desc
 #		potential = {
-#			religion = spirits_good
+#			#religion = spirits_good
 #		}
 #		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 #		gold_cost = 250
@@ -265,7 +265,7 @@ castle = {
 #	fp_dark_train_3 = {
 #		desc = fp_dark_train_3_desc
 #		potential = {
-#			religion = spirits_good
+#			#religion = spirits_good
 #		}
 #		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 #		gold_cost = 350

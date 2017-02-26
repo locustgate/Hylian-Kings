@@ -155,8 +155,7 @@ de_jure_laws = {
 					text = TT_NOT_UNREFORMED_PAGAN
 					hidden_tooltip = {
 						OR = {
-							NOT = { religion_group = pagan_group }
-							is_reformed_religion = yes
+							NOT = { religion_group = demon_religion }
 						}
 					}
 				}
@@ -251,8 +250,8 @@ de_jure_laws = {
 					text = TT_NOT_UNREFORMED_PAGAN
 					hidden_tooltip = {
 						OR = {
-							NOT = { religion_group = pagan_group }
-							is_reformed_religion = yes
+							NOT = { religion_group = demon_religion }
+							
 						}
 					}
 				}
@@ -351,8 +350,8 @@ de_jure_laws = {
 					text = TT_NOT_UNREFORMED_PAGAN
 					hidden_tooltip = {
 						OR = {
-							NOT = { religion_group = pagan_group }
-							is_reformed_religion = yes
+							NOT = { religion_group = demon_religion }
+							
 						}
 					}
 				}
@@ -442,10 +441,7 @@ de_jure_laws = {
 		default = yes
 		potential = {
 			holder_scope = {
-				OR = {
-					religion = catholic
-					religion = fraticelli
-				}
+				religion = darknut_doctrine
 				is_tribal = no
 				is_nomadic = no
 			}
@@ -480,10 +476,7 @@ de_jure_laws = {
 		group = investiture_law
 		potential = {
 			holder_scope = {
-				OR = {
-					religion = catholic
-					religion = fraticelli
-				}
+				religion = darknut_doctrine
 				is_tribal = no
 				is_nomadic = no
 			}
