@@ -730,6 +730,30 @@ western_human = {
 				
 		modifier = default_culture_modifier
 	}
+	cobble = {
+		graphical_cultures = { comeniangfx }
+ 
+		parent = skylofter
+		
+		color = { 0.3 1 0.8 }
+		
+		male_names = {
+			Link Brant Bremeur Doylan Kayo Zauz Mutoh Eox Ichero Jero Saboro Shero Brak Mac Ancle Nuckle Antony Bares Bery Bendle Borluv Karlov Krenel Dampei Daved Enie Meene Eric Geper Gormann Harrisin Hurb Jem Jol Claus Loly Marshel Hagin Poth Gustof Daltes Persy Rim Satchn Siman Stamper Stockwill Sturgin Talen Tingl Vasal Sacon Shicashi Vscern Cafei Kamaron Dotor Bartein Tortis Zuboran Gaboran Chudly Malvor Charlon Falbin Fier Jovane Purlon Soel Aurun Gulli Sahasrahlan Russo Osfalan Gonzon Makon Nikon Senzar Zukor Freedl Fuzon Hoigir McNy Lineback Nyav Salvator Alef Naro Durin Orka Ab Mesan Antwuan Candi Bandem Garrikson Gosack Gumi Niave Nieve
+		}
+		female_names = {
+			Zelda Astrid Angu Melon Brevie Candi Chay Dotty Ema Jasyn Junen Keely Lilian Marcie Paigin Pena Sheyla Tena Dena Veronan Pitia Juliettai Grany Huney Mamu Yan Cremea Aromia Pamila Judo Marill Romane Agitha Fanade Kelly Hana Mesha Tetra Potova Joann Seres Iren Iris Sweetie Joane Jolen Cia Epona Lana Viaka Savia Sibel Siberia Recka Kifan Halne Farun Arill Mary Shera Nayru Rhapen Sokran Ketha Hedel Ari Cytla Kina Tyraia Aicara Zidaga Nariug Freuwa Draca Rose Su-Bell Gilian Linda Maggy Myla Minenco Missie Pompy Vera Mercy Molida Rai Joynes
+		}
+		
+		dukes_called_kings = no
+		male_patronym = "sin"
+		female_patronym = "sdotter"
+		prefix = yes
+
+		
+		from_dynasty_prefix = "of "
+				
+		modifier = default_culture_modifier
+	}
 	pebble = {
 		graphical_cultures = { turkishgfx cobblegfx hyliangfx }
  

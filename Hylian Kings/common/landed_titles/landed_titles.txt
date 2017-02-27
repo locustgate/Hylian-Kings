@@ -9394,358 +9394,368 @@ k_tolemac = {
 			}
 		}
 }
-k_arcadia = {
+e_arcadia = {
 	color={ 218 218 218 }
 	color2={ 78 116 197 }		
 	capital = 247
-	dynasty_title_names = no
-	allow = {
-			hidden_tooltip = {
-				OR = {
-					culture = arcadian
-					culture = hanman
-					culture = hylian_hanman
-					culture = darknut
-					culture = wizzrobe
-					ai = no
+	dynasty_title_names = no	
+	k_arcadia = {
+		color={ 218 218 218 }
+		color2={ 78 116 197 }		
+		capital = 247
+		dynasty_title_names = no
+		allow = {
+				hidden_tooltip = {
+					OR = {
+						culture = arcadian
+						culture = hanman
+						culture = hylian_hanman
+						culture = darknut
+						culture = wizzrobe
+						ai = no
+					}
 				}
 			}
+		d_arcadia = {
+			color={ 218 218 218 }
+			color2={ 188 0 7 }			
+			capital = 247		
+			c_curtania = {
+				color={ 221 221 221 }
+				color2={ 255 255 255 }	
+				b_curtania = {}
+				b_voarinia = {}
+			}
+			c_arcadia = {
+				color={ 188 0 7 }
+				color2={ 255 255 255 }	
+				b_arcadia = {}
+				b_lachonia = {}
+				b_ceria = {}
+				b_vedia = {}
+				b_romnia = {}
+			}
+			c_facadia = {
+				color={ 0 86 148 }
+				color2={ 255 255 255 }	
+				b_facadia = {}
+				b_decia = {}
+				b_syania = {}
+			}
+			c_joyeusia = {
+				color={ 255 255 0 }
+				color2={ 255 255 255 }	
+				b_joyeusia = {}
+			}
+			c_durendalia = {
+				color={ 255 255 0 }
+				color2={ 255 255 255 }	
+				b_durendalia = {}
+			}
+						}
+		d_lyonia = {
+			color={ 235 235 235 }
+			color2={ 231 172 0 }		
+			capital = 249
+			c_pausania = {
+				color={ 94 150 207 }
+				color2={ 255 255 255 }	
+				b_pausania = {}
+				b_tenia = {}
+				b_sondia = {}
+				b_martia = {}
+			}
+			c_lyonia = {
+				color={ 189 1 8 }
+				color2={ 255 255 255 }	
+				b_lyonia = {}
+				b_penia = {}
+				b_martia_2 = {}
+			}
+			c_xenonia = {
+				color={ 188 0 6 }
+				color2={ 255 255 255 }	
+				b_xenonia = {}
+				b_wochogia = {}
+				b_pacia = {}
+				b_varia = {}
+			}
+			c_lykaia = {
+				color={ 0 86 148 }
+				color2={ 255 255 255 }	
+				b_lykaia = {}
+			}
+			c_wosuia = {
+				color={ 255 255 0 }
+				color2={ 255 255 255 }	
+				b_wosuia = {}
+			}
 		}
-	d_arcadia = {
-		color={ 218 218 218 }
-		color2={ 188 0 7 }			
-		capital = 247		
-		c_curtania = {
-			color={ 221 221 221 }
-			color2={ 255 255 255 }	
-			b_curtania = {}
-			b_voarinia = {}
+		d_ardennia = {
+			color={ 180 180 180 }
+			color2={ 221 170 0 }			
+			capital = 253
+			c_ardennia = {
+				color={ 232 176 80 }
+				color2={ 255 255 255 }	
+				b_ardennia = {}
+				b_paria = {}
+				b_pilia = {}
+				b_terninia = {}
+	
+			}
+			c_hippodria = {
+				color={ 224 32 24 }
+				color2={ 255 255 255 }	
+				b_hippodria = {}
+				b_aneretia = {}
+				b_jagalia = {}
+				b_asogia = {}
+				b_alopponia = {}
+			}
+			c_rolandia = {
+				color={ 129 35 108 }
+				color2={ 255 255 255 }	
+				b_rolandia = {}
+				b_ocarinia = {}
+				b_lolvia = {}
+				b_codia = {}
+			}
 		}
-		c_arcadia = {
-			color={ 188 0 7 }
-			color2={ 255 255 255 }	
-			b_arcadia = {}
-			b_lachonia = {}
-			b_ceria = {}
-			b_vedia = {}
-			b_romnia = {}
+		d_silvania = {
+			color={ 151 151 0 }
+			color2={ 250 188 0 }		
+			capital = 257
+			c_silvania = {
+				color={ 250 188 0 }
+				color2={ 255 255 255 }	
+				b_silvania = {}
+				b_piria = {}
+				b_vonnomnia = {}
+			}
+			c_parnonia = {
+				color={ 188 0 7 }
+				color2={ 255 255 255 }	
+				b_parnonia = {}
+				b_tacedia = {}
+				b_lenemnia = {}
+			}
+			c_marcania = {
+				color={ 188 0 7 }
+				color2={ 255 255 255 }	
+				b_marcania = {}
+				b_mepolia = {}
+				b_morcoppia = {}
+			}
+			c_achenia = {
+				color={ 250 188 0 }
+				color2={ 255 255 255 }	
+				b_achenia = {}
+				b_tesia = {}
+				b_codia_2 = {}
+			}
 		}
-		c_facadia = {
-			color={ 0 86 148 }
+		d_acacesia = {
+			color={ 122 122 122 }
 			color2={ 255 255 255 }	
-			b_facadia = {}
-			b_decia = {}
-			b_syania = {}
+			capital = 265		
+			c_polia = {
+				color={ 0 86 148 }
+				color2={ 255 255 255 }	
+				b_polia = {}
+				b_sigia = {}
+				b_xoria = {}
+			}
+			c_capetia = {
+				color={ 30 30 30 }
+				color2={ 255 255 255 }	
+				b_capetia = {}
+				b_daria = {}
+				b_xatia = {}
+				b_vosivia = {}
+			
+			}
+			c_clovia = {
+				color={ 45 45 45 }
+				color2={ 255 255 255 }				
+				b_clovia = {}
+				b_darnia = {}
+				b_cogia = {}
+				b_mertacia = {}
+				b_tasonia = {}
+			
+			}
+			c_acacesia = {
+				color={ 0 96 160 }
+				color2={ 255 255 255 }	
+				b_acacesia = {}
+				b_pedria = {}
+				b_ridarnia = {}
+			}
 		}
-		c_joyeusia = {
-			color={ 255 255 0 }
-			color2={ 255 255 255 }	
-			b_joyeusia = {}
-		}
-		c_durendalia = {
-			color={ 255 255 0 }
-			color2={ 255 255 255 }	
-			b_durendalia = {}
-		}
-					}
-	d_lyonia = {
-		color={ 235 235 235 }
-		color2={ 231 172 0 }		
-		capital = 249
-		c_pausania = {
-			color={ 94 150 207 }
-			color2={ 255 255 255 }	
-			b_pausania = {}
-			b_tenia = {}
-			b_sondia = {}
-			b_martia = {}
-		}
-		c_lyonia = {
-			color={ 189 1 8 }
-			color2={ 255 255 255 }	
-			b_lyonia = {}
-			b_penia = {}
-			b_martia_2 = {}
-		}
-		c_xenonia = {
-			color={ 188 0 6 }
-			color2={ 255 255 255 }	
-			b_xenonia = {}
-			b_wochogia = {}
-			b_pacia = {}
-			b_varia = {}
-		}
-		c_lykaia = {
-			color={ 0 86 148 }
-			color2={ 255 255 255 }	
-			b_lykaia = {}
-		}
-		c_wosuia = {
-			color={ 255 255 0 }
-			color2={ 255 255 255 }	
-			b_wosuia = {}
+		d_valoia = {
+			color={ 77 77 77 }
+			color2={ 255 255 255 }		
+			capital = 283
+			c_valoia = {
+				color={ 250 199 1 }
+				color2={ 255 255 255 }	
+				b_valoia = {}
+				b_donia = {}
+				b_cortia = {}
+			}
+			c_syagria = {
+				color={ 248 235 0 }
+				color2={ 6 153 19 }
+				b_syagria = {}
+				b_aedoadia = {}			
+			
+			}
+			c_merovia = {
+				color={ 255 0 0 }
+				color2={ 0 237 1 }	
+				b_merovia = {}
+				b_arodia = {}
+			}
+			c_louia = {
+				color={ 188 0 7 }
+				color2={ 211 159 0 }	
+				b_louia = {}
+				b_xoitegia = {}
+			}
+			c_aegidia = {
+				color={ 255 255 255 }
+				color2={ 38 38 38 }	
+				b_aegidia = {}
+				b_macendia = {}
+			
+			}
 		}
 	}
-	d_ardennia = {
-		color={ 180 180 180 }
-		color2={ 221 170 0 }			
-		capital = 253
-		c_ardennia = {
-			color={ 232 176 80 }
-			color2={ 255 255 255 }	
-			b_ardennia = {}
-			b_paria = {}
-			b_pilia = {}
-			b_terninia = {}
-
-		}
-		c_hippodria = {
-			color={ 224 32 24 }
-			color2={ 255 255 255 }	
-			b_hippodria = {}
-			b_aneretia = {}
-			b_jagalia = {}
-			b_asogia = {}
-			b_alopponia = {}
-		}
-		c_rolandia = {
-			color={ 129 35 108 }
-			color2={ 255 255 255 }	
-			b_rolandia = {}
-			b_ocarinia = {}
-			b_lolvia = {}
-			b_codia = {}
-		}
-	}
-	d_silvania = {
-		color={ 151 151 0 }
-		color2={ 250 188 0 }		
-		capital = 257
-		c_silvania = {
-			color={ 250 188 0 }
-			color2={ 255 255 255 }	
-			b_silvania = {}
-			b_piria = {}
-			b_vonnomnia = {}
-		}
-		c_parnonia = {
-			color={ 188 0 7 }
-			color2={ 255 255 255 }	
-			b_parnonia = {}
-			b_tacedia = {}
-			b_lenemnia = {}
-		}
-		c_marcania = {
-			color={ 188 0 7 }
-			color2={ 255 255 255 }	
-			b_marcania = {}
-			b_mepolia = {}
-			b_morcoppia = {}
-		}
-		c_achenia = {
-			color={ 250 188 0 }
-			color2={ 255 255 255 }	
-			b_achenia = {}
-			b_tesia = {}
-			b_codia_2 = {}
-		}
-	}
-	d_odyssia = {
-		color={ 211 211 211 }
-		color2={ 188 0 7 }		
-		capital = 266
-		c_odyssia = {
-			color={ 15 54 169 }
-			color2={ 255 255 255 }	
-			b_odyssia = {}
-			b_coria = {}
-			b_dandia = {}
-			b_delvia = {}
-		}
-		c_doricia = {
-			color={ 227 226 226 }
-			color2={ 255 255 255 }	
-			b_doricia = {}
-			b_lagia = {}
-			b_marnia = {}
-		}
-	}
-	d_tyria = {
-		color={ 238 238 238 }
-		color2={ 57 163 0 }		
-		capital = 269
-		c_tyria = {
-			color={ 189 0 0 }
-			color2={ 255 255 255 }	
-			b_tyria = {}
-			b_mulia = {}
-			b_pernia = {}
-		}
-		c_stoicia = {
-			color={ 48 137 4 }
-			color2={ 255 255 255 }	
-			b_stoicia = {}
-			b_aegia = {}
-			b_lyenia = {}
-			b_tomnia = {}
-		}
-	}
-	d_megaria = {
+	k_megaria = {
 		color={ 225 224 224 }
 		color2={ 128 69 180 }		
-		capital = 272
-		c_megaria = {
-			color={ 36 36 36 }
-			color2={ 255 255 255 }	
-			b_megaria = {}
-			b_fedgia = {}
-			b_vosia = {}
-			b_famnia = {}
+		capital = 272	
+		d_odyssia = {
+			color={ 211 211 211 }
+			color2={ 188 0 7 }		
+			capital = 266
+			c_odyssia = {
+				color={ 15 54 169 }
+				color2={ 255 255 255 }	
+				b_odyssia = {}
+				b_coria = {}
+				b_dandia = {}
+				b_delvia = {}
+			}
+			c_doricia = {
+				color={ 227 226 226 }
+				color2={ 255 255 255 }	
+				b_doricia = {}
+				b_lagia = {}
+				b_marnia = {}
+			}
 		}
-		c_tegia = {
-			color={ 235 179 57 }
-			color2={ 255 255 255 }	
-			b_tegia = {}
-			b_acalia = {}
-			b_osologia = {}
-			b_ladasia = {}
+		d_tyria = {
+			color={ 238 238 238 }
+			color2={ 57 163 0 }		
+			capital = 269
+			c_tyria = {
+				color={ 189 0 0 }
+				color2={ 255 255 255 }	
+				b_tyria = {}
+				b_mulia = {}
+				b_pernia = {}
+			}
+			c_stoicia = {
+				color={ 48 137 4 }
+				color2={ 255 255 255 }	
+				b_stoicia = {}
+				b_aegia = {}
+				b_lyenia = {}
+				b_tomnia = {}
+			}
 		}
-		c_batteria = {
-			color={ 188 0 7 }
-			color2={ 255 255 255 }	
-			b_batteria = {}
-			b_coasia = {}
-			b_cosia = {}
+		d_megaria = {
+			color={ 225 224 224 }
+			color2={ 128 69 180 }		
+			capital = 272
+			c_megaria = {
+				color={ 36 36 36 }
+				color2={ 255 255 255 }	
+				b_megaria = {}
+				b_fedgia = {}
+				b_vosia = {}
+				b_famnia = {}
+			}
+			c_tegia = {
+				color={ 235 179 57 }
+				color2={ 255 255 255 }	
+				b_tegia = {}
+				b_acalia = {}
+				b_osologia = {}
+				b_ladasia = {}
+			}
+			c_batteria = {
+				color={ 188 0 7 }
+				color2={ 255 255 255 }	
+				b_batteria = {}
+				b_coasia = {}
+				b_cosia = {}
+			}
+			c_aroania = {
+				color={ 3 154 3 }
+				color2={ 255 255 255 }	
+				b_aroania = {}
+				b_cinia = {}
+				b_xolia = {}
+				b_jarnia = {}
+			}
+			c_peloponnia = {
+				color={ 181 36 36 }
+				ccolor2={ 255 255 255 }
+				b_peloponnia = {}
+				b_larnia = {}
+				b_clegia = {}
+			}
 		}
-		c_aroania = {
-			color={ 3 154 3 }
-			color2={ 255 255 255 }	
-			b_aroania = {}
-			b_cinia = {}
-			b_xolia = {}
-			b_jarnia = {}
-		}
-		c_peloponnia = {
-			color={ 181 36 36 }
-			ccolor2={ 255 255 255 }
-			b_peloponnia = {}
-			b_larnia = {}
-			b_clegia = {}
-		}
-	}
-	d_argolia = {
-		color={ 146 145 145}
-		color2={ 255 255 255 }		
-		capital = 276
-		c_agamemnia = {
-			color={ 188 0 7 }
-			color2={ 255 255 255 }	
-			b_agamemnia = {}
-			b_mannia = {}
-			b_desolia = {}
-			b_boria = {}
-		}
-		c_argolia = {
-			color={ 0 86 148 }
-			color2={ 255 255 255 }	
-			b_argolia = {}
-			b_maria = {}
-			b_arogia = {}
-			b_domania = {}
-			b_ = {}
-		}
-		c_daigonia = {
-			color={ 188 0 7 }
-			color2={ 255 255 255 }	
-			b_daigonia = {}
-			b_pargidia = {}
-			b_condia = {}
-		}
-		c_ladonia = {
-			color={ 9 93 145 }
-			color2={ 255 255 255 }	
-			b_ladonia = {}
-			b_syeria = {}
-		}
-	}
-	d_acacesia = {
-		color={ 122 122 122 }
-		color2={ 255 255 255 }	
-		capital = 265		
-		c_polia = {
-			color={ 0 86 148 }
-			color2={ 255 255 255 }	
-			b_polia = {}
-			b_sigia = {}
-			b_xoria = {}
-		}
-		c_capetia = {
-			color={ 30 30 30 }
-			color2={ 255 255 255 }	
-			b_capetia = {}
-			b_daria = {}
-			b_xatia = {}
-			b_vosivia = {}
-		
-		}
-		c_clovia = {
-			color={ 45 45 45 }
-			color2={ 255 255 255 }				
-			b_clovia = {}
-			b_darnia = {}
-			b_cogia = {}
-			b_mertacia = {}
-			b_tasonia = {}
-		
-		}
-		c_acacesia = {
-			color={ 0 96 160 }
-			color2={ 255 255 255 }	
-			b_acacesia = {}
-			b_pedria = {}
-			b_ridarnia = {}
-		}
-	}
-	d_valoia = {
-		color={ 77 77 77 }
-		color2={ 255 255 255 }		
-		capital = 283
-		c_valoia = {
-			color={ 250 199 1 }
-			color2={ 255 255 255 }	
-			b_valoia = {}
-			b_donia = {}
-			b_cortia = {}
-		}
-		c_syagria = {
-			color={ 248 235 0 }
-			color2={ 6 153 19 }
-			b_syagria = {}
-			b_aedoadia = {}			
-		
-		}
-		c_merovia = {
-			color={ 255 0 0 }
-			color2={ 0 237 1 }	
-			b_merovia = {}
-			b_arodia = {}
-		}
-		c_louia = {
-			color={ 188 0 7 }
-			color2={ 211 159 0 }	
-			b_louia = {}
-			b_xoitegia = {}
-		}
-		c_aegidia = {
-			color={ 255 255 255 }
-			color2={ 38 38 38 }	
-			b_aegidia = {}
-			b_macendia = {}
-		
+		d_argolia = {
+			color={ 146 145 145}
+			color2={ 255 255 255 }		
+			capital = 276
+			c_agamemnia = {
+				color={ 188 0 7 }
+				color2={ 255 255 255 }	
+				b_agamemnia = {}
+				b_mannia = {}
+				b_desolia = {}
+				b_boria = {}
+			}
+			c_argolia = {
+				color={ 0 86 148 }
+				color2={ 255 255 255 }	
+				b_argolia = {}
+				b_maria = {}
+				b_arogia = {}
+				b_domania = {}
+				b_ = {}
+			}
+			c_daigonia = {
+				color={ 188 0 7 }
+				color2={ 255 255 255 }	
+				b_daigonia = {}
+				b_pargidia = {}
+				b_condia = {}
+			}
+			c_ladonia = {
+				color={ 9 93 145 }
+				color2={ 255 255 255 }	
+				b_ladonia = {}
+				b_syeria = {}
+			}
 		}
 	}
 }
-
 k_western_isles = {
 	color={ 195 190 255 }
 	color2={ 128 128 0 }

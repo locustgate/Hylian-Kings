@@ -160,7 +160,8 @@ castle = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
-		light_infantry = 90
+		light_infantry = 80
+		archers = 10
 		ai_creation_factor = 100
 		
 		extra_tech_building_start = 1.0
@@ -175,7 +176,8 @@ castle = {
 		upgrades_from = ca_bokoblin_clubbers_hovel_1
 		gold_cost = 120
 		build_time = 547
-		light_infantry = 100
+		light_infantry = 50
+		archers = 50
 		ai_creation_factor = 99
 
 		extra_tech_building_start = 2.0
@@ -189,7 +191,8 @@ castle = {
 		upgrades_from = ca_bokoblin_clubbers_hovel_2
 		gold_cost = 200
 		build_time = 1095
-		light_infantry = 110
+		light_infantry = 20
+		archers = 90
 		ai_creation_factor = 98
 
 		extra_tech_building_start = 0.5
@@ -203,63 +206,8 @@ castle = {
 		upgrades_from = ca_bokoblin_clubbers_hovel_3
 		gold_cost = 300
 		build_time = 1095
-		light_infantry = 150
-		ai_creation_factor = 98
-
-		extra_tech_building_start = 0.5
-	}
-	ca_bokoblin_archer_hovel_1 = {
-		desc = ca_bokoblin_archer_hovel_1_desc
-		potential  = {				
-				culture = bokoblin
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		gold_cost = 100
-		build_time = 365
-		archers = 90
-		ai_creation_factor = 100
-		
-		extra_tech_building_start = 1.0
-	}
-	ca_bokoblin_archer_hovel_2 = {
-		desc = ca_bokoblin_archer_hovel_2_desc
-		potential  = {				
-				culture = bokoblin
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ca_wall_1 }
-		upgrades_from = ca_bokoblin_archer_hovel_1
-		gold_cost = 120
-		build_time = 547
-		archers = 100
-		ai_creation_factor = 99
-
-		extra_tech_building_start = 2.0
-	}
-	ca_bokoblin_archer_hovel_3 = {
-		desc = ca_bokoblin_archer_hovel_3_desc
-		potential  = {				
-				culture = bokoblin
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		upgrades_from = ca_bokoblin_archer_hovel_2
-		gold_cost = 200
-		build_time = 1095
-		archers = 110
-		ai_creation_factor = 98
-
-		extra_tech_building_start = 0.5
-	}
-	ca_bokoblin_archer_hovel_4 = {
-		desc = ca_bokoblin_archer_hovel_3_desc
-		potential  = {				
-				culture = bokoblin
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		upgrades_from = ca_bokoblin_archer_hovel_3
-		gold_cost = 300
-		build_time = 1095
-		archers = 150
+		light_infantry = 30
+		archers = 120
 		ai_creation_factor = 98
 
 		extra_tech_building_start = 0.5
@@ -546,8 +494,8 @@ castle = {
 			culture_group = blin
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		gold_cost = 100
-		build_time = 365
+		gold_cost = 50
+		build_time = 182
 		tax_income = 2
 		levy_size = 0.01
 		ai_creation_factor = 100
@@ -562,8 +510,8 @@ castle = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_1 }
 		upgrades_from = ca_blin_hovel_1
-		gold_cost = 120
-		build_time = 547
+		gold_cost = 60
+		build_time = 150
 		tax_income = 2
 		levy_size = 0.01
 		ai_creation_factor = 99
@@ -578,8 +526,8 @@ castle = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		prerequisites = { ca_wall_2 }
 		upgrades_from = ca_blin_hovel_2
-		gold_cost = 200
-		build_time = 730
+		gold_cost = 150
+		build_time = 315
 		tax_income = 2
 		levy_size = 0.01
 		ai_creation_factor = 98
@@ -593,8 +541,8 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ca_blin_hovel_3
-		gold_cost = 300
-		build_time = 1095
+		gold_cost = 150
+		build_time = 505
 		tax_income = 2
 		levy_size = 0.01
 		ai_creation_factor = 97
@@ -608,8 +556,8 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
 		upgrades_from = ca_blin_hovel_4
-		gold_cost = 400
-		build_time = 2190
+		gold_cost = 200
+		build_time = 1095
 		tax_income = 2
 		levy_size = 0.01
 		ai_creation_factor = 96
@@ -623,8 +571,8 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
 		upgrades_from = ca_blin_hovel_5
-		gold_cost = 500
-		build_time = 2190
+		gold_cost = 250
+		build_time = 1095
 		tax_income = 2
 		levy_size = 0.01
 		ai_creation_factor = 96

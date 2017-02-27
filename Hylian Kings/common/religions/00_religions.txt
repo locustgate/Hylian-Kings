@@ -303,9 +303,8 @@ goddesses_religion = {
  		female_temple_holders = yes
 		feminist = yes
 	}
-	sheikahism = {
+	sheikahism_nihilism = {
 		graphical_culture = westerngfx
-
 		icon = 2
 		heresy_icon = 7
 		
@@ -316,7 +315,7 @@ goddesses_religion = {
 		
 		high_god_name = GOD_GODDESSES		
 		god_names = {
-			GOD_ROYAL GOD_HYLIA_REBORN GOD_HYLIA GOD_GODDESSES 
+			GOD_HYLIA GOD_GODDESSES 
 		}
 		evil_god_names = {
 				GOD_DEMISE
@@ -334,9 +333,9 @@ goddesses_religion = {
 		feminist = yes
 
 	}
-	sheikahism_nihilism = {
+	sheikahism = {
 		graphical_culture = westerngfx
-		parent = sheikahism
+		parent = sheikahism_nihilism
 		icon = 2
 		heresy_icon = 7
 		
@@ -347,7 +346,7 @@ goddesses_religion = {
 		
 		high_god_name = GOD_GODDESSES		
 		god_names = {
-			GOD_HYLIA GOD_GODDESSES 
+			GOD_ROYAL GOD_HYLIA_REBORN GOD_HYLIA GOD_GODDESSES 
 		}
 		evil_god_names = {
 				GOD_DEMISE
