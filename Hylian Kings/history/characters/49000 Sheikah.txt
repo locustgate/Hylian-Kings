@@ -2,7 +2,7 @@
 	name=Omaha
 	dynasty=400
 	dna="ehpogeoafcd"
-	culture=sheikah religion=sheikahism_nihalism
+	culture=sheikah religion=sheikahism_nihilism
 	martial=5 diplomacy=6 stewardship=5 intrigue=4 learning=8
 	add_trait=flamboyant_schemer add_trait=greedy add_trait=cruel 
 	3331.4.8={ birth=yes }
@@ -13,7 +13,7 @@
 	name=Owago
 	dynasty=400
 	dna="lhpmhebiccd"
-	culture=sheikah religion=sheikahism_nihalism
+	culture=sheikah religion=sheikahism_nihilism
 	martial=4 diplomacy=4 stewardship=7 intrigue=5 learning=4
 	add_trait=flamboyant_schemer add_trait=hunter add_trait=diligent add_trait=greedy 
 	father=49000	#Omaha
@@ -26,7 +26,7 @@
 	name=Agimo
 	dynasty=400
 	dna="eciopebafcd"
-	culture=sheikah religion=sheikahism_nihalism
+	culture=sheikah religion=sheikahism_nihilism
 	martial=5 diplomacy=8 stewardship=4 intrigue=8 learning=8
 	add_trait=tough_soldier add_trait=poet add_trait=proud add_trait=cruel 
 	father=49000	#Omaha
@@ -39,7 +39,7 @@
 	name=Ofak
 	dynasty=400
 	dna="lapmhklicjd"
-	culture=sheikah religion=sheikahism_nihalism
+	culture=sheikah religion=sheikahism_nihilism
 	martial=8 diplomacy=8 stewardship=6 intrigue=7 learning=5
 	add_trait=detached_priest add_trait=hedonist add_trait=lustful add_trait=gregarious add_trait=cruel 
 	add_trait=stressed 
@@ -54,7 +54,7 @@
 	female=yes
 	dynasty=400
 	dna="mgbkhpbimbd"
-	culture=sheikah religion=sheikahism_nihalism
+	culture=sheikah religion=sheikahism_nihilism
 	father=49001	#Owago
 	mother=49007
 	3387.11.25={ birth=yes }
@@ -65,7 +65,7 @@
 	female=yes
 	dynasty=400
 	dna="oppmpeblacd"
-	culture=sheikah religion=sheikahism_nihalism
+	culture=sheikah religion=sheikahism_nihilism
 	father=49001	#Owago
 	mother=49007
 	3391.2.2={ birth=yes }
@@ -75,7 +75,7 @@
 49006={
 	name=Falan
 	female=yes
-	culture=sheikah religion=sheikahism_nihalism
+	culture=sheikah religion=sheikahism_nihilism
 	3331.4.8={ birth=yes }
 	3352.1.1={add_spouse=49000}
 	3378.6.21={ death=yes }
@@ -83,7 +83,7 @@
 49007={
 	name=Iza
 	female=yes
-	culture=sheikah religion=sheikahism_nihalism
+	culture=sheikah religion=sheikahism_nihilism
 	3355.1.16={ birth=yes }
 	3382.1.1={add_spouse=49001}
 	3403.2.19={ death=yes }
@@ -91,7 +91,7 @@
 49008={
 	name=Idan
 	female=yes
-	culture=sheikah religion=sheikahism_nihalism
+	culture=sheikah religion=sheikahism_nihilism
 	3359.3.2={ birth=yes }
 	3376.1.1={add_spouse=49002}
 	3423.6.11={ death=yes }
@@ -99,7 +99,7 @@
 49009={
 	name=Sohan
 	female=yes
-	culture=sheikah religion=sheikahism_nihalism
+	culture=sheikah religion=sheikahism_nihilism
 	3384.12.22={ birth=yes }
 	3401.1.1={add_spouse=49003}
 	3443.1.31={ death=yes }

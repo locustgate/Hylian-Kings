@@ -7677,6 +7677,745 @@ e_hytopia = {
 		}		 
 	}
 }
+e_comenia = {
+	color={ 0 86 148 }
+	color2={ 237 192 0 }
+	capital = 937 # rii
+	sheikah="Sheikana"
+	k_sheikana = {
+		d_sheikana_gate = {
+			c_nejiron_cliffs = {
+				b_chire = {}
+				b_oroke = {}
+				b_kapu = {}
+				b_ceijo = {}
+				b_nido = {}
+			}
+			c_sheikana_gate = {
+				b_meijo = {}
+				b_etijo = {}
+				b_nekijo = {}
+			}
+			c_theifden = {
+				b_fojo = {}
+				b_nonia = {}
+				b_doron_2 = {}
+			}
+		}
+		d_sheikana = {
+			c_sheikana_castle = {
+				b_sheikana_castle = {}
+				b_nejikike = {}
+				b_padotein = {}
+				b_aka = {}
+				b_cherdal = {}
+			}
+			c_sheikana_canyon = {
+				b_nireike = {}
+				b_fairy_fountain_of_kindness = {}
+				b_kutomesh = {}
+				b_mojo = {}
+			}
+			c_sheikana_valley = {
+				b_obajo = {}
+				b_pahinera = {}
+				b_katan = {}
+				b_pijia = {}
+			}
+			c_sheikana_road = {
+				b_riko = {}
+				b_arike = {}
+			}
+		}
+		d_south_sheikana = {
+			c_sheikana_cliffs = {
+				b_miria = {}
+				b_kapikan = {}
+				b_rapin = {}
+				b_karoku = {}
+			}
+			c_labyrinth_canyon = {
+				b_lynadura = {}
+				b_pakaren = {}
+				b_kajan = {}
+				b_kijo = {}
+				b_kenakro = {}
+				b_nijo = {}
+			}
+			c_sheikana_river = {
+				b_telon = {}
+				b_danakpul = {}
+				b_dojukeda = {}
+				b_alosh = {}
+			}
+		}
+		d_sheikora = {
+			c_sheikana_training_fields = {
+				b_sheikana_training_fields = {}
+				b_nilon = {}
+				b_nirike = {}
+				b_paharona = {}
+			}
+			c_sheikana_graveyard = {
+				b_sheikana_graveyards = {}
+				b_narde = {}
+				b_merona = {}
+				b_firia = {}
+				b_kutun = {}
+			}
+			c_sheikana_catacombs = {
+				b_sheikana_catacombs = {}
+				b_pepia = {}
+				b_mimake = {}
+			}
+		}
+		d_truth_mountains = {
+			c_tower_of_truth = {
+			b_tower_of_truth = {}
+			b_truthseeker_shrine = {}
+			b_kogasan = {}
+			b_crin = {}
+			
+			}
+		}
+		d_sheikrila = {
+			c_sheikrila = {
+				b_sheikrila = {}
+				b_puran = {}
+				b_rordo = {}
+				b_lyzukijo = {}
+				b_coraria = {}
+				b_mardimu = {}
+			}
+			c_sheikrila_haven = {
+				b_sheikrila_haven = {}
+				b_library_of_the_sheika = {}
+				b_moojerajo = {}
+				b_kogen = {}
+			}
+			c_guarded_valley = {
+				b_puka = {}
+				b_coren = {}
+			}
+		}
+	}
+	k_sheikahira-sheikariko = {
+		d_sheikahria = {
+			c_sheikahria_canyon = {
+				b_sheikahria_canyon = {}
+				b_sake = {}
+				b_moku = {}
+				b_chikuken = {}
+			}
+			c_temple_valley = {
+				b_kapajiro = {}
+				b_niran = {}
+				b_fonojajo = {}
+				b_mania = {}
+				b_niryikro = {}
+			}
+			c_sheikahria_monastary = {			
+				b_chariro = {}
+				b_nunia = {}
+				b_okoke = {}
+			}
+		}
+		d_sheikariko = {
+			c_sheikariko_shipyard = {
+				b_sheikariko_shipyard = {}
+				b_makira = {}
+				b_dojeniji = {}
+			}
+			c_sheikariko_harbor = {
+				b_sheikariko_harbor = {}
+				b_koginika = {}
+				b_rajo = {}
+			}
+			c_sheikariko = {
+				b_sheikariko = {}
+				b_netajo = {}
+				b_kokrin = {}
+				b_odoke = {}
+				b_katon_2 = {}
+			}
+		}
+		d_sheikariko_gate = {
+			c_sheikariko_road = {
+				b_rorajo = {}
+				b_natonora = {}
+				b_ogoke = {}
+				b_kardisukpia = {}
+			}
+			c_factory_vale = {
+				b_narikro = {}
+				b_mobania = {}
+				b_masha = {}
+				b_chakika = {}
+				b_factory_vale = {}
+			}
+		
+		}
+		d_sheikahria_gate = {
+			c_sheikahria_gate = {
+				b_jojo = {}
+				b_danogena = {}
+				b_akatoka = {}
+				b_oron = {}
+				b_oron_2 = {}
+			}
+			c_sheikahria_road = {
+				b_fajon = {}
+				b_karyajo = {}
+				b_peton = {}
+				b_murardo = {}
+				b_rorani = {}
+			}
+			c_cliffside_shrines = {
+				b_oron_3 = {}
+				b_erirein = {}
+				b_eropon = {}
+			}
+		}
+	}
+	k_comenia = {
+		d_west_comenia = {
+			c_northwest_comenia_field = {
+				b_shakaun = {}
+				b_kunia = {}
+				b_mara = {}
+				b_nijia = {}
+				b_kajen = {}
+			}
+			c_west_comenia_field = {
+			}
+			c_great_beach_gate = {
+				b_reike = {}
+				b_dorya = {}
+				b_kinon = {}
+			}
+			
+		}
+		d_east_comenia = {
+			c_north_comenia_field = {
+				b_shatuno = {}
+				b_shatato = {}
+				b_pojania = {}
+				b_jorike = {}
+			}
+			c_east_comenia_field = {
+				b_chikiro = {}
+				b_kosajo = {}
+				b_katun = {}
+				b_shorujo = {}
+			}			
+		}
+		d_rancher_road = {
+			c_ranch_road = {
+				b_shakaun_2 = {}
+				b_kunia_2 = {}
+				b_mara_2 = {}
+			}
+			c_horsetrack = {
+				b_horsetrack = {}
+				b_eremo = {}
+				b_korikro = {}
+			}
+			c_south_comenia_field = {
+				b_pojania_2 = {}
+				b_jorike_2 = {}
+				b_nirdike = {}
+				b_sheloro = {}
+			}
+		}
+		d_chateau = {
+			c_chateau_ranch = {
+				b_chateau_ranch = {}
+				b_norurako = {}
+				b_cintera = {}
+			}
+			c_cucco_fields = {
+				b_cintera_2 = {}
+				b_kigo = {}
+			}
+		}
+		d_observer_hills = {
+			c_watchtower_field = {
+				b_okrojo = {}
+				b_chareria = {}
+				b_shabo = {}
+			}
+			c_telescope_tower = {
+			}
+		}
+		d_comenia_city = {
+			c_east_comenia_city = {
+				b_east_comenia_gate = {}
+				b_night_district = {}
+				b_wedding_square = {}
+			}
+			c_west_comenia_city = {
+				b_west_comenia_gate = {}
+				b_market_district = {}
+				b_laundry_pool = {}
+				b_swordsmans_school = {}
+			}
+			c_south_comenia_city = {
+				b_south_comenia_gate = {}
+				b_carnival_district = {}
+				b_clock_tower = {}
+				b_comenia_bank = {}
+			}
+			c_north_comenia_city = {
+				b_north_comenia_gate = {}
+				b_garden_district = {}
+				b_fairy_fountain_of_magic = {}
+				b_secret_society_of_justice = {}
+			
+			}
+			c_comenia_mansions = {
+				b_mayor_mansion = {}
+				b_noble_district = {}
+				b_comenia_church = {}
+			}
+			
+		}
+	}
+	k_great_beach = {
+		d_great_pier = {
+			c_great_beach_coast = {
+				b_kosajo_2 = {}
+				b_katun_2 = {}
+				b_shorujo_2 = {}
+				b_okrojo_2 = {}
+				b_chareria_2 = {}
+			}
+			c_great_beach_pier = {
+				b_pier_gate = {}
+				b_northern_pier = {}
+				b_southern_pier = {}
+				b_western_pier = {}
+			}
+			c_lighthouse_rock = {
+				b_shoruro = {}
+				b_dalukri = {}
+				b_dojan = {}
+				b_peikosh = {}
+			}
+		}
+		d_pearl_palace = {
+			c_pearl_palace = {
+				b_central_pearl = {}
+				b_northern_pearl_arm = {}
+				b_southern_pearl_arm = {}
+			}
+		}
+		d_pirate_fortress = {
+			c_pirate_fortress = {
+				b_norurako_2 = {}
+				b_cintera_3 = {}
+				b_akriralon = {}
+				b_kigo_2 = {}
+				b_chikiro_2 = {}
+			}
+		}
+		d_breaker_islands = {
+			c_hatchling_island = {
+				b_egg_groto = {}
+				b_hatchling_pools = {}
+			}
+			c_wavebreak_island = {
+				b_kako_2 = {}
+				b_feijiko_2 = {}
+			}
+		}
+		d_mountain_coast = {
+			c_great_beach_fort = {
+				b_beach_fort = {}
+				b_osusa = {}
+				b_kako = {}
+			}
+			c_waterfall_rapids = {
+				b_feijiko = {}
+			}
+		}
+		d_geozard_islands = {
+			c_tempest_island = {
+				b_makein = {}
+				b_konia = {}
+				b_orati = {}
+			}
+			c_geozard_island = {
+				b_kojel = {}
+				b_danaki = {}
+				b_doldara = {}
+				b_lirdo = {}
+				b_sheinia = {}
+			}
+			c_gyorg_temple = {
+				b_gyorg_temple = {}
+			}
+		}
+	}
+
+}
+e_lynaria = {
+	k_hiploko = {
+		d_gekko_swamp = {
+			c_octorock_wetlands = {
+				b_coran = {}
+				b_dikakein = {}
+				b_misha = {}
+				b_dana = {}
+			}
+			c_gekko_swamp = {			
+				b_crira = {}
+				b_pejo = {}
+				b_sharara = {}
+				b_nujira = {}
+			}
+		}
+		d_marshwood = {
+			c_marshport = {
+				b_akoreau = {}
+				b_kojerein = {}
+				b_neijo = {}
+			}
+			c_marshwood = {
+				b_sharu = {}
+				b_cike = {}
+			}
+		}
+		d_dragonfly_marsh = {
+			c_marshbridge = {
+				b_dokosh = {}
+				b_crelarin = {}
+			}
+			c_dragonfly_bog = {
+				b_pike = {}
+				b_ruria = {}
+				b_roria = {}
+			}
+		}
+		d_monster_mires = {
+			c_swamp_fortress = {
+				b_nania = {}
+				b_kara = {}
+				b_dirasha = {}
+			}
+			c_hiploop_mires = {
+				b_kojin = {}
+				b_chajort = {}
+				b_shen = {}
+			}
+		}
+		d_swamphall = {
+			c_swampgate = {
+				b_chajort_2 = {}
+				b_shen_2 = {}
+				b_akopo = {}
+				b_muran = {}
+			}
+			c_swamp_canals = {			
+				b_pagijan = {}
+				b_charin = {}
+				b_chakata = {}
+			}
+			c_swamphall_temple = {
+				b_swamphall = {}
+				b_fairy_fountain_of_power = {}
+				b_nitaria = {}
+				b_charu = {}
+				b_cheno = {}
+			}
+			c_swamphall = {
+				b_noresha = {}
+				b_orajo = {}
+			}
+		}
+		d_snapper_marsh = {
+			c_rivermarsh = {
+				b_mike = {}
+				b_meirera = {}
+				b_sharajo = {}
+			}
+			c_snapper_marshes = {
+				b_erijo = {}
+				b_krodirojo = {}
+			}
+		}
+		d_wonder_swamp = {
+			c_woods_of_wonder = {
+				b_mipi = {}
+				b_mera = {}
+				b_pahajen = {}
+			}
+			c_logfalls = {
+				b_dal = {}
+				b_camu = {}
+				b_kogasan_2 = {}
+				b_shore = {}
+			}
+		}
+	}
+	k_lynaria = {
+		d_lionwood = {
+			c_gyorgtooth_point = {
+				b_pahin = {}
+				b_sin = {}
+				b_doruru = {}
+				b_koria = {}
+			}
+			c_lionwood = {
+				b_netijasha = {}
+				b_nujado = {}
+				b_chariko = {}
+				b_shijo = {}
+				b_cenein = {}
+				b_namein = {}
+			}
+		}
+		d_lyzonia = {
+			c_lyzonia = {			
+				b_lyzonia = {}
+				b_ojora = {}
+				b_naru = {}
+				b_akiko = {}
+				b_ohara = {}
+				b_konin = {}		
+			}
+			c_roaring_jungles = {
+				b_miroryada = {}
+				b_olia = {}
+				b_muria = {}
+				b_ninia = {}
+			}
+		}
+		d_lynaria = {
+			c_lyport = {
+				b_lyport = {}
+				b_soria = {}
+				b_kojorde = {}
+			}
+			c_lynaria = {			
+				b_lynaria = {}
+				b_kania = {}
+				b_doron = {}
+				b_toria = {}
+				b_shajo = {}
+			}
+			c_hunting_jungle = {			
+				b_kate = {}
+				b_malia = {}
+				b_kapin = {}
+				b_nojo = {}
+			}
+		}
+		
+	}
+}
+k_zora_haven = {
+	d_mother_island = {
+		c_lookout_islands = {
+			b_aloru = {}
+			b_dojun = {}
+			b_shanaka = {}
+			b_dojonan = {}
+		}
+		c_mother_and_child_islands = {
+			b_mother_island = {}
+			b_child_island = {}
+		}
+	}
+	d_zora_haven = {
+		c_zora_haven = {
+			b_niria = {}
+			b_kapimu = {}
+			b_onajo = {}
+			b_rijo = {}
+			b_shamajo = {}
+		}
+		c_seaspray_cliffs = {
+			b_osusa_2 = {}
+			b_kako_3 = {}
+			b_feijiko_3 = {}
+			b_shoruro_2 = {}
+		}
+	}	
+}
+k_blina = {
+	d_conflict_plains = {
+		c_gates_of_comenia = {
+			b_miroryada_2 = {}
+			b_onarikon = {}
+			b_chara = {}
+			b_kuteiroria = {}
+		}
+		c_battle_plains = {
+			b_nentegardo = {}
+			b_chariyikruge = {}
+			b_shodijo = {}
+			b_charo = {}
+			b_lalon = {}
+		}
+	}
+	d_mourner_steppes = {
+		c_blood_steppes = {
+			b_chajo = {}
+			b_kogudu = {}
+			b_kapajona = {}
+		}
+		c_wolf_moors = {
+			b_karan = {}
+			b_charyon = {}
+			b_odein = {}
+			b_ajerdijo = {}
+			b_dorani = {}
+		}
+	}
+	d_carrion = {
+		c_carrion_hold = {
+			b_carrion_hold = {}
+			b_kargarok_grove = {}
+		}
+		c_blinhome = {
+			b_blinhome = {}
+			b_bokoblin_hovels = {}
+			b_demise_shrine = {}
+			b_bulblin_platau = {}
+			b_moblin_keeps = {}
+			b_demons_domain = {}
+		}
+		c_dry_steppes = {
+			b_akebu = {}
+			b_nukan = {}
+			b_kujia = {}
+			b_firojo = {}
+			b_katon = {}
+		}
+	}
+	d_pickers_fields = {
+		c_bonefields = {
+			b_kapija = {}
+			b_nujo = {}
+			b_kaposh = {}
+			b_pureria = {}
+			b_choke = {}
+		}
+		c_raiding_plains = {
+			b_nasia = {}
+			b_kojeru = {}
+			b_anako = {}
+			b_dakogein = {}
+			b_lypin = {}
+		}
+		c_lost_shipyards = {
+			b_lost_shipyards = {}
+			b_ekojo_2 = {}
+			b_coreko = {}
+			b_kurun = {}
+			b_panin = {}
+		}
+	}
+	d_desert_steppes = {
+		c_steppe_road = {
+			b_kijejo = {}
+			b_erejo = {}
+			b_kogokakun = {}
+		}
+		c_geruport = {		
+		b_geruport = {}
+		b_ekojo = {}
+		b_abapu = {}
+		}
+	}
+	d_murder_bluff = {
+		c_redcliffs = {
+			b_ejujo = {}
+			b_dekujere = {}
+			b_kororijo = {}
+		}
+		c_ninja_caves = {
+			b_koro = {}
+			b_moke = {}
+		}
+		c_assassin_fortress = {
+			b_assassins_fortress = {}
+			b_crolakri = {}
+			b_chadikru = {}
+		}
+	}
+	d_blin = {
+		c_blin_keep = {
+			b_blin_keep = {}
+			b_kutaru = {}
+			b_saruria = {}
+			b_canenia = {}		
+		}
+		c_blin_docks = {		
+			b_blin_docks = {}
+			b_nake = {}
+			b_osikakakon = {}
+			b_chuke = {}
+		}
+	}
+}
+k_icehead = {
+	d_freezard_descent = {
+		c_eeno_cliffs = {
+			b_shajia = {}
+			b_reirokro = {}
+			b_shorein = {}
+		}
+		c_freezard_cavers = {
+			b_finia = {}
+			b_mardo = {}
+		}
+	}
+	d_ice_ascent = {
+		c_icehead_gate = {
+			b_icehead_gate = {}
+			b_kapiru = {}
+			b_chaka = {}
+			b_lija = {}
+		}
+		c_icehead_vale = {
+			b_falijon = {}
+			b_rojo = {}
+			b_kutiden = {}
+		}
+	}
+	d_icehead = { = {
+		}
+		c_icehead = {
+			b_icehead = {}
+			b_fairy_fountain_of_wisdom = {}
+			b_kapon = {}
+			b_nogara = {}		
+		}
+		c_icehead_pass = {
+			b_najia = {}
+			b_hylirdo = {}
+		}
+		c_icehead_road = {		
+			b_chapunu = {}
+			b_seircon = {}
+		}
+	}
+	d_frosthead = {
+		c_frosthead_shrine = {
+			b_frosthead_shrine = {}
+			b_mako = {}
+			b_akara = {}
+			b_shojola = {}
+			b_tiryojo = {}
+		}
+		c_frosthead = {
+			b_frosthead = {}
+			b_caso = {}
+			b_paneira = {}
+		}
+	}
+}
 k_howgendoogen_league = {
 	color={ 0 86 148 }
 	color2={ 237 192 0 }
@@ -8361,6 +9100,16 @@ k_hyrule_minish = { #Minish
 			b_elemental_sanctuary = {}
 		}
 	}	
+	d_hylia_highlands = { #color and capital
+		color={ 0 177 240 }
+		color2={ 30 30 30 }
+		capital = 610
+		c_hylia_highlands = {
+			b_chalu = {}
+			b_akororco = {}
+			b_kapuno = {}
+		}		
+	}
 	d_minish_mountains = {
 		color={ 0 177 240 }
 		color2={ 30 30 30 }

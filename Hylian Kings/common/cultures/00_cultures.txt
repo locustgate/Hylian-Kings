@@ -1,5 +1,5 @@
 hylian_group = {
-	graphical_cultures = { hyliangfx }
+	graphical_cultures = { westerngfx }
 	hyrulean = {
 		graphical_cultures = { hyruleangfx hyliangfx }
 		graphical_unit_culture = western
@@ -9,11 +9,11 @@ hylian_group = {
 		color = { 0.63 0.13 0.94 }
 		
 		male_names = {
-			Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlfov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Stockwell Sturgeon Zill Wheaton Bremor Brent Doyle Mack Mutoh David Rauru Ichiro Jiro Sabbooro Shiro Guru-Guru Guru Grog Ingo Sakon Jovani Kamaro Baito Brac Dayle Darling Kafei Dotour Barten Shikashi Coro Barnes Shar Auru Falbi Fyer Borville Charlo Chudley Pulo Soal Kaepora Gaebora Harkinian Nohen Gulley Osfala Rosso Sahasrahla Akazoo Kazakk Daphnes Arthon Atrinas Aginah Bagu Mario Luigi Chrom
+			Hino Tye Toffa Ember Embry Rik Rhoam Bosphoramus Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlfov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Stockwell Sturgeon Zill Wheaton Bremor Brent Doyle Mack Mutoh David Rauru Ichiro Jiro Sabbooro Shiro Guru-Guru Guru Grog Ingo Sakon Jovani Kamaro Baito Brac Dayle Darling Kafei Dotour Barten Shikashi Coro Barnes Shar Auru Falbi Fyer Borville Charlo Chudley Pulo Soal Kaepora Gaebora Harkinian Nohen Gulley Osfala Rosso Sahasrahla Akazoo Kazakk Daphnes Arthon Atrinas Aginah Bagu Mario Luigi Chrom
 		}
 
 		female_names = {
-			Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Leila Mama Marcy Pina Pita Maggie Paige Sheila Tina Verona Honey Marilla Judo Cremia Epona Romani Pamela Ashei Iza Hena Agitha Kili Hanna Misha Fanadi Telma Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Aryll Rose Sue-Belle Sue Belle Gillian Joanna Potova Linda Milia Minenco Missey Pompie Peach Daisy Rosalina Lissa Lucinia Emmeryn Hylia Linkette Yelda Linkle
+			Sagessa Zelda Syrup Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Leila Mama Marcy Pina Pita Maggie Paige Sheila Tina Verona Honey Marilla Judo Cremia Epona Romani Pamela Ashei Iza Hena Agitha Kili Hanna Misha Fanadi Telma Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Aryll Rose Sue-Belle Sue Belle Gillian Joanna Potova Linda Milia Minenco Missey Pompie Peach Daisy Rosalina Lissa Lucinia Emmeryn Hylia Linkette Yelda Linkle
 		}
 		
 		dukes_called_kings = no
@@ -730,7 +730,7 @@ western_human = {
 				
 		modifier = default_culture_modifier
 	}
-	cobble = {
+	comenian = {
 		graphical_cultures = { comeniangfx }
  
 		parent = skylofter
@@ -853,10 +853,10 @@ lost_tribe = {
 		
 		
 		male_names = {
-			Sehik Bongo Kafei Agahnim Ja Kalm Kam Ke Oman Owa Blim Kafak Omo Kama Agam Omaha Kagan Agifan Kafa Ofalm Bawak Kak Omamo Ofak Kan Kilm Bifak Ohnawan Kaha Biwei Agik Ohem Kago Kigam Agimo Omak Ongim Ban Onga Kagam Kimam Selm Kamo Sihna Kowin Ogilm Ongek Omim Ohei Ofaha Ofam Ohelm Agelm Kiha Koho Ofamei Ongo Ongen Agilm Saman Kogam Belm Ofin Ofilm Owiha Sefilm Omomo Sema Kagamo Owam Kewei Kogak Owei Ofan Owago Anga Agama Ohahna Komo Ongak Silm Kin Sohan Angam Kafo Kawei Kamim Afilm Bema Kagiga Kagom Kawama Omimo Begelm
-			}
+			Steen Robbie Plikango Olkin Kohga Cado Bosh Kala Daag Chokah Daka Ja Baij Ka'o Kalm Kam Katah Keh Keo Kuhn Maag Ne'ez Oman Owa Pumaag Nitae Ree Rota Soh Ta'loh Ze
+		}
 		female_names = {
-			Fanadi Impa Ilia Iza Impaz Azrily Kila Ampaz Iliza Osa Amalan Imaz Isiza Falan Aydan Kizri Faz Esa Inaly Idan Iwa Izilm Omia Owasa Kiliz Kimpa Ilam Ayamp Kilm Iliz Izaz Owin Kiman Owaz Imia Emia Kamia Elaz Kampa Fampa Ilaza Esadaly Inali Fila Izia Ili Iwaly Famia Ozan Owily Owim Oza Ampali Iwali Kala Owisa Kadala Ilaz Amia Isada Alaza Odali Ilila Ayla Owilm Izran Owizi Fimpa Ayn Odaly Ewaz Aylaz Kampaly Izri Osazri Ilaly Ewa Inan Azilm Ezaly Impia Aylawa Omidaz Isa Owiz Kanilm Ayzri Kimia Ampa Empa Olaza Ozran Aymia Kana Kaly Kazri Indra Kazran Onali
+			Impa Impaz Trissa Rolla Purah Paya Mellie
 		}		
 		dukes_called_kings = no
 
@@ -888,7 +888,7 @@ lost_tribe = {
 			Ganondorf Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Ravos Amun Gaku Rusan Neme Reku Zolu Aghalmun Anun Vaku Garookun Gavun Dokun Kyicaba Reirun Zirun Jirekan Nodicon Kidabiku Rakorun Tamime Nonit Zati Kyas Geese Valyo Namin Goulmere Meka Gomin Gorun Scun Annun Nonon Doku Kakin Anoku Maphun Akun Vekun Nekun Reras Vun Terin Veku Muban Kupha Temas Gekeku Duti Jaba Guren Vulmas Kokas Gukas Mikun Dikun Reves Zokan Zupha Kame Geku Kyon Rinno Amin Ren Zakun Ucori Unnas Vurim Kakol Kalan Rimace Ukiku Rokas Ukabe Rekas Kavas Vuphi Anen Veidi Morun Gelu Scas
 		}
 		female_names = {
-			Koume Uma Telma Kotake Aveil Nabooru Runeka Rova Numi Dizi Ari Neesha Apheri Zulika Nacarat Scarlet Aphyx Rien Amplisa Gemsha Jinni Gaiadon Ganian Kyoko Maryn Talya Nerin Usema Nuri Geloori Arema Noronio Takun Kielu Hiesa Arona Keku Gekikava Jecis Nusin Rakeri Araku Gava Rimun Nalit Karu Kami Riku Nakun Viciku Avet Naku Koca Ukun Nukun Noni Jipha Aleku Nova Rapha Aronan Mikan Nezu Alaku Gikio Nobi Ranen Vekinin Akas Rieva Ruvit Neku Amoana Jesa Roren Randase Gekeki Akorime Arake Ruku Jerecura Natuk Nikun ALyukas Haika Nooba Rakun Kekun Gikun Aghacaku Kyelmun Nasokun Geras Mekas Veven Noci Umase Daiku Vole Volemaiku Jaraku Makas Dipha Nashoku Tekit Tovi Goulmenna Gounoka Tiekun Azendun Roriakun NOma Avas Atas Gemin Nekin Anana Aphekun Reken Zaken Gede Gelyo Talyo Amplas Vova Vines Nilu Okouku Goanas Koku Dame Kesa Hoonice Zarokun Ramikun Alyun Goku Kuphi Voli Tuba Gaba Kepha Nunas Riras Akorun Nocos Mokas Geden Keeba Giki 
+			 Urbosa Riju Vilia Koume Uma Telma Kotake Aveil Nabooru Runeka Rova Numi Dizi Ari Neesha Apheri Zulika Nacarat Scarlet Aphyx Rien Amplisa Gemsha Jinni Gaiadon Ganian Kyoko Maryn Talya Nerin Usema Nuri Geloori Arema Noronio Takun Kielu Hiesa Arona Keku Gekikava Jecis Nusin Rakeri Araku Gava Rimun Nalit Karu Kami Riku Nakun Viciku Avet Naku Koca Ukun Nukun Noni Jipha Aleku Nova Rapha Aronan Mikan Nezu Alaku Gikio Nobi Ranen Vekinin Akas Rieva Ruvit Neku Amoana Jesa Roren Randase Gekeki Akorime Arake Ruku Jerecura Natuk Nikun ALyukas Haika Nooba Rakun Kekun Gikun Aghacaku Kyelmun Nasokun Geras Mekas Veven Noci Umase Daiku Vole Volemaiku Jaraku Makas Dipha Nashoku Tekit Tovi Goulmenna Gounoka Tiekun Azendun Roriakun NOma Avas Atas Gemin Nekin Anana Aphekun Reken Zaken Gede Gelyo Talyo Amplas Vova Vines Nilu Okouku Goanas Koku Dame Kesa Hoonice Zarokun Ramikun Alyun Goku Kuphi Voli Tuba Gaba Kepha Nunas Riras Akorun Nocos Mokas Geden Keeba Giki 
 		}
 		
 		dukes_called_kings = no
@@ -1300,7 +1300,7 @@ avian_group = {
 		modifier = default_culture_modifier
 
 	}
-	watarara = {
+	old_rito = {
 		graphical_cultures = { watararagfx }
 		color = { 0.2 1 1 }
 		
@@ -1376,7 +1376,7 @@ fae = {
 		Tael Leaf Aeneas Amulius Aries Consus Cupid Evander Evandrus Faunus Gemini Hercules Ianus Iovis Italus Iuppiter Janus Jove Jupiter Liber Mars Mercury Neptune Neptunus Numitor Pluto Pollux Quirinus Remus Romulus Saturn Saturnus Silvanus Silvius Summanus Tatius Terminus Ulysses Vulcan Alecjo Aleksandro Ancjo Antono Jocjo Johano Jozefo Koralo Lucjo Ludoviko Micjo Mihaelo Mikelo Nicjo Nikolao Rapcjo Paulo Petro Vilcjo Vilhelmo Achilles Achilleus Adonis Adrastos Aeolus Aeson Agamemnon Aias Aineias Aiolos Ajax Alexander Alexandros Apollo Apollon Ares Argus Aristaeus Aristodemos Asklepios Atlas Brontes Bacchus Castor Cephalus Cepheus Cerberus Charon Chryses Coeus Crius Cronus Daedalus Damocles Damon Dardanos Deimos Diomedes Dionysos Epimetheus Erebus
 		}
 		female_names = {
-		Venus Navi Tatl Fi Ciela Neri Yume Nieve Melvina Nuria Rill Lucia Una Tiamara Proxi Miff Spryte Felicia Epheremelda Angerona Aurora Bellona Camilla Cardea Ceres Concordia Diana Dido Elissa Fauna Felicitas Flora Hersilia Iuno Juno Juturna Juventas Lara Larunda Lavinia Libitina Luvinia Lucretia Luna Maia Minerva Naenia Nona Pax Pomona Proserpina Proserpine Rhea Salacia Silvia Vesta Victoria Adorinda Amika Aminda ABrava Dezirinda Esperanta Fajra Fiera Gaja Glorinda Juvela Kandaja Karesinda Katida Luksa Maraja Merita Miela Mirinda Orabela Pipra Rava Rozabela Rubena Safira Sprita Stelara Tondra Valora Venka Vespera Acantha Adrasteia Aegle Aella Agau Aglae Aglaia Aigle Akantha Alcippe Alcyone Alecto
+		Cotera Kaysa Mija Tera Venus Navi Tatl Fi Ciela Neri Yume Nieve Melvina Nuria Rill Lucia Una Tiamara Proxi Miff Spryte Felicia Epheremelda Angerona Aurora Bellona Camilla Cardea Ceres Concordia Diana Dido Elissa Fauna Felicitas Flora Hersilia Iuno Juno Juturna Juventas Lara Larunda Lavinia Libitina Luvinia Lucretia Luna Maia Minerva Naenia Nona Pax Pomona Proserpina Proserpine Rhea Salacia Silvia Vesta Victoria Adorinda Amika Aminda ABrava Dezirinda Esperanta Fajra Fiera Gaja Glorinda Juvela Kandaja Karesinda Katida Luksa Maraja Merita Miela Mirinda Orabela Pipra Rava Rozabela Rubena Safira Sprita Stelara Tondra Valora Venka Vespera Acantha Adrasteia Aegle Aella Agau Aglae Aglaia Aigle
 		 }
 		
 		dukes_called_kings = no
@@ -1437,7 +1437,7 @@ plant_group = {
 		color = { 0.3 0.42 0.2 }
 		
 		male_names = {
-			Camphin  Olivio Irch Hollo Elma Aldo Drona Walna Cedrin Linda Makar Oakin Rown Palmar Asho Cedo Acerolin Zigbo Guanandar Balsin Beechin Mahar Mangro Guavo Kentin Rima Tunga 
+			Hestu Camphin  Olivio Irch Hollo Elma Aldo Drona Walna Cedrin Linda Makar Oakin Rown Palmar Asho Cedo Acerolin Zigbo Guanandar Balsin Beechin Mahar Mangro Guavo Kentin Rima Tunga 
 		}
 		female_names = { 
 			Cora  Euodin Casso Palma Bircha Catalpa Aspa Junipo Larcha Maplin Sprucar Firar Yewin Poplin Bindingo Essingango Kevazinga Anisa Coya Avocada Hespa Lila Papedo Silka Willa Zelkovin
