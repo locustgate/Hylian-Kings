@@ -119,6 +119,8 @@ nick_the_culture_marauder = {}
 nick_the_kingslayer = {}
 nick_iron_hand = {}
 nick_peg_leg = {}
+nick_the_goldsmith = {}
+nick_the_weaponsmith = { }
 
 # GIVEN BY TRAITS
 #################
@@ -918,7 +920,6 @@ nick_the_wealthy = {
 		trait = greedy
 		stewardship = 10
 		wealth = 1000
-		NOT = { culture_group = lfos }
 	}
 	chance = {
 		factor = 1
@@ -1753,17 +1754,6 @@ nick_the_old = {
 	allow = {
 		ruled_years = 20
 		age = 55
-		NOR = {
-			trait = race_demon
-			trait = race_tree_deity
-			trait = race_tree_demon
-			trait = race_kokiri
-			trait = race_fairy
-			trait = race_goron
-			trait = race_subrosian
-			trait = sage_light
-		}
-		NOT = { culture = ho_ho }
 	}
 	chance = {
 		factor = 5

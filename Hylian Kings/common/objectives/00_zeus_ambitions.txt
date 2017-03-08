@@ -32,7 +32,7 @@ obj_become_council_member = {
 			can_hold_title = job_spymaster
 			can_hold_title = job_spiritual
 		}
-		NOR = { trait = incapable trait = in_hiding }
+		NOR = { trait = incapable is_inaccessible_trigger = yes }
 	}
 	
 	chance = {
@@ -88,7 +88,7 @@ obj_become_council_member = {
 		}
 		modifier = { 
 			factor = 10
-			among_most_powerful_vassals = 5 #TODO replace this with more appropriate trigger
+			among_most_powerful_vassals = 5 
 		}
 		modifier = { 
 			factor = 5
@@ -101,7 +101,7 @@ obj_become_council_member = {
 	abort = {
 		OR = {
 			liege = { spouse = { character = ROOT } }
-			trait = in_hiding
+			is_inaccessible_trigger = yes
 			independent = yes
 			trait = incapable
 			NOR = { 
@@ -157,7 +157,7 @@ obj_land_for_son = {
 			prisoner = no
 			NOR = {
 				trait = incapable
-				trait = monk
+				is_ascetic_trigger = yes
 				trait = eunuch
 			}
 			liege = {
@@ -277,7 +277,7 @@ obj_build_a_war_chest = {
 		}
 		NOR = { 
 			trait = incapable
-			trait = in_hiding
+			is_inaccessible_trigger = yes
 		}
 		
 	}
@@ -388,7 +388,7 @@ obj_build_a_war_chest = {
 	effect = {
 		add_character_modifier = {
 			modifier = war_taxes
-			months = 36
+			months = 60
 		}
 		add_character_modifier = {
 		   modifier = war_chest_timer
@@ -406,15 +406,22 @@ obj_groom_an_heir = {
 	potential = {
 		has_dlc = "Conclave"
 		higher_tier_than = BARON
+		holy_order = no
+		mercenary = no
 	}
 	
 	allow = {
 		is_adult = yes
 		is_ruler = yes
-		is_married = yes
+		OR = {
+			NOT = { trait = eunuch }
+			any_child = {
+				is_alive = yes
+			}
+		}
 		NOR = {
 			trait = incapable
-			trait = in_hiding
+			is_inaccessible_trigger = yes
 			any_child = {
 				is_adult = yes 
 				NOR = {
@@ -422,8 +429,7 @@ obj_groom_an_heir = {
 					trait = eunuch
 					trait = celibate
 					trait = incapable
-					trait = monk
-					trait = nun
+					is_ascetic_trigger = yes
 				}
 				OR = {
 					is_female = no
@@ -448,6 +454,10 @@ obj_groom_an_heir = {
 			trait = celibate
 		}
 		modifier = {
+			factor = 0
+			is_theocracy = yes
+		}
+		modifier = {
 			factor = 10
 			has_focus = focus_family
 		}
@@ -469,15 +479,7 @@ obj_groom_an_heir = {
 		}
 		modifier = {
 			factor = 2
-			trait = genius
-		}
-		modifier = {
-			factor = 2
-			trait = quick
-		}
-		modifier = {
-			factor = 2
-			trait = quick
+			is_smart_trigger = yes
 		}
 		modifier = {
 			factor = 0.5
@@ -496,8 +498,7 @@ obj_groom_an_heir = {
 				trait = eunuch
 				trait = celibate
 				trait = incapable
-				trait = monk
-				trait = nun
+				is_ascetic_trigger = yes
 			}
 			OR = {
 				is_female = no
@@ -525,8 +526,7 @@ obj_groom_an_heir = {
 							trait = eunuch
 							trait = celibate
 							trait = incapable
-							trait = monk
-							trait = nun
+							is_ascetic_trigger = yes
 						}
 						OR = {
 							is_female = no

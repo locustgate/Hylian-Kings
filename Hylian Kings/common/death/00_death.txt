@@ -1128,3 +1128,13 @@ death_platypus = {
 	long_desc = "DEATH_PLATYPUS"
 	can_nokiller = yes
 }
+death_hashish_overdose = {
+	long_desc = "DEATH_HASHISH_OVERDOSE"
+}
+
+death_vanished = {
+	violent = yes
+	can_nokiller = yes
+	murder_unknown = yes
+	long_desc = "DEATH_MISSING"
+}
