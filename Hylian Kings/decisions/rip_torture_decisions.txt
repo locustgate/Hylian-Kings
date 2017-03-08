@@ -922,6 +922,10 @@ targetted_decisions = {
 			OR = {
 				has_character_modifier = cannibal
 				trait = cannibal_trait
+				culture_group = blin
+				culture_group = lfos
+				culture = rive_zora
+				}
 			}
 			OR = {
 				trait = possessed
@@ -939,7 +943,7 @@ targetted_decisions = {
 			factor = 1
 		}
 		
-		effect = {			
+		effect = {
 			hidden_tooltip = {
 				any_dynasty_member = {
 					limit = {
@@ -970,6 +974,8 @@ targetted_decisions = {
 							modifier = {
 								factor = 0
 								OR = {
+									immortal = yes
+									has_character_flag = demon_child
 									ROOT = {
 										immortal = yes
 									}
@@ -981,17 +987,52 @@ targetted_decisions = {
 									}
 								}
 							}
-							if = {
-								limit = {
-									NOR = {
-										num_of_symptoms = 1
-										is_ill = yes
-										has_character_flag = developing_illness
+							random_list = {
+								50 = { # Food Poisoning
+									if = {
+										limit = {
+											NOR = {
+												num_of_symptoms = 1
+												is_ill = yes
+												has_character_flag = developing_illness
+												has_character_flag = disease_not_serious
+											}
+										}
+										set_character_flag = got_food_poisoning
+										set_character_flag = developing_illness
+										character_event = { id = RIP.5023 days = 5 }
 									}
 								}
-								set_character_flag = got_food_poisoning
-								set_character_flag = developing_illness
-								character_event = { id = RIP.5023 days = 5 }
+								25 = { # Diarrhea - Not Serious
+									if = {
+										limit = {
+											NOR = {
+												num_of_symptoms = 1
+												is_ill = yes
+												has_character_flag = developing_illness
+												has_character_flag = disease_not_serious
+											}
+										}
+										set_character_flag = disease_not_serious
+										character_event = { id = RIP.5002 days = 5 }
+										character_event = { id = RIP.11004 days = 10 random = 50 }
+									}
+								}
+								25 = { # Vomiting - Not Serious
+									if = {
+										limit = {
+											NOR = {
+												num_of_symptoms = 1
+												is_ill = yes
+												has_character_flag = developing_illness
+												has_character_flag = disease_not_serious
+											}
+										}
+										set_character_flag = disease_not_serious
+										character_event = { id = RIP.5003 days = 5 }
+										character_event = { id = RIP.11005 days = 10 random = 50 }
+									}
+								}
 							}
 						}
 						10 = { # Gain power!
@@ -1001,6 +1042,66 @@ targetted_decisions = {
 									name = supernatural_events
 									value = off
 								}
+							}
+							if = {
+								limit = {
+									ROOT = {
+										controls_religion = yes
+										religion_group = christian
+									}	
+									NOT = { religion_group = ROOT }
+								}
+								set_character_flag = pope_eater	
+							}
+							if = {
+								limit = {
+									ROOT = {
+										controls_religion = yes
+										religion_group = muslim
+									}
+									NOT = { religion_group = ROOT }
+								}
+									set_character_flag = caliph_eater	
+							}
+							if = {
+								limit = {
+									ROOT = {
+										controls_religion = yes
+										religion_group = pagan_group
+									}
+									NOT = { religion_group = ROOT }
+								}
+									set_character_flag = fylkir_feast	
+							}
+							if = {
+								limit = {
+									ROOT = {
+										controls_religion = yes
+										religion_group = zoroastrian_group
+									}
+									NOT = { religion_group = ROOT }
+								}
+									set_character_flag = fire_eater	
+							}
+							if = {
+								limit = {
+									ROOT = {
+										controls_religion = yes
+										religion_group = jewish_group
+									}
+									NOT = { religion_group = ROOT }
+								}
+									set_character_flag = non_kosher	
+							}
+							if = {
+								limit = {
+									ROOT = {
+										controls_religion = yes
+										religion_group = indian_group
+									}
+									NOT = { religion_group = ROOT }
+								}
+									set_character_flag = dont_even_exist	
 							}
 							
 							character_event = { id = RIP.11510 }
@@ -1051,6 +1152,7 @@ targetted_decisions = {
 				if = {
 					limit = {
 						dynasty = ROOT
+						NOT = { trait = kinslayer }
 					}
 					add_trait = kinslayer
 				}

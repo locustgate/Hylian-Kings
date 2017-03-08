@@ -185,7 +185,7 @@ settlement_decisions = {
 			is_theocracy = yes
 			higher_tier_than = BARON
 			OR = {
-				NOT = { religion_group = demon_religion }
+				NOT = { religion_group = pagan_group }
 				is_reformed_religion = yes
 			}
 		}
@@ -619,7 +619,22 @@ settlement_decisions = {
 				AND = {
 					OR = {
 						has_dlc = "The Sword of Islam"
-						NOT = { religion_group = goddesses_religion }
+						NOT = { religion_group = muslim }
+					}
+					OR = {
+						has_dlc = "The Old Gods"
+						NOR = {
+							religion_group = pagan_group
+							religion_group = zoroastrian_group
+						}
+					}
+					OR = {
+						has_dlc = "Sons of Abraham"
+						NOT = { religion_group = jewish_group }
+					}
+					OR = {
+						has_dlc = "Rajas of India"
+						NOT = { religion_group = indian_group }
 					}
 				}
 			}
@@ -1519,6 +1534,27 @@ settlement_decisions = {
 			
 			OR = {
 				ai = yes
+				AND = {
+					OR = {
+						has_dlc = "The Sword of Islam"
+						NOT = { religion_group = muslim }
+					}
+					OR = {
+						has_dlc = "The Old Gods"
+						NOR = {
+							religion_group = pagan_group
+							religion_group = zoroastrian_group
+						}
+					}
+					OR = {
+						has_dlc = "Sons of Abraham"
+						NOT = { religion_group = jewish_group }
+					}
+					OR = {
+						has_dlc = "Rajas of India"
+						NOT = { religion_group = indian_group }
+					}
+				}
 			}
 		}
 		potential = {
@@ -1527,7 +1563,7 @@ settlement_decisions = {
 				AND = {
 					holding_type = temple
 					holder_scope = {
-						religion_group = goddesses_religion
+						religion_group = muslim
 					}
 				}
 			}
@@ -2207,27 +2243,7 @@ settlement_decisions = {
 					grant_title = FROM
 				}
 			}
-			
-			if = {
-				limit = {
-					FROM = {
-						dynasty = 708 #Árpád
-						has_landed_title = k_hungary
-					}
-				}
-				hidden_tooltip = {
-					FROM = {
-						any_realm_province = {
-							limit = {
-								culture = avar
-							}
-							culture = PREV
-							religion = PREV
-						}
-					}
-				}
-			}
-			
+						
 			# Spawn event troops based on amount of empty holdings abandoned.
 			custom_tooltip = {
 				text = NOMAD_CONVERSION_TROOP_SPAWN
@@ -2287,6 +2303,9 @@ settlement_decisions = {
 				}
 			
 				if = {
+					limit = {
+						NOT = { religion_group = muslim }
+					}
 					
 					if = {
 						limit = {
@@ -2298,6 +2317,22 @@ settlement_decisions = {
 						}
 					}
 					set_government_type = feudal_government
+				}
+				if = {
+					limit = {
+						religion_group = muslim
+					}
+					
+					if = {
+						limit = {
+							ai = no
+						}
+						chronicle = {
+							entry = CHRONICLE_NOMAD_ADOPTED_IQTA
+							picture = GFX_evt_castle_construction
+						}
+					}
+					set_government_type = muslim_government
 				}
 				
 				if = {
@@ -2336,18 +2371,10 @@ settlement_decisions = {
 			factor = 0.1 # On average ca 1 year before taken
 			
 			modifier = {
-				factor = 100
-				FROM = {
-					dynasty = 708 # Árpád
-				}
-			}
-			
-			modifier = {
 				factor = 0
 				FROM = {
 					NOT = { num_of_subrealm_castles = 20 }
 					population_and_manpower = 5000
-					NOT = { dynasty = 708 } # Árpád
 				}
 			}
 			
@@ -2355,7 +2382,6 @@ settlement_decisions = {
 				factor = 0
 				FROM = {
 					NOT = { num_of_subrealm_castles = 10 }
-					NOT = { dynasty = 708 } # Árpád
 				}
 			}
 			
@@ -2367,7 +2393,6 @@ settlement_decisions = {
 						trait = stubborn
 						trait = proud
 					}
-					NOT = { dynasty = 708 } # Árpád
 				}
 			}
 			
@@ -2380,20 +2405,6 @@ settlement_decisions = {
 							first_count_vassals = yes
 							second_type = none
 							value = 1.5
-						}
-					}
-					NOT = { dynasty = 708 } # Árpád
-				}
-			}
-			
-			modifier = {
-				factor = 0
-				FROM = {
-					any_demesne_title = {
-						OR = {
-							title = e_mongol_empire
-							title = e_golden_horde
-							title = e_chagatai
 						}
 					}
 				}
@@ -2419,6 +2430,27 @@ settlement_decisions = {
 			
 			OR = {
 				ai = yes
+				AND = {
+					OR = {
+						has_dlc = "The Sword of Islam"
+						NOT = { religion_group = muslim }
+					}
+					OR = {
+						has_dlc = "The Old Gods"
+						NOR = {
+							religion_group = pagan_group
+							religion_group = zoroastrian_group
+						}
+					}
+					OR = {
+						has_dlc = "Sons of Abraham"
+						NOT = { religion_group = jewish_group }
+					}
+					OR = {
+						has_dlc = "Rajas of India"
+						NOT = { religion_group = indian_group }
+					}
+				}
 			}
 		}
 		
@@ -3372,20 +3404,54 @@ settlement_decisions = {
 				FROM = {
 					stewardship = 18
 				}
+			}			
+		}
+	}
+	
+	# Debug decision to fix holdings with a dead owner
+	fix_holding_with_dead_owner = {
+		
+		from_potential = {
+			is_playable = yes
+			ai = no
+		}
+		potential = {
+			holder_scope = {
+				is_alive = no
 			}
-			
-			modifier = {
-				factor = 0
-				FROM =	{
-					any_demesne_title = {
-						OR = {
-							title = e_mongol_empire
-							title = e_golden_horde
-							title = e_chagatai
+		}
+		allow = {
+			holder_scope = {
+				is_alive = no
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					location = {
+						holder_scope = {
+							is_alive = yes
 						}
 					}
 				}
+				location = {
+					holder_scope = {
+						ROOT = {
+							grant_title = PREV
+						}
+					}
+				}
+				break = yes
 			}
+			grant_title = FROM
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
 		}
 	}
 }

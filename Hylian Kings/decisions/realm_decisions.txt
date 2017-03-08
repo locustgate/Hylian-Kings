@@ -2709,11 +2709,8 @@ decisions = {
 			is_female = no
 			higher_tier_than = COUNT
 			custom_tooltip = {
-				text = TT_NOT_UNREFORMED_PAGAN
 				hidden_tooltip = {
-					OR = {
-						NOT = { religion_group = pagan_group }
-						is_reformed_religion = yes
+					NOT = { religion_group = demon_religion }
 					}
 				}
 			}
