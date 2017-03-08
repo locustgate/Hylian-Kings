@@ -1,0 +1,139 @@
+#tribes are culture group wide empires
+#k_bulblin = {
+#	allow = {
+#		culture = bulblin
+#		ai = no
+#	}
+#}
+#e_tribe_hylian = {}
+#e_tribe_human = {}
+#e_tribe_zora = {}
+#e_tribe_rito = {}
+#monster hordes, monsters can't make empires
+e_bulblin_1 = {  
+	color = { 192 0 0 }
+
+	title = "KING_BULBLIN"
+	title_female = "QUEEN_BULBLIN"
+
+	dynasty_title_names = yes 
+	short_name = yes
+	creation_requires_capital = no
+	
+	allow = {
+		culture = bulblin
+	}
+}
+e_bulblin_2 = {  
+	color = { 87 120 65 }
+
+	title = "KING_BULBLIN"
+	title_female = "QUEEN_BULBLIN"
+
+	dynasty_title_names = yes 
+	short_name = yes
+	creation_requires_capital = no
+	
+	allow = {
+		culture = bulblin
+	}
+}
+e_bulblin_3 = {  
+	color = { 200 132 0 }
+
+	title = "KING_BULBLIN"
+	title_female = "QUEEN_BULBLIN"
+
+	dynasty_title_names = yes 
+	short_name = yes
+	creation_requires_capital = no
+	
+	allow = {
+		culture = bulblin
+	}
+}
+e_moblin_1 = {  
+	color = { 3 125 0 }
+
+	title = "KING_MOBLIN"
+	title_female = "QUEEN_MOBLIN"
+
+	dynasty_title_names = yes 
+	short_name = yes
+	creation_requires_capital = no
+	
+	allow = {
+		culture = moblin
+	}
+}
+e_moblin_2 = {  
+	color = { 200 0 0 }
+
+	title = "KING_MOBLIN"
+	title_female = "QUEEN_MOBLIN"
+
+	dynasty_title_names = yes 
+	short_name = yes
+	creation_requires_capital = no
+	
+	allow = {
+		culture = moblin
+	}
+}
+e_moblin_3 = {  
+	color = { 255 252 0 }
+
+	title = "KING_MOBLIN"
+	title_female = "QUEEN_MOBLIN"
+
+	dynasty_title_names = yes 
+	short_name = yes
+	creation_requires_capital = no
+	
+	allow = {
+		culture = moblin
+	}
+}
+e_bokoblin_1 = {  
+	color = { 231 158 8 }
+
+	title = "KING_BOKOBLIN"
+	title_female = "QUEEN_BOKOBLIN"
+
+	dynasty_title_names = yes 
+	short_name = yes
+	creation_requires_capital = no
+	
+	allow = {
+		culture = bokoblin
+	}
+}
+e_bokoblin_2 = {  
+	color = { 192 0 0 }
+
+	title = "KING_BOKOBLIN"
+	title_female = "QUEEN_BOKOBLIN"
+
+	dynasty_title_names = yes 
+	short_name = yes
+	creation_requires_capital = no
+	
+	allow = {
+		culture = bokoblin
+	}
+}
+e_bokoblin_3 = {  
+	color = { 20 0 214 }
+
+	title = "KING_BOKOBLIN"
+	title_female = "QUEEN_BOKOBLIN"
+
+	dynasty_title_names = yes 
+	short_name = yes
+	creation_requires_capital = no
+	
+	allow = {
+		culture = bokoblin
+	}
+}
+
