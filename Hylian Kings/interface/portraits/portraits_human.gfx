@@ -55,7 +55,7 @@ spriteTypes = {
 		headgear_that_hides_hair = { 10 }
 	}
 
-	# Muslim male midage
+	# Cobble male midage
 	portraitType = {
 		name = "PORTRAIT_cobblegfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
@@ -103,7 +103,7 @@ spriteTypes = {
 		headgear_that_hides_hair = { 10 }
 	}
 
-	# Muslim male oldage
+	# Cobble male oldage
 	portraitType = {
 		name = "PORTRAIT_cobblegfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
@@ -151,10 +151,10 @@ spriteTypes = {
 		headgear_that_hides_hair = { 10 }
 	}
 
-### MUSLIM FEMALE ####
+### Cobble FEMALE ####
 
 
-	# Muslim female
+	# Cobble female
 	portraitType = {
 		name = "PORTRAIT_cobblegfx_female"
 		effectFile = "gfx/FX/portrait.lua"
@@ -200,7 +200,7 @@ spriteTypes = {
 		headgear_that_hides_hair = { }
 	}
 
-	# Muslim female midage
+	# Cobble female midage
 	portraitType = {
 		name = "PORTRAIT_cobblegfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
@@ -246,7 +246,7 @@ spriteTypes = {
 		headgear_that_hides_hair = { }
 	}
 
-	# Muslim female oldage
+	# Cobble female oldage
 	portraitType = {
 		name = "PORTRAIT_cobblegfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
@@ -296,11 +296,11 @@ spriteTypes = {
 		name = "PORTRAIT_comeniangfx_male"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
-			"GFX_character_background:p0"						#0
-			"GFX_western_male_clothes_behind:p3:c0"
-			"GFX_western_male_headgear_behind:p5:c1"
-			"GFX_muslim_male_hair_behind:p1:y"
-			"GFX_muslim_male_beard_behind:p4:y"
+			"GFX_character_background:p0"		
+			"GFX_hanman_male_clothes_behind:p3:c0"
+			"GFX_hanman_male_headgear_behind:p5:c1"
+			"GFX_mongol_male_hair_behind:p1:h:y"
+			"GFX_hanman_male_beard_behind:p4:h:y"
 			"GFX_muslim_male_base:p2"							#5
 			"GFX_muslim_male_neck:d0"
 			"GFX_muslim_male_cheeks:d4"		
@@ -313,27 +313,34 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"		
 			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_character_eyepatch:p13:y:o32x70"
-			"GFX_western_male_clothes:p3:c2"
-			"GFX_empty:p5:c3"											#10
-			"GFX_muslim_male_beard:p4:y"
+			"GFX_hanman_male_clothes:p3:c2"
+			"GFX_hanman_male_headgear_mid:p5:c3"	
+			"GFX_hanman_male_beard:p4:h:y"
 			"GFX_muslim_male_nose:d3:o80x66"
 			"GFX_muslim_male_ear:d7:o24x48"							#15
-			"GFX_muslim_male_hair:p1:y"
+		   	"GFX_mongol_male_hair:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
-			"GFX_empty:p3:c4"											#20
-			"GFX_western_male_headgear:p5:c5"
+			"GFX_hanman_male_clothes_infront:p3:c4"
+			"GFX_hanman_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 15 8 0 } { 174 147 45 } { 255 255 255 }
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 }#black
+			{ 66 66 61 } { 220 221 210 } { 255 255 255 } #comenian grey
+			{ 66 66 61 } { 254 255 244 } { 255 255 255 }#sheikah white
+			{ 71 67 36 } { 253 240 126 } { 255 255 255 }#sheikah blonde
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 185 29 4 }#red
+			{ 192 192 192 } #silver
+			{ 140 122 176 }#purple blue
+			{ 14 87 226 }#blue
+			{ 44 184 40 }#green
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -345,10 +352,10 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
-			"GFX_western_male_headgear_behind:p5:c1"
-			"GFX_muslim_male_hair_behind_midage:p1:y"
-			"GFX_muslim_male_beard_behind_midage:p4:y"
+			"GFX_hanman_male_clothes_behind:p3:c0"
+			"GFX_hanman_male_headgear_behind:p5:c1"
+			"GFX_mongol_male_hair_behind_midage:p1:y"
+			"GFX_hanman_male_beard_behind_midage:p4:h:y"
 			"GFX_muslim_male_base_midage:p2"
 			"GFX_muslim_male_neck_midage:d0"
 			"GFX_muslim_male_cheeks_midage:d4"
@@ -361,42 +368,49 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"		
 			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_character_eyepatch:p13:y:o32x70"
-			"GFX_western_male_clothes:p3:c2"
-			"GFX_empty:p5:c3"
-			"GFX_muslim_male_beard_midage:p4:y"
+			"GFX_hanman_male_clothes:p3:c2"
+			"GFX_hanman_male_headgear_mid:p5:c3"		
+			"GFX_hanman_male_beard_midage:p4:h:y"
 			"GFX_muslim_male_nose_midage:d3:o80x65"
 			"GFX_muslim_male_ear_midage:d7:o25x53"
-			"GFX_muslim_male_hair_midage:p1:y"
+			"GFX_mongol_male_hair_midage:p1:y"
 			"GFX_character_mask:p12:y:o40x45"
-			"GFX_empty:p3:c4"
-			"GFX_western_male_headgear:p5:c5"
+			"GFX_hanman_male_clothes_infront:p3:c4"
+			"GFX_hanman_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 15 8 0 } { 174 147 45 } { 255 255 255 }
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 }#black
+			{ 66 66 61 } { 220 221 210 } { 255 255 255 } #comenian grey
+			{ 66 66 61 } { 254 255 244 } { 255 255 255 }#sheikah white
+			{ 71 67 36 } { 253 240 126 } { 255 255 255 }#sheikah blonde
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 185 29 4 }#red
+			{ 192 192 192 } #silver
+			{ 140 122 176 }#purple blue
+			{ 14 87 226 }#blue
+			{ 44 184 40 }#green
 		}
 		
 		headgear_that_hides_hair = { 10 }
 	}
 
-	# comenian male oldage
+	# muslim male oldage
 	portraitType = {
 		name = "PORTRAIT_comeniangfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
-			"GFX_western_male_headgear_behind:p5:c1"
-			"GFX_muslim_male_hair_behind_oldage:p1:y"
-			"GFX_muslim_male_beard_behind_oldage:p4:y"
+			"GFX_hanman_male_clothes_behind:p3:c0"
+			"GFX_hanman_male_headgear_behind:p5:c1"
+			"GFX_mongol_male_hair_behind_oldage:p1:y"
+			"GFX_hanman_male_beard_behind_oldage:p4:h:y"
 			"GFX_muslim_male_base_oldage:p2"
 			"GFX_muslim_male_neck_oldage:d0"
 			"GFX_muslim_male_cheeks_oldage:d4"
@@ -409,33 +423,40 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"		
 			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_character_eyepatch:p13:y:o32x70"
-			"GFX_western_male_clothes:p3:c2"
-			"GFX_empty:p5:c3"
-			"GFX_muslim_male_beard_oldage:p4:y"
+			"GFX_hanman_male_clothes:p3:c2"
+			"GFX_hanman_male_headgear_mid:p5:c3"
+			"GFX_hanman_male_beard_oldage:p4:h:y"
 			"GFX_muslim_male_nose_oldage:d3:o80x66"
 			"GFX_muslim_male_ear_oldage:d7:o23x50"
-			"GFX_muslim_male_hair_oldage:p1:y"
+			"GFX_mongol_male_hair_oldage:p1:y"
 			"GFX_character_mask:p12:y:o40x45"
-			"GFX_empty:p3:c4"
-			"GFX_western_male_headgear:p5:c5"
+			"GFX_hanman_male_clothes_infront:p3:c4"
+			"GFX_hanman_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 15 8 0 } { 174 147 45 } { 255 255 255 }
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 }#black
+			{ 66 66 61 } { 220 221 210 } { 255 255 255 } #comenian grey
+			{ 66 66 61 } { 254 255 244 } { 255 255 255 }#sheikah white
+			{ 71 67 36 } { 252 246 196 } { 255 255 255 }#sheikah blonde
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 185 29 4 }#red
+			{ 192 192 192 } #silver
+			{ 140 122 176 }#purple blue
+			{ 14 87 226 }#blue
+			{ 44 184 40 }#green
 		}
 		
 		headgear_that_hides_hair = { 10 }
 	}
 
-### MUSLIM FEMALE ####
+### comenian FEMALE ####
 
 
 	# comenian female
@@ -444,9 +465,9 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"                    #0
-			"GFX_western_female_clothes_behind:p3:c0"            
-			"GFX_western_female_headgear_behind:p5:c1"           
-			"GFX_muslim_female_hair_behind:p1:y"           
+			"GFX_hanman_female_clothes_behind:p3:c0"            
+			"GFX_hanman_female_headgear_behind:p5:c1"           
+			"GFX_hanman_female_hair_behind:p1:y"           
 			"GFX_muslim_female_base:p2"                      
 			"GFX_muslim_female_neck:d0"                      #5
 			"GFX_muslim_female_mouth:d2:o74x49"                     
@@ -461,38 +482,45 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"		
 			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_character_eyepatch:p13:y:o32x70"
-			"GFX_western_female_clothes:p3:c2"                   
-			"GFX_empty:p5:c3"
-			"GFX_muslim_female_hair:p1:y"                         
+			"GFX_hanman_female_clothes:p3:c2"    
+			"GFX_hanman_female_headgear_mid:p5:c3"
+			"GFX_hanman_female_hair:p1:y"                         
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
-			"GFX_western_female_headgear:p5:c5"               #20
+			"GFX_hanman_female_headgear:p5:c5"               #20
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}                                                     
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 15 8 0 } { 174 147 45 } { 255 255 255 }
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 }#black
+			{ 66 66 61 } { 220 221 210 } { 255 255 255 } #comenian grey
+			{ 66 66 61 } { 254 255 244 } { 255 255 255 }#sheikah white
+			{ 71 67 36 } { 253 240 126 } { 255 255 255 }#sheikah blonde
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 185 29 4 }#red
+			{ 192 192 192 } #silver
+			{ 140 122 176 }#purple blue
+			{ 14 87 226 }#blue
+			{ 44 184 40 }#green
 		}
 		
 		headgear_that_hides_hair = { }
 	}
 
-	# comenian female midage
+	# muslim female midage
 	portraitType = {
 		name = "PORTRAIT_comeniangfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_female_clothes_behind:p3:c0"
-			"GFX_western_female_headgear_behind:p5:c1"
-			"GFX_muslim_female_hair_behind_midage:p1:y"
+			"GFX_hanman_female_clothes_behind:p3:c0"
+			"GFX_hanman_female_headgear_behind:p5:c1"
+			"GFX_hanman_female_hair_behind_midage:p1:y"
 			"GFX_muslim_female_base_midage:p2"
 			"GFX_muslim_female_neck_midage:d0"
 			"GFX_muslim_female_mouth_midage:d2:o74x52"
@@ -507,38 +535,45 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"		
 			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_character_eyepatch:p13:y:o32x70"
-			"GFX_western_female_clothes:p3:c2"
-			"GFX_empty:p5:c3"
-			"GFX_muslim_female_hair_midage:p1:y"
+			"GFX_hanman_female_clothes:p3:c2"
+			"GFX_hanman_female_headgear_mid:p5:c3"
+			"GFX_hanman_female_hair_midage:p1:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
-			"GFX_western_female_headgear:p5:c5"
+			"GFX_hanman_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 15 8 0 } { 174 147 45 } { 255 255 255 }
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 }#black
+			{ 66 66 61 } { 220 221 210 } { 255 255 255 } #comenian grey
+			{ 66 66 61 } { 254 255 244 } { 255 255 255 }#sheikah white
+			{ 71 67 36 } { 253 240 126 } { 255 255 255 }#sheikah blonde
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 185 29 4 }#red
+			{ 192 192 192 } #silver
+			{ 140 122 176 }#purple blue
+			{ 14 87 226 }#blue
+			{ 44 184 40 }#green
 		}
 		
 		headgear_that_hides_hair = { }
 	}
 
-	# comenian female oldage
+	# muslim female oldage
 	portraitType = {
 		name = "PORTRAIT_comeniangfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_female_clothes_behind:p3:c0"
-			"GFX_western_female_headgear_behind:p5:c1"
-			"GFX_muslim_female_hair_behind_oldage:p1:y"
+			"GFX_hanman_female_clothes_behind:p3:c0"
+			"GFX_hanman_female_headgear_behind:p5:c1"
+			"GFX_hanman_female_hair_behind_oldage:p1:y"
 			"GFX_muslim_female_base_oldage:p2"
 			"GFX_muslim_female_neck_oldage:d0"
 			"GFX_muslim_female_mouth_oldage:d2:o74x52"
@@ -553,24 +588,31 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"		
 			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_character_eyepatch:p13:y:o32x70"
-			"GFX_western_female_clothes:p3:c2"
-			"GFX_empty:p5:c3"
-			"GFX_muslim_female_hair_oldage:p1:y"
+			"GFX_hanman_female_clothes:p3:c2"
+			"GFX_hanman_female_headgear_mid:p5:c3"
+			"GFX_hanman_female_hair_oldage:p1:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
-			"GFX_western_female_headgear:p5:c5"
+			"GFX_hanman_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 15 8 0 } { 174 147 45 } { 255 255 255 }
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 }#black
+			{ 66 66 61 } { 220 221 210 } { 255 255 255 } #comenian grey
+			{ 66 66 61 } { 254 255 244 } { 255 255 255 }#sheikah white
+			{ 71 67 36 } { 252 246 196 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 185 29 4 }#red
+			{ 192 192 192 } #silver
+			{ 140 122 176 }#purple blue
+			{ 14 87 226 }#blue
+			{ 44 184 40 }#green
 		}
 		
 		headgear_that_hides_hair = { }
@@ -2444,6 +2486,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 185 29 4 }#red
+			{ 192 192 192 } #silver
+			{ 135 23 5 }#dark red
+			{ 186 62 42 }#light red
+			{ 236 33 0 } #bright red
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -2467,7 +2513,6 @@ spriteTypes = {
 			"GFX_western_male_nose_midage:d3:o81x65" 
 			"GFX_western_male_eyes_midage:d6:o47x74"
 			"GFX_western_male_eyes2:d6:e:o74x92:e:c2"
-			
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -2494,6 +2539,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 185 29 4 }#red
+			{ 192 192 192 } #silver
+			{ 135 23 5 }#dark red
+			{ 186 62 42 }#light red
+			{ 236 33 0 } #bright red
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -2516,8 +2565,7 @@ spriteTypes = {
 			"GFX_western_male_mouth_oldage:d2:o75x52"
 			"GFX_western_male_nose_oldage:d3:o80x66" 
 			"GFX_western_male_eyes_oldage:d6:o46x73"
-			"GFX_western_male_eyes2:d6:e:o74x92:e"
-			
+			"GFX_western_male_eyes2:d6:e:o74x92:e"			
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -2544,6 +2592,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 185 29 4 }#red
+			{ 192 192 192 } #silver
+			{ 135 23 5 }#dark red
+			{ 186 62 42 }#light red
+			{ 236 33 0 } #bright red
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -2565,8 +2617,7 @@ spriteTypes = {
 			"GFX_western_female_mouth:d2:o72x48"
 			"GFX_western_female_nose:d3:o80x65" 
 			"GFX_western_female_eyes:d6:o49x79"
-			"GFX_western_female_eyes2:d6:e:o72x88:e"
-			
+			"GFX_western_female_eyes2:d6:e:o72x88:e"			
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -2592,6 +2643,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 185 29 4 }#red
+			{ 192 192 192 } #silver
+			{ 135 23 5 }#dark red
+			{ 186 62 42 }#light red
+			{ 236 33 0 } #bright red
 		}
 	}
 
@@ -2611,8 +2666,7 @@ spriteTypes = {
 			"GFX_western_female_mouth_midage:d2:o72x49"
 			"GFX_western_female_nose_midage:d3:o80x64" 
 			"GFX_western_female_eyes_midage:d6:o46x76"
-			"GFX_western_female_eyes2:d6:e:o72x88:e"
-			
+			"GFX_western_female_eyes2:d6:e:o72x88:e"			
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -2638,6 +2692,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 185 29 4 }#red
+			{ 192 192 192 } #silver
+			{ 135 23 5 }#dark red
+			{ 186 62 42 }#light red
+			{ 236 33 0 } #bright red
 		}
 	}
 
@@ -2683,6 +2741,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 185 29 4 }#red
+			{ 192 192 192 } #silver
+			{ 135 23 5 }#dark red
+			{ 186 62 42 }#light red
+			{ 236 33 0 } #bright red
 		}
 	}
 ####Wind Tribes

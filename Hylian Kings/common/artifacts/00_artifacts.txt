@@ -8,126 +8,537 @@ slots = {
 	neck = 1
 	torso = 1
 }
+### Human Weapons ###
+knight_sword
+royal_sword
+royal_guard_sword
+knight_claymore
+royal_claymore
+royal_guard_claymore
+knight_halberd
+royal_halberd
+royal_guard_spear
+knight_bow
+royal_bow
+royal_guard_bow
+moonlight_scimitar
+	monthly_character_prestige = 0.75
+	martial = 2
+	combat_rating = 1
+	quality = 2
+	active = {
+		is_adult = yes
+		culture = gerudo
+	}
+	flags = { combat_weapon sword gerudo }
+	stacking = no
+	picture = "GFX_sword_T3_glow_purple"
+	slot = weapon
+### Zora Weapons ###
+lightscale_trident
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 2
+	quality = 3
+	active = {
+		is_adult = yes
+		NOR = { 
+			religion_group = demon_religion
+			religion_group = alien_religion
+		}
+	}
+	flags = { combat_weapon spear zora }
+	stacking = no
+	picture = "GFX_sword_T3_glow_purple"
+	slot = weapon
+### Goron weapons ###
+biggoron_knife = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 2
+	quality = 3
+	active = {
+		is_adult = yes
+		NOR = { 
+			religion_group = demon_religion
+			religion_group = alien_religion
+		}
+	}
+	flags = { combat_weapon great_sword goron }
+	stacking = no
+	picture = "GFX_sword_T3_glow_purple"
+	slot = weapon
+}
+### Lfos Weapons ###
+enhanced_spear = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 1
+	quality = 1
+	active = {
+		is_adult = yes
+		culture_group = lfos
+	}
+	flags = { combat_weapon spear lfos }
+	stacking = no
+	picture = "GFX_sword_T1"
+	slot = weapon
+}
+forked_spear = {
+	monthly_character_prestige = 0.5
+	martial = 2
+	combat_rating = 1
+	quality = 2
+	active = {
+		is_adult = yes
+		culture_group = lfos
+	}
+	flags = { combat_weapon spear lfos }
+	stacking = no
+	picture = "GFX_sword_T2"
+	slot = weapon
+}
+forked_boomerang = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 1
+	quality = 1
+	active = {
+		is_adult = yes
+		culture_group = lfos
+	}
+	flags = { combat_weapon sword lfos }
+	stacking = no
+	picture = "GFX_sword_T1"
+	slot = weapon
+}
+tri_boomerang = {
+	monthly_character_prestige = 0.5
+	martial = 2
+	combat_rating = 1
+	quality = 2
+	active = {
+		is_adult = yes
+		culture_group = lfos
+	}
+	flags = { combat_weapon sword lfos }
+	stacking = no
+	picture = "GFX_sword_T2"
+	slot = weapon
+}
+reinforced_lizal_bow = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 1
+	quality = 1
+	active = {
+		is_adult = yes
+		culture_group = lfos
+	}
+	flags = { combat_weapon bow lfos }
+	stacking = no
+	picture = "GFX_sword_T1"
+	slot = weapon
+}
+steel_lizal_bow = {
+	monthly_character_prestige = 0.5
+	martial = 2
+	combat_rating = 1
+	quality = 2
+	active = {
+		is_adult = yes
+		culture_group = lfos
+	}
+	flags = { combat_weapon bow lfos }
+	stacking = no
+	picture = "GFX_sword_T2"
+	slot = weapon
+}
+### Blin weapons ###
+spiked_club = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 1
+	quality = 1
+	active = {
+		is_adult = yes
+		culture_group = blin
+	}
+	flags = { combat_weapon sword }
+	stacking = no
+	picture = "GFX_sword_T2"
+	slot = weapon
+}
+dragonbone_club = {
+	monthly_character_prestige = 0.5
+	martial = 2
+	combat_rating = 1
+	quality = 2
+	active = {
+		is_adult = yes
+		culture_group = blin
+	}
+	flags = { combat_weapon sword }
+	stacking = no
+	picture = "GFX_sword_T2"
+	slot = weapon
+}
+spike_spear = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 1
+	quality = 1
+	active = {
+		is_adult = yes
+		culture_group = blin
+	}
+	flags = { combat_weapon spear }
+	stacking = no
+	picture = "GFX_sword_T2"
+	slot = weapon
+}
+dragonbone_spear = {
+	monthly_character_prestige = 0.5
+	martial = 2
+	combat_rating = 1
+	quality = 2
+	active = {
+		is_adult = yes
+		culture_group = blin
+	}
+	flags = { combat_weapon spear }
+	stacking = no
+	picture = "GFX_sword_T2"
+	slot = weapon
+}
+spiked_bow = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 1
+	quality = 1
+	active = {
+		is_adult = yes
+		culture_group = blin
+	}
+	flags = { combat_weapon bow }
+	stacking = no
+	picture = "GFX_sword_T2"
+	slot = weapon
+}
+dragon_bone_bow = {
+	monthly_character_prestige = 0.5
+	martial = 2
+	combat_rating = 1
+	quality = 2
+	active = {
+		is_adult = yes
+		culture_group = blin
+	}
+	flags = { combat_weapon bow }
+	stacking = no
+	picture = "GFX_sword_T2"
+	slot = weapon
+}
+### Yiga Clan ###
+windcleaver = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 2
+	quality = 3
+	active = {
+		is_adult = yes
+		society_member_of = yiga_clan
+	}
+	flags = { combat_weapon great_sword yiga_clan }
+	stacking = no
+	picture = "GFX_sword_T3_glow_purple"
+	slot = weapon
+}
+duplex_bow = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 2
+	quality = 3
+	active = {
+		is_adult = yes
+		society_member_of = yiga_clan 
+	}
+	flags = { combat_weapon bow yiga_clan }
+	stacking = no
+	picture = "GFX_sword_T3_glow_purple"
+	slot = weapon
+}
+demon_carver = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 2
+	quality = 3
+	active = {
+		is_adult = yes
+		society_member_of = yiga_clan
+	}
+	flags = { combat_weapon sword yiga_clan }
+	stacking = no
+	picture = "GFX_sword_T3_glow_purple"
+	slot = weapon
+}
 ### Elemental Weapons ###
-
-#frostblade = {
-#	monthly_character_prestige = 0.75
-#	martial = 3
-#	combat_rating = 2
-#	quality = 3
-#	active = {
-#		is_adult = yes
-#	}
-#	flags = { elemental_frost very_rare combat_weapon sword }
-#	stacking = no
-#	picture = "GFX_sword_T3_glow_green"
-#	slot = weapon
-#}
-#great_frostblade = {
-#	monthly_character_prestige = 0.75
-#	martial = 3
-#	combat_rating = 2
-#	quality = 3
-#	active = {
-#		is_adult = yes
-#	}
-#	flags = { elemental_frost very_rare combat_weapon great_sword }
-#	stacking = no
-#	picture = "GFX_sword_T3_glow_green"
-#	slot = weapon
-#}
-#frostspear = {
-#	monthly_character_prestige = 0.1
-#	martial = 1
-#	command_modifier = {
-#		morale_offence = 0.2
-#		morale_defence = 0.2
-#	}
-#	quality = 5
-#	flags = { elemental_frost very_rare combat_weapon spear }
-#	stacking = no
-#	picture = "GFX_spear_of_destiny"
-#	slot = weapon
-#}
-#flameblade = {
-#	monthly_character_prestige = 0.75
-#	martial = 3
-#	combat_rating = 2
-#	quality = 3
-#	active = {
-#		is_adult = yes
-#	}
-#	flags = { elemental_flame very_rare combat_weapon sword }
-#	stacking = no
-#	picture = "GFX_sword_T3_glow_red"
-#	slot = weapon
-#}
-#great_flameblade = {
-#	monthly_character_prestige = 0.75
-#	martial = 3
-#	combat_rating = 2
-#	quality = 3
-#	active = {
-#		is_adult = yes
-#	}
-#	flags = { elemental_flame very_rare combat_weapon great_sword }
-#	stacking = no
-#	picture = "GFX_sword_T3_glow_red"
-#	slot = weapon
-#}
-#flamespear = {
-#	monthly_character_prestige = 0.1
-#	martial = 1
-#	command_modifier = {
-#		morale_offence = 0.2
-#		morale_defence = 0.2
-#	}
-#	quality = 5
-#	flags = { elemental_flame very_rare combat_weapon spear }
-#	stacking = no
-#	picture = "GFX_spear_of_destiny"
-#	slot = weapon
-#}
-#thunderblade= {
-#	monthly_character_prestige = 0.75
-#	martial = 3
-#	combat_rating = 2
-#	quality = 3
-#	active = {
-#		is_adult = yes
-#	}
-#	flags = { elemental_flame very_rare combat_weapon sword }
-#	stacking = no
-#	picture = "GFX_sword_T3_glow_green"
-#	slot = weapon
-#}
-#great_thunderblade= {
-#	monthly_character_prestige = 0.75
-#	martial = 3
-#	combat_rating = 2
-#	quality = 3
-#	active = {
-#		is_adult = yes
-#	}
-#	flags = { elemental_thunder very_rare combat_weapon great_sword }
-#	stacking = no
-#	picture = "GFX_sword_T3_glow_green"
-#	slot = weapon
-#}
-#thunderspear = {
-#	monthly_character_prestige = 0.1
-#	martial = 1
-#	command_modifier = {
-#		morale_offence = 0.2
-#		morale_defence = 0.2
-#	}
-#	quality = 5
-#	flags = { elemental_thunder very_rare combat_weapon spear }
-#	stacking = no
-#	picture = "GFX_spear_of_destiny"
-#	slot = weapon
-#}
-
+ice_rod = {
+	monthly_character_prestige = 0.75
+	martial = 2
+	combat_rating = 2
+	quality = 2
+	active = {
+		is_adult = yes
+	}
+	flags = { elemental_frost rare combat_weapon rod }
+	stacking = no
+	picture = "GFX_sword_T3_glow_green"
+	slot = scepter
+}
+flame_rod = {
+	monthly_character_prestige = 0.75
+	martial = 2
+	combat_rating = 2
+	quality = 2
+	active = {
+		is_adult = yes
+	}
+	flags = { elemental_flame rare combat_weapon rod }
+	stacking = no
+	picture = "GFX_sword_T3_glow_green"
+	slot = scepter
+}
+thunder_rod = {
+	monthly_character_prestige = 0.75
+	martial = 2
+	combat_rating = 2
+	quality = 2
+	active = {
+		is_adult = yes
+	}
+	flags = { elemental_thunder rare combat_weapon rod }
+	stacking = no
+	picture = "GFX_sword_T3_glow_green"
+	slot = scepter
+}
+frostblade = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 3
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { elemental_frost very_rare combat_weapon sword }
+	stacking = no
+	picture = "GFX_sword_T3_glow_green"
+	slot = weapon
+}
+great_frostblade = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 3
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { elemental_frost very_rare combat_weapon great_sword }
+	stacking = no
+	picture = "GFX_sword_T3_glow_green"
+	slot = weapon
+}
+frostspear = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 3
+	quality = 4
+	flags = { elemental_frost very_rare combat_weapon spear }
+	stacking = no
+	picture = "GFX_spear_of_destiny"
+	slot = weapon
+}
+flameblade = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 3
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { elemental_flame very_rare combat_weapon sword }
+	stacking = no
+	picture = "GFX_sword_T3_glow_red"
+	slot = weapon
+}
+great_flameblade = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 3
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { elemental_flame very_rare combat_weapon great_sword }
+	stacking = no
+	picture = "GFX_sword_T3_glow_red"
+	slot = weapon
+}
+flamespear = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 3
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { elemental_flame very_rare combat_weapon spear }
+	stacking = no
+	picture = "GFX_spear_of_destiny"
+	slot = weapon
+}
+thunderblade= {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 3
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { elemental_flame very_rare combat_weapon sword }
+	stacking = no
+	picture = "GFX_sword_T3_glow_green"
+	slot = weapon
+}
+great_thunderblade= {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 3
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { elemental_thunder very_rare combat_weapon great_sword }
+	stacking = no
+	picture = "GFX_sword_T3_glow_green"
+	slot = weapon
+}
+thunderspear = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 3
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { elemental_thunder very_rare combat_weapon spear }
+	stacking = no
+	picture = "GFX_spear_of_destiny"
+	slot = weapon
+}
+### legendary_weapon ###
+master_sword = {
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.5
+	same_religion_opinion = 5
+	martial = 4
+	combat_rating = 5
+	command_modifier = {
+		morale_offence = 0.2
+		morale_defence = 0.2
+	}
+	active = { has_trait = hero_soul }
+	quality = 5
+	flags = { religious link unique sword troops_morale }
+	stacking = no
+	picture = "GFX_sword_of_heroes"
+	slot = weapon
+}
+sage_sword = {
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.5
+	same_religion_opinion = 5
+	martial = 4
+	combat_rating = 4
+	command_modifier = {
+		morale_offence = 0.2
+		morale_defence = 0.2
+	}
+	active = { religion_group = goddesses_religion }
+	quality = 5
+	flags = { religious goddesses_religion very_rare sword troops_morale }
+	stacking = no
+	picture = "GFX_sword_of_heroes"
+	slot = weapon
+}
+lokomo_sword = {
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.5
+	same_religion_opinion = 5
+	martial = 4
+	combat_rating = 4
+	command_modifier = {
+		morale_offence = 0.2
+		morale_defence = 0.2
+	}
+	active = { religion = spirit_good }
+	quality = 5
+	flags = { religious spirit_good unique sword troops_morale }
+	stacking = no
+	picture = "GFX_sword_of_heroes"
+	slot = weapon
+}
+picori_blade = {
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.5
+	same_religion_opinion = 5
+	martial = 4
+	combat_rating = 4
+	command_modifier = {
+		morale_offence = 0.2
+		morale_defence = 0.2
+	}
+	active = { religion = light_force }
+	quality = 5
+	flags = { religious light_force unique sword troops_morale }
+	stacking = no
+	picture = "GFX_sword_of_heroes"
+	slot = weapon
+}
+phantom_sword = {
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.5
+	same_religion_opinion = 5
+	martial = 4
+	combat_rating = 4
+	command_modifier = {
+		morale_offence = 0.2
+		morale_defence = 0.2
+	}
+	active = { religion = oshus_religion }
+	quality = 5
+	flags = { religious oshus_religion unique sword troops_morale }
+	stacking = no
+	picture = "GFX_sword_of_heroes"
+	slot = weapon
+}
+fairy_sword = {
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.5
+	same_religion_opinion = 5
+	martial = 4
+	combat_rating = 4
+	command_modifier = {
+		morale_offence = 0.2
+		morale_defence = 0.2
+	}
+	active = { religion = great_fairies }
+	quality = 5
+	flags = { religious great_fairies unique sword troops_morale }
+	stacking = no
+	picture = "GFX_sword_of_heroes"
+	slot = weapon
+}
 ### Random ###
 
 loot_axe = {
