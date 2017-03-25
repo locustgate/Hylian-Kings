@@ -9,19 +9,111 @@ slots = {
 	torso = 1
 }
 ### Human Weapons ###
-knight_sword
-royal_sword
-royal_guard_sword
-knight_claymore
-royal_claymore
-royal_guard_claymore
-knight_halberd
-royal_halberd
-royal_guard_spear
-knight_bow
-royal_bow
-royal_guard_bow
-moonlight_scimitar
+knight_sword = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 1
+	quality = 1
+	active = {
+		is_adult = yes		
+	}
+	flags = { combat_weapon sword human }
+	stacking = no
+	picture = "GFX_sword_T2"
+	slot = weapon
+}
+royal_sword = {
+	monthly_character_prestige = 0.50
+	martial = 2
+	combat_rating = 1
+	quality = 2
+	active = {
+		is_adult = yes		
+	}
+	flags = { combat_weapon sword human }
+	stacking = no
+	picture = "GFX_sword_T2"
+	slot = weapon
+}
+knight_claymore = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 1
+	quality = 1
+	active = {
+		is_adult = yes		
+	}
+	flags = { combat_weapon great_sword human }
+	stacking = no
+	picture = "GFX_sword_T2"
+	slot = weapon
+}
+royal_claymore = {
+	monthly_character_prestige = 0.50
+	martial = 1
+	combat_rating = 1
+	quality = 2
+	active = {
+		is_adult = yes		
+	}
+	flags = { combat_weapon great_sword human }
+	stacking = no
+	picture = "GFX_sword_T1"
+	slot = weapon
+}
+knight_halberd = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 1
+	quality = 1
+	active = {
+		is_adult = yes		
+	}
+	flags = { combat_weapon spear human }
+	stacking = no
+	picture = "GFX_sword_T2"
+	slot = weapon
+}
+royal_halberd = {
+	monthly_character_prestige = 0.50
+	martial = 1
+	combat_rating = 2
+	quality = 2
+	active = {
+		is_adult = yes		
+	}
+	flags = { combat_weapon spear human }
+	stacking = no
+	picture = "GFX_sword_T2"
+	slot = weapon
+}
+knight_bow = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 1
+	quality = 1
+	active = {
+		is_adult = yes		
+	}
+	flags = { combat_weapon bow human }
+	stacking = no
+	picture = "GFX_sword_T1"
+	slot = weapon
+}
+royal_bow = {
+	monthly_character_prestige = 0.50
+	martial = 1
+	combat_rating = 1
+	quality = 2
+	active = {
+		is_adult = yes		
+	}
+	flags = { combat_weapon bow human }
+	stacking = no
+	picture = "GFX_sword_T2"
+	slot = weapon
+}
+moonlight_scimitar = {
 	monthly_character_prestige = 0.75
 	martial = 2
 	combat_rating = 1
@@ -34,6 +126,7 @@ moonlight_scimitar
 	stacking = no
 	picture = "GFX_sword_T3_glow_purple"
 	slot = weapon
+}
 ### Zora Weapons ###
 lightscale_trident
 	monthly_character_prestige = 0.75
@@ -51,6 +144,7 @@ lightscale_trident
 	stacking = no
 	picture = "GFX_sword_T3_glow_purple"
 	slot = weapon
+}
 ### Goron weapons ###
 biggoron_knife = {
 	monthly_character_prestige = 0.75
@@ -436,7 +530,7 @@ thunderspear = {
 	picture = "GFX_spear_of_destiny"
 	slot = weapon
 }
-### legendary_weapon ###
+### Legendary Weapon ###
 master_sword = {
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.5
@@ -539,6 +633,192 @@ fairy_sword = {
 	picture = "GFX_sword_of_heroes"
 	slot = weapon
 }
+### Unique Artifacts ###
+awakening_bell = {
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.5
+	same_religion_opinion = 5
+	diplomacy = 4
+	active = { religion = wind_fish_religion }
+	flags = { unique ancient artifact wind_fish time }
+	quality = 5
+	stacking = no
+	picture = "GFX_king_davids_harp"
+}
+goddesss_harp = {
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.5
+	same_religion_opinion = 5
+	diplomacy = 4
+	active = { 
+		OR= {
+			religion_group = goddesses_religion
+			religion = wizzrobe_doctrine
+			religion = goddess_time
+		}
+	}
+	quality = 5
+	flags = { religious hylia very_rare }
+	stacking = no
+	picture = "GFX_king_davids_harp"
+}
+ocarina_time = {
+	monthly_character_piety = 0.1
+	monthly_character_prestige = 0.5
+	quality = 3
+	flags = { unique ancient artifact zelda time }
+	picture = "GFX_relic_box_simple"
+	stacking = no
+}
+ocarina_wind = {
+	monthly_character_piety = 0.1
+	monthly_character_prestige = 0.5
+	quality = 3
+	flags = { unique ancient artifact wind time }
+	picture = "GFX_relic_box_simple"
+	stacking = no
+}
+water_dragon_scale = {
+	monthly_character_piety = 0.1
+	monthly_character_prestige = 0.5
+	quality = 3
+	flags = { unique ancient artifact}
+	picture = "GFX_relic_box_simple"
+	stacking = no
+}
+scepter_of_time = {
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.5
+	command_modifier = {
+		morale_offence = 0.1
+		morale_defence = 0.1
+	}
+	learning = 2
+	same_religion_opinion = 5
+
+	active = { 
+		OR= {
+			religion_group = goddesses_religion
+			religion = wizzrobe_doctrine
+			religion = goddess_time
+		}
+	}
+	quality = 5
+	flags = { religious time cia very_rare troops_morale }
+	stacking = no
+	picture = "GFX_royal_scepter"
+	slot = scepter
+}
+gate_fragment = {
+	monthly_character_piety = 0.5
+	monthly_character_prestige = 0.1
+	quality = 3
+	flags = { unique ancient artifact hylia time }
+	picture = "GFX_relic_box_simple"
+	stacking = no
+}
+### Unique Weapons ###
+scimitar_heroines
+great_eagle_bow
+bow_of_light
+megaton_hammer
+ghirahim
+death_sword
+sword_despair
+sword_darkness
+sword_demise
+### Societies ###
+
+sheikah_guard_sword = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 3
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { sheikah very_rare combat_weapon sword }
+	stacking = no
+	picture = "GFX_spear_of_destiny"
+	slot = weapon
+}
+sheikah_guard_great_sword = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 3
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { sheikah very_rare combat_weapon great_sword }
+	stacking = no
+	picture = "GFX_spear_of_destiny"
+	slot = weapon
+}
+sheikah_guard_spear = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 3
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { sheikah very_rare spear }
+	stacking = no
+	picture = "GFX_spear_of_destiny"
+	slot = weapon
+}
+sheikah_guard_bow = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 3
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { sheikah very_rare combat_weapon bow }
+	stacking = no
+	picture = "GFX_spear_of_destiny"
+	slot = weapon
+}
+sheikah_combat = {
+	martial = 2
+	combat_rating = 2 
+	monthly_character_prestige = 0.25
+	command_modifier = { morale_offence = 0.05 }
+	quality = 1
+	active = { is_adult = yes }
+	flags = { sheikah invention }
+	picture = "GFX_suit_of_armor_gold"
+	stacking = no
+	slot = torso
+}
+sheikah_shadow = {
+	intrigue = 2
+	combat_rating = 1 
+	monthly_character_prestige = 0.25
+	command_modifier = { morale_offence = 0.05 }
+	quality = 1
+	active = { is_adult = yes }
+	flags = { sheikah invention }
+	picture = "GFX_suit_of_armor_gold"
+	stacking = no
+	slot = torso
+}
+
+magic_armor = {
+	martial = 2
+	combat_rating = 2 
+	monthly_character_prestige = 0.25
+	command_modifier = { morale_offence = 0.05 }
+	quality = 1
+	active = { is_adult = yes }
+	flags = { magic invention }
+	picture = "GFX_suit_of_armor_gold"
+	stacking = no
+	slot = torso
+}
+
 ### Random ###
 
 loot_axe = {
@@ -550,21 +830,11 @@ loot_axe = {
 	slot = weapon
 }
 
-#strange_chest = {
-#	flags = { chest }
-#	picture = "GFX_strange_chest"
-#}
-#
-#necronomicon = {
-#	learning = 5
-#	diplomacy = -1
-#	quality = 4
-#	monthly_character_piety = -2
-#	flags = { book unholy }
-#	stacking = no
-#	picture = "GFX_book_sinister"
-#}
-#
+strange_chest = {
+	flags = { chest }
+	picture = "GFX_strange_chest"
+}
+
 #cursed_diamond = {
 #	monthly_character_prestige = 1
 #	global_tax_modifier = 0.1
