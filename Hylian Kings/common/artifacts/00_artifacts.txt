@@ -25,7 +25,7 @@ knight_sword = {
 royal_sword = {
 	monthly_character_prestige = 0.50
 	martial = 2
-	combat_rating = 1
+	combat_rating = 2
 	quality = 2
 	active = {
 		is_adult = yes		
@@ -97,7 +97,7 @@ knight_bow = {
 	}
 	flags = { combat_weapon bow human }
 	stacking = no
-	picture = "GFX_sword_T1"
+	picture = "GFX_tier_1_bow"
 	slot = weapon
 }
 royal_bow = {
@@ -110,7 +110,7 @@ royal_bow = {
 	}
 	flags = { combat_weapon bow human }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_tier_2_bow"
 	slot = weapon
 }
 moonlight_scimitar = {
@@ -710,23 +710,181 @@ scepter_of_time = {
 	slot = scepter
 }
 gate_fragment = {
-	monthly_character_piety = 0.5
 	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.5
+	diplomacy = 2
+	active = { religion_group = goddesses_religion }
 	quality = 3
-	flags = { unique ancient artifact hylia time }
-	picture = "GFX_relic_box_simple"
+	flags = { religious time rare hylia }
 	stacking = no
+	picture = "GFX_nail_of_the_true_cross"
+}
+kokiris_emerald = {
+	monthly_character_prestige = 0.5
+	diplomacy = 2
+	active = { culture = kokiri }
+	quality = 3
+	flags = { racial zora unique }
+	stacking = no
+	picture = "GFX_nail_of_the_true_cross"
+}
+gorons_ruby = {
+	monthly_character_prestige = 0.5
+	diplomacy = 2
+	active = { culture_group = goron_group }
+	quality = 3
+	flags = { racial zora unique }
+	stacking = no
+	picture = "GFX_nail_of_the_true_cross"
+}
+zora_sapphire = {
+	monthly_character_prestige = 0.5
+	diplomacy = 2
+	active = { culture_group = aquatic_group }
+	quality = 3
+	flags = { racial zora unique }
+	stacking = no
+	picture = "GFX_nail_of_the_true_cross"
 }
 ### Unique Weapons ###
-scimitar_heroines
-great_eagle_bow
-bow_of_light
-megaton_hammer
-ghirahim
-death_sword
-sword_despair
-sword_darkness
-sword_demise
+scimitar_heroines = {
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.5
+	martial = 3
+	combat_rating = 2
+	active = { 
+		OR = {
+			religion = gerudo_goddess		
+			culture = gerudo
+		}
+		is_adult = yes
+	}
+	quality = 4
+	flags = { religious gerudo very_rare combat heroines sword }
+	stacking = no
+	picture = "GFX_sword_of_mohammad"
+	slot = weapon
+}
+great_eagle_bow = {
+	monthly_character_prestige = 1
+	combat_rating = 2
+	quality = 3
+	active = {
+		is_adult = yes		
+	}
+	flags = { combat_weapon bow rito bird air }
+	stacking = no
+	picture = "GFX_tier_3_bow"
+	slot = weapon
+}
+bow_of_light = {
+	monthly_character_prestige = 1
+	combat_rating = 2
+	quality = 3
+	active = {
+		is_adult = yes		
+	}
+	flags = { combat_weapon bow rito bird air }
+	stacking = no
+	picture = "GFX_tier_3_bow"
+	slot = weapon
+}
+megaton_hammer = {
+	monthly_character_prestige = 0.75
+	martial = 1
+	combat_rating = 2
+	command_modifier = {
+		heavy_infantry = 0.1
+	}
+	quality = 3
+	active = {
+		OR = {
+			culture_group = goron_group
+			has_trait = hero_soul
+			has_trait = race_goron
+		}
+		is_adult = yes
+	}
+	flags = { combat_weapon hammer goron }
+	stacking = no
+	picture = "GFX_tier_3_mace"
+	slot = weapon
+}
+ghirahim = {
+	monthly_character_prestige = 0.5
+	martial = 2
+	combat_rating = 3
+	command_modifier = {
+		morale_offence = 0.2
+		morale_defence = 0.2
+	}
+	active = { is_adult = yes }
+	quality = 5
+	flags = { religious demon unique sword troops_morale }
+	stacking = no
+	picture = "GFX_sword_of_heroes"
+	slot = weapon
+}
+death_sword = {
+	monthly_character_prestige = 0.5
+	martial = 2
+	combat_rating = 3
+	command_modifier = {
+		morale_offence = 0.2
+		morale_defence = 0.2
+	}
+	active = { is_adult = yes }
+	quality = 5
+	flags = { religious demon unique sword troops_morale }
+	stacking = no
+	picture = "GFX_sword_of_heroes"
+	slot = weapon
+}
+sword_despair = {
+	monthly_character_prestige = 0.5
+	martial = 2
+	combat_rating = 3
+	command_modifier = {
+		morale_offence = 0.2
+		morale_defence = 0.2
+	}
+	active = { is_adult = yes }
+	quality = 5
+	flags = { religious demon unique sword troops_morale }
+	stacking = no
+	picture = "GFX_sword_of_heroes"
+	slot = weapon
+}
+sword_darkness = {
+	monthly_character_prestige = 0.5
+	martial = 2
+	combat_rating = 3
+	command_modifier = {
+		morale_offence = 0.2
+		morale_defence = 0.2
+	}
+	active = { is_adult = yes }
+	quality = 5
+	flags = { religious demon unique sword troops_morale }
+	stacking = no
+	picture = "GFX_sword_of_heroes"
+	slot = weapon
+}
+sword_demise = {
+	monthly_character_prestige = 0.5
+	martial = 2
+	combat_rating = 3
+	command_modifier = {
+		morale_offence = 0.2
+		morale_defence = 0.2
+	}
+	active = { is_adult = yes }
+	quality = 5
+	flags = { religious demon unique sword troops_morale }
+	stacking = no
+	picture = "GFX_sword_of_heroes"
+	slot = weapon
+}
 ### Societies ###
 
 sheikah_guard_sword = {
