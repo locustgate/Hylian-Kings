@@ -599,23 +599,23 @@ picori_blade = {
 	picture = "GFX_sword_of_heroes"
 	slot = weapon
 }
-phantom_sword = {
-	monthly_character_prestige = 0.1
-	monthly_character_piety = 0.5
-	same_religion_opinion = 5
-	martial = 4
-	combat_rating = 4
-	command_modifier = {
-		morale_offence = 0.2
-		morale_defence = 0.2
-	}
-	active = { religion = oshus_religion }
-	quality = 5
-	flags = { religious oshus_religion unique sword troops_morale }
-	stacking = no
-	picture = "GFX_sword_of_heroes"
-	slot = weapon
-}
+#phantom_sword = { #doesn't exist in this timeline
+#	monthly_character_prestige = 0.1
+#	monthly_character_piety = 0.5
+#	same_religion_opinion = 5
+#	martial = 4
+#	combat_rating = 4
+#	command_modifier = {
+#		morale_offence = 0.2
+#		morale_defence = 0.2
+#	}
+#	active = { religion = oshus_religion }
+#	quality = 5
+#	flags = { religious oshus_religion unique sword troops_morale }
+#	stacking = no
+#	picture = "GFX_sword_of_heroes"
+#	slot = weapon
+#}
 fairy_sword = {
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.5
@@ -682,6 +682,7 @@ water_dragon_scale = {
 	monthly_character_piety = 0.1
 	monthly_character_prestige = 0.5
 	quality = 3
+	active = { religion_group = goddesses_religion}
 	flags = { unique ancient artifact}
 	picture = "GFX_relic_box_simple"
 	stacking = no
@@ -746,6 +747,16 @@ zora_sapphire = {
 	stacking = no
 	picture = "GFX_nail_of_the_true_cross"
 }
+phantom_hourglass = {
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.5
+	diplomacy = 2
+	active = { religion = ohsus_religion }
+	quality = 3
+	flags = { racial oshus unique }
+	stacking = no
+	picture = "GFX_nail_of_the_true_cross"
+}
 ### Unique Weapons ###
 scimitar_heroines = {
 	monthly_character_prestige = 0.5
@@ -758,6 +769,7 @@ scimitar_heroines = {
 			culture = gerudo
 		}
 		is_adult = yes
+		is_female = yes
 	}
 	quality = 4
 	flags = { religious gerudo very_rare combat heroines sword }
@@ -783,6 +795,7 @@ bow_of_light = {
 	quality = 3
 	active = {
 		is_adult = yes		
+		religion = light spirits
 	}
 	flags = { combat_weapon bow rito bird air }
 	stacking = no
@@ -898,7 +911,7 @@ sheikah_guard_sword = {
 	flags = { sheikah very_rare combat_weapon sword }
 	stacking = no
 	picture = "GFX_spear_of_destiny"
-	slot = weapon
+	slot = ceremonial_weapon
 }
 sheikah_guard_great_sword = {
 	monthly_character_prestige = 0.75
@@ -911,7 +924,7 @@ sheikah_guard_great_sword = {
 	flags = { sheikah very_rare combat_weapon great_sword }
 	stacking = no
 	picture = "GFX_spear_of_destiny"
-	slot = weapon
+	slot = ceremonial_weapon
 }
 sheikah_guard_spear = {
 	monthly_character_prestige = 0.75
@@ -924,7 +937,7 @@ sheikah_guard_spear = {
 	flags = { sheikah very_rare spear }
 	stacking = no
 	picture = "GFX_spear_of_destiny"
-	slot = weapon
+	slot = ceremonial_weapon
 }
 sheikah_guard_bow = {
 	monthly_character_prestige = 0.75
@@ -937,11 +950,11 @@ sheikah_guard_bow = {
 	flags = { sheikah very_rare combat_weapon bow }
 	stacking = no
 	picture = "GFX_spear_of_destiny"
-	slot = weapon
+	slot = ceremonial_weapon
 }
 sheikah_combat = {
 	martial = 2
-	combat_rating = 2 
+	combat_rating = 1 
 	monthly_character_prestige = 0.25
 	command_modifier = { morale_offence = 0.05 }
 	quality = 1
@@ -953,7 +966,6 @@ sheikah_combat = {
 }
 sheikah_shadow = {
 	intrigue = 2
-	combat_rating = 1 
 	monthly_character_prestige = 0.25
 	command_modifier = { morale_offence = 0.05 }
 	quality = 1
