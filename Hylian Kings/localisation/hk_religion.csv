@@ -2,6 +2,8 @@
 merchant_doctrine;Rupee Way;;;;;;;;;;;;;;;;;;x#translate
 GOD_RUPEE;The Almighty Rupee;;;;;;;;;;;;;;;;x#translate
 GOD_RUPOOR;The Cursed Rupoor;;;;;;;;;;;;;;;;;;;x#translate
+keaton_spirits;Keaton Spirits;;;;;;;;;;;;;;;;x#translate
+keaton_spirits_desc;The ancient religion of the Keatons.;;;;;;;;;;;;;x
 merchant_doctrine_desc;The Rupee Way is an ancient doctrine in which states that the main goal in life is to obtain money and power for onces proginy.;;;;;;;;;;;;;;;x#translate
 THE_GUIDE;The Way of Commerce.;;;;;;;;;;;;;;;;;;;x#translate
 goddesses_religion;Goddesses;Deesses;Goddesses;;Diosas;;;;;;;;;x
@@ -418,6 +420,18 @@ temple_kingdom_of_heavenly_goddesses;Monastery;;;;;;;;;;;;;x
 temple_duchy_of_heavenly_goddesses;Monastery;;;;;;;;;;;;;x
 temple_county_of_heavenly_goddesses;Monastery;;;;;;;;;;;;;x
 temple_barony_of_heavenly_goddesses;Monastery;;;;;;;;;;;;;x
+temple_king_oshus_religion;High Hermit;;;;;;;;;;;;;x
+temple_king_female_oshus_religion;High Hermit;;;;;;;;;;;;;x
+temple_duke_oshus_religion;Hermit;;;;;;;;;;;;;x
+temple_duke_female_oshus_religion;Hermit;;;;;;;;;;;;;x
+temple_count_oshus_religion;Hermit;;;;;;;;;;;;;x
+temple_count_female_oshus_religion;Hermit;;;;;;;;;;;;;x
+temple_baron_oshus_religion;Hermit;;;;;;;;;;;;;x
+temple_baron_female_oshus_religion;Hermit;;;;;;;;;;;;;x
+temple_kingdom_of_oshus_religion;Church;;;;;;;;;;;;;x
+temple_duchy_of_oshus_religion;Church;;;;;;;;;;;;;x
+temple_county_of_oshus_religion;Church;;;;;;;;;;;;;x
+temple_barony_of_oshus_religion;Church;;;;;;;;;;;;;x
 #temple_king_
 #temple_king_female_
 #temple_duke_
@@ -431,6 +445,8 @@ temple_barony_of_heavenly_goddesses;Monastery;;;;;;;;;;;;;x
 #temple_county_of_
 #temple_barony_of_
 #good=councils,churches,etc evil=hordes
+d_oshus;Ocean Hermits;;;;;;;;;x
+d_oshus_adj;Hermit;;;;;;;;;x
 d_deku;Deku Family;;;;;;;;;x
 d_jabu;Jabu-Jabu Caretakers;;;;;;;;;x
 d_jabun;Jabun Caretakers;;;;;;;;;x
@@ -461,6 +477,7 @@ d_jabun_religion_adj;Attendant;;;;;;;;;x
 d_valoo_religion;Valoo's  Attendants;;;;;;;;;x
 d_valoo_religion_adj;Attendant;;;;;;;;;x
 #heads of church
+HEAD_HERMIT;High Hermit;;;;;;;;;;;;;x
 title_exemplar;Exemplar;Exemplar;Exemplar;;Exemplar;;;;;;;;;;x
 SECONDUS_EXEMPLAR;Secondus Exemplar;Secondus Exemplar;Secondus Exemplar;;Secondus Exemplar;;;;;;;;;x#translate
 SECONDUS_EXEMPLAR_TOOLTIP;The Secondus Exemplar is the Exemplar expected to succeed the current High Exemplar;;;;;;;;;;;;;;x

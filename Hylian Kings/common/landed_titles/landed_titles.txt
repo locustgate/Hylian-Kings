@@ -6730,6 +6730,7 @@ e_ho_ho = {
 			c_savlaakso = {
 				color={ 255 255 234 }
 				color2={ 188 0 7 }
+				holy_site = oshus_religion
 				b_savlaakso = {}
 			}
 		}
@@ -7078,7 +7079,8 @@ e_ho_ho = {
 			capital = 934
 			c_pori = {
 				color={ 0 0 191 }
-				color2={ 255 0 0 }
+				color2={ 255 0 0 }				
+				holy_site = oshus_religion
 				b_pori = {}
 			}
 			c_pieksa = {
@@ -8468,6 +8470,7 @@ k_howgendoogen_league = {
 		color2={ 5 117 1 }
 		capital = 924 # mantsa			
 		c_mantsa = {
+			holy_site = oshus_religion
 			color={ 255 0 0 }
 			ccolor2={ 255 255 255 }
 			b_mantsa = {}
@@ -10526,7 +10529,8 @@ k_western_isles = {
 		capital = 387
 		c_icy_plain = {
 			color={ 63 43 189 }
-			color2={ 255 248 220 }
+			color2={ 255 248 220 }			
+			holy_site = oshus_religion #temp
 			b_icy_bird_rock = {}
 			b_haunted_woods = {}
 		}
@@ -10588,7 +10592,8 @@ k_western_isles = {
 		}
 		c_hiveville = {
 			color={ 22 187 0 }
-			color2={ 255 248 220 }
+			color2={ 255 248 220 }			
+			holy_site = oshus_religion #temp
 			b_bee_hive = {}
 			b_queen_bee_domain = {}
 		}
@@ -13376,6 +13381,31 @@ k_wizzrobe = {
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 	
+}
+d_oshus = {
+	color={ 232 232 232 }
+	color2={ 203 153 0 }
+	
+	capital = 875 # Savlasko
+	
+	title = "HEAD_HERMIT"
+	title_female = "HEAD_HERMIT"
+	foa = "HEAD_PRIEST_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes	
+	
+	# Controls a religion
+	controls_religion = oshus_religion
+	
+	religion = oshus_religion
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
 d_deku = {
 	color={ 155 155 235 }

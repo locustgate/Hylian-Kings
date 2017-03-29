@@ -53,7 +53,12 @@ character_event = {
 				ai = yes
 			}
 		}
-		
+		modifier = {
+			factor = 0.75
+			liege = {
+				has_artifact = finger_of_st_john
+			}
+		}
 		modifier = {
 			factor = 0.75
 			location = { culture_group = ROOT }
@@ -150,6 +155,12 @@ character_event = {
 			factor = 0.75
 			religion_authority = 0.9
 		}
+		modifier = {
+			factor = 0.75
+			liege = {
+				society_member_of = monastic_order_dominican
+				society_rank >= 4
+			
 		
 		modifier = {
 			factor = 3.0
@@ -360,7 +371,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 3.0
-			religion_group = demon_religion
+			religion_group = minor_deity
 			is_reformed_religion = no
 		}
 	}
@@ -602,6 +613,9 @@ character_event = {
 		name = "EVTOPTA20021"
 		trigger = {
 			NOT = {
+				religion_group = muslim
+			}
+			NOT = {
 				trait = wroth
 			}
 		}
@@ -619,19 +633,39 @@ character_event = {
 		add_trait = zealous
 		liege = { letter_event = { id = 20022 tooltip = "EVTTOOLTIP20022" } }
 	}
+	option = {
+		name = "EVTOPTC20021"
+		trigger = {
+			religion_group = muslim
+			NOT = {
+				AND = {
+					trait = wroth
+					NOT = { trait = humble }
+				}
+			}
+		}
+		add_trait = wounded
+		liege = { letter_event = { id = 20022 tooltip = "EVTTOOLTIP20022" } }
+	}
 }
 
 # 20022: Inform the Liege about wounding
-letter_event = {
+character_event = {
 	id = 20022
-	desc = "EVTDESC20022"
-	border = GFX_event_letter_frame_religion
+	desc = EVTDESC20022
+	picture = GFX_evt_peasants
+	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
+	notification = yes
+	
+	immediate = {
+		prestige = -10
+	}
 	
 	option = {
-		name = "EVTOPTA20022"
-		prestige = -10
+		name = EVTOPTA20022
+		tooltip = { prestige = -10 }
 	}
 }
 
@@ -665,8 +699,8 @@ character_event = {
 	
 	trigger = {
 		has_job_action = action_inquisition
-		NOT = { religion_group = demon_religion }
-		NOT = { religion_group = doctrine }
+		NOT = { religion_group = minor_deity }
+		NOT = { religion_group = indian_group }
 		trait = zealous
 		location = {
 			any_province_lord = {
@@ -1090,7 +1124,7 @@ character_event = {
 				NOT = { character = ROOT }
 				NOT = { is_liege_of = ROOT }
 				NOT = { religion = ROOT }
-				religion_group = demon_religion
+				religion_group = minor_deity
 				NOT = { same_realm = ROOT }
 				controls_religion = no
 			}
@@ -1133,7 +1167,7 @@ character_event = {
 				NOT = { character = ROOT }
 				NOT = { is_liege_of = ROOT }
 				NOT = { religion = ROOT }
-				religion_group = demon_religion
+				religion_group = minor_deity
 				is_reformed_religion = no
 				NOT = { same_realm = ROOT }
 				controls_religion = no
@@ -1259,7 +1293,7 @@ character_event = {
 				NOT = { character = ROOT }
 				NOT = { is_liege_of = ROOT }
 				NOT = { religion = ROOT }
-				religion_group = demon_religion
+				religion_group = minor_deity
 				is_reformed_religion = no
 				NOT = { same_realm = ROOT }
 			}
@@ -1331,7 +1365,7 @@ character_event = {
 							at_location = ROOT
 							NOT = { trait = incapable }
 							ai = yes
-							religion_group = demon_religion
+							religion_group = minor_deity
 						}
 						character_event = { id = 39610 days = 1 }
 					}
@@ -1360,7 +1394,7 @@ character_event = {
 				NOT = { character = ROOT }
 				NOT = { is_liege_of = ROOT }
 				NOT = { religion = ROOT }
-				religion_group = demon_religion
+				religion_group = minor_deity
 				NOT = { same_realm = ROOT }
 			}
 		}
@@ -1587,6 +1621,7 @@ character_event = {
 	
 	trigger = {
 		has_job_action = action_improve_rel_relations
+		NOT = { religion_group = indian_group }
 		religion_head = {
 			NOT = { character = liege }
 		}
@@ -1825,12 +1860,11 @@ character_event = {
 	
 	trigger = {
 		has_job_action = action_advance_cul_tech
-		NOT = { religion_group = docrtine }
 		is_heretic = no
 		OR = {
 			religion_group = goddesses_religion
 			religion_group = minor_deity
-			religion_group = guardian_deity
+				religion_group = guardian_deity
 		}
 		liege = {
 			is_heretic = no
@@ -2554,7 +2588,7 @@ character_event = {
 		
 		NOT = {
 			any_war = {
-				OR = { #need cb work
+				OR = {
 					using_cb = crusade
 					using_cb = religious
 					using_cb = religious_revolt
