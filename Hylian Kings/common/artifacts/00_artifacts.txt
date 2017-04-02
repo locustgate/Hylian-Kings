@@ -7,7 +7,6 @@ slots = {
 	wrist = 1
 	neck = 1
 	torso = 1
-	head = 1
 	mount = 1
 }
 ### Human Weapons ###
@@ -21,7 +20,7 @@ knight_sword = {
 	}
 	flags = { combat_weapon sword human }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_knight_sword"
 	slot = weapon
 }
 royal_sword = {
@@ -34,7 +33,7 @@ royal_sword = {
 	}
 	flags = { combat_weapon sword human }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_royal_sword"
 	slot = weapon
 }
 knight_claymore = {
@@ -47,7 +46,7 @@ knight_claymore = {
 	}
 	flags = { combat_weapon great_sword human }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_knight_claymore"
 	slot = weapon
 }
 royal_claymore = {
@@ -60,7 +59,7 @@ royal_claymore = {
 	}
 	flags = { combat_weapon great_sword human }
 	stacking = no
-	picture = "GFX_sword_T1"
+	picture = "GFX_royal_claymore"
 	slot = weapon
 }
 knight_halberd = {
@@ -73,7 +72,7 @@ knight_halberd = {
 	}
 	flags = { combat_weapon spear human }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_knight_halberd"
 	slot = weapon
 }
 royal_halberd = {
@@ -86,7 +85,7 @@ royal_halberd = {
 	}
 	flags = { combat_weapon spear human }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_royal_halberd"
 	slot = weapon
 }
 knight_bow = {
@@ -126,8 +125,8 @@ moonlight_scimitar = {
 	}
 	flags = { combat_weapon sword gerudo }
 	stacking = no
-	picture = "GFX_sword_T3_glow_purple"
-	slot = weapon
+	picture = "GFX_moonlight_scimitar"
+	slot = ceremonial_weapon
 }
 ### Darknut Stuff ###
 dox_sword = {
@@ -144,7 +143,7 @@ dox_sword = {
 				culture = darknut
 	}
 	flags = { darknut unique sword troops_morale }
-	picture = "GFX_sword"
+	picture = "GFX_darknut_primitive"
 	stacking = no
 	slot = ceremonial_weapon
 }
@@ -158,7 +157,7 @@ darknut_heavy_sword = {
 	}
 	flags = { darknut combat_weapon sword human }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_darknut_heavy"
 	slot = weapon
 }
 darknut_maul = {
@@ -171,7 +170,7 @@ darknut_maul = {
 	}
 	flags = { darknut combat_weapon sword human }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_sword"
 	slot = weapon
 }
 lightnut_armor = {
@@ -184,7 +183,7 @@ lightnut_armor = {
 	}
 	flags = { darkut armor human }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_sword"
 	slot = weapon
 }
 lightnut_sword = {
@@ -197,7 +196,7 @@ lightnut_sword = {
 	}
 	flags = { darkut armor human rare }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_darknut_heavy"
 	slot = weapon
 }
 greynut_armor = {
@@ -210,7 +209,7 @@ greynut_armor = {
 	}
 	flags = { darkut armor human rare }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_sword"
 	slot = weapon
 }
 greynut_Maul = {
@@ -223,7 +222,7 @@ greynut_Maul = {
 	}
 	flags = { darkut armor human rare }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_mace"
 	slot = weapon
 }
 starnut_armor = {
@@ -236,7 +235,7 @@ starnut_armor = {
 	}
 	flags = { darkut armor human very_rare }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_sword"
 	slot = weapon
 }
 starnut_sword = { 
@@ -252,7 +251,7 @@ starnut_sword = {
 	quality = 4
 	flags = { very_rare darknut sword troops_morale }
 	stacking = no
-	picture = "GFX_sword_of_heroes"
+	picture = "GFX_darknut_heavy"
 	slot = weapon
 }
 ages_bulwark = { 
@@ -309,7 +308,7 @@ silverscale_spear = {
 	}
 	flags = { combat_weapon spear zora }
 	stacking = no
-	picture = "GFX_spear
+	picture = "GFX_silverscale_spear
 	slot = weapon
 }
 lightscale_trident = {
@@ -326,10 +325,38 @@ lightscale_trident = {
 	}
 	flags = { combat_weapon spear zora }
 	stacking = no
-	picture = "GFX_sword_T3_glow_purple"
+	picture = "GFX_lightscale_trident"
 	slot = weapon
 }
 ### Goron weapons ###
+stone_smasher = {
+	monthly_character_prestige = 0.50
+	martial = 2
+	combat_rating = 1
+	quality = 2
+	active = {
+		is_adult = yes
+		culture_group = goron_group
+	}
+	flags = { combat_weapon great_sword goron }
+	stacking = no
+	picture = "GFX_stone_smasher"
+	slot = weapon
+}
+boulder_breaker = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 2
+	quality = 3
+	active = {
+		is_adult = yes
+		culture_group = goron_group
+	}
+	flags = { combat_weapon great_sword goron }
+	stacking = no
+	picture = "GFX_boulder_breaker"
+	slot = weapon
+}
 biggoron_knife = {
 	monthly_character_prestige = 0.75
 	martial = 3
@@ -344,7 +371,7 @@ biggoron_knife = {
 	}
 	flags = { combat_weapon great_sword goron }
 	stacking = no
-	picture = "GFX_sword_T3_glow_purple"
+	picture = "GFX_biggoron_knife"
 	slot = weapon
 }
 ### Lfos Weapons ###
@@ -359,7 +386,7 @@ enhanced_spear = {
 	}
 	flags = { combat_weapon spear lfos }
 	stacking = no
-	picture = "GFX_sword_T1"
+	picture = "GFX_enhanced_lizal_spear"
 	slot = weapon
 }
 forked_spear = {
@@ -373,7 +400,7 @@ forked_spear = {
 	}
 	flags = { combat_weapon spear lfos }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_forked_spear"
 	slot = weapon
 }
 forked_boomerang = {
@@ -387,7 +414,7 @@ forked_boomerang = {
 	}
 	flags = { combat_weapon sword lfos }
 	stacking = no
-	picture = "GFX_sword_T1"
+	picture = "GFX_forked_boomerang"
 	slot = weapon
 }
 tri_boomerang = {
@@ -401,7 +428,7 @@ tri_boomerang = {
 	}
 	flags = { combat_weapon sword lfos }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_forked_boomerang"
 	slot = weapon
 }
 reinforced_lizal_bow = {
@@ -415,7 +442,7 @@ reinforced_lizal_bow = {
 	}
 	flags = { combat_weapon bow lfos }
 	stacking = no
-	picture = "GFX_sword_T1"
+	picture = "GFX_tier_1_bow"
 	slot = weapon
 }
 steel_lizal_bow = {
@@ -429,7 +456,7 @@ steel_lizal_bow = {
 	}
 	flags = { combat_weapon bow lfos }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_tier_2_bow"
 	slot = weapon
 }
 ### Blin weapons ###
@@ -444,7 +471,7 @@ spiked_club = {
 	}
 	flags = { combat_weapon sword }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_spiked_club"
 	slot = weapon
 }
 dragonbone_club = {
@@ -458,7 +485,7 @@ dragonbone_club = {
 	}
 	flags = { combat_weapon sword }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_dragonbone_club"
 	slot = weapon
 }
 spike_spear = {
@@ -472,7 +499,7 @@ spike_spear = {
 	}
 	flags = { combat_weapon spear }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFXspiked_spear"
 	slot = weapon
 }
 dragonbone_spear = {
@@ -486,7 +513,7 @@ dragonbone_spear = {
 	}
 	flags = { combat_weapon spear }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFXdragonbone_spear"
 	slot = weapon
 }
 spiked_bow = {
@@ -500,7 +527,7 @@ spiked_bow = {
 	}
 	flags = { combat_weapon bow }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_sword"
 	slot = weapon
 }
 dragon_bone_bow = {
@@ -514,7 +541,7 @@ dragon_bone_bow = {
 	}
 	flags = { combat_weapon bow }
 	stacking = no
-	picture = "GFX_sword_T2"
+	picture = "GFX_sword"
 	slot = weapon
 }
 ### Yiga Clan ###
@@ -529,7 +556,7 @@ windcleaver = {
 	}
 	flags = { combat_weapon great_sword yiga_clan }
 	stacking = no
-	picture = "GFX_sword_T3_glow_purple"
+	picture = "GFX_windcleaver"
 	slot = weapon
 }
 duplex_bow = {
@@ -543,7 +570,7 @@ duplex_bow = {
 	}
 	flags = { combat_weapon bow yiga_clan }
 	stacking = no
-	picture = "GFX_sword_T3_glow_purple"
+	picture = "GFX_tier_3_bow"
 	slot = weapon
 }
 demon_carver = {
@@ -557,7 +584,7 @@ demon_carver = {
 	}
 	flags = { combat_weapon sword yiga_clan }
 	stacking = no
-	picture = "GFX_sword_T3_glow_purple"
+	picture = "GFX_demon_carver"
 	slot = weapon
 }
 ### Elemental Weapons ###
@@ -571,7 +598,7 @@ ice_rod = {
 	}
 	flags = { elemental_frost rare combat_weapon rod }
 	stacking = no
-	picture = "GFX_sword_T3_glow_green"
+	picture = "GFX_ice_rod"
 	slot = scepter
 }
 flame_rod = {
@@ -584,7 +611,7 @@ flame_rod = {
 	}
 	flags = { elemental_flame rare combat_weapon rod }
 	stacking = no
-	picture = "GFX_sword_T3_glow_green"
+	picture = "GFX_flame_rod"
 	slot = scepter
 }
 thunder_rod = {
@@ -597,7 +624,7 @@ thunder_rod = {
 	}
 	flags = { elemental_thunder rare combat_weapon rod }
 	stacking = no
-	picture = "GFX_sword_T3_glow_green"
+	picture = "GFX_thunder_rod"
 	slot = scepter
 }
 frostblade = {
@@ -610,7 +637,7 @@ frostblade = {
 	}
 	flags = { elemental_frost very_rare combat_weapon sword }
 	stacking = no
-	picture = "GFX_sword_T3_glow_green"
+	picture = "GFX_frostblade"
 	slot = weapon
 }
 great_frostblade = {
@@ -623,7 +650,7 @@ great_frostblade = {
 	}
 	flags = { elemental_frost very_rare combat_weapon great_sword }
 	stacking = no
-	picture = "GFX_sword_T3_glow_green"
+	picture = "GFX_great_frostblade"
 	slot = weapon
 }
 frostspear = {
@@ -633,7 +660,7 @@ frostspear = {
 	quality = 4
 	flags = { elemental_frost very_rare combat_weapon spear }
 	stacking = no
-	picture = "GFX_spear_of_destiny"
+	picture = "GFX_frostspear"
 	slot = weapon
 }
 flameblade = {
@@ -646,7 +673,7 @@ flameblade = {
 	}
 	flags = { elemental_flame very_rare combat_weapon sword }
 	stacking = no
-	picture = "GFX_sword_T3_glow_red"
+	picture = "GFX_flameblade"
 	slot = weapon
 }
 great_flameblade = {
@@ -659,7 +686,7 @@ great_flameblade = {
 	}
 	flags = { elemental_flame very_rare combat_weapon great_sword }
 	stacking = no
-	picture = "GFX_sword_T3_glow_red"
+	picture = "GFX_great_flameblade"
 	slot = weapon
 }
 flamespear = {
@@ -672,7 +699,7 @@ flamespear = {
 	}
 	flags = { elemental_flame very_rare combat_weapon spear }
 	stacking = no
-	picture = "GFX_spear_of_destiny"
+	picture = "GFX_flamespear"
 	slot = weapon
 }
 thunderblade= {
@@ -685,7 +712,7 @@ thunderblade= {
 	}
 	flags = { elemental_flame very_rare combat_weapon sword }
 	stacking = no
-	picture = "GFX_sword_T3_glow_green"
+	picture = "GFX_thunderblade"
 	slot = weapon
 }
 great_thunderblade= {
@@ -698,7 +725,7 @@ great_thunderblade= {
 	}
 	flags = { elemental_thunder very_rare combat_weapon great_sword }
 	stacking = no
-	picture = "GFX_sword_T3_glow_green"
+	picture = "GFX_great_thunderblade"
 	slot = weapon
 }
 thunderspear = {
@@ -711,7 +738,7 @@ thunderspear = {
 	}
 	flags = { elemental_thunder very_rare combat_weapon spear }
 	stacking = no
-	picture = "GFX_spear_of_destiny"
+	picture = "GFX_thunderspear"
 	slot = weapon
 }
 ### Legendary Weapon ###
@@ -725,7 +752,7 @@ thunderspear = {
 #		morale_offence = 0.2
 #		morale_defence = 0.2
 #	}
-#	active = { has_trait = hero_soul }
+#	active = { trait = hero_soul }
 #	quality = 5
 #	flags = { religious link unique sword troops_morale }
 #	stacking = no
@@ -763,7 +790,7 @@ lokomo_sword = {
 	quality = 5
 	flags = { religious spirit_good unique sword troops_morale }
 	stacking = no
-	picture = "GFX_sword_of_heroes"
+	picture = "GFX_lokomo_sword"
 	slot = weapon
 }
 picori_blade = {
@@ -814,7 +841,7 @@ fairy_sword = {
 	quality = 5
 	flags = { religious great_fairies unique sword troops_morale }
 	stacking = no
-	picture = "GFX_sword_of_heroes"
+	picture = "GFX_fairy_sword"
 	slot = weapon
 }
 ### Unique Artifacts ###
@@ -827,7 +854,7 @@ awakening_bell = {
 	flags = { unique ancient artifact wind_fish time }
 	quality = 5
 	stacking = no
-	picture = "GFX_king_davids_harp"
+	picture = "GFX_awakening_bell"
 }
 goddesss_harp = {
 	monthly_character_prestige = 0.1
@@ -844,14 +871,14 @@ goddesss_harp = {
 	quality = 5
 	flags = { religious hylia very_rare }
 	stacking = no
-	picture = "GFX_king_davids_harp"
+	picture = "GFX_goddesss_harp"
 }
 ocarina_time = {
 	monthly_character_piety = 0.1
 	monthly_character_prestige = 0.5
 	quality = 3
 	flags = { unique ancient artifact zelda time }
-	picture = "GFX_relic_box_simple"
+	picture = "GFX_ocarina"
 	stacking = no
 }
 ocarina_wind = {
@@ -859,7 +886,7 @@ ocarina_wind = {
 	monthly_character_prestige = 0.5
 	quality = 3
 	flags = { unique ancient artifact wind time }
-	picture = "GFX_relic_box_simple"
+	picture = "GFX_ocarina"
 	stacking = no
 }
 water_dragon_scale = {
@@ -891,7 +918,7 @@ scepter_of_time = {
 	quality = 5
 	flags = { religious time cia very_rare troops_morale }
 	stacking = no
-	picture = "GFX_royal_scepter"
+	picture = "GFX_scepter_time"
 	slot = scepter
 }
 gate_fragment = {
@@ -939,9 +966,41 @@ phantom_hourglass = {
 	quality = 3
 	flags = { racial oshus unique }
 	stacking = no
-	picture = "GFX_nail_of_the_true_cross"
+	picture = "GFX_phantom_hourglass"
 }
 ### Unique Weapons ###
+royal_rapier = {
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.5
+	martial = 3
+	combat_rating = 2
+	active = { 
+		is_adult = yes
+		is_female = yes
+	}
+	quality = 4
+	flags = { religious gerudo very_rare combat heroines sword }
+	stacking = no
+	picture = "GFX_royal_rapier"
+	slot = weapon
+
+
+}
+koloktoss_sword = {
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.1
+	martial = 2
+	combat_rating = 1
+	active = { 
+		is_adult = yes
+	}
+	quality = 5
+	flags = { very_rare ceremonial_weapon ancient sword }
+	stacking = no
+	picture = "GFX_koloktoss_sword"
+	slot = ceremonial_weapon
+
+}
 scimitar_heroines = {
 	monthly_character_prestige = 0.5
 	monthly_character_piety = 0.5
@@ -958,7 +1017,7 @@ scimitar_heroines = {
 	quality = 4
 	flags = { religious gerudo very_rare combat heroines sword }
 	stacking = no
-	picture = "GFX_sword_of_mohammad"
+	picture = "GFX_scimitar_heroines"
 	slot = weapon
 }
 great_eagle_bow = {
@@ -997,8 +1056,8 @@ megaton_hammer = {
 	active = {
 		OR = {
 			culture_group = goron_group
-			has_trait = hero_soul
-			has_trait = race_goron
+			trait = hero_soul
+			trait = race_goron
 		}
 		is_adult = yes
 	}
@@ -1019,7 +1078,7 @@ ghirahim = {
 	quality = 5
 	flags = { religious demon unique sword troops_morale }
 	stacking = no
-	picture = "GFX_sword_of_heroes"
+	picture = "GFX_ghirahim"
 	slot = weapon
 }
 death_sword = {
@@ -1049,7 +1108,7 @@ sword_despair = {
 	quality = 5
 	flags = { religious demon unique sword troops_morale }
 	stacking = no
-	picture = "GFX_sword_of_heroes"
+	picture = "GFX_sword_despair"
 	slot = weapon
 }
 sword_darkness = {
@@ -1064,7 +1123,7 @@ sword_darkness = {
 	quality = 5
 	flags = { religious demon unique sword troops_morale }
 	stacking = no
-	picture = "GFX_sword_of_heroes"
+	picture = "GFX_sword_darkness"
 	slot = weapon
 }
 sword_demise = {
@@ -1079,7 +1138,7 @@ sword_demise = {
 	quality = 5
 	flags = { religious demon unique sword troops_morale }
 	stacking = no
-	picture = "GFX_sword_of_heroes"
+	picture = "GFX_sword_demise"
 	slot = weapon
 }
 ### Societies ###
@@ -1094,7 +1153,7 @@ sheikah_guard_sword = {
 	}
 	flags = { sheikah very_rare combat_weapon sword }
 	stacking = no
-	picture = "GFX_spear_of_destiny"
+	picture = "GFX_sheikah_sword"
 	slot = ceremonial_weapon
 }
 sheikah_guard_great_sword = {
@@ -1107,7 +1166,7 @@ sheikah_guard_great_sword = {
 	}
 	flags = { sheikah very_rare combat_weapon great_sword }
 	stacking = no
-	picture = "GFX_spear_of_destiny"
+	picture = "GFX_sheikah_claymore"
 	slot = ceremonial_weapon
 }
 sheikah_guard_spear = {
@@ -1120,7 +1179,7 @@ sheikah_guard_spear = {
 	}
 	flags = { sheikah very_rare spear }
 	stacking = no
-	picture = "GFX_spear_of_destiny"
+	picture = "GFX_sheikah_spear"
 	slot = ceremonial_weapon
 }
 sheikah_guard_bow = {
@@ -1267,4 +1326,319 @@ rival_skull = {
 	monthly_character_prestige = 0.05
 	flags = { trophy skull }
 	picture = "GFX_saints_skull"
+}
+################
+#	Mounts	   #
+################
+###These are not specific mounts but bloodlines
+horse_epona = { #lon lon - Londas breed
+	monthly_character_prestige = 0.2
+	command_modifier = {
+		cavalry = 0.05
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+		NOR = {
+			trait = race_goron
+			trait = race_yeti
+			trait = race_yook
+			trait = huge
+		}
+	}
+	flags = { mount horse }
+	stacking = no
+	picture = "GFX_leopard_skin_cloak"
+	indestructible = yes
+	slot = mount
+}
+horse_giant = {
+	monthly_character_prestige = 0.2
+	martial = 2
+	command_modifier = {
+		cavalry = 0.05
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+		NOR = {
+			trait = race_goron
+			trait = race_yeti
+			trait = race_yook
+			trait = huge
+		}
+	}
+	flags = { mount horse }
+	stacking = no
+	picture = "GFX_leopard_skin_cloak"
+	indestructible = yes
+	slot = mount
+
+}
+horse_royal = { #tp+ hyrule
+	monthly_character_prestige = 0.2
+	command_modifier = {
+		cavalry = 0.05
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+		NOR = {
+			trait = race_goron
+			trait = race_yeti
+			trait = race_yook
+			trait = huge
+		}
+	}
+	flags = { mount horse }
+	stacking = no
+	picture = "GFX_leopard_skin_cloak"
+	indestructible = yes
+	slot = mount
+
+}
+horse_black_gerudo = { #dragmire
+	monthly_character_prestige = 0.2
+	command_modifier = {
+		cavalry = 0.05
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+		NOR = {
+			trait = race_goron
+			trait = race_yeti
+			trait = race_yook
+			trait = huge
+		}
+	}
+	flags = { mount horse }
+	stacking = no
+	picture = "GFX_leopard_skin_cloak"
+	indestructible = yes
+	slot = mount
+
+}
+horse_puini = { #madas
+	monthly_character_prestige = 0.2
+	command_modifier = {
+		cavalry = 0.05
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+		NOR = {
+			trait = race_goron
+			trait = race_yeti
+			trait = race_yook
+			trait = huge
+		}
+	}
+	flags = { mount horse }
+	stacking = no
+	picture = "GFX_leopard_skin_cloak"
+	indestructible = yes
+	slot = mount
+
+}
+horse_cathrine = { 
+	monthly_character_prestige = 0.2
+	command_modifier = {
+		cavalry = 0.05
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+		NOR = {
+			trait = race_goron
+			trait = race_yeti
+			trait = race_yook
+			trait = huge
+		}
+	}
+	flags = { mount horse }
+	stacking = no
+	picture = "GFX_leopard_skin_cloak"
+	indestructible = yes
+	slot = mount
+
+}
+horse_storm = { #saria
+	monthly_character_prestige = 0.2
+	command_modifier = {
+		cavalry = 0.05
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+		NOR = {
+			trait = race_goron
+			trait = race_yeti
+			trait = race_yook
+			trait = huge
+		}
+	}
+	flags = { mount horse }
+	stacking = no
+	picture = "GFX_leopard_skin_cloak"
+	indestructible = yes
+	slot = mount
+
+}
+dodongo_dimitri = { 
+	monthly_character_prestige = 0.2
+	command_modifier = {
+		cavalry = 0.05
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+		NOR = {
+			trait = race_goron
+			trait = race_yeti
+			trait = race_yook
+			trait = huge
+		}
+	}
+	flags = { mount horse }
+	stacking = no
+	picture = "GFX_leopard_skin_cloak"
+	indestructible = yes
+	slot = mount
+
+}
+loftwing_crimson = {
+	monthly_character_prestige = 0.2
+	monthly_character_piety = 0.2
+	command_modifier = {
+		cavalry = 0.05
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+		NOR = {
+			trait = race_goron
+			trait = race_yeti
+			trait = race_yook
+			trait = huge
+		}
+	}
+	flags = { mount horse }
+	stacking = no
+	picture = "GFX_leopard_skin_cloak"
+	indestructible = yes
+	slot = mount
+
+}
+loftwing_long_tail = {
+	monthly_character_prestige = 0.2
+	monthly_character_piety = 0.2
+	command_modifier = {
+		cavalry = 0.05
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+		NOR = {
+			trait = race_goron
+			trait = race_yeti
+			trait = race_yook
+			trait = huge
+		}
+	}
+	flags = { mount horse }
+	stacking = no
+	picture = "GFX_leopard_skin_cloak"
+	indestructible = yes
+	slot = mount
+
+}
+lord_of_the_mountain = { #actually is a singular mount, but it's imortal
+	monthly_character_prestige = 0.2
+	monthly_character_piety = 0.2
+	command_modifier = {
+		cavalry = 0.05
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+		NOR = {
+			trait = race_goron
+			trait = race_yeti
+			trait = race_yook
+			trait = huge
+		}
+	}
+	flags = { mount horse }
+	stacking = no
+	picture = "GFX_leopard_skin_cloak"
+	indestructible = yes
+	slot = mount
+
+}
+bear = {
+	monthly_character_prestige = 0.7
+	command_modifier = {
+		cavalry = 0.05
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+		NOR = {
+			trait = race_goron
+			trait = race_yeti
+			trait = race_yook
+			trait = huge
+		}
+	}
+	flags = { mount horse }
+	stacking = no
+	picture = "GFX_leopard_skin_cloak"
+	indestructible = yes
+	slot = mount
+
+}
+pegasus_horned = {
+	monthly_character_prestige = 0.2
+	command_modifier = {
+		cavalry = 0.05
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+		NOR = {
+			trait = race_goron
+			trait = race_yeti
+			trait = race_yook
+			trait = huge
+		}
+	}
+	flags = { mount horse }
+	stacking = no
+	picture = "GFX_leopard_skin_cloak"
+	indestructible = yes
+	slot = mount
+
+}
+pegasus_black = {
+	monthly_character_prestige = 0.2
+	command_modifier = {
+		cavalry = 0.05
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+		NOR = {
+			trait = race_goron
+			trait = race_yeti
+			trait = race_yook
+			trait = huge
+		}
+	}
+	flags = { mount horse }
+	stacking = no
+	picture = "GFX_leopard_skin_cloak"
+	indestructible = yes
+	slot = mount
+
 }
