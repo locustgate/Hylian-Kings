@@ -20,7 +20,7 @@ goddesses_religion = {
 		graphical_culture = westerngfx
 
 		icon = 1
-		heresy_icon = 6
+		heresy_icon = 4
 		
 		color = { 1 0.84 0}
 		
@@ -60,8 +60,8 @@ goddesses_religion = {
 	light_force = {
 		graphical_culture = mesoamericangfx
 
-		icon = 2
-		heresy_icon = 7
+		icon = 1
+		heresy_icon = 4
 		
 		color = { 1 1 0 }
 		parent = golden_goddesses 
@@ -95,8 +95,8 @@ goddesses_religion = {
 	celestial_signs = {
 		graphical_culture = westerngfx
 
-		icon = 2
-		heresy_icon = 7
+		icon = 1
+		heresy_icon = 4
 		
 		color = { 0.6 0.6 1 }
 		parent = golden_goddesses 
@@ -127,8 +127,8 @@ goddesses_religion = {
 	gamelon_rod = {
 		graphical_culture = westerngfx
 
-		icon = 2
-		heresy_icon = 7
+		icon = 1
+		heresy_icon = 4
 		
 		color = { 0.6 0.6 1 }
 		parent = golden_goddesses 
@@ -156,8 +156,8 @@ goddesses_religion = {
 	heavenly_goddesses = {#hanman
 		graphical_culture = mongolgfx
 
-		icon = 1
-		heresy_icon = 7
+		icon = 2
+		heresy_icon = 4
 		
 		color = { 0.6 0.6 1 }
 
@@ -236,8 +236,8 @@ goddesses_religion = {
 #	western_goddesses = {
 #		graphical_culture = muslimgfx
 #
-#		icon = 1
-#		heresy_icon = 6
+#		icon = 3
+#		heresy_icon = 4
 #		
 #		color = { 1 0.84 0}
 #		
@@ -274,8 +274,8 @@ goddesses_religion = {
 	hylia_religion = {
 		graphical_culture = norsegfx
 
-		icon = 2
-		heresy_icon = 7
+		icon = 5
+		heresy_icon = 6
 		
 		color = { 0.63 0.13 0.94 }
 		
@@ -305,8 +305,8 @@ goddesses_religion = {
 	}
 	sheikahism_nihilism = {
 		graphical_culture = westerngfx
-		icon = 2
-		heresy_icon = 7
+		icon = 7
+		heresy_icon = 8
 		
 		color = { 0.85 0.75 0.85 }
 		
@@ -336,8 +336,8 @@ goddesses_religion = {
 	sheikahism = {
 		graphical_culture = westerngfx
 		parent = sheikahism_nihilism
-		icon = 2
-		heresy_icon = 7
+		icon = 7
+		heresy_icon = 8
 		
 		color = { 0.85 0.75 0.85 }
 		
@@ -369,7 +369,7 @@ goddesses_religion = {
 		graphical_culture = mesoamericangfx
 
 		icon = 1
-		heresy_icon = 6
+		heresy_icon = 4
 		
 		color = { 0.93 0.86 0.51 }
 
@@ -416,8 +416,8 @@ guardian_deity = {
 	water_spirit = {
 	graphical_culture = norsegfx
 
-		icon = 14
-		heresy_icon = 15
+		icon = 9
+		heresy_icon = 10
 		
 		color = { 0 0 1 }
 
@@ -446,8 +446,8 @@ guardian_deity = {
 		graphical_culture = westerngfx
 		parent = water_spirit
 
-		icon = 14
-		heresy_icon = 15
+		icon = 9
+		heresy_icon = 10
 		
 		color = { 0 0 1 }
 
@@ -474,8 +474,8 @@ guardian_deity = {
 		graphical_culture = westerngfx
 		parent = water_spirit
 
-		icon = 14
-		heresy_icon = 15
+		icon = 9
+		heresy_icon = 10
 		
 		color = { 0.49 0.42 0.42 }
 
@@ -504,8 +504,8 @@ guardian_deity = {
 		graphical_culture = norsegfx
 		parent = water_spirit
 
-		icon = 11
-		heresy_icon = 12
+		icon = 9
+		heresy_icon = 10
 		
 		color = { 1 0.39 0.28 }
 
@@ -528,8 +528,8 @@ guardian_deity = {
 	great_deku = {
 		graphical_culture = indiangfx
 
-		icon = 22
-		heresy_icon = 23
+		icon = 11
+		heresy_icon = 12
 		
 		color = { 0.13 0.55 0.13 }
 
@@ -560,8 +560,8 @@ guardian_deity = {
 	great_maku = {
 		graphical_culture = indiangfx
 
-		icon = 24
-		heresy_icon = 25
+		icon = 13
+		heresy_icon = 14
 		
 		color = { 0.6 0.8 0.2 }
 
@@ -594,8 +594,8 @@ guardian_deity = {
 		graphical_culture = norsegfx
 		parent=great_maku
 
-		icon = 24
-		heresy_icon = 25
+		icon = 13
+		heresy_icon = 14
 		
 		color = { 0.6 0.8 0.2 }
 
@@ -628,8 +628,8 @@ guardian_deity = {
 		graphical_culture = westerngfx
 		parent=great_maku
 
-		icon = 24
-		heresy_icon = 25
+		icon = 13
+		heresy_icon = 14
 		
 		color = { 0.6 0.8 0.2 }
 
@@ -662,8 +662,8 @@ guardian_deity = {
 		graphical_culture = westerngfx
 		parent=great_maku
 
-		icon = 24
-		heresy_icon = 25
+		icon = 13
+		heresy_icon = 14
 		
 		color = { 0.6 0.8 0.2 }
 
@@ -708,8 +708,8 @@ minor_deity = {
 	great_fairies = {
 		graphical_culture = indiangfx
 
-		icon = 20
-		heresy_icon = 21
+		icon = 1
+		heresy_icon = 4
 		
 		color = { 1 0.75 0.8 }
 
@@ -740,8 +740,8 @@ minor_deity = {
 	oshus_religion = {
 		graphical_culture = norsegfx
 
-		icon = 49
-		heresy_icon = 50
+		icon = 15
+		heresy_icon = 16
 		
 		color = { 0.5 1 0.83 }
 		
@@ -766,8 +766,8 @@ minor_deity = {
 	wind_fish_religion = {
 		graphical_culture = westerngfx
 
-		icon = 11
-		heresy_icon = 12
+		icon = 24
+		heresy_icon = 25
 		
 		color = { 0.68 0.85 0.9 }
 
@@ -789,8 +789,8 @@ minor_deity = {
 #	spirits_good = {
 #		graphical_culture = westerngfx
 #
-#		icon = 2
-#		heresy_icon = 7
+#		icon = 34
+#		heresy_icon = 34
 #		
 #		color = { 0.8 0.8 0.6 }
 #
@@ -816,8 +816,8 @@ minor_deity = {
 #	gerudo_goddess = {
 #		graphical_culture = mongolgfx
 #
-#		icon = 3
-#		heresy_icon = 8
+#		icon = 22
+#		heresy_icon = 23
 #
 #		
 #		color = { 0.7 0.13 0.13 }
@@ -857,8 +857,8 @@ goron_religions = {
 	mother_mountain = {
 		graphical_culture = norsegfx
 
-		icon = 15
-		heresy_icon = 14
+		icon = 17
+		heresy_icon = 18
 		
 		color = { 1 0.55 0}	
 
@@ -886,8 +886,8 @@ goron_religions = {
 		
 
 
-		icon = 23
-		heresy_icon = 24
+		icon = 19
+		heresy_icon = 20
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -914,8 +914,8 @@ goron_religions = {
 	earth_spirits = {
 		graphical_culture = norsegfx
 
-		icon = 15
-		heresy_icon = 14
+		icon = 19
+		heresy_icon = 20
 		
 		color = { 1 0.55 0}	
 
@@ -943,8 +943,8 @@ goron_religions = {
 		parent = fire_spirit
 
 
-		icon = 15
-		heresy_icon = 14
+		icon = 17
+		heresy_icon = 18
 		
 		color = { 1 0.65 0}	
 
@@ -972,8 +972,8 @@ goron_religions = {
 		graphical_culture = norsegfx
 		parent = fire_spirit
 
-		icon = 15
-		heresy_icon = 14
+		icon = 17
+		heresy_icon = 18
 		
 		color = { 1 0.65 0}	
 
@@ -1002,8 +1002,8 @@ goron_religions = {
 		graphical_culture = norsegfx
 		parent = fire_spirit
 
-		icon = 15
-		heresy_icon = 14
+		icon = 17
+		heresy_icon = 18
 		
 		color = { 1 0.65 0}	
 
@@ -1037,8 +1037,8 @@ spirit_group = {
 	jungle_spirits = {
 		graphical_culture = indiangfx
 
-		icon = 15
-		heresy_icon = 14
+		icon = 20
+		heresy_icon = 20
 		
 		color = { 1 0.65 0}	
 
@@ -1057,10 +1057,8 @@ spirit_group = {
 	wind_spirits_reformed = {
 		graphical_culture = mongolgfx
 		
-
-
-		icon = 23
-		heresy_icon = 24
+		icon = 24
+		heresy_icon = 25
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -1086,8 +1084,8 @@ spirit_group = {
 	wind_spirits = {
 		graphical_culture = norsegfx
 
-		icon = 11
-		heresy_icon = 12
+		icon = 24
+		heresy_icon = 25
 		
 		color = { 0.4 0.58 0.93 }
 
@@ -1112,8 +1110,8 @@ spirit_group = {
 		graphical_culture = westerngfx
 		parent=wind_spirits
 
-		icon = 11
-		heresy_icon = 12
+		icon = 24
+		heresy_icon = 25
 		
 		color = { 0.4 0.58 0.93 }
 
@@ -1153,7 +1151,7 @@ demon_religion = {
 	demise_religion = {
 		graphical_culture = norsegfx
 
-		icon = 27
+		icon = 28
 		heresy_icon = 28
 		
 		color = { 1 1 1 }
@@ -1191,8 +1189,8 @@ demon_religion = {
 	vaati_religion = {
 		graphical_culture = mesoamericangfx
 
-		icon = 27
-		heresy_icon = 28
+		icon = 29
+		heresy_icon = 29
 		
 		color = { 0.83 0.83 0.83 }
 
@@ -1265,8 +1263,8 @@ demon_religion = {
 	uncle_rupee_religion = {
 		graphical_culture = indiangfx
 
-		icon = 27
-		heresy_icon = 28
+		icon = 30
+		heresy_icon = 30
 		
 		color = { 0.48 0.99 0 }
 
@@ -1297,8 +1295,8 @@ demon_religion = {
 	bellum_religion = {
 		graphical_culture = norsegfx
 
-		icon = 49
-		heresy_icon = 50
+		icon = 31
+		heresy_icon = 31
 		
 		color = { 0.94 0.9 0.55 }
 		
@@ -1335,8 +1333,8 @@ demon_religion = {
 	baga_tree = {
 		graphical_culture = indiangfx
 
-		icon = 24
-		heresy_icon = 25
+		icon = 32
+		heresy_icon = 32
 		
 		color = { 0 0.39 0 }	
 		
@@ -1370,8 +1368,8 @@ demon_religion = {
 	malladus_religion = {
 		graphical_culture = norsegfx
 
-		icon = 24
-		heresy_icon = 25
+		icon = 33
+		heresy_icon = 33
 		
 		color = { 0 1 0}	
 
@@ -1417,8 +1415,8 @@ doctrine = {
 	wizzrobe_doctrine = {
 		graphical_culture = muslimgfx
 
-		icon = 11
-		heresy_icon = 12
+		icon = 35
+		heresy_icon = 36
 
 		color = { 0.8 0.36 0.36 }
 
@@ -1450,8 +1448,8 @@ doctrine = {
 	darknut_doctrine = {
 		graphical_culture = westerngfx
 
-		icon = 11
-		heresy_icon = 12
+		icon = 37
+		heresy_icon = 38
 		
 		color = { 0.8 0.7 0.5 }
 
@@ -1481,8 +1479,8 @@ doctrine = {
 	pirate_doctrine = {
 		graphical_culture = westerngfx
 
-		icon = 49
-		heresy_icon = 50
+		icon = 39
+		heresy_icon = 39
 		
 		color = { 0.25 0.41 0.88 }
 		
@@ -1506,8 +1504,8 @@ doctrine = {
 	merchant_doctrine = { #rupee way
 		graphical_culture = westerngfx
 
-		icon = 49
-		heresy_icon = 50
+		icon = 50
+		heresy_icon = 51
 		
 		color = { 0.25 0.41 0.88 }
 		
@@ -1542,8 +1540,8 @@ alien_religion = {
 	goddesses_lorule = {
 		graphical_culture = westerngfx
 
-		icon = 1
-		heresy_icon = 6
+		icon = 40
+		heresy_icon = 41
 		
 		color = { 1 0.84 0}
 		
@@ -1579,8 +1577,8 @@ alien_religion = {
 		parent = goddesses_lorule
 		graphical_culture = norsegfx
 
-		icon = 2
-		heresy_icon = 7
+		icon = 40
+		heresy_icon = 41
 		
 		color = { 0.63 0.13 0.94 }
 		
@@ -1613,8 +1611,8 @@ alien_religion = {
 		parent = goddesses_lorule
 		graphical_culture = norsegfx
 
-		icon = 2
-		heresy_icon = 7
+		icon = 40
+		heresy_icon = 41
 		
 		color = { 0.63 0.13 0.94 }
 		
@@ -1645,8 +1643,8 @@ alien_religion = {
 	parent = goddesses_lorule
 		graphical_culture = norsegfx
 
-		icon = 2
-		heresy_icon = 7
+		icon = 40
+		heresy_icon = 41
 		
 		color = { 0.63 0.13 0.94 }
 		
@@ -1678,8 +1676,8 @@ alien_religion = {
 	sol_religion = {
 		graphical_culture = mesoamericangfx
 
-		icon = 49
-		heresy_icon = 50
+		icon = 42
+		heresy_icon = 42
 		
 		color = { 1 1 0.88 }
 		
@@ -1706,8 +1704,8 @@ alien_religion = {
 	goddess_of_time = {
 		graphical_culture = norsegfx
 
-		icon = 2
-		heresy_icon = 7
+		icon = 43
+		heresy_icon = 43
 		
 		color = { 0.93 0.9 0.6 }
 
@@ -1741,8 +1739,8 @@ alien_religion = {
 		graphical_culture = norsegfx
 		parent = goddess_of_time
 
-		icon = 10
-		heresy_icon = 12
+		icon = 43
+		heresy_icon = 43
 		
 		color = { 0.6 0.2 0.8 }
 		
@@ -1773,8 +1771,8 @@ alien_religion = {
 		graphical_culture = norsegfx
 		parent = goddess_of_time
 
-		icon = 11
-		heresy_icon = 12
+		icon = 43
+		heresy_icon = 43
 		
 		color = { 0.69 0.77 0.87 }
 

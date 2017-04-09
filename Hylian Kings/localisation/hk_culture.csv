@@ -329,6 +329,49 @@ count_zuna;Haty-a;;;;;;;;;;;;;x
 count_female_zuna;Haty-a;;;;;;;;;;;;;x
 baron_zuna;Nobleman;;;;;;;;;;;;;x
 baron_female_zuna;Noblewoman;;;;;;;;;;;;;x
+##blin
+emperor_blin;Warlord;;;;;;;;;;;;x
+emperor_female_blin;Warlord;;;;;;;;;;;;;x
+emperor_title_ruler_consort_blin;King Consort;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_blin;Queen Consort;;;;;;;;;;;;;x
+king_blin;Great Chief;;;;;;;;;;;;;;;x
+king_female_blin;Great Chief;;;;;;;;;;;;;x
+king_title_ruler_consort_blin;Great Husband;;;;;;;;;;;;;;;x
+king_female_title_ruler_consort_blin;Great Wife;;;;;;;;;;;;;x
+duke_blin;Chief;;;;;;;;;;;;;x
+duke_female_blin;Chief;;;;;;;;;;;;;x
+count_blin;Boss;;;;;;;;;;;;;x
+count_female_blin;Boss;;;;;;;;;;;;;x
+baron_blin;Boss;;;;;;;;;;;;;x
+baron_female_blin;Boss;;;;;;;;;;;;;x
+##lfos
+emperor_lfos;Warchief;;;;;;;;;;;;x
+emperor_female_lfos;Warchief;;;;;;;;;;;;;x
+emperor_title_ruler_consort_lfos;King Consort;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_lfos;Queen Consort;;;;;;;;;;;;;x
+king_lfos;Great Chief;;;;;;;;;;;;;;;x
+king_female_lfos;Great Chief;;;;;;;;;;;;;x
+king_title_ruler_consort_lfos;Great Husband;;;;;;;;;;;;;;;x
+king_female_title_ruler_consort_lfos;Great Wife;;;;;;;;;;;;;x
+duke_lfos;Chief;;;;;;;;;;;;;x
+duke_female_lfos;Chief;;;;;;;;;;;;;x
+count_lfos;Clan Father;;;;;;;;;;;;;x
+count_female_lfos;Clan Mother;;;;;;;;;;;;;x
+##shiekah
+emperor_blin;Shadow King;;;;;;;;;;;;x
+emperor_female_blin;Shadow Queen;;;;;;;;;;;;;x
+emperor_title_ruler_consort_blin;King Consort;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_blin;Queen Consort;;;;;;;;;;;;;x
+king_blin;Great Chief;;;;;;;;;;;;;;;x
+king_female_blin;Great Chief;;;;;;;;;;;;;x
+king_title_ruler_consort_blin;Great Husband;;;;;;;;;;;;;;;x
+king_female_title_ruler_consort_blin;Great Wife;;;;;;;;;;;;;x
+duke_blin;Tribe Chief;;;;;;;;;;;;;x
+duke_female_blin;Tribe Chief;;;;;;;;;;;;;x
+count_blin;Chief;;;;;;;;;;;;;x
+count_female_blin;Chief;;;;;;;;;;;;;x
+baron_blin;Clan Father;;;;;;;;;;;;;x
+baron_female_blin;Clan Mother;;;;;;;;;;;;;x
 ##Alien
 king_title_ruler_consort_twili;King Consort;;;;;;;;;;;;;x
 king_title_ruler_consort_female_twili;Queen Consort;;;;;;;;;;;;;x
@@ -450,11 +493,11 @@ duchy_of_bokoblin;Tribe of;;;;;;;;;;;;;x
 county_bokoblin;Gang;;;;;;;;;;;;;x
 county_of_bokoblin;Gang of;;;;;;;;;;;;;x
 #lfos
-empire_lfos;Kingdom;;;;;;;;;;;;;x
-empire_of_lfos;Kingdom of;;;;;;;;;;;;;x
-kingdom_lfos;Warband;;;;;;;;;;;;;x
-kingdom_of_lfos;Warband of;;;;;;;;;;;;;x
-duchy_lfos;Great Tribe;;;;;;;;;;;;x
-duchy_of_lfos;Great Tribe of;;;;;;;;;;;;;x
-county_lfos;Tribe;;;;;;;;;;;;;x
-county_of_lfos;Tribe of;;;;;;;;;;;;;x
+empire_lfos;Warband;;;;;;;;;;;;;x
+empire_of_lfos;Warband of;;;;;;;;;;;;;x
+kingdom_lfos;Great Tribe;;;;;;;;;;;;;x
+kingdom_of_lfos;Great Tribe of;;;;;;;;;;;;;x
+duchy_lfos;Tribe;;;;;;;;;;;;x
+duchy_of_lfos;Tribe of;;;;;;;;;;;;;x
+county_lfos;Clan;;;;;;;;;;;;;x
+county_of_lfos;Clan of;;;;;;;;;;;;;x
