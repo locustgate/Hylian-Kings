@@ -18,15 +18,15 @@ hylian_group = {
 		#LA
 			Tarin_Tarin Papahl_Papahl Richard_Richard
 		#OoT
-			Rauru_Rauru Kaepora_Kaepora Gaebora_Gaebora Pierre_Pierre Bonooru_Bonooru Sakon_Sakon Ingo_Ingo Talon_Talon Dampé_Dampé Flat_Flat Sharp_Sharp
+			Rauru_Rauru Kaepora_Kaepora Gaebora_Gaebora Pierre_Pierre Bonooru_Bonooru Sakon_Sakon Ingo_Ingo Talon_Talon Dampé_Dampe Flat_Flat Sharp_Sharp Shiro_Shiro Jiro_Jiro Ichiro_Ichiro Sabooro_Sabooro
 		#MM
-			Kamaro_Kamaro Tingle_Tingle Baito_Baito Brac_Brac Bremor_Bremor Viscen_Viscen Doyle_Doyle Guru-Guru_Guru-Guru Guru_Guru Darling_Darling Jim_Jim Mack_Mack Mutoh_Mutoh Zubora_Zubora Gabora_Gabora Grog_Grog Shiro_Shiro
+			Kamaro_Kamaro Tingle_Tingle Baito_Baito Brent_Brent Brac_Brac Bremor_Bremor Viscen_Viscen Doyle_Doyle Guru-Guru_Guru-Guru Guru_Guru Darling_Darling Jim_Jim Mack_Mack Mutoh_Mutoh Zubora_Zubora Gabora_Gabora Grog_Grog Tortus_Tortus
 		#OoA
-			Ralph_Ralph Adlar_Adlar Bipin_Bipin Cheval_Cheval Dekadin_Dekadin Patch_Patch Pippin_Pippin Rafton_Rafton Thomas_Thomas Tokkey_Tokkey
+			Ralph_Ralph Adlar_Adlar Bipin_Bipin Cheval_Cheval Dekadin_Dekadin Patch_Patch Pippin_Pippin Rafton_Rafton Thomas_Thomas Tokkey_Tokkey Stockwell_Stockwell
 		#OoS
 			Oji_Oji Sokra_Sokra
 		#WW
-			Beedle_Beedle Daphnes_Daphnes Nohan_Nohan Nohansen_Nohansen Gonzo_Gonzo Loot_Loot Mako_Mako Niko_Niko Nudge_Nudge Senza_Senza Zuko_Zuko Abe_Abe Joel_Joel Mesa_Mesa Orca_Orca Sturgeon_Sturgeon Zill_Zill Anton_Anton Candy_Candy Dampa_Dampa Garrickson_Garrickson Garrick_Garrick Gossack_Gossack Gummy_Gummy Kamo_Kamo Kane_Kane Ivan_Ivan Jin_Jin Jan_Jan Jun-Roberto_Jun-Roberto Jun_Jun Roberto_Roberto Kreeb_Kreeb Lenzo_Lenzo Salvatore_Salvatore Sam_Sam Tott_Tott Carlov_Carlov Manny_Manny Ankle_Ankle Knuckle_Knuckle David_David
+			Beedle_Beedle Terry_Terry Daphnes_Daphnes Nohan_Nohan Nohansen_Nohansen Gonzo_Gonzo Loot_Loot Trejo_Trejo Mako_Mako Niko_Niko Nudge_Nudge Senza_Senza Zuko_Zuko Abe_Abe Joel_Joel Mesa_Mesa Orca_Orca Sturgeon_Sturgeon Zill_Zill Anton_Anton Candy_Candy Dampa_Dampa Garrickson_Garrickson Garrick_Garrick Gossack_Gossack Gummy_Gummy Kamo_Kamo Kane_Kane Ivan_Ivan Jin_Jin Jan_Jan Jun-Roberto_Jun-Roberto Jun_Jun Roberto_Roberto Kreeb_Kreeb Lenzo_Lenzo Salvatore_Salvatore Sam_Sam Tott_Tott Carlov_Carlov Manny_Manny Ankle_Ankle Knuckle_Knuckle David_David
 		#MC
 			Gorman_Gorman Daltus_Daltus Potho_Potho Smith_Smith Percy_Percy Eenie_Eenie Meenie_Meenie Gustaf_Gustaf Baris_Baris Bindle_Bindle Borlov_Borlov Lolly_Lolly Brocco_Brocco Erik_Erik Gepper_Gepper Harrison_Harrison Herb_Herb Klaus_Klaus Marshall_Marshall Rem_Rem Romio_Romio Satchel_Satchel Wheaton_Wheaton Simon_Simon Stamp_Stamp Edmond_Edmond Guts_Guts Martin_Martin Joe_Joe Match_Match Monty_Monty Swiftblade_Swiftblade Grayblade_Grayblade Grimblade_Grimblade Scarblade_Scarblade Splitblade_Splitblade Greatblade_Greatblade
 		#TP
@@ -81,7 +81,7 @@ hylian_group = {
 		#ALttP
 			Maple_Maple Syrup_Syrup
 		#LA
-			Marin_Marin Tracy_Tracy Martha_Martha
+			Marin_Marin Tracy_Tracy Martha_Martha Christine_Christine
 		#OoT
 			Mamamu_Mamamu Malon_Malon Anju_Anju Epona_Epona
 		#MM
@@ -91,7 +91,7 @@ hylian_group = {
 		#OoS
 			Din_Din Holly_Holly
 		#WW
-			Tetra_Tetra Aryll_Aryll Rose_Rose Sue-Belle_Sue-Belle Sue_Sue Belle_Belle Gillian_Gillian Joanna_Joanna Potova_Potova Linda_Linda Maggie_Maggie Mila_Mila Minenco_Minenco Missy_Missy Marie_Marie Pompie_Pompie Vera_Vera
+			Tetra_Tetra Aryll_Aryll Rose_Rose Sue-Belle_Sue-Belle Sue_Sue Belle_Belle Gillian_Gillian Joanna_Joanna Potova_Potova Linda_Linda Maggie_Maggie Mila_Mila Minenco_Minenco Missy_Missy Marie_Marie Pompie_Pompie Vera_Vera Kashiko_Kashiko
 		#FSA
 			Sweetie_Sweetie Iris_Iris
 		#MC
@@ -939,7 +939,7 @@ western_human = {
 		
 		male_names = {
 		#PH
-			Kayo_Kayo Zazu_Zazu Mutoh_Mutoh Brant_Brant Bremeur_Bremeur Doylan_Doylan Max_Max
+			Kayo_Kayo Zazu_Zazu Mutoh_Mutoh Brant_Brent Bremeur_Bremor Doylan_Doyle Max_Mack
 		#Random
 			Eox Ichero Jero Saboro Shero Brak Ancle Nuckle Antony Bares Bery Bendle Borluv Karlov Krenel Dampei Daved Enie Meene Eric Geper Gormann Harrisin Hurb Jem Jol Claus Loly Marshel Hagin Poth Gustof Daltes Persy Rim Satchn Siman Stamper Stockwill Sturgin Talen Tingl Vasal Sacon Shicashi Vscern Cafei Kamaron Dotor Bartein Tortis Zuboran Gaboran Chudly Malvor Charlon Falbin Fier Jovane Purlon Soel Aurun Gulli Sahasrahlan Russo Osfalan Gonzon Makon Nikon Senzar Zukor Freedl Fuzon Hoigir McNy Lineback Nyav Salvator Alef Naro Durin Orka Ab Mesan Antwuan Candi Bandem Garrikson Gosack Gumi Niave Nieve
 		}
@@ -1100,18 +1100,72 @@ eastern_human = {
 		parent = skylofter
 
 		male_names = {
+		#LoZ
+			Linke_Link Rinku_Link
+		#ALttP
+			Sahasurara_Sahasrahla Ajina_Aginah
+		#LA
+			Richaado_Richard Talin_Tarin
+		#OoT
+			Pieru_Pierre Bonuru_Bonooru Shikashi_Shikashi Zuojin_Sakon Tailong_Talon Inge_Ingo Shapu_Sharp Furatto_Flat Danpei_Dampe Laoer_Rauru Gulugulu_Guru-Guru Gulu_Guru Shilou_Shiro Sabuluo_Sabooro Jiluo_Jiro Yichilou_Ichiro Mutuluo_Mutoh
+		#MM
+			Chinkuru_Tingle Kamaluo_Kamaro Zijie_Baito Jimu_Jim Baisen_Viscen Totasu_Tortus
+		#OoA
+			Rarufu_Ralph Adala_Adlar Pekku_Bipin Shibaru_Cheval Ripea_Patch Bekku_Pippin Aiya_Stockwell Laodun_Rafton Teji_Tokkey
+		#OoS
+			Sokura_Sokra
+		#WW
+			Dafunesu_Daphnes Kabutomu_Beedle Teli_Terry Gongzuo_Gonzo Toreho_Trejo Make_Mako  Nike_Niko Najji_Nudge Seneka_Senza Zuoke_Zuko Aburi_Abe Jiuru_Joel Massao_Mesa Shachi_Orca  Surajon_Sturgeon Ziru_Zill Andong_Anton Kyandi_Candy Danpu_Dampa Galiku_Garrick Galikusan_Garrickson Gosaku_Gossack Gama_Gummy Kameo_Kamo Kenya_Kane Yiwan_Ivan Jin_Jin Chan_Jan Jun_Jun Luobotuo_Roberto Junluobotuo_Jun-Roberto Kibou_Kreeb Genzuo_Lenzo Sarubatore_Salvatore Samu_Sam Totu_Tott Hajime_Carlov Mani_Manny Ankuru_Ankle Nakkuru_Knuckle Dawei_David Deibiddo_David
+		#MC
+			Darutasu_Daltus Gusitafu_Gustaf Geman_Gorman Tengaro_Potho Poemun_Percy Sumisu_Smith Ine_Eenie Momi_Meenie Rokkori_Brocco Bekko_Lolly Ore_Herb Luomiou_Romio Masharu_Marshall Remu_Rem Shimaro_Simon Satcheru_Satchel Kitte_Stamp Huidun_Wheaton
+		#TP
+			Fadao_Fado Korin_Colin Hanjo_Hanch Jaga_Jaggle Maluo_Malo Taluo_Talo Bao_Bo Moi_Rusl Kikoru_Coro Banzu_Barnes Lunade_Renado Shaddo_Shad Rafureru_Auru Rakka_Falbi Tobi_Fyer Chaluo_Charlo Qiludi_Chudley Qiaowani_Jovani Dancho_Purlo Oyoso_Soal
+		#PH
+			Beixian_Linebeck Nobu_Nyave Yuki_Nyeve Luomanuo_Romanos
+		#ST
+			Tetsuo_Ferrus Shirokuni_Alfonzo Rasseru_Russell
 		#SS
-			Geran_Jakamar
+			Geran_Jakamar Gepora_Gaepora Bado_Groose Arin_Bertie Rasu_Cawlin Roku_Croo Dabu_Dovos Igurusu_Eagus Sebasun_Fledge Doruko_Gondo Miho_Greba Garu_Gully Honeru_Horwell Auru_Owlan Parou_Parrow Jakuson_Peater Kikoa_Pipit Kokin_Rupin Suzuha_Sparrot Osuto_Strich Michiru_Keet Pukin_Pumm Rosuta_Rusta Doduo_Dodoh
 		#RTBToL
 			Yamori_Yamori
 		#Random
 			Rahn Khaga Lak Popoo Novay Hatitoi Xagar Novaso Xinsa Lomoi Bamira Jaluk Sukar Khago Xax Crin Xinmo Soron Phun Sour Noviga Mamir Bohn Pando Noo Lugar Saego Xipoo Pim Mamak Sar Phinmo Jalat Bamoy Poth Sansa Jalit Par Jimoi Khavosour Lagix Lapir Rok Lagik Xasar Jalak Bivoi Sanmo Sapik Nour Lagara Lago Juma Lagax Sukakik Khayt Jalim Pimik Phuman Jalir Lagin Kipoo Baek Ninmo Kisir Khahn Xanmo Khasar Pumoi Kang Lisar Hyaek Baman Lagama Paelar Lapay Lagila Jalout Samisir Soorar Nitaek Pour Xagax Sumoi Bagoi Lato Mint Samuroi Honmo Phara Xalar Lamoi Satar Har Namar Mapoo Runmo Linmo Sorat Jalix
 		}
 		female_names = {
+		#LoZ
+			Saierda_Zelda Zeruda_Zelda
+		#ALttP
+			Shiroppu_Syrup Meipuru_Maple
+		#LA
+			Masa_Martha Malin_Marin
+		#OoT
+			Shiku_Sheik Malong_Malon Angre_Anju
+		#MM
+			Jiade_Judo Marira_Marilla Kelimiya_Cremia Kurimia_Cremia Luomani_Romani Pameila_Pamela
+		#OoA
+			Anbi_Ambi Nelu_Nayru Furoru_Farore Ramin_Blossom
+		#OoS
+			Ding_Din Hori_Holly
+		#WW
+			Kaskiko_Kashiko Tetora_Tetra Ariru_Aryll Rozu_Rose Chatsubo_Sue-belle Ririan_Gillian Potofu_Potova Joina_Joanna Rinda_Linda Magi_Maggie Muru_Mila Minenko_Minenco Misae_Missy Mari_Marie Bera_Vera Popinzu_Pompie
+		#FS
+			Kosai_Iris Suiti_Sweetie
+		#MC
+			Beri_Berry Reira_Leila Kyandi_Candy Chai_Chai Chinmin_Tina Minmin_Dina Aima_Emma Jasumin_Jasmine Julieta_Julietta Jiuni_June Meru_Mel Mashi_Marcy Puruna_Pina Shira_Sheila Weiluona_Verona Jina_Gina
+		#TP
+			Besu_Beth Yiliya_Ilia Kyuri_Pergie Sala_Sera Wuli_Uli Luode_Luda Henia_Hena Rizu_Iza Ageha_Agitha Keli_Kili Hana_Hannah Mixia_Misha Tailuma_Telma Ashu_Ashei
+		#PH
+			Joanni_Joanne Jorin_Jolene Furideru_Freedle
+		#ST
+			Joinasu_Joynas
 		#SS
-			Kuko_Kukiel Arisu_Wryna
+			Kuko_Kukiel Arisu_Wryna Fai_Fi Hairia_Hylia Otaka_Goselle Hena_Henya Kurane_Karane Manda_Luv Rupia_Mallara Kunia_Orielle Jakurinu_Peatrice Fuwoni_Phoeni Jona_Piper Panan_Kina
+		#HW
+			Linkelei_Linkle Rinkuru_Linkle Rana_Lana Xia_Cia Shia_Cia
 		#LoZ TV
 			Sing_Sing
+		#HTW
+			Tetoralina_Tetralyna
 		#Random
 			Kanu Ioka Iolinu Hida Hikunada Hilla Kinida Pulina Vanali Meadana Dinay Ionili Pueka Veali Paka Kieku Kulavili Vikao Manay Pieda Viva Hivia Hiki Aivay Hikay Keala Iolili Kanao Kueva Hilli Hivil Ionay Vinia Sanay Palla Heala Hillu Pinanay Deakuelao Kivay Hieni Pinia Savay Hika Hanay Ionana Diku Vidinu Halao Kikabay Pivay Pani Killaku Kanunay Kulay Hinay Kika Killika Kueng Pavay Kaku Hani Maka Salao Mei Kaka Haka Hinina Kalal Ioal Dilaka Hanilla Kanealika Ionani Ioku Wrynika Milia Meali Dalila Sileaki Pakieni Hunu Ioli Pinineal Sinay Kadika Hilava Sakali Saku Sanu Panay Keaka Hanal Hilay Ionika Hilani Makali Pali Pika Aina 
 		}
