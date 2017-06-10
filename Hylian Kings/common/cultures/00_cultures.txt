@@ -144,7 +144,10 @@ hylian_group = {
 		
 		dukes_called_kings = no
 		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "of "	
+		male_patronym = "sen"
+		female_patronym = "sdatter"
+		prefix = no # The patronym is added as a suffix
 				
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 30
@@ -210,8 +213,10 @@ hylian_group = {
 		}
 		
 		dukes_called_kings = no
-		
-		from_dynasty_prefix = "of "
+			
+		from_dynasty_prefix = "ve "
+		male_patronym = "oglu"
+		prefix = no
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
@@ -238,8 +243,11 @@ hylian_group = {
 		female_names = {
 		Annika Jennifer Jessica Maria Lahja Tulika Sylvia Anastasia Michelle Bernedine Teddie Wiltrud Shaneace Lidia Albertine Sarita Revony Toini Martha Rebecca Selma Tahakhiro Yasmine Ashley Hilma Jolida Albena Ana Angel Anka Bozhidara Dara Bozhi Branimira Boyana Desislava Diana Donka Ektrina Eleonora Elisaveta Emiliya Eva Evangeliya Evdokiya Gabriela Galena Galina Grozda Hristina Iliana Ilina Iona Irina Kalina Katerina Klavdya Magdalena Magdalina Malina Margarita Marina Mira Nadejda Nadia Ognyana Olga Paraskeva Petya Polina Rada Radka Radoslava Rosa Rosica Rositsa Roza Rumena Ruzha Silva Silviya Simona Sofiya Stanislava Stanka Stoyanka Svetlana Tatiana Teodora Tereza Todorka Tsveta Venera Vaska Veronika Viktoriya Violeta Yana Yoana Yuliana
 
-		}		
+		}			
 		from_dynasty_prefix = "of "
+		male_patronym = "ov"
+		female_patronym = "ova"
+		prefix = no
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
@@ -268,7 +276,9 @@ hylian_group = {
 			Cassiopeia Acantha Anthea Ayla Adile Banu Beste Briseis Beyza Carme Cassandra Cagri Cemile Damla Dilara Despoina Doris Eos Elektra Elif Enise Fatos Feride Fidan Feriha Gul Gamze Gaia Gaea Hebe Helena Halide Hulya Ilkay Ipek Io Irene Jocasta Jale Kader Kismet Kalliope Kore Ligeia Lamia Leyla Lutfiye Meltem Munire Maia Medeia Nyx Nephele Naile Nehir Ozge Ozlem Oinone Ourania Pandora Phaedra Pembe Peri Rabia Rukiye Rheia Rhea Selene Semele Tethys Thalia Tulay Tahire Ulku Umut Ulviye Vahide Yagmur Yesim Urania Xanthe Zehra Zekiye Zeynep Ziynet Zubeyde Zoe Zinovia Xenia Xene Vasiliki Varvara Timothea Tasia Stavroula Sofia Sotiria Petra Natasa Nefeli
 		}
 		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "ve "
+		male_patronym = "oglu"
+		prefix = no
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
@@ -603,7 +613,10 @@ round_eared = {
 
 		}
 		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "ot "
+		male_patronym = "ov"
+		female_patronym = "ova"
+		prefix = no
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
@@ -629,7 +642,9 @@ round_eared = {
 			Cassiopeia Acantha Anthea Ayla Adile Banu Beste Briseis Beyza Carme Cassandra Cagri Cemile Damla Dilara Despoina Doris Eos Elektra Elif Enise Fatos Feride Fidan Feriha Gul Gamze Gaia Gaea Hebe Helena Halide Hulya Ilkay Ipek Io Irene Jocasta Jale Kader Kismet Kalliope Kore Ligeia Lamia Leyla Lutfiye Meltem Munire Maia Medeia Nyx Nephele Naile Nehir Ozge Ozlem Oinone Ourania Pandora Phaedra Pembe Peri Rabia Rukiye Rheia Rhea Selene Semele Tethys Thalia Tulay Tahire Ulku Umut Ulviye Vahide Yagmur Yesim Urania Xanthe Zehra Zekiye Zeynep Ziynet Zubeyde Zoe Zinovia Xenia Xene Vasiliki Varvara Timothea Tasia Stavroula Sofia Sotiria Petra Natasa Nefeli
 		}
 		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "ve "
+		male_patronym = "oglu"
+		prefix = no
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
@@ -662,7 +677,10 @@ round_eared = {
 		#Random
 			Adriana Aimara Alejandra Alicia Ana Anaclaudia Leticia Angelica Aracely Aura Beatriz Berenice Bertha Cecilia Christina Cierra Crotilda Dominga Dora Elodia Elsa Elvia Encarnacion Erendira Esmerelda Ufemia Eva Flaca Gabriela Geavonna Graciela Grizelda Guadalupe Guliana Hilda Inez Irma Ivonne Juana Juanita Katia Katiana Kristina Leahonia Leandra Lila Liliana Manuela Maria Maricruz Marilu Marlina Martha Materia Michaela Michelle Miranda Myra Nailea Ofelia Olademis Pasha Patricia Pitina Rocio Rosa Rosamar Silvia Solymar Suzelly Thalia Virdiana Xenia Xochitl Yaneisy Yanely Yedid Yizel Yolanda Abigail Yvonne Zapopa Zumac Candida Camilia Clara Chelo Debora Delia Delfina Fina Encarna Emilia Ercilia Haydee Hilaria		}
 		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "de "
+		male_patronym = "ez"
+		female_patronym = "ez"
+		prefix = yes
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
@@ -693,6 +711,8 @@ round_eared = {
 			Hena Iza Adel Amalya Amele Asnat Avigaiyil Avigal Basel Basha Batka Behira Beila Berte Bina Blima Bodhana Brancha Brandel Bryna Cesia Chaba Charnke Chavala Chavele Cherna Cisa Cypa Cypojra Davrusha Berozha Dine Dinorella Doba Dova Dreisel Dreyze Endla Enia Etke Feigel Feitel Frayda Freidel Frima Frimet Frimetta Genedel Gitshe Golde Grunnah Hadass Hadasse Hentshe Hessa Hinda Itella Itta Jachet Jenta Jente Jiszka Judys Keile Khane Khaske Kressel Leiba Libi Liebe Lilka Lipshe Loita Maidel Mati Matla Mazel Mindel Mindla Mirla Niessel Pesha Raizel Rechel Rifkele Rikel Rochel Ronna Royze Ruchla Rudel Sali Shayhdel Sheindel Sheyve Shlema Shoni Tema Temerla Toba
 		}
 		from_dynasty_prefix = "of "
+		male_patronym = "sohn"
+		female_patronym = "er" 
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
@@ -746,7 +766,10 @@ round_eared = {
 		}		
 		dukes_called_kings = no
 		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "de "
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
@@ -779,7 +802,7 @@ round_eared = {
 		#Random
 			Frill Mimi Cursilinda Fonzolina Degala Nonstille Adele Adelina Adriana Albina Alda Alfreda Alex Amanda Amaranta Angelica Andreina Annetta Beatrice Benigna Berenice Bice Brigida Carla Carmela Carmen Cecillia Caterina Chiara Cinzia Clelia Cloe Dafne Crocetta Daria Debora Delfina Domitilla Donata Elena Elda Edvige Elettra Eliana Elisabetta Felicita Fernanda Fiammetta Flora Franca Fulvia Gaia Germana Gessica Gia Gilda Gina Ilda Ileana Imelda Ines Iolanda Isotta Jolanda Lara Laura Lia Lisa Livia Loretta Ludovica Maria Mariangela Marisa Marta Michela Mirella Monica Nadia Nerina Nicoletta Nina Nunzia Ofelia Orsola Osanna Perla Pia Romana Romilda Rubina Sandra Samuela Scilla Sebastiana Selvaggia Tamara Tina
  		}
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "di "
 
 		modifier = default_culture_modifier
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
@@ -807,7 +830,10 @@ round_eared = {
 		}		
 		dukes_called_kings = no
 		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "de "
+		male_patronym = "ap "
+		female_patronym = "ferch "
+		prefix = yes
 
 		modifier = default_culture_modifier
 
@@ -831,7 +857,9 @@ round_eared = {
 		female_names = {
 		Brangain Caelia Dindrane Elaine Elyan Enide Evaine Guinevere Guinevak Igraine Iseult Nimue Laudine Lunete Lynette Lyonesse Modron Morgan Morgaus Morvydd Olwen Orgeluse Parcenet Catherine Cecile Celeste Chloe Claire Cyrielle Cyrille Daniele Dianne Dieudonnee Doriane Dorothee Edith Edmee Edwige Eleonore Elodie Elvire Estelle Esther Eugenie Eveline Fanny Felicie Felicite Fernande Florette Floriane Florine Francoise Frederique Gabrielle Genevieve Georgette Giselle Guenievre Heloise Helene Hermine Honorine Huguette Hyacinthe Ines Iris Isaure Jacinthe Jade Jeanette Jocelyn Joelle Johanne Josee Lara Laure Katell Leonie Lili Lise Livie Loane Lucie Lucile Magalie Maeva Marceline Margaux Marie Meline Melissa Nolwenn Noemie Oanez Odile Odette Pascale Paule Pauline
 		}
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "le "
+		male_patronym = "ap "
+		female_patronym = "ferch "
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 80
@@ -857,7 +885,10 @@ round_eared = {
 		
 		dukes_called_kings = yes
 		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "de "
+		male_patronym = "ap "
+		female_patronym = "ferch "
+		prefix = yes
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 80
@@ -952,7 +983,10 @@ western_human = {
 		
 		dukes_called_kings = no
 		
-		from_dynasty_prefix = "of "
+		dukes_called_kings = no
+		male_patronym = "sin"
+		female_patronym = "sdotter"
+		prefix = yes
 				
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 80
@@ -981,8 +1015,11 @@ western_human = {
 		}
 		
 		dukes_called_kings = no
-
-		from_dynasty_prefix = "of "
+		
+		dukes_called_kings = no
+		male_patronym = "sin"
+		female_patronym = "sdotter"
+		prefix = yes
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 80
@@ -1008,10 +1045,11 @@ western_human = {
 		}
 		female_names = {
 		Astrid Ada Agata Alba Alina Angela Armida Bice Bibiana Bianca Berta Carmen Carola Celeste Celia Cloe Daria Delia Donata Edda Elsa Elvira Emilia Eugenia Febe Filippa Francesca Fulvia Gia Gioa Ginevra Giosetta Gloria Graziana Irma Isa Laura Lia Lidia Loreta Luigia Maria Marina Marinella Monica Nadia Nella Ofelia Olivia Aina Alva Anita Asa Ase Aslog Bengta Berit Bodil Britta Casja Carin Cilla Dagmar Dorotea Dagny Ea Eira Elin Embla Eva Gina Gerd Gry Dunilla Hanna Heidi Helga Hulda Ida Ingegerd Irene Iris Jenni Janna Karin Karita Kia Lina Linn Liv Majananna Moa Petra Rita Sanna Siv Sylvia Thea
-		}
+		}	
 		dukes_called_kings = no
-
-		from_dynasty_prefix = "of "
+		male_patronym = "sin"
+		female_patronym = "sdotter"
+		prefix = yes
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 80
@@ -1251,7 +1289,11 @@ lost_tribe = {
 		}		
 		dukes_called_kings = no
 
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "ag "
+
+		male_patronym = "sih"
+		female_patronym = "vsieshmil"
+		prefix = no # The patronym is added as a suffix
 				
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 30
@@ -1295,8 +1337,6 @@ lost_tribe = {
 		}
 		
 		dukes_called_kings = no
-
-		from_dynasty_prefix = "of "
 				
 		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 05
@@ -1327,7 +1367,7 @@ lost_tribe = {
 		
 		dukes_called_kings = no
 		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "de "
 				
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 60
@@ -1363,8 +1403,6 @@ lost_tribe = {
 		}
 		
 		dukes_called_kings = no
-
-		from_dynasty_prefix = "of "
 				
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
@@ -1395,7 +1433,9 @@ lost_tribe = {
 		}
 		dukes_called_kings = no
 				
-		from_dynasty_prefix = "of "
+		male_patronym = "sen"
+		female_patronym = "sdotir"
+		prefix = no # The patronym is added as a suffix
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
@@ -1461,7 +1501,9 @@ spirit_continent = {
 		
 		dukes_called_kings = no
 		
-		from_dynasty_prefix = "of "
+		male_patronym = "sen"
+		female_patronym = "sdatter"
+		prefix = no # The patronym is added as a suffix
 				
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 30
@@ -1490,6 +1532,9 @@ spirit_continent = {
 		}
 
 		dukes_called_kings = no
+		male_patronym = "sin"
+		female_patronym = "sdotter"
+		prefix = yes
 		
 		from_dynasty_prefix = "of "
 
@@ -1969,11 +2014,13 @@ plant_group = {
 		Abedabun Abequa Adoette Adsala Alameda Alawa Amtola Angena Ankta Apona Atepa Awanata Ayana Ayasha Awenasa Bena Bly Catora Cha'rasa Cheona Dena Dyana Enola Etena Fala Flo Gaho Galalaha Halona Hausas Hewuta Honova Isa Istas Ituha Izusa Kachana Leotae Koko Lomasa Lulu Luyu Megena Mahal Mana Meda Memda Magasa Maka Manal Mona Muna Nata Najlon Nana Natuna Nokomas Nova Nukpana Numees Nuna Nuttah Ogan Olathe Onawa Onada Oota Dadun Peta Petuna Poloma Powaqa Rozene Shana Sahu Sanopa Sasaka Sokwa Sooleawa Soyala Sunka Tablata Tahka Tama Takala Wanema Wuta Wyanet Yamka Yepa Yoka Zaltana Zene Zahna Zitkala Wakamak Waneta Una
 		}
 		
-		dukes_called_kings = no
-		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "mn "
 		dynasty_title_names = yes
 		founder_named_dynasties = yes 
+
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
 				
 		modifier = default_culture_modifier
 	}
