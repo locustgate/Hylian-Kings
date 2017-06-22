@@ -1340,15 +1340,89 @@ eastern_human = {
 
 		modifier = default_culture_modifier
 	}
-	malaynan = {
+	malaynan = {	
+		graphical_cultures = { mongolgfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		horde = yes
+		
+		color = { 0.8 0.8 0.3 }
+
+		male_names = {
+			Dmitri Khini Rudi Ember Embry Toffa Ozunda Ashe Kish Sprinn Kampo Padok Shay Pirou Lester Monkton Varke Lawdon Yolero Shibo Tasseren
+		}
+		female_names = {
+			Gleema Jana Tenne Aya Trott Banji Ena Gaile Breen Shamae Zumi Vima Perosa Phanna Piaffe Ariane Harlow Ami
+		}
+		
+		dynasty_title_names = yes
+		
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
+
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+
 	}
 }
-zonai = {
+zonai_group = {
 	zonai = {
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.45 0.45 0.2 }
+
+		male_names = {
+			Arems_Armes Cloyne_Cloyne Garini_Garini Kinov_Kinov Zuta_Zuta Sebasto_Sebasto Numar_Numar Rozel_Rozel 
+		}
+		female_names = {
+			Chessica_Chessica Kiana_Kiana Mubs_Mubs Spinch_Spinch
+		}
+		
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
+	
 	}
-	palmoraen = {
+	palmoraen = {#names are temp till localizations are released
+		graphical_cultures = { muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.45 0.45 0.2 }
+
+		male_names = { 
+			Arems_Armes Cloyne_Cloyne Garini_Garini Kinov_Kinov Zuta_Zuta Sebasto_Sebasto Numar_Numar Rozel_Rozel 
+		}
+		female_names = {
+			Chessica_Chessica Kiana_Kiana Mubs_Mubs Spinch_Spinch
+		}	
+		
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
+	
 	} 
 	hateno = {
+		graphical_cultures = { germangfx }
+		color = { 0.45 0.45 0.2 }
+		male_names = {
+			Azu Bolson Dantz Hudson Karson Leop Manny_Manny Medda Nack Pruce Reede Rhodes Sayge Seldon Teebo Thedd Tokk Worten Ton Sefaro
+		}
+		female_names = {
+			Amira Aster Clavia Ivee Karin Koyin Narah Nebb Nikki Prima Ralera Senna Sophie Tamana Uma
+		}
+	}
+	tarrey_towner = {
+		graphical_cultures = { germangfx }
+		color = { 0.45 0.45 0.2 }
+		parent = hateno
+		male_names = {
+			Bolson Karson Fyson Greyson Hudson Kapson Pelison
+		}
+		female_names = {
+			Rhondson
+		}
 	}
 }
 gerudo = {
@@ -1407,9 +1481,48 @@ gerudo = {
 		}
 		female_names = {
 		#OoT
-			Nabooru_Nabooru Aveil_Aveil Twinrova_Twinrova Koume_Koume Kotake_Kotake
+			Naboris_Nabooru Aveil_Aveil Twinrova_Twinrova Koume_Koume Kotake_Kotake
 		#BotW(WIP)
 			Urbosa_Urbosa Riju_Riju
+		#ALttP AHM
+			Ghanti_Ghanti
+		#HTW
+			Runeka_Runeka
+		#Easter Egg
+			Shantae_Shantae
+		#Random
+			Bartateake Liana Leena Kotta Marta Babi Smaude Ria Dina Pasha Saula Buliara Katta Polka Reeza Bertri Padda Calyban Isha Kohm Laine Nail Pritana Rotana Rima Furosa Yaido Sumati Pyra Deltan Dalia Olu Romah Estan Kalani Danda Makure Spera Dina Pasha Nellie Ardin Lorn Cara Jewel Fegran Pearle Essa Frelly Muava Lashley Shabonne Tali Dorrah Merina Lukan Emir Maike Ripp Shaillu Konora Kachoo  Lorda Nata Ebaze Suba Monoh Ruroun Kaltule Enourda Orra Kika Raite Kezata Batinie Lamata Kalku Rashi Bate Bateka Dare Ebasi Bawonuni Bawe Avotata Eshaddeh Lamatta Okaka Eloun Maita Borda Eshara Maba Eshori Lesho Lama
+		}
+		
+		dukes_called_kings = no
+				
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 05
+		mat_grm_name_chance = 30
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+		allow_looting = yes
+	}
+	west_gerudo = { #use Japanese versions of names
+		graphical_cultures = { gerudogfx } 
+		
+		color = { 1 0.75 0.8 }
+		
+		
+		male_names = {
+		#OoT
+			Ganondorofu_Ganondorf Bonooru_Bonooru
+		#ALBW
+			Yuga_Yuga
+		#Random
+			Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Ravos Amun Gaku Rusan Neme Reku Zolu Aghalmun Anun Vaku Garookun Gavun Dokun Kyicaba Reirun Zirun Jirekan Nodicon Kidabiku Rakorun Tamime Nonit Zati Kyas Geese Valyo Namin Goulmere Meka Gomin Gorun Scun Annun Nonon Doku Kakin Anoku Maphun Akun Vekun Nekun Reras Vun Terin Veku Muban Kupha Temas Gekeku Duti Jaba Guren Vulmas Kokas Gukas Mikun Dikun Reves Zokan Zupha Kame Geku Kyon Rinno Amin Ren Zakun Ucori Unnas Vurim Kakol Kalan Rimace Ukiku Rokas Ukabe Rekas Kavas Vuphi Anen Veidi Morun Gelu Scas
+		}
+		female_names = {
+		#OoT
+			Naboru_Nabooru Aberu_Aveil Twinrova_Twinrova Kome_Koume Kotake_Kotake
+		#BotW(WIP)
+			Uruboza_Urbosa Ruju_Riju
 		#ALttP AHM
 			Ghanti_Ghanti
 		#HTW
@@ -1920,10 +2033,10 @@ avian_group = {
 		color = { 0.88 1 1 }
 		
 		male_names = {
-			Basht Bisht Hoskit Koboli Kogoli Ilari Namali Obil Willi Skett Akoot Quill Kamali Pashli Pokott Hasht Idlali Mobi Koolali Habomi Oki Pomobit Kooli Wolli Imoli Kibali Halit Kemi Nobi Ikobi Oball Ilali Badli Koki Milot Paki Oboli Habi Borami Keskit Koli Alemi Kelat Kolal Olimi Kobat Mott Gadli Olili Maki Iskeli Skadli Gibi Qibi Kosht Wilaski Areki Wiki Kolabi Hobabi Kalami Olobi Kotel Bobat Olet Palit Kolibi Imill Kabi Ogibi Mereli Skori Kott Keki Mikili Iskami Skaget Kalibi Oroolit Milit Skoki Skolit Skami Kololi Bili Imeki Peki Golo Agoki Billa Alibo Skomit Bimobi Bimet Kaki Irama Kogi Skodli Alabi Nibi 
-	 	}
+			Gesane Fyson Harth Huck Kaneli Mazli Nekk Notts Revali Teba Tulin Verla
+		}
 		female_names = {
-			Medli Skoli Nebi Kibi Kibali Kemi Ilali Bali Moki Kiki Kolot Beli Molabi Pebit Kolili Qill Naki Koski Kali Pebi Buimi Ibibi Imoki Kabit Ksekimi Wilimi Niki Pami Merbli Kimi Bili Balli Kelet Ikaro Halli Hadli Nadli Agiri Nabi Olil Babi Pelimi Nali Omaki Agobi Noki Gilebi Alaki Bilat Kegi Ilami Homi Wami Keba Pelit Bami Ilemi Olatt Kodli Holi Ollat Geli Imat Nomi Maloli Agali Obebi Omeli Wali Kabali Kuiki Mami Kelot Poki Hili Alell Imili Skomi Babell Araki Komi Kami Kisht Gimi Nimi Moga Pobi Skibi Miki Kolami Komit Keli Kaskatt Komet Alebi Kelol Biki 
+			Amali Bedoli Cecili Cree Genli Kheel Kotts Laissa Misa Molli Saki
 		}		
 		dukes_called_kings = no
 		

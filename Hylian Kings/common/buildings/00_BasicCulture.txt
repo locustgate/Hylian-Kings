@@ -1149,6 +1149,92 @@ castle = {
 
 		extra_tech_building_start = 0.2
 	} 
+#Hateno Farm Guard
+	ca_hateno_guard_1 = {
+		desc = ca_hateno_guard_desc
+		potential = {
+			OR = {
+				culture = hateno 
+				culture = tarrey_towner
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replaces = ca_militia_barracks_1
+		gold_cost = 100
+		build_time = 365
+		pikemen = 40
+		archers = 40
+		archers_morale = 0.2
+		pikemen_morale = 0.2
+
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_hateno_guard_2 = {
+		desc = ca_hateno_guard_desc
+		potential = {
+			OR = {
+				culture = hateno 
+				culture = tarrey_towner
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ca_wall_1 }
+		replaces = ca_militia_barracks_2
+		upgrades_from = ca_hateno_guard_1
+		gold_cost = 120
+		build_time = 547
+		pikemen = 50
+		archers = 50
+		archers_morale = 0.2
+		pikemen_morale = 0.2
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.0
+	}
+	ca_hateno_guard_3 = {
+		desc = ca_hateno_guard_desc
+		potential = {
+			OR = {
+				culture = hateno 
+				culture = tarrey_towner
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_hateno_guard_2
+		replaces = ca_militia_barracks_3
+		gold_cost = 200
+		build_time = 1095
+		pikemen = 50
+		archers = 50
+		archers_morale = 0.2
+		pikemen_morale = 0.2
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+	ca_hateno_guard_4 = {
+		desc = ca_hateno_guard_desc
+		potential = {
+			OR = {
+				culture = hateno 
+				culture = tarrey_towner
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_hateno_guard_3
+		replaces = ca_militia_barracks_4
+		gold_cost = 300
+		build_time = 1095
+		pikemen = 50
+		archers = 50
+		archers_morale = 0.2
+		pikemen_morale = 0.2
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
 ##lost
 #Sheikah Assassin Dojo 
 	ca_assassin_dojo_1 = {
@@ -1292,6 +1378,127 @@ castle = {
 		extra_tech_building_start = 0.8
 	}
 #gerudo
+
+	ca_west_gerudo_desert_dweller_1 = {
+		desc = ca_desert_dweller_1_desc
+		potential = {
+				culture = west_gerudo
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		camel_cavalry = 15
+		camel_cavalry_offensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_west_gerudo_desert_dweller_2 = {
+		desc = ca_desert_dweller_1_desc
+		potential = {
+				culture = west_gerudo
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		upgrades_from = ca_west_gerudo_desert_dweller_1
+		gold_cost = 300
+		build_time = 1095
+		camel_cavalry = 20
+		camel_cavalry_offensive = 0.15
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_west_gerudo_desert_dweller_3 = {
+		desc = ca_desert_dweller_1_desc
+		potential = {
+				culture = west_gerudo
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_west_gerudo_desert_dweller_2
+		gold_cost = 400
+		build_time = 2190
+		camel_cavalry = 25
+		camel_cavalry_offensive = 0.15
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_west_gerudo_desert_dweller_4 = {
+		desc = ca_desert_dweller_1_desc
+		potential = {
+				culture = west_gerudo
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_west_gerudo_desert_dweller_3
+		gold_cost = 500
+		build_time = 2190
+		camel_cavalry = 30
+		camel_cavalry_offensive = 0.15
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_gerudo_claymores_1 = {#Gold Claymores
+		desc = ca_gerudo_claymores_1_desc
+		potential = {
+			culture = east_gerudo
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 30
+		heavy_infantry_offensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_gerudo_claymores_2 = {
+		desc = ca_gerudo_claymores_1_desc
+		potential = {
+			culture = east_gerudo
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		upgrades_from = ca_gerudo_claymores_1
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 40
+		heavy_infantry_offensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_gerudo_claymores_3 = {
+		desc = ca_gerudo_claymores_1_desc
+		potential = {
+			culture = east_gerudo
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_gerudo_claymores_2
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 50
+		heavy_infantry_offensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_gerudo_claymores_4 = {
+		desc = ca_gerudo_claymores_1_desc
+		potential = {
+			culture = east_gerudo
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_gerudo_claymores_3
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 60
+		heavy_infantry_offensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
 	ca_horse_archery_1 = {
 		desc = ca_horse_archery_desc
 		potential = {
@@ -1837,7 +2044,11 @@ castle = {
 	ca_papuchian_sailbows_1 = {
 		desc = ca_papuchian_sailbows_1_desc
 		potential = {
+			OR = {
 			culture = papuchian
+			culture = zonai
+			culture = palmoraen
+			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_2 }
@@ -1852,7 +2063,11 @@ castle = {
 	ca_papuchian_sailbows_2 = {
 		desc = ca_papuchian_sailbows_1_desc
 		potential = {
+			OR = {
 			culture = papuchian
+			culture = zonai
+			culture = palmoraen
+			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		upgrades_from = ca_papuchian_sailbows_1
@@ -1867,7 +2082,11 @@ castle = {
 	ca_papuchian_sailbows_3 = {
 		desc = ca_papuchian_sailbows_1_desc
 		potential = {
+			OR = {
 			culture = papuchian
+			culture = zonai
+			culture = palmoraen
+			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		upgrades_from = ca_papuchian_sailbows_2
@@ -1882,7 +2101,11 @@ castle = {
 	ca_papuchian_sailbows_4 = {
 		desc = ca_papuchian_sailbows_1_desc
 		potential = {
+			OR = {
 			culture = papuchian
+			culture = zonai
+			culture = palmoraen
+			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ca_papuchian_sailbows_3
