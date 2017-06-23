@@ -22,13 +22,13 @@
 	trait=gregarious
 	trait=patron_din
 	prestige=500
-	3367.10.18={
+	4360.10.18={
 		birth=yes
 	}
-	3385.4.30 = {
+	4385.4.30 = {
 		add_spouse=1009
 	}
-	3425.1.1={
+	4425.1.1={
 		death={
 			death_reason=death_suicide_fall
 		}
@@ -49,10 +49,10 @@
 	trait=fair
 	trait=hylia_soul
 	trait=bloodline_goddess
-	3386.4.18={
+	4386.4.18={
 		birth=yes
 	}
-	3455.9.29={
+	4455.9.29={
 		death=yes
 	}
 }
@@ -67,10 +67,10 @@
 	culture=hyrulean
 	trait=race_hylian
 	trait=bloodline_goddess
-	3391.5.2={
+	4391.5.2={
 		birth=yes
 	}
-	3469.9.29={
+	4469.9.29={
 		death=yes
 	}
 }
@@ -84,10 +84,10 @@
 	culture=hyrulean
 	trait=race_hylian
 	trait=bloodline_goddess
-	3399.7.26={
+	4399.7.26={
 		birth=yes
 	}
-	3460.9.29={
+	4460.9.29={
 		death=yes
 	}
 }
@@ -119,7 +119,7 @@
 	3358.2.10={
 		birth=yes
 	}
-   3385.10.16 = {
+   4385.10.16 = {
 		add_spouse=1011
 	}
 #   3388.1.25 = {
@@ -141,13 +141,13 @@
 	trait=weak
 	trait=chaste
 	trait=envious
-	3369.10.15={
+	4369.10.15={
 		birth=yes
 	}
-   3385.10.16 = {
+   4385.10.16 = {
 		add_spouse=1010
 	}
-	3386.9.29={
+	4386.9.29={
 		death={ death_reason=death_childbirth }
 	}
 }
@@ -164,10 +164,10 @@
 	trait=bloodline_hero
 	trait=hero_soul
 	trait=race_hylian
-	3386.9.28={
+	4386.9.28={
 		birth=yes
 	}
-	3433.9.29={
+	4433.9.29={
 		death=yes
 	}
 }
@@ -183,13 +183,13 @@
 	trait=slothful
 	trait=content
 	trait=drunkard
-	3345.7.19={
+	4345.7.19={
 		birth=yes
 	}
-   3385.3.16 = {
+   4385.3.16 = {
 		add_spouse=1014
 	}
-	3412.1.1={
+	4412.1.1={
 		death=yes
 	}
 }
@@ -204,13 +204,13 @@
 	trait=shy
 	trait=trusting
 	trait=kind
-	3369.7.19={
+	4369.7.19={
 		birth=yes
 	}
-   3385.3.16 = {
+   4385.3.16 = {
 		add_spouse=1013
 	}
-	3403.1.1={
+	4403.1.1={
 		death=yes
 	}
 }
@@ -225,13 +225,13 @@
 	culture=hyrulean
 	trait=race_hylian
 	trait=fair
-	3386.9.26={
+	4386.9.26={
 		birth=yes
 	}
-	3451.1.1={death=yes}
+	4451.1.1={death=yes}
 }
 
-1035 = { #gerudo gate
+1016 = { #gerudo gate
 	name=Percy
 	 
 	dna="dcida0iabb0"
@@ -247,334 +247,12 @@
 	trait=robust
 	trait=dull
 	trait=duelist
-	3369.3.24={
+	4369.3.24={
 		birth=yes
 	}
-	3422.1.1={death=yes}
+	4422.1.1={death=yes}
 }
-1036 = { #west fields former rebel leader against gerudos
-	name=Beedle
-	 
-	dna="adhgb0acdc0"
-	properties="ok0kfkbebbab"
-	dynasty=21
-	religion=golden_goddesses
-	culture=hyrulean
-	trait=tough_soldier
-	trait=race_hylian
-	#trait=warrior_3
-	trait=blinded
-	trait=zealous
-	trait=wroth
-	trait=honest
-	trait=stubborn
-	trait=inspiring_leader
-	3361.8.3={
-		birth=yes
-	}
-	#3377.8.4={
-	#	add_spouse = gerudovalleyduke1
-	#}	
-	#3382.10.26={
-	#	remove_spouse = gerudovalleyduke1
-	#}
-	3384.4.7={
-		add_spouse = 1037
-	}
-	3414.1.1={death=yes}
-}
-1037 = { 
-	name=Ashei
-	female = yes
-	 
-	dna="cfjgd0daaa0"
-	properties="ob0d0kbebbbb"
-	religion=golden_goddesses
-	culture=hyrulean
-	trait=thrifty_clerk
-	trait=race_hylian
-	trait=chaste
-	trait=kind
-	trait=dull
-	3368.4.6={
-		birth=yes
-	}
-	3384.4.7={
-		add_spouse = 1036
-	}
-	3414.1.1={death=yes}
-}
-1038 = { 
-	name=Baris
-	 
-	mother=1037
-	father=1036
-	dna="cfjgd0jaaa0"
-	properties="oc0dhkbebbbb"
-	religion=golden_goddesses
-	culture=hyrulean
-	3386.2.7={
-		birth=yes
-	}
-	3434.1.1={death=yes}
-}
-1039 = { #south+southwest 
-	name=Hagen
-	 
-	dna="cbjgj0iacb0"
-	properties="oi0lhbbebbbb"
-	dynasty=84
-	religion=golden_goddesses
-	culture=hyrulean
-	trait=charismatic_negotiator
-	trait=race_hylian
-	trait=lustful
-	trait=gluttonous
-	trait=quick
-	trait=tall
-	3345.2.22={
-		birth=yes
-	}
-	3361.4.22={
-		add_spouse = 1040
-	}
-	3407.1.1={death=yes}
-}
-1040 = { 
-	name=Verona
-	 
-	female=yes
-	dna="cdflj0eabc0"
-	properties="ob0l0bbebbbb"
-	dynasty=123
-	religion=golden_goddesses
-	culture=hyrulean
-	trait=elusive_shadow
-	trait=race_hylian
-	trait=feeble
-	trait=drunkard
-	trait=fair
-	trait=shrewd
-	3345.4.21={
-		birth=yes
-	}
-	3361.4.22={
-		add_spouse = 1039
-	}
-	3406.1.1={death=yes}
-}
-1041 = {
-	name=Jim
-	 
-	mother=1040
-	father=1039
-	dna="cdflj0eabc0"
-	properties="ob0lfbbebbbb"
-	dynasty=84
-	religion=golden_goddesses
-	culture=hyrulean
-	trait=martial_cleric
-	trait=race_hylian
-	trait=charitable
-	trait=proud
-	trait=stubborn
-	3362.8.22={
-		birth=yes
-	}
-	3378.12.26={
-		add_spouse = 1042
-	}
-	3381.3.14={
-		death={ death_reason = death_battle
-			killer=1000
-		}
-	}
-}
-1042 = {
-	name=Epona
-	 
-	female=yes
-	dna="deihc0cfba0"
-	properties="fb0i0fbebbbb"
-	religion=golden_goddesses
-	culture=hyrulean
-	trait=thrifty_clerk
-	trait=race_hylian
-	trait=zealous
-	trait=chaste
-	trait=humble
-	trait=nun
-	trait=celibate
-	3362.12.22={
-		birth=yes
-	}
-	3378.12.26={
-		add_spouse = 1041
-	}
-	3414.1.1={death=yes}
-}
-1043 = {
-	name=Klaus
-	 
-	mother=1042
-	father=1041
-	dna="aebaf0ieac0"
-	properties="mi0fckbebbbb"
-	dynasty=84
-	religion=golden_goddesses
-	culture=hyrulean
-	trait=race_hylian
-	trait=charitable
-	trait=willful
-	trait=rowdy
-	3380.5.13={
-		birth=yes
-	}
-	3431.1.1={death=yes}
-}
-1044 = {
-	name=Sue
-	female=yes
-	 
-	mother=1040
-	father=1039
-	dna="aaikb0cbba0"
-	properties="sk0a0abebbbb"
-	dynasty=84
-	religion=golden_goddesses
-	culture=hyrulean
-	trait=indulgent_wastrel
-	trait=race_hylian
-	trait=slow
-	trait=fair
-	trait=shy
-	trait=trusting
-	3365.11.7={
-		birth=yes
-	}
-	3381.12.26={
-		add_spouse = 1046
-	}
-	3410.1.1={death=yes}
-}
-1045 = {
-	name=Klaus
-	 
-	mother=1040
-	father=1039
-	dna="aebah0ejbc0"
-	properties="me0ebfbebbbb"
-	dynasty=84
-	religion=golden_goddesses
-	culture=hyrulean
-	trait=race_hylian
-	trait=scholarly_theologian 
-	trait=fair
-	trait=chaste
-	trait=poet
-	trait=zealous
-	trait=erudite
-	3369.9.28={
-		birth=yes
-	}
-	3416.1.1={death=yes}
-}
-1046  = { #bridge and lakeside
-	name=Gorman
-	 
-	dna="dciff0jbda0"
-	properties="pl0fdfbebbbb"
-	dynasty=32
-	religion=golden_goddesses
-	culture=hyrulean
-	trait=race_hylian
-	trait=charismatic_negotiator
-	trait=gregarious
-	trait=cynical
-	trait=paranoid
-	trait=just
-	3362.5.13={
-		birth=yes
-	}
-	3381.12.26={
-		add_spouse = 1044
-	}
-	3411.1.1={death=yes}
-}
-1047  = { #sun island
-	name=Rem	 
-	dna="dgkad0fcdc0"
-	properties="aj0hbebebbbb"
-	religion=golden_goddesses
-	culture=hyrulean
-	trait=race_hylian
-	trait=scholarly_theologian
-	trait=gregarious
-	trait=kind
-	trait=chaste
-	3365.3.4={
-		birth=yes
-	}
-	3416.1.1={death=yes}
-}
-1049  = { #castle city
-	name=Gulley	
-	dna="abgmh0mfbc0"
-	properties="ng0hfhbebbbb"
-	religion=golden_goddesses
-	culture=hyrulean
-	trait=race_hylian
-	trait=midas_touched
-	trait=just
-	trait=greedy
-	trait=lustful
-	3362.1.18={
-		birth=yes
-	}
-	3409.1.1={death=yes}
-}
-1050  = { #castle city gate and gastle road
-	name=Dotour
-	 
-	dna="bakjb0jgba0"
-	properties="fn0abibebbbb"
-	dynasty=148
-	religion=golden_goddesses
-	culture=hyrulean
-	trait=race_hylian
-	trait=brilliant_strategist
-	#trait=warrior_3
-	trait=drunkard
-	trait=lustful
-	trait=brave
-	trait=zealous
-	3367.5.11={
-		birth=yes
-	}
-	3414.1.1={death=yes}
-}
-1051  = { #sacred grove
-	name=Shikashi
-	 
-	dna="agjef0dgaa0"
-	properties="pf0dehbebbbb"
-	dynasty=171
-	religion=golden_goddesses
-	culture=hyrulean
-	trait=race_hylian
-	trait=tough_soldier
-	#trait=warrior_1
-	trait=shy
-	trait=greedy
-	trait=brave
-	trait=cynical
-	trait=falconer
-	3369.9.8={
-		birth=yes
-	}
-	3420.1.4={death=yes}
-}
-1072 = { 
+1016 = { 
 	name=Tetralyna
 	female=yes
 	disallow_random_traits = yes 	
