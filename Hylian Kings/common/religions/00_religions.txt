@@ -363,7 +363,7 @@ goddesses_religion = {
 		priests_can_marry = yes 
  		female_temple_holders = yes
 		feminist = yes
-	}
+	}	
 	sheikahism_nihilism = {
 		graphical_culture = westerngfx
 		icon = 7
@@ -963,6 +963,69 @@ minor_deity = {
 #		attacking_same_religion_piety_loss = yes
 #
 #	}
+}
+#gerudo_religions = {
+#	heroine_cult = {
+#		graphical_culture = westerngfx
+#		icon = 22
+#		heresy_icon = 23
+#
+#		
+#		color = { 0.7 0.13 0.13 }
+#		
+#		scripture_name = THE_SAGA
+#		priest_title = PRIEST
+#		
+#		allow_looting = yes
+#
+#		priests_can_inherit = yes
+#		priests_can_marry = yes 
+# 		female_temple_holders = yes
+#		allow_viking_invasion = yes 
+#		feminist = yes
+#		aggression = 1.5
+#
+#		high_god_name = GOD_THE_SEVEN
+#		
+#		god_names = {
+#			GOD_THE_SEVEN
+#		}
+#		
+#		evil_god_names = {
+#				GOD_EIGHTH
+#		}
+#	}
+#	eight_heroine = {
+#		graphical_culture = westerngfx
+#		parent = heroine_cult
+#		icon = 22
+#		heresy_icon = 23
+#
+#		
+#		color = { 0.7 0.13 0.13 }
+#		
+#		scripture_name = THE_SAGA
+#		priest_title = PRIEST
+#		
+#		allow_looting = yes
+#
+#		priests_can_inherit = yes
+#		priests_can_marry = yes 
+# 		female_temple_holders = yes
+#		allow_viking_invasion = yes 
+#		feminist = yes
+#		aggression = 1.5
+#
+#		high_god_name = GOD_THE_EIGHT
+#		
+#		god_names = {
+#			GOD_THE_EIGHT
+#		}
+#		
+#		evil_god_names = {
+#				GOD_DEMON_KING
+#		}
+#	}
 #	gerudo_goddess = {
 #		graphical_culture = mongolgfx
 #
@@ -995,10 +1058,8 @@ minor_deity = {
 #		evil_god_names = {
 #				GOD_GODDESSES GOD_DIN GOD_NAYRU GOD_FARORE
 #		}
-#		intermarry = pirate_doctrines
-#		intermarry = wizzrobe
 #	}
-}
+#}
 goron_religions = {	
 	has_coa_on_barony_only = yes
 	graphical_culture = norsegfx
