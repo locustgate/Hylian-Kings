@@ -1,5 +1,5 @@
 #Hyrule
-1 = {
+1 = { #main branch
 	name="Hyrule"
 	culture = hyrulean
 	used_for_random = no
@@ -16,9 +16,22 @@
 		}
 	}
 }
-2 = {
-	name="Axort"
+2 = { #rauru branch
+	name="Hyrule"
 	culture = hyrulean
+	used_for_random = no
+	can_appear = no	
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 22
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 3 = {
 	name="Anarvi"
