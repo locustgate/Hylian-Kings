@@ -1,0 +1,191 @@
+# Demesne type (de facto) laws (set for the PRIMARY title in a demesne but affects the whole demesne)
+
+law_groups = {
+	voi_rights = {
+		law_type = realm
+	}
+	education_laws = {
+		law_type = realm
+	}
+}
+
+laws = {
+	education_0 = { #Education is a personal matter, only the rich can afford it.
+		group = education_laws
+		default = yes
+		
+		allow = {
+			OR = {
+				has_law = education_1
+				AND = {
+					NOT = {	has_law = education_0 }
+					NOT = {	has_law = education_1 }
+					NOT = {	has_law = education_2 }
+					NOT = {	has_law = education_3 }
+				}
+			}
+		}
+		potential = {
+			higher_tier_than = duke
+			is_nomadic = no
+			is_tribal = no
+			NOT = { religion_group = demon_religion}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.8
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = education_0
+				revoke_law = education_1
+				revoke_law = education_2
+				revoke_law = education_3
+			}
+		}
+		#tech_growth_modifier = 0.01
+		#city_vassal_tax_modifier = 0.01
+	}
+	education_1 = {	#Public Library, Libraries are funded by the state. Librarians will usually teach basic litracy.
+		group = education_laws
+		default = yes
+		
+		allow = {
+			OR = {
+				has_law = education_0
+				has_law = education_2
+				AND = {
+					NOT = {	has_law = education_0 }
+					NOT = {	has_law = education_1 }
+					NOT = {	has_law = education_2 }
+					NOT = {	has_law = education_3 }
+				}
+			}
+		}
+		potential = {
+			higher_tier_than = duke
+			is_nomadic = no
+			is_tribal = no
+			NOT = { religion_group = demon_religion}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.8
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = education_0
+				revoke_law = education_1
+				revoke_law = education_2
+				revoke_law = education_3
+			}
+		}
+		tech_growth_modifier = 0.1
+		city_vassal_tax_modifier = 0.1
+	}
+	education_2 = {	 #Public School, government funded schools teach basic math languages.
+			group = education_laws
+		default = yes
+		
+		allow = {
+			OR = {
+				has_law = education_1
+				has_law = education_3
+				AND = {
+					NOT = {	has_law = education_0 }
+					NOT = {	has_law = education_1 }
+					NOT = {	has_law = education_2 }
+					NOT = {	has_law = education_3 }
+				}
+			}
+		}
+		potential = {
+			higher_tier_than = duke
+			is_nomadic = no
+			is_tribal = no
+			NOT = { religion_group = demon_religion}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.8
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = education_0
+				revoke_law = education_1
+				revoke_law = education_2
+				revoke_law = education_3
+			}
+		}
+		tech_growth_modifier = 0.2
+		city_vassal_tax_modifier = 0.2
+	}
+	education_3 = { #Public University, government funded university teach advanced math languages and other skills.
+			group = education_laws
+		default = yes
+		
+		allow = {
+			OR = {
+				has_law = education_2
+				AND = {
+					NOT = {	has_law = education_0 }
+					NOT = {	has_law = education_1 }
+					NOT = {	has_law = education_2 }
+					NOT = {	has_law = education_3 }
+				}
+			}
+		}
+		potential = {
+			higher_tier_than = duke
+			is_nomadic = no
+			is_tribal = no
+			NOT = { religion_group = demon_religion}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.8
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = education_0
+				revoke_law = education_1
+				revoke_law = education_2
+				revoke_law = education_3
+			}
+		}
+		tech_growth_modifier = 0.3
+		city_vassal_tax_modifier = 0.25
+	}
+}

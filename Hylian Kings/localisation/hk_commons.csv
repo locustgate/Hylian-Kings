@@ -963,13 +963,25 @@ death_abandoned;Abandoned;;;;;;;;;x
 DEATH_ABANDONED;was abandoned in the wild at a very young age by $KILLER$;;;;;;;;;x
 death_accident_keese;Keese;;;;;;;;;x
 death_accident_keese;was killed by a keese.;;;;;;;;;x
-#execution
+DEATH_GERUDO_SLAVE;Captured By Gerudo;;;;;;;;;x
+DEATH_GERUDO_SLAVE;taken as a gerudo's boyfriend;;;;;;;;;;;x
 DEATH_EXECUTION_BULBOS;was gored to death by a bulbos on the order of $KILLER$;est mort[GetNoneE] transperc�[GetNoneE] par une corne de sanglier, sur ordre de $KILLER$;wurde auf Gehei� von $KILLER$ einem Wildschwein zum Fra� vorgeworfen;;atacado/a hasta morir por un jabal� por orden de $KILLER$;;;;;;;;;x
 DEATH_EXECUTION_BULBOS_NO_KILLER;was gored to death by a bulbos;est mort[GetNoneE] transperc�[GetNoneE] par une corne de sanglier;wurde einem Wildschwein zum Fra� vorgeworfen;;atacado/a hasta morir por un jabal�;;;;;;;;;x
 
 #game rules
 RULE_LORULE_INVASION;�BHylian Kings:�! Lorulean Invasion;Stabilité nomade (§BSeigneurs de cavalerie§!);§BFürsten der Steppe:§! Nomadenstabilität;;§BSeñores a caballo:§! Estabilidad nómada;;;;;;;;;x
 RULE_TWILI_INVASION;�BHylian Kings:�! Twilian Invasion;Stabilité nomade (§BSeigneurs de cavalerie§!);§BFürsten der Steppe:§! Nomadenstabilität;;§BSeñores a caballo:§! Estabilidad nómada;;;;;;;;;x
+#laws
+education_laws;Public Education;;;;;;;;;;;;;;;;
+education_laws_desc;While given time eventually new technologies can spread just by commerce alone with the help of education the adoption and creation of new technologies can be sped up.;;;;;;;;;;;;;;;;
+education_0;Private Education;;;;;;;;;;;;;;;;
+education_0_desc;At this level no government funds goes to education as it is a personal matter.;;;;;;;;;;;;;;;;
+education_1;Public Library;;;;;;;;;;;;;;;;
+education_1_desc;At this level a small portion of taxes goes to buying and maintaining books at a public library. Basic literacy classes are taught here.;;;;;;;;;;;;;;;;
+education_2;Public Schools;;;;;;;;;;;;;;;;
+education_2_desc;A percentage of taxes goes towards libraries and schools, to teach basic math, language, and sciences.;;;;;;;;;;;;;;;;
+education_3;Public University;;;;;;;;;;;;;;;;
+education_3_desc;A number of tax funded universities are created to teach advanced sciences and math.;;;;;;;;;;;;;;;;
 #orders
 d_knights_hyrule;Knights of Hyrule;;;;;;;;;;;;;;;;
 d_knights_hyrule_adj;Knight of Hyrule;;;;;;;;;;;;;;;;x

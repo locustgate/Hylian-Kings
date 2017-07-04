@@ -1,0 +1,269 @@
+2501={
+	name=Thermo
+	dynasty=6001
+	dna="ihijocllkmp"
+	culture=wind_tribe religion=light_force
+	martial=5 diplomacy=7 stewardship=5 intrigue=5 learning=6
+	add_trait=midas_touched add_trait=duelist add_trait=envious add_trait=trusting add_trait=slothful 
+	add_trait=craven 
+	3500.2.6={ birth=yes }
+	3566.9.16={ death=yes }
+}
+2502={
+	name=Cirus
+	dynasty=6001
+	dna="idnjjbllomn"
+	culture=wind_tribe religion=light_force
+	martial=8 diplomacy=4 stewardship=5 intrigue=5 learning=6
+	add_trait=grey_eminence add_trait=shy add_trait=just add_trait=kind add_trait=gluttonous 
+	add_trait=chaste 
+	father=2501	#Thermo
+	3528.11.8={ birth=yes }
+	3570.4.10={ death=yes }
+}
+2503={
+	name=Glaw
+	dynasty=6001
+	dna="ignjabllkij"
+	culture=wind_tribe religion=light_force
+	martial=5 diplomacy=6 stewardship=4 intrigue=8 learning=7
+	add_trait=misguided_warrior add_trait=chaste add_trait=gregarious add_trait=proud 
+	father=2502	#Cirus
+	3547.11.7={ birth=yes }
+	3601.9.8={ death=yes }
+}
+2504={
+	name=Govad
+	dynasty=6001
+	dna="ggnjhdnmhhj"
+	culture=wind_tribe religion=light_force
+	martial=4 diplomacy=5 stewardship=4 intrigue=4 learning=8
+	add_trait=skilled_tactician add_trait=patient add_trait=temperate 
+	father=2503	#Glaw
+	3573.12.20={ birth=yes }
+	3656.12.10={ death=yes }
+}
+2505={
+	name=Caprice
+	dynasty=6001
+	dna="agnjbbnjhgk"
+	culture=wind_tribe religion=light_force
+	martial=4 diplomacy=4 stewardship=4 intrigue=5 learning=8
+	add_trait=midas_touched add_trait=trusting add_trait=proud add_trait=envious add_trait=chaste 
+	father=2504	#Govad
+	3594.8.12={ birth=yes }
+	3645.4.22={ death=yes }
+}
+2506={
+	name=Zephyr
+	dynasty=6001
+	dna="hpojhcpjhmk"
+	culture=wind_tribe religion=light_force
+	martial=6 diplomacy=8 stewardship=5 intrigue=8 learning=5
+	add_trait=mastermind_theologian add_trait=duelist add_trait=lustful add_trait=zealous add_trait=craven 
+	add_trait=diligent add_trait=possessed 
+	father=2505	#Caprice
+	3616.7.26={ birth=yes }
+	3692.10.29={ death=yes }
+}
+2507={
+	name=Zeus
+	dynasty=6001
+	dna="hpobllpnlmb"
+	culture=wind_tribe religion=light_force
+	martial=6 diplomacy=7 stewardship=4 intrigue=8 learning=7
+	add_trait=elusive_shadow add_trait=wroth add_trait=ambitious add_trait=slothful 
+	father=2506	#Zephyr
+	3643.12.14={ birth=yes }
+	3717.4.28={ death=yes }
+}
+2508={
+	name=Gregal
+	dynasty=6001
+	dna="jkeblleccmn"
+	culture=wind_tribe religion=light_force
+	martial=6 diplomacy=8 stewardship=4 intrigue=7 learning=7
+	add_trait=flamboyant_schemer add_trait=lustful add_trait=diligent add_trait=ambitious add_trait=just 
+	add_trait=stressed 
+	father=2507	#Zeus
+	3677.1.9={ birth=yes }
+	3741.11.4={ death=yes }
+}
+2509={
+	name=Akash
+	dynasty=6001
+	dna="jheollecckg"
+	culture=wind_tribe religion=light_force
+	martial=4 diplomacy=7 stewardship=7 intrigue=7 learning=6
+	add_trait=tough_soldier add_trait=mystic add_trait=just add_trait=patient add_trait=brave 
+	father=2508	#Gregal
+	3701.1.25={ birth=yes }
+	3777.1.20={ death=yes }
+}
+2510={
+	name=Rayn
+	dynasty=6001
+	dna="jnedfleneii"
+	culture=wind_tribe religion=light_force
+	martial=5 diplomacy=7 stewardship=6 intrigue=5 learning=7
+	add_trait=misguided_warrior add_trait=zealous add_trait=arbitrary add_trait=wroth add_trait=temperate 
+	add_trait=envious 
+	father=2509	#Akash
+	3728.12.8={ birth=yes }
+	3787.5.25={ death=yes }
+}
+2511={
+	name=Sora
+	dynasty=6001
+	dna="jbedfmenkhi"
+	culture=wind_tribe religion=light_force
+	martial=6 diplomacy=6 stewardship=4 intrigue=5 learning=7
+	add_trait=thrifty_clerk add_trait=poet add_trait=deceitful add_trait=cruel add_trait=gregarious 
+	add_trait=wroth 
+	father=2510	#Rayn
+	3757.10.19={ birth=yes }
+	3809.5.23={ death=yes }
+}
+2512={
+	name=Indra
+	dynasty=6001
+	dna="jbenfeenahi"
+	culture=wind_tribe religion=light_force
+	martial=5 diplomacy=4 stewardship=8 intrigue=4 learning=4
+	add_trait=scholarly_theologian add_trait=deceitful add_trait=humble add_trait=envious add_trait=wounded 
+	father=2511	#Sora
+	3782.8.8={ birth=yes }
+	3830.3.24={ death=yes }
+}
+2513={
+	name=Zeru
+	dynasty=6001
+	dna="bkenfpglfpi"
+	culture=wind_tribe religion=light_force
+	martial=7 diplomacy=8 stewardship=8 intrigue=6 learning=7
+	add_trait=martial_cleric add_trait=arbitrary add_trait=content add_trait=gluttonous add_trait=greedy 
+	add_trait=kind 
+	father=2512	#Indra
+	3804.9.17={ birth=yes }
+	3857.3.5={ death=yes }
+}
+2514={
+	name=Mazaal
+	dynasty=6001
+	dna="gehkffalabd"
+	culture=wind_tribe religion=light_force
+	martial=4 diplomacy=4 stewardship=6 intrigue=8 learning=8
+	add_trait=elusive_shadow add_trait=craven add_trait=lustful add_trait=honest add_trait=slothful 
+	add_trait=arbitrary add_trait=drunkard 
+	father=2513	#Zeru
+	3828.5.14={ birth=yes }
+	3874.7.29={ death=yes }
+}
+2515={
+	name=Leilani
+	dynasty=6001
+	dna="genfnfglfko"
+	culture=wind_tribe religion=light_force
+	martial=6 diplomacy=4 stewardship=7 intrigue=5 learning=7
+	add_trait=scholarly_theologian add_trait=diligent add_trait=cynical add_trait=trusting add_trait=just 
+	add_trait=honest add_trait=drunkard 
+	father=2514	#Mazaal
+	3855.10.13={ birth=yes }
+	3920.12.9={ death=yes }
+}
+2516={
+	name=Rangi
+	dynasty=6001
+	dna="gelencglfna"
+	culture=wind_tribe religion=light_force
+	martial=7 diplomacy=7 stewardship=8 intrigue=4 learning=5
+	add_trait=tough_soldier add_trait=shy add_trait=humble add_trait=arbitrary add_trait=ambitious 
+	add_trait=paranoid 
+	father=2515	#Leilani
+	3878.11.9={ birth=yes }
+	3950.12.5={ death=yes }
+}
+2517={
+	name=Sami
+	dynasty=6001
+	dna="mecbndebdna"
+	culture=wind_tribe religion=light_force
+	martial=8 diplomacy=5 stewardship=6 intrigue=6 learning=7
+	add_trait=scholarly_theologian add_trait=trusting add_trait=patient add_trait=zealous add_trait=brave 
+	add_trait=cruel 
+	father=2516	#Rangi
+	3898.6.13={ birth=yes }
+	3965.10.4={ death=yes }
+}
+2518={
+	name=Cirro
+	dynasty=6001
+	dna="meeannmbdib"
+	culture=wind_tribe religion=light_force
+	martial=4 diplomacy=4 stewardship=6 intrigue=6 learning=5
+	add_trait=martial_cleric add_trait=impaler add_trait=paranoid add_trait=craven add_trait=gregarious 
+	add_trait=greedy 
+	father=2517	#Sami
+	3923.1.23={ birth=yes }
+	3981.7.25={ death=yes }
+}
+2519={
+	name=Gregal
+	dynasty=6001
+	dna="mfeandbadeh"
+	culture=wind_tribe religion=light_force
+	martial=4 diplomacy=5 stewardship=4 intrigue=6 learning=4
+	add_trait=midas_touched add_trait=gardener add_trait=temperate add_trait=deceitful add_trait=gregarious 
+	add_trait=charitable add_trait=humble 
+	father=2518	#Cirro
+	3944.2.5={ birth=yes }
+	3963.1.1={add_spouse=2523}
+	3994.6.13={ death=yes }
+}
+2520={
+	name=Gregal
+	dynasty=6001
+	dna="efeingaedih"
+	culture=wind_tribe religion=light_force
+	martial=7 diplomacy=6 stewardship=4 intrigue=8 learning=6
+	add_trait=mastermind_theologian add_trait=hedonist add_trait=honest add_trait=greedy add_trait=trusting 
+	add_trait=kind 
+	father=2519	#Gregal
+	mother=2523
+	3965.2.2={ birth=yes }
+	4010.3.25={ death=yes }
+}
+2521={
+	name=Chell
+	female=yes
+	dynasty=6001
+	dna="mfebfdbidem"
+	culture=wind_tribe religion=light_force
+	father=2519	#Gregal
+	mother=2523
+	martial=7 diplomacy=6 stewardship=4 intrigue=8 learning=10
+	add_trait=mastermind_theologian trait=genius add_trait=zealous add_trait=honest add_trait=kind add_trait=trusting 
+	3968.7.18={ birth=yes }
+	3984.7.18={add_spouse=155}
+	4022.1.26={ death=yes }
+}
+2522={
+	name=Miku
+	female=yes
+	dynasty=6001
+	dna="mfdfndjhdgk"
+	culture=wind_tribe religion=light_force
+	father=2519	#Gregal
+	mother=2523
+	3974.4.9={ birth=yes }
+	4015.1.1={ death=yes }
+}
+2523={
+	name=Spheria
+	dynasty=6010
+	female=yes
+	culture=wind_tribe religion=light_force
+	3944.2.5={ birth=yes }
+	3963.1.1={add_spouse=2519}
+	3994.6.13={ death=yes }
+}

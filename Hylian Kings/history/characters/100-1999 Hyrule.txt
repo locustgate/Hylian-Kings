@@ -51,55 +51,6 @@
 		death=yes
 	}
 }
-102 = {
-	name=Link
-	disallow_random_traits = yes 
-	
-	dynasty=14601
-	dna="cafijdibgbb"
-	properties="ce0dhd000000"
-	religion=hylia_religion
-	culture=skylofter
-	trait=hero_soul
-	trait=bloodline_hero
-	trait=brave
-	trait=warrior_4
-	trait=content
-	2982.6.1={
-		birth=yes
-	}
-	3000.1.1={
-		add_spouse = 101
-		give_nickname = nick_sky_child
-	}
-	3004.1.1={
-		death = {
-			death_reason = death_battle
-		}
-	}
-}
-103 = {
-	name=Fi
-	disallow_random_traits = yes 
-	
-	female = yes
-	dynasty=14601
-	religion=hylia_religion
-	culture=skylofter
-	father=102
-	mother=101
-	trait=race_hylian
-	trait=bloodline_hero
-	trait=fair
-	trait=brave
-	trait=warrior_2
-	3003.8.1={
-		birth=yes
-	}
-	3077.1.1={
-		death=yes
-	}
-}
 104 = {
 	name=Groose
 	disallow_random_traits = yes 
@@ -440,7 +391,7 @@
 	culture=hyrulean religion=golden_goddesses
 	martial=4 diplomacy=8 stewardship=8 intrigue=7 learning=7
 	add_trait=flamboyant_schemer add_trait=deceitful add_trait=greedy add_trait=shy 
-	father=131	#Wheaton
+	mother=131	#Wheaton
 	3699.4.24={ birth=yes }
 	3746.4.28={ death=yes }
 }
@@ -574,9 +525,7 @@
 	3962.10.18={
 		birth=yes
 	}
-	3979.4.30 = {
-		add_spouse=1009
-	}
+	3984.7.18={add_spouse=2521}
 	4019.1.1={
 		death={
 			death_reason=death_suicide_fall
@@ -607,7 +556,6 @@
 }
 #157 zelda's brother
 #Rauru branch split
-
 142={
 	name=Rauru
 	dynasty=2
@@ -633,7 +581,7 @@
 	3655.2.7={ birth=yes }
 	3672.2.7={add_spouse=143}
 	3673.2.21={add_trait=celibate}
-	3720.12.25={ death=yes }
+	5720.12.25={ death=yes }
 }
 143={
 	name=Seline
@@ -787,7 +735,7 @@
 	name=Tetralyna
 	female=yes
 	disallow_random_traits = yes 	
-	dynasty=1
+	dynasty=2
 	father=154
 	diplomacy=13
 	martial=5
@@ -804,19 +752,506 @@
 	trait=zealous
 	trait=shy
 	trait=patron_nayru
-	father=152
+	father=154
 	3969.7.18={
 		birth=yes
 	}	
 	4036.9.14={death=yes}
 }
 #madas
-10 = {
+
+102 = {
+	name=Link
+	disallow_random_traits = yes 
+	
+	dynasty=14601
+	dna="cafijdibgbb"
+	properties="ce0dhd000000"
+	religion=hylia_religion
+	culture=skylofter
+	trait=hero_soul
+	trait=bloodline_hero
+	trait=brave
+	trait=warrior_4
+	trait=content
+	2982.6.1={
+		birth=yes
+	}
+	3000.1.1={
+		add_spouse = 101
+		give_nickname = nick_sky_child
+	}
+	3004.1.1={
+		death = {
+			death_reason=death_battle
+		}
+	}
+}
+103 = {
+	name=Fi
+	disallow_random_traits = yes 
+	
+	female = yes
+	dynasty=14601
+	religion=hylia_religion
+	culture=skylofter
+	father=102
+	mother=101
+	trait=race_hylian
+	trait=bloodline_hero
+	trait=fair
+	trait=brave
+	trait=warrior_2
+	3003.8.1={
+		birth=yes
+	}
+	3077.1.1={
+		death=yes
+	}
+}
+159={
+	name=Avoset
+	dynasty=14601
+	dna="njjpfejjmeb"
+	culture=skylofter religion=hylia_religion
+	martial=7 diplomacy=8 stewardship=6 intrigue=5 learning=7
+	add_trait=elusive_shadow add_trait=just add_trait=wroth add_trait=content add_trait=zealous 
+	add_trait=possessed 
+	mother=103
+	3021.4.22={ birth=yes }
+	3105.4.20={ death=yes }
+}
+160={
+	name=Jaberu
+	dynasty=14601
+	dna="nmjofebdmkb"
+	culture=skylofter religion=hylia_religion
+	martial=4 diplomacy=8 stewardship=7 intrigue=7 learning=4
+	add_trait=detached_priest add_trait=zealous add_trait=deceitful add_trait=charitable add_trait=gluttonous 
+	father=159	#Avoset
+	3042.10.23={ birth=yes }
+	3088.2.17={ death=yes }
+}
+161={
+	name=Gelepaio
+	dynasty=14601
+	dna="nnjfffbnmkb"
+	culture=skylofter religion=hylia_religion
+	martial=8 diplomacy=4 stewardship=8 intrigue=5 learning=7
+	add_trait=scholarly_theologian add_trait=chaste add_trait=just add_trait=envious add_trait=brave 
+	add_trait=lunatic 
+	father=160	#Jaberu
+	3074.10.17={ birth=yes }
+	3130.7.25={ death=yes }
+}
+162={
+	name=Skoter
+	dynasty=14601
+	dna="akhkifbemki"
+	culture=skylofter religion=hylia_religion
+	martial=4 diplomacy=5 stewardship=7 intrigue=7 learning=6
+	add_trait=indulgent_wastrel add_trait=gardener add_trait=diligent add_trait=proud add_trait=cruel 
+	add_trait=content add_trait=arbitrary add_trait=deceitful 
+	father=161	#Gelepaio
+	3096.7.6={ birth=yes }
+	3143.10.23={ death=yes }
+}
+163={
+	name=Groose
+	dynasty=14601
+	dna="hkhkpfbemki"
+	culture=skylofter religion=hylia_religion
+	martial=8 diplomacy=7 stewardship=8 intrigue=5 learning=5
+	add_trait=grey_eminence add_trait=cruel add_trait=gregarious 
+	father=162	#Skoter
+	3123.11.26={ birth=yes }
+	3178.11.25={ death=yes }
+}
+164={
+	name=Ebisbill
+	dynasty=14601
+	dna="hkhkpfnefki"
+	culture=skylofter religion=hylia_religion
+	martial=8 diplomacy=8 stewardship=4 intrigue=5 learning=5
+	add_trait=midas_touched add_trait=ambitious add_trait=just add_trait=cruel add_trait=slothful 
+	add_trait=patient 
+	father=163	#Groose
+	3147.10.17={ birth=yes }
+	3233.1.13={ death=yes }
+}
+165={
+	name=Grodwit
+	dynasty=14601
+	dna="hmhkpfnmfki"
+	culture=skylofter religion=hylia_religion
+	martial=6 diplomacy=8 stewardship=4 intrigue=4 learning=8
+	add_trait=grey_eminence add_trait=patient add_trait=cynical add_trait=diligent 
+	father=164	#Ebisbill
+	3174.12.13={ birth=yes }
+	3247.2.15={ death=yes }
+}
+166={
+	name=Bertie
+	dynasty=14601
+	dna="oaokdencfno"
+	culture=skylofter religion=golden_goddesses
+	martial=4 diplomacy=7 stewardship=6 intrigue=6 learning=5
+	add_trait=martial_cleric add_trait=hunter add_trait=patient add_trait=brave add_trait=harelip 
+	father=165	#Grodwit
+	3200.9.16={ birth=yes }
+	3252.1.25={ death=yes }
+}
+167={
+	name=Scoter
+	dynasty=14601
+	dna="oapbiaecfnk"
+	culture=skylofter religion=golden_goddesses
+	martial=8 diplomacy=6 stewardship=4 intrigue=6 learning=4
+	add_trait=indulgent_wastrel add_trait=gregarious add_trait=ambitious add_trait=greedy add_trait=chaste 
+	add_trait=kind add_trait=ill 
+	father=166	#Bertie
+	3225.8.1={ birth=yes }
+	3291.6.19={ death=yes }
+}
+168={
+	name=Pluver
+	dynasty=14601
+	dna="gapbilacfac"
+	culture=skylofter religion=golden_goddesses
+	martial=8 diplomacy=8 stewardship=5 intrigue=4 learning=8
+	add_trait=indulgent_wastrel add_trait=ambitious add_trait=arbitrary add_trait=honest 
+	father=167	#Scoter
+	3251.2.7={ birth=yes }
+	3311.8.6={ death=yes }
+}
+169={
+	name=Hawk
+	dynasty=14601
+	dna="gjjnioacfoc"
+	culture=skylofter religion=golden_goddesses
+	martial=5 diplomacy=5 stewardship=7 intrigue=6 learning=6
+	add_trait=elusive_shadow add_trait=celibate add_trait=brave add_trait=patient add_trait=humble 
+	add_trait=temperate 
+	father=168	#Pluver
+	3278.4.20={ birth=yes }
+	3342.1.31={ death=yes }
+}
+170={
+	name=Rayadito
+	dynasty=14601
+	dna="gnkfioajpic"
+	culture=skylofter religion=golden_goddesses
+	martial=4 diplomacy=7 stewardship=4 intrigue=8 learning=4
+	add_trait=mastermind_theologian add_trait=wroth add_trait=deceitful 
+	father=169	#Hawk
+	3300.6.10={ birth=yes }
+	3351.6.30={ death=yes }
+}
+171={
+	name=Viro
+	dynasty=14601
+	dna="mnckibhjnoc"
+	culture=hyrulean religion=golden_goddesses
+	martial=5 diplomacy=8 stewardship=4 intrigue=6 learning=8
+	add_trait=charismatic_negotiator add_trait=proud add_trait=greedy add_trait=content 
+	father=170	#Rayadito
+	3331.9.13={ birth=yes }
+	3398.3.15={ death=yes }
+}
+172={
+	name=Auc
+	dynasty=14601
+	dna="ffmpbnljgai"
+	culture=hyrulean religion=golden_goddesses
+	martial=8 diplomacy=4 stewardship=8 intrigue=6 learning=8
+	add_trait=detached_priest add_trait=cruel add_trait=lustful add_trait=just add_trait=brave 
+	father=171
+	3352.4.18={ birth=yes }
+	3431.9.21={ death=yes }
+}
+173={
+	name=Ruf
+	dynasty=14601
+	dna="gfppbnlkgmg"
+	culture=hyrulean religion=golden_goddesses
+	martial=5 diplomacy=4 stewardship=7 intrigue=8 learning=8
+	add_trait=skilled_tactician add_trait=celibate add_trait=just add_trait=patient add_trait=paranoid 
+	add_trait=shy 
+	father=172	#Auc
+	3378.4.17={ birth=yes }
+	3448.11.7={ death=yes }
+}
+174={
+	name=Curloow
+	dynasty=14601
+	dna="ghbkomjbgmg"
+	culture=hyrulean religion=golden_goddesses
+	martial=8 diplomacy=6 stewardship=7 intrigue=7 learning=4
+	add_trait=midas_touched add_trait=charitable add_trait=shy add_trait=zealous add_trait=cruel 
+	father=173	#Ruf
+	3402.4.8={ birth=yes }
+	3449.11.6={ death=yes }
+}
+175={
+	name=Sheethbill
+	dynasty=14601
+	dna="ihbenmpbjmg"
+	culture=hyrulean religion=golden_goddesses
+	martial=4 diplomacy=7 stewardship=4 intrigue=5 learning=4
+	add_trait=naive_appeaser add_trait=gardener add_trait=trusting add_trait=proud 
+	father=174	#Curloow
+	3422.2.21={ birth=yes }
+	3475.2.25={ death=yes }
+}
+176={
+	name=Greb
+	dynasty=14601
+	dna="iebebabijmg"
+	culture=hyrulean religion=golden_goddesses
+	martial=4 diplomacy=5 stewardship=8 intrigue=5 learning=4
+	add_trait=flamboyant_schemer add_trait=deceitful add_trait=gregarious add_trait=craven add_trait=proud 
+	add_trait=cruel 
+	father=175	#Sheethbill
+	3444.2.22={ birth=yes }
+	3519.8.12={ death=yes }
+}
+177={
+	name=Dovos
+	dynasty=14601
+	dna="hmgeohgihmn"
+	culture=hyrulean religion=golden_goddesses
+	martial=8 diplomacy=4 stewardship=8 intrigue=7 learning=4
+	add_trait=midas_touched add_trait=greedy add_trait=ambitious add_trait=zealous add_trait=lustful 
+	add_trait=arbitrary 
+	father=176	#Greb
+	3467.10.19={ birth=yes }
+	3513.10.10={ death=yes }
+}
+178={
+	name=Egle
+	dynasty=14601
+	dna="hmgebfgjhon"
+	culture=hyrulean religion=golden_goddesses
+	martial=8 diplomacy=7 stewardship=6 intrigue=4 learning=6
+	add_trait=misguided_warrior add_trait=charitable add_trait=kind add_trait=wroth add_trait=craven 
+	add_trait=lustful add_trait=slothful 
+	father=177	#Dovos
+	3494.7.9={ birth=yes }
+	3554.6.1={ death=yes }
+}
+179={
+	name=Kool
+	dynasty=14601
+	dna="jhgebgfjpon"
+	culture=hyrulean religion=golden_goddesses
+	martial=8 diplomacy=4 stewardship=6 intrigue=8 learning=6
+	add_trait=misguided_warrior add_trait=cynical add_trait=gregarious add_trait=stutter 
+	father=178	#Egle
+	3520.4.24={ birth=yes }
+	3595.3.8={ death=yes }
+}
+180={
+	name=Auc
+	dynasty=14601
+	dna="gdhgogfinon"
+	culture=hyrulean religion=golden_goddesses
+	martial=6 diplomacy=8 stewardship=4 intrigue=5 learning=6
+	add_trait=thrifty_clerk add_trait=honest add_trait=chaste add_trait=craven add_trait=patient 
+	father=179	#Kool
+	3542.12.7={ birth=yes }
+	3591.9.18={ death=yes }
+}
+181={
+	name=Rauk
+	dynasty=14601
+	dna="gdggigfiaog"
+	culture=hyrulean religion=golden_goddesses
+	martial=4 diplomacy=5 stewardship=7 intrigue=4 learning=6
+	add_trait=charismatic_negotiator add_trait=gregarious add_trait=greedy add_trait=envious add_trait=just 
+	add_trait=deceitful add_trait=cruel 
+	father=180	#Auc
+	3562.5.1={ birth=yes }
+	3632.10.24={ death=yes }
+}
+182={
+	name=Karacara
+	dynasty=14601
+	dna="gdgejfeeaog"
+	culture=hyrulean religion=golden_goddesses
+	martial=8 diplomacy=7 stewardship=8 intrigue=8 learning=8
+	add_trait=detached_priest add_trait=arbitrary add_trait=temperate add_trait=brave add_trait=cruel 
+	add_trait=kind add_trait=strong 
+	father=181	#Rauk
+	3584.9.21={ birth=yes }
+	3635.10.26={ death=yes }
+}
+183={
+	name=Krake
+	dynasty=14601
+	dna="fdkljfchgdi"
+	culture=hyrulean religion=golden_goddesses
+	martial=4 diplomacy=4 stewardship=7 intrigue=8 learning=8
+	add_trait=flamboyant_schemer add_trait=envious add_trait=cynical add_trait=lustful add_trait=temperate 
+	father=182	#Karacara
+	3608.12.25={ birth=yes }
+	3656.9.28={ death=yes }
+}
+184={
+	name=Beedle
+	dynasty=14601
+	dna="dehkiddhdpc"
+	culture=hyrulean religion=golden_goddesses
+	martial=6 diplomacy=4 stewardship=4 intrigue=8 learning=6
+	add_trait=detached_priest add_trait=paranoid add_trait=slothful add_trait=zealous add_trait=cruel 
+	add_trait=shy add_trait=ambitious add_trait=wounded 
+	father=183	#Krake
+	3629.6.6={ birth=yes }
+	3673.7.30={ death=yes }
+}
+185={
+	name=Scoter
+	dynasty=14601
+	dna="degkijfjdkc"
+	culture=hyrulean religion=golden_goddesses
+	martial=5 diplomacy=4 stewardship=8 intrigue=7 learning=6
+	add_trait=martial_cleric add_trait=wroth add_trait=kind add_trait=content add_trait=paranoid 
+	father=184	#Beedle
+	3661.9.14={ birth=yes }
+	3727.3.3={ death=yes }
+}
+186={
+	name=Krake
+	dynasty=14601
+	dna="dcodljmjcec"
+	culture=hyrulean religion=golden_goddesses
+	martial=8 diplomacy=5 stewardship=8 intrigue=7 learning=6
+	add_trait=mastermind_theologian add_trait=arbitrary add_trait=envious 
+	father=185	#Scoter
+	3685.5.9={ birth=yes }
+	3755.10.22={ death=yes }
+}
+187={
+	name=Grodwit
+	dynasty=14601
+	dna="ecodlbhjckc"
+	culture=hyrulean religion=golden_goddesses
+	martial=6 diplomacy=8 stewardship=6 intrigue=6 learning=6
+	add_trait=martial_cleric add_trait=just add_trait=slothful add_trait=patient add_trait=craven 
+	add_trait=gluttonous 
+	father=186	#Krake
+	3712.2.27={ birth=yes }
+	3791.3.1={ death=yes }
+}
+188={
+	name=Smew
+	dynasty=14601
+	dna="ffaelggjcko"
+	culture=hyrulean religion=golden_goddesses
+	martial=5 diplomacy=7 stewardship=7 intrigue=5 learning=7
+	add_trait=detached_priest add_trait=envious add_trait=cruel add_trait=proud add_trait=honest 
+	add_trait=craven add_trait=trusting 
+	father=187	#Grodwit
+	3738.2.20={ birth=yes }
+	3795.1.7={ death=yes }
+}
+189={
+	name=Auc
+	dynasty=14601
+	dna="pmllbgmjmij"
+	culture=hyrulean religion=golden_goddesses
+	martial=7 diplomacy=7 stewardship=6 intrigue=5 learning=5
+	add_trait=misguided_warrior add_trait=arbitrary add_trait=honest add_trait=trusting add_trait=cruel 
+	add_trait=charitable 
+	father=188	#Smew
+	3761.9.21={ birth=yes }
+	3814.7.18={ death=yes }
+}
+190={
+	name=Turk
+	dynasty=14601
+	dna="chmobmmmmij"
+	culture=hyrulean religion=golden_goddesses
+	martial=5 diplomacy=6 stewardship=6 intrigue=5 learning=8
+	add_trait=grey_eminence add_trait=gregarious add_trait=craven add_trait=wroth add_trait=humble 
+	add_trait=quick 
+	father=189	#Auc
+	3782.11.21={ birth=yes }
+	3850.9.28={ death=yes }
+}
+191={
+	name=Mucaw
+	dynasty=14601
+	dna="ahmobnmmbpn"
+	culture=hyrulean religion=golden_goddesses
+	martial=6 diplomacy=5 stewardship=8 intrigue=5 learning=5
+	add_trait=flamboyant_schemer add_trait=temperate add_trait=cruel add_trait=trusting 
+	father=190	#Turk
+	3808.3.15={ birth=yes }
+	3864.6.28={ death=yes }
+}
+192={
+	name=Kempken
+	dynasty=14601
+	dna="afmobnhmfmg"
+	culture=hyrulean religion=golden_goddesses
+	martial=8 diplomacy=6 stewardship=4 intrigue=5 learning=4
+	add_trait=elusive_shadow add_trait=brave add_trait=arbitrary add_trait=honest add_trait=chaste 
+	add_trait=shy add_trait=drunkard 
+	father=191	#Mucaw
+	3828.6.11={ birth=yes }
+	3892.5.5={ death=yes }
+}
+193={
+	name=Kage
+	dynasty=14601
+	dna="abgobnhmfag"
+	culture=hyrulean religion=golden_goddesses
+	martial=6 diplomacy=8 stewardship=6 intrigue=8 learning=8
+	add_trait=flamboyant_schemer add_trait=trusting add_trait=wroth 
+	father=192	#Kempken
+	3858.2.24={ birth=yes }
+	3931.4.15={ death=yes }
+}
+194={
+	name=Kool
+	dynasty=14601
+	dna="aegebnhhhba"
+	culture=hyrulean religion=golden_goddesses
+	martial=6 diplomacy=6 stewardship=4 intrigue=8 learning=8
+	add_trait=indulgent_wastrel add_trait=chaste add_trait=wroth add_trait=greedy add_trait=shy 
+	father=193	#Kage
+	3889.1.27={ birth=yes }
+	3943.3.12={ death=yes }
+}
+195={
+	name=Sparrot
+	dynasty=14601
+	dna="iagebmecoba"
+	culture=hyrulean religion=golden_goddesses
+	martial=7 diplomacy=4 stewardship=6 intrigue=8 learning=5
+	add_trait=skilled_tactician add_trait=slothful add_trait=paranoid add_trait=arbitrary add_trait=depressed 
+	father=194	#Kool
+	3910.11.7={ birth=yes }
+	3985.12.26={ death=yes }
+}
+196={
+	name=Not
+	dynasty=14601
+	dna="fcgebemcgoa"
+	culture=hyrulean religion=golden_goddesses
+	martial=8 diplomacy=8 stewardship=6 intrigue=6 learning=8
+	add_trait=detached_priest add_trait=poet add_trait=charitable add_trait=shy add_trait=lustful 
+	add_trait=cynical 
+	father=195	#Sparrot
+	3934.1.9={ birth=yes }
+	3985.6.5={ death=yes }
+}
+197 = {
 	name=Hagan
 	
 	disallow_random_traits = yes 
-	dynasty=12501
-	mother=41
+	dynasty=14601
+	father=196
 	diplomacy=9
 	martial=15
 	intrigue=5
@@ -835,20 +1270,20 @@
 	trait=experimenter
 	trait=cavalry_leader
 	trait=patron_din
-	3358.2.10={
+	3960.2.10={
 		birth=yes
 	}
-   4385.10.16 = {
-		add_spouse=1011
+	3984.2.20= {
+		add_spouse=198
 	}
 #   3388.1.25 = {
 #		add_spouse=xz
 #	}
-	3420.1.1={
+	4019.12.1={
 		death=yes
 	}
 }
-11 = {
+198 = {
 	name=Anju
 	
 	female=yes
@@ -860,22 +1295,22 @@
 	trait=weak
 	trait=chaste
 	trait=envious
-	4369.10.15={
+	3968.2.19={
 		birth=yes
 	}
-   4385.10.16 = {
-		add_spouse=1010
+	3984.2.20= {
+		add_spouse=197
 	}
-	4386.9.29={
+	3986.2.20={
 		death={ death_reason=death_childbirth }
 	}
 }
-12 = {
+199 = {
 	name=Link
 	
-	dynasty=12501
-	father=1010
-	mother=1011
+	dynasty=14601
+	father=197
+	mother=198
 	dna="demab0flab0"
 	properties="qe0chkbebbbb"
 	religion=golden_goddesses
@@ -883,14 +1318,15 @@
 	trait=bloodline_hero
 	trait=hero_soul
 	trait=race_hylian
-	4386.9.28={
+	3986.2.20={
 		birth=yes
 	}
-	4433.9.29={
+	4053.9.29={
 		death=yes
 	}
 }
-13 = {
+#lon lon
+200 = {
 	name=Talon
 	
 	dynasty=40
@@ -902,17 +1338,17 @@
 	trait=slothful
 	trait=content
 	trait=drunkard
-	4345.7.19={
+	3967.7.19={
 		birth=yes
 	}
-   4385.3.16 = {
-		add_spouse=1014
+   3985.3.16 = {
+		add_spouse=201
 	}
-	4412.1.1={
+	4025.1.1={
 		death=yes
 	}
 }
-14 = {
+201 = {
 	name=Lissa
 	
 	female=yes
@@ -923,54 +1359,390 @@
 	trait=shy
 	trait=trusting
 	trait=kind
-	4369.7.19={
+	3967.7.19={
 		birth=yes
 	}
-   4385.3.16 = {
-		add_spouse=1013
+   3984.3.16 = {
+		add_spouse=200
 	}
-	4403.1.1={
+	4034.1.1={
 		death=yes
 	}
 }
-15 = {
+202 = {
 	name=Malon
 	
 	female=yes
 	dynasty=40
-	father=1013
-	mother=1014
+	father=200
+	mother=201
 	religion=golden_goddesses
 	culture=hyrulean
 	trait=race_hylian
 	trait=fair
-	4386.9.26={
+	3985.9.26={
 		birth=yes
 	}
-	4451.1.1={death=yes}
+	4046.1.1={death=yes}
 }
-
-16 = { #gerudo gate
+#noln/northern hyrule field
+203={
+	name=Breve
+	female=yes
+	dynasty=10
+	dna="mbbhegiggdf"
+	culture=hyrulean religion=golden_goddesses
+	martial=7 diplomacy=5 stewardship=8 intrigue=5 learning=6
+	add_trait=charismatic_negotiator add_trait=trusting add_trait=charitable add_trait=proud add_trait=kind 
+	add_trait=wroth 
+	3939.4.22={ birth=yes }
+	3960.1.1={add_spouse=207}
+	3994.11.8={ death=yes }
+}
+204={
+	name=Harkinian
+	dynasty=10
+	dna="mbbadglgbdf"
+	culture=hyrulean religion=golden_goddesses
+	mother=203	#Rik
+	father=207
+	3961.2.14={ birth=yes }
+	3978.6.1=1={ death={death_reason=death_battle} }
+}
+205={
+	name=Mutoh
+	dynasty=10
+	dna="mbbhehejgdh"
+	culture=hyrulean religion=golden_goddesses
+	martial=7 diplomacy=6 stewardship=4 intrigue=6 learning=6
+	add_trait=martial_cleric add_trait=shy add_trait=honest 
+	mother=203	#Rik
+	father=207
+	3967.10.14={ birth=yes }
+	4043.4.16={ death=yes }
+}
+206={
+	name=Oraiya
+	female=yes
+	dynasty=10
+	dna="mnbpenmjddf"
+	culture=hyrulean religion=golden_goddesses
+	martial=7 diplomacy=5 stewardship=8 intrigue=7 learning=7
+	add_trait=thrifty_clerk add_trait=brave add_trait=just add_trait=envious add_trait=chaste 
+	mother=203	#Rik
+	father=207
+	3970.7.8={ birth=yes }
+	4042.7.7={ death=yes }
+}
+207={
+	name=Toffa
+	dna="mbbhegiggdf"
+	culture=hyrulean religion=golden_goddesses
+	3940.4.22={ birth=yes }
+	3960.1.1={add_spouse=203}
+	3994.11.8={ death=yes }
+}
+#central hyrule field/
+208={
+	name=Brocco
+	dynasty=20
+	dna="aekldehpeib"
+	culture=hyrulean religion=golden_goddesses
+	martial=6 diplomacy=4 stewardship=4 intrigue=7 learning=4
+	add_trait=detached_priest add_trait=diligent add_trait=honest add_trait=just add_trait=lustful 
+	add_trait=kind 
+	3950.8.14={ birth=yes }
+	3971.1.1={add_spouse=213}
+	4007.6.28={ death=yes }
+}
+209={
+	name=Shiro
+	dynasty=20
+	dna="ecplmehpeii"
+	culture=hyrulean religion=golden_goddesses
+	martial=4 diplomacy=8 stewardship=5 intrigue=5 learning=6
+	add_trait=mastermind_theologian add_trait=impaler add_trait=shy add_trait=cynical add_trait=just 
+	add_trait=trusting 
+	father=208	#Brocco
+	mother=213
+	3973.4.15={ birth=yes }
+	4024.12.14={ death=yes }
+}
+210={
+	name=Seres
+	female=yes
+	dynasty=20
+	dna="aeklfehpeob"
+	culture=hyrulean religion=golden_goddesses
+	father=208	#Brocco
+	mother=213
+	3977.1.21={ birth=yes }
+	4042.7.7={ death=yes }
+}
+211={
+	name=Breve
+	female=yes
+	dynasty=20
+	dna="dekddadpekf"
+	culture=hyrulean religion=golden_goddesses
+	father=208	#Brocco
+	mother=213
+	3980.7.15={ birth=yes }
+	4053.2.4={ death=yes }
+}
+212={
+	name=Irene
+	female=yes
+	dynasty=20
+	dna="aeklldhpeie"
+	culture=hyrulean religion=golden_goddesses
+	father=208	#Brocco
+	mother=213
+	3983.5.1={ birth=yes }
+	4034.7.22={ death=yes }
+}
+213={
+	name=Sagessa
+	female=yes
+	culture=hyrulean religion=golden_goddesses
+	add_trait=kind 
+	3950.8.14={ birth=yes }
+	3971.1.1={add_spouse=208}
+	4007.6.28={ death=yes }
+}
+#west hyrule field, west and southwest
+214={
+	name=Ingo
+	dynasty=30
+	dna="knomanijbnm"
+	culture=hyrulean religion=golden_goddesses
+	martial=5 diplomacy=4 stewardship=8 intrigue=5 learning=5
+	add_trait=midas_touched add_trait=duelist add_trait=proud add_trait=paranoid add_trait=ambitious 
+	add_trait=patient add_trait=envious add_trait=greedy 
+	trait=weak
+	3909.6.27={ birth=yes }
+	3967.1.4={ death=yes }
+}
+215={
+	name=Romio
+	dynasty=30
+	dna="knimjmbjbnl"
+	culture=hyrulean religion=golden_goddesses
+	martial=6 diplomacy=6 stewardship=6 intrigue=7 learning=8
+	add_trait=flamboyant_schemer add_trait=cynical add_trait=kind add_trait=trusting add_trait=just 
+	trait=clubfoot
+	father=214	#Ingo
+	3930.2.8={ birth=yes }
+	3954.1.1={add_spouse=216}
+	4002.3.1={ death=yes }
+}
+216={
+	name=Marshall
+	female=yes
+	culture=hyrulean religion=golden_goddesses
+	3934.12.1={ birth=yes }
+	3954.1.1={add_spouse=215}
+	4006.11.22={ death=yes }
+}
+217={
+	name=Paige
+	female=yes
+	culture=hyrulean religion=golden_goddesses
+	3956.5.27={ birth=yes }
+	3984.1.1={add_spouse=218}
+	4008.4.7={ death=yes }
+}
+218={
+	name=Chudley
+	dynasty=30
+	dna="aikgimeaenj"
+	culture=hyrulean religion=golden_goddesses
+	martial=8 diplomacy=4 stewardship=7 intrigue=7 learning=8
+	add_trait=elusive_shadow add_trait=chaste add_trait=cruel add_trait=craven add_trait=slothful 
+	father=215	#Romio
+	mother=216
+	3958.7.10={ birth=yes }
+	3984.1.1={add_spouse=217}
+	4018.7.7={ death=yes }
+}
+219={
+	name=Jasmine
+	female=yes
+	dynasty=30
+	dna="iiemjeppbnl"
+	culture=hyrulean religion=golden_goddesses
+	father=215	#Romio
+	mother=216
+	3963.12.11={ birth=yes }
+	4027.12.4={ death=yes }
+}
+220={
+	name=Simon
+	dynasty=30
+	dna="nhemjmogbml"
+	culture=hyrulean religion=golden_goddesses
+	martial=4 diplomacy=4 stewardship=4 intrigue=7 learning=7
+	add_trait=flamboyant_schemer add_trait=patient add_trait=zealous add_trait=humble add_trait=cruel 
+	add_trait=paranoid 
+	father=215	#Romio
+	mother=216
+	3965.3.22={ birth=yes }
+	4010.3.6={ death=yes }
+}
+221={
+	name=Shar
+	dynasty=30
+	dna="ijimdmbaiol"
+	culture=hyrulean religion=golden_goddesses
+	martial=5 diplomacy=5 stewardship=5 intrigue=8 learning=7
+	add_trait=midas_touched add_trait=proud add_trait=wroth add_trait=slothful add_trait=honest 
+	father=215	#Romio
+	mother=216
+	3969.2.19={ birth=yes }
+	4019.10.28={ death=yes }
+}
+222={
+	name=Satchel
+	dynasty=30
+	dna="nlhmhmfjbdj"
+	culture=hyrulean religion=golden_goddesses
+	martial=7 diplomacy=6 stewardship=8 intrigue=4 learning=6
+	add_trait=detached_priest add_trait=zealous add_trait=lustful add_trait=cruel add_trait=greedy 
+	add_trait=shy 
+	father=215	#Romio
+	mother=216
+	3973.5.10={ birth=yes }
+	4020.7.6={ death=yes }
+}
+223={
+	name=Jiro
+	dynasty=30
+	dna="kbimadbkbke"
+	culture=hyrulean religion=golden_goddesses
+	martial=4 diplomacy=5 stewardship=6 intrigue=7 learning=8
+	add_trait=indulgent_wastrel add_trait=ambitious add_trait=wroth 
+	father=215	#Romio
+	mother=216
+	3976.6.25={ birth=yes }
+	4051.3.9={ death=yes }
+}
+224={
+	name=Brent
+	dynasty=30
+	dna="fikgiaeabnj"
+	culture=hyrulean religion=golden_goddesses
+	martial=6 diplomacy=6 stewardship=6 intrigue=5 learning=4
+	add_trait=scholarly_theologian add_trait=diligent add_trait=charitable add_trait=cruel add_trait=quick 
+	father=218	#Chudley
+	mother=217
+	3986.11.4={ birth=yes }
+	4033.1.14={ death=yes }
+}
+#gerudo gate
+225={
+	name=Soal
+	dynasty=80
+	dna="ilalhjamehi"
+	culture=hyrulean religion=golden_goddesses
+	martial=8 diplomacy=8 stewardship=4 intrigue=5 learning=8
+	add_trait=indulgent_wastrel add_trait=cynical add_trait=deceitful add_trait=proud add_trait=cruel 
+	add_trait=kind 
+	3965.4.7={ birth=yes }
+	4029.7.7={ death=yes }
+}
+#south hyrule field
+226={
 	name=Percy
-	 
-	dna="dcida0iabb0"
-	properties="im0cbdbbbbbb"
-	dynasty=13
-	religion=golden_goddesses
-	culture=hyrulean
-	trait=skilled_tactician
-	trait=race_hylian
-	#trait=warrior_2
-	trait=wounded
-	trait=brave
-	trait=robust
-	trait=dull
-	trait=duelist
-	4369.3.24={
-		birth=yes
-	}
-	4422.1.1={death=yes}
+	dynasty=60
+	dna="dpifddemomj"
+	culture=hyrulean religion=golden_goddesses
+	martial=5 diplomacy=8 stewardship=5 intrigue=7 learning=8
+	add_trait=detached_priest add_trait=content add_trait=diligent add_trait=stressed 
+	3939.4.13={ birth=yes }
+	3963.1.1={add_spouse=232}
+	4028.9.1={ death=yes }
 }
+227={
+	name=Kaepora
+	dynasty=60
+	dna="poifddeblmg"
+	culture=hyrulean religion=golden_goddesses
+	martial=5 diplomacy=5 stewardship=7 intrigue=6 learning=5
+	add_trait=detached_priest add_trait=humble add_trait=lustful add_trait=zealous add_trait=honest 
+	add_trait=trusting 
+	father=226	#Percy
+	mother=232
+	3965.10.9={ birth=yes }
+	3984.1.1={add_spouse=233}
+	4027.2.8={ death=yes }
+}
+228={
+	name=Shiro
+	dynasty=60
+	dna="pfifchbejef"
+	culture=hyrulean religion=golden_goddesses
+	martial=6 diplomacy=4 stewardship=5 intrigue=5 learning=8
+	add_trait=flamboyant_schemer add_trait=ambitious add_trait=deceitful 
+	father=226	#Percy
+	mother=232
+	3968.7.8={ birth=yes }
+	4027.8.12={ death=yes }
+}
+229={
+	name=Harrison
+	dynasty=60
+	dna="mfiaddcmgmj"
+	culture=hyrulean religion=golden_goddesses
+	martial=6 diplomacy=8 stewardship=4 intrigue=5 learning=5
+	add_trait=elusive_shadow add_trait=diligent add_trait=ambitious add_trait=envious add_trait=wounded 
+	father=226	#Percy
+	mother=232
+	3972.4.22={ birth=yes }
+	4056.10.10={ death=yes }
+}
+230={
+	name=Leila
+	female=yes
+	dynasty=60
+	dna="doifddbgoai"
+	culture=hyrulean religion=golden_goddesses
+	father=226	#Percy
+	mother=232
+	3976.11.26={ birth=yes }
+	4036.9.8={ death=yes }
+}
+231={
+	name=Kazakk
+	dynasty=60
+	dna="peiidkeblgg"
+	culture=hyrulean religion=golden_goddesses
+	martial=4 diplomacy=4 stewardship=4 intrigue=5 learning=7
+	add_trait=flamboyant_schemer add_trait=patient add_trait=lustful add_trait=cruel add_trait=honest 
+	add_trait=shy add_trait=paranoid 
+	father=227	#Kaepora
+	mother=233
+	3986.6.9={ birth=yes }
+	4073.4.22={ death=yes }
+}
+232={
+	name=Percy
+	dynasty=65
+	female=yes
+	culture=hyrulean religion=golden_goddesses
+	3939.4.13={ birth=yes }
+	3963.1.1={add_spouse=227}
+	4028.9.1={ death=yes }
+}
+233={
+	name=Emma
+	dynasty=75
+	female=yes
+	culture=hyrulean religion=golden_goddesses
+	3965.10.9={ birth=yes }
+	3984.1.1={add_spouse=227}
+	4027.2.8={ death=yes }
+}
+#bladebrothers
 700={
 	name=Swiftblade
 	disallow_random_traits = yes 

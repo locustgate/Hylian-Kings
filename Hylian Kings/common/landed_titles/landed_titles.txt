@@ -1239,25 +1239,42 @@ e_hyrule_central = {
 			color={ 238 116 238 }
 			color2={ 255 223 0 }
 			capital = 484 # Hyrule Castle
-			c_mount_hylia = {
-				color={ 148 0 211 }
-				color2={ 255 255 255 }
+			c_castle_road = {	
+				color={ 238 116 238 }
+				color2={ 112 128 144 }
 				
-				b_hylia_retreat = {}
-				b_mountain_town = {}
-				b_hylia_point = {}
+				holy_site = great_fairies
+				
+				b_castle_gate = {}
+				b_fairy_spring_of_courage = {}
+				b_reststop = {}
+			
 			}
-			c_castle_town_gate = {
-				color={ 145 196 251 }
-				color2={ 255 255 255 }
+			c_hyrule_castle = {				
+				color={ 238 116 238 }
+				color2={ 255 223 0 }
 				
-				b_great_gate = {}
-				b_gate_guard_house = {}
-				b_guards_temple = {}
-				b_southern_castle_town = {}
-				b_southern_back_alley = {}
-				b_guard_district = {}
-				b_knights_castle = {}
+				b_hyrule_castle = {} 
+				b_royal_temple = {}
+			}
+			c_sacred_grove = {
+				color={ 84 255 159 }
+				color2={ 34 139 34 }
+				holy_site = hylia_religion
+				holy_site = sheikahism
+				b_bordergate = {}
+				b_forest_retreat = {}
+				b_grove_town = {}
+				b_sacred_grove = {}
+			
+			}
+		}
+		d_castle_town = {		
+			color={ 2 0 174 }
+			color2={ 206 15 15 }
+			capital = 481 # Hyrule Castle
+			allow = {
+				culture = hyrulean
 			}
 			c_west_castle_town = {
 				color = { 0 238 0 }
@@ -1322,35 +1339,6 @@ e_hyrule_central = {
 				b_temple_of_time_graveyard = {}
 				b_temple_district = {}
 				b_beggers_alley = {}
-			}
-			c_castle_road = {	
-				color={ 238 116 238 }
-				color2={ 112 128 144 }
-				
-				holy_site = great_fairies
-				
-				b_castle_gate = {}
-				b_fairy_spring_of_courage = {}
-				b_reststop = {}
-			
-			}
-			c_hyrule_castle = {				
-				color={ 238 116 238 }
-				color2={ 255 223 0 }
-				
-				b_hyrule_castle = {} 
-				b_royal_temple = {}
-			}
-			c_sacred_grove = {
-				color={ 84 255 159 }
-				color2={ 34 139 34 }
-				holy_site = hylia_religion
-				holy_site = sheikahism
-				b_bordergate = {}
-				b_forest_retreat = {}
-				b_grove_town = {}
-				b_sacred_grove = {}
-			
 			}
 		}
 		d_royal_graveyard = { #later old kakariko
@@ -1513,14 +1501,6 @@ e_hyrule_central = {
 				b_farmers_town = {}
 				b_farmers_temple = {}
 			}
-		}
-	}
-	d_castle_town = {	
-		color={ 2 0 174 }
-		color2={ 206 15 15 }
-		capital = 481 # Hyrule Castle
-		allow = {
-			culture = hyrulean
 		}
 	}
 }
@@ -3219,7 +3199,6 @@ e_sea_tree = {
 				b_fedi = {}
 				b_kokia = {}
 				b_fodovok = {}
-
 			}
 			c_manhandla_forest = {
 				color={ 88 88 196 }
@@ -3235,29 +3214,6 @@ e_sea_tree = {
 				b_kuria = {}
 				b_faria = {}
 
-			}
-		}
-		d_forest_road = {
-			color={ 172 68 68 }
-			color2={ 255 255 255 }
-			capital=673
-			c_forest_road = {
-				color={ 0 120 25 }
-				color2={ 255 255 255 }
-				b_muvo = {}
-				b_kosi = {}
-			}
-			c_skull_road = {
-				color={ 0 0 175 }
-				color2={ 255 255 255 }
-				kokiri="Gray Road"
-				#korok="Gray Road"
-				deku_tree="Gray Road"
-				deku_scrub="Gray Road"
-				great_fairy="Gray Road"
-				b_dovabu = {}
-				b_kuvo = {}
-				b_fodek = {}
 			}
 		}
 	}
@@ -8386,8 +8342,7 @@ k_icehead = {
 			b_kutiden = {}
 		}
 	}
-	d_icehead = { = {
-		}
+	d_icehead = {
 		c_icehead = {
 			b_icehead = {}
 			b_fairy_fountain_of_wisdom = {}
@@ -8876,6 +8831,29 @@ k_hyrule_minish = { #Minish
 		}
 	}
 	wind_tribe="Wind"
+	d_hyrule_road = {
+		color={ 172 68 68 }
+		color2={ 255 255 255 }
+		capital=673
+		c_hyrule_gate = {
+			color={ 0 120 25 }
+			color2={ 255 255 255 }
+			b_muvo = {}
+			b_kosi = {}
+		}
+		c_hylia_road = {
+			color={ 0 0 175 }
+			color2={ 255 255 255 }
+			kokiri="Gray Road"
+			#korok="Gray Road"
+			deku_tree="Gray Road"
+			deku_scrub="Gray Road"
+			great_fairy="Gray Road"
+			b_dovabu = {}
+			b_kuvo = {}
+			b_fodek = {}
+		}
+	}
 	d_minish_fields= {
 		color={ 27 163 211 }
 		color2={ 176 23 31 }
