@@ -24,8 +24,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 22
-			texture_internal = 2
+			texture = 2
+			texture_internal = 22
 			emblem = 0
 			color = 0
 			color = 0
@@ -37417,6 +37417,17 @@
 7401 = {
 	name="Saria"
 	culture = sarian
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 7402 = {
@@ -39414,8 +39425,19 @@
 
 #kas
 7801 = {
-	name="Antic"
+	name="Kasuto"
 	culture = kasuton
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 7802 = {
@@ -51391,8 +51413,9 @@
 }
 
 10200 = {
-	name="Yoko"
+	name="Gamelon"
 	culture = gamelon
+	used_for_random = no
 }
 10201 = {
 	name="Kriggle"

@@ -3,6 +3,10 @@ law_groups = {
 		law_type = realm
 		allowed_for_councillors = yes
 	}
+	vassal_wars_law = {
+		law_type = realm
+		allowed_for_councillors = yes
+	}
 }
 
 de_jure_laws = {
@@ -17,7 +21,6 @@ de_jure_laws = {
 				is_nomadic = no
 				is_republic = no
 			}
-			
 		}
 		
 		allow = {
@@ -54,7 +57,6 @@ de_jure_laws = {
 				is_nomadic = no
 				is_republic = no
 			}
-			
 		}
 		
 		allow = {
@@ -83,7 +85,8 @@ de_jure_laws = {
 			}
 			set_protected_inheritance = yes
 		}
-	}	
+	}
+	
 	# VASSAL WAR DECLARATION LAWS
 	vassal_wars_law_0 = {
 		group = vassal_wars_law
@@ -129,7 +132,6 @@ de_jure_laws = {
 			set_the_kings_peace = no
 			set_the_kings_full_peace = no
 		}
-		feudal_opinion = 5
 	}
 	vassal_wars_law_1 = {
 		group = vassal_wars_law
@@ -140,9 +142,6 @@ de_jure_laws = {
 				is_tribal = no
 				is_nomadic = no
 				is_republic = no
-				NOT = {
-					religion_group = demon_religion
-				}
 			}
 		}
 		
@@ -193,11 +192,6 @@ de_jure_laws = {
 				is_tribal = no
 				is_nomadic = no
 				is_republic = no
-				NOR = {
-					religion = darknut_doctrine
-					religion_group = demon_religion
-					religion = pirate_doctrine
-				}
 			}
 		}
 		

@@ -251,7 +251,6 @@ de_jure_laws = {
 					hidden_tooltip = {
 						OR = {
 							NOT = { religion_group = demon_religion }
-							
 						}
 					}
 				}
@@ -351,7 +350,6 @@ de_jure_laws = {
 					hidden_tooltip = {
 						OR = {
 							NOT = { religion_group = demon_religion }
-							
 						}
 					}
 				}
@@ -441,7 +439,9 @@ de_jure_laws = {
 		default = yes
 		potential = {
 			holder_scope = {
-				religion = darknut_doctrine
+				OR = {
+					religion = darknut_doctrine
+				}
 				is_tribal = no
 				is_nomadic = no
 			}
@@ -476,7 +476,9 @@ de_jure_laws = {
 		group = investiture_law
 		potential = {
 			holder_scope = {
-				religion = darknut_doctrine
+				OR = {
+					religion = darknut_doctrine
+				}
 				is_tribal = no
 				is_nomadic = no
 			}

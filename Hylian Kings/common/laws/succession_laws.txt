@@ -18,7 +18,9 @@ succession_laws = {
 						}
 					}
 				}
-				NOT = { religion = darknut_doctrine }
+				NOR = { religion = darknut_doctrine
+					religion_group = demon_religion
+				}
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -47,10 +49,7 @@ succession_laws = {
 		}
 		allow = {
 			holder_scope = {
-				OR = {
-					is_tribal = no
-					NOT = { religion = demise_religion }
-				}
+				is_tribal = no
 			}
 			NAND = { 
 				has_law = succession_voting_power_1
@@ -63,7 +62,8 @@ succession_laws = {
 		revoke_allowed = {
 			always = no
 		}			
-	}	
+	}
+	
 	succ_elective_gavelkind = {
 		child_opinion = 15
 		dynasty_opinion = 5
@@ -79,8 +79,9 @@ succession_laws = {
 						}
 					}
 				}
-				NOT = { religion_group = demon_religion }
-				NOT = { religion = darknut_doctrine }
+				NOR = { religion = darknut_doctrine
+					religion_group = demon_religion
+				}
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -118,6 +119,7 @@ succession_laws = {
 			always = no
 		}			
 	}
+	
 	succ_seniority = {
 		vassal_opinion = -5
 		oldest_child_opinion = -15
@@ -140,25 +142,22 @@ succession_laws = {
 						NOT = { title = PREVPREV }
 					}
 				}
-				NOR = { 
-					culture = darknut 
-					religion = darknut_doctrine
-					religion_group = demon_religion
-				}
-				OR = {
-					independent = yes
-					NOT = {
-						any_liege = {
-							holy_order = yes
-						}
+				
+                OR = {
+                    NOR = {
+						religion_group = muslim
+						religion_group = indian_group 
 					}
-				}
+                    is_patrician = yes
+                }
+				
 				OR = {
-					is_merchant_republic = no
-					primary_title = {
-						NOT = { title = PREVPREV }
-					}
+					NOT = { religion_group = pagan_group }
+					is_reformed_religion = yes
+					religion = hellenic_pagan
+					is_patrician = yes
 				}
+				
 				OR = {
 					is_republic = no
 					is_patrician = yes
@@ -341,12 +340,12 @@ succession_laws = {
 					}
 				}
 				OR = {
-					NOR = {
+					NOR = { 
 						religion_group = demon_religion
-						#religion_group = muslim
-						#religion_group = indian_group
+						religion_group = gerudo_religions
 					}
 					has_law = succession_voting_power_1
+					has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
 				}
 				is_merchant_republic = no
 				is_patrician = no
@@ -395,11 +394,9 @@ succession_laws = {
 						}
 					}
 				}
-				NOT = { religion_group = demon_religion }
+				NOT = { religion_group = demon_religion	}
 				is_merchant_republic = no
 				is_patrician = no
-				#culture_group = celtic
-				culture = darknut
 				OR = {
 					independent = yes
 					NOT = {
@@ -461,32 +458,12 @@ succession_laws = {
 						}
 					}
 				}
-				#OR = {
-				#	culture = mongol
-				#	AND = {
-				#		NOT = { religion = norse_pagan }
-				#		NOT = { religion = tengri_pagan }
-				#		NOT = { religion = baltic_pagan }
-				#		NOT = { religion = finnish_pagan }
-				#		NOT = { religion = aztec }
-				#		NOT = { religion = pagan }
-				#		NOT = { religion = slavic_pagan }
-				#		NOT = { religion = west_african_pagan }
-				#	}
-				#}
-				NOR = {
-					culture = darknut
-					culture = demon
+				NOR = { religion = darknut_doctrine
+					religion_group = demon_religion
 					culture_group = blin
 					culture_group = lfos
-					culture_group = mammalian_monster
-					religion = darknut_doctrine
-					religion_group = demon_religion
+					culture_group = aquatic_monster
 				}
-				
-				#NOT = { religion_group = muslim }
-				is_merchant_republic = no
-				is_patrician = no
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -502,6 +479,14 @@ succession_laws = {
 				is_landless_type_title = no
 				is_tribal_type_title = yes
 				temporary = yes
+				AND = {
+					is_nomadic = no
+					OR = {
+						title = e_mongol_empire
+						title = e_golden_horde
+						title = e_il-khanate
+					}
+				}
 			}
 			is_primary_type_title = no
 			OR = {
@@ -510,6 +495,14 @@ succession_laws = {
 					is_feudal = yes
 				}
 				holder_scope = { is_feudal = yes }
+				AND = {
+					is_nomadic = no
+					OR = {
+						title = e_mongol_empire
+						title = e_golden_horde
+						title = e_il-khanate
+					}
+				}
 			}
 		}
 		allow = {
@@ -559,18 +552,10 @@ succession_laws = {
 #		dynasty_opinion = 10
 		potential = {
 			holder_scope = {
-				#religion_group = muslim
+				religion_group = doctrine
 				is_republic = no
 				is_merchant_republic = no
 				is_nomadic = no
-				OR = {
-					culture = darknut
-					culture_group = blin
-					culture_group = lfos
-					culture_group = mammalian_monster
-					religion_group = demon_religion
-					religion = darknut_doctrine
-				}
 			}
 			OR = {
 				holder_scope = { # Viceroyalties can always have turkish succession if muslim
@@ -764,10 +749,7 @@ succession_laws = {
 	succ_nomad_succession = {
 		potential = {
 			holder_scope = {
-				OR = {
 				is_nomadic = yes
-				religion = darknut_doctrine
-				}
 			}
 		}
 		effect = {

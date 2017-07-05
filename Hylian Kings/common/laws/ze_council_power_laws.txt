@@ -137,14 +137,21 @@ laws = {
 		default_selection = {
 			factor = 0
 			
-
 			additive_modifier = { 
 				value = 10			
-				title = e_saria	
+				year = 850
+				holder_scope = { 
+					religion = catholic
+					is_feudal = yes
+				}	
 			}
 			additive_modifier = { 
 				value = 10			
-				title = e_hyrule_central	
+				title = e_hre	
+			}
+			additive_modifier = { 
+				value = 10			
+				title = e_byzantium	
 			}
 			additive_modifier = { 
 				value = 10			
@@ -323,10 +330,17 @@ laws = {
 		default_selection = {
 			factor = 0
 			
-	
 			additive_modifier = { 
 				value = 10			
-				title = e_saria	
+				year = 900
+				holder_scope = { 
+					religion = catholic
+					is_feudal = yes
+				}	
+			}
+			additive_modifier = { 
+				value = 10			
+				title = e_hre	
 			}
 			additive_modifier = { 
 				value = 10			
@@ -492,7 +506,15 @@ laws = {
 			
 			additive_modifier = { 
 				value = 10			
-				title = e_saria	
+				year = 1100
+				holder_scope = { 
+					religion = catholic
+					is_feudal = yes
+				}	
+			}
+			additive_modifier = { 
+				value = 10			
+				title = e_hre	
 			}
 			additive_modifier = { 
 				value = 10			
@@ -654,7 +676,15 @@ laws = {
 			
 			additive_modifier = { 
 				value = 10			
-				title = e_saria	
+				year = 1000
+				holder_scope = { 
+					religion = catholic
+					is_feudal = yes
+				}	
+			}
+			additive_modifier = { 
+				value = 10			
+				title = e_hre	
 			}
 			additive_modifier = { 
 				value = 10			
@@ -815,7 +845,15 @@ laws = {
 			
 			additive_modifier = { 
 				value = 10			
-				title = e_saria	
+				year = 1200
+				holder_scope = { 
+					religion = catholic
+					is_feudal = yes
+				}	
+			}
+			additive_modifier = { 
+				value = 10			
+				title = e_hre	
 			}
 			additive_modifier = { 
 				value = 10			
@@ -977,7 +1015,15 @@ laws = {
 			
 			additive_modifier = { 
 				value = 10			
-				title = e_saria	
+				year = 1300
+				holder_scope = { 
+					religion = catholic
+					is_feudal = yes
+				}	
+			}
+			additive_modifier = { 
+				value = 10			
+				title = e_hre	
 			}
 			additive_modifier = { 
 				value = 10			
@@ -1138,7 +1184,15 @@ laws = {
 			
 			additive_modifier = { 
 				value = 10			
-				title = e_saria	
+				year = 1200
+				holder_scope = { 
+					religion = catholic
+					is_feudal = yes
+				}	
+			}
+			additive_modifier = { 
+				value = 10			
+				title = e_hre	
 			}
 			additive_modifier = { 
 				value = 10			

@@ -71,7 +71,7 @@ culture = {
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties_unique.tga"
 			size = { x = 10 y = 5 }
-			noOfFrames = 20 #unique
+			noOfFrames = 24 #unique
 			color = 0
 			emblem = no
 			random = no
@@ -949,6 +949,8 @@ culture = {
 #culture = {
 #	religion = {
 #		"gerudo_goddess"
+#		"gerudo_hylia"
+#		"heroine_cult"
 #	}
 #	
 #	templates = { 
