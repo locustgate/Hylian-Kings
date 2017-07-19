@@ -391,7 +391,7 @@ hylian_group = {
 		color = { 0.8 0.36 0.36 }
 
 		male_names = {
-			Madas_Link Beedle Bertie Cawlin Croo Dovos Fledge Dodoh Eagus Groose Gaepora Gondo Goselle Horwell Jakamar Keet Owlan Parrow Peater Pum Peatric Rupin Rusta Sparrot Stritch Timamo Rha Ostich Turk Malo Caper Spur Trag Shellduck Gadwell Wigein Malerd Scoter Scop Skoter Smew Auc Fullmer Greb Jaberu Ribis Herin Bitern Cormerant Shrag Anhenga Karacara Felcon Merlen Egle Sparow Hawk Busterd Kage Krake Kroot Frinfoot Kempken Curloow Sheethbill Pluver Strilt Ebisbill Avoset Wribill Grodwit Drowitcher Whymbrel Tatler Dunllin Ruf Not Grull Turn Rauk Rauclet Prigeon Crockatoo Mucaw Hroatzi Turraco Cukroo Kool Swift Trogun Quetzel Kooka Trody Motmoot Hopoe Tinker Flicker Manacin Schifronis Wren Shrike Gallito Tapaculo Canastero Hornero Rayadito Viro Gelepaio Lerk Rok
+			Madas Beedle Bertie Cawlin Croo Dovos Fledge Dodoh Eagus Groose Gaepora Gondo Goselle Horwell Jakamar Keet Owlan Parrow Peater Pum Peatric Rupin Rusta Sparrot Stritch Timamo Rha Ostich Turk Malo Caper Spur Trag Shellduck Gadwell Wigein Malerd Scoter Scop Skoter Smew Auc Fullmer Greb Jaberu Ribis Herin Bitern Cormerant Shrag Anhenga Karacara Felcon Merlen Egle Sparow Hawk Busterd Kage Krake Kroot Frinfoot Kempken Curloow Sheethbill Pluver Strilt Ebisbill Avoset Wribill Grodwit Drowitcher Whymbrel Tatler Dunllin Ruf Not Grull Turn Rauk Rauclet Prigeon Crockatoo Mucaw Hroatzi Turraco Cukroo Kool Swift Trogun Quetzel Kooka Trody Motmoot Hopoe Tinker Flicker Manacin Schifronis Wren Shrike Gallito Tapaculo Canastero Hornero Rayadito Viro Gelepaio Lerk Rok
 		}
 		female_names = {
 			Zelda Greba Henya Karane Kina Kukiel Luv Mallara Orielle Peatrice Piper Wyrna Tinamo Rhe Kewe Eme Cassower Kiki Chacha Laca Gean Qail Kaperkailly Kaily Partrydg Pea Neen Teel Pokard Pitril Preon Flamengo Ibes Igret Peli Garnnet Kisrtrel Ospry Kitee Bisra Koraan Meset Serema Rael Sora Takah Sungrebe Brolga Jakana Pratincol Nody Skoa Pufin DoveAuc Auclet Kakapoo Kia Korella Gralah Loriceet Yory Rosela Parotlit Poto Pauragoo Swiftlit Topazz Coqotte Inka Huming Puffeg Burra Arakari Barbaet Picult Jakamar Nunlit Asity Pitta Pritta Continga Elania Phoebe Monjita Kiska Pita Cachalote Cinclodes Xenops Lyr Tui Pardalote Kakako Batis Tchaga Vana Iora Sittela Jey Mag Pia Astrapea Cistycola Petronea Quelia Pitilia Linet Liwy Oropendola Zubora Gabora
@@ -2235,12 +2235,19 @@ plant_group = {
 		parent = deku_tree
 
 		color = { 0.3 0.42 0.2 }
-		
 		male_names = {
-			Hestu Camphin  Olivio Irch Hollo Elma Aldo Drona Walna Cedrin Linda Makar Oakin Rown Palmar Asho Cedo Acerolin Zigbo Guanandar Balsin Beechin Mahar Mangro Guavo Kentin Rima Tunga 
+			#WW
+			Aldo Drona Elma Hollo Makar Linder Irch Oakin Olivio Rown 
+			#BOTW
+			Hestu Chio Daz Walton Tasho Oaki Peeks
+			#Random
+			Arbo Willa Asho Cedo Acerolin Zigbo Guanandar Balsin Beechin Mahar Mangro Guavo Kentin Rima Tunga 
 		}
-		female_names = { 
-			Cora  Euodin Casso Palma Bircha Catalpa Aspa Junipo Larcha Maplin Sprucar Firar Yewin Poplin Bindingo Essingango Kevazinga Anisa Coya Avocada Hespa Lila Papedo Silka Willa Zelkovin
+		female_names = {
+			#Botw
+			Damia Kula Maca Natie Pepp Zooki
+			#Random
+			Ashai Asp Sherry Haw Furie Tuli Pruce Catalpa Aspa Junipo Larcha Maplin Sprucar Firar Yewin Poplin Bindingo Essingango Kevazinga Anisa Coya Avocada Hespa Lila Papedo Silka Willa Zelkovin
 		}
 		
 		dukes_called_kings = no
