@@ -39,8 +39,8 @@ hylian_group = {
 			Groose_Groose Gaepora_Gaepora Bertie_Bertie Cawlin_Cawlin Croo_Croo Dovos_Dovos Eagus_Eagus Fledge_Fledge Gondo_Gondo Greba_Greba Gully_Gully Horwell_Horwell Jakamar_Jakamar Owlan_Owlan Parrow_Parrow Peater_Peater Pipit_Pipit Rupin_Rupin Sparrot_Sparrot Strich_Strich Keet_Keet Pumm_Pumm Rusta_Rusta Dodoh_Dodoh
 		#ALBW
 			Rosso_Rosso Osfala_Osfala Gulley_Gulley Bard_Bard
-		#BotW(WIP)
-			Rhoam_Rhoam Bosphoramus_Bosphoramus
+		#BotW
+			Rhoam_Rhoam Bosphoramus_Bosphoramus Cambo_Cambo Endai_Endai Kilton_Kilton Mils_Mils Rik_Rik Lonni_Lonni Nell_Nell Pitar_Pitar Stamm_Stamm Hudson_Hudson Moggs_Moggs Hoz_Hoz Botrick_Botrick Dai_Dai Glendo_Glendo Kazul_Kazul Spoone_Spoone Branli_Branli Konba_Knoba Nazbi_Nazbi Savelle_Savelle Toren_Toren Dayto_Dayto Mayro_Mayro Russ_Russ Zorona_Zorona Kima_Kima Akrah_Akrah Baumer_Baumer Garshon_Garshon Molo_Molo Onya_Onya Ronn_Ronn Blynne_Blynne Straia_Straia Tye_Tye Wabbin_Wabbin Gartan_Gartan Benja_Benja Bozai_Bozai Nobiro_Nobiro Robsten_Robsten Maypin_Maypin Oliff_Oliff Palme_Palme Falmark_Falmark Pondo_Pondo Baddek_Baddek Ponthos_Ponthos Jogo_Jogo Danton_Danton Quince_Quince Agus_Agus Garill_Garill Joute_Joute Calip_Calip Eryck_Eryck Mimos_Mimos Teli_Teli Azu_Azu Bolson_Bolson Dantz_Dantz Karson_Karson Leop_Leop Medda_Medda Nack_Nack Nebb_Nebb Pruce_Pruce Reede_Reede Rhodes_Rhodes Sayge_Sayge Seldon_Seldon Sefaro_Sefaro Teebo_Teebo Thadd_Thadd Tokk_Tokk Worten_Worten Brigo_Brigo Bugut_Bugut Domidak_Domidak Giro_Giro Hino_Hino Prissen_Prissen
 		#LoZ TV
 			Harkinian_Harkinian
 		#FoE
@@ -72,7 +72,9 @@ hylian_group = {
 		#TSP
 			Charles_Charles Nilbom_Nilbom
 		#HTW
-			Kazakk_Kazakk Arthon_Arthon Atrinas_Atrinas Akazoo_Akazoo
+			Kazakk_Kazakk Arthon_Arthon Atrinas_Atrinas Akazoo_Akazoo Felonius_Felonius
+		#FanOCs
+			Regis_Regis
 		}
 
 		female_names = {
@@ -108,8 +110,8 @@ hylian_group = {
 			Seres_Seres Irene_Irene
 		#TFH
 			Mimi_Mimi
-		#BotW(WIP)
-			Sagessa_Sagessa
+		#BotW
+			Chabi_Chabi Leekah_Leekah Mina_Mina Meghyn_Meghyn Nat_Nat Parcy_Parcy Hunnie_Hunnie Monari_Monari Ruli_Ruli Nobo_Nobo Aliza_Aliza Benny_Benny Yammo_Yammo Kanny_Kanny Loone_Loone Meeshy_Meeshy Sorelia_Sorelia Totsuna_Totsuna Jules_Jules Tauma_Tauma Traysi_Traysi Vilia_Vilia Canolo_Canolo Flaxel_Flaxel Moza_Moza Selmie_Selmie Juney_Juney Juannelle_Juannelle Douma_Douma Celessa_Celessa Toma_Toma Amira_Amira Aster_Aster Clavia_Clavia Ivee_Ivee Karin_Karin Koyin_Koyin Narah_Narah Nikki_Nikki Prima_Prima Ralera_Ralera Senna_Senna Sophie_Sophie Tamana_Tamana Uma_Uma Brokka_Brokka Magda_Magda Sagessa_Sagessa Jerrin_Jerrin Cherry_Cherry
 		#FoE
 			Suprena_Suprena Alora_Alora Hamsha_Hamsha
 		#WoG
@@ -140,6 +142,8 @@ hylian_group = {
 			Grusha_Grusha
 		#HTW
 			Maldra_Maldra Nylin_Nylin Yanera_Yanera Mahrala_Mahrala Oraiya_Oraiya Tetralyna_Tetralyna
+		#FanOCs
+			Sayru_Sayru Coventina_Coventina Sadiki_Sadiki
 		}
 		
 		dukes_called_kings = no
@@ -302,7 +306,7 @@ hylian_group = {
 		color = { 0.28 0.24 0.55 }
 
 		male_names= {
-		Arn Adrijan Alojz Alen Andelo Aron Blago Blas Bojan Boris Bartolomej Cedomir Dado Dalibor Damir Damjan Danijel Danko Darijo Dario Dragan Drago Edi Eduard Emil Erik Ervin Frane Franko Filip Fabijan Gabrijel Goran Gordan Grgur Grga Henrik Hrvoje Igor Ivan Ivica Ivo Jadran Jakob Jakov Janko Josip Josko Joso Jozo Jure Jurica Juro Karlo Klaudio Kresimir Kreso Krsto Kruno Lazar Leon Ljuban Lovre Lovro Lucijan Luka Marijo Marin Mario Marko Martin Mislav Mladen Nebojsea Nediljko Nenad Neno Niko Nikola Niksa Nino Ognjan Oliver Paskal Pasko Patrik Pero Perica Predrag Rade Roko Roman Rajko Sime Simo Simun Sinisa Stanko
+		Link Arn Adrijan Alojz Alen Andelo Aron Blago Blas Bojan Boris Bartolomej Cedomir Dado Dalibor Damir Damjan Danijel Danko Darijo Dario Dragan Drago Edi Eduard Emil Erik Ervin Frane Franko Filip Fabijan Gabrijel Goran Gordan Grgur Grga Henrik Hrvoje Igor Ivan Ivica Ivo Jadran Jakob Jakov Janko Josip Josko Joso Jozo Jure Jurica Juro Karlo Klaudio Kresimir Kreso Krsto Kruno Lazar Leon Ljuban Lovre Lovro Lucijan Luka Marijo Marin Mario Marko Martin Mislav Mladen Nebojsea Nediljko Nenad Neno Niko Nikola Niksa Nino Ognjan Oliver Paskal Pasko Patrik Pero Perica Predrag Rade Roko Roman Rajko Sime Simo Simun Sinisa Stanko
 		}
 		female_names = {
 		Seline Medilia Agata Agneza Ana Bozena Branka Bruna Cecilija Cila Cvita Dajana Draga Durada Eva Erika Ena Finka Franka Filipa Gabriela Goranka Grozdana Hana Helena Ida Ina Iva Ivka Jaga Jela Jozefina Karla Kate Klara Lana Lara Lea Majda Mare Mirta Nela Nensi Nives Olga Olgica Olivera Paula Petra Pavica Radmila Rank Ruza Sabina Sara Senka Sofija Tea Tonka Tina Vera Vesna Viktorija Zaklina Zorica Zorka Zvjezdana Anda Andrea Anika Bornea Brigita Darija Darinka Dragana Dragica Ema Emanuela Ivanka Iskra Janja Jasmina Josipa Julija Kata Klaudija Kristina Ksenija Lidija Lina Luca Lucija Maja Magda Marica Masa Mila Mateja Mirica
@@ -1309,18 +1313,72 @@ eastern_human = {
 		color = { 0 0.4 0 }
 
 		male_names = {
+		#LoZ
+			Linke_Link Rinku_Link
+		#ALttP
+			Sahasurara_Sahasrahla Ajina_Aginah
+		#LA
+			Richaado_Richard Talin_Tarin
+		#OoT
+			Pieru_Pierre Bonuru_Bonooru Shikashi_Shikashi Zuojin_Sakon Tailong_Talon Inge_Ingo Shapu_Sharp Furatto_Flat Danpei_Dampe Laoer_Rauru Gulugulu_Guru-Guru Gulu_Guru Shilou_Shiro Sabuluo_Sabooro Jiluo_Jiro Yichilou_Ichiro Mutuluo_Mutoh
+		#MM
+			Chinkuru_Tingle Kamaluo_Kamaro Zijie_Baito Jimu_Jim Baisen_Viscen Totasu_Tortus
+		#OoA
+			Rarufu_Ralph Adala_Adlar Pekku_Bipin Shibaru_Cheval Ripea_Patch Bekku_Pippin Aiya_Stockwell Laodun_Rafton Teji_Tokkey
+		#OoS
+			Sokura_Sokra
+		#WW
+			Dafunesu_Daphnes Kabutomu_Beedle Teli_Terry Gongzuo_Gonzo Toreho_Trejo Make_Mako  Nike_Niko Najji_Nudge Seneka_Senza Zuoke_Zuko Aburi_Abe Jiuru_Joel Massao_Mesa Shachi_Orca  Surajon_Sturgeon Ziru_Zill Andong_Anton Kyandi_Candy Danpu_Dampa Galiku_Garrick Galikusan_Garrickson Gosaku_Gossack Gama_Gummy Kameo_Kamo Kenya_Kane Yiwan_Ivan Jin_Jin Chan_Jan Jun_Jun Luobotuo_Roberto Junluobotuo_Jun-Roberto Kibou_Kreeb Genzuo_Lenzo Sarubatore_Salvatore Samu_Sam Totu_Tott Hajime_Carlov Mani_Manny Ankuru_Ankle Nakkuru_Knuckle Dawei_David Deibiddo_David
+		#MC
+			Darutasu_Daltus Gusitafu_Gustaf Geman_Gorman Tengaro_Potho Poemun_Percy Sumisu_Smith Ine_Eenie Momi_Meenie Rokkori_Brocco Bekko_Lolly Ore_Herb Luomiou_Romio Masharu_Marshall Remu_Rem Shimaro_Simon Satcheru_Satchel Kitte_Stamp Huidun_Wheaton
+		#TP
+			Fadao_Fado Korin_Colin Hanjo_Hanch Jaga_Jaggle Maluo_Malo Taluo_Talo Bao_Bo Moi_Rusl Kikoru_Coro Banzu_Barnes Lunade_Renado Shaddo_Shad Rafureru_Auru Rakka_Falbi Tobi_Fyer Chaluo_Charlo Qiludi_Chudley Qiaowani_Jovani Dancho_Purlo Oyoso_Soal
+		#PH
+			Beixian_Linebeck Nobu_Nyave Yuki_Nyeve Luomanuo_Romanos
+		#ST
+			Tetsuo_Ferrus Shirokuni_Alfonzo Rasseru_Russell
 		#SS
-			Geran_Jakamar
+			Geran_Jakamar Gepora_Gaepora Bado_Groose Arin_Bertie Rasu_Cawlin Roku_Croo Dabu_Dovos Igurusu_Eagus Sebasun_Fledge Doruko_Gondo Miho_Greba Garu_Gully Honeru_Horwell Auru_Owlan Parou_Parrow Jakuson_Peater Kikoa_Pipit Kokin_Rupin Suzuha_Sparrot Osuto_Strich Michiru_Keet Pukin_Pumm Rosuta_Rusta Doduo_Dodoh
 		#RTBToL
 			Yamori_Yamori
 		#Random
 			Houva Hyato Kasa Khaek Kham Lae Loundara Loy Mansay Noi Nugoon Payloth Phant Pinmay Saeng Saiyasit Sihn Simok Xay XokSasak Khasa Kim Landa Maera Sotara Somoi Xayra Xaem Khulo Hotahn Lahn Lamoi Khaso Phay Pomut Salo Pamanmoy Xout Laelo Pilik Sigara Lomo Khay Kasay Pit Namoi Pay Saga Lon Namo Lolim Haelo Saela Sath Aelo Lisay Xamoi Limoi Saelak Khahn Hisak Navay Khama Mamoi Sahn Novol Xilo Harae Saek Ninmahn Xahn Linsa Simahn Nalang Xavon Pak Himim Pomaso Manma Nahn Lalo Say Lay Novak Pomik Pomim Numoi Sang Nay Satak Loundo Hisik Nalo Nouth Xatoy Phahn Maelo Xansay Xamay
 		}
 		female_names = {
+		#LoZ
+			Saierda_Zelda Zeruda_Zelda
+		#ALttP
+			Shiroppu_Syrup Meipuru_Maple
+		#LA
+			Masa_Martha Malin_Marin
+		#OoT
+			Shiku_Sheik Malong_Malon Angre_Anju
+		#MM
+			Jiade_Judo Marira_Marilla Kelimiya_Cremia Kurimia_Cremia Luomani_Romani Pameila_Pamela
+		#OoA
+			Anbi_Ambi Nelu_Nayru Furoru_Farore Ramin_Blossom
+		#OoS
+			Ding_Din Hori_Holly
+		#WW
+			Kaskiko_Kashiko Tetora_Tetra Ariru_Aryll Rozu_Rose Chatsubo_Sue-belle Ririan_Gillian Potofu_Potova Joina_Joanna Rinda_Linda Magi_Maggie Muru_Mila Minenko_Minenco Misae_Missy Mari_Marie Bera_Vera Popinzu_Pompie
+		#FS
+			Kosai_Iris Suiti_Sweetie
+		#MC
+			Beri_Berry Reira_Leila Kyandi_Candy Chai_Chai Chinmin_Tina Minmin_Dina Aima_Emma Jasumin_Jasmine Julieta_Julietta Jiuni_June Meru_Mel Mashi_Marcy Puruna_Pina Shira_Sheila Weiluona_Verona Jina_Gina
+		#TP
+			Besu_Beth Yiliya_Ilia Kyuri_Pergie Sala_Sera Wuli_Uli Luode_Luda Henia_Hena Rizu_Iza Ageha_Agitha Keli_Kili Hana_Hannah Mixia_Misha Tailuma_Telma Ashu_Ashei
+		#PH
+			Joanni_Joanne Jorin_Jolene Furideru_Freedle
+		#ST
+			Joinasu_Joynas
 		#SS
-			Kuko_Kukiel Arisu_Wryna
+			Kuko_Kukiel Arisu_Wryna Fai_Fi Hairia_Hylia Otaka_Goselle Hena_Henya Kurane_Karane Manda_Luv Rupia_Mallara Kunia_Orielle Jakurinu_Peatrice Fuwoni_Phoeni Jona_Piper Panan_Kina
+		#HW
+			Linkelei_Linkle Rinkuru_Linkle Rana_Lana Xia_Cia Shia_Cia
 		#LoZ TV
 			Sing_Sing
+		#HTW
+			Tetoralina_Tetralyna
 		#Random
 			Dao Manilay Puelli Vanida Ailani Iokina Havika Halia Keala Keanu Kealli Paku Ioda Kakia Kalia Hani Healli Maka Vilinao Hanao Deani Daku Iola Kavadi Malli Hina Kueni Pilu Sinao Peaka Danay Aika Hilay Dani Sanu Dikia Kila Mueka Vani Sinaka Kilu Deaka Kinao Hika Ionao Kani Havao Peani Makay Mavao Meadi Ainao Halla Danilu Veaka Vava Kavao Aili Keaka Mini Sanao Muedi Vanadi Sili Davao Heaka Hana Kika Mana Huedi Paka Haninu Aila Keadi Hilia Hinana Dinini Halani Makalay Sika Keana Kini Hikani Padi Heana Dini Vinaka Sillani Hineani Dilay Hala Heani Veana Malao Kadina Vueni Hadiva Kanala Hallana
 		}
@@ -1341,7 +1399,7 @@ eastern_human = {
 		modifier = default_culture_modifier
 	}
 	malaynan = {	
-		graphical_cultures = { mongolgfx muslimgfx }
+		graphical_cultures = { cumangfx mongolgfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		horde = yes
@@ -1349,10 +1407,16 @@ eastern_human = {
 		color = { 0.8 0.8 0.3 }
 
 		male_names = {
-			Dmitri Khini Rudi Ember Embry Toffa Ozunda Ashe Kish Sprinn Kampo Padok Shay Pirou Lester Monkton Varke Lawdon Yolero Shibo Tasseren
+		#BotW
+			Gotter_Gotter Dmitri_Dmitri Khini_Khini Rudi_Rudi Ember_Ember Embry_Embry Toffa_Toffa Chork_Chork Dabi_Dabi Geggle_Geggle Kenyo_Kenyo Sho_Sho Ozunda_Ozunda Ashe_Ashe Kish_Kish Sprinn_Sprinn Anly_Anly Kampo_Kampo Padok_Padok Shay_Shay Piaffe_Piaffe Pirou_Pirou Galli_Galli Lester_Lester Monkton_Monkton Varke_Varke Izra_Izra Lawdon_Lawdon Yolero_Yolero Darton_Daron Rensa_Rensa Shibo_Shibo Tasseren_Tasseren
+		#Random
+			Malanya_Malanya Talanya_Talanya
 		}
 		female_names = {
-			Gleema Jana Tenne Aya Trott Banji Ena Gaile Breen Shamae Zumi Vima Perosa Phanna Piaffe Ariane Harlow Ami
+		#BotW
+			Gleema_Gleema Jana_Jana Kaifa_Kaifa Tenne_Tenne Aya_Aya Trott_Trott Banji_Banji Ena_Ena Gaile_Gaile Breen_Breen Shamae_Shamae Zumi_Zumi Cima_Cima Perosa_Perosa Phanna_Phanna Ariane_Ariane Harlow_Harlow Ami_Ami Chabi_Chabi
+		#Random
+			Vima_Vima Malania_Malania Talania_Talania
 		}
 		
 		dynasty_title_names = yes
@@ -1374,10 +1438,12 @@ zonai_group = {
 		color = { 0.45 0.45 0.2 }
 
 		male_names = {
-			Arems_Armes Cloyne_Cloyne Garini_Garini Kinov_Kinov Zuta_Zuta Sebasto_Sebasto Numar_Numar Rozel_Rozel 
+		#BotW
+			Zyle_Zyle Rex_Rex Hagie_Hagie Regan_Regan Chumin_Chumin Spinch_Spinch Fin_Fin Jini_Jini Sesami_Sesami Arems_Armes Cloyne_Cloyne Garini_Garini Kinov_Kinov Numar_Numar Rozel_Rozel Sebasto_Sebasto Zuta_Zuta Mezer_Mezer
 		}
 		female_names = {
-			Chessica_Chessica Kiana_Kiana Mubs_Mubs Spinch_Spinch
+		#BotW
+			Chessica_Chessica Kiana_Kiana Mubs_Mubs Rola_Rola
 		}
 		
 		founder_named_dynasties = yes
@@ -1391,11 +1457,13 @@ zonai_group = {
 		
 		color = { 0.45 0.45 0.2 }
 
-		male_names = { 
-			Arems_Armes Cloyne_Cloyne Garini_Garini Kinov_Kinov Zuta_Zuta Sebasto_Sebasto Numar_Numar Rozel_Rozel 
+		male_names = {
+		#BotW
+			Zyle_Zyle Rex_Rex Hagie_Hagie Regan_Regan Chumin_Chumin Spinch_Spinch Fin_Fin Jini_Jini Sesami_Sesami Arems_Armes Cloyne_Cloyne Garini_Garini Kinov_Kinov Numar_Numar Rozel_Rozel Sebasto_Sebasto Zuta_Zuta Mezer_Mezer
 		}
 		female_names = {
-			Chessica_Chessica Kiana_Kiana Mubs_Mubs Spinch_Spinch
+		#BotW
+			Chessica_Chessica Kiana_Kiana Mubs_Mubs Rola_Rola
 		}	
 		
 		founder_named_dynasties = yes
@@ -1437,22 +1505,24 @@ gerudo = {
 			Ganondorf_Ganondorf Bonooru_Bonooru
 		#ALBW
 			Yuga_Yuga
+		#FanOCs
+			Shaagos_Shaagos Aiden_Aiden Tunik_Tunik Ganonis_Ganonis Sahin_Sahin Nelpheru_Nelpheru Jerial_Jerial Bysshe_Bysshe
 		#Random
 			Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Ravos Amun Gaku Rusan Neme Reku Zolu Aghalmun Anun Vaku Garookun Gavun Dokun Kyicaba Reirun Zirun Jirekan Nodicon Kidabiku Rakorun Tamime Nonit Zati Kyas Geese Valyo Namin Goulmere Meka Gomin Gorun Scun Annun Nonon Doku Kakin Anoku Maphun Akun Vekun Nekun Reras Vun Terin Veku Muban Kupha Temas Gekeku Duti Jaba Guren Vulmas Kokas Gukas Mikun Dikun Reves Zokan Zupha Kame Geku Kyon Rinno Amin Ren Zakun Ucori Unnas Vurim Kakol Kalan Rimace Ukiku Rokas Ukabe Rekas Kavas Vuphi Anen Veidi Morun Gelu Scas
 		}
 		female_names = {
 		#OoT
 			Nabooru_Nabooru Aveil_Aveil Twinrova_Twinrova Koume_Koume Kotake_Kotake
-		#BotW(WIP)
-			Urbosa_Urbosa Riju_Riju
+		#BotW
+			Urbosa_Urbosa Riju_Riju Laroba_Laroba Rhondson_Rhondson Karsh_Karsh Ramella_Ramella Perda_Perda Barta_Barta Calisa_Calisa Lukan_Lukan Anche_Anche Konora_Konora Kyra_Kyra Pokki_Pokki Shabonne_Shabonne Sudrey_Sudrey Tali_Tali Ardin_Ardin Ashai_Ashai Babi_Babi Bertri_Bertri Buliara_Buliara Calyban_Calyban Cara_Cara Dalia_Dalia Danda_Danda Deltan_Deltan Dina_Dina Dorrah_Dorrah Essa_Essa Estan_Estan Fegran_Fegran Frelly_Frelly Furosa_Furosa Greta_Greta Jewel_Jewel Isha_Isha Kalani_Kalani Katta_Katta Kohm_Kohm Kotta_Kotta Laine_Laine Lashley_Lashley Leena_Leena Liana_Liana Lorn_Lorn Makure_Makure Malena_Malena Marta_Marta Merina_Merina Muava_Muava Nali_Nali Nellie_Nellie Olu_Olu Padda_Padda Pasha_Pasha Pearle_Pearle Ploka_Ploka Pritana_Pritana Pyra_Pyra Reeza_Reeza Rima_Rima Risa_Risa Romah_Romah Rotana_Rotana Saula_Saula Smaude_Smaude Spera_Spera Sumati_Sumati Teake_Teake Yaido_Yaido Emri_Emri Kachoo_Kachoo Maike_Maike Ripp_Ripp Shaillu_Shaillu Flavi_Flavi
 		#ALttP AHM
 			Ghanti_Ghanti
 		#HTW
 			Runeka_Runeka
 		#Easter Egg
 			Shantae_Shantae
-		#Random
-			Bartateake Liana Leena Kotta Marta Babi Smaude Ria Dina Pasha Saula Buliara Katta Polka Reeza Bertri Padda Calyban Isha Kohm Laine Nail Pritana Rotana Rima Furosa Yaido Sumati Pyra Deltan Dalia Olu Romah Estan Kalani Danda Makure Spera Dina Pasha Nellie Ardin Lorn Cara Jewel Fegran Pearle Essa Frelly Muava Lashley Shabonne Tali Dorrah Merina Lukan Emir Maike Ripp Shaillu Konora Kachoo  Lorda Nata Ebaze Suba Monoh Ruroun Kaltule Enourda Orra Kika Raite Kezata Batinie Lamata Kalku Rashi Bate Bateka Dare Ebasi Bawonuni Bawe Avotata Eshaddeh Lamatta Okaka Eloun Maita Borda Eshara Maba Eshori Lesho Lama
+		#FanOCs
+			Serrage_Serrage Ray_Ray Odele_Odele Zaina_Zaina Adamaris_Adamaris Solara_Solara Ganalia_Ganalia Alfeera_Alfeera Vanda_Vanda Gayora_Gayora Kekkura_Kekkura Eyda_Eyda Brynn_Brynn Rahjit_Rahjit Nary_Nary Shirin_Shirin Aska_Aska Alula_Alula Nahla_Nahla Rubela_Rubela Rakeli_Rakeli Vevilla_Vevilla Asha_Asa Gumure_Gumure Ganonna_Ganonna Azusa_Azusa Niane_Niane Isra_Isra Lila_Lila Lilith_Lilith Elie_Elie Zaara_Zaara Levana_Levana Seda_Seda Gaia_Gaia Qadira_Qadira Deera_Deera Kunza_Kunza Rawiya_Rawiya
 		}
 		
 		dukes_called_kings = no
@@ -1476,23 +1546,26 @@ gerudo = {
 			Ganondorf_Ganondorf Bonooru_Bonooru
 		#ALBW
 			Yuga_Yuga
+		#FanOCs
+			Shaagos_Shaagos Aiden_Aiden Tunik_Tunik Ganonis_Ganonis Sahin_Sahin Nelpheru_Nelpheru Jerial_Jerial Bysshe_Bysshe
 		#Random
 			Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Ravos Amun Gaku Rusan Neme Reku Zolu Aghalmun Anun Vaku Garookun Gavun Dokun Kyicaba Reirun Zirun Jirekan Nodicon Kidabiku Rakorun Tamime Nonit Zati Kyas Geese Valyo Namin Goulmere Meka Gomin Gorun Scun Annun Nonon Doku Kakin Anoku Maphun Akun Vekun Nekun Reras Vun Terin Veku Muban Kupha Temas Gekeku Duti Jaba Guren Vulmas Kokas Gukas Mikun Dikun Reves Zokan Zupha Kame Geku Kyon Rinno Amin Ren Zakun Ucori Unnas Vurim Kakol Kalan Rimace Ukiku Rokas Ukabe Rekas Kavas Vuphi Anen Veidi Morun Gelu Scas
 		}
 		female_names = {
 		#OoT
-			Naboris_Nabooru Aveil_Aveil Twinrova_Twinrova Koume_Koume Kotake_Kotake
-		#BotW(WIP)
-			Urbosa_Urbosa Riju_Riju
+			Nabooru_Nabooru Aveil_Aveil Twinrova_Twinrova Koume_Koume Kotake_Kotake
+		#BotW
+			Urbosa_Urbosa Riju_Riju Laroba_Laroba Rhondson_Rhondson Karsh_Karsh Ramella_Ramella Perda_Perda Barta_Barta Calisa_Calisa Lukan_Lukan Anche_Anche Konora_Konora Kyra_Kyra Pokki_Pokki Shabonne_Shabonne Sudrey_Sudrey Tali_Tali Ardin_Ardin Ashai_Ashai Babi_Babi Bertri_Bertri Buliara_Buliara Calyban_Calyban Cara_Cara Dalia_Dalia Danda_Danda Deltan_Deltan Dina_Dina Dorrah_Dorrah Essa_Essa Estan_Estan Fegran_Fegran Frelly_Frelly Furosa_Furosa Greta_Greta Jewel_Jewel Isha_Isha Kalani_Kalani Katta_Katta Kohm_Kohm Kotta_Kotta Laine_Laine Lashley_Lashley Leena_Leena Liana_Liana Lorn_Lorn Makure_Makure Malena_Malena Marta_Marta Merina_Merina Muava_Muava Nali_Nali Nellie_Nellie Olu_Olu Padda_Padda Pasha_Pasha Pearle_Pearle Ploka_Ploka Pritana_Pritana Pyra_Pyra Reeza_Reeza Rima_Rima Risa_Risa Romah_Romah Rotana_Rotana Saula_Saula Smaude_Smaude Spera_Spera Sumati_Sumati Teake_Teake Yaido_Yaido Emri_Emri Kachoo_Kachoo Maike_Maike Ripp_Ripp Shaillu_Shaillu Flavi_Flavi
 		#ALttP AHM
 			Ghanti_Ghanti
 		#HTW
 			Runeka_Runeka
 		#Easter Egg
 			Shantae_Shantae
-		#Random
-			Bartateake Liana Leena Kotta Marta Babi Smaude Ria Dina Pasha Saula Buliara Katta Polka Reeza Bertri Padda Calyban Isha Kohm Laine Nail Pritana Rotana Rima Furosa Yaido Sumati Pyra Deltan Dalia Olu Romah Estan Kalani Danda Makure Spera Dina Pasha Nellie Ardin Lorn Cara Jewel Fegran Pearle Essa Frelly Muava Lashley Shabonne Tali Dorrah Merina Lukan Emir Maike Ripp Shaillu Konora Kachoo  Lorda Nata Ebaze Suba Monoh Ruroun Kaltule Enourda Orra Kika Raite Kezata Batinie Lamata Kalku Rashi Bate Bateka Dare Ebasi Bawonuni Bawe Avotata Eshaddeh Lamatta Okaka Eloun Maita Borda Eshara Maba Eshori Lesho Lama
+		#FanOCs
+			Serrage_Serrage Ray_Ray Odele_Odele Zaina_Zaina Adamaris_Adamaris Solara_Solara Ganalia_Ganalia Alfeera_Alfeera Vanda_Vanda Gayora_Gayora Kekkura_Kekkura Eyda_Eyda Brynn_Brynn Rahjit_Rahjit Nary_Nary Shirin_Shirin Aska_Aska Alula_Alula Nahla_Nahla Rubela_Rubela Rakeli_Rakeli Vevilla_Vevilla Asha_Asa Gumure_Gumure Ganonna_Ganonna Azusa_Azusa Niane_Niane Isra_Isra Lila_Lila Lilith_Lilith Elie_Elie Zaara_Zaara Levana_Levana Seda_Seda Gaia_Gaia Qadira_Qadira Deera_Deera Kunza_Kunza Rawiya_Rawiya
 		}
+
 		
 		dukes_called_kings = no
 				
@@ -1512,26 +1585,29 @@ gerudo = {
 		
 		male_names = {
 		#OoT
-			Ganondorofu_Ganondorf Bonooru_Bonooru
+			Ganondorf_Ganondorf Bonooru_Bonooru
 		#ALBW
 			Yuga_Yuga
+		#FanOCs
+			Shaagos_Shaagos Aiden_Aiden Tunik_Tunik Ganonis_Ganonis Sahin_Sahin Nelpheru_Nelpheru Jerial_Jerial Bysshe_Bysshe
 		#Random
 			Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Ravos Amun Gaku Rusan Neme Reku Zolu Aghalmun Anun Vaku Garookun Gavun Dokun Kyicaba Reirun Zirun Jirekan Nodicon Kidabiku Rakorun Tamime Nonit Zati Kyas Geese Valyo Namin Goulmere Meka Gomin Gorun Scun Annun Nonon Doku Kakin Anoku Maphun Akun Vekun Nekun Reras Vun Terin Veku Muban Kupha Temas Gekeku Duti Jaba Guren Vulmas Kokas Gukas Mikun Dikun Reves Zokan Zupha Kame Geku Kyon Rinno Amin Ren Zakun Ucori Unnas Vurim Kakol Kalan Rimace Ukiku Rokas Ukabe Rekas Kavas Vuphi Anen Veidi Morun Gelu Scas
 		}
 		female_names = {
 		#OoT
-			Naboru_Nabooru Aberu_Aveil Twinrova_Twinrova Kome_Koume Kotake_Kotake
-		#BotW(WIP)
-			Uruboza_Urbosa Ruju_Riju
+			Nabooru_Nabooru Aveil_Aveil Twinrova_Twinrova Koume_Koume Kotake_Kotake
+		#BotW
+			Urbosa_Urbosa Riju_Riju Laroba_Laroba Rhondson_Rhondson Karsh_Karsh Ramella_Ramella Perda_Perda Barta_Barta Calisa_Calisa Lukan_Lukan Anche_Anche Konora_Konora Kyra_Kyra Pokki_Pokki Shabonne_Shabonne Sudrey_Sudrey Tali_Tali Ardin_Ardin Ashai_Ashai Babi_Babi Bertri_Bertri Buliara_Buliara Calyban_Calyban Cara_Cara Dalia_Dalia Danda_Danda Deltan_Deltan Dina_Dina Dorrah_Dorrah Essa_Essa Estan_Estan Fegran_Fegran Frelly_Frelly Furosa_Furosa Greta_Greta Jewel_Jewel Isha_Isha Kalani_Kalani Katta_Katta Kohm_Kohm Kotta_Kotta Laine_Laine Lashley_Lashley Leena_Leena Liana_Liana Lorn_Lorn Makure_Makure Malena_Malena Marta_Marta Merina_Merina Muava_Muava Nali_Nali Nellie_Nellie Olu_Olu Padda_Padda Pasha_Pasha Pearle_Pearle Ploka_Ploka Pritana_Pritana Pyra_Pyra Reeza_Reeza Rima_Rima Risa_Risa Romah_Romah Rotana_Rotana Saula_Saula Smaude_Smaude Spera_Spera Sumati_Sumati Teake_Teake Yaido_Yaido Emri_Emri Kachoo_Kachoo Maike_Maike Ripp_Ripp Shaillu_Shaillu Flavi_Flavi
 		#ALttP AHM
 			Ghanti_Ghanti
 		#HTW
 			Runeka_Runeka
 		#Easter Egg
 			Shantae_Shantae
-		#Random
-			Bartateake Liana Leena Kotta Marta Babi Smaude Ria Dina Pasha Saula Buliara Katta Polka Reeza Bertri Padda Calyban Isha Kohm Laine Nail Pritana Rotana Rima Furosa Yaido Sumati Pyra Deltan Dalia Olu Romah Estan Kalani Danda Makure Spera Dina Pasha Nellie Ardin Lorn Cara Jewel Fegran Pearle Essa Frelly Muava Lashley Shabonne Tali Dorrah Merina Lukan Emir Maike Ripp Shaillu Konora Kachoo  Lorda Nata Ebaze Suba Monoh Ruroun Kaltule Enourda Orra Kika Raite Kezata Batinie Lamata Kalku Rashi Bate Bateka Dare Ebasi Bawonuni Bawe Avotata Eshaddeh Lamatta Okaka Eloun Maita Borda Eshara Maba Eshori Lesho Lama
+		#FanOCs
+			Serrage_Serrage Ray_Ray Odele_Odele Zaina_Zaina Adamaris_Adamaris Solara_Solara Ganalia_Ganalia Alfeera_Alfeera Vanda_Vanda Gayora_Gayora Kekkura_Kekkura Eyda_Eyda Brynn_Brynn Rahjit_Rahjit Nary_Nary Shirin_Shirin Aska_Aska Alula_Alula Nahla_Nahla Rubela_Rubela Rakeli_Rakeli Vevilla_Vevilla Asha_Asa Gumure_Gumure Ganonna_Ganonna Azusa_Azusa Niane_Niane Isra_Isra Lila_Lila Lilith_Lilith Elie_Elie Zaara_Zaara Levana_Levana Seda_Seda Gaia_Gaia Qadira_Qadira Deera_Deera Kunza_Kunza Rawiya_Rawiya
 		}
+
 		
 		dukes_called_kings = no
 				
@@ -1558,8 +1634,12 @@ lost_tribe = {
 			Sheik_Sheik
 		#MM
 			Kafei_Kafei
-		#BotW(WIP)
-			Yiga_Yiga Kohga_Kohga Robbie_Robbie Cado_Cado Dorian_Dorian Granté_Granté Olkin_Olkin Pikango_Pikango Steen_Steen Symin_Symin
+		#BotW
+			Yiga_Yiga Kohga_Kohga Robbie_Robbie Granté_Granté Cado_Cado Dorian_Dorian Olkin_Olkin Ollie_Ollie Pikango_Pikango Steen_Steen Symin_Symin Misko_Misko
+		#BotW Monks
+			Va'quot_Va'quot Naag_Naag Kala_Kala Qeta_Qeta Chokah_Chokah Keek_Keek Hesho_Hesho Kaso_Kaso Tuss_Tuss Tah_Tah Koh_Koh Chisay_Chisay Maag_Maag Na'eh_Na'eh Taag_Taag Ha'rah_Ha'rah Asaagh_Asaagh Torr_Torr Dahamar_Dahamar Koth_Koth Miu_Miu Rao_Rao Soh_Soh Baij_Baij Noh_Noh Sa'mi_Sa'mi Nah_Nah Makagh_Makagh Ya'tak_Ya'tak Mael_Mael Okeo_Okeo Yah_Yah Urog_Urog Chuki_Chuki Aug_Aug Wan_Wan Mah_Mah Shakah_Shakah Yoog_Yoog Namut_Namut Kosassa_Kosassa Zoos_Zoos Ruug_Ruug Wawai_Wawai Chideh_Chideh O'hu_O'hu Takkar_Takkar Sidajj_Sidajj Rokee_Rokee Kooh_Kooh Halan_Halan No'rah_No'rah Rah_Rah Lo_Lo Shaz_Shaz Suma_Suma Keet_Keet Latan_Latan Shenno_Shenno Jeem_Jeem Agana_Agana Ozz_Ozz Yohma_Yohma Neha_Neha Au_Au Daim_Daim Nitae_Nitae Tokki_Tokki Raym_Raym Nata_Nata Zunzo_Zunzo Dahee_Dahee Oyaa_Oyaa Zumo_Zumo Uwog_Uwog Kachta_Kachta Ooh_Ooh Ko'sah_Ko'sah Dahaj_Dahaj Kai_Kai Gehma_Gehma Warvo_Warvo Naw_Naw Katha_Katha Loya_Loya Mo'sah_Mo'sah Utoh_Utoh Yota_Yota Vaneer_Vaneer Venath_Venath Dagoze_Dagoze Rata_Rata Dantu_Dantu Sah_Sah Tatone_Tatone Hah_Hah Kofi_Kofi Sahma_Sahma Naeg_Naeg Muhl_Muhl O'ah_O'ah Jinn_Jinn Ko'sah_Ko'sah Kayu_Kayu Quomo_Quomo Yahsa_Yahsa Ka'loh_Ka'loh Nima_Nima Lota_Lota Katta_Katta Naga_Naga Rin_Rin Wa_Wa Kasho_Kasho
+		#FanOCs
+			Kaito_Kaito Ko_Ko Astel_Astel Kide_Kide
 		}
 		female_names = {
 		#LoZ
@@ -1568,8 +1648,12 @@ lost_tribe = {
 			Sheik_Sheik
 		#TP
 			Impaz_Impaz Impar_Impar Fanadi_Fanadi Imparess_Imparess Irimpa_Irimpa
-		#BotW(WIP)
-			Paya_Paya Purah_Purah Jerrin_Jerrin Cherry_Cherry Cottla_Cottla Koko_Koko Mellie_Mellie Nanna_Nanna Rola_Rola Trissa_Trissa Claree_Claree Lasli_Lasli
+		#BotW
+			Paya_Paya Purah_Purah Jerrin_Jerrin Cherry_Cherry Claree_Claree Cottla_Cottla Koko_Koko Lasli_Lasli Mellie_Mellie Nanna_Nanna Rola_Rola Trissa_Trissa
+		#HTW
+			Bongo_Bongo Liyer_Liyer Azrily_Azrily Morsheen_Morsheen
+		#FanOCs
+			Tento_Tento Asra_Asra Kuria_Kuria Seriu_Seriu Kali_Kali Zami_Zami Aveline_Aveline Eris_Eris Soren_Soren Elyakis_Elyakis Shuqia_Shuqia Ayndra_Ayndra Nalia_Nalia
 		}		
 		dukes_called_kings = no
 
@@ -1637,6 +1721,8 @@ lost_tribe = {
 		male_names = {
 		#MC
 			Gregal_Gregal Strato_Strato
+		#FanOCs
+			Thundar_Thundar Typhun_Typhun Hurakine_Hurakine
 		#Random
 			Zeffer Blizer Caprice Thermo Meseria Troper Cirro Cirus Cumulon Strato Akash Bulut Calestist Enli Glaw Ghayth Goker Goksu Govad Hodei Ilmarinen Indra Kalani Kamalani Leilani Mazin Nalani Neil Neptune Ortzi Rayn Rangi Sami Sora Thanh Van Vayu Wayra Yagmur Zephyr Zeph Zeru Zeus
 		}
@@ -1805,10 +1891,32 @@ goron_group = {
 		color = { 0.98 0.98 0.8 }
 		
 		male_names = {
-		Darunia Darmani Darbus Amoto Coron Ebizo Liggs Gongoron Kagoron Golo Gortram Goht Aloro Dongi Lurbon Emizo Dabaro Gori Gungo Cuzom Erangi Gazom Gongi Gormos Cangun Cango Carbon Carozon Lormi Loban Ligon ENozo Goliro Cariron Congi Karan Dulorozo Golon Gazo Lungulor Kabazom Carum Gongozom Gingi Cingi Komiro Karago Carmizoron Cugos Gingos Kabobom Coran Gormi Gotami Caniht Danan Erozan Gorkan Dotan Dodonan Kangi Karam Gorun Gongis Gonamangi Gamingi Caras Carirmoro Gobuht Gortron Duromom Carmobo Garom Dormos Dano Gonaht Kagan Giramon Donan Cagom Dazon Canos Arkin Dabom Gizom Goman Gomon ENoht Gomi Eroros Gamos Cabom Dangi Cangi Gobo Gonom Laton
+		#OoT
+			Darunia_Darunia Link_Link Medigoron_Medigoron Biggoron_Biggoron
+		#MM
+			Darmani_Darmani
+		#TP
+			Darbus_Darbus Dangoro_Dangoro Amoto_Amoto Coron_Coron Ebizo_Ebizo Liggs_Liggs
+		#PH
+			Gongoron_Gongoron
+		#ST
+			Kagoron_Kagoron
+		#SS
+			Gorko_Gorko Golo_Golo Gortram_Gortram
+		#ALBW
+			Rosso_Rosso
+		#BotW
+			Daruk_Daruk Yunobo_Yunobo Naddon_Naddon Greyson_Greyson Pelison_Pelison Boldon_Boldon Dugby_Dugby Grapp_Grapp Kairo_Kairo Aji_Aji Bargoh_Bargoh Bladon_Bladon Bludo_Bludo Drak_Drak Fugo_Fugo Gonguron_Gonguron Krane_Krane Offrak_Offrak Pyle_Pyle Rogaro_Rogaro Rohan_Rohan Slergo_Slergo Tanko_Tanko Tray_Tray Volcon_Volcon Axyl_Axyl Bohrin_Bohrin Dorill_Dorill Jengo_Jengo Bayge_Bayge Heehl_Heehl Kabetta_Kabetta Strade_Strade Lyndae_Lyndae Reagah_Reagah
+		#HTW
+			Dalagra_Dalagra
+		#Random
+		Goht Aloro Dongi Lurbon Emizo Dabaro Gori Gungo Cuzom Erangi Gazom Gongi Gormos Cangun Cango Carbon Carozon Lormi Loban Ligon ENozo Goliro Cariron Congi Karan Dulorozo Golon Gazo Lungulor Kabazom Carum Gongozom Gingi Cingi Komiro Karago Carmizoron Cugos Gingos Kabobom Coran Gormi Gotami Caniht Danan Erozan Gorkan Dotan Dodonan Kangi Karam Gorun Gongis Gonamangi Gamingi Caras Carirmoro Gobuht Gortron Duromom Carmobo Garom Dormos Dano Gonaht Kagan Giramon Donan Cagom Dazon Canos Arkin Dabom Gizom Goman Gomon ENoht Gomi Eroros Gamos Cabom Dangi Cangi Gobo Gonom Laton
 		}
 		female_names = {
-		Cati Colimi Guran Kanos Gogos Gaban Goti Guzom Gatom Golo Erazom Golom Gonin Cozom Kazom Gizongi Gotingi Dozi Gotus Gogo Angi Dogongi Angomozan Anun Caton Armon Amongangi Galanogogan Alolo Kono Engum Daria Corogos Konorunano Gomo Egom Gulom Eruzom Gorano Ganoton Karas Dalolos Gogatos Gunon Guron Ebonomoro Cangalo Gali Culon Gimon Eloron Karorko Lulom Dogan Dazon Girmi Kotom Erman Cirano Dunan Lurbo Goria Gotam Kogo Gazano Canuran Camon Kogono Lorungi Gobaton Giran Karkin Carmirobogo Laht Duzom Goloban Gobabon Goraros Lomo Doran Korbi Donin Amoht Doban Gigono Krobo Gogi Ezulos Duto Gobano Eringi Gonan Gogin Darus Cazan Gazoti Galano Kurkom Corki Gagano 
+		#FanOCs
+			Gora_Gora
+		#Random
+			Cati Colimi Guran Kanos Gogos Gaban Goti Guzom Gatom Golo Erazom Golom Gonin Cozom Kazom Gizongi Gotingi Dozi Gotus Gogo Angi Dogongi Angomozan Anun Caton Armon Amongangi Galanogogan Alolo Kono Engum Daria Corogos Konorunano Gomo Egom Gulom Eruzom Gorano Ganoton Karas Dalolos Gogatos Gunon Guron Ebonomoro Cangalo Gali Culon Gimon Eloron Karorko Lulom Dogan Dazon Girmi Kotom Erman Cirano Dunan Lurbo Goria Gotam Kogo Gazano Canuran Camon Kogono Lorungi Gobaton Giran Karkin Carmirobogo Laht Duzom Goloban Gobabon Goraros Lomo Doran Korbi Donin Amoht Doban Gigono Krobo Gogi Ezulos Duto Gobano Eringi Gonan Gogin Darus Cazan Gazoti Galano Kurkom Corki Gagano 
 		}
 		
 		dukes_called_kings = no
@@ -1824,10 +1932,32 @@ goron_group = {
 		
 		#title biggoron medigoron
 		male_names = {
-		Darunia Darmani Darbus Amoto Coron Ebizo LiggsKagoron Ezon Dorami Gori Donon Diran Dimago Emanas Diris Kunos Kogin Ezatos Donun Dano Gigan Diro Aromi Gonia Gomi Angin Durin Lazan Lorun Duria Lanus Koron Ezami Larmoban Koboto Amoro Kaman Erato Domi Lagin Ebogan Gurin Ararin Kogos Kagonoto Giroto Dirbi Canoto Azazo Coras Laras Giras Dato Lotin Dago Daras Diman Donas Garin Gurorami Lami Kan Gorori Cogiro Kunoras Dozami Dutin Gatorami Enogin Gonan Dozus Amabin Kitinon Emos Kango Lazus Goraria Kugoromi Dimami Dubaron Girin Ditun Komi Gigigami Luras Dotin Enami Lotomin Dobaria Doronami Eton Etaro Anami Gigo Limi Limuto Amirbo
+		#OoT
+			Darunia_Darunia Link_Link Medigoron_Medigoron Biggoron_Biggoron
+		#MM
+			Darmani_Darmani
+		#TP
+			Darbus_Darbus Dangoro_Dangoro Amoto_Amoto Coron_Coron Ebizo_Ebizo Liggs_Liggs
+		#PH
+			Gongoron_Gongoron
+		#ST
+			Kagoron_Kagoron
+		#SS
+			Gorko_Gorko Golo_Golo Gortram_Gortram
+		#ALBW
+			Rosso_Rosso
+		#BotW
+			Daruk_Daruk Yunobo_Yunobo Naddon_Naddon Greyson_Greyson Pelison_Pelison Boldon_Boldon Dugby_Dugby Grapp_Grapp Kairo_Kairo Aji_Aji Bargoh_Bargoh Bladon_Bladon Bludo_Bludo Drak_Drak Fugo_Fugo Gonguron_Gonguron Krane_Krane Offrak_Offrak Pyle_Pyle Rogaro_Rogaro Rohan_Rohan Slergo_Slergo Tanko_Tanko Tray_Tray Volcon_Volcon Axyl_Axyl Bohrin_Bohrin Dorill_Dorill Jengo_Jengo Bayge_Bayge Heehl_Heehl Kabetta_Kabetta Strade_Strade Lyndae_Lyndae Reagah_Reagah
+		#HTW
+			Dalagra_Dalagra
+		#Random
+			Ezon Dorami Gori Donon Diran Dimago Emanas Diris Kunos Kogin Ezatos Donun Dano Gigan Diro Aromi Gonia Gomi Angin Durin Lazan Lorun Duria Lanus Koron Ezami Larmoban Koboto Amoro Kaman Erato Domi Lagin Ebogan Gurin Ararin Kogos Kagonoto Giroto Dirbi Canoto Azazo Coras Laras Giras Dato Lotin Dago Daras Diman Donas Garin Gurorami Lami Kan Gorori Cogiro Kunoras Dozami Dutin Gatorami Enogin Gonan Dozus Amabin Kitinon Emos Kango Lazus Goraria Kugoromi Dimami Dubaron Girin Ditun Komi Gigigami Luras Dotin Enami Lotomin Dobaria Doronami Eton Etaro Anami Gigo Limi Limuto Amirbo
 		}
 		female_names = {
-		Gorina Lotira Gogan Eni Enomin Garonura Kami Gozora Dozin Dozobora Arimago Laron Kogas Ganas Domaro Dozoba Gorin Caman Lorona Kuroro Lagan Atami Daron Gazumi Korin Canin Congin Aroritin Kiran Doba Doraro Domo Donos Anorbin Laraba Kotan Enimi Dora Amin Lingatami Lonaguton Carin Doron Lunon Comori Kurigo Ciria Gorugo Erutimi Loniba Enan Larogo Gorbin Ezorin Amonan Domami Larira Kogoris Diros Gorbon Loron Laban Goriri Diririn Ezirora Donin Luggs Dirman Ermoria Dogotami Corigas Arami Atogan Dimin Gito Loton Karuron Lonon Karon Anomi Erami Azana Doros Diron Dimi Ditos Digon Koton Lata Ebonan Durmoron Ganata Eromi Ditorami Caron Lormon Laran Darami Dogan Cingi
+		#FanOCs
+			Gora_Gora
+		#Random
+			Gorina Lotira Gogan Eni Enomin Garonura Kami Gozora Dozin Dozobora Arimago Laron Kogas Ganas Domaro Dozoba Gorin Caman Lorona Kuroro Lagan Atami Daron Gazumi Korin Canin Congin Aroritin Kiran Doba Doraro Domo Donos Anorbin Laraba Kotan Enimi Dora Amin Lingatami Lonaguton Carin Doron Lunon Comori Kurigo Ciria Gorugo Erutimi Loniba Enan Larogo Gorbin Ezorin Amonan Domami Larira Kogoris Diros Gorbon Loron Laban Goriri Diririn Ezirora Donin Luggs Dirman Ermoria Dogotami Corigas Arami Atogan Dimin Gito Loton Karuron Lonon Karon Anomi Erami Azana Doros Diron Dimi Ditos Digon Koton Lata Ebonan Durmoron Ganata Eromi Ditorami Caron Lormon Laran Darami Dogan Cingi
 		}
 		
 		dukes_called_kings = no
@@ -1845,15 +1975,32 @@ goron_group = {
 		
 		#title biggoron medigoron
 		male_names = {
-		#OoC
-		Darunia
-		#
-		Darbus Amoto Coron Liggs Ebizo
-		#BOTW
-		Aji Offrak Yunobo Naddon Daruk Boldon Bayge Heehl Kabetta Strade Lyndae Reagah
+		#OoT
+			Darunia_Darunia Link_Link Medigoron_Medigoron Biggoron_Biggoron
+		#MM
+			Darmani_Darmani
+		#TP
+			Darbus_Darbus Dangoro_Dangoro Amoto_Amoto Coron_Coron Ebizo_Ebizo Liggs_Liggs
+		#PH
+			Gongoron_Gongoron
+		#ST
+			Kagoron_Kagoron
+		#SS
+			Gorko_Gorko Golo_Golo Gortram_Gortram
+		#ALBW
+			Rosso_Rosso
+		#BotW
+			Daruk_Daruk Yunobo_Yunobo Naddon_Naddon Greyson_Greyson Pelison_Pelison Boldon_Boldon Dugby_Dugby Grapp_Grapp Kairo_Kairo Aji_Aji Bargoh_Bargoh Bladon_Bladon Bludo_Bludo Drak_Drak Fugo_Fugo Gonguron_Gonguron Krane_Krane Offrak_Offrak Pyle_Pyle Rogaro_Rogaro Rohan_Rohan Slergo_Slergo Tanko_Tanko Tray_Tray Volcon_Volcon Axyl_Axyl Bohrin_Bohrin Dorill_Dorill Jengo_Jengo Bayge_Bayge Heehl_Heehl Kabetta_Kabetta Strade_Strade Lyndae_Lyndae Reagah_Reagah
+		#HTW
+			Dalagra_Dalagra
+		#Random
+			Ezon Dorami Gori Donon Diran Dimago Emanas Diris Kunos Kogin Ezatos Donun Dano Gigan Diro Aromi Gonia Gomi Angin Durin Lazan Lorun Duria Lanus Koron Ezami Larmoban Koboto Amoro Kaman Erato Domi Lagin Ebogan Gurin Ararin Kogos Kagonoto Giroto Dirbi Canoto Azazo Coras Laras Giras Dato Lotin Dago Daras Diman Donas Garin Gurorami Lami Kan Gorori Cogiro Kunoras Dozami Dutin Gatorami Enogin Gonan Dozus Amabin Kitinon Emos Kango Lazus Goraria Kugoromi Dimami Dubaron Girin Ditun Komi Gigigami Luras Dotin Enami Lotomin Dobaria Doronami Eton Etaro Anami Gigo Limi Limuto Amirbo
 		}
 		female_names = {
-		Goban Lobuzom Dinano Corkon Goro Komoro Dotomin Gortrarin Gorman Dogos Cozabingi Danom Kozon Kormi Arozom Cabim Alaron Egoros Angom Gongas Enabom Cizom Agorom Kangano Gongos Korman Koromo Dongom Lingi Caboht Cabos Dotorano Engoraron Gobaro Kogom Gololo Gorkiri Gono Doros Etongi Koran Cono Gamoron Enano Eron Cunozo Guton Amongon Cangarobin Aron Logom Conom Erumoros Karinormo Donuton Loros Durman Gozan Kagon Dolan Garbom Azinororo Dimon Kunos Dutos Goto Gango Lazo Ginano Gorbo Garko Cazom Gorkon Gotaron Amono Coron Colimi Guran Kanos Gogos Gaban Goti Guzom Gatom Golo Erazom Golom Gonin Cozom Kazom Gizongi Dozi Gotus Angi Dogongi Angomozan Anun Caton Armon Amongangi
+		#FanOCs
+			Gora_Gora
+		#Random
+			Goban Lobuzom Dinano Corkon Goro Komoro Dotomin Gortrarin Gorman Dogos Cozabingi Danom Kozon Kormi Arozom Cabim Alaron Egoros Angom Gongas Enabom Cizom Agorom Kangano Gongos Korman Koromo Dongom Lingi Caboht Cabos Dotorano Engoraron Gobaro Kogom Gololo Gorkiri Gono Doros Etongi Koran Cono Gamoron Enano Eron Cunozo Guton Amongon Cangarobin Aron Logom Conom Erumoros Karinormo Donuton Loros Durman Gozan Kagon Dolan Garbom Azinororo Dimon Kunos Dutos Goto Gango Lazo Ginano Gorbo Garko Cazom Gorkon Gotaron Amono Coron Colimi Guran Kanos Gogos Gaban Goti Guzom Gatom Golo Erazom Golom Gonin Cozom Kazom Gizongi Dozi Gotus Angi Dogongi Angomozan Anun Caton Armon Amongangi
 		}
 		
 		dukes_called_kings = no
@@ -1899,10 +2046,32 @@ goron_group = {
 		color = { 0.85 0.655 0.13 }
 		
 		male_names = {
-			Darunia Darmani Darbus Amoto Coron Ebizo Liggs Golo Gortram Gorko Goht Longi Agingi Gotom Gugan Korkom Enomon Gungi Erkizo Erarbom Kuti Caggs Dogom Liroman Duno Garan Gamom Kars Gomoht Darom Loron Lungo Dono Arom Engomi Carmolo Caran Gumos Goggs Koro Cago Cangan Gabos Durkom Gorozos Langi Gotia Cirom Gubos Carmoro Galano Catam Gongon Dormi Carom Catan Cararo Gotobo Kongi Caroht Colom Curmi Garkan Culati Gos Gago Gonono Daran Gagan Durmo Dogam Darkongos Galobos Gologalia Dorozingi Arbono Kingi Garbo Canogo Dozon Karmo Canom Kigos Aningi Gozo Gano Lanom Amoniri Dunaros Konoros Dazos Dungi Diro Doron Gogonom Guman Azotom Eros
+		#OoT
+			Darunia_Darunia Link_Link Medigoron_Medigoron Biggoron_Biggoron
+		#MM
+			Darmani_Darmani
+		#TP
+			Darbus_Darbus Dangoro_Dangoro Amoto_Amoto Coron_Coron Ebizo_Ebizo Liggs_Liggs
+		#PH
+			Gongoron_Gongoron
+		#ST
+			Kagoron_Kagoron
+		#SS
+			Gorko_Gorko Golo_Golo Gortram_Gortram
+		#ALBW
+			Rosso_Rosso
+		#BotW
+			Daruk_Daruk Yunobo_Yunobo Naddon_Naddon Greyson_Greyson Pelison_Pelison Boldon_Boldon Dugby_Dugby Grapp_Grapp Kairo_Kairo Aji_Aji Bargoh_Bargoh Bladon_Bladon Bludo_Bludo Drak_Drak Fugo_Fugo Gonguron_Gonguron Krane_Krane Offrak_Offrak Pyle_Pyle Rogaro_Rogaro Rohan_Rohan Slergo_Slergo Tanko_Tanko Tray_Tray Volcon_Volcon Axyl_Axyl Bohrin_Bohrin Dorill_Dorill Jengo_Jengo Bayge_Bayge Heehl_Heehl Kabetta_Kabetta Strade_Strade Lyndae_Lyndae Reagah_Reagah
+		#HTW
+			Dalagra_Dalagra
+		#Random
+			Goht Longi Agingi Gotom Gugan Korkom Enomon Gungi Erkizo Erarbom Kuti Caggs Dogom Liroman Duno Garan Gamom Kars Gomoht Darom Loron Lungo Dono Arom Engomi Carmolo Caran Gumos Goggs Koro Cago Cangan Gabos Durkom Gorozos Langi Gotia Cirom Gubos Carmoro Galano Catam Gongon Dormi Carom Catan Cararo Gotobo Kongi Caroht Colom Curmi Garkan Culati Gos Gago Gonono Daran Gagan Durmo Dogam Darkongos Galobos Gologalia Dorozingi Arbono Kingi Garbo Canogo Dozon Karmo Canom Kigos Aningi Gozo Gano Lanom Amoniri Dunaros Konoros Dazos Dungi Diro Doron Gogonom Guman Azotom Eros
 		}
 		female_names = {
-		Golia Domos Gozon Gonanun Gonon Domom Goboro Arbos Lonia Gogom Kongoroloro Eroro Loriros Danim Garon Dorononan Karari Gonganigiggs Erbas Emorom Goron Dormon Loroton Kulongi Gulan Emono Guno Guzan Gorbori Gotogon Cozi Gazozom Giban Darugan Erolom Gorkos Kino Gotun Darozom Kozom Gugos Gonorom Arano Abogirbos Donoti Lormoran Canin Cano Alangi Goraran Larom Cartruraro Cilingi Goras Erkom Eturman Doton Labingi Gozos Gorum Gotongo Kozas Dobozabos Gonozo Luloto Giron Dilan Cabun Gororo Gorolonom Giros Engo Cormi Dotom Cananamom Erormi Engin Congo Dom Gomam Diros Kano Luran Golan Gomum Kan Alom Goni Gabom Dizom Konon Cungi Ganon Korom Koron Erozo Gorkazos Girmom Gorubo Camuro
+		#FanOCs
+			Gora_Gora
+		#Random
+			Golia Domos Gozon Gonanun Gonon Domom Goboro Arbos Lonia Gogom Kongoroloro Eroro Loriros Danim Garon Dorononan Karari Gonganigiggs Erbas Emorom Goron Dormon Loroton Kulongi Gulan Emono Guno Guzan Gorbori Gotogon Cozi Gazozom Giban Darugan Erolom Gorkos Kino Gotun Darozom Kozom Gugos Gonorom Arano Abogirbos Donoti Lormoran Canin Cano Alangi Goraran Larom Cartruraro Cilingi Goras Erkom Eturman Doton Labingi Gozos Gorum Gotongo Kozas Dobozabos Gonozo Luloto Giron Dilan Cabun Gororo Gorolonom Giros Engo Cormi Dotom Cananamom Erormi Engin Congo Dom Gomam Diros Kano Luran Golan Gomum Kan Alom Goni Gabom Dizom Konon Cungi Ganon Korom Koron Erozo Gorkazos Girmom Gorubo Camuro
 		}
 		
 		dukes_called_kings = no
@@ -1918,7 +2087,10 @@ goron_group = {
 		color = { 1 0.65 0 }
 		
 		male_names = {
-		Seker Ptah Bes Huehue Xochipilli Kokopelli Kothar Khasis Han Xiangzi Qingfu Beizhu Nuska Vainamoinen Apollo Pan Abhean Odin Gwydion Lono Arshi Prometheus Alaz Agni Aganju Adranus Manqu Qhapaq Cacus Eate Gedi Gerra Gibil Grannus Hephaestus Huracan Ishum Jacawitz Hacavitz Kagu Tsuchi Kojin Sambo Kresnik Logi Halogi Mixcoatl Nusku Ogun Vulcan Peklenc Perun Shango Svarog Tatewari Tohil Verbti Xiuhte Cuhtli Xolotl Zhurong Oceanus Hyperion Coeus Koios Polus Cronus Kros Kreios Lapetus Lelantos Leto Atlas Epimethus Menoetius Metis Persis Pallas Astraeus Ascalaphus Charon Erebus Erinyes Albinus Blandus Brutus Alan Arkaitz Cephas Haldor Halle Hallr Halstein Halvard Harlow Kalju Sakhr Seok Ujarak Zuriel
+		#FanOCs
+			Rozaan_Rozaan Roxe_Roxe
+		#Random
+			Seker Ptah Bes Huehue Xochipilli Kokopelli Kothar Khasis Han Xiangzi Qingfu Beizhu Nuska Vainamoinen Apollo Pan Abhean Odin Gwydion Lono Arshi Prometheus Alaz Agni Aganju Adranus Manqu Qhapaq Cacus Eate Gedi Gerra Gibil Grannus Hephaestus Huracan Ishum Jacawitz Hacavitz Kagu Tsuchi Kojin Sambo Kresnik Logi Halogi Mixcoatl Nusku Ogun Vulcan Peklenc Perun Shango Svarog Tatewari Tohil Verbti Xiuhte Cuhtli Xolotl Zhurong Oceanus Hyperion Coeus Koios Polus Cronus Kros Kreios Lapetus Lelantos Leto Atlas Epimethus Menoetius Metis Persis Pallas Astraeus Ascalaphus Charon Erebus Erinyes Albinus Blandus Brutus Alan Arkaitz Cephas Haldor Halle Hallr Halstein Halvard Harlow Kalju Sakhr Seok Ujarak Zuriel
 		}
 		female_names = {
 		#OoS:
@@ -1939,10 +2111,40 @@ aquatic_group = {
 		color = { 0.39 0.58 0.93 }
 		
 		male_names = {
-			Zora Zaleen Farkos Farkon Jydos Pojak Luka Tal Ruten Kahanu Kajak Mukan Faha Runu Zalonuk Zalunun Elotu Tono Lohoju Maju Eruna Cukan Lanes Zuju Mollalli Lati Poto Zenal Eloras Lono Loka Lala Zana Roru Elunan Mollorok Lieto Elero Mohia Eteta Rora Elato Maka Mojo Rola Etal Laharo Rorota Roron Mojal Katan Muto Rori Elanu Rota Mallanu Carona Roruta Cuna Laju Pona Canal Ehotu Pola Kutol Eloto Roros Roras Funa Taha Tuphu Fono Elona Maha Paphal Zilla Mino Rananu Curku Fenura Ejaju Muka Rano Sato Matu Elalo Rores Zonu Elil Mala Zalon Faka Mannu Zanu Enunu Lano Lajo Motai Molus
+		#OoT
+			Zora_Zora Jabu_Jabu
+		#MM
+			Toto_Toto Evan_Evan Japas_Japas Mikau_Mikau Tijo_Tijo
+		#TP
+			Ralis_Ralis
+		#BotW
+			Sidon_Sidon Dorephan_Dorephan Muzu_Muzu Kapson_Kapson Bazz_Bazz Cleff_Cleff Dento_Dento Fronk_Fronk Gruve_Gruve Jiahto_Jiahto Kayden_Kayden Keye_Keye Ledo_Ledo Rivan_Rivan Sasan_Sasan Seggin_Seggin Trello_Trello Tumbo_Tumbo
+		#HTW
+			Zarosef_Zarosef Farkos_Farkos Zaleen_Zaleen
+		#FanOCs
+			Vyorpeh_Vyorpeh Kleive_Kleive Theodonis_Theodonis Navir_Navir Ovonre_Ovonre Jydos_Jydos Pojak_Pojak Gero_Gero Oram_Oram Brieuc_Brieuc Chimaera_Chimaera Eyre_Eyre Helias_Helias Hachi_Hachi Tucurui_Tucurui Tiberas_Tiberas
+		#Random
+			Farkon Jydos Pojak Luka Tal Ruten Kahanu Kajak Mukan Faha Runu Zalonuk Zalunun Elotu Tono Lohoju Maju Eruna Cukan Lanes Zuju Mollalli Lati Poto Zenal Eloras Lono Loka Lala Zana Roru Elunan Mollorok Lieto Elero Mohia Eteta Rora Elato Maka Mojo Rola Etal Laharo Rorota Roron Mojal Katan Muto Rori Elanu Rota Mallanu Carona Roruta Cuna Laju Pona Canal Ehotu Pola Kutol Eloto Roros Roras Funa Taha Tuphu Fono Elona Maha Paphal Zilla Mino Rananu Curku Fenura Ejaju Muka Rano Sato Matu Elalo Rores Zonu Elil Mala Zalon Faka Mannu Zanu Enunu Lano Lajo Motai Molus
 		}
 		female_names = {
-			Ruto Luto Iala Elunai Mira Liella Sophitia Ceto Ranali Nautia Zanai Roris Pulo Ranu Polo Zano ZalaiEtano Enajo Elon Elo Liena Ela Rora Elulu Laral Lulato Roto Malo Kalato Lati Eluto Ralai Elolo Pito Fano Palok Muno Ialla Cotala Rona Tano Fato Kata Cela Zuruto Rokano Cakela Lonu Futo Elana Rono Tuno Falonu Lulai Enia Fola Saju Falun Pilai Zanal Mila Ceju Zophola Zonala Leeno Ehano Molla Molon Lanan Rulai Zirra Elu zokan Mino Rakan Zaral Lona Lakis Mulla Fukal Zal Etika Raha Zaka Mola Moti Laha Mona Cana Lola Rita Lila Moka Maja Sala Rolia Kutal Laka Moha Leero
+		#OoT
+			Ruto_Ruto
+		#MM
+			Lulu_Lulu
+		#WW
+			Laruto_Laruto
+		#TP
+			Rutela_Rutela
+		#ALBW
+			Oren_Oren
+		#BotW
+			Mipha_Mipha Dunma_Dunma Finley_Finley Gaddison_Gaddison Kodah_Kodah Laflat_Laflat Laruta_Laruta Marot_Marot Mei_Mei Tona_Tona Torfeau_Torfeau Tottika_Tottika Tula_Tula
+		#HTW
+			Sokuuf_Sokuuf Aydia_Aydia Telara_Telara Fariel_Fariel
+		#FanOCs
+			Laruna_Laruna Orsyal_Orsyal Narya_Narya Meliah_Meliah Danni_Danni Rydea_Rydea Elunai_Elunai Rutalia_Rutalia Sekai_Sekai Mareena_Mareena Sephira_Sephira Amalthea_Amalthea Lunaris_Lunaris Nokken_Nokken Akibo_Akibo Coral_Coral Orsyal_Orsyal Minora_Minora Anuket_Anuket Rarune_Rarune Zaria_Zaria
+		#Random
+			Luto Iala Elunai Mira Liella Sophitia Ceto Ranali Nautia Zanai Roris Pulo Ranu Polo Zano ZalaiEtano Enajo Elon Elo Liena Ela Rora Elulu Laral Lulato Roto Malo Kalato Lati Eluto Ralai Elolo Pito Fano Palok Muno Ialla Cotala Rona Tano Fato Kata Cela Zuruto Rokano Cakela Lonu Futo Elana Rono Tuno Falonu Lulai Enia Fola Saju Falun Pilai Zanal Mila Ceju Zophola Zonala Leeno Ehano Molla Molon Lanan Rulai Zirra Elu zokan Mino Rakan Zaral Lona Lakis Mulla Fukal Zal Etika Raha Zaka Mola Moti Laha Mona Cana Lola Rita Lila Moka Maja Sala Rolia Kutal Laka Moha Leero
 		}
 		
 		dukes_called_kings = no		
@@ -1971,10 +2173,40 @@ aquatic_group = {
 		
 		
 		male_names = {
-			Zora Ralis Mikau Toto Evan Japas Tijo Crawn Riido Rim Glaucus Pillan Cyrin Tuera Taun Tin Juju Jivalen Jaco Nukula Ninau Rurau Taula Ratun Pata Jirau Tus Junas Nalau Reja Nava Tarau Crivu Nelus Marau Naluji Nelo Rinau Tirutilo Pito Linau Nelis Tunau Lilo Tuero Tenau Tuka Lirulu Zinau Lidi Rotas Ratan Necem Ratas Ratau Nuja Taus Rotaro Rataula Nulan Glalu Rolatu Jilaro Rotullis Menau Rirau Narau Julilo Milo Nunau Rata Jira Jarau Naluram Lenadi Jara Rotan Pinau Etita Rilo Rolo Mekas Craco Nalas Nalus Zaka Nana Nukara Rolis Najis Ruelo Nalutas Pirau Nudan Ratolo Nalo Crilo Tirun Pelo Tudum Rino
+		#OoT
+			Zora_Zora Jabu_Jabu
+		#MM
+			Toto_Toto Evan_Evan Japas_Japas Mikau_Mikau Tijo_Tijo
+		#TP
+			Ralis_Ralis
+		#BotW
+			Sidon_Sidon Dorephan_Dorephan Muzu_Muzu Kapson_Kapson Bazz_Bazz Cleff_Cleff Dento_Dento Fronk_Fronk Gruve_Gruve Jiahto_Jiahto Kayden_Kayden Keye_Keye Ledo_Ledo Rivan_Rivan Sasan_Sasan Seggin_Seggin Trello_Trello Tumbo_Tumbo
+		#HTW
+			Zarosef_Zarosef Farkos_Farkos Zaleen_Zaleen
+		#FanOCs
+			Vyorpeh_Vyorpeh Kleive_Kleive Theodonis_Theodonis Navir_Navir Ovonre_Ovonre Jydos_Jydos Pojak_Pojak Gero_Gero Oram_Oram Brieuc_Brieuc Chimaera_Chimaera Eyre_Eyre Helias_Helias Hachi_Hachi Tucurui_Tucurui Tiberas_Tiberas
+		#Random
+			Crawn Riido Rim Glaucus Pillan Cyrin Tuera Taun Tin Juju Jivalen Jaco Nukula Ninau Rurau Taula Ratun Pata Jirau Tus Junas Nalau Reja Nava Tarau Crivu Nelus Marau Naluji Nelo Rinau Tirutilo Pito Linau Nelis Tunau Lilo Tuero Tenau Tuka Lirulu Zinau Lidi Rotas Ratan Necem Ratas Ratau Nuja Taus Rotaro Rataula Nulan Glalu Rolatu Jilaro Rotullis Menau Rirau Narau Julilo Milo Nunau Rata Jira Jarau Naluram Lenadi Jara Rotan Pinau Etita Rilo Rolo Mekas Craco Nalas Nalus Zaka Nana Nukara Rolis Najis Ruelo Nalutas Pirau Nudan Ratolo Nalo Crilo Tirun Pelo Tudum Rino
 		}
 		female_names = {
-			Rutela Lutela Lulu Laruto Nina Meli Ruella Naiya Neruta Nita Jujuna Mada Nala Luera Rija Lunau Riva Ranau Parau Junau Nidi Raja Rato Tinau Rulem Pelladi Midi Zatan Riradi Rilura Tira Tis Meva Nara Cruta Elola Rotila Rana Lara Merila Murau Laradi Leredi Jonalo Ritem Cyri Luetura Loliri Mera Nanau Eli Lala Nalam Tiro Tipu Rena Nena Nelu Panau Navim Ratin Jivipa Runo Rudi Nitaka Meru Maka Nova Zuda Tara Mira Tudi ZUeka Elata Naka Reka Nonau Nullota Nidutota Meras Nulis Tidi Rulla Mueta Mita Loka Raudi Tuni Lueka Zuta Nata Etara Revo Tauli Lanau Pora Tilo Nuta Jinau Ridi 
+		#OoT
+			Ruto_Ruto
+		#MM
+			Lulu_Lulu
+		#WW
+			Laruto_Laruto
+		#TP
+			Rutela_Rutela
+		#ALBW
+			Oren_Oren
+		#BotW
+			Mipha_Mipha Dunma_Dunma Finley_Finley Gaddison_Gaddison Kodah_Kodah Laflat_Laflat Laruta_Laruta Marot_Marot Mei_Mei Tona_Tona Torfeau_Torfeau Tottika_Tottika Tula_Tula
+		#HTW
+			Sokuuf_Sokuuf Aydia_Aydia Telara_Telara Fariel_Fariel
+		#FanOCs
+			Laruna_Laruna Orsyal_Orsyal Narya_Narya Meliah_Meliah Danni_Danni Rydea_Rydea Elunai_Elunai Rutalia_Rutalia Sekai_Sekai Mareena_Mareena Sephira_Sephira Amalthea_Amalthea Lunaris_Lunaris Nokken_Nokken Akibo_Akibo Coral_Coral Orsyal_Orsyal Minora_Minora Anuket_Anuket Rarune_Rarune Zaria_Zaria
+		#Random
+			Lutela Nina Meli Ruella Naiya Neruta Nita Jujuna Mada Nala Luera Rija Lunau Riva Ranau Parau Junau Nidi Raja Rato Tinau Rulem Pelladi Midi Zatan Riradi Rilura Tira Tis Meva Nara Cruta Elola Rotila Rana Lara Merila Murau Laradi Leredi Jonalo Ritem Cyri Luetura Loliri Mera Nanau Eli Lala Nalam Tiro Tipu Rena Nena Nelu Panau Navim Ratin Jivipa Runo Rudi Nitaka Meru Maka Nova Zuda Tara Mira Tudi ZUeka Elata Naka Reka Nonau Nullota Nidutota Meras Nulis Tidi Rulla Mueta Mita Loka Raudi Tuni Lueka Zuta Nata Etara Revo Tauli Lanau Pora Tilo Nuta Jinau Ridi 
 					}
 		
 		dukes_called_kings = no		
@@ -2004,10 +2236,40 @@ aquatic_group = {
 		
 		
 		male_names = {
-			Zola Zarosef Baruuda Kan Lurka Erka Zala Ekaf Zoduf Kurko Lasun Luluf Kutoluf Zotaf Zolada Zurun Zera Kusof Surka Olata Ralon Surkun Fokof Borun Zuura Zorka Zerka Redola Fulun Sorun Zosa Rata Rarka Zolota Zasa Ferka Ekoran Botaf Lorof Lasuf Koseran Rura Zurka Zuusulara Orodaf Serka Zukotan Zarun Lasuuta Zadora Zorkan Zurkun Elora Kokan Rala Barka Fulof Zadan Zadun Sukan Zuran Furka Lakan Zarka Zalata Loraf Zerof Borka Zaka Edadoka Rurka Zuutan Orka Zataran Etara Zadolurka Kuran Buruf Oluko Faluta Ralola Furkaka Orkun Kesuf Karuf Berkof Zuusof Zuuta Ralaf Lorun Lakun Zalan Zorun Zako Zatun Sora Era Ekun Balof Sutuf
+		#OoT
+			Zola_Zora Jabu_Jabu
+		#MM
+			Toto_Toto Evan_Evan Japas_Japas Mikau_Mikau Tijo_Tijo
+		#TP
+			Ralis_Ralis
+		#BotW
+			Sidon_Sidon Dorephan_Dorephan Muzu_Muzu Kapson_Kapson Bazz_Bazz Cleff_Cleff Dento_Dento Fronk_Fronk Gruve_Gruve Jiahto_Jiahto Kayden_Kayden Keye_Keye Ledo_Ledo Rivan_Rivan Sasan_Sasan Seggin_Seggin Trello_Trello Tumbo_Tumbo
+		#HTW
+			Zarosef_Zarosef Farkos_Farkos Zaleen_Zaleen
+		#FanOCs
+			Vyorpeh_Vyorpeh Kleive_Kleive Theodonis_Theodonis Navir_Navir Ovonre_Ovonre Jydos_Jydos Pojak_Pojak Gero_Gero Oram_Oram Brieuc_Brieuc Chimaera_Chimaera Eyre_Eyre Helias_Helias Hachi_Hachi Tucurui_Tucurui Tiberas_Tiberas
+		#Random
+			Baruuda Kan Lurka Erka Zala Ekaf Zoduf Kurko Lasun Luluf Kutoluf Zotaf Zolada Zurun Zera Kusof Surka Olata Ralon Surkun Fokof Borun Zuura Zorka Zerka Redola Fulun Sorun Zosa Rata Rarka Zolota Zasa Ferka Ekoran Botaf Lorof Lasuf Koseran Rura Zurka Zuusulara Orodaf Serka Zukotan Zarun Lasuuta Zadora Zorkan Zurkun Elora Kokan Rala Barka Fulof Zadan Zadun Sukan Zuran Furka Lakan Zarka Zalata Loraf Zerof Borka Zaka Edadoka Rurka Zuutan Orka Zataran Etara Zadolurka Kuran Buruf Oluko Faluta Ralola Furkaka Orkun Kesuf Karuf Berkof Zuusof Zuuta Ralaf Lorun Lakun Zalan Zorun Zako Zatun Sora Era Ekun Balof Sutuf
 		}
 		female_names = {
-			Ruto Oran Sokuuf Forko Lurko Furko Zolen Rurko Lasan Olan Erkun Lara Zoran Fulan Forkun Zoro Oso Zulun Rarko Fuuro Barkoro Erko Zalaro Zaso Zerun Furof Erusof Zuuro Ladof Zusof Lorko Baso Zullo Zuso Leruulo Koran Loran Laran Orkelo Zerko Larko Zalun Ralan Falo Ekotan Faran Sorko Kuuro Ekulo Zuluro Selan Zaran Fusaro Fotolo Zararko Lukelo Zalo Elaro Etalo Rerko Kako Ralo Zorko Rarorko Borko Orko Zado Zeko Zelo Karko Balo Larorko Eralo Etasolo Suran Erka Furo Zarko Serko Luko Zurko Rako Farko Saro Elurka Seko Rorko Zuuto Suro Bako Foko Karun Erokun Burko Elo Erun Forun Lerko Fesof 
+		#OoT
+			Ruto_Ruto
+		#MM
+			Lulu_Lulu
+		#WW
+			Laruto_Laruto
+		#TP
+			Rutela_Rutela
+		#ALBW
+			Oren_Oren
+		#BotW
+			Mipha_Mipha Dunma_Dunma Finley_Finley Gaddison_Gaddison Kodah_Kodah Laflat_Laflat Laruta_Laruta Marot_Marot Mei_Mei Tona_Tona Torfeau_Torfeau Tottika_Tottika Tula_Tula
+		#HTW
+			Sokuuf_Sokuuf Aydia_Aydia Telara_Telara Fariel_Fariel
+		#FanOCs
+			Laruna_Laruna Orsyal_Orsyal Narya_Narya Meliah_Meliah Danni_Danni Rydea_Rydea Elunai_Elunai Rutalia_Rutalia Sekai_Sekai Mareena_Mareena Sephira_Sephira Amalthea_Amalthea Lunaris_Lunaris Nokken_Nokken Akibo_Akibo Coral_Coral Orsyal_Orsyal Minora_Minora Anuket_Anuket Rarune_Rarune Zaria_Zaria
+		#Random
+			Forko Lurko Furko Zolen Rurko Lasan Olan Erkun Lara Zoran Fulan Forkun Zoro Oso Zulun Rarko Fuuro Barkoro Erko Zalaro Zaso Zerun Furof Erusof Zuuro Ladof Zusof Lorko Baso Zullo Zuso Leruulo Koran Loran Laran Orkelo Zerko Larko Zalun Ralan Falo Ekotan Faran Sorko Kuuro Ekulo Zuluro Selan Zaran Fusaro Fotolo Zararko Lukelo Zalo Elaro Etalo Rerko Kako Ralo Zorko Rarorko Borko Orko Zado Zeko Zelo Karko Balo Larorko Eralo Etasolo Suran Erka Furo Zarko Serko Luko Zurko Rako Farko Saro Elurka Seko Rorko Zuuto Suro Bako Foko Karun Erokun Burko Elo Erun Forun Lerko Fesof 
 		}
 		
 		dukes_called_kings = no
@@ -2038,14 +2300,40 @@ avian_group = {
 		color = { 0.88 1 1 }
 		
 		male_names = {
-			Gesane Fyson Harth Huck Kaneli Mazli Nekk Notts Revali Teba Tulin Verla
-		}
+		#WW
+			Basht_Basht Bisht_Bisht Hoskit_Hoskit Koboli_Koboli Kogoli_Kogoli Ilari_Ilari Namali_Namali Obli_Obli Pashli_Pashli Komali_Komali Quill_Quill Skett_Skett Akoot_Akoot Willi_Willi
+		#MC
+			Zeffa_Zeffa
+		#TP
+			Trill_Trill Plumm_Plumm
+		#BotW
+			Kass_Kass Revali_Revali Teba_Teba Mimo_Mimo Fyson_Fyson Guy_Guy Gesane_Gesane Harth_Harth Huck_Huck Kaneli_Kaneli Mazli_Mazli Nekk_Nekk Tulin_Tulin Verla_Verla
+		#OoTM
+			Rouru_Rouru Guufo_Guufo
+		#FanOCs
+			Nolan_Nolan Greyson_Greyson Kotari_Kotari Tori_Tori Juro_Juro Quoka_Quoka Osric_Osric Rhoni_Rhoni Eder_Eder Arias_Arias Khuno_Khuno Seirus_Seirus Almas_Almas Lyr_Lyr Talon_Talon
+		#Random
+			Pokott Hasht Idlali Mobi Koolali Habomi Oki Pomobit Kooli Wolli Imoli Kibali Halit Kemi Nobi Ikobi Oball Ilali Badli Koki Milot Paki Oboli Habi Borami Keskit Koli Alemi Kelat Kolal Olimi Kobat Mott Gadli Olili Maki Iskeli Skadli Gibi Qibi Kosht Wilaski Areki Wiki Kolabi Hobabi Kalami Olobi Kotel Bobat Olet Palit Kolibi Imill Kabi Ogibi Mereli Skori Kott Keki Mikili Iskami Skaget Kalibi Oroolit Milit Skoki Skolit Skami Kololi Bili Imeki Peki Golo Agoki Billa Alibo Skomit Bimobi Bimet Kaki Irama Kogi Skodli Alabi Nibi
+	 	}
 		female_names = {
-			Amali Bedoli Cecili Cree Genli Kheel Kotts Laissa Misa Molli Saki
+		#WW
+			Medli_Medli
+		#TP
+			Purdy_Purdy
+		#BotW
+			Frita_Frita Amali_Amali Bedoli_Bedoli Cecili_Cecili Cree_Cree Genli_Genli Kheel_Kheel Kotts_Kotts Laissa_Laissa Misa_Misa Molli_Molli Notts_Notts Saki_Saki 
+		#OoTM
+			Elrora_Elrora
+		#HTW
+			Rinna_Rinna
+		#FanOCs
+			Sona_Sona Ena_Ena Ameli_Ameli Naomi_Naomi Raksha_Raksha Rinku_Rinku Keeha_Keeha Akili_Akili Hera_Hera Rikku_Rikku Cipha_Cipha Huracan_Huracan
+		#Random
+			Skoli Nebi Kibi Kibali Kemi Ilali Bali Moki Kiki Kolot Beli Molabi Pebit Kolili Qill Naki Koski Kali Pebi Buimi Ibibi Imoki Kabit Ksekimi Wilimi Niki Pami Merbli Kimi Bili Balli Kelet Ikaro Halli Hadli Nadli Agiri Nabi Olil Babi Pelimi Nali Omaki Agobi Noki Gilebi Alaki Bilat Kegi Ilami Homi Wami Keba Pelit Bami Ilemi Olatt Kodli Holi Ollat Geli Imat Nomi Maloli Agali Obebi Omeli Wali Kabali Kuiki Mami Kelot Poki Hili Alell Imili Skomi Babell Araki Komi Kami Kisht Gimi Nimi Moga Pobi Skibi Miki Kolami Komit Keli Kaskatt Komet Alebi Kelol Biki 
 		}		
 		dukes_called_kings = no
 		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "ru "
 				
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 30
@@ -2065,12 +2353,37 @@ avian_group = {
 		color = { 0.2 1 1 }
 		
 		male_names = {
-			Fyson Harth Huck Kass Nekk Teba Tulin
-		}
+		#WW
+			Basht_Basht Bisht_Bisht Hoskit_Hoskit Koboli_Koboli Kogoli_Kogoli Ilari_Ilari Namali_Namali Obli_Obli Pashli_Pashli Komali_Komali Quill_Quill Skett_Skett Akoot_Akoot Willi_Willi
+		#MC
+			Zeffa_Zeffa
+		#TP
+			Trill_Trill Plumm_Plumm
+		#BotW
+			Kass_Kass Revali_Revali Teba_Teba Mimo_Mimo Fyson_Fyson Guy_Guy Gesane_Gesane Harth_Harth Huck_Huck Kaneli_Kaneli Mazli_Mazli Nekk_Nekk Tulin_Tulin Verla_Verla
+		#OoTM
+			Rouru_Rouru Guufo_Guufo
+		#FanOCs
+			Nolan_Nolan Greyson_Greyson Kotari_Kotari Tori_Tori Juro_Juro Quoka_Quoka Osric_Osric Rhoni_Rhoni Eder_Eder Arias_Arias Khuno_Khuno Seirus_Seirus Almas_Almas Lyr_Lyr Talon_Talon
+		#Random
+			Pokott Hasht Idlali Mobi Koolali Habomi Oki Pomobit Kooli Wolli Imoli Kibali Halit Kemi Nobi Ikobi Oball Ilali Badli Koki Milot Paki Oboli Habi Borami Keskit Koli Alemi Kelat Kolal Olimi Kobat Mott Gadli Olili Maki Iskeli Skadli Gibi Qibi Kosht Wilaski Areki Wiki Kolabi Hobabi Kalami Olobi Kotel Bobat Olet Palit Kolibi Imill Kabi Ogibi Mereli Skori Kott Keki Mikili Iskami Skaget Kalibi Oroolit Milit Skoki Skolit Skami Kololi Bili Imeki Peki Golo Agoki Billa Alibo Skomit Bimobi Bimet Kaki Irama Kogi Skodli Alabi Nibi
+	 	}
 		female_names = {
-			Amali Cecili Cree Genli Kheel Kotts Laissa Misa Molli Notts Saki Verla
-		}
-		#unknown Bedoli Gesane Juney Kaneli Mazli Mimo Oliff
+		#WW
+			Medli_Medli
+		#TP
+			Purdy_Purdy
+		#BotW
+			Frita_Frita Amali_Amali Bedoli_Bedoli Cecili_Cecili Cree_Cree Genli_Genli Kheel_Kheel Kotts_Kotts Laissa_Laissa Misa_Misa Molli_Molli Notts_Notts Saki_Saki 
+		#OoTM
+			Elrora_Elrora
+		#HTW
+			Rinna_Rinna
+		#FanOCs
+			Sona_Sona Ena_Ena Ameli_Ameli Naomi_Naomi Raksha_Raksha Rinku_Rinku Keeha_Keeha Akili_Akili Hera_Hera Rikku_Rikku Cipha_Cipha Huracan_Huracan
+		#Random
+			Skoli Nebi Kibi Kibali Kemi Ilali Bali Moki Kiki Kolot Beli Molabi Pebit Kolili Qill Naki Koski Kali Pebi Buimi Ibibi Imoki Kabit Ksekimi Wilimi Niki Pami Merbli Kimi Bili Balli Kelet Ikaro Halli Hadli Nadli Agiri Nabi Olil Babi Pelimi Nali Omaki Agobi Noki Gilebi Alaki Bilat Kegi Ilami Homi Wami Keba Pelit Bami Ilemi Olatt Kodli Holi Ollat Geli Imat Nomi Maloli Agali Obebi Omeli Wali Kabali Kuiki Mami Kelot Poki Hili Alell Imili Skomi Babell Araki Komi Kami Kisht Gimi Nimi Moga Pobi Skibi Miki Kolami Komit Keli Kaskatt Komet Alebi Kelol Biki 
+		}		
 		modifier = default_culture_modifier
 	}
 }
@@ -2081,10 +2394,22 @@ mammalian_group = {
 		color = { 0.37 0.62 0.63 }
 
 		male_names = {
-			Honcho Bulu Kofu Noko Yefu Yeko Nobodo Mazo Kumu Hintobo Gumo Fofo Dodo Aroo Aukoo Aariak Aassa Naaq Aippaq Aklaq Amaq Juaq Amaruq Ammaga Ruqnik Anik Apaata Aput Aputi Aqak Uktuq Aqil Lutaq Aqpalib Aaqtug Aquyi Ittuq Arnauyq Asuilaak Laak Atanar Juat Atiq Talaaq Atuq Tuaq Aujaq Aviqming Ila Nnaq Innu Gati Inuk Uksuk Irniq Itiga Ituk Kanguq Katak Kayuq Tuq Keed Tapeck Kissar Viarsuk Kugma Glak Kunik Paa Malik Nanouk Nasak Natsiq Nauja Nirliq Nuniq Nuvuk Oki Pakak Pamiuq Patuktuq Pauloosie Petuwaq Pimniq Piqq Aluyu Ungmik Tonroq Desna Varrik Sokka Nuktuk Pakku Hakoda Bato Tarrlok Yakone Rafa
+		#PH
+			Aroo_Aroo Dobo_Dobo Gumo_Gumo Hintobo_Hintobo Kumu_Kumu Nobodo_Nobodo
+		#ST
+			Bulu_Bulu Honcho_Honcho Kofu_Kofu Noko_Noko Yefu_Yefu Yeko_Yeko
+		#FanOCs
+			Oru_Oru
+		#Random
+			Dodo Aukoo Aariak Aassa Naaq Aippaq Aklaq Amaq Juaq Amaruq Ammaga Ruqnik Anik Apaata Aput Aputi Aqak Uktuq Aqil Lutaq Aqpalib Aaqtug Aquyi Ittuq Arnauyq Asuilaak Laak Atanar Juat Atiq Talaaq Atuq Tuaq Aujaq Aviqming Ila Nnaq Innu Gati Inuk Uksuk Irniq Itiga Ituk Kanguq Katak Kayuq Tuq Keed Tapeck Kissar Viarsuk Kugma Glak Kunik Paa Malik Nanouk Nasak Natsiq Nauja Nirliq Nuniq Nuvuk Oki Pakak Pamiuq Patuktuq Pauloosie Petuwaq Pimniq Piqq Aluyu Ungmik Tonroq Desna Varrik Sokka Nuktuk Pakku Hakoda Bato Tarrlok Yakone Rafa
 		}
 		female_names = {
-			Yeketo Aarik Aippaq Aklaq Aluki Amaruq Amma Garuqnik Anaay Anniagruk Appay Aput Aputi Aqaku Uktuq Arnaq Atiqtalik Atuat Availuk Elisapie Estuuya Higalik Luava Malina Naaq Tuuq Opik Pallu Uqtuq Pamiuq Panikpak Piquuraq Puja Pung Washa Aloo Qaaynak Qaiyaan Qamaniq Suqi Tapeesa Tobanga Tupiq Uki Ukiuk Uluriaq Uputsi Yakone Lani Sinaaq Parka Shan Nirotii Aiishara Makki Kita Yuna Mita Nilak Tausha Kaori Azhure Mazu Urufi Misu Amari Iluq Riku Kateri Kanami Lunais Yuli Aya Toka Kanni Anni Urufei Nita Ita Aomi Ihao Sita Ari Ikoa Kana Zoni Azo Ato Yemo Yadi Nakoo Nezu Zufo Honi Fezo Zoto Kedu Fuku Naroo
+		#PH
+			Fofo_Fofo Mazo_Mazo
+		#HTW
+			Yeketo_Yeketo
+		#Random
+			Aarik Aippaq Aklaq Aluki Amaruq Amma Garuqnik Anaay Anniagruk Appay Aput Aputi Aqaku Uktuq Arnaq Atiqtalik Atuat Availuk Elisapie Estuuya Higalik Luava Malina Naaq Tuuq Opik Pallu Uqtuq Pamiuq Panikpak Piquuraq Puja Pung Washa Aloo Qaaynak Qaiyaan Qamaniq Suqi Tapeesa Tobanga Tupiq Uki Ukiuk Uluriaq Uputsi Yakone Lani Sinaaq Parka Shan Nirotii Aiishara Makki Kita Yuna Mita Nilak Tausha Kaori Azhure Mazu Urufi Misu Amari Iluq Riku Kateri Kanami Lunais Yuli Aya Toka Kanni Anni Urufei Nita Ita Aomi Ihao Sita Ari Ikoa Kana Zoni Azo Ato Yemo Yadi Nakoo Nezu Zufo Honi Fezo Zoto Kedu Fuku Naroo
 		}
 		
 		dukes_called_kings = no
@@ -2100,10 +2425,16 @@ mammalian_group = {
 		color = { 0.6 1 1 }
 		
 		male_names = {
+		#TP
+			Yeto_Yeto
+		#Random
 			Yam Yak Ya Yush Yaj Yoshi Yut Yudak Yudat Yedi Yushi Yatum Yersh Yedak Yotuj Yashi Yum Yudi Yasho Yatak Yadat Yado Yem Yesho Yoduj Yutum Yeng Yat Yuk Yadok Yosho Yang Yodak Yodat Yetej Yeto Yek Yudaj Yutoj Yushak Yetum Yok Yushedo Yadut Yong Yetek Yedam Yadam Yutam Yutadaj Yadoj Yeshi Yeduj Yedum Yotet Yaduj Yung Yuti Yatam Yotej Yatok Yatek Yutuk Yatoto Yuj Yatom Yadum Yudum Yuduk Yatet Yatut Yedem Yutok Yej Yotuk Yadom Yetam Yutom Yataj Yutut Yudej Yutak Yotot Yedej Yedok
 		}
 		female_names = {
-			Yeta Yusha Yudita Yushi Yusa Yanta Yati Yesha Yuda Yuta Yasha Yedi Yededi Yashadi Yasi Yata Yunta Yunshi Yada Yataa Yasa Yidi Yudi Yesa Yisha Yutaa Yunti Yenta Yitaa Yeda Yedata Yetaa Yishi Yashi Yusi Yeshi Yusaa Yudasi Yesi Yinta Yanti Yadi Yuti Yiti Yisa Yida Yisaa Yisi Yesaa Yedaa Yesati Yenti Yaa Yashaa Yitita Yatusa Yesata Yutata Yasaa Yushaa Yetusa Yusidi Yitata Yusudi Yetenta Yusida Yedushi Yatusi Yitasi Yetada Yusiti Yetuda Yasata Yesita Yususi Yeseti Yetedi Yusita Yuseda Yituta Yedusa Yatata Yetita Yushusa Yutedi Yituda Yuseti Yutesi Yusasi Yusuda Yututa Yasuta Yeteta
+		#TP
+			Yeta_Yeta
+		#Random
+			Yusha Yudita Yushi Yusa Yanta Yati Yesha Yuda Yuta Yasha Yedi Yededi Yashadi Yasi Yata Yunta Yunshi Yada Yataa Yasa Yidi Yudi Yesa Yisha Yutaa Yunti Yenta Yitaa Yeda Yedata Yetaa Yishi Yashi Yusi Yeshi Yusaa Yudasi Yesi Yinta Yanti Yadi Yuti Yiti Yisa Yida Yisaa Yisi Yesaa Yedaa Yesati Yenti Yaa Yashaa Yitita Yatusa Yesata Yutata Yasaa Yushaa Yetusa Yusidi Yitata Yusudi Yetenta Yusida Yedushi Yatusi Yitasi Yetada Yusiti Yetuda Yasata Yesita Yususi Yeseti Yetedi Yusita Yuseda Yituta Yedusa Yatata Yetita Yushusa Yutedi Yituda Yuseti Yutesi Yusasi Yusuda Yututa Yasuta Yeteta
 		}		
 		dukes_called_kings = no
 		
@@ -2117,8 +2448,12 @@ mammalian_group = {
 		
 		color = { 0.8 0.3 0.1 }
 		
-		male_names = { Jimere Selen Kahye Iren Mwuon Irebyemi Sunje Furemo Meswarun Junun Ileng Selun Suswe Sufun Jaswe Ilang Jebyo Kenanun Ilun Subhu Kubya Irani Ilen Sanen Jehye Zeule Tabhi Juon Jabhi Jafemo Zenun Jebhe Khun Suon Zureonun Sulemi Jabhun Keng Jafen Feulu Menun Fabyu Jabyun Janame Suomin Suleng Jenjun Jeng Tonun Feulo Jenun Sulin Kemun Zmo Fulun Zefen Joswu Zunun Khemafu Jan Jun Seling Zameung Moruon Samun Salong Mumeun Fanan Semun Kheman Mwuneun Suswo Kaomun Kinun Feulean Toruon Janen Zehyo Tinun Timuruon Feule Mwuferuon Iruon Jurghomun Khaswuon Tolufuonun Zumuron Zehyumen Zurn Zamen Ileon Zebyi Khimi Sulunon Suomuolo Kebhu Sulaune Manjinun Zumamun }
-		female_names = { Arabji Iraon Kan Murson Enya Sajarunya Nagja Numonya Mawun Nuwumi Awiwura Awira Irogja Kaon Emuwi Iwabji Sibji Seuja Suwan Awajang Susha Chian Nyang Korja Sigja Arong Zuna Awon Sunjun Mwiami Nawon Nyami Awun Meon Awi Kugja Fanyari Sunyarujon Ewirsa Iraong Kowa Mwara Fubji Awura Churan Najumi Awuwi Suwin Ewarjian Ewuri Nugji Manyami Awuweona Korsi Awuk Inyun Erorung Awan Ewana Song Arura Mwami Churi Nubji Zabji Muwogja Zaong Eri Saman Arauwa Zugjarogja Numun Ewami Forirsi Fuwung Sabji Soruja Naoshun Emurja Arojanya Inan Eshuma Nyuwunuja Zagja Awaja Sowogja Chugja Inami Choa Awoni Iwagja Fobji Aruna Munamugja Mogja Saribjami Nyubjun Samarun Fawaoja Arung}
+		male_names = {
+			Jimere Selen Kahye Iren Mwuon Irebyemi Sunje Furemo Meswarun Junun Ileng Selun Suswe Sufun Jaswe Ilang Jebyo Kenanun Ilun Subhu Kubya Irani Ilen Sanen Jehye Zeule Tabhi Juon Jabhi Jafemo Zenun Jebhe Khun Suon Zureonun Sulemi Jabhun Keng Jafen Feulu Menun Fabyu Jabyun Janame Suomin Suleng Jenjun Jeng Tonun Feulo Jenun Sulin Kemun Zmo Fulun Zefen Joswu Zunun Khemafu Jan Jun Seling Zameung Moruon Samun Salong Mumeun Fanan Semun Kheman Mwuneun Suswo Kaomun Kinun Feulean Toruon Janen Zehyo Tinun Timuruon Feule Mwuferuon Iruon Jurghomun Khaswuon Tolufuonun Zumuron Zehyumen Zurn Zamen Ileon Zebyi Khimi Sulunon Suomuolo Kebhu Sulaune Manjinun Zumamun
+}
+		female_names = {
+			Arabji Iraon Kan Murson Enya Sajarunya Nagja Numonya Mawun Nuwumi Awiwura Awira Irogja Kaon Emuwi Iwabji Sibji Seuja Suwan Awajang Susha Chian Nyang Korja Sigja Arong Zuna Awon Sunjun Mwiami Nawon Nyami Awun Meon Awi Kugja Fanyari Sunyarujon Ewirsa Iraong Kowa Mwara Fubji Awura Churan Najumi Awuwi Suwin Ewarjian Ewuri Nugji Manyami Awuweona Korsi Awuk Inyun Erorung Awan Ewana Song Arura Mwami Churi Nubji Zabji Muwogja Zaong Eri Saman Arauwa Zugjarogja Numun Ewami Forirsi Fuwung Sabji Soruja Naoshun Emurja Arojanya Inan Eshuma Nyuwunuja Zagja Awaja Sowogja Chugja Inami Choa Awoni Iwagja Fobji Aruna Munamugja Mogja Saribjami Nyubjun Samarun Fawaoja Arung
+}
 		founder_named_dynasties = yes
 		
 		modifier = default_culture_modifier
@@ -2170,6 +2505,8 @@ fae = {
 			Epheremelda_Epheremelda
 		#HTW
 			Morsheen_Morsheen Dezaia_Dezaia Una_Una Valanvi_Valanvi Venus_Venus
+		#FanOCs
+			Lena_Lena Tipi_Tipi Iridal_Iridal
 		#Random
 			Yume Nieve Melvina Nuria Rill Lucia Tiamara Angerona Aurora Bellona Camilla Cardea Ceres Concordia Diana Dido Elissa Fauna Felicitas Flora Hersilia Iuno Juno Juturna Juventas Lara Larunda Lavinia Libitina Luvinia Lucretia Luna Maia Minerva Naenia Nona Pax Pomona Proserpina Proserpine Rhea Salacia Silvia Vesta Victoria Adorinda Amika Aminda ABrava Dezirinda Esperanta Fajra Fiera Gaja Glorinda Juvela Kandaja Karesinda Katida Luksa Maraja Merita Miela Mirinda Orabela Pipra Rava Rozabela Rubena Safira Sprita Stelara Tondra Valora Venka Vespera Acantha Adrasteia Aegle Aella Agau Aglae Aglaia Aigle
 		 }
@@ -2194,10 +2531,15 @@ plant_group = {
 			Decci_Decci Dekki_Dekki Deppi_Deppi
 		#HTW
 			Kado_Kado
+		#FanOCs
+			Deek_Deek Dechi_Dechi
 		#Random
 			Jace Tick Miko Dero Shoo Bramble Twiggy Cycas Odolwa Rylan Uduak Terfal Kovu Kova Iralo Deppo Jevek Kedo Viku Ikirok Icelo Twiku Hodivi Nevi Ditt Deppe Idimo Fivuado Olek Odari Ido Oreck Shoda Diro Doka Kedos Kerfa Kerfe Vikis Kiteku Daka Kerfo Jota Idu Broki Twori Doril Dakidi Dakol Rylo Twokoo Koredu Shovi Idoki Poki Shik Keck Oppek Devo Olado Odatis Shovori Twoca Vikin Iceku Brivi Joki Shovo Vike Twokado Kokitt Dakolo Vido Vikon Vitt Dodi Dovi Deve Iceci Jori Dimel Fote Viti Kari Uliri Morati Keku Heku Deppa Dakos Betek Idarin Oki Naki
 		}
 		female_names = {
+		#FanOCs
+			Ahri_Ahri Dekka_Dekka Zinna_Zinna Bicu_Bicu
+		#Random
 			Dekwa Dolwa Ailo Hora Bayl Nikki Fala Kott Celia Ivori Iris Ime Petil Kicia Hera Meril Fivi Vide Celas Ficia Feppi Tavi Keral Dett Dara Kerva Miri Divia Hede Decia Ida Vekeko Shova Kitt Docia Dacco Bivi Vikwa Vira Kerfi Idola Vevi Vikava Timira Voloki Brita Udari Deva Idoca Hecia Viko Kecia Tecia Devia Dicia Kavi Twoku Kemi Brira Vivia Sheva Vivi Kari Viki Doda Vika Kecu Shadu Diliku Ivodu Vicca Fiku Teku Tavan Viten Cadu DIla Biku Vikes Iku Vimi Mevi Kilevia Poku Hiku Daken Kedo Faki Shol Idoci Kerfu Kil Becia Ovia Herfi Dekka Vivocia Bacia
 		}
 		
@@ -2208,6 +2550,44 @@ plant_group = {
 				
 		modifier = default_culture_modifier
 	} 
+	skull_kid = {
+		graphical_cultures = { skullkidgfx }
+		parent = demon		
+		
+		color = { 0.48 1 0.48 }	
+		
+		male_names = {
+		#OoT
+			Mido_Mido
+		#WW
+			Fado_Fado Aldo_Aldo Drona_Drona Elma_Elma Hollo_Hollo Irch_Irch Linder_Linder Makar_Makar Oakin_Oakin Olivio_Olivio Rown_Rown 
+		#BotW
+			Hestu_Hestu Chio_Chio Pepp_Pepp Daz_Daz Maca_Maca Oaki_Oaki Peeks_Peeks Tasho_Tasho Walton_Walton Zooki_Zooki
+		#FanOCs
+			Mikus_Mikus
+		#Random
+			Solfego Solfeg Soll Satyo Quint Rei Mir Famo Touro Pollur Dol Faso Tido Lado Fare Fasol Dire Rama Fisol Sile Ilis Tele Seme Rame Rase Rale Rate Roji Rolu Pilu Manem Jinem Piji Alto Banjo Brio Cello Fife Gig Harp Jazz Lyric Piper Reed Rock Tango Tempo Fideles Deste Fidel Cantet Tetnunc Ergo Quina Natus Goqui Laeti Chosrus Die Titrium Angel Hodi Triumphan Phantes Ventes Umcan Dioh Eid Angrus Rapsod Koblak Skjald Zanger Bardo Laulik Rahval Mgosani Dichter Sanger Vardos Dalnok Kolto Penyair Vate Eum Siin Vati Vates Wieszcz Rapso Aed Pentru Cal Dainius Bryzelis Kavinan
+		}
+		female_names = {
+		#OoT
+			Saria_Saria Fado_Fado
+		#BotW
+			Damia_Damia Kula_Kula Natie_Natie
+		#HTW
+			Mirora_Mirora
+		#FanOCs
+			Kalla_Kalla Tarri_Tarri
+		#Random
+			Fia Solmia Utia Lexis Fibria Rei Hymna Meera Famulia Solvio Pollutia Labla Reatu Sanctia Lohana Mia Dore Faso Mefa Sola Lati Rema Fare Mela Fasol Fami Lami Mila Aria Dira Rama Rimi Fisol Silo Liti Late Diri Difi Sili Pilu Nemma Jiro Jinem Allegro Arabesque Bell Cadence Cadenza Calliope Calypso Canary Cantata Cappella Caprice Celeste Chanson Clarion Diva Etude Fifer Gig Harmony Harper Lark Madrigal Malaguena Mandolin Marimba Melody Minuet Opera Rega Rhapsody Selah Seraphine Seranade Sonata Sonatina Symphony Toccata Viola Adeste Hymnos Nale Eid Erna Lena Sedel Fite Canum Venum Umor Tusna Quina Phandi Vendi 
+		}
+		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "of "
+		allow_looting = yes
+		
+		modifier = default_culture_modifier #undead_culture_modifier
+	}
 	kokiri = {
 		graphical_cultures = { kokirigfx } 
  
@@ -2216,10 +2596,28 @@ plant_group = {
 		color = { 0.3 0.42 0.2 }
 		
 		male_names = {
-			Makar Mido Fado Solfego Solfeg Soll Satyo Quint Rei Mir Famo Touro Pollur Dol Faso Tido Lado Fare Fasol Dire Rama Fisol Sile Ilis Tele Seme Rame Rase Rale Rate Roji Rolu Pilu Manem Jinem Piji Alto Banjo Brio Cello Fife Gig Harp Jazz Lyric Piper Reed Rock Tango Tempo Fideles Deste Fidel Cantet Tetnunc Ergo Quina Natus Goqui Laeti Chosrus Die Titrium Angel Hodi Triumphan Phantes Ventes Umcan Dioh Eid Angrus Rapsod Koblak Skjald Zanger Bardo Laulik Rahval Mgosani Dichter Sanger Vardos Dalnok Kolto Penyair Vate Eum Siin Vati Vates Wieszcz Rapso Aed Pentru Cal Dainius Bryzelis Kavinan
+		#OoT
+			Mido_Mido
+		#WW
+			Fado_Fado Aldo_Aldo Drona_Drona Elma_Elma Hollo_Hollo Irch_Irch Linder_Linder Makar_Makar Oakin_Oakin Olivio_Olivio Rown_Rown 
+		#BotW
+			Hestu_Hestu Chio_Chio Pepp_Pepp Daz_Daz Maca_Maca Oaki_Oaki Peeks_Peeks Tasho_Tasho Walton_Walton Zooki_Zooki
+		#FanOCs
+			Mikus_Mikus
+		#Random
+			Solfego Solfeg Soll Satyo Quint Rei Mir Famo Touro Pollur Dol Faso Tido Lado Fare Fasol Dire Rama Fisol Sile Ilis Tele Seme Rame Rase Rale Rate Roji Rolu Pilu Manem Jinem Piji Alto Banjo Brio Cello Fife Gig Harp Jazz Lyric Piper Reed Rock Tango Tempo Fideles Deste Fidel Cantet Tetnunc Ergo Quina Natus Goqui Laeti Chosrus Die Titrium Angel Hodi Triumphan Phantes Ventes Umcan Dioh Eid Angrus Rapsod Koblak Skjald Zanger Bardo Laulik Rahval Mgosani Dichter Sanger Vardos Dalnok Kolto Penyair Vate Eum Siin Vati Vates Wieszcz Rapso Aed Pentru Cal Dainius Bryzelis Kavinan
 		}
 		female_names = {
-			Saria Fia Fado Solmia Utia Lexis Fibria Rei Hymna Meera Famulia Solvio Pollutia Labla Reatu Sanctia Lohana Mia Dore Faso Mefa Sola Lati Rema Fare Mela Fasol Fami Lami Mila Aria Dira Rama Rimi Fisol Silo Liti Late Diri Difi Sili Pilu Nemma Jiro Jinem Allegro Arabesque Bell Cadence Cadenza Calliope Calypso Canary Cantata Cappella Caprice Celeste Chanson Clarion Diva Etude Fifer Gig Harmony Harper Lark Madrigal Malaguena Mandolin Marimba Melody Minuet Opera Rega Rhapsody Selah Seraphine Seranade Sonata Sonatina Symphony Toccata Viola Adeste Hymnos Nale Eid Erna Lena Sedel Fite Canum Venum Umor Tusna Quina Phandi Vendi 
+		#OoT
+			Saria_Saria Fado_Fado
+		#BotW
+			Damia_Damia Kula_Kula Natie_Natie
+		#HTW
+			Mirora_Mirora
+		#FanOCs
+			Kalla_Kalla Tarri_Tarri
+		#Random
+			Fia Solmia Utia Lexis Fibria Rei Hymna Meera Famulia Solvio Pollutia Labla Reatu Sanctia Lohana Mia Dore Faso Mefa Sola Lati Rema Fare Mela Fasol Fami Lami Mila Aria Dira Rama Rimi Fisol Silo Liti Late Diri Difi Sili Pilu Nemma Jiro Jinem Allegro Arabesque Bell Cadence Cadenza Calliope Calypso Canary Cantata Cappella Caprice Celeste Chanson Clarion Diva Etude Fifer Gig Harmony Harper Lark Madrigal Malaguena Mandolin Marimba Melody Minuet Opera Rega Rhapsody Selah Seraphine Seranade Sonata Sonatina Symphony Toccata Viola Adeste Hymnos Nale Eid Erna Lena Sedel Fite Canum Venum Umor Tusna Quina Phandi Vendi 
 		}
 		
 		dukes_called_kings = no
@@ -2236,6 +2634,7 @@ plant_group = {
 
 		color = { 0.3 0.42 0.2 }
 		male_names = {
+<<<<<<< Updated upstream
 			#WW
 			Aldo Drona Elma Hollo Makar Linder Irch Oakin Olivio Rown 
 			#BOTW
@@ -4127,51 +4526,45 @@ plant_group = {
 		
 		male_names = {
 		Kado Deku Decci Dekki Deppi Jace Tick Miko Dero Shoo Bramble Twiggy Cycas Odolwa Rylan Uduak Terfal Kovu Kova Iralo Deppo Jevek Kedo Viku Ikirok Icelo Twiku Hodivi Nevi Ditt Deppe Idimo Fivuado Olek Odari Ido Oreck Shoda Diro Doka Kedos Kerfa Kerfe Vikis Kiteku Daka Kerfo Jota Idu Broki Twori Doril Dakidi Dakol Rylo Twokoo Koredu Shovi Idoki Poki Shik Keck Oppek Devo Olado Odatis Shovori Twoca Vikin Iceku Brivi Joki Shovo Vike Twokado Kokitt Dakolo Vido Vikon Vitt Dodi Dovi Deve Iceci Jori Dimel Fote Viti Kari Uliri Morati Keku Heku Deppa Dakos Betek Idarin Oki Naki
+=======
+<<<<<<< HEAD
+		#OoT
+			Mido_Mido
+		#WW
+			Fado_Fado Aldo_Aldo Drona_Drona Elma_Elma Hollo_Hollo Irch_Irch Linder_Linder Makar_Makar Oakin_Oakin Olivio_Olivio Rown_Rown 
+		#BotW
+			Hestu_Hestu Chio_Chio Pepp_Pepp Daz_Daz Maca_Maca Oaki_Oaki Peeks_Peeks Tasho_Tasho Walton_Walton Zooki_Zooki
+		#FanOCs
+			Mikus_Mikus
+		#Random
+			 Camphin Drona Walna Cedrin Linda Palmar Asho Cedo Acerolin Zigbo Guanandar Balsin Beechin Mahar Mangro Guavo Kentin Rima Tunga 
+>>>>>>> Stashed changes
 		}
 		female_names = {
-		Deku Dekwa Dolwa Ailo Hora Bayl Nikki Fala Kott Celia Ivori Iris Ime Petil Kicia Hera Meril Fivi Vide Celas Ficia Feppi Tavi Keral Dett Dara Kerva Miri Divia Hede Decia Ida Vekeko Shova Kitt Docia Dacco Bivi Vikwa Vira Kerfi Idola Vevi Vikava Timira Voloki Brita Udari Deva Idoca Hecia Viko Kecia Tecia Devia Dicia Kavi Twoku Kemi Brira Vivia Sheva Vivi Kari Viki Doda Vika Kecu Shadu Diliku Ivodu Vicca Fiku Teku Tavan Viten Cadu DIla Biku Vikes Iku Vimi Mevi Kilevia Poku Hiku Daken Kedo Faki Shol Idoci Kerfu Kil Becia Ovia Herfi Dekka Vivocia Bacia
-		}
-		
-		dukes_called_kings = no
-		
-		from_dynasty_prefix = "of "
-		allow_looting = yes
-				
-		modifier = default_culture_modifier
-	} 
-	kokiri = {
-		graphical_cultures = { kokirigfx } 
- 
-		parent = deku_tree
-
-		color = { 0.3 0.42 0.2 }
-		
-		male_names = {
-			Makar Mido Fado Solfego Solfeg Soll Satyo Quint Rei Mir Famo Touro Pollur Dol Faso Tido Lado Fare Fasol Dire Rama Fisol Sile Ilis Tele Seme Rame Rase Rale Rate Roji Rolu Pilu Manem Jinem Piji Alto Banjo Brio Cello Fife Gig Harp Jazz Lyric Piper Reed Rock Tango Tempo Fideles Deste Fidel Cantet Tetnunc Ergo Quina Natus Goqui Laeti Chosrus Die Titrium Angel Hodi Triumphan Phantes Ventes Umcan Dioh Eid Angrus Rapsod Koblak Skjald Zanger Bardo Laulik Rahval Mgosani Dichter Sanger Vardos Dalnok Kolto Penyair Vate Eum Siin Vati Vates Wieszcz Rapso Aed Pentru Cal Dainius Bryzelis Kavinan
-		}
-		female_names = {
-			Saria Fia Fado Solmia Utia Lexis Fibria Rei Hymna Meera Famulia Solvio Pollutia Labla Reatu Sanctia Lohana Mia Dore Faso Mefa Sola Lati Rema Fare Mela Fasol Fami Lami Mila Aria Dira Rama Rimi Fisol Silo Liti Late Diri Difi Sili Pilu Nemma Jiro Jinem Allegro Arabesque Bell Cadence Cadenza Calliope Calypso Canary Cantata Cappella Caprice Celeste Chanson Clarion Diva Etude Fifer Gig Harmony Harper Lark Madrigal Malaguena Mandolin Marimba Melody Minuet Opera Rega Rhapsody Selah Seraphine Seranade Sonata Sonatina Symphony Toccata Viola Adeste Hymnos Nale Eid Erna Lena Sedel Fite Canum Venum Umor Tusna Quina Phandi Vendi 
-		}
-		
-		dukes_called_kings = no
-		
-		from_dynasty_prefix = "of "
-		founder_named_dynasties = yes 
-
-		modifier = default_culture_modifier
-	}
-	korok = {
-		graphical_cultures = { korokgfx } 
- 
-		parent = deku_tree
-
-		color = { 0.3 0.42 0.2 }
-		
-		male_names = {
-			Hestu Camphin  Olivio Irch Hollo Elma Aldo Drona Walna Cedrin Linda Makar Oakin Rown Palmar Asho Cedo Acerolin Zigbo Guanandar Balsin Beechin Mahar Mangro Guavo Kentin Rima Tunga 
-		}
-		female_names = { 
+		#OoT
+			Saria_Saria Fado_Fado
+		#BotW
+			Damia_Damia Kula_Kula Natie_Natie
+		#HTW
+			Mirora_Mirora
+		#FanOCs
+			Kalla_Kalla Tarri_Tarri
+		#Random
 			Cora  Euodin Casso Palma Bircha Catalpa Aspa Junipo Larcha Maplin Sprucar Firar Yewin Poplin Bindingo Essingango Kevazinga Anisa Coya Avocada Hespa Lila Papedo Silka Willa Zelkovin
+=======
+			#WW
+			Aldo Drona Elma Hollo Makar Linder Irch Oakin Olivio Rown 
+			#BOTW
+			Hestu Chio Daz Walton Tasho Oaki Peeks
+			#Random
+			Arbo Willa Asho Cedo Acerolin Zigbo Guanandar Balsin Beechin Mahar Mangro Guavo Kentin Rima Tunga 
+		}
+		female_names = {
+			#Botw
+			Damia Kula Maca Natie Pepp Zooki
+			#Random
+			Ashai Asp Sherry Haw Furie Tuli Pruce Catalpa Aspa Junipo Larcha Maplin Sprucar Firar Yewin Poplin Bindingo Essingango Kevazinga Anisa Coya Avocada Hespa Lila Papedo Silka Willa Zelkovin
+>>>>>>> origin/master
 		}
 		
 		dukes_called_kings = no
@@ -4189,13 +4582,14 @@ plant_group = {
 		color = { 0 1 0.5 }
 		
 		male_names = {
-		Vorday Abooksigun Achak Ahiga Aponivi Awan Badzaal Bilagaana Bamas Bodaway Chatima Chesmu Chogan Chu'a Cochise Dakotah Delsin Demotha Dyama Elan Elsu Eluwalussat Enyeto Ezhno Gaagaa Gad Gosheven Guyapa Hanee Hakan Hania Hassun Hastian Hekla Hesuto Honova Huratt Anazan Aneteus Astu Lye Jacy Jolon Kachada Kaga Kele Keme Leyta LAse Lonato Lootah Machakwa Machk Mahpee Makya Mukka Muraco Naalnish Naale Sadaha Nahele Nahaossa Nastas Nawat Nayata Neka Nagan Nakata Natas Nayol Nosha Nukpana Ocumwhowurst Odakota Ogaleesha Ohanko Ohanzee Ohcumgache Ohatekah Okhmaka Omawnakwa Otaktay Otohhastis Ouray Pachua Paco Paytah Pallatan Qaletaqa Qochata Rowtag Sahale Sakama Sana Sewata Shalah Sharaka Shaye Sacheaa Taas
+		#HTW
+			Vorday_Vorday
+		#Random
+			Abooksigun Achak Ahiga Aponivi Awan Badzaal Bilagaana Bamas Bodaway Chatima Chesmu Chogan Chu'a Cochise Dakotah Delsin Demotha Dyama Elan Elsu Eluwalussat Enyeto Ezhno Gaagaa Gad Gosheven Guyapa Hanee Hakan Hania Hassun Hastian Hekla Hesuto Honova Huratt Anazan Aneteus Astu Lye Jacy Jolon Kachada Kaga Kele Keme Leyta LAse Lonato Lootah Machakwa Machk Mahpee Makya Mukka Muraco Naalnish Naale Sadaha Nahele Nahaossa Nastas Nawat Nayata Neka Nagan Nakata Natas Nayol Nosha Nukpana Ocumwhowurst Odakota Ogaleesha Ohanko Ohanzee Ohcumgache Ohatekah Okhmaka Omawnakwa Otaktay Otohhastis Ouray Pachua Paco Paytah Pallatan Qaletaqa Qochata Rowtag Sahale Sakama Sana Sewata Shalah Sharaka Shaye Sacheaa Taas
 		}
 		female_names = {
-		Abedabun Abequa Adoette Adsala Alameda Alawa Amtola Angena Ankta Apona Atepa Awanata Ayana Ayasha Awenasa Bena Bly Catora Cha'rasa Cheona Dena Dyana Enola Etena Fala Flo Gaho Galalaha Halona Hausas Hewuta Honova Isa Istas Ituha Izusa Kachana Leotae Koko Lomasa Lulu Luyu Megena Mahal Mana Meda Memda Magasa Maka Manal Mona Muna Nata Najlon Nana Natuna Nokomas Nova Nukpana Numees Nuna Nuttah Ogan Olathe Onawa Onada Oota Dadun Peta Petuna Poloma Powaqa Rozene Shana Sahu Sanopa Sasaka Sokwa Sooleawa Soyala Sunka Tablata Tahka Tama Takala Wanema Wuta Wyanet Yamka Yepa Yoka Zaltana Zene Zahna Zitkala Wakamak Waneta Una
+			Abedabun Abequa Adoette Adsala Alameda Alawa Amtola Angena Ankta Apona Atepa Awanata Ayana Ayasha Awenasa Bena Bly Catora Cha'rasa Cheona Dena Dyana Enola Etena Fala Flo Gaho Galalaha Halona Hausas Hewuta Honova Isa Istas Ituha Izusa Kachana Leotae Koko Lomasa Lulu Luyu Megena Mahal Mana Meda Memda Magasa Maka Manal Mona Muna Nata Najlon Nana Natuna Nokomas Nova Nukpana Numees Nuna Nuttah Ogan Olathe Onawa Onada Oota Dadun Peta Petuna Poloma Powaqa Rozene Shana Sahu Sanopa Sasaka Sokwa Sooleawa Soyala Sunka Tablata Tahka Tama Takala Wanema Wuta Wyanet Yamka Yepa Yoka Zaltana Zene Zahna Zitkala Wakamak Waneta Una
 		}
-		
-		dukes_called_kings = no
 		
 		from_dynasty_prefix = "mn "
 		dynasty_title_names = yes
@@ -4206,26 +4600,6 @@ plant_group = {
 		prefix = yes
 				
 		modifier = default_culture_modifier
-	}
-	skull_kid = {
-		graphical_cultures = { skullkidgfx }
-		parent = demon		
-		
-		color = { 0.48 1 0.48 }	
-		
-		male_names = {
-		Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Sheik Agahnim Dethl Bongo Sai Itzal Kafziel Dask Fao Kidura Nokto Shal Kadam Nuzem Ihnik Sagas Illafzo Besho Kos Daz Yvak Colin Fado Hanch Jaggle Malo Rusl Talo Cido Silo Padilo Argi Celo Ilo Cirgo Cidan Padin Ganondorf Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Linc Brant Bremeur Doylan Kayo Zauz Mutoh Eox Ichero Jero Saboro Shero Brak Guru-Guru Guru Sokra Stockwell Elwood Grover Garrick Hollis Kiefer Linden Linford Ralph Bipin Pippin Adlar Cheval Dekadin Plen Rafton Adrien Aldous Alain Albrecht Basile 
-		}
-		female_names = {
-		Zelda Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Impa Iza Impaz Katiu Kailla Izmae Kyran Anydra Pasha Yvie Keiran Silvaris Beth Ilia Pergie Sera Uli Celei Cara Alela Ulera Padei Fodei Megglie Purei Koume Uma Telma Kotake Aveil Nabooru Runeka Rova Numi Dizi Ari Neesha Apheri Astrid Angu Melon Brevie Candi Chay Dotty Ema Jasyn Junen Keely Lilian Marcie Paigin Pena Sheyla Tena Dena Veronan Pitia Juliettai Grany Huney Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Holly Maple Syrup Cedar Ebony Hazel Hollis Juniper Lotus Laurel Ambi Veran Blossom Adele Aimee Alea Avra Babette Babs Beatrix Chara Cecilia Caelie Celeste Debora Dawn Dorthe Despina Evdokia Elli Eglantine Fifi 
-		}
-		
-		dukes_called_kings = no
-		
-		from_dynasty_prefix = "of "
-		allow_looting = yes
-		
-		modifier = default_culture_modifier #undead_culture_modifier
 	}
 }
 infernal = {
@@ -4239,10 +4613,25 @@ infernal = {
 		
 		
 		male_names = { 
-		Demise Spite Malice Hate Greed Gluttony Vengence Blind Onox Vaati Cole Malladus Bellum Ghirahim Batreaux Sybris Nazar Aldus Ganon Vire Tannin Jarlath Anhim Fleerin Skeldritch Meaus Atre Rus Seezux Oldin BorlinNazade Binas Tuldrodize Sinin Vizos Galis Oram Baros Ruror Anahom Flin Flix Rarlon Nohea Veton Flize Skitir Gonhan Tonhor Venhin Vinunon Falton Raris Gidor Sines Olles Maror Ozide Allum Tuhes Arallun Skarlannax Seezos Skanotim Maanhe Baram Mudas Busane Fline Skanune Gihun Skanarax Seeldadus Skanini Ollatiton Onanhin Flone Tenun Botas Voldron Skanin Zerilim Allinor Siralar Narulle Jullas Vinnor Flinanam Aror Flizos Skane Anhin Skanas Seezas Naror Zolor Varon Sadox Gihin Tanhinhix
+		#LoZ
+			Ganon_Ganon
+		#MM
+			Majora_Majora
+		#PH
+			Bellum_Bellum
+		#ST
+			Malladus_Malladus
+		#SS
+			Demise_Demise Ghirahim_Ghirahim Batreaux_Batreaux Morusego_Morusego
+		#FPTRR
+			Rupee_Rupee
+		#HTW
+			Deathl_Deathl Iemanis_Iemanis
+		#Random
+			Spite Malice Hate Greed Gluttony Vengence Blind Onox Vaati Cole Sybris Nazar Aldus Vire Tannin Jarlath Anhim Fleerin Skeldritch Meaus Atre Rus Seezux Oldin BorlinNazade Binas Tuldrodize Sinin Vizos Galis Oram Baros Ruror Anahom Flin Flix Rarlon Nohea Veton Flize Skitir Gonhan Tonhor Venhin Vinunon Falton Raris Gidor Sines Olles Maror Ozide Allum Tuhes Arallun Skarlannax Seezos Skanotim Maanhe Baram Mudas Busane Fline Skanune Gihun Skanarax Seeldadus Skanini Ollatiton Onanhin Flone Tenun Botas Voldron Skanin Zerilim Allinor Siralar Narulle Jullas Vinnor Flinanam Aror Flizos Skane Anhin Skanas Seezas Naror Zolor Varon Sadox Gihin Tanhinhix
 		}
 		female_names = {
-		Envy Lust Saniya Anthea Vire Blind Zalya Rosalyne Valyirlin Azin Ratira Suldor Zonas Sohea Totre Vezea Cinthin Cunas Nahea Vaan Skaha Ahihe Zalarin Zaldror Vidon Flis Arohea Asorea Nildas Adillun Belaatre Tanim Fliza Skalla Skalam Misor Sirom Bera Gohoea Gunthanea Cirea Rohea Bihea Variton Marea Berea Aseasus Baanea Ararea Alyas Meeze Otozea Annizas Flinis Vitas Skax Nasire Visinea Fliri Baasi Janae Skana Baasen 
+			Envy Lust Saniya Anthea Vire Blind Zalya Rosalyne Valyirlin Azin Ratira Suldor Zonas Sohea Totre Vezea Cinthin Cunas Nahea Vaan Skaha Ahihe Zalarin Zaldror Vidon Flis Arohea Asorea Nildas Adillun Belaatre Tanim Fliza Skalla Skalam Misor Sirom Bera Gohoea Gunthanea Cirea Rohea Bihea Variton Marea Berea Aseasus Baanea Ararea Alyas Meeze Otozea Annizas Flinis Vitas Skax Nasire Visinea Fliri Baasi Janae Skana Baasen 
 		}
 		
 		dukes_called_kings = no
@@ -4265,9 +4654,21 @@ blin = {
 		color = { 0.13 0.7 0.7 }
 		
 		male_names = {
+		#LoZ
+			Ganon_Ganon
+		#ST
+			Malladus_Malladus
+		#HTW
+			Drogalon_Drogalon Kajakoo_Kajakoo
+		#FanOCs
+			Blunt_Blunt
+		#Random
 			Gaurud Garudin Berle Harv Herid Wield Heri Weld Del Heil Ruck Wierva Hauri Dire Haurere Redan Helad Wiri Reru Radil Dere Wien Berlen Dilen Hool Wirv Barel Herud Weres Bitin Gerle Bitid Reras Beran Bien Beres Bitack Berin Rerli Ruderv Werel Biten Huld Rered Ruren Tetel Reril Weral Hetuld Derei Deren Hares Dederal Hurire Beras Wadire Werlin Dirv Erel Weir Derere Reren Rire Wurure Hire Hade Hure Wuld Dare Hereld Biere Gure Bitene Bereld Bildirv Rurad Dien Herul Werin Hane Erirv Rerirli Deril Dedud Werid Wire Weris Beri Beren Reld Hare Heled Hirv Dedure Werirul Berul Weril Werud Ries
 		}
 		female_names = {
+		#HTW
+			Ogalon_Ogalon Vaylanon_Vaylanon
+		#Random
 			Wielda Herida Elfyne Roonin Delei Herita Elfin Berlis Dari Welda Rera Wira Wita Beneira Weldi Hetena Hieda Hera Dieti Hura Bera Helen Enira Biera Wauta Hiede Welfa Helal Hanera Hildes Dera Dita Hereta Werela Helid Gieta Ereta Rirv Huleta Woora Hirera Welun Erien Birei Heli Hirid Rild Harun Herir Bara Reiri Werli Wereti Rirera Enina Wera Hielirv Wereld Direta Rurla Rerada Hiere Girv Bitil Wilda Wena Hirirv Hiras Hira Hiera Rurli Erlal Betul Helei Heren Welde Werla Birira Weda Hirla Wirla Geta Wela Heta Wuta Dira Bita Belda Birera Hara Hena Dura Berana Elaun Weta Rira Rerla Wiera Goora Dauta
 		}
 		
@@ -4287,9 +4688,21 @@ blin = {
 		color = { 0.42 0.6 0.14 }
 		
 		male_names = {
+		#LoZ
+			Ganon_Ganon
+		#ST
+			Malladus_Malladus
+		#HTW
+			Drogalon_Drogalon Kajakoo_Kajakoo
+		#FanOCs
+			Blunt_Blunt
+		#Random
 			Bulblin Bulbos Bos Bulin Vulcin Baden Burl Bub Buler Balun Baris Bubin Bubir Bilubun Vilur Vuren Ralus Buda Vubos Biden Bun Bubis Biris Bolin Ben Vub Bas Ralis Bedun Vedas Buleb Belcen Rolun Rolon Babus Roles Babir Bilcun Bolaris Belin Rib Budus Bodir Rolos Bulis Biben Buris Bubun Vulus Bolen Rolulun Bidir Burib Borar Bulban Voros Rilun Beben Rurun Relbus Boren Ridir Rolib Balen Rilir Belur Bulir Vulelen Vulir Belulbun Bolir Roliban Bilcir Rubir Bilun Bibir Vir Bulbun Birir Burir Velbar Bubus Vabir Barurl Rolub Bobir Rolir Rolis Virolbis Boris Bulon Volen Relen Bulan Vulen Biren Belar Berir
 		}
 		female_names = {
+		#HTW
+			Ogalon_Ogalon Vaylanon_Vaylanon
+		#Random
 			Valar Bes Bulbes Vikyr Bolben Bira Riba Bura Rua Ria Rares Rolaba Bolcilca Bilba Buria Bilir Rola Velba Baban Bilua Ruria Rolur Bales Balura Rolus Rires Relus Bulen Burun Boron Belen Belbus Bel Bedilir Budir Budibir Viria Belia Bububua Bulba Barun Bulbir Bala Beres Bidelun Rolua Velan Bibun Berun Rilis Bilen Balubun Rulba Vuba Bires Buben Velen Bules Birl Beria Rilen Bilis Bubes Bilca Rabab Vuria Bolus Babir Vubun Berir Bulas Bilcin Bola Bolon Bulus Rolar Bibis Bubilen Rulin Rulen Rilba Ralib Rira Relbir Vula Vurun Rir Relca Riris Bula Rilin Ribir Vulca Velua Bulia Bebulba Valba Baria Buba Rilcolulua
 		}
 		
@@ -4309,11 +4722,23 @@ blin = {
 		color = { 0.6 0.8 0.2 }
 		
 		male_names = {
-			Morg Reiley Ganon Bryan Grant Moe Hanzso Koh Dholey Grale Oligole Bryon Olyonole Vulah Bugono Gronago Mago Vanon Manule Kogein Vone Barme Barmale Molas Garme Gron Golan Olan Kanas Kana Hulon Malan Kalus Banon Manolan Ralban Hurman Gogan Rein Manun Grorme Vonzsan Valilan Manon Bein Reino Lyren Bogan Manas Goloe Balas Galbon Kagan Granon Balono Bolon Ronon Monus Kigo Ganolan Ralanon Gronon Molban Manonoh Hagon Manan Gonon Golon Dhago Munt Dhonanunt Bonolas Mano Rarme Gralbas Muno Rono Valban Bogon Granun Bunonon Banoe Mormo Ralyus Balus Dhon Geinon Lyrano Hilono Maloboe Balboh Dhono Bono Manoe Gurmuno Bolale Halbas Dhan Kanzse Rarmoe 
+		#LoZ
+			Ganon_Ganon
+		#ST
+			Malladus_Malladus
+		#HTW
+			Drogalon_Drogalon Kajakoo_Kajakoo
+		#FanOCs
+			Blunt_Blunt
+		#Random
+			Morg Reiley Bryan Grant Moe Hanzso Koh Dholey Grale Oligole Bryon Olyonole Vulah Bugono Gronago Mago Vanon Manule Kogein Vone Barme Barmale Molas Garme Gron Golan Olan Kanas Kana Hulon Malan Kalus Banon Manolan Ralban Hurman Gogan Rein Manun Grorme Vonzsan Valilan Manon Bein Reino Lyren Bogan Manas Goloe Balas Galbon Kagan Granon Balono Bolon Ronon Monus Kigo Ganolan Ralanon Gronon Molban Manonoh Hagon Manan Gonon Golon Dhago Munt Dhonanunt Bonolas Mano Rarme Gralbas Muno Rono Valban Bogon Granun Bunonon Banoe Mormo Ralyus Balus Dhon Geinon Lyrano Hilono Maloboe Balboh Dhono Bono Manoe Gurmuno Bolale Halbas Dhan Kanzse Rarmoe 
 
 		}
 		female_names = {
-			Ogalon Vaylanon Dharmina Bulbalus Balba Lyre Bagana Molya Halya Molba Mulya Maga Kogon Kanas Mala Rein Halbala Lyan Grona Bona Bogalya Banon Dhanas Hurmormala Greinch Grein Onogo Vonone Orman Balyala Valon Monas Malbane Dhanon Holbon Golah Lyron Dhein Monoley Banolon Bananon Gogarman Hanon Balanas Kolanon Kugalya Rola Monan Monoh Bonas Kala Malbey Olunas Maley Ralyon Manah Reinah Monein Bryana Keigo Konalbe Malinon Bagas Kalyon Balyas Hurma Rolya Halinas Gale Bryalon Mana Kanala Malon Olyalun Konanon Kalan Mulah Balalya Vunagein Honan Balya Haley Harme Muna Vona Mulyan Manoh Volya Lyras Valona Kurme Rala Balein Monanas Mulan Kolah Golana Golola Gina Valarmun
+		#HTW
+			Ogalon_Ogalon Vaylanon_Vaylanon
+		#Random
+			Dharmina Bulbalus Balba Lyre Bagana Molya Halya Molba Mulya Maga Kogon Kanas Mala Rein Halbala Lyan Grona Bona Bogalya Banon Dhanas Hurmormala Greinch Grein Onogo Vonone Orman Balyala Valon Monas Malbane Dhanon Holbon Golah Lyron Dhein Monoley Banolon Bananon Gogarman Hanon Balanas Kolanon Kugalya Rola Monan Monoh Bonas Kala Malbey Olunas Maley Ralyon Manah Reinah Monein Bryana Keigo Konalbe Malinon Bagas Kalyon Balyas Hurma Rolya Halinas Gale Bryalon Mana Kanala Malon Olyalun Konanon Kalan Mulah Balalya Vunagein Honan Balya Haley Harme Muna Vona Mulyan Manoh Volya Lyras Valona Kurme Rala Balein Monanas Mulan Kolah Golana Golola Gina Valarmun
 		}
 		
 		allow_looting = yes 
@@ -4336,10 +4761,16 @@ lfos = {
 		
 		
 		male_names = {
-		Vakat Drigos Volga Abraxis Ryu Argromano Hachunakku Tashu Akkanu Nibru Akakuganu Alis Oxikkobru Homall Nardat Anokokis Anoxu Alalu Ryomo Naxuno Nokuma Agagakok Acho Alonu Olgabru Valamenalgakkik Axeku Tilgu Okall Agogo Akkus Nikas Hobrabru Tikak Anaxak Anuk Vimo Ardut Anoll Dranot Nakuno Nakas Nalaku Agalu Nashanu Anaguxu Nakos Anall Amis Hakaxunu Naxik Akkas Vaku Hagis Ashis Druma Nanu Alekaku Akok Achas Anogo Akkes Alakkananu Akakiku Ogull Vamu Dranas Drabrus Vagixulat Tochargarda Vanat Algogo Nardikak Alakos Nagilu Vimak Ashak Aluxu Alalgas Hakak Vanas Agekkago Ryamakugu Alemokus ANagakkek Oxooxo Nego Valak Vimu Nikugo Vaxat Oxiku Drakes Nanaku Alano Aniku Nabrak Akkuk Nacho Alexo 
+		#HTW
+			Vakat_Vakat
+		#Random
+			Drigos Volga Abraxis Ryu Argromano Hachunakku Tashu Akkanu Nibru Akakuganu Alis Oxikkobru Homall Nardat Anokokis Anoxu Alalu Ryomo Naxuno Nokuma Agagakok Acho Alonu Olgabru Valamenalgakkik Axeku Tilgu Okall Agogo Akkus Nikas Hobrabru Tikak Anaxak Anuk Vimo Ardut Anoll Dranot Nakuno Nakas Nalaku Agalu Nashanu Anaguxu Nakos Anall Amis Hakaxunu Naxik Akkas Vaku Hagis Ashis Druma Nanu Alekaku Akok Achas Anogo Akkes Alakkananu Akakiku Ogull Vamu Dranas Drabrus Vagixulat Tochargarda Vanat Algogo Nardikak Alakos Nagilu Vimak Ashak Aluxu Alalgas Hakak Vanas Agekkago Ryamakugu Alemokus ANagakkek Oxooxo Nego Valak Vimu Nikugo Vaxat Oxiku Drakes Nanaku Alano Aniku Nabrak Akkuk Nacho Alexo 
 		}
 		female_names = {
-		Nardu Okakusha Talik Nell Akima Narda Tarda Drana Harda Vosha Ananu Alaka Alama Anemokat Nananalako Drobra Taxuka Oshu Akilgabra Tebra Habra Nuxima Vanika Alexakall Vakosha Tibruga Anako Alashamu Vasha Nagargra Abrabra Nokkabra Ashakasha Hakaxo Hemu Ryakas ANeshoka Nakulu Nalgus Dranu Hikim Nasha Anoka Nanok Nalak Olicha Vaxak Alexo Tanus Nakuka Ryoxu Nanushu Vikalirda Lirda Vika Draka ANuku Akanat Ryacha Tabra Virgralga Virgra Ralga Olill Tirda Onaxu Haxu Hirda Hakuk Tikerda Alaxa Nagu Algamu Himu Vabra Vanarda Xexu Ashas Vanos Hakos Ashu Akka Ryuku Amus Nenka Alas Ryas Vonas Nanas Nal Nalga Galan Vara Akagu Nachu Cixu Drilgu Amabra Vilixu Ryoxat
+		#HTW
+			Nardu_Nardu Okakusha_Okakusha Talik_Talik
+		#Random
+			Nell Akima Narda Tarda Drana Harda Vosha Ananu Alaka Alama Anemokat Nananalako Drobra Taxuka Oshu Akilgabra Tebra Habra Nuxima Vanika Alexakall Vakosha Tibruga Anako Alashamu Vasha Nagargra Abrabra Nokkabra Ashakasha Hakaxo Hemu Ryakas ANeshoka Nakulu Nalgus Dranu Hikim Nasha Anoka Nanok Nalak Olicha Vaxak Alexo Tanus Nakuka Ryoxu Nanushu Vikalirda Lirda Vika Draka ANuku Akanat Ryacha Tabra Virgralga Virgra Ralga Olill Tirda Onaxu Haxu Hirda Hakuk Tikerda Alaxa Nagu Algamu Himu Vabra Vanarda Xexu Ashas Vanos Hakos Ashu Akka Ryuku Amus Nenka Alas Ryas Vonas Nanas Nal Nalga Galan Vara Akagu Nachu Cixu Drilgu Amabra Vilixu Ryoxat
 		} 
 		
 		allow_looting = yes 
@@ -4358,10 +4789,16 @@ lfos = {
 		color = { 0.56 0.74 0.56 }
 
 		male_names = {
-		Vakat Spades Hiskar Alban Adrian Nakin Albas Hakik Hadu Nilan Nashat Talakin Nadan Nakun Adan Ardiar Tushun Thalishaka Oskan Thake Diakadu Olbu Okadu Nades Odrin Olban Nedan Dukun Tadiake Tek Akin Haden Takir Vekat Viadun Odukun Thakis Thaskak THakak Adriat Ordun Veke Tasku Vakakak Tannu Thaku Vakik Spaka Albar Spaske Spilashan Nadar Tadris Ordiat Ordak Valik Thakit Thiskak Ordilbar Akan Hiskun Olbadan Hukadan Talit Tiannak Thadan Ardakan Nudun Spalan Okik Okan Akalbiakan Akakadun Askadan Ardan Nialbas Ardudan Akadan Thadrak Adike Dannalun Tulan Nakek Tian Dashu Ardus Tharde Nakak Spikun Alun Adalbe Viskan Takan Tikan Takik Spakun Okaka Valian Talilan Vakun 
+		#HTW
+			Vakat_Vakat
+		#Random
+			Spades Hiskar Alban Adrian Nakin Albas Hakik Hadu Nilan Nashat Talakin Nadan Nakun Adan Ardiar Tushun Thalishaka Oskan Thake Diakadu Olbu Okadu Nades Odrin Olban Nedan Dukun Tadiake Tek Akin Haden Takir Vekat Viadun Odukun Thakis Thaskak THakak Adriat Ordun Veke Tasku Vakakak Tannu Thaku Vakik Spaka Albar Spaske Spilashan Nadar Tadris Ordiat Ordak Valik Thakit Thiskak Ordilbar Akan Hiskun Olbadan Hukadan Talit Tiannak Thadan Ardakan Nudun Spalan Okik Okan Akalbiakan Akakadun Askadan Ardan Nialbas Ardudan Akadan Thadrak Adike Dannalun Tulan Nakek Tian Dashu Ardus Tharde Nakak Spikun Alun Adalbe Viskan Takan Tikan Takik Spakun Okaka Valian Talilan Vakun 
 		}
 		female_names = {
-		Nardu Okakusha Talik Thea Dianne Ardada Ashiadu Olbada Talea Annas Hakea Akaku Albea Dashat Talek Harda Hidan Thakea Nadak Tiaka Ashun Halba Neske Thashan Nedrea Hannun Nian Tidan Tiar Hadaka Arikea Kea Thada Halan Odrea Vadan Tiashalu Shalu Tia Tasha Talila Tala Tiarda Dardisher Vadiak Tadrea Talak Narda Okannak Daden Okaku Tashar Adakan Nashu Nakas Hian Niakan Ardas Talas Nakaku Odran Ardik Thiat Halu Ardiat Ardir Nashan Arden Spakak Ardea Valan THaka Akadu Adrea Talan Veku Niduk Henna Nelbe Takak Ordadu Adaku Hakus Dakik Dadrik Ardut Niakar Ardak Spiar Niakin Hekit Olbakan Niat Adrun Adara Thiade Olakea Nerda Heliar Tadra
+		#HTW
+			Nardu_Nardu Okakusha_Okakusha Talik_Talik
+		#Random
+			Thea Dianne Ardada Ashiadu Olbada Talea Annas Hakea Akaku Albea Dashat Talek Harda Hidan Thakea Nadak Tiaka Ashun Halba Neske Thashan Nedrea Hannun Nian Tidan Tiar Hadaka Arikea Kea Thada Halan Odrea Vadan Tiashalu Shalu Tia Tasha Talila Tala Tiarda Dardisher Vadiak Tadrea Talak Narda Okannak Daden Okaku Tashar Adakan Nashu Nakas Hian Niakan Ardas Talas Nakaku Odran Ardik Thiat Halu Ardiat Ardir Nashan Arden Spakak Ardea Valan THaka Akadu Adrea Talan Veku Niduk Henna Nelbe Takak Ordadu Adaku Hakus Dakik Dadrik Ardut Niakar Ardak Spiar Niakin Hekit Olbakan Niat Adrun Adara Thiade Olakea Nerda Heliar Tadra
 		}
 				
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
@@ -4391,10 +4828,16 @@ lfos = {
 		
 		
 		male_names = {
-		Vakat Umbelozar Keaton Wasu Snipes Camgaro Kengongo Kanat Lasho Vango Wakos Vapukupat Dirdakazo Tozetu Otutas Wekanale Welan Nasho Wengu Wase Weton Vike Vatos Olat Snako Kengoposun Urardu Urdok Wemgu Uratu Wetir Snaze Ketolo Urangak Urazor Tonelo Uralas Cashu Nakosozok Wetut Orde Urato Tator Ukalas Nikas Nizezu Utange Wezu Cukese Narambe Nushusopisho Usako Vungas Lembazase Kutozear Kizear Liolelet Vinat Lune Latizear Tordo Cikas Onear Snamgozas Nakopear Tumgakatu Varazear Liomgoke Okear Otako Likin Takas Urikenu Vardosas Kukezotas Danasho Kesho Werir Niko Umbako Kenge Wetopombo Nikos Kokas Kuke Ongoko Urdutu Snaropatat Wishutas Vilak Kezuko Welentu Ukonat Welak Votas Wetimgure Tekinear Valekear Vutas Wale
+		#HTW
+			Vakat_Vakat
+		#Random
+			Umbelozar Keaton Wasu Snipes Camgaro Kengongo Kanat Lasho Vango Wakos Vapukupat Dirdakazo Tozetu Otutas Wekanale Welan Nasho Wengu Wase Weton Vike Vatos Olat Snako Kengoposun Urardu Urdok Wemgu Uratu Wetir Snaze Ketolo Urangak Urazor Tonelo Uralas Cashu Nakosozok Wetut Orde Urato Tator Ukalas Nikas Nizezu Utange Wezu Cukese Narambe Nushusopisho Usako Vungas Lembazase Kutozear Kizear Liolelet Vinat Lune Latizear Tordo Cikas Onear Snamgozas Nakopear Tumgakatu Varazear Liomgoke Okear Otako Likin Takas Urikenu Vardosas Kukezotas Danasho Kesho Werir Niko Umbako Kenge Wetopombo Nikos Kokas Kuke Ongoko Urdutu Snaropatat Wishutas Vilak Kezuko Welentu Ukonat Welak Votas Wetimgure Tekinear Valekear Vutas Wale
 		}
 		female_names = {
-		Nardu Okakusha Talik Lutia Dione Cat Ulear Liranu Tapa Wetazu Wetaku Kakashes Kakar Kelan Lilos Ombata Keakas Vashat Wakas Vipas Onata Konat Uzas Lirir Lira Lirakarelu Vionashu Viona Kion Kiona Kionakas Kesa Wetalia Wepa Lapokota Kota Liruta Corazear Disata Dula Dalas Liosa Kipor Onazas Cetis Vilake Cotas Tekear Lezear Kelek Liolu Kazas Ula Tutas Kukak Vetu Lita Datata Ongeta Liosusata Vakala Lamga Vapen Vilar Kangia Cetaza Vuta Catas Wekia Canga Wanga Cepia Kepa Utas Datota Kete Lioze Nuror Vipike Neatu Urulo Weshak Ciosho Lotear Tarear Vatita Snesho Liolut Lioka Cazik Kukar Lasin Kelat Dorar Kanear Katear Visas Walia Kotia Wetas
+		#HTW
+			Nardu_Nardu Okakusha_Okakusha Talik_Talik
+		#Random
+			Lutia Dione Cat Ulear Liranu Tapa Wetazu Wetaku Kakashes Kakar Kelan Lilos Ombata Keakas Vashat Wakas Vipas Onata Konat Uzas Lirir Lira Lirakarelu Vionashu Viona Kion Kiona Kionakas Kesa Wetalia Wepa Lapokota Kota Liruta Corazear Disata Dula Dalas Liosa Kipor Onazas Cetis Vilake Cotas Tekear Lezear Kelek Liolu Kazas Ula Tutas Kukak Vetu Lita Datata Ongeta Liosusata Vakala Lamga Vapen Vilar Kangia Cetaza Vuta Catas Wekia Canga Wanga Cepia Kepa Utas Datota Kete Lioze Nuror Vipike Neatu Urulo Weshak Ciosho Lotear Tarear Vatita Snesho Liolut Lioka Cazik Kukar Lasin Kelat Dorar Kanear Katear Visas Walia Kotia Wetas
 		}
 		
 		allow_looting = yes 
@@ -4410,10 +4853,13 @@ lfos = {
 		color = { 0.24 0.8 0.7 }
 		
 		male_names = {
-		Otaylo Abi Abuba Ako Alay Ali Fay Kolon Zalil Bada Bakr Kanbu Bamari Bankanu Token Bannu Bassa Bassi Briam Bisi Biyu Bonga Cise Harun Igoumo Ishaq Ismail Kabay Kabayo Kabai Kambine Kanafa Kasa Kasei Kay Kayna Kin Kisha Kodam Koize Kukuray Kusoy Lahiltol MíBali Bali Mamaro Maghan Mahmud Majan Malla Mamadi Mamoudo Bory Nuh Ouli Ouanko Ouati Reidja Sakoura Salman Solomon Samsou Keina Sandaki Soumba Soumaro Soundiata Sulayman Takoi Tib Tomo Tunka Yama Yaqub Yasiboy Zakoi Zenku Aday Uley Zelir Kakay Zanba Falir Amaki Baber Babeda Bobor Umar Kali Famo Kimo Anli Fata Kela Toba Amor Zabir Atin
+			Abi Abuba Ako Alay Ali Fay Kolon Zalil Bada Bakr Kanbu Bamari Bankanu Token Bannu Bassa Bassi Briam Bisi Biyu Bonga Cise Harun Igoumo Ishaq Ismail Kabay Kabayo Kabai Kambine Kanafa Kasa Kasei Kay Kayna Kin Kisha Kodam Koize Kukuray Kusoy Lahiltol MíBali Bali Mamaro Maghan Mahmud Majan Malla Mamadi Mamoudo Bory Nuh Ouli Ouanko Ouati Reidja Sakoura Salman Solomon Samsou Keina Sandaki Soumba Soumaro Soundiata Sulayman Takoi Tib Tomo Tunka Yama Yaqub Yasiboy Zakoi Zenku Aday Uley Zelir Kakay Zanba Falir Amaki Baber Babeda Bobor Umar Kali Famo Kimo Anli Fata Kela Toba Amor Zabir Atin
 		}
 		female_names = {
-		Adj Aich Aiss Amina Amita Aoa Bara Kisa Binto Dey Djen Eba Djenl Djire Fadima Fatim Fatou Halim Hawa Ena Kadi Kilea Kolon Nana Namis Safia Tou Sali Mata Sas Souma Sid Ibe Siy Sogol Tekhay Youma Zeina Badj Kekr Kelal Djadu Tima Alaba Alaym Blou Yabir Foi Aley Alada Alir Tatey Tako Adima Fetir Alim Alota Ulir Amata Datey Bakel Atota Alom Kakir Amir Zaki Djoma Kikama Foma Kemoi Bamo Yodam Umor Kalo Atoba Keko Kuder Akema Kelili Alukr Kater Fidir Kebay Atey Fatey Kudam Kumir Telel Keday Faler Filay Fukam Keti Dir Amay Zamir Fabo Fema Omata
+		#HTW
+			Otaylo_Otaylo
+		#Random
+			Adj Aich Aiss Amina Amita Aoa Bara Kisa Binto Dey Djen Eba Djenl Djire Fadima Fatim Fatou Halim Hawa Ena Kadi Kilea Kolon Nana Namis Safia Tou Sali Mata Sas Souma Sid Ibe Siy Sogol Tekhay Youma Zeina Badj Kekr Kelal Djadu Tima Alaba Alaym Blou Yabir Foi Aley Alada Alir Tatey Tako Adima Fetir Alim Alota Ulir Amata Datey Bakel Atota Alom Kakir Amir Zaki Djoma Kikama Foma Kemoi Bamo Yodam Umor Kalo Atoba Keko Kuder Akema Kelili Alukr Kater Fidir Kebay Atey Fatey Kudam Kumir Telel Keday Faler Filay Fukam Keti Dir Amay Zamir Fabo Fema Omata
 		}
 		
 		allow_looting = yes 
@@ -4431,10 +4877,10 @@ undead = {
 		
 		
 		male_names = {
-		Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Sheik Agahnim Dethl Bongo Sai Itzal Kafziel Dask Fao Kidura Nokto Shal Kadam Nuzem Ihnik Sagas Illafzo Besho Kos Daz Yvak Colin Fado Hanch Jaggle Malo Rusl Talo Cido Silo Padilo Argi Celo Ilo Cirgo Cidan Padin Ganondorf Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Linc Brant Bremeur Doylan Kayo Zauz Mutoh Eox Ichero Jero Saboro Shero Brak Guru-Guru Guru Sokra Stockwell Elwood Grover Garrick Hollis Kiefer Linden Linford Ralph Bipin Pippin Adlar Cheval Dekadin Plen Rafton Adrien Aldous Alain Albrecht Basile 
+			Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Sheik Agahnim Dethl Bongo Sai Itzal Kafziel Dask Fao Kidura Nokto Shal Kadam Nuzem Ihnik Sagas Illafzo Besho Kos Daz Yvak Colin Fado Hanch Jaggle Malo Rusl Talo Cido Silo Padilo Argi Celo Ilo Cirgo Cidan Padin Ganondorf Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Linc Brant Bremeur Doylan Kayo Zauz Mutoh Eox Ichero Jero Saboro Shero Brak Guru-Guru Guru Sokra Stockwell Elwood Grover Garrick Hollis Kiefer Linden Linford Ralph Bipin Pippin Adlar Cheval Dekadin Plen Rafton Adrien Aldous Alain Albrecht Basile 
 		}
 		female_names = {
-		Zelda Malo Anju Berry Breve Candy Chai Dina Dottie Jasmine Impa Iza Impaz Katiu Kailla Izmae Kyran Anydra Pasha Yvie Keiran Silvaris Beth Ilia Pergie Sera Uli Celei Cara Alela Ulera Padei Fodei Megglie Purei Koume Uma Telma Kotake Aveil Nabooru Runeka Rova Numi Dizi Ari Neesha Apheri Astrid Angu Melon Brevie Candi Chay Dotty Ema Jasyn Junen Keely Lilian Marcie Paigin Pena Sheyla Tena Dena Veronan Pitia Juliettai Grany Huney Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Holly Maple Syrup Cedar Ebony Hazel Hollis Juniper Laurel Lotus Ambi Veran Blossom Adele Aimee Alea Avra Babette Babs Beatrix Chara Cecilia Caelie Celeste Debora Dawn Dorthe Despina Evdokia Elli Eglantine Emma Fifi 
+			Zelda Malo Anju Berry Breve Candy Chai Dina Dottie Jasmine Impa Iza Impaz Katiu Kailla Izmae Kyran Anydra Pasha Yvie Keiran Silvaris Beth Ilia Pergie Sera Uli Celei Cara Alela Ulera Padei Fodei Megglie Purei Koume Uma Telma Kotake Aveil Nabooru Runeka Rova Numi Dizi Ari Neesha Apheri Astrid Angu Melon Brevie Candi Chay Dotty Ema Jasyn Junen Keely Lilian Marcie Paigin Pena Sheyla Tena Dena Veronan Pitia Juliettai Grany Huney Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Holly Maple Syrup Cedar Ebony Hazel Hollis Juniper Laurel Lotus Ambi Veran Blossom Adele Aimee Alea Avra Babette Babs Beatrix Chara Cecilia Caelie Celeste Debora Dawn Dorthe Despina Evdokia Elli Eglantine Emma Fifi 
 		}
 		
 		dukes_called_kings = no
@@ -4455,10 +4901,16 @@ undead = {
 		color = { 0.94 0.5 0.5 }
 		
 		male_names = {
-		Keeta Igos Kiza Zol Shaka Kaun Amoka Keel Kun Gatos Kekos Kolamah Gotakos Zoss Kotah Geel Kozus Kaulatal Gauh Goran Koros Zess Kalal Ietah Zil Irah Igoss Gomas Atila Gazol Atata Nalon Karus Iruss Namuss Noza Neema Kegoss Narol Naloka Naliza Aruss Gauraka Gauzeza Azera Amola Gola Golos Kelan Kah Gauzol Nauruh Noma Azuss Kauka Zama Zira Noman Kumama Kamegra Gila Ikaka Aleel Notala Shogala SHuss Kiruss Zotaura Gaugas Kazaus Gauma Iezan Izuss Kagol Komuh Komeh Nalaka Gotah Aruh Koza Aras Shura Zamis Kauma Akala Zoka Zaura Karah Komola Narah Iemah Shola Kautah Itula Nomoh Gauzel Aizah Zaman Gaun Zakoka
+		#MM
+			Igos_Igos Keeta_Keeta
+		#Random
+			Kiza Zol Shaka Kaun Amoka Keel Kun Gatos Kekos Kolamah Gotakos Zoss Kotah Geel Kozus Kaulatal Gauh Goran Koros Zess Kalal Ietah Zil Irah Igoss Gomas Atila Gazol Atata Nalon Karus Iruss Namuss Noza Neema Kegoss Narol Naloka Naliza Aruss Gauraka Gauzeza Azera Amola Gola Golos Kelan Kah Gauzol Nauruh Noma Azuss Kauka Zama Zira Noman Kumama Kamegra Gila Ikaka Aleel Notala Shogala SHuss Kiruss Zotaura Gaugas Kazaus Gauma Iezan Izuss Kagol Komuh Komeh Nalaka Gotah Aruh Koza Aras Shura Zamis Kauma Akala Zoka Zaura Karah Komola Narah Iemah Shola Kautah Itula Nomoh Gauzel Aizah Zaman Gaun Zakoka
 		}
 		female_names = {
-		Gomess Kamura Aikara Naroh Iegra Ala Gauza Igras Kara Zara Aira Gauka Iemara Kagal Ketah Zas Kima Shara Imoma Atara Kaula Kagalal Kaga Ateel Kokuss Amekoza Ila Ira Nalol Zakuh Irola Ikuss Noka Nales Koma Gora Kass Ireel Shaka Nalareh Aigah Gata Gauzoga Kauman Kola Nura Zomuh Akema Ireeka Ireteel Aitas Ieran Kota Karess Gauzal Imara Nalas Gaura Keela Igra Arara Zeer Gauzan Naza Keka Qauss Galaura Katah Garikara Gaurah Atora Iekola Ikoma Kitah Aka Aikora Shama Gura Kagema Nirura Zautera Karera Nagoss Gama Atama Nama Zoma Akah Kakah Naruss Guss Aizan Gaula Kala Gauta Nola Irara Gaga Kuss
+		#HTW
+			Gomess_Gomess
+		#Random
+			Kamura Aikara Naroh Iegra Ala Gauza Igras Kara Zara Aira Gauka Iemara Kagal Ketah Zas Kima Shara Imoma Atara Kaula Kagalal Kaga Ateel Kokuss Amekoza Ila Ira Nalol Zakuh Irola Ikuss Noka Nales Koma Gora Kass Ireel Shaka Nalareh Aigah Gata Gauzoga Kauman Kola Nura Zomuh Akema Ireeka Ireteel Aitas Ieran Kota Karess Gauzal Imara Nalas Gaura Keela Igra Arara Zeer Gauzan Naza Keka Qauss Galaura Katah Garikara Gaurah Atora Iekola Ikoma Kitah Aka Aikora Shama Gura Kagema Nirura Zautera Karera Nagoss Gama Atama Nama Zoma Akah Kakah Naruss Guss Aizan Gaula Kala Gauta Nola Irara Gaga Kuss
 		}
 		
 		from_dynasty_prefix = "du "
@@ -4479,10 +4931,10 @@ mammalian_monsters = {
 		horde = yes 
 		
 		male_names = {
-		Barezwa Benge Agima Jibam Isiwe Irovu Kebazwa Ibibit Akaki Bhimime Inge Inde Burit Ikozwa Bezt Kenda Kinge Bisiwe Akeka Biku Igala Irilu Agevu Aliwa Jiwam Bara Andil Ibivu Asugala Kaki Basila Okaki Bielo Bhivu Ilavu Bukekaki Jewabi Bhagasa Akamime Bhat Bazi Bawit Alaki Biesa Asazala Akiki Jebal Bhalaga Okoma Bhasaba Akake Bhiki Bewit Jigal Bhasa Owala Besim Kala Asasu Olit Bhaku Abirevu Kinga Babda Jinge Izesim Bimime Jibasa Kesele Jelam Obisu Arit Bosongi Kibasa Andala Jisa Babaga Ozibivu Isalaki Kivit Kendaki Abasala Jira Kiekala Bhile Abaso Bosesa Asila Bhivo Bhizisawave Obesela Bhabile Bhurit Jazzwa Imasikit Irala Obiwavu Andalivu Ilala Akim 
+			Barezwa Benge Agima Jibam Isiwe Irovu Kebazwa Ibibit Akaki Bhimime Inge Inde Burit Ikozwa Bezt Kenda Kinge Bisiwe Akeka Biku Igala Irilu Agevu Aliwa Jiwam Bara Andil Ibivu Asugala Kaki Basila Okaki Bielo Bhivu Ilavu Bukekaki Jewabi Bhagasa Akamime Bhat Bazi Bawit Alaki Biesa Asazala Akiki Jebal Bhalaga Okoma Bhasaba Akake Bhiki Bewit Jigal Bhasa Owala Besim Kala Asasu Olit Bhaku Abirevu Kinga Babda Jinge Izesim Bimime Jibasa Kesele Jelam Obisu Arit Bosongi Kibasa Andala Jisa Babaga Ozibivu Isalaki Kivit Kendaki Abasala Jira Kiekala Bhile Abaso Bosesa Asila Bhivo Bhizisawave Obesela Bhabile Bhurit Jazzwa Imasikit Irala Obiwavu Andalivu Ilala Akim 
 		}
 		female_names = {
-		Bondi Atama Nilu Budaku Mibe Akikung Ulada Butaube Nitoo Bagike Badih Akada Mima Ogu Akakoo Ukirir Mitadanga Ola Bada Bitah Yilibe Beh Mify Chudi Hilir Otada Chida Bukab Bib Ateh Bibri Ukada Anafy Bannar Chika Mider Yoda AdadaChidumu Utakutab Chilab Urane Anaka Annab Bakoo Chih Milike Aganni Ukiba Utinna Chinalah Chima Momar Ukinnoo Handarah Chib Yabri Ann China Ukaka Amaka Okoo Olata Mikoo Ukale Yitada Alah Ondi Odima Bhilaka Yanakoo Abida Umab Chakandir Yinde Alabra Babri Onlinikab Olimida Yadikoo Utina Banna Okala Alila Bidaki Ukama Bindikoo Ukang Bidab Yade Chobra Boda Choba Chidab Bulita Ukafy Ukeng Alokena Mang Bala
+			Bondi Atama Nilu Budaku Mibe Akikung Ulada Butaube Nitoo Bagike Badih Akada Mima Ogu Akakoo Ukirir Mitadanga Ola Bada Bitah Yilibe Beh Mify Chudi Hilir Otada Chida Bukab Bib Ateh Bibri Ukada Anafy Bannar Chika Mider Yoda AdadaChidumu Utakutab Chilab Urane Anaka Annab Bakoo Chih Milike Aganni Ukiba Utinna Chinalah Chima Momar Ukinnoo Handarah Chib Yabri Ann China Ukaka Amaka Okoo Olata Mikoo Ukale Yitada Alah Ondi Odima Bhilaka Yanakoo Abida Umab Chakandir Yinde Alabra Babri Onlinikab Olimida Yadikoo Utina Banna Okala Alila Bidaki Ukama Bindikoo Ukang Bidab Yade Chobra Boda Choba Chidab Bulita Ukafy Ukeng Alokena Mang Bala
 		}
 		allow_looting = yes
 		founder_named_dynasties = yes
@@ -4496,10 +4948,10 @@ mammalian_monsters = {
 		horde = yes 
 		
 		male_names = {
-		Yaetl Yaed Yaex Yae Yaeba Yaet Yatl Yik Yors Yibaex Yibaek Yitl Yaeka Yob Yaekid Youtl Yobaex Yakit Yid Yib Yaetla Yaekaex Yaebaek Yod Yotla Yabit Yikid Yaek Yix Yaebax Yatla Yaers Yabaex Yabaek Yokot Yoka Yox Yibaet Yikat Yitlaex Yokid Yax Yitloba Yaebik Yars Yokox Yobaed Yaebaed Yikaed Yikaebaet Yaebat Yotl Yobit Yobid Yaebit Yakok Yirs Yaekaed Yakot Yaekax Yaekox Yikix Yaekaka Yit Yaekad Yaebid Yibid Yibix Yaekok Yaekik Yobod Yikax Yot Yakix Yaebad Yokaed Yikad Yaekaet Yikik Yibot Yikaex Yakak Yobot Yobax
+			Yaetl Yaed Yaex Yae Yaeba Yaet Yatl Yik Yors Yibaex Yibaek Yitl Yaeka Yob Yaekid Youtl Yobaex Yakit Yid Yib Yaetla Yaekaex Yaebaek Yod Yotla Yabit Yikid Yaek Yix Yaebax Yatla Yaers Yabaex Yabaek Yokot Yoka Yox Yibaet Yikat Yitlaex Yokid Yax Yitloba Yaebik Yars Yokox Yobaed Yaebaed Yikaed Yikaebaet Yaebat Yotl Yobit Yobid Yaebit Yakok Yirs Yaekaed Yakot Yaekax Yaekox Yikix Yaekaka Yit Yaekad Yaebid Yibid Yibix Yaekok Yaekik Yobod Yikax Yot Yakix Yaebad Yokaed Yikad Yaekaet Yikik Yibot Yikaex Yakak Yobot Yobax
 		}
 		female_names = {
-		Yokae Yitlae Yib'kae Yitl Yotlae Yibae Yikae Yaetlae Yob Yobob Yitae Yaetlaeb Yaet Yaekae Yirkae Yirtl Yaebae Yaekaeae Yaetae Y'b Yib Yotae Yaek Y'tlae Yikaeae Yirk Yorkae Yaerkae Y'kaeae Yobae Yobaekae Yokaeae Y'tl Yaetl Yit Yotl Yitaeae Yibaet Yot Y'rkae Yaerk Yaeb Yik Y'k Y'tae Y'bae Y'taeae Y't Yotaeae Yobaeae Yotaek York Yaeae Yaetlaeae Y'k'kae Yaekitae Yotaekae Yikaekae Yaetaeae Yitlaeae Yokitae Yit'b Y'kaekae Yitib Yokorkae Yit'bae Yobitl Yaekit Y'kaet Yokaebae Yit'k Yokibae Yaetaekae Yot'kae Yitit Yotok Yokob Yit'kae Yitobae Y'kikae Yobitae Yaekaekae Yok'kae Yitlitae Yikob Y'kibae Yitok Yikot Yitaet Yitibae Yikikae Yaetikae Yokokae
+			Yokae Yitlae Yib'kae Yitl Yotlae Yibae Yikae Yaetlae Yob Yobob Yitae Yaetlaeb Yaet Yaekae Yirkae Yirtl Yaebae Yaekaeae Yaetae Y'b Yib Yotae Yaek Y'tlae Yikaeae Yirk Yorkae Yaerkae Y'kaeae Yobae Yobaekae Yokaeae Y'tl Yaetl Yit Yotl Yitaeae Yibaet Yot Y'rkae Yaerk Yaeb Yik Y'k Y'tae Y'bae Y'taeae Y't Yotaeae Yobaeae Yotaek York Yaeae Yaetlaeae Y'k'kae Yaekitae Yotaekae Yikaekae Yaetaeae Yitlaeae Yokitae Yit'b Y'kaekae Yitib Yokorkae Yit'bae Yobitl Yaekit Y'kaet Yokaebae Yit'k Yokibae Yaetaekae Yot'kae Yitit Yotok Yokob Yit'kae Yitobae Y'kikae Yobitae Yaekaekae Yok'kae Yitlitae Yikob Y'kibae Yitok Yikot Yitaet Yitibae Yikikae Yaetikae Yokokae
 		}
 		allow_looting = yes
 		founder_named_dynasties = yes
@@ -4513,10 +4965,18 @@ mammalian_monsters = {
 		horde = yes 
 		
 		male_names = {
-		Akio Akira Aoi Arata Ayumu Daichi Daiki Daisuke Goro Gorou Hachiro Haru Haruki Haruto Hayate Hayato Hibiki Hideaki Hideyoshi Hikaru Hiroshi Hiroto Hotaka Ichiro Ichirou Isamu Itsuki Jiro Jirou Juro Jurou Kaede Kaito Kaoru Katashi Katsu Kazuo Kenji Kenshin Kenta Kichiro Kiyorshi Kohaku Kuro Kyo Makoto Masaru Michi Minato Naoki Naomi Noboru Nobu Nori Osamu Ren Riku Rikuto Rokurou Ryota Ryou Ryouichi Ryouta Ryuu Saburo Shichiro Shin Shinobu Shiori Shiro Sho Shouta Shun Sora Sota Souma Susumu Taichi Taiki Takahiro Takashi Takeshi Takuma Taro Tsubasa Yamato Yasu Yori Yoshi Yoshiro Youta Yuki Yuudai Yuuma Yuuta 
+		#FanOCs
+			Midas_Midas Ichiro_Ichiro Jiro_Jiro
+		#Random
+			Akio Akira Aoi Arata Ayumu Daichi Daiki Daisuke Goro Gorou Hachiro Haru Haruki Haruto Hayate Hayato Hibiki Hideaki Hideyoshi Hikaru Hiroshi Hiroto Hotaka Ichiro Ichirou Isamu Itsuki Jiro Jirou Juro Jurou Kaede Kaito Kaoru Katashi Katsu Kazuo Kenji Kenshin Kenta Kichiro Kiyorshi Kohaku Kuro Kyo Makoto Masaru Michi Minato Naoki Naomi Noboru Nobu Nori Osamu Ren Riku Rikuto Rokurou Ryota Ryou Ryouichi Ryouta Ryuu Saburo Shichiro Shin Shinobu Shiori Shiro Sho Shouta Shun Sora Sota Souma Susumu Taichi Taiki Takahiro Takashi Takeshi Takuma Taro Tsubasa Yamato Yasu Yori Yoshi Yoshiro Youta Yuki Yuudai Yuuma Yuuta 
 		}
 		female_names = {
-		Kuzunoha Inari Mae Ai Aiko Aimi Aina Airi Akane Akemi Aki Akiko Akira Ami Aoi Asuka Atsuko Aya Ayaka Ayako Ayame Ayane Ayano Chika Chikako Chinatsu Chiyo Chiyoko Cho Chou Chouko Emi Etsuko Hana Hanae Hanako Haru Haruka Haruna Hikari Hikaru Hina Hinata Hiroko Hitomi Honoka Hoshi Hoshiko Hotaru Izumi Junko Kaede Kanon Kaori Kaoru Kasumi Kazue Kazuko Keiko Kiku Kimiko Kiyoko Kohaku Koharu Kokoro Kotone Kumiko Kyo Mai Makoto Mami Manami Mao Mariko Masami Masuyo Mayu Megumi Mei Michi Michiko Midori Mika Miki Miku Minako Mio Misaki Mitsuko Miu Miyako Miyu Mizuki Moe Momoka Moriko Nana Nanami Naomi Natsuko
+		#HTW
+			Halthor_Halthor
+		#FanOCs
+			Ayame_Ayame Miho_Miho
+		#Random
+			Kuzunoha Inari Mae Ai Aiko Aimi Aina Airi Akane Akemi Aki Akiko Akira Ami Aoi Asuka Atsuko Aya Ayaka Ayako Ayame Ayane Ayano Chika Chikako Chinatsu Chiyo Chiyoko Cho Chou Chouko Emi Etsuko Hana Hanae Hanako Haru Haruka Haruna Hikari Hikaru Hina Hinata Hiroko Hitomi Honoka Hoshi Hoshiko Hotaru Izumi Junko Kaede Kanon Kaori Kaoru Kasumi Kazue Kazuko Keiko Kiku Kimiko Kiyoko Kohaku Koharu Kokoro Kotone Kumiko Kyo Mai Makoto Mami Manami Mao Mariko Masami Masuyo Mayu Megumi Mei Michi Michiko Midori Mika Miki Miku Minako Mio Misaki Mitsuko Miu Miyako Miyu Mizuki Moe Momoka Moriko Nana Nanami Naomi Natsuko
 		}
 		allow_looting = yes
 		founder_named_dynasties = yes
@@ -4536,7 +4996,7 @@ aquatic_monster = {
 		}
 
 		female_names = {
-		Areko Atemi Avana Azaane Azremi Bahiko Banami Danuka Daraya Delaka Ehsame Elane Elhano Faika Fatako Feruka Firtsu Ghoiyo Goloko Hamcho Jalemi Katuko Khana Khoako Khuaru Laluka Leiuna Leyaru Mahina Marata Masoko Minomi Mitoka Mojshi Moriko Naharu Narumi Nasnko Nedede Nilori Niuumi Nouzue Omiuko Paniko Pariku Rogoko Rosaku Saharu Sakoro Sanone Sariko Shakyo Shayou Shimai Shoto Simami Sohami Somao Soriko Yasuyo Zahmei Zarchi Zeiori Zeyika Zhamio Zibiyu Ziniko Fikati Shari ZOra Dakamo Abuho Abimaki Zeki Abasana Fikedo Narate Zimata Zira Zeriki Sharo Deri Galeli Sakete Nani Atoke Aremo Zirikio Mami Nozei Miko Muse Zako Amamo Faka Mete Zemi Akamai Hazri
+			Areko Atemi Avana Azaane Azremi Bahiko Banami Danuka Daraya Delaka Ehsame Elane Elhano Faika Fatako Feruka Firtsu Ghoiyo Goloko Hamcho Jalemi Katuko Khana Khoako Khuaru Laluka Leiuna Leyaru Mahina Marata Masoko Minomi Mitoka Mojshi Moriko Naharu Narumi Nasnko Nedede Nilori Niuumi Nouzue Omiuko Paniko Pariku Rogoko Rosaku Saharu Sakoro Sanone Sariko Shakyo Shayou Shimai Shoto Simami Sohami Somao Soriko Yasuyo Zahmei Zarchi Zeiori Zeyika Zhamio Zibiyu Ziniko Fikati Shari ZOra Dakamo Abuho Abimaki Zeki Abasana Fikedo Narate Zimata Zira Zeriki Sharo Deri Galeli Sakete Nani Atoke Aremo Zirikio Mami Nozei Miko Muse Zako Amamo Faka Mete Zemi Akamai Hazri
 		}
 		modifier = default_culture_modifier
 		allow_looting = yes
@@ -4551,10 +5011,11 @@ other_world = {
 		color = { 0.63 0.13 0.94 }
 		#last Names Jalimpa Nengminja Sangma 
 		male_names = { 
-		Togan Jappa Sonaram Songma Jongla Babukona Kamrup Goalpara Siju Tura Korap Gaga Sap Jorara Tana Gara Tigura Gonaru Soboja Saja Gomra Gagum Gun Sajana Jabaru Tolpu Jaba Koja Talpuna Taru Boram Sara Goga Jomra Tuppa Jora Saga Garu Sabum Turoron Gajip Karaj Gaja Sora Soja Tuna Gonaba Goaram Samra Tonup Gonam Sajap Sija Bujuja Gajaba Jonoka Gajuja Sogariram Garam Tobop Kappam Jorun Suja Jajum Tuja Jaram Suru Solpa Juru Gana Sagu Soru Jonora Baga Tulpa Gagaka Solpoga Kanora Barora Karinora Suranu Banum Jujop Joruba Samrana Tanaram Suga Jobura Buja Sanora Kunora Gonabu Joru Tolpa Scara Kabora Sajup Jara Sabalpora Tara
+			Togan Jappa Sonaram Songma Jongla Babukona Kamrup Goalpara Siju Tura Korap Gaga Sap Jorara Tana Gara Tigura Gonaru Soboja Saja Gomra Gagum Gun Sajana Jabaru Tolpu Jaba Koja Talpuna Taru Boram Sara Goga Jomra Tuppa Jora Saga Garu Sabum Turoron Gajip Karaj Gaja Sora Soja Tuna Gonaba Goaram Samra Tonup Gonam Sajap Sija Bujuja Gajaba Jonoka Gajuja Sogariram Garam Tobop Kappam Jorun Suja Jajum Tuja Jaram Suru Solpa Juru Gana Sagu Soru Jonora Baga Tulpa Gagaka Solpoga Kanora Barora Karinora Suranu Banum Jujop Joruba Samrana Tanaram Suga Jobura Buja Sanora Kunora Gonabu Joru Tolpa Scara Kabora Sajup Jara Sabalpora Tara
 		}
 		female_names = {
-		Mapen Nagaburi Babukona Rebagre Resubelpara Hunnay Karbi Anglong Assam Nibekay Molpi Kubon Hasagri Nisan Regan Kapaseba Abanarbi Ranokabem Mupen Munnan Nalpi Mebe Nugabuga Mirulpum Raba Arabi Hobagre Nibugong Naram Rarbam Hagen Kaban Rubusan Agaren Hababe Haren Ragen Mabosan Rebogre Raralpe Relpem Rulpebi Arasessum Haranung Rubepam Kapom Hasan Annapan Roragra Roki Rarorum Maban Rubassi Resseba Arubabay Raraba Apessi Rupebe Ababam Aroba Hagagra Mimbabi Hurebun Rarakay Akubara Agaraka Miraba Nabi Agipuba Hunglang Runnupa Mirube Holpung Naberbay Ambarem Apissa Hanuram Abusan Robara Mupuran Mesan Hannen	 Rusan Alpopa	}
+			Mapen Nagaburi Babukona Rebagre Resubelpara Hunnay Karbi Anglong Assam Nibekay Molpi Kubon Hasagri Nisan Regan Kapaseba Abanarbi Ranokabem Mupen Munnan Nalpi Mebe Nugabuga Mirulpum Raba Arabi Hobagre Nibugong Naram Rarbam Hagen Kaban Rubusan Agaren Hababe Haren Ragen Mabosan Rebogre Raralpe Relpem Rulpebi Arasessum Haranung Rubepam Kapom Hasan Annapan Roragra Roki Rarorum Maban Rubassi Resseba Arubabay Raraba Apessi Rupebe Ababam Aroba Hagagra Mimbabi Hurebun Rarakay Akubara Agaraka Miraba Nabi Agipuba Hunglang Runnupa Mirube Holpung Naberbay Ambarem Apissa Hanuram Abusan Robara Mupuran Mesan Hannen Rusan Alpopa	
+		}
 		dukes_called_kings = no 
 				
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
@@ -4580,10 +5041,16 @@ other_world = {
 		color = { 0.94 0.5 0.5 }
 		
 		male_names = {
-		Keeta Igos Kiza Zol Shaka Kaun Amoka Keel Kun Gatos Kekos Kolamah Gotakos Zoss Kotah Geel Kozus Kaulatal Gauh Goran Koros Zess Kalal Ietah Zil Irah Igoss Gomas Atila Gazol Atata Nalon Karus Iruss Namuss Noza Neema Kegoss Narol Naloka Naliza Aruss Gauraka Gauzeza Azera Amola Gola Golos Kelan Kah Gauzol Nauruh Noma Azuss Kauka Zama Zira Noman Kumama Kamegra Gila Ikaka Aleel Notala Shogala SHuss Kiruss Zotaura Gaugas Kazaus Gauma Iezan Izuss Kagol Komuh Komeh Nalaka Gotah Aruh Koza Aras Shura Zamis Kauma Akala Zoka Zaura Karah Komola Narah Iemah Shola Kautah Itula Nomoh Gauzel Aizah Zaman Gaun Zakoka
+		#MM
+			Igos_Igos Keeta_Keeta
+		#Random
+			Kiza Zol Shaka Kaun Amoka Keel Kun Gatos Kekos Kolamah Gotakos Zoss Kotah Geel Kozus Kaulatal Gauh Goran Koros Zess Kalal Ietah Zil Irah Igoss Gomas Atila Gazol Atata Nalon Karus Iruss Namuss Noza Neema Kegoss Narol Naloka Naliza Aruss Gauraka Gauzeza Azera Amola Gola Golos Kelan Kah Gauzol Nauruh Noma Azuss Kauka Zama Zira Noman Kumama Kamegra Gila Ikaka Aleel Notala Shogala SHuss Kiruss Zotaura Gaugas Kazaus Gauma Iezan Izuss Kagol Komuh Komeh Nalaka Gotah Aruh Koza Aras Shura Zamis Kauma Akala Zoka Zaura Karah Komola Narah Iemah Shola Kautah Itula Nomoh Gauzel Aizah Zaman Gaun Zakoka
 		}
 		female_names = {
-		Gomess Kamura Aikara Naroh Iegra Ala Gauza Igras Kara Zara Aira Gauka Iemara Kagal Ketah Zas Kima Shara Imoma Atara Kaula Kagalal Kaga Ateel Kokuss Amekoza Ila Ira Nalol Zakuh Irola Ikuss Noka Nales Koma Gora Kass Ireel Shaka Nalareh Aigah Gata Gauzoga Kauman Kola Nura Zomuh Akema Ireeka Ireteel Aitas Ieran Kota Karess Gauzal Imara Nalas Gaura Keela Igra Arara Zeer Gauzan Naza Keka Qauss Galaura Katah Garikara Gaurah Atora Iekola Ikoma Kitah Aka Gaula Aikora Shama Gura Kagema Nirura Zautera Karera Nagoss Gama Atama Nama Zoma Akah Kakah Naruss Guss Aizan Kala Gauta Nola Irara Gaga Kuss
+		#HTW
+			Gomess_Gomess
+		#Random
+			Kamura Aikara Naroh Iegra Ala Gauza Igras Kara Zara Aira Gauka Iemara Kagal Ketah Zas Kima Shara Imoma Atara Kaula Kagalal Kaga Ateel Kokuss Amekoza Ila Ira Nalol Zakuh Irola Ikuss Noka Nales Koma Gora Kass Ireel Shaka Nalareh Aigah Gata Gauzoga Kauman Kola Nura Zomuh Akema Ireeka Ireteel Aitas Ieran Kota Karess Gauzal Imara Nalas Gaura Keela Igra Arara Zeer Gauzan Naza Keka Qauss Galaura Katah Garikara Gaurah Atora Iekola Ikoma Kitah Aka Aikora Shama Gura Kagema Nirura Zautera Karera Nagoss Gama Atama Nama Zoma Akah Kakah Naruss Guss Aizan Gaula Kala Gauta Nola Irara Gaga Kuss
 		}
 		
 		from_dynasty_prefix = "du "
@@ -4602,10 +5069,16 @@ other_world = {
 		color = { 0.58 0 0.83 }
 
 		male_names = {
-		Yuga Ravio Dampe Mandala Raigozu Beelow Hinox Arrghus Gretule Gigabari Grinexx Squry Orog Ralos Sqolde Hidix Mirudo Abage Sqane Sampaw Azege Atird Ceeg Araxx Senis Sqole Rado Grid Mugio Vake Digi Sala Balio Redali Grez Yedid Seniw Piged Pigendure Hompe Hurio Pigos Atint Vodu Sazex Grina Groldos Ragna Bagna Aloneka Sampu Ataku Higna Herurena Ranido Pavigna Pinerolma Alitidi Migado Belignidu Validu Sampiled Goki Hileke Yebagula Vutrona Alode Yegas Aluvio Sedeeg Pigi Siela Oluke Hadu Sgedu Alini Gredu Atate Hery Bitige Vauze Roke Peeg Pigox Alonas Munabi Pinalabi Adiza Senad Varos Sqori Sqoras Grido Pigiro Hent Saldigi Grix Sirox
+		#ALBW
+			Yuga_Yuga Ravio_Ravio Dampe_Dampe
+		#Random
+			 Mandala Raigozu Beelow Hinox Arrghus Gretule Gigabari Grinexx Squry Orog Ralos Sqolde Hidix Mirudo Abage Sqane Sampaw Azege Atird Ceeg Araxx Senis Sqole Rado Grid Mugio Vake Digi Sala Balio Redali Grez Yedid Seniw Piged Pigendure Hompe Hurio Pigos Atint Vodu Sazex Grina Groldos Ragna Bagna Aloneka Sampu Ataku Higna Herurena Ranido Pavigna Pinerolma Alitidi Migado Belignidu Validu Sampiled Goki Hileke Yebagula Vutrona Alode Yegas Aluvio Sedeeg Pigi Siela Oluke Hadu Sgedu Alini Gredu Atate Hery Bitige Vauze Roke Peeg Pigox Alonas Munabi Pinalabi Adiza Senad Varos Sqori Sqoras Grido Pigiro Hent Saldigi Grix Sirox
 		}
 		female_names = {
-		Hilda Pinant Vird Adele Agnes Bettina Cora Friederike Gertraud Lilo Mitzi Petra Sandra Vilma Page Abi Grigereza Migna Serabi Vadina Arotula Sittala Cina Bila Gena Akena Veela Beza Hagna Ovinula Yegelazerd Pigini Pigna Anola Pelana Azotta Yegura Gurila Sela Cana Bize Bildi Dakage Atexx Aredo Anina Grivu Almure Higod Yalina Creedira Ceveed Saula Melena Gienalird Ragna Vola Laligna Rena Vigigna Alira Grore Daido Atax Mugna Vilidu Yegake Pigeera Belmula Gatza Pala Grolde Higili Viena Yorina Hotird Hidula Alara Hadula Meguna Pina Vaiw Lira Sagova Yona Hileke Yebagula Vutrona Aloda Yegini Orolu Higeg Mena Pittigna Aluliga Alevi ALuka Vaunes Rigna Sirint
+		#ALBW
+			Hilda_Hilda
+		#Random
+			Pinant Vird Adele Agnes Bettina Cora Friederike Gertraud Lilo Mitzi Petra Sandra Vilma Page Abi Grigereza Migna Serabi Vadina Arotula Sittala Cina Bila Gena Akena Veela Beza Hagna Ovinula Yegelazerd Pigini Pigna Anola Pelana Azotta Yegura Gurila Sela Cana Bize Bildi Dakage Atexx Aredo Anina Grivu Almure Higod Yalina Creedira Ceveed Saula Melena Gienalird Ragna Vola Laligna Rena Vigigna Alira Grore Daido Atax Mugna Vilidu Yegake Pigeera Belmula Gatza Pala Grolde Higili Viena Yorina Hotird Hidula Alara Hadula Meguna Pina Vaiw Lira Sagova Yona Hileke Yebagula Vutrona Aloda Yegini Orolu Higeg Mena Pittigna Aluliga Alevi ALuka Vaunes Rigna Sirint
 		}
 		modifier = default_culture_modifier
 	}
@@ -4618,10 +5091,24 @@ other_world = {
 		color = { 0.5 1 0.83 }
 
 		male_names = {
-			Zant Damien Mizorant Uzin Zorent Eksusha Naeva Sunsa Uvient Mien Venin Mashe Mere Mizamin Mint Eri Sozan Elont Uzamien Elare Zori Uron Sint Erari Namin Norin Morin Eksee Ire Masa Mevaree Merirova Eruze Tware Velulun Irivi Dere Sizi Zire Mansi Vodi Evere Maen Moksozi Nenin Zewni Erin Vesan Maneeni Dirizi Zinin Zaeroman Dimin Twaze Zinsi Mimin Iranan Enozi Edizanin Irakson Menosi Vulen Iren Mizi Erureni Maront Denamin Maevint Elen Nuren Vare Mirin Irase Irari Dinin Izore Zere Aksin Maren Sizun Sillin Manore Twan Iraron Ewinin Manun Enazi Emarivint Denun Vemin Elere Neenont Naradee Vekse Darin Nirore Merarin Vere Uranin Vant 
+		#TP
+			Zant_Zant
+		#HTW
+			Mizorant_Mizorant
+		#FanOCs
+			Otheno_Otheno Othyl_Othyl Faheem_Faheem Enasni_Enasni Sol_Sol Araon_Araon Rin_Rin Azerael_Azerael Caasi_Caasi Aejian_Aejian Dhiman_Dhiman
+		#Random
+			Damien Uzin Zorent Eksusha Naeva Sunsa Uvient Mien Venin Mashe Mere Mizamin Mint Eri Sozan Elont Uzamien Elare Zori Uron Sint Erari Namin Norin Morin Eksee Ire Masa Mevaree Merirova Eruze Tware Velulun Irivi Dere Sizi Zire Mansi Vodi Evere Maen Moksozi Nenin Zewni Erin Vesan Maneeni Dirizi Zinin Zaeroman Dimin Twaze Zinsi Mimin Iranan Enozi Edizanin Irakson Menosi Vulen Iren Mizi Erureni Maront Denamin Maevint Elen Nuren Vare Mirin Irase Irari Dinin Izore Zere Aksin Maren Sizun Sillin Manore Twan Iraron Ewinin Manun Enazi Emarivint Denun Vemin Elere Neenont Naradee Vekse Darin Nirore Merarin Vere Uranin Vant 
 	 	}
 		female_names = {
-			Midna Midee Una Veran Morsheen Mireen Minee Iri Ellise Enari Twila Dawna Verae Naeva Veva Mien Zela Disama Irara Nira Iraza Inera Twidarma Denae Irana Zinae Ivira Vonira Mari Erara Ezivi Irima Zolin Maran Minim Meron Erada Doksa Zena Ivara Maedera Erona Irisha Eda Mowna Irishara Ireeza Anara Ureran Zara Irasala Irusa Twama Irira Iridiza Mora Twada Eridina Irevida Mawna Vera Mara Enina Mera Iroma Enora Zura Meva Zira Medni Meza Enazi Irona Irina Mada Maezi Muna Ensi Mavuri Ezeli Zensi Dara Munsi Irera Iraeri Mina Mema Eksa Iriksa Nushi Meri Eroni Irozi Ivala Erama Uroza Uvizi Urava Irori
+		#TP
+			Midna_Midna
+		#HTW
+			Yorinu_Yorinu Middee_Middee Grehnel_Grehnel Ellise_Ellise Evaleen_Evaleen Una_Una Veran_Veran Morsheen_Morsheen
+		#FanOCs
+			Amea_Amea Ylith_Ylith Ethine_Ethine Ethole_Ethole Esme_Esme Lunai_Lunai Na'ima_Na'ima Jele_Jele Seda_Seda Xallae_Xallae Halne_Halne Lina_Lina Iris_Iris Blitz_Blitz Runede_Runede Larana_Larana Rhea_Rhea Shayla_Shayla Una_Una Lunira_Lunira Daani_Daani Endi_Endi Seri_Seri Muraco_Muraco Kolot_Kolot Maiko_Maiko Athir_Athir Yultia_Yultia
+		#Random
+			Mireen Minee Iri Ellise Enari Twila Dawna Verae Naeva Veva Mien Zela Disama Irara Nira Iraza Inera Twidarma Denae Irana Zinae Ivira Vonira Mari Erara Ezivi Irima Zolin Maran Minim Meron Erada Doksa Zena Ivara Maedera Erona Irisha Eda Mowna Irishara Ireeza Anara Ureran Zara Irasala Irusa Twama Irira Iridiza Mora Twada Eridina Irevida Mawna Vera Mara Enina Mera Iroma Enora Zura Meva Zira Medni Meza Enazi Irona Irina Mada Maezi Muna Ensi Mavuri Ezeli Zensi Dara Munsi Irera Iraeri Mina Mema Eksa Iriksa Nushi Meri Eroni Irozi Ivala Erama Uroza Uvizi Urava Irori
 		}		
 		dukes_called_kings = no
 		
@@ -4705,7 +5192,9 @@ mercenary_monsters = {
 		graphical_cultures = { mazuragfx }
 		color = {0 0 0}
 		horde = yes 
-		male_names = { Keshi Kon Jami Arion Cheval Gauvin Haizum Ipotane Tikbalang Uchchaihshravas Longma Sleipnir Horse-Face Wihwin Neck Balius Xanthus Bayard Brag Chollima Eachuisge Enbarr Glashyn Gringolet Gullfaxi Gytrash Helhest Hengroen Lampos Liath Dub Llamrei }
+		male_names = {
+			Keshi Kon Jami Arion Cheval Gauvin Haizum Ipotane Tikbalang Uchchaihshravas Longma Sleipnir Horse-Face Wihwin Neck Balius Xanthus Bayard Brag Chollima Eachuisge Enbarr Glashyn Gringolet Gullfaxi Gytrash Helhest Hengroen Lampos Liath Dub Llamrei 
+		}
 		female_names = { Shadowmare Kelpie Ceffyl  }
 		used_for_random = no
 		allow_in_ruler_designer = no #set to yes to be playable
@@ -4715,8 +5204,12 @@ mercenary_monsters = {
 		graphical_cultures = { fokkagfx }
 		color = {0 0 0}
 		horde = yes 
-		male_names = { Aarta Adelberta Alberta Alderta Arenda Berta Boudewijn Braama Ceesa Cobusa Dennisa Diede Dirka Elia Emerensa Ernsta Faasa Fakka Festera Filipa Gerarda Gerda Gijisa Gillisa Guusa Hankke Heiko Henka Ignaasa Jaaka Jaapa Jana Joepa Klaasa Koen Koosa Lau Levi Lexa Luuk Maasa Maria Meesmies Minke Niek Niels Petrus Piera Pima Pucka Reina Rensa Roela Ruuda Sema Sjefa Staasa Sjorsa Stijna Thijsa Tiesa Tijna Timo Vaasta Wila Yvo Zef }
-		female_names = { Aafje Agnesu Aleidu Amaliu Anke Anne Ansu Betje Brigittu Carlu Carolienu Cato Chantalu Cokkie Diantha Edithu Elianu Ellenu Esme Estheru Fleuru Geertje Gemma Gerlinde Greetu Griet Hedy Heike Hilde Irisu Isabelle Jacinthu Janneke Jenny Jetu Julie Karin Katrijn Laru Liese Lisu Luus Maaike Meike Nes Nicolet Petra Pucku Renee Rini Roosu Sabien Silke Stienu Thera Til Truusu }
+		male_names = { 
+			Aarta Adelberta Alberta Alderta Arenda Berta Boudewijn Braama Ceesa Cobusa Dennisa Diede Dirka Elia Emerensa Ernsta Faasa Fakka Festera Filipa Gerarda Gerda Gijisa Gillisa Guusa Hankke Heiko Henka Ignaasa Jaaka Jaapa Jana Joepa Klaasa Koen Koosa Lau Levi Lexa Luuk Maasa Maria Meesmies Minke Niek Niels Petrus Piera Pima Pucka Reina Rensa Roela Ruuda Sema Sjefa Staasa Sjorsa Stijna Thijsa Tiesa Tijna Timo Vaasta Wila Yvo Zef 
+		}
+		female_names = { 
+			Aafje Agnesu Aleidu Amaliu Anke Anne Ansu Betje Brigittu Carlu Carolienu Cato Chantalu Cokkie Diantha Edithu Elianu Ellenu Esme Estheru Fleuru Geertje Gemma Gerlinde Greetu Griet Hedy Heike Hilde Irisu Isabelle Jacinthu Janneke Jenny Jetu Julie Karin Katrijn Laru Liese Lisu Luus Maaike Meike Nes Nicolet Petra Pucku Renee Rini Roosu Sabien Silke Stienu Thera Til Truusu 
+		}
 		used_for_random = no
 		allow_in_ruler_designer = no #set to yes to be playable
 		modifier = default_culture_modifier
@@ -4725,11 +5218,14 @@ mercenary_monsters = {
 		graphical_cultures = { wosugfx }
 		color = {0 0 0}
 		horde = yes 
-		male_names = {Abele Achille Adalberto Adamo Adelardo Ademaro Adriano Agapito Albano Alberto Baldo Baldovino Bartolo Bartolomeo Basilio Benigno Benito Beppe Berto Biagio Carlo Carmine Cecilio Celeste Celio Cesare Cipriano Cirillo Ciro Cleto Dante Daniele Diodato Dionisio Donato Duilio Durante Edgardo Efisio Egidio Elia Felice Federigo Filiberto Filippo Firmino Flavio Frediano Fulvio Gaetano Gallo Gastone Gherardo Giacobbe Giampaolo Giampiero Gianni Gianpaolo Giovanni Iacopo Ilario  Ivano Jacopo Ladislao Lapo Lauo Leone Livio Luca Luigi Marco Martino Narciso Nico Nino Orazio Ovidio Palmiro Paride Peppi Pier Pino Quirino Raffael Remo Rino Rodolfo Romano Rosario Sabino Salvatore Sandro Saverio Scevola Silvio Taddeo Teo Teofilo Tino Tommaso}
-		female_names = {Ada Adele Adriana Agata Alba Alda Alex Alice Alina Amalia Bianca Bice Bruna Brunella Calogera Camilla Carlotta Cassandra Cecilia Chiarina Clara Clelia Cloe Corenelia Corona Dafne Daria Delia Diana Donata Dorotea Edda Elena Elvira Emilia Emma Ernesta Ersilia Eva Fabia Febe Filippa Fina Flavia Flora Gaia Geltrude Giada Gianna Gilda Gina Giustina Gloria Ida Ilaria Imelda Irma Isotta Lara Lena Lia Liboria Liviana Lucrezia Luigia Mafalda Maria Marianna Mimi Nicolina Ofelia Olga Oriana Patrizia Perla Piera Rina Rita Roberta Rosa Rubina Savina Scilla Serena Silvestra Sofia Susanna Tania Teresa Tina Valeria Vanna Velia Violetta Vita Viviana Zoe Zita Zaira}
+		male_names = {
+			Abele Achille Adalberto Adamo Adelardo Ademaro Adriano Agapito Albano Alberto Baldo Baldovino Bartolo Bartolomeo Basilio Benigno Benito Beppe Berto Biagio Carlo Carmine Cecilio Celeste Celio Cesare Cipriano Cirillo Ciro Cleto Dante Daniele Diodato Dionisio Donato Duilio Durante Edgardo Efisio Egidio Elia Felice Federigo Filiberto Filippo Firmino Flavio Frediano Fulvio Gaetano Gallo Gastone Gherardo Giacobbe Giampaolo Giampiero Gianni Gianpaolo Giovanni Iacopo Ilario  Ivano Jacopo Ladislao Lapo Lauo Leone Livio Luca Luigi Marco Martino Narciso Nico Nino Orazio Ovidio Palmiro Paride Peppi Pier Pino Quirino Raffael Remo Rino Rodolfo Romano Rosario Sabino Salvatore Sandro Saverio Scevola Silvio Taddeo Teo Teofilo Tino Tommaso
+		}
+		female_names = {
+			Ada Adele Adriana Agata Alba Alda Alex Alice Alina Amalia Bianca Bice Bruna Brunella Calogera Camilla Carlotta Cassandra Cecilia Chiarina Clara Clelia Cloe Corenelia Corona Dafne Daria Delia Diana Donata Dorotea Edda Elena Elvira Emilia Emma Ernesta Ersilia Eva Fabia Febe Filippa Fina Flavia Flora Gaia Geltrude Giada Gianna Gilda Gina Giustina Gloria Ida Ilaria Imelda Irma Isotta Lara Lena Lia Liboria Liviana Lucrezia Luigia Mafalda Maria Marianna Mimi Nicolina Ofelia Olga Oriana Patrizia Perla Piera Rina Rita Roberta Rosa Rubina Savina Scilla Serena Silvestra Sofia Susanna Tania Teresa Tina Valeria Vanna Velia Violetta Vita Viviana Zoe Zita Zaira
+		}
 		used_for_random = no
 		allow_in_ruler_designer = no #set to yes to be playable
 		modifier = default_culture_modifier
 	}
 }
-
