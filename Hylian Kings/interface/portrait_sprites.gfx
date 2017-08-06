@@ -4102,53 +4102,214 @@ spriteTypes = {
 	}
 #########Gorons
 	spriteType = {
-		name = "GFX_goron_male_base"
-		texturefile = "gfx\\characters\\goron_male\\goron_male_base_1.dds"
+		name = "GFX_goron_central_male_base"
+		texturefile = "gfx\\characters\\goron_central_male\\goron_central_male_base_1.dds"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes
 	}
 
 	spriteType = {
-		name = "GFX_goron_male_base_midage"
-		texturefile = "gfx\\characters\\goron_male\\goron_male_base_2.dds"
+		name = "GFX_goron_central_male_tattoo"
+		texturefile = "gfx\\characters\\goron_central_male\\goron_central_male_tattoo_1.dds"
+		noOfFrames = 11
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	
+	spriteType = {
+		name = "GFX_goron_central_male_mouth"
+		texturefile = "gfx\\characters\\goron_central_male\\goron_central_male_mouth_1.dds"
+		noOfFrames = 9
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_central_male_nose"
+		texturefile = "gfx\\characters\\goron_central_male\\goron_central_male_nose_1.dds"
+		noOfFrames = 9
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_central_male_eyes"
+		texturefile = "gfx\\characters\\goron_central_male\\goron_central_male_eyes_1.dds"
+		noOfFrames = 13
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_male_beard"
+		texturefile = "gfx\\characters\\goron_central_male\\goron_male_beard_1.dds"
+		noOfFrames = 8
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_male_hair"
+		texturefile = "gfx\\characters\\goron_central_male\\goron_male_hair_1.dds"
+		noOfFrames = 14
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_central_male_headgear"
+		texturefile = "gfx\\characters\\goron_central_male\\goron_central_male_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	#male fire
+	
+	spriteType = {
+		name = "GFX_goron_fire_male_base"
+		texturefile = "gfx\\characters\\goron_fire_male\\goron_fire_male_base_1.dds"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes
 	}
 
 	spriteType = {
-		name = "GFX_goron_male_base_oldage"
-		texturefile = "gfx\\characters\\goron_male\\goron_male_base_3.dds"
+		name = "GFX_goron_fire_male_tattoo"
+		texturefile = "gfx\\characters\\goron_fire_male\\goron_fire_male_tattoo_1.dds"
+		noOfFrames = 11
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	
+	spriteType = {
+		name = "GFX_goron_fire_male_mouth"
+		texturefile = "gfx\\characters\\goron_fire_male\\goron_fire_male_mouth_1.dds"
+		noOfFrames = 9
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_fire_male_nose"
+		texturefile = "gfx\\characters\\goron_fire_male\\goron_fire_male_nose_1.dds"
+		noOfFrames = 9
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_fire_male_eyes"
+		texturefile = "gfx\\characters\\goron_fire_male\\goron_fire_male_eyes_1.dds"
+		noOfFrames = 13
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_male_beard"
+		texturefile = "gfx\\characters\\goron_fire_male\\goron_male_beard_1.dds"
+		noOfFrames = 8
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_male_hair"
+		texturefile = "gfx\\characters\\goron_fire_male\\goron_male_hair_1.dds"
+		noOfFrames = 14
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_fire_male_headgear"
+		texturefile = "gfx\\characters\\goron_fire_male\\goron_fire_male_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	#male southern
+	
+	spriteType = {
+		name = "GFX_goron_southern_male_base"
+		texturefile = "gfx\\characters\\goron_southern_male\\goron_southern_male_base_1.dds"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes
 	}
 
+	spriteType = {
+		name = "GFX_goron_southern_male_tattoo"
+		texturefile = "gfx\\characters\\goron_southern_male\\goron_southern_male_tattoo_1.dds"
+		noOfFrames = 11
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	
+	spriteType = {
+		name = "GFX_goron_southern_male_mouth"
+		texturefile = "gfx\\characters\\goron_southern_male\\goron_southern_male_mouth_1.dds"
+		noOfFrames = 9
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_southern_male_nose"
+		texturefile = "gfx\\characters\\goron_southern_male\\goron_southern_male_nose_1.dds"
+		noOfFrames = 9
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_southern_male_eyes"
+		texturefile = "gfx\\characters\\goron_southern_male\\goron_southern_male_eyes_1.dds"
+		noOfFrames = 13
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_male_beard"
+		texturefile = "gfx\\characters\\goron_southern_male\\goron_male_beard_1.dds"
+		noOfFrames = 8
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_male_hair"
+		texturefile = "gfx\\characters\\goron_southern_male\\goron_male_hair_1.dds"
+		noOfFrames = 14
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_southern_male_headgear"
+		texturefile = "gfx\\characters\\goron_southern_male\\goron_southern_male_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
 	#female
 	spriteType = {
-		name = "GFX_goron_female_hair"
-		texturefile = "gfx\\characters\\goron_female\\goron_female_hair_1.dds"
-		noOfFrames = 13
+		name = "GFX_goron_female_clothes_behind"
+		texturefile = "gfx\\characters\\goron_female\\goron_female_clothes_behind.dds"
+		noOfFrames = 15
 		norefcount = yes
 		can_be_lowres = yes
 	}
 
-	spriteType = {
-		name = "GFX_goron_female_hair_midage"
-		texturefile = "gfx\\characters\\goron_female\\goron_female_hair_2.dds"
-		noOfFrames = 13
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_goron_female_hair_oldage"
-		texturefile = "gfx\\characters\\goron_female\\goron_female_hair_3.dds"
-		noOfFrames = 13
-		norefcount = yes
-		can_be_lowres = yes
-	}
+#	spriteType = {
+#		name = "GFX_goron_female_headgear_behind"
+#		texturefile = "gfx\\characters\\goron_female\\goron_female_headgear_behind.dds"
+#		noOfFrames = 15
+#		norefcount = yes
+#		can_be_lowres = yes
+#	}
 
 
 	spriteType = {
@@ -4364,13 +4525,76 @@ spriteTypes = {
 		can_be_lowres = yes
 	}
 
+	spriteType = {
+		name = "GFX_goron_female_clothes"
+		texturefile = "gfx\\characters\\goron_female\\goron_female_clothes.dds"
+		noOfFrames = 15
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_female_ear"
+		texturefile = "gfx\\characters\\goron_female\\goron_female_ear_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_female_ear_midage"
+		texturefile = "gfx\\characters\\goron_female\\goron_female_ear_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_goron_female_ear_oldage"
+		texturefile = "gfx\\characters\\goron_female\\goron_female_ear_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
 #	spriteType = {
-#		name = "GFX_goron_female_clothes"
-#		texturefile = "gfx\\characters\\goron_female\\goron_female_clothes.dds"
-#		noOfFrames = 15
+#		name = "GFX_goron_female_headgear_mid"
+#		texturefile = "gfx\\characters\\goron_female\\goron_female_headgear_mid.dds"
+#		noOfFrames = 14
 #		norefcount = yes
 #		can_be_lowres = yes
 #	}
+
+	spriteType = {
+		name = "GFX_goron_female_hair"
+		texturefile = "gfx\\characters\\goron_female\\goron_female_hair_1.dds"
+		noOfFrames = 13
+		norefcount = yes
+		can_be_lowres = yes
+	}
+		
+
+	spriteType = {
+		name = "GFX_goron_central_female_headgear"
+		texturefile = "gfx\\characters\\goron_female\\goron_central_female_headgear.dds"
+		noOfFrames = 15
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	spriteType = {
+		name = "GFX_goron_southern_female_headgear"
+		texturefile = "gfx\\characters\\goron_female\\goron_southern_female_headgear.dds"
+		noOfFrames = 15
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	spriteType = {
+		name = "GFX_goron_fire_female_headgear"
+		texturefile = "gfx\\characters\\goron_female\\goron_fire_female_headgear.dds"
+		noOfFrames = 15
+		norefcount = yes
+		can_be_lowres = yes
+	}
 
 
 ################Lake Zora
