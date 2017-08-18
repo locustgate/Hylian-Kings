@@ -1,0 +1,529 @@
+4500 = {#k bulblin faron canyon to grove
+	name=Burl
+	disallow_random_traits=yes
+	
+	dynasty=4001
+	diplomacy=8
+	martial=14
+	intrigue=5
+	stewardship=4
+	learning=4
+	religion=demise_religion
+	culture=bulblin
+	trait=brilliant_strategist
+	trait=race_bulblin
+	trait=wroth
+	trait=ambitious
+	trait=honest
+	trait=robust
+	trait=gluttonous
+	trait=tall
+	trait=cavalry_leader
+	trait=inspiring_leader
+	3958.1.24={
+		birth=yes
+	}
+	3977.1.1={ add_spouse = 4501 }
+	4005.2.4={
+		death={ death_reason=death_battle }
+	}
+}
+4501 = {
+	name=Bira
+	
+	female=yes
+	dynasty=4011
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3961.1.1={
+		birth=yes
+	}
+	3977.1.1={ add_spouse = 4500 }
+	4021.1.1={ death=yes }
+}
+4502 = {
+	name=Bos
+	
+	mother=4501
+	father=4500
+	dynasty=4001
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3980.4.2={
+		birth=yes
+	}
+	4021.1.1={ death=yes }
+}
+4503 = {
+	name=Ralus
+	
+	mother=4501
+	father=4500
+	dynasty=4001
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3982.5.1={
+		birth=yes
+	}
+	4031.1.1={ death=yes }
+}
+4504 = {
+	name=Velba
+	
+	female=yes
+	mother=4501
+	father=4500
+	dynasty=4001
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3985.6.3={
+		birth=yes
+	}
+	4036.1.1={ death=yes }
+}
+4505 = {
+	name=Vubos
+	
+	mother=4501
+	father=4500
+	dynasty=4001
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3986.10.1={
+		birth=yes
+	}
+	4038.1.1={ death=yes }
+}
+4506 = {#south west and gorge
+	name=Rib
+	
+	dynasty=4048
+	diplomacy=6
+	martial=8
+	intrigue=5
+	stewardship=4
+	learning=4
+	religion=demise_religion
+	culture=bulblin
+	trait=tough_soldier
+	trait=race_bulblin
+	trait=envious
+	trait=robust
+	trait=cavalry_leader
+	3961.8.14={
+		birth=yes
+	}
+	4016.1.1={ death=yes }
+}
+4507 = {#d central
+	name=Bodir
+	disallow_random_traits=yes
+	
+	dynasty=4087
+	diplomacy=8
+	martial=11
+	intrigue=5
+	stewardship=4
+	learning=4
+	religion=demise_religion
+	culture=bulblin
+	trait=charismatic_negotiator
+	trait=race_bulblin
+	trait=deceitful
+	trait=erudite
+	trait=strong
+	trait=patient
+	trait=lustful
+	trait=cavalry_leader
+	3956.9.4={
+		birth=yes
+	}
+	3982.4.2={
+		add_spouse=4508
+	}
+	4009.1.1={ death=yes }
+}
+4508 = {
+	name=Bala
+	female=yes
+	dynasty=4091
+	religion=demise_religion
+	culture=bulblin
+	trait=charismatic_negotiator
+	trait=race_bulblin
+	3966.4.2={
+		birth=yes
+	}
+	3982.4.2={
+		add_spouse=4507
+	}
+	4026.1.1={ death=yes }
+}
+4509 = {#c south bridge
+	name=Rilir
+	
+	dynasty=4186
+	diplomacy=6
+	martial=8
+	intrigue=5
+	stewardship=4
+	learning=6
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3966.4.24={
+		birth=yes
+	}
+	4015.1.1={ death=yes }
+}
+4510 = {#southeast eldin
+	name=Birir
+	
+	dynasty=4189
+	diplomacy=8
+	martial=6
+	intrigue=5
+	stewardship=4
+	learning=6
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3966.4.24={
+		birth=yes
+	}
+	4026.1.1={ death=yes }
+}
+4511 = {
+	name=Belar
+	
+	dynasty=4117
+	diplomacy=10
+	martial=6
+	intrigue=5
+	stewardship=4
+	learning=6
+	religion=demise_religion
+	culture=bulblin
+	trait=race_bulblin
+	3968.9.19={
+		birth=yes
+	}
+	4021.1.1={ death=yes }
+}
+4512={
+	name=Malan
+	dynasty=4190
+	dna="jjjdmilhhdl"
+	culture=bulblin religion=demise_religion
+	martial=4 diplomacy=5 stewardship=8 intrigue=5 learning=6
+	add_trait=misguided_warrior add_trait=honest add_trait=cruel add_trait=ambitious add_trait=cynical 
+	trait=race_bulblin
+	add_trait=just 
+	3951.10.14={ birth=yes }
+	3998.12.14={ death=yes }
+}
+4513={#miner pass northern fields blackmsith fields
+	name=Greinch
+	female=yes
+	dynasty=4190
+	dna="jjafpilhjhf"
+	culture=bulblin religion=demise_religion
+	trait=race_bulblin
+	father=4512	#Malan
+	3976.9.7={ birth=yes }
+	4046.5.29={ death=yes }
+}
+4514={
+	name=Munt
+	dynasty=4190
+	dna="jklmlildmjo"
+	culture=bulblin religion=demise_religion
+	martial=7 diplomacy=5 stewardship=7 intrigue=4 learning=6
+	add_trait=midas_touched add_trait=just add_trait=brave add_trait=honest add_trait=stressed 
+	trait=race_bulblin
+	father=4512	#Malan
+	3980.9.5={ birth=yes }
+	4025.12.19={ death=yes }
+}
+4515={
+	name=Valilan
+	dynasty=4190
+	dna="jfjlcilhhbl"
+	culture=bulblin religion=demise_religion
+	martial=5 diplomacy=8 stewardship=6 intrigue=7 learning=4
+	add_trait=midas_touched add_trait=greedy add_trait=cruel add_trait=proud add_trait=envious 
+	trait=race_bulblin
+	father=4512	#Malan
+	3985.11.8={ birth=yes }
+	4055.6.7={ death=yes }
+}
+4516={
+	name=Muno
+	dynasty=4190
+	dna="fninbiijidn"
+	culture=bulblin religion=demise_religion
+	martial=5 diplomacy=5 stewardship=4 intrigue=5 learning=5
+	add_trait=detached_priest add_trait=arbitrary add_trait=proud 
+	trait=race_bulblin
+	father=4512	#Malan
+	3989.6.19={ birth=yes }
+	4039.8.22={ death=yes }
+}
+4517={#sanctuary
+	name=Golan
+	dynasty=4020
+	dna="epfdlanhkof"
+	culture=bulblin religion=demise_religion
+	martial=4 diplomacy=6 stewardship=4 intrigue=5 learning=4
+	add_trait=midas_touched add_trait=cruel add_trait=zealous add_trait=deceitful 
+	trait=race_bulblin
+	3963.10.6={ birth=yes }
+	4016.12.30={ death=yes }
+}
+4518={#mudora soldier fields
+	name=Ronon
+	dynasty=4025
+	dna="ncinlhebalk"
+	culture=bulblin religion=demise_religion
+	martial=8 diplomacy=6 stewardship=6 intrigue=5 learning=8
+	add_trait=midas_touched add_trait=kind add_trait=honest add_trait=just add_trait=gluttonous 
+	trait=race_bulblin
+	add_trait=patient  
+	3963.11.23={ birth=yes }
+	3983.1.1={add_spouse=4522}
+	4022.12.19={ death=yes }
+}
+4519={
+	name=Dholey
+	dynasty=4025
+	dna="nkfnlhpbclk"
+	culture=bulblin religion=demise_religion
+	martial=4 diplomacy=8 stewardship=5 intrigue=7 learning=7
+	add_trait=detached_priest add_trait=duelist add_trait=shy add_trait=slothful add_trait=trusting 
+	trait=race_bulblin
+	add_trait=greedy add_trait=depressed 
+	father=4518	#Ronon
+	mother=4522
+	3985.3.2={ birth=yes }
+	4029.3.27={ death=yes }
+}
+4520={
+	name=Dhon
+	dynasty=4025
+	dna="egiipehghea"
+	culture=bulblin religion=demise_religion
+	martial=7 diplomacy=8 stewardship=8 intrigue=6 learning=8
+	add_trait=detached_priest add_trait=diligent add_trait=temperate add_trait=cynical add_trait=honest
+	trait=race_bulblin 
+	add_trait=trusting 
+	father=4518	#Ronon
+	mother=4522
+	3988.10.15={ birth=yes }
+	4046.6.10={ death=yes }
+}
+4521={
+	name=Rola
+	female=yes
+	dynasty=4025
+	dna="lbcnlhblcok"
+	culture=bulblin religion=demise_religion
+	trait=race_bulblin
+	father=4518	#Ronon
+	mother=4522
+	3993.2.9={ birth=yes }
+	4059.11.12={ death=yes }
+}
+4522={
+	name=Balein
+	female=yes
+	culture=bulblin religion=demise_religion
+	martial=8 diplomacy=6 stewardship=6 intrigue=5 learning=8
+	add_trait=midas_touched add_trait=kind add_trait=honest add_trait=just add_trait=gluttonous 
+	trait=race_bulblin
+	add_trait=patient  
+	3963.11.23={ birth=yes }
+	3983.1.1={add_spouse=4518}
+	4022.12.19={ death=yes }
+}
+4523={#eastern plains
+	name=Bolale
+	dynasty=4030
+	dna="bliibgcbpkf"
+	culture=bulblin religion=demise_religion
+	martial=8 diplomacy=4 stewardship=5 intrigue=7 learning=6
+	add_trait=tough_soldier add_trait=lustful add_trait=deceitful add_trait=envious add_trait=cruel 
+	trait=race_bulblin
+	3964.2.8={ birth=yes }
+	4029.3.23={ death=yes }
+}
+#d ranch road
+4524={
+	name=Relbus
+	dynasty=4035
+	dna="gkanpaoakgj"
+	culture=bulblin religion=demise_religion
+	martial=6 diplomacy=6 stewardship=8 intrigue=6 learning=4
+	add_trait=elusive_shadow add_trait=patient add_trait=greedy add_trait=kind add_trait=content 
+	add_trait=lunatic 
+	3950.3.1={ birth=yes }
+	3978.1.1={add_spouse=4528}
+	4017.12.1={ death=yes }
+}
+4525={
+	name=Biben
+	dynasty=4035
+	dna="gkanfacjcgn"
+	culture=bulblin religion=demise_religion
+	martial=7 diplomacy=5 stewardship=7 intrigue=8 learning=4
+	add_trait=flamboyant_schemer add_trait=deceitful add_trait=cynical add_trait=content add_trait=chaste 
+	add_trait=craven add_trait=gluttonous 
+	father=4524	#Relbus
+	mother=4528
+	3975.3.19={ birth=yes }
+	4053.5.4={ death=yes }
+}
+4526={
+	name=Rolulun
+	dynasty=4035
+	dna="hofnfamapbd"
+	culture=bulblin religion=demise_religion
+	martial=8 diplomacy=6 stewardship=5 intrigue=5 learning=6
+	add_trait=mastermind_theologian add_trait=hunter add_trait=wroth add_trait=ambitious 
+	father=4524	#Relbus
+	3979.8.8={ birth=yes }
+	mother=4528
+	4034.9.5={ death=yes }
+}
+4527={
+	name=Birir
+	dynasty=4035
+	dna="dknnelkafgj"
+	culture=bulblin religion=demise_religion
+	martial=8 diplomacy=4 stewardship=7 intrigue=4 learning=5
+	add_trait=tough_soldier add_trait=brave add_trait=content add_trait=kind add_trait=cruel 
+	add_trait=greedy 
+	father=4524	#Relbus
+	3983.12.17={ birth=yes }
+	mother=4528
+	4040.2.22={ death=yes }
+}
+4528={ #spouse
+	name=Balein
+	female=yes
+	culture=bulblin religion=demise_religion
+	3950.3.1={ birth=yes }
+	3978.1.1={add_spouse=4524}
+	4017.12.1={ death=yes }
+}
+#d chateau
+4529={
+	name=Vuren
+	dynasty=4040
+	dna="oagblbfggaj"
+	culture=bulblin religion=demise_religion
+	martial=8 diplomacy=7 stewardship=7 intrigue=6 learning=6
+	add_trait=midas_touched add_trait=greedy add_trait=cruel add_trait=shy add_trait=honest 
+	add_trait=clubfooted 
+	3949.8.9={ birth=yes }
+	3973.1.1={add_spouse=4533}
+	4014.8.22={ death=yes }
+}
+4530={
+	name=Belar
+	dynasty=4040
+	dna="oagflggpfaj"
+	culture=bulblin religion=demise_religion
+	martial=7 diplomacy=7 stewardship=4 intrigue=6 learning=6
+	add_trait=charismatic_negotiator add_trait=duelist add_trait=wroth add_trait=zealous add_trait=brave 
+	add_trait=lustful 
+	father=4529	#Vuren
+	mother=4533
+	3974.7.14={ birth=yes }
+	4020.5.7={ death=yes }
+}
+4531={
+	name=Vikyr
+	female=yes
+	dynasty=4040
+	dna="fahbhgfgmai"
+	culture=bulblin religion=demise_religion
+	father=4529	#Vuren
+	mother=4533
+	3978.10.3={ birth=yes }
+	4048.7.22={ death=yes }
+}
+4532={
+	name=Belcen
+	dynasty=4040
+	dna="oacbblfggap"
+	culture=bulblin religion=demise_religion
+	martial=7 diplomacy=8 stewardship=6 intrigue=6 learning=4
+	add_trait=skilled_tactician add_trait=craven add_trait=temperate add_trait=lustful add_trait=just 
+	add_trait=proud 
+	father=4529	#Vuren
+	mother=4533
+	3984.10.25={ birth=yes }
+	4054.1.8={ death=yes }
+}
+4533={#spouse
+	name=Vikyr
+	female=yes
+	culture=bulblin religion=demise_religion
+	3949.8.9={ birth=yes }
+	3973.1.1={add_spouse=4529}
+	4014.8.22={ death=yes }
+
+}
+#great beach gate
+4534={
+	name=Bubus
+	dynasty=4045
+	dna="kcpnhnpockn"
+	culture=bulblin religion=demise_religion
+	martial=5 diplomacy=4 stewardship=6 intrigue=4 learning=4
+	add_trait=grey_eminence add_trait=hedonist add_trait=greedy add_trait=content add_trait=trusting 
+	add_trait=fair 
+	3966.1.24={ birth=yes }
+	4019.3.14={ death=yes }
+}
+#west comenia field
+4535={
+	name=Rolir
+	dynasty=4050
+	dna="kmacnckalbj"
+	culture=bulblin religion=demise_religion
+	martial=7 diplomacy=6 stewardship=8 intrigue=4 learning=4
+	add_trait=mastermind_theologian add_trait=greedy add_trait=diligent add_trait=humble add_trait=cruel 
+	add_trait=ambitious add_trait=patient 
+	3967.12.5={ birth=yes }
+	4024.1.25={ death=yes }
+}
+
+#north west comenia
+4536={
+	name=Vulcin
+	dynasty=4055
+	dna="hmlohjdimok"
+	culture=bulblin religion=demise_religion
+	martial=8 diplomacy=8 stewardship=6 intrigue=7 learning=6
+	add_trait=tough_soldier add_trait=gluttonous add_trait=lustful add_trait=ambitious add_trait=wroth 
+	3966.1.21={ birth=yes }
+	4010.3.22={ death=yes }
+}
+
+#north +east comenia
+4537={
+	name=Belin
+	dynasty=4060
+	dna="mbaendongke"
+	culture=bulblin religion=demise_religion
+	martial=8 diplomacy=5 stewardship=4 intrigue=7 learning=4
+	add_trait=grey_eminence add_trait=deceitful add_trait=shy add_trait=stressed 
+	3966.6.14={ birth=yes }
+	4018.3.8={ death=yes }
+}

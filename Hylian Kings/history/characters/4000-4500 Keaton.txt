@@ -1,0 +1,316 @@
+4001 = {  #keatonia freehold
+	name=Kaito
+	disallow_random_traits=yes
+	
+	diplomacy=7
+	martial=5
+	intrigue=14
+	stewardship=6
+	learning=4
+	dynasty=10401
+	religion=keaton_spirits
+	culture=keaton
+	trait=elusive_shadow
+	trait=race_keaton
+	trait=diligent
+	trait=cruel
+	trait=zealous
+	trait=ambitious
+	trait=deceitful
+	3961.5.27={
+		birth=yes
+	}
+	3977.5.29 ={
+		add_spouse = 4002
+	}
+	4022.1.1={death=yes}
+}
+4002 = { 
+	name=Hana
+	female=yes
+	
+	dynasty=10421
+	religion=keaton_spirits
+	culture=keaton
+	trait=race_keaton
+	3961.4.8={
+		birth=yes
+	}
+	3977.5.29 ={
+		add_spouse = 1078
+	}
+	4024.1.1={death=yes}
+}
+4003 = { 
+	name=Hiroto
+	
+	mother=4002
+	father=1078
+	dynasty=10401
+	religion=keaton_spirits
+	culture=keaton
+	trait=race_keaton
+	3978.8.12={
+		birth=yes
+	}
+	4032.1.1={death=yes}
+}
+4004 = { 
+	name=Ichirou
+	
+	mother=4002
+	father=1078
+	dynasty=10401
+	religion=keaton_spirits
+	culture=keaton
+	trait=race_keaton
+	3980.9.17={
+		birth=yes
+	}
+	4039.1.1={death=yes}
+}
+4005 = { 
+	name=Hikari
+	
+	female=yes
+	mother=4002
+	father=1078
+	dynasty=10401
+	religion=keaton_spirits
+	culture=keaton
+	trait=race_keaton
+	3982.12.13={
+		birth=yes
+	}
+	4041.1.1={death=yes}
+}
+4006 = { 
+	name=Hiroto
+	
+	mother=4002
+	father=1078
+	dynasty=10401
+	religion=keaton_spirits
+	culture=keaton
+	trait=race_keaton
+	3984.5.17={
+		birth=yes
+	}
+	4042.1.1={death=yes}
+}
+4007 = { 
+	name=Kaoru
+	
+	female=yes
+	mother=4002
+	father=1078
+	dynasty=10401
+	religion=keaton_spirits
+	culture=keaton
+	trait=race_keaton
+	3986.12.1={
+		birth=yes
+	}
+	4043.1.1={death=yes}
+}
+4008 = {  #trillby
+	name=Katsu
+	disallow_random_traits=yes
+	
+	diplomacy=6
+	martial=14
+	intrigue=5
+	stewardship=8
+	learning=4
+	dynasty=10441
+	religion=demise_religion
+	culture=keaton
+	trait=skilled_tactician
+	trait=race_keaton
+	trait=brave
+	trait=cruel
+	trait=wroth
+	trait=patient
+	trait=deceitful
+	3961.5.27={
+		birth=yes
+	}
+	4021.1.1={death=yes}
+}
+4009 = {#keaton stok
+	name=Roles
+	
+	dynasty=10413
+	religion=demise_religion
+	culture=keaton
+	trait=elusive_shadow
+	trait=race_keaton
+	3965.9.12={
+		birth=yes
+	}
+	4012.1.1={death=yes}
+}
+4010={#Woods
+	name=Takuma
+	dynasty=10415
+	dna="fmiomjkbekb"
+	culture=keaton religion=demise_religion
+	martial=7 diplomacy=6 stewardship=4 intrigue=8 learning=6
+	add_trait=flamboyant_schemer add_trait=cynical add_trait=gregarious add_trait=diligent add_trait=cruel 
+	add_trait=charitable 
+	3969.3.12={ birth=yes }
+	3434.4.9={ death=yes }
+}
+4011={#western_woods
+	name=Hotaka
+	dynasty=10420
+	dna="gifipemdfhb"
+	culture=keaton religion=keaton_spirits
+	martial=5 diplomacy=4 stewardship=4 intrigue=7 learning=6
+	add_trait=grey_eminence add_trait=charitable add_trait=kind add_trait=cruel add_trait=craven 
+	3968.6.12={ birth=yes }
+	4020.2.17={ death=yes }
+}
+4012={
+	name=Osamu
+	dynasty=10425
+	dna="nmdnlljbmeb"
+	culture=keaton religion=baga_tree
+	martial=6 diplomacy=8 stewardship=6 intrigue=7 learning=6
+	add_trait=grey_eminence add_trait=cruel add_trait=chaste add_trait=shy add_trait=craven 
+	3929.10.18={ birth=yes }
+	3950.1.1={add_spouse=4013}
+	3980.4.9={ death=yes }
+}
+4013={
+	name=Inari
+	female=yes
+	culture=keaton religion=baga_tree
+	3931.10.18={ birth=yes }
+	3950.1.1={add_spouse=4012}
+	3980.4.9={ death=yes }
+}
+4014={
+	name=Chikako
+	female=yes
+	dynasty=10425
+	dna="nmdoplhbceb"
+	culture=keaton religion=baga_tree
+	father=4012	#Osamu
+	mother=4013
+	3954.2.11={ birth=yes }
+	4004.7.11={ death=yes }
+}
+4015={
+	name=Daisuke
+	dynasty=10425
+	dna="bmjnmhjbjgi"
+	culture=keaton religion=baga_tree
+	martial=8 diplomacy=7 stewardship=5 intrigue=7 learning=7
+	add_trait=intricate_webweaver add_trait=charitable add_trait=kind add_trait=honest add_trait=stressed 
+	father=4012	#Osamu
+	mother=4013
+	3956.5.19={ birth=yes }
+	3975.1.1={add_spouse=4022}
+	4020.4.6={ death=yes }
+}
+4016={
+	name=Jirou
+	dynasty=10425
+	dna="pmdbmkkgmeb"
+	culture=keaton religion=baga_tree
+	martial=8 diplomacy=6 stewardship=7 intrigue=6 learning=4
+	add_trait=detached_priest add_trait=humble add_trait=cynical add_trait=shy add_trait=envious 
+	add_trait=ill 
+	father=4015	#Yoshi
+	3977.11.27={ birth=yes }
+	4051.10.15={ death=yes }
+}
+4017={
+	name=Nori
+	dynasty=10425
+	dna="omdonlhbkeb"
+	culture=keaton religion=baga_tree
+	martial=6 diplomacy=6 stewardship=5 intrigue=4 learning=8
+	add_trait=midas_touched add_trait=gardener add_trait=gregarious add_trait=cruel add_trait=brave 
+	add_trait=kind 
+	father=4015	#Yoshi
+	3980.1.11={ birth=yes }
+	4030.11.22={ death=yes }
+}
+4018={
+	name=Aoi
+	female=yes
+	dynasty=10425
+	dna="hmikemkbmem"
+	culture=keaton religion=baga_tree
+	father=4015	#Yoshi
+	mother=4022
+	3981.8.27={ birth=yes }
+	4046.7.17={ death=yes }
+}
+4019={
+	name=Nori
+	dynasty=10425
+	dna="hmddfdjbmbp"
+	culture=keaton religion=baga_tree
+	martial=7 diplomacy=6 stewardship=7 intrigue=6 learning=8
+	add_trait=grey_eminence add_trait=ambitious add_trait=brave add_trait=deceitful add_trait=patient 
+	add_trait=gregarious add_trait=temperate add_trait=lunatic 
+	father=4015	#Yoshi
+	mother=4022
+	3985.6.27={ birth=yes }
+	4039.11.1={ death=yes }
+}
+4020={
+	name=Kanon
+	female=yes
+	dynasty=10425
+	dna="dpionhkbjeo"
+	culture=keaton religion=baga_tree
+	father=4015	#Yoshi
+	mother=4022
+	3988.10.1={ birth=yes }
+	4058.10.21={ death=yes }
+}
+4021={
+	name=Ryuu
+	dynasty=10430
+	dna="ncofeeflkpj"
+	culture=keaton religion=demise_religion
+	martial=8 diplomacy=7 stewardship=7 intrigue=8 learning=6
+	add_trait=martial_cleric add_trait=mystic add_trait=paranoid add_trait=wroth add_trait=greedy 
+	add_trait=arbitrary add_trait=kind 
+	3965.6.12={ birth=yes }
+	
+	4035.3.16={ death=yes }
+}
+4022={
+	name=Aiko
+	female=yes
+	culture=keaton religion=baga_tree
+	3956.5.19={ birth=yes }
+	3975.1.1={add_spouse=4015}
+	4020.4.6={ death=yes }
+}
+4023={
+	name=Aoi
+	dynasty=10435
+	dna="mpjofaggfjj"
+	culture=keaton religion=baga_tree
+	martial=8 diplomacy=8 stewardship=5 intrigue=5 learning=6
+	add_trait=midas_touched add_trait=envious add_trait=zealous add_trait=temperate add_trait=greedy 
+	add_trait=trusting 
+	3965.1.13={ birth=yes }
+	4038.11.17={ death=yes }
+}
+4024={
+	name=Ren
+	dynasty=10440
+	dna="ikeaahdelhp"
+	culture=keaton religion=baga_tree
+	martial=6 diplomacy=7 stewardship=7 intrigue=4 learning=8
+	add_trait=indulgent_wastrel add_trait=celibate add_trait=arbitrary add_trait=proud add_trait=envious 
+	3966.1.21={ birth=yes }
+	4028.4.15={ death=yes }
+}

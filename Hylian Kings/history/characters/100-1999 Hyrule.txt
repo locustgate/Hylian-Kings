@@ -596,14 +596,14 @@
 	culture=hyrulean
 	trait=mastermind_theologian
 	trait=race_hylian
-	trait=frail
+	trait=fair
 	trait=content
 	trait=patron_nayru
 	trait=kind
 	trait=dull
 	3654.1.7={ birth=yes }
 	3672.2.7={add_spouse=142}
-	3673.2.21={ death={death_reason=death_childbirth} }
+	3674.10.2={ death={death_reason=death_childbirth} }
 }
 144={
 	name=Rik
@@ -752,7 +752,6 @@
 	trait=zealous
 	trait=shy
 	trait=patron_nayru
-	father=154
 	3969.7.18={
 		birth=yes
 	}	
@@ -1530,7 +1529,7 @@
 	culture=hyrulean religion=golden_goddesses
 	martial=6 diplomacy=6 stewardship=6 intrigue=7 learning=8
 	add_trait=flamboyant_schemer add_trait=cynical add_trait=kind add_trait=trusting add_trait=just 
-	trait=clubfoot
+	trait=clubfooted
 	father=214	#Ingo
 	3930.2.8={ birth=yes }
 	3954.1.1={add_spouse=216}

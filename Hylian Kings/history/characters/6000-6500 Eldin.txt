@@ -1,0 +1,196 @@
+
+6000 = {#eldin
+	name=Snipes
+	disallow_random_traits=yes	
+	diplomacy=8
+	martial=8
+	intrigue=4
+	stewardship=4
+	learning=9
+	dynasty=8001
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	trait=martial_cleric
+	trait=cruel
+	trait=diligent
+	trait=zealous
+	3936.7.18={
+		birth=yes
+	}
+	3957.10.8={
+		add_spouse=6001
+	}
+	3994.1.1={ death=yes }
+}
+6001 = {
+	name=Berenice	
+	female=yes
+	dynasty=8011
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3941.7.18={
+		birth=yes
+	}
+	3957.10.8={
+		add_spouse=6000
+	}
+	4001.1.1={ death=yes }
+}
+6002 = {
+	name=Aura
+	
+	female=yes
+	father=6000
+	mother=6001
+	dynasty=8001
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3960.7.18={
+		birth=yes
+	}
+	3979.7.19={add_spouse=6004}
+	4021.1.1={ death=yes }
+}
+6003 = {#north bridge
+	name=Emilio
+	diplomacy=5
+	martial=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	dynasty=8012
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3945.7.18={
+		birth=yes
+	}
+	3962.7.19={
+		add_spouse=6009
+	}
+	4009.1.1={ death=yes }
+}
+6004 = {#hidden
+	name=Emilio
+	disallow_random_traits=yes	
+	diplomacy=8
+	martial=6
+	intrigue=4
+	stewardship=4
+	learning=6
+	mother=6009
+	father=6003
+	dynasty=8012
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	trait=underhanded_rogue
+	trait=ambitious
+	trait=chaste
+	trait=wroth
+	trait=short
+	3963.4.24={
+		birth=yes
+	}
+	3979.7.19={add_spouse=6002}
+	4027.1.1={ death=yes }
+}
+6005 = {
+	name=Isdel
+	disallow_random_traits=yes
+	
+	diplomacy=4
+	martial=8
+	intrigue=7
+	stewardship=6
+	learning=5
+	mother=6009
+	father=6003
+	dynasty=8012
+	religion=light_force
+	culture=eldin
+	trait=brilliant_strategist
+	trait=race_human
+	trait=content
+	trait=brave
+	trait=lustful
+	trait=robust
+	3967.9.24={
+		birth=yes
+	}
+	4019.1.1={ death=yes }
+}
+6006 = {#foothills
+	name=Virgilio
+	disallow_random_traits=yes	
+	diplomacy=8
+	martial=6
+	intrigue=4
+	stewardship=8
+	learning=5
+	dynasty=8101
+	religion=light_force
+	culture=eldin
+	trait=charismatic_negotiator
+	trait=race_human
+	trait=charitable
+	trait=kind
+	trait=lustful
+	trait=stubborn
+	trait=brave
+	trait=cavalry_leader
+	3955.4.14={
+		birth=yes
+	}
+	3979.1.1={
+		add_spouse=6007
+	}
+	4007.1.1={ death=yes }
+}
+6007 = {#
+	name=Rosa	
+	female=yes
+	dynasty=8124
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3963.1.1={
+		birth=yes
+	}
+	3979.1.1={
+		add_spouse=6006
+	}
+	4013.1.1={ death=yes }
+}
+6008 = {#
+	name=Pitina
+	
+	female=yes
+	mother=6007
+	father=6006
+	dynasty=8101
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3982.4.9={
+		birth=yes
+	}
+	4046.1.1={ death=yes }
+}
+6009={#north bridge
+	name=Emilio
+	female=yes
+	religion=light_force
+	culture=eldin
+	trait=race_human
+	3945.7.18={
+		birth=yes
+	}
+	3962.7.19={
+		add_spouse=6003
+	}
+	4009.1.1={ death=yes }
+}

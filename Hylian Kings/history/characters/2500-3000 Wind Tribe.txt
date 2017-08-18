@@ -267,3 +267,119 @@
 	3963.1.1={add_spouse=2519}
 	3994.6.13={ death=yes }
 }
+# Castor Wilds
+2524 = { #north south central castor wilds
+	name=Cirro	
+	dynasty=6024
+	religion=light_force
+	culture=wind_tribe
+	trait=charismatic_negotiator 
+	trait=race_wind
+	#trait=mage_3
+	3966.7.21={
+		birth=yes
+	}
+	4034.1.1={death=yes}
+}
+#d minish
+2525 = { #d minish c_lon,minish,easternhill,smith
+	name=Thermo
+	disallow_random_traits=yes
+	
+	diplomacy=7
+	martial=5
+	intrigue=6
+	stewardship=10
+	learning=7
+	dynasty=6034
+	religion=light_force
+	culture=wind_tribe
+	trait=fortune_builder
+	trait=race_wind
+	trait=greedy
+	trait=diligent
+	trait=ambitious
+	trait=cynical
+	3965.1.7={
+		birth=yes
+	}
+	4014.1.1={
+		death=yes
+	}
+}
+2525 = { #south fiel 
+	name=Caprice
+	
+	dynasty=6031
+	religion=light_force
+	culture=wind_tribe
+	trait=underhanded_rogue
+	trait=race_wind
+	3970.4.17={
+		birth=yes
+	}
+	4027.1.1={
+		death=yes
+	}
+}
+2526 = { #central east south west plains
+	name=Meseria
+	
+	dynasty=6047
+	religion=light_force
+	culture=wind_tribe
+	trait=charismatic_negotiator
+	trait=race_wind
+	3968.7.7={
+		birth=yes
+	}
+	4021.1.1={
+		death=yes
+	}
+}
+2527 = { #bridge
+	name=Mazin
+	
+	dynasty=6021
+	religion=light_force
+	culture=wind_tribe
+	trait=underhanded_rogue
+	trait=race_wind
+	3970.4.17={
+		birth=yes
+	}
+	4039.1.1={
+		death=yes
+	}
+}
+
+2528 = {#k minish d_royal c_ crypt, north road, minish hyrule
+	name=Indra
+	
+	dynasty=6201
+	religion=light_force
+	culture=wind_tribe
+	trait=underhanded_rogue
+	trait=race_wind
+	3969.4.14={
+		birth=yes
+	}
+	4027.1.1={
+		death=yes
+	}
+}
+2529 = {#k minish d_royal c_ crypt, north road, minish hyrule
+	name=Mazin
+	
+	dynasty=6251
+	religion=light_force
+	culture=wind_tribe
+	trait=underhanded_rogue
+	trait=race_wind
+	3969.2.12={
+		birth=yes
+	}
+	4041.1.1={
+		death=yes
+	}
+}
