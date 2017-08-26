@@ -1,4 +1,4 @@
-6501={#labrynna
+6501={#labrynna (d_nuun)
 	name=Serafeim
 	dynasty=2001
 	dna="naajhpnfihc"
@@ -65,7 +65,7 @@
 	3978.4.13={ birth=yes }
 	4047.6.26={ death=yes }
 }
-#
+#Lynna dlynna cblacktower cwestlynna -tower shore
 6507={
 	name=Vlasis
 	dynasty=2005
@@ -112,7 +112,7 @@
 	3980.1.1={add_spouse=6507}
 	4009.8.25={ death=yes }
 }
-#
+#talus ridge
 6511={
 	name=Cesaire
 	dynasty=2010
@@ -123,7 +123,7 @@
 	3966.9.8={ birth=yes }
 	4053.12.23={ death=yes }
 }
-#
+#symmetry taluspeaks
 6512={
 	name=Adlar
 	dynasty=2015
@@ -191,7 +191,7 @@
 	3975.1.1={add_spouse=6512}
 	4003.5.27={ death=yes }
 }
-#
+#zora isles
 6518={
 	name=Quirin
 	dynasty=2020
@@ -202,7 +202,7 @@
 	3963.10.20={ birth=yes }
 	4033.11.20={ death=yes }
 }
-#
+#palm island
 6519={
 	name=Oanez
 	dynasty=2025
@@ -213,7 +213,7 @@
 	3967.3.9={ birth=yes }
 	4018.4.6={ death=yes }
 }
-#
+#sand island
 6520={
 	name=Chrysanthos
 	dynasty=2030
@@ -237,7 +237,7 @@
 	3969.4.15={ birth=yes }
 	4054.8.8={ death=yes }
 }
-#
+#fairy island
 6522={
 	name=Keefe
 	dynasty=2040
@@ -249,8 +249,8 @@
 	3963.1.15={ birth=yes }
 	4024.7.12={ death=yes }
 }
-#
-29022={
+#eyeglass island tower shores
+6523={
 	name=Gavriil
 	dynasty=2045
 	dna="jnghbcglnld"
@@ -260,7 +260,7 @@
 	3963.1.1={ birth=yes }
 	4030.6.14={ death=yes }
 }
-#
+#storm_island
 6524={
 	name=Lance
 	dynasty=2050
@@ -271,16 +271,4 @@
 	add_trait=arbitrary add_trait=chaste 
 	3964.11.20={ birth=yes }
 	4030.1.23={ death=yes }
-}
-#
-6525={
-	name=Nikolaus
-	dynasty=2055
-	dna="iojbeongmhg"
-	culture=labrynnan religion=pirate_doctrine
-	martial=8 diplomacy=8 stewardship=7 intrigue=5 learning=5
-	add_trait=midas_touched add_trait=just add_trait=deceitful add_trait=lustful add_trait=trusting 
-	add_trait=ambitious add_trait=diligent 
-	3968.12.1={ birth=yes }
-	4015.8.17={ death=yes }
 }

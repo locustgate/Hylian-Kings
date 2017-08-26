@@ -1,0 +1,1386 @@
+7500={ #eskia,hels,varsbothnia
+	name=Grim
+	dynasty=5410
+	dna="bimbiekfdgn"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=5 stewardship=6 intrigue=6 learning=7
+	add_trait=tough_soldier add_trait=scholar add_trait=ambitious add_trait=zealous add_trait=trusting 
+	add_trait=deceitful add_trait=brave 
+	3951.1.24={ birth=yes }
+	3977.1.1={add_spouse=7504}
+	4000.4.2={ death=yes }
+}
+7501={
+	name=Paavo
+	dynasty=5410
+	dna="fhmiiekfdfn"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=6 stewardship=5 intrigue=5 learning=7
+	add_trait=martial_cleric add_trait=scholar add_trait=kind add_trait=arbitrary add_trait=content 
+	add_trait=cruel 
+	father=7500	#Grim
+	mother=7504
+	3978.12.23={ birth=yes }
+	4034.11.7={ death=yes }
+}
+7502={
+	name=Gunnar
+	dynasty=5410
+	dna="bimbhemflgf"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=8 stewardship=8 intrigue=7 learning=7
+	add_trait=grey_eminence add_trait=proud add_trait=shy add_trait=craven add_trait=diligent 
+	add_trait=just add_trait=depressed 
+	father=7500	#Grim
+	mother=7504
+	3980.9.22={ birth=yes }
+	4033.8.8={ death=yes }
+}
+7503={
+	name=Sigrid
+	female=yes
+	dynasty=5410
+	dna="hpmboelldie"
+	culture=ho_ho religion=oshus_religion
+	father=7500	#Grim
+	mother=7504
+	3983.6.3={ birth=yes }
+	4051.6.4={ death=yes }
+}
+7504={
+	name=Sigrid
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3961.1.1={ birth=yes }
+	3977.1.1={add_spouse=7500}
+	4041.6.4={ death=yes }
+}
+7505={#paij tava tamsinki
+	name=Borkvard
+	dynasty=5420
+	dna="gfdnnmjfifi"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=5 stewardship=5 intrigue=8 learning=6
+	add_trait=grey_eminence add_trait=mystic add_trait=cynical add_trait=envious add_trait=cruel 
+	add_trait=paranoid 
+	3954.10.13={ birth=yes }
+	3977.1.1={add_spouse=22100}
+	4020.10.26={ death=yes }
+}
+7506={
+	name=Ahvo
+	dynasty=5420
+	dna="gfeenmlfehi"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=7 stewardship=5 intrigue=8 learning=5
+	add_trait=detached_priest add_trait=patient add_trait=cruel add_trait=wounded 
+	father=7505	#Borkvard
+	mother=22100
+	3978.2.17={ birth=yes }
+	4024.3.10={ death=yes }
+}
+7507={
+	name=Alfhild
+	female=yes
+	dynasty=5420
+	dna="ekndgljfabj"
+	culture=ho_ho religion=oshus_religion
+	father=7505	#Borkvard
+	mother=22100
+	3982.10.25={ birth=yes }
+	4034.7.16={ death=yes }
+}
+#howgendoogen
+7508={#Howgendoogen (howgendoogen) Rii
+	name=Asko
+	dna="omaacmcalha"
+	dynasty=5401
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=8 stewardship=4 intrigue=6 learning=4
+	add_trait=charismatic_negotiator add_trait=celibate add_trait=kind add_trait=lustful add_trait=wroth 
+	add_trait=cruel add_trait=just add_trait=depressed 
+	3939.9.19={ birth=yes }
+	3965.1.1={add_spouse=7513}
+	3970.1.1={give_nickname=nick_the_old}
+	3991.2.13={ death=yes }
+}
+7509={
+	name=Hermelinda
+	female=yes
+	dna="ofagcmhalhj"
+	dynasty=5401
+	culture=ho_ho religion=oshus_religion
+	father=7508	#Asko
+	mother=7513
+	3969.10.17={ birth=yes }
+	3985.10.17={add_spouse=7514}
+	4065.2.5={ death=yes }
+}
+7510={
+	name=Ulf
+	dna="bjaaefcadha"
+	dynasty=5401
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=7 stewardship=8 intrigue=4 learning=8
+	add_trait=charismatic_negotiator add_trait=temperate add_trait=diligent add_trait=cruel add_trait=kind 
+	father=7508	#Asko
+	mother=7513
+	3973.11.1={ birth=yes }
+	4056.2.4={ death=yes }
+}
+7513={
+	name=Alfridh
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3939.9.19={ birth=yes }
+	3965.1.1={add_spouse=7508}
+	3981.2.13={ death=yes }
+}
+7514={#Howgendoogen (Genden) #salo
+	name=Borkvard
+	dynasty=5402
+	dna="olgkpoiefpe"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=4 stewardship=5 intrigue=8 learning=7
+	add_trait=detached_priest add_trait=content add_trait=trusting add_trait=proud add_trait=greedy 
+	add_trait=patient 
+	3957.8.27={ birth=yes }
+	3985.10.17={add_spouse=7509}
+	4047.10.26={ death=yes }
+}
+7515={#Howgendoogen (Hogendon)
+	name=Yngvar
+	dynasty=5403
+	dna="dnonibmokel"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=8 stewardship=6 intrigue=8 learning=6
+	add_trait=midas_touched add_trait=shy add_trait=envious add_trait=proud add_trait=patient 
+	add_trait=paranoid add_trait=chaste 
+	3947.5.5={ birth=yes }
+	3968.1.1={add_spouse=7520}
+	4041.5.12={ death=yes }
+}
+7516={
+	name=Riku
+	dynasty=5403
+	dna="dnjdibmhajl"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=5 stewardship=6 intrigue=7 learning=6
+	add_trait=misguided_warrior add_trait=arbitrary add_trait=diligent add_trait=honest add_trait=trusting 
+	add_trait=greedy 
+	father=7515	#Yngvar
+	mother=7520
+	3970.2.7={ birth=yes }
+	4061.9.29={ death=yes }
+}
+7517={
+	name=Aatso
+	dynasty=5403
+	dna="hnanibdoedl"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=5 stewardship=5 intrigue=5 learning=4
+	add_trait=intricate_webweaver add_trait=slothful add_trait=cynical add_trait=just 
+	father=7515	#Yngvar
+	mother=7520
+	3974.4.25={ birth=yes }
+	4040.5.14={ death=yes }
+}
+7518={
+	name=Johanne
+	female=yes
+	dynasty=5403
+	dna="ddlhifhokpl"
+	culture=ho_ho religion=oshus_religion
+	father=7515	#Yngvar
+	mother=7520
+	3980.6.17={ birth=yes }
+	4079.2.18={ death=yes }
+}
+7519={
+	name=Algot
+	dynasty=5403
+	dna="imnoibggjml"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=5 stewardship=5 intrigue=7 learning=7
+	add_trait=elusive_shadow add_trait=temperate add_trait=kind add_trait=greedy add_trait=content 
+	father=7515	#Yngvar
+	mother=7520
+	3982.6.17={ birth=yes }
+	4064.9.14={ death=yes }
+}
+7520={
+	name=Astrid
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3947.5.5={ birth=yes }
+	3968.1.1={add_spouse=7515}
+	4041.5.12={ death=yes }
+}
+7521={#Howgendoogen (Doogenwoh)
+	name=Ture
+	dynasty=5404
+	dna="oiaodeokllk"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=8 stewardship=8 intrigue=6 learning=8
+	add_trait=martial_cleric add_trait=shy add_trait=wroth add_trait=trusting 
+	3958.9.5={ birth=yes }
+	3984.1.1={add_spouse=7523}
+	4036.2.3={ death=yes }
+}
+7522={
+	name=Brage
+	dynasty=5404
+	dna="oaaodeokook"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=7 stewardship=7 intrigue=6 learning=8
+	add_trait=scholarly_theologian add_trait=hunter add_trait=brave add_trait=patient add_trait=just 
+	add_trait=shy add_trait=greedy 
+	father=7521	#Ture
+	mother=7523
+	3986.12.27={ birth=yes }
+	4073.10.22={ death=yes }
+}
+7523={
+	name=Asta
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3958.9.5={ birth=yes }
+	3984.1.1={add_spouse=7521}
+	4036.2.3={ death=yes }
+}
+7524={#howgendoogen (Wenden)
+	name=Asko
+	dynasty=5405
+	dna="fhdgonihfki"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=5 stewardship=7 intrigue=7 learning=6
+	add_trait=naive_appeaser add_trait=hunter add_trait=lustful add_trait=gregarious add_trait=brave 
+	add_trait=greedy 
+	3965.12.27={ birth=yes }
+	4040.8.17={ death=yes }
+}
+#end howgendoogen
+7525={
+	name=Torsten
+	dynasty=5481
+	dna="llhfihgcbpa"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=7 stewardship=4 intrigue=6 learning=4
+	add_trait=scholarly_theologian add_trait=cynical add_trait=kind add_trait=ambitious add_trait=patient 
+	add_trait=slothful 
+	3969.1.4={ birth=yes }
+	4032.2.22={ death=yes }
+}
+7526={
+	name=Ulf
+	dynasty=5415
+	dna="fhmknnnjkhm"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=4 stewardship=8 intrigue=5 learning=7
+	add_trait=midas_touched add_trait=gregarious add_trait=kind add_trait=gluttonous add_trait=slothful 
+	add_trait=ambitious add_trait=drunkard 
+	3969.1.4={ birth=yes }
+	4037.11.7={ death=yes }
+}
+7527={
+	name=Astrad
+	dynasty=5421
+	dna="cmhcckkdkhj"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=4 stewardship=4 intrigue=7 learning=5
+	add_trait=detached_priest add_trait=cynical add_trait=greedy add_trait=chaste 
+	3961.3.2={ birth=yes }
+	4019.1.2={ death=yes }
+}
+7528={
+	name=Matti
+	dynasty=5425
+	dna="acgnkoldpdi"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=5 stewardship=4 intrigue=6 learning=6
+	add_trait=grey_eminence add_trait=chaste add_trait=envious add_trait=humble 
+	3966.6.26={ birth=yes }
+	4015.4.23={ death=yes }
+}
+#hame
+7530={
+	name=Hakon
+	dynasty=5430
+	dna="dmljeghkleo"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=6 stewardship=7 intrigue=4 learning=4
+	add_trait=thrifty_clerk add_trait=proud add_trait=lustful add_trait=greedy add_trait=deceitful 
+	3930.1.21={ birth=yes }
+	3986.1.8={ death=yes }
+}
+7531={
+	name=Tommo
+	dynasty=5430
+	dna="dmdjelokljo"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=4 stewardship=5 intrigue=7 learning=4
+	add_trait=indulgent_wastrel add_trait=gregarious add_trait=brave add_trait=proud add_trait=slothful 
+	add_trait=zealous 
+	father=7530	#Hakon
+	3951.2.11={ birth=yes }
+	3972.1.1={add_spouse=7532}
+	4017.12.26={ death=yes }
+}
+7532={
+	name=Margareta
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3951.2.11={ birth=yes }
+	3972.1.1={add_spouse=7531}
+	4017.12.26={ death=yes }
+}
+7533={
+	name=Turo
+	dynasty=5430
+	dna="mpebgaofleo"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=5 stewardship=6 intrigue=8 learning=7
+	add_trait=detached_priest add_trait=just add_trait=gregarious 
+	father=7531	#Tommo
+	mother=7532
+	3974.2.27={ birth=yes }
+	4035.1.24={ death=yes }
+}
+7534={
+	name=Anna
+	female=yes
+	dynasty=5430
+	dna="dlkbeiakljo"
+	culture=ho_ho religion=oshus_religion
+	father=7531	#Tommo
+	mother=7532
+	3976.1.20={ birth=yes }
+	4041.7.8={ death=yes }
+}
+7535={
+	name=Haldora
+	female=yes
+	dynasty=5430
+	dna="mmfjeldgkjp"
+	culture=ho_ho religion=oshus_religion
+	father=7531	#Tommo
+	mother=7532
+	3981.6.22={ birth=yes }
+	4050.3.24={ death=yes }
+}
+#aland
+7536={
+	name=Halfdan
+	dynasty=5435
+	dna="gcbfmnjebml"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=8 stewardship=7 intrigue=5 learning=6
+	add_trait=mastermind_theologian add_trait=charitable add_trait=humble add_trait=shy add_trait=cruel 
+	add_trait=craven add_trait=paranoid 
+	father=147
+	3941.5.27={ birth=yes }
+	3962.1.1={add_spouse=7541}
+	3982.1.10={ death={death_reason=death_battle}} 
+}
+7537={
+	name=Astrid
+	female=yes
+	dynasty=5435
+	dna="lcbenngeeak"
+	culture=ho_ho religion=oshus_religion
+	father=7536	#Halfdan
+	mother=7541
+	3965.1.8={ birth=yes }
+	4008.5.20={ death=yes }
+}
+7538={
+	name=Hermelinda
+	female=yes
+	dynasty=5435
+	dna="gomfkniobml"
+	culture=ho_ho religion=oshus_religion
+	father=7536	#Halfdan
+	mother=7541
+	3969.4.13={ birth=yes }
+	4026.1.27={ death=yes }
+}
+7539={
+	name=Tjudmund
+	dynasty=5435
+	dna="dchbdpjhbmh"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=6 stewardship=6 intrigue=7 learning=4
+	add_trait=grey_eminence add_trait=shy add_trait=lustful add_trait=cruel add_trait=craven 
+	add_trait=deceitful add_trait=arbitrary 
+	father=7536	#Halfdan
+	mother=7541
+	3973.3.4={ birth=yes }
+	4027.2.28={ death=yes }
+}
+7540={
+	name=Euvje
+	female=yes
+	dynasty=5435
+	dna="pcifmnfebdf"
+	culture=ho_ho religion=oshus_religion
+	father=7536	#Halfdan
+	mother=7541
+	3976.7.11={ birth=yes }
+	4015.12.27={ death=yes }
+}
+7541={
+	name=Ragnfrid
+	female=yes
+	dna="hcnhmdjebfl"
+	culture=ho_ho religion=oshus_religion
+	3941.5.27={ birth=yes }
+	3962.1.1={add_spouse=7536}
+	3992.1.10={ death=yes }
+}
+#helsinki+oulu
+7542={
+	name=Sivard
+	dynasty=5440
+	dna="gbpecbejfmo"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=5 stewardship=4 intrigue=4 learning=5
+	add_trait=midas_touched add_trait=brave add_trait=honest add_trait=kind add_trait=cruel 
+	add_trait=shy 
+	3951.7.5={ birth=yes }
+	3977.1.1={add_spouse=7546}
+	4002.1.7={ death=yes }
+}
+7543={
+	name=Buohtta
+	female=yes
+	dynasty=5440
+	dna="bcbedneicap"
+	culture=ho_ho religion=oshus_religion
+	father=7542	#Sivard
+	mother=7546
+	3979.3.26={ birth=yes }
+	4042.3.5={ death=yes }
+}
+7544={
+	name=Torben
+	dynasty=5440
+	dna="gbpeclbbffo"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=8 stewardship=6 intrigue=8 learning=7
+	add_trait=skilled_tactician add_trait=mystic add_trait=content add_trait=craven add_trait=trusting 
+	add_trait=slothful 
+	father=7542	#Sivard
+	mother=7546
+	3983.12.22={ birth=yes }
+	4058.8.14={ death=yes }
+}
+7545={
+	name=Bothild
+	female=yes
+	dynasty=5440
+	dna="gbmiagejfld"
+	culture=ho_ho religion=oshus_religion
+	father=7542	#Sivard
+	mother=7546
+	3985.6.10={ birth=yes }
+	4039.8.23={ death=yes }
+}
+7546={
+	name=Gunhild
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3951.7.5={ birth=yes }
+	3977.1.1={add_spouse=7542}
+	4002.1.7={ death=yes }
+}
+#vaker
+7547={
+	name=Gudbrand
+	dynasty=5445
+	dna="dlanibmhdha"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=4 stewardship=8 intrigue=8 learning=8
+	add_trait=detached_priest add_trait=temperate add_trait=charitable add_trait=craven add_trait=cruel 
+	add_trait=ill 
+	3956.5.2={ birth=yes }
+	3980.1.1={add_spouse=7550}
+	4015.5.15={ death=yes }
+}
+7548={
+	name=Rieti
+	dynasty=5445
+	dna="dnnnidmedcp"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=4 stewardship=5 intrigue=5 learning=4
+	add_trait=charismatic_negotiator add_trait=just add_trait=humble 
+	father=7547	#Gudbrand
+	mother=7550
+	3983.11.13={ birth=yes }
+	4047.1.15={ death=yes }
+}
+7549={
+	name=Torfinn
+	dynasty=5445
+	dna="elapibmhdca"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=7 stewardship=8 intrigue=7 learning=8
+	add_trait=scholarly_theologian add_trait=humble add_trait=slothful 
+	father=7547	#Gudbrand
+	mother=7550
+	3985.1.24={ birth=yes }
+	4064.2.3={ death=yes }
+}
+7550={
+	name=Freja
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3956.5.2={ birth=yes }
+	3980.1.1={add_spouse=7547}
+	4015.5.15={ death=yes }
+}
+#seibothnia
+7551={
+	name=Bengt
+	dynasty=5450
+	dna="eccjmblnjmh"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=8 stewardship=5 intrigue=6 learning=8
+	add_trait=martial_cleric add_trait=duelist add_trait=greedy add_trait=gregarious add_trait=cruel 
+	add_trait=content add_trait=envious add_trait=honest 
+	3954.10.13={ birth=yes }
+	3976.1.1={add_spouse=7554}
+	3986.9.3={ death=yes }
+}
+7552={
+	name=Bengt
+	dynasty=5450
+	dna="occjmblbbbd"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=4 stewardship=8 intrigue=8 learning=4
+	add_trait=tough_soldier add_trait=poet add_trait=slothful add_trait=trusting add_trait=envious 
+	add_trait=lustful add_trait=depressed 
+	father=7551	#Bengt
+	mother=7554
+	3978.7.12={ birth=yes }
+	4027.9.22={ death=yes }
+}
+7553={
+	name=Ragnfrid
+	female=yes
+	dynasty=5450
+	dna="ejdpfchjjmn"
+	culture=ho_ho religion=oshus_religion
+	father=7551	#Bengt
+	mother=7554
+	3981.12.11={ birth=yes }
+	4038.10.18={ death=yes }
+}
+7554={
+	name=Alfridh
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3954.10.13={ birth=yes }
+	3976.1.1={add_spouse=7551}
+	4007.9.3={ death=yes }
+}
+#hyvitunta
+7555={
+	name=Tjudmund
+	dynasty=5455
+	dna="kbficolbmid"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=4 stewardship=8 intrigue=7 learning=4
+	add_trait=martial_cleric add_trait=just add_trait=wroth add_trait=cruel add_trait=shy 
+	add_trait=drunkard 
+	3954.11.11={ birth=yes }
+	3978.1.1={add_spouse=7558}
+	4002.6.10={ death=yes }
+}
+7556={
+	name=Tord
+	dynasty=5455
+	dna="jmfihogomin"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=8 stewardship=4 intrigue=4 learning=5
+	add_trait=detached_priest add_trait=poet add_trait=humble add_trait=cruel add_trait=zealous 
+	add_trait=wroth 
+	father=7555	#Tjudmund
+	mother=7558
+	3980.2.21={ birth=yes }
+	4048.5.7={ death=yes }
+}
+7557={
+	name=Halfdan
+	dynasty=5455
+	dna="ejfacggbjmd"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=5 stewardship=6 intrigue=4 learning=8
+	add_trait=elusive_shadow add_trait=diligent add_trait=charitable 
+	father=7555	#Tjudmund
+	mother=7558
+	3984.11.23={ birth=yes }
+	4051.5.15={ death=yes }
+}
+7558={
+	name=Afhild
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3954.11.11={ birth=yes }
+	3978.1.1={add_spouse=7555}
+	4002.6.10={ death=yes }
+}
+#num
+7559={
+	name=Valentin
+	dynasty=5460
+	dna="kgkmfphjbcd"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=7 stewardship=6 intrigue=4 learning=4
+	add_trait=skilled_tactician add_trait=cynical add_trait=temperate add_trait=ambitious add_trait=cruel 
+	3955.11.27={ birth=yes }
+	3974.1.1={add_spouse=7564}
+	4029.2.22={ death=yes }
+}
+7560={
+	name=Arnfast
+	dynasty=5460
+	dna="kafkepoibcg"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=6 stewardship=8 intrigue=8 learning=8
+	add_trait=grey_eminence add_trait=brave add_trait=just add_trait=deceitful add_trait=kind 
+	add_trait=content 
+	father=7559	#Valentin
+	mother=7564
+	3976.7.11={ birth=yes }
+	4034.10.13={ death=yes }
+}
+7561={
+	name=Aatso
+	dynasty=5460
+	dna="kgemgmhcbck"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=6 stewardship=8 intrigue=5 learning=5
+	add_trait=charismatic_negotiator add_trait=chaste add_trait=craven add_trait=gluttonous add_trait=wroth 
+	add_trait=shy 
+	father=7559	#Valentin
+	mother=7564
+	3979.8.1={ birth=yes }
+	4035.3.27={ death=yes }
+}
+7562={
+	name=Kare
+	dynasty=5460
+	dna="bocifpekbpd"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=5 stewardship=7 intrigue=6 learning=5
+	add_trait=grey_eminence add_trait=craven add_trait=diligent 
+	father=7559	#Valentin
+	mother=7564
+	3982.5.24={ birth=yes }
+	4052.3.10={ death=yes }
+}
+7563={
+	name=Anna
+	female=yes
+	dynasty=5460
+	dna="kgfmlpijcen"
+	culture=ho_ho religion=oshus_religion
+	father=7559	#Valentin
+	mother=7564
+	3983.1.25={ birth=yes }
+	4049.11.7={ death=yes }
+}
+7564={
+	name=Valentin
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3955.11.27={ birth=yes }
+	3974.1.1={add_spouse=7559}
+	4029.2.22={ death=yes }
+}
+#pori
+7565={
+	name=Arnfast
+	dynasty=5465
+	dna="mmnnkeflnld"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=5 stewardship=7 intrigue=8 learning=4
+	add_trait=intricate_webweaver add_trait=zealous add_trait=gregarious add_trait=cruel add_trait=humble 
+	3967.3.21={ birth=yes }
+	4022.9.8={ death=yes }
+}
+7566={
+	name=Ubbe
+	dynasty=5470
+	dna="bffappekknc"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=8 stewardship=7 intrigue=5 learning=8
+	add_trait=flamboyant_schemer add_trait=temperate add_trait=zealous 
+	3956.5.18={ birth=yes }
+	3980.1.1={add_spouse=7569}
+	3986.12.11={ death={death_reason=death_battle} }
+}
+7567={
+	name=Inge
+	dynasty=5470
+	dna="efibpphghna"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=8 stewardship=6 intrigue=6 learning=6
+	add_trait=grey_eminence add_trait=temperate add_trait=trusting add_trait=kind 
+	father=7566	#Ubbe
+	mother=7569
+	3982.6.17={ birth=yes }
+	4038.1.18={ death=yes }
+}
+7568={
+	name=Guttorm
+	dynasty=5470
+	dna="aldeppenkna"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=4 stewardship=4 intrigue=5 learning=6
+	add_trait=charismatic_negotiator add_trait=envious add_trait=lustful add_trait=just add_trait=cynical 
+	father=7566	#Ubbe
+	mother=7569
+	3986.3.7={ birth=yes }
+	4037.10.29={ death=yes }
+}
+7569={
+	name=Margareta
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3956.5.18={ birth=yes }
+	3980.1.1={add_spouse=7566}
+	4001.12.11={ death=yes }
+}
+7570={#zoulu
+	name=Toste
+	dynasty=5475
+	dna="cgfbchbeeaj"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=7 stewardship=6 intrigue=8 learning=6
+	add_trait=detached_priest add_trait=poet add_trait=slothful add_trait=cruel add_trait=charitable 
+	add_trait=shy add_trait=humble 
+	3960.12.5={ birth=yes }
+	3980.1.1={add_spouse=7572}
+	4041.6.18={ death=yes }
+}
+7571={
+	name=Rieti
+	dynasty=5475
+	dna="cgfblnjaejo"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=5 stewardship=4 intrigue=5 learning=5
+	add_trait=misguided_warrior add_trait=cynical add_trait=charitable 
+	father=7570	#Toste
+	mother=7572
+	3983.8.16={ birth=yes }
+	4048.7.5={ death=yes }
+}
+7572 = {
+	name=Alfridh
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3960.12.5={ birth=yes }
+	3980.1.1={add_spouse=7570}
+	4041.6.18={ death=yes }
+}
+7573={#c
+	name=Guttorm
+	dynasty=5480
+	dna="fdfkhmffdjj"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=6 stewardship=5 intrigue=4 learning=5
+	add_trait=midas_touched add_trait=brave add_trait=content add_trait=humble add_trait=lustful 
+	add_trait=wroth add_trait=cruel 
+	3964.4.26={ birth=yes }
+	4024.9.2={ death=yes }
+}
+7574={#c
+	name=Riku
+	dynasty=5485
+	dna="eidakbhanng"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=4 stewardship=7 intrigue=7 learning=7
+	add_trait=misguided_warrior add_trait=envious add_trait=gregarious add_trait=patient 
+	3965.2.22={ birth=yes }
+	4028.4.11={ death=yes }
+}
+7575={#c
+	name=Asko
+	dynasty=5490
+	dna="gajbmpmeaod"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=8 stewardship=8 intrigue=4 learning=4
+	add_trait=detached_priest add_trait=patient add_trait=diligent add_trait=brave add_trait=envious 
+	add_trait=gregarious 
+	3964.6.27={ birth=yes }
+	4019.12.15={ death=yes }
+}
+7576={#c
+	name=Brage
+	dynasty=5495
+	dna="ihkopggpddm"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=8 stewardship=8 intrigue=6 learning=5
+	add_trait=misguided_warrior add_trait=cynical add_trait=brave add_trait=shy add_trait=diligent 
+	add_trait=honest 
+	3964.7.24={ birth=yes }
+	4026.1.9={ death=yes }
+}
+7577={#kuria
+	name=Toste
+	dynasty=5500
+	dna="ifbeadacifn"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=5 stewardship=7 intrigue=4 learning=4
+	add_trait=tough_soldier add_trait=mystic add_trait=patient add_trait=shy add_trait=honest 
+	add_trait=cynical add_trait=arbitrary add_trait=wounded 
+	3964.1.4={ birth=yes }
+	4029.6.1={ death=yes }
+}
+7578={#marie
+	name=Azur
+	dynasty=5505
+	dna="aojgkeoanik"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=7 stewardship=4 intrigue=6 learning=8
+	add_trait=intricate_webweaver add_trait=chaste add_trait=wroth 
+	3964.6.2={ birth=yes }
+	4012.8.20={ death=yes }
+}
+7579={#nasto+lisala
+	name=Ahvo
+	dynasty=5510
+	dna="fnfkhlldjjo"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=7 stewardship=4 intrigue=8 learning=4
+	add_trait=elusive_shadow add_trait=craven add_trait=envious add_trait=temperate add_trait=patient 
+	add_trait=just add_trait=harelip 
+	3964.10.7={ birth=yes }
+	3982.1.1={add_spouse=7581}
+	4022.3.25={ death=yes }
+}
+7580={
+	name=Bjorn
+	dynasty=5510
+	dna="jnmkhlloblo"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=5 stewardship=4 intrigue=6 learning=8
+	add_trait=elusive_shadow add_trait=gluttonous add_trait=envious add_trait=just add_trait=patient 
+	father=7579	#Ahvo
+	3985.6.9={ birth=yes }
+	4055.3.2={ death=yes }
+}
+7581={
+	name=Ahvo
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3964.10.7={ birth=yes }
+	3982.1.1={add_spouse=7579}
+	4022.3.25={ death=yes }
+}
+7582={#kemi and kajaa
+	name=Ulf
+	dynasty=5515
+	dna="opljmajagpd"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=4 stewardship=7 intrigue=7 learning=4
+	add_trait=martial_cleric add_trait=kind add_trait=gluttonous add_trait=wroth add_trait=content 
+	3964.2.24={ birth=yes }
+	4023.9.10={ death=yes }
+}
+7583={
+	name=Ida
+	female=yes
+	dynasty=5515
+	dna="akljfoblgpa"
+	culture=ho_ho religion=oshus_religion
+	father=7582	#Ulf
+	3985.11.11={ birth=yes }
+	4047.6.22={ death=yes }
+}
+7584={
+	name=Elisabet
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3964.2.24={ birth=yes }
+	3985.11.11={ death={death_reason=death_childbirth} }
+}
+7585={#Sala
+	name=Kolbein
+	dynasty=5520
+	dna="cbaakbfkhan"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=6 stewardship=6 intrigue=5 learning=4
+	add_trait=mastermind_theologian add_trait=chaste add_trait=gregarious add_trait=cruel 
+	3964.3.13={ birth=yes }
+	4043.5.18={ death=yes }
+}
+7586={#Kouv
+	name=Samund
+	dynasty=5525
+	dna="ookhkjhnlhc"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=8 stewardship=7 intrigue=4 learning=7
+	add_trait=grey_eminence add_trait=arbitrary add_trait=gregarious add_trait=envious add_trait=temperate 
+	3965.6.1={ birth=yes }
+	4047.1.7={ death=yes }
+}
+7587={#kokk
+	name=Arnfast
+	dynasty=5530
+	dna="kappakccegd"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=6 stewardship=6 intrigue=8 learning=5
+	add_trait=charismatic_negotiator add_trait=kind add_trait=ambitious add_trait=zealous add_trait=patient 
+	add_trait=greedy 
+	3965.3.26={ birth=yes }
+	4018.10.1={ death=yes }
+}
+7588={#Kotka
+	name=Anund
+	dynasty=5534
+	dna="poehanpcfbj"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=8 stewardship=4 intrigue=6 learning=4
+	add_trait=scholarly_theologian add_trait=gluttonous add_trait=humble add_trait=trusting add_trait=wounded 
+	3964.11.26={ birth=yes }
+	4019.10.7={ death=yes }
+}
+7589={#kyrk
+	name=Tolir
+	dynasty=5535
+	dna="lllldgogeoc"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=7 stewardship=8 intrigue=5 learning=4
+	add_trait=midas_touched add_trait=hunter add_trait=cruel add_trait=zealous add_trait=wounded 
+	3964.12.7={ birth=yes }
+	4031.7.18={ death=yes }
+}
+7590={#kyla
+	name=Brage
+	dynasty=5540
+	dna="lpdaohbdfkd"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=7 stewardship=4 intrigue=7 learning=7
+	add_trait=martial_cleric add_trait=cruel add_trait=zealous add_trait=proud 
+	3964.4.27={ birth=yes }
+	4014.1.15={ death=yes }
+}
+7591={#vola
+	name=Ahvo
+	dynasty=5545
+	dna="diiaicdoohk"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=6 stewardship=4 intrigue=7 learning=4
+	add_trait=scholarly_theologian add_trait=mystic add_trait=greedy add_trait=gregarious 
+	3965.5.26={ birth=yes }
+	4022.8.3={ death=yes }
+}
+7592={#jyvaska
+	name=Kauro
+	dynasty=5550
+	dna="kjakkppkgna"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=8 stewardship=8 intrigue=7 learning=6
+	add_trait=midas_touched add_trait=humble add_trait=zealous add_trait=paranoid add_trait=wroth 
+	add_trait=honest 
+	3964.8.8={ birth=yes }
+	4016.5.14={ death=yes }
+}
+7593={#Kuopka
+	name=Birger
+	dynasty=5555
+	dna="ijjkldkfjdg"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=7 stewardship=8 intrigue=7 learning=8
+	add_trait=flamboyant_schemer add_trait=hedonist add_trait=trusting add_trait=charitable add_trait=patient 
+	add_trait=lustful add_trait=ill 
+	3964.8.26={ birth=yes }
+	4038.3.19={ death=yes }
+}
+7594={#Jamsuu
+	name=Halfdan
+	dynasty=5560
+	dna="ehkphnfjhfd"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=5 stewardship=5 intrigue=5 learning=4
+	add_trait=charismatic_negotiator add_trait=cruel add_trait=honest 
+	3965.2.26={ birth=yes }
+	4013.12.28={ death=yes }
+}
+7595={#Heina+hamin
+	name=Ahvo
+	dynasty=5565
+	dna="bdeklngimki"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=8 stewardship=6 intrigue=5 learning=8
+	add_trait=elusive_shadow add_trait=arbitrary add_trait=paranoid add_trait=charitable add_trait=diligent 
+	3964.2.3={ birth=yes }
+	3982.1.1={add_spouse=7597}
+	4028.4.23={ death=yes }
+}
+7596={
+	name=Astrad
+	dynasty=5565
+	dna="blijgnfhhko"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=7 stewardship=7 intrigue=7 learning=6
+	add_trait=flamboyant_schemer add_trait=poet add_trait=trusting add_trait=zealous add_trait=cruel 
+	add_trait=slothful 
+	father=7595	#Ahvo
+	mother=7597
+	3984.8.4={ birth=yes }
+	4044.5.21={ death=yes }
+}
+7597={
+	name=Alfhild
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3964.2.3={ birth=yes }
+	3982.1.1={add_spouse=7595}
+	4028.4.23={ death=yes }
+}
+7598={#Lapu
+	name=Asbjorn
+	dynasty=5570
+	dna="oamamkjflhi"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=5 stewardship=5 intrigue=4 learning=5
+	add_trait=midas_touched add_trait=cruel add_trait=charitable add_trait=lustful add_trait=craven 
+	add_trait=paranoid add_trait=gregarious 
+	3965.1.21={ birth=yes }
+	4016.11.24={ death=yes }
+}
+7599={#Pietara
+	name=Botulf
+	dynasty=5575
+	dna="ickepegegfo"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=6 stewardship=6 intrigue=8 learning=5
+	add_trait=indulgent_wastrel add_trait=slothful add_trait=just add_trait=patient add_trait=craven 
+	3964.7.4={ birth=yes }
+	4019.7.15={ death=yes }
+}
+7600 = {
+	name=Alfhild
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3959.1.1={ birth=yes }
+	3977.1.1={add_spouse=7505}
+	4034.7.16={ death=yes }
+}
+#lojo 5580
+7601={
+	name=Kare
+	dynasty=5580
+	dna="ilekhaplkdl"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=4 stewardship=6 intrigue=5 learning=5
+	add_trait=indulgent_wastrel add_trait=hunter add_trait=wroth add_trait=chaste add_trait=trusting 
+	add_trait=ill add_trait=possessed 
+	3955.4.26={ birth=yes }
+	3978.1.1={add_spouse=7604}
+	3982.1.5={ death=yes }
+}
+7602={
+	name=Birger
+	dynasty=5580
+	dna="klephaegjda"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=7 stewardship=8 intrigue=6 learning=4
+	add_trait=martial_cleric add_trait=mystic add_trait=cruel add_trait=diligent add_trait=ambitious 
+	father=7601	#Kare
+	mother=7604
+	3980.2.21={ birth=yes }
+	4031.10.25={ death=yes }
+}
+7603={
+	name=Sohvi
+	female=yes
+	dynasty=5580
+	dna="ifegkajfkdl"
+	culture=ho_ho religion=oshus_religion
+	father=7601	#Kare
+	mother=7604
+	3984.4.18={ birth=yes }
+	4030.4.18={ death=yes }
+}
+7604={
+	name=Kare
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3955.4.26={ birth=yes }
+	3978.1.1={add_spouse=7601}
+	4023.1.5={ death=yes }
+}
+#kuu 5585
+7605={
+	name=Aarto
+	dynasty=5585
+	dna="baolloaioeo"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=8 stewardship=6 intrigue=4 learning=7
+	add_trait=midas_touched add_trait=mystic add_trait=content add_trait=kind add_trait=craven 
+	3968.11.23={ birth=yes }
+	4029.10.30={ death=yes }
+}
+#sala 5590
+7606={
+	name=Jon
+	dynasty=5590
+	dna="elanncakkie"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=4 stewardship=8 intrigue=4 learning=7
+	add_trait=elusive_shadow add_trait=mystic add_trait=wroth add_trait=lustful add_trait=honest 
+	add_trait=greedy 
+	3968.11.27={ birth=yes }
+	4018.3.6={ death=yes }
+}
+#imati 5595
+7607={
+	name=Gudbrand
+	dynasty=5595
+	dna="nfapinobkdd"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=8 stewardship=7 intrigue=5 learning=8
+	add_trait=detached_priest add_trait=greedy add_trait=ambitious add_trait=deceitful add_trait=just 
+	add_trait=gluttonous 
+	3968.11.27={ birth=yes }
+	4017.6.9={ death=yes }
+}
+#hyvinsa 5455
+7608={
+	name=Torolf
+	dynasty=5455
+	dna="kfcilbeoiim"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=5 stewardship=6 intrigue=4 learning=6
+	add_trait=flamboyant_schemer add_trait=impaler add_trait=lustful add_trait=cruel add_trait=paranoid 
+	add_trait=zealous add_trait=lunatic 
+	3967.4.10={ birth=yes }
+	4031.1.10={ death=yes }
+}
+
+#jyva 5415
+7609={
+	name=Halfdan
+	dynasty=5415
+	dna="gmieedfehhd"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=8 stewardship=8 intrigue=6 learning=6
+	add_trait=tough_soldier add_trait=cruel add_trait=lustful add_trait=craven add_trait=temperate 
+	add_trait=humble 
+	3967.7.12={ birth=yes }
+	4017.9.3={ death=yes }
+}
+
+#kanta sastia 5425
+7610={
+	name=Totil
+	dynasty=5425
+	dna="nmmekcbkjal"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=6 stewardship=4 intrigue=8 learning=7
+	add_trait=scholarly_theologian add_trait=honest add_trait=chaste add_trait=slothful add_trait=charitable 
+	3946.8.8={ birth=yes }
+	3970.1.1={add_spouse=7617}
+	3995.6.25={ death=yes }
+}
+7611={
+	name=Astrad
+	dynasty=5425
+	dna="nmphbcbkjpl"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=4 stewardship=4 intrigue=5 learning=4
+	add_trait=grey_eminence add_trait=lustful add_trait=craven add_trait=temperate add_trait=gregarious 
+	add_trait=diligent add_trait=lunatic 
+	father=7610	#Totil
+	mother=7617
+	3971.12.22={ birth=yes }
+	4045.10.15={ death=yes }
+}
+7612={
+	name=Gunnhild
+	female=yes
+	dynasty=5425
+	dna="nhbnkmbkpjl"
+	culture=ho_ho religion=oshus_religion
+	father=7610	#Totil
+	mother=7617
+	3975.2.27={ birth=yes }
+	4024.10.27={ death=yes }
+}
+7613={
+	name=Valentin
+	dynasty=5425
+	dna="nmiemmbcjja"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=5 stewardship=4 intrigue=5 learning=7
+	add_trait=tough_soldier add_trait=mystic add_trait=gregarious add_trait=brave add_trait=cynical 
+	add_trait=trusting add_trait=ambitious add_trait=arbitrary 
+	father=7610	#Totil
+	mother=7617
+	3978.10.7={ birth=yes }
+	4028.3.15={ death=yes }
+}
+7614={
+	name=Grim
+	dynasty=5425
+	dna="amaepcledaa"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=8 stewardship=7 intrigue=4 learning=8
+	add_trait=grey_eminence add_trait=cruel add_trait=temperate add_trait=arbitrary 
+	father=7610	#Totil
+	mother=7617
+	3981.8.15={ birth=yes }
+	4020.10.3={ death=yes }
+}
+7615={
+	name=Yngvar
+	dynasty=5425
+	dna="cedeenbhjlj"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=7 stewardship=5 intrigue=5 learning=7
+	add_trait=misguided_warrior add_trait=honest add_trait=brave add_trait=envious 
+	father=7610	#Totil
+	mother=7617
+	3985.12.27={ birth=yes }
+	4056.9.19={ death=yes }
+}
+7616={
+	name=Thorvald
+	dynasty=5425
+	dna="nmmekhbnlal"
+	culture=ho_ho religion=oshus_religion
+	martial=4 diplomacy=7 stewardship=6 intrigue=8 learning=5
+	add_trait=mastermind_theologian add_trait=impaler add_trait=gregarious add_trait=trusting add_trait=gluttonous 
+	add_trait=humble add_trait=wroth 
+	father=7610	#Totil
+	mother=7617
+	3986.7.16={ birth=yes }
+	4050.6.7={ death=yes }
+}
+7617={
+	name=Gunnhild
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3946.8.8={ birth=yes }
+	3970.1.1={add_spouse=7610}
+	3995.6.25={ death=yes }
+}
+#kate 5435
+7618={
+	name=Samund
+	dynasty=5435
+	dna="infonejbmab"
+	culture=ho_ho religion=oshus_religion
+	martial=8 diplomacy=6 stewardship=5 intrigue=4 learning=4
+	add_trait=charismatic_negotiator add_trait=proud add_trait=content add_trait=greedy add_trait=chaste 
+	add_trait=wroth 
+	3966.5.2={ birth=yes }
+	4021.4.2={ death=yes }
+}
+#etela tavlia 5465
+7619={
+	name=Sivard
+	dynasty=5465
+	dna="gnkolmimghh"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=7 stewardship=5 intrigue=4 learning=5
+	add_trait=tough_soldier add_trait=gluttonous add_trait=chaste add_trait=honest add_trait=patient 
+	add_trait=cruel 
+	3950.2.27={ birth=yes }
+	3970.1.1={add_spouse=7625}
+	4020.2.10={ death=yes }
+}
+7620={
+	name=Torbrand
+	dynasty=5465
+	dna="gmbglnihgjh"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=4 stewardship=7 intrigue=4 learning=5
+	add_trait=skilled_tactician add_trait=gardener add_trait=slothful add_trait=deceitful add_trait=gregarious 
+	add_trait=charitable 
+	father=7619	#Sivard
+	mother=7625
+	3972.2.11={ birth=yes }
+	4042.12.23={ death=yes }
+}
+7621={
+	name=Tjudmund
+	dynasty=5465
+	dna="nnbklmimone"
+	culture=ho_ho religion=oshus_religion
+	martial=7 diplomacy=8 stewardship=5 intrigue=6 learning=7
+	add_trait=intricate_webweaver add_trait=trusting add_trait=proud add_trait=wroth add_trait=cruel 
+	add_trait=depressed 
+	father=7619	#Sivard
+	mother=7625
+	3975.9.20={ birth=yes }
+	4025.1.29={ death=yes }
+}
+7622={
+	name=Lykke
+	female=yes
+	dynasty=5465
+	dna="enpdlmimdkh"
+	culture=ho_ho religion=oshus_religion
+	father=7619	#Sivard
+	mother=7625
+	3980.6.20={ birth=yes }
+	4039.5.2={ death=yes }
+}
+7623={
+	name=Torsten
+	dynasty=5465
+	dna="lfiglmmhhhh"
+	culture=ho_ho religion=oshus_religion
+	martial=5 diplomacy=7 stewardship=6 intrigue=6 learning=4
+	add_trait=elusive_shadow add_trait=gardener add_trait=honest add_trait=shy add_trait=chaste 
+	father=7619	#Sivard
+	mother=7625
+	3982.10.1={ birth=yes }
+	4035.2.6={ death=yes }
+}
+7624={
+	name=Karin
+	female=yes
+	dynasty=5465
+	dna="gnbglmkighg"
+	culture=ho_ho religion=oshus_religion
+	father=7619	#Sivard
+	mother=7625
+	3985.4.20={ birth=yes }
+	4042.9.4={ death=yes }
+}
+7625={
+	name=Ingrid
+	female
+	culture=ho_ho religion=oshus_religion
+	3950.2.27={ birth=yes }
+	3970.1.1={add_spouse=7619}
+	4020.2.10={ death=yes }
+}
+#vars 5445
+7626={
+	name=Balder
+	dynasty=5445
+	dna="kphkiimchdj"
+	culture=ho_ho religion=oshus_religion
+	martial=6 diplomacy=4 stewardship=6 intrigue=4 learning=4
+	add_trait=charismatic_negotiator add_trait=trusting add_trait=shy add_trait=diligent add_trait=deceitful 
+	add_trait=greedy add_trait=zealous 
+	3964.8.22={ birth=yes }
+	3985.1.1={add_spouse=7626}
+	4037.3.31={ death=yes }
+}
+7627={
+	name=Balder
+	female=yes
+	culture=ho_ho religion=oshus_religion
+	3964.8.22={ birth=yes }
+	3985.1.1={add_spouse=7626}
+	4037.3.31={ death=yes }
+}
+
