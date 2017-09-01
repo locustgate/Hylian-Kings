@@ -4,9 +4,14 @@
 title = c_savlaakso
 
 # Settlements
-max_settlements = 1
+max_settlements = 6
 
-b_savlaakso = tribal
+b_savlaakso = tribal #tribal to city
+b_oshus_hovel = temple
+#b_laakso=castle
+#b_seikso=city
+#b_hamkyla=city
+#b_rovnia=city
 
 # Misc
 culture = ho_ho

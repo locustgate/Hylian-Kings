@@ -6359,7 +6359,7 @@ e_calatia = {
 			
 		}
 }
-e_ho_ho = {
+e_ho = {
 	color={ 83 54 48 }
 	color2={ 209 210 212 }
 	capital = 871
@@ -6372,15 +6372,13 @@ e_ho_ho = {
 				culture = ho_ho
 				culture = frozen_isle
 				culture = anouki
-				culture = yeti
-				culture = yook
 			}
 		}
 	}
-	k_ho = {
-		color={ 203 153 0 }
-		color2={ 232 232 232 }
-		capital = 871
+	k_ho = { #aland
+			color={ 188 0 7 }
+			color2={ 248 208 0 }
+			capital = 871
 		
 		allow = {
 			hidden_tooltip = {
@@ -6395,7 +6393,7 @@ e_ho_ho = {
 			}
 		}
 		d_aland = {
-			color={ 244 186 9 }
+			color={ 188 0 7 }
 			color2={ 248 208 0 }
 			capital = 871
 			
@@ -6419,55 +6417,8 @@ e_ho_ho = {
 				b_kala = {}
 			}			
 		}
-		
-		d_needle_woods = {
-			color={ 146 110 0 }
-			color2={ 235 23 196 }
-			capital = 861
-			
-			c_kate = {
-				color={ 12 226 213 }
-				color2={ 235 22 97 }
-				b_kate = {}
-			}
-			c_paij = {
-				color={ 137 3 1 }
-				color2={ 127 253 156 }
-				b_paij = {}
-			}
-			c_tava = {
-				color={ 17 21 110 }
-				color2={ 131 224 254 }
-				b_tava = {}
-			}
-		}
-		
-		d_kanta = {
-			color={ 171 135 27 }
-			color2={ 160 178 139 }
-			capital = 867
-			
-			c_kanta = {
-				color={ 250 188 0 }
-				color2={ 90 55 17 }
-				b_kanta = {}
-				b_kavolia = {}
-			}
-			c_tavlia = {
-				color={ 19 57 144 }
-				color2={ 255 255 255 }
-				b_tavlia = {}
-				b_kamsa = {}
-			}
-			c_sastia = {
-				color={ 47 136 4 }
-				color2={ 255 255 255 }
-				b_sastia = {}
-			}
-		}
-		
 		d_wolf_woods = {
-			color={ 211 173 58}
+			color={ 231 0 9 }
 			color2={ 0 0 0}
 			capital = 868
 			
@@ -6486,7 +6437,7 @@ e_ho_ho = {
 		}
 		
 		d_hame = {
-			color={ 171 146 68 }
+			color={ 201 45 51 }
 			color2={ 0 0 0}
 			capital = 869
 			
@@ -6517,16 +6468,61 @@ e_ho_ho = {
 				b_pato = {}
 				b_iri = {}
 			}
-			c_savlaakso = {
-				color={ 255 255 234 }
-				color2={ 188 0 7 }
-				holy_site = oshus_religion
-				b_savlaakso = {}
+		}
+	}
+	k_helsinki = {
+		color={ 0 86 148 }
+		color2={ 0 0 0}
+		capital = 877
+		
+		d_needle_woods = {
+			color={ 43 104 147 }
+			color2={ 235 23 196 }
+			capital = 861
+			
+			c_kate = {
+				color={ 12 226 213 }
+				color2={ 235 22 97 }
+				b_kate = {}
+			}
+			c_paij = {
+				color={ 137 3 1 }
+				color2={ 127 253 156 }
+				b_paij = {}
+			}
+			c_tava = {
+				color={ 17 21 110 }
+				color2={ 131 224 254 }
+				b_tava = {}
+			}
+		}
+		
+		d_kanta = {
+			color={ 49 129 186 }
+			color2={ 160 178 139 }
+			capital = 867
+			
+			c_kanta = {
+				color={ 250 188 0 }
+				color2={ 90 55 17 }
+				b_kanta = {}
+				b_kavolia = {}
+			}
+			c_tavlia = {
+				color={ 19 57 144 }
+				color2={ 255 255 255 }
+				b_tavlia = {}
+				b_kamsa = {}
+			}
+			c_sastia = {
+				color={ 47 136 4 }
+				color2={ 255 255 255 }
+				b_sastia = {}
 			}
 		}
 		
 		d_helsinki = {
-			color={ 219 187 88 }
+			color={ 0 86 148 }
 			color2={ 0 0 0}
 			capital = 877
 			
@@ -6552,9 +6548,15 @@ e_ho_ho = {
 				b_lomvi = {}
 			}
 		}
-		
+				
+	}
+	k_vaker-oulu = {
+			color={ 250 188 0  }
+			color2={ 0 0 0}
+			capital = 880
+	
 		d_oulu = {
-			color={ 172 153 96 }
+			color={ 250 188 0 }
 			color2={ 0 0 0}
 			capital = 880
 			
@@ -6576,11 +6578,11 @@ e_ho_ho = {
 		}
 		
 		d_vaker = {
-			color={ 218 197 131 }
+			color={ 186 1 9 }
 			color2={ 0 0 0}
 			capital = 889
 			c_vaker = {
-				color={ 186 1 9}
+				color={ 186 1 9 }
 				color2={ 249 186 0 }
 				b_vaker = {}
 				b_halama = {}
@@ -6602,290 +6604,8 @@ e_ho_ho = {
 				b_lars = {}
 			}			
 		}
-		
-		
 	}
-	k_ho_ho = {
-		color={ 168 95 78 }
-		color2={ 205 206 208 }
-		capital = 897
-		
-		allow = {
-			hidden_tooltip = {
-				OR = {
-					ai = no
-					culture = anouki
-					culture = frozen_isle
-					culture = ho_ho
-					culture = yeti
-					culture = yook
-				}
-			}
-		}
-
-		d_seibothnia = {
-			color={ 166 66 43 }
-			color2={ 0 0 0}
-			capital = 896
-			c_seibothnia = {
-				color={ 210 199 171 }
-				color2={ 190 49 18 }
-				b_seibothnia = {}
-				b_halivstam = {}
-			}
-			c_rovantunta = {
-				color={ 87 130 104 }
-				color2={ 190 49 18 }
-				b_rovantunta = {}
-			}
-			c_kouvkyla = {
-				color={ 0 86 148 }
-				color2={ 253 190 0 }
-				b_kouvkyla = {}
-			}
-			c_hamvola = {
-				color={ 250 188 0 }
-				color2={ 188 0 7 }
-				b_hamvola = {}
-			}			
-		}
-		
-		d_hyvitunta = {
-			color={ 167 34 3 }
-			color2={ 0 0 0}
-			capital = 897
-			c_kot = {
-				color={ 224 211 0 }
-				color2={ 0 103 144 }
-				b_kot = {}
-				b_latas = {}
-				b_peinu = {}
-			}
-			c_hyvitunta = {
-				color={ 0 85 148 }
-				color2={ 255 255 255 }
-				b_hyvitunta = {}
-				b_halie = {}
-				b_farerars = {}
-				b_halalia = {}
-			}
-			c_porsuu = {
-				color={ 0 86 148 }
-				color2={ 255 255 255 }
-				b_porsuu = {}
-				b_koulonu = {}
-			}
-			c_mikkvoo = {
-				color={ 119 119 119 }
-				color2={ 188 0 7 }
-				b_mikkvoo = {}
-			}
-			c_kokkso = {
-				color={ 188 0 7 }
-				color2={ 255 255 255 }
-				b_kokkso = {}
-				b_bakersa = {}
-			}
-			
-		}
-						
-		d_sala = {
-			color={ 192 11 92 }
-			color2={ 0 0 0}
-			capital = 906
-			c_hamn = {
-				color={ 251 189 0 }
-				color2={ 188 0 7 }
-				b_hamn = {}
-			}
-			c_mikk	 = {
-				color={ 0 86 148 }
-				color2={ 202 153 2 }
-				b_mikk = {}
-			}	
-			c_sala = {
-				color={ 30 30 30 }
-				color2={ 255 255 255 }
-				b_sala = {}
-			}
-			c_marie = {
-				color={ 188 0 7 }
-				color2={ 48 137 4 }
-				b_marie = {}
-			}
-			c_kuria = {
-				color={ 0 85 148 }
-				color2={ 255 255 255 }
-				b_kuria = {}
-				b_paramva = {}
-			}
-			c_imati = {
-				color={ 188 0 7 }
-				color2={ 200 200 200 }
-				b_imati = {}
-			}
-			c_lisala = {
-				color={ 131 0 131 }
-				color2={ 255 255 255 }
-				b_lisala = {}
-			}
-		}
-		
-		d_jyvaska = {
-			color={ 111 62 50 }
-			color2={ 0 0 0}
-			capital = 881
-			
-			c_jyvaska = {
-				color={ 251 188 0 }
-				color2={ 155 25 5 }
-				b_jyvaska = {}
-				b_kolola = {}
-			}
-			c_vola = {
-				color={ 181 36 36 }
-				color2={ 200 200 200 }
-				b_vola = {}
-			}
-			c_kuopka = {
-				color={ 190 0 0 }
-				color2={ 241 182 0 }
-				b_kuopka = {}
-			}
-			c_jamsuu = {
-				color={ 143 0 5 }
-				color2={ 250 187 0 }
-				b_jamsuu = {}
-			}
-			
-		}
-		
-		d_kemi = {
-			color={ 185 109 91 }
-			color2={ 0 0 0}
-			capital = 914
-			
-			c_kemi = {
-				color={ 188 0 7 }
-				color2={ 250 188 0 }
-				b_kemi = {}
-			}
-			c_kyla = {
-				color={ 188 189 192 }
-				color2={ 0 114 188 }
-				b_kyla = {}
-			}
-			c_kajaa = {
-				color={ 38 38 38 }
-				color2={250 188 0 }
-				b_kajaa = {}
-			}
-		}
-		
-		d_kouv = {
-			color={ 79 29 18 }
-			color2={ 0 0 0}
-			capital = 918
-			
-			c_kouv = {
-				color={ 0 0 201 }
-				color2={ 138 106 42 }
-				b_kouv = {}
-			}
-			c_kyrk = {
-				color={ 6 69 10 }
-				color2={ 255 255 255 }
-				b_kyrk = {}
-			}
-			c_kokk = {
-				color={ 188 0 7 }
-				color2={ 255 255 255 }
-				b_kokk = {}
-			}
-			c_kotka = {
-				color={ 41 103 168 }
-				color2={ 243 192 4 }
-				b_kotka = {}
-			}
-		}
-		
-		d_lojo = {
-			color={ 130 43 23 }
-			color2={ 0 0 0}
-			capital = 923
-			
-			c_pietara = {
-				color={ 23 99 0 }
-				color2={ 38 38 38 }
-				b_pietara = {}
-			}
-			c_lojo = {
-				color={ 255 0 0 }
-				color2={ 223 223 223 }
-				b_lojo = {}
-			}
-			c_kuu = {
-				color={ 0 110 199 }
-				color2={ 192 160 98 }
-				b_kuu = {}
-			}
-			c_lapu = {
-				color={ 170 0 0 }
-				color2={ 202 166 47 }
-				b_lapu = {}
-			}
-		}
-		
-		d_num = {
-			color={ 100 19 0 }
-			color2={ 0 0 0}
-			capital = 901
-			
-			c_kola = {
-				color={ 212 35 46 }
-				color2={ 253 189 0 }
-				b_kola = {}
-				b_bakav = {}
-			}
-			c_num = {
-				color={ 191 159 79 }
-				color2={ 255 255 255 }
-				b_num = {}
-			}
-			c_nasto = {
-				color={ 11 38 141 }
-				color2={ 254 189 13 }
-				b_nasto = {}
-			}
-			c_zoulu = {
-				color={ 223 0 0 }
-				color2={ 207 207 207 }
-				b_zoulu = {}
-			}
-		}		
-		d_pori = {
-			color={ 145 27 0 }
-			color2={ 0 0 0}
-			capital = 934
-			c_pori = {
-				color={ 0 0 191 }
-				color2={ 255 0 0 }				
-				holy_site = oshus_religion
-				b_pori = {}
-			}
-			c_pieksa = {
-				color={ 255 0 0 }
-				color2={ 147 122 61 }
-				b_pieksa = {}
-			}
-			c_samaki = {
-				color={ 0 0 191}
-				color2={ 255 0 0 }
-				b_samaki = {}
-			}
-		}
-		
-	}
+	
 	k_way = {
 		color={ 250 188 0 }
 		color2={ 0 156 255 }
@@ -6992,11 +6712,422 @@ e_ho_ho = {
 			}
 		}
 	}
+	k_savlaakso = {	
+			color={ 255 255 234 }
+			color2={ 0 0 0}
+			capital = 875
+		d_savlaakso = {
+			color={ 255 255 234 }
+			color2={ 0 0 0}
+			capital = 875
+			c_savlaakso = {
+				color={ 255 255 234 }
+				color2={ 188 0 7 }
+				holy_site = oshus_religion
+				b_savlaakso = {}
+				b_oshus_hovel = {}
+				b_laakso = {}
+				b_seikso = {}
+				b_hamkyla = {}
+				b_rovnia = {}
+			}
+		}
+	}
+}
+e_ho_ho = {
+	color={ 191 159 79 }
+	color2={ 0 0 0}
+	capital = 901
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture = frozen_isle
+				culture = ho_ho
+			}
+		}
+	}
+
+	k_ho_ho = { #num
+		color={ 191 159 79 }
+		color2={ 0 0 0}
+		capital = 901
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = anouki
+					culture = frozen_isle
+					culture = ho_ho
+					culture = yeti
+					culture = yook
+				}
+			}
+		}
+
+		d_seibothnia = {
+			color={ 220 183 91 }
+			color2={ 0 0 0}
+			capital = 896
+			c_seibothnia = {
+				color={ 210 199 171 }
+				color2={ 190 49 18 }
+				b_seibothnia = {}
+				b_halivstam = {}
+			}
+			c_rovantunta = {
+				color={ 87 130 104 }
+				color2={ 190 49 18 }
+				b_rovantunta = {}
+			}
+			c_kouvkyla = {
+				color={ 0 86 148 }
+				color2={ 253 190 0 }
+				b_kouvkyla = {}
+			}
+			c_hamvola = {
+				color={ 250 188 0 }
+				color2={ 188 0 7 }
+				b_hamvola = {}
+			}			
+		}
+		
+		d_hyvitunta = {
+			color={ 163 136 68 }
+			color2={ 0 0 0}
+			capital = 897
+			c_kot = {
+				color={ 224 211 0 }
+				color2={ 0 103 144 }
+				b_kot = {}
+				b_latas = {}
+				b_peinu = {}
+			}
+			c_hyvitunta = {
+				color={ 0 85 148 }
+				color2={ 255 255 255 }
+				b_hyvitunta = {}
+				b_halie = {}
+				b_farerars = {}
+				b_halalia = {}
+			}
+			c_porsuu = {
+				color={ 0 86 148 }
+				color2={ 255 255 255 }
+				b_porsuu = {}
+				b_koulonu = {}
+			}
+			c_mikkvoo = {
+				color={ 119 119 119 }
+				color2={ 188 0 7 }
+				b_mikkvoo = {}
+			}
+			c_kokkso = {
+				color={ 188 0 7 }
+				color2={ 255 255 255 }
+				b_kokkso = {}
+				b_bakersa = {}
+			}
+			
+		}
+		d_num = {
+			color={ 191 159 79 }
+			color2={ 0 0 0}
+			capital = 901
+			
+			c_kola = {
+				color={ 212 35 46 }
+				color2={ 253 189 0 }
+				b_kola = {}
+				b_bakav = {}
+			}
+			c_num = {
+				color={ 191 159 79 }
+				color2={ 255 255 255 }
+				b_num = {}
+			}
+			c_nasto = {
+				color={ 11 38 141 }
+				color2={ 254 189 13 }
+				b_nasto = {}
+			}
+			c_zoulu = {
+				color={ 223 0 0 }
+				color2={ 207 207 207 }
+				b_zoulu = {}
+			}
+		}		
+		d_pori = {
+			color={ 159 122 30 }
+			color2={ 0 0 0}
+			capital = 934
+			c_pori = {
+				color={ 0 0 191 }
+				color2={ 255 0 0 }				
+				holy_site = oshus_religion
+				b_pori = {}
+			}
+			c_pieksa = {
+				color={ 255 0 0 }
+				color2={ 147 122 61 }
+				b_pieksa = {}
+			}
+			c_samaki = {
+				color={ 0 0 191}
+				color2={ 255 0 0 }
+				b_samaki = {}
+			}
+		}
+	}
+	k_sala = {
+		color={ 230 30 30 }
+		color2={ 0 0 0}
+		capital = 906
+	
+		d_sala = {
+			color={ 30 30 30}
+			color2={ 0 0 0}
+			capital = 906
+			c_hamn = {
+				color={ 251 189 0 }
+				color2={ 188 0 7 }
+				b_hamn = {}
+			}
+			c_mikk	 = {
+				color={ 0 86 148 }
+				color2={ 202 153 2 }
+				b_mikk = {}
+			}	
+			c_sala = {
+				color={ 30 30 30 }
+				color2={ 255 255 255 }
+				b_sala = {}
+			}
+		}
+		d_maria = {
+			color={ 58 46 46 }
+			color2={ 0 0 0}
+			capital = 926
+			c_marie = {
+				color={ 188 0 7 }
+				color2={ 48 137 4 }
+				b_marie = {}
+			}
+			c_kuria = {
+				color={ 0 85 148 }
+				color2={ 255 255 255 }
+				b_kuria = {}
+				b_paramva = {}
+			}
+			c_imati = {
+				color={ 188 0 7 }
+				color2={ 200 200 200 }
+				b_imati = {}
+			}
+			c_lisala = {
+				color={ 131 0 131 }
+				color2={ 255 255 255 }
+				b_lisala = {}
+			}
+		}
+		
+		d_lojo = {
+			color={ 96 87 87 }
+			color2={ 0 0 0}
+			capital = 923
+			
+			c_pietara = {
+				color={ 23 99 0 }
+				color2={ 38 38 38 }
+				b_pietara = {}
+			}
+			c_lojo = {
+				color={ 255 0 0 }
+				color2={ 223 223 223 }
+				b_lojo = {}
+			}
+			c_kuu = {
+				color={ 0 110 199 }
+				color2={ 192 160 98 }
+				b_kuu = {}
+			}
+			c_lapu = {
+				color={ 170 0 0 }
+				color2={ 202 166 47 }
+				b_lapu = {}
+			}
+		}
+	}
+	k_jyvaska = {
+		color={ 251 188 0  }
+		color2={ 0 0 0}
+		capital = 881
+		d_jyvaska = {
+			color={ 251 188 0  }
+			color2={ 0 0 0}
+			capital = 881
+			
+			c_jyvaska = {
+				color={ 251 188 0 }
+				color2={ 155 25 5 }
+				b_jyvaska = {}
+				b_kolola = {}
+			}
+			c_vola = {
+				color={ 181 36 36 }
+				color2={ 200 200 200 }
+				b_vola = {}
+			}
+			c_kuopka = {
+				color={ 190 0 0 }
+				color2={ 241 182 0 }
+				b_kuopka = {}
+			}
+			c_jamsuu = {
+				color={ 143 0 5 }
+				color2={ 250 187 0 }
+				b_jamsuu = {}
+			}
+			
+		}
+		
+		d_kemi = {
+			color={ 255 204 53 }
+			color2={ 0 0 0}
+			capital = 914
+			
+			c_kemi = {
+				color={ 188 0 7 }
+				color2={ 250 188 0 }
+				b_kemi = {}
+			}
+			c_kyla = {
+				color={ 188 189 192 }
+				color2={ 0 114 188 }
+				b_kyla = {}
+			}
+			c_kajaa = {
+				color={ 38 38 38 }
+				color2={250 188 0 }
+				b_kajaa = {}
+			}
+		}
+		
+		d_kouv = {
+			color={ 223 171 17 }
+			color2={ 0 0 0}
+			capital = 918
+			
+			c_kouv = {
+				color={ 0 0 201 }
+				color2={ 138 106 42 }
+				b_kouv = {}
+			}
+			c_kyrk = {
+				color={ 6 69 10 }
+				color2={ 255 255 255 }
+				b_kyrk = {}
+			}
+			c_kokk = {
+				color={ 188 0 7 }
+				color2={ 255 255 255 }
+				b_kokk = {}
+			}
+			c_kotka = {
+				color={ 41 103 168 }
+				color2={ 243 192 4 }
+				b_kotka = {}
+			}
+		}
+	}
+	k_howgendoogen_league = {
+		color={ 0 86 148 }
+		color2={ 237 192 0 }
+		capital = 937 # rii
+		culture = ho_ho
+		
+		
+		title="CHAIRMAN"
+		title_female="CHAIRWOMAN"
+		
+		allow = {
+			culture = ho_ho
+			is_republic = yes
+		}
+		d_rii = {
+			color={ 0 86 148  }
+			color2={ 0 86 148 }
+			capital = 937 # rii
+			c_salo = {
+				color={ 223 0 0 }
+				color2={ 184 184 184 }
+				b_salo = {}
+				b_polen = {}
+				b_kavla = {}
+				b_haluu = {}
+				b_uunsi = {}
+				b_koro = {}
+			}
+			c_rii = {
+				color={ 170 140 40 }
+				color2={ 223 0 0 }
+				b_rii = {}
+				b_tikuu = {}
+				b_noluu = {}
+				b_uurin = {}
+				b_hakk = {}
+				b_ekso = {}
+				b_sen = {}
+			}	
+		}
+		d_borga = {
+			color={ 0 129 222 }
+			color2={ 0 86 148 }
+			capital = 935 # rii	
+			c_borga = {
+				color={ 223 223 223 }
+				color2={ 0 0 191 }
+				b_borga = {}
+				b_amothno = {}
+				b_bakam = {}
+			}
+		}
+		d_mantsa = {
+			color={ 25 110 171 }
+			color2={ 5 117 1 }
+			capital = 924 # mantsa			
+			c_mantsa = {
+				holy_site = oshus_religion
+				color={ 255 0 0 }
+				color2={ 255 255 255 }
+				b_mantsa = {}
+				b_ajase = {}
+				b_marot = {}
+				b_oupa = {}
+				b_hinii = {}
+			}
+		}
+	}
+}
+e_yetari = {
+	color={ 0 156 255 }
+	color2={ 255 255 255 }
+	capital = 904
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					culture = yeti
+					culture = yook
+				}
+			}
+		}
 	k_way_way = {
-		color={ 0 156 255 }
+		color={ 223 223 223 }
 		color2={ 255 255 255 }
 		capital = 904
 		yeti=Yetari
+		ho_ho="West Way Way"
 		
 		allow = {
 			hidden_tooltip = {
@@ -7011,7 +7142,7 @@ e_ho_ho = {
 			}
 		}
 		d_heina = {
-			color={ 95 193 255 }
+			color={ 202 202 202 }
 			color2={ 0 0 0}
 			capital = 904
 			
@@ -7035,52 +7166,9 @@ e_ho_ho = {
 				b_poluu = {}
 			}
 		}
-		d_savage_peaks = {
-			color={ 3 112 181 }
-			color2={ 0 0 0}
-			capital = 846
-			
-			c_larto = {
-				color={ 223 223 223 }
-				color2={ 255 0 0 }
-				b_larto = {}
-				b_toro_2 = {}
-			}
-			c_hehay = {
-				color={ 0 0 0 }
-				color2={ 204 204 204 }
-				b_hehay = {}
-			}
-			c_fin = {
-				color={ 5 129 237 }
-				color2={ 204 204 204 }
-				b_fin = {}
-				b_fovila = {}
-			}
-		}
-		
-		d_avalanche_slopes = {
-			color={ 78 140 180 }
-			color2={ 0 0 0}
-			capital = 848
-			
-			c_lap = {
-				color={ 240 0 0 }
-				color2={ 255 255 255 }
-				b_lap = {}
-				b_rori = {}
-			}
-			c_kain = {
-				color={ 238 29 35 }
-				color2={ 255 255 255 }
-				b_kain = {}
-				b_polon = {}
-				b_ponu = {}
-			}
-		}
 		
 		d_greater_yetari = {
-			color={ 0 156 255 }
+			color={ 223 223 223 }
 			color2={ 0 0 0}
 			capital = 852
 			
@@ -7119,7 +7207,7 @@ e_ho_ho = {
 		}
 		
 		d_lesser_yetari = {
-			color={ 140 193 226 }
+			color={ 239 239 239 }
 			color2={ 255 255 255 }
 			capital = 849
 			c_ostro = {
@@ -7137,8 +7225,80 @@ e_ho_ho = {
 			}
 		}
 		
+		d_kneedeep_field = {
+			color={ 162 162 162 }
+			color2={ 0 0 0}
+			capital = 902
+			c_forsuu = {
+				color={ 188 0 7 }
+				color2={ 255 255 255 }
+				b_forsuu = {}
+			}
+			
+			c_kuopio = {
+				color={ 255 255 255 }
+				color2={ 25 113 188 }
+				b_kuopio = {}
+			}
+			c_vaasa = {
+				color={ 255 205 80 }
+				color2={ 255 255 255 }
+				b_vaasa = {}
+				b_jinu = {}
+			}
+		}		
+	}
+	k_east_way_way = {
+		color={ 5 129 237 }
+		color2={ 0 0 0}
+		capital = 846
+		yeti="Yetri"
+		ho_ho="East Way Way"
+		d_savage_peaks = {
+			color={ 5 129 237 }
+			color2={ 0 0 0}
+			capital = 846
+			
+			c_larto = {
+				color={ 223 223 223 }
+				color2={ 255 0 0 }
+				b_larto = {}
+				b_toro_2 = {}
+			}
+			c_hehay = {
+				color={ 0 0 0 }
+				color2={ 204 204 204 }
+				b_hehay = {}
+			}
+			c_fin = {
+				color={ 5 129 237 }
+				color2={ 204 204 204 }
+				b_fin = {}
+				b_fovila = {}
+			}
+		}
+		
+		d_avalanche_slopes = {
+			color={ 6 102 186 }
+			color2={ 0 0 0}
+			capital = 848
+			
+			c_lap = {
+				color={ 240 0 0 }
+				color2={ 255 255 255 }
+				b_lap = {}
+				b_rori = {}
+			}
+			c_kain = {
+				color={ 238 29 35 }
+				color2={ 255 255 255 }
+				b_kain = {}
+				b_polon = {}
+				b_ponu = {}
+			}
+		}
 		d_smothered_woods = {
-			color={ 61 139 189 }
+			color={ 46 146 234 }
 			color2={ 0 0 0}
 			capital = 883
 			c_jyva = {
@@ -7162,7 +7322,7 @@ e_ho_ho = {
 		}
 		
 		d_icicle_woods = {
-			color={ 13 120 188 }
+			color={ 22 147 255 }
 			color2={ 0 0 0}
 			capital = 885
 			c_lahyla = {
@@ -7185,29 +7345,6 @@ e_ho_ho = {
 				b_halasuu = {}
 			}
 		}
-		
-		d_kneedeep_field = {
-			color={ 28 101 147 }
-			color2={ 0 0 0}
-			capital = 902
-			c_forsuu = {
-				color={ 188 0 7 }
-				color2={ 255 255 255 }
-				b_forsuu = {}
-			}
-			
-			c_kuopio = {
-				color={ 255 255 255 }
-				color2={ 25 113 188 }
-				b_kuopio = {}
-			}
-			c_vaasa = {
-				color={ 255 205 80 }
-				color2={ 255 255 255 }
-				b_vaasa = {}
-				b_jinu = {}
-			}
-		}		
 	}
 }
 e_hytopia = {	
@@ -8613,69 +8750,6 @@ k_icehead = {
 			b_frosthead = {}
 			b_caso = {}
 			b_paneira = {}
-		}
-	}
-}
-k_howgendoogen_league = {
-	color={ 0 86 148 }
-	color2={ 237 192 0 }
-	capital = 937 # rii
-	culture = ho_ho
-	
-	
-	title="CHAIRMAN"
-	title_female="CHAIRWOMAN"
-	
-	allow = {
-		culture = ho_ho
-		is_republic = yes
-	}
-	d_rii = {
-		color={ 0 86 148  }
-		color2={ 0 86 148 }
-		capital = 937 # rii
-		c_borga = {
-			color={ 223 223 223 }
-			color2={ 0 0 191 }
-			b_borga = {}
-			b_amothno = {}
-			b_bakam = {}
-		}
-		c_salo = {
-			color={ 223 0 0 }
-			color2={ 184 184 184 }
-			b_salo = {}
-			b_polen = {}
-			b_kavla = {}
-			b_haluu = {}
-			b_uunsi = {}
-			b_koro = {}
-		}
-		c_rii = {
-			color={ 170 140 40 }
-			color2={ 223 0 0 }
-			b_rii = {}
-			b_tikuu = {}
-			b_noluu = {}
-			b_uurin = {}
-			b_hakk = {}
-			b_ekso = {}
-			b_sen = {}
-		}	
-	}
-	d_mantsa = {
-		color={ 25 110 171 }
-		color2={ 5 117 1 }
-		capital = 924 # mantsa			
-		c_mantsa = {
-			holy_site = oshus_religion
-			color={ 255 0 0 }
-			color2={ 255 255 255 }
-			b_mantsa = {}
-			b_ajase = {}
-			b_marot = {}
-			b_oupa = {}
-			b_hinii = {}
 		}
 	}
 }
