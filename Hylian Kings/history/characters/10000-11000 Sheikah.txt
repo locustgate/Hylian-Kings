@@ -1,0 +1,242 @@
+#Mudora
+10000={
+	name=Omaha
+	dynasty=400
+	dna="ehpogeoafcd"
+	culture=sheikah religion=sheikahism_nihilism
+	martial=5 diplomacy=6 stewardship=5 intrigue=4 learning=8
+	add_trait=flamboyant_schemer add_trait=greedy add_trait=cruel 
+	3931.4.8={ birth=yes }
+	3952.1.1={add_spouse=10006}
+	3978.6.21={ death=yes }
+}
+10001={#eastern mudora sheikah
+	name=Owago
+	dynasty=400
+	dna="lhpmhebiccd"
+	culture=sheikah religion=sheikahism_nihilism
+	martial=4 diplomacy=4 stewardship=7 intrigue=5 learning=4
+	add_trait=flamboyant_schemer add_trait=hunter add_trait=diligent add_trait=greedy 
+	father=10000	#Omaha
+	mother=10006
+	3955.1.16={ birth=yes }
+	3982.1.1={add_spouse=10007}
+	4003.2.19={ death=yes }
+}
+10002={#west mudora sheikah
+	name=Agimo
+	dynasty=400
+	dna="eciopebafcd"
+	culture=sheikah religion=sheikahism_nihilism
+	martial=5 diplomacy=8 stewardship=4 intrigue=8 learning=8
+	add_trait=tough_soldier add_trait=poet add_trait=proud add_trait=cruel 
+	father=10000	#Omaha
+	mother=10006
+	3959.3.2={ birth=yes }
+	3976.1.1={add_spouse=10008}
+	4023.6.11={ death=yes }
+}
+10003={
+	name=Ofak
+	dynasty=400
+	dna="lapmhklicjd"
+	culture=sheikah religion=sheikahism_nihilism
+	martial=8 diplomacy=8 stewardship=6 intrigue=7 learning=5
+	add_trait=detached_priest add_trait=hedonist add_trait=lustful add_trait=gregarious add_trait=cruel 
+	add_trait=stressed 
+	father=10001	#Owago
+	mother=10007
+	3984.12.22={ birth=yes }
+	4001.1.1={add_spouse=10009}
+	4043.1.31={ death=yes }
+}
+10004={
+	name=Fanadi
+	female=yes
+	dynasty=400
+	dna="mgbkhpbimbd"
+	culture=sheikah religion=sheikahism_nihilism
+	father=10001	#Owago
+	mother=10007
+	3987.11.25={ birth=yes }
+	4034.6.8={ death=yes }
+}
+10005={
+	name=Kadala
+	female=yes
+	dynasty=400
+	dna="oppmpeblacd"
+	culture=sheikah religion=sheikahism_nihilism
+	father=10001	#Owago
+	mother=10007
+	3991.2.2={ birth=yes }
+	4061.1.9={ death=yes }
+}
+
+10006={
+	name=Falan
+	female=yes
+	culture=sheikah religion=sheikahism_nihilism
+	3931.4.8={ birth=yes }
+	3952.1.1={add_spouse=10000}
+	3978.6.21={ death=yes }
+}
+10007={
+	name=Iza
+	female=yes
+	culture=sheikah religion=sheikahism_nihilism
+	3955.1.16={ birth=yes }
+	3982.1.1={add_spouse=10001}
+	4003.2.19={ death=yes }
+}
+10008={
+	name=Idan
+	female=yes
+	culture=sheikah religion=sheikahism_nihilism
+	3959.3.2={ birth=yes }
+	3976.1.1={add_spouse=10002}
+	4023.6.11={ death=yes }
+}
+10009={
+	name=Sohan
+	female=yes
+	culture=sheikah religion=sheikahism_nihilism
+	3984.12.22={ birth=yes }
+	4001.1.1={add_spouse=10003}
+	4043.1.31={ death=yes }
+}
+#Truth 
+10010={
+	name=Omaha
+	nickname="nick_the_impaler"
+	culture=sheikah religion=sheikahism_nihilism
+	martial=5 diplomacy=6 stewardship=5 intrigue=6 learning=8
+	add_trait=brilliant_strategist add_trait=race_sheikah add_trait=impaler add_trait=patient add_trait=cruel trait=just
+	3965.4.8={ birth=yes }
+	4021.6.21={ death=yes }
+}
+#sheikrila haven and empire
+10011={
+	name=Robbie
+	dynasty=405
+	dna="egchobadiin"
+	culture=sheikah religion=sheikahism_nihilism
+	martial=6 diplomacy=4 stewardship=4 intrigue=7 learning=6
+	add_trait=mastermind_theologian add_trait=scholar add_trait=lustful add_trait=kind add_trait=paranoid 
+	add_trait=erudite add_trait=brave 
+	3941.1.27={ birth=yes }
+	3960.1.1={add_spouse=10015}
+	4020.6.25={ death=yes }
+}
+10012={
+	name=Steen
+	culture=sheikah religion=sheikahism_nihilism
+	martial=6 diplomacy=4 stewardship=4 intrigue=7 learning=6
+	add_trait=tough_soldier add_trait=scholar add_trait=chaste add_trait=trusting 
+	add_trait=erudite add_trait=brave 
+	3951.1.27={ birth=yes }
+	3960.1.1={add_spouse=10015}
+	4020.6.25={ death=yes }
+}
+#sheikrila
+10016={
+	name=Steen
+	dynasty=410
+	dna="dandjlklblf"
+	culture=sheikah religion=sheikahism_nihilism
+	martial=4 diplomacy=8 stewardship=6 intrigue=4 learning=8
+	add_trait=misguided_warrior add_trait=gluttonous add_trait=ambitious add_trait=paranoid add_trait=lustful 
+	3967.4.26={ birth=yes }
+	4031.9.5={ death=yes }
+}
+#guarded valley
+10017={
+	name=Maag
+	dynasty=415
+	dna="cepcaggkokd"
+	culture=sheikah religion=sheikahism_nihilism
+	martial=8 diplomacy=4 stewardship=8 intrigue=8 learning=4
+	add_trait=mastermind_theologian add_trait=charitable add_trait=brave add_trait=honest add_trait=cynical 
+	add_trait=cruel 
+	3967.10.10={ birth=yes }
+	4021.3.24={ death=yes }
+}
+#sheikariko sheikariko shipyard e sheikariko
+10018={
+	name=Ne'ez
+	dynasty=420
+	dna="hijcabdnldp"
+	culture=sheikah religion=sheikahism_nihilism
+	martial=6 diplomacy=6 stewardship=4 intrigue=4 learning=4
+	add_trait=detached_priest add_trait=temperate add_trait=gregarious add_trait=wroth 
+	3950.6.11={ birth=yes }
+	4017.2.19={ death=yes }
+}
+10019={
+	name=Keo
+	dynasty=420
+	dna="mkmgafmnndp"
+	culture=sheikah religion=sheikahism_nihilism
+	martial=4 diplomacy=5 stewardship=4 intrigue=6 learning=7
+	add_trait=grey_eminence add_trait=zealous add_trait=gluttonous add_trait=wounded 
+	father=10018	#Ne'ez
+	3974.6.3={ birth=yes }
+	4023.6.5={ death=yes }
+}
+10020={
+	name=Rota
+	dynasty=420
+	dna="afjdabdpidi"
+	culture=sheikah religion=sheikahism_nihilism
+	martial=4 diplomacy=4 stewardship=5 intrigue=6 learning=7
+	add_trait=midas_touched add_trait=kind add_trait=lustful add_trait=charitable add_trait=ambitious 
+	father=10018	#Ne'ez
+	3979.9.17={ birth=yes }
+	4029.5.3={ death=yes }
+}
+10021={
+	name=Purah
+	female=yes
+	dynasty=420
+	dna="hijcambklpp"
+	culture=sheikah religion=sheikahism_nihilism
+	father=10018	#Ne'ez
+	3983.5.22={ birth=yes }
+	4054.8.12={ death=yes }
+}
+#sheikariko harbor
+10022={
+	name=Ja
+	dynasty=425
+	dna="hiidheinioh"
+	culture=sheikah religion=sheikahism_nihilism
+	martial=6 diplomacy=7 stewardship=6 intrigue=7 learning=4
+	add_trait=flamboyant_schemer add_trait=mystic add_trait=just add_trait=deceitful add_trait=cruel 
+	add_trait=paranoid add_trait=brave add_trait=content 
+	3967.10.14={ birth=yes }
+	4014.11.15={ death=yes }
+}
+#factory vale
+10023={
+	name=Kalm
+	dynasty=430
+	dna="jabolgihacg"
+	culture=sheikah religion=sheikahism_nihilism
+	martial=8 diplomacy=8 stewardship=6 intrigue=6 learning=6
+	add_trait=naive_appeaser add_trait=scholar add_trait=honest add_trait=humble add_trait=cynical 
+	add_trait=gregarious add_trait=wroth add_trait=possessed 
+	3968.11.21={ birth=yes }
+	4028.3.13={ death=yes }
+}
+#sheikariko road
+10024={
+	name=Ka'o
+	dynasty=435
+	dna="jpejhmmpcdc"
+	culture=sheikah religion=sheikahism_nihilism
+	martial=8 diplomacy=5 stewardship=5 intrigue=4 learning=7
+	add_trait=midas_touched add_trait=scholar add_trait=shy add_trait=honest add_trait=cruel 
+	add_trait=greedy add_trait=ill 
+	3968.7.17={ birth=yes }
+	4021.11.30={ death=yes }
+}

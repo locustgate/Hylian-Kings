@@ -22,6 +22,7 @@ e_bulblin_1 = {
 	
 	allow = {
 		culture = bulblin
+		
 	}
 }
 e_bulblin_2 = {  
@@ -136,4 +137,49 @@ e_bokoblin_3 = {
 		culture = bokoblin
 	}
 }
+e_mudora_sheikah = { #Mudora Clan
+	color = { 20 0 214 }
 
+	title = "CHIEF"
+	title_female = "CHIEF"
+	capital = 423
+
+	dynasty_title_names = yes 
+	short_name = yes
+	creation_requires_capital = yes
+	
+	allow = {
+		culture=sheikah
+	}
+}
+e_sheikariko_sheikah = { #
+	color = { 20 0 214 }
+
+	title = "CHIEF"
+	title_female = "CHIEF"
+	capital = 423
+
+	dynasty_title_names = yes 
+	short_name = yes
+	creation_requires_capital = yes
+	
+	allow = {
+		culture=sheikah
+	}
+}
+
+e_sheikrila_sheikah = { #Sheikrila Library Council
+	color = { 20 0 214 }
+
+	title = "CHIEF_LIBRARIAN"
+	title_female = "CHIEF_LIBRARIAN"
+	capital = 1944
+
+	dynasty_title_names = yes 
+	short_name = yes
+	creation_requires_capital = yes
+	
+	allow = {
+		culture=sheikah
+	}
+}

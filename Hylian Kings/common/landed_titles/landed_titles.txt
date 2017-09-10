@@ -13904,6 +13904,62 @@ d_valoo_religion = {
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
+#holy orders
+d_truth_council = {
+	color = { 20 0 214 }
+	
+	graphical_culture = holygfx
+	
+	title = "ARCH-INQUISITOR"
+	title_female = "ARCH-INQUISITOR"
+	capital = 1843
+
+	dynasty_title_names = no 
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = truth_council_composition
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	religion=sheikahism_nihilism
+	culture=sheikah	
+	
+	# Extra income due to.....you shouldn't ask.
+	monthly_income = 10 # (Must be an integer between 1 and 512)	
+}
+
+d_librarian_guardians = {
+	color = { 20 0 214 }
+	
+	graphical_culture = holygfx
+	
+	title = "ARCH-INQUISITOR"
+	title_female = "ARCH-INQUISITOR"
+	capital = 1845
+
+	dynasty_title_names = no 
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = truth_council_composition
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	religion=sheikahism_nihilism
+	culture=sheikah	
+	
+	# Extra income due to.....you shouldn't ask.
+	monthly_income = 10 # (Must be an integer between 1 and 512)	
+}
 #howgendoogen league
 b_howgendoogen = {
 	culture = ho_ho
