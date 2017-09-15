@@ -178,7 +178,7 @@ e_hyrule_central = {
 				b_fash = {}
 				b_edeku = {}
 			}
-			c_north_faron_forest ={
+			c_donia ={
 				color={ 250 188 0 }
 				color2={ 255 255 255 }
 				
@@ -198,7 +198,7 @@ e_hyrule_central = {
 			moblin="Bokomon Fields"
 			bulblin="Bokomon Fields"
 			bokoblin="Bokomon Fields"	
-			c_east_faron_field ={
+			c_roore ={
 				color={ 57 163 0 }
 				color2={ 255 255 255 }
 				
@@ -207,7 +207,7 @@ e_hyrule_central = {
 				b_muton = {}
 				b_radu = {}
 			}
-			c_south_faron_field ={
+			c_hyrore ={
 				color={ 39 39 39 }
 				color2={ 255 255 255 }
 				
@@ -215,7 +215,7 @@ e_hyrule_central = {
 				b_midu = {}
 				b_dobon = {}
 			}
-			c_west_faron_field ={
+			c_orasal ={
 				color={ 144 98 151 }
 				color2={ 255 255 255 }
 				
@@ -224,7 +224,7 @@ e_hyrule_central = {
 				b_edaral = {}
 				b_oryade = {}
 			}
-			c_north_faron_field ={
+			c_didu ={
 				color={ 48 137 4 }
 				color2={ 255 255 255 }
 				
@@ -354,7 +354,7 @@ e_hyrule_central = {
 			moblin="North Bulbol"
 			bulblin="North Bulbol"
 			bokoblin="North Bulbol"
-			c_north_lanayru_field = {			
+			c_mash = {			
 				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				
@@ -376,7 +376,7 @@ e_hyrule_central = {
 					pentarchy = golden_goddesses
 					}
 			}		
-			c_east_lanayru_field = {			
+			c_muryia = {			
 				color={ 57 163 0 }
 				color2={ 255 255 255 }
 				
@@ -405,7 +405,7 @@ e_hyrule_central = {
 				moblin="Hylia Bulbol"
 				bulblin="Hylia Bulbol"
 				bokoblin="Hylia Bulbol"
-			c_west_lanayru_field = {			
+			c_edusa = {			
 				color={ 242 227 81 }
 				color2={ 255 255 255 }
 				
@@ -415,7 +415,7 @@ e_hyrule_central = {
 				b_mobo = {}
 				b_edontu = {}
 			}
-			c_south_lanayru_field = {			
+			c_cruta = {			
 				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				
@@ -491,7 +491,7 @@ e_hyrule_central = {
 			moblin="North Bulomon"
 			bulblin="North Bulomon"
 			bokoblin="North Bulomon"
-			c_north_eldin_plateau = {
+			c_edora = {
 				color={ 192 65 14 }
 				color2={ 255 255 255 }
 				
@@ -500,7 +500,7 @@ e_hyrule_central = {
 				b_kuralu = {}
 				b_nidan = {}
 			}
-			c_north_eldin_bridge = {
+			c_plateau_gate = {
 				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				
@@ -509,7 +509,7 @@ e_hyrule_central = {
 				b_ontapo = {}
 				b_mubia = {}
 			}
-			c_hidden_village = {
+			c_mount_edora = {
 				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				eldin="Mount Edora"
@@ -537,7 +537,7 @@ e_hyrule_central = {
 			moblin="Central Bulomon"
 			bulblin="Central Bulomon"
 			bokoblin="Central Bulomon"
-			c_northeast_eldin_field = {
+			c_mubia = {
 				color={ 188 0 7 }
 				color2={ 255 255 255 }
 				
@@ -555,7 +555,7 @@ e_hyrule_central = {
 				b_orobo = {}
 				b_korosh = {}
 			}
-			c_northwest_eldin_field = {
+			c_roryu = {
 				color={ 167 56 56 }
 				color2={ 255 255 255 }
 				
@@ -563,7 +563,7 @@ e_hyrule_central = {
 				b_fanan = {}
 				b_onin = {}
 			}
-			c_south_eldin_bridge = {
+			c_field_gate = {
 				color={ 255 206 0 }
 				color2={ 255 255 255 }
 				
@@ -592,7 +592,7 @@ e_hyrule_central = {
 				b_gorge_watchtower = {}
 				b_gorgetown = {}
 			}
-			c_southwest_eldin_field = {
+			c_croda = {
 				color={ 153 7 6 }
 				color2={ 255 255 255 }
 				
@@ -600,7 +600,7 @@ e_hyrule_central = {
 				b_orobe = {}
 				b_korosha = {}
 			}
-			c_southeast_eldin_field = {
+			c_minane = {
 				color={ 84 107 86 }
 				color2={ 255 255 255 }
 				
@@ -740,7 +740,7 @@ e_hyrule_central = {
 			color={ 204 178 0 }
 			color2={ 255 255 255 }
 			capital = 586 # Middlesex
-			c_north_ordon_forest = {
+			c_midia = {
 				color={ 0 87 148 }
 				color2={ 255 255 255 }
 			
@@ -757,7 +757,7 @@ e_hyrule_central = {
 				b_palo = {}
 				b_codia = {}
 			}
-			c_south_ordon_forest = {
+			c_cidia = {
 				color={ 195 169 118 }
 				color2={ 255 255 255 }
 				
@@ -823,7 +823,7 @@ e_hyrule_central = {
 			color={ 255 245 175 }
 			color2={ 255 255 255 }
 			capital = 594 # Middlesex
-			c_south_ordon_field = {
+			c_tilan = {
 				color={ 142 55 67 }
 				color2={ 255 255 255 }
 				
@@ -831,7 +831,7 @@ e_hyrule_central = {
 				b_podan = {}
 				b_mino = {}
 			}
-			c_east_ordon_field = {
+			c_talo = {
 				color={ 71 141 76 }
 				color2={ 255 255 255 }
 			
@@ -841,7 +841,7 @@ e_hyrule_central = {
 				b_midor = {}
 				b_mardo = {}
 			}
-			c_west_ordon_field = {
+			c_ordia = {
 				color={ 84 107 86 }
 				color2={ 255 255 255 }
 			
@@ -854,7 +854,7 @@ e_hyrule_central = {
 			color={ 214 205 147 }
 			color2={ 255 255 255 }
 			capital = 598 # Middlesex
-			c_north_ordon_field = {
+			c_calin = {
 				color={ 250 188 0 }
 				color2={ 255 255 255 }
 			
@@ -1208,7 +1208,7 @@ e_hyrule_central = {
 			color={ 1 171 74 }
 			color2={ 65 69 156 }
 			capital = 457 # Hyrule Castle
-			c_south_hyrule_field = {			
+			c_oryaro = {			
 				color={ 63 68 184 }
 				color2={ 242 137 255 }
 				
@@ -1217,7 +1217,7 @@ e_hyrule_central = {
 				b_hyre = {}
 				b_dobaro = {}
 			}
-			c_southwest_hyrule_field= {			
+			c_hylia_gate= {			
 				color={ 0 30 183 }
 				color2={ 176 174 0 }
 				
@@ -1232,7 +1232,7 @@ e_hyrule_central = {
 				b_gerudo_gate = {}
 				b_danin = {}
 			}
-			c_west_hyrule_field = {			
+			c_ediri = {			
 				color={ 185 0 0 }
 				color2={ 255 255 255 }
 				b_ediri = {}
@@ -1245,7 +1245,7 @@ e_hyrule_central = {
 			color={ 2 0 174 }
 			color2={ 206 15 15 }
 			capital = 459 # Hyrule Castle
-			c_east_hyrule_field = {			
+			c_madas = {			
 				color={ 2 0 174 }
 				color2={ 206 15 15 }
 				
@@ -1256,7 +1256,7 @@ e_hyrule_central = {
 				b_opo = {}
 			
 			}
-			c_north_hyrule_field = {
+			c_nalo = {
 				color={ 124 0 0 }
 				color2={ 255 255 255 }
 				
@@ -1266,7 +1266,7 @@ e_hyrule_central = {
 				b_dogin = {}
 				b_kurin = {}
 			}
-			c_south_east_hyrule_field = {
+			c_madas_retreat = {
 				color={ 0 134 227 }
 				color2={ 19 136 0 }
 				
@@ -1275,7 +1275,7 @@ e_hyrule_central = {
 				b_osanan = {}
 				b_torin = {}
 			}
-			c_central_hyrule_field = {
+			c_muro = {
 				color={ 45 145 50 }
 				color2={ 255 248 191 }
 				b_muro = {}
