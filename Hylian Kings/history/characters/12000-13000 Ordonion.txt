@@ -1,0 +1,739 @@
+#Ordon, Ordon Ranch, Ordon Plains, d_ordon
+12000 = {
+	name=Hanch
+	disallow_random_traits=yes
+	
+	dynasty=401
+	diplomacy=10
+	martial=8
+	intrigue=5
+	stewardship=4
+	learning=6
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	trait=grey_eminence
+	trait=brave
+	trait=tall
+	trait=robust
+	trait=gregarious
+	trait=honest
+	trait=cavalry_leader
+	trait=inspiring_leader
+	3939.4.27={
+		birth=yes
+	}
+	3963.9.14={
+		add_spouse=12001
+	}
+	3986.7.7={
+		death={ death_reason=death_accident }
+	}
+}
+12001 = {
+	name=Alela
+	
+	female=yes
+	dynasty=411
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3947.9.14={
+		birth=yes
+	}
+	3963.9.14={
+		add_spouse=12000
+	}
+	4001.1.1={death=yes}
+}
+12002 = {
+	name=Bal
+	disallow_random_traits=yes
+	
+	mother=12001
+	father=12000
+	dynasty=401
+	diplomacy=8
+	martial=10
+	intrigue=5
+	stewardship=4
+	learning=6
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	trait=brilliant_strategist
+	trait=brave
+	trait=tall
+	trait=gregarious
+	trait=honest
+	trait=content
+	trait=cavalry_leader
+	3964.8.14={
+		birth=yes
+	}
+	4021.1.1={death=yes}
+}
+12003 = {
+	name=Cido
+	disallow_random_traits=yes
+	
+	mother=12001
+	father=12000
+	dynasty=401
+	diplomacy=10
+	martial=6
+	intrigue=5
+	stewardship=8
+	learning=6
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	trait=grey_eminence
+	trait=trusting
+	trait=gregarious
+	trait=shrewd
+	trait=ambitious
+	trait=greedy
+	3966.7.1={
+		birth=yes
+	}
+	4021.1.1={death=yes}
+}
+12004 = {
+	female=yes
+	name=Irgei
+	
+	mother=12001
+	father=12000
+	dynasty=401
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3969.9.14={
+		birth=yes
+	}
+	4031.1.1={death=yes}
+}
+12005 = {
+	female=yes
+	name=Curgi
+	
+	mother=12001
+	father=12000
+	dynasty=401
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3970.12.24={
+		birth=yes
+	}
+	4029.1.1={death=yes}
+}
+12006 = {
+	name=Palo
+	
+	mother=12001
+	father=12000
+	dynasty=401
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3973.2.23={
+		birth=yes
+	}
+	4030.1.1={death=yes}
+}
+12007 = {
+	name=Ulo
+	
+	mother=12001
+	father=12000
+	dynasty=401
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3977.9.14={
+		birth=yes
+	}
+	4027.1.1={death=yes}
+}
+12008 = {
+	name=Irgal
+	female=yes
+	
+	mother=12001
+	father=12000
+	dynasty=401
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3981.2.23={
+		birth=yes
+	}
+	4031.1.1={death=yes}
+}
+12009 = {
+	name=Curgi
+	female=yes
+	
+	mother=12001
+	father=12000
+	dynasty=401
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3985.6.13={
+		birth=yes
+	}
+	4041.1.1={death=yes}
+}
+#loggervale, Ordon wedge
+
+12010 = {
+	name=Folo
+	disallow_random_traits=yes
+	diplomacy=6
+	martial=8
+	intrigue=4
+	stewardship=6
+	learning=5
+	
+	dynasty=402
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	trait=tough_soldier
+	trait=cruel
+	trait=charitable
+	trait=craven
+	trait=stubborn
+	3944.3.1={
+		birth=yes
+	}	
+	3961.7.11={
+		add_spouse=12011
+	}
+	3991.1.1={death=yes}
+}
+12011 = {
+	name=Irgen
+	female=yes
+	
+	dynasty=434
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3944.7.11={
+		birth=yes
+	}	
+	3961.7.11={
+		add_spouse=12010
+	}
+	4006.1.1={death=yes}
+}
+12012 = {
+	name=Fel
+	disallow_random_traits=yes	
+	mother=12011
+	father=12010
+	dynasty=402
+	diplomacy=10
+	martial=7
+	intrigue=5
+	stewardship=6
+	learning=5
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	trait=charismatic_negotiator
+	trait=kind
+	trait=charitable
+	trait=erudite
+	trait=stutter
+	3967.9.4={
+		birth=yes
+	}	
+	3984.9.4={
+		add_spouse=12016
+	}
+	4031.1.1={death=yes}
+}
+12013 = {
+	name=Ceda
+	female=yes
+	
+	mother=12011
+	father=12010
+	dynasty=402
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3975.7.14={
+		birth=yes
+	}
+	4031.1.1={death=yes}
+}
+12014 = {
+	name=Ulen
+	
+	mother=12011
+	father=12010
+	dynasty=402
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3979.3.27={
+		birth=yes
+	}
+	4036.1.1={death=yes}
+}
+12015 = {
+	name=Peshe
+	female=yes
+	
+	mother=12011
+	father=12010
+	dynasty=402
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3985.11.4={
+		birth=yes
+	}
+	4042.1.1={death=yes}
+}
+
+12016 = {
+	name=Utia
+	female=yes	
+	dynasty=3605
+	diplomacy=6
+	martial=9
+	intrigue=5
+	stewardship=6
+	learning=6
+	religion=great_deku
+	culture=kokiri
+	trait=race_kokiri
+	trait=elusive_shadow
+	trait=kind
+	trait=quick
+	trait=shrewd
+	trait=paranoid
+	trait=chaste
+	3902.3.24={
+		birth=yes
+	}
+	3984.9.4={
+		add_spouse=12012
+	}
+	4613.11.20={ death=yes }
+}
+
+#Ordia, calin, laketown
+
+12017 = {
+	name=Paden
+	disallow_random_traits=yes
+	diplomacy=8
+	martial=5
+	intrigue=5
+	stewardship=9
+	learning=6
+	
+	dynasty=420
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	trait=thrifty_clerk
+	trait=erudite
+	trait=greedy
+	trait=shrewd
+	trait=feeble
+	3953.7.24={
+		birth=yes
+	}	
+	3972.3.18={
+		add_spouse=12018
+	}	
+	4012.1.1={death=yes}
+}
+12018 = {
+	female=yes
+	name=Tada
+	
+	dynasty=421
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human	
+	3956.3.18={
+		birth=yes
+	}
+	3972.3.18={
+		add_spouse=12017
+	}	
+	4014.1.1={death=yes}
+}
+12019 = {
+	name=Irari
+
+	female=yes
+	
+	dynasty=420
+	mother=12018
+	father=12017
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human	
+	3975.6.26={
+		birth=yes
+	}
+	4035.1.1={death=yes}
+}
+12020 = {
+	female=yes
+	name=Cishe
+	
+	dynasty=420
+	mother=12018
+	father=12017
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human	
+	3978.9.24={
+		birth=yes
+	}
+	4034.1.1={death=yes}
+}
+12021 = {
+	name=Teri
+	
+	dynasty=420
+	mother=12018
+	father=12017
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human	
+	3981.7.8={
+		birth=yes
+	}
+	4047.1.1={death=yes}
+}
+12022 = {
+	name=Mench
+	
+	dynasty=420
+	mother=12018
+	father=12017
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human	
+	3984.11.8={
+		birth=yes
+	}
+	4043.1.1={death=yes}
+}
+12023 = {
+	name=Carul
+	female=yes
+	
+	dynasty=420
+	mother=12018
+	father=12017
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human	
+	3986.10.8={
+		birth=yes
+	}
+	4041.1.1={death=yes}
+}
+#Tilan
+
+12024 = {
+	name=Cale
+	
+	dynasty=427
+	diplomacy=5
+	martial=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3967.3.27={
+		birth=yes
+	}
+	4026.1.1={death=yes}
+}
+#Ordon Eaves
+
+12025 = { 
+	name=Alan
+	
+	dynasty=428
+	diplomacy=5
+	martial=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	religion=light_spirits
+	culture=ordonion
+	trait=race_human
+	3968.12.7={
+		birth=yes
+	}
+	4026.1.1={death=yes}
+}
+#talo
+12026={
+	name=Irgo
+	dynasty=430
+	dna="kdiandikdpb"
+	culture=ordonion religion=light_spirits
+	martial=7 diplomacy=7 stewardship=8 intrigue=4 learning=8
+	add_trait=martial_cleric add_trait=scholar add_trait=cynical add_trait=arbitrary add_trait=stressed 
+	3969.5.10={ birth=yes }
+	4019.10.2={ death=yes }
+}
+#ordonia fords
+12027={
+	name=Cilo
+	dynasty=435
+	dna="amdkpephaie"
+	culture=ordonion religion=light_spirits
+	martial=8 diplomacy=7 stewardship=6 intrigue=6 learning=8
+	add_trait=grey_eminence add_trait=charitable add_trait=paranoid 
+	3968.2.18={ birth=yes }
+	4021.7.14={ death=yes }
+}
+#mano
+12028={
+	name=Argi
+	dynasty=440
+	dna="mbidhkpfcdc"
+	culture=ordonion religion=light_spirits
+	martial=4 diplomacy=8 stewardship=4 intrigue=7 learning=6
+	add_trait=detached_priest add_trait=paranoid add_trait=just add_trait=slothful add_trait=patient 
+	add_trait=proud add_trait=stressed 
+	3968.1.12={ birth=yes }
+	4031.3.15={ death=yes }
+}
+#great_ordonia, podin
+12029={
+	name=Fodo
+	dynasty=445
+	dna="aocjbkkmfgp"
+	culture=ordonion religion=light_spirits
+	martial=4 diplomacy=5 stewardship=4 intrigue=5 learning=7
+	add_trait=grey_eminence add_trait=patient add_trait=cruel add_trait=diligent add_trait=humble 
+	3921.9.20={ birth=yes }
+	3945.1.1={add_spouse=12041}
+	3969.3.24={ death=yes }
+}
+12030={
+	name=Tule
+	dynasty=445
+	dna="aoejgaidfcj"
+	culture=ordonion religion=light_spirits
+	martial=7 diplomacy=5 stewardship=5 intrigue=8 learning=7
+	add_trait=mastermind_theologian add_trait=shy add_trait=humble add_trait=chaste 
+	father=12029	#Fodo
+	3947.4.23={ birth=yes }
+	3967.1.1={add_spouse=12042}
+	4010.12.12={ death=yes }
+}
+12031={
+	name=Uri
+	female=yes
+	dynasty=445
+	dna="aojjhhimfbp"
+	culture=ordonion religion=light_spirits
+	father=12029	#Fodo
+	3948.3.21={ birth=yes }
+	3994.12.16={ death=yes }
+}
+12032={
+	name=Selei
+	female=yes
+	dynasty=445
+	dna="aocnpkkaodd"
+	culture=ordonion religion=light_spirits
+	father=12029	#Fodo
+	3951.8.5={ birth=yes }
+	4024.1.20={ death=yes }
+}
+12033={
+	name=Redei
+	female=yes
+	dynasty=445
+	dna="gocjbkenfmn"
+	culture=ordonion religion=light_spirits
+	father=12029	#Fodo
+	3954.9.6={ birth=yes }
+	4017.7.1={ death=yes }
+}
+12034={
+	name=Jaggle
+	dynasty=445
+	dna="aokjbkkmpda"
+	culture=ordonion religion=light_spirits
+	martial=5 diplomacy=7 stewardship=4 intrigue=8 learning=6
+	add_trait=martial_cleric add_trait=slothful add_trait=gluttonous add_trait=just add_trait=humble 
+	add_trait=envious add_trait=lunatic 
+	father=12029	#Fodo
+	3957.10.19={ birth=yes }
+	4022.11.21={ death=yes }
+}
+12035={
+	name=Padi
+	female=yes
+	dynasty=445
+	dna="anijngjmfdp"
+	culture=ordonion religion=light_spirits
+	father=12029	#Fodo
+	3959.3.15={ birth=yes }
+	4028.11.1={ death=yes }
+}
+12036={
+	name=Alara
+	female=yes
+	dynasty=445
+	dna="pecjbkkmflc"
+	culture=ordonion religion=light_spirits
+	father=12029	#Fodo
+	3962.6.9={ birth=yes }
+	4016.7.25={ death=yes }
+}
+12037={
+	name=Borei
+	dynasty=445
+	dna="jfefdaidefp"
+	culture=ordonion religion=light_spirits
+	martial=4 diplomacy=4 stewardship=8 intrigue=6 learning=5
+	add_trait=midas_touched add_trait=cynical add_trait=honest add_trait=envious add_trait=temperate 
+	father=12030	#Tule
+	3968.6.9={ birth=yes }
+	4028.3.7={ death=yes }
+}
+12038={
+	name=Hodei
+	dynasty=445
+	dna="eojcdabafcj"
+	culture=ordonion religion=light_spirits
+	martial=8 diplomacy=7 stewardship=8 intrigue=8 learning=8
+	add_trait=detached_priest add_trait=patient add_trait=gregarious 
+	father=12030	#Tule
+	3972.4.25={ birth=yes }
+	4047.2.13={ death=yes }
+}
+12039={
+	name=Hulo
+	dynasty=445
+	dna="aoapgnomfgj"
+	culture=ordonion religion=light_spirits
+	martial=8 diplomacy=5 stewardship=8 intrigue=4 learning=7
+	add_trait=detached_priest add_trait=just add_trait=brave 
+	father=12030	#Tule
+	3978.6.17={ birth=yes }
+	4030.8.5={ death=yes }
+}
+12040={
+	name=Mel
+	dynasty=445
+	dna="abejgpdebci"
+	culture=ordonion religion=light_spirits
+	martial=5 diplomacy=5 stewardship=7 intrigue=6 learning=7
+	add_trait=scholarly_theologian add_trait=trusting add_trait=kind add_trait=slothful add_trait=humble 
+	father=12030	#Tule
+	3980.2.1={ birth=yes }
+	4040.8.2={ death=yes }
+}
+12041 = { #12029
+	name=Ilia
+	female=yes
+	culture=ordonion religion=light_spirits
+	3921.9.20={ birth=yes }
+	3945.1.1={add_spouse=12029}
+	3969.3.24={ death=yes }
+}
+12042 = { #12030
+	name=Pergie
+	female=yes
+	culture=ordonion religion=light_spirits
+	3947.4.23={ birth=yes }
+	3967.1.1={add_spouse=12030}
+	4010.12.12={ death=yes }
+}
+#fono
+12043={
+	name=Uloth
+	dynasty=450
+	dna="epfkbgfkkld"
+	culture=ordonion religion=light_spirits
+	martial=8 diplomacy=8 stewardship=8 intrigue=7 learning=7
+	add_trait=misguided_warrior add_trait=gluttonous add_trait=cynical add_trait=envious add_trait=ill 
+	3968.5.16={ birth=yes }
+	4040.2.13={ death=yes }
+}
+
+#rivertown
+12044={
+	name=Padali
+	dynasty=455
+	dna="gofpkpndpbn"
+	culture=ordonion religion=light_spirits
+	martial=6 diplomacy=4 stewardship=4 intrigue=7 learning=8
+	add_trait=elusive_shadow add_trait=shy add_trait=ambitious add_trait=diligent add_trait=cynical 
+	3967.9.15={ birth=yes }
+	4034.11.7={ death=yes }
+}
+
+#ordonia gap
+12045={
+	name=Urgi
+	dynasty=460
+	dna="bighdneaibd"
+	culture=ordonion religion=light_spirits
+	martial=5 diplomacy=6 stewardship=8 intrigue=6 learning=4
+	add_trait=skilled_tactician add_trait=mystic add_trait=deceitful add_trait=gluttonous add_trait=wroth 
+	add_trait=gregarious add_trait=chaste 
+	3967.1.13={ birth=yes }
+	4027.10.30={ death=yes }
+}
+
+#ordonia
+12046={
+	name=Cede
+	dynasty=465
+	dna="bdcoafljifj"
+	culture=ordonion religion=light_spirits
+	martial=7 diplomacy=7 stewardship=6 intrigue=7 learning=7
+	add_trait=flamboyant_schemer add_trait=gardener add_trait=craven add_trait=humble 
+	3967.9.12={ birth=yes }
+	4029.3.12={ death=yes }
+}
+
+#wooddell
+12047={
+	name=Cudin
+	dynasty=470
+	dna="idahmonebcc"
+	culture=ordonion religion=light_spirits
+	martial=4 diplomacy=6 stewardship=8 intrigue=5 learning=4
+	add_trait=naive_appeaser add_trait=gardener add_trait=proud add_trait=cruel add_trait=content 
+	3967.6.18={ birth=yes }
+	4022.3.8={ death=yes }
+}
+#ilino
+12048={
+	name=Cede
+	dynasty=475
+	dna="bdcoafljifj"
+	culture=ordonion religion=light_spirits
+	martial=7 diplomacy=7 stewardship=6 intrigue=7 learning=7
+	add_trait=mastermind_theologian add_trait=gardener add_trait=craven add_trait=humble 
+	3967.9.12={ birth=yes }
+	4029.3.12={ death=yes }
+}
