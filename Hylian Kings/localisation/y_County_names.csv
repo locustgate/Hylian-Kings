@@ -1,4 +1,50 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+c_dinon;Dinon;;;;;;;;;;;;;x
+c_dinon_adj;Dinonian;;;;;;;;;;;;;x
+c_minish_hyrule_castle;Minish Castle;;;;;;;;;;;;;x
+c_minish_hyrule_castle_adj;Minish;;;;;;;;;;;;;x
+c_lon_lon_field;Lon Lon Field;;;;;;;;;;;;;x
+c_lon_lon_field_adj;Fielder;;;;;;;;;;;;;x
+c_minish_town;Minish Town;;;;;;;;;;;;;x
+c_minish_town_adj;Minish Towner;;;;;;;;;;;;;x
+c_eastern_hills;Eastern Hills;;;;;;;;;;;;;x
+c_eastern_hills_adj;Hillsman;;;;;;;;;;;;;x
+c_minish_mines;Minish Mines;;;;;;;;;;;;;x
+c_minish_mines_adj;Minish Miner;;;;;;;;;;;;;x
+c_smith_field;Smith's Field;;;;;;;;;;;;;x
+c_smith_field_adj;Smith;;;;;;;;;;;;;x
+c_trilby_highlands;Trilby Highlands;;;;;;;;;;;;;x
+c_trilby_highlands;Trilby Highlander;;;;;;;;;;;;;x
+c_western_wood;Western Wood;;;;;;;;;;;;;x
+c_western_wood_adj;Woodsman;;;;;;;;;;;;;x
+c_rorin;Rorin;;;;;;;;;;;;;x
+c_rorin_adj;Rorion;;;;;;;;;;;;;x
+c_gale_gate;Gale Gate;;;;;;;;;;;;;x
+c_gale_gate_adj;Galian;;;;;;;;;;;;;x
+c_keatonia;Keatonia;;;;;;;;;;;;;x
+c_keatonia_adj;Keatonian;;;;;;;;;;;;;x
+c_tsar_gate;Tsar Gate;;;;;;;;;;;;;x
+c_tsar_gate_adj;Tsarian;;;;;;;;;;;;;x
+c_kari;Kari;;;;;;;;;;;;;x
+c_kari_adj;Karian;;;;;;;;;;;;;x
+c_jewel_mines;Jewel Mines;;;;;;;;;;;;;x
+c_jewel_mines_adj;Miners;;;;;;;;;;;;;x
+c_koba;Koba;;;;;;;;;;;;;x
+c_koba_adj;Koban;;;;;;;;;;;;;x
+c_hyrule_gate;Hyrule Gate;;;;;;;;;;;;;x
+c_hyrule_gate_adj;Gateman;;;;;;;;;;;;;x
+c_hylia_road;Hylian Road;;;;;;;;;;;;;x
+c_hylia_road_adj;Roadman;;;;;;;;;;;;;x
+c_maldo;Maldo;;;;;;;;;;;;;x
+c_maldo_adj;Maldo;;;;;;;;;;;;;x
+c_munabia;Munabia;;;;;;;;;;;;;x
+c_munabia_adj;Munabian;;;;;;;;;;;;;x
+c_kalal;Kalal;;;;;;;;;;;;;x
+c_kalal_adj;Kalalian;;;;;;;;;;;;;x
+c_nin;Nin;;;;;;;;;;;;;x
+c_nin_adj;Ninian;;;;;;;;;;;;;x
+c_port_minish;Port Minish;;;;;;;;;;;;;x
+c_port_minish_adj;Minish;;;;;;;;;;;;;x
 c_falsia;Falsia;;;;;;;;;;;;;x
 c_lachry;Lachry;;;;;;;;;;;;;x
 c_fetsia;Fetsia;;;;;;;;;;;;;x
@@ -65,7 +111,7 @@ c_minane;Minane;;;;;;;;;;;;;x
 c_kakariko_gorge;Kakariko Gorge;;;;;;;;;;;;;x
 c_ordon_spring;Ordon Spring;;;;;;;;;;;;;x
 c_ordon_woods;Ordon Woods;;;;;;;;;;;;;x
-c_eaves_of_ordon;Ordon Eaves;;;;;;;;;;;;;x
+c_ordon_eaves;Ordon Eaves;;;;;;;;;;;;;x
 c_midia;Midia;;;;;;;;;;;;;x
 c_ordon_groves;Ordon Groves;;;;;;;;;;;;;x
 c_cidia;Cidia;;;;;;;;;;;;;x
@@ -79,16 +125,16 @@ c_talo;Talo;;;;;;;;;;;;;x
 c_ordia;Ordia;;;;;;;;;;;;;x
 c_calin;Calin;;;;;;;;;;;;;x
 c_laketown;Laketown;;;;;;;;;;;;;x
-c_fords_of_ordonia;Ordonia Fords;;;;;;;;;;;;;x
+c_ordonia_fords;Ordonia Fords;;;;;;;;;;;;;x
 c_wooddell;Wooddell;;;;;;;;;;;;;x
 c_rivertown;Rivertown;;;;;;;;;;;;;x
 c_ordonia_gap;Ordonia Gap;;;;;;;;;;;;;x
 c_ordonia;Ordonia;;;;;;;;;;;;;x
-c_south_ordonia_plateau;Fono;;;;;;;;;;;;;x
-c_east_ordonia_plateau;Ilino;;;;;;;;;;;;;x
-c_great_ordonia_plateau;Great Ordonia;;;;;;;;;;;;;x
-c_north_ordonia_plateau;Podin;;;;;;;;;;;;;x
-c_west_ordonia_plateau;Mano;;;;;;;;;;;;;x
+c_fono;Fono;;;;;;;;;;;;;x
+c_ilino;Ilino;;;;;;;;;;;;;x
+c_great_ordonia;Great Ordonia;;;;;;;;;;;;;x
+c_podin;Podin;;;;;;;;;;;;;x
+c_mano;Mano;;;;;;;;;;;;;x
 c_mount_hylia;Mount Hylia;;;;;;;;;;;;;x
 c_castle_town_gate;Castle Town Gate;;;;;;;;;;;;;x
 c_west_castle_town;Noble Town;;;;;;;;;;;;;x
@@ -1874,10 +1920,10 @@ c_vola;Vola;Vola;Vola;;Vola;;;;;;;;;x
 c_vola_adj;Volan;;voler;;;;;;;;;;;x
 c_drabland_fortress;Drabland Fortress;Drabland Fortress;Drabland Fortress;;Drabland Fortress;;;;;;;;;x
 c_drabland_fortress_adj;Drabland Fortressian;;Drabland Fortresser;;;;;;;;;;;x
-c_east_hytopia_field;East Hytopia Field;East Hytopia Field;East Hytopia Field;;East Hytopia Field;;;;;;;;;x
-c_east_hytopia_field_adj;East Hytopia Fieldian;;East Hytopia Fielder;;;;;;;;;;;x
-c_east_hytopia_gate;East Hytopia Gate;East Hytopia Gate;East Hytopia Gate;;East Hytopia Gate;;;;;;;;;x
-c_east_hytopia_gate_adj;East Hytopia Gatean;;East Hytopia Gater;;;;;;;;;;;x
+c_munab;Munab;Munab;Munab;;Munab;;;;;;;;;x
+c_munab_adj;Munabian;;Munaber;;;;;;;;;;;x
+c_silk_gate;Silk Gate;Silk Gate;Silk Gate;;Silk Gate;;;;;;;;;x
+c_silk_gate_adj;Silk Gatean;;Silk Gater;;;;;;;;;;;x
 c_fab_arm;Fab Arm;Fab Arm;Fab Arm;;Fab Arm;;;;;;;;;x
 c_fab_arm_adj;Fab Armian;;Fab Armer;;;;;;;;;;;x
 c_fabland_gate;Fabland Gate;Fabland Gate;Fabland Gate;;Fabland Gate;;;;;;;;;x
@@ -1920,10 +1966,10 @@ c_sky_isles;Sky Isles;Sky Isles;Sky Isles;;Sky Isles;;;;;;;;;x
 c_sky_isles_adj;Sky Islesian;;Sky Isleser;;;;;;;;;;;x
 c_trial_island;Trial Island;Trial Island;Trial Island;;Trial Island;;;;;;;;;x
 c_trial_island_adj;Trial Islandian;;Trial Islander;;;;;;;;;;;x
-c_west_hytopia_field;West Hytopia Field;West Hytopia Field;West Hytopia Field;;West Hytopia Field;;;;;;;;;x
-c_west_hytopia_field_adj;West Hytopia Fieldian;;West Hytopia Fielder;;;;;;;;;;;x
-c_west_hytopia_gate;West Hytopia Gate;West Hytopia Gate;West Hytopia Gate;;West Hytopia Gate;;;;;;;;;x
-c_west_hytopia_gate_adj;West Hytopia Gatean;;West Hytopia Gater;;;;;;;;;;;x
+c_furia;Furia;Furia;Furia;;Furia;;;;;;;;;x
+c_furia_adj;Furiaian;;Furiaer;;;;;;;;;;;x
+c_gilded_gate;Gilded Gate;Gilded Gate;Gilded Gate;;Gilded Gate;;;;;;;;;x
+c_gilded_gate_adj;Gilded Gatean;;Gilded Gater;;;;;;;;;;;x
 c_assassins_fortress;Assassins Fortress;Assassins Fortress;Assassins Fortress;;Assassins Fortress;;;;;;;;;x
 c_assassins_fortress_adj;Assassins Fortressian;;Assassins Fortresser;;;;;;;;;;;x
 c_battle_plains;Battle Plains;Battle Plains;Battle Plains;;Battle Plains;;;;;;;;;x

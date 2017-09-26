@@ -183,3 +183,18 @@ e_sheikrila_sheikah = { #Sheikrila Library Council
 		culture=sheikah
 	}
 }
+e_chana = { #Clan Chana
+	color = { 20 0 214 }
+
+	capital = 1944
+	title = "CHIEF"
+	title_female = "CHIEF"
+
+	dynasty_title_names = yes 
+	short_name = yes
+	creation_requires_capital = yes
+	
+	allow = {
+		culture=sheikah
+	}
+}

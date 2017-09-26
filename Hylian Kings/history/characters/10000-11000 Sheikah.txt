@@ -1,7 +1,7 @@
 #Mudora
 10000={
 	name=Omaha
-	dynasty=400
+	dynasty=300
 	dna="ehpogeoafcd"
 	culture=sheikah religion=sheikahism_nihilism
 	martial=5 diplomacy=6 stewardship=5 intrigue=4 learning=8
@@ -12,7 +12,7 @@
 }
 10001={#eastern mudora sheikah
 	name=Owago
-	dynasty=400
+	dynasty=300
 	dna="lhpmhebiccd"
 	culture=sheikah religion=sheikahism_nihilism
 	martial=4 diplomacy=4 stewardship=7 intrigue=5 learning=4
@@ -25,7 +25,7 @@
 }
 10002={#west mudora sheikah
 	name=Agimo
-	dynasty=400
+	dynasty=300
 	dna="eciopebafcd"
 	culture=sheikah religion=sheikahism_nihilism
 	martial=5 diplomacy=8 stewardship=4 intrigue=8 learning=8
@@ -38,7 +38,7 @@
 }
 10003={
 	name=Ofak
-	dynasty=400
+	dynasty=300
 	dna="lapmhklicjd"
 	culture=sheikah religion=sheikahism_nihilism
 	martial=8 diplomacy=8 stewardship=6 intrigue=7 learning=5
@@ -53,7 +53,7 @@
 10004={
 	name=Fanadi
 	female=yes
-	dynasty=400
+	dynasty=300
 	dna="mgbkhpbimbd"
 	culture=sheikah religion=sheikahism_nihilism
 	father=10001	#Owago
@@ -64,7 +64,7 @@
 10005={
 	name=Kadala
 	female=yes
-	dynasty=400
+	dynasty=300
 	dna="oppmpeblacd"
 	culture=sheikah religion=sheikahism_nihilism
 	father=10001	#Owago
@@ -118,7 +118,7 @@
 #sheikrila haven and empire
 10011={
 	name=Robbie
-	dynasty=405
+	dynasty=305
 	dna="egchobadiin"
 	culture=sheikah religion=sheikahism_nihilism
 	martial=6 diplomacy=4 stewardship=4 intrigue=7 learning=6
@@ -141,7 +141,7 @@
 #sheikrila
 10016={
 	name=Steen
-	dynasty=410
+	dynasty=310
 	dna="dandjlklblf"
 	culture=sheikah religion=sheikahism_nihilism
 	martial=4 diplomacy=8 stewardship=6 intrigue=4 learning=8
@@ -152,7 +152,7 @@
 #guarded valley
 10017={
 	name=Maag
-	dynasty=415
+	dynasty=315
 	dna="cepcaggkokd"
 	culture=sheikah religion=sheikahism_nihilism
 	martial=8 diplomacy=4 stewardship=8 intrigue=8 learning=4
@@ -164,7 +164,7 @@
 #sheikariko sheikariko shipyard e sheikariko
 10018={
 	name=Ne'ez
-	dynasty=420
+	dynasty=320
 	dna="hijcabdnldp"
 	culture=sheikah religion=sheikahism_nihilism
 	martial=6 diplomacy=6 stewardship=4 intrigue=4 learning=4
@@ -174,7 +174,7 @@
 }
 10019={
 	name=Keo
-	dynasty=420
+	dynasty=320
 	dna="mkmgafmnndp"
 	culture=sheikah religion=sheikahism_nihilism
 	martial=4 diplomacy=5 stewardship=4 intrigue=6 learning=7
@@ -185,7 +185,7 @@
 }
 10020={
 	name=Rota
-	dynasty=420
+	dynasty=320
 	dna="afjdabdpidi"
 	culture=sheikah religion=sheikahism_nihilism
 	martial=4 diplomacy=4 stewardship=5 intrigue=6 learning=7
@@ -197,7 +197,7 @@
 10021={
 	name=Purah
 	female=yes
-	dynasty=420
+	dynasty=320
 	dna="hijcambklpp"
 	culture=sheikah religion=sheikahism_nihilism
 	father=10018	#Ne'ez
@@ -207,7 +207,7 @@
 #sheikariko harbor
 10022={
 	name=Ja
-	dynasty=425
+	dynasty=325
 	dna="hiidheinioh"
 	culture=sheikah religion=sheikahism_nihilism
 	martial=6 diplomacy=7 stewardship=6 intrigue=7 learning=4
@@ -219,7 +219,7 @@
 #factory vale
 10023={
 	name=Kalm
-	dynasty=430
+	dynasty=330
 	dna="jabolgihacg"
 	culture=sheikah religion=sheikahism_nihilism
 	martial=8 diplomacy=8 stewardship=6 intrigue=6 learning=6
@@ -231,7 +231,7 @@
 #sheikariko road
 10024={
 	name=Ka'o
-	dynasty=435
+	dynasty=335
 	dna="jpejhmmpcdc"
 	culture=sheikah religion=sheikahism_nihilism
 	martial=8 diplomacy=5 stewardship=5 intrigue=4 learning=7

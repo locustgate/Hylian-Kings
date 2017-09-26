@@ -1,0 +1,130 @@
+13000={
+	name=Alcide
+	dynasty=9601
+	dna="pigpkldkbjd"
+	culture=hytopian religion=golden_goddesses
+	martial=8 diplomacy=8 stewardship=5 intrigue=8 learning=6
+	add_trait=intricate_webweaver add_trait=gregarious add_trait=cynical add_trait=clubfooted 
+	3950.9.17={ birth=yes }
+	3975.1.1={add_spouse=13009}
+	4013.7.14={ death=yes }
+}
+13001={
+	name=Adamao
+	dynasty=9601
+	dna="ppapnijebob"
+	culture=hytopian religion=golden_goddesses
+	martial=7 diplomacy=6 stewardship=8 intrigue=8 learning=5
+	add_trait=grey_eminence add_trait=mystic add_trait=honest add_trait=brave add_trait=charitable 
+	add_trait=trusting add_trait=content 
+	father=13000	#Alcide
+	mother=13009
+	3977.2.7={ birth=yes }
+	3940.1.1={add_spouse=13010}
+	4048.10.2={ death=yes }
+}
+13002={
+	name=Adriana
+	female=yes
+	dynasty=9601
+	dna="icifdnimnjd"
+	culture=hytopian religion=golden_goddesses
+	father=13000	#Alcide
+	mother=13009
+	3980.4.26={ birth=yes }
+	4024.11.1={ death=yes }
+}
+13003={
+	name=Edmondo
+	dynasty=9601
+	dna="pfgphldlbdh"
+	culture=hytopian religion=golden_goddesses
+	martial=6 diplomacy=5 stewardship=8 intrigue=5 learning=7
+	add_trait=grey_eminence add_trait=kind add_trait=content add_trait=wroth add_trait=proud 
+	add_trait=arbitrary 
+	father=13000	#Alcide
+	mother=13009
+	3984.12.11={ birth=yes }
+	4047.10.16={ death=yes }
+}
+13004={
+	name=Franca
+	female=yes
+	dynasty=9601
+	dna="oagpkllknjd"
+	culture=hytopian religion=golden_goddesses
+	father=13000	#Alcide
+	mother=13009
+	3988.11.16={ birth=yes }
+	4039.3.25={ death=yes }
+}
+13005={
+	name=Maria
+	female=yes
+	dynasty=9601
+	dna="didbjldpacc"
+	culture=hytopian religion=golden_goddesses
+	father=13000	#Alcide
+	mother=13009
+	3991.6.19={ birth=yes }
+	4036.5.27={ death=yes }
+}
+13006={
+	name=Biagio
+	dynasty=9601
+	dna="fkaaeijejai"
+	culture=hytopian religion=golden_goddesses
+	martial=4 diplomacy=7 stewardship=7 intrigue=8 learning=4
+	add_trait=flamboyant_schemer add_trait=scholar add_trait=cynical add_trait=kind add_trait=brave 
+	add_trait=lustful add_trait=temperate add_trait=content 
+	father=13001	#Adamao
+	mother=13010
+	4003.12.24={ birth=yes }
+	4049.7.14={ death=yes }
+}
+13007={
+	name=Savino
+	dynasty=9601
+	dna="pnbgnijenob"
+	culture=hytopian religion=golden_goddesses
+	martial=5 diplomacy=8 stewardship=8 intrigue=7 learning=6
+	add_trait=indulgent_wastrel add_trait=greedy add_trait=trusting add_trait=cynical add_trait=cruel 
+	add_trait=diligent 
+	father=13001	#Adamao
+	mother=13010
+	4007.5.24={ birth=yes }
+	4075.8.10={ death=yes }
+}
+13008={
+	name=Nunzia
+	female=yes
+	dynasty=9601
+	dna="apaikcjhobb"
+	culture=hytopian religion=golden_goddesses
+	father=13001	#Adamao
+	mother=13010
+	4009.2.10={ birth=yes }
+	4067.7.14={ death=yes }
+}
+13009={
+	name=Cursilinda
+	female=yes
+	culture=hytopian religion=golden_goddesses
+	3950.9.17={ birth=yes }
+	3975.1.1={add_spouse=13000}
+	4013.7.14={ death=yes }
+}
+13010={
+	name=Styla
+	female=yes
+	culture=hytopian religion=golden_goddesses
+	3977.2.7={ birth=yes }
+	3940.1.1={add_spouse=13001}
+	4048.10.2={ death=yes }
+}
+#gilded gate
+#silk gate
+#fabland hills
+#fasharia vale, munab
+#fabland road, hytopia march
+#fabland plains, fabwood eaves, fabarm

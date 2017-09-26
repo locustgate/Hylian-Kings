@@ -434,7 +434,7 @@ e_hyrule_central = {
 				b_kosin = {}
 				
 			}
-			c_south_hylia_bridge = {
+			c_faron_gate = {
 				color={ 0 134 139 }
 				color2={ 255 255 255 }
 				
@@ -545,7 +545,7 @@ e_hyrule_central = {
 				b_nure = {}
 				b_orolu = {}
 			}
-			c_central_eldin_field = {
+			c_roria = {
 				color={ 38 38 38 }
 				color2={ 255 255 255 }
 				
@@ -1059,6 +1059,9 @@ e_hyrule_central = {
 	}
 }
 e_ordon = {
+	color={ 249 228 83 }
+	color2={ 255 255 255 }
+	capital = 589 # ordon
 	k_ordon = {
 		color={ 249 228 83 }
 		color2={ 255 255 255 }
@@ -1263,7 +1266,7 @@ e_ordon = {
 				b_pila = {}
 				b_padia = {}
 			}
-			c_mano = { #mano
+			c_mano = { #west ordonia plateau
 				color={ 122 49 111 }
 				color2={ 255 255 255 }
 				
@@ -1298,7 +1301,7 @@ e_ordon = {
 			color={ 172 45 16 }
 			color2={ 203 176 85 }
 			capital = 606 # Ordonia
-			c_great_ordonia = { #filo
+			c_great_ordonia = { 
 				color={ 190 175 68 }
 				color2={ 255 255 255 }
 			
@@ -1308,13 +1311,21 @@ e_ordon = {
 				b_margo = {}
 				b_zargo = {}
 			}
-			c_podin = { #podin
+			c_podin = { #north ordonia plateau
 				color={ 0 86 148 }
 				color2={ 255 255 255 }
 			
 				b_podin = {}
 				b_tin = {}
 				b_pono = {}
+			}
+			c_ilino = {
+				color={ 79 153 162 }
+				color2={ 255 255 255 }
+				b_ilino = {}
+				b_olo = {}
+				b_odo = {}
+			
 			}
 		}
 		d_riverdell={
@@ -7529,7 +7540,7 @@ e_hytopia = {
 					pentarchy = golden_goddesses}
 				b_fomopa = {}
 			}
-			c_west_hytopia_field = {
+			c_furia = {
 				color={ 191 0 0 }
 				color2={ 255 255 255 }
 				b_furia = {}
@@ -7548,7 +7559,7 @@ e_hytopia = {
 			color={ 130 106 163 }
 			color2={ 255 255 255 }
 			capital = 1467
-			c_west_hytopia_gate = {
+			c_gilded_gate = {
 				color={ 226 56 42 }
 				color2={ 255 255 255 }
 				b_gilded_gate = {}
@@ -7556,7 +7567,7 @@ e_hytopia = {
 				b_fania = {}
 				b_nirana = {}
 			}
-			c_east_hytopia_gate = {
+			c_silk_gate = {
 				color={ 0 135 81 }
 				color2={ 255 255 255 }
 				b_silk_gate = {}
@@ -7576,7 +7587,7 @@ e_hytopia = {
 			color={ 183 151 227 }
 			color2={ 255 255 255 }
 			capital = 1474
-			c_east_hytopia_field = {
+			c_munab = {
 				color={ 252 209 22 }
 				color2={ 255 255 255 }
 				b_munab = {}
@@ -9268,7 +9279,7 @@ k_hyrule_minish = { #Minish
 		color={ 10 115 152 }
 		color2={ 255 255 255 }		
 		capital=640				
-		c_kari = {
+		c_kari = { #north minish plain
 			color={ 30 30 30 }
 			color2={ 113 113 198 }
 			
@@ -9278,7 +9289,7 @@ k_hyrule_minish = { #Minish
 			b_oradu = {}
 			b_sarare = {}
 		}
-		c_maldo = {
+		c_maldo = { #central minish plain
 			color={ 249 187 0 }
 			color2={ 187 255 255 }
 			
@@ -9287,7 +9298,7 @@ k_hyrule_minish = { #Minish
 			b_mul = {}
 			b_tare = {}
 		}
-		c_munabia = {
+		c_munabia = { #east minish plain
 			color={ 238 59 59 }
 			color2={ 51 161 201 }
 				
@@ -9295,7 +9306,7 @@ k_hyrule_minish = { #Minish
 			b_daru = {}
 			b_rulal = {}
 		}
-		c_kalal = {
+		c_kalal = { #south minish plain
 			color={ 0 86 148 }
 			color2={ 152 245 238 }
 			
@@ -9304,7 +9315,7 @@ k_hyrule_minish = { #Minish
 			b_mura = {}
 			b_ogin = {}
 		}
-		c_nin = {
+		c_nin = { #west minish plain 
 			color={ 244 29 29 }
 			color2={ 0 154 205 }
 			
@@ -9601,7 +9612,7 @@ k_keatonia = {
 			b_keatonan = {}
 			b_keato = {}
 		}
-		c_koba = {
+		c_koba = { #Koba
 			color={ 150 113 0 }
 			color2={ 139 105 20 }
 			
@@ -11953,8 +11964,13 @@ d_port_coast_guard = {
 
 	mercenary_type = coast_guard_composition
 }
-#blood_bloodbrother = {}
-#big_bad_bazz_brigade = {}
+d_magnum={}
+d_fabians_fabulous_fabs={}
+d_blue_steel={}
+d_gilded_pompadours={}
+#d_killer_bees = {}
+#d_blood_bloodbrother = {}
+#d_big_bad_bazz_brigade = {}
 #'neutral' mercs
 #d_third_daughters = {
 #	color={ 150 60 60 }
