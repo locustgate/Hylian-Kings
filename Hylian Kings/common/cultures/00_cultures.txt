@@ -74,7 +74,7 @@ hylian_group = {
 		#HTW
 			Kazakk_Kazakk Arthon_Arthon Atrinas_Atrinas Akazoo_Akazoo Felonius_Felonius
 		#FanOCs
-			Regis_Regis
+			Laios_Laios Niro_Niro Regis_Regis
 		}
 
 		female_names = {
@@ -143,7 +143,7 @@ hylian_group = {
 		#HTW
 			Maldra_Maldra Nylin_Nylin Yanera_Yanera Mahrala_Mahrala Oraiya_Oraiya Tetralyna_Tetralyna
 		#FanOCs
-			Sayru_Sayru Coventina_Coventina Sadiki_Sadiki
+			Adelie_Adelie Aruthea_Aruthea Coventina_Coventina Lilia_Lilia Lysla_Lysla Mailen_Mailen Rodna_Rodna Sayru_Sayru Soraya_Soraya Sadiki_Sadiki
 		}
 		
 		dukes_called_kings = no
@@ -1289,6 +1289,8 @@ eastern_human = {
 			Sing_Sing
 		#HTW
 			Tetoralina_Tetralyna
+		#FanOCs
+			Asuna_Asuna
 		#Random
 			Kanu Ioka Iolinu Hida Hikunada Hilla Kinida Pulina Vanali Meadana Dinay Ionili Pueka Veali Paka Kieku Kulavili Vikao Manay Pieda Viva Hivia Hiki Aivay Hikay Keala Iolili Kanao Kueva Hilli Hivil Ionay Vinia Sanay Palla Heala Hillu Pinanay Deakuelao Kivay Hieni Pinia Savay Hika Hanay Ionana Diku Vidinu Halao Kikabay Pivay Pani Killaku Kanunay Kulay Hinay Kika Killika Kueng Pavay Kaku Hani Maka Salao Mei Kaka Haka Hinina Kalal Ioal Dilaka Hanilla Kanealika Ionani Ioku Wrynika Milia Meali Dalila Sileaki Pakieni Hunu Ioli Pinineal Sinay Kadika Hilava Sakali Saku Sanu Panay Keaka Hanal Hilay Ionika Hilani Makali Pali Pika Aina 
 		}
@@ -1379,6 +1381,8 @@ eastern_human = {
 			Sing_Sing
 		#HTW
 			Tetoralina_Tetralyna
+		#FanOCs
+			Asuna_Asuna
 		#Random
 			Dao Manilay Puelli Vanida Ailani Iokina Havika Halia Keala Keanu Kealli Paku Ioda Kakia Kalia Hani Healli Maka Vilinao Hanao Deani Daku Iola Kavadi Malli Hina Kueni Pilu Sinao Peaka Danay Aika Hilay Dani Sanu Dikia Kila Mueka Vani Sinaka Kilu Deaka Kinao Hika Ionao Kani Havao Peani Makay Mavao Meadi Ainao Halla Danilu Veaka Vava Kavao Aili Keaka Mini Sanao Muedi Vanadi Sili Davao Heaka Hana Kika Mana Huedi Paka Haninu Aila Keadi Hilia Hinana Dinini Halani Makalay Sika Keana Kini Hikani Padi Heana Dini Vinaka Sillani Hineani Dilay Hala Heani Veana Malao Kadina Vueni Hadiva Kanala Hallana
 		}
@@ -1522,7 +1526,7 @@ gerudo = {
 		#Easter Egg
 			Shantae_Shantae
 		#FanOCs
-			Serrage_Serrage Ray_Ray Odele_Odele Zaina_Zaina Adamaris_Adamaris Solara_Solara Ganalia_Ganalia Alfeera_Alfeera Vanda_Vanda Gayora_Gayora Kekkura_Kekkura Eyda_Eyda Brynn_Brynn Rahjit_Rahjit Nary_Nary Shirin_Shirin Aska_Aska Alula_Alula Nahla_Nahla Rubela_Rubela Rakeli_Rakeli Vevilla_Vevilla Asha_Asa Gumure_Gumure Ganonna_Ganonna Azusa_Azusa Niane_Niane Isra_Isra Lila_Lila Lilith_Lilith Elie_Elie Zaara_Zaara Levana_Levana Seda_Seda Gaia_Gaia Qadira_Qadira Deera_Deera Kunza_Kunza Rawiya_Rawiya
+			Serrage_Serrage Ray_Ray Odele_Odele Zaina_Zaina Adamaris_Adamaris Solara_Solara Ganalia_Ganalia Alfeera_Alfeera Vanda_Vanda Gayora_Gayora Kekkura_Kekkura Eyda_Eyda Brynn_Brynn Rahjit_Rahjit Nary_Nary Shirin_Shirin Aska_Aska Alula_Alula Nahla_Nahla Rubela_Rubela Rakeli_Rakeli Vevilla_Vevilla Asha_Asa Gumure_Gumure Ganonna_Ganonna Azusa_Azusa Niane_Niane Isra_Isra Lila_Lila Lilith_Lilith Elie_Elie Zaara_Zaara Levana_Levana Seda_Seda Gaia_Gaia Qadira_Qadira Deera_Deera Kunza_Kunza Rawiya_Rawiya Noru_Noru Aliza_Aliza Maryn_Maryn Nerin_Nerin
 		}
 		
 		dukes_called_kings = no
@@ -1639,7 +1643,7 @@ lost_tribe = {
 		#BotW Monks
 			Va'quot_Va'quot Naag_Naag Kala_Kala Qeta_Qeta Chokah_Chokah Keek_Keek Hesho_Hesho Kaso_Kaso Tuss_Tuss Tah_Tah Koh_Koh Chisay_Chisay Maag_Maag Na'eh_Na'eh Taag_Taag Ha'rah_Ha'rah Asaagh_Asaagh Torr_Torr Dahamar_Dahamar Koth_Koth Miu_Miu Rao_Rao Soh_Soh Baij_Baij Noh_Noh Sa'mi_Sa'mi Nah_Nah Makagh_Makagh Ya'tak_Ya'tak Mael_Mael Okeo_Okeo Yah_Yah Urog_Urog Chuki_Chuki Aug_Aug Wan_Wan Mah_Mah Shakah_Shakah Yoog_Yoog Namut_Namut Kosassa_Kosassa Zoos_Zoos Ruug_Ruug Wawai_Wawai Chideh_Chideh O'hu_O'hu Takkar_Takkar Sidajj_Sidajj Rokee_Rokee Kooh_Kooh Halan_Halan No'rah_No'rah Rah_Rah Lo_Lo Shaz_Shaz Suma_Suma Keet_Keet Latan_Latan Shenno_Shenno Jeem_Jeem Agana_Agana Ozz_Ozz Yohma_Yohma Neha_Neha Au_Au Daim_Daim Nitae_Nitae Tokki_Tokki Raym_Raym Nata_Nata Zunzo_Zunzo Dahee_Dahee Oyaa_Oyaa Zumo_Zumo Uwog_Uwog Kachta_Kachta Ooh_Ooh Ko'sah_Ko'sah Dahaj_Dahaj Kai_Kai Gehma_Gehma Warvo_Warvo Naw_Naw Katha_Katha Loya_Loya Mo'sah_Mo'sah Utoh_Utoh Yota_Yota Vaneer_Vaneer Venath_Venath Dagoze_Dagoze Rata_Rata Dantu_Dantu Sah_Sah Tatone_Tatone Hah_Hah Kofi_Kofi Sahma_Sahma Naeg_Naeg Muhl_Muhl O'ah_O'ah Jinn_Jinn Ko'sah_Ko'sah Kayu_Kayu Quomo_Quomo Yahsa_Yahsa Ka'loh_Ka'loh Nima_Nima Lota_Lota Katta_Katta Naga_Naga Rin_Rin Wa_Wa Kasho_Kasho
 		#FanOCs
-			Kaito_Kaito Ko_Ko Astel_Astel Kide_Kide
+			Astel_Astel Kaesan_Kaesan Kaito_Kaito Kide_Kide Ko_Ko Naktis_Naktis
 		}
 		female_names = {
 		#LoZ
@@ -1653,7 +1657,7 @@ lost_tribe = {
 		#HTW
 			Bongo_Bongo Liyer_Liyer Azrily_Azrily Morsheen_Morsheen
 		#FanOCs
-			Tento_Tento Asra_Asra Kuria_Kuria Seriu_Seriu Kali_Kali Zami_Zami Aveline_Aveline Eris_Eris Soren_Soren Elyakis_Elyakis Shuqia_Shuqia Ayndra_Ayndra Nalia_Nalia
+			Tento_Tento Asra_Asra Kuria_Kuria Seriu_Seriu Kali_Kali Zami_Zami Aveline_Aveline Eris_Eris Soren_Soren Elyakis_Elyakis Shuqia_Shuqia Ayndra_Ayndra Nalia_Nalia Zierah_Zierah
 		}		
 		dukes_called_kings = no
 
@@ -2122,7 +2126,7 @@ aquatic_group = {
 		#HTW
 			Zarosef_Zarosef Farkos_Farkos Zaleen_Zaleen
 		#FanOCs
-			Vyorpeh_Vyorpeh Kleive_Kleive Theodonis_Theodonis Navir_Navir Ovonre_Ovonre Jydos_Jydos Pojak_Pojak Gero_Gero Oram_Oram Brieuc_Brieuc Chimaera_Chimaera Eyre_Eyre Helias_Helias Hachi_Hachi Tucurui_Tucurui Tiberas_Tiberas
+			Vyorpeh_Vyorpeh Kleive_Kleive Theodonis_Theodonis Navir_Navir Ovonre_Ovonre Jydos_Jydos Pojak_Pojak Gero_Gero Kleive_Kleive Oram_Oram Brieuc_Brieuc Chimaera_Chimaera Eyre_Eyre Helias_Helias Hachi_Hachi Mivan_Mivan Sangeo_Sangeo Tucurui_Tucurui Tiberas_Tiberas Vyorpeh_Vyorpeh
 		#Random
 			Farkon Jydos Pojak Luka Tal Ruten Kahanu Kajak Mukan Faha Runu Zalonuk Zalunun Elotu Tono Lohoju Maju Eruna Cukan Lanes Zuju Mollalli Lati Poto Zenal Eloras Lono Loka Lala Zana Roru Elunan Mollorok Lieto Elero Mohia Eteta Rora Elato Maka Mojo Rola Etal Laharo Rorota Roron Mojal Katan Muto Rori Elanu Rota Mallanu Carona Roruta Cuna Laju Pona Canal Ehotu Pola Kutol Eloto Roros Roras Funa Taha Tuphu Fono Elona Maha Paphal Zilla Mino Rananu Curku Fenura Ejaju Muka Rano Sato Matu Elalo Rores Zonu Elil Mala Zalon Faka Mannu Zanu Enunu Lano Lajo Motai Molus
 		}
@@ -2142,7 +2146,7 @@ aquatic_group = {
 		#HTW
 			Sokuuf_Sokuuf Aydia_Aydia Telara_Telara Fariel_Fariel
 		#FanOCs
-			Laruna_Laruna Orsyal_Orsyal Narya_Narya Meliah_Meliah Danni_Danni Rydea_Rydea Elunai_Elunai Rutalia_Rutalia Sekai_Sekai Mareena_Mareena Sephira_Sephira Amalthea_Amalthea Lunaris_Lunaris Nokken_Nokken Akibo_Akibo Coral_Coral Orsyal_Orsyal Minora_Minora Anuket_Anuket Rarune_Rarune Zaria_Zaria
+			Briar_Briar Chera_Chera Laruna_Laruna Orsyal_Orsyal Narya_Narya Meliah_Meliah Danni_Danni Rydea_Rydea Elunai_Elunai Rutalia_Rutalia Sekai_Sekai Mareena_Mareena Sephira_Sephira Amalthea_Amalthea Lunaris_Lunaris Lyra_Lyra Meliah_Meliah Narya_Narya Neruta_Naruta Nokken_Nokken Orsyal_Orsyal Akibo_Akibo Coral_Coral Orsyal_Orsyal Minora_Minora Anuket_Anuket Rarune_Rarune Zaria_Zaria
 		#Random
 			Luto Iala Elunai Mira Liella Sophitia Ceto Ranali Nautia Zanai Roris Pulo Ranu Polo Zano ZalaiEtano Enajo Elon Elo Liena Ela Rora Elulu Laral Lulato Roto Malo Kalato Lati Eluto Ralai Elolo Pito Fano Palok Muno Ialla Cotala Rona Tano Fato Kata Cela Zuruto Rokano Cakela Lonu Futo Elana Rono Tuno Falonu Lulai Enia Fola Saju Falun Pilai Zanal Mila Ceju Zophola Zonala Leeno Ehano Molla Molon Lanan Rulai Zirra Elu zokan Mino Rakan Zaral Lona Lakis Mulla Fukal Zal Etika Raha Zaka Mola Moti Laha Mona Cana Lola Rita Lila Moka Maja Sala Rolia Kutal Laka Moha Leero
 		}
@@ -2311,7 +2315,7 @@ avian_group = {
 		#OoTM
 			Rouru_Rouru Guufo_Guufo
 		#FanOCs
-			Nolan_Nolan Greyson_Greyson Kotari_Kotari Tori_Tori Juro_Juro Quoka_Quoka Osric_Osric Rhoni_Rhoni Eder_Eder Arias_Arias Khuno_Khuno Seirus_Seirus Almas_Almas Lyr_Lyr Talon_Talon
+			Nolan_Nolan Greyson_Greyson Kotari_Kotari Tori_Tori Juro_Juro Quoka_Quoka Osric_Osric Rhoni_Rhoni Eder_Eder Arias_Arias Khuno_Khuno Seirus_Seirus Almas_Almas Lyr_Lyr Rindshaw_Rindshaw Seyrus_Seyrus Talon_Talon Takeo_Takeo
 		#Random
 			Pokott Hasht Idlali Mobi Koolali Habomi Oki Pomobit Kooli Wolli Imoli Kibali Halit Kemi Nobi Ikobi Oball Ilali Badli Koki Milot Paki Oboli Habi Borami Keskit Koli Alemi Kelat Kolal Olimi Kobat Mott Gadli Olili Maki Iskeli Skadli Gibi Qibi Kosht Wilaski Areki Wiki Kolabi Hobabi Kalami Olobi Kotel Bobat Olet Palit Kolibi Imill Kabi Ogibi Mereli Skori Kott Keki Mikili Iskami Skaget Kalibi Oroolit Milit Skoki Skolit Skami Kololi Bili Imeki Peki Golo Agoki Billa Alibo Skomit Bimobi Bimet Kaki Irama Kogi Skodli Alabi Nibi
 	 	}
@@ -2327,7 +2331,7 @@ avian_group = {
 		#HTW
 			Rinna_Rinna
 		#FanOCs
-			Sona_Sona Ena_Ena Ameli_Ameli Naomi_Naomi Raksha_Raksha Rinku_Rinku Keeha_Keeha Akili_Akili Hera_Hera Rikku_Rikku Cipha_Cipha Huracan_Huracan
+			Sona_Sona Ena_Ena Ameli_Ameli Naomi_Naomi Raksha_Raksha Rinku_Rinku Keeha_Keeha Akili_Akili Hera_Hera Rikku_Rikku Cipha_Cipha Huracan_Huracan Lula_Lula Ena_Ena Adlere_Adlere
 		#Random
 			Skoli Nebi Kibi Kibali Kemi Ilali Bali Moki Kiki Kolot Beli Molabi Pebit Kolili Qill Naki Koski Kali Pebi Buimi Ibibi Imoki Kabit Ksekimi Wilimi Niki Pami Merbli Kimi Bili Balli Kelet Ikaro Halli Hadli Nadli Agiri Nabi Olil Babi Pelimi Nali Omaki Agobi Noki Gilebi Alaki Bilat Kegi Ilami Homi Wami Keba Pelit Bami Ilemi Olatt Kodli Holi Ollat Geli Imat Nomi Maloli Agali Obebi Omeli Wali Kabali Kuiki Mami Kelot Poki Hili Alell Imili Skomi Babell Araki Komi Kami Kisht Gimi Nimi Moga Pobi Skibi Miki Kolami Komit Keli Kaskatt Komet Alebi Kelol Biki 
 		}		
@@ -2364,7 +2368,7 @@ avian_group = {
 		#OoTM
 			Rouru_Rouru Guufo_Guufo
 		#FanOCs
-			Nolan_Nolan Greyson_Greyson Kotari_Kotari Tori_Tori Juro_Juro Quoka_Quoka Osric_Osric Rhoni_Rhoni Eder_Eder Arias_Arias Khuno_Khuno Seirus_Seirus Almas_Almas Lyr_Lyr Talon_Talon
+			Nolan_Nolan Greyson_Greyson Kotari_Kotari Tori_Tori Juro_Juro Quoka_Quoka Osric_Osric Rhoni_Rhoni Eder_Eder Arias_Arias Khuno_Khuno Seirus_Seirus Almas_Almas Lyr_Lyr Rindshaw_Rindshaw Seyrus_Seyrus Talon_Talon Takeo_Takeo
 		#Random
 			Pokott Hasht Idlali Mobi Koolali Habomi Oki Pomobit Kooli Wolli Imoli Kibali Halit Kemi Nobi Ikobi Oball Ilali Badli Koki Milot Paki Oboli Habi Borami Keskit Koli Alemi Kelat Kolal Olimi Kobat Mott Gadli Olili Maki Iskeli Skadli Gibi Qibi Kosht Wilaski Areki Wiki Kolabi Hobabi Kalami Olobi Kotel Bobat Olet Palit Kolibi Imill Kabi Ogibi Mereli Skori Kott Keki Mikili Iskami Skaget Kalibi Oroolit Milit Skoki Skolit Skami Kololi Bili Imeki Peki Golo Agoki Billa Alibo Skomit Bimobi Bimet Kaki Irama Kogi Skodli Alabi Nibi
 	 	}
@@ -2380,7 +2384,7 @@ avian_group = {
 		#HTW
 			Rinna_Rinna
 		#FanOCs
-			Sona_Sona Ena_Ena Ameli_Ameli Naomi_Naomi Raksha_Raksha Rinku_Rinku Keeha_Keeha Akili_Akili Hera_Hera Rikku_Rikku Cipha_Cipha Huracan_Huracan
+			Sona_Sona Ena_Ena Ameli_Ameli Naomi_Naomi Raksha_Raksha Rinku_Rinku Keeha_Keeha Akili_Akili Hera_Hera Rikku_Rikku Cipha_Cipha Huracan_Huracan Lula_Lula Ena_Ena Adlere_Adlere
 		#Random
 			Skoli Nebi Kibi Kibali Kemi Ilali Bali Moki Kiki Kolot Beli Molabi Pebit Kolili Qill Naki Koski Kali Pebi Buimi Ibibi Imoki Kabit Ksekimi Wilimi Niki Pami Merbli Kimi Bili Balli Kelet Ikaro Halli Hadli Nadli Agiri Nabi Olil Babi Pelimi Nali Omaki Agobi Noki Gilebi Alaki Bilat Kegi Ilami Homi Wami Keba Pelit Bami Ilemi Olatt Kodli Holi Ollat Geli Imat Nomi Maloli Agali Obebi Omeli Wali Kabali Kuiki Mami Kelot Poki Hili Alell Imili Skomi Babell Araki Komi Kami Kisht Gimi Nimi Moga Pobi Skibi Miki Kolami Komit Keli Kaskatt Komet Alebi Kelol Biki 
 		}		
@@ -2532,13 +2536,13 @@ plant_group = {
 		#HTW
 			Kado_Kado
 		#FanOCs
-			Deek_Deek Dechi_Dechi
+			Deek_Deek Dechi_Dechi Dubaku_Dubaku Twigs_Twigs
 		#Random
 			Jace Tick Miko Dero Shoo Bramble Twiggy Cycas Odolwa Rylan Uduak Terfal Kovu Kova Iralo Deppo Jevek Kedo Viku Ikirok Icelo Twiku Hodivi Nevi Ditt Deppe Idimo Fivuado Olek Odari Ido Oreck Shoda Diro Doka Kedos Kerfa Kerfe Vikis Kiteku Daka Kerfo Jota Idu Broki Twori Doril Dakidi Dakol Rylo Twokoo Koredu Shovi Idoki Poki Shik Keck Oppek Devo Olado Odatis Shovori Twoca Vikin Iceku Brivi Joki Shovo Vike Twokado Kokitt Dakolo Vido Vikon Vitt Dodi Dovi Deve Iceci Jori Dimel Fote Viti Kari Uliri Morati Keku Heku Deppa Dakos Betek Idarin Oki Naki
 		}
 		female_names = {
 		#FanOCs
-			Ahri_Ahri Dekka_Dekka Zinna_Zinna Bicu_Bicu
+			Ahri_Ahri Dekka_Dekka Zinna_Zinna Bicu_Bicu Petil_Petil
 		#Random
 			Dekwa Dolwa Ailo Hora Bayl Nikki Fala Kott Celia Ivori Iris Ime Petil Kicia Hera Meril Fivi Vide Celas Ficia Feppi Tavi Keral Dett Dara Kerva Miri Divia Hede Decia Ida Vekeko Shova Kitt Docia Dacco Bivi Vikwa Vira Kerfi Idola Vevi Vikava Timira Voloki Brita Udari Deva Idoca Hecia Viko Kecia Tecia Devia Dicia Kavi Twoku Kemi Brira Vivia Sheva Vivi Kari Viki Doda Vika Kecu Shadu Diliku Ivodu Vicca Fiku Teku Tavan Viten Cadu DIla Biku Vikes Iku Vimi Mevi Kilevia Poku Hiku Daken Kedo Faki Shol Idoci Kerfu Kil Becia Ovia Herfi Dekka Vivocia Bacia
 		}
@@ -5096,7 +5100,7 @@ other_world = {
 		#HTW
 			Mizorant_Mizorant
 		#FanOCs
-			Otheno_Otheno Othyl_Othyl Faheem_Faheem Enasni_Enasni Sol_Sol Araon_Araon Rin_Rin Azerael_Azerael Caasi_Caasi Aejian_Aejian Dhiman_Dhiman
+			Otheno_Otheno Othyl_Othyl Faheem_Faheem Enasni_Enasni Sol_Sol Araon_Araon Rin_Rin Azerael_Azerael Caasi_Caasi Aejian_Aejian Dhiman_Dhiman Yzei_Yzei
 		#Random
 			Damien Uzin Zorent Eksusha Naeva Sunsa Uvient Mien Venin Mashe Mere Mizamin Mint Eri Sozan Elont Uzamien Elare Zori Uron Sint Erari Namin Norin Morin Eksee Ire Masa Mevaree Merirova Eruze Tware Velulun Irivi Dere Sizi Zire Mansi Vodi Evere Maen Moksozi Nenin Zewni Erin Vesan Maneeni Dirizi Zinin Zaeroman Dimin Twaze Zinsi Mimin Iranan Enozi Edizanin Irakson Menosi Vulen Iren Mizi Erureni Maront Denamin Maevint Elen Nuren Vare Mirin Irase Irari Dinin Izore Zere Aksin Maren Sizun Sillin Manore Twan Iraron Ewinin Manun Enazi Emarivint Denun Vemin Elere Neenont Naradee Vekse Darin Nirore Merarin Vere Uranin Vant 
 	 	}
@@ -5106,7 +5110,7 @@ other_world = {
 		#HTW
 			Yorinu_Yorinu Middee_Middee Grehnel_Grehnel Ellise_Ellise Evaleen_Evaleen Una_Una Veran_Veran Morsheen_Morsheen
 		#FanOCs
-			Amea_Amea Ylith_Ylith Ethine_Ethine Ethole_Ethole Esme_Esme Lunai_Lunai Na'ima_Na'ima Jele_Jele Seda_Seda Xallae_Xallae Halne_Halne Lina_Lina Iris_Iris Blitz_Blitz Runede_Runede Larana_Larana Rhea_Rhea Shayla_Shayla Una_Una Lunira_Lunira Daani_Daani Endi_Endi Seri_Seri Muraco_Muraco Kolot_Kolot Maiko_Maiko Athir_Athir Yultia_Yultia
+			Amea_Amea Ylith_Ylith Ethine_Ethine Ethole_Ethole Esme_Esme Lunai_Lunai Na'ima_Na'ima Jele_Jele Seda_Seda Xallae_Xallae Halne_Halne Hamara_Hamara Lina_Lina Iris_Iris Blitz_Blitz Runede_Runede Larana_Larana Rhea_Rhea Shayla_Shayla Una_Una Lunira_Lunira Daani_Daani Endi_Endi Seri_Seri Muraco_Muraco Kolot_Kolot Maiko_Maiko Athir_Athir Yildae_Yildae Yultia_Yultia
 		#Random
 			Mireen Minee Iri Ellise Enari Twila Dawna Verae Naeva Veva Mien Zela Disama Irara Nira Iraza Inera Twidarma Denae Irana Zinae Ivira Vonira Mari Erara Ezivi Irima Zolin Maran Minim Meron Erada Doksa Zena Ivara Maedera Erona Irisha Eda Mowna Irishara Ireeza Anara Ureran Zara Irasala Irusa Twama Irira Iridiza Mora Twada Eridina Irevida Mawna Vera Mara Enina Mera Iroma Enora Zura Meva Zira Medni Meza Enazi Irona Irina Mada Maezi Muna Ensi Mavuri Ezeli Zensi Dara Munsi Irera Iraeri Mina Mema Eksa Iriksa Nushi Meri Eroni Irozi Ivala Erama Uroza Uvizi Urava Irori
 		}		
