@@ -1,4 +1,31 @@
 #tribes are culture group wide empires
+#racial courts
+e_wind = {
+	color={ 40 192 248 }
+	color2={ 232 56 64 }
+	dynasty_title_names = no
+	
+	capital = 623
+		
+	culture = wind_tribe
+	
+	# Always exists
+	landless = yes
+}
+d_sheikah = {
+	color={ 255 255 255 }
+	color2={ 112 2 2 }
+	
+	capital = 463
+	
+	# Parent Religion 
+	religion = sheikahism
+	
+	culture = sheikah
+	
+	# Always exists
+	landless = yes
+}
 #k_bulblin = {
 #	allow = {
 #		culture = bulblin

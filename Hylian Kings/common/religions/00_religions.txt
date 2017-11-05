@@ -233,43 +233,43 @@ goddesses_religion = {
 #		#intermarry = western_goddesses
 #		#intermarry = western_goddesses
 #	}
-#	western_goddesses = {
-#		graphical_culture = muslimgfx
-#
-#		icon = 3
-#		heresy_icon = 4
-#		
-#		color = { 1 0.84 0}
-#		
-#		scripture_name = GODDESSES_SONG
-#		priest_title = PRIEST
-#		
-#		high_god_name = GOD_GODDESSES
-#		
-#		god_names = {
-#			GOD_GODDESSES GOD_DIN GOD_NAYRU GOD_FARORE
-#		}
-#		evil_god_names = {
-#				GOD_BELLUM
-#		}
-#		female_temple_holders = yes	
-#		feminist = yes
-#		priests_can_marry = yes
-#		attacking_same_religion_piety_loss = yes
-#		max_wives = 3
-#		landed_kin_prestige_bonus = yes
-#		
-#		can_excommunicate = yes
-#		can_grant_divorce = yes
-#	
-#		religious_clothing_head = 0
-#		religious_clothing_priest = 0
-#		
-#		intermarry = golden_goddesses
-#		#intermarry = gem_goddesses
-#		intermarry = heavenly_goddesses
-#		#intermarry = western_goddesses
-#	}
+	western_goddesses = {
+		graphical_culture = muslimgfx
+
+		icon = 3
+		heresy_icon = 4
+		
+		color = { 1 0.84 0}
+		
+		scripture_name = GODDESSES_SONG
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GODDESSES
+		
+		god_names = {
+			GOD_GODDESSES GOD_DIN GOD_NAYRU GOD_FARORE
+		}
+		evil_god_names = {
+				GOD_BELLUM
+		}
+		female_temple_holders = yes	
+		feminist = yes
+		priests_can_marry = yes
+		attacking_same_religion_piety_loss = yes
+		max_wives = 3
+		landed_kin_prestige_bonus = yes
+		
+		can_excommunicate = yes
+		can_grant_divorce = yes
+	
+		religious_clothing_head = 0
+		religious_clothing_priest = 0
+		
+		intermarry = golden_goddesses
+		#intermarry = gem_goddesses
+		intermarry = heavenly_goddesses
+		intermarry = western_goddesses
+	}
 
 	hylia_religion = {
 		graphical_culture = norsegfx
@@ -761,7 +761,7 @@ guardian_deity = {
 		
 		color = { 0.6 0.8 0.2 }	
 		scripture_name = DRAGONS_SONG
-		priest_title PRIEST
+		priest_title = PRIEST
 		
 		high_god_name = THREE_DRAGONS
 		
@@ -963,6 +963,39 @@ minor_deity = {
 #		attacking_same_religion_piety_loss = yes
 #
 #	}
+	zunist={
+		graphical_culture = muslimgfx
+
+		icon = 3
+		heresy_icon = 4
+		
+		color = { 0 1 0.5 }
+		
+		scripture_name = GODDESSES_SONG
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GODDESSES
+		
+		god_names = {
+			GOD_GODDESS GOD_ZUNA GOD_DESERT_MOTHER
+		}
+		evil_god_names = {
+				GOD_DEMON_KING
+		}
+		female_temple_holders = yes	
+		feminist = yes
+		priests_can_marry = yes
+		attacking_same_religion_piety_loss = yes
+		peace_piety_gain=1
+		max_wives = 4
+		landed_kin_prestige_bonus = yes
+		
+		can_excommunicate = yes
+	
+		religious_clothing_head = 0
+		religious_clothing_priest = 0
+		
+		}
 }
 #gerudo_religions = {
 #	heroine_cult = {
@@ -1086,6 +1119,7 @@ goron_religions = {
 		}
 		priests_can_inherit = no
 		priests_can_marry = yes 
+		max_consorts=4
 		
 		religious_clothing_head = 6
 		religious_clothing_priest = 6
@@ -1116,6 +1150,7 @@ goron_religions = {
 		}
 		priests_can_inherit = no
 		priests_can_marry = yes 
+		max_consorts=4
 		
 		religious_clothing_head = 6
 		religious_clothing_priest = 6
@@ -1143,6 +1178,7 @@ goron_religions = {
 		}		
 		priests_can_inherit = no
 		priests_can_marry = yes 
+		max_consorts=4
 		
 		religious_clothing_head = 6
 		religious_clothing_priest = 6
@@ -1174,6 +1210,7 @@ goron_religions = {
 		
 		religious_clothing_head = 6
 		religious_clothing_priest = 6
+		max_consorts=4
 		
 		intermarry = mother_mountain 
 		intermarry = earth_spirits
@@ -1200,7 +1237,7 @@ goron_religions = {
 		}
 		priests_can_inherit = no
 		allow_looting = yes
-		max_consorts = 3 
+		max_consorts = 4
 		peace_prestige_loss = yes 
 		
 		religious_clothing_head = 6
@@ -1229,7 +1266,7 @@ goron_religions = {
 				GOD_WATER_SPIRITS GOD_GODDESSES
 		}
 		allow_looting = yes
-		max_consorts = 3 
+		max_consorts = 4 
 
 		peace_prestige_loss = yes 
 		priests_can_inherit = no
@@ -1264,6 +1301,7 @@ spirit_group = {
 		priests_can_inherit = no
 		priests_can_marry = yes
 		allow_looting=yes	
+		max_consorts=4
 	}
 	wind_spirits_reformed = {
 		graphical_culture = mongolgfx
@@ -1289,7 +1327,7 @@ spirit_group = {
 		priests_can_marry = yes 			
 		religious_clothing_head = 4
 		religious_clothing_priest = 4
-				
+		max_consorts=4	
 		allow_in_ruler_designer = no
 	}
 	wind_spirits = {
@@ -1313,7 +1351,8 @@ spirit_group = {
 		priests_can_inherit = no
 		priests_can_marry = yes 			
 		religious_clothing_head = 4
-		religious_clothing_priest = 4		
+		religious_clothing_priest = 4
+		max_consorts=4		
 		reformed = wind_spirits_reformed
 		
 	}
@@ -1339,6 +1378,7 @@ spirit_group = {
 		priests_can_inherit = no
 		priests_can_marry = yes 
 		
+		seafarer=yes
 		religious_clothing_head = 4
 		religious_clothing_priest = 4
 	}
@@ -1363,7 +1403,33 @@ spirit_group = {
 		}
 		priests_can_inherit = no
 		priests_can_marry = yes
-		allow_looting=yes	
+		allow_looting=yes
+		max_consorts=4
+	}
+	lynol_spirits={
+		graphical_culture = muslimgfx
+
+		icon = 20
+		heresy_icon = 20
+		
+		color = { 0.8 1 1 }
+
+		priest_title = PRIEST
+		scripture_name = THE_LEGENDS
+		
+		high_god_name = GOD_SPIRITS
+		
+		god_names = {
+			GOD_SPIRITS 
+		}
+		evil_god_names = {
+			GOD_CORRUPTER
+		}
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting=yes
+		max_wives=4
+	
 	}
 
 }
@@ -1393,7 +1459,8 @@ demon_religion = {
 		priests_can_marry = yes
 		allow_looting = yes
 		peace_prestige_loss = yes
-		has_heir_designation = yes 
+		has_heir_designation = yes 		
+		piety_name = MALICE
 
 		scripture_name = DEMISES_SAGA
 		priest_title = SHAMAN
@@ -1462,7 +1529,8 @@ demon_religion = {
 		allow_looting = yes
 		 has_heir_designation = yes 
 		priest_title = SHAMAN
-		scripture_name = VAATIS_LEGEND
+		scripture_name = VAATIS_LEGEND	
+		piety_name = MALICE
 		
 		high_god_name = GOD_VAATI
 		
@@ -1495,7 +1563,8 @@ demon_religion = {
 #		max_wives = 4
 #		allow_looting = yes 
 #			 has_heir_designation = yes 	
-#		scripture_name = GANONS_LEGEND
+#		scripture_name = GANONS_LEGEND	
+#		piety_name = MALICE
 #
 #		crusade_name = PURGE
 #		scripture_name = GANON_AMBITION
@@ -1528,7 +1597,8 @@ demon_religion = {
 		max_consorts = 3
 		 has_heir_designation = yes 
 		priest_title = PUJARI
-		scripture_name = RUPEES_HOW_TO
+		scripture_name = RUPEES_HOW_TO	
+		piety_name = RUPEE_POINTS
 		
 		god_names = {
 			GOD_RUPEE
@@ -1556,7 +1626,8 @@ demon_religion = {
 		
 		priest_title = SHAMAN
 		high_god_name = GOD_BELLUM
-		scripture_name = BELLUMS_SHANTI
+		scripture_name = BELLUMS_SHANTI	
+		piety_name = MALICE
 		has_heir_designation = yes 	
 		god_names = {
 			GOD_BELLUM GOD_PHANTOM GOD_DREAM_GOD
@@ -1586,7 +1657,8 @@ demon_religion = {
 		allow_looting = yes 
 		has_heir_designation = yes 
 		priest_title = ATTENDENT
-		scripture_name = BAGAS_SONG
+		scripture_name = BAGAS_SONG	
+		piety_name = MALICE
 
 		
 		high_god_name = BAGA_TREE
@@ -1618,7 +1690,8 @@ demon_religion = {
 		allow_viking_invasion = yes 
 		 has_heir_designation = yes 
 		priest_title = SHAMAN 
-		scripture_name = MALLADUS_TRIUMPH
+		scripture_name = MALLADUS_TRIUMPH	
+		piety_name = MALICE
 		
 		high_god_name = GOD_MALLADUS
 		
@@ -1723,6 +1796,7 @@ doctrine = {
 		raised_vassal_opinion_loss = no
 		aggression = 2.0
 		seafarer = yes
+		max_consorts=4
 		
 		high_god_name = GOD_SEA
 		scripture_name = SEA_SHANTI 
@@ -1734,30 +1808,30 @@ doctrine = {
 		}
 		#intermarry = gerudo_goddess
 	}
-	merchant_doctrine = { #rupee way
-		graphical_culture = westerngfx
-
-		icon = 50
-		heresy_icon = 51
-		
-		color = { 0.25 0.41 0.88 }
-		
-		peace_piety_gain = 1
-		seafarer = yes
-		short_reign_opinion_year_mult = 0 # No short reign penalty
-		has_heir_designation = yes
-		
-		high_god_name = GOD_RUPEE
-		scripture_name = THE_GUIDE
-		god_names = {
-			GOD_RUPEE
-		}
-		evil_god_names = {
-			GOD_RUPOOR
-		}
-		religious_clothing_head = 9
-		religious_clothing_priest = 9
-	}
+	#merchant_doctrine = { #rupee way
+	#	graphical_culture = westerngfx
+    #
+	#	icon = 50
+	#	heresy_icon = 51
+	#	
+	#	color = { 0.25 0.41 0.88 }
+	#	
+	#	peace_piety_gain = 1
+	#	seafarer = yes
+	#	short_reign_opinion_year_mult = 0 # No short reign penalty
+	#	has_heir_designation = yes
+	#	
+	#	high_god_name = GOD_RUPEE
+	#	scripture_name = THE_GUIDE
+	#	god_names = {
+	#		GOD_RUPEE
+	#	}
+	#	evil_god_names = {
+	#		GOD_RUPOOR
+	#	}
+	#	religious_clothing_head = 9
+	#	religious_clothing_priest = 9
+	#}
 }
 
 alien_religion = {

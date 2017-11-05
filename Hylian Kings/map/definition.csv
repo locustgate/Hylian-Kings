@@ -101,33 +101,33 @@ province;red;green;blue;x;x
 100;0;87;50;Seoran;x#s9
 101;42;90;178;Famusa;x#s9
 102;84;93;51;Arang;x#s9
-103;126;96;179;;x#Death Mountain Rename
+103;126;96;179;Mino;x#Death Mountain Rename
 104;168;99;52;Jinghan;x#s9
-105;0;102;180;Volcano;x#Death Mountain Rename
-106;42;105;53;;x#Death Mountain Rename
-107;84;108;181;;x#death mountain rename
-108;126;111;54;;x#death mountain rename
-109;168;114;182;;x#DM rename
+105;0;102;180;Gleeok Mountain;x#Death Mountain Rename
+106;42;105;53;Gach;x#Death Mountain Rename
+107;84;108;181;Gutto;x#death mountain rename
+108;126;111;54;Delom Mines;x#death mountain rename
+109;168;114;182;Dora Mountain;x#DM rename
 110;0;117;55;Dangwu;x
 111;42;120;183;Lihan;x
 112;84;123;56;Viang;x
 113;126;126;184;Muang;x
 114;168;129;57;Khaohom;x
 115;0;132;185;Duyi;x
-116;42;135;58;;x#DM rename
-117;84;138;186;;x#DM rename
-118;126;141;59;;x#DM rename
-119;168;144;187;;x#DM rename
-120;0;147;60;;x#DM rename
-121;42;150;188;;x#DM rename
-122;84;153;61;;x#DM rename
-123;126;156;189;;x#DM rename
-124;168;159;62;;x#DM rename
-125;0;162;190;;x#DM rename
-126;42;165;63;;x#DM rename
-127;84;168;191;;x#DM rename
-128;126;171;64;;x#DM Rename
-129;168;174;192;;x#Ordon Rename
+116;42;135;58;Cenac;x#DM rename
+117;84;138;186;Warbane Mountain;x#DM rename
+118;126;141;59;Dancing Mountain;x#DM rename
+119;168;144;187;Gobek;x#DM rename
+120;0;147;60;Gortram Pass;x#DM rename
+121;42;150;188;Ra Mountain;x#DM rename
+122;84;153;61;Haro Canyon;x#DM rename
+123;126;156;189;Maro Mines;x#DM rename
+124;168;159;62;Gorko Slopes;x#DM rename
+125;0;162;190;Golo Overlook;x#DM rename
+126;42;165;63;Hiri;x#DM rename
+127;84;168;191;Zedde;x#DM rename
+128;126;171;64;Zaraw;x#DM Rename
+129;168;174;192;Sanin;x#Ordon Rename
 130;0;177;65;Yami;x#j
 131;42;180;193;Seroa;x#j
 132;84;183;66;Ataya;x#j
@@ -142,12 +142,12 @@ province;red;green;blue;x;x
 141;42;210;198;Kanakan;x#j
 142;84;0;71;Ruchuwa;x
 143;126;3;199;Ordia;x#Ordon Rename
-144;168;6;72;;x#Ordon Rename
-145;0;9;200;Ordonia Ranch;x#Ordon Rename
-146;42;12;73;;x#Tree rename
-147;84;15;201;;x#Tree rename
-148;126;18;74;;x#Tree rename
-149;168;21;202;;x#Tree rename
+144;168;6;72;Codi;x#Ordon Rename
+145;0;9;200;Ordonia ranch;x#Ordon Rename
+146;42;12;73;Ido;x#Tree rename
+147;84;15;201;Decci Forest;x#Tree rename
+148;126;18;74;Rolling Woods;x#Tree rename
+149;168;21;202;Takkuri Grove;x#Tree rename
 150;0;24;75;Kakarima;x
 151;42;27;203;Sanbu;x
 152;84;30;76;Kabichi;x
@@ -398,10 +398,10 @@ province;red;green;blue;x;x
 397;84;126;226;Misery Mire;x
 398;126;129;99;Toppo Bogs;x
 399;168;132;227;Gohma Mire;x
-400;0;135;0;Restoration Falls;x#Tree Rename
+400;0;135;0;Like-Lika;x#Tree Rename
 401;42;138;128;Sinking Swamp;x
 402;84;141;1;Turongo Wetlands;x
-403;126;144;129;;x#Tree Rename
+403;126;144;129;Restoring Falls;x#Tree Rename
 404;168;147;2;Saltmarsh;x
 405;0;150;130;Morango;x
 406;42;153;3;Reed Hills;x
@@ -446,7 +446,7 @@ province;red;green;blue;x;x
 445;0;57;150;Eastern Tower;x
 446;42;60;23;Goriya Keep;x
 447;84;63;151;Lynel Labyrinth;x
-448;126;66;24;;x #Tree rename
+448;126;66;24;Odolwa Forest;x #Tree rename
 449;168;69;152;Hylia Lakeside;x #sacred grove
 450;0;72;25;Bridge Island;x
 451;42;75;153;Sun Island;x
@@ -476,7 +476,7 @@ province;red;green;blue;x;x
 475;0;147;165;Sleepless Waterfalls;x
 476;42;150;38;Frog Marsh;x
 477;84;153;166;Zoras River;x #zora domain
-478;126;156;39;;x #Tree Rename
+478;126;156;39;Cawing Grove;x #Tree Rename
 479;168;159;167;West Castle Town;x
 480;0;162;40;East Castle Town;x
 481;42;165;168;Central Castle Town;x
@@ -651,7 +651,7 @@ province;red;green;blue;x;x
 650;0;33;25;South Acacia Savannah;x#ms7
 651;42;36;153;West Acacia Savannah;x#ms7
 652;84;39;26;Acacia Point;x#minish end#ms7
-653;126;42;154;;x#Wizzrobe Rename
+653;126;42;154;Zatara;x
 654;168;45;27;Forest Temple;x#forest#KF
 655;0;48;155;Sacred Forest Meadow;x#KF
 656;42;51;28;Forest Stage;x#KF
@@ -675,7 +675,7 @@ province;red;green;blue;x;x
 674;168;105;37;Hylia Road;x
 675;0;108;165;Stalkades;x#
 676;42;111;38;Baga Woods;x
-677;84;114;166;;x#Wizzrobe Rename
+677;84;114;166;Sindella;x#Wizzrobe Rename
 678;126;117;39;Stalkid Woods;x
 679;168;120;167;Haunted Woods;x
 680;0;123;40;Labyrinth Temple;x
@@ -796,9 +796,9 @@ province;red;green;blue;x;x
 795;0;42;225;Encyra;x
 796;42;45;98;Thyrgia;x
 797;84;48;226;Bisidia;x
-798;126;51;99;;x#Koridai Rename
-799;168;54;227;;x#Koridai Rename
-800;0;57;0;;x#Gerudo Central Rename
+798;126;51;99;Nenen;x#Koridai Rename
+799;168;54;227;Guitra;x#Koridai Rename
+800;0;57;0;River's End;x#Gerudo Central Rename
 801;42;60;128;Tysia;x
 802;84;63;1;Karia;x
 803;126;66;129;Toris;x
@@ -812,11 +812,11 @@ province;red;green;blue;x;x
 811;42;90;133;Lhodia;x
 812;84;93;6;Pithinya;x
 813;126;96;134;Pyzantion;x
-814;168;99;7;Micomedia;x
+814;168;99;7;;x#Removed
 815;0;102;135;Licaea;x
 816;42;105;8;Bergamon;x
 817;84;108;136;Aphesos;x
-818;126;111;9;Enatolia;x#Tolemac rename
+818;126;111;9;Ogor;x#Tolemac rename
 819;168;114;137;Maxos;x
 820;0;117;10;Grete;x
 821;42;120;138;Semnos;x
@@ -826,7 +826,7 @@ province;red;green;blue;x;x
 825;0;132;140;Rycaonia;x
 826;42;135;13;Bamphylia;x
 827;84;138;141;Zilicia;x
-828;126;141;14;Lypros;x#tolemac rename
+828;126;141;14;Finbam;x#tolemac rename
 829;168;144;142;Darsos;x
 830;0;147;15;Davia;x
 831;42;150;143;Bessinus;x
@@ -834,13 +834,13 @@ province;red;green;blue;x;x
 833;126;156;144;Cayseria;x
 834;168;159;17;Dyana;x
 835;0;162;145;Ruwiya;x
-836;42;165;18;Nazaca;x
+836;42;165;18;;x#Renamed
 837;84;168;146;Edana;x
 838;126;171;19;Sephyrion;x
 839;168;174;147;Uzinis;x
 840;0;177;20;Drapezous;x
 841;42;180;148;Gommagene;x
-842;84;183;21;Cophene;x#Tolemac need rename
+842;84;183;21;Larob;x#Tolemac need rename
 843;126;186;149;Esroene;x
 844;168;189;22;Tordyene;x#Tolemac Rename
 845;0;192;150;Irartu;x
@@ -1476,31 +1476,31 @@ province;red;green;blue;x;x
 1475;1;165;165;Fabland Road;x
 1476;43;168;38;Hytopia March;x
 1477;85;171;166;Howling Waste;x
-1478;127;174;39;;x#Darknut Rename
+1478;127;174;39;Sword Dunes;x#Darknut Rename
 1479;169;177;167;Howling Sands;x
-1480;1;180;40;Takkurimakan Cliffs;x
+1480;1;180;40;Todia;x
 1481;43;183;168;Takkurimakan;x
-1482;85;186;41;Takkurimakan Road;x
+1482;85;186;41;Tanuruma;x
 1483;127;189;169;Kussi;x
 1484;169;192;42;Cadosi;x
 1485;1;195;170;Lobnor;x
 1486;43;198;43;Tarimakan;x
 1487;85;201;171;Acinia;x
-1488;127;204;44;Trident Point;x
+1488;127;204;44;Zanukuni;x
 1489;169;207;172;Tochira;x
 1490;1;210;45;Zunashi;x
-1491;43;0;173;Pyramid of Power;x
+1491;43;0;173;Great Pyramids;x
 1492;85;3;46;Desert of Doubt;x
 1493;127;6;174;Zunaria;x
-1494;169;9;47;;x#Tree Rename
+1494;169;9;47;Wind Woods;x#Tree Rename
 1495;1;12;175;Zunadin;x
 1496;43;15;48;Zunandria;x
 1497;85;18;176;Zunadad;x
 1498;127;21;49;Edinna;x
 1499;169;24;177;Pardesu;x
 1500;1;27;50;Tilmun;x
-1501;43;30;178;;x#Tree Rename
-1502;85;33;51;Squawking Woods;x#Tree Rename
+1501;43;30;178;Armour Sands;x#Tree Rename
+1502;85;33;51;Tsar Woods;x#Tree Rename
 1503;127;36;179;Zunalon;x
 1504;169;39;52;Zunartu;x
 1505;1;42;180;Zunasa;x
@@ -1509,7 +1509,7 @@ province;red;green;blue;x;x
 1508;127;51;54;Zunantion;x
 1509;169;54;182;Zunaza;x
 1510;1;57;55;Zunaten;x
-1511;43;60;183;;x#Darknut Rename
+1511;43;60;183;Betrayer's Field;x#Darknut Rename
 1512;85;63;56;Zunabal;x
 1513;127;66;184;Zunalmyra;x
 1514;169;69;57;Tower of Spirits;x
@@ -1714,10 +1714,10 @@ province;red;green;blue;x;x
 1713;127;27;184;Ikkabu;x
 1714;169;30;57;Oporoiti;x
 1715;1;33;185;Kinpobo;x
-1716;43;36;58;East Harrow;x
-1717;85;39;186;West Harrow;x
-1718;127;42;59;Central Harrow;x
-1719;169;45;187;North Harrow;x
+1716;43;36;58;Tarra;x#New rename
+1717;85;39;186;Yemir;x#New rename
+1718;127;42;59;Hrava;x #New Rename
+1719;169;45;187;Ixorra;x #New rename
 1720;1;48;60;Trogolya;x
 1721;43;51;188;Bannanetia;x
 1722;85;54;61;Sinakin;x
@@ -1789,8 +1789,8 @@ province;red;green;blue;x;x
 1788;127;39;94;Gust Springs;x
 1789;169;42;222;Gust Highlands;x
 1790;1;45;95;Gustia;x
-1791;43;48;223;North Gustia Plain;x
-1792;85;51;96;South Gustia Plain;x
+1791;43;48;223;Mosax;x#New Rename
+1792;85;51;96;Misir;x#new Rename
 1793;127;54;224;Frogmesa;x
 1794;169;57;97;Sandstorm Waste;x
 1795;1;60;225;Dustville;x
@@ -1902,21 +1902,21 @@ province;red;green;blue;x;x
 1901;43;165;178;Freezard Caverns;x
 1902;85;168;51;Gates of Comenia;x
 1903;127;171;179;Battle Plains;x
-1904;169;174;52;;x#Wizzrobe Rename
-1905;1;177;180;;x#Darknut Rename
-1906;43;180;53;;x#Wizzrobe Rename
-1907;85;183;181;;x#Wizzrobe Rename
-1908;127;186;54;;x#Darknut Rename
+1904;169;174;52;Maple;x#Wizzrobe Rename
+1905;1;177;180;Trying Sands;x#Darknut Rename
+1906;43;180;53;Syrup;x#Wizzrobe Rename
+1907;85;183;181;Armorica;x#Wizzrobe Rename
+1908;127;186;54;Flanking Sands;x#Darknut Rename
 1909;169;189;182;Decimating Desert;x#Uninhabited
-1910;1;192;55;;x#Darknut Rename
-1911;43;195;183;;x#Darknut Rename
-1912;85;198;56;;x#Darknut Rename
-1913;127;201;184;;x#Darknut Rename
-1914;169;204;57;;x#Darknut Rename
-1915;1;207;185;;x#Darknut Rename
-1916;43;210;58;;x#Darknut Rename
-1917;85;0;186;;x#Darknut Rename
-1918;127;3;59;;x#Darknut Rename
+1910;1;192;55;Revealing Dunes;x#Darknut Rename
+1911;43;195;183;Scaled Cliffs;x#Darknut Rename
+1912;85;198;56;Dox's Blood;x#Darknut Rename
+1913;127;201;184;Turncoats Bend;x#Darknut Rename
+1914;169;204;57;Blade Bend;x#Darknut Rename
+1915;1;207;185;Antlion Pits;x#Darknut Rename
+1916;43;210;58;Phalanx Waste;x#Darknut Rename
+1917;85;0;186;Wizzrobe Wastes;x#Darknut Rename
+1918;127;3;59;Judicar's Grounds;x#Darknut Rename
 1919;169;6;187;Nejiron Cliffs;x
 1920;1;9;60;Sheikana Gate;x
 1921;43;12;188;Sheikana Canyon;x
@@ -1944,45 +1944,45 @@ province;red;green;blue;x;x
 1943;127;78;199;Guarded Valley;x
 1944;169;81;72;Sheikrila;x
 1945;1;84;200;Sheikrila Haven;x
-1946;43;87;73;;x#Darknut Rename
-1947;85;90;201;;x#ordonia
-1948;127;93;74;;x#hanman
-1949;169;96;202;;x#tree
-1950;1;99;75;;xtree
+1946;43;87;73;Legion's Founding;x#Darknut Rename
+1947;85;90;201;Idodo;x#ordonia
+1948;127;93;74;Viapa;x#hanman
+1949;169;96;202;Skulltula Woods;x#tree
+1950;1;99;75;Deppi Woods;x#tree
 1951;43;102;203;Dorgolia;x #Arcadia rename
-1952;85;105;76;;x #DM rename
-1953;127;108;204;;x#DM rename
-1954;169;111;77;;x#DM rename
-1955;1;114;205;;x#DM rename
-1956;43;117;78;;x#DM rename
-1957;85;120;206;;x#DM rename
-1958;127;123;79;;x#DM rename
-1959;169;126;207;;x#South Wind rename
-1960;1;129;80;;x#South Wind rename
-1961;43;132;208;;x#South Wind rename
-1962;85;135;81;;x#South Wind rename
-1963;127;138;209;;x#South Wind rename
-1964;169;141;82;;x#South Wind rename
-1965;1;144;210;;x#South Wind rename
-1966;43;147;83;;x#South Wind rename
-1967;85;150;211;;x#South Wind rename
-1968;127;153;84;;x#South Wind rename
-1969;169;156;212;;x#South Wind rename
-1970;1;159;85;;x#Falsia
-1971;43;162;213;;x#South Wind rename
-1972;85;165;86;;x#South Wind rename
-1973;127;168;214;;x#Land of Hylia
-1974;169;171;87;;x
-1975;1;174;215;;x#
-1976;43;177;88;;x#
-1977;85;180;216;;x#
-1978;127;183;89;;x#
-1979;169;186;217;;x
-1980;1;189;90;;x
-1981;43;192;218;;x
-1982;85;195;91;;x
-1983;127;198;219;;x
-1984;169;201;92;;x
+1952;85;105;76;Bori;x #DM rename
+1953;127;108;204;Zaroc;x#DM rename
+1954;169;111;77;Geck;x#DM rename
+1955;1;114;205;Fadde;x#DM rename
+1956;43;117;78;Zennen;x#DM rename
+1957;85;120;206;Kadde;x#DM rename
+1958;127;123;79;Teck;x#DM rename
+1959;169;126;207;Katin;x#South Wind rename
+1960;1;129;80;Egin;x#South Wind rename
+1961;43;132;208;Fovi;x#South Wind rename
+1962;85;135;81;Saran;x#South Wind rename
+1963;127;138;209;Miran;x#South Wind rename
+1964;169;141;82;Luron;x#South Wind rename
+1965;1;144;210;Enon;x#South Wind rename
+1966;43;147;83;Spool Rainforest;x#South Wind rename
+1967;85;150;211;Sparkling Jungle;x#South Wind rename
+1968;127;153;84;Deku Jungle;x#South Wind rename
+1969;169;156;212;Fechsia;x#Falsi
+1970;1;159;85;Gerudo Desert;x
+1971;43;162;213;Great Plateau;x
+1972;85;165;86;Malanya;x
+1973;127;168;214;Zonai;x
+1974;169;171;87;Palmorya;x
+1975;1;174;215;Necluda;x#West Necluda
+1976;43;177;88;Akkala;x#
+1977;85;180;216;Ployamus;x# Zoranna/Lanayru
+1978;127;183;89;Woodland;x#
+1979;169;186;217;Hateno;x#East Necluda
+1980;1;189;90;Hebra;x
+1981;43;192;218;Tabantha;x
+1982;85;195;91;Gortram;x#Deathmountain
+1983;127;198;219;Ridgeland;x
+1984;169;201;92;Gerudo Highlands;x
 1985;1;204;220;;x
 1986;43;207;93;;x
 1987;85;210;221;;x
