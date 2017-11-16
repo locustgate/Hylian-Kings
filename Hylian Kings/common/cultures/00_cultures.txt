@@ -1083,6 +1083,7 @@ western_human = {
 	}
 	comenian = {
 		graphical_cultures = { comeniangfx }
+		dynasty_name_first = yes
  
 		parent = skylofter
 		
@@ -1215,6 +1216,7 @@ eastern_human = {
 	hylian_hanman = { 
 		graphical_cultures = { hhanmangfx mongolgfx hyliangfx } #hhanmangfx
 		color = { 0 0.4 0 }
+		dynasty_name_first = yes
 		
 		parent = skylofter
 
@@ -1307,6 +1309,7 @@ eastern_human = {
 	hanman = {
 		graphical_cultures = { hanmangfx mongolgfx }
 		color = { 0 0.4 0 }
+		dynasty_name_first = yes
 
 		male_names = {
 		#LoZ
@@ -1397,6 +1400,7 @@ eastern_human = {
 	malaynan = {	
 		graphical_cultures = { cumangfx mongolgfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
+		dynasty_name_first = yes
 		
 		horde = yes
 		
