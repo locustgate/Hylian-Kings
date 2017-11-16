@@ -1,0 +1,472 @@
+#calatia droy calatia calatia
+16000={
+	name=Roko
+	dynasty=7001
+	dna="bhndbjanlic"
+	culture=calatian 
+	religion=golden_goddesses
+	martial=5
+	diplomacy=4 
+	stewardship=6 
+	intrigue=6 
+	learning=7
+	add_trait=charismatic_negotiator
+	add_trait=arbitrary 
+	add_trait=paranoid
+	add_trait=humble
+	add_trait=wroth 
+	add_trait=ambitious
+	add_trait=gregarious 
+	3925.8.18={ birth=yes }	
+	3985.5.27={ death=yes }
+}
+16001={
+	name=Roko
+	dynasty=7001
+	dna="bhndbjanlic"
+	culture=calatian 
+	religion=golden_goddesses
+	martial=5
+	diplomacy=4 
+	stewardship=6 
+	intrigue=6 
+	learning=7
+	add_trait=charismatic_negotiator
+	add_trait=arbitrary 
+	add_trait=paranoid
+	add_trait=humble
+	add_trait=wroth 
+	add_trait=ambitious
+	add_trait=gregarious 
+	father=16000	#Alen
+	3943.8.18={ birth=yes }	
+	3963.1.1={ add_spouse=16010}
+	4017.5.27={ death=yes }
+}
+16002={ #aphesos
+	name=Luka
+	dynasty=7001
+	dna="nmihikancgc"
+	culture=calatian
+	religion=golden_goddesses
+	martial=7 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=8 
+	learning=4
+	add_trait=scholarly_theologian
+	add_trait=hedonist
+	add_trait=monk
+	add_trait=chaste 
+	add_trait=kind 
+	add_trait=trusting 
+	add_trait=ambitious 
+	add_trait=possessed 
+	father=16000	#Alen
+	3946.1.16={ birth=yes }
+	3994.10.28={ death=yes }
+}
+16003={#drapezous
+	name=Lazar
+	dynasty=7001
+	dna="bkifbaanjli"
+	culture=calatian religion=golden_goddesses
+	martial=4
+	diplomacy=4 
+	stewardship=6 
+	intrigue=4 
+	learning=5
+	add_trait=elusive_shadow
+	add_trait=greedy
+	add_trait=humble
+	add_trait=wroth 
+	add_trait=ambitious 
+	father=16000	#Alen
+	3951.4.24={ birth=yes }	
+	3972.1.1={add_spouse=16018}
+	3998.12.16={ death=yes }
+}
+16004={ #bisidia
+	name=Sinisa
+	dynasty=7001
+	dna="bmidjkcnjih"
+	culture=calatian religion=golden_goddesses
+	martial=6 diplomacy=5 stewardship=7 intrigue=5 learning=7
+	add_trait=naive_appeaser
+	add_trait=humble 
+	add_trait=gregarious 
+	add_trait=charitable
+	add_trait=ambitious 
+	add_trait=temperate 
+	father=16000	#Alen
+	3953.1.6={ birth=yes }
+	4017.10.9={ death=yes }
+}
+16005={
+	name=Emil
+	dynasty=7001
+	dna="poejghanjfc"
+	culture=calatian religion=golden_goddesses
+	martial=6
+	diplomacy=5
+	stewardship=8
+	intrigue=5
+	learning=4
+	add_trait=tough_soldier
+	add_trait=zealous
+	add_trait=patient 
+	father=16000	#Alen
+	3958.5.3={ birth=yes }
+	3960.8.20={ death=yes }
+}
+16006={
+	name=Danko
+	dynasty=7001
+	dna="minckilcjih"
+	culture=calatian religion=golden_goddesses
+	martial=8 diplomacy=6 stewardship=8 intrigue=6 learning=5
+	add_trait=grey_eminence add_trait=just add_trait=temperate add_trait=trusting add_trait=deceitful 
+	add_trait=zealous 
+	father=16001	#Simo
+	mother=16010
+	3964.1.21={ birth=yes }
+	4017.6.17={ death=yes }
+}
+16007={
+	name=Emanuela
+	female=yes
+	dynasty=7001
+	dna="jpncdcecnni"
+	culture=calatian religion=golden_goddesses
+	father=16001	#Simo
+	mother=16010
+	3967.2.11={ birth=yes }
+	4019.3.27={ death=yes }
+}
+16008={
+	name=Dajana
+	female=yes
+	dynasty=7001
+	dna="clccnheolii"
+	culture=calatian religion=golden_goddesses
+	father=16001	#Simo
+	mother=16010
+	3971.9.8={ birth=yes }
+	4026.6.4={ death=yes }
+}
+16009={
+	name=Branka
+	female=yes
+	dynasty=7001
+	dna="mclcdjecnii"
+	culture=calatian religion=golden_goddesses
+	father=16001	#Simo
+	mother=16010
+	3975.4.21={ birth=yes }
+	4042.6.7={ death=yes }
+}
+16010 = {
+	name=Seline
+	female=yes
+	3947.1.1={ birth=yes }
+	3963.1.1={ add_spouse=16001}
+	4007.1.1={ death=yes }
+}
+
+16011={
+	name=Jadran
+	dynasty=7001
+	dna="negfjdlajmj"
+	culture=calatian religion=golden_goddesses
+	martial=5 diplomacy=8 stewardship=8 intrigue=8 learning=5
+	add_trait=detached_priest add_trait=impaler add_trait=arbitrary add_trait=greedy add_trait=cruel 
+	father=16004	#Gabrijel
+	3976.1.2={ birth=yes }
+	4033.10.28={ death=yes }
+}
+16012={
+	name=Rank
+	female=yes
+	dynasty=7001
+	dna="lbgompbaadk"
+	culture=calatian religion=golden_goddesses
+	father=16004	#Gabrijel
+	3979.12.22={ birth=yes }
+	4051.11.11={ death=yes }
+}
+16013={
+	name=Ivanka
+	female=yes
+	dynasty=7001
+	dna="lfndmoagakn"
+	culture=calatian religion=golden_goddesses
+	father=16004	#Gabrijel
+	3984.1.2={ birth=yes }
+	4044.5.8={ death=yes }
+}
+16014={
+	name=Mare
+	female=yes
+	culture=calatian religion=golden_goddesses
+	3959.1.1={ birth=yes }
+	3975.1.1={ add_spouse=16004 }
+	4036.5.9={ death=yes }
+}
+16015={
+	name=Ivica
+	dynasty=7001
+	dna="eoccoiiahdo"
+	culture=calatian religion=golden_goddesses
+	martial=4 diplomacy=7 stewardship=8 intrigue=8 learning=8
+	add_trait=charismatic_negotiator add_trait=patient add_trait=trusting add_trait=zealous add_trait=kind 
+	add_trait=arbitrary add_trait=cruel 
+	father=16003	#Predrag
+	mother=1128
+	3973.1.5={ birth=yes }
+	4028.4.24={ death=yes }
+}
+16016={
+	name=Cila
+	female=yes
+	dynasty=7001
+	dna="focpfmjbhbm"
+	culture=calatian religion=golden_goddesses
+	father=16003	#Predrag
+	mother=1128
+	3978.9.17={ birth=yes }
+	4048.6.15={ death=yes }
+}
+16017={
+	name=Lucijan
+	dynasty=7001
+	dna="efcapbikcdn"
+	culture=calatian religion=golden_goddesses
+	martial=5 diplomacy=7 stewardship=6 intrigue=5 learning=5
+	add_trait=indulgent_wastrel add_trait=wroth add_trait=greedy add_trait=cynical 
+	father=16003	#Predrag
+	mother=1128
+	3980.10.3={ birth=yes }
+	4050.10.12={ death=yes }
+}
+16018={
+	name=Cila
+	female=yes
+	culture=calatian religion=golden_goddesses
+	3956.1.1={ birth=yes }
+	3972.1.1={add_spouse=16003}
+	4008.6.15={ death=yes }
+}
+#droad
+16019={
+	name=Nenad
+	dynasty=7011
+	dna="lacchipliae"
+	culture=calatian religion=golden_goddesses
+	martial=8 diplomacy=5 stewardship=6 intrigue=7 learning=7
+	add_trait=flamboyant_schemer add_trait=shy add_trait=cruel add_trait=lustful add_trait=honest 
+	add_trait=greedy add_trait=wroth 
+	3948.2.14={ birth=yes }
+	3965.1.1={ add_spouse=16022 }
+	4021.4.13={ death=yes }
+}
+16020={
+	name=Cvita
+	female=yes
+	dynasty=7011
+	dna="lmccdiplbae"
+	culture=calatian religion=golden_goddesses
+	father=16019	#Nenad
+	mother=16022
+	3966.1.7={ birth=yes }
+	4017.1.20={ death=yes }
+}
+16021={
+	name=Damir
+	dynasty=7011
+	dna="lakoiipiice"
+	culture=calatian religion=golden_goddesses
+	martial=6 diplomacy=7 stewardship=5 intrigue=6 learning=6
+	add_trait=mastermind_theologian add_trait=chaste add_trait=envious add_trait=wroth add_trait=cruel 
+	father=16019	#Nenad
+	mother=16022
+	3973.2.11={ birth=yes }
+	4023.10.11={ death=yes }
+}
+16022={
+	name=Agneza
+	female=yes
+	culture=calatian religion=golden_goddesses
+	3948.2.14={ birth=yes }
+	3965.1.1={ add_spouse=16019 }
+	4021.4.13={ death=yes }
+}
+#lhodia
+16023={
+	name=Grgur
+	dynasty=7021
+	dna="joadciihkmc"
+	culture=calatian religion=golden_goddesses
+	martial=4 diplomacy=7 stewardship=6 intrigue=8 learning=4
+	add_trait=midas_touched add_trait=proud add_trait=diligent add_trait=cynical add_trait=temperate 
+	add_trait=trusting add_trait=shy add_trait=drunkard 
+	3948.2.14={ birth=yes }
+	3965.1.1={ add_spouse=16028}
+	4021.4.13={ death=yes }
+}
+16024={
+	name=Marijo
+	dynasty=7021
+	dna="joidehigigc"
+	culture=calatian religion=golden_goddesses
+	martial=4 diplomacy=5 stewardship=4 intrigue=5 learning=8
+	add_trait=skilled_tactician add_trait=deceitful add_trait=shy add_trait=diligent add_trait=proud 
+	add_trait=stressed 
+	father=16023	#Grgur
+	mother=16028
+	3980.6.14={ birth=yes }
+	4052.1.29={ death=yes }
+}
+16025={
+	name=Lara
+	female=yes
+	dynasty=7021
+	dna="hoakcgkhkmc"
+	culture=calatian religion=golden_goddesses
+	father=16023	#Grgur
+	mother=16028
+	3989.5.5={ birth=yes }
+	4023.1.30={ death=yes }
+}
+16026={
+	name=Bornea
+	female=yes
+	dynasty=7021
+	dna="joadpfikkkb"
+	culture=calatian religion=golden_goddesses
+	father=16023	#Grgur
+	mother=16028
+	3995.11.8={ birth=yes }
+	4082.9.24={ death=yes }
+}
+16027={
+	name=Mateja
+	female=yes
+	dynasty=7021
+	dna="oongcljekoc"
+	culture=calatian religion=golden_goddesses
+	father=16023	#Grgur
+	mother=16028
+	4000.5.23={ birth=yes }
+	4067.1.23={ death=yes }
+}
+16028={
+	name=Nives
+	female=yes
+	dna="oongcljekoc"
+	culture=calatian religion=golden_goddesses
+	3948.2.14={ birth=yes }
+	3965.1.1={ add_spouse=16023}
+	4021.4.13={ death=yes }
+}
+#gappadocia
+16029={
+	name=Nikola
+	dynasty=7031
+	dna="cfdimdigkpf"
+	culture=calatian religion=golden_goddesses
+	martial=6 diplomacy=5 stewardship=4 intrigue=6 learning=7
+	add_trait=intricate_webweaver add_trait=lustful add_trait=proud add_trait=gregarious 
+	3964.4.18={ birth=yes }
+	4012.9.28={ death=yes }
+}
+#zilicia
+16030={
+	name=Simun
+	dynasty=7041
+	dna="edmhnkiekpf"
+	culture=calatian religion=golden_goddesses
+	martial=5 diplomacy=4 stewardship=6 intrigue=4 learning=5
+	add_trait=grey_eminence add_trait=poet add_trait=cynical add_trait=temperate add_trait=charitable 
+	add_trait=depressed 
+	3965.9.10={ birth=yes }
+	4045.7.7={ death=yes }
+}
+#bamphylia
+16031={
+	name=Jakov
+	dynasty=7051
+	dna="fonlcgkhnjl"
+	culture=calatian religion=golden_goddesses
+	martial=7 diplomacy=8 stewardship=7 intrigue=5 learning=5
+	add_trait=naive_appeaser add_trait=charitable add_trait=just add_trait=zealous add_trait=temperate 
+	3965.12.24={ birth=yes }
+	4005.1.23={ death=yes }
+}
+
+#Licaea
+16032={
+	name=Hrvoje
+	dynasty=7061
+	dna="ehifikbmcjn"
+	culture=calatian religion=golden_goddesses
+	martial=5 diplomacy=5 stewardship=7 intrigue=5 learning=8
+	add_trait=midas_touched add_trait=charitable add_trait=trusting add_trait=cynical add_trait=cruel 
+	add_trait=temperate add_trait=proud 
+	3965.4.24={ birth=yes }
+	4029.9.9={ death=yes }
+}
+16033={#encyra
+	name=Patrik
+	dynasty=7071
+	dna="bfpnffillop"
+	culture=calatian religion=golden_goddesses
+	martial=4 diplomacy=5 stewardship=4 intrigue=4 learning=5
+	add_trait=midas_touched add_trait=arbitrary add_trait=temperate add_trait=envious add_trait=slothful 
+	add_trait=greedy add_trait=strong 
+	3937.8.8={ birth=yes }
+	3963.2.2={add_spouse=16037}
+	3990.12.11={ death=yes }
+}
+16034={
+	name=Kreso
+	dynasty=7071
+	dna="eknnflmljok"
+	culture=calatian religion=golden_goddesses
+	martial=7 diplomacy=5 stewardship=7 intrigue=5 learning=7
+	add_trait=martial_cleric add_trait=ambitious add_trait=arbitrary add_trait=kind add_trait=chaste 
+	add_trait=zealous 
+	father=16033	#Patrik
+	mother=16037
+	3964.7.1={ birth=yes }
+	4013.2.14={ death=yes }
+}
+16035={
+	name=Ksenija
+	female=yes
+	dynasty=7071
+	dna="ilpnkfdolip"
+	culture=calatian religion=golden_goddesses
+	father=16033	#Patrik
+	mother=16037
+	3967.10.10={ birth=yes }
+	4013.11.10={ death=yes }
+}
+16036={
+	name=Agneza
+	female=yes
+	dynasty=7071
+	dna="hfpgfjngjgp"
+	culture=calatian religion=golden_goddesses
+	father=16033	#Patrik
+	mother=16037
+	3970.9.8={ birth=yes }
+	4039.2.11={ death=yes }
+}
+16037={
+	name=Jaga
+	female=yes
+	culture=calatian religion=golden_goddesses
+	3937.8.8={ birth=yes }
+	3963.2.2={add_spouse=16033}
+	4001.2.11={ death=yes }
+}

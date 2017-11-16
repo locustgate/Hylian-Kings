@@ -1,0 +1,483 @@
+#arcadia argadia arcadia marcania
+18000={
+	name=Edme
+	dynasty=14607
+	dna="aocjcmbmpib"
+	culture=arcadian religion=golden_goddesses
+	martial=6 diplomacy=5 stewardship=7 intrigue=5 learning=4
+	add_trait=charismatic_negotiator add_trait=slothful add_trait=deceitful add_trait=shy add_trait=cruel 
+	add_trait=proud add_trait=zealous 
+	trait=bloodline_batreaux
+	father=72
+	3957.11.24={ birth=yes }
+	4038.5.10={ death=yes }
+}
+18001={
+	name=Ludovic
+	dynasty=14607
+	dna="adjjcmkmeeb"
+	culture=arcadian religion=golden_goddesses
+	martial=7 diplomacy=4 stewardship=8 intrigue=4 learning=5
+	add_trait=midas_touched add_trait=patient add_trait=envious add_trait=cynical add_trait=lustful 
+	trait=bloodline_batreaux
+	father=18000	#Edme
+	3987.9.9={ birth=yes }
+	4052.1.13={ death=yes }
+}
+18002={
+	name=Mael
+	dynasty=14607
+	dna="ffbjcmkleek"
+	culture=arcadian religion=golden_goddesses
+	martial=7 diplomacy=8 stewardship=6 intrigue=7 learning=6
+	add_trait=midas_touched add_trait=gregarious add_trait=zealous add_trait=craven add_trait=proud 
+	add_trait=patient 
+	trait=bloodline_batreaux
+	father=18001	#Ludovic
+	4017.4.3={ birth=yes }
+	4083.4.16={ death=yes }
+}
+18003={
+	name=Florent
+	dynasty=14607
+	dna="hapjcmkljcj"
+	culture=arcadian religion=golden_goddesses
+	martial=8 diplomacy=8 stewardship=6 intrigue=7 learning=5
+	add_trait=misguided_warrior
+	trait=bloodline_batreaux add_trait=diligent add_trait=just add_trait=envious 
+	father=18002	#Mael
+	4045.6.24={ birth=yes }
+	3900.3.4={ death=yes }
+}
+18004={
+	name=Firmin
+	dynasty=14607
+	dna="hjhjgifehlj"
+	culture=arcadian religion=golden_goddesses
+	martial=4 diplomacy=5 stewardship=4 intrigue=4 learning=5
+	add_trait=midas_touched
+	trait=bloodline_batreaux add_trait=hedonist add_trait=proud add_trait=gluttonous add_trait=shy 
+	add_trait=lunatic 
+	father=18003	#Florent
+	4074.10.17={ birth=yes }
+	3934.6.12={ death=yes }
+}
+18005={
+	name=Maxime
+	dynasty=14607
+	dna="ijmlgiddflk"
+	culture=arcadian religion=golden_goddesses
+	martial=7 diplomacy=5 stewardship=5 intrigue=8 learning=8
+	add_trait=scholarly_theologian
+	trait=bloodline_batreaux add_trait=temperate add_trait=cynical add_trait=kind 
+	father=18004	#Firmin
+	3901.9.20={ birth=yes }
+	3965.4.18={ death=yes }
+}
+18006={
+	name=Seraphin
+	dynasty=14607
+	dna="icflgildllo"
+	culture=arcadian religion=golden_goddesses
+	martial=8 diplomacy=8 stewardship=7 intrigue=5 learning=8
+	add_trait=midas_touched
+	trait=bloodline_batreaux add_trait=gardener add_trait=arbitrary add_trait=deceitful add_trait=charitable 
+	add_trait=zealous 
+	father=18005	#Maxime
+	3927.3.25={ birth=yes }
+	3987.1.1={ death=yes }
+}
+18007={
+	name=Ulrich
+	dynasty=14607
+	dna="hcelajfdlln"
+	culture=arcadian religion=golden_goddesses
+	martial=8 diplomacy=5 stewardship=4 intrigue=7 learning=5
+	add_trait=grey_eminence
+	trait=bloodline_batreaux add_trait=arbitrary add_trait=envious add_trait=kind trait=greedy trait=temperate trait=brave
+	father=18006	#Seraphin
+	3952.8.5={ birth=yes }
+	3977.1.1={add_spouse=18010}
+	4000.3.18={ death=yes }
+}
+18008={
+	name=Pierrick
+	dynasty=14607
+	dna="blelaifdfle"
+	culture=arcadian religion=golden_goddesses
+	martial=6 diplomacy=7 stewardship=5 intrigue=6 learning=5
+	add_trait=gregarious
+	trait=bloodline_batreaux trait=charismatic_negotiator add_trait=kind add_trait=zealous add_trait=proud 
+	father=18007	#Ulrich
+	mother=18010
+	3979.1.25={ birth=yes }
+	4028.5.20={ death=yes }
+}
+18009={
+	name=Arcadia
+	female=yes
+	dynasty=14607
+	dna="dcemdjfdmln"
+	culture=arcadian religion=golden_goddesses
+	trait=bloodline_batreaux
+	father=18007	#Ulrich
+	mother=18010
+	3981.6.20={ birth=yes }
+	4048.10.25={ death=yes }
+}
+18010={
+	name=Camile
+	female=yes
+	culture=arcadian religion=golden_goddesses
+	3952.8.5={ birth=yes }
+	3977.1.1={add_spouse=18007}
+	4000.3.18={ death=yes }
+}
+#facadia
+18011={
+	name=Gratien
+	dynasty=6802
+	dna="jgechchffme"
+	culture=arcadian religion=golden_goddesses
+	martial=4 diplomacy=4 stewardship=4 intrigue=5 learning=6
+	add_trait=flamboyant_schemer add_trait=hedonist add_trait=paranoid add_trait=shy add_trait=chaste 
+	add_trait=humble 
+	father=18006
+	3955.12.20={ birth=yes }
+	3980.1.1={add_spouse=18014}
+	4023.8.8={ death=yes }
+}
+18012={
+	name=Maxime
+	dynasty=6802
+	dna="jmnmeahffmp"
+	culture=arcadian religion=golden_goddesses
+	martial=7 diplomacy=4 stewardship=4 intrigue=6 learning=4
+	add_trait=martial_cleric add_trait=impaler add_trait=shy add_trait=deceitful add_trait=trusting 
+	add_trait=slothful add_trait=ambitious 
+	father=18011	#Gratien
+	mother=18014
+	3982.11.6={ birth=yes }
+	4067.1.9={ death=yes }
+}
+18013={
+	name=Nathan
+	dynasty=6802
+	dna="johchcgffmh"
+	culture=arcadian religion=golden_goddesses
+	martial=8 diplomacy=7 stewardship=8 intrigue=4 learning=5
+	add_trait=charismatic_negotiator add_trait=gregarious add_trait=slothful add_trait=patient add_trait=chaste 
+	add_trait=cruel add_trait=kind 
+	father=18011	#Gratien
+	mother=18014
+	3986.8.26={ birth=yes }
+	4031.11.18={ death=yes }
+}
+18014={
+	name=Agnes
+	female=yes
+	culture=arcadian religion=golden_goddesses
+	3955.12.20={ birth=yes }
+	3980.1.1={add_spouse=18011}
+	4023.8.8={ death=yes }
+}
+#clovia
+18015={
+	name=Edmond
+	dynasty=6805
+	dna="pidkbdofagc"
+	culture=arcadian religion=golden_goddesses
+	martial=8 diplomacy=4 stewardship=8 intrigue=8 learning=7
+	add_trait=martial_cleric add_trait=humble add_trait=kind add_trait=zealous add_trait=arbitrary 
+	3961.10.5={ birth=yes }
+	4027.6.23={ death=yes }
+}
+#capetia
+18016={
+	name=Pons
+	dynasty=6810
+	dna="icdahjlbfbd"
+	culture=arcadian religion=golden_goddesses
+	martial=8 diplomacy=8 stewardship=8 intrigue=7 learning=6
+	add_trait=mastermind_theologian add_trait=kind add_trait=diligent add_trait=cruel add_trait=charitable 
+	3965.11.14={ birth=yes }
+	4026.5.25={ death=yes }
+}
+#louia
+18017={
+	name=Edme
+	dynasty=6815
+	dna="bhlldpdhpjn"
+	culture=arcadian religion=golden_goddesses
+	martial=7 diplomacy=8 stewardship=7 intrigue=6 learning=8
+	add_trait=elusive_shadow add_trait=envious add_trait=ambitious add_trait=cruel add_trait=shy 
+	add_trait=lunatic 
+	3964.6.15={ birth=yes }
+	4023.10.11={ death=yes }
+}
+#aegidia tyria
+18018={
+	name=Michael
+	dynasty=6820
+	dna="coelbfgnlki"
+	culture=arcadian religion=golden_goddesses
+	martial=5 diplomacy=4 stewardship=6 intrigue=6 learning=4
+	add_trait=intricate_webweaver add_trait=gregarious add_trait=just add_trait=humble add_trait=cruel 
+	add_trait=diligent add_trait=temperate 
+	3951.1.21={ birth=yes }
+	3975.1.1={add_spouse=18023}
+	4024.2.13={ death=yes }
+}
+18019={
+	name=Serge
+	dynasty=6820
+	dna="lkeljfaolkp"
+	culture=arcadian religion=golden_goddesses
+	martial=4 diplomacy=5 stewardship=7 intrigue=8 learning=4
+	add_trait=martial_cleric add_trait=cruel add_trait=zealous add_trait=charitable add_trait=brave 
+	add_trait=ambitious add_trait=slothful 
+	father=18018	#Michael
+	mother=18023
+	3977.3.5={ birth=yes }
+	4024.12.28={ death=yes }
+}
+18020={
+	name=Timothee
+	dynasty=6820
+	dna="caelefknlni"
+	culture=arcadian religion=golden_goddesses
+	martial=6 diplomacy=5 stewardship=8 intrigue=5 learning=8
+	add_trait=intricate_webweaver add_trait=patient add_trait=craven add_trait=slothful 
+	father=18018	#Michael
+	mother=18023
+	3980.6.15={ birth=yes }
+	4052.10.25={ death=yes }
+}
+18021={
+	name=Nathan
+	dynasty=6820
+	dna="cokkbcgieki"
+	culture=arcadian religion=golden_goddesses
+	martial=4 diplomacy=4 stewardship=7 intrigue=6 learning=5
+	add_trait=misguided_warrior add_trait=deceitful add_trait=charitable 
+	father=18018	#Michael
+	mother=18023
+	3982.2.3={ birth=yes }
+	4030.1.26={ death=yes }
+}
+18022={
+	name=Isabelle
+	female=yes
+	dynasty=6820
+	dna="coelipongkk"
+	culture=arcadian religion=golden_goddesses
+	father=18018	#Michael
+	mother=18023
+	3985.6.6={ birth=yes }
+	4034.3.26={ death=yes }
+}
+18023={
+	name=Michael
+	female=yes
+	culture=arcadian religion=golden_goddesses
+	3951.1.21={ birth=yes }
+	3975.1.1={add_spouse=18018}
+	4024.2.13={ death=yes }
+}
+#Megaria batteria
+18024={
+	name=Barnabe
+	dynasty=6825
+	dna="jjakojlbmdl"
+	culture=arcadian religion=golden_goddesses
+	martial=6 diplomacy=4 stewardship=8 intrigue=4 learning=7
+	add_trait=midas_touched add_trait=wroth add_trait=ambitious add_trait=zealous add_trait=chaste 
+	3966.1.4={ birth=yes }
+	4017.3.6={ death=yes }
+}
+#stoicia
+18025={
+	name=Cyril
+	dynasty=6830
+	dna="kgbbdlckofi"
+	culture=arcadian religion=golden_goddesses
+	martial=7 diplomacy=5 stewardship=7 intrigue=4 learning=5
+	add_trait=detached_priest add_trait=cruel add_trait=envious add_trait=brave 
+	3965.4.21={ birth=yes }
+	4019.4.4={ death=yes }
+}
+18026={#tegia
+	name=Alderic
+	dynasty=6835
+	dna="nnncbmildge"
+	culture=arcadian religion=golden_goddesses
+	martial=4 diplomacy=5 stewardship=7 intrigue=5 learning=6
+	add_trait=intricate_webweaver add_trait=cruel add_trait=deceitful 
+	3959.12.10={ birth=yes }
+	3980.1.1={add_spouse=18028}
+	4026.6.23={ death=yes }
+}
+18027={
+	name=Mael
+	dynasty=6835
+	dna="nnnjcmkndoa"
+	culture=arcadian religion=golden_goddesses
+	martial=7 diplomacy=7 stewardship=7 intrigue=7 learning=7
+	add_trait=skilled_tactician add_trait=envious add_trait=gluttonous add_trait=patient add_trait=deceitful 
+	add_trait=arbitrary 
+	father=18026	#Alderic
+	mother=18028
+	3982.4.9={ birth=yes }
+	4034.2.2={ death=yes }
+}
+18028={
+	name=Alex
+	female=yes
+	culture=arcadian religion=golden_goddesses
+	3959.12.10={ birth=yes }
+	3980.1.1={add_spouse=18026}
+	4026.6.23={ death=yes }
+}
+#acacesia
+18029={
+	name=Pierrick
+	dynasty=6840
+	dna="djomdalnggf"
+	culture=arcadian religion=golden_goddesses
+	martial=7 diplomacy=8 stewardship=7 intrigue=8 learning=6
+	add_trait=grey_eminence add_trait=trusting add_trait=content add_trait=wroth add_trait=temperate 
+	3962.7.4={ birth=yes }
+	3982.1.1={add_spouse=18032}
+	4029.9.30={ death=yes }
+}
+18030={
+	name=Raphaelle
+	female=yes
+	dynasty=6840
+	dna="acondalnfhh"
+	culture=arcadian religion=golden_goddesses
+	father=18029	#Pierrick
+	mother=18032
+	3984.4.24={ birth=yes }
+	4056.6.12={ death=yes }
+}
+18031={
+	name=Jodoc
+	dynasty=6840
+	dna="dgembalnggf"
+	culture=arcadian religion=golden_goddesses
+	martial=8 diplomacy=7 stewardship=4 intrigue=4 learning=5
+	add_trait=intricate_webweaver add_trait=greedy add_trait=diligent add_trait=gluttonous 
+	father=18029	#Pierrick
+	mother=18032
+	3986.12.23={ birth=yes }
+	4056.2.17={ death=yes }
+}
+18032={
+	name=Pierrick
+	female=yes
+	culture=arcadian religion=golden_goddesses
+	martial=7 diplomacy=8 stewardship=7 intrigue=8 learning=6
+	add_trait=grey_eminence add_trait=trusting add_trait=content add_trait=wroth add_trait=temperate 
+	3962.7.4={ birth=yes }
+	3982.1.1={add_spouse=18029}
+	4029.9.30={ death=yes }
+}
+##merovia
+18033={
+	name=Maxence
+	dynasty=6845
+	dna="bdibpabekkc"
+	culture=arcadian religion=golden_goddesses
+	martial=7 diplomacy=7 stewardship=7 intrigue=7 learning=6
+	add_trait=detached_priest add_trait=craven add_trait=cruel add_trait=trusting add_trait=content 
+	add_trait=wounded 
+	3964.5.3={ birth=yes }
+	4024.7.7={ death=yes }
+}
+#Curtania
+18034={
+	name=Didier
+	dynasty=6850
+	dna="mokjjlcilnl"
+	culture=arcadian religion=golden_goddesses
+	martial=8 diplomacy=5 stewardship=8 intrigue=5 learning=7
+	add_trait=misguided_warrior add_trait=scholar add_trait=proud add_trait=wroth add_trait=lustful 
+	add_trait=trusting add_trait=wounded 
+	3964.2.13={ birth=yes }
+	4026.7.17={ death=yes }
+}
+#hold
+18035={
+	name=Theo
+	dynasty=6855
+	dna="fknkiocgmdf"
+	culture=arcadian religion=golden_goddesses
+	martial=4 diplomacy=7 stewardship=6 intrigue=8 learning=8
+	add_trait=flamboyant_schemer add_trait=scholar add_trait=arbitrary add_trait=proud add_trait=charitable 
+	add_trait=temperate add_trait=wroth add_trait=cruel add_trait=ill 
+	3964.6.23={ birth=yes }
+	4016.6.17={ death=yes }
+}
+18036={
+	name=Lambert
+	dynasty=6860
+	dna="fkdfpmikhld"
+	culture=arcadian religion=golden_goddesses
+	martial=5 diplomacy=7 stewardship=4 intrigue=6 learning=8
+	add_trait=midas_touched add_trait=wroth add_trait=slothful add_trait=honest add_trait=shy 
+	3960.4.1={ birth=yes }
+	3980.1.1={add_spouse=18038}
+	4017.9.21={ death=yes }
+}
+18037={
+	name=Aimee
+	female=yes
+	dynasty=6860
+	dna="fkhfnfiogic"
+	culture=arcadian religion=golden_goddesses
+	father=18036	#Lambert
+	mother=18038
+	3983.6.7={ birth=yes }
+	4038.7.17={ death=yes }
+}
+18038={
+	name=Adelaide
+	female=yes
+	culture=arcadian religion=golden_goddesses
+	3960.4.1={ birth=yes }
+	3980.1.1={add_spouse=18036}
+	4017.9.21={ death=yes }
+}
+18039={
+	name=Victor
+	dynasty=6865
+	dna="ladcaoilngb"
+	culture=arcadian religion=golden_goddesses
+	martial=6 diplomacy=7 stewardship=4 intrigue=6 learning=6
+	add_trait=detached_priest add_trait=charitable add_trait=gluttonous add_trait=zealous add_trait=proud 
+	add_trait=envious add_trait=cruel 
+	3963.5.14={ birth=yes }
+	3986.4.11={ death=yes }
+}
+18040={
+	name=Mailys
+	female=yes
+	dynasty=6865
+	dna="ladmhfjlmgl"
+	culture=arcadian religion=golden_goddesses
+	father=18039	#Victor
+	3983.8.20={ birth=yes }
+	4037.12.20={ death=yes }
+}
+18041={
+	name=Facade
+	dynasty=6870
+	dna="kfafnbmabhp"
+	culture=arcadian religion=golden_goddesses
+	martial=4 diplomacy=8 stewardship=7 intrigue=4 learning=6
+	add_trait=naive_appeaser add_trait=cynical add_trait=cruel add_trait=gluttonous add_trait=trusting 
+	add_trait=brave 
+	3966.12.24={ birth=yes }
+	4037.7.26={ death=yes }
+}
