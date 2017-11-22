@@ -696,6 +696,9 @@ crusader = {
 	
 	male_compliment = COMPL_CRUSADER
 	female_compliment = COMPL_CRUSADER
+	cached=yes
+	random = no
+	customizer = no	
 }
 
 bastard = {
@@ -749,7 +752,7 @@ excommunicated = {
 }
 kinslayer = {
 	potential = {
-		NOT = { religion_group = muslim }
+		NOT = { religion_group = demon_religion } #Mod
 	}
 
 	diplomacy = -3
@@ -761,18 +764,18 @@ kinslayer = {
 }
 homosexual = {
 	sex_appeal_opinion = 30 # Only to those of the same sex
-	vassal_opinion = -5
+	#vassal_opinion = -5 #People don't care
 	
 	fertility = -0.15
 	
 	ruler_designer_cost = 0
 	
-	male_insult = INSULT_SODOMITE
-	male_insult_adj = INSULT_EFFEMINATE
-	female_insult = INSULT_LESBIAN
-	female_insult_adj = INSULT_SAPPHIC
-	child_insult = INSULT_PEABRAIN
-	child_insult_adj = INSULT_CRAZY
+	#male_insult = INSULT_SODOMITE
+	#male_insult_adj = INSULT_EFFEMINATE
+	#female_insult = INSULT_LESBIAN
+	#female_insult_adj = INSULT_SAPPHIC
+	child_insult = INSULT_PEABRAIN #Kids however can be cruel
+	child_insult_adj = INSULT_CRAZY#Kids however can be cruel
 }
 
 #####################
@@ -1147,7 +1150,7 @@ scholar = {
 		faqih
 	}
 	potential = {
-		NOT = { religion_group = muslim }
+		NOT = { religion_group = demon_religion } #They don't need none of dem books
 	}
 	
 	learning = 3
@@ -1209,7 +1212,7 @@ impaler = {
 	lifestyle = yes
 	
 	potential = {
-		NOT = { religion = jain }
+		NOT = { religion = great_deku }
 	}
 
 	intrigue = 2
@@ -1248,7 +1251,7 @@ hunter = {
 	lifestyle = yes
 
 	potential = {
-		NOT = { religion = jain }
+		NOT = { religion = great_deku }
 	}
 	
 	martial = 2
@@ -1280,7 +1283,7 @@ poet = {
 # Way of Life DLC: No longer a lifestyle trait
 falconer = {
 	potential = {
-		NOT = { religion = jain }
+		NOT = { religion = great_deku }
 	}
 
 	diplomacy = 1
@@ -1328,7 +1331,7 @@ chaste = {
 	personality = yes
 	
 	potential = {
-		NOT = { religion_group = muslim }
+		NOT = { religion_group = demon_religion } #The demon kings need more soldiers
 	}
 	
 	opposites =  {

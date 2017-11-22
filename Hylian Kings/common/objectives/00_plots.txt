@@ -298,7 +298,7 @@ plot_gain_vassal_title = {
 			temporary = no
 		}
 		NOT = { trait = incapable }
-		NOT = { trait = imbecile }
+		NOT = { has_landed_title = e_china_west_governor }
 		
 		OR = {
 			ai = no
@@ -399,6 +399,7 @@ plot_gain_vassal_title = {
 			NOT = { has_non_aggression_pact_with = FROM }
 			NOT = { reverse_has_truce = FROM }
 		}
+		FROM = { in_revolt = no }
 	}
 	
 	chance = {
@@ -594,6 +595,7 @@ plot_gain_vassal_title = {
 				OR = {
 					is_playable = no
 					trait = incapable
+					in_revolt = yes
 				}
 			}
 			holder_scope = {
@@ -644,7 +646,7 @@ plot_kill_character = {
 			FROM = { 
 				NOR = {
 					religion = shiite
-					trait = secretly_shiite
+					secret_religion = shiite
 				}
 			}
 			ROOT = {
@@ -733,6 +735,7 @@ plot_kill_character = {
 		NOT = { is_child_of = FROM } # Not my own children
 		is_within_diplo_range = FROM
 		NOT = { has_blood_oath_with = FROM }
+		assassination_interaction_trigger = yes
 	}
 	
 	target_potential = {
@@ -1072,7 +1075,7 @@ plot_kill_spouse = {
 			FROM = { 
 				NOR = {
 					religion = shiite
-					trait = secretly_shiite
+					secret_religion = shiite
 				}
 			}
 			ROOT = {
@@ -1104,7 +1107,8 @@ plot_kill_spouse = {
 	
 	# Target allow trigger for when players target a specific character in the GUI
 	player_allow = {
-		always = yes
+		NOT = { is_lover = FROM }
+		assassination_interaction_trigger = yes
 	}
 	
 	# Target character scope
@@ -1787,8 +1791,8 @@ plot_gain_liege_title = {
 				character = FROM
 			}
 			has_holder = no
+			holder_scope = { is_playable = no }
 		}
-		is_playable = no
 	}
 	abort_effect = {
 		FROM = {

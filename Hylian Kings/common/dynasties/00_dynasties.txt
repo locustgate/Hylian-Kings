@@ -1718,8 +1718,21 @@
 }
 
 320={
-	name="Mo'a"
+	name="Kril'kah"
 	culture=sheikah
+	used_for_random=no
+	can_appear=no	
+	coat_of_arms={
+		template=0
+		layer={
+			texture=2
+			texture_internal=28
+			emblem=0
+			color=0
+			color=0
+			color=0
+		}
+	}
 }
 
 321={
@@ -2118,8 +2131,19 @@
 }
 
 400={
-	name="Numah"
+	name="Mudora"
 	culture=sheikah
+	coat_of_arms={
+		template=0
+		layer={
+			texture=2
+			texture_internal=27
+			emblem=0
+			color=0
+			color=0
+			color=0
+		}
+	}
 }
 
 401={
@@ -77074,896 +77098,896 @@
 	 
 }
 15400={
-	name="-x-"
+
 	culture=palmoraen
 }
 
 15401={
-	name="-x-"
+
 	culture=palmoraen
 }
 15402={
-	name="-x-"
+
 	culture=palmoraen
 }
 15403={
-	name="-x-"
+
 	culture=palmoraen
 }
 15404={
-	name="-x-"
+
 	culture=palmoraen
 }
 15405={
-	name="-x-"
+
 	culture=palmoraen
 }
 15406={
-	name="-x-"
+
 	culture=palmoraen
 }
 15407={
-	name="-x-"
+
 	culture=palmoraen
 }
 15408={
-	name="-x-"
+
 	culture=palmoraen
 }
 15409={
-	name="-x-"
+
 	culture=palmoraen
 }
 15410={
-	name="-x-"
+
 	culture=palmoraen
 }
 15411={
-	name="-x-"
+
 	culture=palmoraen
 }
 15412={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15413={
-	name="-x-"
+
 	culture=palmoraen
 }
 15414={
-	name="-x-"	
+	
 }
 15415={
-	name="-x-"
+
 	culture=palmoraen
 }
 15416={
-	name="-x-"
+
 	culture=palmoraen
 }
 15417={
-	name="-x-"
+
 	culture=palmoraen
 }
 15418={
-	name="-x-"
+
 	culture=palmoraen
 }
 15419={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15420={
-	name="-x-"
+
 	culture=palmoraen
 }
 15421={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15422={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15423={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15424={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15425={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15426={
-	name="-x-"
+
 	culture=palmoraen
 }
 15427={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15428={
-	name="-x-"
+
 	culture=palmoraen
 }
 15429={
-	name="-x-"
+
 	culture=palmoraen		 
 }
 15430={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15431={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15432={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15433={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15434={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15435={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15436={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15437={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15438={
-	name="-x-"
+
 	culture=palmoraen
 }
 15439={
-	name="-x-"
+
 	culture=palmoraen
 }
 15440={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15441={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15442={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15443={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15444={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15445={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15446={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15447={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15448={
-	name="-x-"
+
 	culture=palmoraen
 }
 15449 ={
-	name="-x-"
+
 	culture=palmoraen
 }
 15450={
-	name="-x-"
+
 	culture=palmoraen
 }
 15451={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15452={
-	name="-x-"
+
 	culture=palmoraen
 }
 15453={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15454={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15455={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15456={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15457={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15458={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15459={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15460={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15461 ={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15462={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15463={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15464={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15465={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15466={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15467={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15468={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15469={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15470={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15471={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15472={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15473={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15474={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15475={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15476={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15477={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15478={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15479={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15480={
-	name="-x-"
+
 	 
 	culture=palmoraen
 }
 15481={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15482={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15483={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15484={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15485={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15486={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15487={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15488={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15489={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15490={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15491={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15492={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15493={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15494={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15495={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15496={
-	name="-x-"
+
 	 
 	culture=palmoraen
 }
 15497={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15498={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15499={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15500={
-	name="-x-"
+
 	culture=palmoraen
 }
 
 15501={
-	name="-x-"
+
 	culture=palmoraen
 }
 15502={
-	name="-x-"
+
 	culture=palmoraen
 }
 15503={
-	name="-x-"
+
 	culture=palmoraen
 }
 15504={
-	name="-x-"
+
 	culture=palmoraen
 }
 15505={
-	name="-x-"
+
 	culture=palmoraen
 }
 15506={
-	name="-x-"
+
 	culture=palmoraen
 }
 15507={
-	name="-x-"
+
 	culture=palmoraen
 }
 15508={
-	name="-x-"
+
 	culture=palmoraen
 }
 15509={
-	name="-x-"
+
 	culture=palmoraen
 }
 15510={
-	name="-x-"
+
 	culture=palmoraen
 }
 15511={
-	name="-x-"
+
 	culture=palmoraen
 }
 15512={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15513={
-	name="-x-"
+
 	culture=palmoraen
 }
 15514={
-	name="-x-"	
+	
 }
 15515={
-	name="-x-"
+
 	culture=palmoraen
 }
 15516={
-	name="-x-"
+
 	culture=palmoraen
 }
 15517={
-	name="-x-"
+
 	culture=palmoraen
 }
 15518={
-	name="-x-"
+
 	culture=palmoraen
 }
 15519={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15520={
-	name="-x-"
+
 	culture=palmoraen
 }
 15521={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15522={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15523={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15524={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15525={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15526={
-	name="-x-"
+
 	culture=palmoraen
 }
 15527={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15528={
-	name="-x-"
+
 	culture=palmoraen
 }
 15529={
-	name="-x-"
+
 	culture=palmoraen		 
 }
 15530={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15531={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15532={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15533={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15534={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15535={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15536={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15537={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15538={
-	name="-x-"
+
 	culture=palmoraen
 }
 15539={
-	name="-x-"
+
 	culture=palmoraen
 }
 15540={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15541={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15542={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15543={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15544={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15545={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15546={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15547={
-	name="-x-"
+
 	culture=palmoraen 
 }
 15548={
-	name="-x-"
+
 	culture=palmoraen
 }
 15549 ={
-	name="-x-"
+
 	culture=palmoraen
 }
 15550={
-	name="-x-"
+
 	culture=palmoraen
 }
 15551={
-	name="-x-"
+
 	culture=palmoraen	 
 }
 15552={
-	name="-x-"
+
 	culture=palmoraen
 }
 15553={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15554={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15555={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15556={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15557={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15558={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15559={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15560={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15561 ={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15562={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15563={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15564={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15565={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15566={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15567={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15568={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15569={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15570={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15571={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15572={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15573={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15574={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15575={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15576={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15577={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15578={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15579={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15580={
-	name="-x-"
+
 	 
 	culture=palmoraen
 }
 15581={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15582={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15583={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15584={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15585={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15586={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15587={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15588={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15589={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15590={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15591={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15592={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15593={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15594={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15595={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15596={
-	name="-x-"
+
 	 
 	culture=palmoraen
 }
 15597={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15598={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
 15599={
-	name="-x-"
+
 	culture=palmoraen
 	 
 }
@@ -81594,6 +81618,990 @@
 16399={
 	name="Intunda"
 	culture=korok
+	 
+}
+16400 = { 
+	name = "Chana"
+	culture = comenian
+	can_appear=no	
+	coat_of_arms={
+		template=0
+		layer={
+			texture=2
+			texture_internal=29
+			emblem=0
+			color=0
+			color=0
+			color=0
+		}
+	}
+}
+
+16401 = {
+	name="Sivun"
+	culture = comenian
+}
+16402 = {
+	name="Tonor"
+	culture = comenian
+}
+16403 = {
+	name="Rarei"
+	culture = comenian
+}
+16404 = {
+	name="Saloalai"
+	culture = comenian
+}
+16405 = {
+	name="Atrei"
+	culture = comenian
+}
+16406 = {
+	name="Dolalna"
+	culture = comenian
+}
+16407 = {
+	name="Hape"
+	culture = comenian
+}
+16408 = {
+	name="Romin"
+	culture = comenian
+}
+16409 = {
+	name="Bo-Bate"
+	culture = comenian
+}
+16410 = {
+	name="Leyte"
+	culture = comenian
+}
+16411 = {
+	name="Fieke"
+	culture = comenian
+}
+16412 = {
+	name="Chano"
+	culture = comenian	 
+}
+16413 = {
+	name="Hily"
+	culture = comenian
+}
+16414 = {
+	name="Biben"	
+}
+16415 = {
+	name="Cete"
+	culture = comenian
+}
+16416 = {
+	name="Makiria"
+	culture = comenian
+}
+16417 = {
+	name="Jana"
+	culture = comenian
+}
+16418 = {
+	name="Malul"
+	culture = comenian
+}
+16419 = {
+	name="Ciden"
+	culture = comenian 
+}
+16420 = {
+	name="Dolacul"
+	culture = comenian
+}
+16421 = {
+	name="Sate"
+	culture = comenian 
+}
+16422 = {
+	name="Rone"
+	culture = comenian 
+}
+16423 = {
+	name="Abera"
+	culture = comenian	 
+}
+16424 = {
+	name="Jogol"
+	culture = comenian 
+}
+16425 = {
+	name="Rodan"
+	culture = comenian 
+}
+16426 = {
+	name="Dank"
+	culture = comenian
+}
+16427 = {
+	name="Varin"
+	culture = comenian 
+}
+16428 = {
+	name="Siva"
+	culture = comenian
+}
+16429 = {
+	name="Narar"
+	culture = comenian		 
+}
+16430 = {
+	name="Aguth"
+	culture = comenian	 
+}
+16431 = {
+	name="Elefey"
+	culture = comenian	 
+}
+16432 = {
+	name="Velie"
+	culture = comenian	 
+}
+16433 = {
+	name="Chete"
+	culture = comenian 
+}
+16434 = {
+	name="Losol"
+	culture = comenian 
+}
+16435 = {
+	name="Chea"
+	culture = comenian 
+}
+16436 = {
+	name="Etrei"
+	culture = comenian 
+}
+16437 = {
+	name="Lockwer"
+	culture = comenian 
+}
+16438 = {
+	name="Cidanaba"
+	culture = comenian
+}
+16439 = {
+	name="Dapen"
+	culture = comenian
+}
+16440 = {
+	name="Longa"
+	culture = comenian	 
+}
+16441 = {
+	name="Nunen"
+	culture = comenian	 
+}
+16442 = {
+	name="Danin"
+	culture = comenian	 
+}
+16443 = {
+	name="Nalen"
+	culture = comenian	 
+}
+16444 = {
+	name="Lorla"
+	culture = comenian	 
+}
+16445 = {
+	name="Enga"
+	culture = comenian	 
+}
+16446 = {
+	name="Lilen"
+	culture = comenian	 
+}
+16447 = {
+	name="Shina"
+	culture = comenian 
+}
+16448 = {
+	name="Datha"
+	culture = comenian
+}
+16449  = {
+	name="Dapellai"
+	culture = comenian
+}
+16450 = {
+	name="Dakon"
+	culture = comenian
+}
+16451 = {
+	name="Kederral"
+	culture = comenian	 
+}
+16452 = {
+	name="Meref"
+	culture = comenian
+}
+16453 = {
+	name="Longi"
+	culture = comenian
+	 
+}
+16454 = {
+	name="Meben"
+	culture = comenian
+	 
+}
+16455 = {
+	name="Motirre"
+	culture = comenian
+	 
+}
+16456 = {
+	name="Sonun"
+	culture = comenian
+	 
+}
+16457 = {
+	name="Punza"
+	culture = comenian
+	 
+}
+16458 = {
+	name="Irmuv"
+	culture = comenian
+	 
+}
+16459 = {
+	name="Maben"
+	culture = comenian
+	 
+}
+16460 = {
+	name="Jirce"
+	culture = comenian
+	 
+}
+16461  = {
+	name="Kunen"
+	culture = comenian
+	 
+}
+16462 = {
+	name="Meten"
+	culture = comenian
+	 
+}
+16463 = {
+	name="Anutrei"
+	culture = comenian
+	 
+}
+16464 = {
+	name="Poyth"
+	culture = comenian
+	 
+}
+16465 = {
+	name="Dize"
+	culture = comenian
+	 
+}
+16466 = {
+	name="Julek"
+	culture = comenian
+	 
+}
+16467 = {
+	name="Irmen"
+	culture = comenian
+	 
+}
+16468 = {
+	name="Chabeben"
+	culture = comenian
+	 
+}
+16469 = {
+	name="Ibon"
+	culture = comenian
+	 
+}
+16470 = {
+	name="Aden"
+	culture = comenian
+	 
+}
+16471 = {
+	name="Moellitrei"
+	culture = comenian
+	 
+}
+16472 = {
+	name="Bravem"
+	culture = comenian
+	 
+}
+16473 = {
+	name="Sten"
+	culture = comenian
+	 
+}
+16474 = {
+	name="Lete"
+	culture = comenian
+	 
+}
+16475 = {
+	name="Firre"
+	culture = comenian
+	 
+}
+16476 = {
+	name="Teynin"
+	culture = comenian
+	 
+}
+16477 = {
+	name="Sulil"
+	culture = comenian
+	 
+}
+16478 = {
+	name="Irmetho"
+	culture = comenian
+	 
+}
+16479 = {
+	name="Irmarant"
+	culture = comenian
+	 
+}
+16480 = {
+
+	 	name="Sacan"
+	culture = comenian
+}
+16481 = {
+	name="Tasen"
+	culture = comenian
+	 
+}
+16482 = {
+	name="Lunarul"
+	culture = comenian
+	 
+}
+16483 = {
+	name="Fieltoc"
+	culture = comenian
+	 
+}
+16484 = {
+	name="Losin"
+	culture = comenian
+	 
+}
+16485 = {
+	name="Miben"
+	culture = comenian
+	 
+}
+16486 = {
+	name="Ongl"
+	culture = comenian
+	 
+}
+16487 = {
+	name="Danclan"
+	culture = comenian
+	 
+}
+16488 = {
+	name="Vapen"
+	culture = comenian
+	 
+}
+16489 = {
+	name="Jinev"
+	culture = comenian
+	 
+}
+16490 = {
+	name="Loma"
+	culture = comenian
+	 
+}
+16491 = {
+	name="Avitrei"
+	culture = comenian
+	 
+}
+16492 = {
+	name="Dafen"
+	culture = comenian
+	 
+}
+16493 = {
+	name="Brare"
+	culture = comenian
+	 
+}
+16494 = {
+	name="Jaliuwano"
+	culture = comenian
+	 
+}
+16495 = {
+	name="Kida"
+	culture = comenian
+	 
+}
+16496 = {
+	name="Adomuren"
+	culture = comenian
+}
+16497 = {
+	name="Mariga"
+	culture = comenian
+	 
+}
+16498 = {
+	name="Lorcesyn"
+	culture = comenian
+	 
+}
+16599 = {
+	name="Epetrei"
+	culture = comenian
+	 
+}
+16500 = {
+	name="Longanze"
+	culture = comenian
+}
+
+16501 = {
+	name="Dathan"
+	culture = comenian
+}
+16502 = {
+	name="Jarre"
+	culture = comenian
+}
+16503 = {
+	name="Girin"
+	culture = comenian
+}
+16504 = {
+	name="Gava"
+	culture = comenian
+}
+16505 = {
+	name="Irmal"
+	culture = comenian
+}
+16506 = {
+	name="Neyte"
+	culture = comenian
+}
+16507 = {
+	name="Dabeno"
+	culture = comenian
+}
+16508 = {
+	name="Anitrei"
+	culture = comenian
+}
+16509 = {
+	name="Kedin"
+	culture = comenian
+}
+16510 = {
+	name="Daparin"
+	culture = comenian
+}
+16511 = {
+	name="Irmempa"
+	culture = comenian
+}
+16512 = {
+	name="Doleten"
+	culture = comenian	 
+}
+16513 = {
+	name="Mohlin"
+	culture = comenian
+}
+16514 = {
+		name="Eneilia"
+	culture=comenian
+}
+16515 = {
+	name="Dil"
+	culture = comenian
+}
+16516 = {
+	name="Paben"
+	culture = comenian
+}
+16517 = {
+	name="Digin"
+	culture = comenian
+}
+16518 = {
+	name="Sarin"
+	culture = comenian
+}
+16519 = {
+	name="Mote"
+	culture = comenian 
+}
+16520 = {
+	name="Cunin"
+
+	culture = comenian
+}
+16521 = {
+	name="Bemelen"
+
+	culture = comenian 
+}
+16522 = {
+	name="Bren"
+
+	culture = comenian 
+}
+16523 = {
+	name="Berul"
+
+	culture = comenian	 
+}
+16524 = {
+	name="Login"
+
+	culture = comenian 
+}
+16525 = {
+	name="Nanin"
+
+	culture = comenian 
+}
+16526 = {
+	name="Ganu"
+
+	culture = comenian
+}
+16527 = {
+	name="Lona"
+
+	culture = comenian 
+}
+16528 = {
+	name="Jecen"
+
+	culture = comenian
+}
+16529 = {
+	name="Satei"
+
+	culture = comenian		 
+}
+16530 = {
+	name="Cidolabar"
+
+	culture = comenian	 
+}
+16531 = {
+	name="Dalba"
+
+	culture = comenian	 
+}
+16532 = {
+	name="Jinzo"
+
+	culture = comenian	 
+}
+16533 = {
+	name="Sarre"
+
+	culture = comenian 
+}
+16534 = {
+	name="Jida"
+
+	culture = comenian 
+}
+16535 = {
+	name="Sulun"
+
+	culture = comenian 
+}
+16536 = {
+	name="Sulon"
+
+	culture = comenian 
+}
+16537 = {
+	name="Dorre"
+
+	culture = comenian 
+}
+16538 = {
+	name="Shus"
+
+	culture = comenian
+}
+16539 = {
+	name="Vebom"
+
+	culture = comenian
+}
+16540 = {
+	name="Gagen"
+
+	culture = comenian	 
+}
+16541 = {
+	name="Jatei"
+
+	culture = comenian	 
+}
+16542 = {
+	name="Cozill"
+
+	culture = comenian	 
+}
+16543 = {
+	name="Farre"
+
+	culture = comenian	 
+}
+16544 = {
+	name="Dapan"
+
+	culture = comenian	 
+}
+16545 = {
+	name="Dufen"
+
+	culture = comenian	 
+}
+16546 = {
+	name="Brora"
+
+	culture = comenian	 
+}
+16547 = {
+	name="Otrei"
+
+	culture = comenian 
+}
+16548 = {
+	name="Nurtote"
+
+	culture = comenian
+}
+16549  = {
+	name="Amerre"
+
+	culture = comenian
+}
+16550 = {
+	name="Tegacke"
+
+	culture = comenian
+}
+16551 = {
+	name="Dolo"
+
+	culture = comenian	 
+}
+16552 = {
+	name="Dunaven"
+
+	culture = comenian
+}
+16553 = {
+	name="Temen"
+
+	culture = comenian
+	 
+}
+16554 = {
+	name="Dotieral"
+
+	culture = comenian
+	 
+}
+16555 = {
+	name="Resilden"
+
+	culture = comenian
+	 
+}
+16556 = {
+	name="Chane"
+
+	culture = comenian
+	 
+}
+16557 = {
+	name="Lolan"
+
+	culture = comenian
+	 
+}
+16558 = {
+	name="Dagon"
+
+	culture = comenian
+	 
+}
+16559 = {
+	name="Dathi"
+
+	culture = comenian
+	 
+}
+16560 = {
+	name="Chopa"
+
+	culture = comenian
+	 
+}
+16561  = {
+	name="Airerta"
+
+	culture = comenian
+	 
+}
+16562 = {
+	name="Dasseg"
+
+	culture = comenian
+	 
+}
+16563 = {
+	name="Hevie"
+
+	culture = comenian
+	 
+}
+16564 = {
+	name="Longe"
+
+	culture = comenian
+	 
+}
+16565 = {
+	name="Kediv"
+
+	culture = comenian
+	 
+}
+16566 = {
+	name="Javin"
+
+	culture = comenian
+	 
+}
+16567 = {
+	name="Curen"
+
+	culture = comenian
+	 
+}
+16568 = {
+	name="Luvie"
+
+	culture = comenian
+	 
+}
+16569 = {
+	name="Stuth"
+
+	culture = comenian
+	 
+}
+16570 = {
+	name="Sarerre"
+
+	culture = comenian
+	 
+}
+16571 = {
+	name="Genori"
+
+	culture = comenian
+	 
+}
+16572 = {
+	name="Drevo"
+
+	culture = comenian
+	 
+}
+16573 = {
+	name="Fiece"
+
+	culture = comenian
+	 
+}
+16574 = {
+	name="Chanimenaf"
+
+	culture = comenian
+	 
+}
+16575 = {
+	name="Voman"
+
+	culture = comenian
+	 
+}
+16576 = {
+	name="Jonav"
+
+	culture = comenian
+	 
+}
+16577 = {
+	name="Datty"
+
+	culture = comenian
+	 
+}
+16578 = {
+	name="Dapes"
+
+	culture = comenian
+	 
+}
+16579 = {
+	name="Assen"
+	culture = comenian
+	 
+}
+16580 = {
+	name="Dathugen"
+
+	culture = comenian
+}
+16581 = {
+	name="Japatrei"
+
+	culture = comenian
+	 
+}
+16582 = {
+	name="Jiten"
+
+	culture = comenian
+	 
+}
+16583 = {
+	name="Branden"
+
+	culture = comenian
+	 
+}
+16584 = {
+	name="Hesiralax"
+
+	culture = comenian
+	 
+}
+16585 = {
+	name="Gate"
+
+	culture = comenian
+	 
+}
+16586 = {
+	name="Jafen"
+
+	culture = comenian
+	 
+}
+16587 = {
+	name="Janden"
+
+	culture = comenian
+	 
+}
+16588 = {
+	name="Cide"
+
+	culture = comenian
+	 
+}
+16589 = {
+	name="Kevie"
+
+	culture = comenian
+	 
+}
+16590 = {
+	name="Brarine"
+
+	culture = comenian
+	 
+}
+16591 = {
+	name="Geulvador"
+
+	culture = comenian
+	 
+}
+16592 = {
+	name="Bulor"
+
+	culture = comenian
+	 
+}
+16593 = {
+	name="Fete"
+
+	culture = comenian
+	 
+}
+16594 = {
+	name="Jatin"
+
+	culture = comenian
+	 
+}
+16595 = {
+	name="Menn"
+
+	culture = comenian
+	 
+}
+16596 = {
+	name="Amuth"
+
+	 
+	culture = comenian
+}
+16597 = {
+	name="Moluna"
+
+	culture = comenian
+	 
+}
+16598 = {
+	name="Kalen"
+
+	culture = comenian
+	 
+}
+16699 = {
+	name="Essen"
+
+	culture = comenian
 	 
 }
 

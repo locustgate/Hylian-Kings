@@ -1,3 +1,9 @@
+death_gerudo_captured = {
+	violent = yes
+	can_nokiller = yes
+	murder_unknown = yes
+	long_desc = "DEATH_GERUDO_CAPTURED"
+}
 #SACRIFICE
 death_abandoned = {
 	violent = yes

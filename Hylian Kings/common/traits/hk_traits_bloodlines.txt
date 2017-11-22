@@ -17,6 +17,7 @@ bloodline_goddess = {
 		bloodline_shadow
 		bloodline_fire
 		bloodline_water	
+		bloodline_gamelon
 	}
 	diplomacy = 2
 	learning = 1
@@ -40,6 +41,7 @@ bloodline_hero = {
 		bloodline_shadow
 		bloodline_fire
 		bloodline_water	
+		bloodline_gamelon
 	}
 	martial = 2
 	
@@ -62,7 +64,8 @@ bloodline_lonlon = {
 		bloodline_forest
 		bloodline_shadow
 		bloodline_fire
-		bloodline_water		
+		bloodline_water	
+		bloodline_gamelon	
 	}
 	stewardship = 3
 	monthly_character_prestige  = -0.025
@@ -85,8 +88,31 @@ bloodline_debon = {
 		bloodline_shadow
 		bloodline_fire
 		bloodline_water	
+		bloodline_gamelon
 	}
 	learning = 1
+	diplomacy = 1
+	monthly_character_prestige  = 0.1
+}
+bloodline_gamelon = {
+	agnatic = yes
+	cached = yes
+	opposites = {
+		bloodline_ambi
+		bloodline_betrayers
+		bloodline_goddess
+		bloodline_dragonslayer
+		bloodline_firstborn
+		bloodline_firstdox
+		bloodline_ganondorf
+		bloodline_hero
+		bloodline_light
+		bloodline_lonlon	
+		bloodline_forest
+		bloodline_shadow
+		bloodline_fire
+		bloodline_water	
+	}
 	diplomacy = 1
 	monthly_character_prestige  = 0.1
 }
@@ -108,7 +134,8 @@ bloodline_light = { #rarau
 		bloodline_forest
 		bloodline_shadow
 		bloodline_fire
-		bloodline_water		
+		bloodline_water	
+		bloodline_gamelon	
 	}
 	learning = 2
 	health = 0.5
@@ -135,6 +162,7 @@ bloodline_light = { #rarau
 		bloodline_shadow
 		bloodline_fire
 		bloodline_water	
+		bloodline_gamelon
 	}
 	learning = 2
 	health = 0.5
@@ -161,6 +189,7 @@ bloodline_shadow = {
 		bloodline_shadow
 		bloodline_fire
 		bloodline_water	
+		bloodline_gamelon
 	}
 	intrigue = 2
 	health = 0.5
@@ -187,6 +216,7 @@ bloodline_water = {
 		bloodline_shadow
 		bloodline_fire
 		bloodline_water	
+		bloodline_gamelon
 	}
 	intrigue = 2
 	health = 0.5
@@ -213,6 +243,7 @@ bloodline_fire = {
 		bloodline_shadow
 		bloodline_fire
 		bloodline_water	
+		bloodline_gamelon
 	}
 	intrigue = 2
 	health = 0.5
@@ -239,6 +270,7 @@ bloodline_forest = {
 		bloodline_shadow
 		bloodline_fire
 		bloodline_water
+		bloodline_gamelon
 		
 	}
 	intrigue = 2
@@ -267,6 +299,7 @@ bloodline_firstborn = {
 		bloodline_shadow
 		bloodline_fire
 		bloodline_water	
+		bloodline_gamelon
 	}
 	Martial = 2
 	monthly_character_prestige  = 0.1
@@ -291,6 +324,7 @@ bloodline_firstdox = {
 		bloodline_shadow
 		bloodline_fire
 		bloodline_water	
+		bloodline_gamelon
 	}
 	diplomacy = 2
 	martial = 1
@@ -319,6 +353,7 @@ bloodline_batreaux = {
 		bloodline_shadow
 		bloodline_fire
 		bloodline_water	
+		bloodline_gamelon
 	}
 	health = 0.5
 	learning = 2
@@ -346,6 +381,7 @@ bloodline_betrayers = {
 		bloodline_shadow
 		bloodline_fire
 		bloodline_water	
+		bloodline_gamelon
 	}
 	intrigue = 1
 	martial = 2
@@ -354,7 +390,7 @@ bloodline_betrayers = {
 	
 	monthly_character_prestige  = -0.1
 }
-
+bloodline_red={}
 
 ##bookmark only
 #OOT
@@ -376,6 +412,7 @@ bloodline_ganondorf = {
 		bloodline_shadow
 		bloodline_fire
 		bloodline_water	
+		bloodline_gamelon
 	}
 	martial = 2
 	intrigue = 1
@@ -400,6 +437,7 @@ bloodline_dragonslayer = {
 		bloodline_shadow
 		bloodline_fire
 		bloodline_water	
+		bloodline_gamelon
 	}
 	martial = 2
 	
@@ -424,6 +462,7 @@ bloodline_ambi = {
 		bloodline_shadow
 		bloodline_fire
 		bloodline_water
+		bloodline_gamelon
 	}
 	diplomacy = 2
 	learning = 1

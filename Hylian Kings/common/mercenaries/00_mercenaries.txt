@@ -99,6 +99,13 @@ knights_moria_composition = {
 #	archers = 150
 #	galleys=50
 #}
+truth_council_composition = {
+	levy_size = 6
+	archers = 150
+	light_infantry = 150
+	heavy_infantry = 300
+	horse_archers = 150
+}
 #Genaric Mercs
 hyrulean_deserters_composition = { 
 	levy_size = 2
@@ -115,6 +122,14 @@ pirate_composition = {
 naval_merc_composition = {
 	levy_size = 9
 	galleys = 10
+}
+coast_guard_composition = {
+	levy_size = 5
+	archers = 150
+	heavy_infantry = 210
+	light_infantry = 225
+	knights = 15
+	galleys = 40
 }
 #Reg Mercs
 dins_sons_composition = {
@@ -262,11 +277,93 @@ blade_brothers_composition = {
 	heavy_infantry = 200
 	mage_sword = 50
 }
-coast_guard_composition = {
-	levy_size = 5
+magnum_composition = {
+	levy_size = 3
 	archers = 150
-	heavy_infantry = 210
-	light_infantry = 225
+	light_infantry = 150
+	heavy_infantry = 435
 	knights = 15
-	galleys = 40
+}
+fff_composition = {
+	levy_size = 3
+	archers = 150
+	pikemen = 150
+	heavy_infantry = 335
+	knights = 15
+}
+
+blue_steel_composition = {
+	levy_size = 1
+	archers = 150
+	light_infantry = 150
+	heavy_infantry = 435
+	knights = 15
+}
+
+gilded_pompadours_composition = {
+	levy_size = 2
+	archers = 150
+	pikemen = 150
+	heavy_infantry = 300
+	knights = 50
+}
+num_squad_composition = { 
+	levy_size = 1
+	archers = 150
+	light_infantry = 150
+	heavy_infantry = 375
+
+}
+aland_raiders_composition = { 
+	levy_size = 1
+	archers = 225
+	pikemen = 75
+	light_infantry = 75
+	heavy_infantry = 375
+	galleys=10
+
+}
+
+saria_band_composition = {
+	levy_size = 2
+	knights = 50
+	heavy_infantry = 350
+	archers = 50
+
+}
+kasuto_company_composition = {
+	levy_size = 2
+	archers = 150
+	pikemen = 150
+	heavy_infantry = 300
+	mage = 150
+
+}
+company_of_gamelon_composition = {
+	levy_size = 2
+	archers = 150
+	pikemen = 150
+	heavy_infantry = 300
+	light_cavalry = 150
+
+}
+horon_brigade_composition = {
+	levy_size = 2
+	archers = 300
+	light_infantry = 150
+	heavy_infantry = 435
+	knights = 15
+
+}
+owl_band_composition = { 
+	levy_size = 3
+	light_infantry = 450
+	light_cavalry = 75
+	horse_archers = 75
+
+}
+ordonia_riders_composition={
+	levy_size = 1.5
+	horse_archers = 450
+	light_cavalry = 150
 }

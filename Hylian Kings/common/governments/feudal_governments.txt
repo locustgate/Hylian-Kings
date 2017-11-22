@@ -1,5 +1,4 @@
 feudal_governments = {
-
 	feudal_government = {
 		preferred_holdings = { CASTLE }
 		allowed_holdings = { 
@@ -11,21 +10,12 @@ feudal_governments = {
 			TRIBAL
 		}
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
-		feudalcratic_government 
-		imperialism_government
-		
+			muslim_government
+			theocratic_feudal_government
+			chinese_imperial_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
-		}
-		accepts_liege_government_religion = {
-		barbaric_government
-		}
-		vassal_call_to_arms = {
-			tribal_government
-			barbaric_government
-			imperialism_government
-			
 		}
 		potential = {
 			NOR = {
@@ -33,35 +23,44 @@ feudal_governments = {
 			culture_group = blin 
 			culture_group = lfos
 			culture = demon
-			religion_group = demon_religion			
-			religion = great_deku
-			religion = great_fairies
-			religion = gerudo_goddess
-			religion = darknut_doctrine
+			religion_group = demon_religion		
+			AND={
+				OR={
+				religion=great_deku
+				religion=great_fairies
+				}
+				OR={
+				culture=kokiri
+				culture=great_fairy
+				}
+			}
+			religion=gerudo_goddess
+			religion=darknut_doctrine
+			religion=sheikahism_nihilism
 			}			
 			NAND = {
 				controls_religion = yes
 				NOT = { religion_group = gerudo_goddess }
 				NOT = { religion = darknut_doctrine }
-				NOT = { religion = wizzrobe_doctrine }
 				NOT = { religion_group = demon_religion }
 			}
 			
 		}
 		color = { 91 133 207 }
 		
+		dukes_called_kings = yes
 		barons_need_dynasty = yes
-		capital_move_delay = 960
 
 		can_build_tribal = no
 		
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
 		}
+		capital_move_delay = 600
 	}
 	#theocratic+feudal
-	feudalcratic_government = {
-		preferred_holdings = { CASTLE }
+	theocratic_feudal_government = {
+		preferred_holdings = { CASTLE TEMPLE }
 		allowed_holdings = { 
 			CASTLE 
 			TEMPLE
@@ -72,32 +71,30 @@ feudal_governments = {
 			TRIBAL
 		}
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
-		feudal_government
-		 
-		
+		feudal_government		
 		imperialism_government
-		legion_government
 		
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
 		}
-		accepts_liege_government_religion = {
-		barbaric_government
-		}
-		vassal_call_to_arms = {
-			tribal_government
-			barbaric_government
-			
-			
-			imperialism_government
-			
-		}
+		frame_suffix = "_theocraticfeudal"
 		potential = {
 			OR = {
-			religion = great_deku
-			religion = great_fairies
+			AND={
+				OR={
+				religion=great_deku
+				religion=great_fairies
+				}
+				OR={
+				culture=kokiri
+				culture=great_fairy
+				}
+			}
+			religion=wizzrobe_doctrine
 			religion = gerudo_goddess
+			religion=sheikahism_nihilism
+			religion=heavenly_goddesses
 			}			
 			NAND = {
 				controls_religion = yes
@@ -110,8 +107,9 @@ feudal_governments = {
 				NOT = { religion = great_fairies }
 			}
 		}
-		color = { 255 255 240 }
+		color = { 207 145 90 }
 		
+		uses_piety_for_law_change = yes
 		barons_need_dynasty = yes
 		capital_move_delay = 960
 
@@ -141,15 +139,6 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
-		}
-		vassal_call_to_arms = {
-			tribal_government
-			feudal_government
-			
-			
-			imperialism_government
-			
-			
 		}
 		potential = {
 			OR = {
@@ -200,8 +189,7 @@ feudal_governments = {
 			TRIBAL
 		}
 		accepts_liege_governments_religion = { # They don't like being below
-		
-		feudal_government
+				feudal_government
 		}
 		
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
@@ -221,12 +209,6 @@ feudal_governments = {
 				NOT = { religion_group = demon_religion }
 			}
 		}
-		vassal_call_to_arms = {
-			tribal_government
-			
-			
-			
-		}	
 		color = { 176 23 31 }
 		
 		uses_prestige_for_law_change = yes
@@ -234,13 +216,17 @@ feudal_governments = {
 		barons_need_dynasty = yes
 		can_build_tribal = no
 		capital_move_delay = 960
-		can_build_city = no
+		#can_build_city = no
 		allow_looting = yes
 		uses_prestige_for_law_change = yes
+		gets_religion_opinion_penalties = no
+		gives_religion_opinion_penalties = no
+		vassal_government_opinion_penalties = no
+		can_grant_kingdoms_and_empires_to_other_government_group = yes
+		free_retract_vassalage = yes
 		
 		ignore_in_vassal_limit_calculation = {
-			tribal_government
-			
+			tribal_government	
 			
 		}
 	}

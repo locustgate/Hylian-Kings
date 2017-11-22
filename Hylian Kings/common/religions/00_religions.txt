@@ -154,7 +154,8 @@ goddesses_religion = {
 		intermarry = great_maku 
 	}
 	heavenly_goddesses = {#hanman
-		graphical_culture = mongolgfx
+		graphical_culture = chinesegfx
+		secondary_event_pictures = sunni
 
 		icon = 2
 		heresy_icon = 4
@@ -172,6 +173,8 @@ goddesses_religion = {
 				GOD_DEMISE
 		}
 		has_heir_designation = yes
+		can_grant_divorce = yes
+		priests_can_inherit = no
 		priests_can_inherit = no
 		priests_can_marry = yes
 		feminist = yes
@@ -181,6 +184,7 @@ goddesses_religion = {
 		religious_clothing_priest = 5
 
 		attacking_same_religion_piety_loss = yes
+		short_reign_opinion_year_mult = 0 # No short reign penalty
 	
 	
 		intermarry = great_maku 
@@ -296,7 +300,7 @@ goddesses_religion = {
 		intermarry = great_maku 
 		#intermarry = gem_goddesses
 		intermarry = heavenly_goddesses
-		#intermarry = western_goddesses
+		intermarry = western_goddesses
 
 		priests_can_inherit = yes
 		priests_can_marry = yes 
@@ -328,7 +332,7 @@ goddesses_religion = {
 		intermarry = great_maku 
 		#intermarry = gem_goddesses
 		intermarry = heavenly_goddesses
-		#intermarry = western_goddesses
+		intermarry = western_goddesses
 
 		priests_can_inherit = yes
 		priests_can_marry = yes 
@@ -365,7 +369,8 @@ goddesses_religion = {
 		feminist = yes
 	}	
 	sheikahism_nihilism = {
-		graphical_culture = westerngfx
+		graphical_culture = chinesegfx
+		secondary_event_pictures = sunni
 		icon = 7
 		heresy_icon = 8
 		
@@ -395,7 +400,8 @@ goddesses_religion = {
 
 	}
 	sheikahism = {
-		graphical_culture = westerngfx
+		graphical_culture = chinesegfx
+		secondary_event_pictures = sunni
 		parent = sheikahism_nihilism
 		icon = 7
 		heresy_icon = 8
@@ -1835,6 +1841,7 @@ doctrine = {
 }
 
 alien_religion = {
+	has_coa_on_barony_only = yes
 	ai_convert_same_group = 2 # Only zelous try to convert
 	ai_convert_other_group  = 2 # Only zelous try to convert
 	hostile_within_group = yes

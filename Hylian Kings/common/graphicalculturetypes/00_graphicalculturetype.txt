@@ -1,4 +1,4 @@
-# Skin tones are 0 (light), 0 (tan), 0 (dark) and 0 (black)
+# Skin tones are 0 (light), 1 (tan), 2 (dark) and 3 (black)
 
 # Western
 
@@ -116,6 +116,14 @@ hashshashingfx = {
 }
 
 immortalsgfx = {
+	skin_tone = 0
+}
+
+chinesegfx = {
+	skin_tone = 0
+}
+
+bodpagfx = {
 	skin_tone = 0
 }
 

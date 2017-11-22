@@ -1,8 +1,7 @@
-hylian_group = {
-	graphical_cultures = { westerngfx }
+hyrulean_group={
+	graphical_cultures={ britishgfx westerngfx }
 	hyrulean = {
 		graphical_cultures = { hyruleangfx hyliangfx }
-		graphical_unit_culture = western
 		
 		parent = skylofter
 
@@ -161,42 +160,6 @@ hylian_group = {
 
 		modifier = default_culture_modifier
 	}
-	ho_ho = {
-		graphical_cultures = { hohogfx hyliangfx }
-
-		parent = skylofter
-
-		color = { 0.5 1 0.83 }
-
-		male_names = {
-		#PH
-			Hoiger_Hoiger
-		#Random
-			Albrikt Alf Algot Anders Anund Arnbjorn Arne Arnfast Asbjorn Astrad Azur Bagge Balder Bengt Benedict Bertil Birger Bjorn Bo Borkvard Botulf Brage Bror Grim Gudbrand Gudleik Gudmund Gudrod Gunnar Guttorm Gorm Haldor Halfdan Halkjell Harald Helge Hakon Havard Inge Ivar Jon_John Kare Kolbein Lodin Sivard Steen Svend_Sven Samund Thorolf_Thorolf Thorvald Torben Tord Torgils Ture Ubbe Uffe Ulf Valdemar Valentin Vilfred Yngvar Valteri Riku_Richard Matti Jaakoppi Taisto Paavo Aatso Ahvo Aarto Asko Tuokko Rieti Kauro Kuuti Pekko Soini Tuure Turo Tommo Tohmas Sverker Solvi Thomas Tjudmund Toke Tolir Torbjorn Torbrand Torfinn Torkel Torolf Torsten Toste Totil	
-		}
-		female_names = {
-			Aleta Alfhild Alfridh Asta Beata Birgitta Bothild Edla Elin Elisabet Freja Gunhild Gyla Gurli Gytha Hafrid Margareta Marta Ragnfrid Ragnhild Rikissa Saga Sara Sigrid Sofia Svanhild Thordis Ulvhilde Ylva Asa Anna Astrid Brigida Cecilia Eldrid Freya Gjertrud Gudrid Gudrun Gunnhild Gyda Gyrid Haldora Homlaug Ingebjorg Ingjerd Ingrid Jorunn Grethe Helena Ida Ingeborg Ingegerd Johanne Jutta Karin Karoline Katarina Katrine Kirsten Klara Lise Luitgard Lykke Gemma Geretrudis Gerperga Giseltrude Giso Glismoda Gudeliva Gundeperga Guntrud Helchen Hermelinda Sohvi Auni Liekko_Helen Kivutar Lemmikki Salme Talvikki Tuulitar Aidna Algen Allet Euvje Biella Bierga Buohtta Duoja Geala Giera
-		}
-		
-		dukes_called_kings = yes
-		
-		from_dynasty_prefix = "of "
-				
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 50
-		mat_grf_name_chance = 0
-		father_name_chance = 0
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 10
-		mat_grm_name_chance = 50
-		mother_name_chance = 0
-
-		modifier = default_culture_modifier
-		allow_looting = yes
-		seafarer = yes
-
-	}
 	little_hyrulean = {
 		graphical_cultures = { hyliangfx } 
 
@@ -292,6 +255,48 @@ hylian_group = {
 
 	
 		modifier = default_culture_modifier
+	}
+	minish_hyrulean={
+	
+	}
+}
+hylian_group = {
+	graphical_cultures = { westerngfx }
+	ho_ho = {
+		graphical_cultures = { hohogfx hyliangfx }
+
+		parent = skylofter
+
+		color = { 0.5 1 0.83 }
+
+		male_names = {
+		#PH
+			Hoiger_Hoiger
+		#Random
+			Albrikt Alf Algot Anders Anund Arnbjorn Arne Arnfast Asbjorn Astrad Azur Bagge Balder Bengt Benedict Bertil Birger Bjorn Bo Borkvard Botulf Brage Bror Grim Gudbrand Gudleik Gudmund Gudrod Gunnar Guttorm Gorm Haldor Halfdan Halkjell Harald Helge Hakon Havard Inge Ivar Jon_John Kare Kolbein Lodin Sivard Steen Svend_Sven Samund Thorolf_Thorolf Thorvald Torben Tord Torgils Ture Ubbe Uffe Ulf Valdemar Valentin Vilfred Yngvar Valteri Riku_Richard Matti Jaakoppi Taisto Paavo Aatso Ahvo Aarto Asko Tuokko Rieti Kauro Kuuti Pekko Soini Tuure Turo Tommo Tohmas Sverker Solvi Thomas Tjudmund Toke Tolir Torbjorn Torbrand Torfinn Torkel Torolf Torsten Toste Totil	
+		}
+		female_names = {
+			Aleta Alfhild Alfridh Asta Beata Birgitta Bothild Edla Elin Elisabet Freja Gunhild Gyla Gurli Gytha Hafrid Margareta Marta Ragnfrid Ragnhild Rikissa Saga Sara Sigrid Sofia Svanhild Thordis Ulvhilde Ylva Asa Anna Astrid Brigida Cecilia Eldrid Freya Gjertrud Gudrid Gudrun Gunnhild Gyda Gyrid Haldora Homlaug Ingebjorg Ingjerd Ingrid Jorunn Grethe Helena Ida Ingeborg Ingegerd Johanne Jutta Karin Karoline Katarina Katrine Kirsten Klara Lise Luitgard Lykke Gemma Geretrudis Gerperga Giseltrude Giso Glismoda Gudeliva Gundeperga Guntrud Helchen Hermelinda Sohvi Auni Liekko_Helen Kivutar Lemmikki Salme Talvikki Tuulitar Aidna Algen Allet Euvje Biella Bierga Buohtta Duoja Geala Giera
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+		allow_looting = yes
+		seafarer = yes
+
 	}
 
 	calatian = {
@@ -449,8 +454,6 @@ round_eared = {
 	ordonion = {
 		graphical_cultures = { norsegfx germangfx }
 		
-		parent = hyrulean
-
 		color = { 0 0.39 0}
 		
 		
@@ -569,8 +572,6 @@ round_eared = {
 	frozen_isle = {
 		graphical_cultures = { mesoamericangfx germangfx } 
 
-		parent = ho_ho
-
 		color = { 0.88 1 1 }
 
 		male_names = { 
@@ -601,8 +602,7 @@ round_eared = {
 		seafarer = yes
 	}
 	kasuton = {
-		graphical_cultures = { ugricgfx germangfx } 
-
+		graphical_cultures = { ugricgfx easterngfx germangfx } 
 		color = { 0.69 0.13 0.13 }
 
 		male_names = {
@@ -848,7 +848,7 @@ round_eared = {
 		mother_name_chance = 0
 	}
 	morian = {
-		graphical_cultures = { frankishgfx }
+		graphical_cultures = { britishgfx }
 		color = { 0.4 0 0 }
 
 		male_names = {
@@ -906,7 +906,7 @@ round_eared = {
 		modifier = default_culture_modifier
 	}
 	grindle = {
-		graphical_cultures = { frankishgfx}
+		graphical_cultures = { frankishgfx }
 		color = { 0.4 0 0 }
 
 	
@@ -1083,6 +1083,7 @@ western_human = {
 	}
 	comenian = {
 		graphical_cultures = { comeniangfx }
+		secondary_event_pictures = bedouin_arabic
 		dynasty_name_first = yes
  
 		parent = skylofter
@@ -1116,7 +1117,7 @@ western_human = {
 		modifier = default_culture_modifier
 	}
 	pebble = {
-		graphical_cultures = { turkishgfx cobblegfx hyliangfx }
+		graphical_cultures = { persiangfx cobblegfx hyliangfx }
  
 		parent = cobble
 		
@@ -1213,9 +1214,11 @@ western_human = {
 	}
 }
 eastern_human = {
+	graphical_cultures = { bodpagfx mongolgfx muslimgfx }
 	hylian_hanman = { 
 		graphical_cultures = { hhanmangfx mongolgfx hyliangfx } #hhanmangfx
-		color = { 0 0.4 0 }
+		secondary_event_pictures = bedouin_arabic
+		color = { 0 0.7 0.4 }
 		dynasty_name_first = yes
 		
 		parent = skylofter
@@ -1307,7 +1310,8 @@ eastern_human = {
 		modifier = default_culture_modifier
 	}	
 	hanman = {
-		graphical_cultures = { hanmangfx mongolgfx }
+		graphical_cultures = { hanmangfx mongolgfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
 		color = { 0 0.4 0 }
 		dynasty_name_first = yes
 
@@ -1494,6 +1498,7 @@ zonai_group = {
 	}
 }
 gerudo = {
+	graphical_cultures={ persiangfx }
 	gerudo = {
 		graphical_cultures = { gerudogfx } 
 		
@@ -1618,7 +1623,8 @@ gerudo = {
 }
 lost_tribe = {
 	sheikah = { 
-		graphical_cultures = { sheikahgfx } 
+		graphical_cultures = { sheikahgfx } 		
+		secondary_event_pictures = bedouin_arabic
 		
 		color = { 1 0 0 }
 		
@@ -1881,7 +1887,7 @@ spirit_continent = {
 	}
 }
 goron_group = {
-	
+	graphical_cultures={gorongfx}
 	cucco_goron = {
 		graphical_cultures = { southerngorongfx } 
 		
@@ -2516,6 +2522,7 @@ fae = {
 	}
 }
 plant_group = {
+	graphical_cultures={plantgfx}
 	deku_scrub = {
 		graphical_cultures = { scrubgfx }
 
@@ -2547,44 +2554,6 @@ plant_group = {
 				
 		modifier = default_culture_modifier
 	} 
-	skull_kid = {
-		graphical_cultures = { skullkidgfx }
-		parent = demon		
-		
-		color = { 0.48 1 0.48 }	
-		
-		male_names = {
-		#OoT
-			Mido_Mido
-		#WW
-			Fado_Fado Aldo_Aldo Drona_Drona Elma_Elma Hollo_Hollo Irch_Irch Linder_Linder Makar_Makar Oakin_Oakin Olivio_Olivio Rown_Rown 
-		#BotW
-			Hestu_Hestu Chio_Chio Pepp_Pepp Daz_Daz Maca_Maca Oaki_Oaki Peeks_Peeks Tasho_Tasho Walton_Walton Zooki_Zooki
-		#FanOCs
-			Mikus_Mikus
-		#Random
-			Solfego Solfeg Soll Satyo Quint Rei Mir Famo Touro Pollur Dol Faso Tido Lado Fare Fasol Dire Rama Fisol Sile Ilis Tele Seme Rame Rase Rale Rate Roji Rolu Pilu Manem Jinem Piji Alto Banjo Brio Cello Fife Gig Harp Jazz Lyric Piper Reed Rock Tango Tempo Fideles Deste Fidel Cantet Tetnunc Ergo Quina Natus Goqui Laeti Chosrus Die Titrium Angel Hodi Triumphan Phantes Ventes Umcan Dioh Eid Angrus Rapsod Koblak Skjald Zanger Bardo Laulik Rahval Mgosani Dichter Sanger Vardos Dalnok Kolto Penyair Vate Eum Siin Vati Vates Wieszcz Rapso Aed Pentru Cal Dainius Bryzelis Kavinan
-		}
-		female_names = {
-		#OoT
-			Saria_Saria Fado_Fado
-		#BotW
-			Damia_Damia Kula_Kula Natie_Natie
-		#HTW
-			Mirora_Mirora
-		#FanOCs
-			Kalla_Kalla Tarri_Tarri
-		#Random
-			Fia Solmia Utia Lexis Fibria Rei Hymna Meera Famulia Solvio Pollutia Labla Reatu Sanctia Lohana Mia Dore Faso Mefa Sola Lati Rema Fare Mela Fasol Fami Lami Mila Aria Dira Rama Rimi Fisol Silo Liti Late Diri Difi Sili Pilu Nemma Jiro Jinem Allegro Arabesque Bell Cadence Cadenza Calliope Calypso Canary Cantata Cappella Caprice Celeste Chanson Clarion Diva Etude Fifer Gig Harmony Harper Lark Madrigal Malaguena Mandolin Marimba Melody Minuet Opera Rega Rhapsody Selah Seraphine Seranade Sonata Sonatina Symphony Toccata Viola Adeste Hymnos Nale Eid Erna Lena Sedel Fite Canum Venum Umor Tusna Quina Phandi Vendi 
-		}
-		
-		dukes_called_kings = no
-		
-		from_dynasty_prefix = "of "
-		allow_looting = yes
-		
-		modifier = default_culture_modifier #undead_culture_modifier
-	}
 	kokiri = {
 		graphical_cultures = { kokirigfx } 
  
@@ -2629,7 +2598,7 @@ plant_group = {
  
 		parent = deku_tree
 
-		color = { 0.3 0.42 0.2 }
+		color = { 0.6 0.4 0.2 }
 		male_names = {
 			#WW
 			Aldo Drona Elma Hollo Makar Linder Irch Oakin Olivio Rown 
@@ -2683,10 +2652,28 @@ plant_group = {
 		color = { 0.48 1 0.48 }	
 		
 		male_names = {
-		Link Daltus Potho Smith Dampe Gustaf Percy Talon Eenie Meenie Anton Baris Beedle Bindle Borlov Brocco Carlov Erik Gepper Gorman Hagen Harrison Herb Hurdy-Gurdy Gurdy Jim Klaus Lolly Marshall Rem Romio Satchel Simon Stamp Sheik Agahnim Dethl Bongo Sai Itzal Kafziel Dask Fao Kidura Nokto Shal Kadam Nuzem Ihnik Sagas Illafzo Besho Kos Daz Yvak Colin Fado Hanch Jaggle Malo Rusl Talo Cido Silo Padilo Argi Celo Ilo Cirgo Cidan Padin Ganondorf Vio Zelos Righan Roan Hakim Galu Kakun Zorun Raku Nonot Malas Vuril Zeran Zaman Linc Brant Bremeur Doylan Kayo Zauz Mutoh Eox Ichero Jero Saboro Shero Brak Guru-Guru Guru Sokra Stockwell Elwood Grover Garrick Hollis Kiefer Linden Linford Ralph Bipin Pippin Adlar Cheval Dekadin Plen Rafton Adrien Aldous Alain Albrecht Basile 
+		#OoT
+			Mido_Mido
+		#WW
+			Fado_Fado Aldo_Aldo Drona_Drona Elma_Elma Hollo_Hollo Irch_Irch Linder_Linder Makar_Makar Oakin_Oakin Olivio_Olivio Rown_Rown 
+		#BotW
+			Hestu_Hestu Chio_Chio Pepp_Pepp Daz_Daz Maca_Maca Oaki_Oaki Peeks_Peeks Tasho_Tasho Walton_Walton Zooki_Zooki
+		#FanOCs
+			Mikus_Mikus
+		#Random
+			Solfego Solfeg Soll Satyo Quint Rei Mir Famo Touro Pollur Dol Faso Tido Lado Fare Fasol Dire Rama Fisol Sile Ilis Tele Seme Rame Rase Rale Rate Roji Rolu Pilu Manem Jinem Piji Alto Banjo Brio Cello Fife Gig Harp Jazz Lyric Piper Reed Rock Tango Tempo Fideles Deste Fidel Cantet Tetnunc Ergo Quina Natus Goqui Laeti Chosrus Die Titrium Angel Hodi Triumphan Phantes Ventes Umcan Dioh Eid Angrus Rapsod Koblak Skjald Zanger Bardo Laulik Rahval Mgosani Dichter Sanger Vardos Dalnok Kolto Penyair Vate Eum Siin Vati Vates Wieszcz Rapso Aed Pentru Cal Dainius Bryzelis Kavinan
 		}
 		female_names = {
-		Zelda Malo Anju Berry Breve Candy Chai Dina Dottie Emma Jasmine Impa Iza Impaz Katiu Kailla Izmae Kyran Anydra Pasha Yvie Keiran Silvaris Beth Ilia Pergie Sera Uli Celei Cara Alela Ulera Padei Fodei Megglie Purei Koume Uma Telma Kotake Aveil Nabooru Runeka Rova Numi Dizi Ari Neesha Apheri Astrid Angu Melon Brevie Candi Chay Dotty Ema Jasyn Junen Keely Lilian Marcie Paigin Pena Sheyla Tena Dena Veronan Pitia Juliettai Grany Huney Iris Sweetie Lana Cia Seres Irene Tetralyna Oraiya Mahrala Yanera Nylin Maldra Holly Maple Syrup Cedar Ebony Hazel Hollis Juniper Lotus Laurel Ambi Veran Blossom Adele Aimee Alea Avra Babette Babs Beatrix Chara Cecilia Caelie Celeste Debora Dawn Dorthe Despina Evdokia Elli Eglantine Fifi 
+		#OoT
+			Saria_Saria Fado_Fado
+		#BotW
+			Damia_Damia Kula_Kula Natie_Natie
+		#HTW
+			Mirora_Mirora
+		#FanOCs
+			Kalla_Kalla Tarri_Tarri
+		#Random
+			Fia Solmia Utia Lexis Fibria Rei Hymna Meera Famulia Solvio Pollutia Labla Reatu Sanctia Lohana Mia Dore Faso Mefa Sola Lati Rema Fare Mela Fasol Fami Lami Mila Aria Dira Rama Rimi Fisol Silo Liti Late Diri Difi Sili Pilu Nemma Jiro Jinem Allegro Arabesque Bell Cadence Cadenza Calliope Calypso Canary Cantata Cappella Caprice Celeste Chanson Clarion Diva Etude Fifer Gig Harmony Harper Lark Madrigal Malaguena Mandolin Marimba Melody Minuet Opera Rega Rhapsody Selah Seraphine Seranade Sonata Sonatina Symphony Toccata Viola Adeste Hymnos Nale Eid Erna Lena Sedel Fite Canum Venum Umor Tusna Quina Phandi Vendi 
 		}
 		
 		dukes_called_kings = no
@@ -2725,6 +2712,7 @@ infernal = {
 	#fallen_fairy
 }
 blin = {
+	graphical_cultures={blingfx}
 	bokoblin = {
 		graphical_cultures = { bokogfx }
 

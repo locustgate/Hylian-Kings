@@ -4,6 +4,9 @@ law_groups = {
 	voi_rights = {
 		law_type = realm
 	}
+	voi_city = {
+		law_type = realm
+	}
 	education_laws = {
 		law_type = realm
 	}
@@ -187,5 +190,556 @@ laws = {
 		}
 		tech_growth_modifier = 0.3
 		city_vassal_tax_modifier = -0.25
+	}
+	#voi 0 slavery
+	voi_rights_0 = {  #Harsh
+		group = voi_rights
+		allow = {
+			has_law = voi_rights_1
+		}
+		potential = {
+			has_dlc = "Zeus"
+			culture_group=gerudo_group
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = voi_rights_0
+				revoke_law = voi_rights_1
+				revoke_law = voi_rights_2
+				revoke_law = voi_rights_3
+			}
+		}
+		pass_effect = {
+			hidden_tooltip = {
+				#decrease
+				if = { 
+					limit = { has_law = voi_rights_1 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = no
+						}
+						opinion = { who = ROOT modifier = opinion_sexist_law_neg months = 60 }
+					}
+				}	
+				if = { 
+					limit = { has_law = voi_rights_1 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = yes
+							culture_group = gerudo_group
+							OR = {
+								trait = cruel
+								trait = zealous
+							}
+						}
+						opinion = { who = ROOT modifier = opinion_sexist_law_pos months = 60 }
+					}
+				}	
+			}
+		}
+		general_opinion = -10
+	}
+	#voi   Non-citizens
+	voi_rights_1 = {  #Traditional
+		group = voi_rights
+		allow = {
+			has_law = voi_rights_1
+			has_law = voi_rights_2
+		}
+		potential = {
+			has_dlc = "Zeus"
+			culture_group=gerudo_group
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = voi_rights_0
+				revoke_law = voi_rights_1
+				revoke_law = voi_rights_2
+				revoke_law = voi_rights_3
+			}
+		}
+		pass_effect = {
+			hidden_tooltip = {
+				#decrease
+				if = { 
+					limit = { has_law = voi_rights_2 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = no
+						}
+						opinion = { who = ROOT modifier = opinion_sexist_law_neg months = 60 }
+					}
+				}	
+				if = { 
+					limit = { has_law = voi_rights_2 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = yes
+							culture_group = gerudo_group
+							OR = {
+								trait = cruel
+								trait = zealous
+							}
+						}
+						opinion = { who = ROOT modifier = opinion_sexist_law_pos months = 60 }
+					}
+				}
+				#increase
+				if = { 
+					limit = { has_law = voi_rights_0 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = no
+						}
+						opinion = { who = ROOT modifier = opinion_sexist_tolerant_neg months = 60 }
+					}
+				}	
+				if = { 
+					limit = { has_law = voi_rights_0 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = yes
+							culture_group = gerudo_group
+							OR = {
+								trait = cruel
+								trait = zealous
+							}
+						}
+						opinion = { who = ROOT modifier = opinion_tolerant_law_neg months = 60 }
+					}
+				}	
+			}
+		}
+	}
+	#voi   2nd class citizens
+	voi_rights_2 = {  #marginal
+		group = voi_rights
+		allow = {
+			has_law = voi_rights_1
+			has_law = voi_rights_3
+		}
+		potential = {
+			has_dlc = "Zeus"
+			culture_group = gerudo_group
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = voi_rights_0
+				revoke_law = voi_rights_1
+				revoke_law = voi_rights_2
+				revoke_law = voi_rights_3
+			}
+		}
+		pass_effect = {
+			hidden_tooltip = {
+				#decrease
+				if = { 
+					limit = { has_law = voi_rights_2 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = no
+						}
+						opinion = { who = ROOT modifier = opinion_sexist_law_neg months = 60 }
+					}
+				}	
+				if = { 
+					limit = { has_law = voi_rights_2 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = yes
+							culture_group = gerudo_group
+							OR = {
+								trait = cruel
+								trait = zealous
+							}
+						}
+						opinion = { who = ROOT modifier = opinion_sexist_law_pos months = 60 }
+					}
+				}
+				#increase
+				if = { 
+					limit = { has_law = voi_rights_1 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = no
+						}
+						opinion = { who = ROOT modifier = opinion_sexist_tolerant_neg months = 60 }
+					}
+				}	
+				if = { 
+					limit = { has_law = voi_rights_1 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = yes
+							culture_group = gerudo_group
+						}
+						opinion = { who = ROOT modifier = opinion_tolerant_law_neg months = 60 }
+					}
+				}	
+			}
+		}
+		temple_opinion = -10
+		general_opinion = 5
+	}
+	#voi   Full citizens
+	voi_rights_3 = { #full
+		group = voi_rights
+		allow = {
+			has_law = voi_rights_2
+		}
+		potential = {
+			has_dlc = "Zeus"
+			culture_group = gerudo_group
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = voi_rights_0
+				revoke_law = voi_rights_1
+				revoke_law = voi_rights_2
+				revoke_law = voi_rights_3
+			}
+		}
+		pass_effect = {
+			hidden_tooltip = {
+				#increase
+				if = { 
+					limit = { has_law = voi_rights_2 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = no
+						}
+						opinion = { who = ROOT modifier = opinion_sexist_tolerant_neg months = 60 }
+					}
+				}	
+				if = { 
+					limit = { has_law = voi_rights_2 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = yes
+							culture_group = gerudo_group
+						}
+						opinion = { who = ROOT modifier = opinion_tolerant_law_neg months = 60 }
+					}
+				}	
+			}
+		}
+		temple_opinion = -20
+		general_opinion = 10
+	}
+	voi_city_0 = { #No Entry
+		group = voi_city
+		
+		allow = {
+			OR = {
+				has_law = voi_city_1
+				AND = {
+					NOT = {	has_law = voi_city_0 }
+					NOT = {	has_law = voi_city_1 }
+					NOT = {	has_law = voi_city_2 }
+				}
+			}
+		}
+		potential = {
+			higher_tier_than = count
+			is_nomadic = no
+			is_tribal = no
+			OR = { religion_group = gerudo_religions
+					culture_group = gerudo_group
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.8
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			hidden_tooltip = {
+				if = { 
+					limit = { has_law = voi_city_1 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = no
+						}
+						opinion = { who = ROOT modifier = opinion_sexist_law_neg months = 60 }
+					}
+				}	
+				if = { 
+					limit = { has_law = voi_city_1 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = yes
+							culture_group = gerudo_group
+							OR = {
+								trait = cruel
+								trait = zealous
+							}
+						}
+						opinion = { who = ROOT modifier = opinion_sexist_law_pos months = 60 }
+					}
+				}	
+			}
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = voi_city_0
+				revoke_law = voi_city_1
+				revoke_law = voi_city_2
+			}
+		}
+		local_revolt_risk = 0.02
+		monthly_character_piety = 0.02
+		#city_vassal_tax_modifier = 0.01
+		#general_opinion = -10
+		temple_opinion = 10
+	}
+	voi_city_1 = { #Taxed entry
+		group = voi_city
+		
+		allow = {
+			OR = {
+				has_law = voi_city_0
+				has_law = voi_city_2
+				AND = {
+					NOT = {	has_law = voi_city_0 }
+					NOT = {	has_law = voi_city_1 }
+					NOT = {	has_law = voi_city_2 }
+				}
+			}
+		}
+		potential = {
+			higher_tier_than = count
+			is_nomadic = no
+			is_tribal = no
+			OR = { 
+				has_law = voi_rights_2
+				has_law = voi_rights_3
+			}
+			OR = { religion_group = gerudo_religions
+					culture_group = gerudo_group
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.8
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = voi_city_0
+				revoke_law = voi_city_1
+				revoke_law = voi_city_2
+			}
+		}
+		pass_effect = {
+			hidden_tooltip = {
+				#decrease
+				if = { 
+					limit = { has_law = voi_city_2 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = no
+						}
+						opinion = { who = ROOT modifier = opinion_sexist_law_neg months = 60 }
+					}
+				}	
+				if = { 
+					limit = { has_law = voi_city_2 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = yes
+							culture_group = gerudo_group
+							OR = {
+								trait = cruel
+								trait = zealous
+							}
+						}
+						opinion = { who = ROOT modifier = opinion_sexist_law_pos months = 60 }
+					}
+				}
+				#increase
+				if = { 
+					limit = { has_law = voi_city_0 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = no
+						}
+						opinion = { who = ROOT modifier = opinion_sexist_tolerant_neg months = 60 }
+					}
+				}	
+				if = { 
+					limit = { has_law = voi_city_0 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = yes
+							culture_group = gerudo_group
+							OR = {
+								trait = cruel
+								trait = zealous
+							}
+						}
+						opinion = { who = ROOT modifier = opinion_tolerant_law_neg months = 60 }
+					}
+				}	
+			}
+		}
+		#local_revolt_risk = 0.02
+		city_vassal_tax_modifier = 0.01
+		#general_opinion = 10
+		temple_opinion = -10
+	}
+	voi_city_2 = { #Normal entry	
+		group = voi_city
+		
+		allow = {
+			OR = {
+				has_law = voi_city_1
+				AND = {
+					NOT = {	has_law = voi_city_0 }
+					NOT = {	has_law = voi_city_1 }
+					NOT = {	has_law = voi_city_2 }
+				}
+			}
+		}
+		potential = {
+			higher_tier_than = count
+			is_nomadic = no
+			is_tribal = no
+			OR = { 
+				has_law = voi_rights_2
+				has_law = voi_rights_3
+			}
+			OR = { religion_group = gerudo_religions
+					culture_group = gerudo_group
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.8
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			hidden_tooltip = {
+				#increase
+				if = { 
+					limit = { has_law = voi_city_1 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = no
+						}
+						opinion = { who = ROOT modifier = opinion_tolerant_pos months = 60 }
+					}
+				}	
+				if = { 
+					limit = { has_law = voi_city_1 }
+					any_de_jure_vassal = {
+						limit = {
+							is_liege_or_above = ROOT
+							is_female = yes
+							culture_group = gerudo_group
+						}
+						opinion = { who = ROOT modifier = opinion_tolerant_law_neg months = 60 }
+					}
+				}	
+			}
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = voi_city_0
+				revoke_law = voi_city_1
+				revoke_law = voi_city_2
+			}
+		}
+		#local_revolt_risk = 0.02
+		#city_vassal_tax_modifier = 0.01
+		temple_opinion = -20
+		general_opinion = 10
 	}
 }

@@ -3,7 +3,7 @@
 ########################################################################################################
 
 # Muslim equivalent of Crusader (HARD STATUS - DO NOT REMOVE!)
-mujahid = {
+mujahid = { #Disabled
 	opposites = {
 		crusader
 		valhalla_bound
@@ -29,20 +29,25 @@ mujahid = {
 	
 	male_compliment = COMPL_MUJAHID
 	female_compliment = COMPL_MUJAHID
+	cached=yes
+	random = no
+	customizer = no	
 }
 
 # Muslim who has completed the Hajj
-hajjaj = {
+hajjaj = { #dis
 	potential = {
 		religion_group = muslim
 	}
 	
 	muslim_opinion = 5
 	monthly_character_piety = 0.1
-	stewardship = 1
 	
 	male_compliment = COMPL_HAJJAJ
 	female_compliment = COMPL_HAJJAJ
+	cached=yes
+	random = no
+	customizer = no	
 }
 
 # Muslim performing hajj.
@@ -58,7 +63,10 @@ on_hajj = {
 	monthly_character_piety = 0.2
 	
 	pilgrimage = yes # Will need a regent, but can still be guardian to children
-	customizer = no
+	
+	cached=yes
+	random = no
+	customizer = no	
 }
 
 
@@ -74,12 +82,15 @@ faqih = {
 	
 	learning = 3
 	
-	vassal_opinion = 5
+	muslim_opinion = 5
 	
 	male_compliment = COMPL_FAQIH
 	female_compliment = COMPL_FAQIH
 	male_compliment_adj = COMPL_WISE
 	female_compliment_adj = COMPL_WISE
+	cached=yes
+	random = no
+	customizer = no	
 }
 
 # Muslim who has completely memorized the Qur'an
@@ -92,6 +103,9 @@ hafiz = {
 	
 	male_compliment = COMPL_HAFIZ
 	female_compliment = COMPL_HAFIZ
+	cached=yes
+	random = no
+	customizer = no	
 }
 
 # Muslim agnatically descended from Muhammed
@@ -106,9 +120,12 @@ sayyid = {
 	
 	male_compliment = COMPL_SAYYID
 	female_compliment = COMPL_SAYYIDA
+	cached=yes
+	random = no
+	customizer = no	
 }
 
-# Christian who has completed a Pilgrimage
+# Christian/Dharmic who has completed a Pilgrimage
 pilgrim = {
 	potential = {
 		religion_group = christian
@@ -119,6 +136,9 @@ pilgrim = {
 	
 	male_compliment = COMPL_PILGRIM
 	female_compliment = COMPL_PILGRIM
+	cached=yes
+	random = no
+	customizer = no	
 }
 
 # Child of a Sayyida mother (hardcoded to be passed on from Sayyid trait)
@@ -131,6 +151,9 @@ mirza = {
 	
 	male_compliment = COMPL_MIRZA
 	female_compliment = COMPL_MIRZA
+	cached=yes
+	random = no
+	customizer = no	
 }
 
 # The character is visibly scarred from an old wound

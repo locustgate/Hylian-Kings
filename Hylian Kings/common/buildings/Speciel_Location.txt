@@ -181,13 +181,109 @@ castle = {
 		extra_tech_building_start = 0.2
 	}
 	
-}
-temple = {
-	ca_elemental_sanctuary = {
-		desc = ca_elemental_sanctuary
+	ca_trials_truth_1 = {
+		desc = ca_trials_truth_1_desc
 		potential = {
 			FROMFROM = {
-				title = b_fortress_of_winds
+				title = b_tower_of_truth
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		gold_cost = 50
+		build_time = 340
+		land_morale = 0.15
+		levy_reinforce_rate = 0.1
+		retinuesize = 20
+		ai_creation_factor = 89
+
+		extra_tech_building_start = 1.2
+	}
+	ca_trials_truth_2 = {
+		desc = ca_trials_truth_1_desc
+		potential = {
+			FROMFROM = {
+				title = b_tower_of_truth
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_trials_truth_1
+		gold_cost = 100
+		build_time = 500
+		land_morale = 0.25
+		levy_reinforce_rate = 0.15
+		retinuesize = 20
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 0.5
+	}
+	ca_trials_truth_3 = {
+		desc = ca_trials_truth_2_desc
+		potential = {
+			FROMFROM = {
+				title = b_tower_of_truth
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_trials_truth_2
+		gold_cost = 150
+		build_time = 1000
+		land_morale = 0.3
+		levy_reinforce_rate = 0.2
+		retinuesize = 20
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 0.2
+	}
+	##Hinox Den
+	#ca_hinox_tribe_1 = {
+	#	desc = ca_lynel_pride_desc
+	#	potential = {
+	#		religion_group=demon_religion
+	#		FROMFROM = {
+	#			title=c_hinox_mines
+	#			title=d_tal_tal
+	#			title=k_hera
+	#		}
+	#	}
+	#	trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+	#	gold_cost = 100
+	#	build_time = 365
+	#	heavy_infantry = 35
+	#	
+	#	ai_creation_factor = 89
+	#	
+	#	extra_tech_building_start = 0.4
+	#}
+	##Lynel Den
+	#ca_lynel_pride_1 = {
+	#	desc = ca_lynel_pride_desc
+	#	potential = {
+	#		religion_group=demon_religion
+	#		FROMFROM = {
+	#			title=k_hera
+	#			title=k_tarm
+	#			title=k_oberon
+	#		}
+	#	}
+	#	trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+	#	gold_cost = 100
+	#	build_time = 365
+	#	knight = 20
+	#	horse_archers = 30
+	#	
+	#	ai_creation_factor = 89
+	#	
+	#	extra_tech_building_start = 0.4
+	#}
+	
+}
+temple = {
+	tp_elemental_sanctuary = {
+		desc = tp_elemental_sanctuary
+		potential = {
+			FROMFROM = {
+				title = b_elemental_sanctuary
 			}
 		}
 		fort_level = 1
@@ -213,4 +309,91 @@ temple = {
 		church_opinion = 10
 		fort_level = 1
 	}
+	tp_library_of_sheikrila_1 = { #Hylia Lobby
+		desc = tp_library_of_sheikrila_1_desc
+		potential = {
+			FROMFROM = {
+				title = b_library_of_the_sheika
+			}
+		}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 3 }
+		prerequisites = { tp_wall_1 }
+		gold_cost = 120
+		build_time = 547
+		
+		tech_growth_modifier = 0.15
+		
+		ai_creation_factor = 93
+		add_number_to_name = no
+		liege_piety = 0.05
+
+		extra_tech_building_start = 0.2
+	}
+	tp_library_of_sheikrila_2 = { #Din Wing
+		desc = tp_library_of_sheikrila_2_desc
+		potential = {
+			FROMFROM = {
+				title = b_library_of_the_sheika
+			}
+		}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 6 }
+		prerequisites = { tp_wall_2 }
+		upgrades_from = tp_library_of_sheikrila_1
+		gold_cost = 120
+		build_time = 547
+		
+		tech_growth_modifier = 0.2
+		military_techpoints = 0.04
+		
+		ai_creation_factor = 92
+		add_number_to_name = no
+		liege_piety = 0.05
+		
+		extra_tech_building_start = 0.2
+	}
+	tp_library_of_sheikrila_3 = { #Farore Wing
+		desc = tp_library_of_sheikrila_3_desc
+		potential = {
+			FROMFROM = {
+				title = b_library_of_the_sheika
+			}
+		}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 6 }
+		prerequisites = { tp_wall_2 }
+		upgrades_from = tp_library_of_sheikrila_2
+		gold_cost = 120
+		build_time = 547
+		
+		tech_growth_modifier = 0.2
+		culture_techpoints = 0.04
+		
+		ai_creation_factor = 92
+		add_number_to_name = no
+		liege_piety = 0.05
+		
+		extra_tech_building_start = 0.2
+	}
+	tp_library_of_sheikrila_4 = { #Nayru Wing
+		desc = tp_library_of_sheikrila_4_desc
+		potential = {
+			FROMFROM = {
+				title = b_library_of_the_sheika
+			}
+		}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 6 }
+		prerequisites = { tp_wall_2 }
+		upgrades_from = tp_library_of_sheikrila_3
+		gold_cost = 120
+		build_time = 547
+		
+		tech_growth_modifier = 0.2
+		economy_techpoints = 0.04
+		
+		ai_creation_factor = 92
+		add_number_to_name = no
+		liege_piety = 0.05
+		
+		extra_tech_building_start = 0.2
+	}
+	
 }

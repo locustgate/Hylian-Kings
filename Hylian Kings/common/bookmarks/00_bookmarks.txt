@@ -1,15 +1,15 @@
 bm_ERA_PROSPERITY = {
 	name = "BM_ERA_PROSPERITY"	
 	desc = "BM_ERA_PROSPERITY_DESC"
-	date = 3387.1.1
+	date = 3986.2.21
 	
 	custom_start = yes
 	selectable_character = {
-		id = 1018 #temp
+		id = 155
 	}
-#	selectable_character = {
-#		id = x1 #hyrule
-#	}
+	selectable_character = {
+		id = 3001
+	}
 #	selectable_character = {
 #		id = x2 #windtribe
 #	}	
