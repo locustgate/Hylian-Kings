@@ -1,0 +1,354 @@
+#West Bannan Fort Bannan West Bannan
+24000={
+	name=Chas
+	dynasty=12220
+	dna="bpmkldpoapp"
+	culture=gravel religion=golden_frog
+	martial=6 diplomacy=7 stewardship=8 intrigue=5 learning=7
+	add_trait=flamboyant_schemer add_trait=arbitrary add_trait=envious add_trait=gregarious add_trait=slothful 
+	add_trait=cynical add_trait=ill 
+	3944.11.26={ birth=yes }
+	3967.1.1={add_spouse=24005}
+	4005.3.15={ death=yes }
+}
+24001={
+	name=Burrus
+	dynasty=12220
+	dna="bcakldpoado"
+	culture=gravel religion=golden_frog
+	martial=8 diplomacy=7 stewardship=7 intrigue=6 learning=5
+	add_trait=thrifty_clerk add_trait=arbitrary add_trait=humble add_trait=trusting 
+	father=24000	#Chas
+	mother=24005
+	3969.6.26={ birth=yes }
+	4032.12.11={ death=yes }
+}
+24002={
+	name=Poma
+	female=yes
+	dynasty=12220
+	dna="bpmnldjhapp"
+	culture=gravel religion=golden_frog
+	father=24000	#Chas
+	mother=24005
+	3973.7.25={ birth=yes }
+	4055.9.10={ death=yes }
+}
+24003={
+	name=Ethelred
+	dynasty=12220
+	dna="bafeldpkapm"
+	culture=gravel religion=golden_frog
+	martial=8 diplomacy=8 stewardship=6 intrigue=7 learning=7
+	add_trait=martial_cleric add_trait=lustful add_trait=wroth add_trait=greedy add_trait=gluttonous 
+	father=24000	#Chas
+	mother=24005
+	3976.10.27={ birth=yes }
+	4047.6.6={ death=yes }
+}
+#Bannan Valley Bannan Valley Bannan Gate
+24004={
+	name=George
+	dynasty=12220
+	dna="fdmkldboafh"
+	culture=gravel religion=golden_frog
+	martial=7 diplomacy=8 stewardship=7 intrigue=7 learning=7
+	add_trait=martial_cleric add_trait=cynical add_trait=charitable add_trait=wroth 
+	father=24000	#Chas
+	mother=24005
+	3981.10.1={ birth=yes }
+	4050.11.27={ death=yes }
+}
+24005={
+	name=Jolene
+	female=yes
+	culture=gravel religion=golden_frog
+	3944.11.26={ birth=yes }
+	3967.1.1={add_spouse=24000}
+	4029.3.15={ death=yes }
+}
+#harrow Ixorra yemir hrava
+ 24006={
+	name=Daniel
+	dynasty=12225
+	dna="elimjbfbchm"
+	culture=gravel religion=western_goddesses
+	martial=8 diplomacy=7 stewardship=4 intrigue=8 learning=6
+	add_trait=misguided_warrior add_trait=duelist add_trait=kind add_trait=diligent add_trait=craven 
+	3944.6.18={ birth=yes }
+	3994.11.12={ death=yes }
+}
+24007={
+	name=Aridius
+	dynasty=12225
+	dna="nliejpfmahm"
+	culture=gravel religion=western_goddesses
+	martial=5 diplomacy=5 stewardship=8 intrigue=5 learning=6
+	add_trait=scholarly_theologian add_trait=honest add_trait=temperate add_trait=brave add_trait=humble 
+	add_trait=patient 
+	father=24006	#Daniel
+	3970.3.27={ birth=yes }
+	4017.5.19={ death=yes }
+}
+#tara
+24008={
+	name=Justianus
+	dynasty=12230
+	dna="dlepeckgdnb"
+	culture=gravel religion=golden_frog
+	martial=7 diplomacy=4 stewardship=6 intrigue=4 learning=7
+	add_trait=detached_priest add_trait=content add_trait=temperate add_trait=deceitful 
+	3964.4.13={ birth=yes }
+	4027.6.5={ death=yes }
+}
+#east bannan east bannan iassya tongola 
+24009={
+	name=Carlyle
+	dynasty=12235
+	dna="ijflbomjapn"
+	culture=gravel religion=western_goddesses
+	martial=8 diplomacy=5 stewardship=5 intrigue=6 learning=5
+	add_trait=indulgent_wastrel add_trait=shy add_trait=cruel add_trait=slothful add_trait=ill 
+	3945.7.17={ birth=yes }
+	3968.1.1={add_spouse=24015}
+	3985.11.1={ death=yes }
+}
+24010={
+	name=Caitlyn
+	female=yes
+	dynasty=12235
+	dna="hjfibobffph"
+	culture=gravel religion=western_goddesses
+	father=24009	#Carlyle
+	mother=24015
+	3969.12.19={ birth=yes }
+	4027.7.22={ death=yes }
+}
+24011={
+	name=Carlyle
+	dynasty=12235
+	dna="kkalbomjapn"
+	culture=gravel religion=western_goddesses
+	martial=5 diplomacy=8 stewardship=8 intrigue=4 learning=4
+	add_trait=elusive_shadow add_trait=humble add_trait=craven add_trait=cruel add_trait=ambitious 
+	father=24009	#Carlyle
+	mother=24015
+	3972.6.27={ birth=yes }
+	4045.10.2={ death=yes }
+}
+24012={
+	name=Abundius
+	dynasty=12235
+	dna="ijflbohbhhd"
+	culture=gravel religion=western_goddesses
+	martial=6 diplomacy=8 stewardship=6 intrigue=5 learning=6
+	add_trait=indulgent_wastrel add_trait=lustful add_trait=patient add_trait=paranoid add_trait=greedy 
+	father=24009	#Carlyle
+	mother=24015
+	3976.6.17={ birth=yes }
+	4032.12.31={ death=yes }
+}
+24013={
+	name=Burrus
+	dynasty=12235
+	dna="ajhmbomjanp"
+	culture=gravel religion=western_goddesses
+	martial=5 diplomacy=8 stewardship=6 intrigue=4 learning=8
+	add_trait=mastermind_theologian add_trait=envious add_trait=arbitrary 
+	father=24009	#Carlyle
+	mother=24015
+	3979.7.15={ birth=yes }
+	4015.5.28={ death=yes }
+}
+24014={
+	name=Harvie
+	dynasty=12235
+	dna="cjkladmjjkn"
+	culture=gravel religion=western_goddesses
+	martial=6 diplomacy=8 stewardship=5 intrigue=8 learning=4
+	add_trait=flamboyant_schemer add_trait=honest add_trait=arbitrary add_trait=ambitious add_trait=brave 
+	father=24009	#Carlyle
+	mother=24015
+	3982.9.26={ birth=yes }
+	4021.6.8={ death=yes }
+}
+24015={
+	name=Jolene
+	female=yes
+	culture=gravel religion=western_goddesses
+	3945.7.17={ birth=yes }
+	3968.1.1={add_spouse=24009}
+	3998.11.1={ death=yes }
+}
+#alssawi
+24016={
+	name=Corvinus
+	dynasty=12240
+	dna="gmcgdmoojlg"
+	culture=gravel religion=western_goddesses
+	martial=6 diplomacy=6 stewardship=8 intrigue=8 learning=7
+	add_trait=charismatic_negotiator add_trait=proud add_trait=cruel add_trait=slothful 
+	3965.4.2={ birth=yes }
+	4014.6.16={ death=yes }
+}
+#sinakin
+24017={
+	name=George
+	dynasty=12245
+	dna="jgmioohfjgi"
+	culture=gravel religion=western_goddesses
+	martial=8 diplomacy=4 stewardship=4 intrigue=5 learning=4
+	add_trait=grey_eminence add_trait=brave add_trait=chaste add_trait=wroth add_trait=slothful 
+	add_trait=kind 
+	3966.10.3={ birth=yes }
+	4022.10.31={ death=yes }
+}
+#cyclosia cyclosia zephosia galeia 
+24018={
+	name=Burt
+	dynasty=12250
+	dna="kgdekpobncd"
+	culture=gravel religion=golden_frog
+	martial=8 diplomacy=7 stewardship=7 intrigue=8 learning=4
+	add_trait=scholarly_theologian add_trait=proud add_trait=cruel add_trait=cynical add_trait=craven 
+	3941.9.25={ birth=yes }
+	3966.1.1={add_spouse=24024}
+	3995.5.5={ death=yes }
+}
+24019={
+	name=Dre
+	dynasty=12250
+	dna="kgfmnoibcdm"
+	culture=gravel religion=golden_frog
+	martial=8 diplomacy=8 stewardship=7 intrigue=7 learning=7
+	add_trait=intricate_webweaver add_trait=just add_trait=gluttonous add_trait=kind 
+	father=24018	#Burt
+	mother=24024
+	3967.8.14={ birth=yes }
+	4028.4.7={ death=yes }
+}
+24020={
+	name=Virgilia
+	female=yes
+	dynasty=12250
+	dna="kadpkdoenoo"
+	culture=gravel religion=golden_frog
+	father=24018	#Burt
+	mother=24024
+	3972.2.14={ birth=yes }
+	4021.2.22={ death=yes }
+}
+24021={
+	name=Hilarianus
+	dynasty=12250
+	dna="fgdhnkponcf"
+	culture=gravel religion=golden_frog
+	martial=8 diplomacy=5 stewardship=7 intrigue=4 learning=5
+	add_trait=misguided_warrior add_trait=celibate add_trait=diligent add_trait=gluttonous add_trait=gregarious 
+	father=24018	#Burt
+	mother=24024
+	3973.11.9={ birth=yes }
+	4023.5.6={ death=yes }
+}
+24022={
+	name=Neso
+	dynasty=12250
+	dna="kkanlpobnhc"
+	culture=gravel religion=golden_frog
+	martial=4 diplomacy=4 stewardship=6 intrigue=5 learning=5
+	add_trait=grey_eminence add_trait=content add_trait=zealous add_trait=drunkard 
+	father=24018	#Burt
+	mother=24024
+	3977.6.8={ birth=yes }
+	4035.7.13={ death=yes }
+}
+24023={
+	name=Harriet
+	female=yes
+	dynasty=12250
+	dna="gedeklobnmd"
+	culture=gravel religion=golden_frog
+	father=24018	#Burt
+	mother=24024
+	3980.8.19={ birth=yes }
+	4039.6.8={ death=yes }
+}
+
+24024={
+	name=Amadea
+	female=yes
+	culture=gravel religion=golden_frog
+	3941.9.25={ birth=yes }
+	3966.1.1={add_spouse=24018}
+	3995.5.5={ death=yes }
+}
+#guasia mosaw 
+24025={
+	name=Privatus
+	dynasty=12210
+	dna="dembkhfccbn"
+	culture=gravel religion=golden_frog
+	martial=7 diplomacy=6 stewardship=4 intrigue=8 learning=5
+	add_trait=midas_touched add_trait=gluttonous add_trait=deceitful add_trait=craven 
+	3965.2.19={ birth=yes }
+	4012.8.2={ death=yes }
+}
+#Gust highlands
+24026={
+	name=Eddo
+	dynasty=12205
+	dna="igmdffoanpo"
+	culture=gravel religion=golden_frog
+	martial=7 diplomacy=7 stewardship=8 intrigue=7 learning=5
+	add_trait=midas_touched add_trait=impaler add_trait=ambitious add_trait=envious add_trait=cruel 
+	add_trait=gregarious 
+	3964.3.22={ birth=yes }
+	3986.1.1={add_spouse=24027}
+	4009.8.12={ death=yes }
+}
+24027={
+	name=Joanne
+	female=yes
+	culture=gravel religion=golden_frog
+	3964.3.22={ birth=yes }
+	3986.1.1={add_spouse=24026}
+	4009.8.12={ death=yes }
+}
+
+#gust springs
+24028={
+	name=Gareth
+	dynasty=12201
+	dna="bafbbgaodae"
+	culture=gravel religion=golden_frog
+	martial=7 diplomacy=5 stewardship=4 intrigue=8 learning=4
+	add_trait=midas_touched add_trait=proud add_trait=envious add_trait=brave add_trait=cruel 
+	add_trait=ambitious 
+	3965.9.13={ birth=yes }
+	4032.1.3={ death=yes }
+}
+#trogolya bannanetia
+
+24029={
+	name=Eddo
+	dynasty=122070
+	culture=gravel religion=golden_frog
+	martial=7 diplomacy=5 stewardship=4 intrigue=8 learning=4
+	add_trait=indulgent_wastrel add_trait=greedy add_trait=kind add_trait=brave add_trait=cruel 
+	add_trait=ambitious 
+	3965.9.13={ birth=yes }
+	4032.1.3={ death=yes }
+}
+#cylosia
+
+24030={
+	name=George
+	dynasty=12275
+	dna="jgmioohfjgi"
+	culture=gravel religion=western_goddesses
+	martial=8 diplomacy=4 stewardship=4 intrigue=5 learning=4
+	add_trait=elusive_shadow add_trait=coward add_trait=lustful add_trait=wroth add_trait=slothful 
+	add_trait=kind 
+	3966.10.3={ birth=yes }
+	4022.10.31={ death=yes }
+}

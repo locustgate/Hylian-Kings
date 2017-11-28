@@ -11,11 +11,48 @@
 #	These groups are mutually exclusive on the same tier
 ###########################################################################
 ###################################Hyrule Continent
-###########Eastern Hyrule Continent
-###Central Hyrule 
+#####Cobble Subcontinent
+####Cobble
+world_flood_plains={duchies={d_pharinx d_mile d_korex d_wakele d_yondar d_yazzir d_camellands d_sirenia d_wastes d_hrokia d_isle_of_reeds}}
+world_maskrawa={duchies={d_remesis d_monument_mountains d_maskrawa d_lepre}}
+world_savannas={regions={world_maskrawa world_flood_plains}}
+world_cobble_desert={duchies={d_uxlor d_phisamem d_pyramid_island d_pyramidion d_anubisia d_moldormia}}
+world_cobble={regions={world_savannas world_cobble_desert}}
+####Gravel
+world_east_gravel={duchies={d_harrow d_ugiga d_east_bannan d_sinakin d_bannanetia}}
+world_bannan_desert={duchies={d_cyclosia d_gustia_plain d_gust_bluffs d_cylosia d_wind_wastes}}
+world_bannan_valley={duchies={d_bannan_valley d_west_bannan}}
+world_zazia={duchies={d_zazia}}
+world_gravel={regions={world_zazia world_bannan_valley world_bannan_desert world_east_gravel}}
+####Pebble
+world_pebble={duchies={d_ebonia d_bronze_lands d_gold_lands d_gold_mountains d_ivory_coast d_silverton d_grain_coast d_grainton d_oshusia d_molida d_phantom_gate d_mercay d_cannon d_ember d_phantomlands}}
+####Anouki
+world_anouki={duchies={d_anouki d_frost_mountains d_frost_caverns d_fang d_yookvales d_yookrock}}
+####Fire Mountain
+world_fire_mountain={duchies={d_fire_mountain d_fire_desert}}
+####Mason
+world_mason={duchies={d_nombokiki d_dee_ess d_mwakoba d_kichongo d_takamarundi d_yamatingi d_yamayanga d_toribanu d_obale d_jubjoma d_eldoja d_antanahana_island}}
+
+world_cobble_subcontinent={regions={world_fire_mountain world_cobble world_anouki world_pebble world_mason world_gravel}}
+
+#####Sea of Sand
+
+world_darknut_desert = {
+	duchies = { d_armoury_sands d_judicars_grounds d_blood_bend d_pitfall_sands d_darknut_cliffs d_darknut_wastes d_maw_valley  d_bastion d_jackal_desert d_deaths_valley d_bastion_cliffs }
+}
+world_zuna={duchies={d_tochira d_acinia d_desert_of_doubt d_zunaria d_zunadin d_pardesu d_zunadad d_zunaten d_tarimakan d_takkuriman d_zunasa d_kussi d_zunatana d_the_dunes d_zanukuni}}
+world_sea_sand = {
+	regions = { world_darknut_desert world_zuna }
+}
+#####Hyrule
+####Sea Of Trees
+world_sea_trees = {
+	duchies = {d_dekuvia d_madvia d_like_lika d_decci d_deppi d_selosia_woods d_odolwa_forest d_wind_woods d_kokiri_woods d_kokiri_lost_woods d_stal_woods d_haunted_woods d_skull_woods d_wolfos_woods d_korok_woods d_baba_forest d_forest_road d_lost_woods d_deku_marsh d_dekubia d_scrubavia d_deku_forest d_sweltering_woods d_tricksters_woods d_fresh_woods d_flower_woods d_fairy_woods d_whisp_woods d_blin_woods d_crackling_woods d_spring_forest d_blin_forest d_ghoma_woods d_minish d_hylia_woods d_girrin_woods d_baga_forest d_cucco_woods d_creeping_woods d_picori_forest	}
+}
+####central Hyrule
 
 world_ordon = {
-	duchies = { d_north_ordon d_ordon_field d_forest_wedge d_ordon d_ordon_forest d_ordon_woods d_ordonia d_ordonia_plateau d_fords_ordon }
+	duchies = { d_ordonia d_north_ordon d_ordon_field d_forest_wedge d_ordon d_ordon_forest d_ordon_woods d_ordonia d_ordonia_plateau d_fords_ordon d_ordia d_riverdell d_codi d_ido d_ordonia }
 }
 
 world_provinces = {
@@ -25,10 +62,11 @@ world_provinces = {
 world_sacred_lands = {
 	duchies = { d_royal_woods d_royal_graveyard d_west_hyrule_field d_east_hyrule_field d_hylia d_lon_lon_hill}
 }
-
+world_goron_frontiers={duchies={d_ember_woods d_gleeok_mountain d_hiri_overlook d_petrified_forest d_golo_cliffs d_govek_mountains d_maro_mountains d_haro_mountains d_delom_mountain}}
 world_great_death_mountain = {
 	duchies = { d_great_death_mountains d_eldin_mountain d_bombchu_mountain }
 }
+world_badlands={duchies={d_bori d_teck d_fadde}
 
 world_death_mountain = {
 	duchies = { d_dodongo_pass d_death_mountain d_death_mountain_pass }
@@ -38,106 +76,71 @@ world_snow_peak = {
 	duchies = {d_snowpeaks d_yeti_peaks}
 }
 world_central_hyrule = {
-	regions = {world_ordon world_provinces world_sacred_lands world_great_death_mountains world_death_mountain world_snow_peak}
-}
-####Sea of Trees
-world_sea_trees = {
-	duchies = { d_kokiri_woods d_kokiri_lost_woods d_stal_woods d_haunted_woods d_skull_woods d_wolfos_woods d_korok_woods d_baba_forest d_forest_road d_lost_woods d_deku_marsh d_dekubia d_scrubavia d_deku_forest d_sweltering_woods d_tricksters_woods d_fresh_woods d_flower_woods d_fairy_woods d_whisp_woods d_blin_woods d_crackling_woods d_spring_forest d_blin_forest d_ghoma_woods d_minish d_hylia_woods d_girrin_woods d_baga_forest d_cucco_woods d_creeping_woods d_picori_forest	}
-
-}
-#######North West Hyrule
-world_wizzrobe_steppes = {
-	duchies = { d_valley_of_seers d_drywdrui d_pryniach d_cenabon d_ogmionos d_talesium d_morgania d_myrddin }
-}
-
-world_northwest_hyrule = {
-	regions = { world_wizzrobe_steppes world_hytopia }
+	regions = {world_badlands world_great_death_mountain world_goron_frontiers world_ordon world_provinces world_sacred_lands world_great_death_mountains world_death_mountain world_snow_peak}
 }
 ####North East
+###Caladia
+world_calatia = {
+	duchies = { d_darsos d_sephyrion d_baphlagoina d_davia d_thyrgia d_licaea d_pithinya d_grete d_calatia d_lhodia d_phracia d_tysia d_zmyrna d_aphesos d_micomedia d_rycaonia d_enatolia d_pyzantion d_semnos d_bontus d_gommagene d_ontioch d_drapezous d_cophene  }
+}
+world_arcadia={duchies = {d_wosuia d_capetia d_facadia d_pausania d_tegia d_rolandia d_peloponnia d_arcadia d_lyonia d_ardennia d_silvania d_odyssia d_tyria d_megaria d_argolia d_acacesia d_valoia }}
+
+world_caladia_valley={regions={world_arcadia world_calatia}}
+###Greater Hyrule
 world_greater_hyrule = {
-	duchies = { d_moruge d_saria d_midoro d_east_death_mountains d_oberon_hills }
+	duchies = { d_miff d_moruge d_saria d_midoro d_east_death_mountains d_oberon_hills }
 }
 world_kasuto_island = {
 	duchies = { d_kasuto d_nabooru d_maze_island}
-}
-world_northeast_hyrule = {
-	Regions = { world_greater_hyrule world_kasuto }
-}
-####North
-world_ho = {
-	duchies = { d_aland d_needle_woods d_kanta d_wolf_woods d_hame d_helsinki d_oulu d_vaker d_seibothnia d_hyvitunta d_sala d_jyvaska d_kemi d_kouv d_lojo d_num d_pori}
-}
-world_yetilands = {
-	duchies = { d_way  d_icicle_shores d_yeti_woods d_heina d_savage_peaks d_avalanche_slopes d_greater_yetari d_lesser_yetari d_smothered_woods d_icicle_woods d_kneedeep_field }
-}
-world_howgendoogen_islands = {
-	duchies = { d_rii d_mantsa }
-}
-world_north = {
-	regions = {world_ho world_yetilands world_howgendoogen_islands}
-}
-####Calatia Valley
-world_hylian_valley = {
-	duchies = { d_calatia d_lhodia d_phracia d_tysia d_zmyrna d_aphesos d_micomedia d_rycaonia d_enatolia d_pyzantion d_semnos d_bontus d_gommagene d_ontioch d_drapezous d_cophene  }
-}
+}###Tolemac
 
-####East Hyrule
+world_tolemac={duchies={d_skotness d_canvula d_subasha d_ubato d_vendoss d_tolemac d_ogbam}}
+
+
+world_northeast_hyrule = {
+	Regions = { world_tolemac world_caladia_valley world_greater_hyrule world_kasuto_island }
+}
+####North West
+world_wizzrobe_steppes = {
+	duchies = { d_valley_of_seers d_drywdrui d_pryniach d_cenabon d_ogmionos d_talesium d_morgania d_myrddin }
+}
+world_hytopia={duchies={d_witchlands d_deku_lands d_hinox_mountains d_silver_highland d_trial_island d_sky_isle d_deku_lands d_west_fabs d_hytopia d_fab_gates d_fasharia d_fabland_march d_witch_steppes}}
+
+world_moria = {
+	provinces={22 31 32 33 45 46 47 57 66 65 67 68 69 70}
+}
+world_grindle = {
+	duchies = { d_camlain d_galeas d_galfridia d_swanshores d_dale d_grindle }
+}
+world_northwest_hyrule = {
+	regions = { world_grindle world_wizzrobe_steppes world_hytopia world_moria }
+}
+####South East
 world_hanman = {
-	duchies = { d_hanman d_tuong d_jakali d_xinang d_changyi d_sukang d_changmo d_lumapa d_deokgol d_seludong d_daya d_kamba d_simang d_skunag d_viang d_hotho d_quruman d_jinghan d_kimheon d_putao d_yami d_sanbu d_daemashi d_kinisha d_yezima }
+	duchies = { d_torugol d_haebal d_horyul d_duyi d_gaomar d_haizhu d_jinla d_gorland d_viapa d_hanman d_tuong d_jakali d_xinang d_changyi d_sukang d_changmo d_lumapa d_deokgol d_seludong d_daya d_kamba d_simang d_skunag d_viang d_jinghan d_kimheon d_putao d_yami d_sanbu d_daemashi d_kinisha d_yezima }
 }
+world_lost_desert={duchies={d_hotho d_quruman d_kangso d_shamen}}
 world_mudora = {
-	duchies = { d_zora_valley d_mudora d_western_mudora d_eastern_mudora d_grand_Hylia d_hylia_valley d_desert_of_mystery d_flame_mountains d_hera d_south_death_mountains d_gohmamarsh d_hylia_swamps d_misery_marshes d_northern_swamp d_saltmarshes}
-}
-world_toledia = {
-	duchies = { d_skotness d_canvula d_subasha d_ubato d_vendoss d_tolemac d_arcadia d_lyonia d_ardennia d_silvania d_odyssia d_tyria d_megaria d_argolia d_acacesia d_valoia }
+	duchies = {d_grand_hylia d_zora_valley d_mudora d_western_mudora d_eastern_mudora d_grand_Hylia d_hylia_valley d_desert_of_mystery d_flame_mountains d_hera d_south_death_mountains d_gohmamarsh d_hylia_swamps d_misery_marshes d_northern_swamp d_saltmarshes}
 }
 
 world_deku_islands = {
 	duchies = { d_hometown_isles d_deku_isles d_treasure_isles }
 }
 
-world_east_hyrule = {
-	regions = { world_hanman world_mudora world_toledia world_deku_islands}
+world_south_east={regions={world_hanman world_lost_desert world_mudora world_deku_islands}}
+####South West
+###Jungle of Happiness
+world_jungle = {
+	duchies = { d_jungle_happiness d_spool_jungle d_jungle_coast}
 }
-####South East
-world_southeast = {
-	duchies = { d_yoll d_rolling_ridge d_maku_forest d_nuun d_talus d_symmetry d_lynna d_falsia d_faria d_faria_shores d_proodyl d_westvale}
-}
-world_moria = {
-	duchies = { d_moria d_anadora d_hanoria }
-}
-world_grindle = {
-	duchies = { d_camlain d_galeas d_galfridia d_swanshores d_dale d_grindle }
-}
-world_storm_isles = {
-	duchies = { d_gale_isles d_storm_isles d_crescent_island d_tokay_island d_moonlight_isles }
-}
-world_southeast_hyrule = {
-	regions = { world_grindle world_southeast world_moria world_storm_isles}
-}
-####
-world_holodrum = {
-	duchies = { d_tarm d_natzu d_holodrum_mountain d_cucco d_spool d_fungus d_horon_woods d_horon_fields d_south_horon }
-}
-
-world_samasa = {
-	duchies = { d_east_samasa d_west_samasa }
-}
-
-world_south_hyrule = {
-	regions = { world_samasa world_holodrum }
-}
-####Jungle of Happiness
-world_tarm_jungle = {
-	duchies = { d_jungle_happiness }
-}
-
+world_lion_jungle={duchies={d_lyzonia d_lynaria d_marshwood d_dragonfly_marsh d_gekko_swamp d_swamphall d_monster_mires d_wonder_swamp}
 world_jungle_happiness = {
-	regions = { world_tarm_jungle }
+	regions = { world_lion_jungle world_jungle }
 }
 ###Windlands
 world_girrin_savanna = {
-	duchies = { d_minish_savannah d_acacia_island d_east_savannah }
+	duchies = { d_saran d_luron d_egin d_minish_savannah d_acacia_island d_east_savannah }
 }
 
 world_minish_lands = {
@@ -151,25 +154,54 @@ world_keatonia = {
 world_wind = {
 	regions = { world_keatonia world_girrin_savanna world_minish_lands }
 }
+###Comenia
+world_comenia={duchies={d_breaker_islands d_geozard_islands d_great_pier d_mountain_coast d_pearl_palace d_pirate_fortress d_chateau d_comenia_city d_east_comenia d_observer_hills d_rancher_road d_west_comenia}}
+world_sheikana={duchies={d_sheikana_gate d_sheikana d_south_sheikana d_sheikora d_truth_mountains d_sheikrila d_sheikahria d_sheikariko d_sheikariko_gate d_sheikahria_gate}}
+world_zora_haven={duchies={ d_mother_island d_zora_haven }}
+world_ice_head={duchies={d_freezard_descent d_ice_ascent d_icehead d_frosthead }}
+world_comenia_all={regions={world_ice_head world_zora_haven world_sheikana world_comenia}}
 
+
+world_south_west={regions={world_comenia_all world_wind world_keatonia world_minish_lands world_girrin_savanna world_jungle_happiness}}
+####North
+world_ho = {
+	duchies = { d_maria d_aland d_needle_woods d_kanta d_wolf_woods d_hame d_helsinki d_oulu d_vaker d_seibothnia d_hyvitunta d_sala d_jyvaska d_kemi d_kouv d_lojo d_num d_pori}
+}
+world_yetilands = {
+	duchies = { d_way  d_icicle_shores d_yeti_woods d_heina d_savage_peaks d_avalanche_slopes d_greater_yetari d_lesser_yetari d_smothered_woods d_icicle_woods d_kneedeep_field }
+}
+world_howgendoogen_islands = {
+	duchies = { d_rii d_mantsa }
+}
+world_north = {
+	regions = {world_ho world_yetilands world_howgendoogen_islands}
+}
+####South
+world_storm_isles = {
+	duchies = { d_gale_isles d_storm_isles d_crescent_island d_tokay_island d_moonlight_isles }
+}
+world_holodrum = {
+	duchies = { d_tarm d_natzu d_holodrum_mountain d_cucco d_spool d_fungus d_horon_woods d_horon_fields d_south_horon }
+}
+
+world_samasa = {
+	duchies = { d_east_samasa d_west_samasa }
+}
+world_labrynna = {
+	duchies = { d_yoll d_rolling_ridge d_maku_forest d_nuun d_talus d_symmetry d_lynna }
+}
+world_falsia={duchies={d_magma_works d_falsia d_faria d_faria_shores d_proodyl d_westvale d_sunny_shores d_falsia_marsh d_fetsia}}
+
+world_south_hyrule = {
+	regions = {world_falsia world_storm_isles world_labrynna world_samasa world_holodrum }
+}
+###Sub
 world_hyrule = {
-	regions = { world_wind world_southeast_hyrule world_jungle_happiness world_hylian_valley world_central_hyrule world_sea_trees world_hanman world_northeast_hyrule world_northwest_hyrule world_east_hyrule world_north world_south_hyrule world_south_east_hyrule }
+	regions = {world_sea_trees world_central_hyrule world_northwest_hyrule world_northeast_hyrule world_south_hyrule world_south_east world_south_west world_north world_north_east world_north_west	}
 }
-#####################Central Hyrule Continent
-world_darknut_desert = {
-	duchies = { d_maw_valley  d_bastion d_jackal_desert d_deaths_valley d_bastion_cliffs }
-}
-world_sea_sand = {
-	regions = { world_darknut_desert }
-}
-#####################West Hyrule Continent
-world_cobble_subcontinent = {
-	duchies = {}
-}
-####islands of hyrule
 
 world_koridai = {
-	provinces = { 1 2 3 4 5 6 7 8 9 10 11 12 13 14 }
+	provinces = {14 799 798 1 2 3 4 5 6 7 8 9 10 11 12 13 14 }
 }
 world_koholint = {
 	duchies = { d_tal_tal d_ukuku}
@@ -180,12 +212,48 @@ world_western_isles = {
 }
 
 world_gamelon = {
-	duchies = { d_dodomai d_aru_ainu }
+	duchies = { d_shutoy d_ahitaru d_dodomai d_aru_ainu }
 }
 
 world_hyrule_continent = {
 	regions = { world_gamelon world_koholint world_koridai world_western_isles world_hyrule world_sea_sand	world_cobble_subcontinent } #east, central, west
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#####################Central Hyrule Continent
+#####################West Hyrule Continent
+world_cobble_subcontinent = {
+	duchies = {}
+}
+####islands of hyrule
+
 ###########rupeeland
 world_rupeeland = {
 	duchies = {}
@@ -200,7 +268,7 @@ custom_zola = {
 	duchies = { d_aru_ainu d_dodomai d_skotness d_vendoss d_subasha d_canvula d_tolemac d_oberon_hills d_cophene d_enatolia d_gommagene d_saria d_moruge d_midoro d_kasuto d_nabooru d_maze_island d_zantion d_semno d_drapezous d_ontioch d_bontus d_rycaonia d_aphesos d_micomedia d_calatia d_tysia d_lhodia d_zmyrna d_phracia d_koridai d_mitkogo d_fokoqa d_cenabon d_drywdrui d_morgania d_myrddin d_pryniach d_talesium d_gohmamarsh d_hylia_swamps d_misery_marshes d_northern_swamp d_saltmarshes d_desert_of_myster d_eastern_mudora d_grand_grand d_hylia_valley d_mudora d_western_mudora d_blin_forest d_blin_woods d_crackling_woods d_fairy_woods d_ghoma_woods d_spring_forest d_whisp_woods d_deku_forest d_deku_marsh d_dekuvia d_scrubavia d_flower_woods d_fresh_woods d_lost_woods d_sweltering_woods d_tricksters_woods}
 }
 custom_sea_zora = {
-	duchies = { d_gale_iles d_storm_isles d_lynna d_nuun d_symmetry d_maku_forest d_yoll d_crescent_island d_moonlight_isles d_tokay_island d_proodyl d_westvale d_faria d_flasia d_camlain d_galeas d_galfridia d_dale d_grindle d_swanshore d_hanoria d_anadora d_tal_tal d_ukuku d_simang d_daya d_seludong d_kama d_viang d_sukang d_jinghan d_kimheon d_daya d_putao d_yami d_hometown_isles d_treasure_isles d_deku_isles d_hanman d_jakali d_tuong d_xinang d_changyi d_deokgol d_puyeo d_sanbu d_daemashi d_kinsha d_yezima d_arcadia d_odyssia d_lyonia d_east_samasa d_west_samasa d_south_horon d_spool d_jungle_happiness }
+	duchies = { d_gale_iles d_storm_isles d_lynna d_nuun d_symmetry d_maku_forest d_yoll d_d_falsia d_faria d_faria_shores d_proodyl d_westvale_island d_moonlight_isles d_tokay_island d_proodyl d_westvale d_faria d_flasia d_camlain d_galeas d_galfridia d_dale d_grindle d_swanshore d_hanoria d_anadora d_tal_tal d_ukuku d_simang d_daya d_seludong d_kama d_viang d_sukang d_jinghan d_kimheon d_daya d_putao d_yami d_hometown_isles d_treasure_isles d_deku_isles d_hanman d_jakali d_tuong d_xinang d_changyi d_deokgol d_puyeo d_sanbu d_daemashi d_kinsha d_yezima d_arcadia d_odyssia d_lyonia d_east_samasa d_west_samasa d_south_horon d_spool d_jungle_happiness }
 }
 custom_rito = {
 	duchies = { d_death_mountain d_great_death_mountain d_yeti_peaks d_snowpeak d_way d_east_death_mountain d_avalanche_slopes d_lesser_yetari d_greater_yetari d_moria d_south_death_mountains d_talus d_rolling_ridge d_tarm d_holodrum_mountain d_cucco d_north_subrosia }

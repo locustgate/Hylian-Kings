@@ -1,6 +1,6 @@
 hyrulean_group={
 	graphical_cultures={ britishgfx westerngfx }
-	hyrulean = {
+	hyrulean = { #Minish splits to 'oot' and minish
 		graphical_cultures = { hyruleangfx hyliangfx }
 		
 		parent = skylofter
@@ -142,6 +142,7 @@ hyrulean_group={
 		}
 		
 		dukes_called_kings = no
+		feminist=yes
 		
 		from_dynasty_prefix = "of "	
 		male_patronym = "sen"
@@ -160,10 +161,338 @@ hyrulean_group={
 
 		modifier = default_culture_modifier
 	}
+	middle_hyrulean={#OOt to pre twilight
+		graphical_cultures = { hyruleangfx hyliangfx }
+		
+		parent = hyrulean
+
+		color = { 0.63 0.13 0.94 }
+		
+		male_names = {
+		#LoZ
+			Link_Link
+		#AoL
+			Bagu_Bagu
+		#ALttP
+			Sahasrahla_Sahasrahla Aginah_Aginah Mudora_Mudora
+		#LA
+			Tarin_Tarin Papahl_Papahl Richard_Richard
+		#OoT
+			Rauru_Rauru Kaepora_Kaepora Gaebora_Gaebora Pierre_Pierre Bonooru_Bonooru Sakon_Sakon Ingo_Ingo Talon_Talon Dampé_Dampe Flat_Flat Sharp_Sharp Shiro_Shiro Jiro_Jiro Ichiro_Ichiro Sabooro_Sabooro
+		#MM
+			Kamaro_Kamaro Tingle_Tingle Baito_Baito Brent_Brent Brac_Brac Bremor_Bremor Viscen_Viscen Doyle_Doyle Guru-Guru_Guru-Guru Guru_Guru Darling_Darling Jim_Jim Mack_Mack Mutoh_Mutoh Zubora_Zubora Gabora_Gabora Grog_Grog Tortus_Tortus
+		#OoA
+			Ralph_Ralph Adlar_Adlar Bipin_Bipin Cheval_Cheval Dekadin_Dekadin Patch_Patch Pippin_Pippin Rafton_Rafton Thomas_Thomas Tokkey_Tokkey Stockwell_Stockwell
+		#OoS
+			Oji_Oji Sokra_Sokra
+		#WW
+			Beedle_Beedle Terry_Terry Daphnes_Daphnes Nohan_Nohan Nohansen_Nohansen Gonzo_Gonzo Loot_Loot Trejo_Trejo Mako_Mako Niko_Niko Nudge_Nudge Senza_Senza Zuko_Zuko Abe_Abe Joel_Joel Mesa_Mesa Orca_Orca Sturgeon_Sturgeon Zill_Zill Anton_Anton Candy_Candy Dampa_Dampa Garrickson_Garrickson Garrick_Garrick Gossack_Gossack Gummy_Gummy Kamo_Kamo Kane_Kane Ivan_Ivan Jin_Jin Jan_Jan Jun-Roberto_Jun-Roberto Jun_Jun Roberto_Roberto Kreeb_Kreeb Lenzo_Lenzo Salvatore_Salvatore Sam_Sam Tott_Tott Carlov_Carlov Manny_Manny Ankle_Ankle Knuckle_Knuckle David_David
+		#MC
+			Gorman_Gorman Daltus_Daltus Potho_Potho Smith_Smith Percy_Percy Eenie_Eenie Meenie_Meenie Gustaf_Gustaf Baris_Baris Bindle_Bindle Borlov_Borlov Lolly_Lolly Brocco_Brocco Erik_Erik Gepper_Gepper Harrison_Harrison Herb_Herb Klaus_Klaus Marshall_Marshall Rem_Rem Romio_Romio Satchel_Satchel Wheaton_Wheaton Simon_Simon Stamp_Stamp Edmond_Edmond Guts_Guts Martin_Martin Joe_Joe Match_Match Monty_Monty Swiftblade_Swiftblade Grayblade_Grayblade Grimblade_Grimblade Scarblade_Scarblade Splitblade_Splitblade Greatblade_Greatblade
+		#TP
+			Colin_Colin Fado_Fado Hanch_Hanch Jaggle_Jaggle Malo_Malo Talo_Talo Rusl_Rusl Bo_Bo Coro_Coro Barnes_Barnes Shad_Shad Auru_Auru Falbi_Falbi Fyer_Fyer Charlo_Charlo Chudley_Chudley Jovani_Jovani Purlo_Purlo Soal_Soal
+		#PH
+			Linebck_Linebeck Eddo_Eddo McNey_McNey Fuzo_Fuzo Nyave_Nyave Nyeve_Nyeve Romanos_Romanos
+		#ST
+			Ferrus_Ferrus Alfonzo_Alfonzo Russell_Russell Bunnio_Bunnio Shitate_Shitate
+		#SS
+			Groose_Groose Gaepora_Gaepora Bertie_Bertie Cawlin_Cawlin Croo_Croo Dovos_Dovos Eagus_Eagus Fledge_Fledge Gondo_Gondo Greba_Greba Gully_Gully Horwell_Horwell Jakamar_Jakamar Owlan_Owlan Parrow_Parrow Peater_Peater Pipit_Pipit Rupin_Rupin Sparrot_Sparrot Strich_Strich Keet_Keet Pumm_Pumm Rusta_Rusta Dodoh_Dodoh
+		#ALBW
+			Rosso_Rosso Osfala_Osfala Gulley_Gulley Bard_Bard
+		#BotW(WIP)
+			Rhoam_Rhoam Bosphoramus_Bosphoramus
+		#LoZ TV
+			Harkinian_Harkinian
+		#FoE
+			Goronu_Goronu Gwonam_Gwonam Anutu_Anutu Aypo_Aypo Droolik_Droolik Horgum_Horgum Morshu_Morshu Odranoel_Odranoel
+		#WoG
+			Onkled_Onkled Hektan_Hektan Grimbo_Grimbo Harbanno_Harbanno Kiro_Kiro Yokan_Yokan
+		#ZA
+			Gaspra_Gaspra Krebb_Krebb Lothar_Lothar Basil_Basil Waldensop_Waldensop Lonlyn_Lonlyn Myntoll_Myntoll Faust_Faust Sirram_Sirram
+		#FPTRR
+			Dave_David Duke_Duke Duko_Duko Paul_Paul
+		#RTBToL
+			Segare_Segare Eagle_Eagle Peter_Peter
+		#LoZ VC
+			Arn_Arn Krin_Krin Erol_Erol Rus_Rus
+		#OoAM
+			Raven_Raven
+		#OoSM
+			Jovan_Jovan Parot_Parot Rishu_Rishu
+		#FSM
+			Valenzuela_Valenzuela
+		#OoLM
+			Lilto_Lilto Gonza_Gonza Motone_Motone
+		#SSM
+			Dagianis_Dagianis Orville_Orville
+		#ALttP SIC
+			Roam_Roam
+		#TCT
+			Aldo_Aldo Estragon_Estragon Conly_Conly
+		#TSP
+			Charles_Charles Nilbom_Nilbom
+		#HTW
+			Kazakk_Kazakk Arthon_Arthon Atrinas_Atrinas Akazoo_Akazoo
+		}
+
+		female_names = {
+		#LoZ
+			Zelda_Zelda
+		#ALttP
+			Maple_Maple Syrup_Syrup
+		#LA
+			Marin_Marin Tracy_Tracy Martha_Martha Christine_Christine
+		#OoT
+			Mamamu_Mamamu Malon_Malon Anju_Anju Epona_Epona
+		#MM
+			Honey_Honey Marilla_Marilla Judo_Judo Cremia_Cremia Romani_Romani Pamela_Pamela
+		#OoA
+			Nayru_Nayru Farore_Farore Ambi_Ambi Blossom_Blossom
+		#OoS
+			Din_Din Holly_Holly
+		#WW
+			Tetra_Tetra Aryll_Aryll Rose_Rose Sue-Belle_Sue-Belle Sue_Sue Belle_Belle Gillian_Gillian Joanna_Joanna Potova_Potova Linda_Linda Maggie_Maggie Mila_Mila Minenco_Minenco Missy_Missy Marie_Marie Pompie_Pompie Vera_Vera Kashiko_Kashiko
+		#FSA
+			Sweetie_Sweetie Iris_Iris
+		#MC
+			Berry_Berry Candy_Candy Breve_Breve Chai_Chai Tina_Tina Dina_Dina Dottie_Dottie Emma_Emma Jasmine_Jasmine Julietta_Julietta June_June Keeley_Keeley Leila_Leila Paige_Paige Mama_Mama Marcy_Marcy Pina_Pina Pita_Pita Sheila_Sheila Verona_Verona Gina_Gina
+		#TP
+			Beth_Beth Ilia_Ilia Sera_Sera Uli_Uli Pergie_Pergie Hena_Hena Iza_Iza Agitha_Agitha Kili_Kili Hannah_Hannah Misha_Misha Telma_Telma Ashei_Ashei
+		#PH
+			Joanne_Joanne Jolene_Jolene Freedle_Freedle
+		#ST
+			Rei_Rei Joynas_Joynas
+		#SS
+			Hylia_Hylia Fi_Fi Goselle_Goselle Henya_Henya Karane_Karane Luv_Luv Mallara_Mallara Orielle_Orielle Peatrice_Peatrice Phoeni_Phoeni Piper_Piper Wryna_Wryna Kina_Kina
+		#ALBW
+			Seres_Seres Irene_Irene
+		#TFH
+			Mimi_Mimi
+		#BotW(WIP)
+			Sagessa_Sagessa
+		#FoE
+			Suprena_Suprena Alora_Alora Hamsha_Hamsha
+		#WoG
+			Alma_Alma Lika_Lika Lubonga_Lubonga Myra_Myra
+		#ZA
+			Shurmak_Shurmak Glebb_Glebb Yvonne_Yvonne
+		#FPTRR
+			Bella_Bella Chiko_Chiko
+		#RTBToL
+			Majiyo_Majiyo Florence_Florence Iona_Iona Azusa_Azusa Monpe_Monpe
+		#HW
+			Lana_Lana Cia_Cia Linkle_Linkle
+		#LoZ TV
+			Catherine_Catherine
+		#LoZ VC
+			Seline_Seline Medilia_Medilia Cassiopia_Cassiopia
+		#ALttP AHM
+			Ghanti_Ghanti
+		#OoAM
+			Roperi_Roperi Resuta_Resuta
+		#OoSM
+			Mel_Mel Rom_Rom
+		#FSM
+			Arcy_Arcy Erune_Erune Rosie_Rosie
+		#OoLM
+			Kala_Kala Kalin_Kalin
+		#TCT
+			Grusha_Grusha
+		#HTW
+			Maldra_Maldra Nylin_Nylin Yanera_Yanera Mahrala_Mahrala Oraiya_Oraiya Tetralyna_Tetralyna
+		}
+		
+		dukes_called_kings = no
+		feminist=yes
+		
+		from_dynasty_prefix = "of "	
+		male_patronym = "sen"
+		female_patronym = "sdatter"
+		prefix = no # The patronym is added as a suffix
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+		used_for_random=no
+		allow_in_ruler_designer=no
+	}
+	late_hyrulean={#twilight to the calamity	
+		graphical_cultures = { hyruleangfx hyliangfx }
+		
+		parent = middle_hyrulean
+
+		color = { 0.63 0.13 0.94 }
+		
+		male_names = {
+		#LoZ
+			Link_Link
+		#AoL
+			Bagu_Bagu
+		#ALttP
+			Sahasrahla_Sahasrahla Aginah_Aginah Mudora_Mudora
+		#LA
+			Tarin_Tarin Papahl_Papahl Richard_Richard
+		#OoT
+			Rauru_Rauru Kaepora_Kaepora Gaebora_Gaebora Pierre_Pierre Bonooru_Bonooru Sakon_Sakon Ingo_Ingo Talon_Talon Dampé_Dampe Flat_Flat Sharp_Sharp Shiro_Shiro Jiro_Jiro Ichiro_Ichiro Sabooro_Sabooro
+		#MM
+			Kamaro_Kamaro Tingle_Tingle Baito_Baito Brent_Brent Brac_Brac Bremor_Bremor Viscen_Viscen Doyle_Doyle Guru-Guru_Guru-Guru Guru_Guru Darling_Darling Jim_Jim Mack_Mack Mutoh_Mutoh Zubora_Zubora Gabora_Gabora Grog_Grog Tortus_Tortus
+		#OoA
+			Ralph_Ralph Adlar_Adlar Bipin_Bipin Cheval_Cheval Dekadin_Dekadin Patch_Patch Pippin_Pippin Rafton_Rafton Thomas_Thomas Tokkey_Tokkey Stockwell_Stockwell
+		#OoS
+			Oji_Oji Sokra_Sokra
+		#WW
+			Beedle_Beedle Terry_Terry Daphnes_Daphnes Nohan_Nohan Nohansen_Nohansen Gonzo_Gonzo Loot_Loot Trejo_Trejo Mako_Mako Niko_Niko Nudge_Nudge Senza_Senza Zuko_Zuko Abe_Abe Joel_Joel Mesa_Mesa Orca_Orca Sturgeon_Sturgeon Zill_Zill Anton_Anton Candy_Candy Dampa_Dampa Garrickson_Garrickson Garrick_Garrick Gossack_Gossack Gummy_Gummy Kamo_Kamo Kane_Kane Ivan_Ivan Jin_Jin Jan_Jan Jun-Roberto_Jun-Roberto Jun_Jun Roberto_Roberto Kreeb_Kreeb Lenzo_Lenzo Salvatore_Salvatore Sam_Sam Tott_Tott Carlov_Carlov Manny_Manny Ankle_Ankle Knuckle_Knuckle David_David
+		#MC
+			Gorman_Gorman Daltus_Daltus Potho_Potho Smith_Smith Percy_Percy Eenie_Eenie Meenie_Meenie Gustaf_Gustaf Baris_Baris Bindle_Bindle Borlov_Borlov Lolly_Lolly Brocco_Brocco Erik_Erik Gepper_Gepper Harrison_Harrison Herb_Herb Klaus_Klaus Marshall_Marshall Rem_Rem Romio_Romio Satchel_Satchel Wheaton_Wheaton Simon_Simon Stamp_Stamp Edmond_Edmond Guts_Guts Martin_Martin Joe_Joe Match_Match Monty_Monty Swiftblade_Swiftblade Grayblade_Grayblade Grimblade_Grimblade Scarblade_Scarblade Splitblade_Splitblade Greatblade_Greatblade
+		#TP
+			Colin_Colin Fado_Fado Hanch_Hanch Jaggle_Jaggle Malo_Malo Talo_Talo Rusl_Rusl Bo_Bo Coro_Coro Barnes_Barnes Shad_Shad Auru_Auru Falbi_Falbi Fyer_Fyer Charlo_Charlo Chudley_Chudley Jovani_Jovani Purlo_Purlo Soal_Soal
+		#PH
+			Linebck_Linebeck Eddo_Eddo McNey_McNey Fuzo_Fuzo Nyave_Nyave Nyeve_Nyeve Romanos_Romanos
+		#ST
+			Ferrus_Ferrus Alfonzo_Alfonzo Russell_Russell Bunnio_Bunnio Shitate_Shitate
+		#SS
+			Groose_Groose Gaepora_Gaepora Bertie_Bertie Cawlin_Cawlin Croo_Croo Dovos_Dovos Eagus_Eagus Fledge_Fledge Gondo_Gondo Greba_Greba Gully_Gully Horwell_Horwell Jakamar_Jakamar Owlan_Owlan Parrow_Parrow Peater_Peater Pipit_Pipit Rupin_Rupin Sparrot_Sparrot Strich_Strich Keet_Keet Pumm_Pumm Rusta_Rusta Dodoh_Dodoh
+		#ALBW
+			Rosso_Rosso Osfala_Osfala Gulley_Gulley Bard_Bard
+		#BotW(WIP)
+			Rhoam_Rhoam Bosphoramus_Bosphoramus
+		#LoZ TV
+			Harkinian_Harkinian
+		#FoE
+			Goronu_Goronu Gwonam_Gwonam Anutu_Anutu Aypo_Aypo Droolik_Droolik Horgum_Horgum Morshu_Morshu Odranoel_Odranoel
+		#WoG
+			Onkled_Onkled Hektan_Hektan Grimbo_Grimbo Harbanno_Harbanno Kiro_Kiro Yokan_Yokan
+		#ZA
+			Gaspra_Gaspra Krebb_Krebb Lothar_Lothar Basil_Basil Waldensop_Waldensop Lonlyn_Lonlyn Myntoll_Myntoll Faust_Faust Sirram_Sirram
+		#FPTRR
+			Dave_David Duke_Duke Duko_Duko Paul_Paul
+		#RTBToL
+			Segare_Segare Eagle_Eagle Peter_Peter
+		#LoZ VC
+			Arn_Arn Krin_Krin Erol_Erol Rus_Rus
+		#OoAM
+			Raven_Raven
+		#OoSM
+			Jovan_Jovan Parot_Parot Rishu_Rishu
+		#FSM
+			Valenzuela_Valenzuela
+		#OoLM
+			Lilto_Lilto Gonza_Gonza Motone_Motone
+		#SSM
+			Dagianis_Dagianis Orville_Orville
+		#ALttP SIC
+			Roam_Roam
+		#TCT
+			Aldo_Aldo Estragon_Estragon Conly_Conly
+		#TSP
+			Charles_Charles Nilbom_Nilbom
+		#HTW
+			Kazakk_Kazakk Arthon_Arthon Atrinas_Atrinas Akazoo_Akazoo
+		}
+
+		female_names = {
+		#LoZ
+			Zelda_Zelda
+		#ALttP
+			Maple_Maple Syrup_Syrup
+		#LA
+			Marin_Marin Tracy_Tracy Martha_Martha Christine_Christine
+		#OoT
+			Mamamu_Mamamu Malon_Malon Anju_Anju Epona_Epona
+		#MM
+			Honey_Honey Marilla_Marilla Judo_Judo Cremia_Cremia Romani_Romani Pamela_Pamela
+		#OoA
+			Nayru_Nayru Farore_Farore Ambi_Ambi Blossom_Blossom
+		#OoS
+			Din_Din Holly_Holly
+		#WW
+			Tetra_Tetra Aryll_Aryll Rose_Rose Sue-Belle_Sue-Belle Sue_Sue Belle_Belle Gillian_Gillian Joanna_Joanna Potova_Potova Linda_Linda Maggie_Maggie Mila_Mila Minenco_Minenco Missy_Missy Marie_Marie Pompie_Pompie Vera_Vera Kashiko_Kashiko
+		#FSA
+			Sweetie_Sweetie Iris_Iris
+		#MC
+			Berry_Berry Candy_Candy Breve_Breve Chai_Chai Tina_Tina Dina_Dina Dottie_Dottie Emma_Emma Jasmine_Jasmine Julietta_Julietta June_June Keeley_Keeley Leila_Leila Paige_Paige Mama_Mama Marcy_Marcy Pina_Pina Pita_Pita Sheila_Sheila Verona_Verona Gina_Gina
+		#TP
+			Beth_Beth Ilia_Ilia Sera_Sera Uli_Uli Pergie_Pergie Hena_Hena Iza_Iza Agitha_Agitha Kili_Kili Hannah_Hannah Misha_Misha Telma_Telma Ashei_Ashei
+		#PH
+			Joanne_Joanne Jolene_Jolene Freedle_Freedle
+		#ST
+			Rei_Rei Joynas_Joynas
+		#SS
+			Hylia_Hylia Fi_Fi Goselle_Goselle Henya_Henya Karane_Karane Luv_Luv Mallara_Mallara Orielle_Orielle Peatrice_Peatrice Phoeni_Phoeni Piper_Piper Wryna_Wryna Kina_Kina
+		#ALBW
+			Seres_Seres Irene_Irene
+		#TFH
+			Mimi_Mimi
+		#BotW(WIP)
+			Sagessa_Sagessa
+		#FoE
+			Suprena_Suprena Alora_Alora Hamsha_Hamsha
+		#WoG
+			Alma_Alma Lika_Lika Lubonga_Lubonga Myra_Myra
+		#ZA
+			Shurmak_Shurmak Glebb_Glebb Yvonne_Yvonne
+		#FPTRR
+			Bella_Bella Chiko_Chiko
+		#RTBToL
+			Majiyo_Majiyo Florence_Florence Iona_Iona Azusa_Azusa Monpe_Monpe
+		#HW
+			Lana_Lana Cia_Cia Linkle_Linkle
+		#LoZ TV
+			Catherine_Catherine
+		#LoZ VC
+			Seline_Seline Medilia_Medilia Cassiopia_Cassiopia
+		#ALttP AHM
+			Ghanti_Ghanti
+		#OoAM
+			Roperi_Roperi Resuta_Resuta
+		#OoSM
+			Mel_Mel Rom_Rom
+		#FSM
+			Arcy_Arcy Erune_Erune Rosie_Rosie
+		#OoLM
+			Kala_Kala Kalin_Kalin
+		#TCT
+			Grusha_Grusha
+		#HTW
+			Maldra_Maldra Nylin_Nylin Yanera_Yanera Mahrala_Mahrala Oraiya_Oraiya Tetralyna_Tetralyna
+		}
+		
+		dukes_called_kings = no
+		feminist=yes
+		
+		#from_dynasty_prefix = "of "	
+		#male_patronym = "sen"
+		#female_patronym = "sdatter"
+		#prefix = no # The patronym is added as a suffix
+				
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		used_for_random=no
+		allow_in_ruler_designer=no
+		
+		
+		modifier = default_culture_modifier
+	}
 	little_hyrulean = {
 		graphical_cultures = { hyliangfx } 
 
-		parent = hyrulean
+		parent = middle_hyrulean
 		
 		color = { 0.8 0.52 0.25 }
 		
@@ -258,7 +587,10 @@ hyrulean_group={
 	}
 	minish_hyrulean={
 	
+		parent=hyrulean
+	
 	}
+	
 }
 hylian_group = {
 	graphical_cultures = { westerngfx }
@@ -535,7 +867,7 @@ round_eared = {
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 60
 		mother_name_chance = 10
-
+		feminist=yes
 		modifier = default_culture_modifier
 	}
 	port_towner = {
@@ -656,6 +988,7 @@ round_eared = {
 		mat_grm_name_chance = 25
 		mother_name_chance = 0
 
+		feminist=yes
 		modifier = default_culture_modifier
 	}
 	eldin = { 
@@ -1143,7 +1476,7 @@ western_human = {
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 50
 		mother_name_chance = 0
-				
+		feminist=yes		
 		modifier = default_culture_modifier
 	}
 	gravel = {
@@ -1161,7 +1494,7 @@ western_human = {
 		}
 		founder_named_dynasties = yes
 		dukes_called_kings = no
-
+		feminist=yes
 		from_dynasty_prefix = "of "
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
@@ -3106,7 +3439,8 @@ graphical_only = {
 
 		graphical_cultures = { dekugfx }
 
-		used_for_random = no 
+		used_for_random=no
+		allow_in_ruler_designer=no
 		
 		color = { 0 0.39 0 }
 		
@@ -3126,7 +3460,8 @@ graphical_only = {
 		graphical_cultures = { bagagfx }
 
 		horde = yes 
-		used_for_random = no
+		used_for_random=no
+		allow_in_ruler_designer=no
 		
 		color = { 0 0.39 0 }
 		

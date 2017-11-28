@@ -1,0 +1,281 @@
+26000={
+	name=Oddo
+	dynasty=12001
+	dna="dphbgplbgdd"
+	culture=pebble religion=oshus_religion
+	martial=4 diplomacy=7 stewardship=4 intrigue=6 learning=6
+	add_trait=elusive_shadow add_trait=proud add_trait=cruel 
+	3921.3.5={ birth=yes }
+	3963.4.4={ death=yes }
+}
+26001={
+	name=Alva
+	female=yes
+	dynasty=12001
+	dna="bpebgodjgdc"
+	culture=pebble religion=oshus_religion
+	father=26000	#Oddo
+	martial=5 diplomacy=8 stewardship=4 intrigue=6 learning=6
+	add_trait=martial_cleric add_trait=brave add_trait=wroth add_trait=envious add_trait=wounded 
+	3948.3.10={ birth=yes }
+	3971.1.1={add_spouse=26005}
+	3997.12.21={ death=yes }
+}
+26002={
+	name=Loreta
+	female=yes
+	dynasty=12001
+	dna="dpnaapldgco"
+	culture=pebble religion=oshus_religion
+	mother=26001	#Callisto
+	father=26005
+	3973.8.6={ birth=yes }
+	4025.1.17={ death=yes }
+}
+26003={
+	name=Mattia
+	dynasty=12001
+	dna="dpcnmplhpdd"
+	culture=pebble religion=oshus_religion
+	martial=4 diplomacy=8 stewardship=5 intrigue=4 learning=7
+	add_trait=charismatic_negotiator add_trait=paranoid add_trait=cruel add_trait=content add_trait=honest 
+	add_trait=charitable 
+	mother=26001	#Callisto
+	father=26005
+	3978.6.20={ birth=yes }
+	4023.8.26={ death=yes }
+}
+26004={
+	name=Irma
+	female=yes
+	dynasty=12001
+	dna="dafnlpdegac"
+	culture=pebble religion=oshus_religion
+	mother=26001	#Callisto
+	father=26005
+	3980.2.6={ birth=yes }
+	4026.12.19={ death=yes }
+}
+26005={
+	name=Zauz	
+	culture=pebble religion=oshus_religion
+	3948.3.10={ birth=yes }
+	3971.1.1={add_spouse=26001}
+	3997.12.21={ death=yes }
+}
+#Ivory City Goldport
+26006={
+	name=Stig
+	dynasty=12005
+	dna="chmgmeaokcg"
+	culture=pebble religion=oshus_religion
+	martial=5 diplomacy=8 stewardship=5 intrigue=7 learning=5
+	add_trait=scholarly_theologian add_trait=gregarious add_trait=temperate add_trait=chaste add_trait=deceitful 
+	add_trait=cynical 
+	3944.1.18={ birth=yes }
+	4005.10.5={ death=yes }
+}
+26007={
+	name=Roffe
+	dynasty=12005
+	dna="bhmgcaaakel"
+	culture=pebble religion=oshus_religion
+	martial=4 diplomacy=5 stewardship=5 intrigue=7 learning=5
+	add_trait=thrifty_clerk add_trait=zealous add_trait=charitable add_trait=cruel add_trait=temperate 
+	father=26006	#Stig
+	mother=26012
+	3970.4.18={ birth=yes }
+	4034.7.30={ death=yes }
+}
+26008={
+	name=Rufino
+	dynasty=12005
+	dna="gemghdaokcg"
+	culture=pebble religion=oshus_religion
+	martial=7 diplomacy=4 stewardship=4 intrigue=8 learning=6
+	add_trait=flamboyant_schemer add_trait=hedonist add_trait=slothful add_trait=charitable add_trait=craven 
+	add_trait=kind add_trait=chaste add_trait=lunatic 
+	father=26006	#Stig
+	mother=26012
+	3972.4.9={ birth=yes }
+	4035.12.2={ death=yes }
+}
+26009={
+	name=Amato
+	dynasty=12005
+	dna="cjngmeookjg"
+	culture=pebble religion=oshus_religion
+	martial=4 diplomacy=4 stewardship=6 intrigue=6 learning=5
+	add_trait=flamboyant_schemer add_trait=trusting add_trait=proud add_trait=wroth add_trait=shy 
+	add_trait=charitable 
+	father=26006	#Stig
+	mother=26012
+	3975.9.19={ birth=yes }
+	4039.11.29={ death=yes }
+}
+26010={
+	name=Primo
+	dynasty=12005
+	dna="chmgieaocbi"
+	culture=pebble religion=oshus_religion
+	martial=4 diplomacy=7 stewardship=6 intrigue=6 learning=8
+	add_trait=intricate_webweaver add_trait=mystic add_trait=charitable add_trait=content add_trait=cynical 
+	father=26006	#Stig
+	mother=26012
+	3977.8.18={ birth=yes }
+	4031.12.21={ death=yes }
+}
+26011={
+	name=Emilia
+	female=yes
+	dynasty=12005
+	dna="cbmamhankcg"
+	culture=pebble religion=oshus_religion
+	father=26006	#Stig
+	mother=26012
+	3981.9.5={ birth=yes }
+	4040.5.3={ death=yes }
+}
+26012={
+	name=Astrid
+	female=yes
+	culture=pebble religion=oshus_religion
+	3944.1.18={ birth=yes }
+	3968.1.1={add_spouse=26006}
+	4005.10.5={ death=yes }
+}
+#goldfields Ivoria Ivory Valley
+26013={
+	name=Lucilio
+	dynasty=12010
+	dna="fahjfpcldjj"
+	culture=pebble religion=oshus_religion
+	martial=7 diplomacy=4 stewardship=4 intrigue=7 learning=6
+	add_trait=martial_cleric add_trait=ambitious add_trait=humble add_trait=cruel add_trait=cynical 
+	add_trait=drunkard 
+	3965.8.14={ birth=yes }
+	4013.5.24={ death=yes }
+}
+#spiriton oshusia 
+26014={
+	name=Elpidio
+	dynasty=12015
+	dna="hhopmihihin"
+	culture=pebble religion=oshus_religion
+	martial=7 diplomacy=6 stewardship=8 intrigue=8 learning=4
+	add_trait=scholarly_theologian add_trait=proud add_trait=wroth add_trait=temperate 
+	3963.5.15={ birth=yes }
+	4013.9.27={ death=yes }
+}
+#grainton grainaria
+26015={
+	name=Elmo
+	dynasty=12020
+	dna="oeodcimknkb"
+	culture=pebble religion=oshus_religion
+	martial=4 diplomacy=8 stewardship=7 intrigue=5 learning=6
+	add_trait=charismatic_negotiator add_trait=scholar add_trait=gregarious add_trait=patient add_trait=cruel 
+	add_trait=lustful add_trait=honest add_trait=stutter 
+	3950.10.12={ birth=yes }
+	3975.1.1={add_spouse=26020}
+	3996.8.17={ death=yes }
+}
+26016={
+	name=Caj
+	dynasty=12020
+	dna="efodjikpnkb"
+	culture=pebble religion=oshus_religion
+	martial=7 diplomacy=4 stewardship=5 intrigue=5 learning=4
+	add_trait=naive_appeaser add_trait=wroth add_trait=kind add_trait=deceitful 
+	father=26015	#Elmo
+	mother=26020
+	3976.9.4={ birth=yes }
+	4034.6.17={ death=yes }
+}
+26017={
+	name=Filippa
+	female=yes
+	dynasty=12020
+	dna="pebmcifkkkb"
+	culture=pebble religion=oshus_religion
+	father=26015	#Elmo
+	mother=26020
+	3979.4.1={ birth=yes }
+	4043.9.11={ death=yes }
+}
+26018={
+	name=Enzo
+	dynasty=12020
+	dna="oeeckimonko"
+	culture=pebble religion=oshus_religion
+	martial=6 diplomacy=4 stewardship=4 intrigue=4 learning=8
+	add_trait=intricate_webweaver add_trait=zealous add_trait=envious add_trait=cruel add_trait=ill 
+	father=26015	#Elmo
+	mother=26020
+	3983.12.14={ birth=yes }
+	4057.10.24={ death=yes }
+}
+26019={
+	name=Iris
+	female=yes
+	dynasty=12020
+	dna="oekhcjmknoo"
+	culture=pebble religion=oshus_religion
+	father=26015	#Elmo
+	mother=26020
+	3986.6.19={ birth=yes }
+	4032.4.12={ death=yes }
+}
+26020={
+	name=Ada
+	female=yes
+	culture=pebble religion=oshus_religion
+	3950.10.12={ birth=yes }
+	3975.1.1={add_spouse=26015}
+	3996.8.17={ death=yes }
+}
+#grainfield grainport
+26021={
+	name=Lapo
+	dynasty=12025
+	dna="mcjhacfhaae"
+	culture=pebble religion=oshus_religion
+	martial=8 diplomacy=4 stewardship=5 intrigue=4 learning=4
+	add_trait=midas_touched add_trait=patient add_trait=trusting add_trait=charitable add_trait=brave 
+	add_trait=honest 
+	3955.3.11={ birth=yes }
+	3980.1.1={add_spouse=26024}
+	4040.11.25={ death=yes }
+}
+26022={
+	name=Rufino
+	dynasty=12025
+	dna="nbjnkofhaee"
+	culture=pebble religion=oshus_religion
+	martial=6 diplomacy=8 stewardship=4 intrigue=4 learning=4
+	add_trait=detached_priest add_trait=greedy add_trait=cruel 
+	father=26021	#Lapo
+	mother=26024
+	3982.3.4={ birth=yes }
+	4050.6.3={ death=yes }
+}
+26023={
+	name=Filip
+	dynasty=12025
+	dna="mojhlbfhmog"
+	culture=pebble religion=oshus_religion
+	martial=7 diplomacy=6 stewardship=6 intrigue=4 learning=4
+	add_trait=flamboyant_schemer add_trait=shy add_trait=temperate add_trait=genius 
+	father=26021	#Lapo
+	mother=26024
+	3985.11.18={ birth=yes }
+	4045.12.17={ death=yes }
+}
+26024={
+	name=Lapo
+	female=yes
+	culture=pebble religion=oshus_religion
+	3955.3.11={ birth=yes }
+	3980.1.1={add_spouse=26021}
+	4040.11.25={ death=yes }
+}

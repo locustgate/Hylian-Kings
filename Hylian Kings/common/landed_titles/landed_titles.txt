@@ -2654,6 +2654,13 @@ e_moria = {#empire
 			color={ 140 154 126 }
 			color2={ 255 0 0 }
 			capital=69
+			c_caray = {
+				color={ 0 180 51 }
+				color2={ 158 131 42 }
+		
+				b_laral = {}
+				b_fanal = {}
+			}
 			c_suangma = {
 				color={ 235 179 57 }
 				color2={ 40 40 40 }
@@ -9982,13 +9989,6 @@ k_falsia = {
 			b_siare = {}
 			b_liare = {}
 			b_suire = {}
-		}
-		c_zora_point = {
-			color={ 0 180 51 }
-			color2={ 158 131 42 }
-	
-			b_laral = {}
-			b_fanal = {}
 		}
 	}
 }

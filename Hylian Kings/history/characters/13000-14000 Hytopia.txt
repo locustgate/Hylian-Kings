@@ -1,3 +1,4 @@
+#Hytopia
 13000={
 	name=Alcide
 	dynasty=9601
@@ -123,8 +124,232 @@
 	4048.10.2={ death=yes }
 }
 #gilded gate
+13010={
+	name=Ampelio
+	dynasty=9605
+	dna="maadjagcndf"
+	culture=hytopian religion=golden_goddesses
+	martial=6 diplomacy=7 stewardship=7 intrigue=6 learning=6
+	add_trait=intricate_webweaver add_trait=gluttonous add_trait=just add_trait=content add_trait=slothful 
+	add_trait=greedy add_trait=brave 
+	3966.12.24={ birth=yes }
+	4018.7.24={ death=yes }
+}
+
 #silk gate
+13011={
+	name=Pancrazio
+	dynasty=9610
+	dna="cnblmimpamm"
+	culture=hytopian religion=golden_goddesses
+	martial=7 diplomacy=5 stewardship=6 intrigue=6 learning=8
+	add_trait=intricate_webweaver add_trait=temperate add_trait=chaste add_trait=zealous add_trait=content 
+	add_trait=kind add_trait=arbitrary 
+	3968.10.26={ birth=yes }
+	4015.9.23={ death=yes }
+}
 #fabland hills
+13012={
+	name=Ciriaco
+	dynasty=9615
+	dna="pbbnepikiie"
+	culture=hytopian religion=golden_goddesses
+	martial=6 diplomacy=8 stewardship=6 intrigue=4 learning=5
+	add_trait=martial_cleric add_trait=cynical add_trait=diligent 
+	3965.12.14={ birth=yes }
+	4052.5.24={ death=yes }
+}
+
 #fasharia vale, munab
-#fabland road, hytopia march
+13012={
+	name=Efisio
+	dynasty=9615
+	dna="ogbggnhkanp"
+	culture=hytopian religion=golden_goddesses
+	martial=5 diplomacy=6 stewardship=5 intrigue=4 learning=4
+	add_trait=charismatic_negotiator add_trait=zealous add_trait=content add_trait=stressed 
+	3944.11.14={ birth=yes }
+	3969.1.1={add_spouse=13018}
+	4005.1.5={ death=yes }
+}
+13013={
+	name=Diodato
+	dynasty=9615
+	dna="iihngkhkamc"
+	culture=hytopian religion=golden_goddesses
+	martial=4 diplomacy=7 stewardship=8 intrigue=7 learning=7
+	add_trait=midas_touched add_trait=cruel add_trait=paranoid add_trait=arbitrary 
+	father=13012	#Efisio
+	mother=13018
+	3971.2.1={ birth=yes }
+	4025.2.13={ death=yes }
+}
+13014={
+	name=
+	female=yes
+	dynasty=9615
+	dna="hgagengdanp"
+	culture=hytopian religion=golden_goddesses
+	father=13012	#Efisio
+	mother=13018
+	3974.9.27={ birth=yes }
+	4038.12.31={ death=yes }
+}
+13015={
+	name=Couture
+	female=yes
+	dynasty=9615
+	dna="ogfgnjhkeae"
+	culture=hytopian religion=golden_goddesses
+	father=13012	#Efisio
+	mother=13018
+	3977.9.5={ birth=yes }
+	4025.3.22={ death=yes }
+}
+13016={
+	name=Boccolone
+	dynasty=9615
+	dna="ogehgneoand"
+	culture=hytopian religion=golden_goddesses
+	martial=6 diplomacy=8 stewardship=7 intrigue=6 learning=7
+	add_trait=charismatic_negotiator add_trait=temperate add_trait=cruel add_trait=content add_trait=gregarious 
+	add_trait=humble 
+	father=13012	#Efisio
+	mother=13018
+	3981.6.5={ birth=yes }
+	4041.4.21={ death=yes }
+}
+13017={
+	name=
+	female=yes
+	dynasty=9615
+	dna="ogbbgndeijp"
+	culture=hytopian religion=golden_goddesses
+	father=13012	#Efisio
+	mother=13018
+	3985.1.19={ birth=yes }
+	4037.11.13={ death=yes }
+}
+13018={
+	name=Styla
+	female=yes
+	dna="ogbggnhkanp"
+	culture=hytopian religion=golden_goddesses
+	3944.11.14={ birth=yes }
+	3969.1.1={add_spouse=13012}
+	4005.1.5={ death=yes }
+}
+
+#fabland road, hytopian march
+13019={
+	name=Tripin
+	dynasty=9620
+	dna="phpgcfglcfn"
+	culture=hytopian religion=golden_goddesses
+	martial=4 diplomacy=5 stewardship=8 intrigue=4 learning=5
+	add_trait=intricate_webweaver add_trait=ambitious add_trait=charitable add_trait=deceitful add_trait=zealous 
+	3947.10.4={ birth=yes }
+	3966.1.1={add_spouse=13024}
+	4008.7.27={ death=yes }
+}
+13020={
+	name=Fulgenzio
+	dynasty=9620
+	dna="bpppgpgenfk"
+	culture=hytopian religion=golden_goddesses
+	martial=7 diplomacy=8 stewardship=7 intrigue=6 learning=8
+	add_trait=misguided_warrior add_trait=mystic add_trait=greedy add_trait=zealous add_trait=slothful 
+	add_trait=kind add_trait=brave 
+	father=13019	#Tripin
+	mother=13024
+	3968.10.1={ birth=yes }
+	4024.12.22={ death=yes }
+}
+13021={
+	name=Fausto
+	dynasty=9620
+	dna="cbpgpfbfcmn"
+	culture=hytopian religion=golden_goddesses
+	martial=8 diplomacy=4 stewardship=4 intrigue=7 learning=4
+	add_trait=flamboyant_schemer add_trait=trusting add_trait=slothful 
+	father=13019	#Tripin
+	mother=13024
+	3971.2.20={ birth=yes }
+	4022.7.24={ death=yes }
+}
+13022={
+	name=
+	female=yes
+	dynasty=9620
+	dna="hhpjccglcfg"
+	culture=hytopian religion=golden_goddesses
+	father=13019	#Tripin
+	mother=13024
+	3973.6.27={ birth=yes }
+	4051.5.16={ death=yes }
+}
+13023={
+	name=
+	female=yes
+	dynasty=9620
+	dna="emohpjgochl"
+	culture=hytopian religion=golden_goddesses
+	father=13019	#Tripin
+	mother=13024
+	3978.12.18={ birth=yes }
+	4032.8.28={ death=yes }
+}
+13024={
+	name=Tripin
+	female=yes
+	culture=hytopian religion=golden_goddesses
+	3947.10.4={ birth=yes }
+	3966.1.1={add_spouse=13019}
+	4008.7.27={ death=yes }
+}
+
 #fabland plains, fabwood eaves, fabarm
+13025={
+	name=Jacopop
+	dynasty=9625
+	dna="lojkpnkfpne"
+	culture=hytopian religion=golden_goddesses
+	martial=5 diplomacy=6 stewardship=7 intrigue=5 learning=7
+	add_trait=misguided_warrior add_trait=shy add_trait=lustful add_trait=greedy add_trait=trusting 
+	add_trait=wroth 
+	3957.2.25={ birth=yes }
+	3978.1.1={add_spouse=13028}
+	4003.3.18={ death=yes }
+}
+13026={
+	name=Crescenzo
+	dynasty=9625
+	dna="elhkpneffbe"
+	culture=hytopian religion=golden_goddesses
+	martial=8 diplomacy=4 stewardship=7 intrigue=4 learning=6
+	add_trait=flamboyant_schemer add_trait=cynical add_trait=temperate add_trait=proud add_trait=craven 
+	add_trait=honest add_trait=lisp 
+	father=13025	#Jacopop
+	mother=13028
+	3980.2.12={ birth=yes }
+	4033.11.5={ death=yes }
+}
+13027={
+	name=Maud
+	female=yes
+	dynasty=9625
+	dna="bpjknakafnj"
+	culture=hytopian religion=golden_goddesses
+	father=13025	#Jacopop
+	mother=13028
+	3985.4.19={ birth=yes }
+	4031.3.10={ death=yes }
+}
+13028={
+	name=Jacopop
+	female=yes
+	culture=hytopian religion=golden_goddesses
+	3957.2.25={ birth=yes }
+	3978.1.1={add_spouse=13025}
+	4003.3.18={ death=yes }
+}

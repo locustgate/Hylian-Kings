@@ -1,0 +1,492 @@
+#hanman3 chonmul
+20000={
+	name=Lomoi
+	dynasty=14606
+	dna="kbeebkepohl"
+	#father=65
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=6 diplomacy=5 stewardship=6 intrigue=8 learning=8
+	add_trait=scholarly_theologian add_trait=humble add_trait=just add_trait=cynical add_trait=chaste 
+	3906.10.27={ birth=yes }
+	3961.2.27={ death=yes }
+}
+20001={
+	name=Sorat
+	dynasty=14606
+	dna="keiebkeeghd"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=6 diplomacy=8 stewardship=6 intrigue=4 learning=7
+	add_trait=naive_appeaser add_trait=lustful add_trait=envious add_trait=wroth add_trait=just 
+	add_trait=zealous 
+	father=20000	#Lomoi
+	3930.12.16={ birth=yes }
+	3975.5.21={ death=yes }
+}
+20002={
+	name=Honmo
+	dynasty=14606
+	dna="gmfefkeffpd"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=7 diplomacy=5 stewardship=6 intrigue=8 learning=7
+	add_trait=naive_appeaser add_trait=gardener add_trait=patient add_trait=brave add_trait=possessed 
+	father=20001	#Sorat
+	3956.7.5={ birth=yes }
+	4019.4.10={ death=yes }
+}
+20003={
+	name=Har
+	dynasty=14606
+	dna="mmoifbbcfed"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=7 diplomacy=5 stewardship=6 intrigue=7 learning=6
+	add_trait=scholarly_theologian add_trait=trusting add_trait=arbitrary add_trait=shy add_trait=content 
+	add_trait=cruel add_trait=proud add_trait=ugly 
+	father=20002	#Honmo
+	mother=20007
+	3979.2.25={ birth=yes }
+	4039.8.27={ death=yes }
+}
+20004={
+	name=Juma
+	dynasty=14606
+	dna="bmfefkeffla"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=4 diplomacy=8 stewardship=5 intrigue=8 learning=8
+	add_trait=indulgent_wastrel add_trait=kind add_trait=paranoid add_trait=slothful 
+	father=20002	#Honmo
+	mother=20007
+	3983.3.6={ birth=yes }
+	4034.10.6={ death=yes }
+}
+20005={
+	name=Xalar
+	dynasty=14606
+	dna="nmiplkeffip"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=7 diplomacy=5 stewardship=4 intrigue=5 learning=8
+	add_trait=elusive_shadow add_trait=cruel add_trait=zealous add_trait=deceitful add_trait=arbitrary 
+	add_trait=proud add_trait=gluttonous 
+	father=20002	#Honmo
+	mother=20007
+	3987.4.7={ birth=yes }
+	4050.1.2={ death=yes }
+}
+20006={
+	name=Wrynika
+	female=yes
+	dynasty=14606
+	dna="lchifheihpi"
+	culture=hylian_hanman religion=heavenly_goddesses
+	father=20002	#Honmo
+	mother=20007
+	3991.8.16={ birth=yes }
+	4039.11.28={ death=yes }
+}
+#onomi deokmin deokgol
+20008={
+	name=Hatitoi
+	dynasty=14608
+	dna="ckoddcngplo"
+	father=72
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=4 diplomacy=4 stewardship=7 intrigue=8 learning=7
+	add_trait=indulgent_wastrel add_trait=wroth add_trait=zealous add_trait=chaste add_trait=craven 
+	trait=bloodline_batreaux
+	3756.1.7={ birth=yes }
+	3843.5.2={ death=yes }
+}
+20009={
+	name=Mint
+	dynasty=14608
+	dna="cmdednogalo"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=7 diplomacy=4 stewardship=4 intrigue=5 learning=5
+	add_trait=intricate_webweaver add_trait=shy add_trait=paranoid add_trait=cruel add_trait=gluttonous 
+	trait=bloodline_batreaux
+	father=20008	#Hatitoi
+	3787.5.21={ birth=yes }
+	3832.9.21={ death=yes }
+}
+20010={
+	name=Xalar
+	dynasty=14608
+	dna="ncdjonpgnll"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=6 diplomacy=7 stewardship=5 intrigue=6 learning=7
+	add_trait=grey_eminence add_trait=diligent add_trait=wroth add_trait=chaste 
+	trait=bloodline_batreaux
+	father=20009	#Mint
+	3805.3.2={ birth=yes }
+	3880.6.21={ death=yes }
+}
+20011={
+	name=Soorar
+	dynasty=14608
+	dna="ncpjonegnlk"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=8 diplomacy=4 stewardship=4 intrigue=6 learning=8
+	add_trait=grey_eminence add_trait=brave add_trait=patient add_trait=diligent add_trait=trusting 
+	trait=bloodline_batreaux
+	father=20010	#Xalar
+	3829.10.18={ birth=yes }
+	3891.3.26={ death=yes }
+}
+20012={
+	name=Lago
+	dynasty=14608
+	dna="nhpjoneanji"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=6 diplomacy=8 stewardship=7 intrigue=8 learning=8
+	add_trait=misguided_warrior 
+	add_trait=zealous
+	add_trait=gregarious
+	add_trait=lustful
+	add_trait=stutter 
+	trait=bloodline_batreaux
+	father=20011	#Soorar
+	3853.6.4={ birth=yes }
+	3912.3.9={ death=yes }
+}
+20013={
+	name=Jalit
+	dynasty=14608
+	dna="nhpjhndalji"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=6 diplomacy=6 stewardship=7 intrigue=5 learning=6
+	add_trait=elusive_shadow add_trait=hedonist add_trait=paranoid add_trait=humble add_trait=gluttonous 
+	trait=bloodline_batreaux
+	father=20012	#Lago
+	3874.3.13={ birth=yes }
+	3963.9.7={ death=yes }
+}
+20014={
+	name=Poth
+	dynasty=14608
+	dna="nhpmhnhapni"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=8 diplomacy=6 stewardship=6 intrigue=6 learning=6
+	add_trait=skilled_tactician add_trait=temperate add_trait=content add_trait=deceitful add_trait=cruel 
+	add_trait=arbitrary 
+	trait=bloodline_batreaux
+	father=20013	#Jalit
+	3898.9.11={ birth=yes }
+	3960.12.29={ death=yes }
+}
+20015={
+	name=Phinmo
+	dynasty=14608
+	dna="nkfmhnhagnc"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=6 diplomacy=4 stewardship=7 intrigue=7 learning=6
+	add_trait=charismatic_negotiator add_trait=lustful add_trait=cruel add_trait=brave add_trait=paranoid 
+	trait=bloodline_batreaux
+	father=20014	#Poth
+	3920.12.17={ birth=yes }
+	3985.6.6={ death=yes }
+}
+20016={
+	name=Lak
+	dynasty=14608
+	dna="nibmhphaenm"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=10 diplomacy=10 stewardship=10 intrigue=10 learning=10
+	add_trait=scholarly_theologian add_trait=trusting add_trait=lustful add_trait=just add_trait=content 
+	trait=bloodline_batreaux
+	father=20015	#Phinmo
+	3943.4.25={ birth=yes }
+	3969.1.1={add_spouse=20021}
+	4003.9.28={ death=yes }
+}
+20017={
+	name=Phara
+	dynasty=14608
+	dna="gibghgnakmj"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=8 diplomacy=7 stewardship=5 intrigue=6 learning=8
+	add_trait=flamboyant_schemer add_trait=humble add_trait=brave add_trait=diligent add_trait=just 
+	father=20016	#Lak
+	mother=20021
+	trait=bloodline_batreaux
+	3971.4.18={ birth=yes }
+	4056.1.20={ death=yes }
+}
+20018={
+	name=Ninmo
+	dynasty=14608
+	dna="dpmmhoblenb"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=8 diplomacy=4 stewardship=4 intrigue=6 learning=7
+	add_trait=misguided_warrior add_trait=paranoid add_trait=arbitrary add_trait=envious add_trait=diligent 
+	father=20016	#Lak
+	mother=20021
+	trait=bloodline_batreaux
+	3977.7.3={ birth=yes }
+	4057.1.22={ death=yes }
+}
+20019={
+	name=Palla
+	female=yes
+	dynasty=14608
+	dna="aibghaannne"
+	culture=hylian_hanman religion=heavenly_goddesses
+	father=20016	#Lak
+	mother=20021
+	trait=bloodline_batreaux
+	3981.10.16={ birth=yes }
+	4054.11.4={ death=yes }
+}
+20020={
+	name=Lagax
+	dynasty=14608
+	dna="kobmhflgoha"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=6 diplomacy=7 stewardship=7 intrigue=6 learning=4
+	add_trait=flamboyant_schemer add_trait=gardener add_trait=just add_trait=honest add_trait=brave 
+	add_trait=humble 
+	trait=bloodline_batreaux
+	father=20016	#Lak
+	mother=20021
+	3985.9.26={ birth=yes }
+	4062.9.10={ death=yes }
+}
+20021={
+	name=Hida
+	female=yes
+	culture=hylian_hanman religion=heavenly_goddesses
+	3943.4.25={ birth=yes }
+	3969.1.1={add_spouse=20016}
+	4003.9.28={ death=yes }
+}
+#torugol
+20022={
+	name=Lagama
+	dynasty=14405
+	dna="kddbhjafale"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=7 diplomacy=5 stewardship=6 intrigue=5 learning=4
+	add_trait=detached_priest add_trait=cruel add_trait=cynical add_trait=craven add_trait=ill 
+	3967.4.11={ birth=yes }
+	4026.1.14={ death=yes }
+}
+#sinwei
+20023={
+	name=Jalim
+	dynasty=14410
+	dna="fndkmndflbo"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=7 diplomacy=6 stewardship=4 intrigue=6 learning=8
+	add_trait=elusive_shadow add_trait=honest add_trait=patient add_trait=arbitrary add_trait=lustful 
+	add_trait=greedy add_trait=ill 
+	3964.12.5={ birth=yes }
+	4020.1.30={ death=yes }
+}
+#xinang jakali
+20024={
+	name=Xagar
+	dynasty=14415
+	dna="idoggacbllk"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=4 diplomacy=5 stewardship=7 intrigue=7 learning=4
+	add_trait=grey_eminence add_trait=brave add_trait=slothful add_trait=envious add_trait=cruel 
+	add_trait=lunatic 
+	3966.6.14={ birth=yes }
+	3983.1.1={add_spouse=20025}
+	4036.4.1={ death=yes }
+}
+20025={
+	name=Hida
+	female=yes
+	culture=hylian_hanman religion=heavenly_goddesses
+	3966.6.14={ birth=yes }
+	3983.1.1={add_spouse=20024}
+	4036.4.1={ death=yes }
+}
+#changyl suliming changyi
+20026={
+	name=Novaso
+	dynasty=14420
+	dna="banfbnncabl"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=7 diplomacy=6 stewardship=4 intrigue=8 learning=7
+	add_trait=flamboyant_schemer add_trait=hedonist add_trait=paranoid add_trait=arbitrary add_trait=chaste 
+	3965.9.15={ birth=yes }
+	3984.1.1={add_spouse=20028}
+	4018.5.31={ death=yes }
+}
+20027={
+	name=Sar
+	dynasty=14420
+	dna="bonmpbglaol"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=7 diplomacy=7 stewardship=8 intrigue=8 learning=5
+	add_trait=flamboyant_schemer add_trait=craven add_trait=slothful add_trait=envious add_trait=patient 
+	add_trait=trusting 
+	father=20026	#Novaso
+	mother=20028
+	3985.6.11={ birth=yes }
+	4035.12.20={ death=yes }
+}
+20028={
+	name=Novaso
+	female=yes
+	culture=hylian_hanman religion=heavenly_goddesses
+	3965.9.15={ birth=yes }
+	3984.1.1={add_spouse=20026}
+	4018.5.31={ death=yes }
+}
+#baiman
+20029={
+	name=Lisar
+	dynasty=14425
+	dna="khdbjojmfcb"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=6 diplomacy=7 stewardship=4 intrigue=6 learning=6
+	add_trait=intricate_webweaver add_trait=impaler add_trait=chaste add_trait=cruel add_trait=deceitful 
+	add_trait=gregarious add_trait=slothful add_trait=lunatic 
+	3964.11.16={ birth=yes }
+	4020.5.31={ death=yes }
+}
+#shenma
+20030={
+	name=Khaga
+	dynasty=14430
+	dna="pkfhjdnajen"
+	culture=hylian_hanman religion=heavenly_goddesses
+	martial=5 diplomacy=8 stewardship=4 intrigue=5 learning=4
+	add_trait=grey_eminence add_trait=paranoid add_trait=zealous add_trait=kind add_trait=content 
+	3969.11.8={ birth=yes }
+	4015.4.30={ death=yes }
+}
+#shire
+20031={
+	name=Xinmo
+	dynasty=14436
+	dna="nedpfkialcl"
+	culture=hylian_hanman religion=great_maku
+	martial=6 diplomacy=8 stewardship=7 intrigue=4 learning=4
+	add_trait=intricate_webweaver add_trait=slothful add_trait=greedy add_trait=cruel add_trait=proud 
+	add_trait=chaste add_trait=kind add_trait=weak 
+	3966.9.20={ birth=yes }
+	4023.10.16={ death=yes }
+}
+#Jinla puyeo jinla
+20032={
+	name=Namo
+	dynasty=12405
+	dna="ojaidmlgmba"
+	culture=hanman religion=great_maku
+	martial=8 diplomacy=5 stewardship=8 intrigue=7 learning=5
+	add_trait=grey_eminence add_trait=paranoid add_trait=cruel add_trait=cynical add_trait=craven 
+	3961.4.16={ birth=yes }
+	3983.1.1={add_spouse=20034}
+	4017.7.10={ death=yes }
+}
+20033={
+	name=Hyato
+	dynasty=12405
+	dna="onaidiigbnf"
+	culture=hanman religion=great_maku
+	martial=5 diplomacy=5 stewardship=6 intrigue=5 learning=7
+	add_trait=midas_touched add_trait=trusting add_trait=craven 
+	father=20032	#Namo
+	mother=20034
+	3985.7.19={ birth=yes }
+	4048.3.26={ death=yes }
+}
+20034={
+	name=Sing
+	female=yes
+	culture=hanman religion=great_maku
+	3961.4.16={ birth=yes }
+	3983.1.1={add_spouse=20032}
+	4017.7.10={ death=yes }
+}
+#viapa gorlang
+20035={
+	name=Hyato
+	dynasty=12410
+	dna="kfldmkpicoc"
+	culture=hanman religion=great_maku
+	martial=8 diplomacy=8 stewardship=5 intrigue=7 learning=7
+	add_trait=misguided_warrior add_trait=cruel add_trait=diligent add_trait=wroth add_trait=kind 
+	add_trait=lustful 
+	3956.12.21={ birth=yes }
+	3974.1.1={add_spouse=20039}
+	4028.3.29={ death=yes }
+}
+20036={
+	name=Khay
+	dynasty=12410
+	dna="nfmomohocpc"
+	culture=hanman religion=great_maku
+	martial=6 diplomacy=5 stewardship=6 intrigue=8 learning=7
+	add_trait=intricate_webweaver add_trait=shy add_trait=paranoid add_trait=brave add_trait=lunatic 
+	father=20035	#Hyato
+	mother=20039
+	3976.8.16={ birth=yes }
+	4028.11.7={ death=yes }
+}
+20037={
+	name=Sili
+	female=yes
+	dynasty=12410
+	dna="lkldmipgcah"
+	culture=hanman religion=great_maku
+	father=20035	#Hyato
+	mother=20039
+	3981.5.20={ birth=yes }
+	4041.6.27={ death=yes }
+}
+20038={
+	name=Hala
+	female=yes
+	dynasty=12410
+	dna="kjkdmmpikkb"
+	culture=hanman religion=great_maku
+	father=20035	#Hyato
+	mother=20039
+	3985.10.16={ birth=yes }
+	4057.12.31={ death=yes }
+}
+20039={
+	name=Sing
+	female=yes
+	culture=hanman religion=great_maku
+	3956.12.21={ birth=yes }
+	3974.1.1={add_spouse=20035}
+	4028.3.29={ death=yes }
+}
+#changmo
+
+20040={
+	name=Limoi
+	dynasty=12415
+	dna="obacmamkcmi"
+	culture=hanman religion=heavenly_goddesses
+	martial=6 diplomacy=6 stewardship=8 intrigue=4 learning=5
+	add_trait=elusive_shadow add_trait=shy add_trait=content add_trait=diligent add_trait=deceitful 
+	add_trait=humble 
+	3959.11.6={ birth=yes }
+	3981.1.1={add_spouse=20042}
+	4029.1.20={ death=yes }
+}
+20041={
+	name=Limoi
+	dynasty=12415
+	dna="oacggemkccl"
+	culture=hanman religion=heavenly_goddesses
+	martial=5 diplomacy=5 stewardship=7 intrigue=5 learning=4
+	add_trait=misguided_warrior add_trait=trusting add_trait=shy add_trait=content add_trait=kind 
+	father=20040	#Limoi
+	mother=20042
+	3983.10.6={ birth=yes }
+	4032.7.2={ death=yes }
+}
+20042={
+	name=Kanu
+	female=yes
+	culture=hanman religion=heavenly_goddesses
+	3959.11.6={ birth=yes }
+	3981.1.1={add_spouse=20040}
+	4029.1.20={ death=yes }
+}

@@ -1,0 +1,776 @@
+#All records before the "Red Princess" has been erased. She attempted to restore families prestige but couldn't. He name was erased upon death, but not her likeness
+22000={
+	name="Red Princess"
+	female=yes
+	dynasty=1201
+	culture=cobble
+	religion=old_hylia
+	trait=race_hylian
+	trait=bloodline_red
+	trait=grey_eminence
+	trait=proud
+	trait=chaste
+	trait=shrewd
+	trait=brawny
+	trait=depressed
+	3486.1.1={birth=yes}
+	3502.1.1={add_spouse=22001}
+	3512.1.1={death={death_reason=death_murder_unknown_snakes}}
+}
+22001={
+	name=Mutoh
+	dynasty=1202
+	culture=cobble
+	religion=western_goddesses
+	trait=race_hylian
+	trait=intricate_webweaver
+	trait=shy
+	trait=decietful
+	trait=shrewd
+	trait=frail
+	3485.1.1={birth=yes}
+	3502.1.1={add_spouse=22000}
+	3546.1.1={death=yes}
+}
+22002={
+	name=Gaboran
+	dynasty=1202
+	dna="njgdillhilm"
+	culture=cobble religion=western_goddesses
+	martial=6 diplomacy=6 stewardship=7 intrigue=7 learning=5
+	add_trait=flamboyant_schemer add_trait=craven add_trait=patient add_trait=envious add_trait=diligent 
+	add_trait=deceitful add_trait=proud 
+	father=22001
+	mother=22000
+	3504.4.7={ birth=yes }
+	3584.6.6={ death=yes }
+}
+22003={
+	name=Chudly
+	dynasty=1202
+	dna="efcdpllhikm"
+	culture=cobble religion=western_goddesses
+	martial=5 diplomacy=6 stewardship=8 intrigue=4 learning=4
+	add_trait=scholarly_theologian add_trait=envious add_trait=trusting add_trait=gregarious 
+	father=22002	#Gaboran
+	3530.6.1={ birth=yes }
+	3570.8.11={ death=yes }
+}
+22004={
+	name=Tingl
+	dynasty=1202
+	dna="nfcdgllioem"
+	culture=cobble religion=western_goddesses
+	martial=7 diplomacy=4 stewardship=5 intrigue=5 learning=5
+	add_trait=elusive_shadow add_trait=impaler add_trait=slothful add_trait=patient add_trait=proud 
+	add_trait=craven add_trait=ugly 
+	father=22003	#Chudly
+	3556.8.13={ birth=yes }
+	3624.6.18={ death=yes }
+}
+22005={
+	name=Marshel
+	dynasty=1202
+	dna="mnohbelbpfm"
+	culture=cobble religion=western_goddesses
+	martial=5 diplomacy=5 stewardship=8 intrigue=8 learning=4
+	add_trait=tough_soldier add_trait=humble add_trait=charitable 
+	father=22004	#Tingl
+	3581.1.8={ birth=yes }
+	3651.10.3={ death=yes }
+}
+22006={
+	name=Vscern
+	dynasty=1202
+	dna="nnohnehhklm"
+	culture=cobble religion=western_goddesses
+	martial=6 diplomacy=5 stewardship=5 intrigue=4 learning=5
+	add_trait=midas_touched add_trait=mystic add_trait=cruel add_trait=patient add_trait=paranoid 
+	add_trait=diligent 
+	father=22005	#Marshel
+	3603.5.21={ birth=yes }
+	3649.2.15={ death=yes }
+}
+22007={
+	name=Kayo
+	dynasty=1202
+	dna="mjennehhkcm"
+	culture=cobble religion=western_goddesses
+	martial=4 diplomacy=6 stewardship=4 intrigue=5 learning=5
+	add_trait=midas_touched add_trait=craven add_trait=trusting add_trait=cruel 
+	father=22006	#Vscern
+	3623.4.12={ birth=yes }
+	3694.7.23={ death=yes }
+}
+22008={
+	name=Niave
+	dynasty=1202
+	dna="mjeabehidcm"
+	culture=cobble religion=western_goddesses
+	martial=7 diplomacy=4 stewardship=5 intrigue=5 learning=6
+	add_trait=martial_cleric add_trait=kind add_trait=craven add_trait=deceitful add_trait=cruel 
+	add_trait=trusting add_trait=wroth 
+	father=22007	#Kayo
+	3644.10.4={ birth=yes }
+	3697.8.12={ death=yes }
+}
+22009={
+	name=Satchn
+	dynasty=1202
+	dna="mfgabdhilcm"
+	culture=cobble religion=western_goddesses
+	martial=6 diplomacy=7 stewardship=5 intrigue=7 learning=4
+	add_trait=misguided_warrior add_trait=cruel add_trait=lustful add_trait=ambitious add_trait=wroth 
+	father=22008	#Niave
+	3671.9.3={ birth=yes }
+	3727.5.22={ death=yes }
+}
+22010={
+	name=Durin
+	dynasty=1202
+	dna="mfgnbeplhhm"
+	culture=cobble religion=western_goddesses
+	martial=7 diplomacy=5 stewardship=5 intrigue=8 learning=5
+	add_trait=flamboyant_schemer add_trait=cynical add_trait=chaste add_trait=craven add_trait=paranoid 
+	add_trait=proud add_trait=gregarious add_trait=ill 
+	father=22009	#Satchn
+	3699.9.14={ birth=yes }
+	3743.10.26={ death=yes }
+}
+22011={
+	name=Satchn
+	dynasty=1202
+	dna="mfgnlejlhhe"
+	culture=cobble religion=western_goddesses
+	martial=6 diplomacy=4 stewardship=5 intrigue=8 learning=8
+	add_trait=charismatic_negotiator add_trait=poet add_trait=envious add_trait=paranoid add_trait=content 
+	add_trait=lustful add_trait=craven 
+	father=22010	#Durin
+	3725.12.24={ birth=yes }
+	3772.5.17={ death=yes }
+}
+22012={
+	name=Eric
+	dynasty=1202
+	dna="ifgnledlnle"
+	culture=cobble religion=western_goddesses
+	martial=5 diplomacy=6 stewardship=5 intrigue=4 learning=8
+	add_trait=indulgent_wastrel add_trait=honest add_trait=gregarious add_trait=greedy 
+	father=22011	#Satchn
+	3747.12.17={ birth=yes }
+	3810.12.1={ death=yes }
+}
+22013={
+	name=Durin
+	dynasty=1202
+	dna="lfgpbhblnmg"
+	culture=cobble religion=western_goddesses
+	martial=5 diplomacy=7 stewardship=4 intrigue=7 learning=8
+	add_trait=charismatic_negotiator add_trait=celibate add_trait=ambitious add_trait=humble add_trait=charitable 
+	add_trait=gregarious add_trait=cynical 
+	father=22012	#Eric
+	3767.2.8={ birth=yes }
+	3837.4.1={ death=yes }
+}
+22014={
+	name=Mutoh
+	dynasty=1202
+	dna="jpgpikdleme"
+	culture=cobble religion=western_goddesses
+	martial=4 diplomacy=6 stewardship=5 intrigue=5 learning=5
+	add_trait=charismatic_negotiator add_trait=trusting add_trait=envious add_trait=wroth add_trait=lustful 
+	add_trait=greedy 
+	father=22013	#Durin
+	3795.6.1={ birth=yes }
+	3864.12.29={ death=yes }
+}
+22015={
+	name=Dotor
+	dynasty=1202
+	dna="lpppifhlbmh"
+	culture=cobble religion=western_goddesses
+	martial=6 diplomacy=7 stewardship=6 intrigue=8 learning=8
+	add_trait=tough_soldier add_trait=paranoid add_trait=just add_trait=ambitious add_trait=gregarious 
+	add_trait=cruel 
+	father=22014	#Mutoh
+	3817.6.20={ birth=yes }
+	3867.5.30={ death=yes }
+}
+22016={
+	name=Borluv
+	dynasty=1202
+	dna="llblifhlbmg"
+	culture=cobble religion=western_goddesses
+	martial=5 diplomacy=6 stewardship=7 intrigue=8 learning=4
+	add_trait=detached_priest add_trait=greedy add_trait=honest add_trait=cruel 
+	father=22015	#Dotor
+	3846.3.27={ birth=yes }
+	3916.5.18={ death=yes }
+}
+22017={
+	name=Meene
+	dynasty=1202
+	dna="hlbgidhmbmg"
+	culture=cobble religion=western_goddesses
+	martial=7 diplomacy=6 stewardship=8 intrigue=8 learning=7
+	add_trait=midas_touched add_trait=wroth add_trait=ambitious add_trait=cynical 
+	father=22016	#Borluv
+	3872.9.9={ birth=yes }
+	3943.6.28={ death=yes }
+}
+22018={
+	name=Gormann
+	dynasty=1202
+	dna="hjcgiijmhfg"
+	culture=cobble religion=western_goddesses
+	martial=8 diplomacy=4 stewardship=5 intrigue=6 learning=7
+	add_trait=elusive_shadow add_trait=patient add_trait=brave add_trait=just add_trait=ambitious 
+	add_trait=paranoid 
+	father=22017	#Meene
+	3896.12.9={ birth=yes }
+	3963.1.2={ death=yes }
+}
+22019={
+	name=Brak
+	dynasty=1202
+	dna="hjciiibmhlo"
+	culture=cobble religion=western_goddesses
+	martial=8 diplomacy=7 stewardship=8 intrigue=6 learning=5
+	add_trait=scholarly_theologian add_trait=scholar add_trait=gregarious add_trait=ambitious add_trait=wroth 
+	add_trait=deceitful add_trait=humble add_trait=brave
+	father=22018	#Gormann
+	piety=1100
+	prestige=378
+	wealth=540
+	3924.3.15={ birth=yes }
+	3997.12.2={ death=yes }
+}
+22020={
+	name=Gormann
+	dynasty=1202
+	dna="hjcdiibmhlp"
+	culture=cobble religion=western_goddesses
+	martial=6 diplomacy=5 stewardship=6 intrigue=6 learning=5
+	add_trait=elusive_shadow add_trait=poet add_trait=proud add_trait=diligent add_trait=kind 
+	add_trait=trusting 
+	father=22019	#Brak
+	3945.4.8={ birth=yes }
+	4003.7.9={ death=yes }
+}
+22021={
+	name=Hoigir
+	dynasty=1202
+	dna="hjcniidpccp"
+	culture=cobble religion=western_goddesses
+	martial=5 diplomacy=5 stewardship=8 intrigue=7 learning=8
+	add_trait=misguided_warrior add_trait=honest add_trait=temperate add_trait=brave 
+	father=22020	#Gormann
+	3970.7.18={ birth=yes }
+	4033.10.26={ death=yes }
+}
+22022={
+	name=Saboro
+	dynasty=1202
+	dna="agceiihihog"
+	culture=cobble religion=western_goddesses
+	martial=5 diplomacy=4 stewardship=4 intrigue=8 learning=5
+	add_trait=indulgent_wastrel add_trait=kind add_trait=ambitious add_trait=gregarious add_trait=wroth 
+	add_trait=trusting add_trait=possessed add_trait=genius 
+	father=22020	#Gormann
+	3973.3.9={ birth=yes }
+	4032.8.18={ death=yes }
+}
+22023={
+	name=Saboro
+	dynasty=1202
+	dna="hjcpimbphlk"
+	culture=cobble religion=western_goddesses
+	martial=4 diplomacy=7 stewardship=4 intrigue=6 learning=5
+	add_trait=detached_priest add_trait=ambitious add_trait=just add_trait=charitable add_trait=paranoid 
+	add_trait=proud 
+	father=22020	#Gormann
+	3976.7.27={ birth=yes }
+	4024.5.13={ death=yes }
+}
+#monument road, monument mountain, mountain of the dead
+22024={
+	name=Zukor
+	dynasty=1205
+	dna="ihmbkjlnejp"
+	culture=cobble religion=western_goddesses
+	martial=5 diplomacy=6 stewardship=7 intrigue=5 learning=4
+	add_trait=intricate_webweaver add_trait=slothful add_trait=gluttonous 
+	3945.4.2={ birth=yes }
+	3969.1.1={add_spouse=22031}
+	4011.11.21={ death=yes }
+}
+22025={
+	name=Bremeur
+	dynasty=1205
+	dna="ialaddljeop"
+	culture=cobble religion=western_goddesses
+	martial=8 diplomacy=8 stewardship=7 intrigue=7 learning=8
+	add_trait=grey_eminence add_trait=patient add_trait=cynical add_trait=honest add_trait=diligent 
+	father=22024	#Zukor
+	mother=22031
+	3970.5.2={ birth=yes }
+	4024.10.8={ death=yes }
+}
+22026={
+	name=Judo
+	female=yes
+	dynasty=1205
+	dna="immmkjinemi"
+	culture=cobble religion=western_goddesses
+	father=22024	#Zukor
+	mother=22031
+	3974.10.1={ birth=yes }
+	4028.9.15={ death=yes }
+}
+22027={
+	name=Soel
+	dynasty=1205
+	dna="ihmikjloljm"
+	culture=cobble religion=western_goddesses
+	martial=4 diplomacy=5 stewardship=6 intrigue=5 learning=7
+	add_trait=indulgent_wastrel add_trait=wroth add_trait=charitable add_trait=zealous 
+	father=22024	#Zukor
+	mother=22031
+	3977.9.1={ birth=yes }
+	4022.7.11={ death=yes }
+}
+22028={
+	name=Mamu
+	female=yes
+	dynasty=1205
+	dna="lnilkjimfde"
+	culture=cobble religion=western_goddesses
+	father=22024	#Zukor
+	mother=22031
+	3979.2.10={ birth=yes }
+	4026.9.2={ death=yes }
+}
+22029={
+	name=Russo
+	dynasty=1205
+	dna="bnfbbjlnlbp"
+	culture=cobble religion=western_goddesses
+	martial=7 diplomacy=8 stewardship=5 intrigue=7 learning=7
+	add_trait=skilled_tactician add_trait=greedy add_trait=humble add_trait=zealous add_trait=trusting 
+	father=22024	#Zukor
+	mother=22031
+	3982.4.18={ birth=yes }
+	4030.5.29={ death=yes }
+}
+22030={
+	name=Alef
+	dynasty=1205
+	dna="mimbbjlaeci"
+	culture=cobble religion=western_goddesses
+	martial=5 diplomacy=8 stewardship=6 intrigue=8 learning=7
+	add_trait=charismatic_negotiator add_trait=arbitrary add_trait=charitable add_trait=brave 
+	father=22024	#Zukor
+	mother=22031
+	3986.8.17={ birth=yes }
+	4039.1.1={ death=yes }
+}
+22031={
+	name=Astrid
+	female=yes
+	culture=cobble religion=western_goddesses
+	3945.4.2={ birth=yes }
+	3969.1.1={add_spouse=22024}
+	4011.11.21={ death=yes }
+}
+#obelisk_hill
+22032={
+	name=Osfalan
+	dynasty=1210
+	dna="gkddaemepio"
+	culture=cobble religion=western_goddesses
+	martial=5 diplomacy=6 stewardship=8 intrigue=5 learning=5
+	add_trait=mastermind_theologian add_trait=poet add_trait=lustful add_trait=patient add_trait=envious 
+	add_trait=honest 
+	3965.2.23={ birth=yes }
+	4009.3.14={ death=yes }
+}
+#yondar, cessella
+22033={
+	name=Bartein
+	dynasty=1215
+	dna="acjmmfnided"
+	culture=cobble religion=western_goddesses
+	martial=7 diplomacy=7 stewardship=5 intrigue=8 learning=5
+	add_trait=tough_soldier add_trait=cruel add_trait=craven 
+	3965.10.1={ birth=yes }
+	4016.9.25={ death=yes }
+}
+#yazzir, airtria
+22034={
+	name=Niave
+	dynasty=1220
+	dna="edihialcaba"
+	culture=cobble religion=western_goddesses
+	martial=4 diplomacy=6 stewardship=7 intrigue=7 learning=7
+	add_trait=naive_appeaser add_trait=brave add_trait=zealous add_trait=chaste add_trait=humble 
+	add_trait=drunkard 
+	3953.1.20={ birth=yes }
+	3972.1.1={add_spouse=22039}
+	4011.7.17={ death=yes }
+}
+22035={
+	name=Shero
+	dynasty=1220
+	dna="pioinajkaia"
+	culture=cobble religion=western_goddesses
+	martial=7 diplomacy=6 stewardship=6 intrigue=7 learning=6
+	add_trait=detached_priest add_trait=gluttonous add_trait=chaste add_trait=trusting add_trait=gregarious 
+	father=22034	#Niave
+	mother=22039
+	3973.9.8={ birth=yes }
+	4046.8.1={ death=yes }
+}
+22036={
+	name=Dotor
+	dynasty=1220
+	dna="edihmmlmkbg"
+	culture=cobble religion=western_goddesses
+	martial=4 diplomacy=8 stewardship=6 intrigue=5 learning=8
+	add_trait=detached_priest add_trait=paranoid add_trait=just add_trait=zealous add_trait=greedy 
+	father=22034	#Niave
+	mother=22039
+	3977.6.7={ birth=yes }
+	4037.4.26={ death=yes }
+}
+22037={
+	name=Vasal
+	dynasty=1220
+	dna="edimjaecpgb"
+	culture=cobble religion=western_goddesses
+	martial=5 diplomacy=7 stewardship=5 intrigue=5 learning=6
+	add_trait=detached_priest add_trait=deceitful add_trait=wroth add_trait=paranoid add_trait=humble 
+	add_trait=cynical add_trait=content 
+	father=22034	#Niave
+	mother=22039
+	3981.2.24={ birth=yes }
+	4044.1.2={ death=yes }
+}
+22038={
+	name=Hana
+	female=yes
+	dynasty=1220
+	dna="eiincnllegm"
+	culture=cobble religion=western_goddesses
+	father=22034	#Niave
+	mother=22039
+	3982.11.7={ birth=yes }
+	4030.4.1={ death=yes }
+}
+22039={
+	name=Angu
+	female=yes
+	culture=cobble religion=western_goddesses
+	3953.1.20={ birth=yes }
+	3972.1.1={add_spouse=22034}
+	4011.7.17={ death=yes }
+}
+#Gilded Pyramid Isle
+22040={
+	name=Eldin
+	culture=cobble religion=western_goddesses
+	trait=race_hylian trait_mastermind_theologian trait_gregarious trait_zealous trait=chaste trait=wroth trait=scholar
+	3939.1.1={birth=yes}
+	4006.1.1={death=yes}
+}
+#Sebeth phisamem geruneia phisamem
+22041={
+	name=Cafei
+	dynasty=1225
+	dna="ahjlekbifdp"
+	culture=cobble religion=western_goddesses
+	martial=6 diplomacy=6 stewardship=7 intrigue=8 learning=6
+	trait=race_hylian
+	add_trait=misguided_warrior add_trait=envious add_trait=gregarious add_trait=zealous add_trait=arbitrary 
+	add_trait=paranoid add_trait=possessed 
+	3945.11.12={ birth=yes }
+	3970.1.1={add_spouse=22044}
+	4026.9.25={ death=yes }
+}
+22042={
+	name=Shera
+	female=yes
+	dynasty=1225
+	dna="djclkkbifbl"
+	culture=cobble religion=western_goddesses
+	trait=race_hylian
+	father=22041	#Cafei
+	mother=22044
+	3972.8.26={ birth=yes }
+	4035.8.24={ death=yes }
+}
+22043={
+	name=Hagin
+	dynasty=1225
+	dna="jkkledgifdo"
+	culture=cobble religion=western_goddesses
+	martial=4 diplomacy=7 stewardship=6 intrigue=8 learning=5
+	trait=race_hylian
+	add_trait=intricate_webweaver add_trait=gluttonous add_trait=patient 
+	father=22041	#Cafei
+	mother=22044
+	3974.3.23={ birth=yes }
+	4035.2.14={ death=yes }
+}
+22044={
+	name=Shera
+	female=yes
+	culture=cobble religion=western_goddesses
+	3945.11.12={ birth=yes }
+	3970.1.1={add_spouse=22041}
+	4026.9.25={ death=yes }
+}
+#Moldormia
+22045={
+	name=Salvator
+	dynasty=1230
+	dna="mgoihaojjgi"
+	culture=cobble religion=western_goddesses
+	martial=7 diplomacy=8 stewardship=5 intrigue=8 learning=7
+	add_trait=misguided_warrior add_trait=kind add_trait=proud add_trait=chaste 
+	3965.1.23={ birth=yes }
+	3985.1.1={add_spouse=22047}
+	4033.3.9={ death=yes }
+}
+22046={
+	name=Jasyn
+	female=yes
+	dynasty=1230
+	dna="mbgifaodjki"
+	culture=cobble religion=western_goddesses
+	father=22045	#Salvator
+	mother=22047
+	3986.1.2={ birth=yes }
+	4059.12.12={ death=yes }
+}
+22047={
+	name=Ema
+	female=yes
+	culture=cobble religion=western_goddesses
+	3965.1.23={ birth=yes }
+	3985.1.1={add_spouse=22045}
+	4033.3.9={ death=yes }
+}
+#geldmania 
+22048={
+	name=Siman
+	dynasty=1235
+	dna="oegcekapnbp"
+	culture=cobble religion=western_goddesses
+	martial=7 diplomacy=4 stewardship=8 intrigue=5 learning=8
+	add_trait=indulgent_wastrel add_trait=chaste add_trait=greedy add_trait=honest add_trait=brave 
+	add_trait=slothful add_trait=cynical add_trait=wounded add_trait=slow 
+	3967.3.11={ birth=yes }
+	4025.4.28={ death=yes }
+}
+#anubisia pisht
+22049={
+	name=Daved
+	dynasty=1240
+	dna="dfckajjcdap"
+	culture=cobble religion=western_goddesses
+	martial=4 diplomacy=4 stewardship=6 intrigue=7 learning=8
+	add_trait=flamboyant_schemer add_trait=deceitful add_trait=cruel add_trait=temperate 
+	3945.7.9={ birth=yes }
+	3964.1.1={add_spouse=22057}
+	3998.1.16={ death=yes }
+}
+22050={
+	name=Purlon
+	dynasty=1240
+	dna="dfclijhakfp"
+	culture=cobble religion=western_goddesses
+	martial=5 diplomacy=4 stewardship=7 intrigue=7 learning=4
+	add_trait=misguided_warrior add_trait=deceitful add_trait=kind add_trait=ambitious 
+	father=22049	#Daved
+	mother=22059
+	3966.5.9={ birth=yes }
+	4021.5.8={ death=yes }
+}
+22051={
+	name=Joann
+	female=yes
+	dynasty=1240
+	dna="efafajjmcap"
+	culture=cobble religion=western_goddesses
+	father=22049	#Daved
+	mother=22059
+	3968.1.15={ birth=yes }
+	4021.5.20={ death=yes }
+}
+22052={
+	name=Alef
+	dynasty=1240
+	dna="mfbkajkpdab"
+	culture=cobble religion=western_goddesses
+	martial=5 diplomacy=5 stewardship=7 intrigue=5 learning=4
+	add_trait=tough_soldier add_trait=impaler add_trait=trusting add_trait=craven add_trait=charitable 
+	father=22049	#Daved
+	mother=22059
+	3970.2.22={ birth=yes }
+	4034.12.25={ death=yes }
+}
+22053={
+	name=Nikon
+	dynasty=1240
+	dna="dacjbjjodap"
+	culture=cobble religion=western_goddesses
+	martial=6 diplomacy=7 stewardship=8 intrigue=8 learning=5
+	add_trait=detached_priest add_trait=patient add_trait=arbitrary add_trait=cruel add_trait=humble 
+	father=22049	#Daved
+	mother=22059
+	3973.3.19={ birth=yes }
+	4024.9.12={ death=yes }
+}
+22054={
+	name=Pamila
+	female=yes
+	dynasty=1240
+	dna="nmcjjjbcdim"
+	culture=cobble religion=western_goddesses
+	father=22049	#Daved
+	mother=22059
+	3977.8.8={ birth=yes }
+	4037.8.9={ death=yes }
+}
+22055={
+	name=Cia
+	female=yes
+	dynasty=1240
+	dna="dfhdajacdcd"
+	culture=cobble religion=western_goddesses
+	father=22049	#Daved
+	mother=22059
+	3979.3.8={ birth=yes }
+	4054.1.11={ death=yes }
+}
+22056={
+	name=Osfalan
+	dynasty=1240
+	dna="dfckbjlcdak"
+	culture=cobble religion=western_goddesses
+	martial=5 diplomacy=7 stewardship=6 intrigue=6 learning=5
+	add_trait=midas_touched add_trait=brave add_trait=wroth add_trait=greedy 
+	father=22049	#Daved
+	mother=22059
+	3984.3.6={ birth=yes }
+	4047.1.16={ death=yes }
+}
+22057={
+	name=Jasyn
+	female=yes
+	culture=cobble religion=western_goddesses
+	3945.7.9={ birth=yes }
+	3964.1.1={add_spouse=22049}
+	3998.1.16={ death=yes }
+}
+#uxlor saiswan  exlor
+22058={
+	name=Bremeur
+	dynasty=1245
+	dna="oiedffcfljo"
+	culture=cobble religion=western_goddesses
+	martial=7 diplomacy=5 stewardship=8 intrigue=4 learning=5
+	add_trait=grey_eminence add_trait=impaler add_trait=just add_trait=envious add_trait=cruel 
+	add_trait=gregarious 
+	3957.3.14={ birth=yes }
+	3980.1.1={add_spouse=22061}
+	4029.11.26={ death=yes }
+}
+22059={
+	name=Malvor
+	dynasty=1245
+	dna="oepdfjcfdjo"
+	culture=cobble religion=western_goddesses
+	martial=5 diplomacy=7 stewardship=7 intrigue=6 learning=5
+	add_trait=grey_eminence add_trait=patient add_trait=humble add_trait=slothful add_trait=cynical 
+	father=22058	#Bremeur
+	mother=22061
+	3982.4.20={ birth=yes }
+	4054.7.8={ death=yes }
+}
+22060={
+	name=Kamaron
+	dynasty=1245
+	dna="oiejfkcaiho"
+	culture=cobble religion=western_goddesses
+	martial=8 diplomacy=5 stewardship=5 intrigue=6 learning=7
+	add_trait=misguided_warrior add_trait=humble add_trait=just add_trait=gregarious add_trait=chaste 
+	add_trait=cruel 
+	father=22058	#Bremeur
+	mother=22061
+	3985.3.7={ birth=yes }
+	4051.8.9={ death=yes }
+}
+22061={
+	name=Keely
+	female=yes
+	culture=cobble religion=western_goddesses
+	3957.3.14={ birth=yes }
+	3980.1.1={add_spouse=22058}
+	4029.11.26={ death=yes }
+}
+#pyramidion tepaset Pyramidion
+22062={
+	name=Hagin
+	dynasty=1250
+	dna="gnnipcpfkkf"
+	culture=cobble religion=western_goddesses
+	martial=8 diplomacy=4 stewardship=7 intrigue=5 learning=7
+	add_trait=charismatic_negotiator add_trait=gregarious add_trait=cruel add_trait=zealous 
+	3966.3.9={ birth=yes }
+	4022.7.20={ death=yes }
+}
+#isle_of_reeds 
+22063={
+	name=Cafei
+	dynasty=1255
+	dna="chanicchjod"
+	culture=cobble religion=western_goddesses
+	martial=4 diplomacy=7 stewardship=8 intrigue=6 learning=5
+	add_trait=detached_priest add_trait=paranoid add_trait=gluttonous add_trait=greedy add_trait=cruel 
+	add_trait=slothful 
+	3957.7.22={ birth=yes }
+	3979.1.1={add_spouse=22066}
+	4032.6.28={ death=yes }
+}
+22064={
+	name=Lineback
+	dynasty=1255
+	dna="dienicjnfcd"
+	culture=cobble religion=western_goddesses
+	martial=6 diplomacy=7 stewardship=8 intrigue=6 learning=6
+	add_trait=midas_touched add_trait=arbitrary add_trait=gluttonous add_trait=lustful add_trait=paranoid 
+	father=22063	#Cafei
+	mother=22066
+	3980.5.24={ birth=yes }
+	4030.3.21={ death=yes }
+}
+22065={
+	name=Siberia
+	female=yes
+	dynasty=1255
+	dna="ohanpcchjod"
+	culture=cobble religion=western_goddesses
+	father=22063	#Cafei
+	mother=22066
+	3984.2.16={ birth=yes }
+	4044.7.18={ death=yes }
+}
+22066
+	name=Keely
+	female=yes
+	culture=cobble religion=western_goddesses
+	martial=4 diplomacy=7 stewardship=8 intrigue=6 learning=5
+	3957.7.22={ birth=yes }
+	3979.1.1={add_spouse=22063}
+	4032.6.28={ death=yes }

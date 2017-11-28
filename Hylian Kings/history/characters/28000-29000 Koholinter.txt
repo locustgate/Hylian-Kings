@@ -1,0 +1,260 @@
+#Tal tal kanalet tal tal heighs
+28000={
+	name=Orville
+	dynasty=14702
+	dna="ipdbeilombc"
+	culture=koholinter religion=wind_fish_religion
+	martial=6 diplomacy=5 stewardship=5 intrigue=6 learning=6
+	add_trait=martial_cleric add_trait=temperate add_trait=ambitious add_trait=cruel add_trait=zealous 
+	add_trait=weak 
+	3942.1.24={ birth=yes }
+	3962.11.25={ add_spouse=28006 }
+	4011.4.19={ death=yes }
+}
+28001={
+	name=Flora
+	female=yes
+	dynasty=14702
+	dna="ipabkimdmmc"
+	culture=koholinter religion=wind_fish_religion
+	father=28000	#Orville
+	mother=28006
+	3962.11.25={ birth=yes }
+	4011.3.5={ death=yes }
+}
+28002={
+	name=Eudes
+	dynasty=14702
+	dna="jpdbeoljfpa"
+	culture=koholinter religion=wind_fish_religion
+	martial=5 diplomacy=4 stewardship=7 intrigue=4 learning=5
+	add_trait=flamboyant_schemer add_trait=kind add_trait=gluttonous add_trait=wroth add_trait=just 
+	father=28000	#Orville
+	mother=28006
+	3964.10.11={ birth=yes }
+	4027.8.18={ death=yes }
+}
+28003={
+	name=Ileegarde
+	female=yes
+	dynasty=14702
+	dna="ipebeidimlc"
+	culture=koholinter religion=wind_fish_religion
+	father=28000	#Orville
+	mother=28006
+	3966.6.6={ birth=yes }
+	4033.3.28={ death=yes }
+}
+28004={
+	name=Patsy
+	female=yes
+	dynasty=14702
+	dna="nndaeikggmh"
+	culture=koholinter religion=wind_fish_religion
+	father=28000	#Orville
+	mother=28006
+	3969.12.27={ birth=yes }
+	4025.9.29={ death=yes }
+}
+28005={
+	name=Ide
+	female=yes
+	dynasty=14702
+	dna="iddbmiemmef"
+	culture=koholinter religion=wind_fish_religion
+	father=28000	#Orville
+	mother=28006
+	3971.7.23={ birth=yes }
+	4029.1.1={ death=yes }
+}
+28006={
+	name=Belleassez
+	female=yes
+	culture=koholinter religion=wind_fish_religion
+	3942.1.24={ birth=yes }
+	3962.11.25={ add_spouse=28000 }
+	4011.4.19={ death=yes }
+}
+#goponga
+28007={
+	name=Zak
+	dynasty=6401
+	dna="ohhoendkgmb"
+	culture=koholinter religion=wind_fish_religion
+	martial=8 diplomacy=8 stewardship=8 intrigue=7 learning=5
+	add_trait=flamboyant_schemer add_trait=lustful add_trait=gluttonous add_trait=ambitious add_trait=slothful 
+	3966.5.1={ birth=yes }
+	4040.10.18={ death=yes }
+}
+#tal_tal_mountains
+28008={
+	name=Adrien
+	dynasty=6405
+	dna="dfiejnfilpl"
+	culture=koholinter religion=wind_fish_religion
+	martial=5 diplomacy=8 stewardship=5 intrigue=8 learning=4
+	add_trait=charismatic_negotiator add_trait=deceitful add_trait=lustful add_trait=envious add_trait=content 
+	add_trait=just 
+	3962.7.16={ birth=yes }
+	3987.1.1={add_spouse=28009}
+	4021.10.14={ death=yes }
+}
+28009={
+	name=Berengere
+	female=yes
+	culture=koholinter religion=wind_fish_religion
+	3962.7.16={ birth=yes }
+	3987.1.1={add_spouse=28008}
+	4021.10.14={ death=yes }
+}
+#ukuku ukuku yarna
+28010={
+	name=Titus
+	dynasty=6410
+	dna="hghjcidfaoo"
+	culture=koholinter religion=wind_fish_religion
+	martial=8 diplomacy=8 stewardship=5 intrigue=4 learning=8
+	add_trait=flamboyant_schemer add_trait=proud add_trait=craven add_trait=deceitful add_trait=content 
+	3956.10.15={ birth=yes }
+	3974.10.15={ add_spouse=28014 }
+	4014.6.9={ death=yes }
+}
+28011={
+	name=Aymar
+	dynasty=6410
+	dna="gggapidaadi"
+	culture=koholinter religion=wind_fish_religion
+	martial=5 diplomacy=6 stewardship=4 intrigue=4 learning=5
+	add_trait=indulgent_wastrel add_trait=brave add_trait=cynical add_trait=envious add_trait=chaste 
+	add_trait=cruel add_trait=temperate 
+	father=28010	#Titus
+	mother=28014
+	3981.3.13={ birth=yes }
+	4055.5.19={ death=yes }
+}
+28012={
+	name=Gerald
+	dynasty=6410
+	dna="hggjcnkcaco"
+	culture=koholinter religion=wind_fish_religion
+	martial=8 diplomacy=6 stewardship=4 intrigue=6 learning=7
+	add_trait=intricate_webweaver add_trait=honest add_trait=just add_trait=gregarious 
+	father=28010	#Titus
+	mother=28014
+	3982.1.18={ birth=yes }
+	4034.12.28={ death=yes }
+}
+28013={
+	name=Ademar
+	dynasty=6410
+	dna="hghjgiailoe"
+	culture=koholinter religion=wind_fish_religion
+	martial=5 diplomacy=4 stewardship=5 intrigue=5 learning=8
+	add_trait=flamboyant_schemer add_trait=just add_trait=temperate add_trait=diligent add_trait=zealous 
+	add_trait=paranoid 
+	father=28010	#Titus
+	mother=28014
+	3986.4.24={ birth=yes }
+	4037.1.22={ death=yes }
+}
+28014={
+	name=Martha
+	female=yes
+	culture=koholinter religion=wind_fish_religion
+	3956.10.15={ birth=yes }
+	3974.10.15={ add_spouse=28010 }
+	4014.6.9={ death=yes }
+}
+#toronbo
+28015={
+	name=Howard
+	dynasty=6420
+	dna="nnlcielaiio"
+	culture=koholinter religion=wind_fish_religion
+	martial=7 diplomacy=8 stewardship=4 intrigue=6 learning=8
+	add_trait=indulgent_wastrel add_trait=duelist add_trait=cruel add_trait=greedy add_trait=trusting 
+	add_trait=craven add_trait=strong 
+	3941.11.6={ birth=yes }
+	3960.1.1={add_spouse=28022}
+	3988.10.24={ death=yes }
+}
+28016={
+	name=Kendal
+	dynasty=6420
+	dna="bhlcielanio"
+	culture=koholinter religion=wind_fish_religion
+	martial=8 diplomacy=8 stewardship=6 intrigue=7 learning=8
+	add_trait=misguided_warrior add_trait=deceitful add_trait=content add_trait=cruel 
+	father=28015	#Howard
+	mother=28022
+	3967.4.17={ birth=yes }
+	4018.6.17={ death=yes }
+}
+28017={
+	name=Titus
+	dynasty=6420
+	dna="iflnieipiim"
+	culture=koholinter religion=wind_fish_religion
+	martial=4 diplomacy=4 stewardship=4 intrigue=8 learning=5
+	add_trait=misguided_warrior add_trait=hunter add_trait=envious add_trait=proud add_trait=ambitious 
+	add_trait=cynical 
+	father=28015	#Howard
+	mother=28022
+	3970.12.23={ birth=yes }
+	4041.7.16={ death=yes }
+}
+28018={
+	name=Gerberge
+	female=yes
+	dynasty=6420
+	dna="pglcijnabff"
+	culture=koholinter religion=wind_fish_religion
+	father=28015	#Howard
+	mother=28022
+	3973.8.10={ birth=yes }
+	4043.4.6={ death=yes }
+}
+28019={
+	name=Brook
+	dynasty=6420
+	dna="bcgckedckio"
+	culture=koholinter religion=wind_fish_religion
+	martial=8 diplomacy=4 stewardship=5 intrigue=7 learning=5
+	add_trait=martial_cleric add_trait=gluttonous add_trait=honest add_trait=wounded 
+	father=28015	#Howard
+	mother=28022
+	3975.5.9={ birth=yes }
+	4021.2.19={ death=yes }
+}
+28020={
+	name=Mahaut
+	female=yes
+	dynasty=6420
+	dna="nnlpdehiido"
+	culture=koholinter religion=wind_fish_religion
+	father=28015	#Howard
+	mother=28022
+	3980.10.27={ birth=yes }
+	4034.8.15={ death=yes }
+}
+#mabe
+28021={
+	name=Aldebert
+	dynasty=6425
+	dna="efkanclnhdc"
+	culture=koholinter religion=wind_fish_religion
+	martial=5 diplomacy=8 stewardship=5 intrigue=4 learning=5
+	add_trait=detached_priest add_trait=duelist add_trait=slothful add_trait=proud add_trait=kind 
+	add_trait=shy 
+	3966.4.16={ birth=yes }
+	4034.5.29={ death=yes }
+}
+28022={
+	name=Mahaut
+	female=yes
+	culture=koholinter religion=wind_fish_religion
+	3941.11.6={ birth=yes }
+	3960.1.1={add_spouse=28015}
+	3988.10.24={ death=yes }
+}
+

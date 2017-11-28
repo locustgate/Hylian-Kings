@@ -13,6 +13,7 @@ JUDGE;Judge;Judge;Judge;;Judge;;;;;;;;;x
 CHIEF;Chief;;;;;;;;;;;;;;x
 CHIEF_LIBRARIAN;Chief Librarian;;;;;;;;;;;;;;x
 #culture group
+hyrulean_group;Hyrule;;;;;;;;;;;;;;x
 eastern_human;Eastern Human Tribes;;;;;;;;;;;;;;x
 western_human;Western Human Tribes;;;;;;;;;;;;;;x
 hylian_group;Hylian;;;;;;;;;;;;x#translate
@@ -30,7 +31,7 @@ lfos;Lfos Tribes;;;;;;;;;;;;x#translate
 undead;Undead Species;;;;;;;;;;;;x#translate
 other_world;Alien Tribes;;;;;;;;;;;;x#translate
 dead_cultures;Extinct Tribes;;;;;;;;;;;;x#translate
-mammalian_monsters;Mammalian Monsters;;;;;;;;;;;x#translate
+mammalian_monsters;Near-Monsters;;;;;;;;;;;x#translate
 infernal;Infernal;;;;;;;;;;;;;;x#translate
 aquatic_monster;Aquatic Monster;;;;;;;;;;;;;;;x
 graphical_only;Graphic Culture;;;;;;;;;;;;;x
@@ -38,6 +39,8 @@ mercenary_monsters;Mercenary Monsters;;;;;;;;;;;;;x#translate
 gerudo_group;Gerudo;;;;;;;;;;;;;;x#translate
 zonai_group;Zonai;;;;;;;;;;;;;;x#translate
 #cultures
+middle_hyrulean;Middle Hyrulean;;;;;;;;;;;;;;x
+late_hyrulean;Late Hyrulean;;;;;;;;;;;;;;x
 zonai;Zonai;;;;;;;;;;;;;;x#translate
 palmoraen;Palmoraen;;;;;;;;;;;;;;x#translate
 hateno;Hateno;;;;;;;;;;;;;;x#translate
@@ -48,7 +51,9 @@ korok;Korok;;;;;;;;;;;;;;x#translate
 mazura;Mazura;;;;;;;;;;;;;;x#translate
 fokka;Fokka;;;;;;;;;;;;;;;;x#translate
 wosu;Wosu;;;;;;;;;;;;;;;;;x#translate
-hyrulean;Hyrulean;;;;;;;;;;;;x#translate
+hyrulean;Old Hyrulean;;;;;;;;;;;;x#translate
+minish_hyrulean;Minish;;;;;;;;;;;;x#translate
+malaynan;Malaynan;;;;;;;;;;;;x#translate
 ho_ho;Hoho;;;;;;;;;;;;x#translate
 little_hyrulean;Little Hyrulean;;;;;;;;;;;;x#translate
 east_hyrulean;East Hyrulean;;;;;;;;;;;;x#translate
@@ -224,6 +229,30 @@ count_gem_lander;Thakur;Thakur;Thakur;;Thakur;;;;;;;;;x;;;;;;;;;;;;
 count_female_gem_lander;Thakurani;Thakurani;Thakurani;;Thakuraní;;;;;;;;;x;;;;;;;;;;;;
 baron_gem_lander;Damapati;Damapati;Damapati;;Damapati;;;;;;;;;x;;;;;;;;;;;;
 baron_female_gem_lander;Damapatni;Damapatni;Damapatni;;Damapatní;;;;;;;;;x;;;;;;;;;;;;
+emperor_hanman;King;;;;;;;;;;;;;x
+emperor_female_hanman;Queen;;;;;;;;;;;;;x
+king_hanman;Governor;;;;;;;;;;;;;x
+king_female_hanman;Governorness;;;;;;;;;;;;;x
+emperor_consort_hanman;King Consort;;;;;;;;;;;;;x
+emperor_consort_female_hanman;Queen Consort;;;;;;;;;;;;;x
+king_consort_hanman;Governor;;;;;;;;;;;;;x
+king_consort_female_hanman;Governorness;;;;;;;;;;;;;x
+duke_hanman;Prefect;;;;;;;;;;;;;x
+duke_female_hanman;Prefect;;;;;;;;;;;;;x
+baron_hanman;Magistrate;;;;;;;;;;;;;x
+baron_female_hanman;Magistrate;;;;;;;;;;;;;x
+emperor_hylian_hanman;King;;;;;;;;;;;;;x
+emperor_female_hylian_hanman;Queen;;;;;;;;;;;;;x
+king_hylian_hanman;Governor;;;;;;;;;;;;;x
+king_female_hylian_hanman;Governorness;;;;;;;;;;;;;x
+emperor_consort_hylian_hanman;King Consort;;;;;;;;;;;;;x
+emperor_consort_female_hylian_hanman;Queen Consort;;;;;;;;;;;;;x
+king_consort_hylian_hanman;Governor;;;;;;;;;;;;;x
+king_consort_female_hylian_hanman;Governorness;;;;;;;;;;;;;x
+duke_hylian_hanman;Prefect;;;;;;;;;;;;;x
+duke_female_hylian_hanman;Prefect;;;;;;;;;;;;;x
+baron_hylian_hanman;Magistrate;;;;;;;;;;;;;x
+baron_female_hylian_hanman;Magistrate;;;;;;;;;;;;;x
 ##lost
 emperor_sheikah;Shadow King;;;;;;;;;;;;x
 emperor_female_sheikah;Shadow Queen;;;;;;;;;;;;;x
@@ -251,7 +280,7 @@ duke_darknut;Primus Centurion;;;;;;;;;;;;;x
 duke_female_darknut;Primus Centurion;;;;;;;;;;;;;x
 count_darknut;Centurion;;;;;;;;;;;;;x
 count_female_darknut;Centurion;;;;;;;;;;;;;x
-baron_darknut;Governer;;;;;;;;;;;;;x
+baron_darknut;Governor;;;;;;;;;;;;;x
 baron_female_darknut;Governess;;;;;;;;;;;;;x
 emperor_gerudo;High King;;;;;;;;;;;;x
 emperor_female_gerudo;High Queen;;;;;;;;;;;;;x
@@ -433,6 +462,22 @@ duchy_gamelon;County;;;;;;;;;;;;;x
 duchy_of_gamelon;County of;;;;;;;;;;;;;x
 county_gamelon;Lordship;;;;;;;;;;;;;x
 county_of_gamelon;Lordship of;;;;;;;;;;;;;x
+empire_hanman;Kingdom;;;;;;;;;;;;;x
+empire_of_hanman;Kingdom of;;;;;;;;;;;;;x
+kingdom_hanman;Province;;;;;;;;;;;;;x
+kingdom_of_hanman;Province of;;;;;;;;;;;;;x
+duchy_hanman;Prefecture;;;;;;;;;;;;;x
+duchy_of_hanman;Prefecture of;;;;;;;;;;;;;x
+barony_hanman;District;;;;;;;;;;;;;x
+barony_of_hanman;District of;;;;;;;;;;;;;x
+empire_hylian_hanman;Kingdom;;;;;;;;;;;;;x
+empire_of_hylian_hanman;Kingdom of;;;;;;;;;;;;;x
+kingdom_hylian_hanman;Province;;;;;;;;;;;;;x
+kingdom_of_hylian_hanman;Province of;;;;;;;;;;;;;x
+duchy_hylian_hanman;Prefecture;;;;;;;;;;;;;x
+duchy_of_hylian_hanman;Prefecture of;;;;;;;;;;;;;x
+barony_hylian_hanman;District;;;;;;;;;;;;;x
+barony_of_hylian_hanman;District of;;;;;;;;;;;;;x
 ###human
 empire_ordonion;High Kingdom;;;;;;;;;;;;;x
 empire_of_ordonion;High Kingdom of;;;;;;;;;;;;;x
