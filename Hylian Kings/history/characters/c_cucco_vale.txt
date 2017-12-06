@@ -1,0 +1,379 @@
+34000={#k myrddin myddin guidgen myrddin ogmionos
+	name=Tommy
+	dynasty=8201
+	dna="hhfphkgnmop"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=8 diplomacy=8 stewardship=6 intrigue=4 learning=4
+	add_trait=mastermind_theologian add_trait=slothful add_trait=arbitrary add_trait=gregarious add_trait=zealous 
+	add_trait=wroth 
+	3945.11.22={ birth=yes }
+	3970.1.1={add_spouse=34005}
+	3993.7.4={ death=yes }
+}
+34001={
+	name=Margarita
+	female=yes
+	dynasty=8201
+	dna="hgpfmmglmod"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	father=34000	#Tommy
+	mother=34005
+	3973.10.5={ birth=yes }
+	4052.2.14={ death=yes }
+}
+34002={
+	name=Mike
+	dynasty=8201
+	dna="hhfphocnmoh"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=6 diplomacy=5 stewardship=8 intrigue=8 learning=4
+	add_trait=martial_cleric add_trait=gardener add_trait=content add_trait=humble 
+	father=34000	#Tommy
+	mother=34005
+	3979.4.18={ birth=yes }
+	4054.2.3={ death=yes }
+}
+34003={
+	name=Amelia
+	female=yes
+	dynasty=8201
+	dna="hcaphkannfa"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	father=34000	#Tommy
+	mother=34005
+	3982.4.5={ birth=yes }
+	4054.6.10={ death=yes }
+}
+34004={
+	name=Frya
+	female=yes
+	dynasty=8201
+	dna="hghpikgjmhp"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	father=34000	#Tommy
+	mother=34005
+	3984.4.26={ birth=yes }
+	4038.8.6={ death=yes }
+}
+34005={
+	name=Zatanna
+	female=yes
+	culture=wizzrobe religion=wizzrobe_doctrine
+	3945.11.22={ birth=yes }
+	3970.1.1={add_spouse=34000}
+	3993.7.4={ death=yes }
+}
+34006={#d talesium2 cambion tgutoddin gogledd
+	name=Dedi
+	dynasty=8205
+	dna="hjmphffgmdl"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=5 diplomacy=5 stewardship=4 intrigue=4 learning=7
+	add_trait=tough_soldier add_trait=patient add_trait=temperate add_trait=cruel add_trait=lunatic 
+	add_trait=genius 
+	3959.3.10={ birth=yes }
+	3980.1.1={add_spouse=34007}
+	4024.1.28={ death=yes }
+}
+34007={
+	name=Hermione
+	female=yes
+	culture=wizzrobe religion=wizzrobe_doctrine
+	3959.3.10={ birth=yes }
+	3980.1.1={add_spouse=34006}
+	4024.1.28={ death=yes }
+}
+34008={#d morgania2 rhegeit
+	name=Ivan
+	dynasty=8210
+	dna="onlkhpleodl"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=8 diplomacy=8 stewardship=4 intrigue=8 learning=6
+	add_trait=charismatic_negotiator add_trait=humble add_trait=envious add_trait=greedy add_trait=arbitrary 
+	add_trait=honest add_trait=patient 
+	3961.8.2={ birth=yes }
+	3982.1.1={add_spouse=34010}
+	4025.8.27={ death=yes }
+}
+34009={
+	name=Allan
+	dynasty=8210
+	dna="lnlkhglegnl"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=8 diplomacy=6 stewardship=7 intrigue=8 learning=6
+	add_trait=charismatic_negotiator add_trait=cruel add_trait=trusting add_trait=cynical add_trait=ill 
+	father=34008	#Ivan
+	mother=34010
+	3985.11.3={ birth=yes }
+	4044.8.27={ death=yes }
+}
+34010={
+	name=Raven
+	female=yes
+	culture=wizzrobe religion=wizzrobe_doctrine
+	3961.8.2={ birth=yes }
+	3982.1.1={add_spouse=34008}
+	4025.8.27={ death=yes }
+}
+#pryniach aeron
+34011={
+	name=Mike
+	dynasty=8215
+	dna="nejhphkdofh"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=6 diplomacy=4 stewardship=5 intrigue=7 learning=5
+	add_trait=flamboyant_schemer add_trait=paranoid add_trait=craven add_trait=envious add_trait=wroth 
+	3957.4.24={ birth=yes }
+	3983.1.1={add_spouse=34013}
+	4008.1.28={ death=yes }
+}
+34012={
+	name=Cia
+	female=yes
+	dynasty=8215
+	dna="fjjhbgdiinh"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	father=34011	#Mike
+	mother=34013
+	3985.1.4={ birth=yes }
+	4047.2.23={ death=yes }
+}
+34013={
+	name=Mike
+	female=yes
+	culture=wizzrobe religion=wizzrobe_doctrine
+	3957.4.24={ birth=yes }
+	3983.1.1={add_spouse=34011}
+	4008.1.28={ death=yes }
+}
+#gwrtheyrn cenabon
+34014={
+	name=Kuda
+	dynasty=8220
+	dna="fficobkjdof"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=5 diplomacy=8 stewardship=8 intrigue=7 learning=7
+	add_trait=tough_soldier add_trait=celibate add_trait=honest add_trait=envious add_trait=shy 
+	add_trait=content add_trait=cruel add_trait=zealous 
+	3966.11.15={ birth=yes }
+	4033.4.18={ death=yes }
+}
+#moridunon drywdrui cymclut
+34015={
+	name=Eugene
+	dynasty=8225
+	dna="amcmaeiniji"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=5 diplomacy=6 stewardship=5 intrigue=5 learning=4
+	add_trait=thrifty_clerk add_trait=zealous add_trait=shy add_trait=diligent add_trait=greedy 
+	add_trait=wroth 
+	3967.1.10={ birth=yes }
+	4053.12.6={ death=yes }
+}
+#zatara armorica sindella
+34016={
+	name=Gerhart
+	dynasty=8230
+	dna="jgjbhmphmjp"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=4 diplomacy=6 stewardship=8 intrigue=7 learning=7
+	add_trait=detached_priest add_trait=gardener add_trait=gluttonous add_trait=paranoid add_trait=ambitious 
+	add_trait=strong 
+	3968.2.6={ birth=yes }
+	4019.7.18={ death=yes }
+}
+#maple syrup
+34017={
+	name=Fakir
+	dynasty=8270
+	dna="mpfllgjiplo"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=8 diplomacy=8 stewardship=7 intrigue=6 learning=6
+	add_trait=intricate_webweaver add_trait=shy add_trait=temperate add_trait=content add_trait=lustful 
+	3968.11.15={ birth=yes }
+	4028.1.25={ death=yes }
+}
+#Cia
+34018={
+	name=Cia
+	female=yes
+	dynasty=8400
+	dna="bebgc0ef0b0"
+	properties="di0f0b00000000"
+	culture=wizzrobe
+	religion=wizzrobe_doctrine
+	martial=10
+	diplomacy=10
+	stewardship=5
+	intrigue=5
+	learning=15
+	trait=mastermind_theologian
+	trait=seer_time
+	trait=content
+	#trait=mage_4
+	trait=fair
+	trait=celibate
+	trait=temperate
+	trait=charitable
+	3971.1.1={birth=yes}
+	9000.1.1={death=yes}
+}
+#grimlands palace noir
+34019={
+	name=Ron
+	dynasty=8235
+	dna="kcifjkemcoc"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=4 diplomacy=5 stewardship=7 intrigue=4 learning=8
+	add_trait=elusive_shadow add_trait=hedonist add_trait=diligent add_trait=kind add_trait=just 
+	add_trait=proud add_trait=honest 
+	3951.4.18={ birth=yes }
+	3975.1.1={add_spouse=34023}
+	4000.5.19={ death=yes }
+}
+34020={
+	name=Lena
+	female=yes
+	dynasty=8235
+	dna="mmgkjkeocac"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	father=34019	#Ron
+	mother=34023
+	3979.7.18={ birth=yes }
+	4010.9.20={ death=yes }
+}
+34021={
+	name=Daryl
+	dynasty=8235
+	dna="ldifikemcoc"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=5 diplomacy=6 stewardship=6 intrigue=8 learning=4
+	add_trait=detached_priest add_trait=paranoid add_trait=charitable add_trait=deceitful add_trait=envious 
+	add_trait=wroth add_trait=gregarious 
+	father=34019	#Ron
+	mother=34023
+	3982.8.11={ birth=yes }
+	4034.11.23={ death=yes }
+}
+34022={
+	name=Alice
+	female=yes
+	dynasty=8235
+	dna="jcaideemjoi"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	father=34019	#Ron
+	mother=34023
+	3985.1.26={ birth=yes }
+	4043.6.28={ death=yes }
+}
+34023={
+	name=Cia
+	female=yes
+	culture=wizzrobe religion=wizzrobe_doctrine
+	3951.4.18={ birth=yes }
+	3975.1.1={add_spouse=34019}
+	4000.5.19={ death=yes }
+}
+#witchwoods
+34024={
+	name=Greg
+	dynasty=8240
+	dna="lfgclkapoon"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=5 diplomacy=8 stewardship=6 intrigue=6 learning=5
+	add_trait=skilled_tactician add_trait=diligent add_trait=patient 
+	3964.1.13={ birth=yes }
+	4017.7.6={ death=yes }
+}
+#great_swamp swamp_canyon swamp_palace hyrule_swamp
+34025={
+	name=Alexander
+	dynasty=8245
+	dna="bkfookehgok"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=5 diplomacy=8 stewardship=8 intrigue=5 learning=6
+	add_trait=tough_soldier add_trait=trusting add_trait=charitable add_trait=just 
+	3951.1.12={ birth=yes }
+	3970.1.1={add_spouse=34028}
+	4009.3.31={ death=yes }
+}
+34026={
+	name=Juliana
+	female=yes
+	dynasty=8245
+	dna="bhggodehgmd"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	father=34025	#Alexander
+	mother=34028
+	3972.4.26={ birth=yes }
+	4010.2.26={ death=yes }
+}
+34027={
+	name=Ahmed
+	dynasty=8245
+	dna="alfhokehkbk"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=5 diplomacy=8 stewardship=8 intrigue=4 learning=8
+	add_trait=charismatic_negotiator add_trait=scholar add_trait=envious add_trait=ambitious add_trait=diligent 
+	add_trait=trusting add_trait=cruel add_trait=possessed 
+	father=34025	#Alexander
+	mother=34028
+	3975.3.12={ birth=yes }
+	4044.7.4={ death=yes }
+}
+34028={
+	name=Lana
+	female=yes
+	culture=wizzrobe religion=wizzrobe_doctrine
+	3951.1.12={ birth=yes }
+	3970.1.1={add_spouse=34025}
+	4009.3.31={ death=yes }
+}
+#mount_cucco
+34029={
+	name=Dedi
+	dynasty=8250
+	dna="pkchnigohkl"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=6 diplomacy=4 stewardship=6 intrigue=7 learning=4
+	add_trait=detached_priest add_trait=wroth add_trait=brave add_trait=slothful add_trait=cruel 
+	add_trait=paranoid add_trait=charitable 
+	3967.2.4={ birth=yes }
+	4015.8.22={ death=yes }
+}
+#cucco_vale
+34030={
+	name=Allan
+	dynasty=8255
+	dna="mfdbkffkhjc"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=6 diplomacy=8 stewardship=5 intrigue=4 learning=6
+	add_trait=indulgent_wastrel add_trait=paranoid add_trait=patient add_trait=arbitrary add_trait=chaste 
+	add_trait=stressed 
+	3968.1.18={ birth=yes }
+	4037.3.25={ death=yes }
+}
+#
+34031={
+	name=Merlin
+	dynasty=8260
+	dna="oiifdaadhoi"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=6 diplomacy=4 stewardship=5 intrigue=5 learning=5
+	add_trait=charismatic_negotiator add_trait=hunter add_trait=shy add_trait=gluttonous add_trait=slothful 
+	add_trait=wounded 
+	3968.11.1={ birth=yes }
+	4022.9.28={ death=yes }
+}
+#
+34032={
+	name=Martin
+	dynasty=8265
+	dna="hmpolbjblio"
+	culture=wizzrobe religion=wizzrobe_doctrine
+	martial=8 diplomacy=6 stewardship=7 intrigue=6 learning=8
+	add_trait=midas_touched add_trait=proud add_trait=arbitrary add_trait=cruel add_trait=zealous 
+	add_trait=ambitious 
+	3967.6.15={ birth=yes }
+	4020.2.19={ death=yes }
+}

@@ -527,3 +527,238 @@
 	3966.6.14={ birth=yes }
 	4018.3.8={ death=yes }
 }
+#pharinx frostwoods
+4538={
+	name=Bulbun
+	dynasty=4065
+	dna="gpgkpiffmjc"
+	culture=bulblin religion=demise_religion
+	martial=4 diplomacy=6 stewardship=7 intrigue=4 learning=8
+	add_trait=midas_touched add_trait=chaste add_trait=patient add_trait=kind add_trait=brave 
+	add_trait=wounded 
+	3961.11.8={ birth=yes }
+	4015.12.1={ death=yes }
+}
+#dangla korex matama
+4539={
+	name=Buris
+	dynasty=4070
+	dna="djchghjcaal"
+	culture=bulblin religion=demise_religion
+	martial=6 diplomacy=6 stewardship=4 intrigue=6 learning=6
+	add_trait=grey_eminence add_trait=duelist add_trait=cruel add_trait=honest add_trait=lustful 
+	add_trait=zealous 
+	3961.8.17={ birth=yes }
+	3986.1.1={add_spouse=4540}
+	4030.11.7={ death=yes }
+}
+4540={
+	name=Bes
+	female=yes
+	culture=bulblin religion=demise_religion
+	3962.8.17={ birth=yes }
+	3986.1.1={add_spouse=4539}
+	4030.11.7={ death=yes }
+} 
+#mile
+4541={
+	name=Roliban
+	dynasty=4075
+	dna="kmmcmkbaidg"
+	culture=bulblin religion=demise_religion
+	martial=5 diplomacy=7 stewardship=4 intrigue=6 learning=6
+	add_trait=naive_appeaser add_trait=impaler add_trait=diligent add_trait=lustful add_trait=cynical 
+	add_trait=humble 
+	3961.2.6={ birth=yes }
+	4017.5.13={ death=yes }
+}
+#tinqat ugiga
+4542={
+	name=Vedas
+	dynasty=4080
+	dna="dhaimcmgllp"
+	culture=bulblin religion=demise_religion
+	martial=6 diplomacy=7 stewardship=7 intrigue=7 learning=7
+	add_trait=midas_touched add_trait=humble add_trait=kind add_trait=charitable add_trait=craven 
+	3964.4.8={ birth=yes }
+	4028.7.21={ death=yes }
+}
+#yalibela barabre 
+4543={
+	name=Bulin
+	dynasty=4085
+	dna="fpmbfajcpbo"
+	culture=bulblin religion=demise_religion
+	martial=6 diplomacy=4 stewardship=6 intrigue=6 learning=4
+	add_trait=detached_priest add_trait=honest add_trait=arbitrary add_trait=ambitious add_trait=diligent 
+	add_trait=cynical add_trait=wroth 
+	3951.3.20={ birth=yes }
+	3970.1.1={add_spouse=4548}
+	4000.8.20={ death=yes }
+}
+4544={
+	name=Bilcir
+	dynasty=4085
+	dna="fpgegoahpcj"
+	culture=bulblin religion=demise_religion
+	martial=7 diplomacy=4 stewardship=4 intrigue=8 learning=6
+	add_trait=midas_touched add_trait=gluttonous add_trait=charitable add_trait=cruel add_trait=slothful 
+	add_trait=ambitious 
+	father=4543	#Bulin
+	mother=4548
+	3971.10.1={ birth=yes }
+	4021.3.27={ death=yes }
+}
+4545={
+	name=Belur
+	dynasty=4085
+	dna="fplbfimcpbo"
+	culture=bulblin religion=demise_religion
+	martial=8 diplomacy=6 stewardship=8 intrigue=8 learning=6
+	add_trait=flamboyant_schemer add_trait=cruel add_trait=lustful add_trait=gluttonous add_trait=kind 
+	add_trait=charitable add_trait=trusting add_trait=lunatic 
+	father=4543	#Bulin
+	mother=4548
+	3977.4.15={ birth=yes }
+	4050.6.13={ death=yes }
+}
+4546={
+	name=Vir
+	dynasty=4085
+	dna="apfjcfjcdbo"
+	culture=bulblin religion=demise_religion
+	martial=4 diplomacy=8 stewardship=5 intrigue=6 learning=7
+	add_trait=grey_eminence add_trait=slothful add_trait=deceitful add_trait=proud add_trait=chaste 
+	father=4543	#Bulin
+	mother=4548
+	3980.4.8={ birth=yes }
+	4045.11.17={ death=yes }
+}
+4547={
+	name=Bel
+	female=yes
+	dynasty=4085
+	dna="fimofajchno"
+	culture=bulblin religion=demise_religion
+	father=4543	#Bulin
+	mother=4548
+	3983.6.8={ birth=yes }
+	3970.1.1={add_spouse=4548}
+	4041.7.10={ death=yes }
+}
+4548={
+	name=Valar
+	female=yes
+	culture=bulblin religion=demise_religion
+	3951.3.20={ birth=yes }
+	3970.1.1={add_spouse=4543}
+	4000.8.20={ death=yes }
+}
+#anaxim wakele
+4549={
+	name=Ridir
+	dynasty=4090
+	dna="epnfnehdoan"
+	culture=bulblin religion=demise_religion
+	martial=5 diplomacy=6 stewardship=7 intrigue=4 learning=8
+	add_trait=grey_eminence add_trait=wroth add_trait=kind add_trait=diligent add_trait=gregarious 
+	add_trait=charitable add_trait=stressed 
+	3965.4.16={ birth=yes }
+	4035.9.24={ death=yes }
+}
+#molida molida_gate phantom_gate
+4550={
+	name=Vilur
+	dynasty=4095
+	dna="emijehenkff"
+	culture=bulblin religion=demise_religion
+	martial=8 diplomacy=6 stewardship=5 intrigue=8 learning=7
+	add_trait=intricate_webweaver add_trait=proud add_trait=lustful add_trait=honest add_trait=greedy 
+	add_trait=patient 
+	3940.8.18={ birth=yes }
+	3985.7.31={ death=yes }
+}
+4551={
+	name=Bulon
+	dynasty=4095
+	dna="emiegklekfm"
+	culture=bulblin religion=demise_religion
+	martial=8 diplomacy=6 stewardship=5 intrigue=4 learning=8
+	add_trait=grey_eminence add_trait=temperate add_trait=arbitrary add_trait=kind 
+	father=4550	#Vilur
+	3967.2.23={ birth=yes }
+	4020.4.17={ death=yes }
+}
+
+#phantom_valley phantom_field
+4552={
+	name=Belcen
+	dynasty=4094
+	dna="ojnkobnmnle"
+	culture=bulblin religion=demise_religion
+	martial=6 diplomacy=4 stewardship=5 intrigue=7 learning=8
+	add_trait=martial_cleric add_trait=hedonist add_trait=chaste add_trait=greedy add_trait=cynical 
+	add_trait=diligent add_trait=paranoid 
+	3963.10.14={ birth=yes }
+	4031.5.30={ death=yes }
+}
+#ebonia
+4553={
+	name=Budus
+	dynasty=4093
+	dna="ljfdhgfgkln"
+	culture=bulblin religion=demise_religion
+	martial=5 diplomacy=5 stewardship=5 intrigue=7 learning=6
+	add_trait=midas_touched add_trait=gluttonous add_trait=humble add_trait=diligent add_trait=shy 
+	add_trait=charitable 
+	3964.6.15={ birth=yes }
+	4026.9.28={ death=yes }
+}
+#ebony_valley
+4554={
+	name=Birir
+	dynasty=4092
+	dna="lnpihbpajaa"
+	culture=bulblin religion=demise_religion
+	martial=6 diplomacy=7 stewardship=4 intrigue=6 learning=8
+	add_trait=martial_cleric add_trait=patient add_trait=brave add_trait=shy 
+	3964.12.16={ birth=yes }
+	4019.6.18={ death=yes }
+}
+#copperfield
+4555={
+	name=Vulen
+	dynasty=4091
+	dna="achafpjaojo"
+	culture=bulblin religion=demise_religion
+	martial=6 diplomacy=7 stewardship=7 intrigue=6 learning=6
+	add_trait=naive_appeaser add_trait=trusting add_trait=cruel add_trait=proud add_trait=envious 
+	add_trait=depressed 
+	3965.12.1={ birth=yes }
+	4017.11.8={ death=yes }
+}
+#bronzeport
+4556={
+	name=Bulban
+	dynasty=4089
+	dna="lnlkgjblimd"
+	culture=bulblin religion=demise_religion
+	martial=5 diplomacy=4 stewardship=4 intrigue=8 learning=6
+	add_trait=indulgent_wastrel add_trait=paranoid add_trait=content add_trait=deceitful add_trait=temperate 
+	add_trait=envious 
+	3964.3.3={ birth=yes }
+	4050.10.17={ death=yes }
+}
+
+#silverfields silverton
+4557={
+	name=Vulelen
+	dynasty=4088
+	dna="ifccoeifoog"
+	culture=bulblin religion=demise_religion
+	martial=8 diplomacy=7 stewardship=7 intrigue=5 learning=7
+	add_trait=indulgent_wastrel add_trait=kind add_trait=humble add_trait=paranoid add_trait=just 
+	add_trait=lustful 
+	3965.8.21={ birth=yes }
+	4018.3.7={ death=yes }
+}

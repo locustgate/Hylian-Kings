@@ -52,11 +52,11 @@ goddesses_religion = {
 		intermarry = hylia_religion
 		intermarry = sheikahism
 		intermarry = wizzrobe_doctrine
-		intermarry = golden_goddesses
+		intermarry = great_maku
 		intermarry = goddesses_lorule
 		#intermarry = gem_goddesses
 		intermarry = heavenly_goddesses
-		#intermarry = western_goddesses
+		intermarry = western_goddesses
 	}
 	light_force = {
 		graphical_culture = mesoamericangfx
@@ -189,9 +189,9 @@ goddesses_religion = {
 	
 	
 		intermarry = golden_goddesses 
-		intermarry = golden_goddesses
+		intermarry = great_maku
 		##intermarry = gem_goddesses
-		##intermarry = western_goddesses
+		intermarry = western_goddesses
 	}
 #	gem_goddesses = {#gemlands
 #		graphical_culture = indiangfx
@@ -235,8 +235,8 @@ goddesses_religion = {
 #		intermarry = golden_goddesses 
 #		intermarry = golden_goddesses
 #		intermarry = heavenly_goddesses
-#		#intermarry = western_goddesses
-#		#intermarry = western_goddesses
+#		intermarry = western_goddesses
+#		intermarry = western_goddesses
 #	}
 	western_goddesses = {
 		graphical_culture = muslimgfx
@@ -301,7 +301,7 @@ goddesses_religion = {
 		intermarry = golden_goddesses 
 		intermarry = sheikahism
 		intermarry = wizzrobe_doctrine
-		intermarry = golden_goddesses 
+		intermarry = great_maku
 		#intermarry = gem_goddesses
 		intermarry = heavenly_goddesses
 		intermarry = western_goddesses
@@ -333,7 +333,7 @@ goddesses_religion = {
 		intermarry = golden_goddesses 
 		intermarry = sheikahism
 		intermarry = wizzrobe_doctrine
-		intermarry = golden_goddesses 
+		intermarry = great_maku 
 		#intermarry = gem_goddesses
 		intermarry = heavenly_goddesses
 		intermarry = western_goddesses
@@ -365,7 +365,7 @@ goddesses_religion = {
 		}
 		intermarry = goddesses_religion
 		intermarry = wizzrobe_doctrine
-		intermarry = golden_goddesses 
+		intermarry = great_maku
 
 		priests_can_inherit = yes
 		priests_can_marry = yes 
@@ -465,7 +465,7 @@ goddesses_religion = {
 
 		intermarry = goddesses_religion
 		intermarry = wizzrobe_doctrine
-		intermarry = golden_goddesses 
+		intermarry = great_maku
 		
 		religious_clothing_head = 2
 		religious_clothing_priest = 2
@@ -485,7 +485,7 @@ guardian_deity = {
 	male_names = {Oshus Leaf Jabu Jabun Valoo Deku Maku}
 	female_names = {Neri Ciela}
 	water_spirit = {
-	graphical_culture = norsegfx
+		graphical_culture = norsegfx
 
 		icon = 9
 		heresy_icon = 10
@@ -628,7 +628,7 @@ guardian_deity = {
 		intermarry = great_fairies
 
 	}
-	golden_goddesses = {
+	great_maku= {
 		graphical_culture = indiangfx
 
 		icon = 13
@@ -922,6 +922,32 @@ minor_deity = {
 		
 		religious_clothing_head = 2
 		religious_clothing_priest = 2
+	}
+	golden_frog={
+		graphical_culture = westerngfx
+
+		icon = 24
+		heresy_icon = 25
+		
+		color = { 0.4 0.58 0.93 }
+
+		priest_title = SHAMAN
+		scripture_name = WIND_CONCERT
+
+		high_god_name = GOD_CYLOS	
+		god_names = {
+			GOD_CYCLOS GOLDEN_CHIEF GOD_GOLDEN_FROGS GOD_THE_TWINS GOD_ZEPHOS GOD_CYCLOS GOD_OSHUS
+		}
+		evil_god_names = {
+				GOD_BELLUM
+		}
+		priests_can_inherit = no
+		priests_can_marry = yes 
+		
+		seafarer=yes
+		religious_clothing_head = 4
+		religious_clothing_priest = 4
+		intermarry=oshus_religion
 	}
 	wind_fish_religion = {
 		graphical_culture = westerngfx
@@ -1366,36 +1392,9 @@ spirit_group = {
 		reformed = wind_spirits_reformed
 		
 	}
-	golden_frog={
-		graphical_culture = westerngfx
-		parent=golden_frog
-
-		icon = 24
-		heresy_icon = 25
-		
-		color = { 0.4 0.58 0.93 }
-
-		priest_title = SHAMAN
-		scripture_name = WIND_CONCERT
-
-		high_god_name = GOD_CYLOS	
-		god_names = {
-			GOD_CYCLOS GOLDEN_CHIEF GOD_GOLDEN_FROGS GOD_THE_TWINS GOD_ZEPHOS GOD_CYCLOS GOD_OSHUS
-		}
-		evil_god_names = {
-				GOD_BELLUM
-		}
-		priests_can_inherit = no
-		priests_can_marry = yes 
-		
-		seafarer=yes
-		religious_clothing_head = 4
-		religious_clothing_priest = 4
-		intermarry=oshus_religion
-	}
 	twin_frogs = {
 		graphical_culture = westerngfx
-		parent=golden_frog
+		parent=wind_spirits
 
 		icon = 24
 		heresy_icon = 25
@@ -1745,7 +1744,7 @@ demon_religion = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 	}
-} 
+}
 doctrine = {
 	has_coa_on_barony_only = yes
 	playable = yes
@@ -1913,7 +1912,7 @@ alien_religion = {
 		intermarry = sheikahism
 		intermarry = wizzrobe_doctrine
 		intermarry = golden_goddesses
-		intermarry = golden_goddesses
+		intermarry = great_maku
 		
 		religious_clothing_head = 8
 		religious_clothing_priest = 8
@@ -1942,7 +1941,7 @@ alien_religion = {
 		intermarry = hylia_religion 
 		intermarry = sheikahism
 		intermarry = wizzrobe_doctrine
-		intermarry = golden_goddesses 
+		intermarry = great_maku
 
 		priests_can_inherit = yes
 		priests_can_marry = yes 
@@ -1976,7 +1975,7 @@ alien_religion = {
 		intermarry = hylia_religion 
 		intermarry = sheikahism
 		intermarry = wizzrobe_doctrine
-		intermarry = golden_goddesses 
+		intermarry = great_maku
 
 		priests_can_inherit = yes
 		priests_can_marry = yes 
@@ -2009,7 +2008,7 @@ alien_religion = {
 		intermarry = hylia_religion 
 		intermarry = sheikahism
 		intermarry = wizzrobe_doctrine
-		intermarry = golden_goddesses 
+		intermarry = great_maku
 
 		priests_can_inherit = yes
 		priests_can_marry = yes 

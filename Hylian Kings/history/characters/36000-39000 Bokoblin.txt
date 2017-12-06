@@ -1,0 +1,708 @@
+#Dorgolia Doricia
+36000={
+	name=Herul
+	dynasty=3950
+	dna="beifbapgeoh"
+	culture=bokoblin religion=demise_religion
+	martial=6 diplomacy=5 stewardship=5 intrigue=5 learning=8
+	add_trait=elusive_shadow add_trait=cruel add_trait=kind add_trait=ambitious add_trait=chaste 
+	add_trait=gluttonous 
+	3951.8.17={ birth=yes }
+	3969.1.20={add_spouse=36005}
+	4004.5.25={ death=yes }
+}
+36001={
+	name=Reru
+	dynasty=3950
+	dna="pkefbackohh"
+	culture=bokoblin religion=demise_religion
+	martial=5 diplomacy=4 stewardship=8 intrigue=4 learning=4
+	add_trait=detached_priest add_trait=patient add_trait=just add_trait=chaste add_trait=proud 
+	father=36000	#Herul
+	mother=36005
+	3970.7.7={ birth=yes }
+	4023.8.31={ death=yes }
+}
+36002={
+	name=Hare
+	dynasty=3950
+	dna="bdkgbahgeog"
+	culture=bokoblin religion=demise_religion
+	martial=7 diplomacy=8 stewardship=6 intrigue=7 learning=8
+	add_trait=midas_touched add_trait=lustful add_trait=just add_trait=zealous add_trait=gluttonous 
+	add_trait=stressed 
+	father=36000	#Herul
+	mother=36005
+	3971.6.5={ birth=yes }
+	4012.4.10={ death=yes }
+}
+36003={
+	name=Reiri
+	female=yes
+	dynasty=3950
+	dna="beifbapgmoh"
+	culture=bokoblin religion=demise_religion
+	father=36000	#Herul
+	mother=36005
+	3973.9.22={ birth=yes }
+	4021.7.19={ death=yes }
+}
+36004={
+	name=Direta
+	female=yes
+	dynasty=3950
+	dna="dhiobapgobj"
+	culture=bokoblin religion=demise_religion
+	father=36000	#Herul
+	mother=36005
+	3975.3.20={ birth=yes }
+	4029.4.6={ death=yes }
+}
+36005={
+	name=Herida
+	female=yes
+	culture=bokoblin religion=demise_religion
+	3953.1.18={ birth=yes }
+	3969.1.20={add_spouse=36000}
+	4029.4.6={ death=yes }
+}
+#odyssia
+36006={
+	name=Dederal
+	dynasty=3954
+	dna="lknapofopie"
+	culture=bokoblin religion=demise_religion
+	martial=4 diplomacy=8 stewardship=8 intrigue=4 learning=5
+	add_trait=detached_priest add_trait=deceitful add_trait=greedy add_trait=wroth add_trait=just 
+	add_trait=trusting 
+	3966.9.1={ birth=yes }
+	4017.11.22={ death=yes }
+}
+#valoia
+36007={
+	name=Werlin
+	dynasty=3953
+	dna="nddkgkdcplp"
+	culture=bokoblin religion=demise_religion
+	martial=5 diplomacy=4 stewardship=7 intrigue=5 learning=7
+	add_trait=scholarly_theologian add_trait=brave add_trait=kind add_trait=trusting 
+	3966.12.3={ birth=yes }
+	4014.11.12={ death=yes }
+}
+#xenonia lynoia 
+36008={
+	name=Wield
+	dynasty=3960
+	dna="nmlebaojena"
+	culture=bokoblin religion=demise_religion
+	martial=8 diplomacy=6 stewardship=6 intrigue=7 learning=7
+	add_trait=thrifty_clerk add_trait=celibate add_trait=cruel add_trait=envious add_trait=charitable 
+	add_trait=zealous add_trait=content add_trait=gregarious 
+	3964.5.2={ birth=yes }
+	3981.1.1={ add_spouse=36012}
+	4012.12.30={ death=yes }
+}
+36009={
+	name=Deren
+	dynasty=3960
+	dna="pmfolaijenh"
+	culture=bokoblin religion=demise_religion
+	martial=7 diplomacy=8 stewardship=6 intrigue=7 learning=8
+	add_trait=intricate_webweaver add_trait=proud add_trait=trusting add_trait=deceitful add_trait=wroth 
+	add_trait=cynical add_trait=craven 
+	father=36008	#Wield
+	mother=36012
+	3982.4.8={ birth=yes }
+	4025.3.16={ death=yes }
+}
+36010={
+	name=Berle
+	dynasty=3960
+	dna="fmldpalnega"
+	culture=bokoblin religion=demise_religion
+	martial=7 diplomacy=6 stewardship=8 intrigue=5 learning=4
+	add_trait=midas_touched add_trait=cruel add_trait=just add_trait=diligent add_trait=content 
+	father=36008	#Wield
+	mother=36012
+	3984.1.18={ birth=yes }
+	4050.12.12={ death=yes }
+}
+36011={
+	name=Hielirv
+	female=yes
+	dynasty=3960
+	dna="jmfbpkojeoi"
+	culture=bokoblin religion=demise_religion
+	father=36008	#Wield
+	mother=36012
+	3986.8.25={ birth=yes }
+	4043.8.22={ death=yes }
+}
+36012={
+
+	name=Herida
+	female=yes
+	culture=bokoblin religion=demise_religion
+
+	3963.1.1={ birth=yes }
+	3981.1.1={ add_spouse=36008}
+	4043.8.22={ death=yes }
+}
+#silvania achenia pausania
+36013={
+	name=Wire
+	dynasty=3970
+	dna="ogiikpaffal"
+	culture=bokoblin religion=demise_religion
+	martial=6 diplomacy=5 stewardship=8 intrigue=4 learning=8
+	add_trait=skilled_tactician add_trait=cruel add_trait=zealous add_trait=humble add_trait=diligent 
+	3968.5.6={ birth=yes }
+	3987.1.1={ add_spouse=36015 }
+	4010.12.1={ death=yes }
+}
+36014={
+	name=Elfyne
+	female=yes
+	dynasty=3970
+	dna="hpiekiafhal"
+	culture=bokoblin religion=demise_religion
+	father=36013	#Wire
+	mother=36015
+	3988.1.1={ birth=yes }
+	4027.3.14={ death=yes }
+}
+36015={
+	name=Bara
+	female=yes
+	culture=bokoblin religion=demise_religion
+	3971.1.1={ birth=yes }
+	3987.1.1={ add_spouse=36013 }
+	4017.3.14={ death=yes }
+}
+#Toris
+36016={
+	name=Rered
+	dynasty=3980
+	dna="lpdkikpglad"
+	culture=bokoblin religion=demise_religion
+	martial=7 diplomacy=8 stewardship=4 intrigue=4 learning=6
+	add_trait=indulgent_wastrel add_trait=patient add_trait=chaste add_trait=shy add_trait=kind 
+	3964.2.17={ birth=yes }
+	4005.1.24={ death=yes }
+}
+#ardennia hippodria
+36017={
+	name=Beras
+	dynasty=3990
+	dna="dnnbbgblaog"
+	culture=bokoblin religion=demise_religion
+	martial=5 diplomacy=6 stewardship=8 intrigue=8 learning=6
+	add_trait=detached_priest add_trait=zealous add_trait=content add_trait=depressed 
+	3960.10.26={ birth=yes }
+	3983.1.1={ add_spouse=36021}
+	4008.6.26={ death=yes }
+}
+36018={
+	name=Wita
+	female=yes
+	dynasty=3990
+	dna="pilabjnlaog"
+	culture=bokoblin religion=demise_religion
+	father=36017	#Beras
+	mother=36021
+	3983.12.20={ birth=yes }
+	4037.10.12={ death=yes }
+}
+36019={
+	name=Hetuld
+	dynasty=3990
+	dna="endbcgblaom"
+	culture=bokoblin religion=demise_religion
+	martial=4 diplomacy=6 stewardship=4 intrigue=4 learning=7
+	add_trait=intricate_webweaver add_trait=humble add_trait=ambitious add_trait=honest 
+	father=36017	#Beras
+	mother=36021
+	3984.10.9={ birth=yes }
+	4033.11.30={ death=yes }
+}
+36020={
+	name=Beri
+	dynasty=3990
+	dna="pkgbbgoogog"
+	culture=bokoblin religion=demise_religion
+	martial=6 diplomacy=4 stewardship=4 intrigue=6 learning=4
+	add_trait=elusive_shadow add_trait=hedonist add_trait=gregarious add_trait=slothful add_trait=paranoid 
+	father=36017	#Beras
+	mother=36021
+	3986.2.6={ birth=yes }
+	4029.8.20={ death=yes }
+}
+36021={
+	name=Hiras
+	female=yes
+	culture=bokoblin religion=demise_religion
+	3967.1.1={ birth=yes }
+	3983.1.1={ add_spouse=36017}
+	4033.11.30={ death=yes }
+}
+#karia tysia smyrna
+36022={
+	name=Rerli
+	dynasty=3995
+	dna="gocoomfclnp"
+	culture=bokoblin religion=demise_religion
+	martial=4 diplomacy=6 stewardship=6 intrigue=6 learning=4
+	add_trait=martial_cleric add_trait=humble add_trait=cynical add_trait=brave add_trait=paranoid 
+	3967.3.4={ birth=yes }
+	3985.1.1={ add_spouse=36024 }
+	4018.3.19={ death=yes }
+}
+36023={
+	name=Wirv
+	dynasty=3995
+	dna="gfcogfmcbdf"
+	culture=bokoblin religion=demise_religion
+	martial=5 diplomacy=8 stewardship=6 intrigue=6 learning=6
+	add_trait=scholarly_theologian add_trait=cruel add_trait=slothful add_trait=paranoid add_trait=ambitious 
+	father=36022	#Rerli
+	mother=36024
+	3986.5.3={ birth=yes }
+	4027.1.7={ death=yes }
+}
+36024={
+	name=Hiriv
+	female=yes
+	culture=bokoblin
+	religion=demise_religion
+	3968.5.3={ birth=yes }
+	3985.1.1={ add_spouse=36022 }
+	4027.1.7={ death=yes }
+}
+#esroene gommagene irartu
+36025={
+	name=Beren
+	dynasty=3936
+	dna="jicjabpanpg"
+	culture=bokoblin religion=demise_religion
+	martial=4 diplomacy=7 stewardship=4 intrigue=7 learning=6
+	add_trait=misguided_warrior add_trait=duelist add_trait=proud add_trait=arbitrary add_trait=envious 
+	add_trait=ambitious 
+	3963.6.14={ birth=yes }
+	3984.5.27={ add_spouse=36027 }
+	4011.7.2={ death=yes }
+}
+36026={
+	name=Erlal
+	female=yes
+	dynasty=3936
+	dna="hdchnijinpl"
+	culture=bokoblin religion=demise_religion
+	father=36025	#Beren
+	mother=36027
+	3960.5.14={ birth=yes }
+	4038.3.17={ death=yes }
+}
+36027={
+	name=Wirla
+	female=yes
+	culture=bokoblin religion=demise_religion
+	3968.5.14={ birth=yes }
+	3984.5.27={ add_spouse=36025 }
+	4038.3.17={ death=yes }
+}
+#darsos larrocthest
+36028={
+	name=Hade
+	dynasty=3975
+	dna="hppmlnahaja"
+	culture=bokoblin religion=demise_religion
+	martial=6 diplomacy=6 stewardship=8 intrigue=8 learning=7
+	add_trait=martial_cleric add_trait=duelist add_trait=diligent add_trait=gluttonous add_trait=paranoid 
+	add_trait=just add_trait=greedy 
+	3956.3.20={ birth=yes }
+	3979.1.1={ add_spouse=36033 }
+	4012.11.10={ death=yes }
+}
+36029={
+	name=Huld
+	dynasty=3975
+	dna="hnpmpgahcjn"
+	culture=bokoblin religion=demise_religion
+	martial=6 diplomacy=5 stewardship=6 intrigue=7 learning=8
+	add_trait=martial_cleric add_trait=chaste add_trait=humble add_trait=content 
+	father=36028	#Hade
+	mother=36033
+	3980.4.27={ birth=yes }
+	4034.7.20={ death=yes }
+}
+36030={
+	name=Reld
+	dynasty=3975
+	dna="hcfmlkchaja"
+	culture=bokoblin religion=demise_religion
+	martial=5 diplomacy=8 stewardship=6 intrigue=5 learning=6
+	add_trait=martial_cleric add_trait=kind add_trait=chaste add_trait=content add_trait=brave 
+	add_trait=charitable add_trait=trusting 
+	father=36028	#Hade
+	mother=36033
+	3981.7.25={ birth=yes }
+	4026.8.14={ death=yes }
+}
+36031={
+	name=Wiri
+	dynasty=3975
+	dna="hpnmfnahaji"
+	culture=bokoblin religion=demise_religion
+	martial=6 diplomacy=8 stewardship=6 intrigue=8 learning=4
+	add_trait=midas_touched add_trait=duelist add_trait=arbitrary add_trait=deceitful add_trait=envious 
+	add_trait=content add_trait=slothful 
+	father=36028	#Hade
+	mother=36033
+	3982.4.13={ birth=yes }
+	4032.8.11={ death=yes }
+}
+36032={
+	name=Rurli
+	female=yes
+	dynasty=3975
+	dna="hpamobeheja"
+	culture=bokoblin religion=demise_religion
+	father=36028	#Hade
+	mother=36033
+	3983.8.17={ birth=yes }
+	4035.10.4={ death=yes }
+}
+36033={
+	name=Rurli
+	female=yes
+	culture=bokoblin religion=demise_religion
+	3962.8.17={ birth=yes }
+	3979.1.1={ add_spouse=36028 }
+	4035.10.4={ death=yes }
+}
+#Ogbam
+36034={
+	name=Reras
+	dynasty=3965
+	dna="kkkeeaaniin"
+	culture=bokoblin religion=demise_religion
+	martial=8 diplomacy=8 stewardship=7 intrigue=7 learning=8
+	add_trait=misguided_warrior add_trait=trusting add_trait=kind add_trait=zealous add_trait=possessed 
+	3970.7.9={ birth=yes }
+	4023.6.22={ death=yes }
+}
+#torian canvula armarob
+36035={
+	name=Dederal
+	dynasty=3955
+	dna="oalnkdbanpd"
+	culture=bokoblin religion=demise_religion
+	martial=7 diplomacy=5 stewardship=8 intrigue=6 learning=8
+	add_trait=indulgent_wastrel add_trait=honest add_trait=lustful add_trait=slothful add_trait=envious 
+	add_trait=cynical add_trait=content 
+	3965.6.1={ birth=yes }
+	3982.1.17={ add_spouse=36038}
+	4021.3.31={ death=yes }
+}
+36036={
+	name=Hildes
+	female=yes
+	dynasty=3955
+	dna="oalpkmjnnpm"
+	culture=bokoblin religion=demise_religion
+	father=36035	#Dederal
+	mother=36038
+	3983.8.17={ birth=yes }
+	4022.4.22={ death=yes }
+}
+36037={
+	name=Berin
+	dynasty=3955
+	dna="mlgekaoancd"
+	culture=bokoblin religion=demise_religion
+	martial=5 diplomacy=5 stewardship=4 intrigue=5 learning=7
+	add_trait=intricate_webweaver add_trait=impaler add_trait=patient add_trait=cynical add_trait=just 
+	add_trait=stressed 
+	father=36035	#Dederal
+	mother=36038
+	3986.8.19={ birth=yes }
+	4039.10.17={ death=yes }
+}
+36038={
+	name=Hildes
+	female=yes
+	culture=bokoblin religion=demise_religion
+	3965.1.1={ birth=yes }
+	3982.1.17={ add_spouse=36035}
+	4022.4.22={ death=yes }
+}
+#vendoss hobel
+36039={
+	name=Wurure
+	dynasty=3945
+	dna="ankaoenfdfg"
+	culture=bokoblin religion=demise_religion
+	martial=6 diplomacy=6 stewardship=6 intrigue=6 learning=8
+	add_trait=martial_cleric add_trait=proud add_trait=shy add_trait=ill 
+	3956.9.18={ birth=yes }
+	3979.1.1={ add_spouse=36044}
+	3996.2.16={ death=yes }
+}
+36040={
+	name=Rerada
+	female=yes
+	dynasty=3945
+	dna="knieojafdfg"
+	culture=bokoblin religion=demise_religion
+	father=36039	#Wurure
+	mother=36044
+	3980.6.15={ birth=yes }
+	4034.1.10={ death=yes }
+}
+36041={
+	name=Reru
+	dynasty=3945
+	dna="akahnanfdfi"
+	culture=bokoblin religion=demise_religion
+	martial=8 diplomacy=8 stewardship=5 intrigue=8 learning=8
+	add_trait=thrifty_clerk add_trait=greedy add_trait=diligent add_trait=chaste add_trait=proud 
+	father=36039	#Wurure
+	mother=36044
+	3981.9.22={ birth=yes }
+	4040.6.29={ death=yes }
+}
+36042={
+	name=Weta
+	female=yes
+	dynasty=3945
+	dna="hnlfpckbdkm"
+	culture=bokoblin religion=demise_religion
+	father=36039	#Wurure
+	mother=36044
+	3983.7.25={ birth=yes }
+	4032.4.13={ death=yes }
+}
+36043={
+	name=Hieda
+	female=yes
+	dynasty=3945
+	dna="onkeoenfdfg"
+	culture=bokoblin religion=demise_religion
+	father=36039	#Wurure
+	mother=36044
+	3984.12.23={ birth=yes }
+	4025.8.5={ death=yes }
+}
+36044={
+	name=Weda
+	female=yes
+	culture=bokoblin religion=demise_religion
+	3962.12.23={ birth=yes }
+	3979.1.1={ add_spouse=36039}
+	4025.8.5={ death=yes }
+}
+#sumbala lumapa
+36045={
+	name=Dien
+	dynasty=3935
+	dna="lncedjogihb"
+	culture=bokoblin religion=demise_religion
+	martial=5 diplomacy=8 stewardship=6 intrigue=6 learning=4
+	add_trait=flamboyant_schemer add_trait=gluttonous add_trait=charitable add_trait=shy 
+	3960.10.17={ birth=yes }
+	3976.1.1={ add_spouse=36048}
+	4008.12.1={ death=yes }
+}
+36046={
+	name=Hieda
+	female=yes
+	dynasty=3935
+	dna="lnalgjjnihk"
+	culture=bokoblin religion=demise_religion
+	father=36045	#Dien
+	mother=36048
+	3977.4.8={ birth=yes }
+	4022.7.31={ death=yes }
+}
+36047={
+	name=Weres
+	dynasty=3935
+	dna="llcojpggime"
+	culture=bokoblin religion=demise_religion
+	martial=5 diplomacy=8 stewardship=4 intrigue=5 learning=6
+	add_trait=tough_soldier add_trait=scholar add_trait=cruel add_trait=honest add_trait=wroth 
+	add_trait=trusting 
+	father=36045	#Dien
+	mother=36048
+	3978.7.2={ birth=yes }
+	4031.12.25={ death=yes }
+}
+36048={
+	name=Hieda
+	female=yes
+	culture=bokoblin religion=demise_religion
+	3959.4.8={ birth=yes }
+	3976.1.1={ add_spouse=36045}
+	4022.7.31={ death=yes }
+}
+#horyul damujin haebal
+36049={
+	name=Weris
+	dynasty=3925
+	dna="jleapaagmhe"
+	culture=bokoblin religion=demise_religion
+	martial=6 diplomacy=7 stewardship=4 intrigue=8 learning=4
+	add_trait=midas_touched add_trait=cruel add_trait=gregarious add_trait=content add_trait=chaste 
+	3966.4.1={ birth=yes }
+	3984.1.1={ add_spouse=36051}
+	4008.5.17={ death=yes }
+}
+36051={
+	name=Herida
+	female=yes
+	culture=bokoblin religion=demise_religion
+	3968.1.1={ birth=yes }
+	3984.1.1={ add_spouse=36049}
+	4043.4.26={ death=yes }
+}
+#haizhu
+36052={
+	name=Deren
+	dynasty=3915
+	dna="oddfljakokc"
+	culture=bokoblin religion=demise_religion
+	martial=4 diplomacy=6 stewardship=6 intrigue=5 learning=6
+	add_trait=detached_priest add_trait=deceitful add_trait=humble add_trait=cruel add_trait=kind 
+	3969.1.1={ birth=yes }
+	4020.8.27={ death=yes }
+}
+#faron basin
+36053={
+	name=Werid
+	dynasty=3905
+	dna="jnoappmdpeg"
+	culture=bokoblin religion=demise_religion
+	martial=5 diplomacy=8 stewardship=8 intrigue=5 learning=5
+	add_trait=flamboyant_schemer add_trait=brave add_trait=zealous add_trait=patient add_trait=cruel 
+	add_trait=ill 
+	3967.3.18={ birth=yes }
+	4018.1.22={ death=yes }
+}
+
+36054 = {#faron woods to bridges
+	name=Roles
+	
+	dynasty=4021
+	diplomacy=8
+	martial=10
+	intrigue=5
+	stewardship=4
+	learning=4
+	religion=demise_religion
+	culture=bokoblin
+	trait=tough_soldier
+	trait=race_bokoblin
+	3966.4.14={
+		birth=yes
+	}
+	4012.5.25={ death=yes }
+}
+
+36055 = {#faron forest
+	name=Belin
+	
+	dynasty=4031
+	diplomacy=8
+	martial=8
+	intrigue=5
+	stewardship=4
+	learning=4
+	religion=demise_religion
+	culture=bokoblin
+	trait=skilled_tactician
+	trait=race_bokoblin
+	3967.1.1={
+		birth=yes
+	}
+	4014.5.25={ death=yes }
+}
+#ordon_groves cidia
+36055={
+	name=Beras
+	dynasty=4035
+	dna="pkjeikhbdbf"
+	culture=bokoblin religion=demise_religion
+	martial=5 diplomacy=8 stewardship=4 intrigue=4 learning=4
+	add_trait=grey_eminence add_trait=gardener add_trait=kind add_trait=wroth add_trait=deceitful 
+	add_trait=chaste add_trait=diligent add_trait=wounded 
+	3940.2.16={ birth=yes }
+	3963.1.1={add_spouse=36059}
+	4009.6.8={ death=yes }
+}
+36056={
+	name=Bitin
+	dynasty=4035
+	dna="pfdelchbdif"
+	culture=bokoblin religion=demise_religion
+	martial=4 diplomacy=8 stewardship=8 intrigue=8 learning=4
+	add_trait=detached_priest add_trait=cruel add_trait=ambitious add_trait=craven 
+	father=36055	#Beras
+	mother=36059
+	3965.2.22={ birth=yes }
+	4028.6.27={ death=yes }
+}
+36057={
+	name=Huld
+	dynasty=4035
+	dna="pkjpiihndbk"
+	culture=bokoblin religion=demise_religion
+	martial=6 diplomacy=8 stewardship=5 intrigue=7 learning=4
+	add_trait=charismatic_negotiator add_trait=greedy add_trait=shy add_trait=craven add_trait=cruel 
+	father=36055	#Beras
+	mother=36059
+	3968.1.26={ birth=yes }
+	4015.4.11={ death=yes }
+}
+36058={
+	name=Hirv
+	dynasty=4035
+	dna="pgjehdhbdjf"
+	culture=bokoblin religion=demise_religion
+	martial=6 diplomacy=6 stewardship=6 intrigue=6 learning=8
+	add_trait=grey_eminence add_trait=hedonist add_trait=temperate add_trait=trusting add_trait=just 
+	add_trait=diligent add_trait=honest add_trait=wounded 
+	father=36055	#Beras
+	mother=36059
+	3972.9.18={ birth=yes }
+	4023.1.3={ death=yes }
+}
+36059={
+	name=Wielda
+	female=yes
+	culture=bokoblin religion=demise_religion
+	3940.2.16={ birth=yes }
+	3963.1.1={add_spouse=36055}
+	4009.6.8={ death=yes }
+}
+#midia
+36060={
+	name=Herid
+	dynasty=4040
+	dna="lhageehldii"
+	culture=bokoblin religion=demise_religion
+	martial=8 diplomacy=7 stewardship=8 intrigue=4 learning=7
+	add_trait=martial_cleric add_trait=lustful add_trait=charitable add_trait=content add_trait=brave 
+	3965.5.11={ birth=yes }
+	4043.12.18={ death=yes }
+}
+#ordon_spring ordon_woods
+36061={
+	name=Herid
+	dynasty=4045
+	dna="hjdgfecgdli"
+	culture=bokoblin religion=demise_religion
+	martial=6 diplomacy=7 stewardship=6 intrigue=7 learning=5
+	add_trait=tough_soldier add_trait=gregarious add_trait=temperate add_trait=slothful 
+	3965.12.23={ birth=yes }
+	4016.12.9={ death=yes }
+}
