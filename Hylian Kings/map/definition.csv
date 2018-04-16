@@ -20,7 +20,7 @@ province;red;green;blue;x;x
 19;168;57;137;Misty Marshes;x
 20;0;60;10;Sanguine Shores;x
 21;42;63;138;Westvale;x
-22;84;66;11;Caray;x#Removed
+22;84;66;11;Holia;x#AV
 23;126;69;139;Light Field;x
 24;168;72;12;Falsia Marsh;x
 25;0;75;140;Beach Caves;x
@@ -33,10 +33,10 @@ province;red;green;blue;x;x
 32;84;96;16;Maelgryn;x #m13
 33;126;99;144;Anadora;x#m13
 34;168;102;17;Borodour;x#g11
-35;0;105;145;Daleport;x#g11
+35;0;105;145;Dale;x#g11
 36;42;108;18;Anaurion;x#g11
 37;84;111;146;Grindle;x#g11
-38;126;114;19;Seawall;x#g11
+38;126;114;19;Garia;x#g11
 39;168;117;147;Grindle Fields;x#g11
 40;0;120;20;Caliborn;x#g11
 41;42;123;148;Lothodin;x#g11
@@ -63,12 +63,12 @@ province;red;green;blue;x;x
 62;84;186;31;Sang;x #hanman #h16
 63;126;189;159;Purajoho;x#h16
 64;168;192;32;Sing;x#h16
-65;0;195;160;Lansang;x
-66;42;198;33;Bangrajang;x
-67;84;201;161;Pagaung;x
-68;126;204;34;Maomong;x#m13
-69;168;207;162;Suangma;x#m13
-70;0;210;35;Bawang;x#m13
+65;0;195;160;Elon;x#m13
+66;42;198;33;Ergrir;x#m13
+67;84;201;161;Dirn;x#m13
+68;126;204;34;Edia;x#m13
+69;168;207;162;Adale;x#m13
+70;0;210;35;Laine;x#m13
 71;42;0;163;Xang;x#h16
 72;84;3;36;Hanman;x#h16
 73;126;6;164;Batang;x#h16
@@ -78,10 +78,10 @@ province;red;green;blue;x;x
 77;84;18;166;Jakali;x#h16
 78;126;21;39;Gaomar;x#h16
 79;168;24;167;Shenma;x#h16
-80;0;27;40;Gorlang;x#h16
+80;0;27;40;Dofo;x#AV
 81;42;30;168;Xinang;x#h16
 82;84;33;41;Suliming;x#h16
-83;126;36;169;Haizhu;x#gh16
+83;126;36;169;Halu;x#DoM
 84;168;39;42;Shire;x#gh16
 85;0;42;170;Changyi;x#gh16
 86;42;45;43;Omoni;x#gh16
@@ -97,37 +97,37 @@ province;red;green;blue;x;x
 96;42;75;48;Baiman;x#gh16
 97;84;78;176;Sinwei;x#gh16
 98;126;81;49;Torugol;x#gh16
-99;168;84;177;Kimheon;x#s9
+99;168;84;177;Golia;x#AV
 100;0;87;50;Seoran;x#s9
 101;42;90;178;Famusa;x#s9
 102;84;93;51;Arang;x#s9
-103;126;96;179;Mino;x#Death Mountain Rename
+103;126;96;179;Noro;x#AV
 104;168;99;52;Jinghan;x#s9
-105;0;102;180;Gleeok Mountain;x#Death Mountain Rename
-106;42;105;53;Gach;x#Death Mountain Rename
-107;84;108;181;Gutto;x#death mountain rename
-108;126;111;54;Delom Mines;x#death mountain rename
-109;168;114;182;Dora Mountain;x#DM rename
+105;0;102;180;Gleock Mountain;x
+106;42;105;53;Gosto;x#AV
+107;84;108;181;Amo;x#AV
+108;126;111;54;Hobu;x#AV
+109;168;114;182;Larcu;x#DoM
 110;0;117;55;Dangwu;x
-111;42;120;183;Lihan;x
+111;42;120;183;Kumu;x#DoM
 112;84;123;56;Viang;x
 113;126;126;184;Muang;x
 114;168;129;57;Khaohom;x
 115;0;132;185;Duyi;x
-116;42;135;58;Cenac;x#DM rename
-117;84;138;186;Warbane Mountain;x#DM rename
-118;126;141;59;Dancing Mountain;x#DM rename
-119;168;144;187;Gobek;x#DM rename
-120;0;147;60;Gortram Pass;x#DM rename
-121;42;150;188;Ra Mountain;x#DM rename
-122;84;153;61;Haro Canyon;x#DM rename
-123;126;156;189;Maro Mines;x#DM rename
-124;168;159;62;Gorko Slopes;x#DM rename
-125;0;162;190;Golo Overlook;x#DM rename
-126;42;165;63;Hiri;x#DM rename
-127;84;168;191;Zedde;x#DM rename
-128;126;171;64;Zaraw;x#DM Rename
-129;168;174;192;Sanin;x#Ordon Rename
+116;42;135;58;Pora;x#DoM
+117;84;138;186;Warbane Pass;x#DM
+118;126;141;59;Vel;x#DoM
+119;168;144;187;Scouring Sand;x##Dom
+120;0;147;60;Vourca;x##DoM
+121;42;150;188;Valuma;x#DoM
+122;84;153;61;Kran;x##Crenal
+123;126;156;189;Serna;x#Crenal
+124;168;159;62;Larai;x#DoM
+125;0;162;190;Kita;x#DoM
+126;42;165;63;Orujh;x#DoM
+127;84;168;191;Valla;x#DoM
+128;126;171;64;Vorai;x#DoM
+129;168;174;192;Weathered Cliffs;x#Dom
 130;0;177;65;Yami;x#j
 131;42;180;193;Seroa;x#j
 132;84;183;66;Ataya;x#j
@@ -141,13 +141,13 @@ province;red;green;blue;x;x
 140;0;207;70;Thao;x#j
 141;42;210;198;Kanakan;x#j
 142;84;0;71;Ruchuwa;x
-143;126;3;199;Ordia;x#Ordon Rename
-144;168;6;72;Codi;x#Ordon Rename
-145;0;9;200;Ordonia ranch;x#Ordon Rename
-146;42;12;73;Ido;x#Tree rename
-147;84;15;201;Decci Forest;x#Tree rename
-148;126;18;74;Rolling Woods;x#Tree rename
-149;168;21;202;Takkuri Grove;x#Tree rename
+143;126;3;199;Tona;x#DoM
+144;168;6;72;Rela;x#Dom
+145;0;9;200;Crenel Crags;x#rework
+146;42;12;73;Raana;x#DoM
+147;84;15;201;Decci Forest;x#Tree 
+148;126;18;74;Rolling Woods;x#Tree 
+149;168;21;202;Takkuri Grove;x#Tree 
 150;0;24;75;Kakarima;x
 151;42;27;203;Sanbu;x
 152;84;30;76;Kabichi;x
@@ -250,7 +250,7 @@ province;red;green;blue;x;x
 249;168;108;152;Lyonia;x
 250;0;111;25;Xenonia;x #
 251;42;114;153;Lykaia;x
-252;84;117;26;Wosuia;x #
+252;84;117;26;Vatoi;x #DoM
 253;126;120;154;Ardennia;x
 254;168;123;27;Hippodria;x
 255;0;126;155;Rolandia;x #
@@ -259,7 +259,7 @@ province;red;green;blue;x;x
 258;126;135;29;Marcania;x
 259;168;138;157;Achenia;x
 260;0;141;30;Joyeusia;x
-261;42;144;158;Durendalia;x
+261;42;144;158;Damet;x#DoM
 262;84;147;31;Curtania;x
 263;126;150;159;Facadia;x
 264;168;153;32;Polia;x
@@ -372,10 +372,10 @@ province;red;green;blue;x;x
 371;42;48;213;Tarm;x
 372;84;51;86;Tarm Field;x
 373;126;54;214;Pirate Island;x
-374;168;57;87;Jungle of Happiness;x #girrin
-375;0;60;215;Ape Forest;x #girrin
-376;42;63;88;Jungle City;x #girrin
-377;84;66;216;Tarm Rainforest;x #girrin
+374;168;57;87;Crackling Woods;x#Mudora
+375;0;60;215;Vutoi;x#DoM
+376;42;63;88;Povarai;x#DoM
+377;84;66;216;Taulu;x#DoM
 378;126;69;89;Steamy Marsh;x #western isles
 379;168;72;217;Kamonano;x
 380;0;75;90;Hiveville;x
@@ -398,17 +398,17 @@ province;red;green;blue;x;x
 397;84;126;226;Misery Mire;x
 398;126;129;99;Toppo Bogs;x
 399;168;132;227;Gohma Mire;x
-400;0;135;0;Like-Lika;x#Tree Rename
+400;0;135;0;Like-Lika;x#Tree 
 401;42;138;128;Sinking Swamp;x
 402;84;141;1;Turongo Wetlands;x
-403;126;144;129;Restoring Falls;x#Tree Rename
+403;126;144;129;Restoring Falls;x#Tree 
 404;168;147;2;Saltmarsh;x
 405;0;150;130;Morango;x
 406;42;153;3;Reed Hills;x
 407;84;156;131;Hylia Bog;x
 408;126;159;4;Portville;x
 409;168;162;132;Toprango;x
-410;0;165;5;Village of the Blue Maiden;x
+410;0;165;5;Volo;x#DoM
 411;42;168;133;Cave of No Return;x
 412;84;171;6;Guild Road;x
 413;126;174;134;Ice Cave;x
@@ -446,7 +446,7 @@ province;red;green;blue;x;x
 445;0;57;150;Eastern Tower;x
 446;42;60;23;Goriya Keep;x
 447;84;63;151;Lynel Labyrinth;x
-448;126;66;24;Odolwa Forest;x #Tree rename
+448;126;66;24;Odolwa Forest;x #Tree 
 449;168;69;152;Hylia Lakeside;x #sacred grove
 450;0;72;25;Bridge Island;x
 451;42;75;153;Sun Island;x
@@ -476,7 +476,7 @@ province;red;green;blue;x;x
 475;0;147;165;Sleepless Waterfalls;x
 476;42;150;38;Frog Marsh;x
 477;84;153;166;Zoras River;x #zora domain
-478;126;156;39;Cawing Grove;x #Tree Rename
+478;126;156;39;Cawing Grove;x #Tree 
 479;168;159;167;West Castle Town;x
 480;0;162;40;East Castle Town;x
 481;42;165;168;Central Castle Town;x
@@ -640,17 +640,17 @@ province;red;green;blue;x;x
 639;168;0;147;North Minish Plains;x#mf10
 640;0;3;20;Central Minish Plains;x#mf10
 641;42;6;148;East Minish Plains;x#mf10
-642;84;9;21;South Minish Plains;x#mf10
+642;84;9;21;Horai;x#DoM
 643;126;12;149;West Minish Plains;x#mf10
 644;168;15;22;Port Minish;x#ms7
 645;0;18;150;Jewel Mines;x#mm
 646;42;21;23;Earth Temple;x#mm
 647;84;24;151;Acacia Island;x#ms7
-648;126;27;24;North Acacia Savannah;x#ms7
-649;168;30;152;East Acacia Savannah;x#ms7
-650;0;33;25;South Acacia Savannah;x#ms7
-651;42;36;153;West Acacia Savannah;x#ms7
-652;84;39;26;Acacia Point;x#minish end#ms7
+648;126;27;24;Red City;x#DoM
+649;168;30;152;Rova;x#DoM
+650;0;33;25;Vada;x#DoM
+651;42;36;153;Meijh;x#DoM
+652;84;39;26;Varolu;x#DoM
 653;126;42;154;Zatara;x
 654;168;45;27;Forest Temple;x#forest#KF
 655;0;48;155;Sacred Forest Meadow;x#KF
@@ -659,7 +659,7 @@ province;red;green;blue;x;x
 658;126;57;29;Kokiri Lost Woods;x#KF
 659;168;60;157;Kokiri;x#KF
 660;0;63;30;Great Deku Tree Grove;x#KF
-661;42;66;158;Goron River;x#Uninhabited
+661;42;66;158;Kelu;x#DoM
 662;84;69;31;West Kokiri Forest;x##KF
 663;126;72;159;South Kokiri Forest;x#KF
 664;168;75;32;East Kokiri Forest;x#KF
@@ -675,7 +675,7 @@ province;red;green;blue;x;x
 674;168;105;37;Hylia Road;x
 675;0;108;165;Stalkades;x#
 676;42;111;38;Baga Woods;x
-677;84;114;166;Sindella;x#Wizzrobe Rename
+677;84;114;166;Sindella;x#Wizzrobe 
 678;126;117;39;Stalkid Woods;x
 679;168;120;167;Haunted Woods;x
 680;0;123;40;Labyrinth Temple;x
@@ -693,7 +693,7 @@ province;red;green;blue;x;x
 692;84;159;46;Baba Forest;x#KF
 693;126;162;174;Manhandla Forest;x#KF
 694;168;165;47;Diababa Woods;x#KF
-695;0;168;175;Deku Road;x
+695;0;168;175;Vutit;x#Dom
 696;42;171;48;Dekuvia;x
 697;84;174;176;Deku Palace;x
 698;126;177;49;Swamp Temple;x
@@ -705,13 +705,13 @@ province;red;green;blue;x;x
 704;168;195;52;Deku Forest;x
 705;0;198;180;West Deku Forest;x
 706;42;201;53;Forest Tradeposts;x
-707;84;204;181;North Deku Forest;x
+707;84;204;181;Hein;x#Yeti Forest
 708;126;207;54;Maze Woods;x
 709;168;210;182;Dark Woods;x
 710;0;0;55;South Deku Forest;x
-711;42;3;183;Dusty Bogs;x
+711;42;3;183;Quicksand Dunes;x
 712;84;6;56;Deku River;x
-713;126;9;184;Fire Woods;x
+713;126;9;184;Fire Woods;x#Maze Woods
 714;168;12;57;Business Lodges;x
 715;0;15;185;Scrub Road;x
 716;42;18;58;Scrubavia;x
@@ -738,7 +738,7 @@ province;red;green;blue;x;x
 737;84;81;196;Cucco Woods;x
 738;126;84;69;Gohma Hollows;x
 739;168;87;197;Gohma Woods;x
-740;0;90;70;Gohma Forest;x
+740;0;90;70;Otin;x#Yeti Forest
 741;42;93;198;Deku Flower Woods;x
 742;84;96;71;Dekugates;x
 743;126;99;199;Dekublin Woods;x
@@ -757,7 +757,7 @@ province;red;green;blue;x;x
 756;42;138;78;Fairy Forest;x
 757;84;141;206;Fountain Woods;x
 758;126;144;79;Spring Forest;x
-759;168;147;207;Whisp Woods;x
+759;168;147;207;Vosia;x#Yeti Forest
 760;0;150;80;Lanayru Spring;x
 761;42;153;208;Eldin Caves;x
 762;84;156;81;Hehay;x#hoho
@@ -770,7 +770,7 @@ province;red;green;blue;x;x
 769;168;177;212;Wosu Wastes;x
 770;0;180;85;Darknut Cliffs;x
 771;42;183;213;Cliff Bastions;x
-772;84;186;86;River Fork;x
+772;84;186;86;Hyve;x#Yeti Forest
 773;126;189;214;Desert of Death;x
 774;168;192;87;Darknut Valley;x
 775;0;195;215;Jackal Desert;x
@@ -793,30 +793,30 @@ province;red;green;blue;x;x
 792;84;33;96;Cambion;x
 793;126;36;224;Taliesium;x
 794;168;39;97;Calatia;x #calatia
-795;0;42;225;Encyra;x
+795;0;42;225;Encyra;x#Gerudo
 796;42;45;98;Thyrgia;x
 797;84;48;226;Bisidia;x
-798;126;51;99;Nenen;x#Koridai Rename
-799;168;54;227;Guitra;x#Koridai Rename
-800;0;57;0;River's End;x#Gerudo Central Rename
-801;42;60;128;Tysia;x
+798;126;51;99;Nenen;x#Koridai 
+799;168;54;227;Guitra;x#Koridai 
+800;0;57;0;River's End;x#Gerudo Central 
+801;42;60;128;Kiami;x#Yeti Forest
 802;84;63;1;Karia;x
 803;126;66;129;Toris;x
 804;168;69;2;Zmyrna;x
 805;0;72;130;Ieolis;x
-806;42;75;3;Droad;x
+806;42;75;3;Keatichi;x#Keatonia New
 807;84;78;131;Droy;x
-808;126;81;4;Nysia;x
-809;168;84;132;Phracia;x
+808;126;81;4;Eastern Pass;x#Mudora
+809;168;84;132;Mikania;x#Keatonia new
 810;0;87;5;Rydia;x
-811;42;90;133;Lhodia;x
-812;84;93;6;Pithinya;x
+811;42;90;133;Atsu;x#Keatonia new
+812;84;93;6;Hoimo;x#Keatonia new
 813;126;96;134;Pyzantion;x
-814;168;99;7;;x#Removed
-815;0;102;135;Licaea;x
+814;168;99;7;Nukatara;x#Keatonia new
+815;0;102;135;Shitara;x#Keatonia new
 816;42;105;8;Bergamon;x
-817;84;108;136;Aphesos;x
-818;126;111;9;Ogor;x#Tolemac rename
+817;84;108;136;Sabru;x#Wind New
+818;126;111;9;Ogor;x#Tolemac 
 819;168;114;137;Maxos;x
 820;0;117;10;Grete;x
 821;42;120;138;Semnos;x
@@ -826,7 +826,7 @@ province;red;green;blue;x;x
 825;0;132;140;Rycaonia;x
 826;42;135;13;Bamphylia;x
 827;84;138;141;Zilicia;x
-828;126;141;14;Finbam;x#tolemac rename
+828;126;141;14;Finbam;x#tolemac 
 829;168;144;142;Darsos;x
 830;0;147;15;Davia;x
 831;42;150;143;Bessinus;x
@@ -834,15 +834,15 @@ province;red;green;blue;x;x
 833;126;156;144;Cayseria;x
 834;168;159;17;Dyana;x
 835;0;162;145;Ruwiya;x
-836;42;165;18;;x#Renamed
-837;84;168;146;Edana;x
+836;42;165;18;Gerudo Pass;x#Gerudo
+837;84;168;146;;x#empty
 838;126;171;19;Sephyrion;x
 839;168;174;147;Uzinis;x
 840;0;177;20;Drapezous;x
 841;42;180;148;Gommagene;x
-842;84;183;21;Larob;x#Tolemac need rename
+842;84;183;21;Larob;x#Tolemac need 
 843;126;186;149;Esroene;x
-844;168;189;22;Tordyene;x#Tolemac Rename
+844;168;189;22;Tordyene;x#Tolemac 
 845;0;192;150;Irartu;x
 846;42;195;23;Fin;x#hoho
 847;84;198;151;Lap;x
@@ -948,9 +948,9 @@ province;red;green;blue;x;x
 947;84;72;201;Lake Faron;x
 948;126;75;74;Little Lake Hylia;x
 949;168;78;202;Forest Lake;x
-950;0;81;75;West Lake Calatia;x
-951;42;84;203;East Lake Calatia;x
-952;0;96;205;Pyzantion Sea;x
+950;0;81;75;South Lake Calatia;x
+951;42;84;203;North Lake Calatia;x
+952;0;96;205;Lobnor Sea;x
 953;84;180;56;Eyeglass Lake;x#nonnav
 954;126;183;184;Lake Holodrum;x#nonnav
 955;126;33;159;Midoro Lake;x
@@ -962,7 +962,7 @@ province;red;green;blue;x;x
 961;168;141;177;South Kanalet Moat;x
 962;0;144;50;Lesser Lake Hylia;x
 963;42;147;178;Lake Hytopia;x#non
-964;84;150;51;Pyzantion Cove;x
+964;84;150;51;Acinia Sea;x
 965;126;153;179;South Lake Hylia;x
 966;168;156;52;North Kanalet Moat;x
 967;0;159;180;Catfish River;x
@@ -971,50 +971,50 @@ province;red;green;blue;x;x
 970;168;21;157;Toronbo Sea;x
 971;126;90;149;Yarna Sea;x
 972;168;108;207;Koholint Sea;x
-973;126;78;39;Great Sea1;x
-974;42;27;158;Shipwreck Seas;x
+973;126;78;39;Holodrum Sea;x
+974;42;27;158;Shipwreck Sea;x
 975;126;168;54;Sea of Torrents;x
-976;42;210;153;Labrynna Bay;x
+976;42;210;153;Samasa Sea;x
 977;168;36;32;Sea of Storms;x
-978;0;39;160;Moonlight Bay;x
+978;0;39;160;Zora Sea1;x
 979;0;111;80;Crescent Strait;x
 980;42;12;28;South Bay;x
-981;0;9;155;Yoll Bay;x
+981;0;9;155;Zora Sea2;x
 982;168;51;162;Falsia Sea;x
 983;42;114;208;Tokay Sea;x
 984;42;57;163;Jabunia Bay;x
 985;84;60;36;Pirate Islands;x
-986;126;63;164;Zora Sea;x
-987;168;66;37;Fairy Bay;x
-988;0;69;165;Library Cove;x
+986;126;63;164;Zora Sea3;x
+987;168;66;37;Zora Sea4;x
+988;0;69;165;Deku Sea1;x
 989;42;72;38;North Zora Sea;x#changed
 990;84;75;166;Toka Bay;x#changed
 991;42;6;98;Cove of Storms;x#Changed
-992;168;81;167;Gem Sea;x#removed
-993;0;84;40;Great Sea6;x#removed
+992;168;81;167;Zora Sea5;x
+993;0;84;40;Falsia Sea;x
 994;42;87;168;Sandy Sea;x
 995;84;90;41;Samasa Bay;x
 996;126;93;169;Samasa Sea;x
-997;126;12;99;East Horon Bay;x
+997;126;12;99;Deku Sea1;x
 998;0;99;170;Horon Sea;x
-999;42;102;43;Swelling Sea;x
-1000;84;105;171;Great Sea7;x
-1001;126;108;44;Great Sea8;x
-1002;168;111;172;Great Sea9;x#removed
-1003;0;114;45;Great Sea10;x#removed
-1004;42;117;173;Great Sea11;x#removed
+999;42;102;43;Zora Sea6;x
+1000;84;105;171;Deku Sea2;x
+1001;126;108;44;Kanalet Pass;x
+1002;168;111;172;Gemrajam Sea;x
+1003;0;114;45;Rupeewood Sea;x
+1004;42;117;173;Gem Sea;x
 1005;84;120;46;Holodrum Cove;x
 1006;126;123;174;Tarm Sea;x
 1007;168;126;47;Holodrum Sea;x
-1008;0;129;175;Great Sea12;x#removed
+1008;0;129;175;Gulf of Pearls;x
 1009;168;6;27;Spool Bay;x
-1010;126;18;29;Great Sea13;x#removed
+1010;126;18;29;Gemapana Sea;x
 1011;42;42;33;Hylia Bay;x
 1012;84;57;71;Spool Sea;x
-1013;126;60;199;Great Sea14;x
+1013;126;60;199;Great Gemrana Reef;x
 1014;0;24;30;Canyon Bay;x
 1015;42;177;183;East Hylia Sea;x
-1016;0;174;55;Acacia Bay;x
+1016;0;174;55;Acacia Sea;x
 1017;84;30;31;North Hylia Sea;x
 1018;85;54;6;West Hylia Sea;x 
 1019;84;165;181;South Hylia Sea;x
@@ -1022,104 +1022,104 @@ province;red;green;blue;x;x
 1021;0;189;185;Lothodin Sea;x
 1022;42;192;58;Grindle Bay;x
 1023;84;195;186;Borodour Bay;x
-1024;126;198;59;Great Sea15;x
-1025;168;201;187;Hanman Strait;x
+1024;126;198;59;Hanman Sea2;x
+1025;168;201;187;Hanman Sea3;x
 1026;0;204;60;Maelgryn Cape;x
 1027;42;207;188;Borodour Sea;x
-1028;84;210;61;Great Sea16;x#removed
+1028;84;210;61;Edia Sea;x#Moria Sea
 1029;126;0;189;Great Sea17;x
 1030;168;3;62;Morpheel Reefs;x
-1031;0;6;190;Bawang Bight;x
-1032;42;9;63;Lusung Strait;x
-1033;84;12;191;Kaliman Strait;x
-1034;126;15;64;Daya Strait;x
+1031;0;6;190;Dirn Bight;x#Moria Sea
+1032;42;9;63;Sanbu Strait;x#Moria Sea
+1033;84;12;191;Octo Reef;x#Moria Sea
+1034;126;15;64;Viang Gulf;x
 1035;168;18;192;Splitting Sea;x
-1036;0;21;65;Kukiel Sea;x
+1036;0;21;65;Kimchi Strait;x
 1037;42;24;193;Mothers Bay;x
 1038;84;27;66;Hanman Bay;x
-1039;169;135;147;Gorlang Bight;x
+1039;169;135;147;Suliming Bight;x
 1040;1;138;20;Singing Strait;x
-1041;43;141;148;Merchants Strait;x
-1042;85;144;21;Lachen Gulf;x
+1041;43;141;148Cape of Hanman;;x
+1042;85;144;21;Hanman Gulf;x
 1043;127;147;149;Kambujaya Gulf;x
-1044;169;150;22;Central Hanman Sea;x
-1045;1;153;150;Nisiam Bight;x
-1046;43;156;23;Laning Bay;x
-1047;85;159;151;Deku Bay;x
-1048;127;162;24;Blue Maiden Bay;x
-1049;169;165;152;West Hanman Sea;x
-1050;1;168;25;South Hanman Sea;x
-1051;43;171;153;East Hanman Sea;x
-1052;85;174;26;North Hanman Sea;x
-1053;127;177;154;Gulf of Pearls;x
-1054;169;180;27;Great Sea18;x
-1055;1;183;155;Great Sea19;x
+1044;169;150;22;Hanman Sea;x
+1045;1;153;150;Sinwei Bight;x
+1046;43;156;23;Viapa Bay;x
+1047;85;159;151;Ruto Sea;x#Calatia Sea
+1048;127;162;24;Arcadia Sea1;x
+1049;169;165;152;Arcadia Sea2;x
+1050;1;168;25;Arcadia Sea3;x
+1051;43;171;153;Gamelon Sea1;x
+1052;85;174;26;Gamelon Sea2;x
+1053;127;177;154;Saria Sea1;x
+1054;169;180;27;Saria Sea2;x
+1055;1;183;155;Saria Sea3;x
 1056;43;186;28;Japuree Bay;x
 1057;85;189;156;Gulf of Gems;x
 1058;127;192;29;Morpheel Cape;x
 1059;169;195;157;Northern Trench;x
-1060;1;198;30;Simang Strait;x
-1061;43;201;158;Seludong Coast;x
-1062;85;204;31;Paiwei Gulf;x
-1063;127;207;159;Kanru Bay;x
-1064;169;210;32;Yami Strait;x
-1065;1;0;160;Bunam Sea;x
-1066;43;3;33;Nurung Swells;x
-1067;85;6;161;Thao Strait;x
-1068;127;9;34;Ataya Bay;x
-1069;169;12;162;Siayasi Sea;x
-1070;1;15;35;Stepping Straits;x
-1071;43;18;163;Stepping Sea;x
+1060;1;198;30;Moria Sea1;x
+1061;43;201;158;Moria Sea2;x
+1062;85;204;31;Moria Sea3;x
+1063;127;207;159;Saria Sea4;x
+1064;169;210;32;Hanman Sea;x
+1065;1;0;160;Bergamon Sea;x#Calatia Sea
+1066;43;3;33;Cape of Uzinis;x#Calatia Sea
+1067;85;6;161;Bessinus Sea;x#Calatia Sea
+1068;127;9;34;Davia Gulf;x#Calatia Sea
+1069;169;12;162;Baphlagoina Cove;x#Calatia Sea
+1070;1;15;35;Orca Sea;x
+1071;43;18;163;Orca Sea;x
 1072;85;21;36;Port Sea;x
 1073;127;24;164;Port Bay;x
-1074;169;27;37;Port Strait;x
+1074;169;27;37;Orca Sea;x
 1075;1;30;165;Sunshine Sea;x
-1076;43;33;38;Treasure Bay;x
-1077;85;36;166;Treasure Cape;x
+1076;43;33;38;Zanukuni Sea;x
+1077;85;36;166;Zunaza Sea;x
 1078;127;39;39;Lon Lon Strait;x
 1079;169;42;167;Sunshine Gulf;x
 1080;1;45;40;Deku Strait;x
 1081;43;48;168;Lon Lon Sea;x
 1082;85;51;41;Cape Deku;x
 1083;127;54;169;Deku Sea;x
-1084;169;57;42;Seroa Gulf;x
-1085;1;60;170;Porapa Bay;x
-1086;43;63;43;Tingle Sea;x
-1087;85;66;171;East Ruchuwa Sea;x
-1088;127;69;44;Huodan Sea;x
-1089;169;72;172;Jinghan Bight;x
-1090;1;75;45;West Ruchuwa Sea;x
-1091;43;78;173;East Arang Bay;x
-1092;85;81;46;Morusego Sea;x
-1093;127;84;174;West Arang Bay;x
+1084;169;57;42;Penguin Sea Sea;x
+1085;1;60;170;Moridunon Gulf;x
+1086;43;63;43;Fab Bay;x
+1087;85;66;171;Hytopia Sea;x
+1088;127;69;44;Zunartu Sea;x=
+1089;169;72;172;Pardesu Sea;x
+1090;1;75;45;Pardesu Strait;x
+1091;43;78;173;Red Sea;x
+1092;85;81;46;Red Sea;x
+1093;127;84;174;Anubisia Sea;x
 1094;169;87;47;Gulf of Unicorns;x
-1095;1;90;175;Puyeo Bay;x
+1095;1;90;175;Sebeth Sea;x
 1096;43;93;48;Curtania Bay;x
-1097;85;96;176;Joyeusia Sea;x
-1098;127;99;49;Daemashi Sea;x
+1097;85;96;176;Cyclone Sea;x
+1098;127;99;49;Sea of Reeds;x
 1099;169;102;177;Arcadia Bay;x
-1100;1;105;50;Kinish Sea;x
-1101;43;108;178;Kabichi Strait;x
-1102;85;111;51;Pausania Bay;x
-1103;127;114;179;Sajidao Strait;x
-1104;169;117;52;Odori Bay;x
-1105;1;120;180;Iburu Sea;x
+1100;1;105;50;Zazia Sea;x
+1101;43;108;178;Zazia Sea;x
+1102;85;111;51;Galeia Sea;x
+1103;127;114;179;Monsoon Sea;x
+1104;169;117;52;Grain Sea;x
+1105;1;120;180;Grain Sea;x
 1106;43;123;53;Lyonia Strait;x
-1107;85;126;181;Yezima Sea;x
+1107;85;126;181;Ebony Sea;x
 1108;127;129;54;Wosuia Sea;x
 1109;126;30;194;Skotness Gulf;x
 1110;168;33;67;Hobel Cape;x
 1111;0;36;195;Vendoss Bay;x
-1112;85;141;56;Shanghua Sea;x
+1112;85;141;56;Comenia Sea;x
 1113;127;144;184;Subasha Gulf;x
 1114;169;147;57;Subasha Sea;x
 1115;1;150;185;Captains Sea;x
-1116;43;153;58;Ensilon Bay;x
+1116;43;153;58;Zunai Sea;x
 1117;85;156;186;Triplet Straits;x
 1118;127;159;59;Tolemac Gulf;x
-1119;169;162;187;Eldin Lakes;x
+1119;169;162;187;Oberon Lake;x
 1120;1;165;60;Eldin Bay;x
-1121;43;168;188;Oberon Cove;x
+1121;43;168;188;Nolava Cove;x
 1122;85;171;61;Spryte Bay;x
 1123;127;174;189;Fairy Strait;x
 1124;169;177;62;Moblinia Bay;x
@@ -1132,10 +1132,10 @@ province;red;green;blue;x;x
 1131;43;198;193;Reesong Sea;x
 1132;85;201;66;Sakado Sea;x
 1133;127;204;194;Kasuto Sea;x
-1134;169;207;67;Gamelon Sea;x
+1134;169;207;67;Zunai Sea;x
 1135;1;210;195;Calatia Gulf;x
 1136;43;0;68;Myu Sea;x
-1137;85;3;196;Kasuto Striat;x
+1137;85;3;196;Great Sea;x
 1138;127;6;69;Palace Strait;x
 1139;169;9;197;Parutamu Bay;x
 1140;1;12;70;Parapa Gulf;x
@@ -1163,67 +1163,67 @@ province;red;green;blue;x;x
 1162;85;78;81;Tantari Bay;x
 1163;127;81;209;Koridai Bay;x
 1164;169;84;82;Cotko Sea;x
-1165;1;87;210;Ontioch Sea;x
+1165;1;87;210;Zunai Sea;x
 1166;43;90;83;Koridai Sea;x
 1167;85;93;211;South Suroro Sea;x
 1168;127;96;84;Aland Sea;x
 1169;169;99;212;Keski Sea;x
 1170;1;102;85;Kymentutna Sea;x
 1171;43;105;213;Vars Sea;x
-1172;85;108;86;Bellum Depths;x
-1173;127;111;214;Ghost Sea;x
+1172;85;108;86;Zunai Sea;x
+1173;127;111;214;Great Sea;x
 1174;169;114;87;Phantom Cove;x
 1175;1;117;215;Bakaa Sea;x
-1176;43;120;88;Bay of Seals;x
-1177;85;123;216;Shivering Bay;x
-1178;127;126;89;Ciela Sea;x
+1176;43;120;88;Great Sea;x
+1177;85;123;216;Great Sea;x
+1178;127;126;89;Great Sea;x
 1179;169;129;217;Northern Howgendoogen Sea;x
 1180;1;132;90;Atula Sea;x
 1181;43;135;218;Central Howgendoogen Sea;x
 1182;85;138;91;Prsuu Sea;x
-1183;127;141;219;Oshus Sea;x
+1183;127;141;219;Mother's Sea;x
 1184;169;144;92;Pars Sea;x
 1185;1;147;220;Isle Straits;x
-1186;43;150;93;Penguin Bay;x
-1187;85;153;221;Borga Strait;x
-1188;127;156;94;Salo Strait;x
-1189;169;159;222;Borga Cove;x
+1186;43;150;93;Great Sea;x
+1187;85;153;221;Great Sea;x
+1188;127;156;94;Lynaria Sea;x
+1189;169;159;222;Lynaria Sea;x
 1190;1;162;95;Num Cove;x
-1191;43;165;223;Rii Strait;x
+1191;43;165;223;;x
 1192;85;168;96;South Howgendoogen Sea;x
 1193;127;171;224;Hamn Coves;x
-1194;169;174;97;Mikk Cove;x
+1194;169;174;97;Gerudo Sea;x
 1195;1;177;225;Sala Cove;x
-1196;43;180;98;Lojo Cove;x
+1196;43;180;98;Gyorg Sea;x
 1197;85;183;226;Sala Cove;x
-1198;127;186;99;Ho Ho Coves;x
+1198;127;186;99;Gyorg Sea;x
 1199;169;189;227;Kuopka Cove;x
-1200;1;192;0;Jyvaaska Coves;x
+1200;1;192;0Gyorg Sea;;x
 1201;43;195;128;Kemi Coves;x
-1202;85;198;1;Kouv Coves;x
-1203;127;201;129;Kokk Straits;x
-1204;169;204;2;Kotka Cove;x
-1205;1;207;130;Marie Bay;x
+1202;85;198;1;Faron Sea;x
+1203;127;201;129;Faron Sea;x
+1204;169;204;2;Faron Sea;x
+1205;1;207;130;Faron Sea;x
 1206;43;210;3;Mantsa Strait;x
-1207;85;0;131;Orca Sea;x
-1208;127;3;4;Ho Ho Sea;x
+1207;85;0;131;Gerudo Sea;x
+1208;127;3;4;Necluda Sea;x
 1209;169;6;132;Codile Sea;x
-1210;1;9;5;Codile Bay;x
-1211;43;12;133;Codile Bay;x
+1210;1;9;5;Codile Sea;x
+1211;43;12;133;Icy Sea;x
 1212;85;15;6;Iceberg Sea;x
 1213;127;18;134;Gooey Sea;x
 1214;169;21;7;Steamy Sea;x
 1215;1;24;135;Icy Sea;x
 1216;43;27;8;Aeron Sea;x
-1217;85;30;136;Kyrk Sea;x
-1218;127;33;9;Moridunon Sea;x
+1217;85;30;136;Jubjoma Sea;x
+1218;127;33;9;Palmorya Sea;x
 1219;169;36;137;Snowball Sea;x
-1220;1;39;10;Muddy Sea;x
-1221;43;42;138;Silver Sea;x
+1220;1;39;10;Necluda Sea;x
+1221;43;42;138;Great Reef;x
 1222;85;45;11;Sky Sea;x
-1223;127;48;139;Sea of Trials;x
+1223;127;48;139;Toribanu Sea;x
 1224;169;51;12;Sea of Trials;x
-1225;1;54;140;Ho Ho Sea;x
+1225;1;54;140;Manatee Forest;x
 1226;43;57;13;Dune Sea;x
 1227;85;60;141;Spirit Sea;x
 1228;127;63;14;Spirit Sea;x
@@ -1232,32 +1232,32 @@ province;red;green;blue;x;x
 1231;43;72;143;Spirit Sea;x
 1232;85;75;16;Spirit Sea;x
 1233;127;78;144;Spirit Sea;x
-1234;169;81;17;Spirit Trench;x
-1235;1;84;145;Steamy Sea;x
-1236;43;87;18;Drab Sea;x
-1237;85;90;146;Drab Sea;x
-1238;127;93;19;Drab Sea;x
-1239;169;96;147;Infinite Sea;x
-1240;1;99;20;Pyramid Sea;x
-1241;43;102;148;Zuna Sea;x
-1242;85;105;21;Infinite Sea;x
-1243;127;108;149;Infinite Sea;x
+1234;169;81;17;Fairy Reef;x
+1235;1;84;145;Isongo Sea;x
+1236;43;87;18;Mawakoba Sea;x
+1237;85;90;146;Gem Sea;x
+1238;127;93;19;Desma Sea;x
+1239;169;96;147;Gem Sea;x
+1240;1;99;20;Palmorya Sea;x
+1241;43;102;148;Tempest Sea;x
+1242;85;105;21;Necluda Sea;x
+1243;127;108;149;Akkala Sea;x
 1244;169;111;22;Spirit Sea;x
-1245;1;114;150;Zuna Sea;x
-1246;43;117;23;Zuna Sea;x
-1247;85;120;151;Zuna Sea;x
-1248;127;123;24;Cobble Sea;x
-1249;169;126;152;Gravel Sea;x
-1250;1;129;25;Gravel Sea;x
-1251;43;132;153;Gravel Sea;x
-1252;85;135;26;Cobble Sea;x
-1253;127;138;154;Cobble Sea;x
-1254;169;141;27;Cobble Sea;x
-1255;1;144;155;Gravel Sea;x
-1256;43;147;28;Gravel Sea;x
-1257;85;150;156;Gravel Sea;x
+1245;1;114;150Ployamus Sea;;x#new sea
+1246;43;117;23;Akkala Sea;x#new sea
+1247;85;120;151;Mangrove Sea;x#new sea
+1248;127;123;24;Keatonia Bay;x#new sea
+1249;169;126;152;Minish Sea;x#new sea
+1250;1;129;25;Minish Sea;x#new sea
+1251;43;132;153;Necluda Sea;x#removed sea
+1252;85;135;26;;x#removed sea
+1253;127;138;154;;x#Zora Lake
+1254;169;141;27;;x#Zora Lake
+1255;1;144;155;;x#Zora Lake
+1256;43;147;28;;x#Zora Lake
+1257;85;150;156;;x#Zora Lake
 1258;127;153;29;Papuchia Strait;x
-1259;169;156;157;Gravel Sea;x
+1259;169;156;157;;x#Zora Lake
 1260;1;159;30;Spirit Cove;x
 1261;43;162;158;Pirate Sea;x
 1262;85;165;31;Papuchia Strait;x
@@ -1267,86 +1267,86 @@ province;red;green;blue;x;x
 1266;43;177;33;Spirit Sea;x
 1267;85;180;161;Great Sea20;x
 1268;127;183;34;Spirit Sea;x
-1269;169;186;162;Pebble Sea;x
-1270;1;189;35;Pebble Sea;x
+1269;169;186;162;;x#Zora Lake
+1270;1;189;35;;x#removed sea
 1271;43;192;163;Great Sea;x
 1272;85;195;36;Papuchia Sea;x
 1273;127;198;164;Great Sea;x
-1274;169;201;37;Pebble Sea;x
-1275;1;204;165;Gravel Sea;x
+1274;169;201;37;;x#removed sea
+1275;1;204;165;;x#removed sea
 1276;43;207;38;Great Sea21;x
 1277;85;210;166;Great Sea22;x
 1278;127;0;39;Great Sea23;x
-1279;169;3;167;Cobble Sea;x
-1280;1;6;40;Infinite Sea;x
-1281;43;9;168;Infinite Sea;x
+1279;169;3;167;;x#removed sea
+1280;1;6;40;;x#removed sea
+1281;43;9;168;;x#removed sea
 1282;85;12;41;Great Sea24;x
 1283;127;15;169;Great Sea25;x
-1284;169;18;42;Gravel Sea;x
-1285;1;21;170;Gravel Sea;x
-1286;43;24;43;Pebble Sea;x
-1287;85;27;171;Pebble Sea;x
-1288;127;30;44;Pebble Sea;x
-1289;169;33;172;Pebble Sea;x
-1290;1;36;45;Pebble Sea;x
-1291;43;39;173;Pebble Sea;x
-1292;85;42;46;Mason Sea;x
-1293;127;45;174;Mason Sea;x
-1294;169;48;47;Mason Sea;x
-1295;1;51;175;Mason Sea;x
-1296;43;54;48;Mason Sea;x
-1297;85;57;176;Mason Sea;x
-1298;127;60;49;Mason Sea;x
-1299;169;63;177;Mason Sea;x
-1300;1;66;50;Mason Sea;x
-1301;43;69;178;Mason Sea;x
-1302;85;72;51;Mason Sea;x
-1303;127;75;179;Mason Sea;x
-1304;169;78;52;Mason Sea;x
-1305;1;81;180;Mason Sea;x
-1306;43;84;53;Mason Sea;x
-1307;85;87;181;Comani Sea;x
-1308;127;90;54;Comani Sea;x
-1309;169;93;182;Comani Sea;x
+1284;169;18;42;;x#removed sea
+1285;1;21;170;;x#removed sea
+1286;43;24;43;;x#removed sea
+1287;85;27;171;;x#removed sea
+1288;127;30;44;;x#removed sea
+1289;169;33;172;;x#removed sea
+1290;1;36;45;;x#removed sea
+1291;43;39;173;;x#removed sea
+1292;85;42;46;;x#removed sea
+1293;127;45;174;;x#removed sea
+1294;169;48;47;;x#removed sea
+1295;1;51;175;;x#removed sea
+1296;43;54;48;;x#removed sea
+1297;85;57;176;;x#removed sea
+1298;127;60;49;;x#removed sea
+1299;169;63;177;;x#removed sea
+1300;1;66;50;;x#removed sea
+1301;43;69;178;;x#removed sea
+1302;85;72;51;;x#removed sea
+1303;127;75;179;;x#removed sea
+1304;169;78;52;;x#removed sea
+1305;1;81;180;;x#removed sea
+1306;43;84;53;;x#removed sea
+1307;85;87;181;;x#removed sea
+1308;127;90;54;;x#removed sea
+1309;169;93;182;;x#removed sea
 1310;1;96;55;Sea of Despair;x
-1311;43;99;183;Cobble Sea;x
-1312;85;102;56;Cobble Sea;x
-1313;127;105;184;Comani Sea;x
-1314;169;108;57;Comani Sea;x
-1315;1;111;185;Comani Sea;x
-1316;43;114;58;Gem Sea;x
+1311;43;99;183;;x#removed sea
+1312;85;102;56;;x#removed sea
+1313;127;105;184;;x#removed sea
+1314;169;108;57;;x#removed sea
+1315;1;111;185;;x#removed sea
+1316;43;114;58;Gem Sea1;x
 1317;85;117;186;Great Sea26;x
-1318;127;120;59;Fairy Sea;x
-1319;169;123;187;Desma Sea;x
-1320;1;126;60;Gem Sea;x
-1321;43;129;188;Gem Sea;x
+1318;127;120;59;;x#removed sea
+1319;169;123;187;;x#removed sea
+1320;1;126;60;Gem Sea2;x
+1321;43;129;188;;x#Gem sea rename
 1322;85;132;61;Great Sea27;x
-1323;127;135;189;Gem Sea;x
-1324;169;138;62;Gem Sea;x
-1325;1;141;190;Gem Sea;x
-1326;43;144;63;Gem Sea;x
-1327;85;147;191;Gem Sea;x
-1328;127;150;64;Gem Sea;x
-1329;169;153;192;Gem Sea;x
-1330;1;156;65;Gem Sea;x
-1331;43;159;193;Gem Sea;x
-1332;85;162;66;Gem Sea;x
-1333;127;165;194;Gem Sea;x
-1334;169;168;67;Gem Sea;x
-1335;1;171;195;Gem Sea;x
-1336;43;174;68;Gem Sea;x
-1337;85;177;196;Gem Sea;x
-1338;127;180;69;Gem Sea;x
-1339;169;183;197;Gem Sea;x
-1340;1;186;70;Great Sea;x
+1323;127;135;189;Gemdevi Sea;x
+1324;169;138;62;Onyx Sea;x
+1325;1;141;190;Beryl Sea;x
+1326;43;144;63;Gemdevi Sea;x
+1327;85;147;191;;x#gem sea rename
+1328;127;150;64;Tinglewood Sea;x
+1329;169;153;192;Rubyfield Sea1;x
+1330;1;156;65;Ruby Sea;x
+1331;43;159;193;Rubyfield Sea;x
+1332;85;162;66;Bay of Rupee;x
+1333;127;165;194;Rupee Sea;x
+1334;169;168;67;Rupee Sea;x
+1335;1;171;195;Sapphire Sea;x
+1336;43;174;68;Gem Sea3;x
+1337;85;177;196;Gem Sea4;x
+1338;127;180;69;Gem Sea5;x
+1339;169;183;197;Rupee Sea;x
+1340;1;186;70;Gem Sea6;x
 1341;43;189;198;Great Sea;x
 1342;85;192;71;Great Sea;x
 1343;127;195;199;Great Sea;x
 1344;169;198;72;Great Sea;x
-1345;1;201;200;Gem Sea;x
-1346;43;204;73;Gem Sea;x
-1347;85;207;201;Gem Sea;x
-1348;127;210;74;Mason Sea;x
+1345;1;201;200;Gem Sea7;x
+1346;43;204;73;Gem Sea8;x
+1347;85;207;201;Gem Sea9;x
+1348;127;210;74;Gem Sea10;x
 1349;169;0;202;Rupee River;x
 1350;1;3;75;Rupee River;x
 1351;43;6;203;Rupee River;x
@@ -1476,7 +1476,7 @@ province;red;green;blue;x;x
 1475;1;165;165;Fabland Road;x
 1476;43;168;38;Hytopia March;x
 1477;85;171;166;Howling Waste;x
-1478;127;174;39;Sword Dunes;x#Darknut Rename
+1478;127;174;39;Sword Dunes;x#Darknut 
 1479;169;177;167;Howling Sands;x
 1480;1;180;40;Todia;x
 1481;43;183;168;Takkurimakan;x
@@ -1492,15 +1492,15 @@ province;red;green;blue;x;x
 1491;43;0;173;Great Pyramids;x
 1492;85;3;46;Desert of Doubt;x
 1493;127;6;174;Zunaria;x
-1494;169;9;47;Wind Woods;x#Tree Rename
+1494;169;9;47;Wind Woods;x#Tree 
 1495;1;12;175;Zunadin;x
 1496;43;15;48;Zunandria;x
 1497;85;18;176;Zunadad;x
 1498;127;21;49;Edinna;x
 1499;169;24;177;Pardesu;x
 1500;1;27;50;Tilmun;x
-1501;43;30;178;Armour Sands;x#Tree Rename
-1502;85;33;51;Tsar Woods;x#Tree Rename
+1501;43;30;178;Armour Sands;x#Tree 
+1502;85;33;51;Tsar Woods;x#Tree 
 1503;127;36;179;Zunalon;x
 1504;169;39;52;Zunartu;x
 1505;1;42;180;Zunasa;x
@@ -1509,7 +1509,7 @@ province;red;green;blue;x;x
 1508;127;51;54;Zunantion;x
 1509;169;54;182;Zunaza;x
 1510;1;57;55;Zunaten;x
-1511;43;60;183;Betrayer's Field;x#Darknut Rename
+1511;43;60;183;Keatomo;x#Keatonia
 1512;85;63;56;Zunabal;x
 1513;127;66;184;Zunalmyra;x
 1514;169;69;57;Tower of Spirits;x
@@ -1691,33 +1691,33 @@ province;red;green;blue;x;x
 1690;1;171;45;Mermaid Cove;x
 1691;43;174;173;Nakuri;x
 1692;85;177;46;Eldoja;x
-1693;127;180;174;Jubjoma;x
-1694;169;183;47;Obale;x
-1695;1;186;175;Nawhururu;x
+1693;127;180;174;Jubjoma;x#island
+1694;169;183;47;Obale;x#island
+1695;1;186;175;Nawhururu;x#island
 1696;43;189;48;Kichongo;x
-1697;85;192;176;Habindu;x
-1698;127;195;49;Mwakoba;x
-1699;169;198;177;Isongo;x
-1700;1;201;50;Mahatangu;x
-1701;43;204;178;Antanahana;x
+1697;85;192;176;Habindu;x#island
+1698;127;195;49;Mwakoba;x#island
+1699;169;198;177;Isongo;x#island
+1700;1;201;50;Mahatangu;x#island
+1701;43;204;178;Antanahana;x#island
 1702;85;207;51;Fisher Island;x
 1703;127;210;179;Coral Island;x
 1704;169;0;52;Yamaunza;x
-1705;1;3;180;Yamakabare;x
+1705;1;3;180;Yamakabare;x#island
 1706;43;6;53;Yamayanga;x
-1707;85;9;181;Takamarundi;x
-1708;127;12;54;Kimbasosoo;x
+1707;85;9;181;Takamarundi;x#island
+1708;127;12;54;Kimbasosoo;x#island
 1709;169;15;182;Yamatingi;x
 1710;1;18;55;Lowassi;x
 1711;43;21;183;Nombokiki;x
-1712;85;24;56;Toribanu;x
+1712;85;24;56;Toribanu;x#island
 1713;127;27;184;Ikkabu;x
-1714;169;30;57;Oporoiti;x
+1714;169;30;57;Oporoiti;x#island
 1715;1;33;185;Kinpobo;x
-1716;43;36;58;Tarra;x#New rename
-1717;85;39;186;Yemir;x#New rename
-1718;127;42;59;Hrava;x #New Rename
-1719;169;45;187;Ixorra;x #New rename
+1716;43;36;58;Tarra;x
+1717;85;39;186;Yemir;x
+1718;127;42;59;Hrava;x 
+1719;169;45;187;Ixorra;x 
 1720;1;48;60;Trogolya;x
 1721;43;51;188;Bannanetia;x
 1722;85;54;61;Sinakin;x
@@ -1789,8 +1789,8 @@ province;red;green;blue;x;x
 1788;127;39;94;Gust Springs;x
 1789;169;42;222;Gust Highlands;x
 1790;1;45;95;Gustia;x
-1791;43;48;223;Mosax;x#New Rename
-1792;85;51;96;Misir;x#new Rename
+1791;43;48;223;Mosax;x#New 
+1792;85;51;96;Misir;x#new 
 1793;127;54;224;Frogmesa;x
 1794;169;57;97;Sandstorm Waste;x
 1795;1;60;225;Dustville;x
@@ -1837,7 +1837,7 @@ province;red;green;blue;x;x
 1836;43;183;18;Gyorgtooth Point;x
 1837;85;186;146;Lionwood;x
 1838;127;189;19;Roaring Jungles;x
-1839;169;192;147;Lyzonia;x
+1839;169;192;147;Eabo;x#Wind New
 1840;1;195;20;Lynaria;x
 1841;43;198;148;Lyport;x
 1842;85;201;21;Hunting Jungles;x
@@ -1900,23 +1900,23 @@ province;red;green;blue;x;x
 1899;169;159;177;Rivermarsh;x
 1900;1;162;50;Eeno Cliffs;x
 1901;43;165;178;Freezard Caverns;x
-1902;85;168;51;Gates of Comenia;x
+1902;85;168;51;Tsar Mountain;x#Wind New
 1903;127;171;179;Battle Plains;x
-1904;169;174;52;Maple;x#Wizzrobe Rename
-1905;1;177;180;Trying Sands;x#Darknut Rename
-1906;43;180;53;Syrup;x#Wizzrobe Rename
-1907;85;183;181;Armorica;x#Wizzrobe Rename
-1908;127;186;54;Flanking Sands;x#Darknut Rename
-1909;169;189;182;Decimating Desert;x#Uninhabited
-1910;1;192;55;Revealing Dunes;x#Darknut Rename
-1911;43;195;183;Scaled Cliffs;x#Darknut Rename
-1912;85;198;56;Dox's Blood;x#Darknut Rename
-1913;127;201;184;Turncoats Bend;x#Darknut Rename
-1914;169;204;57;Blade Bend;x#Darknut Rename
-1915;1;207;185;Antlion Pits;x#Darknut Rename
-1916;43;210;58;Phalanx Waste;x#Darknut Rename
-1917;85;0;186;Wizzrobe Wastes;x#Darknut Rename
-1918;127;3;59;Judicar's Grounds;x#Darknut Rename
+1904;169;174;52;Maple;x#Wizzrobe 
+1905;1;177;180;Trying Sands;x#Darknut 
+1906;43;180;53;Syrup;x#Wizzrobe 
+1907;85;183;181;Armorica;x#Wizzrobe 
+1908;127;186;54;Treya Slope;x#Hera Mountain
+1909;169;189;182;;x#new
+1910;1;192;55;Revealing Dunes;x#Darknut 
+1911;43;195;183;Slaughter Slope;x#Hera Mountain
+1912;85;198;56;Flame Peak;x#Hera Mountain
+1913;127;201;184;Dry Slope;x#Hera Mountain
+1914;169;204;57;Tower of Hera;x#Hera Mountain
+1915;1;207;185;Antlion Pits;x#Darknut 
+1916;43;210;58;Phalanx Waste;x#Darknut 
+1917;85;0;186;Wizzrobe Wastes;x#Darknut 
+1918;127;3;59;Judicar's Grounds;x#Darknut 
 1919;169;6;187;Nejiron Cliffs;x
 1920;1;9;60;Sheikana Gate;x
 1921;43;12;188;Sheikana Canyon;x
@@ -1944,30 +1944,30 @@ province;red;green;blue;x;x
 1943;127;78;199;Guarded Valley;x
 1944;169;81;72;Sheikrila;x
 1945;1;84;200;Sheikrila Haven;x
-1946;43;87;73;Legion's Founding;x#Darknut Rename
-1947;85;90;201;Idodo;x#ordonia
+1946;43;87;73;Legion's Founding;x#Darknut 
+1947;85;90;201;Northern Pass;x#Hera Mountain
 1948;127;93;74;Viapa;x#hanman
 1949;169;96;202;Skulltula Woods;x#tree
 1950;1;99;75;Deppi Woods;x#tree
-1951;43;102;203;Dorgolia;x #Arcadia rename
-1952;85;105;76;Bori;x #DM rename
-1953;127;108;204;Zaroc;x#DM rename
-1954;169;111;77;Geck;x#DM rename
-1955;1;114;205;Fadde;x#DM rename
-1956;43;117;78;Zennen;x#DM rename
-1957;85;120;206;Kadde;x#DM rename
-1958;127;123;79;Teck;x#DM rename
-1959;169;126;207;Katin;x#South Wind rename
-1960;1;129;80;Egin;x#South Wind rename
-1961;43;132;208;Fovi;x#South Wind rename
-1962;85;135;81;Saran;x#South Wind rename
-1963;127;138;209;Miran;x#South Wind rename
-1964;169;141;82;Luron;x#South Wind rename
-1965;1;144;210;Enon;x#South Wind rename
-1966;43;147;83;Spool Rainforest;x#South Wind rename
-1967;85;150;211;Sparkling Jungle;x#South Wind rename
-1968;127;153;84;Deku Jungle;x#South Wind rename
-1969;169;156;212;Fechsia;x#Falsi
+1951;43;102;203;
+1952;85;105;76;Bori;x #DM 
+1953;127;108;204;Zaroc;x#DM 
+1954;169;111;77;Alilu;x#DoM
+1955;1;114;205;Singing Slope;x#Hera Mountain
+1956;43;117;78;Zennen;x#DM 
+1957;85;120;206;Eldin Mountain;x #Uninhabited
+1958;127;123;79;Teck;x#DM 
+1959;169;126;207;Eldin Mountain;x #Uninhabited
+1960;1;129;80;Zora Mountain;x#Uninhabited
+1961;43;132;208;Edora Mountain;x#Uninhabited
+1962;85;135;81;Snow Mountains;x#Uninhabited
+1963;127;138;209;Way Way Mountain;x#Uninhabited
+1964;169;141;82;Ruto Mountain;x#Uninhabited
+1965;1;144;210;;x#Uninhabited
+1966;43;147;83;;x#Blank
+1967;85;150;211;River Mountain;x#Uninhabited
+1968;127;153;84;Way Way Mountain;x#Uninhabited
+1969;169;156;212;Witch Mountains;x#Uninhabited
 1970;1;159;85;Gerudo Desert;x
 1971;43;162;213;Great Plateau;x
 1972;85;165;86;Malanya;x
@@ -1983,31 +1983,31 @@ province;red;green;blue;x;x
 1982;85;195;91;Gortram;x#Deathmountain
 1983;127;198;219;Ridgeland;x
 1984;169;201;92;Gerudo Highlands;x
-1985;1;204;220;;x
-1986;43;207;93;;x
-1987;85;210;221;;x
-1988;127;0;94;;x
-1989;169;3;222;;x
-1990;1;6;95;;x
-1991;43;9;223;;x
-1992;85;12;96;;x
-1993;127;15;224;;x
-1994;169;18;97;;x
-1995;1;21;225;;x
-1996;43;24;98;;x
-1997;85;27;226;;x
-1998;127;30;99;;x
-1999;169;33;227;;x
-2000;2;36;0;;x
-2001;44;39;128;;x
-2002;86;42;1;;x
-2003;128;45;129;;x
-2004;170;48;2;;x
-2005;2;51;130;;x
-2006;44;54;3;;x
-2007;86;57;131;;x
-2008;128;60;4;;x
-2009;170;63;132;;x
+1985;1;204;220;Subasa Mountain;x#Uninhabited
+1986;43;207;93;Mount Tolemac;x#Uninhabited
+1987;85;210;221;Hyrule Mountains;x#Blank
+1988;127;0;94;Way Way Mountain;x#Uninhabited
+1989;169;3;222;Way Way Mountain;x#Uninhabited
+1990;1;6;95;Hytopia Mountains;x#Uninhabited
+1991;43;9;223;Labrynna Mountains;x#Uninhabited
+1992;85;12;96;Ordia Mountain;x#Uninhabited
+1993;127;15;224;Death Mountain;x#Uninhabited
+1994;169;18;97;Hyrule Mountain;x#Uninhabited
+1995;1;21;225;Hylia Mountains;x#Uninhabited
+1996;43;24;98;Hylia Mountains;x#Uninhabited
+1997;85;27;226;Desert of Mystery;x#uninhabited
+1998;127;30;99;Decimating Desert;x#Uninhabited
+1999;169;33;227;Eldin Mountain;x #Uninhabited
+2000;2;36;0;Eldin Mountain;x #Uninhabited#Uninhabited
+2001;44;39;128;Keatonia Mountains;x#Uninhabited
+2002;86;42;1;Wind Mountains;x#Uninhabited
+2003;128;45;129;Sheikana Mountain;x#Uninhabited
+2004;170;48;2;Comenia Mountain;x#Uninhabited
+2005;2;51;130;Seaside Mountain;x#Uninhabited
+2006;44;54;3;Icehead Mountain;x#Uninhabited
+2007;86;57;131;Icehead Mountain;x#Uninhabited
+2008;128;60;4;Koridai Mountain;x#Uninhabited
+2009;170;63;132;Sheikariko Mountain;x#uninhabited
 2010;2;66;5;;x
 2011;44;69;133;;x
 2012;86;72;6;;x
