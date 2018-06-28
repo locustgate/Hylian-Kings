@@ -99,6 +99,7 @@ knights_moria_composition = {
 #	archers = 150
 #	galleys=50
 #}
+#Holy orders
 truth_council_composition = {
 	levy_size = 6
 	archers = 150
@@ -106,6 +107,21 @@ truth_council_composition = {
 	heavy_infantry = 300
 	horse_archers = 150
 }
+
+knights_din_composition = {
+	levy_size = 2
+	heavy_infantry = 600
+	knights = 300
+	archers = 200
+}
+
+knights_farore_composition = {
+	levy_size = 6
+	heavy_infantry = 600
+	archers = 600
+	pikemen = 200
+}
+
 #Genaric Mercs
 hyrulean_deserters_composition = { 
 	levy_size = 2
@@ -366,4 +382,146 @@ ordonia_riders_composition={
 	levy_size = 1.5
 	horse_archers = 450
 	light_cavalry = 150
+}
+gold_composition={
+	levy_size = 3
+	light_infantry = 400
+	heavy_infantry = 200
+	light_cavalry = 100
+	archers = 100
+	war_elephants = 10
+}
+ivory_composition={
+	levy_size = 1
+	light_infantry = 400
+	heavy_infantry = 200
+	light_cavalry = 100
+	archers = 100
+	war_elephants = 10
+
+}
+cyclones_composition={
+	levy_size = 1.5
+	archers = 150
+	light_infantry = 450
+	heavy_infantry = 150
+	light_cavalry = 150
+}
+gravel_band_composition={
+	levy_size = 1.5
+	archers = 150
+	light_infantry = 450
+	heavy_infantry = 150
+	light_cavalry = 150
+}
+cobble_band_composition={
+	levy_size = 6
+	camel_cavalry = 150
+	light_cavalry = 350
+	archers = 150
+	heavy_infantry = 150
+	knights = 25
+}
+maze_wanderers_composition={
+	levy_size = 3
+	light_cavalry = 225
+	light_infantry = 150
+	heavy_infantry = 75
+	archers = 150
+
+}
+camel_lords_compisition={
+	levy_size = 3
+	light_cavalry = 300
+	camel_cavalry = 150
+}
+tridenteer_composition={
+	levy_size = 2
+	archers = 150
+	pikemen = 300
+	heavy_infantry = 300
+
+}
+jackals_composition={
+	levy_size = 3
+	light_cavalry = 300
+	light_infantry = 150
+	archers = 150
+}
+sing_company_composition={
+	levy_size = 1
+	light_infantry = 300
+	light_cavalry = 250
+	archers = 150
+}
+farmers_sons_composition={
+	levy_size = 2
+	light_infantry = 300
+	heavy_infantry = 300
+	pikemen = 150
+}
+dins_company_composition={
+	levy_size = 3
+	light_infantry = 300
+	heavy_infantry = 120
+	pikemen = 120
+	light_cavalry = 100
+	archers = 200
+}
+labrynnan_company_composition={
+	levy_size = 2
+	archers = 150
+	light_infantry = 150
+	heavy_infantry = 435
+	knights = 15
+
+}
+falsia_band_composition={
+	levy_size=1
+	archers = 300
+	light_infantry = 150
+	heavy_infantry = 435
+	knights = 15
+
+}
+roses_composition={
+	levy_size = 2
+	archers = 150
+	heavy_infantry = 570
+	knights = 30
+
+}
+big_bad_bazz_brigade_composition={
+	levy_size = 3
+	archers = 450
+	heavy_infantry = 600
+	light_infantry = 500
+	pikemen = 200
+	galleys = 53
+
+}
+mako_brigade_composition={
+	levy_size = 1
+	archers = 150
+	pikemen = 150
+	heavy_infantry = 300
+	galleys=6
+
+}
+storm_wardens_composition={
+	levy_size = 1
+	archers = 150
+	pikemen = 300
+	heavy_infantry = 300
+	galleys=8
+
+}
+lookout_brigade_composition={
+	levy_size = 3
+	archers = 150
+	heavy_infantry = 210
+	light_infantry = 225
+	knights = 15
+	galleys = 19
+
 }

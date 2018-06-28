@@ -924,7 +924,7 @@ d_saria_band = {
 	
 	
 
-	capital = 875 # savlaakso
+	capital = 196 # savlaakso
 	
 	# Hire Trigger
 
@@ -964,7 +964,7 @@ d_kasuto_company = {
 	
 	
 
-	capital = 875 # savlaakso
+	capital = 187 # savlaakso
 	
 	# Hire Trigger
 
@@ -994,7 +994,7 @@ d_kasuto_company = {
 	# Cannot be vassalized
 	independent = yes
 
-	mercenary_type = company_of_gamelon_composition
+	mercenary_type = kasuto_company_composition
 
 }
 d_company_of_gamelon = {
@@ -1004,7 +1004,7 @@ d_company_of_gamelon = {
 	
 	
 
-	capital = 875 # savlaakso
+	capital = 167 # savlaakso
 	
 	# Hire Trigger
 
@@ -1044,7 +1044,7 @@ d_horon_brigade = {
 	
 	
 
-	capital = 875 # savlaakso
+	capital = 341 # savlaakso
 	
 	# Hire Trigger
 
@@ -1084,7 +1084,7 @@ d_owl_band = { #eldin
 	
 	
 
-	capital = 875 # savlaakso
+	capital = 529 # savlaakso
 	
 	# Hire Trigger
 
@@ -1125,7 +1125,7 @@ d_ordonia_riders={
 	
 	
 
-	capital = 875 # savlaakso
+	capital = 603 # savlaakso
 	
 	# Hire Trigger
 
@@ -1158,10 +1158,740 @@ d_ordonia_riders={
 	mercenary_type = ordonia_riders_composition
 
 }
-#d_killer_bees = {}
-#d_blood_bloodbrother = {}
-#d_big_bad_bazz_brigade = {}
-#d_mako_brigade
+d_gold_company={
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 1834 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		NOR = { religion_group = demon_religion 
+		religion_group = doctrine 
+		}
+	}
+	
+	# Parent Religion 
+	religion = oshus_religion
+	
+	culture=pebble
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = gold_composition
+
+}
+d_ivory_company={
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 1821 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		NOR = { religion_group = demon_religion 
+		religion_group = doctrine 
+		}
+	}
+	
+	# Parent Religion 
+	religion = oshus_religion
+	
+	culture=pebble
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = ivory_composition
+
+}
+d_cyclones={
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 1797 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		NOR = { religion_group = demon_religion 
+		religion_group = doctrine 
+		}
+	}
+	
+	# Parent Religion 
+	religion = golden_frogs
+	
+	culture=cobble
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = cyclones_composition
+
+}
+d_gravel_band={
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 1781 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		NOR = { religion_group = demon_religion 
+		religion_group = doctrine 
+		}
+	}
+	
+	# Parent Religion 
+	religion = western_goddesses
+	
+	culture=cobble
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = gravel_band_composition
+
+}
+d_cobble_band={
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 1764 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		NOR = { religion_group = demon_religion 
+		religion_group = doctrine 
+		}
+	}
+	
+	# Parent Religion 
+	religion = western_goddesses
+	
+	culture=cobble
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = cobble_band_composition
+
+}
+d_maze_wanderers={
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 1763 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		NOR = { religion_group = demon_religion 
+		religion_group = doctrine 
+		}
+	}
+	
+	# Parent Religion 
+	religion = western_goddesses
+	
+	culture=cobble
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = maze_wanderers_composition
+
+}
+##Goron
+#d_bloodbrothers = {#dm} #Eastern 
+#d_dodongo_wrestlers = {#dm} #central
+#d_rock_breakers = {#dm} #western
+#d_red_troupe = {#rr}
+#d_blue_troupe = {#rr}
+#d_lava_drinkers = {#cg}
+#d_fire_walkers={#goro}
+##ZORA
+d_big_bad_bazz_brigade = {#Centra
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 472 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		OR = { religion_group = goddesses_religion 
+		religion_group = guardian_deity 
+		}
+	}
+	
+	# Parent Religion 
+	religion = water_spirits
+	
+	culture=lake_zora
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type =big_bad_bazz_brigade_composition
+
+}
+d_mako_brigade={#central
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 568 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		OR = { religion_group = goddesses_religion 
+		religion_group = guardian_deity 
+		}
+	}
+	
+	# Parent Religion 
+	religion = water_spirits
+	
+	culture=lake_zora
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type =mako_brigade_composition
+
+}
+d_storm_wardens={#Stormisland
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 291 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		OR = { religion_group = goddesses_religion 
+		religion_group = guardian_deity 
+		}
+	}
+	
+	# Parent Religion 
+	religion = water_spirits
+	
+	culture=lake_zora
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type =storm_wardens_composition
+
+}
+d_lookout_brigade={#Haven
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 1872 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		OR = { religion_group = goddesses_religion 
+		religion_group = guardian_deity 
+		}
+	}
+	
+	# Parent Religion 
+	religion = water_spirits
+	
+	culture=lake_zora
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type =lookout_brigade_composition
+}
+
+##Zuna
+d_camel_lords={
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 1493 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		NOR = { religion_group = demon_religion 
+		}
+	}
+	
+	# Parent Religion 
+	religion = zunist
+	
+	culture=zuna
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = camel_lords_compisition
+}
+d_tridenteer={
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 1488 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		NOR = { religion_group = demon_religion 
+		}
+	}
+	
+	# Parent Religion 
+	religion = zunist
+	
+	culture=zuna
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type =tridenteer_composition
+}	
+d_jackals={
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 1499 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		NOR = { religion_group = demon_religion 
+		}
+	}
+	
+	# Parent Religion 
+	religion = zunist
+	
+	culture=zuna
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = jackals_composition
+}
+d_sing_company={
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 97 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		NOR = { religion_group = demon_religion 
+		}
+	}
+	
+	# Parent Religion 
+	religion = heavenly_goddesses
+	
+	culture=hanman
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = sing_company_composition
+}
+d_dins_company={
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 72 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		NOR = { religion_group = demon_religion 
+		}
+	}
+	
+	# Parent Religion 
+	religion = heavenly_goddesses
+	
+	culture=hylian_hanman
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = dins_company_composition
+}
+d_farmers_sons={
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 79 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		NOR = { religion_group = demon_religion 
+		}
+	}
+	
+	# Parent Religion 
+	religion = heavenly_goddesses
+	
+	culture=hanman
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = farmers_sons_composition
+}
+
+d_roses={
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 30 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		NOR = { religion_group = demon_religion 
+		}
+	}
+	
+	# Parent Religion 
+	religion = great_maku
+	
+	culture=falsia
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = roses_composition
+}
+d_falsia_band={
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 60 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		NOR = { religion_group = demon_religion 
+		}
+	}
+	
+	# Parent Religion 
+	religion = great_maku
+	
+	culture=falsia
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = falsia_band_composition
+}
+d_labrynnan_company={
+
+	color = { 60  175  170 }
+	color2={ 255 255 255 }
+	
+	
+
+	capital = 286 # savlaakso
+	
+	# Hire Trigger
+
+	allow = {
+		NOR = { religion_group = demon_religion 
+		}
+	}
+	
+	# Parent Religion 
+	religion = great_maku
+	
+	culture=labrynnan
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = labrynnan_company_composition
+}
 #'neutral' mercs
 #d_third_daughters = {
 #	color={ 150 60 60 }
@@ -1465,7 +2195,7 @@ d_hyrulean_deserters_1 = {
 	
 	# Hire Trigger
 	allow = {
-		NOT = { culture = hyrulean }
+		NOT = { culture_group = hyrulean_group }
 	}
 	
 	# Parent Religion 
@@ -1499,7 +2229,7 @@ d_hyrulean_deserters_2 = {
 	
 	# Hire Trigger
 	allow = {
-		NOT = { culture = hyrulean }
+		NOT = { culture_group = hyrulean_group }
 	}
 	
 	# Parent Religion 
@@ -1533,7 +2263,7 @@ d_hyrulean_deserters_3 = {
 	
 	# Hire Trigger
 	allow = {
-		NOT = { culture = hyrulean }
+		NOT = { culture_group = hyrulean_group }
 	}
 	
 	# Parent Religion 
@@ -1567,7 +2297,7 @@ d_hyrulean_deserters_4 = {
 	
 	# Hire Trigger
 	allow = {
-		NOT = { culture = hyrulean }
+		NOT = { culture_group = hyrulean_group }
 	}
 	
 	# Parent Religion 
@@ -2812,310 +3542,6 @@ d_ho_ho_sailors_2 = {
 
 	mercenary_type = naval_merc_composition
 }
-#Religion
-k_judicars = { #Judiciary
-	color={ 255 249 198 }
-	color2={ 220 220 0 }
-	
-	capital = 768 #temp 509
-	
-	title = "HIGH_EXEMPLAR"
-	foa = "HIGH_EXEMPLAR_FOA"
-	short_name = yes
-	location_ruler_title = yes
-	
-	# Always exists
-	landless = yes
-	
-	# Controls a religion
-	controls_religion = darknut_doctrine
-	
-	religion = darknut_doctrine
-	
-	culture = darknut
-	
-	# Cannot be held as a secondary title
-	primary = yes
-	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-	
-	# Regnal names
-	male_names = {
-		Sword Shortsword Shield Maul
-	}
-	female_names = {
-		Sword Shortsword Shield Maul
-	}
-}
-k_golden_goddesses = {
-	color={ 183 60 155 }
-	color2={ 220 220 0 }
-	
-	capital = 482 #temple of time
-	
-	title = "GREAT_SAGE"
-	foa = "GREAT_SAGE_FOA"
-	short_name = yes
-
-	# Always exists
-	landless = yes
-	
-	# Controls a religion
-	controls_religion = golden_goddesses
-	
-	religion = golden_goddesses
-	
-	# Cannot be held as a secondary title
-	primary = yes
-	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-	
-}
-k_wizzrobe = {
-	color={ 183 60 155 }
-	color2={ 220 220 0 }
-	
-	capital = 763 
-	
-	title = "SEER"
-	foa = "SEER_FOA"
-	title_female = "SEER"
-	foa_female = "SEER_FOA"
-	short_name = yes
-
-	# Always exists
-	landless = yes
-	
-	# Controls a religion
-	controls_religion = wizzrobe_doctrine
-	
-	religion = wizzrobe_doctrine
-	
-	# Cannot be held as a secondary title
-	primary = yes
-	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-	
-}
-d_oshus = {
-	color={ 232 232 232 }
-	color2={ 203 153 0 }
-	
-	capital = 875 # Savlasko
-	
-	title = "HEAD_HERMIT"
-	title_female = "HEAD_HERMIT"
-	foa = "HEAD_PRIEST_FOA"
-	
-	short_name = yes
-	
-	# Always exists
-	landless = yes	
-	
-	# Controls a religion
-	controls_religion = oshus_religion
-	
-	religion = oshus_religion
-	
-	# Cannot be held as a secondary title
-	primary = yes
-	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-}
-d_deku = {
-	color={ 155 155 235 }
-	color2={ 220 220 0 }
-	
-	capital = 660
-	
-	title = "GREAT"
-	title_female = "GREAT"
-	foa = "GREAT_FOA"
-	
-	creation_requires_capital = no
-	
-
-	short_name = yes
-	
-	dignity = 100 # Counted as having this many more counties than it does
-	
-	# Controls a religion
-	controls_religion = great_deku
-	
-	religion = great_deku
-	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-}
-e_baga = {
-	color={ 155 155 235 }
-	color2={ 220 220 0 }
-	
-	capital = 682
-	
-	title = "GREAT"
-	title_female = "GREAT"
-	foa = "GREAT_FOA"
-	
-	creation_requires_capital = no
-	
-
-	short_name = yes
-	
-	dignity = 100 # Counted as having this many more counties than it does
-	
-	# Controls a religion
-	controls_religion = baga_tree
-	
-	religion = baga_tree
-	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-}
-e_demise = {
-	color={ 155 155 235 }
-	color2={ 220 220 0 }
-	
-	capital = 482
-	
-	title = "DEMON_KING"
-	title_female = "DEMON_QUEEN"
-	
-	creation_requires_capital = no
-	
-
-	short_name = yes
-	
-	dignity = 100 # Counted as having this many more counties than it does
-	
-	# Controls a religion
-	controls_religion = demise_religion
-	
-	religion = demise_religion
-	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-}
-#e_demon_king = {
-#	color={ 155 155 235 }
-#	color2={ 220 220 0 }
-#	
-#	capital = 304
-#	
-#	title = "DEMON_KING"
-#	title_female = "DEMON_QUEEN"
-#	foa = "MAJESTY_FOA"
-#	
-#	creation_requires_capital = no
-#	
-#
-#	short_name = yes
-#	
-#	dignity = 100 # Counted as having this many more counties than it does
-#	
-#	# Controls a religion
-#	controls_religion = demon_king
-#	
-#	religion = demon_king
-#	
-#	dynasty_title_names = yes 	# Will not be named "Seljuk", etc.
-#}
-k_hylia_religion = {
-	color={ 155 155 235 }
-	color2={ 220 220 0 }
-	
-	capital = 482
-	
-	title = "HEAD_PRIEST"
-	title_female = "HEAD_PRIESTESS"
-	foa = "HEAD_PRIEST_FOA"
-	
-	creation_requires_capital = no
-	
-
-	short_name = yes
-	
-	dignity = 100 # Counted as having this many more counties than it does
-	
-	# Controls a religion
-	controls_religion = hylia_religion
-	
-	religion = hylia_religion
-	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-}
-d_jabu_jabu = {
-	color={ 175 50 136 }
-	color2={ 220 220 0 }
-	
-	capital = 472
-	
-	title = "JABU_ATTENDANT"
-	title_female = "JABU_ATTENDANT"
-	foa = "ATTENDANT_FOA"
-	
-	short_name = yes
-	
-	# Always exists
-	landless = yes	
-	
-	# Controls a religion
-	controls_religion = jabu_jabu
-	
-	religion = jabu_jabu
-	
-	# Cannot be held as a secondary title
-	primary = yes
-	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-}
-d_jabun_religion = {
-	color={ 175 50 136 }
-	color2={ 220 220 0 }
-	
-	capital = 299
-	
-	title = "JABUN_ATTENDANT"
-	title_female = "JABUN_ATTENDANT"
-	foa = "ATTENDANT_FOA"
-	
-	short_name = yes
-	
-	# Always exists
-	landless = yes	
-	
-	# Controls a religion
-	controls_religion = jabun_religion
-	
-	religion = jabun_religion
-	
-	# Cannot be held as a secondary title
-	primary = yes
-	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-}
-d_valoo_religion = {
-	color={ 175 50 136 }
-	color2={ 220 220 0 }
-	
-	capital = 473 
-	
-	title = "VALOO_ATTENDANT"
-	title_female = "VALOO_ATTENDANT"
-	foa = "ATTENDANT_FOA"
-	
-	short_name = yes
-	
-	# Always exists
-	landless = yes	
-	
-	# Controls a religion
-	controls_religion = valoo_religion
-	
-	religion = valoo_religion
-	
-	# Cannot be held as a secondary title
-	primary = yes
-	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-}
 #holy orders
 d_truth_council = {
 	color = { 20 0 214 }
@@ -3171,4 +3597,58 @@ d_librarian_guardians = {
 	
 	# Extra income due to.....you shouldn't ask.
 	monthly_income = 10 # (Must be an integer between 1 and 512)	
+}
+d_knights_farore={
+	color = { 20 0 214 }
+	
+	graphical_culture = holygfx
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	capital = 1845
+
+	dynasty_title_names = no 
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = knights_farore_composition
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	religion=western_goddesses
+	culture=cobble	
+	
+	# Extra income due to donations.
+	monthly_income = 5 # (Must be an integer between 1 and 512)
+}
+d_knights_din={
+	color = { 20 0 214 }
+	
+	graphical_culture = holygfx
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	capital = 1845
+
+	dynasty_title_names = no 
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = knights_din_composition
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	religion=western_goddesses
+	culture=cobble	
+	
+	# Extra income due to donations.
+	monthly_income = 5 # (Must be an integer between 1 and 512)
 }

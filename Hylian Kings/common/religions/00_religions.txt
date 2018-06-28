@@ -1054,6 +1054,10 @@ minor_deity = {
 #		feminist = yes
 #		aggression = 1.5
 #
+#		#gerudo don't have a concept of 'family' beyond that of mother and sisters
+#		pc_marriage = yes # Parent/child marriage allowed
+#		bs_marriage = yes # Brother/sister marriage allowed
+#
 #		high_god_name = GOD_THE_SEVEN
 #		
 #		god_names = {
@@ -1084,6 +1088,10 @@ minor_deity = {
 #		allow_viking_invasion = yes 
 #		feminist = yes
 #		aggression = 1.5
+#
+#		#gerudo don't have a concept of 'family' beyond that of mother and sisters
+#		pc_marriage = yes # Parent/child marriage allowed
+#		bs_marriage = yes # Brother/sister marriage allowed
 #
 #		high_god_name = GOD_THE_EIGHT
 #		
@@ -1117,6 +1125,10 @@ minor_deity = {
 #		max_wives = 4
 #		aggression = 1.5
 #		attacking_same_religion_piety_loss = yes
+#		
+#		#gerudo don't have a concept of 'family' beyond that of mother and sisters
+#		pc_marriage = yes # Parent/child marriage allowed
+#		bs_marriage = yes # Brother/sister marriage allowed
 #
 #		high_god_name = GOD_GODDESS_OF_THE_SAND
 #		
@@ -1497,6 +1509,9 @@ demon_religion = {
 		peace_prestige_loss = yes
 		has_heir_designation = yes 		
 		piety_name = MALICE
+		
+		#Monsters don't have a concept of family but still recognize parents
+		bs_marriage=yes
 
 		scripture_name = DEMISES_SAGA
 		priest_title = SHAMAN
@@ -1530,6 +1545,9 @@ demon_religion = {
 		allow_looting = yes
 		peace_prestige_loss = yes
 		has_heir_designation = yes 
+		
+		#Monsters don't have a concept of family but still recognize parents
+		bs_marriage=yes
 
 		scripture_name = HORNED_CONTRACT
 		priest_title = SHAMAN
@@ -1567,6 +1585,9 @@ demon_religion = {
 		priest_title = SHAMAN
 		scripture_name = VAATIS_LEGEND	
 		piety_name = MALICE
+		
+		#Monsters don't have a concept of family but still recognize parents
+		bs_marriage=yes
 		
 		high_god_name = GOD_VAATI
 		
@@ -1665,6 +1686,8 @@ demon_religion = {
 		scripture_name = BELLUMS_SHANTI	
 		piety_name = MALICE
 		has_heir_designation = yes 	
+		#Monsters don't have a concept of family but still recognize parents
+		bs_marriage=yes
 		god_names = {
 			GOD_BELLUM GOD_PHANTOM GOD_DREAM_GOD
 		}
@@ -1695,6 +1718,8 @@ demon_religion = {
 		priest_title = ATTENDENT
 		scripture_name = BAGAS_SONG	
 		piety_name = MALICE
+		#Monsters don't have a concept of family but still recognize parents
+		bs_marriage=yes
 
 		
 		high_god_name = BAGA_TREE
@@ -1728,6 +1753,8 @@ demon_religion = {
 		priest_title = SHAMAN 
 		scripture_name = MALLADUS_TRIUMPH	
 		piety_name = MALICE
+		#Monsters don't have a concept of family but still recognize parents
+		bs_marriage=yes
 		
 		high_god_name = GOD_MALLADUS
 		

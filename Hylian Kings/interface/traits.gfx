@@ -364,13 +364,13 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
-	spriteType = {
-		name = "GFX_trait_kinslayer"
-		texturefile = "gfx/traits/kinslayer.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
+	# spriteType = {
+		# name = "GFX_trait_kinslayer"
+		# texturefile = "gfx/traits/old_kinslayer.tga"
+		# noOfFrames = 1
+		# norefcount = yes
+		# effectFile = "gfx/FX/buttonstate.lua"
+	# }
 	spriteType = {
 		name = "GFX_trait_pregnant"
 		texturefile = "gfx/traits/pregnant.tga"
@@ -1045,7 +1045,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_trait_indian_pilgrim"
-		texturefile = "gfx/traits/pilgrim.tga"
+		texturefile = "gfx/traits/indian_pilgrim.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1186,7 +1186,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_trait_on_indian_pilgrimage"
-		texturefile = "gfx/traits/on_pilgrimage.tga"
+		texturefile = "gfx/traits/on_indian_pilgrimage.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1432,7 +1432,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	
-	# WoL: New Lifestyle traits. TODO: Icons
+	# WoL: New Lifestyle traits.
 	spriteType = {
 		name = "GFX_trait_seducer"
 		texturefile = "gfx/traits/seducer.tga"
@@ -2113,6 +2113,13 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
+		name = "GFX_trait_secretly_khurmazta"
+		texturefile = "gfx/traits/secret_religion_zoroastrian.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
 		name = "GFX_trait_secretly_hinduism"
 		texturefile = "gfx/traits/secret_religion_hinduism.tga"
 		noOfFrames = 1
@@ -2329,6 +2336,92 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_trait_otter"
 		texturefile = "gfx/traits/zealous.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_cat"
+		texturefile = "gfx/traits/cat.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_master_of_flame"
+		texturefile = "gfx/traits/master_of_flame.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_logistics_expert"
+		texturefile = "gfx/traits/logistics_expert.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_levy_coordinator"
+		texturefile = "gfx/traits/levy_coordinator.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sapper"
+		texturefile = "gfx/traits/sapper.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_kinslayer"
+		texturefile = "gfx/traits/kinslayer.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_familial_kinslayer"
+		texturefile = "gfx/traits/familial_kinslayer.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_dynastic_kinslayer"
+		texturefile = "gfx/traits/dynastic_kinslayer.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_kow_tow_travels"
+		texturefile = "gfx/traits/kow_tow_travels.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_kow_tow_completed_tier_1"
+		texturefile = "gfx/traits/kow_tow_completed_tier_1.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_kow_tow_completed_tier_2"
+		texturefile = "gfx/traits/kow_tow_completed_tier_2.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_kow_tow_completed_tier_3"
+		texturefile = "gfx/traits/kow_tow_completed_tier_3.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"

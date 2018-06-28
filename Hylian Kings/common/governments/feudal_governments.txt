@@ -94,6 +94,7 @@ feudal_governments = {
 			religion=wizzrobe_doctrine
 			religion = gerudo_goddess
 			religion=sheikahism_nihilism
+			religion=old_hylia
 			religion=heavenly_goddesses
 			}			
 			NAND = {
@@ -126,6 +127,7 @@ feudal_governments = {
 		allowed_holdings = { 
 			CASTLE
 			FORT
+			HOSPITAL
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 			TRIBAL
@@ -140,6 +142,8 @@ feudal_governments = {
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
 		}
+		#frame_suffix = "_tribal"
+		frame_suffix = "_barbaric"
 		potential = {
 			OR = {
 				culture_group = blin
@@ -198,7 +202,7 @@ feudal_governments = {
 		potential = {
 			OR = {
 			religion = darknut_doctrine
-			religion = pirate_doctrine
+			#religion = pirate_doctrine
 			}
 			is_patrician = no			
 			NAND = {
@@ -209,9 +213,10 @@ feudal_governments = {
 				NOT = { religion_group = demon_religion }
 			}
 		}
-		color = { 176 23 31 }
+		color = { 115 113 115 }
 		
 		uses_prestige_for_law_change = yes
+		frame_suffix = "_darknut"
 		
 		barons_need_dynasty = yes
 		can_build_tribal = no

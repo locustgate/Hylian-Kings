@@ -390,7 +390,13 @@ bloodline_betrayers = {
 	
 	monthly_character_prestige  = -0.1
 }
-bloodline_red={}
+bloodline_red={
+	agnatic=yes
+	cached=yes
+	intrigue=3
+	general_opinion=-10
+	monthly_character_piety=-0.1
+}
 
 ##bookmark only
 #OOT

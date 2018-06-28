@@ -55,7 +55,7 @@ tribal_governments = {
 		can_build_tribal = yes
 		can_change_to_nomad_on_start = yes
 		capital_move_delay = 960
-		have_gender_laws = no 
+		have_gender_laws = yes 
 		demesne_size = 2
 		vassal_limit = -10
 	}

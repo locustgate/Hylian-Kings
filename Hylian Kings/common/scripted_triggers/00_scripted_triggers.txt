@@ -5244,7 +5244,7 @@ is_senior_age_trigger = {
 # Root - The executioner
 # event_target:kinslayer_target - The person being executed
 will_add_kinslayer = {
-	NOT = { religion_group = muslim }
+	NOT = { religion_group = demon_religion } 
 	OR = {
 		AND = {
 			NOT = { trait = kinslayer }

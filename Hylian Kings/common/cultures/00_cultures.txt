@@ -1397,9 +1397,10 @@ western_human = {
 		
 		dukes_called_kings = no
 		
-		dukes_called_kings = no
-		male_patronym = "sin"
-		female_patronym = "sdotter"
+		from_dynasty_prefix = "mn "
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
 		prefix = yes
 				
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
@@ -1412,41 +1413,6 @@ western_human = {
 		mat_grm_name_chance = 50
 		mother_name_chance = 0
 
-		modifier = default_culture_modifier
-	}
-	comenian = {
-		graphical_cultures = { comeniangfx }
-		secondary_event_pictures = bedouin_arabic
-		dynasty_name_first = yes
- 
-		parent = skylofter
-		
-		color = { 0.3 1 0.8 }
-		
-		male_names = {
-			Link Brant Bremeur Doylan Kayo Zauz Mutoh Eox Ichero Jero Saboro Shero Brak Mac Ancle Nuckle Antony Bares Bery Bendle Borluv Karlov Krenel Dampei Daved Enie Meene Eric Geper Gormann Harrisin Hurb Jem Jol Claus Loly Marshel Hagin Poth Gustof Daltes Persy Rim Satchn Siman Stamper Stockwill Sturgin Talen Tingl Vasal Sacon Shicashi Vscern Cafei Kamaron Dotor Bartein Tortis Zuboran Gaboran Chudly Malvor Charlon Falbin Fier Jovane Purlon Soel Aurun Gulli Sahasrahlan Russo Osfalan Gonzon Makon Nikon Senzar Zukor Freedl Fuzon Hoigir McNy Lineback Nyav Salvator Alef Naro Durin Orka Ab Mesan Antwuan Candi Bandem Garrikson Gosack Gumi Niave Nieve
-		}
-		female_names = {
-			Zelda Astrid Angu Melon Brevie Candi Chay Dotty Ema Jasyn Junen Keely Lilian Marcie Paigin Pena Sheyla Tena Dena Veronan Pitia Juliettai Grany Huney Mamu Yan Cremea Aromia Pamila Judo Marill Romane Agitha Fanade Kelly Hana Mesha Tetra Potova Joann Seres Iren Iris Sweetie Joane Jolen Cia Epona Lana Viaka Savia Sibel Siberia Recka Kifan Halne Farun Arill Mary Shera Nayru Rhapen Sokran Ketha Hedel Ari Cytla Kina Tyraia Aicara Zidaga Nariug Freuwa Draca Rose Su-Bell Gilian Linda Maggy Myla Minenco Missie Pompy Vera Mercy Molida Rai Joynes
-		}
-		
-		dukes_called_kings = no
-		
-		dukes_called_kings = no
-		male_patronym = "sin"
-		female_patronym = "sdotter"
-		prefix = yes
-
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 80
-		mat_grf_name_chance = 0
-		father_name_chance = 0
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 10
-		mat_grm_name_chance = 50
-		mother_name_chance = 0
-				
 		modifier = default_culture_modifier
 	}
 	pebble = {
@@ -1463,9 +1429,12 @@ western_human = {
 		Astrid Ada Agata Alba Alina Angela Armida Bice Bibiana Bianca Berta Carmen Carola Celeste Celia Cloe Daria Delia Donata Edda Elsa Elvira Emilia Eugenia Febe Filippa Francesca Fulvia Gia Gioa Ginevra Giosetta Gloria Graziana Irma Isa Laura Lia Lidia Loreta Luigia Maria Marina Marinella Monica Nadia Nella Ofelia Olivia Aina Alva Anita Asa Ase Aslog Bengta Berit Bodil Britta Casja Carin Cilla Dagmar Dorotea Dagny Ea Eira Elin Embla Eva Gina Gerd Gry Dunilla Hanna Heidi Helga Hulda Ida Ingegerd Irene Iris Jenni Janna Karin Karita Kia Lina Linn Liv Majananna Moa Petra Rita Sanna Siv Sylvia Thea
 		}	
 		dukes_called_kings = no
-		male_patronym = "sin"
-		female_patronym = "sdotter"
-		prefix = yes
+		founder_named_dynasties = yes
+
+		male_patronym = "zade"
+		female_patronym = "dokht"
+		prefix = no
+		feminist=yes
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 80
@@ -1494,9 +1463,7 @@ western_human = {
 		}
 		founder_named_dynasties = yes
 		dukes_called_kings = no
-		feminist=yes
-		from_dynasty_prefix = "of "
-
+		
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 80
 		mat_grf_name_chance = 0
@@ -1547,7 +1514,7 @@ western_human = {
 	}
 }
 eastern_human = {
-	graphical_cultures = { bodpagfx mongolgfx muslimgfx }
+	graphical_cultures = { chinesegfx mongolgfx muslimgfx }
 	hylian_hanman = { 
 		graphical_cultures = { hhanmangfx mongolgfx hyliangfx } #hhanmangfx
 		secondary_event_pictures = bedouin_arabic
@@ -1954,7 +1921,7 @@ gerudo = {
 		allow_looting = yes
 	}
 }
-lost_tribe = {
+sheikah_group={
 	sheikah = { 
 		graphical_cultures = { sheikahgfx } 		
 		secondary_event_pictures = bedouin_arabic
@@ -2011,7 +1978,48 @@ lost_tribe = {
 
 		modifier = default_culture_modifier
 	}
-	darknut = {
+	comenian = {#melting pot of skylofter and sheikah
+		graphical_cultures = { comeniangfx }
+		secondary_event_pictures = bedouin_arabic
+		dynasty_name_first = yes
+ 
+		#parent = skylofter
+		#+
+		parent=sheikah
+		
+		color = { 0.3 1 0.8 }
+		
+		male_names = {
+			Link Brant Bremeur Doylan Kayo Zauz Mutoh Eox Ichero Jero Saboro Shero Brak Mac Ancle Nuckle Antony Bares Bery Bendle Borluv Karlov Krenel Dampei Daved Enie Meene Eric Geper Gormann Harrisin Hurb Jem Jol Claus Loly Marshel Hagin Poth Gustof Daltes Persy Rim Satchn Siman Stamper Stockwill Sturgin Talen Tingl Vasal Sacon Shicashi Vscern Cafei Kamaron Dotor Bartein Tortis Zuboran Gaboran Chudly Malvor Charlon Falbin Fier Jovane Purlon Soel Aurun Gulli Sahasrahlan Russo Osfalan Gonzon Makon Nikon Senzar Zukor Freedl Fuzon Hoigir McNy Lineback Nyav Salvator Alef Naro Durin Orka Ab Mesan Antwuan Candi Bandem Garrikson Gosack Gumi Niave Nieve
+		}
+		female_names = {
+			Zelda Astrid Angu Melon Brevie Candi Chay Dotty Ema Jasyn Junen Keely Lilian Marcie Paigin Pena Sheyla Tena Dena Veronan Pitia Juliettai Grany Huney Mamu Yan Cremea Aromia Pamila Judo Marill Romane Agitha Fanade Kelly Hana Mesha Tetra Potova Joann Seres Iren Iris Sweetie Joane Jolen Cia Epona Lana Viaka Savia Sibel Siberia Recka Kifan Halne Farun Arill Mary Shera Nayru Rhapen Sokran Ketha Hedel Ari Cytla Kina Tyraia Aicara Zidaga Nariug Freuwa Draca Rose Su-Bell Gilian Linda Maggy Myla Minenco Missie Pompy Vera Mercy Molida Rai Joynes
+		}
+		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "mn "
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+				
+		modifier = default_culture_modifier
+	}
+
+}
+darknut_group={
+	darknut = {#TP
 		graphical_cultures = { darknutgfx }
 
 		color = { 0.19 0.31 0.31 }
@@ -2046,8 +2054,13 @@ lost_tribe = {
 		disinherit_from_blinding = yes 
 		modifier = default_culture_modifier
 		allow_looting = yes 
-
 	}
+	#lightnuts tp mountains the giant suits of armor, interbred with hyruleans and went extinct
+	#eastern darknut
+	#southern darknut
+	
+}
+lost_tribe = {#it's a catch all. Sheikah, Darknut, and Gerudo are technically in this group but have enough "uniqueness" to get their own group
 	wind_tribe = {
 		graphical_cultures = { windtribegfx } 
 		used_for_random = no 

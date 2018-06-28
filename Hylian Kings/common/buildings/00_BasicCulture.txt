@@ -150,22 +150,6 @@ castle = {
 		
 		extra_tech_building_start = 0.8
 	}
-	ca_pebble_knight_list_1 = {
-		desc = ca_pebble_knight_list_1_desc
-		potential = {
-				culture = pebble
-		}
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ca_wall_2 }
-		gold_cost = 200
-		build_time = 730
-		knights = 10
-		horse_archers = 5
-		knights_offensive = 0.15
-		ai_creation_factor = 101
-		
-		extra_tech_building_start = 0.8
-	}
 #HoHo houscarl
 	ca_hoho_housecarl_1 = {
 		desc = ca_hoho_housecarl_1_desc
@@ -2122,14 +2106,15 @@ castle = {
 		potential = {
 			OR = {
 				culture = hanman
+				culture = hylian_hanman
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		flying_cavalrys = 15
-		flying_cavalrys_offensive = 0.15
+		light_cavalry = 15
+		light_cavalry_offensive = 0.15
 		ai_creation_factor = 101
 		
 		extra_tech_building_start = 0.8
@@ -2139,14 +2124,15 @@ castle = {
 		potential = {
 			OR = {
 				culture = hanman
+				culture = hylian_hanman
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		upgrades_from = ca_sky_knight_stable_1
 		gold_cost = 300
 		build_time = 1095
-		flying_cavalrys = 20
-		flying_cavalrys_offensive = 0.15
+		light_cavalry = 20
+		light_cavalry_offensive = 0.15
 		ai_creation_factor = 100
 		
 		extra_tech_building_start = 0.8
@@ -2156,14 +2142,15 @@ castle = {
 		potential = {
 			OR = {
 				culture = hanman
+				culture = hylian_hanman
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		upgrades_from = ca_sky_knight_stable_2
 		gold_cost = 400
 		build_time = 2190
-		flying_cavalrys = 25
-		flying_cavalrys_offensive = 0.15
+		light_cavalry = 25
+		light_cavalry_offensive = 0.15
 		ai_creation_factor = 99
 		
 		extra_tech_building_start = 0.8
@@ -2173,14 +2160,15 @@ castle = {
 		potential = {
 			OR = {
 				culture = hanman
+				culture = hylian_hanman
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ca_sky_knight_stable_3
 		gold_cost = 500
 		build_time = 2190
-		flying_cavalrys = 30
-		flying_cavalrys_offensive = 0.15
+		light_cavalry = 30
+		light_cavalry_offensive = 0.15
 		ai_creation_factor = 98
 		
 		extra_tech_building_start = 0.8

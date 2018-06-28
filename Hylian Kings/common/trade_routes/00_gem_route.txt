@@ -1,12 +1,55 @@
-silk_road = {
+gem_road = {
 	wealth = 100			# Total base wealth of silk route
-
-	modifier = {			# How the trade route modifies the provinces it passes
-		castle_tax_modifier = 0.15
-		city_tax_modifier = 0.15
-		temple_tax_modifier = 0.15
-		trade_route_value = 1
+	trape_post_display_trigger={
+		OR={
+			province_id = 644
+			province_id = 631
+			province_id = 342
+			province_id = 335
+			province_id = 294
+			province_id = 299
+			province_id = 286
+			province_id = 326
+			province_id = 307
+			province_id = 313
+			province_id = 60
+			province_id = 15
+			province_id = 25
+			province_id = 56
+			province_id = 37
+			province_id = 31
+			province_id = 176	
+			province_id = 70
+			province_id = 151
+			province_id = 72
+			province_id = 112
+		}
+	}
+	modifier = {				# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.10
+		city_tax_modifier = 0.10
+		temple_tax_modifier = 0.10
+		tribal_tax_modifier = 0.10
+		trade_route_value = 15
+		icon = 4
 	}
 
-	start = {		
+	start = {
+		1587 #Rupee Island
+		1634 #Diamond Port
+		1013 #Gemrana Reef
+		
 	}
+	path={
+		1013 1056
+	}
+	path={#south west rupee
+		1634 1056 1057
+	}
+	path={#rupee-island to coast
+		1587 944 1255 1407 1057
+	}
+	#path={
+	#	1057 1010 1004 1008 1336
+	#}
+}

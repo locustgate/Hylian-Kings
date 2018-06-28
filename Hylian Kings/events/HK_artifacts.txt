@@ -1,0 +1,1007 @@
+namespace = HKA
+
+character_event = {
+    id = HKA.00
+    desc = EVTDESC_HKA_00
+    picture = GFX_evt_weaponsmith
+    border = GFX_event_normal_frame_economy
+
+    hide_from = yes
+    is_triggered_only = yes
+
+    has_dlc = "Mystics"
+
+    min_age = 16
+    only_rulers = yes
+    only_capable = yes
+    
+    trigger = {
+    	NOT = { any_artifact = { has_artifact_flag = combat_weapon } }
+    	job_marshal = { always = yes }
+    }
+
+    immediate = { #Selecting gender of the weapon smith
+    	hidden_effect = {
+			if = {
+				limit = { NOT = {culture = gerudo}}
+				random_list = {
+					15 = { #Woman
+						modifier = { factor = 0 NOT = { any_realm_character = { is_female = yes } } }
+						modifier = { factor = 2 primary_title = { has_law = status_of_women_2 } }
+						modifier = { factor = 2 primary_title = { has_law = status_of_women_3 } }
+						modifier = { factor = 2 primary_title = { has_law = status_of_women_3 } }
+						modifier = { factor = 6 has_game_rule = { name = gender value = all } } 
+	
+						random_realm_character = { limit = { is_female = yes } save_event_target_as = weaponsmith_gender }
+					} 
+					85 = { #Man
+						modifier = { factor = 0 NOT = { any_realm_character = { is_female = no } } }
+						random_realm_character = { limit = { is_female = no } save_event_target_as = weaponsmith_gender }
+					}
+				}
+			}
+			if = {
+				limit = { culture = gerudo}
+				random_list = {
+					100 = { #Woman
+	
+						random_realm_character = { limit = { is_female = yes } save_event_target_as = weaponsmith_gender }
+					} 
+				}
+			}
+		}
+
+    	#Province for loc
+    	random_province = { 
+    		limit = { owner = { is_within_diplo_range = ROOT } }
+    		save_event_target_as = neighbor_province
+    	}
+    	random_demesne_province = {
+    		limit = { any_neighbor_province = { NOT = { owner = { character = ROOT } } } }
+    		random_neighbor_province = {
+    			limit = { NOT = { owner = { character = ROOT } } }
+    			save_event_target_as = neighbor_province
+    		}
+    	}
+    }
+
+    #Yes, invite them!
+    option = { 
+        name = EVTOPTA_HKA_00
+        custom_tooltip = { text = EVTOPTA_HKA_00_TT }
+
+        hidden_effect = {
+        	save_event_target_as = weaponsmith_employer
+        	if = {
+        		limit = { event_target:weaponsmith_gender = { is_female = yes } }
+
+	        	create_character = {
+	        		age = 45
+	        		random_traits = no
+	        		female = yes
+	        		dynasty = none
+	        		trait = fortune_builder
+	        		trait = diligent
+                    trait = strong
+	        		trait = honest
+	        		trait = brave
+	        	}
+	        	new_character = { 
+	        		save_event_target_as = weaponsmith 
+	        	}
+	        	
+        	}
+        	if = {
+        		limit = { event_target:weaponsmith_gender = { is_female = no } }
+
+	        	create_character = {
+	        		age = 45
+	        		random_traits = no
+	        		female = no
+	        		dynasty = none
+	        		trait = fortune_builder
+                    trait = diligent
+                    trait = strong
+                    trait = honest
+                    trait = brave
+	        	}
+	        	new_character = { 
+	        		save_event_target_as = weaponsmith 
+	        	}
+        	}
+        	event_target:weaponsmith = { 
+        		give_nickname = nick_the_weaponsmith 
+        		character_event = { id = HKA.01 days = 7 } 
+        		character_event = { id = HKA.02 } #gives spouse 
+        	}
+        }
+    }
+
+    #Don't invite them
+    option = {
+        name = EVTOPTB_HKA_00
+        custom_tooltip = { text = EVTOPTB_HKA_00_TT }
+    }
+}
+
+#Ping event for weaponsmith
+character_event = {
+    id = HKA.01
+    hide_window = yes
+    is_triggered_only = yes
+
+    has_dlc = "Mystics"
+    immediate = { event_target:weaponsmith_employer = { character_event = { id = HKA.03 } } }
+}
+
+#Spouse for weaponsmith
+character_event = {
+    id = HKA.02
+    hide_window = yes
+    is_triggered_only = yes
+
+    has_dlc = "Mystics"
+    immediate = { 
+    	if = {
+    		limit = { is_female = yes }
+    		create_random_steward = { 
+        		age = 47
+        		dynasty = none
+        		female = no
+        		random_traits = yes
+        	}
+	        new_character = { 
+	        	fertility = -10000
+	        	add_spouse = event_target:weaponsmith 
+	        }
+    	}
+    	if = {
+    		limit = { is_female = no }
+    		create_random_steward = { 
+        		age = 43
+        		dynasty = none
+        		female = yes
+        		random_traits = yes
+        	}
+	        new_character = { 
+	        	fertility = -10000
+	        	add_spouse = event_target:weaponsmith 
+	        }
+    	}
+    }
+}
+
+#What kind of weapon would you like?
+character_event = {
+    id = HKA.03
+    desc = EVTDESC_HKA_03
+    picture = GFX_evt_weaponsmith
+    border = GFX_event_normal_frame_economy
+
+    is_triggered_only = yes
+
+    has_dlc = "Mystics"
+
+    #Sword/club
+    option = { 
+        trigger = { NOR = {	culture_group = blin
+							culture_group = lfos
+							culture_group = aquatic_group
+							culture_group = goron
+					}
+		}
+        name = EVTOPTA_HKA_03A
+        custom_tooltip = { text = EVTOPTA_HKA_03_TT }
+        hidden_tooltip = { FROM = { set_character_flag = weapon_sword } }
+        ai_chance = { factor = 2
+					modifier = {
+						culture = gerudo
+						factor = 1
+					}
+					
+		
+		}
+    }
+    
+    #Great Sword
+    option = { 
+        trigger = { NOR = { culture_group = blin
+							culture_group = lfos
+							culture_group = aquatic_group
+							culture_group = goron
+					}
+		}
+        name = EVTOPTC_HKA_03B
+        custom_tooltip = { text = EVTOPTC_HKA_03_TT }
+        hidden_tooltip = { FROM = { set_character_flag = weapon_great_sword } }
+        ai_chance = { 
+        	factor = 1 
+        	modifier = { OR = { trait = strong 
+								trait = wroth}
+						factor = 2
+			}
+        }
+    }
+    
+    #Spear
+    option = {
+        trigger = { NOR = { culture_group = blin
+							culture_group = lfos
+							culture_group = aquatic_group
+							culture_group = goron
+					}
+		}
+        name = EVTOPTD_HKA_03C
+        custom_tooltip = { text = EVTOPTD_HKA_03_TT }
+        hidden_tooltip = { FROM = { set_character_flag = weapon_spear } }
+        ai_chance = { 
+        	factor = 1
+        	modifier = { OR = {
+					culture = sheikah
+					culture = koridain
+					culture = new_hyrulean
+				}
+				factor = 3
+			}
+        }
+    }
+    #Bow
+    option = {
+        trigger = { NOR = { culture_group = aquatic_group
+							culture_group = goron_group
+							culture_group = lfos
+							culture_group = blin
+					}
+		}
+        name = EVTOPTF_HKA_03F
+        custom_tooltip = { text = EVTOPTF_HKA_03_TT }
+        hidden_tooltip = { FROM = { set_character_flag = weapon_bow } }
+        ai_chance = { factor = 1
+			modifier = { 
+				factor = 3
+				OR = {
+					culture = morian
+					culture = falsian
+					culture = horon
+					culture = eldin
+					culture = gerudo
+					culture = papuchian
+				}
+			}
+		}
+    }
+	#blin club
+    option = {
+        trigger = { culture_group = blin }
+        name = EVTOPTF_HKA_03F
+        custom_tooltip = { text = EVTOPTF_HKA_03_TT }
+        hidden_tooltip = { FROM = { set_character_flag = weapon_blinclub } }
+        ai_chance = { factor = 1
+			modifier = { 
+				factor = 2
+				OR = {
+				culture = moblin
+				culture = bokoblin
+				}
+			}
+		}
+    }
+	#blin spear
+    option = {
+        trigger = { culture_group = blin }
+        name = EVTOPTF_HKA_03F
+        custom_tooltip = { text = EVTOPTF_HKA_03_TT }
+        hidden_tooltip = { FROM = { set_character_flag = weapon_blinspear } }
+        ai_chance = { factor = 1
+			modifier = { 
+				factor = 2
+				OR = {
+					culture = moblin
+					culture = bulblin
+				}
+			}
+		}
+    }
+	#blin bow
+    option = {
+        trigger = { culture_group = blin }
+        name = EVTOPTF_HKA_03F
+        custom_tooltip = { text = EVTOPTF_HKA_03_TT }
+        hidden_tooltip = { FROM = { set_character_flag = weapon_blinbow } }
+        ai_chance = { factor = 1
+			modifier = { 
+				factor = 2
+				OR = {
+					culture = bokoblin
+					culture = bulblin
+				}
+			}
+		}
+    }
+	#lfos club
+    option = {
+        trigger = { culture_group = lfos }
+        name = EVTOPTF_HKA_03F
+        custom_tooltip = { text = EVTOPTF_HKA_03_TT }
+        hidden_tooltip = { FROM = { set_character_flag = weapon_lfosboomerang } }
+        ai_chance = { factor = 1
+			modifier = { 
+				factor = 2
+				OR = {
+				culture = lizalfos
+				culture = aerolfos
+				}
+			}
+		}
+    }
+	#lfos spear
+    option = {
+        trigger = { culture_group = lfos }
+        name = EVTOPTF_HKA_03F
+        custom_tooltip = { text = EVTOPTF_HKA_03_TT }
+        hidden_tooltip = { FROM = { set_character_flag = weapon_lfosspear } }
+        ai_chance = { factor = 1
+			modifier = { 
+				factor = 2
+				OR = {
+					culture = tokay
+					culture = dinolfos
+				}
+			}
+		}
+    }
+	#lfos bow
+    option = {
+        trigger = { culture_group = lfos }
+        name = EVTOPTF_HKA_03F
+        custom_tooltip = { text = EVTOPTF_HKA_03_TT }
+        hidden_tooltip = { FROM = { set_character_flag = weapon_lfosbow } }
+        ai_chance = { factor = 1
+			modifier = { 
+				factor = 2
+				OR = {
+					culture = lizalfos
+					culture = tokay
+				}
+			}
+		}
+    }
+	#goron club
+    option = {
+        trigger = { culture_group = goron }
+        name = EVTOPTF_HKA_03F
+        custom_tooltip = { text = EVTOPTF_HKA_03_TT }
+        hidden_tooltip = { FROM = { set_character_flag = weapon_goronclub } }
+        ai_chance = { factor = 1
+			modifier = { 
+				factor = 2
+				OR = {
+				culture = moblin
+				culture = bokoblin
+				}
+			}
+		}
+    }
+	#zora spear
+    option = {
+        trigger = { culture_group = aquatic_group }
+        name = EVTOPTF_HKA_03F
+        custom_tooltip = { text = EVTOPTF_HKA_03_TT }
+        hidden_tooltip = { FROM = { set_character_flag = weapon_zoraspear } }
+        ai_chance = { factor = 1}
+    }
+	  after = {
+        hidden_effect = { FROM = { character_event = { id = HKA.04 days = 7 } } }
+    }
+}
+
+#Ping event for weaponsmith
+character_event = {
+    id = HKA.04
+    hide_window = yes
+    is_triggered_only = yes
+
+    has_dlc = "Mystics"
+    immediate = { event_target:weaponsmith_employer = { character_event = { id = HKA.05 } } }
+}
+
+
+#And how much are you willing to pay?
+character_event = {
+    id = HKA.05
+    desc = EVTDESC_HKA_05
+    picture = GFX_evt_weaponsmith
+    border = GFX_event_normal_frame_economy
+
+    is_triggered_only = yes
+
+    has_dlc = "Mystics"
+    option = { 
+        name = EVTOPTA_HKA_05 #I want something different
+		trigger = { OR = {
+					culture = gerudo
+					culture_group = goron_group
+					}
+					OR = {
+						has_character_flag = weapon_sword
+						has_character_flag = weapon_goronclub
+					}
+		}
+       	if = {
+            limit = { FROM = { has_character_flag = weapon_sword } }
+            custom_tooltip = { text = EVTOPTA_HKA_05_TT_SWORDSCIMITAR }
+        }
+       	if = {
+            limit = { FROM = { has_character_flag = weapon_goronclub } }
+            custom_tooltip = { text = EVTOPTA_HKA_05_TT_SWORDSCIMITAR }
+        }
+
+        scaled_wealth = { value = -6 min = -400 }
+
+        hidden_effect = {
+        	event_target:weaponsmith = { set_character_flag = expensive_weapons }
+        	set_character_flag = expensive_weapons
+        	character_event = { id = MNM.10 days = 1 }
+        	
+			FROM = { character_event = { id = HKA.06 days = 400 random = 200 } } 
+        }
+    	ai_chance = {
+    		factor = 33
+    		modifier = {
+    			tier = EMPEROR
+    			factor = 10
+    		}
+    		modifier = {
+    			OR = {
+    				tier = KING	
+    				tier = DUKE
+    			}
+    			factor = 3
+    		}
+    		modifier = {
+    			NOR = {
+    				wealth = 400
+    				yearly_income = 40
+    			}
+    			factor = 0
+    		}
+    	}
+    }
+    #Weapon Fit for a king/patriarch/hero
+    option = {
+        if = {
+            limit = { FROM = { has_character_flag = weapon_sword } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_SWORD }
+			name = HKA05A
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_great_sword } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_GREAT_SWORD }
+			name = HKA05A
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_spear } }
+           	custom_tooltip = { text = EVTOPTB_HKA_05_SPEAR }
+			name = HKA05A
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_bow } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_BOW}
+			name = HKA05A
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_zoraspear } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_ZORASPEAR}			
+			name = HKA05A
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_goronclub } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_GORONCLUB }
+			name = HKA05B
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinclub } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_BLINCLUB }
+			name = HKA05C
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinspear } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_BLINSPEAR }
+			name = HKA05C
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinbow } }
+           	custom_tooltip = { text = EVTOPTB_HKA_05_BLINBOW }
+			name = HKA05C
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_lfosboomerang } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_TT_LFOSBOOMERANG }
+			name = HKA05C
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_lfosbow } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_LFOSBOW }
+			name = HKA05C
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_lfosspear } }
+           	custom_tooltip = { text = EVTOPTB_HKA_05_LFOSSPEAR }
+			name = HKA05C
+        }
+
+        scaled_wealth = { value = -3 min = -180 }
+
+        hidden_effect = {
+        	event_target:weaponsmith = { set_character_flag = good_weapons }
+        	set_character_flag = good_weapons
+        	character_event = { id = HKA.10 days = 1 }
+
+			FROM = { character_event = { id = HKA.06 days = 400 random = 200 } }
+        }
+		ai_chance = {
+    		factor = 33
+    		modifier = {
+    			OR = {
+    				tier = KING	
+    				tier = DUKE
+    			}
+    			factor = 10
+    		}
+    		modifier = {
+    			lower_tier_than = DUKE
+    			factor = 3
+    		}
+    		modifier = {
+    			tier = EMPEROR
+    			factor = 3
+    		}
+    		modifier = {
+    			NOR = {
+    				wealth = 180
+    				yearly_income = 18
+    			}
+    			factor = 0
+    		}
+    	}
+    }
+   
+   	#X fit for a knight/warrior
+    option = {
+        name = EVTOPTC_HKA_05
+        
+        if = {
+            limit = { FROM = { has_character_flag = weapon_sword } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_SWORD }
+			name = HKA05D
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_great_sword } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_GREAT_SWORD }
+			name = HKA05D
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_spear } }
+           	custom_tooltip = { text = EVTOPTB_HKA_05_SPEAR }
+			name = HKA05D
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_bow } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_BOW}
+			name = HKA05D
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_zoraspear } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_ZORASPEAR}			
+			name = HKA05D
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_goronclub } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_GORONCLUB }
+			name = HKA05E
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinclub } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_BLINCLUB }
+			name = HKA05F
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinspear } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_BLINSPEAR }
+			name = HKA05F
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinbow } }
+           	custom_tooltip = { text = EVTOPTB_HKA_05_BLINBOW }
+			name = HKA05F
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_lfosboomerang } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_TT_LFOSBOOMERANG }
+			name = HKA05F
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_lfosbow } }
+            custom_tooltip = { text = EVTOPTB_HKA_05_LFOSBOW }
+			name = HKA05F
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_lfosspear } }
+           	custom_tooltip = { text = EVTOPTB_HKA_05_LFOSSPEAR }
+			name = HKA05F
+        }
+
+        scaled_wealth = { value = -1.5 min = -75 }
+
+        hidden_effect = {
+        	event_target:weaponsmith = { set_character_flag = cheap_weapons }
+        	set_character_flag = cheap_weapons
+        	character_event = { id = HKA.10 days = 1 }
+
+        	FROM = { character_event = { id = HKA.06 days = 400 random = 200 } } 
+        }
+
+        ai_chance = {
+    		factor = 33
+    		modifier = {
+    			tier = COUNT
+    			factor = 10
+    		}
+    		modifier = {
+    			OR = {
+    				tier = KING	
+    				tier = DUKE
+    			}
+    			factor = 3
+    		}
+    		modifier = {
+    			NOR = {
+    				wealth = 75
+    				yearly_income = 7.5
+    				religion_group = pagan_group
+    			}
+    			factor = 0
+    		}
+    	}
+    }
+
+    #Actually, no
+    option = {
+        name = EVTOPTD_HKA_05
+        custom_tooltip = { text = EVTOPTD_HKA_05_TT }
+
+       	ai_chance = { 
+            factor = 15 
+            modifier = {
+                NOR = {
+                    has_education_martial_trigger = yes
+                    has_lifestyle_martial_trigger = yes
+                }
+                factor = 20
+            }
+        }
+
+        hidden_effect = { FROM = { character_event = { id = HKA.9110 days = 30 } } }
+    }
+}	
+
+#Ping event for success 
+character_event = {
+	id = HKA.06
+    hide_window = yes
+
+    is_triggered_only = yes
+
+    has_dlc = "Mystics"
+
+    immediate = {
+    	if = {
+    		limit = { NOT = { event_target:weaponsmith_employer = { is_alive = yes } } }
+    		liege = { save_event_target_as = weaponsmith_employer }
+    	}
+
+    	trigger_switch = {
+    		on_trigger = has_character_flag
+    		expensive_weapons		= { event_target:weaponsmith_employer = { character_event = { id = HKA.07 } } }
+    		good_weapons			= { event_target:weaponsmith_employer = { character_event = { id = HKA.08 } } }
+    		cheap_weapons			= { event_target:weaponsmith_employer = { character_event = { id = HKA.09 } } }
+    	}
+
+        character_event = { id = HKA.9110 days = 30 }
+    }
+}
+
+#Expensive weapon done
+character_event = {
+    id = HKA.07
+    desc = EVTDESC_HKA_07
+    picture = GFX_evt_weaponsmith
+    border = GFX_event_normal_frame_economy
+
+    is_triggered_only = yes
+
+    has_dlc = "Mystics"
+
+    option = { 
+        
+        name = EVTOPTA_HKA_07_SWORD
+        if = {
+            limit = { 
+				FROM = {
+					has_character_flag = weapon_sword 
+					culture = gerudo
+				}
+			}
+            add_artifact = moonlight_scimitar
+        }
+        if = {
+            limit = { 
+				FROM = {
+					has_character_flag = weapon_goronclub
+					culture = goron_group
+				}
+			}
+            add_artifact = biggoron_knife
+        }
+    }
+    after = {
+    	hidden_effect = { FROM = { character_event = { id = HKA.12 days = 30 } } }
+    	clear_delayed_event = { id = HKA.10 }
+    	clr_character_flag = expensive_weapons
+		clr_character_flag = good_weapons
+		clr_character_flag = cheap_weapons
+    }
+}
+
+#Good weapon done
+character_event = {
+    id = HKA.08
+    desc = EVTDESC_HKA_08
+    picture = GFX_evt_weaponsmith
+    border = GFX_event_normal_frame_economy
+
+    is_triggered_only = yes
+
+    has_dlc = "Mystics"
+
+    option = { 
+        name = EVTOPTA_HKA_08
+
+        if = {
+            limit = { FROM = { has_character_flag = weapon_sword } }
+            add_artifact = royal_sword
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_spear } }
+            add_artifact = royal_spear
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_great_sword } }
+            add_artifact = royal_claymore
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_bow } }
+            add_artifact = royal_bow
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinclub } }
+            add_artifact = dragonbone_club
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinspear } }
+            add_artifact = dragonbone_spear
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinbow } }
+            add_artifact = dragonbone_bow
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_zoraspear } }
+            add_artifact = lightscale_trident
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_goronclub } }
+            add_artifact = boulder_breaker
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_ } }
+            add_artifact = dragonbone_club
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinspear } }
+            add_artifact = dragonbone_spear
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinbow } }
+            add_artifact = dragonbone_bow
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_ } }
+            add_artifact = triboomerang
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinspear } }
+            add_artifact = forked_spear
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinbow } }
+            add_artifact = steel_lizal_bow
+        }
+    }
+    after = {
+    	hidden_effect = { FROM = { character_event = { id = HKA.12 days = 30 } } }
+    	clear_delayed_event = { id = HKA.10 }
+    	clr_character_flag = expensive_weapons
+		clr_character_flag = good_weapons
+		clr_character_flag = cheap_weapons
+    }
+}
+
+
+#Cheap weapon done
+character_event = {
+    id = HKA.09
+    desc = EVTDESC_HKA_09
+    picture = GFX_evt_weaponsmith
+    border = GFX_event_normal_frame_economy
+
+    is_triggered_only = yes
+
+    has_dlc = "Mystics"
+
+    option = { 
+        name = EVTOPTA_HKA_09
+
+        if = {
+            limit = { FROM = { has_character_flag = weapon_sword } }
+            add_artifact = knight_sword
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_spear } }
+            add_artifact = knight_spear
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_great_sword } }
+            add_artifact = knight_claymore
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_bow } }
+            add_artifact = knight_bow
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinclub } }
+            add_artifact = spike_club
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinspear } }
+            add_artifact = spike_spear
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinbow } }
+            add_artifact = spike_bow
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_zoraspear } }
+            add_artifact = silverscale_spear
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_goronclub } }
+            add_artifact = cobble_crusher
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_ } }
+            add_artifact = forked_boomerang
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinspear } }
+            add_artifact = enhanced_spear
+        }
+        if = {
+            limit = { FROM = { has_character_flag = weapon_blinbow } }
+            add_artifact = reinforced_lizal_bow
+        }
+    }
+    after = {
+    	hidden_effect = { FROM = { character_event = { id = HKA.12 days = 30 } } }
+    	clear_delayed_event = { id = HKA.10 }
+    	clr_character_flag = expensive_weapons
+		clr_character_flag = good_weapons
+		clr_character_flag = cheap_weapons
+    }
+}
+
+#Ping event for checking if Weaponsmith died
+character_event = {
+	id = HKA.10
+    hide_window = yes
+
+    is_triggered_only = yes
+
+    has_dlc = "Mystics"
+
+    immediate = {
+    	if = {
+    		limit = { 
+    			event_target:weaponsmith  = { is_alive = yes } 
+    			OR = {
+					has_character_flag = expensive_weapons
+					has_character_flag = good_weapons
+					has_character_flag = cheap_weapons
+    			}
+    		}
+    		character_event = { id = HKA.10 days = 1 }
+    	}
+    	if = {
+    		limit = { 
+    			event_target:weaponsmith = { is_alive = no } 
+    			OR = {
+					has_character_flag = expensive_weapons
+					has_character_flag = good_weapons
+					has_character_flag = cheap_weapons
+    			}
+    		}
+    		character_event = { id = HKA.11 }
+    	}
+    }
+}
+
+#Weaponsmith died
+character_event = {
+    id = HKA.11
+    desc = EVTDESC_HKA_11
+    picture = GFX_evt_weaponsmith
+    border = GFX_event_normal_frame_economy
+
+    hide_from = yes
+
+    is_triggered_only = yes
+
+    has_dlc = "Mystics"
+    
+    #Returned leftover money
+    option = {
+    	trigger = { has_character_flag = expensive_weapons }
+        name = EVTOPTA_HKA_11
+
+        scaled_wealth = { value = 3.5 min = 230 }
+    }
+
+    #Returned leftover money
+    option = {
+    	trigger = { has_character_flag = good_weapons }
+        name = EVTOPTB_HKA_11
+
+        scaled_wealth = { value = 1.8 min = 100 }
+    }
+
+    #Returned leftover money
+    option = {
+    	trigger = { has_character_flag = cheap_weapons }
+        name = EVTOPTC_HKA_11
+
+        scaled_wealth = { value = 0.8 min = 40 }
+    }
+    after = {
+    	clr_character_flag = expensive_weapons
+		clr_character_flag = good_weapons
+		clr_character_flag = cheap_weapons
+    }
+}
+
+character_event = {
+	id = HKA.12
+	hide_window = yes
+
+	is_triggered_only = yes
+    has_dlc = "Mystics"
+
+	immediate = {
+		any_spouse = {
+			limit = {
+				dynasty = none
+			}
+			leave_court_and_die_effect = yes
+		}
+		leave_court_and_die_effect = yes
+	}
+}

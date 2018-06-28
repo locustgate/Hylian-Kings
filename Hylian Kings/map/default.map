@@ -16,22 +16,46 @@ static = "statics"
 seasons = "seasons.txt"
 
 #Hyrule Sea
-sea_zones = { 939 943 }
-sea_zones = { 945 952 }
-sea_zones = { 955 963 }
-sea_zones = { 964 1451 }
+sea_zones = { 939 1274 }
+sea_zones = { 1303 1438 }
 
-#Non Navigatable
-sea_zones = { 938 938 }
-sea_zones = { 944 944 }
-sea_zones = { 953 953 }
-sea_zones = { 954 954 }
-sea_zones = { 963 963 }
+#Non Navigable
+sea_zones = { 1275 1275 }#3
+sea_zones = { 1276 1276 }#4
+sea_zones = { 1277 1277 }#5
+sea_zones = { 1278 1278 }#6
+sea_zones = { 1279 1279 }#7
+sea_zones = { 1280 1280 }#8
+sea_zones = { 1281 1281 }#9
+sea_zones = { 1282 1282 }#10
+sea_zones = { 1283 1283 }#11
+sea_zones = { 1284 1284 }#12
+sea_zones = { 1285 1285 }#13
+sea_zones = { 1286 1286 }#14
+sea_zones = { 1287 1287 }#15
+sea_zones = { 1288 1288 }#16
+sea_zones = { 1289 1289 }#17
+sea_zones = { 1290 1290 }#18
+sea_zones = { 1291 1291 }#19
+sea_zones = { 1292 1292 }#20
+sea_zones = { 1293 1293 }#21
+sea_zones = { 1294 1294 }#22
+sea_zones = { 1295 1295 }#23
+sea_zones = { 1296 1296 }#24
+sea_zones = { 1297 1297 }#25
+sea_zones = { 1298 1298 }#26
 
 ocean_region = {#ocean
-	sea_zones = { 1 2 3 4 }
+	sea_zones = { 1 2  }
 }
-#non navigatable
+#non navigable
+ocean_region = {
+	sea_zones = { 3 }
+}
+
+ocean_region = {
+	sea_zones = { 4 }
+}
 ocean_region = {
 	sea_zones = { 5 }
 }
@@ -44,26 +68,65 @@ ocean_region = {
 ocean_region = {
 	sea_zones = { 8 }
 }
-
+ocean_region = {
+	sea_zones = { 9 }
+}
+ocean_region = {
+	sea_zones = { 10 }
+}
+ocean_region = {
+	sea_zones = { 11 }
+}
+ocean_region = {
+	sea_zones = { 12 }
+}
+ocean_region = {
+	sea_zones = { 13 }
+}
+ocean_region = {
+	sea_zones = { 14 }
+}
+ocean_region = {
+	sea_zones = { 15 }
+}
+ocean_region = {
+	sea_zones = { 16 }
+}
+ocean_region = {
+	sea_zones = { 17 }
+}
+ocean_region = {
+	sea_zones = { 18 }
+}
+ocean_region = {
+	sea_zones = { 19 }
+}
+ocean_region = {
+	sea_zones = { 20 }
+}
+ocean_region = {
+	sea_zones = { 21 }
+}
+ocean_region = {
+	sea_zones = { 22 }
+}
+ocean_region = {
+	sea_zones = { 23 }
+}
+ocean_region = {
+	sea_zones = { 24 }
+}
+ocean_region = {
+	sea_zones = { 25 }
+}
+ocean_region = {
+	sea_zones = { 26 }
+}
 
 major_rivers = {
-	960 965 966 967 #koholint river
-	976 1404 #labrynna river
-	1405 #falsia river
-	1413 1414 1415 1416 1417 1418 1435 1436 1437 1438 1439 1440 1441 1442 1443 1444 1445 1446 1447 #greatswamp river                
-	1406 1407 #maiden river
-	1419 1420 1421 1422	1423 1424 1425	#minish river
-	1400 1401 1402 1403 #jungle river
-	1408 1409 1410 1411 1412 #mudora river
-	1427 1428 1429 1430 1431 1450 1451 1449 1448 #arcadia-ordon river
-	955 956 957 1367 1366 1368 #saria river
-	950 951 952 964 1369 1370 1371 1372 1373 1374 1375 1376 1377 #saria-calatia river
-	1378 1379 1380 1381 1382 1383 1384 1385 #hytopia river
-	1386 1387 1388 1389 1390 1391 1392 1393 1394 1395 1396 1399 1432 1433 1434 #cobble rivers
-	1397 1398 #Gem River	
-	1363 1364 1365 #kasuto river
-	940 941 #zoras and hylias
-	938 944 953 946 954 963#non navigatable
+	961 962 967 
+	1341 1342 1343 1344 1345 1346 1347 1348 1349 1350 1351 1352 1353 1354 1355 1356 1357 1358 1359 1360 1361 1362 1363 1364 1365 1366 1367 1368 1369 1370 1373 1374 1375 1376 1377 1378 1379 1380 1381 1382 1383 1384 1385 1386 1387 1388 1389 1390 1391 1392 1393 1394 1395 1396 1397 1398 1399 1400 1401 1402 1403 1404 1405 1406 1407 1408 1409 1410 1411 1412 1413 1414 1415 1416 1417 1418 1419 1420 1421 1422 1423 1424 1425 1426 1427 1428 1429 1430 1431 1432 1433 1434 1435 1436 1437 1438
+
 }
 
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment

@@ -6302,12 +6302,12 @@
 	culture=gerudo
 }
 1201={
-	name="Mason"
+	name="Mutoh"
 	culture=cobble 
 }
 
 1202={
-	name="Builder"
+	name="Cobble"
 	culture=cobble 
 
 }
@@ -48449,6 +48449,17 @@
 9601={
 	name="Hyptopia"
 	culture=hytopian
+	coat_of_arms={
+		template=0
+		layer={
+			texture=2
+			texture_internal=32
+			emblem=0
+			color=0
+			color=0
+			color=0
+		}
+	}
 }
 
 9602={
@@ -60346,7 +60357,7 @@
 	culture=goro_goron
 }
 12001={
-	name="Bergfalk"
+	name="Zazia"
 	culture=pebble
 }
 
@@ -73419,6 +73430,17 @@
 	culture=hylian
 	used_for_random=no
 	can_appear=no	
+	coat_of_arms={
+		template=0
+		layer={
+			texture=2
+			texture_internal=21
+			emblem=0
+			color=0
+			color=0
+			color=0
+		}
+	}
 }
 14607={
 	name="Batreaux"

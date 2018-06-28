@@ -1,0 +1,160 @@
+decisions = {
+	recruit_lynel={
+		only_playable = yes
+		is_high_prio = yes
+		is_mercenary = yes
+		potential = {
+			is_playable = yes
+			is_landed = yes
+			OR = {
+				religion_group=demon_religion
+				NOR={religion_group=goddesses_religion
+				}
+			}
+			OR = {
+				ai = no
+				any_war = {
+					OR = {
+						any_defender = {
+							character = ROOT
+							is_primary_war_defender = yes
+						}
+						any_attacker = {
+							character = ROOT
+							is_primary_war_attacker = yes
+						}
+					}
+				}
+			}
+		}
+		allow = {
+			war = yes
+			OR = {
+				AND = {
+					NOR = {
+						religion_group=goddesses_religion
+						religion_group=demon_religion
+					}
+					wealth=100
+					piety=500
+				}
+				AND = {
+					religion_group=demon_religion
+					prestige=500
+				}
+			}
+		}
+		effect = {
+			IF = {
+				wealth = -100
+				piety = -500
+				limit={
+					NOT={religion_group=demon_religion}
+				}
+			}
+			IF = {
+				prestige = -500
+				limit={
+					religion_group=demon_religion
+				}
+			}
+			capital_scope = {
+				PREV = {
+					spawn_unit = {
+						owner = ROOT
+						province = PREV
+						home = PREV
+						troops = {
+							horse_archers = { 500 500 }
+							knights = { 300 300 }
+						}
+						disband_on_peace = no
+						maintenance_multiplier = 0.5
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0 # decisions with the "is_mercenary" will not be calculated from the script
+		}
+	}
+	recruit_hinox={
+		only_playable = yes
+		is_high_prio = yes
+		is_mercenary = yes
+		potential = {
+			is_playable = yes
+			is_landed = yes
+			OR = {
+				religion_group=demon_religion
+				NOR={religion_group=goddesses_religion
+				}
+			}
+			OR = {
+				ai = no
+				any_war = {
+					OR = {
+						any_defender = {
+							character = ROOT
+							is_primary_war_defender = yes
+						}
+						any_attacker = {
+							character = ROOT
+							is_primary_war_attacker = yes
+						}
+					}
+				}
+			}
+		}
+		allow = {
+			war = yes
+			OR = {
+				AND = {
+					NOR = {
+						religion_group=goddesses_religion
+						religion_group=demon_religion
+					}
+					wealth=100
+					piety=500
+				}
+				AND = {
+					religion_group=demon_religion
+					prestige=500
+				}
+			}
+		}
+		effect = {
+			IF = {
+				wealth = -100
+				piety = -500
+				limit={
+					NOT={religion_group=demon_religion}
+				}
+			}
+			IF = {
+				prestige = -500
+				limit={
+					religion_group=demon_religion
+				}
+			}
+			capital_scope = {
+				PREV = {
+					spawn_unit = {
+						owner = ROOT
+						province = PREV
+						home = PREV
+						troops = {
+							giant_infantry = { 100 100 } #Normal Hinox
+							archers = { 200 200 } #Hinox Bombers
+						}
+						disband_on_peace = no
+						maintenance_multiplier = 0.5
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0 # decisions with the "is_mercenary" will not be calculated from the script
+		}
+	}
+}
