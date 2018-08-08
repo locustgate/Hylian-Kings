@@ -1,0 +1,23 @@
+# c_trial_island
+
+# County Title
+title = c_trial_island
+
+# Settlements
+max_settlements = 1
+
+b_forest_zone = castle
+#b_flooded_zone = castle
+#b_scorching_zone = castle
+#b_frozen_zone = castle
+#b_fortified_zone = castle
+#b_desert_zone = castle
+#b_shadow_zone = castle
+
+# Misc
+culture = darknut
+religion = darknut_doctrine
+terrain = mountains
+#History
+3910.1.1={
+b_forest_zone=ca_zone_1}
