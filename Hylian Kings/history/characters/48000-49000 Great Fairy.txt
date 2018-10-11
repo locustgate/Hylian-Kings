@@ -1,0 +1,246 @@
+#fairy fountain woods fairy forest sprite woods
+48003={
+	name=Adrastos
+	dynasty=3011
+	dna="dcjiheoegpc"
+	culture=great_fairy 
+	religion=great_fairies
+	martial=6 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=4 
+	learning=8
+	add_trait=grey_eminence
+	add_trait=envious
+	add_trait=chaste 
+	add_trait=content 
+	add_trait=arbitrary 
+	add_trait=diligent 
+	add_trait=temperate 
+	trait=race_fairy
+	3800.9.12={ birth=yes }
+	3890.1.20={ add_spouse=48004 }
+	4118.3.28={ death=yes }
+}
+48004={
+	female=yes
+	name=Ciela
+	dna="fnkjfkeplhj"
+	culture=great_fairy 
+	religion=great_fairies
+	trait=race_fairy
+	3830.1.20={ birth=yes }	
+	3890.1.20={ add_spouse=48003 }
+	4316.9.30={ death=yes }
+}
+48005={
+	name=Tatius
+	dynasty=3011
+	dna="fnkjfkeplhj"
+	culture=great_fairy religion=great_fairies
+	martial=7
+	diplomacy=4 
+	stewardship=5 
+	intrigue=6
+	learning=8
+	add_trait=thrifty_clerk
+	add_trait=diligent
+	add_trait=cruel
+	add_trait=temperate 
+	add_trait=proud 
+	add_trait=honest
+	add_trait=trusting 
+	trait=race_fairy
+	mother=48004
+	father=48003
+	3899.12.20={ birth=yes }
+	4316.9.30={ death=yes }
+}
+
+48006={
+	name=Koblak
+	dynasty=3011
+	dna="edcplelblcc"
+	culture=kokiri religion=great_fairies
+	martial=4 
+	diplomacy=8
+	stewardship=4 
+	intrigue=8 
+	learning=4
+	add_trait=intricate_webweaver 
+	add_trait=just 
+	add_trait=cruel
+	add_trait=zealous
+	add_trait=trusting 
+	trait=race_fairy
+	father=48003
+	3932.1.20={ birth=yes }
+	4343.10.31={ death=yes }
+}
+48007={
+	name=Arabesque
+	female=yes
+	dynasty=3011
+	dna="ldolllabalk"
+	culture=kokiri 
+	religion=great_fairies
+	martial=8
+	diplomacy=4
+	stewardship=8
+	intrigue=4
+	learning=4
+	father=48003
+	trait=skilled_tactician
+	trait=brave
+	trait=robust
+	trait=gregarious
+	trait=race_fairy
+	3938.7.14={ birth=yes }
+	3971.4.4={ death=yes }
+}
+48008={
+	name=Gig
+	female=yes
+	dynasty=3011
+	dna="mdcaeeeialj"
+	culture=kokiri
+	religion=great_fairies
+	martial=4 
+	diplomacy=4
+	stewardship=8
+	intrigue=4 
+	learning=8
+	father=48003
+	trait=martial_cleric
+	trait=zealous
+	trait=kind
+	trait=lustful
+	trait=race_fairy
+	3943.12.22={ birth=yes }
+	4485.12.31={ death=yes }
+}
+#wing woods fairy woods
+48009={
+	name=Arabesque
+	female=yes
+	dynasty=3020
+	culture=great_fairy 
+	religion=great_fairies
+	martial=8
+	diplomacy=10
+	stewardship=8
+	intrigue=4
+	learning=4
+	trait=grey_eminence
+	trait=lustful
+	trait=feeble
+	trait=gregarious
+	trait=race_fairy
+	3750.7.14={ birth=yes }
+	4000.4.4={ death=yes }
+}
+#spryte miff
+48010={
+	name=Navi
+	female=yes
+	dynasty=3001
+	dna="cdphakiffcc"
+	culture=great_fairy religion=great_fairies
+	martial=8 diplomacy=7 stewardship=6 intrigue=6 learning=7
+	add_trait=grey_eminence add_trait=envious add_trait=temperate add_trait=paranoid add_trait=gregarious 
+	add_trait=zealous add_trait=just 
+		trait = race_fairy
+	3799.8.8={ birth=yes }
+	3800.1.1={add_matrilineal_spouse=48014}
+	4154.6.16={ death=yes }
+}
+48011={
+	name=Fi
+		female=yes
+	dynasty=3001
+	dna="cdphambafcp"
+	culture=great_fairy religion=great_fairies
+	martial=6 diplomacy=6 stewardship=4 intrigue=8 learning=5
+	add_trait=martial_cleric add_trait=temperate add_trait=paranoid add_trait=content add_trait=slothful 
+	trait = race_fairy
+	mother=48010	#James
+	father=48014
+	3804.2.5={ birth=yes }
+	3887.11.29={ death=yes }
+}
+48012={
+	name=Amulius
+	dynasty=3001
+	dna="ndphajilfcc"
+	culture=great_fairy religion=great_fairies
+		trait = race_fairy
+	mother=48010	#James
+	father=48014
+	3857.2.1={ birth=yes }
+	3813.12.2={ death=yes }
+}
+48013={
+	name=Aeneas
+	dynasty=3001
+	dna="eaphkkicfch"
+	culture=great_fairy religion=great_fairies
+		trait = race_fairy
+	mother=48010	#James
+	father=48014
+	3921.6.19={ birth=yes }
+	3915.2.19={ death=yes }
+}
+48014={
+	name=Consus
+	dna="cdphakiffcc"
+	culture=great_fairy religion=great_fairies
+	trait = race_fairy
+	3799.8.8={ birth=yes }
+	3800.1.1={add_matrilineal_spouse=48010}
+	4154.6.16={ death=yes }
+}
+#hometown prarie port town
+48015={
+	name=Melvina
+	female=yes
+	dynasty=3030
+	dna="bjfknanijee"
+	culture=great_fairy religion=great_fairies
+	martial=4 diplomacy=8 stewardship=6 intrigue=5 learning=5
+	add_trait=tough_soldier add_trait=trusting add_trait=brave add_trait=shy add_trait=diligent 
+	add_trait=gluttonous 
+	3799.9.2={ birth=yes }
+	3919.1.1={add_matrilineal_spouse=48018}
+	4364.5.19={ death=yes }
+}
+48016={
+	name=Melvina
+	female=yes
+	dynasty=3030
+	dna="dppkeaoihho"
+	culture=great_fairy religion=great_fairies
+	martial=6 diplomacy=4 stewardship=5 intrigue=6 learning=5
+	add_trait=midas_touched add_trait=humble add_trait=just add_trait=temperate add_trait=kind 
+	add_trait=wounded 
+	mother=48015	#John
+	father=48018
+	3922.1.2={ birth=yes }
+	4571.9.6={ death=yes }
+}
+48017={
+	name=Evandrus
+	dynasty=3030
+	dna="bcmknablpej"
+	culture=great_fairy religion=great_fairies
+	mother=48015	#John
+	father=48018
+	3970.4.4={ birth=yes }
+	4612.12.12={ death=yes }
+}
+48018={
+	name=Cupid
+	culture=great_fairy religion=great_fairies
+	3199.9.2={ birth=yes }
+	3919.1.1={add_matrilineal_spouse=48015}
+	4364.5.19={ death=yes }
+}

@@ -1,0 +1,226 @@
+#cuiqenon notra
+39000 = {
+	name=Onolu
+	
+	dynasty=9801
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	trait=lustful
+	#trait=warrior_1
+	trait=gluttonous
+	trait=content
+	trait=misguided_warrior
+	3937.6.6={
+		birth=yes
+	}
+	3974.3.16 = {
+	add_spouse = 39001 
+	}
+	3986.1.1 = {
+		death={ 
+		death_reason = death_murder
+		killer = 39002
+		}
+	}
+}
+39001 = {#fokoqa coken fetku
+	name=Hamsha
+	
+	dynasty=9807
+	female=yes
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	trait=grey_eminence
+	#trait=mage_1
+	trait=ugly
+	trait=kind
+	3957.8.13 = {
+		birth=yes
+	}
+	3974.3.16 = {
+	add_spouse = 39000 
+	}
+	4014.1.1={death=yes}
+}
+39002 = {
+	name=Dram
+	
+	dynasty=9801
+	father=39000
+	religion=demise_religion
+	culture=koridain
+	trait=race_hylian
+	trait=zealous
+	trait=flamboyant_schemer
+	trait=legit_bastard 
+	trait=ambitious
+	trait=lunatic
+	trait=kinslayer
+	3968.10.10={
+		birth=yes
+	}
+	3989.1.1={
+		death={ death_reason = death_suicide }
+	}
+}
+39003 = {
+	name=Aponak
+	
+	dynasty=9801
+	father=39000
+	mother=39001
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	3974.12.28={
+		birth=yes
+	}
+	4037.1.1={death=yes}
+}
+#suroro
+39004 = {
+	name=Horgum
+	
+	dynasty=9812
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	trait=lustful
+	#trait=warrior_2
+	trait=dwarf
+	trait=ambitious
+	trait=scholarly_theologian 
+	3941.12.12={
+		birth=yes
+	}
+	3961.8.19 = {
+	add_spouse = 39005 
+	}
+	3985.1.1 = {
+		death={ 
+		death_reason = death_battle
+		killer = 1030
+		}
+	}
+}
+39005 = {
+	name=Gwaponona
+	
+	female=yes
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	trait=quick
+	trait=shrewd
+	trait=fortune_builder 
+	trait=honest
+	3945.8.19={
+		birth=yes
+	}
+	3961.8.19 = {
+	add_spouse = 39004 
+	}
+	3985.1.1 = {
+		death = { death_reason = death_execution 
+					killer = 1030
+		}
+	}
+}
+39006 = {
+	name=Arala
+	
+	dynasty=9812
+	female=yes
+	father=39004
+	mother=39005
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	trait=fair
+	trait=feeble
+	trait=underhanded_rogue
+	trait=honest
+	3962.4.16 = {
+		birth=yes
+	}
+	3985.1.1 = {
+		add_trait = scarred
+	}
+	3985.1.1 = { 
+		add_spouse = 1030
+	}
+	4017.1.1={death=yes}
+}
+39007 = {
+	name=Onak
+	
+	dynasty=9812
+	father=39004
+	mother=39005
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	3965.7.24 = {
+		birth=yes
+	}
+	3986.1.1={ death={ death_reason = death_execution killer = 1030 } }
+}
+39008 = {
+	name=Maluk
+	
+	dynasty=9812
+	father=39004
+	mother=39005
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	3969.9.15 = {
+		birth=yes
+	}
+	3986.10.16={ death={ death_reason = death_execution killer = 1030 } }
+}
+39009 = {
+	name=Hoolanam
+	
+	dynasty=9812
+	father=39004
+	mother=39005
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	3974.9.15 = {
+		birth=yes
+	}
+	3986.12.25 ={ death={ death_reason = death_execution killer = 1030 } }
+}
+39010 = {
+	name=Hilo
+	
+	female=yes
+	dynasty=9812
+	father=39004
+	mother=39005
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	3978.3.15 = {
+		birth=yes
+	}
+	3986.12.26 ={ death={ death_reason = death_execution killer = 1030 } }
+}
+39011 = {
+	name=Aponak
+	
+	dynasty=9812
+	father=39004
+	mother=39005
+	religion=golden_goddesses
+	culture=koridain
+	trait=race_hylian
+	3979.9.15 = {
+		birth=yes
+	}
+	4040.1.1={death=yes}
+}

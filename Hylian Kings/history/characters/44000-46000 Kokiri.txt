@@ -1,0 +1,614 @@
+#kokiri
+44000={
+	name=Soll
+	dynasty=3700
+	dna="epjplgekpdb"
+	culture=kokiri religion=great_deku
+	martial=8 diplomacy=6 stewardship=8 intrigue=6 learning=10
+	add_trait=mastermind_theologian add_trait=envious add_trait=charitable add_trait=arbitrary 
+	trait=race_kokiri
+	father=48501
+	3799.5.24={ birth=yes }
+	3900.1.1={add_spouse=44004}
+	4213.11.20={ death=yes }
+}
+44001={
+	name=Titrium
+	dynasty=3700
+	dna="cnppdgebpdb"
+	culture=kokiri religion=great_deku
+	martial=6 diplomacy=8 stewardship=8 intrigue=5 learning=8
+	trait=race_kokiri add_trait=mastermind_theologian add_trait=poet add_trait=gregarious add_trait=envious add_trait=trusting 
+	father=44000	#Soll
+	mother=44004
+	3914.7.14={ birth=yes }
+	4219.7.7={ death=yes }
+}
+44002={
+	name=Selah
+	female=yes
+	dynasty=3700
+	dna="eflllgcmceb"
+	culture=kokiri religion=great_deku
+	trait=race_kokiri 
+	father=44000	#Soll
+	mother=44004
+	3937.4.13={ birth=yes }
+	4189.3.23={ death=yes }
+}
+44003={
+	name=Tido
+	dynasty=3700
+	dna="enjppjeppeb"
+	culture=kokiri religion=great_deku
+	martial=7 diplomacy=7 stewardship=5 intrigue=5 learning=5
+	trait=race_kokiri add_trait=flamboyant_schemer add_trait=gardener add_trait=ambitious add_trait=cruel add_trait=greedy 
+	father=44000	#Soll
+	mother=44004
+	3949.7.3={ birth=yes }
+	4210.3.4={ death=yes }
+}
+44004={
+	name=Fia
+	female=yes
+	culture=kokiri religion=great_deku
+	trait=race_kokiri 
+	3799.5.24={ birth=yes }
+	3900.1.1={add_spouse=44000}
+	4213.11.20={ death=yes }
+}
+#minish hylia swamp treehous woods groves
+44005={
+	name=Makar
+	dynasty=3702
+	dna="bpkjcajgioi"
+	culture=kokiri religion=great_deku
+	martial=6 diplomacy=8 stewardship=8 intrigue=6 learning=4
+	trait=race_kokiri add_trait=misguided_warrior add_trait=gardener add_trait=arbitrary add_trait=cynical 
+	3849.3.20={ birth=yes }
+	3955.1.1={add_spouse=44008}
+	4109.6.29={ death=yes }
+}
+44006={
+	name=Manem
+	dynasty=3702
+	dna="koojmajgaoi"
+	culture=kokiri religion=great_deku
+	martial=6 diplomacy=7 stewardship=7 intrigue=6 learning=4
+	add_trait=intricate_webweaver add_trait=paranoid add_trait=patient add_trait=charitable add_trait=diligent 
+	trait=race_kokiri add_trait=cynical add_trait=lunatic 
+	father=44005	#Makar
+	mother=44008
+	3960.8.16={ birth=yes }
+	4377.1.37={ death=yes }
+}
+44007={
+	name=Fasol
+	dynasty=3702
+	dna="kpkgckjgjki"
+	culture=kokiri religion=great_deku
+	martial=5 diplomacy=5 stewardship=5 intrigue=5 learning=5
+	trait=race_kokiri add_trait=detached_priest add_trait=celibate add_trait=kind add_trait=gluttonous add_trait=diligent 
+	add_trait=just 
+	father=44005	#Makar
+	mother=44008
+	3985.1.22={ birth=yes }
+	4397.8.21={ death=yes }
+}
+44008={
+	name=Saria
+	female=yes
+	culture=kokiri religion=great_deku
+	trait=race_kokiri 	
+	3849.3.20={ birth=yes }
+	3955.1.1={add_spouse=44005}
+	4109.6.29={ death=yes }
+}
+#kokiri lost wood
+44010={
+	name=Lyric
+	dynasty=3705
+	dna="mpdfagnolod"
+	culture=kokiri religion=great_deku
+	martial=8 diplomacy=7 stewardship=6 intrigue=6 learning=5
+	add_trait=detached_priest add_trait=gregarious add_trait=cynical add_trait=content add_trait=gluttonous 
+	add_trait=brave 
+	trait=race_kokiri 
+	3849.6.13={ birth=yes }
+		3940.1.1={add_spouse=44013}
+	4005.6.29={ death=yes }
+}
+44011={
+	name=Seranade
+	female=yes
+	dynasty=3705
+	dna="bcdgagnjlod"
+	culture=kokiri religion=great_deku
+	trait=race_kokiri 
+	father=44010	#Lyric
+	mother=44013
+	3942.11.19={ birth=yes }
+	4240.1.27={ death=yes }
+}
+44012={
+	name=Mido
+	dynasty=3705
+	dna="hpdfbinoaih"
+	culture=kokiri religion=great_deku
+	martial=4 diplomacy=6 stewardship=6 intrigue=5 learning=4
+	add_trait=flamboyant_schemer add_trait=cruel add_trait=shy add_trait=arbitrary add_trait=envious 
+	trait=race_kokiri 
+	father=44010	#Lyric
+	mother=44013
+	3973.9.26={ birth=yes }
+	4226.12.18={ death=yes }
+}
+44013={
+	name=Seranade
+	female=yes
+	culture=kokiri religion=great_deku
+	trait=race_kokiri 
+	3849.6.13={ birth=yes }
+		3940.1.1={add_spouse=44010}
+	4005.6.29={ death=yes }
+}
+#stalkid
+44014={
+	name=Jinem
+	dynasty=3601
+	dna="peipnolnmco"
+	culture=skull_kid religion=great_deku
+	martial=4 diplomacy=5 stewardship=6 intrigue=5 learning=6
+	add_trait=scholarly_theologian add_trait=cruel add_trait=temperate add_trait=kind add_trait=content 
+	trait=race_kokiri 
+	father=44022
+	mother=44027
+	3900.11.17={ birth=yes }
+	4180.2.25={ death=yes }
+}
+#stalkades
+44015={
+	name=Sanger
+	dynasty=3715
+	dna="ecljednoopg"
+	culture=kokiri religion=great_deku
+	martial=6 diplomacy=6 stewardship=6 intrigue=8 learning=6
+	add_trait=misguided_warrior add_trait=cruel add_trait=just add_trait=kind add_trait=trusting 
+	trait=race_kokiri
+	add_trait=lustful 
+	3900.11.24={ birth=yes }
+	4235.3.1={ death=yes }
+}
+#piccori
+44016={
+	name=Phantes
+	dynasty=3720
+	dna="hodhadeagmn"
+	culture=kokiri religion=great_deku
+	martial=4 diplomacy=4 stewardship=8 intrigue=5 learning=6
+	add_trait=misguided_warrior add_trait=patient add_trait=paranoid add_trait=chaste add_trait=gregarious 
+	trait=race_kokiri
+	3900.2.7={ birth=yes }
+	3975.1.1={add_spouse=44018}
+	4247.2.27={ death=yes }
+}
+44017={
+	name=Seme
+	dynasty=3720
+	dna="hkkhafedmlk"
+	culture=kokiri religion=great_deku
+	martial=7 diplomacy=8 stewardship=7 intrigue=7 learning=7
+	add_trait=grey_eminence add_trait=wroth add_trait=slothful add_trait=chaste add_trait=zealous 
+	trait=race_kokiri
+	add_trait=clubfooted 
+	father=44016	#Phantes
+	mother=44018
+	3980.8.2={ birth=yes }
+	4386.6.10={ death=yes }
+}
+44018={
+	name=Serenade
+	female=yes
+	trait=race_kokiri
+	culture=kokiri religion=great_deku
+	3900.2.7={ birth=yes }
+	3975.1.1={add_spouse=44016}
+	4247.2.27={ death=yes }
+}
+#wolfos
+44022={
+	name=Rase
+	dynasty=3601
+	dna="adffjmchlhe"
+	culture=kokiri religion=great_deku
+	martial=5 diplomacy=7 stewardship=8 intrigue=5 learning=7
+	trait=race_kokiri
+	add_trait=midas_touched add_trait=brave add_trait=lustful add_trait=content 
+	3799.12.20={ birth=yes }
+	4134.6.2={ death=yes }
+}
+44023={
+	name=Rame
+	dynasty=3601
+	dna="jdgfbailldm"
+	culture=kokiri religion=great_deku
+	martial=5 diplomacy=4 stewardship=6 intrigue=7 learning=7
+	trait=race_kokiri
+	add_trait=naive_appeaser add_trait=chaste add_trait=paranoid add_trait=greedy add_trait=deceitful 
+	father=44022	#Rase
+	mother=44027
+	3884.10.21={ birth=yes }
+	4171.5.16={ death=yes }
+}
+44024={
+	name=Bardo
+	dynasty=3601
+	dna="bdagohcclce"
+	culture=kokiri religion=great_deku
+	martial=6 diplomacy=6 stewardship=5 intrigue=5 learning=7
+	add_trait=martial_cleric add_trait=mystic add_trait=temperate add_trait=trusting add_trait=envious 
+	add_trait=cruel add_trait=ambitious 
+	trait=race_kokiri
+	father=44022	#Rase
+	mother=44027
+	3919.12.18={ birth=yes }
+	4099.12.4={ death=yes }
+}
+44025={
+	name=Titrium
+	dynasty=3601
+	dna="eoofbkcklih"
+	culture=kokiri religion=great_deku
+	martial=4 diplomacy=4 stewardship=7 intrigue=6 learning=5
+	add_trait=midas_touched add_trait=diligent add_trait=humble add_trait=kind add_trait=brave 
+	trait=race_kokiri
+	add_trait=trusting add_trait=gregarious 
+	father=44022	#Rase
+	mother=44027
+	3949.11.2={ birth=yes }
+	4390.10.23={ death=yes }
+}
+44026={
+	name=Fife
+	dynasty=3601
+	dna="cdgfjkcnohe"
+	culture=kokiri religion=great_deku
+	martial=6 diplomacy=6 stewardship=5 intrigue=6 learning=4
+	add_trait=martial_cleric add_trait=trusting add_trait=arbitrary add_trait=honest
+	trait=race_kokiri add_trait=diligent 
+	father=44022	#Rase
+	mother=44027
+	3978.12.19={ birth=yes }
+	4252.4.25={ death=yes }
+}
+44019={
+	name=Bryzelis
+	dynasty=3725
+	dna="aihbjlaoeag"
+	culture=kokiri religion=great_deku
+	martial=7 diplomacy=8 stewardship=7 intrigue=6 learning=4
+	trait=race_kokiri
+	add_trait=grey_eminence add_trait=gregarious add_trait=arbitrary add_trait=kind add_trait=deceitful 
+	3889.7.14={ birth=yes }
+	4191.4.5={ death=yes }
+}
+#Whispering woods
+44020={
+	name=Quint
+	dynasty=3725
+	dna="hinmjllnkdp"
+	culture=kokiri religion=great_deku
+	martial=4 diplomacy=4 stewardship=6 intrigue=7 learning=4
+	trait=race_kokiri
+	add_trait=flamboyant_schemer add_trait=cruel add_trait=brave add_trait=chaste add_trait=harelip 
+	father=44019	#Bryzelis
+	3964.5.15={ birth=yes }
+	4207.11.2={ death=yes }
+}
+#E hylia woods
+44021={
+	name=Bryzelis
+	dynasty=3724
+	dna="aihbjlaoeag"
+	culture=kokiri religion=great_deku
+	martial=7 diplomacy=8 stewardship=7 intrigue=6 learning=4
+	trait=race_kokiri
+	add_trait=grey_eminence add_trait=gregarious add_trait=arbitrary add_trait=kind add_trait=deceitful 
+	3889.7.14={ birth=yes }
+	4191.4.5={ death=yes }
+}
+#west_hylia_woods
+44027={
+	name=Dire
+	dynasty=3730
+	dna="aboeabigemn"
+	culture=kokiri religion=great_deku
+	martial=6 diplomacy=4 stewardship=5 intrigue=6 learning=6
+	add_trait=scholarly_theologian add_trait=duelist add_trait=proud add_trait=slothful add_trait=charitable 
+	add_trait=zealous add_trait=lisp 
+	trait=race_kokiri
+	3900.5.20={ birth=yes }
+	4129.12.27={ death=yes }
+}
+#lakeside retreate
+44028={
+	name=Rama
+	dynasty=3735
+	dna="golbfbgedda"
+	culture=kokiri religion=great_deku
+	martial=5 diplomacy=7 stewardship=6 intrigue=6 learning=8
+	add_trait=tough_soldier add_trait=gregarious add_trait=cynical add_trait=weak 
+	trait=race_kokiri
+	3899.12.6={ birth=yes }
+	4239.8.25={ death=yes }
+}
+#wolfos woods
+44029={
+	name=Rolu
+	dynasty=3740
+	dna="dcjfhjhkeal"
+	culture=kokiri religion=great_deku
+	martial=8 diplomacy=8 stewardship=7 intrigue=4 learning=5
+	add_trait=flamboyant_schemer add_trait=impaler add_trait=wroth add_trait=paranoid add_trait=brave 
+	add_trait=content add_trait=gregarious 
+	trait=race_kokiri
+	3889.9.2={ birth=yes }
+	3975.1.1={add_spouse=44037}
+	4372.2.20={ death=yes }
+}
+#Girrin groves sanctuary woods
+44030={
+	name=Fado
+	dynasty=3740
+	dna="dcidhnhjekg"
+	culture=kokiri religion=great_deku
+	martial=6 diplomacy=8 stewardship=6 intrigue=8 learning=5
+	add_trait=martial_cleric add_trait=celibate add_trait=deceitful add_trait=gluttonous add_trait=craven 
+	add_trait=zealous add_trait=lunatic 
+	trait=race_kokiri
+	father=44029	#Rolu
+	mother=1537
+	3979.8.15={ birth=yes }
+	4239.1.25={ death=yes }
+}
+44037={
+	name=Saria
+	female=yes
+	culture=kokiri religion=great_deku
+	trait=race_kokiri
+	3889.9.2={ birth=yes }
+	3975.1.1={add_spouse=44029}
+	4372.2.20={ death=yes }
+}
+#tsar woods
+44035={
+	name=Ventes
+	dynasty=3755
+	dna="fpbhmhgjgcf"
+	culture=kokiri religion=great_deku
+	martial=6 diplomacy=7 stewardship=8 intrigue=7 learning=5
+	add_trait=midas_touched add_trait=cynical add_trait=proud add_trait=cruel add_trait=craven 
+	trait=race_kokiri
+	3886.5.27={ birth=yes }
+	4159.12.4={ death=yes }
+}
+#wind woods
+44036={
+	name=Alto
+	dynasty=3760
+	dna="cjdplgfiohh"
+	culture=kokiri religion=great_deku
+	martial=7 diplomacy=5 stewardship=4 intrigue=5 learning=8
+	add_trait=tough_soldier add_trait=chaste add_trait=diligent add_trait=cruel add_trait=ugly 
+	trait=race_kokiri
+	3899.10.23={ birth=yes }
+	4208.4.18={ death=yes }
+}
+#none
+44037={
+	name=Dire
+	dynasty=3774
+	dna="acfhhiplgig"
+	culture=kokiri religion=great_deku
+	martial=5 diplomacy=4 stewardship=8 intrigue=5 learning=4
+	add_trait=midas_touched add_trait=duelist add_trait=honest add_trait=cruel add_trait=craven 
+	add_trait=slothful add_trait=drunkard 
+	trait=race_kokiri
+	3897.11.10={ birth=yes }
+	4155.5.25={ death=yes }
+}
+#howling woods
+44038={
+	name=Triumphan
+	dynasty=3765
+	dna="chfgjapbplh"
+	culture=kokiri religion=great_deku
+	martial=6 diplomacy=6 stewardship=6 intrigue=5 learning=4
+	add_trait=tough_soldier add_trait=gregarious add_trait=honest add_trait=ambitious add_trait=gluttonous 
+	add_trait=patient 
+	trait=race_kokiri
+	4399.4.17={ birth=yes }
+	3900.1.1={add_spouse=44043}
+	4134.3.20={ death=yes }
+}
+44039={
+	name=Ergo
+	dynasty=3765
+	dna="cpkijcpbdlb"
+	culture=kokiri religion=great_deku
+	martial=8 diplomacy=7 stewardship=7 intrigue=5 learning=5
+	add_trait=misguided_warrior add_trait=temperate add_trait=slothful add_trait=arbitrary add_trait=charitable 
+	add_trait=cruel add_trait=chaste add_trait=harelip 
+	trait=race_kokiri
+	father=44038	#Triumphan
+	mother=44043
+	3912.7.4={ birth=yes }
+	4179.6.20={ death=yes }
+}
+44040={
+	name=Kavinan
+	dynasty=3765
+	dna="cgfmjalaplp"
+	culture=kokiri religion=great_deku
+	martial=7 diplomacy=8 stewardship=7 intrigue=6 learning=7
+	add_trait=charismatic_negotiator add_trait=greedy add_trait=humble add_trait=temperate add_trait=lustful 
+	add_trait=wroth add_trait=cruel 
+	trait=race_kokiri
+	father=44038	#Triumphan
+	mother=44043
+	3936.2.4={ birth=yes }
+	4175.5.5={ death=yes }
+}
+44041={
+	name=Eum
+	dynasty=3765
+	dna="chfgjdpoplh"
+	culture=kokiri religion=great_deku
+	martial=5 diplomacy=8 stewardship=7 intrigue=8 learning=4
+	add_trait=grey_eminence add_trait=zealous add_trait=paranoid add_trait=slothful add_trait=content 
+	trait=race_kokiri
+	father=44038	#Triumphan
+	mother=44043
+	3955.4.27={ birth=yes }
+	4158.2.10={ death=yes }
+}
+44042={
+	name=Rapsod
+	dynasty=3765
+	dna="cmjbeanipac"
+	culture=kokiri religion=great_deku
+	martial=7 diplomacy=6 stewardship=4 intrigue=7 learning=6
+	add_trait=flamboyant_schemer add_trait=hunter add_trait=charitable add_trait=trusting 
+	father=44038	#Triumphan
+	mother=44043
+	trait=race_kokiri
+	3981.6.10={ birth=yes }
+	4274.7.9={ death=yes }
+}
+44043={
+	name=Saria
+	female=yes
+	culture=kokiri religion=great_deku
+	trait=race_kokiri
+	4399.4.17={ birth=yes }
+	3900.1.1={add_spouse=44038}
+	4134.3.20={ death=yes }
+}
+#none
+44044={
+	name=Titrium
+	dynasty=3770
+	dna="dehcflojnbk"
+	culture=kokiri religion=great_deku
+	martial=6 diplomacy=7 stewardship=4 intrigue=8 learning=6
+	add_trait=flamboyant_schemer add_trait=slothful add_trait=brave add_trait=temperate add_trait=arbitrary 
+	trait=race_kokiri
+	3869.10.8={ birth=yes }
+	3950.1.1={add_spouse=44053}
+	4022.2.14={ death=yes }
+}
+44045={
+	name=Wieszcz
+	dynasty=3770
+	dna="behcflejndk"
+	culture=kokiri religion=great_deku
+	martial=8 diplomacy=8 stewardship=6 intrigue=8 learning=4
+	add_trait=flamboyant_schemer add_trait=humble add_trait=chaste add_trait=trusting add_trait=deceitful 
+	trait=race_kokiri
+	father=44044	#Titrium
+	mother=44053
+	3963.12.10={ birth=yes }
+	4193.9.20={ death=yes }
+}
+#none
+44046={
+	name=Reed
+	dynasty=3775
+	dna="clomjbeelpa"
+	culture=kokiri religion=great_deku
+	martial=6 diplomacy=6 stewardship=5 intrigue=7 learning=4
+	add_trait=martial_cleric add_trait=shy add_trait=cruel add_trait=humble 
+		trait=race_kokiri
+3879.6.24={ birth=yes }
+	3950.1.1={add_spouse=44049}
+	4194.4.23={ death=yes }
+}
+44047={
+	name=Fife
+	dynasty=3775
+	dna="epomjdeelha"
+	culture=kokiri religion=great_deku
+	martial=4 diplomacy=6 stewardship=5 intrigue=5 learning=4
+	add_trait=martial_cleric add_trait=cruel add_trait=humble add_trait=gluttonous add_trait=charitable 
+	add_trait=chaste 
+	trait=race_kokiri
+	father=44046	#Reed
+	mother=44049
+	3963.8.10={ birth=yes }
+	4197.6.1={ death=yes }
+}
+44048={
+	name=Piper
+	dynasty=3775
+	dna="gljmlbeenpp"
+	culture=kokiri religion=great_deku
+	martial=5 diplomacy=7 stewardship=7 intrigue=7 learning=5
+	add_trait=scholarly_theologian add_trait=lustful add_trait=trusting add_trait=zealous add_trait=slow 
+	trait=race_kokiri
+	father=44046	#Reed
+	mother=44049
+	3986.11.3={ birth=yes }
+	4391.10.37={ death=yes }
+}
+44049={
+	name=Fia
+	female=yes
+	culture=kokiri religion=great_deku
+	3879.6.24={ birth=yes }
+	3950.1.1={add_spouse=44046}
+	4194.4.23={ death=yes }
+}
+#none
+44050={
+	name=Kolto
+	dynasty=3700
+	dna="oflgjkhngfo"
+	culture=kokiri religion=great_deku
+	martial=6 diplomacy=5 stewardship=4 intrigue=8 learning=6
+	add_trait=flamboyant_schemer add_trait=diligent add_trait=greedy add_trait=paranoid add_trait=patient 
+	father=48502
+	3880.7.18={ birth=yes }
+	4066.11.28={ death=yes }
+}
+#none
+44051={
+	name=Tele
+	dynasty=3020
+	dna="bjfagmoplbe"
+	culture=kokiri religion=great_fairies
+	martial=5 diplomacy=8 stewardship=7 intrigue=6 learning=6
+	add_trait=grey_eminence add_trait=scholar add_trait=paranoid add_trait=charitable add_trait=brave 
+	add_trait=cruel add_trait=ambitious add_trait=wounded 
+	mother=18500	#Rate
+	3826.8.10={ birth=yes }
+	4061.3.12={ death=yes }
+}
+44052={
+	name=Quina
+	female=yes
+	dynasty=3020
+	dna="ojdaimolebd"
+	culture=great_fairy religion=great_fairies
+	mother=18500	#Rate
+	3853.6.24={ birth=yes }
+	4150.3.28={ death=yes }
+}
+
+44053={
+	name=Fia
+	female=yes
+	culture=kokiri religion=great_deku
+	3869.10.8={ birth=yes }
+	3950.1.1={add_spouse=44044}
+	4022.2.14={ death=yes }
+}

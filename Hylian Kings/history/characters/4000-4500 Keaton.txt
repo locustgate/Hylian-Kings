@@ -150,7 +150,8 @@
 	}
 	4012.1.1={death=yes}
 }
-4010={#Woods
+#keatomo
+4010={
 	name=Takuma
 	dynasty=10415
 	dna="fmiomjkbekb"
@@ -171,11 +172,12 @@
 	3968.6.12={ birth=yes }
 	4020.2.17={ death=yes }
 }
+##Atsu Hoimo (indi
 4012={
 	name=Osamu
 	dynasty=10425
 	dna="nmdnlljbmeb"
-	culture=keaton religion=baga_tree
+	culture=keaton religion=keaton_spirit
 	martial=6 diplomacy=8 stewardship=6 intrigue=7 learning=6
 	add_trait=grey_eminence add_trait=cruel add_trait=chaste add_trait=shy add_trait=craven 
 	3929.10.18={ birth=yes }
@@ -185,7 +187,7 @@
 4013={
 	name=Inari
 	female=yes
-	culture=keaton religion=baga_tree
+	culture=keaton religion=keaton_spirit
 	3931.10.18={ birth=yes }
 	3950.1.1={add_spouse=4012}
 	3980.4.9={ death=yes }
@@ -195,7 +197,7 @@
 	female=yes
 	dynasty=10425
 	dna="nmdoplhbceb"
-	culture=keaton religion=baga_tree
+	culture=keaton religion=keaton_spirit
 	father=4012	#Osamu
 	mother=4013
 	3954.2.11={ birth=yes }
@@ -205,7 +207,7 @@
 	name=Daisuke
 	dynasty=10425
 	dna="bmjnmhjbjgi"
-	culture=keaton religion=baga_tree
+	culture=keaton religion=keaton_spirit
 	martial=8 diplomacy=7 stewardship=5 intrigue=7 learning=7
 	add_trait=intricate_webweaver add_trait=charitable add_trait=kind add_trait=honest add_trait=stressed 
 	father=4012	#Osamu
@@ -218,7 +220,7 @@
 	name=Jirou
 	dynasty=10425
 	dna="pmdbmkkgmeb"
-	culture=keaton religion=baga_tree
+	culture=keaton religion=keaton_spirit
 	martial=8 diplomacy=6 stewardship=7 intrigue=6 learning=4
 	add_trait=detached_priest add_trait=humble add_trait=cynical add_trait=shy add_trait=envious 
 	add_trait=ill 
@@ -230,7 +232,7 @@
 	name=Nori
 	dynasty=10425
 	dna="omdonlhbkeb"
-	culture=keaton religion=baga_tree
+	culture=keaton religion=keaton_spirit
 	martial=6 diplomacy=6 stewardship=5 intrigue=4 learning=8
 	add_trait=midas_touched add_trait=gardener add_trait=gregarious add_trait=cruel add_trait=brave 
 	add_trait=kind 
@@ -243,7 +245,7 @@
 	female=yes
 	dynasty=10425
 	dna="hmikemkbmem"
-	culture=keaton religion=baga_tree
+	culture=keaton religion=keaton_spirit
 	father=4015	#Yoshi
 	mother=4022
 	3981.8.27={ birth=yes }
@@ -253,7 +255,7 @@
 	name=Nori
 	dynasty=10425
 	dna="hmddfdjbmbp"
-	culture=keaton religion=baga_tree
+	culture=keaton religion=keaton_spirit
 	martial=7 diplomacy=6 stewardship=7 intrigue=6 learning=8
 	add_trait=grey_eminence add_trait=ambitious add_trait=brave add_trait=deceitful add_trait=patient 
 	add_trait=gregarious add_trait=temperate add_trait=lunatic 
@@ -267,12 +269,13 @@
 	female=yes
 	dynasty=10425
 	dna="dpionhkbjeo"
-	culture=keaton religion=baga_tree
+	culture=keaton religion=keaton_spirit
 	father=4015	#Yoshi
 	mother=4022
 	3988.10.1={ birth=yes }
 	4058.10.21={ death=yes }
 }
+#nukatara
 4021={
 	name=Ryuu
 	dynasty=10430
@@ -288,16 +291,17 @@
 4022={
 	name=Aiko
 	female=yes
-	culture=keaton religion=baga_tree
+	culture=keaton religion=keaton_spirit
 	3956.5.19={ birth=yes }
 	3975.1.1={add_spouse=4015}
 	4020.4.6={ death=yes }
 }
+#shitara keatichi
 4023={
 	name=Aoi
 	dynasty=10435
 	dna="mpjofaggfjj"
-	culture=keaton religion=baga_tree
+	culture=keaton religion=keaton_spirit
 	martial=8 diplomacy=8 stewardship=5 intrigue=5 learning=6
 	add_trait=midas_touched add_trait=envious add_trait=zealous add_trait=temperate add_trait=greedy 
 	add_trait=trusting 
@@ -308,9 +312,78 @@
 	name=Ren
 	dynasty=10440
 	dna="ikeaahdelhp"
-	culture=keaton religion=baga_tree
+	culture=keaton religion=keaton_spirit
 	martial=6 diplomacy=7 stewardship=7 intrigue=4 learning=8
 	add_trait=indulgent_wastrel add_trait=celibate add_trait=arbitrary add_trait=proud add_trait=envious 
 	3966.1.21={ birth=yes }
 	4028.4.15={ death=yes }
+}
+#thief forts
+4025={
+	name=Hikaru
+	dynasty=10445
+	dna="ecdihokpbog"
+	culture=keaton religion=baga_tree
+	martial=7 diplomacy=6 stewardship=6 intrigue=4 learning=4
+	add_trait=thrifty_clerk add_trait=content add_trait=trusting add_trait=craven add_trait=diligent 
+	add_trait=patient add_trait=honest 
+	3970.4.15={ birth=yes }
+	4016.1.13={ death=yes }
+}
+#poe woods mystery forest
+4026={
+	name=Haruto
+	dynasty=10450
+	dna="holmofemocp"
+	culture=keaton religion=baga_tree
+	martial=5 diplomacy=8 stewardship=5 intrigue=7 learning=7
+	add_trait=grey_eminence add_trait=trusting add_trait=honest 
+	3959.12.2={ birth=yes }
+	3985.12.2={add_spouse=4028}
+	4003.8.15={ death=yes }
+}
+4027={
+	name=Minato
+	dynasty=10450
+	dna="celmhjemdjp"
+	culture=keaton religion=baga_tree
+	martial=4 diplomacy=5 stewardship=6 intrigue=4 learning=7
+	add_trait=thrifty_clerk add_trait=paranoid add_trait=temperate add_trait=diligent add_trait=greedy 
+	add_trait=humble add_trait=stressed 
+	father=4026	#Haruto
+	mother=4028
+	3986.11.8={ birth=yes }
+	4037.1.16={ death=yes }
+}
+4028={
+	name=Ai
+	female=yes
+	dna="holmofemocp"
+	culture=keaton religion=baga_tree
+	3959.12.2={ birth=yes }
+	3985.12.2={add_spouse=4026}
+	4003.8.15={ death=yes }
+}
+#skeleton woods
+4029={
+	name=Itsuki
+	dynasty=10455
+	dna="jdjdnbfhckg"
+	culture=keaton religion=baga_tree
+	martial=7 diplomacy=4 stewardship=6 intrigue=4 learning=8
+	add_trait=martial_cleric add_trait=mystic add_trait=lustful add_trait=trusting add_trait=shy 
+	3969.8.7={ birth=yes }
+	4020.7.29={ death=yes }
+}
+#lykaia
+4030={
+	name=Haruto
+	dynasty=10460
+	dna="ccjdhikkcmc"
+	culture=keaton religion=demise_religion
+	martial=6 diplomacy=7 stewardship=5 intrigue=7 learning=6
+	add_trait=charismatic_negotiator add_trait=celibate add_trait=deceitful add_trait=patient add_trait=lustful 
+	add_trait=gluttonous add_trait=proud 
+	3969.2.26={ birth=yes }
+	4041.11.2={ death=yes }
 }

@@ -1,0 +1,376 @@
+#manhandla forest baba forest diababa wood
+49000={
+	name=Rima
+	dynasty=16207
+	dna="landnolplep"
+	culture=korok religion=great_deku
+	martial=6 diplomacy=7 stewardship=5 intrigue=7 learning=6
+	add_trait=midas_touched add_trait=kind add_trait=shy add_trait=chaste add_trait=paranoid 
+	3919.10.4={ birth=yes }
+	3971.10.7={ death=yes }
+}
+49001={
+	name=Makar
+	dynasty=16207
+	dna="lapdnaojael"
+	culture=korok religion=great_deku
+	martial=6 diplomacy=6 stewardship=5 intrigue=8 learning=5
+	add_trait=detached_priest add_trait=chaste add_trait=kind add_trait=charitable add_trait=content 
+	add_trait=arbitrary 
+	father=49000	#Rima
+	3941.12.19={ birth=yes }
+	4000.7.14={ death=yes }
+}
+49002={
+	name=Aspa
+	female=yes
+	dynasty=16207
+	dna="ldihnhlpnhp"
+	culture=korok religion=great_deku
+	father=49000	#Rima
+	3947.1.24={ birth=yes }
+	4015.2.11={ death=yes }
+}
+49003={
+	name=Maca
+	female=yes
+	dynasty=16207
+	dna="lgnfnolboon"
+	culture=korok religion=great_deku
+	father=49000	#Rima
+	3950.5.19={ birth=yes }
+	4007.6.4={ death=yes }
+}
+49004={
+	name=Mangro
+	dynasty=16207
+	dna="ojpfnaojhom"
+	culture=korok religion=great_deku
+	martial=7 diplomacy=5 stewardship=4 intrigue=5 learning=6
+	add_trait=intricate_webweaver add_trait=zealous add_trait=shy add_trait=kind add_trait=lustful 
+	father=49001	#Makar
+	3962.11.8={ birth=yes }
+	4036.5.28={ death=yes }
+}
+49005={
+	name=Furie
+	female=yes
+	dynasty=16207
+	dna="ihnenafenel"
+	culture=korok religion=great_deku
+	father=49001	#Makar
+	3964.5.27={ birth=yes }
+	4036.1.15={ death=yes }
+}
+49006={
+	name=Firar
+	female=yes
+	dynasty=16207
+	dna="lgpdnldjnhm"
+	culture=korok religion=great_deku
+	father=49001	#Makar
+	3968.6.1={ birth=yes }
+	4037.1.21={ death=yes }
+}
+49007={
+	name=Irch
+	dynasty=16207
+	dna="fapdcikokmd"
+	culture=korok religion=great_deku
+	martial=7 diplomacy=8 stewardship=7 intrigue=5 learning=7
+	add_trait=charismatic_negotiator add_trait=charitable add_trait=slothful add_trait=arbitrary add_trait=shy 
+	add_trait=ambitious 
+	father=49001	#Makar
+	3972.11.22={ birth=yes }
+	4037.4.4={ death=yes }
+}
+49008={
+	name=Linder
+	dynasty=16207
+	dna="ljpfhmoihhd"
+	culture=korok religion=great_deku
+	martial=6 diplomacy=4 stewardship=8 intrigue=4 learning=7
+	add_trait=flamboyant_schemer add_trait=impaler add_trait=cynical add_trait=kind 
+	father=49004	#Mangro
+	3987.1.25={ birth=yes }
+	4034.5.7={ death=yes }
+}
+#haunted narrows korok woods
+49009={
+	name=Peeks
+	dynasty=16210
+	dna="dmkdbbipekb"
+	culture=korok religion=great_deku
+	martial=4 diplomacy=6 stewardship=7 intrigue=6 learning=7
+	add_trait=thrifty_clerk add_trait=humble add_trait=brave add_trait=diligent add_trait=wroth 
+	3969.9.10={ birth=yes }
+	4018.6.21={ death=yes }
+}
+#sword woods
+49010={
+	name=Peeks
+	dynasty=16215
+	dna="joaapccepna"
+	culture=korok religion=great_deku
+	martial=4 diplomacy=4 stewardship=7 intrigue=7 learning=6
+	add_trait=mastermind_theologian add_trait=humble add_trait=wroth add_trait=temperate add_trait=brave 
+	3970.3.6={ birth=yes }
+	4039.10.29={ death=yes }
+}
+#s baga forest n baga forest
+49011={
+	name=Hollo
+	dynasty=16220
+	dna="ehbhpdncfgj"
+	culture=korok religion=baga_tree
+	martial=5 diplomacy=7 stewardship=5 intrigue=7 learning=8
+	add_trait=midas_touched add_trait=mystic add_trait=just add_trait=charitable add_trait=diligent 
+	add_trait=humble add_trait=patient add_trait=trusting add_trait=possessed 
+	3967.5.24={ birth=yes }
+	4039.11.9={ death=yes }
+}
+#w baga forest e baga forest
+49012={
+	name=Peeks
+	dynasty=16225
+	dna="hahdijdpemi"
+	culture=korok religion=baga_tree
+	martial=7 diplomacy=6 stewardship=5 intrigue=6 learning=8
+	add_trait=intricate_webweaver add_trait=mystic add_trait=diligent add_trait=greedy add_trait=brave 
+	add_trait=chaste 
+	3959.2.3={ birth=yes }
+	4009.10.5={ death=yes }
+}
+49013={
+	name=Arbo
+	dynasty=16225
+	dna="hlndbcchihi"
+	culture=korok religion=baga_tree
+	martial=8 diplomacy=6 stewardship=7 intrigue=8 learning=4
+	add_trait=naive_appeaser add_trait=ambitious add_trait=envious add_trait=shy add_trait=drunkard 
+	father=49012	#Peeks
+	3986.5.17={ birth=yes }
+	4045.2.15={ death=yes }
+}
+#odolwa forest selosia woods cucco woods
+49014={
+	name=Asho
+	dynasty=16230
+	dna="oahgjcjnchj"
+	culture=korok religion=baga_tree
+	martial=5 diplomacy=6 stewardship=5 intrigue=7 learning=4
+	add_trait=brilliant_strategist add_trait=paranoid add_trait=cynical add_trait=wrath 
+	3956.12.12={ birth=yes }
+	4014.10.16={ death=yes }
+}
+49015={
+	name=Tasho
+	dynasty=16230
+	dna="oafoancnfbj"
+	culture=korok religion=baga_tree
+	martial=5 diplomacy=8 stewardship=8 intrigue=8 learning=4
+	add_trait=elusive_shadow add_trait=envious add_trait=honest add_trait=content add_trait=craven 
+	add_trait=drunkard 
+	father=49014	#Asho
+	3978.11.2={ birth=yes }
+	4034.1.19={ death=yes }
+}
+49016={
+	name=Tasho
+	dynasty=16230
+	dna="oacmljfnkhj"
+	culture=korok religion=baga_tree
+	martial=5 diplomacy=8 stewardship=7 intrigue=4 learning=7
+	add_trait=tough_soldier add_trait=just add_trait=temperate add_trait=proud add_trait=honest 
+	father=49014	#Asho
+	3981.3.1={ birth=yes }
+	4026.3.30={ death=yes }
+}
+49017={
+	name=Natie
+	female=yes
+	dynasty=16230
+	dna="pcjapcdgihg"
+	culture=korok religion=baga_tree
+	father=49014	#Asho
+	3985.4.11={ birth=yes }
+	4060.11.17={ death=yes }
+}
+#creeping woods boko woods
+49018={
+	name=Irch
+	dynasty=16235
+	dna="ljjkmofncfe"
+	culture=korok religion=baga_tree
+	martial=4 diplomacy=7 stewardship=7 intrigue=4 learning=7
+	add_trait=martial_cleric add_trait=lustful add_trait=proud 
+	3968.6.10={ birth=yes }
+	4043.10.9={ death=yes }
+}
+#skull woods web woods
+49019={
+	name=Elma
+	dynasty=16240
+	dna="oibnilmoljm"
+	culture=korok religion=baga_tree
+	martial=6 diplomacy=6 stewardship=6 intrigue=6 learning=5
+	add_trait=grey_eminence add_trait=kind add_trait=proud add_trait=craven 
+	3965.4.12={ birth=yes }
+	3985.9.12={ add_spouse=49020 }
+	4020.9.3={ death=yes }
+}
+49020={
+	name=Lila
+	female=yes
+	culture=korok religion=baga_treea
+	3965.4.12={ birth=yes }
+	3985.9.12={ add_spouse=49019 }
+	4020.9.3={ death=yes }
+}
+#spirit woods lichen wood
+49021={
+	name=Irch
+	dynasty=16245
+	dna="lpkhnikoced"
+	culture=korok religion=baga_tree
+	martial=7 diplomacy=5 stewardship=6 intrigue=7 learning=5
+	add_trait=charismatic_negotiator add_trait=paranoid add_trait=deceitful add_trait=shy 
+	3966.11.9={ birth=yes }
+	4020.1.4={ death=yes }
+}
+#great faron tree
+49022={
+	name=Makar
+	dynasty=16250
+	dna="eiemglkpcfb"
+	culture=korok religion=great_deku
+	martial=8 diplomacy=7 stewardship=8 intrigue=6 learning=6
+	add_trait=midas_touched add_trait=impaler add_trait=wroth add_trait=gregarious add_trait=gluttonous 
+	add_trait=content add_trait=envious add_trait=drunkard 
+	3919.1.8={ birth=yes }
+	3993.10.15={ death=yes }
+}
+49023={
+	name=Walton
+	dynasty=16250
+	dna="eiednbmlofa"
+	culture=korok religion=great_deku
+	martial=7 diplomacy=8 stewardship=5 intrigue=4 learning=6
+	add_trait=detached_priest add_trait=honest add_trait=cruel add_trait=trusting add_trait=possessed 
+	father=49022	#Makar
+	3941.5.5={ birth=yes }
+	3997.1.25={ death=yes }
+}
+49024={
+	name=Damia
+	female=yes
+	dynasty=16250
+	dna="hbgpgllkcdj"
+	culture=korok religion=great_deku
+	father=49022	#Makar
+	3945.7.24={ birth=yes }
+	3997.10.1={ death=yes }
+}
+49025={
+	name=Cedo
+	dynasty=16250
+	dna="iigmglbpckk"
+	culture=korok religion=great_deku
+	martial=4 diplomacy=5 stewardship=4 intrigue=6 learning=7
+	add_trait=misguided_warrior add_trait=cruel add_trait=zealous add_trait=lustful add_trait=wroth 
+	add_trait=brave add_trait=temperate add_trait=stressed add_trait=possessed 
+	father=49022	#Makar
+	3947.6.19={ birth=yes }
+	3994.11.22={ death=yes }
+}
+49026={
+	name=Tunga
+	dynasty=16250
+	dna="eiicgmkbceb"
+	culture=korok religion=great_deku
+	martial=5 diplomacy=7 stewardship=7 intrigue=7 learning=6
+	add_trait=misguided_warrior add_trait=impaler add_trait=wroth add_trait=proud add_trait=diligent 
+	add_trait=charitable add_trait=craven add_trait=wounded 
+	father=49022	#Makar
+	3951.8.26={ birth=yes }
+	3999.7.2={ death=yes }
+}
+49027={
+	name=Balsin
+	dynasty=16250
+	dna="beimolopbfb"
+	culture=korok religion=great_deku
+	martial=4 diplomacy=5 stewardship=5 intrigue=8 learning=7
+	add_trait=flamboyant_schemer add_trait=chaste add_trait=honest add_trait=humble add_trait=craven 
+	add_trait=temperate add_trait=gregarious 
+	father=49022	#Makar
+	3953.8.13={ birth=yes }
+	4006.10.2={ death=yes }
+}
+49028={
+	name=Daz
+	dynasty=16250
+	dna="fiecnhmlmme"
+	culture=korok religion=great_deku
+	martial=4 diplomacy=7 stewardship=5 intrigue=6 learning=5
+	add_trait=detached_priest add_trait=scholar add_trait=patient add_trait=ambitious add_trait=gregarious 
+	add_trait=lustful 
+	father=49023	#Walton
+	3967.2.7={ birth=yes }
+	4016.8.29={ death=yes }
+}
+49029={
+	name=Rima
+	dynasty=16250
+	dna="eleahbjlofi"
+	culture=korok religion=great_deku
+	martial=4 diplomacy=4 stewardship=8 intrigue=8 learning=8
+	add_trait=detached_priest add_trait=duelist add_trait=honest add_trait=cynical add_trait=diligent 
+	add_trait=gluttonous add_trait=ill 
+	father=49023	#Walton
+	3972.12.2={ birth=yes }
+	4020.1.20={ death=yes }
+}
+49030={
+	name=Silka
+	female=yes
+	dynasty=16250
+	dna="cignlbnjofo"
+	culture=korok religion=great_deku
+	father=49023	#Walton
+	3975.2.13={ birth=yes }
+	4034.6.24={ death=yes }
+}
+49031={
+	name=Yewin
+	female=yes
+	dynasty=16250
+	dna="dalhofmeofg"
+	culture=korok religion=great_deku
+	father=49023	#Walton
+	3978.8.25={ birth=yes }
+	4036.10.12={ death=yes }
+}
+# faron canyon
+49132={
+	name=Drona
+	dynasty=16256
+	dna="gfnoeneglaj"
+	culture=korok religion=great_deku
+	martial=8 diplomacy=5 stewardship=4 intrigue=5 learning=6
+	add_trait=grey_eminence add_trait=brave add_trait=ambitious add_trait=cruel add_trait=arbitrary 
+	add_trait=patient 
+	3967.12.8={ birth=yes }
+	4032.7.21={ death=yes }
+}
+#faron swamp
+49133={
+	name=Asho
+	dynasty=16257
+	dna="dbhpfnljepf"
+	culture=korok religion=great_deku
+	martial=5 diplomacy=4 stewardship=5 intrigue=8 learning=4
+	add_trait=elusive_shadow add_trait=just add_trait=diligent add_trait=trusting add_trait=cruel 
+	3964.5.3={ birth=yes }
+	4035.5.20={ death=yes }
+}

@@ -43,7 +43,7 @@
 	3963.1.1={ add_spouse=16010}
 	4017.5.27={ death=yes }
 }
-16002={ #aphesos
+16002={ #uzinis
 	name=Luka
 	dynasty=7001
 	dna="nmihikancgc"
@@ -86,9 +86,10 @@
 	3972.1.1={add_spouse=16018}
 	3998.12.16={ death=yes }
 }
-16004={ #bisidia
-	name=Sinisa
+16004={ #semnos pyzantion
+	name=Emanuela
 	dynasty=7001
+	female=yes
 	dna="bmidjkcnjih"
 	culture=calatian religion=golden_goddesses
 	martial=6 diplomacy=5 stewardship=7 intrigue=5 learning=7
@@ -256,7 +257,7 @@
 	3972.1.1={add_spouse=16003}
 	4008.6.15={ death=yes }
 }
-#droad
+#sephyron
 16019={
 	name=Nenad
 	dynasty=7011
@@ -300,7 +301,7 @@
 	3965.1.1={ add_spouse=16019 }
 	4021.4.13={ death=yes }
 }
-#lhodia
+#none
 16023={
 	name=Grgur
 	dynasty=7021
@@ -403,7 +404,7 @@
 	4005.1.23={ death=yes }
 }
 
-#Licaea
+#none
 16032={
 	name=Hrvoje
 	dynasty=7061

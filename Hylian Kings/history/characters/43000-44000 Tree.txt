@@ -1,0 +1,109 @@
+43000={
+	name=Deku
+	dynasty=3700
+	culture=deku_tree
+	religion=great_deku
+	martial=10 diplomacy=6 stewardship=8 intrigue=6 learning=8
+	trait=race_tree_deity trait=brilliant_strategist trait=wroth trait=just trait=humble trait=gregarious
+	father=98
+	3000.1.1={birth=yes
+		culture=kokiri
+	}
+	3378.1.1={death=yes}	
+}
+43001={#west
+	name=Deku
+	dynasty=3700
+	culture=deku_tree
+	religion=great_deku
+	martial=8 diplomacy=6 stewardship=8 intrigue=6 learning=10
+	trait=race_tree_deity trait=mastermind_theologian trait=kind trait=just trait=zealous trait=shy
+	father=43000
+	3090.1.1={birth=yes
+		culture=kokiri}
+	3778.1.1={death=yes}	
+}
+43002={#east
+	name=Deku
+	dynasty=3700
+	culture=deku_tree
+	religion=great_deku
+	martial=6 diplomacy=10 stewardship=10 intrigue=6 learning=8
+	trait=race_tree_deity trait=grey_eminence trait=kind trait=arbitrary trait=greedy trait=gregarious
+	father=43000
+	3200.1.1={birth=yes
+		culture=kokiri}
+	3778.1.1={death=yes}	
+}
+43003={#west
+	name=Deku
+	dynasty=3700
+	culture=deku_tree
+	religion=great_deku
+	martial=8 diplomacy=6 stewardship=8 intrigue=6 learning=10
+	trait=race_tree_deity trait=grey_eminence trait=ambitious trait=just trait=trusting trait=erudite
+	father=43001
+	3190.1.1={birth=yes
+		culture=kokiri}
+	4078.1.1={death=yes}	
+}
+43004={#east
+	name=Deku
+	dynasty=3700
+	culture=deku_tree
+	religion=great_deku
+	martial=8 diplomacy=6 stewardship=8 intrigue=6 learning=10
+	trait=race_tree_deity trait=grey_eminence trait=ambitious trait=just trait=trusting trait=erudite
+	father=43002
+	3280.1.1={birth=yes
+		culture=kokiri}
+	4078.1.1={death=yes}	
+}
+43005={#islet
+	name=Deku
+	dynasty=3700
+	culture=deku_tree
+	religion=great_deku
+	martial=8 diplomacy=6 stewardship=8 intrigue=6 learning=10
+	trait=race_tree_deity trait=grey_eminence trait=ambitious trait=just trait=trusting trait=erudite
+	father=43002
+	3580.1.1={birth=yes
+		culture=kokiri}
+	4578.1.1={death=yes}	
+}
+#baga
+43005={
+	name=Baga
+	dynasty=3601
+	culture=baga_tree
+	religion=baga_tree
+	martial=6 diplomacy=10 stewardship=10 intrigue=6 learning=8
+	trait=race_tree_deity trait=grey_eminence trait=kind trait=arbitrary trait=greedy trait=gregarious
+	3100.1.1={birth=yes
+		culture=skull_kid}
+	3678.1.1={death=yes}	
+}
+43006={
+	name=Baga
+	dynasty=3601
+	culture=baga_tree
+	religion=baga_tree
+	martial=8 diplomacy=6 stewardship=8 intrigue=6 learning=10
+	trait=race_tree_deity trait=grey_eminence trait=ambitious trait=just trait=trusting trait=erudite
+	father=43005
+	3580.1.1={birth=yes
+		culture=skull_kid}
+	4078.1.1={death=yes}	
+}
+43007={
+	name=Baga
+	dynasty=3601
+	culture=baga_tree
+	religion=baga_tree
+	martial=8 diplomacy=6 stewardship=8 intrigue=6 learning=10
+	trait=race_tree_deity trait=grey_eminence trait=ambitious trait=just trait=trusting trait=erudite
+	father=43005
+	3990.1.1={birth=yes
+		culture=skull_kid}
+	4578.1.1={death=yes}	
+}

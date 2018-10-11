@@ -1,34 +1,33 @@
-
-31000={
-	name=Shield
-	dna="ak00c0j0000"
-	properties="cl0dag0b000000"	
-	martial=5 
-	diplomacy=5 
-	stewardship=5
-	intrigue=5 
-	learning=5
-	culture=darknut
-	religion=darknut_doctrine
-	trait=brilliant_strategist
-	trait=race_darknut
-	trait=darknut_armor
-	trait=darknut_sword
-	trait=patient
-	trait=robust
-	trait=brave
-	trait=just
-	3953.1.1={birth=yes}
-	3971.1.1={add_trait=scarred}
-	3973.1.1={add_trait=impaler}
-	3974.1.1={remove_trait=impaler
-		add_trait=theologian
-	}
-	3975.1.1={add_trait=heavy_infantry_leader}
-	3976.1.1={add_trait=inspiring_leader}
-	3977.1.1={add_trait=desert_terrain_leader}	
-	4017.11.22={ death=yes }
-}
+#31000={
+#	name=Shield
+#	dna="ak00c0j0000"
+#	properties="cl0dag0b000000"	
+#	martial=5 
+#	diplomacy=5 
+#	stewardship=5
+#	intrigue=5 
+#	learning=5
+#	culture=darknut
+#	religion=darknut_doctrine
+#	trait=brilliant_strategist
+#	trait=race_darknut
+#	trait=darknut_armor
+#	trait=darknut_sword
+#	trait=patient
+#	trait=robust
+#	trait=brave
+#	trait=just
+#	3953.1.1={birth=yes}
+#	3971.1.1={add_trait=scarred}
+#	3973.1.1={add_trait=impaler}
+#	3974.1.1={remove_trait=impaler
+#		add_trait=theologian
+#	}
+#	3975.1.1={add_trait=heavy_infantry_leader}
+#	3976.1.1={add_trait=inspiring_leader}
+#	3977.1.1={add_trait=desert_terrain_leader}	
+#	4017.11.22={ death=yes }
+#}
 #bastion bastion darknut_bastion river_fork darknut_valley
 31001={
 	name=Roland
@@ -101,7 +100,7 @@
 	3973.3.10={ birth=yes }
 	4033.11.15={ death=yes }
 }
-#d desert_of_death legion gates deaths valley
+#k_maw
 31006={
 	name=Corvo
 	dynasty=4405
@@ -152,7 +151,7 @@
 	3981.12.12={ birth=yes }
 	4052.8.17={ death=yes }
 }
-#d jackal desert jackal desert wosu wastes
+#k_gerudo
 31010={
 	name=Alaric
 	dynasty=4410
@@ -226,7 +225,7 @@
 	3986.3.1={ birth=yes }
 	4055.10.26={ death=yes }
 }
-#bastion cliffs bastion caverns betrayer's field cliff bastions
+#jackal desert
 31016={
 	name=Miltiades
 	dynasty=4415
@@ -660,7 +659,7 @@
 	3983.9.4={ add_spouse=31039 }
 	4034.6.3={ death=yes }
 }
-#wizzrobe_wastes trying_sands 
+#maw
 31045={
 	name=Flaccus
 	dynasty=4460
@@ -707,7 +706,7 @@
 	3978.1.1={add_spouse=31045}
 	4008.3.28={ death=yes }
 }
-#doxs_blood
+#revealing dunes sword dunes
 31049={
 	name=Flamininus
 	dynasty=4465
@@ -718,7 +717,7 @@
 	3965.11.19={ birth=yes }
 	4026.6.5={ death=yes }
 }
-#blade_bend
+#antlion pits
 31050={
 	name=Miltiades
 	dynasty=4470
@@ -730,7 +729,7 @@
 	3965.9.16={ birth=yes }
 	4034.1.30={ death=yes }
 }
-#turncoats_bend legions_founding
+#bastion gate armour sands
 31051={
 	name=Glabrio
 	dynasty=4475
@@ -798,7 +797,7 @@
 	3964.1.1={holder=31051}
 	3991.1.4={ death=yes }
 }
-#revealing_dunes
+#maul wastes
 31057={
 	name=Caprarius
 	dynasty=4480
@@ -821,7 +820,7 @@
 	3965.5.21={ birth=yes }
 	4037.12.5={ death=yes }
 }
-#phalanx_waste flanking_sands
+#mirror valley mirror sands
 31059={
 	name=Glabrio
 	dynasty=4485
@@ -923,4 +922,39 @@
 	trait=darknut_sword trait=mastermind_theologian add_trait=cruel add_trait=lustful add_trait=charitable add_trait=zealous 
 	3957.4.27={ birth=yes }
 	4026.9.12={ death={death_reason=death_battle}}
+}
+#gerudo_mesa dayfly desert watchtower waste
+31068={
+	name=Sun
+	dynasty=4501
+	culture=darknut religion=great_fairies
+	martial=5 diplomacy=5 stewardship=5 intrigue=7 learning=7
+	add_trait=scholarly_theologian add_trait=kind add_trait=arbitrary add_trait=cynical add_trait=brave 
+	3967.7.4={ birth=yes }
+	3985.1.1={add_spouse=31069}
+	4020.7.24={ death=yes }
+
+}
+31069={
+	name=Navi
+	dynasty=3004
+	female=yes
+	culture=great_fairy religion=great_fairies
+	trait=race_fairy add_trait=intricate_webweaver add_trait=chaste add_trait=feeble  add_trait=greedy
+	3967.7.4={ birth=yes }
+	3985.1.1={add_spouse=31068}
+	4020.7.24={ death=yes }	
+}
+#leever waste lake cliffs
+31070
+	name=Paetus
+	dynasty=4510
+	culture=darknut religion=great_fairies
+	martial=7 diplomacy=4 stewardship=5 intrigue=3 learning=6
+	trait=race_darknut	
+	trait=darknut_armor
+	trait=darknut_sword add_trait=tough_soldier add_trait=envious add_trait=just add_trait=zelous add_trait=coward 
+	3967.7.4={ birth=yes }
+	4020.7.24={ death=yes }
+
 }
