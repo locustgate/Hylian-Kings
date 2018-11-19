@@ -1,0 +1,108 @@
+#rolling ridge mermaid's cave cart mines rolling ridge crown caverns
+53001={
+	name=Konoros
+	dynasty=2605
+	dna="haanchgnekb"
+	culture=rolling_goron religion=earth_spirits
+	martial=7 diplomacy=7 stewardship=6 intrigue=6 learning=7
+	trait=race_goron
+	add_trait=martial_cleric add_trait=arbitrary add_trait=charitable 
+	3700.8.14={ birth=yes }
+	3780.1.1={add_spouse=53008}
+	3997.6.19={ death=yes }
+}
+53002={
+	name=Goras
+	female=yes
+	dynasty=2605
+	dna="haanbcgnkkb"
+	culture=rolling_goron religion=earth_spirits
+	trait=race_goron
+	father=53001	#Konoros
+	mother=53008
+	3784.4.8={ birth=yes }
+	4115.5.13={ death=yes }
+}
+53003={
+	name=Korom
+	female=yes
+	dynasty=2605
+	dna="dngdcdgnekd"
+	culture=rolling_goron religion=earth_spirits
+	trait=race_goron
+	father=53001	#Konoros
+	mother=53008
+	3815.10.26={ birth=yes }
+	4187.12.24={ death=yes }
+}
+53004={
+	name=Kingi
+	dynasty=2605
+	dna="hamndhgfekb"
+	culture=rolling_goron religion=earth_spirits
+	martial=4 diplomacy=4 stewardship=5 intrigue=8 learning=8
+	add_trait=thrifty_clerk add_trait=cynical add_trait=craven add_trait=content add_trait=chaste 
+	add_trait=diligent 
+	trait=race_goron
+	father=53001	#Konoros
+	mother=53008
+	3834.5.17={ birth=yes }
+	3910.1.1={add_spouse=53009}
+	4202.9.11={ death=yes }
+}
+53005={
+	name=Dungi
+	dynasty=2605
+	dna="geandhgaekf"
+	culture=rolling_goron religion=earth_spirits
+	martial=8 diplomacy=5 stewardship=7 intrigue=7 learning=6
+	add_trait=intricate_webweaver add_trait=zealous add_trait=cruel add_trait=humble add_trait=wroth 
+	add_trait=greedy add_trait=chaste 
+	trait=race_goron
+	father=53004	#Kingi
+	mother=53009
+	3917.1.17={ birth=yes }
+	4073.12.12={ death=yes }
+}
+53006={
+	name=Kongoroloro
+	female=yes
+	dynasty=2605
+	dna="bfendhffcop"
+	culture=rolling_goron religion=earth_spirits
+	trait=race_goron
+	father=53004	#Kingi
+	mother=53009
+	3945.7.5={ birth=yes }
+	4316.5.6={ death=yes }
+}
+53007={
+	name=Gotogon
+	female=yes
+	dynasty=2605
+	dna="hajknogkcpb"
+	culture=rolling_goron religion=earth_spirits
+	trait=race_goron
+	father=53004	#Kingi
+	mother=53009
+	3969.7.10={ birth=yes }
+	4370.9.19={ death=yes }
+}
+53008={
+	name=Gonanun
+	female=yes
+	culture=rolling_goron religion=earth_spirits
+	trait=race_goron
+	3700.8.14={ birth=yes }
+	3780.1.1={add_spouse=53001}
+	3997.6.19={ death=yes }
+}
+53009={
+	name=Kingi
+	female=yes
+	culture=rolling_goron religion=earth_spirits
+	trait=race_goron
+	3834.5.17={ birth=yes }
+	3910.1.1={add_spouse=53004}
+	4202.9.11={ death=yes }
+}

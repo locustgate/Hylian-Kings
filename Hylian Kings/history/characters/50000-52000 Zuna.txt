@@ -1,0 +1,917 @@
+#zuna takkurimakan takkurimakan takkurimakan tanuruma
+50000={
+	name=Elsu
+	dynasty=1401
+	dna="npcafajodhh"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=6 stewardship=7 intrigue=7 learning=6
+	add_trait=martial_cleric add_trait=just add_trait=shy add_trait=wroth add_trait=honest 
+	add_trait=lustful add_trait=harelip 
+	3400.7.3={ birth=yes }
+	3462.8.2={ death=yes }
+}
+50001={
+	name=Ohanko
+	dynasty=1401
+	dna="npkidjkidhg"
+	culture=zuna religion=zunist
+	martial=7 diplomacy=6 stewardship=6 intrigue=8 learning=4
+	add_trait=scholarly_theologian add_trait=proud add_trait=charitable add_trait=slothful add_trait=content 
+	add_trait=ill 
+	father=50000	#Elsu
+	3426.3.19={ birth=yes }
+	3490.12.17={ death=yes }
+}
+50002={
+	name=Naalnish
+	dynasty=1401
+	dna="fjnidjkadhg"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=4 stewardship=6 intrigue=4 learning=5
+	add_trait=midas_touched add_trait=cruel add_trait=chaste add_trait=shy add_trait=zealous 
+	add_trait=drunkard 
+	father=50001	#Ohanko
+	3447.7.13={ birth=yes }
+	3489.8.22={ death=yes }
+}
+50003={
+	name=Kachada
+	dynasty=1402
+	dna="mdkehikaljg"
+	culture=zuna religion=zunist
+	martial=4 diplomacy=8 stewardship=5 intrigue=5 learning=8
+	add_trait=mastermind_theologian add_trait=just add_trait=kind add_trait=diligent add_trait=honest 
+	3498.4.12={ birth=yes }
+	3564.10.9={ death=yes }
+}
+50004={
+	name=Chesmu
+	dynasty=1402
+	dna="pdkfhadhgjl"
+	culture=zuna religion=zunist
+	martial=7 diplomacy=6 stewardship=4 intrigue=7 learning=5
+	add_trait=tough_soldier add_trait=brave add_trait=lustful add_trait=cruel add_trait=zealous 
+	add_trait=humble add_trait=trusting add_trait=stressed 
+	father=50003	#Kachada
+	3518.1.9={ birth=yes }
+	3587.7.3={ death=yes }
+}
+50005={
+	name=Odakota
+	dynasty=1402
+	dna="kceffhdhejl"
+	culture=zuna religion=zunist
+	martial=5 diplomacy=7 stewardship=5 intrigue=8 learning=7
+	add_trait=detached_priest add_trait=scholar add_trait=ambitious add_trait=greedy add_trait=gluttonous 
+	add_trait=drunkard 
+	father=50004	#Chesmu
+	3541.3.6={ birth=yes }
+	3601.3.10={ death=yes }
+}
+50006={
+	name=Otaktay
+	dynasty=1402
+	dna="ncmffhkaddl"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=6 stewardship=4 intrigue=8 learning=6
+	add_trait=intricate_webweaver add_trait=envious add_trait=cruel 
+	father=50005	#Odakota
+	3561.12.16={ birth=yes }
+	3627.9.27={ death=yes }
+}
+50007={
+	name=Keme
+	dynasty=1402
+	dna="eplkghbainl"
+	culture=zuna religion=zunist
+	martial=6 diplomacy=6 stewardship=5 intrigue=5 learning=8
+	add_trait=skilled_tactician add_trait=gregarious add_trait=kind add_trait=temperate add_trait=patient 
+	add_trait=drunkard 
+	father=50006	#Otaktay
+	3587.4.15={ birth=yes }
+	3669.9.1={ death=yes }
+}
+50008={
+	name=Nukpana
+	dynasty=1402
+	dna="eplkgdfaine"
+	culture=zuna religion=zunist
+	martial=7 diplomacy=7 stewardship=7 intrigue=4 learning=6
+	add_trait=tough_soldier add_trait=gardener add_trait=chaste add_trait=shy add_trait=humble 
+	father=50007	#Keme
+	3614.2.18={ birth=yes }
+	3675.8.19={ death=yes }
+}
+50009={
+	name=Demotha
+	dynasty=1402
+	dna="lgeojdfllnk"
+	culture=zuna religion=zunist
+	martial=4 diplomacy=7 stewardship=6 intrigue=8 learning=4
+	add_trait=mastermind_theologian add_trait=gardener add_trait=slothful add_trait=craven add_trait=chaste 
+	add_trait=paranoid 
+	father=50008	#Nukpana
+	3635.7.8={ birth=yes }
+	3700.7.31={ death=yes }
+}
+50010={
+	name=Mahpee
+	dynasty=1402
+	dna="lgefpdfglkc"
+	culture=zuna religion=zunist
+	martial=4 diplomacy=8 stewardship=6 intrigue=4 learning=4
+	add_trait=scholarly_theologian add_trait=lustful add_trait=deceitful add_trait=shy add_trait=gluttonous 
+	add_trait=zealous 
+	father=50009	#Demotha
+	3667.4.14={ birth=yes }
+	3733.3.3={ death=yes }
+}
+50011={
+	name=Delsin
+	dynasty=1403
+	dna="kcehedaglka"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=6 stewardship=4 intrigue=5 learning=5
+	add_trait=charismatic_negotiator add_trait=wroth add_trait=cruel add_trait=diligent add_trait=temperate 
+	add_trait=depressed 
+	3696.5.6={ birth=yes }
+	3743.7.28={ death=yes }
+}
+50012={
+	name=Kachada
+	dynasty=1403
+	dna="kceddjjgldf"
+	culture=zuna religion=zunist
+	martial=6 diplomacy=5 stewardship=7 intrigue=5 learning=4
+	add_trait=misguided_warrior add_trait=charitable add_trait=content add_trait=temperate add_trait=slothful 
+	add_trait=cruel add_trait=fair 
+	father=50011	#Delsin
+	3723.2.26={ birth=yes }
+	3773.1.25={ death=yes }
+}
+50013={
+	name=Cochise
+	dynasty=1403
+	dna="kdncnejklgf"
+	culture=zuna religion=zunist
+	martial=4 diplomacy=4 stewardship=6 intrigue=4 learning=5
+	add_trait=intricate_webweaver add_trait=lustful add_trait=slothful add_trait=ambitious add_trait=just 
+	add_trait=depressed 
+	father=50012	#Kachada
+	3750.10.5={ birth=yes }
+	3800.7.18={ death=yes }
+}
+50014={
+	name=Ezhno
+	dynasty=1404
+	dna="fdncopjkljf"
+	culture=zuna religion=zunist
+	martial=5 diplomacy=7 stewardship=6 intrigue=8 learning=8
+	add_trait=tough_soldier add_trait=cynical add_trait=gluttonous add_trait=charitable add_trait=wroth 
+	3774.6.13={ birth=yes }
+	3850.9.29={ death=yes }
+}
+50015={
+	name=Astu
+	dynasty=1405
+	dna="leeoogahlmb"
+	culture=zuna religion=zunist
+	martial=5 diplomacy=5 stewardship=7 intrigue=5 learning=5
+	add_trait=misguided_warrior add_trait=hunter add_trait=cynical add_trait=wroth add_trait=humble 
+	add_trait=charitable add_trait=honest 
+	3801.10.27={ birth=yes }
+	3869.11.27={ death=yes }
+}
+50016={
+	name=Hassun
+	dynasty=1405
+	dna="leeioamhmmf"
+	culture=zuna religion=zunist
+	martial=7 diplomacy=8 stewardship=5 intrigue=4 learning=6
+	add_trait=martial_cleric add_trait=just add_trait=chaste add_trait=gregarious add_trait=deceitful 
+	father=50015	#Astu
+	3828.6.11={ birth=yes }
+	3886.8.28={ death=yes }
+}
+50017={
+	name=Rowtag
+	dynasty=1405
+	dna="lohiohmgmmf"
+	culture=zuna religion=zunist
+	martial=6 diplomacy=6 stewardship=4 intrigue=6 learning=4
+	add_trait=grey_eminence add_trait=lustful add_trait=craven add_trait=cynical add_trait=cruel 
+	add_trait=wounded 
+	father=50016	#Hassun
+	3849.9.3={ birth=yes }
+	3905.2.25={ death=yes }
+}
+50018={
+	name=Lye
+	dynasty=1405
+	dna="ldhiaemgmnm"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=4 stewardship=4 intrigue=7 learning=7
+	add_trait=charismatic_negotiator add_trait=shy add_trait=lustful 
+	father=50017	#Rowtag
+	3878.1.15={ birth=yes }
+	3925.11.23={ death=yes }
+}
+50019={
+	name=Kachada
+	dynasty=1405
+	dna="ldhkfejgdgm"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=6 stewardship=4 intrigue=8 learning=5
+	add_trait=thrifty_clerk add_trait=chaste add_trait=temperate add_trait=envious add_trait=craven 
+	father=50018	#Lye
+	3898.4.26={ birth=yes }
+	3975.5.26={ death=yes }
+}
+50020={
+	name=Abooksigun
+	dynasty=1405
+	dna="ajhkmehgdgn"
+	culture=zuna religion=zunist
+	martial=4 diplomacy=7 stewardship=8 intrigue=6 learning=6
+	add_trait=martial_cleric add_trait=temperate add_trait=craven add_trait=lustful add_trait=trusting 
+	add_trait=content add_trait=drunkard 
+	father=50019	#Kachada
+	3922.1.27={ birth=yes }
+	3990.12.13={ death=yes }
+}
+50021={
+	name=Elsu
+	dynasty=1405
+	dna="alhkmjjgdcn"
+	culture=zuna religion=zunist
+	martial=4 diplomacy=8 stewardship=7 intrigue=4 learning=6
+	add_trait=flamboyant_schemer add_trait=scholar add_trait=honest add_trait=diligent add_trait=shy 
+	add_trait=craven 
+	father=50020	#Abooksigun
+	3952.3.13={ birth=yes }
+	3997.7.3={ death=yes }
+}
+50022={
+	name=Elsu
+	dynasty=1405
+	dna="pfckonjjacl"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=8 stewardship=6 intrigue=5 learning=5
+	add_trait=misguided_warrior add_trait=zealous add_trait=honest add_trait=content add_trait=gluttonous 
+	add_trait=lunatic 
+	father=50021	#Elsu
+	3977.6.23={ birth=yes }
+	4035.5.5={ death=yes }
+}
+50023={
+	name=Pachua
+	dynasty=1405
+	dna="ikeoopjgbln"
+	culture=zuna religion=zunist
+	martial=4 diplomacy=7 stewardship=7 intrigue=7 learning=6
+	add_trait=mastermind_theologian add_trait=wroth add_trait=greedy add_trait=cruel 
+	father=50021	#Elsu
+	3978.7.2={ birth=yes }
+	4047.2.4={ death=yes }
+}
+50024={
+	name=Mahal
+	female=yes
+	dynasty=1405
+	dna="ahhfokegdch"
+	culture=zuna religion=zunist
+	father=50021	#Elsu
+	3982.10.24={ birth=yes }
+	4028.1.6={ death=yes }
+}
+50025={
+	name=Qochata
+	dynasty=1405
+	dna="agdkmijlnce"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=4 stewardship=6 intrigue=6 learning=4
+	add_trait=indulgent_wastrel add_trait=content add_trait=just add_trait=cruel 
+	father=50021	#Elsu
+	3984.7.26={ birth=yes }
+	4033.7.30={ death=yes }
+}
+50026={
+	name=Qochata
+	dynasty=1405
+	dna="pfcbonjklck"
+	culture=zuna religion=zunist
+	martial=7 diplomacy=6 stewardship=4 intrigue=4 learning=8
+	add_trait=flamboyant_schemer add_trait=celibate add_trait=kind add_trait=lustful add_trait=cruel 
+	add_trait=patient add_trait=strong 
+	father=50022	#Elsu
+	3999.9.22={ birth=yes }
+	4048.3.22={ death=yes }
+}
+#cadosi
+50026={
+	name=Bamas
+	dynasty=1406
+	dna="ihflpihloan"
+	culture=zuna religion=zunist
+	martial=6 diplomacy=6 stewardship=4 intrigue=7 learning=5
+	add_trait=midas_touched add_trait=duelist add_trait=humble add_trait=gregarious add_trait=lustful 
+	3970.2.20={ birth=yes }
+	4038.1.2={ death=yes }
+}
+#tochira tochia zunantion
+50027={
+	name=Pallatan
+	dynasty=1410
+	dna="pckjhmacknh"
+	culture=zuna religion=zunist
+	martial=6 diplomacy=8 stewardship=8 intrigue=7 learning=5
+	add_trait=elusive_shadow add_trait=diligent add_trait=humble add_trait=kind add_trait=wroth 
+	3939.6.24={ birth=yes }
+	3962.6.24={ add_spouse=50031}
+	3999.12.13={ death=yes }
+}
+50028={
+	name=Chogan
+	dynasty=1410
+	dna="pkffgpnbbnp"
+	culture=zuna religion=zunist
+	martial=5 diplomacy=8 stewardship=5 intrigue=5 learning=6
+	add_trait=midas_touched add_trait=chaste add_trait=kind add_trait=humble add_trait=deceitful 
+	add_trait=cruel 
+	father=50027	#Pallatan
+	mother=50031
+	3964.8.16={ birth=yes }
+	4034.12.27={ death=yes }
+}
+50029={
+	name=Yoka
+	female=yes
+	dynasty=1410
+	dna="emkpdmiccih"
+	culture=zuna religion=zunist
+	father=50027	#Pallatan
+	mother=50031
+	3967.7.12={ birth=yes }
+	4036.2.21={ death=yes }
+}
+50030={
+	name=Koko
+	female=yes
+	dynasty=1410
+	dna="pjbjibjidnn"
+	culture=zuna religion=zunist
+	father=50027	#Pallatan
+	mother=50031
+	3970.7.21={ birth=yes }
+	4029.12.16={ death=yes }
+}
+50031={
+	name=Pallatan
+	female=yes
+	culture=zuna religion=zunist
+	3939.6.24={ birth=yes }
+	3962.6.24={ add_spouse=50027}
+	3999.12.13={ death=yes }
+}
+#acinia zunasa
+50032={
+	name=Odakota
+	dynasty=1415
+	dna="jdkchjfijhd"
+	culture=zuna religion=zunist
+	martial=7 diplomacy=4 stewardship=6 intrigue=4 learning=4
+	add_trait=detached_priest add_trait=mystic add_trait=chaste add_trait=charitable add_trait=deceitful 
+	add_trait=gluttonous add_trait=stressed 
+	3949.2.9={ birth=yes }
+	3980.1.1={ death=yes }
+}
+50033={
+	name=Poloma
+	female=yes
+	dynasty=1415
+	dna="hdkcgjfdjhb"
+	culture=zuna religion=zunist
+	father=50032	#Odakota
+	3973.4.1={ birth=yes }
+	4034.3.20={ death=yes }
+}
+50034={
+	name=Achak
+	dynasty=1415
+	dna="kcdchjibjcc"
+	culture=zuna religion=zunist
+	martial=6 diplomacy=6 stewardship=7 intrigue=8 learning=8
+	add_trait=midas_touched add_trait=trusting add_trait=charitable add_trait=ill 
+	father=50032	#Odakota
+	3978.3.5={ birth=yes }
+	4047.8.28={ death=yes }
+}
+
+#lobnor
+50035={
+	name=Dakotah
+	dynasty=1420
+	dna="lbcompeommm"
+	culture=zuna religion=zunist
+	martial=6 diplomacy=8 stewardship=8 intrigue=5 learning=4
+	add_trait=flamboyant_schemer add_trait=hedonist add_trait=envious add_trait=ambitious add_trait=craven 
+	3960.9.27={ birth=yes }
+	4006.7.17={ death=yes }
+}
+50036={
+	name=Otohhastis
+	dynasty=1420
+	dna="lbeompnfmmm"
+	culture=zuna religion=zunist
+	martial=6 diplomacy=7 stewardship=6 intrigue=6 learning=5
+	add_trait=charismatic_negotiator add_trait=deceitful add_trait=cruel add_trait=shy 
+	father=50035	#Dakotah
+	3985.6.18={ birth=yes }
+	4030.12.15={ death=yes }
+}
+#vada vada zunatana
+50037={
+	name=Naalnish
+	dynasty=1425
+	dna="nffjofbokaj"
+	culture=zuna religion=zunist
+	martial=4 diplomacy=5 stewardship=6 intrigue=5 learning=6
+	add_trait=naive_appeaser add_trait=cynical add_trait=deceitful add_trait=proud add_trait=diligent 
+	3960.6.8={ birth=yes }
+	3978.6.8={add_spouse=50040}
+	4026.8.6={ death=yes }
+}
+50038={
+	name=Ezhno
+	dynasty=1425
+	dna="fnfaodgokaj"
+	culture=zuna religion=zunist
+	martial=7 diplomacy=7 stewardship=4 intrigue=8 learning=6
+	add_trait=midas_touched add_trait=patient add_trait=brave add_trait=shy add_trait=zealous 
+	add_trait=cruel 
+	father=50037	#Naalnish
+	mother=50040
+	3980.1.25={ birth=yes }
+	4025.12.13={ death=yes }
+}
+50039={
+	name=Nastas
+	dynasty=1425
+	dna="afljcdaokaj"
+	culture=zuna religion=zunist
+	martial=7 diplomacy=7 stewardship=4 intrigue=7 learning=5
+	add_trait=flamboyant_schemer add_trait=kind add_trait=trusting add_trait=stressed 
+	father=50037	#Naalnish
+	mother=50040
+	3983.5.13={ birth=yes }
+	4033.1.8={ death=yes }
+}
+50040={
+	name=Abequa
+	female=yes
+	culture=zuna religion=zunist
+	3960.6.8={ birth=yes }
+	3978.6.8={add_spouse=50037}
+	4026.8.6={ death=yes }
+}
+#zanukuni
+50041={
+	name=Demotha
+	dynasty=1430
+	dna="nmlcdopkgnh"
+	culture=zuna religion=zunist
+	martial=5 diplomacy=4 stewardship=4 intrigue=4 learning=7
+	add_trait=flamboyant_schemer add_trait=zealous add_trait=cruel add_trait=just add_trait=chaste 
+	3967.11.14={ birth=yes }
+	4013.4.29={ death=yes }
+}
+#the dunes infinity dunes gibdo ruins lobnor
+50042={
+	name=Aneteus
+	dynasty=1435
+	dna="ggilbjdoomn"
+	culture=zuna religion=zunist
+	martial=4 diplomacy=4 stewardship=8 intrigue=7 learning=6
+	add_trait=skilled_tactician add_trait=diligent add_trait=chaste add_trait=gregarious add_trait=envious 
+	add_trait=honest add_trait=ambitious 
+	3968.6.12={ birth=yes }
+	4021.11.27={ death=yes }
+}
+#zunaria zunaria zunaria todia spirit gates
+50043={
+	name=Guyapa
+	dynasty=1436
+	dna="gklgpebhljn"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=6 stewardship=4 intrigue=4 learning=6
+	add_trait=detached_priest add_trait=zealous add_trait=brave add_trait=trusting add_trait=gluttonous 
+	add_trait=drunkard 
+	3399.5.18={ birth=yes }
+	3452.2.22={ death=yes }
+}
+50044={
+	name=Hakan
+	dynasty=1436
+	dna="lkoghenhohn"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=5 stewardship=8 intrigue=5 learning=8
+	add_trait=flamboyant_schemer add_trait=cynical add_trait=content add_trait=envious 
+	father=50043	#Guyapa
+	3424.9.2={ birth=yes }
+	3473.9.10={ death=yes }
+}
+50045={
+	name=Vorday
+	dynasty=1436
+	dna="ljnmheemekh"
+	culture=zuna religion=zunist
+	martial=4 diplomacy=8 stewardship=5 intrigue=6 learning=4
+	add_trait=intricate_webweaver add_trait=temperate add_trait=just 
+	father=50044	#Hakan
+	3450.2.6={ birth=yes }
+	3525.9.9={ death=yes }
+}
+50046={
+	name=Nayol
+	dynasty=1436
+	dna="ojnmhelmfil"
+	culture=zuna religion=zunist
+	martial=4 diplomacy=4 stewardship=6 intrigue=4 learning=5
+	add_trait=flamboyant_schemer add_trait=humble add_trait=content add_trait=diligent add_trait=strong 
+	father=50045	#Vorday
+	3470.4.15={ birth=yes }
+	3533.7.5={ death=yes }
+}
+50047={
+	name=Nastas
+	dynasty=1436
+	dna="odfojelnhil"
+	culture=zuna religion=zunist
+	martial=5 diplomacy=8 stewardship=4 intrigue=6 learning=8
+	add_trait=charismatic_negotiator add_trait=zealous add_trait=ambitious add_trait=gregarious add_trait=just 
+	father=50046	#Nayol
+	3499.4.8={ birth=yes }
+	3569.3.6={ death=yes }
+}
+50048={
+	name=Machk
+	dynasty=1436
+	dna="odfojlhnfdj"
+	culture=zuna religion=zunist
+	martial=4 diplomacy=4 stewardship=5 intrigue=7 learning=4
+	add_trait=detached_priest add_trait=envious add_trait=just add_trait=zealous add_trait=lustful 
+	add_trait=shy add_trait=lunatic 
+	father=50047	#Nastas
+	3520.4.26={ birth=yes }
+	3590.12.15={ death=yes }
+}
+50049={
+	name=Rowtag
+	dynasty=1436
+	dna="pdfpjchhmbb"
+	culture=zuna religion=zunist
+	martial=4 diplomacy=7 stewardship=6 intrigue=8 learning=4
+	add_trait=detached_priest add_trait=deceitful add_trait=chaste add_trait=ambitious add_trait=shy 
+	add_trait=strong 
+	father=50048	#Machk
+	3548.10.4={ birth=yes }
+	3607.12.26={ death=yes }
+}
+50050={
+	name=Otohhastis
+	dynasty=1436
+	dna="pcfpjnnhfbb"
+	culture=zuna religion=zunist
+	martial=6 diplomacy=4 stewardship=5 intrigue=4 learning=6
+	add_trait=indulgent_wastrel add_trait=paranoid add_trait=honest add_trait=ambitious 
+	father=50049	#Rowtag
+	3572.1.26={ birth=yes }
+	3644.12.30={ death=yes }
+}
+50051={
+	name=Nayol
+	dynasty=1437
+	dna="pncajgnldhp"
+	culture=zuna religion=zunist
+	martial=7 diplomacy=7 stewardship=7 intrigue=4 learning=6
+	add_trait=midas_touched add_trait=content add_trait=greedy add_trait=patient add_trait=deceitful 
+	3599.4.20={ birth=yes }
+	3664.11.18={ death=yes }
+}
+50052={
+	name=Kele
+	dynasty=1437
+	dna="aonajaiglep"
+	culture=zuna religion=zunist
+	martial=5 diplomacy=7 stewardship=6 intrigue=6 learning=6
+	add_trait=elusive_shadow add_trait=gregarious add_trait=ambitious add_trait=cruel add_trait=ill 
+	father=50051	#Nayol
+	3624.12.5={ birth=yes }
+	3682.1.3={ death=yes }
+}
+50053={
+	name=Nakata
+	dynasty=1437
+	dna="kmnajaihgep"
+	culture=zuna religion=zunist
+	martial=5 diplomacy=7 stewardship=4 intrigue=5 learning=8
+	add_trait=martial_cleric add_trait=content add_trait=proud add_trait=chaste add_trait=honest 
+	add_trait=slothful 
+	father=50052	#Kele
+	3652.5.1={ birth=yes }
+	3717.3.9={ death=yes }
+}
+50054={
+	name=Hesuto
+	dynasty=1437
+	dna="egnfkaihgee"
+	culture=zuna religion=zunist
+	martial=5 diplomacy=6 stewardship=5 intrigue=5 learning=7
+	add_trait=elusive_shadow add_trait=patient add_trait=zealous add_trait=ambitious add_trait=gregarious 
+	father=50053	#Nakata
+	3678.5.25={ birth=yes }
+	3726.2.26={ death=yes }
+}
+50055={
+	name=Sewata
+	dynasty=1437
+	dna="egnikaiogeh"
+	culture=zuna religion=zunist
+	martial=5 diplomacy=7 stewardship=7 intrigue=4 learning=4
+	add_trait=misguided_warrior add_trait=poet add_trait=zealous add_trait=patient add_trait=cruel 
+	add_trait=craven add_trait=envious add_trait=greedy 
+	father=50054	#Hesuto
+	3714.11.16={ birth=yes }
+	3781.7.22={ death=yes }
+}
+50056={
+	name=Natas
+	dynasty=1437
+	dna="endikakddgc"
+	culture=zuna religion=zunist
+	martial=6 diplomacy=7 stewardship=6 intrigue=6 learning=7
+	add_trait=detached_priest add_trait=envious add_trait=diligent add_trait=shy add_trait=cruel 
+	add_trait=cynical 
+	father=50055	#Sewata
+	3743.6.18={ birth=yes }
+	3804.2.17={ death=yes }
+}
+50057={
+	name=Astu
+	dynasty=1437
+	dna="jnjeelkjiga"
+	culture=zuna religion=zunist
+	martial=4 diplomacy=4 stewardship=6 intrigue=7 learning=6
+	add_trait=grey_eminence add_trait=diligent add_trait=kind add_trait=stressed 
+	father=50056	#Natas
+	3773.4.23={ birth=yes }
+	3842.12.29={ death=yes }
+}
+50058={
+	name=Odakota
+	dynasty=1437
+	dna="jnceelnolbb"
+	culture=zuna religion=zunist
+	martial=7 diplomacy=6 stewardship=7 intrigue=5 learning=5
+	add_trait=skilled_tactician add_trait=shy add_trait=slothful 
+	father=50057	#Astu
+	3798.4.9={ birth=yes }
+	3861.4.15={ death=yes }
+}
+50059={
+	name=Ohcumgache
+	dynasty=1437
+	dna="gaiaelnfgco"
+	culture=zuna religion=zunist
+	martial=5 diplomacy=7 stewardship=5 intrigue=7 learning=8
+	add_trait=intricate_webweaver add_trait=diligent add_trait=charitable 
+	father=50058	#Odakota
+	3830.9.16={ birth=yes }
+	3902.12.27={ death=yes }
+}
+50060={
+	name=Sana
+	dynasty=1438
+	dna="hokmmlnfnia"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=7 stewardship=7 intrigue=8 learning=8
+	add_trait=flamboyant_schemer add_trait=paranoid add_trait=envious add_trait=brave add_trait=ambitious 
+	3850.10.18={ birth=yes }
+	3911.1.15={ death=yes }
+}
+50061={
+	name=Kaga
+	dynasty=1438
+	dna="hbmmmjnhnim"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=5 stewardship=5 intrigue=5 learning=6
+	add_trait=naive_appeaser add_trait=honest add_trait=proud add_trait=charitable add_trait=gregarious 
+	add_trait=chaste 
+	father=50060	#Sana
+	3879.3.27={ birth=yes }
+	3935.11.5={ death=yes }
+}
+50062={
+	name=Paytah
+	dynasty=1438
+	dna="eddmbjnhiii"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=7 stewardship=7 intrigue=7 learning=5
+	add_trait=misguided_warrior add_trait=zealous add_trait=gregarious add_trait=cruel add_trait=possessed 
+	father=50061	#Kaga
+	3908.2.11={ birth=yes }
+	3962.10.28={ death=yes }
+}
+50063={
+	name=Astu
+	dynasty=1439
+	dna="eddmijnheik"
+	culture=zuna religion=zunist
+	martial=5 diplomacy=4 stewardship=7 intrigue=6 learning=8
+	add_trait=elusive_shadow add_trait=cruel add_trait=arbitrary add_trait=cynical add_trait=envious 
+	add_trait=stressed 
+	3932.10.25={ birth=yes }
+	3986.6.11={ death=yes }
+}
+50064={
+	name=Guyapa
+	dynasty=1439
+	dna="bemephmheik"
+	culture=zuna religion=zunist
+	martial=6 diplomacy=4 stewardship=4 intrigue=7 learning=7
+	add_trait=scholarly_theologian add_trait=lustful add_trait=slothful add_trait=arbitrary add_trait=ambitious 
+	add_trait=cruel 
+	father=50063	#Astu
+	3966.8.3={ birth=yes }
+	4017.12.5={ death=yes }
+}
+50065={
+	name=Fala
+	female=yes
+	dynasty=1439
+	dna="pemoekmdeib"
+	culture=zuna religion=zunist
+	father=50064	#Guyapa
+	3991.10.2={ birth=yes }
+	4048.9.25={ death=yes }
+}
+50066={
+	name=Dyama
+	dynasty=1439
+	dna="bamdphmheik"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=8 stewardship=7 intrigue=6 learning=8
+	add_trait=charismatic_negotiator add_trait=craven add_trait=temperate add_trait=arbitrary add_trait=cruel 
+	father=50064	#Guyapa
+	3995.1.2={ birth=yes }
+	4057.8.7={ death=yes }
+}
+50067={
+	name=Magasa
+	female=yes
+	dynasty=1439
+	dna="bemeckmbcik"
+	culture=zuna religion=zunist
+	father=50064	#Guyapa
+	4000.7.10={ birth=yes }
+	4067.2.18={ death=yes }
+}
+#zunanbulac
+50068={
+	name=Nayol
+	dynasty=1440
+	dna="mdcacblijba"
+	culture=zuna religion=zunist
+	martial=6 diplomacy=5 stewardship=8 intrigue=7 learning=6
+	add_trait=scholarly_theologian add_trait=zealous add_trait=honest add_trait=craven add_trait=chaste 
+	add_trait=just add_trait=kind 
+	3964.8.15={ birth=yes }
+	4020.8.20={ death=yes }
+}
+#pyramid of power desert of doubt
+50069={
+	name=Lase
+	dynasty=1445
+	dna="pfaogjhgbpg"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=6 stewardship=8 intrigue=8 learning=6
+	add_trait=intricate_webweaver add_trait=gardener add_trait=brave add_trait=zealous add_trait=wroth 
+	3940.2.11={ birth=yes }
+	3990.12.20={ death=yes }
+}
+50079={
+	name=Lase
+	dynasty=1445
+	dna="bcajcabocpk"
+	culture=zuna religion=zunist
+	martial=4 diplomacy=8 stewardship=6 intrigue=8 learning=4
+	add_trait=misguided_warrior add_trait=content add_trait=wroth add_trait=gluttonous add_trait=lustful 
+	add_trait=trusting add_trait=genius 
+	father=50068	#LAse
+	3967.7.16={ birth=yes }
+	4028.12.17={ death=yes }
+}
+#zunaza zunalmyra
+50070={
+	name=Nawat
+	dynasty=1445
+	dna="oojhkfhacko"
+	culture=zuna religion=zunist
+	martial=7 diplomacy=8 stewardship=7 intrigue=5 learning=5
+	add_trait=intricate_webweaver add_trait=envious add_trait=gluttonous 
+	3941.8.7={ birth=yes }
+	4005.2.27={ death=yes }
+}
+50071={
+	name=Nayata
+	dynasty=1445
+	dna="ocjhkfhkcmk"
+	culture=zuna religion=zunist
+	martial=7 diplomacy=6 stewardship=5 intrigue=4 learning=8
+	add_trait=detached_priest add_trait=greedy add_trait=shy add_trait=wroth 
+	father=50070	#Nawat
+	3965.11.14={ birth=yes }
+	4025.6.17={ death=yes }
+}
+#tarimakan
+50072={
+	name=Sana
+	dynasty=1450
+	dna="kocaoifkgle"
+	culture=zuna religion=zunist
+	martial=4 diplomacy=8 stewardship=4 intrigue=4 learning=6
+	add_trait=grey_eminence add_trait=gluttonous add_trait=cruel add_trait=brave add_trait=slothful 
+	add_trait=depressed 
+	3966.7.5={ birth=yes }
+	4018.8.28={ death=yes }
+}
+#zunadad
+50073={
+	name=Taas
+	dynasty=1451
+	dna="fmmliadonop"
+	culture=zuna religion=zunist
+	martial=5 diplomacy=8 stewardship=6 intrigue=6 learning=4
+	add_trait=midas_touched add_trait=mystic add_trait=envious add_trait=proud add_trait=ambitious 
+	add_trait=chaste 
+	3966.8.26={ birth=yes }
+	4015.2.22={ death=yes }
+}
+#zunalon
+50074={
+	name=Machk
+	dynasty=1452
+	dna="ingakdhplma"
+	culture=zuna religion=zunist
+	martial=5 diplomacy=4 stewardship=8 intrigue=4 learning=7
+	add_trait=misguided_warrior add_trait=hunter add_trait=just add_trait=cruel add_trait=content 
+	3967.9.7={ birth=yes }
+	4044.3.19={ death=yes }
+}
+
+#zunaten
+50075={
+	name=Machk
+	dynasty=1453
+	dna="ingakdhplma"
+	culture=zuna religion=zunist
+	martial=5 diplomacy=4 stewardship=8 intrigue=4 learning=7
+	add_trait=misguided_warrior add_trait=hunter add_trait=just add_trait=cruel add_trait=content 
+	3967.9.7={ birth=yes }
+	4044.3.19={ death=yes }
+}
+
+#zunartu
+50076={
+	name=Cochise
+	dynasty=1454
+	dna="ebmgeehlhjc"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=7 stewardship=5 intrigue=5 learning=4
+	add_trait=detached_priest add_trait=craven add_trait=temperate add_trait=proud add_trait=patient 
+	3966.8.6={ birth=yes }
+	4043.9.5={ death=yes }
+}
+
+#zunadin
+50077={
+	name=Neka
+	dynasty=1455
+	dna="pbmlmiepogd"
+	culture=zuna religion=zunist
+	martial=8 diplomacy=7 stewardship=4 intrigue=6 learning=4
+	add_trait=elusive_shadow add_trait=honest add_trait=proud add_trait=just add_trait=envious 
+	3967.11.4={ birth=yes }
+	4018.3.13={ death=yes }
+}
+#zunashi
+50078={
+	name=Delsin
+	dynasty=1456
+	dna="hhhjfjpnlbi"
+	culture=zuna religion=zunist
+	martial=5 diplomacy=6 stewardship=6 intrigue=4 learning=6
+	add_trait=mastermind_theologian add_trait=kind add_trait=deceitful add_trait=weak 
+	3967.3.4={ birth=yes }
+	4020.2.13={ death=yes }
+}

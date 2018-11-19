@@ -8,9 +8,9 @@
 	add_trait=charismatic_negotiator add_trait=slothful add_trait=deceitful add_trait=shy add_trait=cruel 
 	add_trait=proud add_trait=zealous 
 	trait=bloodline_batreaux
-	father=72
-	3957.11.24={ birth=yes }
-	4038.5.10={ death=yes }
+	#father=72
+	3757.11.24={ birth=yes }
+	3838.5.10={ death=yes }
 }
 18001={
 	name=Ludovic
@@ -21,8 +21,8 @@
 	add_trait=midas_touched add_trait=patient add_trait=envious add_trait=cynical add_trait=lustful 
 	trait=bloodline_batreaux
 	father=18000	#Edme
-	3987.9.9={ birth=yes }
-	4052.1.13={ death=yes }
+	3787.9.9={ birth=yes }
+	3852.1.13={ death=yes }
 }
 18002={
 	name=Mael
@@ -34,8 +34,8 @@
 	add_trait=patient 
 	trait=bloodline_batreaux
 	father=18001	#Ludovic
-	4017.4.3={ birth=yes }
-	4083.4.16={ death=yes }
+	3817.4.3={ birth=yes }
+	3883.4.16={ death=yes }
 }
 18003={
 	name=Florent
@@ -46,7 +46,7 @@
 	add_trait=misguided_warrior
 	trait=bloodline_batreaux add_trait=diligent add_trait=just add_trait=envious 
 	father=18002	#Mael
-	4045.6.24={ birth=yes }
+	3845.6.24={ birth=yes }
 	3900.3.4={ death=yes }
 }
 18004={
@@ -111,7 +111,7 @@
 	father=18007	#Ulrich
 	mother=18010
 	3979.1.25={ birth=yes }
-	4028.5.20={ death=yes }
+	3979.5.20={ death=yes }
 }
 18009={
 	name=Arcadia
@@ -142,7 +142,7 @@
 	martial=4 diplomacy=4 stewardship=4 intrigue=5 learning=6
 	add_trait=flamboyant_schemer add_trait=hedonist add_trait=paranoid add_trait=shy add_trait=chaste 
 	add_trait=humble 
-	father=18006
+	father=18005
 	3955.12.20={ birth=yes }
 	3980.1.1={add_spouse=18014}
 	4023.8.8={ death=yes }
@@ -215,7 +215,7 @@
 	3964.6.15={ birth=yes }
 	4023.10.11={ death=yes }
 }
-#aegidia tyria
+#tyria
 18018={
 	name=Michael
 	dynasty=6820

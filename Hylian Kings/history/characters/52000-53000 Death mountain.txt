@@ -1,0 +1,248 @@
+#death mountain trail goron city fire crater,
+52000 = { 
+	name=Engon
+	disallow_random_traits = yes
+	
+	dynasty=801
+	diplomacy=10
+	martial=14
+	intrigue=4
+	stewardship=6
+	learning=9
+	religion=fire_spirit
+	culture=death_mountain_goron
+	trait=brilliant_strategist
+	trait=race_goron
+	trait=honest
+	trait=strong
+	trait=gregarious
+	trait=erudite
+	trait=brave
+	3867.3.18={
+		birth=yes
+	}
+	3961.10.3 = {
+		add_spouse = 52001
+	}
+	4001.2.3={
+		death={ death_reason=death_battle }
+	}
+}
+52001 = { 
+	name=Cabim
+	disallow_random_traits = yes
+	
+	female=yes
+	dynasty=823
+	diplomacy=10
+	martial=6
+	intrigue=4
+	stewardship=12
+	learning=5
+	religion=fire_spirit
+	culture=death_mountain_goron
+	trait=underhanded_rogue
+	trait=race_goron
+	trait=trusting
+	trait=shy
+	trait=gluttonous
+	trait=kind
+	3881.10.1={
+		birth=yes
+	}
+	3961.10.3 = {
+		add_spouse = 52000
+	}
+	4048.4.2={
+		death=yes
+	}
+}
+
+52002 = { 
+	name=Gori
+	disallow_random_traits = yes
+	
+	dynasty=7400
+	diplomacy=7
+	martial=8
+	intrigue=4
+	stewardship=10
+	learning=7
+	religion=earth_spirits
+	culture=crenel_goron
+	trait=midas_touched
+	trait=race_goron
+	trait=deceitful
+	trait=strong
+	trait=gregarious
+	trait=greedy
+	trait=diligent
+	3887.8.14={
+		birth=yes
+	}
+	3974.1.2 = {
+		add_spouse = 52003
+	}
+	4041.5.25={ death=yes }
+}
+52003 = { 
+	name=Dozin
+	
+	female=yes
+	dynasty=7347
+	religion=earth_spirits
+	culture=crenel_goron
+	trait=race_goron
+	3887.8.14={
+		birth=yes
+	}
+	3974.1.2 = {
+		add_spouse = 52002
+	}
+	4001.5.25={ death=yes }
+}
+52004 = { 
+	name=Amoto
+	
+	mother=52003
+	father=52002
+	dynasty=7400
+	religion=earth_spirits
+	culture=crenel_goron
+	trait=race_goron
+	3980.2.24={
+		birth=yes
+	}
+	4190.5.25={ death=yes }
+}
+52005 = { 
+	name=Ezon
+	
+	dynasty=7348
+	religion=earth_spirits
+	culture=crenel_goron
+	trait=race_goron
+	3905.4.24={
+		birth=yes
+	}
+	4104.5.25={ death=yes }
+}
+52006={#K west_death_mountains, gread death mountains, great death mountain goron mines gleeok mountain,  bombshu mountain bombchu mountain goron canyon
+	name=Lozom
+	dynasty=7350
+	dna="fjaabmkkmgl"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=6 diplomacy=8 stewardship=4 intrigue=4 learning=4
+	add_trait=charismatic_negotiator add_trait=trusting add_trait=chaste add_trait=diligent add_trait=ambitious 
+	add_trait=depressed 
+	3800.8.26={ birth=yes }
+	3880.1.1={add_spouse=52011}
+	4031.9.14={ death=yes }
+}
+52007={
+	name=Cutin
+	dynasty=7350
+	dna="ceaaemjdpgf"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=6 diplomacy=4 stewardship=7 intrigue=7 learning=4
+	add_trait=flamboyant_schemer add_trait=wroth add_trait=cruel add_trait=just add_trait=paranoid 
+	father=52006	#Lozom
+	mother=52011
+	3885.7.5={ birth=yes }
+	4072.3.10={ death=yes }
+}
+52008={
+	name=Garko
+	female=yes
+	dynasty=7350
+	dna="flkaflohmgl"
+	culture=death_mountain_goron religion=fire_spirit
+	father=52006	#Lozom
+	mother=52011
+	3915.1.6={ birth=yes }
+	4078.4.7={ death=yes }
+}
+52009={
+	name=Guzom
+	female=yes
+	dynasty=7350
+	dna="fpahmhlkhgl"
+	culture=death_mountain_goron religion=fire_spirit
+	father=52006	#Lozom
+	mother=52011
+	3943.7.5={ birth=yes }
+	4206.7.22={ death=yes }
+}
+52010={
+	name=Goban
+	female=yes
+	dynasty=7350
+	dna="fokjbmkbigf"
+	culture=death_mountain_goron religion=fire_spirit
+	father=52006	#Lozom
+	mother=52011
+	3970.7.27={ birth=yes }
+	4214.9.28={ death=yes }
+}
+52011={
+	name=Corkon
+	female=yes
+	culture=death_mountain_goron religion=fire_spirit
+	3800.8.26={ birth=yes }
+	3880.1.1={add_spouse=52006}
+	4031.9.14={ death=yes }
+}
+52012={#eldin mountain, hot springs mountain, eldin caves
+	name=Liggs
+	dynasty=7355
+	dna="bolooagfejc"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=8 diplomacy=6 stewardship=4 intrigue=7 learning=4
+	add_trait=intricate_webweaver add_trait=paranoid add_trait=ambitious add_trait=brave 
+	3879.7.9={ birth=yes }
+	3960.1.1={add_spouse=52015}
+	4087.8.23={ death=yes }
+}
+52013={
+	name=Lonom
+	dynasty=7355
+	dna="bfdklbgfecj"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=8 diplomacy=4 stewardship=5 intrigue=7 learning=4
+	add_trait=midas_touched add_trait=chaste add_trait=ambitious add_trait=just add_trait=brave 
+	add_trait=greedy add_trait=cynical add_trait=ill 
+	father=52012	#Liggs
+	mother=52015
+	3961.12.9={ birth=yes }
+	4113.2.7={ death=yes }
+}
+52014={
+	name=Lalom
+	dynasty=7355
+	dna="fohooagfebn"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=8 diplomacy=7 stewardship=4 intrigue=8 learning=8
+	add_trait=midas_touched add_trait=ambitious add_trait=trusting add_trait=cruel add_trait=honest 
+	father=52012	#Liggs
+	mother=52015
+	3985.4.16={ birth=yes }
+	4141.9.19={ death=yes }
+}
+52015={
+	name=Komoro
+	female=yes
+	culture=death_mountain_goron religion=fire_spirit
+	3879.7.9={ birth=yes }
+	3960.1.1={add_spouse=52012}
+	4087.8.23={ death=yes }
+}
+52016={#warbane, warbane mountain, goron road
+	name=Doht
+	dynasty=7360
+	dna="imkgikkdlkb"
+	culture=death_mountain_goron religion=fire_spirit
+	martial=6 diplomacy=6 stewardship=8 intrigue=4 learning=7
+	add_trait=detached_priest add_trait=greedy add_trait=arbitrary add_trait=wroth 
+	3900.7.1={ birth=yes }
+	4101.11.11={ death=yes }
+}

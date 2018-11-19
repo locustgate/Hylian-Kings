@@ -11530,123 +11530,113 @@ e_gravel={
 		}
 	}
 }
-e_great_death_mountain={
-	color={ 40 216 20 }
-	color2={ 255 255 20 }
+k_west_death_mountains = {
+	color={ 168 5 0 }
+	color2={ 91 100 100 }
+	capital = 540 # Great Death Mountain
 	
-	capital = 540
-	k_west_death_mountains = {
+	allow = {
+		OR = {
+		culture_group = goron_group
+		culture_group = lfos
+		}
+	}
+	d_great_death_mountains = {
 		color={ 168 5 0 }
 		color2={ 91 100 100 }
 		capital = 540 # Great Death Mountain
-		
-		allow = {
-			OR = {
-			culture_group = goron_group
-			culture_group = lfos
-			}
+		c_great_death_mountain = {
+			color={ 146 117 0 }
+			color2={ 255 255 255 }	
+			holy_site = fire_spirit
+			b_ircumil = {}
+			b_finius = {}
+			b_falium = {}
+			b_ciult = {}
 		}
-		d_great_death_mountains = {
-			color={ 168 5 0 }
-			color2={ 91 100 100 }
-			capital = 540 # Great Death Mountain
-			c_great_death_mountain = {
-				color={ 146 117 0 }
-				color2={ 255 255 255 }	
-				holy_site = fire_spirit
-				b_ircumil = {}
-				b_finius = {}
-				b_falium = {}
-				b_ciult = {}
-			}
-			c_goron_mines = {
-				color={ 0 144 20 }
-				color2={ 255 255 255 }	
-				b_dinemi = {}
-				b_sippamiun = {}
-				b_tiurmiun = {}
-				b_comiun = {}
-				b_celas = {}
-				b_semia = {}
-			}
-			c_gleeok_mountain = { # 105
-				color={ 200 66 157 }
-				color2={ 255 255 255 }
-				
-				b_gilec = {
-				}
-				b_faddo = {
-				}
-				b_gorano = {
-				}
-			}
+		c_goron_mines = {
+			color={ 0 144 20 }
+			color2={ 255 255 255 }	
+			b_dinemi = {}
+			b_sippamiun = {}
+			b_tiurmiun = {}
+			b_comiun = {}
+			b_celas = {}
+			b_semia = {}
 		}
-		d_eldin_mountain = {
-			color={ 96 3 0 }
-			color2={ 91 100 100 }
-			capital = 543 # Great Death Mountain
-			c_hot_springs_mountain = {
-				color={ 0 184 186 }
-				color2={ 255 255 255 }
-				b_garcos = {}
-				b_ziniur = {}
-				b_ginzan = {}
+		c_gleeok_mountain = { # 105
+			color={ 200 66 157 }
+			color2={ 255 255 255 }
+			
+			b_gilec = {
 			}
-			c_eldin_caves = {
-				color={ 188 0 7 }
-				color2={ 255 255 255 }
-				b_eldin_caves = {}
-				b_spring_cave = {}
+			b_faddo = {
+			}
+			b_gorano = {
 			}
 		}
 	}
-	k_warbane_mountains={
+	d_eldin_mountain = {
+		color={ 96 3 0 }
+		color2={ 91 100 100 }
+		capital = 543 # Great Death Mountain
+		c_hot_springs_mountain = {
+			color={ 0 184 186 }
+			color2={ 255 255 255 }
+			b_garcos = {}
+			b_ziniur = {}
+			b_ginzan = {}
+		}
+		c_eldin_caves = {
+			color={ 188 0 7 }
+			color2={ 255 255 255 }
+			b_eldin_caves = {}
+			b_spring_cave = {}
+		}
+	}	
+	d_warbane={
 		capital=117
-		d_warbane={
-			capital=117
-			c_warbane_mountain = { # 117
-				color={ 41 52 146 }
-				color2={ 255 255 255 }
-				
-				b_gerac = {
-				}
-				b_mele = {
-				}
-				b_glalo = {
-				}
-				b_duro = {
-				}
-				b_doran = {
-				}
+		c_warbane_mountain = { # 117
+			color={ 41 52 146 }
+			color2={ 255 255 255 }
+			
+			b_gerac = {
 			}
-			c_goron_road = {
-				color={ 210 47 47 }
-				color2={ 255 255 255 }
-				b_culil = {}
-				b_zuppil = {}
-				b_dockim = {}
-				b_ircon = {}
+			b_mele = {
+			}
+			b_glalo = {
+			}
+			b_duro = {
+			}
+			b_doran = {
 			}
 		}
-		d_bombchu_mountain = {
-			color={ 153 41 38 }
-			color2={ 91 100 100 }
-			capital = 545 # Great Death Mountain
-			c_bombchu_mountain = {
-				color={ 123 0 0 }
-				color2={ 255 255 255 }
-				b_arror = {}
-			}		
-			c_goron_canyon = {
-				color={ 165 128 0 }
-				color2={ 255 255 255 }
-				b_tinia = {}
-				b_malas = {}
-			}
+		c_goron_road = {
+			color={ 210 47 47 }
+			color2={ 255 255 255 }
+			b_culil = {}
+			b_zuppil = {}
+			b_dockim = {}
+			b_ircon = {}
+		}
+	}
+	d_bombchu_mountain = {
+		color={ 153 41 38 }
+		color2={ 91 100 100 }
+		capital = 545 # Great Death Mountain
+		c_bombchu_mountain = {
+			color={ 123 0 0 }
+			color2={ 255 255 255 }
+			b_arror = {}
+		}		
+		c_goron_canyon = {
+			color={ 165 128 0 }
+			color2={ 255 255 255 }
+			b_tinia = {}
+			b_malas = {}
 		}
 	}
 }
-
 e_yamatamia={
 	color={ 205 0 0 }
 	color2={ 255 255 255 }
@@ -12776,6 +12766,32 @@ k_crenal_mountains={
 			b_athamonc = {}
 			b_jaror = {}
 		}
+	}
+	d_crenel_crags={
+			c_kran={
+				color={ 209 65 16 }
+				color2={ 255 255 255 }
+				b_zocom={}
+				b_harkac={}
+				b_filaw={}
+				b_corudde={}			
+			}
+			c_serna={
+				color={ 186 172 111 }
+				color2={ 255 255 255 }
+				b_hara={}
+				b_parok={}
+				b_kedde={}
+			}
+			c_crenel_crags={
+				color={ 64 52 6 }
+				color2={ 255 255 255 }
+				b_cuttan={}
+				b_garaw={}
+				b_geboro={}
+				b_daylo={}
+				b_regen={}
+			}
 	}
 }
 k_keatonia = {

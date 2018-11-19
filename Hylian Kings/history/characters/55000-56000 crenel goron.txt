@@ -1,0 +1,208 @@
+#veil mountains veil mountain veil falls
+55000={
+	name=Bludo
+	dynasty=7201
+	dna="lodoepnabco"
+	culture=crenel_goron religion=earth_spirits
+	martial=5 diplomacy=8 stewardship=4 intrigue=5 learning=4
+	add_trait=misguided_warrior add_trait=honest add_trait=wroth add_trait=shy add_trait=fair 
+	3680.12.4={ birth=yes }
+	3879.5.28={ death=yes }
+}
+55001={
+	name=Donun
+	dynasty=7201
+	dna="lododfcabca"
+	culture=crenel_goron religion=earth_spirits
+	martial=5 diplomacy=5 stewardship=5 intrigue=4 learning=5
+	add_trait=charismatic_negotiator add_trait=arbitrary add_trait=chaste add_trait=cruel add_trait=kind 
+	father=55000	#Bludo
+	3769.3.7={ birth=yes }
+	3993.7.20={ death=yes }
+}
+55002={
+	name=Dago
+	dynasty=7201
+	dna="lmdonccabpb"
+	culture=crenel_goron religion=earth_spirits
+	martial=8 diplomacy=5 stewardship=8 intrigue=4 learning=7
+	add_trait=midas_touched add_trait=content add_trait=craven add_trait=wroth add_trait=greedy 
+	father=55001	#Donun
+	3867.7.22={ birth=yes }
+	4066.10.5={ death=yes }
+}
+55003={
+	name=Congin
+	female=yes
+	dynasty=7201
+	dna="aoiodfiabcb"
+	culture=crenel_goron religion=earth_spirits
+	father=55001	#Donun
+	3878.3.5={ birth=yes }
+	4066.6.27={ death=yes }
+}
+55004={
+	name=Garonura
+	female=yes
+	dynasty=7201
+	dna="pododfkdbca"
+	culture=crenel_goron religion=earth_spirits
+	father=55001	#Donun
+	3886.9.15={ birth=yes }
+	4128.6.15={ death=yes }
+}
+55005={
+	name=Gatorami
+	dynasty=7201
+	dna="fddkdpcabdm"
+	culture=crenel_goron religion=earth_spirits
+	martial=8 diplomacy=7 stewardship=6 intrigue=7 learning=4
+	add_trait=flamboyant_schemer add_trait=honest add_trait=gluttonous 
+	father=55001	#Donun
+	3898.4.5={ birth=yes }
+	4070.10.19={ death=yes }
+}
+55006={
+	name=Kagonoto
+	dynasty=7201
+	dna="lhdodmgamha"
+	culture=crenel_goron religion=earth_spirits
+	martial=6 diplomacy=6 stewardship=6 intrigue=4 learning=6
+	add_trait=charismatic_negotiator add_trait=impaler add_trait=cruel add_trait=wroth add_trait=paranoid 
+	add_trait=slothful add_trait=ill add_trait=harelip 
+	father=55001	#Donun
+	3910.5.11={ birth=yes }
+	4104.2.24={ death=yes }
+}
+55007={
+	name=Dimi
+	female=yes
+	dynasty=7201
+	dna="ofionccaeod"
+	culture=crenel_goron religion=earth_spirits
+	father=55002	#Dago
+	3959.9.17={ birth=yes }
+	4158.3.13={ death=yes }
+}
+55008={
+	name=Etaro
+	dynasty=7201
+	dna="lmdonclabpb"
+	culture=crenel_goron religion=earth_spirits
+	martial=8 diplomacy=7 stewardship=5 intrigue=7 learning=4
+	add_trait=charismatic_negotiator add_trait=greedy add_trait=gluttonous add_trait=patient 
+	father=55002	#Dago
+	3965.8.26={ birth=yes }
+	4112.4.3={ death=yes }
+}
+55009={
+	name=Dago
+	dynasty=7201
+	dna="lmjoncclhpb"
+	culture=crenel_goron religion=earth_spirits
+	martial=5 diplomacy=7 stewardship=6 intrigue=4 learning=4
+	add_trait=misguided_warrior add_trait=patient add_trait=zealous add_trait=trusting add_trait=envious 
+	add_trait=content 
+	father=55002	#Dago
+	3975.9.3={ birth=yes }
+	4127.2.21={ death=yes }
+}
+55010={
+	name=Enan
+	female=yes
+	dynasty=7201
+	dna="lodoncckkmb"
+	culture=crenel_goron religion=earth_spirits
+	father=55002	#Dago
+	3986.11.10={ birth=yes }
+	4285.2.15={ death=yes }
+}
+
+#crenel base mount crenel minish mines
+55011={
+	name=Lotin
+	dynasty=7205
+	dna="imbomlkkake"
+	culture=crenel_goron religion=earth_spirits
+	martial=8 diplomacy=6 stewardship=7 intrigue=8 learning=8
+	add_trait=scholarly_theologian add_trait=envious add_trait=arbitrary add_trait=gregarious add_trait=patient 
+	add_trait=greedy 
+	3820.6.14={ birth=yes }
+	3978.11.13={ death=yes }
+}
+55012={
+	name=Bohrin
+	dynasty=7205
+	dna="ilapmgliakp"
+	culture=crenel_goron religion=earth_spirits
+	martial=8 diplomacy=8 stewardship=7 intrigue=8 learning=5
+	add_trait=intricate_webweaver add_trait=brave add_trait=zealous add_trait=arbitrary add_trait=diligent 
+	father=550011	#Lotin
+	3900.11.8={ birth=yes }
+	4063.10.4={ death=yes }
+}
+55013={
+	name=Gatorami
+	dynasty=7205
+	dna="pihojpjmafd"
+	culture=crenel_goron religion=earth_spirits
+	martial=4 diplomacy=6 stewardship=6 intrigue=7 learning=5
+	add_trait=intricate_webweaver add_trait=chaste add_trait=humble add_trait=lisp 
+	father=550011	#Lotin
+	3915.9.25={ birth=yes }
+	4081.2.26={ death=yes }
+}
+55014={
+	name=Karuron
+	female=yes
+	dynasty=7205
+	dna="jhbdmlkmple"
+	culture=crenel_goron religion=earth_spirits
+	father=550011	#Lotin
+	3927.4.25={ birth=yes }
+	4166.8.23={ death=yes }
+}
+55015={
+	name=Darami
+	female=yes
+	dynasty=7205
+	dna="ioahjclihkk"
+	culture=crenel_goron religion=earth_spirits
+	father=550012	#Bohrin
+	3986.12.3={ birth=yes }
+	4189.9.20={ death=yes }
+}
+#crenel crags
+55016={
+	name=Gatorami
+	dynasty=7210
+	dna="pjkldopaphn"
+	culture=crenel_goron religion=earth_spirits
+	martial=4 diplomacy=7 stewardship=5 intrigue=7 learning=6
+	add_trait=misguided_warrior add_trait=diligent add_trait=chaste add_trait=charitable 
+	3899.4.21={ birth=yes }
+	4166.10.11={ death=yes }
+}
+#serna
+55017={
+	name=Enami
+	dynasty=7215
+	dna="hpnehahhkco"
+	culture=crenel_goron religion=earth_spirits
+	martial=8 diplomacy=7 stewardship=7 intrigue=4 learning=4
+	add_trait=skilled_tactician add_trait=shy add_trait=charitable add_trait=honest add_trait=proud 
+	add_trait=ambitious add_trait=drunkard 
+	3900.1.26={ birth=yes }
+	4103.9.29={ death=yes }
+}
+#kran
+55018={
+	name=Pyle
+	dynasty=7220
+	dna="ddbgajoidaj"
+	culture=crenel_goron religion=earth_spirits
+	martial=5 diplomacy=7 stewardship=5 intrigue=6 learning=8
+	add_trait=midas_touched add_trait=cruel add_trait=trusting add_trait=patient add_trait=cynical 
+	3900.1.26={ birth=yes }
+	4083.9.4={ death=yes }
+}

@@ -1,0 +1,113 @@
+#mount cucco cucco vale
+54000={
+	name=Drak
+	dynasty=1802
+	dna="neilkkmnbef"
+	culture=cucco_goron religion=earth_spirit
+	martial=4 diplomacy=8 stewardship=5 intrigue=6 learning=6
+	add_trait=martial_cleric add_trait=zealous add_trait=ambitious add_trait=trusting add_trait=slothful 
+	add_trait=lustful 
+	3600.4.11={ birth=yes }
+	3730.3.9={ death=yes }
+}
+54001={
+	name=Biggoron
+	dynasty=1802
+	dna="aenapkmpbem"
+	culture=cucco_goron religion=earth_spirit
+	martial=4 diplomacy=8 stewardship=5 intrigue=8 learning=5
+	add_trait=grey_eminence add_trait=trusting add_trait=just add_trait=slothful add_trait=brave 
+	add_trait=wounded add_trait=slow 
+	father=54000	#Drak
+	3707.4.11={ birth=yes }
+	3896.5.24={ death=yes }
+}
+54002={
+	name=Gortron
+	dynasty=1802
+	dna="ahjapomphec"
+	culture=cucco_goron religion=earth_spirit
+	martial=6 diplomacy=6 stewardship=4 intrigue=7 learning=6
+	add_trait=midas_touched add_trait=poet add_trait=zealous add_trait=gregarious add_trait=wroth 
+	add_trait=depressed 
+	father=54001	#Biggoron
+	3783.3.5={ birth=yes }
+	3941.6.23={ death=yes }
+}
+54003={
+	name=Gingi
+	dynasty=1802
+	dna="khjgpcjgfpj"
+	culture=cucco_goron religion=earth_spirit
+	martial=6 diplomacy=6 stewardship=5 intrigue=8 learning=8
+	add_trait=charismatic_negotiator add_trait=gregarious add_trait=proud add_trait=gluttonous add_trait=cynical 
+	add_trait=deceitful add_trait=chaste 
+	father=54002	#Gortron
+	3869.9.5={ birth=yes }
+	4051.6.22={ death=yes }
+}
+54004={
+	name=Daria
+	female=yes
+	dynasty=1802
+	dna="apjdccngfbj"
+	culture=cucco_goron religion=earth_spirit
+	father=54003	#Gingi
+	3950.9.24={ birth=yes }
+	4145.2.28={ death=yes }
+}
+54005={
+	name=Gamos
+	dynasty=1802
+	dna="aacglcjgfij"
+	culture=cucco_goron religion=earth_spirit
+	martial=4 diplomacy=8 stewardship=6 intrigue=8 learning=7
+	add_trait=flamboyant_schemer add_trait=cruel add_trait=ambitious add_trait=wroth add_trait=proud 
+	father=54003	#Gingi
+	3954.10.5={ birth=yes }
+	4106.8.8={ death=yes }
+}
+54006={
+	name=Cangalo
+	female=yes
+	dynasty=1802
+	dna="kpjephhgkfj"
+	culture=cucco_goron religion=earth_spirit
+	father=54003	#Gingi
+	3957.9.3={ birth=yes }
+	4094.4.21={ death=yes }
+}
+54007={
+	name=Cabom
+	dynasty=1802
+	dna="fakhpcjoopj"
+	culture=cucco_goron religion=earth_spirit
+	martial=7 diplomacy=6 stewardship=6 intrigue=7 learning=5
+	add_trait=flamboyant_schemer add_trait=just add_trait=proud add_trait=content add_trait=cruel 
+	add_trait=gluttonous add_trait=possessed 
+	father=54003	#Gingi
+	3961.8.6={ birth=yes }
+	4104.7.14={ death=yes }
+}
+54008={
+	name=Cingi
+	dynasty=1802
+	dna="lmjnecdgadj"
+	culture=cucco_goron religion=earth_spirit
+	martial=8 diplomacy=7 stewardship=8 intrigue=5 learning=5
+	add_trait=midas_touched add_trait=just add_trait=cruel add_trait=deceitful add_trait=wroth 
+	add_trait=charitable add_trait=weak 
+	father=54003	#Gingi
+	3967.11.25={ birth=yes }
+	4156.3.21={ death=yes }
+}
+54009={
+	name=Goloban
+	female=yes
+	dynasty=1802
+	dna="khjhamjgfpk"
+	culture=cucco_goron religion=earth_spirit
+	father=54003	#Gingi
+	3970.1.11={ birth=yes }
+	4138.6.3={ death=yes }
+}
