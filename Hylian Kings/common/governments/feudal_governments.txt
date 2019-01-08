@@ -85,15 +85,22 @@ feudal_governments = {
 				OR={
 				religion=great_deku
 				religion=great_fairies
+				religion=fire_spirits
+				religion=
 				}
 				OR={
 				culture=kokiri
 				culture=great_fairy
+				culture=death_mountain_goron
+				
 				}
 			}
 			religion=wizzrobe_doctrine
 			religion = gerudo_goddess
 			religion=sheikahism_nihilism
+			religion=water_spirit
+			religion=jabu_jabu
+			religion=jabun_religion
 			religion=old_hylia
 			religion=heavenly_goddesses
 			}			
@@ -181,11 +188,93 @@ feudal_governments = {
 			
 		}
 	}
+	
+	order_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = {
+			CASTLE
+			TRIBAL
+			FORT
+			HOSPITAL
+		}
+		accepts_liege_governments = {
+			feudal_government
+			muslim_government
+			theocracy_government
+			theocratic_feudal_government
+			chinese_imperial_government
+		}
+		free_revoke_on_governments = {
+			order_government
+		}
+		free_revoke_on_tiers = {
+			BARON
+		}
+
+		forced_contract = {
+			order_government
+		}
+
+		frame_suffix = "_order"
+		title_prefix = "order_"
+
+		potential = {
+			OR = {
+				holy_order = yes
+				AND = {
+					any_liege = {
+						holy_order = yes
+						religion = ROOT
+					}
+					ai = yes
+					NAND = { 
+						is_government_potential = merchant_republic_government 
+						OR = {
+							tier = DUKE
+							is_patrician = yes
+						}
+						any_demesne_province = {
+							any_province_holding = {
+								OR = {
+									AND = {
+										tier = BARON
+										holding_type = family_palace
+									}
+									AND = {
+										NOT = {
+											tier = BARON
+										}
+										holding_type = city
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		color = { 169 169 169 }
+
+		have_gender_laws = no
+		can_create_kingdoms = no
+		can_create_empires = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		dukes_called_kings = yes
+		barons_need_dynasty = yes
+		can_usurp_kingdoms_and_empires = no
+		can_grant_kingdoms_and_empires_to_other_government = no
+		can_be_granted_kingdoms_and_empires_by_other_government = no
+		can_inherit = no
+		free_retract_vassalage = yes
+	}
 #darknut
 	imperialism_government = {
 		preferred_holdings = { CASTLE }
 		allowed_holdings = { 
 			CASTLE
+			CITY
 			FORT
 			HOSPITAL
 		}
@@ -197,6 +286,9 @@ feudal_governments = {
 		}
 		
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		ignore_in_vassal_limit_calculation = {
 			tribal_government
 		}
 		potential = {
@@ -214,20 +306,19 @@ feudal_governments = {
 			}
 		}
 		color = { 115 113 115 }
+		capital_move_delay = 2000
 		
 		uses_prestige_for_law_change = yes
 		frame_suffix = "_darknut"
 		
 		barons_need_dynasty = yes
-		can_build_tribal = no
-		capital_move_delay = 960
-		#can_build_city = no
 		allow_looting = yes
 		uses_prestige_for_law_change = yes
 		gets_religion_opinion_penalties = no
 		gives_religion_opinion_penalties = no
 		vassal_government_opinion_penalties = no
-		can_grant_kingdoms_and_empires_to_other_government_group = yes
+		can_grant_kingdoms_and_empires_to_other_government_group = no
+		can_be_granted_kingdoms_and_empires_by_other_government = no
 		free_retract_vassalage = yes
 		
 		ignore_in_vassal_limit_calculation = {

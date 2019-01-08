@@ -116,12 +116,12 @@ guiTypes = {
 		
 		editBoxType = {
 			name = "province_name"
-			position = { x = 72 y = 5 } #x = 72
+			position = { x = 72 y = 5 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}
 			text = ""
-			size = { x=190 y=32 } #x=156
+			size = { x=156 y=32 }
 			cursor = { x=4 y=1 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -383,12 +383,12 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "religion"
-			position = { x = 85 y = 346 }
+			position = { x = 65 y = 346 }
 			textureFile = ""
 			font = "Arial12_bold_black"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 80
+			maxWidth = 100
 			maxHeight = 14
 			format = right
 			Orientation = "UPPER_LEFT"
@@ -908,6 +908,28 @@ guiTypes = {
 				format = right
 				allwaystransparent = yes
 			}
+			
+			iconType = {
+				name ="fort_icon"
+				spriteType ="GFX_buildview_fort_icon"
+				position = { x = 303 y = 30 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "fort_level_text"
+				position = { x = 286 y = 50 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = ""
+				maxWidth = 60
+				maxHeight = 25
+				format = centre
+				fixedsize = yes
+				Orientation = "UPPER_LEFT"
+			}
+			
 		}
 			
 		}

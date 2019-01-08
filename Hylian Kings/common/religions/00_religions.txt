@@ -399,7 +399,6 @@ goddesses_religion = {
 		priests_can_inherit = no
 		priests_can_marry = yes 
  		female_temple_holders = yes
-		can_hold_temples = yes
 		feminist = yes
 
 	}
@@ -431,7 +430,6 @@ goddesses_religion = {
 		priests_can_inherit = no
 		priests_can_marry = yes 
  		female_temple_holders = yes
-		can_hold_temples = yes
 		feminist = yes
 
 	}
@@ -496,7 +494,7 @@ guardian_deity = {
 		female_temple_holders = yes
 		priests_can_marry = yes
 		priests_can_inherit = yes
-		can_hold_temples = yes 
+
 		seafarer = yes	
 		defensive_attrition = yes	
 
@@ -510,8 +508,7 @@ guardian_deity = {
 		}
 		evil_god_names = {
 				GOD_FIRE_SPIRIT
-		}
-	
+		}	
 	}
 	jabu_jabu = {
 		graphical_culture = westerngfx
@@ -526,7 +523,7 @@ guardian_deity = {
 		female_temple_holders = yes
 		priests_can_marry = yes
 		priests_can_inherit = yes
-		can_hold_temples = yes 
+
 		seafarer = yes		
 
 		priest_title = CARETAKER
@@ -554,7 +551,7 @@ guardian_deity = {
 		female_temple_holders = yes
 		priests_can_marry = yes
 		priests_can_inherit = yes
-		can_hold_temples = yes 
+
 		seafarer = yes		
 
 		crusade_name = CRUSADE
@@ -595,7 +592,32 @@ guardian_deity = {
 		priests_can_inherit = no
 		female_temple_holders = yes 
 	}
+	lanayru_religion={
+		graphical_culture = norsegfx
+		parent=waterspirits
 
+		icon = 5
+		heresy_icon = 6
+		
+		color = { 0.63 0.13 0.94 }
+		
+		scripture_name = SACRED_SONG
+		priest_title = MONK
+		
+		high_god_name = DRAGON_LANAYRU 
+		
+		god_names = {
+			GOD_GODDESS GOD_HYLIA GOD_GODDESSES DRAGON_LANAYRU  
+		}	
+		evil_god_names = {
+				GOD_DEMISE
+		}
+
+		priests_can_inherit = yes
+		priests_can_marry = yes 
+ 		female_temple_holders = yes
+		feminist = yes
+	}
 	great_deku = {
 		graphical_culture = indiangfx
 
@@ -611,7 +633,7 @@ guardian_deity = {
 		female_temple_holders = yes
 		priests_can_marry = yes
 		priests_can_inherit = yes
-		can_hold_temples = yes 
+
 		feminist=yes
 		pacifist = yes
 
@@ -1803,7 +1825,7 @@ doctrine = {
 		priests_can_inherit = yes
 		priests_can_marry = yes 
  		female_temple_holders = yes
-		can_hold_temples = yes 
+
 		feminist = yes		
 		autocephaly = yes
 		

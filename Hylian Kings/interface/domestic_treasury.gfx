@@ -774,6 +774,126 @@ spriteTypes = {
 		name = "GFX_crown_of_lilies_small"
 		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_of_lilies_small.dds"
 	}
+	spriteType = {
+		name = "GFX_crown_hre"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_hre.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_hre_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_hre_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_byzantine"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_byzantine.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_byzantine_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_byzantine_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_pahlavi"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_pahlavi.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_pahlavi_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_pahlavi_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_fylkir"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_fylkir.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_fylkir_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_fylkir_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_tengri_fylkir"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_tengri_fylkir.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_tengri_fylkir_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_tengri_fylkir_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_finnish_fylkir"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_finnish_fylkir.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_finnish_fylkir_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_finnish_fylkir_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_slavic_fylkir"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_slavic_fylkir.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_slavic_fylkir_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_slavic_fylkir_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_aztec_fylkir"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_aztec_fylkir.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_aztec_fylkir_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_aztec_fylkir_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_west_african_fylkir"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_west_african_fylkir.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_west_african_fylkir_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_west_african_fylkir_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_zun_fylkir"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_zun_fylkir.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_zun_fylkir_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_zun_fylkir_small.dds"
+	}
+	spriteType = {
+		name = "GFX_scepter_bon_fylkir"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\scepter_bon_fylkir.dds"
+	}
+	spriteType = {
+		name = "GFX_scepter_bon_fylkir_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\scepter_bon_fylkir_small.dds"
+	}
+	spriteType = {
+		name = "GFX_scepter_hellenic_fylkir"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\scepter_hellenic_fylkir.dds"
+	}
+	spriteType = {
+		name = "GFX_scepter_hellenic_fylkir_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\scepter_hellenic_fylkir_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_winged_helmet"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_winged_helmet.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_winged_helmet_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_winged_helmet_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_unicorn_helmet"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_unicorn_helmet.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_unicorn_helmet_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_unicorn_helmet_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_wrapped_helmet"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_wrapped_helmet.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_wrapped_helmet_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_wrapped_helmet_small.dds"
+	}
 		spriteType = {
 		name = "GFX_seal_of_solomon"
 		texturefile = "gfx\\interface\\inventory\\artifacts\\seal_of_solomon.dds"
@@ -1965,6 +2085,154 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_book_chinese_diary_small"
 		texturefile = "gfx\\interface\\inventory\\artifacts\\book_chinese_diary_small.dds"
+	}
+	spriteType = {
+		name = "GFX_artifact_history_button"
+		texturefile = "gfx\\interface\\inventory\\artifact_history.dds"
+	}
+	spriteType = {
+		name = "GFX_fake_eye"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\fake_eye.dds"
+	}
+	spriteType = {
+		name = "GFX_fake_eye_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\fake_eye_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_african_mask_1"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\crown_african_mask_1.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_african_mask_1_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\crown_african_mask_1_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_african_mask_2"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\crown_african_mask_2.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_african_mask_2_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\crown_african_mask_2_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_african_mask_3"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\crown_african_mask_3.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_african_mask_3_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\crown_african_mask_3_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_african_mask_4"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\crown_african_mask_4.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_african_mask_4_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\crown_african_mask_4_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_african_mask_5"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\crown_african_mask_5.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_african_mask_5_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\crown_african_mask_5_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_african_mask_6"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\crown_african_mask_6.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_african_mask_6_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\crown_african_mask_6_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_african_mask_7"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\crown_african_mask_7.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_african_mask_7_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\crown_african_mask_7_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_african_mask_8"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\crown_african_mask_8.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_african_mask_8_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\crown_african_mask_8_small.dds"
+	}
+	spriteType = {
+		name = "GFX_scepter_african_1"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\scepter_african_1.dds"
+	}
+	spriteType = {
+		name = "GFX_scepter_african_1_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\scepter_african_1_small.dds"
+	}
+	spriteType = {
+		name = "GFX_scepter_african_2"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\scepter_african_2.dds"
+	}
+	spriteType = {
+		name = "GFX_scepter_african_2_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\scepter_african_2_small.dds"
+	}
+	spriteType = {
+		name = "GFX_scepter_african_3"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\scepter_african_3.dds"
+	}
+	spriteType = {
+		name = "GFX_scepter_african_3_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\african_lodge_artifacts\\scepter_african_3_small.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_crusader_king"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_crusader_king.dds"
+	}
+	spriteType = {
+		name = "GFX_crown_crusader_king_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_crusader_king_small.dds"
+	}
+	spriteType = {
+		name = "GFX_blue_glowing_sword"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\blue_glowing_sword.dds"
+	}
+	spriteType = {
+		name = "GFX_blue_glowing_sword_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\blue_glowing_sword_small.dds"
+	}
+	spriteType = {
+		name = "GFX_blue_glowing_mace"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\blue_glowing_mace.dds"
+	}
+	spriteType = {
+		name = "GFX_blue_glowing_mace_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\blue_glowing_mace_small.dds"
+	}
+	spriteType = {
+		name = "GFX_blue_glowing_axe"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\blue_glowing_axe.dds"
+	}
+	spriteType = {
+		name = "GFX_blue_glowing_axe_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\blue_glowing_axe_small.dds"
+	}
+	spriteType = {
+		name = "GFX_mythological_beast_heart"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\mythological_beast_heart.dds"
+	}
+	spriteType = {
+		name = "GFX_mythological_beast_heart_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\mythological_beast_heart_small.dds"
+	}
+	spriteType = {
+		name = "GFX_mythological_beast_blood"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\mythological_beast_blood.dds"
+	}
+	spriteType = {
+		name = "GFX_mythological_beast_blood_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\mythological_beast_blood_small.dds"
 	}
 ####Mod####
 	spriteType = {
